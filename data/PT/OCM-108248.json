@@ -1,0 +1,68 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 108248,
+    "UUID": "F62EE794-6C29-4869-9DB9-6D9301FD5E93",
+    "DataProviderID": 1,
+    "OperatorID": 21,
+    "UsageTypeID": 4,
+    "AddressInfo": {
+        "ID": 108594,
+        "Title": "LLE-00003 - A22 (Westbound)",
+        "AddressLine1": "A22 km 62,5",
+        "Town": "Boliqueime",
+        "StateOrProvince": "Loulé",
+        "Postcode": "8100-068",
+        "CountryID": 180,
+        "Latitude": 37.137341228371184,
+        "Longitude": -8.110445080844784,
+        "ContactTelephone1": "800 916 624",
+        "ContactEmail": "mobie@mobie.pt",
+        "RelatedURL": "https://www.mobie.pt",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 152981,
+            "ConnectionTypeID": 2,
+            "Reference": "LLE-00003-1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 152982,
+            "ConnectionTypeID": 33,
+            "Reference": "LLE-00003-2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 152983,
+            "ConnectionTypeID": 1036,
+            "Reference": "LLE-00003-3",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "AC charging simultaneous with one DC charging.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-01-12T19:42:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2018-09-17T00:15:00Z",
+    "SubmissionStatusTypeID": 200
+}

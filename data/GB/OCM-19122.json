@@ -1,0 +1,68 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 19122,
+    "UUID": "D7DB8747-7CC3-42B3-AFBC-6F321FD0EBD3",
+    "DataProviderID": 1,
+    "OperatorID": 24,
+    "OperatorsReference": "0070,0071",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers; refunded in store",
+    "AddressInfo": {
+        "ID": 19467,
+        "Title": "IKEA Wembley",
+        "AddressLine1": "Drury Way",
+        "AddressLine2": "North Circular Road",
+        "Town": "London",
+        "Postcode": "NW10 0TH",
+        "CountryID": 1,
+        "Latitude": 51.5534348930165,
+        "Longitude": -0.260267376825365,
+        "AccessComments": "Head for the \"Returns\" entrance in the open air car park.Only available when store is open: Su 10:00-17:00;Mo-Fr 09:30-22:00;Sa 09:00-22:00",
+        "RelatedURL": "http://www.ikea.com/gb/en/store/brent_park/faq",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 19376,
+            "ConnectionTypeID": 2,
+            "Reference": "0070",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 19377,
+            "ConnectionTypeID": 33,
+            "Reference": "0070",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 130,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 19378,
+            "ConnectionTypeID": 33,
+            "Reference": "0071",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 130,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 3,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2021-06-07T15:57:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2013-09-11T12:59:00Z",
+    "SubmissionStatusTypeID": 200
+}

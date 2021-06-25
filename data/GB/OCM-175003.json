@@ -1,0 +1,71 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 175003,
+    "UUID": "139F9E07-FE2A-4284-B884-C307FE738DC8",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70398,PG-86400",
+    "UsageTypeID": 4,
+    "UsageCost": "Type 2 free, use Pod Point app or webpage charge.pod-point.com to confirm charge within 15 mins. Rapid Charger £0.27 per kWh",
+    "AddressInfo": {
+        "ID": 175362,
+        "Title": "Tesco Extra-Bulls Bridge",
+        "AddressLine1": "Bulls Bridge Industrial Estate",
+        "AddressLine2": "Hayes Road",
+        "Town": "Southall",
+        "Postcode": "UB2 5LN",
+        "CountryID": 1,
+        "Latitude": 51.498681,
+        "Longitude": -0.406995,
+        "RelatedURL": "https://charge.pod-point.com/",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 271211,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70398",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 271212,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86400",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 271534,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 271535,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-05-12T20:51:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2021-04-23T15:40:00Z",
+    "SubmissionStatusTypeID": 200
+}

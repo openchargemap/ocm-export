@@ -1,0 +1,60 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 51679,
+    "UUID": "EE13B431-3064-4082-868A-A66D063CA3FB",
+    "DataProviderID": 1,
+    "OperatorID": 3315,
+    "OperatorsReference": "51065",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.30/kWh; minimum fee £1.00",
+    "AddressInfo": {
+        "ID": 52025,
+        "Title": "Cathedral Car Park",
+        "AddressLine1": "Bishops Road",
+        "Town": "Inverness",
+        "Postcode": "IV3 5SB",
+        "CountryID": 1,
+        "Latitude": 57.4738294762874,
+        "Longitude": -4.22914043372953,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 64137,
+            "ConnectionTypeID": 33,
+            "Reference": "51065",
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 64138,
+            "ConnectionTypeID": 2,
+            "Reference": "51065",
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 64139,
+            "ConnectionTypeID": 1036,
+            "Reference": "51065",
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2021-05-31T11:19:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2015-08-12T15:39:00Z",
+    "SubmissionStatusTypeID": 200
+}

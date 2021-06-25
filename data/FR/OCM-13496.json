@@ -1,0 +1,66 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 13496,
+    "UUID": "48462A27-A1DC-45D9-9762-EF002D25F820",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "on ne paye que le stationnement",
+    "AddressInfo": {
+        "ID": 13393,
+        "Title": "Parking Charles de Gaulle",
+        "AddressLine1": "rue d'Isly",
+        "AddressLine2": "",
+        "Town": "Rennes",
+        "StateOrProvince": "35 - Ille et Vilaine, Bretagne ",
+        "Postcode": "35000",
+        "CountryID": 80,
+        "Latitude": 48.105717742257,
+        "Longitude": -1.67753036375427,
+        "ContactTelephone1": "02 99 65 77 89",
+        "ContactTelephone2": "",
+        "ContactEmail": "",
+        "AccessComments": "7j/7 de 5h00 à 2H00 : CHAdeMO allée B au niveau -1. autre borne allée C au niveau -1",
+        "RelatedURL": "http://www.citedia.fr",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 10952,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "Quantity": 1
+        },
+        {
+            "ID": 10953,
+            "ConnectionTypeID": 13,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "Quantity": 1
+        },
+        {
+            "ID": 10954,
+            "ConnectionTypeID": 26,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "Nécessite un badge RFID disponible auprès de Citedia ou à l'accueil du parking pour activer les bornes.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2012-10-30T14:08:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2012-10-25T17:21:00Z",
+    "SubmissionStatusTypeID": 200
+}

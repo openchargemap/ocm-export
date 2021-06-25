@@ -1,0 +1,72 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 148488,
+    "UUID": "B31E6F95-53FC-4653-9FDD-753E151F1D1D",
+    "DataProviderID": 1,
+    "OperatorID": 203,
+    "OperatorsReference": "GB*OSP*EENG00207*1,GB*OSP*EENG00207*2,GB*OSP*EENG00207*3",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.36/kWh",
+    "AddressInfo": {
+        "ID": 148840,
+        "Title": "Bayberry Swindon",
+        "AddressLine1": "Frogden Road",
+        "Town": "Swindon",
+        "Postcode": "SN1 7AP",
+        "CountryID": 1,
+        "Latitude": 51.54052,
+        "Longitude": -1.78794,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 206149,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*OSP*EENG00207*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 206150,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EENG00207*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 206151,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EENG00207*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-03-31T18:14:00Z",
+    "MetadataValues": [
+        {
+            "ID": 6978,
+            "MetadataFieldID": 4,
+            "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ],
+    "DataQualityLevel": 3,
+    "DateCreated": "2020-02-03T16:49:00Z",
+    "SubmissionStatusTypeID": 100
+}

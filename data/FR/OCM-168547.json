@@ -1,0 +1,52 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 168547,
+    "UUID": "0D6DB29F-1308-40C7-ABBC-EFABAC08518D",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "Cout du Parking. (suivant la durée de charge)",
+    "AddressInfo": {
+        "ID": 168906,
+        "Title": "Charger - Toulon / Hyères Aéroport",
+        "AddressLine1": "",
+        "Town": "Hyères",
+        "StateOrProvince": "Var",
+        "CountryID": 80,
+        "Latitude": 43.09270994392054,
+        "Longitude": 6.159177699151996,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 256008,
+            "ConnectionTypeID": 16,
+            "StatusTypeID": 50,
+            "LevelID": 1,
+            "Amps": 10,
+            "Voltage": 220,
+            "PowerKW": 2.2,
+            "CurrentTypeID": 10,
+            "Quantity": 4,
+            "Comments": "Besoin d'entrer et donc payer le Prking pour y accéder."
+        },
+        {
+            "ID": 256009,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 220,
+            "PowerKW": 3.5,
+            "CurrentTypeID": 10,
+            "Quantity": 4,
+            "Comments": "Entrer dans le parking (donc payant) pour acceder aux chargeurs"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-02T05:13:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-01T14:49:00Z",
+    "SubmissionStatusTypeID": 200
+}

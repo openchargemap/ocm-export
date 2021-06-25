@@ -1,0 +1,60 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2021-06-18T19:42:00Z",
+    "ID": 175911,
+    "UUID": "86E3E651-E946-4B0A-94F9-2DCA29270090",
+    "DataProviderID": 1,
+    "OperatorID": 5,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.25/minute (DC); $1/hour (AC)",
+    "AddressInfo": {
+        "ID": 176270,
+        "Title": "Georgia Power Macon - Zebulon Road",
+        "AddressLine1": "6225 Zebulon Road",
+        "Town": "Macon",
+        "StateOrProvince": "GA",
+        "Postcode": "31210",
+        "CountryID": 2,
+        "Latitude": 32.882231435930905,
+        "Longitude": -83.76679587242995,
+        "AccessComments": "In shopping center behind Applebee's, Fazoli's, and Freddy's; although the address is on Zebulon Road, access is via Peake Road from I-475.",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 273189,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 273190,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 273191,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Voltage": 208,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "J1772 may be out of service; no longer appears on ChargePoint's map"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2021-06-21T03:23:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2021-06-18T19:42:00Z",
+    "SubmissionStatusTypeID": 200
+}

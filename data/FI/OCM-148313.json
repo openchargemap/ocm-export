@@ -1,0 +1,60 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 148313,
+    "UUID": "E0F51F0C-FFD3-4EA5-A1BB-07741B9B0885",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "0,10€/min DC, 0,04€/min AC",
+    "AddressInfo": {
+        "ID": 148665,
+        "Title": "McDonald's",
+        "AddressLine1": "2 Maissikuja",
+        "Town": "Vantaa",
+        "StateOrProvince": "Southern Finland",
+        "Postcode": "01630",
+        "CountryID": 79,
+        "Latitude": 60.27032228682188,
+        "Longitude": 24.80427344687382,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 205910,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Fortum Charge & Drive"
+        },
+        {
+            "ID": 205911,
+            "ConnectionTypeID": 2,
+            "Reference": "Fortum Charge & Drive",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 205912,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-02-02T16:58:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-01-30T07:21:00Z",
+    "SubmissionStatusTypeID": 200
+}

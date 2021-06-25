@@ -1,0 +1,79 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 72601,
+    "UUID": "B5662E31-BD3C-4B80-BC7B-2E024DD1F508",
+    "DataProviderID": 1,
+    "OperatorID": 150,
+    "OperatorsReference": "Thruxton Car Park",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.35/kWh. £10.00/hour overstay after 90 mins (DC) or 240 mins (AC)",
+    "AddressInfo": {
+        "ID": 72947,
+        "Title": "Thruxton Car Park",
+        "AddressLine1": "Thruxton Circuit",
+        "Town": "Thruxton",
+        "StateOrProvince": "Hampshire",
+        "Postcode": "SP11 8PW",
+        "CountryID": 1,
+        "Latitude": 51.205902,
+        "Longitude": -1.607693,
+        "AccessComments": "Open 6am - 9pm only\r\nFollow signs for the Circuit - turn right by the white control tower and the chargers are on the right hand side\r\n\r\nNot available on Thruxton Race Weekends, except to ticket holders.",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 104072,
+            "ConnectionTypeID": 1036,
+            "Reference": "GP10011",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 104162,
+            "ConnectionTypeID": 2,
+            "Reference": "GP10011",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 104163,
+            "ConnectionTypeID": 33,
+            "Reference": "GP10011",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 104164,
+            "ConnectionTypeID": 25,
+            "Reference": "GP10012",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2021-04-29T12:05:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2016-10-26T18:36:00Z",
+    "SubmissionStatusTypeID": 200
+}

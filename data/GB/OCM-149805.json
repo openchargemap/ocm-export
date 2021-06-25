@@ -1,0 +1,75 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 149805,
+    "UUID": "25148790-FB4D-4DE4-8286-84E871AF592B",
+    "DataProviderID": 1,
+    "OperatorID": 203,
+    "UsageTypeID": 5,
+    "UsageCost": "36p per kWh with credit or debit card (contactless)",
+    "AddressInfo": {
+        "ID": 150158,
+        "Title": "The Sun Inn",
+        "AddressLine1": "Barnsley Road",
+        "Town": "Doncaster",
+        "StateOrProvince": "England",
+        "Postcode": "",
+        "CountryID": 1,
+        "Latitude": 53.537,
+        "Longitude": -1.1648,
+        "ContactTelephone1": "441143030140",
+        "RelatedURL": "https://engenie.co.uk",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 208002,
+            "ConnectionTypeID": 25,
+            "Reference": "ENG00131-3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 208003,
+            "ConnectionTypeID": 2,
+            "Reference": "ENG00131-2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 208004,
+            "ConnectionTypeID": 33,
+            "Reference": "ENG00131-1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Engenie rapid charger AC is a 22kw Socket https://engenie.co.uk/ev-drivers",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-03T04:06:00Z",
+    "MetadataValues": [
+        {
+            "ID": 7066,
+            "MetadataFieldID": 4,
+            "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ],
+    "DataQualityLevel": 3,
+    "DateCreated": "2020-03-05T14:22:00Z",
+    "SubmissionStatusTypeID": 100
+}

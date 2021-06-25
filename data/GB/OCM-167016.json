@@ -1,0 +1,72 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 167016,
+    "UUID": "49CE76F4-5AD8-4398-9675-7372439DC961",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "ESB: Membership is £4 per month, 25p per kWh. Requires EV Plug In app. Contactless available",
+    "AddressInfo": {
+        "ID": 167375,
+        "Title": "Carlisle Lane Parking/Charging",
+        "AddressLine1": "195 Carlisle Lane, Lambeth",
+        "Town": "London",
+        "Postcode": "SE17LH",
+        "CountryID": 1,
+        "Latitude": 51.497106,
+        "Longitude": -0.115396,
+        "AccessComments": "",
+        "RelatedURL": "http://www.esb-evsolutions.co.uk/",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 252876,
+            "ConnectionTypeID": 2,
+            "Reference": "CHAdeMO",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 252877,
+            "ConnectionTypeID": 33,
+            "Reference": "CCS",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 252878,
+            "ConnectionTypeID": 1036,
+            "Reference": "AC43",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-12-30T21:19:00Z",
+    "MetadataValues": [
+        {
+            "ID": 7773,
+            "MetadataFieldID": 4,
+            "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ],
+    "DataQualityLevel": 3,
+    "DateCreated": "2020-08-27T08:10:00Z",
+    "SubmissionStatusTypeID": 100
+}

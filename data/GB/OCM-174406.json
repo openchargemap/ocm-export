@@ -1,0 +1,76 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 174406,
+    "UUID": "32E30439-E482-4492-BD0E-F40F9EF67E13",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70429,PG-86399,veefil-12100030",
+    "UsageTypeID": 4,
+    "UsageCost": "Free",
+    "AddressInfo": {
+        "ID": 174765,
+        "Title": "Tesco Extra Stockport",
+        "AddressLine1": "Tiviot Way",
+        "AddressLine2": "Portwood",
+        "Town": "Stockport",
+        "StateOrProvince": "England",
+        "Postcode": "SK1 2BT",
+        "CountryID": 1,
+        "Latitude": 53.4163661,
+        "Longitude": -2.1535009,
+        "AccessComments": "Store: Mon-Sat 6am-Midnight, Sun 11am-5pm *3HRS MAX PARKING - ANPR £70 FINE*",
+        "RelatedURL": "http://www.podpoint.com",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 270154,
+            "ConnectionTypeID": 1036,
+            "Reference": "PG-86399",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 270155,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100030",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 270156,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12100030",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 270157,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70429",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "Pod Point. Twin Type 2: 7kW Bert-Beck & 22kW Eden-Bryn. 50kW CHAdeMO & CCS",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-05-12T21:03:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2021-03-28T11:55:00Z",
+    "SubmissionStatusTypeID": 200
+}

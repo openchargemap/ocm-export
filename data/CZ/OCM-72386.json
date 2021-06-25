@@ -1,0 +1,56 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 72386,
+    "UUID": "9EAD21D5-213E-4416-BD71-89F198626C12",
+    "DataProviderID": 1,
+    "OperatorID": 45,
+    "UsageTypeID": 5,
+    "UsageCost": "3 CZK/kWh",
+    "AddressInfo": {
+        "ID": 72732,
+        "Title": "SAMPRO, s.r.o.",
+        "AddressLine1": "Šaffova 37",
+        "Town": "Polička",
+        "StateOrProvince": "okres Svitavy",
+        "Postcode": "57201",
+        "CountryID": 64,
+        "Latitude": 49.714839,
+        "Longitude": 16.261801,
+        "ContactTelephone1": "+420 608 714 657",
+        "ContactEmail": "pavel@sampro.cz",
+        "AccessComments": "Možno nabíjet jednofázově 32A z L1, třífázové nabíjení nutno omezit na 16A, případně se domluvit.\r\nCena 3kč/kWh - mimo pracovní dobu odhadněte a vhoďte do schránky.",
+        "RelatedURL": "http://www.sampro.cz",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 103707,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 103708,
+            "ConnectionTypeID": 23,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.5,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "You can charge at Type2(Mennekes) by 32A/230V from L1(phase first) too.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2016-10-11T12:40:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2016-10-11T08:13:00Z",
+    "SubmissionStatusTypeID": 200
+}

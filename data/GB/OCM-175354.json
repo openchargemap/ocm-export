@@ -1,0 +1,70 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 175354,
+    "UUID": "D21D9E43-55AA-46D6-A80C-2CB6E0D2A1CC",
+    "DataProviderID": 1,
+    "OperatorID": 32,
+    "OperatorsReference": "BPU0032,BPU0033",
+    "UsageTypeID": 1,
+    "UsageCost": "£0.42/kWh; other tariffs available",
+    "AddressInfo": {
+        "ID": 175713,
+        "Title": "BP Pulse Weymouth SF Connect filling station.",
+        "AddressLine1": "316 - 318 Dorchester Road",
+        "Town": "Weymouth",
+        "Postcode": "DT3 5AS",
+        "CountryID": 1,
+        "Latitude": 50.63745364927385,
+        "Longitude": -2.4698466937691137,
+        "RelatedURL": "https://www.bppulse.co.uk/charging-on-the-go",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 272006,
+            "ConnectionTypeID": 33,
+            "Reference": "BPU0032",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 272007,
+            "ConnectionTypeID": 2,
+            "Reference": "BPU0032",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 272011,
+            "ConnectionTypeID": 33,
+            "Reference": "BPU0033",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 272012,
+            "ConnectionTypeID": 2,
+            "Reference": "BPU0033",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-05-13T09:47:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2021-05-13T01:49:00Z",
+    "SubmissionStatusTypeID": 200
+}

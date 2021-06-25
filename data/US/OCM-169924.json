@@ -1,0 +1,63 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 169924,
+    "UUID": "14C8881E-0FF2-44D2-AC1A-0A55A6DB3256",
+    "DataProviderID": 1,
+    "OperatorID": 3372,
+    "UsageTypeID": 1,
+    "UsageCost": ".35kWh $.01kWh thru December 31,2020",
+    "AddressInfo": {
+        "ID": 170283,
+        "Title": "Watertowwn Hilton Garden Inn",
+        "AddressLine1": "1290 Arsenal Street",
+        "Town": "Watertown ",
+        "StateOrProvince": "NY",
+        "Postcode": "13601",
+        "CountryID": 2,
+        "Latitude": 43.979195639075726,
+        "Longitude": -75.94647830973173,
+        "AccessComments": "Level 3 DCFC Station 4-351kWh CCS/ 4-100kWh CHAdeMO and a single Level 2 J1772 7kWh Clipper Creek.",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 258944,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 351,
+            "Voltage": 1000,
+            "PowerKW": 351,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "CCS-CHAdeMO combo chargers."
+        },
+        {
+            "ID": 260529,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 260530,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 240,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "USA",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-04-05T07:56:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-11-13T07:38:00Z",
+    "SubmissionStatusTypeID": 200
+}

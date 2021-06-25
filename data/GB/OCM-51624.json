@@ -1,0 +1,56 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 51624,
+    "UUID": "36261575-9F26-469F-9750-5B6098EAF050",
+    "DataProviderID": 1,
+    "OperatorID": 3295,
+    "OperatorsReference": "UKEV0141,UKEV0140",
+    "UsageTypeID": 5,
+    "UsageCost": "£1.25/hour. Parking fees apply.",
+    "AddressInfo": {
+        "ID": 51970,
+        "Title": "George Lane Car Park",
+        "AddressLine1": "George Lane",
+        "Town": "Marlborough",
+        "Postcode": "SN8 4BY",
+        "CountryID": 1,
+        "Latitude": 51.4189603174731,
+        "Longitude": -1.72959934412245,
+        "AccessComments": "In George Lane Pay and Display Long Stay Car Park",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 64017,
+            "ConnectionTypeID": 25,
+            "Reference": "UKEV0140",
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.6,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Labelled as 7kW but evcharge.online reports it as limited to 3.6kW"
+        },
+        {
+            "ID": 271462,
+            "ConnectionTypeID": 25,
+            "Reference": "UKEV0141",
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.6,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Operated by Wiltshire Council. Rolec autocharge dual outlet unit.",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2021-04-28T09:56:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2015-08-06T09:55:00Z",
+    "SubmissionStatusTypeID": 200
+}

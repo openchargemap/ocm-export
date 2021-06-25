@@ -1,0 +1,72 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 31334,
+    "UUID": "F4348A2A-12D9-4391-92FB-EA31582AA67A",
+    "DataProviderID": 1,
+    "OperatorID": 24,
+    "OperatorsReference": "0033,0034,0035",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
+    "AddressInfo": {
+        "ID": 31680,
+        "Title": "Beaconsfield Extra M40 Services",
+        "AddressLine1": "M40 J2",
+        "AddressLine2": "Windsor Road",
+        "Town": "Beaconsfield",
+        "StateOrProvince": "Buckinghamshire",
+        "Postcode": "HP9 2SE",
+        "CountryID": 1,
+        "Latitude": 51.58777,
+        "Longitude": -0.628401,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 34759,
+            "ConnectionTypeID": 2,
+            "Reference": "0033",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 34760,
+            "ConnectionTypeID": 33,
+            "Reference": "0033",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 34761,
+            "ConnectionTypeID": 33,
+            "Reference": "0034",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 272681,
+            "ConnectionTypeID": 33,
+            "Reference": "0035",
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-06-08T12:06:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2015-01-03T15:57:00Z",
+    "SubmissionStatusTypeID": 200
+}

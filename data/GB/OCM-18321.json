@@ -1,0 +1,76 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 18321,
+    "UUID": "C741AA0E-8660-4CD6-B00E-7EB23ECC7CAF",
+    "DataProviderID": 1,
+    "OperatorID": 3315,
+    "OperatorsReference": "50581,50585",
+    "UsageTypeID": 4,
+    "UsageCost": "Free. Parking fees apply.",
+    "AddressInfo": {
+        "ID": 18666,
+        "Title": "Gallowgate Car Park",
+        "AddressLine1": "Gallowgate",
+        "Town": "Aberdeen",
+        "Postcode": "AB10 1LU",
+        "CountryID": 1,
+        "Latitude": 57.15087,
+        "Longitude": -2.0984,
+        "ContactTelephone1": "01224 346952",
+        "AccessComments": "Twin 7kW unit is to left as you enter, rapid charger is next to the exit (opposite the location of the 7kW unit)",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 18648,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 18649,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Fix expected January 2014"
+        },
+        {
+            "ID": 18650,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "The DC side is not operational - it may be possible to get a charge from the AC side"
+        },
+        {
+            "ID": 28157,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Free to use, but parking charges apply. APT Evolt rapid charger.",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2020-04-23T05:16:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2013-07-17T07:26:00Z",
+    "SubmissionStatusTypeID": 200
+}

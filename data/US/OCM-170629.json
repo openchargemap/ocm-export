@@ -1,0 +1,60 @@
+{
+    "IsRecentlyVerified": false,
+    "ID": 170629,
+    "UUID": "960880BE-3E65-4F2A-9282-A2E55BADECB8",
+    "DataProviderID": 1,
+    "OperatorID": 3372,
+    "UsageTypeID": 1,
+    "UsageCost": "$.35kWh ($.01kWh intro thru December 31,2020)",
+    "AddressInfo": {
+        "ID": 170988,
+        "Title": "EVolve NY Schroon Lake ",
+        "AddressLine1": "1567 US 9",
+        "Town": "Schroon Lake",
+        "StateOrProvince": "NY",
+        "Postcode": "12970",
+        "CountryID": 2,
+        "Latitude": 43.869530286055664,
+        "Longitude": -73.75282532359421,
+        "AccessComments": "4 DCFC Level 3. CCS 351kWh/CHAdeMO 100kWh with a single J1772 7kw Clipper Creek.",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 260526,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 351,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 260527,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 260528,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 240,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "Located at Schroon Lake Sunoco. 4 DCFC Level 3. CCS 351kWh/CHAdeMO 100kWh",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-04-05T08:00:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-12-04T00:17:00Z",
+    "SubmissionStatusTypeID": 200
+}
