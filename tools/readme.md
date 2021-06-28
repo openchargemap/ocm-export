@@ -1,8 +1,8 @@
 Refresh process:
 
-- Fetch poi.json (takes about 3mins, greater than 90MB): 
+- Fetch poi.json (takes about 3mins, greater than 106MB): 
 
-`curl "https://api-01.openchargemap.io/v3/poi?client=ocm-data-export&maxresults=200000&compact=true&verbose=false" --output ./tmp/poi.json`
+`curl "https://api-01.openchargemap.io/v3/poi?client=ocm-data-export&maxresults=200000&compact=true&verbose=false&includecomments=true" --output ./tmp/poi.json`
 
 - Fetch core reference data (operators, charger type etc):
 `curl "https://api-01.openchargemap.io/v3/referencedata?client=ocm-data-export" --output ./tmp/referencedata.json`
