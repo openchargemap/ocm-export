@@ -2,10 +2,10 @@
     "IsRecentlyVerified": false,
     "ID": 123529,
     "UUID": "4800AF45-612D-42EC-B389-5F01C1C34337",
-    "DataProviderID": 2,
-    "DataProvidersReference": "121183",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "1 - 90 kW: $0.16/min. up to 350 kW $0.32/min",
     "AddressInfo": {
         "ID": 123875,
         "Title": "Walmart 50 Vinita",
@@ -25,25 +25,42 @@
         {
             "ID": 173524,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Shared with a CCS bay"
         },
         {
             "ID": 173525,
             "ConnectionTypeID": 32,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "one shared with a CHAdeMO"
+        },
+        {
+            "ID": 273640,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:03:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-06-25T19:56:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100

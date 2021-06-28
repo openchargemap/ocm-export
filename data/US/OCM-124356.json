@@ -2,8 +2,7 @@
     "IsRecentlyVerified": false,
     "ID": 124356,
     "UUID": "5C829481-3274-4603-AAA5-7142A19F4BE6",
-    "DataProviderID": 2,
-    "DataProvidersReference": "104887",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -28,22 +27,38 @@
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Bay shared with CCS"
         },
         {
             "ID": 174444,
             "ConnectionTypeID": 32,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Bay shared with a CHAdeMO"
+        },
+        {
+            "ID": 273652,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:03:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-06-25T19:57:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100

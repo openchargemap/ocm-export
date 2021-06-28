@@ -2,10 +2,10 @@
     "IsRecentlyVerified": false,
     "ID": 142191,
     "UUID": "3C4CB13F-B615-4425-9F35-9AA882F9AECD",
-    "DataProviderID": 2,
-    "DataProvidersReference": "124974",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "(1-90 kW) $0.16/minute, (1-350 kW) $0.32/minute",
     "AddressInfo": {
         "ID": 142543,
         "Title": "Sheetz 377 - Belle Vernon, PA",
@@ -28,9 +28,10 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Shared with a CCS"
         },
         {
             "ID": 198274,
@@ -38,13 +39,26 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Shared with a ChaDeMo"
+        },
+        {
+            "ID": 273658,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:02:00Z",
+    "DateLastStatusUpdate": "2021-06-25T19:57:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:17:00Z",
     "SubmissionStatusTypeID": 100

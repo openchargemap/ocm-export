@@ -2,10 +2,10 @@
     "IsRecentlyVerified": false,
     "ID": 142706,
     "UUID": "3BF34505-99E7-4CF0-8CFF-7F3999EF1C65",
-    "DataProviderID": 2,
-    "DataProvidersReference": "124685",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": " $0.43/kWh",
     "AddressInfo": {
         "ID": 143058,
         "Title": "Sheffield Crossing Station",
@@ -28,23 +28,38 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "shared with a CCS"
         },
         {
             "ID": 198903,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 75,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "one Shared with a CHAdeMO"
+        },
+        {
+            "ID": 273655,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:04:00Z",
+    "DateLastStatusUpdate": "2021-06-25T19:57:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:18:00Z",
     "SubmissionStatusTypeID": 100

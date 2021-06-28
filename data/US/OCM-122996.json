@@ -2,10 +2,10 @@
     "IsRecentlyVerified": false,
     "ID": 122996,
     "UUID": "B12F5872-9D9F-49DE-A14A-D45BC1A56B48",
-    "DataProviderID": 2,
-    "DataProvidersReference": "121192",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "up to 90 kW $0.16/min, up to 350 kW $0.32/min",
     "AddressInfo": {
         "ID": 123342,
         "Title": "Walmart 277 Moore",
@@ -25,15 +25,40 @@
         {
             "ID": 172928,
             "ConnectionTypeID": 32,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 3
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "one bay shared with a CHAdeMO"
+        },
+        {
+            "ID": 273633,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "bay shared with a CCS"
+        },
+        {
+            "ID": 273634,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:03:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-06-25T19:56:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100
