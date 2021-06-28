@@ -1,4 +1,148 @@
 {
+    "UserComments": [
+        {
+            "ID": 14608,
+            "ChargePointID": 20789,
+            "CommentTypeID": 10,
+            "UserName": "sdlra1",
+            "Comment": "",
+            "Rating": 4,
+            "DateCreated": "2016-11-26T14:07:33.327Z",
+            "User": {
+                "ID": 6716,
+                "Username": "sdlra1",
+                "ReputationPoints": 82,
+                "ProfileImageURL": "https://www.gravatar.com/avatar/e4b41b8bdbc8cce2eede2c0269aee9eb?s=80&d=robohash"
+            },
+            "CheckinStatusTypeID": 10
+        },
+        {
+            "ID": 14125,
+            "ChargePointID": 20789,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Charged okay, but O2 network mobile data wasn't working on site, had to sign up to the Motorway services area's wifi to start a charge.",
+            "Rating": 2,
+            "DateCreated": "2016-08-22T07:35:35.693Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison",
+                "ReputationPoints": 48323,
+                "ProfileImageURL": "https://www.gravatar.com/avatar/b6797fc022c04bb79e21d4ff9ba07154?s=80&d=robohash"
+            },
+            "CheckinStatusTypeID": 10
+        },
+        {
+            "ID": 10474,
+            "ChargePointID": 20789,
+            "CommentTypeID": 10,
+            "UserName": "Torsten",
+            "Comment": "CCS ok",
+            "Rating": 4,
+            "DateCreated": "2016-05-22T21:27:29.627Z",
+            "User": {
+                "ID": 4992,
+                "Username": "Torsten",
+                "ReputationPoints": 86,
+                "ProfileImageURL": "https://www.gravatar.com/avatar/2d55f2349885e687bc8bab511a931a93?s=80&d=robohash"
+            },
+            "CheckinStatusTypeID": 10
+        },
+        {
+            "ID": 6354,
+            "ChargePointID": 20789,
+            "CommentTypeID": 10,
+            "UserName": "James Alexander",
+            "Comment": "",
+            "DateCreated": "2015-08-30T13:20:23.11Z",
+            "User": {
+                "ID": 6294,
+                "Username": "James Alexander",
+                "ReputationPoints": 11
+            },
+            "CheckinStatusTypeID": 10
+        },
+        {
+            "ID": 6223,
+            "ChargePointID": 20789,
+            "CommentTypeID": 10,
+            "UserName": "Fred",
+            "Comment": "All good.",
+            "Rating": 5,
+            "DateCreated": "2015-08-19T07:56:22.073Z",
+            "User": {
+                "ID": 6253,
+                "Username": "Fred",
+                "ReputationPoints": 16,
+                "ProfileImageURL": "https://www.gravatar.com/avatar/01e0ba660d3262ccdd28031c144d515c?s=80&d=robohash"
+            },
+            "CheckinStatusTypeID": 10
+        },
+        {
+            "ID": 6200,
+            "ChargePointID": 20789,
+            "CommentTypeID": 10,
+            "UserName": "Nick_G",
+            "Comment": "What a relief, I Just made it here from a faulty charger at Rownhams M27 services with a couple of miles to spare, a heart stopping moment!",
+            "DateCreated": "2015-08-15T22:02:01.84Z",
+            "User": {
+                "ID": 5001,
+                "Username": "Nick_G",
+                "ReputationPoints": 31,
+                "ProfileImageURL": "https://www.gravatar.com/avatar/29f90933edc7386f33341ec4e7f7bf5c?s=80&d=robohash"
+            },
+            "CheckinStatusTypeID": 10
+        },
+        {
+            "ID": 3931,
+            "ChargePointID": 20789,
+            "CommentTypeID": 10,
+            "UserName": "astewardson",
+            "Comment": "Charged ok",
+            "Rating": 5,
+            "DateCreated": "2015-03-06T13:04:37.177Z",
+            "User": {
+                "ID": 1566,
+                "Username": "astewardson",
+                "ReputationPoints": 4
+            },
+            "CheckinStatusTypeID": 10
+        },
+        {
+            "ID": 773,
+            "ChargePointID": 20789,
+            "CommentTypeID": 10,
+            "UserName": "MattCarrEV",
+            "Comment": "Work well this evening ",
+            "Rating": 5,
+            "DateCreated": "2014-04-25T20:35:44.843Z",
+            "User": {
+                "ID": 1823,
+                "Username": "MattCarrEV",
+                "ReputationPoints": 5
+            },
+            "CheckinStatusTypeID": 10
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 356,
+            "ChargePointID": 20789,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20789/OCM-20789.orig.2014042520345365.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20789/OCM-20789.thmb.2014042520345365.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 1823,
+                "Username": "MattCarrEV",
+                "ReputationPoints": 5
+            },
+            "DateCreated": "2014-04-25T20:35:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 20789,
     "UUID": "C9C733DB-095C-4C31-96F5-ED8BF60889A7",
@@ -23,7 +167,8 @@
         {
             "ID": 22613,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "0164",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 500,
@@ -34,7 +179,8 @@
         {
             "ID": 22614,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "0164",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
@@ -45,7 +191,8 @@
         {
             "ID": 74877,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "0165",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
@@ -55,8 +202,8 @@
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-06-21T14:33:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-06-27T16:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-12T12:57:00Z",
     "SubmissionStatusTypeID": 200
