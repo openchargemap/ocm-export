@@ -1,13 +1,48 @@
 {
+    "MediaItems": [
+        {
+            "ID": 28382,
+            "ChargePointID": 111946,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM111946/OCM-111946.orig.2021070102372887.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM111946/OCM-111946.thmb.2021070102372887.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22855,
+                "Username": "bert hogendoorn "
+            },
+            "DateCreated": "2021-07-01T02:38:00Z"
+        },
+        {
+            "ID": 28381,
+            "ChargePointID": 111946,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM111946/OCM-111946.orig.2021070102352502.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM111946/OCM-111946.thmb.2021070102352502.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22855,
+                "Username": "bert hogendoorn "
+            },
+            "DateCreated": "2021-07-01T02:35:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 111946,
     "UUID": "DA061972-0005-4C54-B6B1-67B1C8C14451",
     "DataProviderID": 1,
-    "OperatorID": 59,
+    "OperatorID": 3385,
     "UsageTypeID": 1,
+    "UsageCost": "0.21",
     "AddressInfo": {
         "ID": 112292,
-        "Title": "Keremeos, BC (Greenlots - 33067)",
+        "Title": "Keremeos, BC (BC Hydro)",
         "AddressLine1": "702 4th Street",
         "Town": "Keremos",
         "StateOrProvince": "BC",
@@ -15,9 +50,9 @@
         "CountryID": 44,
         "Latitude": 49.2051124572754,
         "Longitude": -119.829544067383,
-        "ContactTelephone1": "855-900-7584",
+        "ContactTelephone1": "866-338-3369",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "http://greenlots.com/",
+        "RelatedURL": "https://electricvehicles.bchydro.com/charge/public-charging/our-fast-charging-network",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,7 +62,7 @@
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 10,
             "Quantity": 1
         },
@@ -37,13 +72,13 @@
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2019-07-02T04:25:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-07-01T02:38:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2018-10-18T23:37:00Z",
     "SubmissionStatusTypeID": 100

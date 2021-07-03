@@ -4,7 +4,7 @@
     "ID": 176040,
     "UUID": "F0D09D02-5941-4D71-A1CC-344F0DAA25C7",
     "DataProviderID": 1,
-    "OperatorID": 63,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 176399,
@@ -14,8 +14,8 @@
         "StateOrProvince": "Flanders",
         "Postcode": "9051",
         "CountryID": 26,
-        "Latitude": 51.02583309359724,
-        "Longitude": 3.688772432722999,
+        "Latitude": 51.02597758931259,
+        "Longitude": 3.6895645213794523,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,23 +28,45 @@
             "Voltage": 230,
             "PowerKW": 22,
             "CurrentTypeID": 20,
+            "Quantity": 10
+        },
+        {
+            "ID": 273861,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 450,
+            "PowerKW": 45,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 273477,
+            "ID": 273862,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 450,
+            "PowerKW": 45,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 273863,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
+            "LevelID": 3,
+            "Amps": 63,
             "Voltage": 230,
-            "PowerKW": 22,
+            "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-24T12:43:00Z",
+    "DateLastStatusUpdate": "2021-07-01T12:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-24T07:33:00Z",
     "SubmissionStatusTypeID": 200

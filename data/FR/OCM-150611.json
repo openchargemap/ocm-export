@@ -2,17 +2,20 @@
     "IsRecentlyVerified": false,
     "ID": 150611,
     "UUID": "E469BD17-9C67-4EA3-9F49-090A3615F7B4",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*E04*P*OAZS*37*_*_*_",
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 150964,
-        "Title": "AIRE DES TERRASSES DE PROVENCE CENTRE",
-        "AddressLine1": "A8",
+        "Title": "Total - Relais Terrasses de Provence Centre",
+        "AddressLine1": "Aire Terrasses",
+        "Town": "Brignoles",
+        "Postcode": "83170",
         "CountryID": 80,
         "Latitude": 43.422009,
         "Longitude": 5.99229,
         "AccessComments": "24h/24 7j/7",
+        "RelatedURL": "https://apps.total-ev-charge.com/charge-points/TOTAL-NF059599-001",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,7 +25,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 209568,
@@ -30,20 +34,29 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 209569,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 20
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 273934,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:10:00Z",
+    "DateLastStatusUpdate": "2021-07-02T10:50:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T06:17:00Z",
     "SubmissionStatusTypeID": 100

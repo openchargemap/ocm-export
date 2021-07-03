@@ -3,10 +3,10 @@
     "ID": 73634,
     "UUID": "AA24F89C-40E4-47F0-99F5-817F83400D56",
     "DataProviderID": 1,
-    "OperatorID": 89,
+    "OperatorID": 90,
     "OperatorsReference": "CEA-10104",
     "UsageTypeID": 4,
-    "UsageCost": "CAD 1.00/hour",
+    "UsageCost": "CAD 12.08/hour",
     "AddressInfo": {
         "ID": 73980,
         "Title": "St-Hubert-Kirkland",
@@ -21,20 +21,31 @@
     },
     "Connections": [
         {
-            "ID": 105930,
-            "ConnectionTypeID": 1,
+            "ID": 273919,
+            "ConnectionTypeID": 32,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 273920,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-11-27T21:01:00Z",
+    "DateLastStatusUpdate": "2021-07-02T10:50:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-11-23T22:30:00Z",
     "SubmissionStatusTypeID": 200
