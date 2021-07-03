@@ -1,4 +1,38 @@
 {
+    "UserComments": [
+        {
+            "ID": 24544,
+            "ChargePointID": 176082,
+            "CommentTypeID": 10,
+            "UserName": "עמדות טעינה",
+            "Rating": 5,
+            "DateCreated": "2021-07-02T00:30:28.27Z",
+            "User": {
+                "ID": 30531,
+                "Username": "עמדות טעינה"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 28412,
+            "ChargePointID": 176082,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IL/OCM176082/OCM-176082.orig.2021070212141155.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IL/OCM176082/OCM-176082.thmb.2021070212141155.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 30531,
+                "Username": "עמדות טעינה"
+            },
+            "DateCreated": "2021-07-02T12:14:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
     "DateLastVerified": "2021-06-24T14:26:00Z",
     "ID": 176082,
@@ -9,27 +43,32 @@
     "UsageCost": "1₪ per kWh",
     "AddressInfo": {
         "ID": 176441,
-        "Title": "Tesla SuperCharger - BIG, Afula ",
-        "AddressLine1": "השוק 13 עפולה",
+        "Title": "ביג, עפולה Supercharger",
+        "AddressLine1": "המלאכה",
+        "Town": "עפולה",
+        "StateOrProvince": "נפת יזרעאל",
+        "Postcode": "no",
         "CountryID": 111,
-        "Latitude": 32.60516416849132,
-        "Longitude": 35.29322400806882,
+        "Latitude": 32.60473405624501,
+        "Longitude": 35.29428848990153,
+        "AccessComments": "BIG, Afula ",
+        "RelatedURL": "https://www.tesla.com/he_IL/findus/location/supercharger/TelAvivilsupercharger",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 273562,
             "ConnectionTypeID": 27,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 6
         }
     ],
     "NumberOfPoints": 6,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-24T16:24:00Z",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2021-07-02T13:28:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-24T14:26:00Z",
     "SubmissionStatusTypeID": 200

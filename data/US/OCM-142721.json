@@ -5,6 +5,7 @@
     "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "$0.43/kWh",
     "AddressInfo": {
         "ID": 143073,
         "Title": "Blue Heron Service Plaza",
@@ -24,26 +25,42 @@
         {
             "ID": 198924,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "bay shared with a CCS"
         },
         {
             "ID": 198925,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "one bay shared with a CHAdeMO"
+        },
+        {
+            "ID": 273734,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-11-20T14:22:00Z",
+    "DateLastStatusUpdate": "2021-06-28T08:06:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:18:00Z",
     "SubmissionStatusTypeID": 100

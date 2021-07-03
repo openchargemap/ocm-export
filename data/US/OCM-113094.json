@@ -2,10 +2,10 @@
     "IsRecentlyVerified": false,
     "ID": 113094,
     "UUID": "F13B945A-EE6B-4804-B824-FEDBEF0D0564",
-    "DataProviderID": 2,
-    "DataProvidersReference": "104890",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "$0.43/kWh",
     "AddressInfo": {
         "ID": 113440,
         "Title": "Walmart 2790 Hagerstown",
@@ -25,25 +25,41 @@
         {
             "ID": 159261,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 159262,
             "ConnectionTypeID": 32,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "One bay shared with CHAdeMO"
+        },
+        {
+            "ID": 273729,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:04:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-06-28T08:04:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2018-11-28T02:04:00Z",
     "SubmissionStatusTypeID": 100

@@ -5,6 +5,7 @@
     "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "$0.43/kWh",
     "AddressInfo": {
         "ID": 143109,
         "Title": "Tiffin River Service Plaza",
@@ -13,8 +14,8 @@
         "StateOrProvince": "OH",
         "Postcode": "43570",
         "CountryID": 2,
-        "Latitude": 41.60308314149202,
-        "Longitude": -84.40858351842428,
+        "Latitude": 41.603049,
+        "Longitude": -84.408599,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -28,9 +29,10 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 150,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "bay shared with a CCS"
         },
         {
             "ID": 198968,
@@ -41,10 +43,11 @@
             "Voltage": 400,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "one bay shared with a CHAdeMO"
         },
         {
-            "ID": 273540,
+            "ID": 273736,
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
@@ -55,8 +58,10 @@
             "Quantity": 2
         }
     ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "Toll road",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-24T09:44:00Z",
+    "DateLastStatusUpdate": "2021-06-28T08:06:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:18:00Z",
     "SubmissionStatusTypeID": 100

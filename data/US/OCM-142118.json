@@ -5,6 +5,7 @@
     "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "up to 90 kW $0.16/min. up to 350 kW $0.32/min",
     "AddressInfo": {
         "ID": 142470,
         "Title": "Sheetz 352 - Bedford, PA",
@@ -24,22 +25,26 @@
         {
             "ID": 198189,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 150,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "bay shared with a CCS"
         },
         {
             "ID": 198190,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "bay shared with a CHAdeMO"
         },
         {
             "ID": 273539,
@@ -53,8 +58,9 @@
             "Quantity": 2
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-24T09:44:00Z",
+    "DateLastStatusUpdate": "2021-06-28T08:04:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:17:00Z",
     "SubmissionStatusTypeID": 100

@@ -2,10 +2,10 @@
     "IsRecentlyVerified": false,
     "ID": 143406,
     "UUID": "024FF753-5EEF-4F28-BAF9-8725E426F6C2",
-    "DataProviderID": 2,
-    "DataProvidersReference": "147647",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "up to 90 kW $0.16/min. up to 350kW $0.32/min",
     "AddressInfo": {
         "ID": 143758,
         "Title": "Walmart 5669 - West Milwaukee, WI",
@@ -25,26 +25,42 @@
         {
             "ID": 199714,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "bay shared with a CCS"
         },
         {
             "ID": 199715,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 8,
+            "Comments": "one bay shared with CHAdeMO"
+        },
+        {
+            "ID": 273726,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:06:00Z",
+    "DateLastStatusUpdate": "2021-06-28T08:04:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:21:00Z",
     "SubmissionStatusTypeID": 100

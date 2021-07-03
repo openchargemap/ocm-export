@@ -5,6 +5,7 @@
     "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "$0.43/kWh",
     "AddressInfo": {
         "ID": 135625,
         "Title": "Indian Meadow Plaza",
@@ -25,9 +26,10 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "bay shared with a CCS"
         },
         {
             "ID": 189527,
@@ -37,12 +39,25 @@
             "Voltage": 400,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "one bay shared with a CHAdeMO"
+        },
+        {
+            "ID": 273735,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Toll Road Westbound",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-11-20T14:22:00Z",
+    "DateLastStatusUpdate": "2021-06-28T08:06:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-12-15T01:21:00Z",
     "SubmissionStatusTypeID": 200

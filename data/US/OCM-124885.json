@@ -2,10 +2,10 @@
     "IsRecentlyVerified": false,
     "ID": 124885,
     "UUID": "849B8082-6693-422E-9160-1A0648D21B44",
-    "DataProviderID": 2,
-    "DataProvidersReference": "121162",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "$0.43/kWh",
     "AddressInfo": {
         "ID": 125231,
         "Title": "Sheetz 248",
@@ -25,25 +25,42 @@
         {
             "ID": 175043,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "bay shared with a CCS"
         },
         {
             "ID": 175044,
             "ConnectionTypeID": 32,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "one bay hared with a CHAdeMO"
+        },
+        {
+            "ID": 273732,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:04:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-06-28T08:05:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-06T05:04:00Z",
     "SubmissionStatusTypeID": 100
