@@ -36,6 +36,25 @@ pipeline.on('data', (poi) => {
         if (err) throw err;
     });
 
+
+    // for user comments and media items, trim the user details so that reputation points etc don't get included in the change set
+    if (poi.UserComments) {
+        for (let c of poi.UserComments) {
+            if (c.User) {
+                c.User = { ID: c.User.ID, Username: c.User.Username };
+            }
+        }
+    }
+
+    if (poi.MediaItems) {
+        for (let c of poi.MediaItems) {
+            if (c.User) {
+                c.User = { ID: c.User.ID, Username: c.User.Username };
+            }
+        }
+    }
+
+
     fs.writeFileSync(path + "/OCM-" + poi.ID + ".json", JSON.stringify(poi, null, 4));
 
     if (counter % 1000 == 0) {
@@ -44,6 +63,14 @@ pipeline.on('data', (poi) => {
 }
 );
 
-pipeline.on('end', () =>
-    console.log(`Completed export. ${counter} POIs exported.`)
-);
+pipeline.on('end', () => {
+    console.log(`Completed export. ${counter} POIs exported.`);
+
+    // export reference data with trimmed unused elements
+  
+    delete referenceData.ChargePoint;
+    delete referenceData.UserComment;
+    delete referenceData.UserProfile;
+
+    fs.writeFileSync(basePath + "/../data/referencedata.json", JSON.stringify(referenceData, null, 4));
+});
