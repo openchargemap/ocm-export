@@ -20,9 +20,9 @@
     "UUID": "E558CF3E-71E6-4895-B46A-ED54A4B2ADED",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1142,1143",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "OperatorsReference": "GB*GFX*EGS10199*1*1,GB*GFX*EGS10200*1*1",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 88959,
         "Title": "Knutsford Moto M6 (S) Services",
@@ -40,36 +40,43 @@
         {
             "ID": 125681,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10199*1*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 125682,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10199*1*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
-            "ID": 125683,
+            "ID": 273964,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10200*1*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-17T06:13:00Z",
+    "DateLastStatusUpdate": "2021-07-03T09:33:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-06-05T08:32:00Z",
     "SubmissionStatusTypeID": 200

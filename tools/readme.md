@@ -9,4 +9,4 @@ Refresh process:
 
 - Delete all files under ./data/, this will allow removed/moved POIs to be removed from the subsequent git commit
 - Split POIs into individual files organised by country code : `node ./tools/parse-all/index.js`
-- Copy ./tmp/referencedata.json to /data/
+
