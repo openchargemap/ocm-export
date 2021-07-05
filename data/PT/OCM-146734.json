@@ -1,20 +1,55 @@
 {
+    "MediaItems": [
+        {
+            "ID": 28476,
+            "ChargePointID": 146734,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/PT/OCM146734/OCM-146734.orig.2021070409432599.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/PT/OCM146734/OCM-146734.thmb.2021070409432599.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 9177,
+                "Username": "AlexMol"
+            },
+            "DateCreated": "2021-07-04T09:43:00Z"
+        },
+        {
+            "ID": 28475,
+            "ChargePointID": 146734,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/PT/OCM146734/OCM-146734.orig.2021070409421314.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/PT/OCM146734/OCM-146734.thmb.2021070409421314.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 9177,
+                "Username": "AlexMol"
+            },
+            "DateCreated": "2021-07-04T09:42:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 146734,
     "UUID": "28C0B462-6AD5-41FA-A6D4-E50316585C1E",
     "DataProviderID": 1,
     "OperatorID": 21,
     "UsageTypeID": 4,
+    "UsageCost": "Mobi.E compatible card or App",
     "AddressInfo": {
         "ID": 147086,
-        "Title": "TVR-00004",
+        "Title": "TVR-00010/13 - Gran Plaza",
         "AddressLine1": "Tavira Gran Plaza",
         "Town": "Tavira",
         "StateOrProvince": "Algarve",
         "Postcode": "8800",
         "CountryID": 180,
-        "Latitude": 37.1309475174814,
-        "Longitude": -7.637146198018854,
+        "Latitude": 37.13101220153938,
+        "Longitude": -7.637293034555341,
         "RelatedURL": "https://www.mobie.pt",
         "DistanceUnit": 0
     },
@@ -29,11 +64,23 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 274043,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2020-01-14T22:19:00Z",
+    "NumberOfPoints": 4,
+    "GeneralComments": "Level -2 Yellow zone",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-07-04T09:43:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-01-14T22:19:00Z",
     "SubmissionStatusTypeID": 200
