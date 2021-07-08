@@ -2,13 +2,13 @@
     "IsRecentlyVerified": false,
     "ID": 158194,
     "UUID": "61EF5518-68B0-46C5-8EEC-00EDC399E810",
-    "DataProviderID": 18,
-    "DataProvidersReference": "85d55406ac93180c9b5dd7154332a548",
-    "OperatorID": 8,
-    "UsageTypeID": 4,
+    "DataProviderID": 1,
+    "OperatorID": 32,
+    "UsageTypeID": 5,
+    "UsageCost": "£0.35/kWh; other tariffs available",
     "AddressInfo": {
         "ID": 158548,
-        "Title": "Cumbernauld",
+        "Title": "The Red Deer",
         "AddressLine1": "Cumbernauld",
         "Town": "Glasgow",
         "Postcode": "G68 9AW",
@@ -16,14 +16,14 @@
         "Latitude": 55.942955,
         "Longitude": -4.01828,
         "AccessComments": "",
-        "RelatedURL": "https://www.bpchargemaster.com",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 228132,
             "ConnectionTypeID": 2,
-            "Reference": "1",
+            "Reference": "24599",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -33,18 +33,30 @@
         },
         {
             "ID": 228133,
-            "ConnectionTypeID": 2,
-            "Reference": "2",
+            "ConnectionTypeID": 33,
+            "Reference": "24599",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 274091,
+            "ConnectionTypeID": 1036,
+            "Reference": "24599",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2020-06-25T10:00:00Z",
+    "DateLastStatusUpdate": "2021-07-06T15:08:00Z",
     "MetadataValues": [
         {
             "ID": 7727,
