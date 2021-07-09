@@ -103,7 +103,7 @@
     "OperatorID": 24,
     "OperatorsReference": "1172,1173,1174",
     "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 21126,
         "Title": "Swansea West Moto M4 Services",
@@ -114,9 +114,9 @@
         "CountryID": 1,
         "Latitude": 51.678746,
         "Longitude": -3.994655,
-        "ContactTelephone1": "01453 761455",
+        "ContactTelephone1": "",
         "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/our-electric-highway",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -125,39 +125,50 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 3
+            "Quantity": 1
         },
         {
             "ID": 22595,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 26478,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 274190,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "Access via Ecotricity Electric Highway app only",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-12T06:33:00Z",
+    "DateLastStatusUpdate": "2021-07-08T09:47:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-11T13:04:00Z",
     "SubmissionStatusTypeID": 200
