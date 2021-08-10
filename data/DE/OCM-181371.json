@@ -5,35 +5,46 @@
     "UUID": "C6323F85-55FA-4722-AAD6-D5D677F5906B",
     "DataProviderID": 29,
     "DataProvidersReference": "12437",
+    "OperatorID": 220,
     "AddressInfo": {
         "ID": 181730,
-        "Title": "Planitzer Straße 2",
-        "AddressLine1": "Planitzer Straße 2",
-        "Town": "Zwickau",
-        "Postcode": "08056",
+        "Title": "Repsoldstraße 52",
+        "AddressLine1": "Repsoldstraße 52",
+        "Town": "Hamburg",
+        "Postcode": "20097",
         "CountryID": 87,
-        "Latitude": 50.7059586726701,
-        "Longitude": 12.4923196930744,
+        "Latitude": 53.54833,
+        "Longitude": 10.01367,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 285595,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "PowerKW": 11,
-            "CurrentTypeID": 20
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
         },
         {
             "ID": 285596,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 301519,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 11,
             "CurrentTypeID": 20
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-08T10:01:00Z",
+    "DateLastStatusUpdate": "2021-07-12T02:51:00Z",
     "MetadataValues": [
         {
             "ID": 13665,

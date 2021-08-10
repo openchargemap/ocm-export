@@ -1,26 +1,45 @@
 {
+    "MediaItems": [
+        {
+            "ID": 28828,
+            "ChargePointID": 185028,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM185028/OCM-185028.orig.2021072911200766.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM185028/OCM-185028.thmb.2021072911200766.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 4573,
+                "Username": "Erna_Schleck"
+            },
+            "DateCreated": "2021-07-29T11:20:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
     "DateLastVerified": "2021-07-08T10:06:00Z",
     "ID": 185028,
     "UUID": "75B9DB9A-96CB-484F-828C-3C2D3A65F8E5",
-    "DataProviderID": 29,
-    "DataProvidersReference": "13432",
-    "OperatorID": 45,
+    "DataProviderID": 1,
+    "OperatorID": 121,
+    "UsageCost": "0,35€/kWh (+2c/min von 8-22Uhr) mit Enercity Fahrstrom Tarif",
     "AddressInfo": {
         "ID": 185387,
-        "Title": "Bornkampsweg 137",
-        "AddressLine1": "Bornkampsweg 137",
-        "Town": "Hamburg",
-        "Postcode": "22761",
+        "Title": "Herrenstraße 1",
+        "AddressLine1": "Herrenstraße 1",
+        "Town": "Hannover",
+        "Postcode": "30159",
         "CountryID": 87,
-        "Latitude": 53.568607,
-        "Longitude": 9.916658,
+        "Latitude": 52.37698,
+        "Longitude": 9.73559,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 294006,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20
@@ -28,13 +47,16 @@
         {
             "ID": 294007,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20
         }
     ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "24/7 nutzbare Ladesäule der Enercity. Auch freischaltbar mit EnBW/ADAC, PlugSurfing, Maingau EinfachStromLaden u.v.a.. ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-08T10:06:00Z",
+    "DateLastStatusUpdate": "2021-07-29T11:20:00Z",
     "MetadataValues": [
         {
             "ID": 17319,

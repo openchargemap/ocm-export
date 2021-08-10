@@ -5,35 +5,46 @@
     "UUID": "EA7CE1D2-8406-425E-8AEB-747C03C67F3E",
     "DataProviderID": 29,
     "DataProvidersReference": "15599",
+    "OperatorID": 220,
     "AddressInfo": {
         "ID": 181619,
-        "Title": "Bundesstr. 75",
-        "AddressLine1": "Bundesstr. 75",
-        "Town": "Simmerath",
-        "Postcode": "52152",
+        "Title": "Wexstrasse 7",
+        "AddressLine1": "Wexstrasse 7",
+        "Town": "Hamburg",
+        "Postcode": "20355",
         "CountryID": 87,
-        "Latitude": 50.6070178,
-        "Longitude": 6.3283168,
+        "Latitude": 53.55137,
+        "Longitude": 9.98329,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 285361,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
         },
         {
             "ID": 285362,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 301567,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "PowerKW": 11,
             "CurrentTypeID": 20
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-08T10:01:00Z",
+    "DateLastStatusUpdate": "2021-07-12T02:51:00Z",
     "MetadataValues": [
         {
             "ID": 13554,

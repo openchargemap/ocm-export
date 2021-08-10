@@ -8,13 +8,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 175904,
-        "Title": "Total - Aire de l'Estalot",
+        "Title": "Total - Relais de l'Estalot",
         "AddressLine1": "A10",
         "Town": "Saint-André-de-Cubzac",
         "Postcode": "33240",
         "CountryID": 80,
         "Latitude": 44.97857008609739,
         "Longitude": -0.43170621688318533,
+        "RelatedURL": "https://apps.total-ev-charge.com/charge-points/TOTAL-NF078546-001-1",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,7 +26,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 272489,
@@ -34,7 +35,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 272490,
@@ -43,19 +44,37 @@
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 272491,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 295198,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 295199,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-05-30T11:28:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-07-11T08:53:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-28T07:43:00Z",
     "SubmissionStatusTypeID": 200

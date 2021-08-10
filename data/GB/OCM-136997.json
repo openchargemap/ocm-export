@@ -2,9 +2,8 @@
     "IsRecentlyVerified": false,
     "ID": 136997,
     "UUID": "F16AC28A-28C3-4DD8-BF66-8620CED9ED28",
-    "DataProviderID": 18,
-    "DataProvidersReference": "12edb5b1e9edb971c7e2102673ca7deb",
-    "OperatorID": 20,
+    "DataProviderID": 1,
+    "OperatorID": 3315,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 137343,
@@ -16,24 +15,68 @@
         "Latitude": 55.867073,
         "Longitude": -3.977174,
         "AccessComments": "Post owner: North Lanarkshire Council",
-        "RelatedURL": "http://www.chargeyourcar.org.uk",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191750,
-            "ConnectionTypeID": 3,
-            "Reference": "1",
+            "ConnectionTypeID": 25,
+            "Reference": "53601",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 13,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 303962,
+            "ConnectionTypeID": 33,
+            "Reference": "53600",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 303963,
+            "ConnectionTypeID": 2,
+            "Reference": "53600",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 303964,
+            "ConnectionTypeID": 25,
+            "Reference": "53602",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 303965,
+            "ConnectionTypeID": 1036,
+            "Reference": "53600",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2020-03-17T08:54:00Z",
+    "DateLastStatusUpdate": "2021-07-17T11:29:00Z",
     "MetadataValues": [
         {
             "ID": 6849,
@@ -43,5 +86,5 @@
     ],
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T05:23:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

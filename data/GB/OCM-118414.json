@@ -5,8 +5,8 @@
     "DataProviderID": 1,
     "OperatorID": 32,
     "OperatorsReference": "11703",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.108/kWh; for Polar Plus subscription members only",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.35/kWh; £0.26/kWh (7kW); other tariffs available",
     "AddressInfo": {
         "ID": 118760,
         "Title": "Appleby Manor",
@@ -18,12 +18,14 @@
         "CountryID": 1,
         "Latitude": 54.578735,
         "Longitude": -2.47579,
+        "AccessComments": "Unit located near the main entrance.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 167509,
             "ConnectionTypeID": 25,
+            "Reference": "11703",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -34,7 +36,8 @@
         },
         {
             "ID": 255989,
-            "ConnectionTypeID": 32,
+            "ConnectionTypeID": 33,
+            "Reference": "24804",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -44,6 +47,7 @@
         {
             "ID": 255990,
             "ConnectionTypeID": 2,
+            "Reference": "24804",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -53,17 +57,20 @@
         {
             "ID": 255991,
             "ConnectionTypeID": 1036,
+            "Reference": "24804",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Unit located near the main entrance.",
+    "GeneralComments": "Installation of rapid charger funded by Highways England",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-30T20:37:00Z",
+    "DateLastStatusUpdate": "2021-07-14T11:02:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-03-23T06:15:00Z",
     "SubmissionStatusTypeID": 200

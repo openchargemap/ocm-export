@@ -1,10 +1,29 @@
 {
+    "MediaItems": [
+        {
+            "ID": 28924,
+            "ChargePointID": 77169,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM77169/OCM-77169.orig.2021080716270991.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM77169/OCM-77169.thmb.2021080716270991.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 26732,
+                "Username": "XanderN"
+            },
+            "DateCreated": "2021-08-07T16:27:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 77169,
     "UUID": "22B73927-52C4-445A-9BA3-A88A00F5FE09",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 6,
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 77515,
         "Title": "Hotel Hilton",
@@ -22,7 +41,7 @@
     "Connections": [
         {
             "ID": 110871,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -30,11 +49,18 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 304784,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-01-05T07:35:00Z",
+    "DateLastStatusUpdate": "2021-08-10T05:04:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-01-05T07:35:00Z",
     "SubmissionStatusTypeID": 200

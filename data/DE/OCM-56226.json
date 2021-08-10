@@ -5,6 +5,7 @@
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 5,
+    "UsageCost": "1h 10€; 1 day 39€",
     "AddressInfo": {
         "ID": 56572,
         "Title": "Flughafen Frankfurt Parkplatz P2",
@@ -16,26 +17,33 @@
         "Latitude": 50.0511429382308,
         "Longitude": 8.56947258930199,
         "ContactTelephone1": "+49 69 69079455",
-        "AccessComments": "Im Parkhaus P2 bei Terminal 1 auf Etage 15 in Reihe 1506. Die Schukodosen sind an den Säulen vor den Parkplätzen mit den Parkschildern, die die Stellplätze für Elektroautos reservieren. Trotzdem sind oft Verbrenner auf diesen Plätzen anzutreffen. Strom kostenlos, aber Parkgebühren.",
-        "RelatedURL": "http://www.frankfurt-airport.de/",
+        "AccessComments": "Terminal 1 - Terminal Parking Einfahrt P2, Ebene 14, Parkreihe 1406",
+        "RelatedURL": "https://www.frankfurt-airport.com/de/anreise-parken/parkangebot/parkplaetze-ladestation.html",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 70874,
-            "ConnectionTypeID": 28,
+            "ID": 304211,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
             "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 4
+            "CurrentTypeID": 20,
+            "Quantity": 16
+        },
+        {
+            "ID": 304212,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 24
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 41,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2015-10-22T06:25:00Z",
+    "DateLastStatusUpdate": "2021-07-23T06:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-10-22T05:57:00Z",
     "SubmissionStatusTypeID": 200

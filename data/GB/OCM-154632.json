@@ -5,8 +5,8 @@
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "2019",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 154985,
         "Title": "Derby Services:A50 Westbound Jct 1/2",
@@ -21,25 +21,25 @@
     "Connections": [
         {
             "ID": 217533,
-            "ConnectionTypeID": 1036,
-            "Reference": "1",
+            "ConnectionTypeID": 33,
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 217534,
             "ConnectionTypeID": 2,
-            "Reference": "2",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
+            "Amps": 200,
             "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -48,14 +48,16 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-10T07:53:00Z",
+    "DateLastStatusUpdate": "2021-07-10T13:58:00Z",
     "MetadataValues": [
         {
             "ID": 7184,

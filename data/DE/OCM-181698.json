@@ -5,21 +5,23 @@
     "UUID": "DCB42707-0719-4665-AF33-C7266AD599F9",
     "DataProviderID": 29,
     "DataProvidersReference": "8480",
+    "OperatorID": 69,
     "AddressInfo": {
         "ID": 182057,
-        "Title": "Haus Sülz 4",
-        "AddressLine1": "Haus Sülz 4",
-        "Town": "Lohmar",
-        "Postcode": "53797",
+        "Title": "Bahnhofstr. 36",
+        "AddressLine1": "Bahnhofstr. 36",
+        "Town": "Eisenach",
+        "Postcode": "99817",
         "CountryID": 87,
-        "Latitude": 50.8722633697052,
-        "Longitude": 7.2026208773293,
+        "Latitude": 50.9761,
+        "Longitude": 10.3318,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 286373,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20
@@ -27,13 +29,30 @@
         {
             "ID": 286374,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 11,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 298554,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 298555,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
             "CurrentTypeID": 20
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-08T10:02:00Z",
+    "DateLastStatusUpdate": "2021-07-12T02:46:00Z",
     "MetadataValues": [
         {
             "ID": 13992,

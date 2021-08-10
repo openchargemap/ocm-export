@@ -3,23 +3,20 @@
     "ID": 19504,
     "UUID": "E8FFC483-3D8B-4FCA-B95A-2D0F9B866B92",
     "DataProviderID": 1,
-    "OperatorID": 25,
+    "OperatorID": 32,
     "OperatorsReference": "ealing-ncpperivalestationcarpark",
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "UsageCost": "Free. Parking fees apply.",
     "AddressInfo": {
         "ID": 19849,
-        "Title": "NCP Perivale Station Car Park",
-        "AddressLine1": "Horsenden Lane",
-        "AddressLine2": "Ealing",
+        "Title": "Chilham Close",
+        "AddressLine1": "Chilham Close",
         "Town": "London",
-        "Postcode": "UB6 7NN",
+        "StateOrProvince": "England",
+        "Postcode": "UB6 7FD",
         "CountryID": 1,
-        "Latitude": 51.536579,
-        "Longitude": -0.323941,
-        "ContactTelephone1": "0845 850 0653",
-        "AccessComments": "Charges apply - refer to the owner of the parking bay for details.Hours accessible: 24 hrs",
-        "RelatedURL": "http://www.ncp.co.uk/car-park?cpid=800456&name=PerivaleStation",
+        "Latitude": 51.53650892823043,
+        "Longitude": -0.3239275889361579,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -33,11 +30,30 @@
             "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 3
+        },
+        {
+            "ID": 304673,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 304674,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 1,
+    "GeneralComments": "Not listed on the BP Pulse app or ZapMap, but can be used by anyone. There's one bay that's reserved for taxis but 2 other adjacent bays are unreserved (not even marked as reserved for EV charging!)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-01-25T06:23:00Z",
+    "DateLastStatusUpdate": "2021-08-05T08:35:00Z",
     "MetadataValues": [
         {
             "ID": 113,

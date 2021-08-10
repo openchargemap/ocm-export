@@ -2,21 +2,20 @@
     "IsRecentlyVerified": false,
     "ID": 137050,
     "UUID": "0C626929-B4A5-4A86-9B51-BA861A0CBA58",
-    "DataProviderID": 18,
-    "DataProvidersReference": "fe08f279fe379bf019e7f685596efcd6",
-    "OperatorID": 20,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 3315,
+    "UsageTypeID": 6,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 137396,
-        "Title": "Burghmuir Place",
+        "Title": "North East Steel Services, Inverurie",
         "AddressLine1": "Burghmuir Place",
         "Town": "Inverurie",
-        "Postcode": "AB51 4FW",
+        "Postcode": "AB51 4EW",
         "CountryID": 1,
         "Latitude": 57.286469,
         "Longitude": -2.39813,
-        "AccessComments": "",
-        "RelatedURL": "http://www.chargeyourcar.org.uk",
+        "AccessComments": "On the right hand side of the entrance. Staff only",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,7 +28,8 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 191869,
@@ -40,11 +40,37 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 304166,
+            "ConnectionTypeID": 25,
+            "Reference": "50777-2",
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 304167,
+            "ConnectionTypeID": 25,
+            "Reference": "50777-1",
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2020-03-17T08:54:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2021-07-20T15:21:00Z",
     "MetadataValues": [
         {
             "ID": 6902,
@@ -54,5 +80,5 @@
     ],
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T05:23:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

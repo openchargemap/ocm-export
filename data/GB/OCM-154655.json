@@ -2,13 +2,14 @@
     "IsRecentlyVerified": false,
     "ID": 154655,
     "UUID": "FA21BD6E-0BBB-467E-B246-B25441607FA7",
-    "DataProviderID": 18,
-    "DataProvidersReference": "bf6fc372e469958b6767c85d62fc2867",
-    "OperatorID": 20,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 3315,
+    "OperatorsReference": "50707",
+    "UsageTypeID": 6,
+    "UsageCost": "£0.25/kWh; minimum fee £1.50",
     "AddressInfo": {
         "ID": 155008,
-        "Title": "7 Garden Hill Road",
+        "Title": "Garden Hill Primary Care Centre",
         "AddressLine1": "7 Garden Hill Road",
         "Town": "Castle Douglas",
         "Postcode": "DG7 3EE",
@@ -16,14 +17,13 @@
         "Latitude": 54.949728,
         "Longitude": -3.921779,
         "AccessComments": "Post owner: Dumfries & Galloway Council",
-        "RelatedURL": "http://www.chargeyourcar.org.uk",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 217588,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "50707-1",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -34,7 +34,7 @@
         {
             "ID": 217589,
             "ConnectionTypeID": 25,
-            "Reference": "2",
+            "Reference": "50707-2",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -43,8 +43,9 @@
             "CurrentTypeID": 10
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2020-03-17T08:54:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-07-19T10:58:00Z",
     "MetadataValues": [
         {
             "ID": 7207,

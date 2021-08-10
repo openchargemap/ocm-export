@@ -192,9 +192,9 @@
     "UUID": "23833CFA-BF6B-4E61-816E-2DF8289FA784",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1167,1168",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "OperatorsReference": "GB*GFX*EGS10310*1,GB*GFX*EGS10310*2,GB*GFX*EGS10311*1,GB*GFX*EGS10311*2",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 31673,
         "Title": "Carlisle Moto M6 (S) Services",
@@ -211,36 +211,55 @@
         {
             "ID": 34733,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10310*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 34734,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10310*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 34735,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10311*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 304184,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10311*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "Access via Ecotricity Electric Highway app only",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-11T06:14:00Z",
+    "DateLastStatusUpdate": "2021-07-21T15:20:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-01-03T09:33:00Z",
     "SubmissionStatusTypeID": 200

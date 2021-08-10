@@ -19,8 +19,9 @@
     "ID": 47669,
     "UUID": "CA2121F3-AA63-4315-BEBD-47E2ADBA4B04",
     "DataProviderID": 1,
-    "OperatorID": 20,
+    "OperatorID": 3315,
     "UsageTypeID": 6,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 48015,
         "Title": "Arjo Wiggins Fine Papers Ltd",
@@ -30,14 +31,26 @@
         "CountryID": 1,
         "Latitude": 57.19013,
         "Longitude": -2.170633,
-        "RelatedURL": "http://www.chargeyourcar.org.uk",
+        "AccessComments": "In the main yard through barrier at the entrance. Unit is behind the main building.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 58779,
             "ConnectionTypeID": 25,
-            "Reference": "50718",
+            "Reference": "50718-1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 304170,
+            "ConnectionTypeID": 25,
+            "Reference": "50718-2",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -49,7 +62,7 @@
     ],
     "GeneralComments": "APT Charger",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2015-07-11T14:26:00Z",
+    "DateLastStatusUpdate": "2021-07-20T15:30:00Z",
     "MetadataValues": [
         {
             "ID": 1449,
@@ -59,5 +72,5 @@
     ],
     "DataQualityLevel": 3,
     "DateCreated": "2015-06-05T08:10:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

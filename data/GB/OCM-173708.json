@@ -4,11 +4,11 @@
     "UUID": "B324DCD1-10D8-4B9E-9AC7-58ABC2E83575",
     "DataProviderID": 18,
     "DataProvidersReference": "20086683a16f0f9ff5ee662afa9fbfbf",
-    "OperatorID": 1,
-    "UsageTypeID": 3,
+    "OperatorID": 150,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 174067,
-        "Title": "Duplicate",
+        "Title": "High street Car Park",
         "AddressLine1": "High street Car Park",
         "Town": "Wetherby",
         "Postcode": "LS23 6BW",
@@ -22,13 +22,40 @@
     "Connections": [
         {
             "ID": 272554,
-            "ConnectionTypeID": 4,
+            "ConnectionTypeID": 1036,
+            "Reference": "1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 303489,
+            "ConnectionTypeID": 2,
+            "Reference": "2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 303490,
+            "ConnectionTypeID": 1036,
             "Reference": "3",
-            "StatusTypeID": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
         }
     ],
     "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2021-05-28T10:43:00Z",
+    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
     "MetadataValues": [
         {
             "ID": 8630,

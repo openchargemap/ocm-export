@@ -254,24 +254,6 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "MediaItems": [
-        {
-            "ID": 735,
-            "ChargePointID": 20785,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20785/OCM-20785.orig.2014120214325502.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20785/OCM-20785.thmb.2014120214325502.jpg",
-            "Comment": "CCS working well. ",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 1815,
-                "Username": "GonvilleB"
-            },
-            "DateCreated": "2014-12-02T14:33:00Z"
-        }
-    ],
     "IsRecentlyVerified": false,
     "ID": 20785,
     "UUID": "9B16FB0B-AD0A-4D7D-8468-D8FA1E789D59",
@@ -297,7 +279,8 @@
         {
             "ID": 22604,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "GB*GFX*EGS10302*2",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 500,
@@ -308,7 +291,8 @@
         {
             "ID": 22605,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "GB*GFX*EGS10302*1",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
@@ -319,18 +303,31 @@
         {
             "ID": 52655,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "GB*GFX*EGS10303*1",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
             "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 304130,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10302*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-07-08T13:07:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-07-19T12:24:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-11T13:21:00Z",
     "SubmissionStatusTypeID": 200

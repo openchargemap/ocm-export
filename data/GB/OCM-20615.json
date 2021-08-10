@@ -152,40 +152,6 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "MediaItems": [
-        {
-            "ID": 24812,
-            "ChargePointID": 20615,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20615/OCM-20615.orig.2020092814012686.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20615/OCM-20615.thmb.2020092814012686.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 27243,
-                "Username": "esandman"
-            },
-            "DateCreated": "2020-09-28T14:02:00Z"
-        },
-        {
-            "ID": 556,
-            "ChargePointID": 20615,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20615/OCM-20615.orig.2014072812463797.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20615/OCM-20615.thmb.2014072812463797.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 2071,
-                "Username": "pwrkiter"
-            },
-            "DateCreated": "2014-07-28T12:47:00Z"
-        }
-    ],
     "IsRecentlyVerified": false,
     "ID": 20615,
     "UUID": "3D3F47BD-C624-46BB-A992-A62D44420EB5",
@@ -210,28 +176,31 @@
         {
             "ID": 22434,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10158*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 500,
-            "PowerKW": 100,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 22647,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10158*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
-            "PowerKW": 120,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 96329,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10156*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -239,11 +208,35 @@
             "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 304691,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*ETACW2245020T1024*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 304692,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10156*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-08T12:37:00Z",
+    "DateLastStatusUpdate": "2021-08-06T20:01:00Z",
     "MetadataValues": [
         {
             "ID": 385,

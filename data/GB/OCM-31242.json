@@ -164,32 +164,14 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "MediaItems": [
-        {
-            "ID": 3077,
-            "ChargePointID": 31242,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31242/OCM-31242.orig.2015082217001053.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31242/OCM-31242.thmb.2015082217001053.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 1192,
-                "Username": "Anon74856763534"
-            },
-            "DateCreated": "2015-08-22T17:00:00Z"
-        }
-    ],
     "IsRecentlyVerified": false,
     "ID": 31242,
     "UUID": "2D68CA91-A6DE-40DE-81D2-9EE3FA4FFD7C",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1151,1152,1150",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 31588,
         "Title": "Moto Lymm (Poplar 2000 Truckstop) M6 Services",
@@ -200,50 +182,86 @@
         "CountryID": 1,
         "Latitude": 53.3586507219052,
         "Longitude": -2.50579125544391,
-        "ContactTelephone1": "01453 761455",
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "AccessComments": "M6 at J20M56 at J9(also accessible to traffic on the A50, B5158 and the B5356)",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/our-electric-highway",
+        "AccessComments": "M6 at J20 M56 at J9(also accessible to traffic on the A50, B5158 and the B5356)",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 34519,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10209*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 3
+            "Quantity": 1
         },
         {
             "ID": 34520,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10209*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 34560,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10211*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 3
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 304336,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10210*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 304337,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10211*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 304338,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10210*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-24T06:13:00Z",
+    "DateLastStatusUpdate": "2021-07-27T12:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-12-18T13:29:00Z",
     "SubmissionStatusTypeID": 200

@@ -4,7 +4,7 @@
     "UUID": "7C8DF95B-C4F1-4255-8947-108954AD3866",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 6,
+    "UsageTypeID": 2,
     "UsageCost": "",
     "AddressInfo": {
         "ID": 20455,
@@ -20,14 +20,25 @@
         "ContactTelephone1": "",
         "ContactTelephone2": "",
         "ContactEmail": "",
-        "AccessComments": "Réservé aux clients de l'établissement",
-        "RelatedURL": "",
+        "AccessComments": "A reservé sur l’application Nabla Connect",
+        "RelatedURL": "https://apps.apple.com/fr/app/nabla-connect/id1563278111",
         "DistanceUnit": 0
     },
-    "Connections": [],
+    "Connections": [
+        {
+            "ID": 303668,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "Amps": 16,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "a reserver sur Nabla Connect https://apps.apple.com/fr/app/nabla-connect/id1563278111"
+        }
+    ],
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2013-11-14T15:58:00Z",
+    "DateLastStatusUpdate": "2021-07-12T07:47:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2013-11-04T00:02:00Z",
     "SubmissionStatusTypeID": 200

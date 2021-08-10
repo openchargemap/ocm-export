@@ -6,7 +6,7 @@
     "DataProviderID": 1,
     "OperatorID": 3,
     "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "UsageCost": "AC:Free; DC: £0.27/kWh",
     "AddressInfo": {
         "ID": 176451,
         "Title": "Tesco Extra-Dundee",
@@ -43,11 +43,35 @@
             "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 2
+        },
+        {
+            "ID": 304091,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000688",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 304092,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000688",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-25T07:13:00Z",
+    "DateLastStatusUpdate": "2021-07-18T19:51:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-25T07:13:00Z",
     "SubmissionStatusTypeID": 200

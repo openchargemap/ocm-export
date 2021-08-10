@@ -2,58 +2,62 @@
     "IsRecentlyVerified": false,
     "ID": 158144,
     "UUID": "06A462E8-D6CE-4904-A381-EE14A7C6DB24",
-    "DataProviderID": 18,
-    "DataProvidersReference": "b6faaff41560efbdefb1687a06a4c57b",
-    "OperatorID": 8,
+    "DataProviderID": 1,
+    "OperatorID": 32,
     "UsageTypeID": 4,
+    "UsageCost": "£0.35/kWh; other tariffs available",
     "AddressInfo": {
         "ID": 158498,
-        "Title": "Staddlebridge House",
+        "Title": "The Cleveland Tontine",
         "AddressLine1": "Staddlebridge House",
         "Town": "Northallerton",
         "Postcode": "DL6 3JB",
         "CountryID": 1,
         "Latitude": 54.387505,
         "Longitude": -1.318206,
-        "AccessComments": "",
-        "RelatedURL": "https://www.bpchargemaster.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 228045,
             "ConnectionTypeID": 2,
-            "Reference": "1",
+            "Reference": "24814",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 256364,
             "ConnectionTypeID": 2,
-            "Reference": "2",
+            "Reference": "24814",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 256365,
             "ConnectionTypeID": 1036,
+            "Reference": "24814",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
+    "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-04T06:24:00Z",
+    "DateLastStatusUpdate": "2021-07-12T11:58:00Z",
     "MetadataValues": [
         {
             "ID": 7677,

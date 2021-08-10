@@ -2,21 +2,19 @@
     "IsRecentlyVerified": false,
     "ID": 137044,
     "UUID": "D091DE06-9C63-4374-9138-0BEBE6556B16",
-    "DataProviderID": 18,
-    "DataProvidersReference": "b849f522b5164af77139540eeb5c28fe",
-    "OperatorID": 20,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 3315,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 137390,
-        "Title": "11 Moness Avenue",
-        "AddressLine1": "11 Moness Avenue",
+        "Title": "Moness Terrace Car Park, Aberfeldy ",
+        "AddressLine1": "Moness Terrace Car Park, Aberfeldy ",
         "Town": "Aberfeldy",
-        "Postcode": "PH15 2DY",
+        "Postcode": "PH15 2AD",
         "CountryID": 1,
-        "Latitude": 56.616395,
-        "Longitude": -3.862391,
-        "AccessComments": "",
-        "RelatedURL": "http://www.chargeyourcar.org.uk",
+        "Latitude": 56.619998330882986,
+        "Longitude": -3.8614649570083657,
+        "AccessComments": "Charge point at back of car park on left side looking onto Farron Drive. Large wooden fence at back of the Co-Op.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -44,7 +42,7 @@
         },
         {
             "ID": 191854,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 1036,
             "Reference": "50995-3",
             "StatusTypeID": 50,
             "LevelID": 3,
@@ -52,10 +50,23 @@
             "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 304106,
+            "ConnectionTypeID": 25,
+            "Reference": "50811",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-03-04T06:24:00Z",
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-07-19T10:37:00Z",
     "MetadataValues": [
         {
             "ID": 6896,
@@ -65,5 +76,5 @@
     ],
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T05:23:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

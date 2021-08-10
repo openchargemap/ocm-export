@@ -2,13 +2,13 @@
     "IsRecentlyVerified": false,
     "ID": 158180,
     "UUID": "1C550815-2DE1-4C37-9C88-7AD377ECB0C4",
-    "DataProviderID": 18,
-    "DataProvidersReference": "e0518d7686e5db09f68b27f9d1b34bf6",
-    "OperatorID": 20,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 3315,
+    "UsageTypeID": 4,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 158534,
-        "Title": "66 Bankend Road",
+        "Title": "Mountainhall Treatment Centre",
         "AddressLine1": "66 Bankend Road",
         "Town": "Dumfries",
         "Postcode": "DG1 4TG",
@@ -16,35 +16,25 @@
         "Latitude": 55.05599,
         "Longitude": -3.59871,
         "AccessComments": "Post owner: Dumfries & Galloway Council",
-        "RelatedURL": "http://www.chargeyourcar.org.uk",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 228103,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "50708",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 228104,
-            "ConnectionTypeID": 25,
-            "Reference": "2",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2020-06-25T10:00:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-07-15T07:24:00Z",
     "MetadataValues": [
         {
             "ID": 7713,
@@ -54,5 +44,5 @@
     ],
     "DataQualityLevel": 3,
     "DateCreated": "2020-06-25T10:00:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

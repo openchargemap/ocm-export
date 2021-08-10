@@ -34,8 +34,8 @@
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1087",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers; refunded in store",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 21143,
         "Title": "IKEA Lakeside",
@@ -47,9 +47,9 @@
         "CountryID": 1,
         "Latitude": 51.480661,
         "Longitude": 0.284482,
-        "ContactTelephone1": "01453 761455",
+        "ContactTelephone1": "",
         "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/our-electric-highway",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -58,24 +58,27 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 22626,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-30T05:13:00Z",
+    "DateLastStatusUpdate": "2021-07-10T14:09:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-13T11:21:00Z",
     "SubmissionStatusTypeID": 200

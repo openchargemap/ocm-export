@@ -2,21 +2,20 @@
     "IsRecentlyVerified": false,
     "ID": 137059,
     "UUID": "90A5B309-4931-4733-867D-550BEE875F4B",
-    "DataProviderID": 18,
-    "DataProvidersReference": "00dd858ab5b13da9a5e208471fe9fc4e",
-    "OperatorID": 20,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 3315,
+    "UsageTypeID": 4,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 137405,
-        "Title": "Culbokie",
+        "Title": "Black Isle Renewables Ltd, Dingwall",
         "AddressLine1": "Culbokie",
         "Town": "Dingwall",
         "Postcode": "IV7 8JU",
         "CountryID": 1,
         "Latitude": 57.628699,
         "Longitude": -4.257912,
-        "AccessComments": "",
-        "RelatedURL": "http://www.chargeyourcar.org.uk",
+        "AccessComments": "Located in the car park. Limited access.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,27 +23,30 @@
             "ID": 191889,
             "ConnectionTypeID": 25,
             "Reference": "50759-2",
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 191890,
             "ConnectionTypeID": 25,
             "Reference": "50759-1",
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2020-03-17T08:54:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2021-07-19T17:44:00Z",
     "MetadataValues": [
         {
             "ID": 6911,

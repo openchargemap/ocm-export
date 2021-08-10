@@ -5,11 +5,11 @@
     "DataProviderID": 1,
     "OperatorID": 150,
     "UsageTypeID": 4,
-    "UsageCost": "Rapid £1.00 fee then 30p per kWh / AC socket 50p fee then 30p per kWh",
+    "UsageCost": "£0.35/kWh",
     "AddressInfo": {
         "ID": 170986,
         "Title": "Morrisons Horsforth",
-        "AddressLine1": "61-69 Town St",
+        "AddressLine1": "61-69 Town Street",
         "Town": "Horsforth",
         "StateOrProvince": "England",
         "Postcode": "LS18 5LE",
@@ -33,7 +33,7 @@
         },
         {
             "ID": 260519,
-            "ConnectionTypeID": 32,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -45,6 +45,8 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
@@ -52,7 +54,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-03T22:09:00Z",
+    "DateLastStatusUpdate": "2021-07-28T16:00:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-03T22:09:00Z",
     "SubmissionStatusTypeID": 200

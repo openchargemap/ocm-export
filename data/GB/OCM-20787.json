@@ -202,64 +202,14 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "MediaItems": [
-        {
-            "ID": 1795,
-            "ChargePointID": 20787,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20787/OCM-20787.orig.2015071509053819.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20787/OCM-20787.thmb.2015071509053819.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 4575,
-                "Username": "Simon Hewison"
-            },
-            "DateCreated": "2015-07-15T09:06:00Z"
-        },
-        {
-            "ID": 1697,
-            "ChargePointID": 20787,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20787/OCM-20787.orig.2015071211061481.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20787/OCM-20787.thmb.2015071211061481.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 5001,
-                "Username": "Nick_G"
-            },
-            "DateCreated": "2015-07-12T11:06:00Z"
-        },
-        {
-            "ID": 185,
-            "ChargePointID": 20787,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20787/OCM-20787.orig.2014011609173299.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20787/OCM-20787.thmb.2014011609173299.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 1308,
-                "Username": "Martin Winlow"
-            },
-            "DateCreated": "2014-01-16T09:18:00Z"
-        }
-    ],
     "IsRecentlyVerified": false,
     "ID": 20787,
     "UUID": "EC5EE48C-39FC-4F3F-B30A-2BA3832BEEEE",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1158,1159",
+    "OperatorsReference": "GB*GFX*EGS10377*1,GB*GFX*EGS10377*2,GB*GFX*EGS10378*1,GB*GFX*EGS10378*2",
     "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers.  customers Free",
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 21132,
         "Title": "Reading Moto M4 (E) Services",
@@ -270,44 +220,61 @@
         "CountryID": 1,
         "Latitude": 51.42582,
         "Longitude": -1.03483,
-        "ContactTelephone1": "01453 761455",
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/our-electric-highway",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 22608,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10377*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 22609,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10377*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 34554,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10378*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 304186,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10378*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-30T05:14:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2021-07-21T15:27:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-12T12:07:00Z",
     "SubmissionStatusTypeID": 200
