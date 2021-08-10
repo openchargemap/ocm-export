@@ -5,10 +5,10 @@
     "DataProviderID": 1,
     "OperatorID": 3271,
     "UsageTypeID": 4,
-    "UsageCost": "AC: 1.45 RON/kW DC: 1.95 RON/kW",
+    "UsageCost": "AC: 1.45 RON/kWh DC: 1.95 RON/kWh",
     "AddressInfo": {
         "ID": 82008,
-        "Title": "Kaufland",
+        "Title": "Kaufland Barbu Vacarescu",
         "AddressLine1": "Strada Barbu Vacarescu, 120-144",
         "Town": "Bucuresti",
         "Postcode": "020284",
@@ -17,7 +17,7 @@
         "Longitude": 26.1092948845085,
         "ContactTelephone1": "40372756599",
         "ContactEmail": "office@e-charge.ro",
-        "AccessComments": "Free to use, please register at office@e-charge.ro for a RFID card\r\n",
+        "AccessComments": "",
         "RelatedURL": "http://e-charge.ro/",
         "DistanceUnit": 0
     },
@@ -31,35 +31,31 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 3
         },
         {
             "ID": 116411,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 50,
-            "Voltage": 500,
-            "PowerKW": 22,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 3
         },
         {
             "ID": 116412,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 50,
-            "Voltage": 500,
-            "PowerKW": 22,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 3
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Renovatio e-charge 20kW CCS/CHAdeMO; 22kW AC Type 2 (cable); 22kW AC Type 2 (socket); Tesla fast charge possible with CHAdeMO adapter\r\n",
+    "NumberOfPoints": 6,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-27T01:11:00Z",
+    "DateLastStatusUpdate": "2021-07-23T16:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-02-03T09:20:00Z",
     "SubmissionStatusTypeID": 200

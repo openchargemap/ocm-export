@@ -1,21 +1,71 @@
 {
+    "UserComments": [
+        {
+            "ID": 24697,
+            "ChargePointID": 175646,
+            "CommentTypeID": 10,
+            "UserName": "thanar",
+            "Rating": 4,
+            "DateCreated": "2021-08-06T07:15:22.55Z",
+            "User": {
+                "ID": 15962,
+                "Username": "thanar"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": true
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 28910,
+            "ChargePointID": 175646,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GR/OCM175646/OCM-175646.orig.2021080607145932.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GR/OCM175646/OCM-175646.thmb.2021080607145932.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 15962,
+                "Username": "thanar"
+            },
+            "DateCreated": "2021-08-06T07:15:00Z"
+        },
+        {
+            "ID": 28909,
+            "ChargePointID": 175646,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GR/OCM175646/OCM-175646.orig.2021080607141084.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GR/OCM175646/OCM-175646.thmb.2021080607141084.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 15962,
+                "Username": "thanar"
+            },
+            "DateCreated": "2021-08-06T07:14:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
     "DateLastVerified": "2021-06-03T14:36:00Z",
     "ID": 175646,
     "UUID": "C550F3CA-70AD-42C1-90D4-B7AB37301DA5",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 45,
     "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "UsageCost": "DC: €0.60/kWh - AC: €0.40/kWh",
     "AddressInfo": {
         "ID": 176005,
-        "Title": "ΕΚΟ Αναγεννήσεως (Coming Soon)",
+        "Title": "ΕΚΟ Αναγεννήσεως",
         "AddressLine1": "Anagenniseos 34",
         "Town": "Thessaloniki",
         "Postcode": "546 27",
         "CountryID": 90,
-        "Latitude": 40.641661892817496,
-        "Longitude": 22.92860520009276,
+        "Latitude": 40.6414316622965,
+        "Longitude": 22.928665547579158,
         "ContactTelephone1": "+30 231 417 1615",
         "DistanceUnit": 0
     },
@@ -23,7 +73,7 @@
         {
             "ID": 272715,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -32,7 +82,7 @@
         {
             "ID": 272716,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -49,8 +99,9 @@
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "EKO Kalypso (266) Gas Station ABB 50kw charger: DC50kW CCS + DC50kW CHAdeMO + AC22kW tethered type2. No RFID or app required. The gas station staff will activate the charger for you with their own RFID and you will pay either in cash or by credit card.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-03T20:52:00Z",
+    "DateLastStatusUpdate": "2021-08-06T07:15:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-03T14:36:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,4 +1,39 @@
 {
+    "UserComments": [
+        {
+            "ID": 24576,
+            "ChargePointID": 127273,
+            "CommentTypeID": 10,
+            "UserName": "Bertthebudgie",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2021-07-10T22:49:40.99Z",
+            "User": {
+                "ID": 27743,
+                "Username": "Bertthebudgie"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 28545,
+            "ChargePointID": 127273,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IE/OCM127273/OCM-127273.orig.2021071022464243.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IE/OCM127273/OCM-127273.thmb.2021071022464243.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27743,
+                "Username": "Bertthebudgie"
+            },
+            "DateCreated": "2021-07-10T22:47:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 127273,
     "UUID": "2E11614D-A9B9-4B49-AC36-0EA42CDE11ED",
@@ -6,6 +41,7 @@
     "OperatorID": 22,
     "OperatorsReference": "C4DBX",
     "UsageTypeID": 4,
+    "UsageCost": "30.5c per kw dc 26.8c per kw ac €5 overstsy fee after 45 min",
     "AddressInfo": {
         "ID": 127619,
         "Title": "Norton House Car Park",
@@ -15,24 +51,41 @@
         "CountryID": 3,
         "Latitude": 51.553906,
         "Longitude": -9.262478,
+        "RelatedURL": "http://www.esb.ie",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 178215,
-            "ConnectionTypeID": 25,
+            "ID": 303669,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 44,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 303670,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 44,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 303671,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 6,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-06-25T05:32:00Z",
+    "DateLastStatusUpdate": "2021-07-12T07:49:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-06-03T07:48:00Z",
     "SubmissionStatusTypeID": 200

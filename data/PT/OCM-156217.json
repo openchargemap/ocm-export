@@ -23,16 +23,17 @@
     "DataProviderID": 1,
     "OperatorID": 21,
     "UsageTypeID": 4,
+    "UsageCost": "Mobi.E compatible card or App",
     "AddressInfo": {
         "ID": 156571,
-        "Title": "Galp Tavira",
+        "Title": "TVR-00012 - GALP",
         "AddressLine1": "EN125, Tavira",
         "Town": "Tavira",
         "StateOrProvince": "Algarve",
         "Postcode": "8800",
         "CountryID": 180,
-        "Latitude": 37.118258449638745,
-        "Longitude": -7.66313617710216,
+        "Latitude": 37.11833797238354,
+        "Longitude": -7.663198380286985,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -41,6 +42,8 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 120,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -50,6 +53,8 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -67,9 +72,9 @@
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Mobi.E card required",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2020-05-11T19:37:00Z",
+    "GeneralComments": "",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-08-01T10:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-05-11T19:36:00Z",
     "SubmissionStatusTypeID": 200

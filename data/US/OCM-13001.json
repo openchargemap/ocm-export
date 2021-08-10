@@ -2,21 +2,20 @@
     "IsRecentlyVerified": false,
     "ID": 13001,
     "UUID": "C70DBBC1-99B9-4C41-9FA0-2F557C8E9749",
-    "DataProviderID": 15,
-    "DataProvidersReference": "20316",
+    "DataProviderID": 1,
     "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 12898,
-        "Title": "909 17th Street",
-        "AddressLine1": "909 17th Street",
+        "Title": "Anacortes Safeway #1",
+        "AddressLine1": "911 11th Street",
         "Town": "Anacortes",
         "StateOrProvince": "WA",
         "Postcode": "98221",
         "CountryID": 2,
-        "Latitude": 48.508154,
-        "Longitude": -122.611842,
-        "ContactTelephone1": "",
-        "RelatedURL": "http://carstations.com/20316",
+        "Latitude": 48.51269457928629,
+        "Longitude": -122.61214759883853,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,11 +23,15 @@
             "ID": 10434,
             "ConnectionTypeID": 1,
             "Reference": "J1772",
-            "LevelID": 2
+            "LevelID": 2,
+            "PowerKW": 6,
+            "Quantity": 1,
+            "Comments": "One of two"
         }
     ],
+    "GeneralComments": "Two hour limit",
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2017-11-04T14:05:00Z",
+    "DateLastStatusUpdate": "2021-07-22T21:23:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2012-09-07T19:26:00Z",
     "SubmissionStatusTypeID": 100

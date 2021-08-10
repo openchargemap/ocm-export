@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 24654,
+            "ChargePointID": 51642,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Colonnina fast che è andata a sostituire una quick, in centro al paese di San Martino di Castrozza. Leggi la recensione completa qui >  https://www.forumelettrico.it/forum/colonnina-neogy-fast-primiero-san-martino-di-castrozza-tn-via-passo-rolle-76-t18628.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-neogy-fast-primiero-san-martino-di-castrozza-tn-via-passo-rolle-76-t18628.html",
+            "DateCreated": "2021-07-26T13:37:30.353Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 22421,
             "ChargePointID": 51642,
             "CommentTypeID": 10,
@@ -17,6 +32,22 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 28789,
+            "ChargePointID": 51642,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM51642/OCM-51642.orig.2021072613374097.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM51642/OCM-51642.thmb.2021072613374097.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2021-07-26T13:38:00Z"
+        },
         {
             "ID": 21926,
             "ChargePointID": 51642,
@@ -90,37 +121,39 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 51988,
-        "Title": "Parcheggio Piazzale Madonna | Neogy (ex ACSM)",
-        "AddressLine1": "Via Passo Rolle",
+        "Title": "Neogy Passo Rolle",
+        "AddressLine1": "Via Passo Rolle 76",
         "Town": "San Martino di Castrozza",
         "StateOrProvince": "TN",
         "CountryID": 112,
-        "Latitude": 46.261696392387634,
-        "Longitude": 11.800793211968085,
+        "Latitude": 46.26170298678059,
+        "Longitude": 11.80081728460641,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-neogy-fast-primiero-san-martino-di-castrozza-tn-via-passo-rolle-76-t18628.html",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 64048,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 30,
+            "ID": 304300,
+            "ConnectionTypeID": 33,
             "LevelID": 2,
-            "PowerKW": 6,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 50
         },
         {
-            "ID": 91115,
-            "ConnectionTypeID": 36,
-            "StatusTypeID": 30,
+            "ID": 304301,
+            "ConnectionTypeID": 2,
             "LevelID": 2,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 50
+        },
+        {
+            "ID": 304302,
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 22
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2020-04-13T09:27:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-07-26T13:40:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-08-07T17:18:00Z",
     "SubmissionStatusTypeID": 200
