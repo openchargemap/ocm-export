@@ -5,35 +5,46 @@
     "UUID": "8D74215A-57EB-4A9A-A037-602ADE19047D",
     "DataProviderID": 29,
     "DataProvidersReference": "9952",
+    "OperatorID": 86,
     "AddressInfo": {
         "ID": 177056,
-        "Title": "Steinbühl 1",
-        "AddressLine1": "Steinbühl 1",
-        "Town": "Dietmannsried",
-        "Postcode": "87463",
+        "Title": "Europastrasse 44",
+        "AddressLine1": "Europastrasse 44",
+        "Town": "Neu-Ulm",
+        "Postcode": "89231",
         "CountryID": 87,
-        "Latitude": 47.811323,
-        "Longitude": 10.302908,
+        "Latitude": 48.387569,
+        "Longitude": 10.03312,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 274911,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20
+            "PowerKW": 300,
+            "CurrentTypeID": 30
         },
         {
             "ID": 274912,
             "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 300,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 295777,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
             "CurrentTypeID": 30
         }
     ],
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-08T09:55:00Z",
+    "DateLastStatusUpdate": "2021-07-12T02:41:00Z",
     "MetadataValues": [
         {
             "ID": 8992,

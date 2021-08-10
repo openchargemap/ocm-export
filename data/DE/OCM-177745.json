@@ -5,28 +5,54 @@
     "UUID": "66C61119-411C-4010-8D53-1625D23E19C5",
     "DataProviderID": 29,
     "DataProvidersReference": "16958",
+    "OperatorID": 3369,
     "AddressInfo": {
         "ID": 178104,
-        "Title": "Hauptstraße 5",
-        "AddressLine1": "Hauptstraße 5",
-        "Town": "Zell am Harmersbach",
-        "Postcode": "77736",
+        "Title": "Eugen-Heller-Str 1-3",
+        "AddressLine1": "Eugen-Heller-Str 1-3",
+        "Town": "Gaildorf",
+        "Postcode": "74405",
         "CountryID": 87,
-        "Latitude": 48.345333,
-        "Longitude": 8.061613,
+        "Latitude": 49.00445,
+        "Longitude": 9.775,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 277256,
-            "ConnectionTypeID": 28,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 296495,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 296496,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 296497,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
         }
     ],
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-08T09:57:00Z",
+    "DateLastStatusUpdate": "2021-07-12T02:42:00Z",
     "MetadataValues": [
         {
             "ID": 10039,

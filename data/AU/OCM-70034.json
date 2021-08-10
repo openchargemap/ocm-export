@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 24676,
+            "ChargePointID": 70034,
+            "CommentTypeID": 10,
+            "UserName": "Wild Rice",
+            "Comment": "This used to be a Chargepoint J1772 station. Now reborn as a Type 2 Chargefox station.",
+            "Rating": 4,
+            "DateCreated": "2021-08-01T05:52:51.323Z",
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 22640,
             "ChargePointID": 70034,
             "CommentTypeID": 10,
@@ -30,6 +45,38 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 28868,
+            "ChargePointID": 70034,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM70034/OCM-70034.orig.2021080105552890.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM70034/OCM-70034.thmb.2021080105552890.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2021-08-01T05:56:00Z"
+        },
+        {
+            "ID": 28867,
+            "ChargePointID": 70034,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM70034/OCM-70034.orig.2021080105544310.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM70034/OCM-70034.thmb.2021080105544310.jpg",
+            "Comment": "Circontrol station ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2021-08-01T05:55:00Z"
+        },
         {
             "ID": 28408,
             "ChargePointID": 70034,
@@ -115,7 +162,7 @@
     "ID": 70034,
     "UUID": "8B59078E-BE10-4A17-A6D0-99DF1F669D6B",
     "DataProviderID": 1,
-    "OperatorID": 5,
+    "OperatorID": 3339,
     "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -128,25 +175,26 @@
         "CountryID": 18,
         "Latitude": -32.1311632744087,
         "Longitude": 115.85675239563,
-        "RelatedURL": "http://chargepoint",
+        "AccessComments": "Needs to be activated with Chargefox linked RFID card",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 98914,
-            "ConnectionTypeID": 1,
-            "StatusTypeID": 100,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
+            "Voltage": 240,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2021-07-02T11:47:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-08-01T05:56:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-07-02T08:55:00Z",
     "SubmissionStatusTypeID": 200

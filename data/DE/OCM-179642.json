@@ -5,35 +5,46 @@
     "UUID": "A136AE79-D148-4196-8D27-A4D288ECF93E",
     "DataProviderID": 29,
     "DataProvidersReference": "17892",
+    "OperatorID": 3403,
     "AddressInfo": {
         "ID": 180001,
-        "Title": "Kirchheimer Weg 4",
-        "AddressLine1": "Kirchheimer Weg 4",
-        "Town": "Heidelberg",
-        "Postcode": "69124",
+        "Title": "Brokenlande Ost",
+        "AddressLine1": "Brokenlande Ost",
+        "Town": "Brokenlande",
+        "Postcode": "24623",
         "CountryID": 87,
-        "Latitude": 49.394544,
-        "Longitude": 8.676054,
+        "Latitude": 54.01338,
+        "Longitude": 9.933177,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 281725,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 281726,
             "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 281726,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 302249,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 42,
+            "CurrentTypeID": 20
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-08T09:59:00Z",
+    "DateLastStatusUpdate": "2021-07-12T02:52:00Z",
     "MetadataValues": [
         {
             "ID": 11936,

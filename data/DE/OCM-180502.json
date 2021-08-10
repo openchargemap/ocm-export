@@ -5,21 +5,23 @@
     "UUID": "6B217017-D512-4B12-9D7E-E2ADEDAF8B2A",
     "DataProviderID": 29,
     "DataProvidersReference": "12098",
+    "OperatorID": 220,
     "AddressInfo": {
         "ID": 180861,
-        "Title": "Hauptstraße 7",
-        "AddressLine1": "Hauptstraße 7",
-        "Town": "Grettstadt",
-        "Postcode": "97508",
+        "Title": "Bundesstraße 35",
+        "AddressLine1": "Bundesstraße 35",
+        "Town": "Hamburg",
+        "Postcode": "20146",
         "CountryID": 87,
-        "Latitude": 49.98456,
-        "Longitude": 10.31308,
+        "Latitude": 53.566112,
+        "Longitude": 9.978813,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 283653,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20
@@ -27,13 +29,30 @@
         {
             "ID": 283654,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 301718,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 301719,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-08T10:00:00Z",
+    "DateLastStatusUpdate": "2021-07-12T02:51:00Z",
     "MetadataValues": [
         {
             "ID": 12796,

@@ -5,36 +5,45 @@
     "UUID": "8B6B2671-E9A2-4C48-B75B-92C6B587E9AA",
     "DataProviderID": 29,
     "DataProvidersReference": "20908",
-    "OperatorID": 105,
     "AddressInfo": {
         "ID": 181413,
-        "Title": "Marktplatz 2",
-        "AddressLine1": "Marktplatz 2",
-        "Town": "Mendig",
-        "Postcode": "56743",
+        "Title": "Otto-von-Guericke Straße",
+        "AddressLine1": "Otto-von-Guericke Straße",
+        "Town": "Borsdorf",
+        "Postcode": "04451",
         "CountryID": 87,
-        "Latitude": 50.3719,
-        "Longitude": 7.600089,
+        "Latitude": 51.354464,
+        "Longitude": 12.542412,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 284888,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
         },
         {
             "ID": 284889,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 299204,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-08T10:01:00Z",
+    "DateLastStatusUpdate": "2021-07-12T02:47:00Z",
     "MetadataValues": [
         {
             "ID": 13348,

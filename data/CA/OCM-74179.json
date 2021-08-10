@@ -6,7 +6,7 @@
     "OperatorID": 90,
     "OperatorsReference": "CEA-300",
     "UsageTypeID": 4,
-    "UsageCost": "CAD 1.00/hour",
+    "UsageCost": "CAD 12.08$/hour",
     "AddressInfo": {
         "ID": 74525,
         "Title": "St-Hubert-Bromont",
@@ -18,6 +18,8 @@
         "CountryID": 44,
         "Latitude": 45.333962,
         "Longitude": -72.647894,
+        "AccessComments": "L2 derrière le restaurant. 1 BRCC à droite et 4 à gauche du restaurant.",
+        "RelatedURL": "https://lecircuitelectrique.com/fr/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -39,11 +41,22 @@
             "LevelID": 2,
             "PowerKW": 50,
             "Quantity": 5
+        },
+        {
+            "ID": 304793,
+            "ConnectionTypeID": 33,
+            "Reference": "Circuit Electrique",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 5
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-02-25T18:36:00Z",
+    "DateLastStatusUpdate": "2021-08-10T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-11-24T14:50:00Z",
     "SubmissionStatusTypeID": 200
