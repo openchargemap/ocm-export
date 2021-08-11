@@ -1,28 +1,12 @@
 {
-    "UserComments": [
-        {
-            "ID": 9632,
-            "ChargePointID": 20904,
-            "CommentTypeID": 1000,
-            "UserName": "1Arty",
-            "Comment": "Only worked for ten minutes and then a fault occured.",
-            "Rating": 4,
-            "DateCreated": "2016-02-04T15:13:22.307Z",
-            "User": {
-                "ID": 7910,
-                "Username": "1Arty"
-            },
-            "CheckinStatusTypeID": 20
-        }
-    ],
     "IsRecentlyVerified": false,
     "ID": 20904,
     "UUID": "F6E619BA-34A3-483C-9B5B-55305F7AA466",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1189,1188",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 21249,
         "Title": "Washington Moto A1(M) (N) Services",
@@ -34,44 +18,61 @@
         "CountryID": 1,
         "Latitude": 54.889987,
         "Longitude": -1.559985,
-        "ContactTelephone1": "01453 761455",
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/our-electric-highway",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 22764,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10390*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 22765,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10390*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 34538,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10391*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 304811,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10391*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-18T06:13:00Z",
+    "DateLastStatusUpdate": "2021-08-10T14:18:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-21T10:26:00Z",
     "SubmissionStatusTypeID": 200

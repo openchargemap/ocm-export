@@ -42,20 +42,6 @@
             "CheckinStatusTypeID": 10
         },
         {
-            "ID": 9688,
-            "ChargePointID": 20903,
-            "CommentTypeID": 10,
-            "UserName": "Stefmog",
-            "Comment": "Charged twice over weekend. Renault Zoe AC",
-            "Rating": 4,
-            "DateCreated": "2016-02-11T16:49:27.567Z",
-            "User": {
-                "ID": 7854,
-                "Username": "Stefmog"
-            },
-            "CheckinStatusTypeID": 10
-        },
-        {
             "ID": 9635,
             "ChargePointID": 20903,
             "CommentTypeID": 10,
@@ -187,9 +173,9 @@
     "UUID": "A5069234-04B9-487F-91EC-51162580B659",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1163,1162",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "OperatorsReference": "GB*GFX*EGS10380*1,GB*GFX*EGS10380*2,GB*GFX*EGS10379*1,GB*GFX*EGS10379*2",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 21248,
         "Title": "Scotch Corner Moto Services",
@@ -200,49 +186,61 @@
         "CountryID": 1,
         "Latitude": 54.444292,
         "Longitude": -1.666988,
-        "ContactTelephone1": "01453 761455",
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/our-electric-highway",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 22762,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10379*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 22763,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10379*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 34540,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10380*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 304812,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10380*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-30T05:13:00Z",
+    "DateLastStatusUpdate": "2021-08-10T14:26:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-21T10:26:00Z",
     "SubmissionStatusTypeID": 200
