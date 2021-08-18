@@ -1,23 +1,42 @@
 {
+    "MediaItems": [
+        {
+            "ID": 28970,
+            "ChargePointID": 160773,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM160773/OCM-160773.orig.2021081223344051.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM160773/OCM-160773.thmb.2021081223344051.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22855,
+                "Username": "bert hogendoorn "
+            },
+            "DateCreated": "2021-08-12T23:35:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 160773,
     "UUID": "660F8E87-BEBA-4490-815A-113CC6BF79DB",
-    "DataProviderID": 2,
-    "DataProvidersReference": "157824",
-    "UsageTypeID": 2,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "0.33 minute",
     "AddressInfo": {
         "ID": 161130,
-        "Title": "Federated Co-operatives Ltd (FCL)",
+        "Title": "Carstairs Federated Co-operatives Ltd (FCL)",
         "AddressLine1": "400 10th Ave",
         "Town": "Carstairs",
         "StateOrProvince": "AB",
         "Postcode": "T0M 0N0",
         "CountryID": 44,
-        "Latitude": 51.5637513,
-        "Longitude": -114.0999934,
-        "ContactTelephone1": "",
+        "Latitude": 51.56398844648925,
+        "Longitude": -114.09731710111248,
+        "ContactTelephone1": "888-245-7435",
         "AccessComments": "",
-        "RelatedURL": "",
+        "RelatedURL": "https://www.fuel.crs/more/electric",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,27 +44,26 @@
             "ID": 231380,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 231381,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Operational.",
     "DatePlanned": "2020-09-01T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2020-06-26T03:12:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-08-12T23:43:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2020-06-26T03:12:00Z",
     "SubmissionStatusTypeID": 100

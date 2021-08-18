@@ -3,7 +3,7 @@
     "ID": 160338,
     "UUID": "8AFF8C77-119E-43AC-8D2A-7A2C0851F37F",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 5,
     "UsageTypeID": 1,
     "UsageCost": "13.80$/hour",
     "AddressInfo": {
@@ -17,7 +17,7 @@
         "Latitude": 45.322865,
         "Longitude": -72.645945,
         "ContactTelephone1": "",
-        "AccessComments": "",
+        "AccessComments": "Bornes situées à droite du IGA au fond du stationnement.",
         "RelatedURL": "https://jourdelaterre.org/qc/tous-les-jours/programmes/rechargeco/",
         "DistanceUnit": 0
     },
@@ -25,33 +25,33 @@
         {
             "ID": 230697,
             "ConnectionTypeID": 2,
-            "Reference": "RechargeECO",
+            "Reference": "Charge Point / RechargeECO",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
             "Voltage": 400,
             "PowerKW": 125,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Puissance partagée"
         },
         {
             "ID": 230698,
             "ConnectionTypeID": 32,
-            "Reference": "RechargeECO",
+            "Reference": "Charge Point / RechargeECO",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
             "Voltage": 400,
             "PowerKW": 125,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Puissance partagée"
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Puissance partagée si les deux bornes en fonction.",
     "DatePlanned": "2020-09-01T00:00:00Z",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-08-10T05:06:00Z",
+    "DateLastStatusUpdate": "2021-08-13T07:45:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2020-06-26T03:08:00Z",
     "SubmissionStatusTypeID": 100

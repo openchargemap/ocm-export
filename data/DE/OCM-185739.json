@@ -1,57 +1,90 @@
 {
+    "MediaItems": [
+        {
+            "ID": 28962,
+            "ChargePointID": 185739,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM185739/OCM-185739.orig.2021081208411857.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM185739/OCM-185739.thmb.2021081208411857.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 33715,
+                "Username": "ScRe"
+            },
+            "DateCreated": "2021-08-12T08:41:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
     "DateLastVerified": "2021-07-12T02:42:00Z",
     "ID": 185739,
     "UUID": "71939710-8FDC-4EBE-9D03-389C2CFBB29E",
-    "DataProviderID": 29,
-    "DataProvidersReference": "13542",
+    "DataProviderID": 1,
+    "OperatorID": 3466,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 186098,
         "Title": "Pforzheimer Straße 2",
         "AddressLine1": "Pforzheimer Straße 2",
         "Town": "Ettlingen",
+        "StateOrProvince": "Baden-Württemberg",
         "Postcode": "76275",
         "CountryID": 87,
-        "Latitude": 48.943313,
-        "Longitude": 8.408298,
+        "Latitude": 48.94331300000158,
+        "Longitude": 8.408298000000059,
+        "RelatedURL": "https://nextstepmobility.de/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 296435,
             "ConnectionTypeID": 28,
+            "Reference": "DE*NSM*E001*0008*1",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
             "CurrentTypeID": 20
         },
         {
             "ID": 296436,
             "ConnectionTypeID": 25,
+            "Reference": "DE*NSM*E001*0008*1",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20
         },
         {
             "ID": 296437,
             "ConnectionTypeID": 28,
+            "Reference": "DE*NSM*E001*0008*2",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10
         },
         {
             "ID": 296438,
             "ConnectionTypeID": 25,
+            "Reference": "DE*NSM*E001*0008*2",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-12T02:42:00Z",
+    "DateLastStatusUpdate": "2021-08-13T07:45:00Z",
     "MetadataValues": [
         {
             "ID": 17983,

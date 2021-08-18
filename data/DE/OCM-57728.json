@@ -1,38 +1,76 @@
 {
+    "MediaItems": [
+        {
+            "ID": 28958,
+            "ChargePointID": 57728,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM57728/OCM-57728.orig.2021081105343669.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM57728/OCM-57728.thmb.2021081105343669.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 33715,
+                "Username": "ScRe"
+            },
+            "DateCreated": "2021-08-11T05:35:00Z"
+        },
+        {
+            "ID": 28957,
+            "ChargePointID": 57728,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM57728/OCM-57728.orig.2021081105341781.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM57728/OCM-57728.thmb.2021081105341781.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 33715,
+                "Username": "ScRe"
+            },
+            "DateCreated": "2021-08-11T05:34:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 57728,
     "UUID": "0C22F585-B59C-4218-989C-C7BEA8BEDF44",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 3466,
     "OperatorsReference": "37209,37209",
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 58074,
         "Title": "Mühlenstraße",
         "AddressLine1": "Mühlenstraße",
-        "Town": "Landkreis Karlsruhe",
-        "StateOrProvince": "Landkreis Karlsruhe",
+        "Town": "Ettlingen",
+        "StateOrProvince": "Baden-Württemberg",
         "Postcode": "76275",
         "CountryID": 87,
         "Latitude": 48.9420462945538,
         "Longitude": 8.40577646914869,
         "AccessComments": "Laden kostenlos und ohne Ladekarte 24/7 nutzbar, Parkgebühren fallen an. Weiße Säule mit Typ2 Dose.",
+        "RelatedURL": "https://nextstepmobility.de/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 73066,
             "ConnectionTypeID": 25,
+            "Reference": "DE*NSM*E001*0010",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-18T05:52:00Z",
+    "DateLastStatusUpdate": "2021-08-13T07:45:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-12-18T21:54:00Z",
     "SubmissionStatusTypeID": 200

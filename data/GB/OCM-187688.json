@@ -3,13 +3,13 @@
     "DateLastVerified": "2021-07-12T03:38:00Z",
     "ID": 187688,
     "UUID": "5299DB22-BD42-4142-A10D-DA7FE6252012",
-    "DataProviderID": 18,
-    "DataProvidersReference": "35b0311924d1b191ec96983d5558f479",
+    "DataProviderID": 1,
     "OperatorID": 150,
     "UsageTypeID": 5,
+    "UsageCost": "£1.00 + £0.30/kWh ",
     "AddressInfo": {
         "ID": 188047,
-        "Title": "Portishead",
+        "Title": "Portishead Marina Rapid Charging Hub",
         "AddressLine1": "Portishead",
         "Town": "Bristol",
         "Postcode": "BS20 7DB",
@@ -17,46 +17,85 @@
         "Latitude": 51.486672,
         "Longitude": -2.76478,
         "AccessComments": "",
-        "RelatedURL": "http://www.chargepointservices.com/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 302922,
             "ConnectionTypeID": 2,
-            "Reference": "1",
+            "Reference": "RV00018",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 302923,
-            "ConnectionTypeID": 1036,
-            "Reference": "2",
+            "ConnectionTypeID": 33,
+            "Reference": "RV00018",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 302924,
             "ConnectionTypeID": 1036,
-            "Reference": "3",
+            "Reference": "RV00018",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Comments": ""
+        },
+        {
+            "ID": 304937,
+            "ConnectionTypeID": 1036,
+            "Reference": "RV00019",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 304938,
+            "ConnectionTypeID": 33,
+            "Reference": "RV00019",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 304939,
+            "ConnectionTypeID": 2,
+            "Reference": "RV00019",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-08-13T19:55:00Z",
     "MetadataValues": [
         {
             "ID": 19928,
