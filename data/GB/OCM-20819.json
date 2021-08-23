@@ -1,38 +1,4 @@
 {
-    "UserComments": [
-        {
-            "ID": 4738,
-            "ChargePointID": 20819,
-            "CommentTypeID": 10,
-            "UserName": "Leafer",
-            "Comment": "1 x DBT AC/DC charger, working well. Note N bound one not operational (17/6/15)",
-            "Rating": 4,
-            "DateCreated": "2015-06-20T19:35:17.437Z",
-            "User": {
-                "ID": 4972,
-                "Username": "Leafer"
-            },
-            "CheckinStatusTypeID": 10
-        }
-    ],
-    "MediaItems": [
-        {
-            "ID": 680,
-            "ChargePointID": 20819,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20819/OCM-20819.orig.2014102208202954.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20819/OCM-20819.thmb.2014102208202954.jpg",
-            "Comment": "Southbound Services - the charging point is at the left hand side of the services entrance",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 2357,
-                "Username": "Roy Moody"
-            },
-            "DateCreated": "2014-10-22T08:21:00Z"
-        }
-    ],
     "IsRecentlyVerified": false,
     "ID": 20819,
     "UUID": "8338BDF8-A742-4F5F-B162-B42C6762B5F6",
@@ -40,7 +6,7 @@
     "OperatorID": 24,
     "OperatorsReference": "1200",
     "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 21164,
         "Title": "Woolley Edge Moto M1 (S) Services",
@@ -58,26 +24,29 @@
         {
             "ID": 22674,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 150,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 22675,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
             "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-11-05T06:14:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2021-08-19T16:45:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-13T11:21:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,11 +1,30 @@
 {
+    "MediaItems": [
+        {
+            "ID": 29042,
+            "ChargePointID": 178814,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM178814/OCM-178814.orig.2021082012350544.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM178814/OCM-178814.thmb.2021082012350544.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 29260,
+                "Username": "Q1 Autostrom"
+            },
+            "DateCreated": "2021-08-20T12:35:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
     "DateLastVerified": "2021-07-08T09:50:00Z",
     "ID": 178814,
     "UUID": "FED9FF49-C9B4-4B6D-A7E9-2353BA8CEDB8",
-    "DataProviderID": 29,
-    "DataProvidersReference": "2805",
+    "DataProviderID": 1,
     "OperatorID": 3429,
+    "UsageTypeID": 1,
+    "UsageCost": "0,39 €/kWh",
     "AddressInfo": {
         "ID": 179173,
         "Title": "Alte Grüneberger Landstraße 1",
@@ -13,27 +32,12 @@
         "Town": "Löwenberger Land",
         "Postcode": "16775",
         "CountryID": 87,
-        "Latitude": 52.8221,
-        "Longitude": 13.215,
+        "Latitude": 52.823025578095155,
+        "Longitude": 13.218022716316455,
+        "ContactTelephone1": "0541602800",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 279748,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 279749,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 75,
-            "CurrentTypeID": 30
-        },
         {
             "ID": 300955,
             "ConnectionTypeID": 25,
@@ -43,8 +47,8 @@
             "CurrentTypeID": 20
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T02:50:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-08-21T06:22:00Z",
     "MetadataValues": [
         {
             "ID": 11108,

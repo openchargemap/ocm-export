@@ -149,72 +149,6 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "MediaItems": [
-        {
-            "ID": 1617,
-            "ChargePointID": 31339,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31339/OCM-31339.orig.2015062908400435.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31339/OCM-31339.thmb.2015062908400435.jpg",
-            "Comment": "Still good. Two more successful CCS rapid charges this morning👍",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 4523,
-                "Username": "Tim Snipe"
-            },
-            "DateCreated": "2015-06-29T08:41:00Z"
-        },
-        {
-            "ID": 1431,
-            "ChargePointID": 31339,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31339/OCM-31339.orig.2015051720561752.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31339/OCM-31339.thmb.2015051720561752.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 4523,
-                "Username": "Tim Snipe"
-            },
-            "DateCreated": "2015-05-17T20:57:00Z"
-        },
-        {
-            "ID": 1115,
-            "ChargePointID": 31339,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31339/OCM-31339.orig.2015031810023839.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31339/OCM-31339.thmb.2015031810023839.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 4523,
-                "Username": "Tim Snipe"
-            },
-            "DateCreated": "2015-03-18T10:03:00Z"
-        },
-        {
-            "ID": 1110,
-            "ChargePointID": 31339,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31339/OCM-31339.orig.2015031608343791.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31339/OCM-31339.thmb.2015031608343791.jpg",
-            "Comment": "2 marked bats. 2 charge posts. Away from main entrance so unlikely to be iced. Outside post house. 50yds to services. ",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 1815,
-                "Username": "GonvilleB"
-            },
-            "DateCreated": "2015-03-16T08:35:00Z"
-        }
-    ],
     "IsRecentlyVerified": false,
     "ID": 31339,
     "UUID": "9B5126A6-812C-4D73-BA6C-BEFBA5BA7FC2",
@@ -260,11 +194,13 @@
         },
         {
             "ID": 34773,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 150,
-            "LevelID": 3,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
@@ -291,6 +227,28 @@
         },
         {
             "ID": 304994,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 150,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 305110,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 305111,
             "ConnectionTypeID": 33,
             "StatusTypeID": 150,
             "LevelID": 3,
@@ -303,7 +261,7 @@
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-08-16T12:57:00Z",
+    "DateLastStatusUpdate": "2021-08-20T20:59:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-01-03T16:41:00Z",
     "SubmissionStatusTypeID": 200

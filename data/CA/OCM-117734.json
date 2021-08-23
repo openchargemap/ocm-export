@@ -14,8 +14,8 @@
         "StateOrProvince": "Quebec",
         "Postcode": "G0V1S0",
         "CountryID": 44,
-        "Latitude": 48.4496710839498,
-        "Longitude": -70.9026018060811,
+        "Latitude": 48.4496706127037,
+        "Longitude": -70.90240535789127,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,7 +26,7 @@
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 500,
-            "PowerKW": 62.5,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -37,15 +37,26 @@
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 500,
-            "PowerKW": 62.5,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 305172,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 30,
+            "Voltage": 240,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "Même si en théorie la borne peut fournir jusqu’à  62.5 kW, en pratique la limite est de 50 kW. (400V x 125A)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-02-26T09:00:00Z",
+    "DateLastStatusUpdate": "2021-08-21T06:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-02-26T00:50:00Z",
     "SubmissionStatusTypeID": 200

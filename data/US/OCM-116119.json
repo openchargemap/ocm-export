@@ -1,11 +1,29 @@
 {
+    "MediaItems": [
+        {
+            "ID": 29007,
+            "ChargePointID": 116119,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM116119/OCM-116119.orig.2021081818085620.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM116119/OCM-116119.thmb.2021081818085620.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 33325,
+                "Username": "The EV Guy"
+            },
+            "DateCreated": "2021-08-18T18:09:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 116119,
     "UUID": "EBC7F5CF-3D28-495B-9F3A-E0F13E9834E8",
-    "DataProviderID": 2,
-    "DataProvidersReference": "117126",
-    "OperatorID": 3293,
+    "DataProviderID": 1,
+    "OperatorID": 50,
     "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 116465,
         "Title": "Columbia Gorge Outlets",
@@ -14,8 +32,8 @@
         "StateOrProvince": "OR",
         "Postcode": "97060",
         "CountryID": 2,
-        "Latitude": 45.542319,
-        "Longitude": -122.389411,
+        "Latitude": 45.542319000000674,
+        "Longitude": -122.38941099999954,
         "ContactTelephone1": "503-669-8060  888-264-2208",
         "AccessComments": "6am-12am daily",
         "RelatedURL": "https://voltacharging.com/",
@@ -33,7 +51,9 @@
             "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:09:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-08-19T21:38:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-02-11T07:13:00Z",
     "SubmissionStatusTypeID": 100

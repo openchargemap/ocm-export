@@ -1,6 +1,35 @@
 {
     "UserComments": [
         {
+            "ID": 24750,
+            "ChargePointID": 175167,
+            "CommentTypeID": 10,
+            "UserName": "Wild Rice",
+            "Comment": "Fully operational ",
+            "Rating": 4,
+            "DateCreated": "2021-08-20T06:27:48.517Z",
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 24743,
+            "ChargePointID": 175167,
+            "CommentTypeID": 10,
+            "UserName": "Wild Rice",
+            "Comment": "There is an unconfirmed report that 2 out of the 3 stands are powered and operational. Will check this tomorrow. ",
+            "DateCreated": "2021-08-19T09:12:01.58Z",
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 24730,
             "ChargePointID": 175167,
             "CommentTypeID": 10,
@@ -414,7 +443,7 @@
     "DataProviderID": 1,
     "OperatorID": 23,
     "UsageTypeID": 4,
-    "UsageCost": "Tesla Suppercharger Cost",
+    "UsageCost": "Tesla Supercharger Cost",
     "AddressInfo": {
         "ID": 175526,
         "Title": "Williams Supercharger",
@@ -433,18 +462,16 @@
         {
             "ID": 271580,
             "ConnectionTypeID": 27,
-            "Reference": "https://www.tesla.com/findus/location/supercharger/williamsaustraliasupercharger",
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 3,
-            "Comments": ""
+            "Quantity": 3
         }
     ],
     "NumberOfPoints": 3,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-08-17T01:54:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-08-20T06:28:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-29T03:26:00Z",
     "SubmissionStatusTypeID": 200

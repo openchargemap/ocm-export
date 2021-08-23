@@ -1,21 +1,38 @@
 {
+    "MediaItems": [
+        {
+            "ID": 29063,
+            "ChargePointID": 160562,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM160562/OCM-160562.orig.2021082117235082.jpeg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM160562/OCM-160562.thmb.2021082117235082.jpeg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 33325,
+                "Username": "The EV Guy"
+            },
+            "DateCreated": "2021-08-21T17:24:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 160562,
     "UUID": "0D98BEF9-D9DE-4AC6-BD8D-AD407B0F4677",
-    "DataProviderID": 2,
-    "DataProvidersReference": "155325",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 160919,
-        "Title": "BOA 5-119 Kent, WA",
-        "AddressLine1": "311 4th. Ave. N. Kent, Washington 98032",
+        "Title": "Electrify America - Kent",
+        "AddressLine1": "311 4th. Ave. N.",
         "Town": "Kent",
         "StateOrProvince": "WA",
         "Postcode": "98032",
         "CountryID": 2,
-        "Latitude": 47.383298,
-        "Longitude": -122.236183,
+        "Latitude": 47.383225032451804,
+        "Longitude": -122.23617222338231,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -25,36 +42,36 @@
         {
             "ID": 231030,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
         },
         {
             "ID": 231031,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 231032,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 3
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:10:00Z",
+    "DateLastStatusUpdate": "2021-08-21T23:28:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2020-06-26T03:10:00Z",
     "SubmissionStatusTypeID": 100

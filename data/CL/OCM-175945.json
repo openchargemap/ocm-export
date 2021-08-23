@@ -4,35 +4,52 @@
     "ID": 175945,
     "UUID": "ECE82A4C-0E44-4FFF-940E-ED2A551CF8E5",
     "DataProviderID": 1,
-    "OperatorID": 80,
-    "UsageTypeID": 4,
-    "UsageCost": "free",
+    "OperatorID": 3461,
+    "UsageTypeID": 1,
+    "UsageCost": "250",
     "AddressInfo": {
         "ID": 176304,
-        "Title": "Avenida Los Trapenses",
-        "AddressLine1": "Avenida Los Trapenses",
+        "Title": "Shell Los Trapenses",
+        "AddressLine1": "Avenida Los Trapenses 3385",
         "Town": "Lo Barnechea",
         "StateOrProvince": "Provincia de Santiago",
         "Postcode": "1",
         "CountryID": 49,
-        "Latitude": -33.345062882334766,
-        "Longitude": -70.54376253675628,
-        "RelatedURL": "https://www.enelx.com/cl/es",
+        "Latitude": -33.34490155527136,
+        "Longitude": -70.5432260949757,
+        "AccessComments": "Punto está ubicado en Shell Los Trapenses, en estacionamiento al lado de tienda UPA",
+        "RelatedURL": "https://epro.enex.cl",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 273255,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 50,
+            "Quantity": 1
+        },
+        {
+            "ID": 305025,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 50,
+            "Quantity": 1
+        },
+        {
+            "ID": 305026,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 44,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-21T03:22:00Z",
+    "DateLastStatusUpdate": "2021-08-17T19:09:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-20T05:48:00Z",
     "SubmissionStatusTypeID": 200
