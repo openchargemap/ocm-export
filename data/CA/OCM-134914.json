@@ -1,11 +1,29 @@
 {
+    "MediaItems": [
+        {
+            "ID": 29083,
+            "ChargePointID": 134914,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM134914/OCM-134914.orig.2021082314411083.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM134914/OCM-134914.thmb.2021082314411083.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22855,
+                "Username": "bert hogendoorn "
+            },
+            "DateCreated": "2021-08-23T14:41:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 134914,
     "UUID": "53EED7A7-72EF-4027-86A2-C1DDD8FE9ECE",
     "DataProviderID": 1,
     "OperatorID": 3375,
     "UsageTypeID": 1,
-    "UsageCost": "free",
+    "UsageCost": "0.27",
     "AddressInfo": {
         "ID": 135260,
         "Title": "Petro Canada - Salmon Arm",
@@ -15,7 +33,8 @@
         "CountryID": 44,
         "Latitude": 50.69856269955264,
         "Longitude": -119.29569942663522,
-        "AccessComments": "Design calls for the following, but  delayed due to approvals not completed yet\r\nPetro-Canada DC Fast Chargers\r\nUp to 200kW CCS\r\nUp to 100kW CHAdeMO\r\nwww.petro-canada.ca/EV",
+        "ContactTelephone1": "800-668-0220",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,18 +43,18 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 100,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 188794,
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 200,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 189648,
@@ -47,23 +66,12 @@
             "PowerKW": 7.4,
             "CurrentTypeID": 10,
             "Quantity": 1
-        },
-        {
-            "ID": 189649,
-            "ConnectionTypeID": 1,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 240,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Site is open and Free for now but only Level 2 charger",
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2019-12-18T21:05:00Z",
+    "GeneralComments": "",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-08-23T14:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-12-02T19:59:00Z",
     "SubmissionStatusTypeID": 200

@@ -36,10 +36,10 @@
     "IsRecentlyVerified": false,
     "ID": 35383,
     "UUID": "6B19B7AB-5200-45E1-B7BC-304D87E6E25F",
-    "DataProviderID": 26,
-    "DataProvidersReference": "48702",
+    "DataProviderID": 1,
     "OperatorID": 178,
     "OperatorsReference": "EVnetNL REE581",
+    "UsageTypeID": 5,
     "UsageCost": "0.00 jaarabonnement",
     "AddressInfo": {
         "ID": 35729,
@@ -58,14 +58,18 @@
         {
             "ID": 38894,
             "ConnectionTypeID": 25,
-            "LevelID": 1,
-            "PowerKW": 2.3,
-            "CurrentTypeID": 10
+            "Reference": "REE581",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-06-04T02:44:00Z",
+    "DateLastStatusUpdate": "2021-08-25T09:25:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2015-01-09T06:04:00Z",
     "SubmissionStatusTypeID": 100

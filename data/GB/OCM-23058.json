@@ -181,38 +181,6 @@
                 "Username": "Alan Brown"
             },
             "DateCreated": "2014-08-17T18:17:00Z"
-        },
-        {
-            "ID": 449,
-            "ChargePointID": 23058,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM23058/OCM-23058.orig.2014062711413328.png",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM23058/OCM-23058.thmb.2014062711413328.png",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 1039,
-                "Username": "eoosterhoorn"
-            },
-            "DateCreated": "2014-06-27T11:42:00Z"
-        },
-        {
-            "ID": 448,
-            "ChargePointID": 23058,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM23058/OCM-23058.orig.2014062711402560.png",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM23058/OCM-23058.thmb.2014062711402560.png",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 1039,
-                "Username": "eoosterhoorn"
-            },
-            "DateCreated": "2014-06-27T11:41:00Z"
         }
     ],
     "IsRecentlyVerified": false,
@@ -220,7 +188,6 @@
     "UUID": "6C4D2113-383E-4354-8E9D-5A897641D9E4",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1139",
     "UsageTypeID": 5,
     "UsageCost": "£0.30/kWh",
     "AddressInfo": {
@@ -239,7 +206,8 @@
         {
             "ID": 24752,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "GB*GFX*EGS10366*1",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
@@ -250,7 +218,8 @@
         {
             "ID": 24753,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "GB*GFX*EGS10366*2",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 500,
@@ -260,8 +229,8 @@
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-08-19T19:14:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-08-27T11:06:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-04-03T20:03:00Z",
     "SubmissionStatusTypeID": 200

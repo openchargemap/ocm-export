@@ -2,8 +2,7 @@
     "IsRecentlyVerified": false,
     "ID": 141189,
     "UUID": "D9EA01AA-4A79-46A1-9C40-8C0A04821AA8",
-    "DataProviderID": 2,
-    "DataProvidersReference": "122658",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "UT",
         "Postcode": "84532",
         "CountryID": 2,
-        "Latitude": 38.577864,
-        "Longitude": -109.5525145,
+        "Latitude": 38.57788721551364,
+        "Longitude": -109.55240161985341,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -28,7 +27,7 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -38,13 +37,20 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 305384,
+            "ConnectionTypeID": 0,
+            "LevelID": 2,
+            "PowerKW": 6.6,
             "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:00:00Z",
+    "DateLastStatusUpdate": "2021-08-27T08:08:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:15:00Z",
     "SubmissionStatusTypeID": 100
