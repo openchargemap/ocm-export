@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 24804,
+            "ChargePointID": 48358,
+            "CommentTypeID": 10,
+            "UserName": "Wild Rice",
+            "Comment": "New DC charger. A lot more reliable. ",
+            "Rating": 4,
+            "DateCreated": "2021-09-02T08:33:43.52Z",
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 22586,
             "ChargePointID": 48358,
             "CommentTypeID": 10,
@@ -44,6 +59,38 @@
     ],
     "MediaItems": [
         {
+            "ID": 29184,
+            "ChargePointID": 48358,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48358/OCM-48358.orig.2021090208323720.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48358/OCM-48358.thmb.2021090208323720.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2021-09-02T08:33:00Z"
+        },
+        {
+            "ID": 29183,
+            "ChargePointID": 48358,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48358/OCM-48358.orig.2021090208314064.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48358/OCM-48358.thmb.2021090208314064.jpg",
+            "Comment": "New DC charger",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2021-09-02T08:32:00Z"
+        },
+        {
             "ID": 27080,
             "ChargePointID": 48358,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48358/OCM-48358.orig.2021033004063554.jpg",
@@ -58,22 +105,6 @@
                 "Username": "Wild Rice"
             },
             "DateCreated": "2021-03-30T04:07:00Z"
-        },
-        {
-            "ID": 22289,
-            "ChargePointID": 48358,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48358/OCM-48358.orig.2020051206415585.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48358/OCM-48358.thmb.2020051206415585.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 1319,
-                "Username": "g4qber"
-            },
-            "DateCreated": "2020-05-12T06:42:00Z"
         }
     ],
     "IsRecentlyVerified": false,
@@ -100,36 +131,25 @@
     },
     "Connections": [
         {
-            "ID": 59784,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
             "ID": 59785,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 120,
             "Voltage": 500,
             "PowerKW": 50,
-            "CurrentTypeID": 10,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 59786,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 120,
             "Voltage": 500,
             "PowerKW": 50,
-            "CurrentTypeID": 10,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -146,7 +166,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-28T22:11:00Z",
+    "DateLastStatusUpdate": "2021-09-03T01:55:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-06-25T04:58:00Z",
     "SubmissionStatusTypeID": 200
