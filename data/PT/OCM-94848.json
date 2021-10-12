@@ -4,9 +4,12 @@
     "UUID": "871E356D-6E0C-4BD2-B7AA-76B6C59DDFCE",
     "DataProviderID": 1,
     "DataProvidersReference": "MCH-00002",
+    "OperatorID": 21,
+    "UsageTypeID": 4,
+    "UsageCost": "Mobi.E compatible card or App",
     "AddressInfo": {
         "ID": 95194,
-        "Title": "Praceta 25 de Abril",
+        "Title": "MCH-00002",
         "AddressLine1": "Praceta 25 de Abril",
         "Town": "Machico",
         "Postcode": "9200-084",
@@ -19,16 +22,41 @@
     "Connections": [
         {
             "ID": 134077,
-            "ConnectionTypeID": 0,
-            "LevelID": 2,
-            "Amps": 75,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 306301,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 120,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 306302,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 64,
             "Voltage": 400,
-            "PowerKW": 30
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-12-24T08:08:00Z",
+    "DateLastStatusUpdate": "2021-09-25T18:57:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2017-10-28T13:32:00Z",
     "SubmissionStatusTypeID": 100

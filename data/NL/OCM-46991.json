@@ -5,8 +5,8 @@
     "DataProviderID": 1,
     "OperatorID": 74,
     "OperatorsReference": "Fastned De Veenen",
-    "UsageTypeID": 0,
-    "UsageCost": "0.00 per kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "0.59 per kWh - Basic plan",
     "AddressInfo": {
         "ID": 47337,
         "Title": "Fastned De Veenen",
@@ -16,8 +16,8 @@
         "StateOrProvince": "",
         "Postcode": "6718 VZ",
         "CountryID": 159,
-        "Latitude": 52.06358623236697,
-        "Longitude": 5.6089335680007935,
+        "Latitude": 52.064285397002664,
+        "Longitude": 5.608955025628347,
         "ContactTelephone1": "020-7055300",
         "ContactTelephone2": "",
         "ContactEmail": "support@fastned.nl",
@@ -29,38 +29,43 @@
         {
             "ID": 57828,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 0,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 3
         },
         {
             "ID": 57829,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 0,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "PowerKW": 38,
+            "Quantity": 2
         },
         {
             "ID": 82283,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 0,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 82284,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 0,
-            "LevelID": 2,
-            "PowerKW": 43
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 400,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-03-11T23:31:00Z",
+    "DateLastStatusUpdate": "2021-08-28T21:45:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2015-05-11T09:12:00Z",
     "SubmissionStatusTypeID": 100

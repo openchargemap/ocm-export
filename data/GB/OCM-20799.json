@@ -1,20 +1,6 @@
 {
     "UserComments": [
         {
-            "ID": 14601,
-            "ChargePointID": 20799,
-            "CommentTypeID": 10,
-            "UserName": "John Riley",
-            "Comment": "I rated as average because I charged both in the morning and a late evening return. On both occasions I had to use my wife's phone due to not getting enough connectivity on mine. However it worked okay at Cobham services. ",
-            "Rating": 3,
-            "DateCreated": "2016-11-25T19:30:44.98Z",
-            "User": {
-                "ID": 3404,
-                "Username": "John Riley"
-            },
-            "CheckinStatusTypeID": 10
-        },
-        {
             "ID": 10401,
             "ChargePointID": 20799,
             "CommentTypeID": 10,
@@ -25,33 +11,6 @@
             "User": {
                 "ID": 4899,
                 "Username": "Peter Galbavy"
-            },
-            "CheckinStatusTypeID": 10
-        },
-        {
-            "ID": 6426,
-            "ChargePointID": 20799,
-            "CommentTypeID": 10,
-            "UserName": "James Alexander",
-            "Comment": "Only the right hand Chademo is working.  The left hand unit's screen has frozen. ",
-            "DateCreated": "2015-09-06T08:34:46.203Z",
-            "User": {
-                "ID": 6294,
-                "Username": "James Alexander"
-            },
-            "CheckinStatusTypeID": 10
-        },
-        {
-            "ID": 4906,
-            "ChargePointID": 20799,
-            "CommentTypeID": 50,
-            "UserName": "Matthew Knott",
-            "Comment": "There are 2 DC rapid chargers at the site, however in the last (Dec 14 to July 15) 6 months only 1 DC charger has been functional.",
-            "Rating": 3,
-            "DateCreated": "2015-07-12T13:02:45.41Z",
-            "User": {
-                "ID": 3424,
-                "Username": "Matthew Knott"
             },
             "CheckinStatusTypeID": 10
         }
@@ -95,7 +54,6 @@
     "UUID": "1A0E0B64-AE6F-4BD4-922D-E11A137F887B",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1177,1176,1178",
     "UsageTypeID": 5,
     "UsageCost": "£0.30/kWh",
     "AddressInfo": {
@@ -115,6 +73,7 @@
         {
             "ID": 22627,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10321*1",
             "StatusTypeID": 150,
             "LevelID": 3,
             "Amps": 200,
@@ -126,6 +85,7 @@
         {
             "ID": 22628,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10321*2",
             "StatusTypeID": 150,
             "LevelID": 3,
             "Amps": 200,
@@ -137,6 +97,7 @@
         {
             "ID": 34557,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10322*1",
             "StatusTypeID": 150,
             "LevelID": 3,
             "Amps": 200,
@@ -148,6 +109,7 @@
         {
             "ID": 305107,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10322*2",
             "StatusTypeID": 150,
             "LevelID": 3,
             "Amps": 200,
@@ -159,6 +121,7 @@
         {
             "ID": 305108,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10323*1",
             "StatusTypeID": 150,
             "LevelID": 3,
             "Amps": 200,
@@ -170,6 +133,7 @@
         {
             "ID": 305109,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10323*2",
             "StatusTypeID": 150,
             "LevelID": 3,
             "Amps": 200,
@@ -181,7 +145,7 @@
     ],
     "NumberOfPoints": 3,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-08-19T16:32:00Z",
+    "DateLastStatusUpdate": "2021-09-06T17:01:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-13T11:21:00Z",
     "SubmissionStatusTypeID": 200

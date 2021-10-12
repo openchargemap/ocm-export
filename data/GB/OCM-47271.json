@@ -108,7 +108,7 @@
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1251,1252",
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
     "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
     "AddressInfo": {
         "ID": 47617,
@@ -132,17 +132,17 @@
             "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 58279,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -150,7 +150,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 306611,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 120,
             "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -158,9 +169,9 @@
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Access to rapid chargers via Ecotricity app only. ",
+    "GeneralComments": "One charger currently still only via the old Ecotricity app, the other should be a new Gridserve contactless payment",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-31T06:12:00Z",
+    "DateLastStatusUpdate": "2021-10-10T17:24:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-05-22T08:05:00Z",
     "SubmissionStatusTypeID": 200

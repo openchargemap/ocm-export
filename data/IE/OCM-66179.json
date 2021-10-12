@@ -1,4 +1,22 @@
 {
+    "MediaItems": [
+        {
+            "ID": 29153,
+            "ChargePointID": 66179,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IE/OCM66179/OCM-66179.orig.2021082915594936.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IE/OCM66179/OCM-66179.thmb.2021082915594936.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 34264,
+                "Username": "foophoof"
+            },
+            "DateCreated": "2021-08-29T16:00:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 66179,
     "UUID": "FBEDD7D3-D307-41BD-B48C-F7C9B5FD3230",
@@ -8,7 +26,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 66525,
-        "Title": "Public Car Park",
+        "Title": "Bolton Street Public Car Park",
         "AddressLine1": "Bolton Street",
         "Town": "Waterford",
         "StateOrProvince": "County Waterford",
@@ -19,20 +37,36 @@
     },
     "Connections": [
         {
-            "ID": 91471,
+            "ID": 305508,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 305509,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 305510,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 75,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2019-06-26T05:31:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-09-01T08:01:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-05-12T08:35:00Z",
     "SubmissionStatusTypeID": 200

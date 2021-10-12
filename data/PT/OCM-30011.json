@@ -4,9 +4,12 @@
     "UUID": "6D4D188F-F4AB-446B-A10D-4104BB77BF83",
     "DataProviderID": 1,
     "DataProvidersReference": "STN-00001",
+    "OperatorID": 21,
+    "UsageTypeID": 4,
+    "UsageCost": "Mobi.E compatible card or App",
     "AddressInfo": {
         "ID": 30357,
-        "Title": "Sítio do Serrado",
+        "Title": "STN-00003",
         "AddressLine1": "Sítio do Serrado",
         "Town": "Santana",
         "Postcode": "9230-000",
@@ -19,16 +22,19 @@
     "Connections": [
         {
             "ID": 32996,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 220,
-            "PowerKW": 3
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-12-24T08:08:00Z",
+    "DateLastStatusUpdate": "2021-09-25T19:14:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2014-11-29T14:48:00Z",
     "SubmissionStatusTypeID": 100

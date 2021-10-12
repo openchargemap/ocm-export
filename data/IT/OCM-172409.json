@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 24857,
+            "ChargePointID": 172409,
+            "CommentTypeID": 10,
+            "UserName": "Carlomanda",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2021-09-16T21:56:09.587Z",
+            "User": {
+                "ID": 30566,
+                "Username": "Carlomanda"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 23840,
             "ChargePointID": 172409,
             "CommentTypeID": 10,
@@ -88,6 +103,7 @@
     "DataProviderID": 1,
     "OperatorID": 3327,
     "UsageTypeID": 4,
+    "UsageCost": "0,45 €/kWh",
     "AddressInfo": {
         "ID": 172768,
         "Title": "BeCharge  Rimini Villaggio 1º maggio",
@@ -105,7 +121,8 @@
         {
             "ID": 263611,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 75,
             "CurrentTypeID": 30,
@@ -114,7 +131,7 @@
         {
             "ID": 263612,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 51,
             "CurrentTypeID": 30,
@@ -123,7 +140,7 @@
         {
             "ID": 263613,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -133,8 +150,8 @@
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2021-03-08T16:05:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-09-17T06:56:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-02-01T08:53:00Z",
     "SubmissionStatusTypeID": 200

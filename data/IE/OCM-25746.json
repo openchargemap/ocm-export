@@ -6,7 +6,7 @@
     "OperatorID": 22,
     "OperatorsReference": "C85WS",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 26092,
         "Title": "Park Pointe",
@@ -17,21 +17,10 @@
         "CountryID": 3,
         "Latitude": 53.2826091346007,
         "Longitude": -6.14386590475466,
-        "AccessComments": "In front of the Tesco. Two rapid chargers available, one 50 kW SGTE ChaDeMo and one Siemens Triple Head",
+        "AccessComments": "In front of the Tesco.",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 28098,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 120,
-            "Voltage": 500,
-            "PowerKW": 45,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 28099,
             "ConnectionTypeID": 33,
@@ -63,12 +52,21 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 305507,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
-    "GeneralComments": "efacec QC45 & SGTE  ChaDeMo",
+    "NumberOfPoints": 4,
+    "GeneralComments": "efacec QC45 & two-socket 22kW type 2",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-06-03T09:48:00Z",
+    "DateLastStatusUpdate": "2021-09-01T08:01:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-11-19T12:47:00Z",
     "SubmissionStatusTypeID": 200

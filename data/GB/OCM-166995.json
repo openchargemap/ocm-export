@@ -22,17 +22,16 @@
     "DataProviderID": 1,
     "OperatorID": 203,
     "UsageTypeID": 5,
+    "UsageCost": "£0.36/kWh Contactless",
     "AddressInfo": {
         "ID": 167354,
-        "Title": "10 Apollo Rise",
+        "Title": "The Sarsen Stones Pub & Restaurant",
         "AddressLine1": "10 Apollo Rise",
         "Town": "Farnborough",
         "Postcode": "GU14 0JW",
         "CountryID": 1,
         "Latitude": 51.29278,
         "Longitude": -0.78588,
-        "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -45,7 +44,8 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 252819,
@@ -56,7 +56,8 @@
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 252820,
@@ -67,11 +68,46 @@
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 305558,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 305559,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 305560,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-26T09:46:00Z",
+    "DateLastStatusUpdate": "2021-09-02T15:59:00Z",
     "MetadataValues": [
         {
             "ID": 7752,
@@ -81,5 +117,5 @@
     ],
     "DataQualityLevel": 3,
     "DateCreated": "2020-08-27T08:10:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

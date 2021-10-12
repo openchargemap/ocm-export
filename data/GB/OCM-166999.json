@@ -5,17 +5,16 @@
     "DataProviderID": 1,
     "OperatorID": 203,
     "UsageTypeID": 5,
+    "UsageCost": "£0.36/kWh",
     "AddressInfo": {
         "ID": 167358,
-        "Title": "Beaufighter Rd",
-        "AddressLine1": "Beaufighter Rd",
+        "Title": "The Landing Light Pub & Restaurant",
+        "AddressLine1": "Beaufighter Road",
         "Town": "Weston-super-Mare",
         "Postcode": "BS24 8EE",
         "CountryID": 1,
         "Latitude": 51.34243,
         "Longitude": -2.93366,
-        "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -54,10 +53,44 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 306386,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 306387,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 306388,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-08T02:01:00Z",
+    "DateLastStatusUpdate": "2021-09-30T12:46:00Z",
     "MetadataValues": [
         {
             "ID": 7756,
@@ -67,5 +100,5 @@
     ],
     "DataQualityLevel": 3,
     "DateCreated": "2020-08-27T08:10:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

@@ -3,10 +3,10 @@
     "ID": 131691,
     "UUID": "F6958FFA-284D-4246-9C7B-5B1EC57581DE",
     "DataProviderID": 1,
-    "OperatorID": 20,
+    "OperatorID": 3295,
     "OperatorsReference": "41101,41102,41103",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.35/kWh",
     "AddressInfo": {
         "ID": 132037,
         "Title": "Mermaid Car Park Blyth",
@@ -23,18 +23,31 @@
         {
             "ID": 184312,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 0,
+            "Reference": "UKEV6392",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 3
+            "Quantity": 2
+        },
+        {
+            "ID": 306366,
+            "ConnectionTypeID": 25,
+            "Reference": "UKEV6393",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-09-11T05:14:00Z",
+    "DateLastStatusUpdate": "2021-09-27T21:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-09-10T13:56:00Z",
     "SubmissionStatusTypeID": 200

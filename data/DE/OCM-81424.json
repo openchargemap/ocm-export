@@ -1,4 +1,54 @@
 {
+    "UserComments": [
+        {
+            "ID": 24891,
+            "ChargePointID": 81424,
+            "CommentTypeID": 50,
+            "UserName": "luas",
+            "Comment": "Leider entgegen den Angaben hier keine Schuko-Steckdose vorhanden.",
+            "DateCreated": "2021-09-25T18:40:19.173Z",
+            "User": {
+                "ID": 34661,
+                "Username": "luas"
+            },
+            "CheckinStatusTypeID": 25,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 29344,
+            "ChargePointID": 81424,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM81424/OCM-81424.orig.2021092518391748.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM81424/OCM-81424.thmb.2021092518391748.jpg",
+            "Comment": "bin nicht sicher, wie dieser Stecker heißt - jedenfalls sind keine Schuko-Dosen vorhanden!",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 34661,
+                "Username": "luas"
+            },
+            "DateCreated": "2021-09-25T18:39:00Z"
+        },
+        {
+            "ID": 29343,
+            "ChargePointID": 81424,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM81424/OCM-81424.orig.2021092518382002.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM81424/OCM-81424.thmb.2021092518382002.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 34661,
+                "Username": "luas"
+            },
+            "DateCreated": "2021-09-25T18:38:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 81424,
     "UUID": "D6E9156A-C41B-4603-BCA0-BE8249496F46",
@@ -22,21 +72,17 @@
     },
     "Connections": [
         {
-            "ID": 116144,
-            "ConnectionTypeID": 28,
+            "ID": 306328,
+            "ConnectionTypeID": 0,
             "StatusTypeID": 50,
-            "LevelID": 1,
-            "Amps": 10,
-            "Voltage": 230,
-            "PowerKW": 2.3,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Spezial-Stecker von bike-energy.com"
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "Netzwerk: Stromtreter",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-02-01T13:45:00Z",
+    "DateLastStatusUpdate": "2021-09-26T05:37:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-02-01T13:45:00Z",
     "SubmissionStatusTypeID": 200

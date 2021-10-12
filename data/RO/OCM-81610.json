@@ -23,7 +23,7 @@
     "DataProviderID": 1,
     "OperatorID": 3271,
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "DC: 1.95RON/kWh AC: 1.45RON/kWh",
     "AddressInfo": {
         "ID": 81956,
         "Title": "Kaufland",
@@ -35,7 +35,7 @@
         "Longitude": 23.6139079034463,
         "ContactTelephone1": "40372756599",
         "ContactEmail": "office@e-charge.ro",
-        "AccessComments": "Free to use, request card at office@e-charge.ro or Kaufland Infodesk\r\n",
+        "AccessComments": "",
         "RelatedURL": "http://e-charge.ro/",
         "DistanceUnit": 0
     },
@@ -49,13 +49,31 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 305717,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 305718,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Renovatio e-charge 22kW Type 2 (socket)",
+    "NumberOfPoints": 3,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-02-03T12:32:00Z",
+    "DateLastStatusUpdate": "2021-09-08T07:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-02-03T09:06:00Z",
     "SubmissionStatusTypeID": 200

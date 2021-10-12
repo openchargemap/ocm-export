@@ -3,20 +3,22 @@
     "DateLastVerified": "2021-07-12T03:39:00Z",
     "ID": 188082,
     "UUID": "FEC4381F-6E0A-4B12-81B2-5D72DB70F129",
-    "DataProviderID": 18,
-    "DataProvidersReference": "3cbeb9628aefc2145acc691efc119fd7",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "25p per kW App or RFID card",
     "AddressInfo": {
         "ID": 188441,
-        "Title": "YO17 7HH",
-        "AddressLine1": "",
-        "Town": "Malton",
+        "Title": "Ryedale Council Offices",
+        "AddressLine1": "Ryedale Council Offices",
+        "Town": "Ryedale",
+        "StateOrProvince": "England",
         "Postcode": "YO17 7HH",
         "CountryID": 1,
         "Latitude": 54.13944,
         "Longitude": -0.789851,
-        "AccessComments": "",
-        "RelatedURL": "http://www.connectedkerb.com/",
+        "AccessComments": "Download App information on charger",
+        "RelatedURL": "https://www.connectedkerb.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,11 +31,13 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "GeneralComments": "Parking is Free",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-08-28T11:43:00Z",
     "MetadataValues": [
         {
             "ID": 20322,

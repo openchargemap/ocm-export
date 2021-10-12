@@ -1,6 +1,5 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-06-26T20:18:00Z",
+    "IsRecentlyVerified": false,
     "ID": 176137,
     "UUID": "4E567B1B-FA9D-4511-9EF1-1B7C8818DF3C",
     "DataProviderID": 1,
@@ -8,14 +7,16 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 176496,
-        "Title": "Total EV Charge - Aire du Poitou-Charentes (Directions Poitiers)",
-        "AddressLine1": "",
+        "Title": "Total EV Charge - Relais Poitou Charentes Sud",
+        "AddressLine1": "Route des Estuaires A10",
+        "AddressLine2": "Aire De Poitou",
         "Town": "Vouillé",
         "StateOrProvince": "France",
         "Postcode": "79230",
         "CountryID": 80,
         "Latitude": 46.2973366,
         "Longitude": -0.3698327,
+        "RelatedURL": "https://apps.total-ev-charge.com/charge-points/TOTAL-NF078016-001",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -45,11 +46,18 @@
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 305464,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-28T07:56:00Z",
+    "DateLastStatusUpdate": "2021-08-30T12:38:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-26T20:18:00Z",
     "SubmissionStatusTypeID": 200

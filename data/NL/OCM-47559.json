@@ -52,6 +52,7 @@
     "DataProviderID": 1,
     "OperatorID": 74,
     "UsageTypeID": 4,
+    "UsageCost": "0,59 per kWh",
     "AddressInfo": {
         "ID": 47905,
         "Title": "Fastned de Slenk",
@@ -60,8 +61,8 @@
         "StateOrProvince": "Gelderland ",
         "Postcode": "6816 VX",
         "CountryID": 159,
-        "Latitude": 52.00740677149082,
-        "Longitude": 5.812305653607609,
+        "Latitude": 52.00771056541515,
+        "Longitude": 5.812241280581816,
         "RelatedURL": "http://www.fastned.nl",
         "DistanceUnit": 0
     },
@@ -83,21 +84,31 @@
             "StatusTypeID": 0,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 185445,
             "ConnectionTypeID": 33,
             "StatusTypeID": 0,
             "LevelID": 3,
-            "PowerKW": 175,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 305432,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 38,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-09-30T15:44:00Z",
+    "DateLastStatusUpdate": "2021-08-28T21:49:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-05-31T08:56:00Z",
     "SubmissionStatusTypeID": 200

@@ -2,10 +2,10 @@
     "IsRecentlyVerified": false,
     "ID": 141525,
     "UUID": "065D0A46-24D3-4885-9E79-75B452B80B3F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "143500",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "$0.14284/kWh",
     "AddressInfo": {
         "ID": 141877,
         "Title": "EVERGY",
@@ -14,8 +14,8 @@
         "StateOrProvince": "KS",
         "Postcode": "66044",
         "CountryID": 2,
-        "Latitude": 39.0202236,
-        "Longitude": -95.134502,
+        "Latitude": 39.02025923609989,
+        "Longitude": -95.13463676091658,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -31,10 +31,29 @@
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
             "Quantity": 2
+        },
+        {
+            "ID": 305657,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 125,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 305658,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 125,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:01:00Z",
+    "DateLastStatusUpdate": "2021-09-07T06:21:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:15:00Z",
     "SubmissionStatusTypeID": 100

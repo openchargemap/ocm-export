@@ -5,11 +5,11 @@
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1223,2224",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 148134,
-        "Title": "Sedgemoor Welcome Break M5 (S) Services ",
+        "Title": "Sedgemoor Roadchef M5 (S) Services ",
         "AddressLine1": "M5 Junction 21/22",
         "Town": "Burnham-on-Sea",
         "StateOrProvince": "Somerset",
@@ -23,6 +23,7 @@
         {
             "ID": 205139,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10223*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -31,11 +32,14 @@
         },
         {
             "ID": 205140,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10223*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -43,14 +47,27 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 305901,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-09T08:54:00Z",
+    "DateLastStatusUpdate": "2021-09-13T10:26:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-01-16T20:12:00Z",
     "SubmissionStatusTypeID": 200

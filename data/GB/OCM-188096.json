@@ -3,20 +3,22 @@
     "DateLastVerified": "2021-07-12T03:39:00Z",
     "ID": 188096,
     "UUID": "388BE268-F006-4DA7-A429-9F726BC2E11F",
-    "DataProviderID": 18,
-    "DataProvidersReference": "acbbfa5c6167e7c9659f760d1bf0f634",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "25p per kW",
     "AddressInfo": {
         "ID": 188455,
-        "Title": "YO18 8DL",
-        "AddressLine1": "",
-        "Town": "Pickering",
-        "Postcode": "YO18 8DL",
+        "Title": "Vivis Lane Car Park",
+        "AddressLine1": "Vivis Lane Car Park",
+        "Town": "Ryedale",
+        "StateOrProvince": "England",
+        "Postcode": "YO18 8BL",
         "CountryID": 1,
         "Latitude": 54.243997,
         "Longitude": -0.780895,
-        "AccessComments": "",
-        "RelatedURL": "http://www.connectedkerb.com/",
+        "AccessComments": "parking fees apply while charging 9am - 18.30pm",
+        "RelatedURL": "https://www.connectedkerb.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,11 +31,13 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "GeneralComments": "use App or RFID card : information on charger",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-08-28T12:02:00Z",
     "MetadataValues": [
         {
             "ID": 20336,

@@ -57,22 +57,6 @@
                 "Username": "Tim Snipe"
             },
             "DateCreated": "2015-02-07T14:10:00Z"
-        },
-        {
-            "ID": 962,
-            "ChargePointID": 20814,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20814/OCM-20814.orig.2015020713111926.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20814/OCM-20814.thmb.2015020713111926.jpg",
-            "Comment": "DBT charger. Operational. No CCS so once again 7.5KW on the i3.",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 4523,
-                "Username": "Tim Snipe"
-            },
-            "DateCreated": "2015-02-07T13:12:00Z"
         }
     ],
     "IsRecentlyVerified": false,
@@ -80,9 +64,8 @@
     "UUID": "762DC732-B048-47AF-9936-86A74CF93CCD",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1231",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 21159,
         "Title": "Tibshelf Roadchef M1 (N) Services",
@@ -99,26 +82,31 @@
         {
             "ID": 22664,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10324*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 22665,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10324*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-02-18T06:14:00Z",
+    "DateLastStatusUpdate": "2021-09-22T20:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-13T11:21:00Z",
     "SubmissionStatusTypeID": 200

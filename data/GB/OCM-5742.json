@@ -1,6 +1,36 @@
 {
     "UserComments": [
         {
+            "ID": 24902,
+            "ChargePointID": 5742,
+            "CommentTypeID": 1000,
+            "UserName": "Gabrielh19",
+            "Comment": "dead chadamo x2 westbound",
+            "Rating": 1,
+            "DateCreated": "2021-09-28T14:43:48.683Z",
+            "User": {
+                "ID": 31898,
+                "Username": "Gabrielh19"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 24848,
+            "ChargePointID": 5742,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "one of the chademo units was on free vend and worked, but the bollards have suffered impact damage and you can't put the connector back properly. The CCS/ChaDeMo unit has major collision damage and is out of service.",
+            "Rating": 1,
+            "DateCreated": "2021-09-15T14:16:42.307Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 15932,
             "ChargePointID": 5742,
             "CommentTypeID": 10,
@@ -311,18 +341,19 @@
         {
             "ID": 491,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 100,
+            "StatusTypeID": 75,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "only working on one side. Needs old Ecotricity RFID"
         },
         {
             "ID": 13464,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 75,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
@@ -344,17 +375,18 @@
         {
             "ID": 34724,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "collision damaged unit"
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "Access to rapid chargers via Ecotricity app only. Access to 22kW sockets via RFID (free)",
+    "GeneralComments": "Access to rapid chargers via Ecotricity app only. Access to 22kW sockets via old Ecotricity RFID (free)",
     "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2021-06-30T13:57:00Z",
+    "DateLastStatusUpdate": "2021-09-28T14:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-09-12T11:40:00Z",
     "SubmissionStatusTypeID": 200

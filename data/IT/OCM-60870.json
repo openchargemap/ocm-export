@@ -1,6 +1,36 @@
 {
     "UserComments": [
         {
+            "ID": 24842,
+            "ChargePointID": 60870,
+            "CommentTypeID": 50,
+            "UserName": "MauroneRelax",
+            "Comment": "plug and play, not recommended in hot hours in summer",
+            "Rating": 3,
+            "DateCreated": "2021-09-12T21:10:25.567Z",
+            "User": {
+                "ID": 27925,
+                "Username": "MauroneRelax"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 24840,
+            "ChargePointID": 60870,
+            "CommentTypeID": 10,
+            "UserName": "MauroneRelax",
+            "Comment": "",
+            "Rating": 3,
+            "DateCreated": "2021-09-12T16:01:12.18Z",
+            "User": {
+                "ID": 27925,
+                "Username": "MauroneRelax"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 16141,
             "ChargePointID": 60870,
             "CommentTypeID": 1000,
@@ -16,6 +46,70 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 29246,
+            "ChargePointID": 60870,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM60870/OCM-60870.orig.2021091221123919.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM60870/OCM-60870.thmb.2021091221123919.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27925,
+                "Username": "MauroneRelax"
+            },
+            "DateCreated": "2021-09-12T21:13:00Z"
+        },
+        {
+            "ID": 29244,
+            "ChargePointID": 60870,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM60870/OCM-60870.orig.2021091221114238.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM60870/OCM-60870.thmb.2021091221114238.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27925,
+                "Username": "MauroneRelax"
+            },
+            "DateCreated": "2021-09-12T21:12:00Z"
+        },
+        {
+            "ID": 29245,
+            "ChargePointID": 60870,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM60870/OCM-60870.orig.2021091221120145.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM60870/OCM-60870.thmb.2021091221120145.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27925,
+                "Username": "MauroneRelax"
+            },
+            "DateCreated": "2021-09-12T21:12:00Z"
+        },
+        {
+            "ID": 29243,
+            "ChargePointID": 60870,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM60870/OCM-60870.orig.2021091221110534.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM60870/OCM-60870.thmb.2021091221110534.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27925,
+                "Username": "MauroneRelax"
+            },
+            "DateCreated": "2021-09-12T21:11:00Z"
+        },
         {
             "ID": 10686,
             "ChargePointID": 60870,
@@ -86,7 +180,8 @@
     "UUID": "0426AFA2-31F3-416F-A046-EB49AA8C07B6",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 0,
+    "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 61216,
         "Title": " Scuola Media Statale Leandro Berinzaghi",
@@ -97,13 +192,14 @@
         "CountryID": 112,
         "Latitude": 45.4069458804047,
         "Longitude": 9.55354968496818,
+        "AccessComments": "Gates open from 6:00 to 23:00",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 77185,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 100,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 240,
@@ -114,7 +210,7 @@
         {
             "ID": 77186,
             "ConnectionTypeID": 36,
-            "StatusTypeID": 100,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 240,
@@ -124,9 +220,9 @@
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Per l'utilizzo è necessario richiedere la card al comune.",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2017-03-26T15:44:00Z",
+    "GeneralComments": "Avoid under hot Sun",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-09-13T22:31:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-02-11T16:45:00Z",
     "SubmissionStatusTypeID": 200

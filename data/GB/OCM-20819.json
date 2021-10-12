@@ -4,8 +4,7 @@
     "UUID": "8338BDF8-A742-4F5F-B162-B42C6762B5F6",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1200",
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
     "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 21164,
@@ -24,7 +23,8 @@
         {
             "ID": 22674,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "GB*GFX*EGS10337*2",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 500,
@@ -35,7 +35,8 @@
         {
             "ID": 22675,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "GB*GFX*EGS10337*1",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
@@ -45,8 +46,8 @@
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-08-19T16:45:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-10-10T16:30:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-13T11:21:00Z",
     "SubmissionStatusTypeID": 200

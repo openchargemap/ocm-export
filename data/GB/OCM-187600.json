@@ -1,4 +1,21 @@
 {
+    "UserComments": [
+        {
+            "ID": 24899,
+            "ChargePointID": 187600,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "contactless payment terminal not working, New Motion RFID worked. One unit had no power.",
+            "Rating": 2,
+            "DateCreated": "2021-09-27T08:17:01.137Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "IsRecentlyVerified": true,
     "DateLastVerified": "2021-07-12T03:38:00Z",
     "ID": 187600,
@@ -22,30 +39,49 @@
     },
     "Connections": [
         {
-            "ID": 302786,
-            "ConnectionTypeID": 1036,
-            "Reference": "1",
+            "ID": 302787,
+            "ConnectionTypeID": 2,
+            "Reference": "GBALLEGO0002251",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
+            "Amps": 200,
             "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30
         },
         {
-            "ID": 302787,
-            "ConnectionTypeID": 2,
-            "Reference": "2",
+            "ID": 306334,
+            "ConnectionTypeID": 33,
+            "Reference": "GBALLEGO0002251",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 306335,
+            "ConnectionTypeID": 2,
+            "Reference": "GBALLEGO0002401",
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 306336,
+            "ConnectionTypeID": 33,
+            "Reference": "GBALLEGO0002401",
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "PowerKW": 120,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2021-09-27T08:17:00Z",
     "MetadataValues": [
         {
             "ID": 19840,

@@ -1,11 +1,29 @@
 {
+    "MediaItems": [
+        {
+            "ID": 29149,
+            "ChargePointID": 160568,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM160568/OCM-160568.orig.2021082907325781.jpeg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM160568/OCM-160568.thmb.2021082907325781.jpeg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 33325,
+                "Username": "The EV Guy"
+            },
+            "DateCreated": "2021-08-29T07:33:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 160568,
     "UUID": "C676E3B4-6B41-424C-96F8-8F3B3BB3A783",
-    "DataProviderID": 2,
-    "DataProvidersReference": "151864",
-    "OperatorID": 3293,
+    "DataProviderID": 1,
+    "OperatorID": 50,
     "UsageTypeID": 1,
+    "UsageCost": "Free for two hours",
     "AddressInfo": {
         "ID": 160925,
         "Title": "Walgreens #10995",
@@ -14,8 +32,8 @@
         "StateOrProvince": "WA",
         "Postcode": "98168",
         "CountryID": 2,
-        "Latitude": 47.474597,
-        "Longitude": -122.285655,
+        "Latitude": 47.474388299399436,
+        "Longitude": -122.28565499999445,
         "ContactTelephone1": "888-264-2208",
         "AccessComments": "6am-12am daily",
         "RelatedURL": "https://voltacharging.com/",
@@ -25,16 +43,17 @@
         {
             "ID": 231039,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7.6,
             "CurrentTypeID": 10,
             "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:10:00Z",
+    "DateLastStatusUpdate": "2021-09-01T07:38:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2020-06-26T03:10:00Z",
     "SubmissionStatusTypeID": 100

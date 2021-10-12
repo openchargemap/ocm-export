@@ -1,4 +1,21 @@
 {
+    "UserComments": [
+        {
+            "ID": 24809,
+            "ChargePointID": 169732,
+            "CommentTypeID": 50,
+            "UserName": "EVGolf",
+            "Comment": "This Tesco only hs 7kw charge posts (x4)  The local Lidl has the rapid charge point.",
+            "Rating": 1,
+            "DateCreated": "2021-09-03T15:03:03.167Z",
+            "User": {
+                "ID": 34353,
+                "Username": "EVGolf"
+            },
+            "CheckinStatusTypeID": 50,
+            "IsActionedByEditor": false
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 169732,
     "UUID": "24858F5D-6476-498F-8165-834110E90B90",
@@ -6,7 +23,7 @@
     "OperatorID": 3,
     "OperatorsReference": "t53_it1_3617_021",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0/kWh",
     "AddressInfo": {
         "ID": 170091,
         "Title": "Tesco Brighouse",
@@ -15,45 +32,28 @@
         "StateOrProvince": "England",
         "Postcode": "HD6 1RZ",
         "CountryID": 1,
-        "Latitude": 53.7038557935297,
-        "Longitude": -1.77664709211479,
+        "Latitude": 53.70423605934019,
+        "Longitude": -1.7771824168949024,
         "RelatedURL": "https://charge.pod-point.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 258560,
-            "ConnectionTypeID": 1036,
+            "ID": 305571,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 43,
+            "Voltage": 226,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
-            "ID": 269996,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 270032,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "Enid-Lois / Kyle-Axel",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-25T15:52:00Z",
+    "DateLastStatusUpdate": "2021-09-03T21:01:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-11-05T23:48:00Z",
     "SubmissionStatusTypeID": 200

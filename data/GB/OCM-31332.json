@@ -183,22 +183,6 @@
     ],
     "MediaItems": [
         {
-            "ID": 6029,
-            "ChargePointID": 31332,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31332/OCM-31332.orig.2016030614182558.jpeg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31332/OCM-31332.thmb.2016030614182558.jpeg",
-            "Comment": "Would you believe it? Audi's first all electric 2.0 tdi!!!",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 8945,
-                "Username": "EVsoul"
-            },
-            "DateCreated": "2016-03-06T14:19:00Z"
-        },
-        {
             "ID": 3057,
             "ChargePointID": 31332,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31332/OCM-31332.orig.2015081917102905.jpg",
@@ -237,8 +221,8 @@
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1201",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 31678,
         "Title": "Annandale Water Roadchef Services",
@@ -256,26 +240,31 @@
         {
             "ID": 34756,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10241*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 34757,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10241*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-24T06:13:00Z",
+    "DateLastStatusUpdate": "2021-10-10T16:31:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-01-03T15:46:00Z",
     "SubmissionStatusTypeID": 200

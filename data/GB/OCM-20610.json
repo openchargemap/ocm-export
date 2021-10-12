@@ -101,9 +101,8 @@
     "UUID": "969D506D-F851-4322-9F44-53CA58A80EB7",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1233",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 20955,
         "Title": "Watford Gap Roadchef M1 (N) Services",
@@ -120,26 +119,31 @@
         {
             "ID": 22429,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10330*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 22649,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10330*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2021-05-27T15:47:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-09-22T15:28:00Z",
     "MetadataValues": [
         {
             "ID": 383,

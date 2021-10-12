@@ -90,32 +90,13 @@
             "CheckinStatusTypeID": 15
         }
     ],
-    "MediaItems": [
-        {
-            "ID": 371,
-            "ChargePointID": 23194,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM23194/OCM-23194.orig.2014051407140115.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM23194/OCM-23194.thmb.2014051407140115.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 1318,
-                "Username": "Richard"
-            },
-            "DateCreated": "2014-05-14T07:14:00Z"
-        }
-    ],
     "IsRecentlyVerified": false,
     "ID": 23194,
     "UUID": "A92702D3-2F9F-4932-894B-F08AA7C630D3",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1225,1226",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 23539,
         "Title": "Stafford Roadchef M6 (S) Services",
@@ -126,47 +107,61 @@
         "CountryID": 1,
         "Latitude": 52.8726782357675,
         "Longitude": -2.16048599188901,
-        "ContactTelephone1": "01453 761455",
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/our-electric-highway",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 24977,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10312*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 24978,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10312*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 24981,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10313*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 306203,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10313*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "Access via Ecotricity Electric Highway App only",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-02-28T06:13:00Z",
+    "DateLastStatusUpdate": "2021-09-27T09:20:00Z",
     "MetadataValues": [
         {
             "ID": 976,
