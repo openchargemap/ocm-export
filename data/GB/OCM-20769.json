@@ -456,27 +456,38 @@
         "CountryID": 1,
         "Latitude": 51.448912,
         "Longitude": -1.310287,
-        "ContactTelephone1": "01453 761455",
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
         "AccessComments": "In main car park",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/our-electric-highway",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 22571,
             "ConnectionTypeID": 2,
-            "Reference": "0046",
+            "Reference": "GB*GFX*EGS10046*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 100,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 22572,
             "ConnectionTypeID": 33,
-            "Reference": "0046",
+            "Reference": "GB*GFX*EGS10046*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 272472,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10048*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 120,
@@ -484,19 +495,33 @@
             "Quantity": 1
         },
         {
-            "ID": 272472,
+            "ID": 306675,
             "ConnectionTypeID": 33,
-            "Reference": "0048",
+            "Reference": "GB*GFX*EGS10048*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 306676,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*ETACW2243920T0463*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-10T20:25:00Z",
+    "DateLastStatusUpdate": "2021-10-14T15:28:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-11T09:12:00Z",
     "SubmissionStatusTypeID": 200

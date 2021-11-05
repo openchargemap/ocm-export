@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 24968,
+            "ChargePointID": 18947,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Currently being upgraded by Gridserve's contractors.",
+            "DateCreated": "2021-10-23T09:16:26.997Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 8003,
             "ChargePointID": 18947,
             "CommentTypeID": 1000,
@@ -299,9 +313,8 @@
     "UUID": "2DF5FE92-238F-47C5-A630-D2209A582FA8",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1090",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers; refunded in store",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 19292,
         "Title": "IKEA Milton Keynes",
@@ -320,26 +333,40 @@
         {
             "ID": 19210,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 150,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 19212,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
             "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 306798,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 150,
+            "LevelID": 2,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 43,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-08T05:14:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2021-10-23T09:16:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2013-09-04T17:28:00Z",
     "SubmissionStatusTypeID": 200

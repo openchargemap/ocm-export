@@ -21,8 +21,8 @@
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "29570",
-    "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageTypeID": 1,
+    "UsageCost": "30p per kwh",
     "AddressInfo": {
         "ID": 88327,
         "Title": "Storrs Hall",
@@ -31,28 +31,29 @@
         "StateOrProvince": "Bowness-on-Windermere",
         "Postcode": "LA23 3LG",
         "CountryID": 1,
-        "Latitude": 54.339078,
-        "Longitude": -2.936193,
+        "Latitude": 54.34013679095659,
+        "Longitude": -2.934021655330355,
         "ContactTelephone1": "+44 153 944 7111",
+        "AccessComments": "The charge points are in the lower carpark",
+        "RelatedURL": "http://storrshall.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 124809,
-            "ConnectionTypeID": 30,
+            "ID": 306953,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
+            "Amps": 0,
             "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 4,
+            "Comments": "Guests will need the VendElectric App to access the charging point and to pay for it, they will also need their own connector."
         }
     ],
-    "NumberOfPoints": 3,
-    "GeneralComments": "3 Tesla Connectors, up to 22kW.Available for customers. Please call ahead.",
+    "NumberOfPoints": 4,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-11-15T04:38:00Z",
+    "DateLastStatusUpdate": "2021-10-28T19:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-19T05:31:00Z",
     "SubmissionStatusTypeID": 200

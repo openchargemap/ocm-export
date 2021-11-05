@@ -143,7 +143,6 @@
         "CountryID": 1,
         "Latitude": 50.9020669,
         "Longitude": -1.4128608,
-        "ContactTelephone1": "",
         "AccessComments": "Level 0, on the right hand side near the entrance in the ground level parking area",
         "DistanceUnit": 0
     },
@@ -151,29 +150,43 @@
         {
             "ID": 22399,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10135*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
-            "PowerKW": 120,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 22400,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10135*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 500,
-            "PowerKW": 100,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 306677,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*ETACW2243920T0554*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-08T13:09:00Z",
+    "DateLastStatusUpdate": "2021-10-14T15:31:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2013-11-26T20:34:00Z",
     "SubmissionStatusTypeID": 200

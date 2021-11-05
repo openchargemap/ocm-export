@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 24950,
+            "ChargePointID": 93307,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Type 2 AC now installed.",
+            "RelatedURL": "https://twitter.com/ElecHighway/status/1448649897897459715",
+            "DateCreated": "2021-10-14T14:44:41.723Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 20708,
             "ChargePointID": 93307,
             "CommentTypeID": 10,
@@ -40,7 +55,7 @@
         {
             "ID": 132168,
             "ConnectionTypeID": 2,
-            "Reference": "0132",
+            "Reference": "GB*GFX*EGS10132*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -52,7 +67,7 @@
         {
             "ID": 132169,
             "ConnectionTypeID": 33,
-            "Reference": "0132",
+            "Reference": "GB*GFX*EGS10132*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -64,19 +79,44 @@
         {
             "ID": 132198,
             "ConnectionTypeID": 33,
-            "Reference": "0133",
+            "Reference": "GB*GFX*EGS10133*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
             "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 306673,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "GB*GFX*ETACW2243920T0462*1"
+        },
+        {
+            "ID": 306674,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10133*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 600,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": ""
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-24T09:29:00Z",
+    "DateLastStatusUpdate": "2021-10-14T14:45:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-09-26T12:53:00Z",
     "SubmissionStatusTypeID": 200

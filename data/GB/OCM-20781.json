@@ -102,7 +102,7 @@
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1172,1173,1174",
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
     "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 21126,
@@ -123,6 +123,7 @@
         {
             "ID": 22594,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10149*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -134,6 +135,7 @@
         {
             "ID": 22595,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10149*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -144,31 +146,58 @@
         },
         {
             "ID": 26478,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10150*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
-            "Voltage": 920,
-            "PowerKW": 120,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": ""
         },
         {
             "ID": 274190,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10150*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
-            "PowerKW": 120,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 306893,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10152*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 306894,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10152*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-08T09:47:00Z",
+    "DateLastStatusUpdate": "2021-10-27T16:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-11T13:04:00Z",
     "SubmissionStatusTypeID": 200

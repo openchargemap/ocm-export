@@ -56,32 +56,13 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "MediaItems": [
-        {
-            "ID": 1377,
-            "ChargePointID": 20815,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20815/OCM-20815.orig.2015051218033170.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20815/OCM-20815.thmb.2015051218033170.jpg",
-            "Comment": "AC unavailable. Given Woodall is completely out of service (has been Dr weeks according to this app) I'm stuffed so it's a call to Renault assistance and a low loader now. Grrrrrr!",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 4540,
-                "Username": "dafmeuk"
-            },
-            "DateCreated": "2015-05-12T18:04:00Z"
-        }
-    ],
     "IsRecentlyVerified": false,
     "ID": 20815,
     "UUID": "6C94A650-FAF3-47F9-98CF-C85BDFAB337D",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1232",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 21160,
         "Title": "Tibshelf Roadchef M1 (S) Services",
@@ -98,29 +79,31 @@
         {
             "ID": 22666,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10233*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 22667,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10233*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-02-09T06:14:00Z",
+    "DateLastStatusUpdate": "2021-10-13T08:05:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-13T11:21:00Z",
     "SubmissionStatusTypeID": 200

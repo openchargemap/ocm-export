@@ -2,12 +2,13 @@
     "IsRecentlyVerified": false,
     "ID": 7892,
     "UUID": "A6A15E36-81F8-456D-8CDD-47EFE7BE38D7",
-    "DataProviderID": 15,
-    "DataProvidersReference": "10176",
-    "OperatorID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 15,
+    "UsageTypeID": 6,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 7789,
-        "Title": "600 Fedex Way",
+        "Title": "FedExField",
         "AddressLine1": "600 Fedex Way",
         "Town": "Landover",
         "StateOrProvince": "Maryland",
@@ -16,19 +17,24 @@
         "Latitude": 38.906614,
         "Longitude": -76.865909,
         "ContactTelephone1": "(301) 276-6000",
-        "RelatedURL": "http://carstations.com/10176",
+        "AccessComments": "This charging station is in the A-Platnum parking lot.  Available whenever the parking lot is open.",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 5321,
             "ConnectionTypeID": 1,
-            "Reference": "J1772",
-            "LevelID": 2
+            "Reference": "",
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
+    "GeneralComments": "eVgo account not required.",
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2017-11-04T14:04:00Z",
+    "DateLastStatusUpdate": "2021-11-03T04:40:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-11-11T12:05:00Z",
     "SubmissionStatusTypeID": 100

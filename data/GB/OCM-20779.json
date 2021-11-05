@@ -1,26 +1,4 @@
 {
-    "UserComments": [
-        {
-            "ID": 1332,
-            "ChargePointID": 20779,
-            "CommentTypeID": 10,
-            "UserName": "",
-            "Comment": "Finally back working again (as of 24/09/2014)",
-            "Rating": 4,
-            "DateCreated": "2014-10-25T09:00:36.627Z",
-            "CheckinStatusTypeID": 15
-        },
-        {
-            "ID": 1147,
-            "ChargePointID": 20779,
-            "CommentTypeID": 50,
-            "UserName": "",
-            "Comment": "Tried to use this on 26Th August 2014 and it would not work!!! no mobile phone signal detected so the unit would not recognise my charging card. Probably not the best idea to place a charging point in an underground car where not mobile phone signal is detected. Disappointed with Ecotricity :-(",
-            "Rating": 1,
-            "DateCreated": "2014-08-27T15:34:30.423Z",
-            "CheckinStatusTypeID": 25
-        }
-    ],
     "IsRecentlyVerified": false,
     "ID": 20779,
     "UUID": "889C9FA6-DF0D-46DB-88CB-7A4D7CA115EE",
@@ -45,27 +23,55 @@
         {
             "ID": 22590,
             "ConnectionTypeID": 2,
-            "Reference": "0041",
+            "Reference": "GB*GFX*EGS10041*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 100,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 22591,
             "ConnectionTypeID": 33,
-            "Reference": "0041",
+            "Reference": "GB*GFX*EGS10041*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 306667,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*ETACW2243920T0568*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 306668,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*ETACW2243920T0568*2",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-10T20:38:00Z",
+    "DateLastStatusUpdate": "2021-10-14T11:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-11T10:22:00Z",
     "SubmissionStatusTypeID": 200

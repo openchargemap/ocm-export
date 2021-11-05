@@ -1,4 +1,22 @@
 {
+    "MediaItems": [
+        {
+            "ID": 29523,
+            "ChargePointID": 171028,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM171028/OCM-171028.orig.2021101506273007.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM171028/OCM-171028.thmb.2021101506273007.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 28792,
+                "Username": "EVDirect"
+            },
+            "DateCreated": "2021-10-15T06:28:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 171028,
     "UUID": "295EFA35-82DF-44A2-B229-503ACB93CECE",
@@ -8,13 +26,15 @@
     "UsageCost": "109 Ft/kWh",
     "AddressInfo": {
         "ID": 171387,
-        "Title": "EVDirect Mosonmagyaróvár M1",
+        "Title": "EVDirect Mosonmagyaróvár M1 Kisdeszka Étterem",
         "AddressLine1": "Kölcsey Ferenc u. 4.",
         "Town": "Mosonmagyaróvár",
         "Postcode": "9400",
         "CountryID": 104,
-        "Latitude": 47.855886673410225,
-        "Longitude": 17.265045831659336,
+        "Latitude": 47.856024493575234,
+        "Longitude": 17.26489882095217,
+        "ContactTelephone1": "+36202560445",
+        "ContactTelephone2": "+36202882545",
         "ContactEmail": "info@evdirect.hu",
         "AccessComments": "Motel Net.T Parking Lot",
         "RelatedURL": "http://evdirect.hu",
@@ -24,9 +44,9 @@
         {
             "ID": 261318,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 180,
+            "Amps": 185,
             "Voltage": 470,
             "PowerKW": 75,
             "CurrentTypeID": 30,
@@ -35,9 +55,9 @@
         {
             "ID": 261319,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 180,
+            "Amps": 123,
             "Voltage": 470,
             "PowerKW": 75,
             "CurrentTypeID": 30,
@@ -46,7 +66,7 @@
         {
             "ID": 261320,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -56,8 +76,8 @@
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2020-12-18T23:32:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-10-17T15:12:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-17T09:23:00Z",
     "SubmissionStatusTypeID": 200

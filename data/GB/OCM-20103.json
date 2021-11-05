@@ -1,19 +1,6 @@
 {
     "UserComments": [
         {
-            "ID": 14620,
-            "ChargePointID": 20103,
-            "CommentTypeID": 10,
-            "UserName": "TheScotstounPele",
-            "Comment": "This unit has been out of action for a few days and requires engineer visit to reset. Ecotricity are aware.",
-            "DateCreated": "2016-11-30T08:06:24.83Z",
-            "User": {
-                "ID": 6377,
-                "Username": "TheScotstounPele"
-            },
-            "CheckinStatusTypeID": 25
-        },
-        {
             "ID": 14336,
             "ChargePointID": 20103,
             "CommentTypeID": 10,
@@ -106,19 +93,6 @@
             "CheckinStatusTypeID": 10
         },
         {
-            "ID": 6516,
-            "ChargePointID": 20103,
-            "CommentTypeID": 10,
-            "UserName": "TheScotstounPele",
-            "Comment": "I have used this charge point on three or four occasions in Aug-Sept 2015 and each time I have charged successfully with no issues, using either CYC card or Ecotricity card. The charging machine, which serves two car spaces, can only charge one car at a time (it can't run its AC and DC simultaneously unlike some other models). This is a fairly popular charging point so you might find it is in use when you arrive.",
-            "DateCreated": "2015-09-19T09:20:15.437Z",
-            "User": {
-                "ID": 6377,
-                "Username": "TheScotstounPele"
-            },
-            "CheckinStatusTypeID": 10
-        },
-        {
             "ID": 4177,
             "ChargePointID": 20103,
             "CommentTypeID": 10,
@@ -158,22 +132,6 @@
     ],
     "MediaItems": [
         {
-            "ID": 673,
-            "ChargePointID": 20103,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20103/OCM-20103.orig.2014101514480851.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20103/OCM-20103.thmb.2014101514480851.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 2349,
-                "Username": "tomlmuir"
-            },
-            "DateCreated": "2014-10-15T14:48:00Z"
-        },
-        {
             "ID": 135,
             "ChargePointID": 20103,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20103/OCM-20103.orig.2013110109104455.jpg",
@@ -195,9 +153,8 @@
     "UUID": "F07ADB89-F4AC-476A-88D0-EACA78A31472",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1100",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers; refunded in store",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 20448,
         "Title": "IKEA Glasgow",
@@ -213,26 +170,55 @@
         {
             "ID": 19990,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 100,
+            "Reference": "GB*GFX*EGS10364*2",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 19991,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*ETACW2240921T0590*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 306955,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*ETACW2240921T0590*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 306956,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10364*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2021-01-23T06:13:00Z",
+    "DateLastStatusUpdate": "2021-10-28T20:10:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2013-10-30T17:52:00Z",
     "SubmissionStatusTypeID": 200

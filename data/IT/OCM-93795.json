@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 24985,
+            "ChargePointID": 93795,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Una fast ed una quick che hanno sostituito due vecchie quick, installate 30 metri rispetto a prima in direzione Milano. Leggi la recensione completa qui:  https://www.forumelettrico.it/forum/colonnine-enel-x-fast-ikea-parma-pr-largo-benito-jacovitti-11-a-t20545.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-enel-x-fast-ikea-parma-pr-largo-benito-jacovitti-11-a-t20545.html",
+            "DateCreated": "2021-10-28T05:38:23.29Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 140,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 20845,
             "ChargePointID": 93795,
             "CommentTypeID": 10,
@@ -15,6 +30,22 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 29641,
+            "ChargePointID": 93795,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM93795/OCM-93795.orig.2021102805383301.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM93795/OCM-93795.thmb.2021102805383301.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2021-10-28T05:39:00Z"
+        },
         {
             "ID": 17916,
             "ChargePointID": 93795,
@@ -102,23 +133,16 @@
     "DataProviderID": 1,
     "OperatorID": 80,
     "UsageTypeID": 1,
-    "UsageCost": "",
     "AddressInfo": {
         "ID": 94141,
-        "Title": "Ikea Iren ",
+        "Title": "Enel X IKEA Ugozzolo",
         "AddressLine1": "Largo Benito Jacovitti 11/A ",
-        "AddressLine2": "",
-        "Town": "Ugozzolo ",
+        "Town": "Parma",
         "StateOrProvince": "PR",
-        "Postcode": "",
         "CountryID": 112,
-        "Latitude": 44.831245,
-        "Longitude": 10.364339,
-        "ContactTelephone1": "",
-        "ContactTelephone2": "",
-        "ContactEmail": "",
-        "AccessComments": "",
-        "RelatedURL": "http://www.forumelettrico.it/forum/colonnina-iren-ikea-t1630.html",
+        "Latitude": 44.831559,
+        "Longitude": 10.364053,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-enel-x-fast-ikea-parma-pr-largo-benito-jacovitti-11-a-t20545.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -127,22 +151,34 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 100,
             "LevelID": 2,
+            "PowerKW": 20,
             "CurrentTypeID": 10,
             "Quantity": 2
         },
         {
             "ID": 136554,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 11,
+            "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 20
+        },
+        {
+            "ID": 306897,
+            "ConnectionTypeID": 33,
+            "LevelID": 2,
+            "PowerKW": 50
+        },
+        {
+            "ID": 306898,
+            "ConnectionTypeID": 1036,
+            "LevelID": 2,
+            "PowerKW": 43
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "",
-    "StatusTypeID": 20,
-    "DateLastStatusUpdate": "2019-03-30T18:34:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2021-10-28T05:39:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-10-08T21:31:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,4 +1,39 @@
 {
+    "UserComments": [
+        {
+            "ID": 25010,
+            "ChargePointID": 188938,
+            "CommentTypeID": 10,
+            "UserName": "Raule_19",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2021-11-04T17:34:55.567Z",
+            "User": {
+                "ID": 19690,
+                "Username": "Raule_19"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 29713,
+            "ChargePointID": 188938,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM188938/OCM-188938.orig.2021110417334021.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM188938/OCM-188938.thmb.2021110417334021.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 19690,
+                "Username": "Raule_19"
+            },
+            "DateCreated": "2021-11-04T17:34:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
     "DateLastVerified": "2021-08-26T11:34:00Z",
     "ID": 188938,
@@ -6,7 +41,7 @@
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 6,
-    "UsageCost": "",
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 189297,
         "Title": "chalet de prades pdr",
@@ -22,10 +57,12 @@
     "Connections": [
         {
             "ID": 305339,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "Amps": 15,
+            "Voltage": 228,
+            "PowerKW": 3.7,
             "Quantity": 1
         },
         {
@@ -41,7 +78,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-08-26T11:34:00Z",
+    "DateLastStatusUpdate": "2021-11-04T17:35:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-08-26T11:34:00Z",
     "SubmissionStatusTypeID": 200

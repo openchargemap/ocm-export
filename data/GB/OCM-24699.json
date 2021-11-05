@@ -149,8 +149,8 @@
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1136,1135",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 25045,
         "Title": "Hilton Park Moto M6 (S) Services",
@@ -168,35 +168,31 @@
         {
             "ID": 27008,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10185*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 27009,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
-            "ID": 27010,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10185*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-13T06:14:00Z",
+    "DateLastStatusUpdate": "2021-10-27T16:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-11-01T03:05:00Z",
     "SubmissionStatusTypeID": 200
