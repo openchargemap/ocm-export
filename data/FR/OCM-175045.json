@@ -4,17 +4,18 @@
     "UUID": "F783110C-D679-4FE2-99E6-80BBC351FCDC",
     "DataProviderID": 1,
     "OperatorID": 3299,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 175404,
-        "Title": "IONITY Haut Koenigsbourg",
-        "AddressLine1": " Aire de Haut Koenigsbourg",
-        "AddressLine2": "A35",
+        "Title": "Ionity Haut Koenigsbourg",
+        "AddressLine1": "A35 - Aire du Haut Koenigsbourg",
+        "AddressLine2": "",
         "Town": "Orschwiller",
         "Postcode": "67600",
         "CountryID": 80,
-        "Latitude": 48.23192,
-        "Longitude": 7.402639,
+        "Latitude": 48.23174162213101,
+        "Longitude": 7.403634900856616,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,13 +23,42 @@
             "ID": 271292,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 307597,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307598,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307599,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-28T15:08:00Z",
+    "DateLastStatusUpdate": "2021-11-10T14:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-25T14:59:00Z",
     "SubmissionStatusTypeID": 200

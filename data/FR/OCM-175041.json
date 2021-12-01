@@ -4,12 +4,13 @@
     "UUID": "2672B1E2-265C-458B-83FD-0D2C8E1F805B",
     "DataProviderID": 1,
     "OperatorID": 3299,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 175400,
-        "Title": "IONITY Saint-Rambert Ouest",
-        "AddressLine1": "Aire de Saint-Rambert-d'Albon Ouest",
-        "AddressLine2": "A7",
+        "Title": "Ionity Saint-Rambert-d'Albon",
+        "AddressLine1": "A7 - Aire de Saint-Rambert-d'Albon Ouest",
+        "AddressLine2": "",
         "Town": "Saint-Rambert-d'Albon",
         "Postcode": "26140",
         "CountryID": 80,
@@ -22,13 +23,42 @@
             "ID": 271288,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 307603,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307604,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307605,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-28T14:53:00Z",
+    "DateLastStatusUpdate": "2021-11-10T14:25:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-25T14:40:00Z",
     "SubmissionStatusTypeID": 200

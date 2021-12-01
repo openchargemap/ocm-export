@@ -4,11 +4,12 @@
     "UUID": "02543CB3-7156-4678-9913-85DCB8086FAC",
     "DataProviderID": 1,
     "OperatorID": 3299,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 175422,
-        "Title": "IONITY Lacq Audéjos Sud",
-        "AddressLine1": "Aire de Lacq Sud AUDEJOS Autoroute A64",
+        "Title": "Ionity Lacq Audéjos Sud",
+        "AddressLine1": "A64 - Aire de Lacq Audéjos Sud",
         "Town": "Lacq",
         "Postcode": "64170",
         "CountryID": 80,
@@ -23,12 +24,40 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 307363,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307364,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307365,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-04T15:38:00Z",
+    "DateLastStatusUpdate": "2021-11-10T13:02:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-25T16:05:00Z",
     "SubmissionStatusTypeID": 200

@@ -2,18 +2,20 @@
     "IsRecentlyVerified": false,
     "ID": 166200,
     "UUID": "22DF9703-D5FC-4548-A54B-9A7FF26A9858",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*ION*E409000",
+    "DataProviderID": 1,
     "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 166559,
-        "Title": "IONITY Fontanelles",
-        "AddressLine1": "Aire de Fontanelles - A41 - 74600 Seynod",
+        "Title": "Ionity Fontanelles",
+        "AddressLine1": "A41 - Aire des Fontanelles",
+        "Town": "Chavanod",
+        "Postcode": "74600",
         "CountryID": 80,
-        "Latitude": 45.875816,
-        "Longitude": 6.06949,
-        "AccessComments": "24/24 7/7 jours",
+        "Latitude": 45.87579747009124,
+        "Longitude": 6.069587585015341,
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -21,57 +23,46 @@
             "ID": 245000,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 245001,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 245002,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 245003,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 245004,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": ""
         },
         {
             "ID": 245005,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": ""
         },
         {
             "ID": 245006,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 20
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": ""
         }
     ],
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:12:00Z",
+    "DateLastStatusUpdate": "2021-11-10T18:45:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:12:00Z",
     "SubmissionStatusTypeID": 100

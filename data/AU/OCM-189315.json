@@ -91,7 +91,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 189674,
-        "Title": "Kulin Shire destination charger",
+        "Title": "Public Area Kulin",
         "AddressLine1": "49 Johnston Street",
         "Town": "Kulin",
         "StateOrProvince": "Western Australia",
@@ -99,14 +99,18 @@
         "CountryID": 18,
         "Latitude": -32.67002628100579,
         "Longitude": 118.15563161863884,
+        "ContactTelephone1": "08 9880 1204",
+        "RelatedURL": "https://www.plugshare.com/location/128254",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 306139,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
-            "Amps": 22,
+            "LevelID": 2,
+            "Amps": 32,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         },
@@ -115,16 +119,18 @@
             "ConnectionTypeID": 1041,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 240,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1,
-            "Comments": "It is possible to get a vehicle charge port mounted on the rear quarter (Tesla) or front grill to within 4.5 meters of the 3 phase outlet. "
+            "Comments": ""
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Food, accommodation, shops nearby. ",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-20T09:05:00Z",
+    "DateLastStatusUpdate": "2021-11-27T15:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-09-19T20:11:00Z",
     "SubmissionStatusTypeID": 200

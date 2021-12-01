@@ -4,13 +4,13 @@
     "UUID": "E1B039F7-3ED1-4598-97C7-76F63A3CBC8D",
     "DataProviderID": 1,
     "OperatorID": 3299,
-    "UsageTypeID": 4,
-    "UsageCost": "0,79 €/min",
+    "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 171310,
-        "Title": "A10 Blois Villerbon",
-        "AddressLine1": "Aire de Blois-Villerbon",
-        "Town": "Blois",
+        "Title": "Ionity Blois Villerbon",
+        "AddressLine1": "A10 - Aire de Blois Villerbon",
+        "Town": "Villerbon",
         "Postcode": "41000",
         "CountryID": 80,
         "Latitude": 47.66606243873787,
@@ -21,39 +21,46 @@
         {
             "ID": 261187,
             "ConnectionTypeID": 33,
-            "Reference": "Ionity ",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 175,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 4
         },
         {
             "ID": 261188,
             "ConnectionTypeID": 2,
-            "Reference": "Ionity ",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Combo"
+            "Comments": ""
         },
         {
             "ID": 261193,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 307345,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-14T16:30:00Z",
+    "DateLastStatusUpdate": "2021-11-10T18:07:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-14T14:32:00Z",
     "SubmissionStatusTypeID": 200

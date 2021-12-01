@@ -6,7 +6,7 @@
     "OperatorID": 22,
     "OperatorsReference": "C9NSQ",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 66835,
         "Title": "Topaz - Roche's Service Station",
@@ -16,7 +16,7 @@
         "CountryID": 3,
         "Latitude": 52.8666761230419,
         "Longitude": -7.4808847437746,
-        "AccessComments": "Duplicated with OCM-48004",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -37,12 +37,39 @@
             "PowerKW": 50,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 307631,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 307632,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307633,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "requires ESB access card",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-06-03T09:39:00Z",
+    "DateLastStatusUpdate": "2021-11-10T21:36:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-05-22T09:25:00Z",
     "SubmissionStatusTypeID": 200

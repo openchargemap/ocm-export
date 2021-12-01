@@ -4,11 +4,12 @@
     "UUID": "6B6961F7-A47B-4569-ABDD-26A6AD3B3D8D",
     "DataProviderID": 1,
     "OperatorID": 3299,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 175411,
-        "Title": "IONITY Centre de la France Sud",
-        "AddressLine1": "Aire du Centre de la France",
+        "Title": "Ionity Centre de la France Sud",
+        "AddressLine1": "A71 - Aire du Centre de la France Sud",
         "Town": "Farges-Allichamps",
         "Postcode": "18200",
         "CountryID": 80,
@@ -21,13 +22,42 @@
             "ID": 271299,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 307586,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307587,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307588,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-28T15:38:00Z",
+    "DateLastStatusUpdate": "2021-11-10T13:49:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-25T15:37:00Z",
     "SubmissionStatusTypeID": 200

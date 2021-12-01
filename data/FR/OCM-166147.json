@@ -2,18 +2,20 @@
     "IsRecentlyVerified": false,
     "ID": 166147,
     "UUID": "8E17617A-2E8A-4215-AD7A-F789BB0A145F",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*ION*E409900",
+    "DataProviderID": 1,
     "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 166506,
-        "Title": "IONITY Arclusaz",
-        "AddressLine1": "Aire de l'Arclusaz - A43 - 73390 Chateauneuf",
+        "Title": "Ionity Arclusaz",
+        "AddressLine1": "A43 - Aire d'Arclusaz",
+        "Town": "Chateauneuf",
+        "Postcode": "73390",
         "CountryID": 80,
         "Latitude": 45.548721,
         "Longitude": 6.158114,
-        "AccessComments": "24/24 7/7 jours",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -21,57 +23,43 @@
             "ID": 244591,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 244592,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 244593,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 244594,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 244595,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 244596,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 244597,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 20
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:12:00Z",
+    "DateLastStatusUpdate": "2021-11-10T18:56:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:12:00Z",
     "SubmissionStatusTypeID": 100

@@ -20,76 +20,64 @@
     "IsRecentlyVerified": false,
     "ID": 166478,
     "UUID": "D8DFE80B-CA76-49E7-886D-E368259930F0",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*ION*E409100",
+    "DataProviderID": 1,
     "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 166837,
-        "Title": "IONITY Langres Noidant",
-        "AddressLine1": "Aire de Langres Noidant - A31 - 52160 Perrogney-les-Fontaines",
+        "Title": "Ionity Langres Noidant",
+        "AddressLine1": "A31 - Aire de Langres Noidant",
+        "Town": "Courcelles-en-Montagne",
+        "StateOrProvince": "Alsace–Champagne-Ardenne–Lorraine",
+        "Postcode": "52200",
         "CountryID": 80,
-        "Latitude": 47.813381,
-        "Longitude": 5.224373,
-        "AccessComments": "24/24 7/7 jours",
+        "Latitude": 47.8133977779037,
+        "Longitude": 5.224566741579764,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 248133,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 248134,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 248135,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
             "ID": 248136,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 248137,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 248138,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 248139,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 20
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-11T10:35:00Z",
+    "DateLastStatusUpdate": "2021-11-10T18:32:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:14:00Z",
     "SubmissionStatusTypeID": 100

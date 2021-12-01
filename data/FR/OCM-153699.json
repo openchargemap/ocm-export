@@ -2,17 +2,20 @@
     "IsRecentlyVerified": false,
     "ID": 153699,
     "UUID": "B6BAC1D3-7F7F-4F3B-975E-9141EE5C7A61",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*ION*P1265",
+    "DataProviderID": 1,
+    "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 154052,
-        "Title": "IONITY Chartres Bois-Paris",
-        "AddressLine1": "Aire de Chartres Bois-Paris - A11 - 28300 Gasville-Oisème",
+        "Title": "Ionity Chartres Bois-Paris",
+        "AddressLine1": "A11 - Aire de Chartres Bois-Paris",
+        "Town": "Gasville-Oisème",
+        "Postcode": "28300",
         "CountryID": 80,
-        "Latitude": 48.467,
-        "Longitude": 1.579341,
-        "AccessComments": "24/24 7/7 jours",
+        "Latitude": 48.467266803976344,
+        "Longitude": 1.5786174908043904,
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -20,34 +23,43 @@
             "ID": 215776,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 215777,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 215778,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 215779,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-03-15T10:54:00Z",
+    "DateLastStatusUpdate": "2021-11-10T08:10:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:54:00Z",
     "SubmissionStatusTypeID": 100

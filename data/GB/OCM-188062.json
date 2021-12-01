@@ -2,21 +2,21 @@
     "IsRecentlyVerified": false,
     "ID": 188062,
     "UUID": "96B36BAE-F20C-4B04-BEA5-E011D880429E",
-    "DataProviderID": 18,
-    "DataProvidersReference": "d11ec591b969d3c0d24f85745bca781d",
+    "DataProviderID": 1,
     "OperatorID": 150,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
+    "UsageCost": "42p per kW",
     "AddressInfo": {
         "ID": 188421,
-        "Title": "Garforth",
+        "Title": "Marsh Street Car Park",
         "AddressLine1": "Garforth",
         "Town": "Leeds",
         "Postcode": "LS25 1AF",
         "CountryID": 1,
         "Latitude": 53.795311,
         "Longitude": -1.388816,
-        "AccessComments": "",
-        "RelatedURL": "http://www.chargepointservices.com/",
+        "AccessComments": "£10 overstay fee after 90 mins, then £10 every subsequent 9",
+        "RelatedURL": "https://www.geniepoint.co.uk/ds",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,7 +29,8 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 303481,
@@ -40,22 +41,23 @@
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 303482,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
             "Reference": "3",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "GeneralComments": "Geniepoint rapid charger, 50kW DC, AC is a 22kW Socket. One bay for general use, one bay for taxis",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-11-12T02:58:00Z",
     "MetadataValues": [
         {
             "ID": 20302,

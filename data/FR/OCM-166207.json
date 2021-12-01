@@ -2,76 +2,64 @@
     "IsRecentlyVerified": false,
     "ID": 166207,
     "UUID": "0B44F0CB-4F04-4CB5-8766-06780B183339",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*ION*E404400",
+    "DataProviderID": 1,
     "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 166566,
-        "Title": "IONITY Mionnay Chatanay",
-        "AddressLine1": "Aire de Mionnay Chatanay - A46 - 01390 Mionnay",
+        "Title": "Ionity Mionnay Chatanay",
+        "AddressLine1": "A46 - Aire de Mionnay Chatanay",
+        "Town": "Mionnay",
+        "Postcode": "01390",
         "CountryID": 80,
         "Latitude": 45.889939,
         "Longitude": 4.893953,
-        "AccessComments": "24/24 7/7 jours",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 245044,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 245045,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 245046,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
             "ID": 245047,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 245048,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 245049,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 245050,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 20
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:12:00Z",
+    "DateLastStatusUpdate": "2021-11-10T18:39:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:12:00Z",
     "SubmissionStatusTypeID": 100

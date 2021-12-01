@@ -119,17 +119,19 @@
     "DataProviderID": 1,
     "OperatorID": 23,
     "UsageTypeID": 4,
-    "UsageCost": "",
+    "UsageCost": "0.51c / kWhr plus $1/min idle fee",
     "AddressInfo": {
         "ID": 188855,
-        "Title": "Karrinyup Shopping Centre Superchargers",
-        "AddressLine1": "Karrinyup Road",
+        "Title": "Karrinyup Shopping Centre",
+        "AddressLine1": "200 Karrinyup Road",
         "Town": "Perth",
         "StateOrProvince": "Western Australia",
         "Postcode": "6018",
         "CountryID": 18,
-        "Latitude": -31.877619922478956,
-        "Longitude": 115.77887657332644,
+        "Latitude": -31.877065354634517,
+        "Longitude": 115.77668033748176,
+        "AccessComments": "Enter via Karrinyup Road, follow signs for Fresh Market/Valet. Enter basement, take first Right. Chargers at end of aisle on Right.  B2 Red parking zone.",
+        "RelatedURL": "https://www.plugshare.com/location/331338",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -141,11 +143,18 @@
             "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 6
+        },
+        {
+            "ID": 307971,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 6,
+    "GeneralComments": "Poor Mobile Coverage at charging bays.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-08-01T09:21:00Z",
+    "DateLastStatusUpdate": "2021-11-28T08:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-07-29T12:32:00Z",
     "SubmissionStatusTypeID": 200

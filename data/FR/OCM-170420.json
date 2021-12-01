@@ -5,17 +5,18 @@
     "DataProviderID": 1,
     "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 170779,
-        "Title": "Aire de Saint-Léger Ionity",
-        "AddressLine1": "Aire de Saint-Léger",
+        "Title": "Ionity Saint-Léger",
+        "AddressLine1": "A10 - Aire de Saint-Léger",
         "Town": "Saint-Léger",
         "StateOrProvince": "Aquitaine-Limousin-Poitou-Charentes",
         "Postcode": "17800",
         "CountryID": 80,
         "Latitude": 45.61076944124474,
         "Longitude": -0.5989129281758778,
-        "RelatedURL": "http://ionity",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,29 +24,10 @@
             "ID": 259989,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 259990,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 259991,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 259992,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 259993,
@@ -53,7 +35,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 259994,
@@ -61,7 +44,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 259995,
@@ -73,9 +57,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-08T11:55:00Z",
+    "DateLastStatusUpdate": "2021-11-10T18:20:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-11-26T14:13:00Z",
     "SubmissionStatusTypeID": 200

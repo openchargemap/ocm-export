@@ -18,7 +18,7 @@
     "ID": 44905,
     "UUID": "93B015EE-3516-4961-ACB8-C6D4DC6FB9FC",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 22,
     "OperatorsReference": "The Square Shopping Centre",
     "AddressInfo": {
         "ID": 45251,
@@ -27,8 +27,8 @@
         "Town": "Dublin",
         "StateOrProvince": "Dublin 24 (Location 2 Right Hand Side)",
         "CountryID": 3,
-        "Latitude": 53.285708,
-        "Longitude": -6.369807,
+        "Latitude": 53.285710185439484,
+        "Longitude": -6.369801516628968,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -41,12 +41,30 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 3
+        },
+        {
+            "ID": 307623,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307624,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2019-08-18T15:09:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-11-12T11:01:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2015-04-22T02:47:00Z",
     "SubmissionStatusTypeID": 100

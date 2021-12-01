@@ -1,10 +1,28 @@
 {
+    "MediaItems": [
+        {
+            "ID": 29715,
+            "ChargePointID": 121372,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM121372/OCM-121372.orig.2021110505041172.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM121372/OCM-121372.thmb.2021110505041172.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 26767,
+                "Username": "Ben Anderson"
+            },
+            "DateCreated": "2021-11-05T05:04:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 121372,
     "UUID": "B87B687F-D5A6-4E1A-B227-DD468A71BEB5",
     "DataProviderID": 1,
     "OperatorID": 3318,
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
     "UsageCost": "$.43/kWh; $.40/min idle fee after 10 minute grace period",
     "AddressInfo": {
         "ID": 121718,
@@ -14,8 +32,8 @@
         "StateOrProvince": "WA",
         "Postcode": "99307",
         "CountryID": 2,
-        "Latitude": 47.66559600000005,
-        "Longitude": -117.19012300000031,
+        "Latitude": 47.66559599999985,
+        "Longitude": -117.1901230000002,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -26,27 +44,28 @@
             "ID": 170827,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 10,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 170828,
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 375,
             "Voltage": 400,
             "PowerKW": 150,
-            "CurrentTypeID": 10,
+            "CurrentTypeID": 30,
             "Quantity": 15
         }
     ],
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-24T12:28:00Z",
+    "DateLastStatusUpdate": "2021-11-05T05:04:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-01T05:00:00Z",
     "SubmissionStatusTypeID": 100

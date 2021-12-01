@@ -2,76 +2,64 @@
     "IsRecentlyVerified": false,
     "ID": 166202,
     "UUID": "7BC2C306-DDCD-4F23-A49C-3DFF0D4C3CB3",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*ION*E404000",
+    "DataProviderID": 1,
     "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 166561,
-        "Title": "IONITY Mionnay Saint-Galmier",
-        "AddressLine1": "Aire de Mionnay Saint-Galmier- A46 - 01390 Mionnay",
+        "Title": "Ionity Mionnay Saint-Galmier",
+        "AddressLine1": "A46 - Aire de Mionnay Saint-Galmier",
+        "Town": "Mionnay",
+        "Postcode": "01390",
         "CountryID": 80,
         "Latitude": 45.884542,
         "Longitude": 4.894022,
-        "AccessComments": "24/24 7/7 jours",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 245015,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 245016,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 245017,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
             "ID": 245018,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 245019,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 245020,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 245021,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 20
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:12:00Z",
+    "DateLastStatusUpdate": "2021-11-10T18:43:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:12:00Z",
     "SubmissionStatusTypeID": 100

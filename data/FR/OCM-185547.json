@@ -4,18 +4,18 @@
     "UUID": "3010ACDA-D21D-49CD-A24C-AE5FD730A86E",
     "DataProviderID": 1,
     "OperatorID": 3299,
-    "UsageTypeID": 1,
-    "UsageCost": "0,79/min",
+    "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 185906,
-        "Title": "Aire de Pech Montat",
-        "AddressLine1": "Aire de Pech Montat",
+        "Title": "Ionity Pech Montat",
+        "AddressLine1": "A20 - Aire de Pech Montat",
         "Town": "Nespouls",
         "StateOrProvince": "Aquitaine-Limousin-Poitou-Charentes",
         "Postcode": "19600",
         "CountryID": 80,
-        "Latitude": 45.032068743382666,
-        "Longitude": 1.5245068717445065,
+        "Latitude": 45.030824684842344,
+        "Longitude": 1.5246952043101203,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,12 +26,39 @@
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 8
+        },
+        {
+            "ID": 307350,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 307351,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 307352,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-12T07:40:00Z",
+    "DateLastStatusUpdate": "2021-11-10T12:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-07-09T10:11:00Z",
     "SubmissionStatusTypeID": 200

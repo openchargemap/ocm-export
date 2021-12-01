@@ -2,68 +2,65 @@
     "IsRecentlyVerified": false,
     "ID": 152732,
     "UUID": "3893A8CB-97BD-441F-81D7-D45317C7410B",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*ION*P4022",
+    "DataProviderID": 1,
     "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 153085,
-        "Title": "IONITY Longué la Couaille",
-        "AddressLine1": "Aire de Longué la Couaille - A85 - 49160 Longué Jumelles",
+        "Title": "Ionity Longué-la-Couaille",
+        "AddressLine1": "A85 - Aire de Longué-la-Couaille",
+        "Town": "Longué-Jumelles",
+        "Postcode": "49160",
         "CountryID": 80,
         "Latitude": 47.419279,
         "Longitude": -0.134708,
-        "AccessComments": "24/24 7/7 jours",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 213939,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350,
-            "Quantity": 1
-        },
-        {
-            "ID": 213940,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350,
-            "Quantity": 1
-        },
-        {
             "ID": 213941,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 350,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 213942,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 272418,
             "ConnectionTypeID": 2,
-            "Reference": "Ionity",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 307288,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 5,
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-24T20:08:00Z",
+    "DateLastStatusUpdate": "2021-11-10T19:25:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:54:00Z",
     "SubmissionStatusTypeID": 100

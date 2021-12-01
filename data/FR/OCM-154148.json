@@ -2,75 +2,64 @@
     "IsRecentlyVerified": false,
     "ID": 154148,
     "UUID": "EB329274-EC52-4B18-8316-171AA751FC5A",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*ION*P4017",
+    "DataProviderID": 1,
+    "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 154501,
-        "Title": "IONITY Vrigny",
-        "AddressLine1": "Aire de Vrigny - A4 - 51390 Vrigny",
+        "Title": "Ionity Vrigny",
+        "AddressLine1": "A4 - Aire de Vrigny",
+        "Town": "Vrigny",
+        "Postcode": "51390",
         "CountryID": 80,
-        "Latitude": 49.242948,
-        "Longitude": 3.918813,
-        "AccessComments": "24/24 7/7 jours",
+        "Latitude": 49.242949359852446,
+        "Longitude": 3.9185261845619266,
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 216643,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 216644,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 216645,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
             "ID": 216646,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 216647,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 216648,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 216649,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350,
-            "CurrentTypeID": 10
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-03-15T10:54:00Z",
+    "DateLastStatusUpdate": "2021-11-10T08:39:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:54:00Z",
     "SubmissionStatusTypeID": 100

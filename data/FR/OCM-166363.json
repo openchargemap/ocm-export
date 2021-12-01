@@ -2,76 +2,64 @@
     "IsRecentlyVerified": false,
     "ID": 166363,
     "UUID": "65B8E40F-A138-4976-B69B-7436AE86D8FA",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*ION*E410300",
+    "DataProviderID": 1,
     "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 166722,
-        "Title": "IONITY Lochères",
-        "AddressLine1": "Aire de Lochères - A6 - 21320 Eguilly",
+        "Title": "Ionity Lochères",
+        "AddressLine1": "A6 - Aire des Lochères",
+        "Town": "Gissey-le-Vieil",
+        "Postcode": "21320",
         "CountryID": 80,
         "Latitude": 47.30968,
         "Longitude": 4.501811,
-        "AccessComments": "24/24 7/7 jours",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 246797,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 246798,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 246799,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
             "ID": 246800,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 246801,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 246802,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 246803,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 20
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:13:00Z",
+    "DateLastStatusUpdate": "2021-11-10T18:35:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:13:00Z",
     "SubmissionStatusTypeID": 100

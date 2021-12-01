@@ -4,11 +4,15 @@
     "UUID": "19D17BB9-4979-4D37-9F13-26D90500DC9A",
     "DataProviderID": 1,
     "DataProvidersReference": "RBR-00001",
+    "OperatorID": 21,
+    "UsageTypeID": 4,
+    "UsageCost": "Mobi.E compatible card or App",
     "AddressInfo": {
         "ID": 95193,
-        "Title": "Largo do Clube - Ribeira Brava",
+        "Title": "RBR-00001",
         "AddressLine1": "Largo do Clube - Ribeira Brava",
         "Town": "Ribeira Brava",
+        "StateOrProvince": "Madeira",
         "Postcode": "9350-211",
         "CountryID": 180,
         "Latitude": 32.673321,
@@ -19,16 +23,41 @@
     "Connections": [
         {
             "ID": 134076,
-            "ConnectionTypeID": 0,
-            "LevelID": 2,
-            "Amps": 75,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 120,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307763,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307764,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 64,
             "Voltage": 400,
-            "PowerKW": 30
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-12-24T08:08:00Z",
+    "DateLastStatusUpdate": "2021-11-13T21:21:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2017-10-28T13:32:00Z",
     "SubmissionStatusTypeID": 100

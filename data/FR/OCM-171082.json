@@ -5,52 +5,28 @@
     "DataProviderID": 1,
     "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 171441,
-        "Title": "La Méridienne",
-        "AddressLine1": "La Méridienne",
-        "AddressLine2": "A 75",
+        "Title": "Ionity Veyre",
+        "AddressLine1": "A75 - Aire de Veyre",
         "Town": "Veyre-Monton",
         "StateOrProvince": "Auvergne-Rhône-Alpes",
         "Postcode": "63960",
         "CountryID": 80,
-        "Latitude": 45.660087033876295,
-        "Longitude": 3.154316841809532,
-        "RelatedURL": "https://ionity.eu",
+        "Latitude": 45.66017599728241,
+        "Longitude": 3.153540640053052,
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 261418,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 261419,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 261420,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
-        },
         {
             "ID": 261421,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 261422,
@@ -58,7 +34,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 261423,
@@ -68,7 +45,8 @@
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 261424,
@@ -80,9 +58,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-01T09:24:00Z",
+    "DateLastStatusUpdate": "2021-11-10T18:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-19T14:16:00Z",
     "SubmissionStatusTypeID": 200

@@ -25,45 +25,68 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 64955,
-        "Title": "Deutsche Telekom AG",
+        "Title": "Comfort Charge/Deutsche Telekom AG - Bonn/Friedrich-Ebert-Allee",
         "AddressLine1": "Friedrich-Ebert-Allee 140",
         "Town": "Bonn",
         "Postcode": "53113",
         "CountryID": 87,
-        "Latitude": 50.7075997,
-        "Longitude": 7.12776610000003,
-        "ContactTelephone1": "+49 228 181-0",
-        "AccessComments": "Vor dem Telekom Shop von Mo-Fr 7-21Uhr verfügbar, kostenloses Laden. Ladekarte bitte am Empfang ausleihen.",
-        "RelatedURL": "http://www.telekom.com/",
+        "Latitude": 50.70815,
+        "Longitude": 7.12897,
+        "ContactTelephone1": "",
+        "AccessComments": "",
+        "RelatedURL": "http://www.comfortcharge.de",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 83038,
+            "ID": 307421,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307422,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307423,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 400,
-            "PowerKW": 11,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
-            "ID": 83039,
-            "ConnectionTypeID": 28,
+            "ID": 307424,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 307425,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-01-31T09:59:00Z",
+    "DateLastStatusUpdate": "2021-11-09T04:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-03-15T08:42:00Z",
     "SubmissionStatusTypeID": 200

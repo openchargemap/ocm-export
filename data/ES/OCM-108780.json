@@ -5,7 +5,8 @@
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "44769",
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
+    "UsageCost": "0,54",
     "AddressInfo": {
         "ID": 109126,
         "Title": "Imaginalia Centro de Ocio Y Comercio",
@@ -16,26 +17,53 @@
         "CountryID": 210,
         "Latitude": 39.008583,
         "Longitude": -1.879056,
-        "ContactTelephone1": "+34 967 61 61 81",
+        "ContactTelephone1": "+34 518900245",
+        "AccessComments": "Parking subterraneo, Zona amarilla, número 08",
+        "RelatedURL": "http://powerdot.es",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 153895,
-            "ConnectionTypeID": 30,
+            "ID": 307939,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307940,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307941,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307942,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 22kW.Available to the public. Please see valet.",
+    "GeneralComments": "x2 Power Dot chargers. One 150 kw with CHAdeMO and CCS, another 100kw with same connectors",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-18T05:47:00Z",
+    "DateLastStatusUpdate": "2021-11-17T09:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-10-11T12:39:00Z",
     "SubmissionStatusTypeID": 200

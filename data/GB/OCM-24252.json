@@ -122,6 +122,22 @@
     ],
     "MediaItems": [
         {
+            "ID": 29839,
+            "ChargePointID": 24252,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM24252/OCM-24252.orig.2021111922141799.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM24252/OCM-24252.thmb.2021111922141799.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27693,
+                "Username": "dparr59"
+            },
+            "DateCreated": "2021-11-19T22:14:00Z"
+        },
+        {
             "ID": 29638,
             "ChargePointID": 24252,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM24252/OCM-24252.orig.2021102713441038.jpg",
@@ -220,6 +236,7 @@
         "CountryID": 1,
         "Latitude": 53.9235269908457,
         "Longitude": -1.07823392195747,
+        "ContactTelephone1": "01285 339028",
         "AccessComments": "Opposite park & ride at end of main outlet building on left hand side",
         "RelatedURL": "https://www.rawcharging.com",
         "DistanceUnit": 0
@@ -228,19 +245,26 @@
         {
             "ID": 26354,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 100,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 16
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 8
+        },
+        {
+            "ID": 307986,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 8
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2021-10-27T13:44:00Z",
+    "GeneralComments": "Charging payment via Chargepoint App / Rfid Card",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-11-19T22:18:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-07-30T21:29:00Z",
     "SubmissionStatusTypeID": 200

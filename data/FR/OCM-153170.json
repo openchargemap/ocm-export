@@ -5,17 +5,18 @@
     "DataProviderID": 1,
     "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 153523,
-        "Title": "Aire de Parcé sur Sarthe",
-        "AddressLine1": "Aire de Parcé sur Sarthe",
+        "Title": "Ionity Parcé sur Sarthe Est",
+        "AddressLine1": "A11 - Aire de Parcé sur Sarthe Est",
         "Town": "Parcé-sur-Sarthe",
         "StateOrProvince": "Sarthe",
         "Postcode": "72300",
         "CountryID": 80,
         "Latitude": 47.80358008092438,
         "Longitude": -0.16793667563570125,
-        "AccessComments": "24/24 7/7 jours",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,66 +27,40 @@
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 214749,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 214750,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4
         },
         {
             "ID": 214751,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 272741,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 44,
-            "CurrentTypeID": 20,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 272742,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 272743,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-03T20:54:00Z",
+    "DateLastStatusUpdate": "2021-11-10T19:08:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:54:00Z",
     "SubmissionStatusTypeID": 100

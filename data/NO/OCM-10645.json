@@ -1,9 +1,30 @@
 {
+    "MediaItems": [
+        {
+            "ID": 29857,
+            "ChargePointID": 10645,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NO/OCM10645/OCM-10645.orig.2021112609544845.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NO/OCM10645/OCM-10645.thmb.2021112609544845.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 35553,
+                "Username": "Hjortefot"
+            },
+            "DateCreated": "2021-11-26T09:55:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 10645,
     "UUID": "6B1B655F-946A-424F-8686-1D1EF097F723",
     "DataProviderID": 1,
     "DataProvidersReference": "67",
+    "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "Free. ",
     "AddressInfo": {
         "ID": 10542,
         "Title": "NTNU Kjemiblokk 1, Trondheim",
@@ -12,81 +33,30 @@
         "StateOrProvince": "Trøndelag",
         "Postcode": "7034",
         "CountryID": 168,
-        "Latitude": 63.41631,
-        "Longitude": 10.4038,
+        "Latitude": 63.41627381176744,
+        "Longitude": 10.403668087069946,
         "AccessComments": "Foran Nanolaboratoriet.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 8642,
-            "ConnectionTypeID": 0,
-            "Reference": "1",
+            "ConnectionTypeID": 25,
+            "Reference": "",
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "Comments": "Mode 1"
-        },
-        {
-            "ID": 87457,
-            "ConnectionTypeID": 28,
-            "Reference": "2",
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Comments": "Mode 1"
-        },
-        {
-            "ID": 87458,
-            "ConnectionTypeID": 28,
-            "Reference": "3",
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Comments": "Mode 1"
-        },
-        {
-            "ID": 87459,
-            "ConnectionTypeID": 28,
-            "Reference": "4",
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Comments": "Mode 1"
-        },
-        {
-            "ID": 87460,
-            "ConnectionTypeID": 28,
-            "Reference": "5",
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Comments": "Mode 1"
-        },
-        {
-            "ID": 89420,
-            "ConnectionTypeID": 28,
-            "Reference": "6",
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Comments": "Mode 1"
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 6,
+            "Comments": ""
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2020-05-26T08:25:00Z",
+    "NumberOfPoints": 6,
+    "GeneralComments": "Apcoa paid parking office hours",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-11-29T08:16:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2012-06-02T11:55:00Z",
     "SubmissionStatusTypeID": 100

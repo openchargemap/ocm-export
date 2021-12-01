@@ -2,8 +2,7 @@
     "IsRecentlyVerified": false,
     "ID": 145569,
     "UUID": "B8B40430-37F8-40B7-98A8-10A0CCCDF2BE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "131261",
+    "DataProviderID": 1,
     "OperatorID": 90,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "QC",
         "Postcode": "G7N 1V8",
         "CountryID": 44,
-        "Latitude": 48.316722,
-        "Longitude": -71.134611,
+        "Latitude": 48.317621352730754,
+        "Longitude": -71.13388567004887,
         "ContactTelephone1": "877-505-2674",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://lecircuitelectrique.com/",
@@ -25,26 +24,47 @@
         {
             "ID": 202279,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 150,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 202280,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 150,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307812,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "Amps": 200,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307813,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:11:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2021-11-15T08:30:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:25:00Z",
     "SubmissionStatusTypeID": 100

@@ -2,75 +2,64 @@
     "IsRecentlyVerified": false,
     "ID": 151949,
     "UUID": "A38BEAD7-9976-49CA-A813-6821C30F1593",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*ION*P4127",
+    "DataProviderID": 1,
+    "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 152302,
-        "Title": "IONITY Bonneville",
-        "AddressLine1": "Aire de Bonneville - Autoroute Blanche A40 - 74130 Bonneville",
+        "Title": "Ionity Bonneville",
+        "AddressLine1": "A40 - Aire de Bonneville",
+        "Town": "Bonneville",
+        "Postcode": "74130",
         "CountryID": 80,
         "Latitude": 46.064297,
         "Longitude": 6.411364,
-        "AccessComments": "24/24 7/7 jours",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 212476,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 212477,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 212478,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
             "ID": 212479,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 212480,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 212481,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 212482,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350,
-            "CurrentTypeID": 10
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-03-15T10:53:00Z",
+    "DateLastStatusUpdate": "2021-11-10T00:51:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:53:00Z",
     "SubmissionStatusTypeID": 100

@@ -20,61 +20,64 @@
     "IsRecentlyVerified": false,
     "ID": 152251,
     "UUID": "47343071-8FA7-4112-9505-C15E282438F0",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*ION*P4083",
+    "DataProviderID": 1,
+    "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 152604,
-        "Title": "IONITY Jura",
-        "AddressLine1": "Aire du Jura - A39 - 39140 Arlay",
+        "Title": "Ionity Jura",
+        "AddressLine1": "A39 - Aire du Jura",
+        "Town": "Arlay",
+        "Postcode": "39140",
         "CountryID": 80,
-        "Latitude": 46.774589,
-        "Longitude": 5.523009,
-        "AccessComments": "24/24 7/7 jours",
+        "Latitude": 46.7758403285529,
+        "Longitude": 5.522534163571152,
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 213072,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
             "ID": 213073,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 213074,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 213075,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 213076,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350,
-            "CurrentTypeID": 10
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-08T12:05:00Z",
+    "DateLastStatusUpdate": "2021-11-10T01:04:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:53:00Z",
     "SubmissionStatusTypeID": 100

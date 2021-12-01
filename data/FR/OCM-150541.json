@@ -2,68 +2,64 @@
     "IsRecentlyVerified": false,
     "ID": 150541,
     "UUID": "CCD4AE5D-5F37-429C-98F8-DF7791974C3E",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*ION*P4018",
+    "DataProviderID": 1,
+    "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 150894,
-        "Title": "IONITY Garonne ",
-        "AddressLine1": "Aire de Garonne - A64 - 31410 Capens",
+        "Title": "Ionity Garonne",
+        "AddressLine1": "A64 - Aire de Garonne",
+        "Town": "Capens",
+        "Postcode": "31410",
         "CountryID": 80,
         "Latitude": 43.334659,
         "Longitude": 1.245265,
-        "AccessComments": "24/24 7/7 jours ",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 209400,
-            "ConnectionTypeID": 0,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 209401,
-            "ConnectionTypeID": 0,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 209402,
-            "ConnectionTypeID": 0,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 209403,
-            "ConnectionTypeID": 0,
-            "LevelID": 2,
-            "PowerKW": 350
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 209404,
-            "ConnectionTypeID": 0,
-            "LevelID": 2,
-            "PowerKW": 350
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 209405,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 209406,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "PowerKW": 350,
-            "CurrentTypeID": 10
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Recharge jusqu'à 350KW - CCS ",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-03-15T06:17:00Z",
+    "DateLastStatusUpdate": "2021-11-10T22:49:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T06:17:00Z",
     "SubmissionStatusTypeID": 100

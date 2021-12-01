@@ -4,11 +4,12 @@
     "UUID": "7FFFD0E2-6ED5-4FCA-A697-E441B4605C50",
     "DataProviderID": 1,
     "OperatorID": 3299,
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 170997,
-        "Title": "ionity Blois Menard",
-        "AddressLine1": "Aire de Blois-Ménars",
+        "Title": "Ionity Blois Ménars",
+        "AddressLine1": "A10 - Aire de Blois Ménars",
         "Town": "Villerbon",
         "StateOrProvince": "Loir-et-Cher",
         "Postcode": "41000",
@@ -21,17 +22,44 @@
         {
             "ID": 260562,
             "ConnectionTypeID": 33,
-            "Reference": "Ionity",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 175,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 4
+        },
+        {
+            "ID": 307346,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307347,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 307348,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-04T18:29:00Z",
+    "DateLastStatusUpdate": "2021-11-10T18:07:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-04T12:12:00Z",
     "SubmissionStatusTypeID": 200

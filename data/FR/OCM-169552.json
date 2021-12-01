@@ -23,11 +23,14 @@
     "DataProviderID": 1,
     "OperatorID": 3299,
     "UsageTypeID": 5,
+    "UsageCost": "€0.79/min",
     "AddressInfo": {
         "ID": 169911,
         "Title": "Ionity Hauconcourt",
         "AddressLine1": "Route de Maizières",
-        "StateOrProvince": "Grand Est",
+        "AddressLine2": "Centre Commercial E. Leclerc",
+        "Town": "Hauconcourt",
+        "StateOrProvince": "",
         "Postcode": "57280",
         "CountryID": 80,
         "Latitude": 49.21518403343032,
@@ -39,29 +42,10 @@
             "ID": 258082,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 258083,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 258084,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
-        },
-        {
-            "ID": 258085,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 350
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 258086,
@@ -69,7 +53,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 258087,
@@ -77,7 +62,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 258088,
@@ -89,9 +75,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-27T16:03:00Z",
+    "DateLastStatusUpdate": "2021-11-07T19:13:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-22T10:31:00Z",
     "SubmissionStatusTypeID": 200
