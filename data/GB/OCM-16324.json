@@ -276,7 +276,7 @@
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1206,1309",
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
     "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 16669,
@@ -298,6 +298,7 @@
         {
             "ID": 14789,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10102*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -309,6 +310,7 @@
         {
             "ID": 22621,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10102*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -320,19 +322,32 @@
         {
             "ID": 124847,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10103*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
             "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 308593,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10103*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "2 Spaces in front of machine right outside service area",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-08T10:17:00Z",
+    "DateLastStatusUpdate": "2021-12-01T17:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2013-04-09T20:30:00Z",
     "SubmissionStatusTypeID": 200

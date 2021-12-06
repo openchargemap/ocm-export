@@ -24,10 +24,11 @@
     "DataProviderID": 1,
     "OperatorID": 74,
     "UsageTypeID": 4,
+    "UsageCost": "0,59€/kWh",
     "AddressInfo": {
         "ID": 190447,
-        "Title": "Station Fastned Aire d’Écot",
-        "AddressLine1": "Aire d’Écot",
+        "Title": "Fastned Aire d’Écot",
+        "AddressLine1": "A36 - Aire d’Écot",
         "Town": "Écot",
         "StateOrProvince": "Doubs",
         "Postcode": "25150",
@@ -40,32 +41,34 @@
         {
             "ID": 307988,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 100,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 4
         },
         {
             "ID": 308260,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 50,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 308261,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 40,
-            "Quantity": 1
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-11-24T15:55:00Z",
+    "NumberOfPoints": 6,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2021-11-29T20:16:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-11-20T02:55:00Z",
     "SubmissionStatusTypeID": 200
