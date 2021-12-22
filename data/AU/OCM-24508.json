@@ -4,8 +4,8 @@
     "UUID": "BD5C7313-95C5-424E-B7AF-A5CF86919625",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 6,
-    "UsageCost": "Free",
+    "UsageTypeID": 5,
+    "UsageCost": "Pay for parking",
     "AddressInfo": {
         "ID": 24854,
         "Title": "Barbagallo Raceway",
@@ -13,8 +13,8 @@
         "Town": "Joondalup",
         "StateOrProvince": "Western Australia",
         "CountryID": 18,
-        "Latitude": -31.665529957807,
-        "Longitude": 115.789942943928,
+        "Latitude": -31.664336864323225,
+        "Longitude": 115.78576639030814,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,13 +23,38 @@
             "ConnectionTypeID": 29,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 6,
-            "CurrentTypeID": 10
+            "Amps": 15,
+            "Voltage": 240,
+            "PowerKW": 3.6,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 308796,
+            "ConnectionTypeID": 1041,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 20,
+            "Voltage": 415,
+            "PowerKW": 14.4,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 308797,
+            "ConnectionTypeID": 1041,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 415,
+            "PowerKW": 23,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2014-10-01T01:22:00Z",
+    "DateLastStatusUpdate": "2021-12-09T02:19:00Z",
     "MetadataValues": [
         {
             "ID": 1022,

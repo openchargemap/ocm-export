@@ -17,6 +17,22 @@
     ],
     "MediaItems": [
         {
+            "ID": 29992,
+            "ChargePointID": 29477,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM29477/OCM-29477.orig.2021120622220308.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM29477/OCM-29477.thmb.2021120622220308.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27425,
+                "Username": "MichaelHarthorne"
+            },
+            "DateCreated": "2021-12-06T22:22:00Z"
+        },
+        {
             "ID": 866,
             "ChargePointID": 29477,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM29477/OCM-29477.orig.2015010718234707.jpg",
@@ -52,10 +68,10 @@
     "IsRecentlyVerified": false,
     "ID": 29477,
     "UUID": "D8E72AE3-24FA-44DA-B31D-F9B07184E0B2",
-    "DataProviderID": 2,
-    "DataProvidersReference": "61453",
-    "OperatorID": 39,
+    "DataProviderID": 1,
+    "OperatorID": 59,
     "UsageTypeID": 1,
+    "UsageCost": "$0.42/kWh for DCFC; $0.28/kWh for L2. $0.40/minute idle fee after 10 minutes.",
     "AddressInfo": {
         "ID": 29823,
         "Title": "CFC Cordata",
@@ -66,24 +82,34 @@
         "CountryID": 2,
         "Latitude": 48.791487,
         "Longitude": -122.4923624,
-        "ContactTelephone1": "800-663-5633",
-        "AccessComments": "MO: 07:00am-10:00pm; TU: 07:00am-10:00pm; WE: 07:00am-10:00pm; TH: 07:00am-10:00pm; FR: 07:00am-10:00pm; SA: 07:00am-10:00pm; SU: 07:00am-10:00pm",
-        "RelatedURL": "http://www.semacharge.com/",
+        "ContactTelephone1": "1 877-251-7655",
+        "AccessComments": "24/7",
+        "RelatedURL": "https://www.pse.com/pages/electric-cars/charging-with-pse",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 32423,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
+            "ID": 308726,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 308727,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:07:00Z",
+    "NumberOfPoints": 4,
+    "GeneralComments": "Up & Go Electric charging station provided by Puget Sound Energy and operated by Greenlots. Mobile payment, charge monitoring and more with either PSE Up & Go Electric or Greenlots app. Energy purchased at station is matched with 100 percent renewable energy through PSE’s Green Power program.",
+    "DateLastStatusUpdate": "2021-12-07T09:36:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2014-11-28T03:39:00Z",
     "SubmissionStatusTypeID": 100

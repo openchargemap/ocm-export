@@ -1,4 +1,22 @@
 {
+    "MediaItems": [
+        {
+            "ID": 30088,
+            "ChargePointID": 188265,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/JO/OCM188265/OCM-188265.orig.2021121814215048.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/JO/OCM188265/OCM-188265.thmb.2021121814215048.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 23314,
+                "Username": "amralomari"
+            },
+            "DateCreated": "2021-12-18T14:22:00Z"
+        }
+    ],
     "IsRecentlyVerified": false,
     "ID": 188265,
     "UUID": "1548F9C7-6485-472B-996D-D29BD80DD4FC",
@@ -32,7 +50,7 @@
         {
             "ID": 303910,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 2,
             "PowerKW": 50
         },
@@ -43,12 +61,13 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Plug not available "
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-12T15:47:00Z",
+    "DateLastStatusUpdate": "2021-12-18T20:37:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-07-17T05:19:00Z",
     "SubmissionStatusTypeID": 200

@@ -4,58 +4,46 @@
     "UUID": "24B2A281-860D-42A5-88B5-03D3AA00BFD6",
     "DataProviderID": 1,
     "OperatorID": 3398,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
     "UsageCost": "$0.60/kWh",
     "AddressInfo": {
         "ID": 173011,
-        "Title": "Taree South Service Centre",
-        "AddressLine1": "Taree South Service Centre",
+        "Title": "Taree South Service Centre [Evie]",
+        "AddressLine1": "Manning River Drive",
         "AddressLine2": "Glenthorne",
         "StateOrProvince": "New South Wales",
         "Postcode": "2430",
         "CountryID": 18,
         "Latitude": -31.94324179696902,
         "Longitude": 152.4706408423865,
+        "AccessComments": "access of Manning River Drive",
         "RelatedURL": "https://goevie.com.au/our-network/",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 263992,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
-        },
         {
             "ID": 263993,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
-            "ID": 263994,
+            "ID": 309294,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 263995,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "LevelID": 2,
+            "Amps": 200,
+            "PowerKW": 100,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "Station HS008",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-02-12T10:05:00Z",
+    "DateLastStatusUpdate": "2021-12-19T02:04:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-02-12T06:14:00Z",
     "SubmissionStatusTypeID": 200
