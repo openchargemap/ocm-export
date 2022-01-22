@@ -17,13 +17,14 @@
             "DateCreated": "2020-08-12T15:52:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-01-20T22:21:00Z",
     "ID": 24673,
     "UUID": "2B29F976-E87D-4CA1-BAB4-06C4ED6A837F",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "UsageCost": "0,20 - 0,25 €/kWh",
     "AddressInfo": {
         "ID": 25019,
         "Title": "Prisma Järvenpää",
@@ -42,15 +43,32 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
+        },
+        {
+            "ID": 310160,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 310161,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 50,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-12T15:52:00Z",
+    "DateLastStatusUpdate": "2022-01-20T22:21:00Z",
     "MetadataValues": [
         {
             "ID": 1067,

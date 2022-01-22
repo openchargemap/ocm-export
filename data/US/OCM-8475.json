@@ -1,22 +1,22 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-01-19T22:17:00Z",
     "ID": 8475,
     "UUID": "7263DD03-0364-4AC0-856D-ECD062003F4D",
-    "DataProviderID": 15,
-    "DataProvidersReference": "513",
-    "OperatorID": 31,
+    "DataProviderID": 1,
+    "OperatorID": 59,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 8372,
-        "Title": "26 SW Salmon Street",
-        "AddressLine1": "26 SW Salmon Street",
+        "Title": "56 SW Taylor St",
+        "AddressLine1": "56 SW Taylor St",
         "Town": "Portland",
-        "StateOrProvince": "Oregon",
-        "Postcode": "97204",
+        "StateOrProvince": "OR",
+        "Postcode": "97258",
         "CountryID": 2,
-        "Latitude": 45.51613,
-        "Longitude": -122.67385,
-        "ContactTelephone1": "",
-        "RelatedURL": "http://carstations.com/513",
+        "Latitude": 45.51617378756839,
+        "Longitude": -122.67384156838601,
+        "RelatedURL": "https://charge.greenlots.com/evowner/portal/locate-charger",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -39,27 +39,20 @@
             "Quantity": 1
         },
         {
-            "ID": 6320,
-            "ConnectionTypeID": 9,
-            "Reference": "NEMA5",
-            "LevelID": 1
-        },
-        {
-            "ID": 6618,
-            "ConnectionTypeID": 0,
-            "Reference": "NEMA1450",
-            "Quantity": 1
-        },
-        {
             "ID": 9099,
             "ConnectionTypeID": 1,
             "Reference": "J1772",
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Quantity": 1
+            "Amps": 32,
+            "Voltage": 240,
+            "PowerKW": 7.6,
+            "CurrentTypeID": 10,
+            "Quantity": 10
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2017-11-04T14:05:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-01-19T22:17:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-11-11T12:06:00Z",
     "SubmissionStatusTypeID": 100

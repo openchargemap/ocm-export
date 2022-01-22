@@ -1,15 +1,34 @@
 {
-    "IsRecentlyVerified": false,
+    "MediaItems": [
+        {
+            "ID": 30356,
+            "ChargePointID": 174225,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM174225/OCM-174225.orig.2022011314543703.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM174225/OCM-174225.thmb.2022011314543703.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 30533,
+                "Username": "Jason Cruickshank"
+            },
+            "DateCreated": "2022-01-13T14:55:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-01-18T09:45:00Z",
     "ID": 174225,
     "UUID": "8006F4E2-B2E3-4785-9FC3-1C9CEA1CB1DF",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3493,
     "UsageTypeID": 5,
     "UsageCost": "$10 per hour",
     "AddressInfo": {
         "ID": 174584,
         "Title": "Two Rock Station",
-        "AddressLine1": "7616 valley ford road",
+        "AddressLine1": "7616 Valley Ford Road",
         "Town": "Two Rock ",
         "StateOrProvince": "CA",
         "Postcode": "94952",
@@ -26,22 +45,28 @@
         {
             "ID": 269444,
             "ConnectionTypeID": 32,
+            "Reference": "2RK1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 152,
+            "Amps": 65,
+            "Voltage": 500,
             "PowerKW": 25,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Delta Electronics DC Wallbox"
         },
         {
             "ID": 269445,
             "ConnectionTypeID": 2,
+            "Reference": "2RK1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 152,
+            "Amps": 65,
+            "Voltage": 500,
             "PowerKW": 25,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Delta Electronics DC Wallbox"
         },
         {
             "ID": 269446,
@@ -53,10 +78,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 2,
     "GeneralComments": "free wifi, \"TwoRock\" pazzword \"California\" 》》Location is Next to Social Hall, NOT FIRE DEPARTMENT across the street... https://w3w.co/unfilled.rival.sprinkling is the exact location...  Go to charge.swtchenergy.com and create an account, then use ID \"2RK1\".",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-24T09:17:00Z",
+    "DateLastStatusUpdate": "2022-01-18T09:45:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-23T15:02:00Z",
     "SubmissionStatusTypeID": 200

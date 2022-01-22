@@ -1,10 +1,11 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-01-16T06:15:00Z",
     "ID": 66034,
     "UUID": "D8AE3C4E-1CF7-412D-9E04-390864209629",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 7,
+    "UsageTypeID": 1,
     "UsageCost": "$1/kWh",
     "AddressInfo": {
         "ID": 66380,
@@ -14,8 +15,9 @@
         "StateOrProvince": "WA",
         "Postcode": "6443",
         "CountryID": 18,
-        "Latitude": -32.4441531,
-        "Longitude": 124.0375686,
+        "Latitude": -32.351950707003716,
+        "Longitude": 123.61710184080994,
+        "ContactTelephone1": "tel:+61890393453",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,14 +28,23 @@
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 23,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 309944,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-27T12:01:00Z",
+    "DateLastStatusUpdate": "2022-01-16T06:15:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-05-09T22:49:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,11 +1,12 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2021-12-23T10:23:00Z",
     "ID": 104959,
     "UUID": "EE73573E-6423-4C79-84E8-76E4CCBE989C",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "43431",
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 105305,
         "Title": "Sosc 3000 Block Parking Garage",
@@ -27,13 +28,24 @@
             "LevelID": 2,
             "PowerKW": 6,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 309408,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "Amps": 30,
+            "Voltage": 240,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 6kW.Available to the public. Self park.",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-05-26T05:39:00Z",
+    "GeneralComments": "1 Tesla Connector, up to 6kW.Available to the public. Self park.",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2021-12-23T10:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-05-26T05:39:00Z",
     "SubmissionStatusTypeID": 200

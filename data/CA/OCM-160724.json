@@ -1,10 +1,30 @@
 {
-    "IsRecentlyVerified": false,
+    "MediaItems": [
+        {
+            "ID": 30357,
+            "ChargePointID": 160724,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM160724/OCM-160724.orig.2022011314580650.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM160724/OCM-160724.thmb.2022011314580650.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 30533,
+                "Username": "Jason Cruickshank"
+            },
+            "DateCreated": "2022-01-13T14:58:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-01-16T16:06:00Z",
     "ID": 160724,
     "UUID": "12C8F49E-9471-45C7-835D-4E33341DF72B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "157846",
-    "UsageTypeID": 2,
+    "DataProviderID": 1,
+    "OperatorID": 3493,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.25 / minute",
     "AddressInfo": {
         "ID": 161081,
         "Title": "Squamish Liquor Store",
@@ -15,37 +35,44 @@
         "CountryID": 44,
         "Latitude": 49.7025196,
         "Longitude": -123.1532244,
-        "ContactTelephone1": "",
+        "ContactTelephone1": "+1-844-798-2438",
         "AccessComments": "",
-        "RelatedURL": "",
+        "RelatedURL": "https://charge.swtchenergy.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 231289,
             "ConnectionTypeID": 2,
+            "Reference": "LAE02 / LAE04",
+            "StatusTypeID": 75,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Tritium RT50"
         },
         {
             "ID": 231290,
             "ConnectionTypeID": 32,
+            "Reference": "LAE01 / LAE03",
+            "StatusTypeID": 75,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Tritium RT50"
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "NumberOfPoints": 2,
+    "GeneralComments": "2 x 50kW SWTCH stations Tritium chargers  Guest check out available via charge.swtchenergy.com  1. Download the SWTCH mobile app or go to charge.swtchenergy.com and create an account 2. Plug port into the electric vehicle  3. Enter port number (e.g., LAE01) or locate station on the map 4. Press charge on the app  5. Press charge on the charging station",
     "DatePlanned": "2020-09-01T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2020-06-26T03:12:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2022-01-16T16:06:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2020-06-26T03:12:00Z",
     "SubmissionStatusTypeID": 100

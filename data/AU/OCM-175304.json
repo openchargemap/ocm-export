@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 25183,
+            "ChargePointID": 175304,
+            "CommentTypeID": 10,
+            "UserName": "Wild Rice",
+            "Comment": "The barrier fence at the norht end of Friend is open. But location is not on Chargefox app. Also there appeared to be some error codes flashingf on the display - could not see them clearly because of sun light.",
+            "DateCreated": "2021-12-30T08:49:18.45Z",
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "CheckinStatusTypeID": 22,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 24309,
             "ChargePointID": 175304,
             "CommentTypeID": 10,
@@ -16,6 +30,54 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 30178,
+            "ChargePointID": 175304,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM175304/OCM-175304.orig.2021123008525801.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM175304/OCM-175304.thmb.2021123008525801.jpg",
+            "Comment": "Barrier gate open",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2021-12-30T08:53:00Z"
+        },
+        {
+            "ID": 30177,
+            "ChargePointID": 175304,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM175304/OCM-175304.orig.2021123008515176.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM175304/OCM-175304.thmb.2021123008515176.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2021-12-30T08:52:00Z"
+        },
+        {
+            "ID": 30176,
+            "ChargePointID": 175304,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM175304/OCM-175304.orig.2021123008505483.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM175304/OCM-175304.thmb.2021123008505483.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2021-12-30T08:51:00Z"
+        },
         {
             "ID": 27573,
             "ChargePointID": 175304,
@@ -65,12 +127,13 @@
             "DateCreated": "2021-05-09T10:06:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-01-20T23:36:00Z",
     "ID": 175304,
     "UUID": "3C73F3C0-66A2-481D-B350-1CED4013123D",
     "DataProviderID": 1,
-    "OperatorID": 3339,
-    "UsageTypeID": 4,
+    "OperatorID": 1,
+    "UsageTypeID": 2,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 175663,
@@ -82,14 +145,14 @@
         "CountryID": 18,
         "Latitude": -32.05200442859802,
         "Longitude": 115.76492369861444,
-        "RelatedURL": "https://chargefox.com",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 271897,
             "ConnectionTypeID": 33,
-            "Reference": "4040",
+            "Reference": "",
             "StatusTypeID": 150,
             "LevelID": 3,
             "PowerKW": 50,
@@ -99,7 +162,7 @@
         {
             "ID": 271898,
             "ConnectionTypeID": 2,
-            "Reference": "4040",
+            "Reference": "",
             "StatusTypeID": 150,
             "LevelID": 3,
             "PowerKW": 50,
@@ -109,7 +172,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-05-11T02:14:00Z",
+    "DateLastStatusUpdate": "2022-01-20T23:36:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-08T12:21:00Z",
     "SubmissionStatusTypeID": 200

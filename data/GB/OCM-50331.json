@@ -1,6 +1,51 @@
 {
     "UserComments": [
         {
+            "ID": 25238,
+            "ChargePointID": 50331,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "In process of being upgraded by Gridserve",
+            "RelatedURL": "https://twitter.com/norfolkmustard/status/1480214517942521862",
+            "DateCreated": "2022-01-10T10:47:13.393Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 25174,
+            "ChargePointID": 50331,
+            "CommentTypeID": 10,
+            "UserName": "bidi",
+            "Comment": "not working",
+            "Rating": 1,
+            "DateCreated": "2021-12-28T19:58:01.343Z",
+            "User": {
+                "ID": 34766,
+                "Username": "bidi"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 25152,
+            "ChargePointID": 50331,
+            "CommentTypeID": 1000,
+            "UserName": "Daykes",
+            "Comment": "Neither chargers have worked for months. Its been reported & they aren't interested. Check ZapMap",
+            "Rating": 1,
+            "DateCreated": "2021-12-23T10:25:45.747Z",
+            "User": {
+                "ID": 18854,
+                "Username": "Daykes"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 20649,
             "ChargePointID": 50331,
             "CommentTypeID": 10,
@@ -187,14 +232,14 @@
             "DateCreated": "2015-08-25T18:02:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-01-10T10:47:00Z",
     "ID": 50331,
     "UUID": "16BB531D-13B5-4F76-B21B-A1029C3F86D8",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1004,1003",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 50677,
         "Title": "Welcome Break, Birchanger Green",
@@ -213,37 +258,38 @@
         {
             "ID": 61995,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 150,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 61996,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
             "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 61997,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 150,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Access via Ecotricity Electric Highway app only",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-23T06:12:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2022-01-10T10:47:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-07-21T14:25:00Z",
     "SubmissionStatusTypeID": 200

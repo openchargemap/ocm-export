@@ -1,21 +1,22 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-01-10T09:39:00Z",
     "ID": 175533,
     "UUID": "9524AABD-A39F-4088-8A8F-819EC9FB2499",
     "DataProviderID": 1,
     "OperatorID": 3,
     "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh; Free for AC <=22kW",
     "AddressInfo": {
         "ID": 175892,
         "Title": "Tesco Superstore-Alfreton",
-        "AddressLine1": "Hall Street",
-        "Town": "Amber Valley",
-        "StateOrProvince": "England",
+        "AddressLine1": "Lincoln Street",
+        "Town": "Alfreton",
+        "StateOrProvince": "Derbyshire",
         "Postcode": "DE55 7BT",
         "CountryID": 1,
-        "Latitude": 53.094812,
-        "Longitude": -1.389781,
+        "Latitude": 53.09444412389254,
+        "Longitude": -1.3900748694844651,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -38,15 +39,34 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 309841,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 309858,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 6,
+    "GeneralComments": "7kW and 22kW free but 50kw Takes contactless.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-27T15:41:00Z",
+    "DateLastStatusUpdate": "2022-01-10T09:39:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-27T15:41:00Z",
     "SubmissionStatusTypeID": 200
