@@ -214,32 +214,16 @@
                 "Username": "quentinsf"
             },
             "DateCreated": "2015-11-20T23:40:00Z"
-        },
-        {
-            "ID": 3093,
-            "ChargePointID": 50331,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM50331/OCM-50331.orig.2015082518021381.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM50331/OCM-50331.thmb.2015082518021381.jpg",
-            "Comment": "2x Triple head chargers with 1x space each.",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 4558,
-                "Username": "cgiAlexis"
-            },
-            "DateCreated": "2015-08-25T18:02:00Z"
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-10T10:47:00Z",
+    "DateLastVerified": "2022-01-26T15:41:00Z",
     "ID": 50331,
     "UUID": "16BB531D-13B5-4F76-B21B-A1029C3F86D8",
     "DataProviderID": 1,
     "OperatorID": 24,
     "UsageTypeID": 5,
-    "UsageCost": "£0.30/kWh",
+    "UsageCost": "£0.39/kWh",
     "AddressInfo": {
         "ID": 50677,
         "Title": "Welcome Break, Birchanger Green",
@@ -251,45 +235,72 @@
         "CountryID": 1,
         "Latitude": 51.87202,
         "Longitude": 0.195297,
-        "AccessComments": "Upon entering the car park, take the first row on the left and head right down to the end. The two AC/DC rapid chargers are on the left. The car park is one-way, so if you miss the turn you have to go all the way back round again.",
+        "AccessComments": "Upon entering the car park, take the first row on the left and head right down to the end. The two rapid chargers are on the left. The car park is one-way, so if you miss the turn you have to go all the way back round again.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 61995,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "GB*GFX*EGS10338*2",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 61996,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "GB*GFX*EGS10338*1",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 61997,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 150,
+            "Reference": "GB*GFX*EGS10338*3",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 310287,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10339*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310288,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10339*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-01-10T10:47:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-01-26T15:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-07-21T14:25:00Z",
     "SubmissionStatusTypeID": 200

@@ -164,48 +164,14 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "MediaItems": [
-        {
-            "ID": 4796,
-            "ChargePointID": 5867,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM5867/OCM-5867.orig.2016011914294654.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM5867/OCM-5867.thmb.2016011914294654.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 6511,
-                "Username": "shosoloza"
-            },
-            "DateCreated": "2016-01-19T14:30:00Z"
-        },
-        {
-            "ID": 1621,
-            "ChargePointID": 5867,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM5867/OCM-5867.orig.2015062916065078.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM5867/OCM-5867.thmb.2015062916065078.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 4778,
-                "Username": "Sandy Ritchie"
-            },
-            "DateCreated": "2015-06-29T16:07:00Z"
-        }
-    ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-01-26T15:31:00Z",
     "ID": 5867,
     "UUID": "9F27EA50-49B5-4A2B-9516-B03402BE6EE1",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1026,1027",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.39/kWh",
     "AddressInfo": {
         "ID": 5789,
         "Title": "Gretna Green Welcome Break",
@@ -217,44 +183,85 @@
         "CountryID": 1,
         "Latitude": 55.0080189213543,
         "Longitude": -3.08366060256958,
-        "ContactTelephone1": "01453 761455",
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 616,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10179*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 6557,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10179*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 34537,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*EGS10179*3",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310284,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10180*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310285,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10180*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310286,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*EGS10180*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-28T06:13:00Z",
+    "DateLastStatusUpdate": "2022-01-26T15:31:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-09-12T11:40:00Z",
     "SubmissionStatusTypeID": 200
