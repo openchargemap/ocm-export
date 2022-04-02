@@ -45,47 +45,15 @@
                 "Username": "Nick_G"
             },
             "DateCreated": "2016-08-06T14:23:00Z"
-        },
-        {
-            "ID": 7959,
-            "ChargePointID": 52529,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM52529/OCM-52529.orig.2016080614213470.jpeg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM52529/OCM-52529.thmb.2016080614213470.jpeg",
-            "Comment": "32A Rolec type 2",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 5001,
-                "Username": "Nick_G"
-            },
-            "DateCreated": "2016-08-06T14:22:00Z"
-        },
-        {
-            "ID": 3166,
-            "ChargePointID": 52529,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM52529/OCM-52529.orig.2015090521275159.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM52529/OCM-52529.thmb.2015090521275159.jpg",
-            "Comment": "Socketed Rolec wallpod.",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 4575,
-                "Username": "Simon Hewison"
-            },
-            "DateCreated": "2015-09-05T21:28:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-02T11:01:00Z",
     "ID": 52529,
     "UUID": "7CF74CE7-412B-420E-923E-9C2144AE4921",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "Free. donations welcome in lieu of parking ticket",
+    "OperatorID": 3496,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 52875,
         "Title": "Oriel y Parc National Park visitors centre",
@@ -97,25 +65,27 @@
         "Latitude": 51.8803457058786,
         "Longitude": -5.25967240333557,
         "AccessComments": "in car park, immediately left of cabin",
+        "RelatedURL": "https://dragoncharging.online/guest/guest-home/guest-charger-details?barcode=002101",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 65229,
             "ConnectionTypeID": 25,
+            "Reference": "002101",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "operated by Pembrokeshire Coast National Park",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Scan QR code",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-08-06T10:26:00Z",
+    "DateLastStatusUpdate": "2022-02-02T11:01:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-09-02T03:05:00Z",
     "SubmissionStatusTypeID": 200

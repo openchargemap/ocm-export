@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 25517,
+            "ChargePointID": 41836,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "no power to unit",
+            "DateCreated": "2022-03-13T11:01:31.193Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 16208,
             "ChargePointID": 41836,
             "CommentTypeID": 10,
@@ -74,7 +88,8 @@
             "DateCreated": "2015-02-27T20:43:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-03-13T11:02:00Z",
     "ID": 41836,
     "UUID": "0E425A62-C983-41B8-BAE1-7F83F2F480AB",
     "DataProviderID": 1,
@@ -99,7 +114,7 @@
         {
             "ID": 50120,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -108,7 +123,7 @@
         {
             "ID": 50121,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -117,7 +132,7 @@
         {
             "ID": 50122,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "Voltage": 400,
             "PowerKW": 43,
@@ -127,8 +142,8 @@
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "APT Rapid charger",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-11-02T08:32:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-03-13T11:02:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-02-10T11:46:00Z",
     "SubmissionStatusTypeID": 200

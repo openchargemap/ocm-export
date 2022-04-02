@@ -280,14 +280,15 @@
             "DateCreated": "2014-01-16T09:15:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-03-05T10:19:00Z",
     "ID": 5741,
     "UUID": "0422C3D9-4BD7-4620-A51B-2A744975951B",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1044,1045,1046",
-    "UsageTypeID": 4,
-    "UsageCost": "Free,£0.30/kWh; £0.15/kWh for Ecotricity energy customers. 22kW Socket charging free",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.39/kWh",
     "AddressInfo": {
         "ID": 5663,
         "Title": "Membury Welcome Break M4 (E) Services",
@@ -299,21 +300,10 @@
         "CountryID": 1,
         "Latitude": 51.483884744577,
         "Longitude": -1.55782988095097,
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 490,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
         {
             "ID": 22602,
             "ConnectionTypeID": 25,
@@ -330,9 +320,9 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -341,17 +331,39 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 311660,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 311661,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
-    "GeneralComments": "£6.00/30 minute session; Free for Ecotricity energy customers. 22kW Socket charging free - no RFID needed. 2hrs free parking then fees apply but unlimited free parking if staying in hotel",
+    "NumberOfPoints": 2,
+    "GeneralComments": "2hrs free parking then fees apply but unlimited free parking if staying in hotel",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-08-13T12:33:00Z",
+    "DateLastStatusUpdate": "2022-03-05T10:19:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-09-12T11:40:00Z",
     "SubmissionStatusTypeID": 200

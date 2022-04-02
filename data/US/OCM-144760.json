@@ -1,11 +1,12 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-15T14:50:00Z",
     "ID": 144760,
     "UUID": "8C922343-62A4-4FFF-9E05-A30E1F6B4FFB",
-    "DataProviderID": 2,
-    "DataProvidersReference": "73443",
+    "DataProviderID": 1,
     "OperatorID": 3373,
     "UsageTypeID": 1,
+    "UsageCost": "$.49/kWh for DC, $0.29/kWh for AC",
     "AddressInfo": {
         "ID": 145112,
         "Title": "The Dalles - Fred Meyer",
@@ -41,10 +42,19 @@
             "PowerKW": 40,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 311185,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:09:00Z",
+    "DateLastStatusUpdate": "2022-02-15T14:50:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:23:00Z",
     "SubmissionStatusTypeID": 100

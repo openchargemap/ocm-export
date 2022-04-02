@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 25387,
+            "ChargePointID": 99272,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Service code 8c. Vehicle charging interrupted by user or server.\r\nCCS connector caked in mud.",
+            "Rating": 1,
+            "DateCreated": "2022-02-13T19:21:41.517Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 25,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 24888,
             "ChargePointID": 99272,
             "CommentTypeID": 10,
@@ -89,7 +104,8 @@
             "DateCreated": "2018-02-28T15:33:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-13T19:22:00Z",
     "ID": 99272,
     "UUID": "5259786A-6B50-40B3-B571-944A6598D495",
     "DataProviderID": 1,
@@ -114,7 +130,7 @@
         {
             "ID": 140246,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -123,7 +139,7 @@
         {
             "ID": 140247,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -132,7 +148,7 @@
         {
             "ID": 140248,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
@@ -140,8 +156,8 @@
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-24T18:24:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-02-13T19:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-01-25T16:00:00Z",
     "SubmissionStatusTypeID": 200

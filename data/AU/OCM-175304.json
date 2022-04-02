@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 25509,
+            "ChargePointID": 175304,
+            "CommentTypeID": 50,
+            "UserName": "Wild Rice",
+            "Comment": "Sign on front of charger reports Chargefox activation. Not currently on Chargefox app. Activate using Chargefox RFID card.",
+            "DateCreated": "2022-03-12T06:35:44.26Z",
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 25183,
             "ChargePointID": 175304,
             "CommentTypeID": 10,
@@ -30,6 +44,38 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 31033,
+            "ChargePointID": 175304,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM175304/OCM-175304.orig.2022031206394198.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM175304/OCM-175304.thmb.2022031206394198.jpg",
+            "Comment": "Managed by Chargefox. ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2022-03-12T06:40:00Z"
+        },
+        {
+            "ID": 31032,
+            "ChargePointID": 175304,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM175304/OCM-175304.orig.2022031206375739.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM175304/OCM-175304.thmb.2022031206375739.jpg",
+            "Comment": "Charging at 45 kW after activated using Chargefox RFID card. ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2022-03-12T06:38:00Z"
+        },
         {
             "ID": 30178,
             "ChargePointID": 175304,
@@ -128,12 +174,12 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-20T23:36:00Z",
+    "DateLastVerified": "2022-03-12T08:28:00Z",
     "ID": 175304,
     "UUID": "3C73F3C0-66A2-481D-B350-1CED4013123D",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 2,
+    "OperatorID": 3339,
+    "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 175663,
@@ -153,7 +199,7 @@
             "ID": 271897,
             "ConnectionTypeID": 33,
             "Reference": "",
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -163,7 +209,7 @@
             "ID": 271898,
             "ConnectionTypeID": 2,
             "Reference": "",
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -171,8 +217,9 @@
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-01-20T23:36:00Z",
+    "GeneralComments": "Not currently on the Chargefox app. Use Chargefox RFID card o activate",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-03-12T08:28:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-08T12:21:00Z",
     "SubmissionStatusTypeID": 200

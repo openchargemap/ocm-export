@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 25332,
+            "ChargePointID": 145328,
+            "CommentTypeID": 10,
+            "UserName": "The EV Guy",
+            "Comment": "The site is open. One CCS charger is not operational.",
+            "DateCreated": "2022-02-03T05:44:59.533Z",
+            "User": {
+                "ID": 33325,
+                "Username": "The EV Guy"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 24786,
             "ChargePointID": 145328,
             "CommentTypeID": 10,
@@ -15,7 +29,8 @@
             "IsActionedByEditor": false
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-03T13:22:00Z",
     "ID": 145328,
     "UUID": "2EEB6BA8-2E65-4AA2-BCDB-B7F7B8C3E37B",
     "DataProviderID": 1,
@@ -51,9 +66,9 @@
             "ID": 201977,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
+            "Amps": 125,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -61,15 +76,16 @@
             "ID": 201978,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
+            "Amps": 375,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 3
         }
     ],
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2021-09-01T07:53:00Z",
+    "GeneralComments": "One charger is not operational",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2022-02-03T13:22:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:24:00Z",
     "SubmissionStatusTypeID": 100

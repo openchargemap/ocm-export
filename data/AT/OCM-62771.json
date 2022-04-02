@@ -1,11 +1,12 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-03-24T07:49:00Z",
     "ID": 62771,
     "UUID": "ED90B602-AFF4-43FF-904A-E762E83E58AE",
-    "DataProviderID": 26,
-    "DataProvidersReference": "19478",
+    "DataProviderID": 1,
     "OperatorID": 162,
     "OperatorsReference": "Voralberger, Rankweil",
+    "UsageTypeID": 7,
     "UsageCost": "0.00 onbekend",
     "AddressInfo": {
         "ID": 63117,
@@ -24,12 +25,33 @@
             "ConnectionTypeID": 2,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 312188,
+            "ConnectionTypeID": 33,
+            "Reference": "VLOTTE",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 312189,
+            "ConnectionTypeID": 33,
+            "Reference": "VLOTTE",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-03-03T12:29:00Z",
+    "DateLastStatusUpdate": "2022-03-24T07:49:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-03-03T12:29:00Z",
     "SubmissionStatusTypeID": 100

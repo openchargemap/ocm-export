@@ -101,14 +101,15 @@
             "DateCreated": "2014-11-01T12:41:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-01-31T16:56:00Z",
     "ID": 5861,
     "UUID": "E387A32E-D135-4B2B-896D-D8D45E168753",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1008,1009,1010",
-    "UsageTypeID": 4,
-    "UsageCost": "Free,£0.30/kWh; £0.15/kWh for Ecotricity energy customers. 22kW Socket charging free via RFID",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.39/kWh",
     "AddressInfo": {
         "ID": 5783,
         "Title": "Charnock Richard Welcome Break M6 (N) Services",
@@ -120,44 +121,37 @@
         "CountryID": 1,
         "Latitude": 53.6313052328981,
         "Longitude": -2.69183278083801,
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 610,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 75,
+            "Reference": "GB*GFX*EGS10343*2",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 26205,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 75,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
-            "ID": 26983,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 100,
-            "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 105271,
+            "ID": 26205,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10343*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 26983,
             "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*EGS10343*3",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -165,11 +159,35 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 105271,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10344*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310394,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10344*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2020-09-09T05:14:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-01-31T16:56:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-09-12T11:40:00Z",
     "SubmissionStatusTypeID": 200

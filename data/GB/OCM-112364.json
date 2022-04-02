@@ -1,21 +1,59 @@
 {
-    "IsRecentlyVerified": false,
+    "UserComments": [
+        {
+            "ID": 25549,
+            "ChargePointID": 112364,
+            "CommentTypeID": 10,
+            "UserName": "FramX",
+            "Comment": "The charger is in the car park next to the castle",
+            "Rating": 5,
+            "DateCreated": "2022-03-19T20:18:56.27Z",
+            "User": {
+                "ID": 35810,
+                "Username": "FramX"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 31131,
+            "ChargePointID": 112364,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM112364/OCM-112364.orig.2022031920174371.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM112364/OCM-112364.thmb.2022031920174371.jpg",
+            "Comment": "The charger is in the car park next to the castle",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 35810,
+                "Username": "FramX"
+            },
+            "DateCreated": "2022-03-19T20:18:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-03-31T11:54:00Z",
     "ID": 112364,
     "UUID": "048D77BB-BA8B-486B-B8DE-5F4C0D4BD7AA",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 1,
     "UsageTypeID": 1,
-    "UsageCost": "free",
+    "UsageCost": "0.35/ kWh",
     "AddressInfo": {
         "ID": 112710,
-        "Title": "Castle Car Park",
+        "Title": "Castle Street",
         "AddressLine1": "Castle Street",
-        "Town": "Llandovery",
+        "AddressLine2": "Llandovery",
+        "Town": "Carmarthenshire",
         "StateOrProvince": "Carmarthenshire",
-        "Postcode": "SA20 0AN",
+        "Postcode": "SA20 0PT",
         "CountryID": 1,
-        "Latitude": 51.9934479596336,
-        "Longitude": -3.79550639589127,
+        "Latitude": 51.99333789448042,
+        "Longitude": -3.796440650809018,
+        "AccessComments": "The charger is in the car park.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -55,7 +93,7 @@
     "NumberOfPoints": 1,
     "GeneralComments": "Due to have contactless payment equipment fitted.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-01T09:35:00Z",
+    "DateLastStatusUpdate": "2022-03-31T11:54:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-10-25T11:46:00Z",
     "SubmissionStatusTypeID": 200

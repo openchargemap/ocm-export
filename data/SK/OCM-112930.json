@@ -1,4 +1,21 @@
 {
+    "UserComments": [
+        {
+            "ID": 25499,
+            "ChargePointID": 112930,
+            "CommentTypeID": 10,
+            "UserName": "Peter",
+            "Comment": "Charged successfully many times by CCS 50kW DC Connector or 22kW AC Type2 Connector",
+            "Rating": 5,
+            "DateCreated": "2022-03-09T22:28:01.497Z",
+            "User": {
+                "ID": 37084,
+                "Username": "Peter"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
         {
             "ID": 19632,
@@ -17,7 +34,8 @@
             "DateCreated": "2019-09-20T08:54:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-03-15T08:01:00Z",
     "ID": 112930,
     "UUID": "2FA9CD84-B232-464B-B65A-7A1F63883431",
     "DataProviderID": 1,
@@ -31,8 +49,8 @@
         "Town": "Malacky",
         "Postcode": "901 01",
         "CountryID": 204,
-        "Latitude": 48.4319,
-        "Longitude": 17.030128,
+        "Latitude": 48.431541762711646,
+        "Longitude": 17.030108811473497,
         "ContactTelephone1": "+421 2 330 56 236",
         "ContactEmail": "info@greenway.sk",
         "AccessComments": "Two parking places on the left next to the shopping mall TESCO entrance.\r\nDve parkovacie miesta vľavo vedľa vchodu do obchodného domu TESCO.",
@@ -57,14 +75,16 @@
         },
         {
             "ID": 184813,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "PowerKW": 22,
+            "CurrentTypeID": 20
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-09-20T09:06:00Z",
+    "DateLastStatusUpdate": "2022-03-15T08:01:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-11-26T06:43:00Z",
     "SubmissionStatusTypeID": 200

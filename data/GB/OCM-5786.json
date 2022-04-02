@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 25370,
+            "ChargePointID": 5786,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Site has been upgraded by Gridserve.",
+            "DateCreated": "2022-02-08T16:27:57.743Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 21977,
             "ChargePointID": 5786,
             "CommentTypeID": 10,
@@ -432,14 +446,14 @@
             "DateCreated": "2014-07-31T12:42:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-08T16:28:00Z",
     "ID": 5786,
     "UUID": "46B90D2B-E3DF-48A7-891E-CC075E1EEA9F",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1068,1069",
     "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageCost": "£0.39/kWh",
     "AddressInfo": {
         "ID": 5708,
         "Title": "South Mimms Welcome Break M25 Services",
@@ -451,45 +465,85 @@
         "CountryID": 1,
         "Latitude": 51.6870916315684,
         "Longitude": -0.221783816814423,
-        "ContactTelephone1": "01453 761455",
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/our-electric-highway",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 535,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 75,
+            "Reference": "GB*GFX*EGS10381*2",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 6688,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*EGS10381*3",
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
+            "LevelID": 2,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 43,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
             "ID": 60871,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 100,
+            "Reference": "GB*GFX*EGS10381*1",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310779,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10382*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310780,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10382*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310782,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*EGS10382*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2021-03-13T06:14:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-02-08T16:28:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-09-12T11:40:00Z",
     "SubmissionStatusTypeID": 200

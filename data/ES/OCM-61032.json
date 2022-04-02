@@ -1,39 +1,42 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-15T14:48:00Z",
     "ID": 61032,
     "UUID": "BEF9AA22-77EB-45C8-90EA-00470ACCFAC9",
-    "DataProviderID": 27,
-    "DataProvidersReference": "108",
-    "OperatorID": 210,
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61378,
-        "Title": "Ronda de Valencia",
-        "AddressLine1": "Ronda de Valencia, 1",
+        "Title": "ECOVE PuntoDeCarga: RONDA_VALENCIA",
+        "AddressLine1": " Ronda de Valencia 1, 28012 Madrid",
         "Town": "Madrid",
-        "StateOrProvince": "Madrid",
+        "StateOrProvince": "Community of Madrid",
         "Postcode": "28012",
         "CountryID": 210,
         "Latitude": 40.405731,
         "Longitude": -3.699459,
-        "ContactTelephone1": "+34 902 103 498",
-        "ContactEmail": "info@recargagic.com",
-        "RelatedURL": "http://www.recargagic.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 77536,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 33
         },
         {
             "ID": 77537,
             "ConnectionTypeID": 25
+        },
+        {
+            "ID": 311182,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Tarjeta GIC",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "DateLastStatusUpdate": "2022-02-15T14:48:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

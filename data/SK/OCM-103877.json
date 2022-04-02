@@ -1,5 +1,56 @@
 {
-    "IsRecentlyVerified": false,
+    "UserComments": [
+        {
+            "ID": 25501,
+            "ChargePointID": 103877,
+            "CommentTypeID": 50,
+            "UserName": "Peter",
+            "Comment": "outdoor parking (no parking fees)",
+            "DateCreated": "2022-03-10T10:01:15.873Z",
+            "User": {
+                "ID": 37084,
+                "Username": "Peter"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 31016,
+            "ChargePointID": 103877,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/SK/OCM103877/OCM-103877.orig.2022031010095888.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/SK/OCM103877/OCM-103877.thmb.2022031010095888.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37084,
+                "Username": "Peter"
+            },
+            "DateCreated": "2022-03-10T10:10:00Z"
+        },
+        {
+            "ID": 31015,
+            "ChargePointID": 103877,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/SK/OCM103877/OCM-103877.orig.2022031010064703.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/SK/OCM103877/OCM-103877.thmb.2022031010064703.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37084,
+                "Username": "Peter"
+            },
+            "DateCreated": "2022-03-10T10:07:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-03-10T22:23:00Z",
     "ID": 103877,
     "UUID": "FC74CC46-077D-40A7-BA75-C3F3897C916C",
     "DataProviderID": 1,
@@ -13,8 +64,10 @@
         "Town": "Banská Bystrica",
         "Postcode": "974 01",
         "CountryID": 204,
-        "Latitude": 48.730473,
-        "Longitude": 19.13566,
+        "Latitude": 48.730879239910564,
+        "Longitude": 19.135978303896763,
+        "AccessComments": "Rýchlo-nabíjacia stanica sa nachádza pri 2 vonkajších parkovacích miestach vľavo pred vstupnými rampami na strešné parkovisko.",
+        "RelatedURL": "https://driver.greenway.sk/#/portal/locationmodal/158870",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,14 +76,31 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 311822,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 311823,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-11-02T06:39:00Z",
+    "DateLastStatusUpdate": "2022-03-10T22:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-05-10T06:06:00Z",
     "SubmissionStatusTypeID": 200

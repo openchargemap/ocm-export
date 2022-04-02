@@ -1,10 +1,12 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-03-30T14:29:00Z",
     "ID": 113116,
     "UUID": "E899377C-C71F-4473-AC4C-67848762EC35",
-    "DataProviderID": 2,
-    "DataProvidersReference": "104747",
-    "UsageTypeID": 7,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "Na",
     "AddressInfo": {
         "ID": 113462,
         "Title": "Day Chevrolet",
@@ -13,26 +15,28 @@
         "StateOrProvince": "PA",
         "Postcode": "15146",
         "CountryID": 2,
-        "Latitude": 40.432253,
-        "Longitude": -79.715796,
+        "Latitude": 40.42728819228603,
+        "Longitude": -79.70044794524011,
         "ContactTelephone1": "724-327-0900",
         "AccessComments": "Dealership business hours\r\nPublic - Call ahead",
-        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 159286,
-            "ConnectionTypeID": 1,
+            "ConnectionTypeID": 30,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 7,
+            "Quantity": 1,
+            "Comments": "Tesla destination charger"
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:03:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-03-30T14:29:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2018-11-28T02:04:00Z",
     "SubmissionStatusTypeID": 100

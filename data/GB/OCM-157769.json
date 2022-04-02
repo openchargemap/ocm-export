@@ -1,28 +1,32 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-15T20:57:00Z",
     "ID": 157769,
     "UUID": "ED4BBC15-B647-46D0-8E40-0D7BC309DD27",
     "DataProviderID": 1,
-    "OperatorID": 8,
-    "UsageTypeID": 4,
+    "OperatorID": 32,
+    "UsageTypeID": 5,
+    "UsageCost": "£0.35/kWh",
     "AddressInfo": {
         "ID": 158123,
-        "Title": "Handcross",
-        "AddressLine1": "Handcross",
+        "Title": "The Red Lion",
+        "AddressLine1": "High Street",
+        "AddressLine2": "Handcross",
         "Town": "Haywards Heath",
+        "StateOrProvince": "West Sussex",
         "Postcode": "RH17 6BP",
         "CountryID": 1,
-        "Latitude": 51.053558,
-        "Longitude": -0.200995,
-        "AccessComments": "",
-        "RelatedURL": "https://www.bpchargemaster.com",
+        "Latitude": 51.05353859781011,
+        "Longitude": -0.20102030811931518,
+        "AccessComments": "In car park",
+        "RelatedURL": "https://www.bppulse.co.uk/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 227304,
             "ConnectionTypeID": 2,
-            "Reference": "1",
+            "Reference": "24646",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -34,7 +38,7 @@
         {
             "ID": 227305,
             "ConnectionTypeID": 33,
-            "Reference": "2",
+            "Reference": "24646",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -46,14 +50,17 @@
         {
             "ID": 232170,
             "ConnectionTypeID": 1036,
+            "Reference": "24646",
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 43,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
+    "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-07-08T15:41:00Z",
+    "DateLastStatusUpdate": "2022-02-15T20:57:00Z",
     "MetadataValues": [
         {
             "ID": 7302,

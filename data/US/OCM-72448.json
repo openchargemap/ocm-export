@@ -1,10 +1,11 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-03-08T00:51:00Z",
     "ID": 72448,
     "UUID": "1ECF004C-5956-4866-A8A6-E1B0A7499849",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 6,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 72794,
         "Title": "Mom's Organic Market",
@@ -13,31 +14,27 @@
         "StateOrProvince": "MD",
         "Postcode": "21703",
         "CountryID": 2,
-        "Latitude": 39.3759198,
-        "Longitude": -77.412834,
+        "Latitude": 39.37613657894033,
+        "Longitude": -77.41281127488438,
+        "AccessComments": "On side of store facing IHOP",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 103825,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 103826,
             "ConnectionTypeID": 1,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 30,
+            "Voltage": 240,
+            "PowerKW": 7.2,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-10-16T07:42:00Z",
+    "DateLastStatusUpdate": "2022-03-08T00:51:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-10-16T04:48:00Z",
     "SubmissionStatusTypeID": 200

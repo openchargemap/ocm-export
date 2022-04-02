@@ -51,21 +51,21 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-09-11T09:08:00Z",
+    "DateLastVerified": "2022-03-20T09:39:00Z",
     "ID": 189169,
     "UUID": "8186DF8A-3F37-4B89-8A24-7DE2331B27CE",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3327,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 189528,
-        "Title": "Eni AdS Scaligera Nord Castelletto",
+        "Title": "BeCharge Fast AdS Scaligera Nord Castelletto",
         "AddressLine1": "A4 km 176,200",
         "Town": "Verona",
         "StateOrProvince": "VR",
         "CountryID": 112,
-        "Latitude": 45.411557,
-        "Longitude": 11.232044,
+        "Latitude": 45.411556999998254,
+        "Longitude": 11.232044000000087,
         "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-fast-eni-a4-ads-scaligera-nord-castelletto-vr-t18682.html",
         "DistanceUnit": 0
     },
@@ -73,25 +73,36 @@
         {
             "ID": 305825,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 305826,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 305827,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-11T09:08:00Z",
+    "DateLastStatusUpdate": "2022-03-20T09:39:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-09-11T09:06:00Z",
     "SubmissionStatusTypeID": 200

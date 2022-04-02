@@ -1,11 +1,12 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-09T20:08:00Z",
     "ID": 143602,
     "UUID": "2737B2DE-D874-42A7-85AF-781F8E2E6FC2",
-    "DataProviderID": 2,
-    "DataProvidersReference": "149951",
+    "DataProviderID": 1,
     "OperatorID": 3400,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "1-90 kW $0.27/min; 1-150 kW $0.57/min",
     "AddressInfo": {
         "ID": 143954,
         "Title": "Toronto Premium Outlets",
@@ -28,7 +29,7 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -38,13 +39,32 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 310912,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 310913,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:07:00Z",
+    "DateLastStatusUpdate": "2022-02-09T20:08:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:21:00Z",
     "SubmissionStatusTypeID": 100

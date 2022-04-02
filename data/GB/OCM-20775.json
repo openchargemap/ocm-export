@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 25422,
+            "ChargePointID": 20775,
+            "CommentTypeID": 1000,
+            "UserName": "Simon Hewison",
+            "Comment": "power failure during charge.",
+            "DateCreated": "2022-02-20T21:19:19.327Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 25,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 20981,
             "ChargePointID": 20775,
             "CommentTypeID": 10,
@@ -101,7 +115,8 @@
             "DateCreated": "2014-01-17T09:33:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-20T21:19:00Z",
     "ID": 20775,
     "UUID": "8112DF6A-DA7A-4106-BC29-7254A49114B3",
     "DataProviderID": 1,
@@ -127,7 +142,7 @@
             "ID": 22583,
             "ConnectionTypeID": 2,
             "Reference": "0090",
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 500,
@@ -139,7 +154,7 @@
             "ID": 273744,
             "ConnectionTypeID": 33,
             "Reference": "0090",
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
@@ -161,8 +176,8 @@
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-01T13:40:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2022-02-20T21:19:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-11T10:22:00Z",
     "SubmissionStatusTypeID": 200

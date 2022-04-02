@@ -1,5 +1,6 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-21T21:49:00Z",
     "ID": 175935,
     "UUID": "61A2C503-9819-497E-9F73-E9DF2B16C18F",
     "DataProviderID": 1,
@@ -8,32 +9,43 @@
     "UsageCost": "Mobi.E compatible card or App",
     "AddressInfo": {
         "ID": 176294,
-        "Title": "BRG-00029",
+        "Title": "BRG-00029 - IPO",
         "AddressLine1": "IPO",
         "Town": "Frossos",
         "StateOrProvince": "Braga",
         "Postcode": "4710-154",
         "CountryID": 180,
-        "Latitude": 41.56499133876039,
-        "Longitude": -8.448682046255158,
+        "Latitude": 41.56505198439555,
+        "Longitude": -8.448795136444375,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 273234,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 75,
+            "Voltage": 920,
+            "PowerKW": 30,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 311324,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 75,
+            "Voltage": 500,
+            "PowerKW": 30,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-19T17:45:00Z",
+    "DateLastStatusUpdate": "2022-02-21T21:49:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-19T17:45:00Z",
     "SubmissionStatusTypeID": 200

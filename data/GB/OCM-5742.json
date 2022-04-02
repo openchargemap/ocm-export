@@ -1,6 +1,49 @@
 {
     "UserComments": [
         {
+            "ID": 25454,
+            "ChargePointID": 5742,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "units powered up, on free vend. Right hand unit failed to start, stuck on 'Charging is delayed until power is available', with only one vehicle on the unit.",
+            "DateCreated": "2022-02-28T18:18:27.96Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 22,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 25435,
+            "ChargePointID": 5742,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "new hardware in place but not yet switched on. confirmed the connectors ",
+            "Rating": 4,
+            "DateCreated": "2022-02-23T18:38:35.08Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 22,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 25428,
+            "ChargePointID": 5742,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Hardware in the process of being replaced. Old hardware has been removed.",
+            "DateCreated": "2022-02-22T17:01:58.66Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 25278,
             "ChargePointID": 5742,
             "CommentTypeID": 10,
@@ -333,14 +376,14 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-23T12:07:00Z",
+    "DateLastVerified": "2022-03-05T00:17:00Z",
     "ID": 5742,
     "UUID": "E8A17680-7884-47F2-964E-C62C708C2EC8",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1047,1048,1049",
     "UsageTypeID": 4,
-    "UsageCost": "Free,£0.30/kWh; £0.15/kWh for Ecotricity energy customers. 22kW Socket charging free via RFID",
+    "UsageCost": "£0.39/kWh",
     "AddressInfo": {
         "ID": 5664,
         "Title": "Membury Welcome Break M4 (W) Services",
@@ -355,54 +398,64 @@
     },
     "Connections": [
         {
-            "ID": 491,
+            "ID": 311343,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 311344,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 311345,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 75,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2,
-            "Comments": "only working on one side. Needs old Ecotricity RFID"
-        },
-        {
-            "ID": 13464,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 75,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 22603,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
-            "ID": 34724,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 100,
+            "ID": 311346,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "collision damaged unit"
+            "Quantity": 1
+        },
+        {
+            "ID": 311347,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "Access to rapid chargers via Ecotricity app only. Access to 22kW sockets via old Ecotricity RFID (free)",
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2022-01-23T12:07:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-03-05T00:17:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-09-12T11:40:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,14 +1,15 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-24T14:32:00Z",
+    "DateLastVerified": "2022-03-30T16:09:00Z",
     "ID": 191185,
     "UUID": "2331D84E-F51A-4F01-8BA8-33611A81BA4F",
     "DataProviderID": 1,
     "OperatorID": 3341,
     "UsageTypeID": 5,
+    "UsageCost": "£0.25 + £0.35/kWh",
     "AddressInfo": {
         "ID": 191544,
-        "Title": "Charge Hub",
+        "Title": "Cross Hands EV Hub",
         "AddressLine1": "Meadows Road",
         "Town": "Cross Hands",
         "StateOrProvince": "Wales",
@@ -22,7 +23,8 @@
         {
             "ID": 310258,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 150,
             "Quantity": 1
@@ -39,25 +41,135 @@
         {
             "ID": 310260,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "SEC50211",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 1
         },
         {
             "ID": 310261,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "SEC50211",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 1
+        },
+        {
+            "ID": 312487,
+            "ConnectionTypeID": 25,
+            "Reference": "SEC50211",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 312488,
+            "ConnectionTypeID": 33,
+            "Reference": "SEC50210",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312489,
+            "ConnectionTypeID": 2,
+            "Reference": "SEC50210",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312490,
+            "ConnectionTypeID": 25,
+            "Reference": "SEC50210",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 312491,
+            "ConnectionTypeID": 33,
+            "Reference": "SEC50209",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312492,
+            "ConnectionTypeID": 2,
+            "Reference": "SEC50209",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312493,
+            "ConnectionTypeID": 25,
+            "Reference": "SEC50209",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 312494,
+            "ConnectionTypeID": 33,
+            "Reference": "SEC50208",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312495,
+            "ConnectionTypeID": 2,
+            "Reference": "SEC50208",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312496,
+            "ConnectionTypeID": 25,
+            "Reference": "SEC50208",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 5,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-01-24T14:32:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-03-30T16:09:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-01-24T14:32:00Z",
     "SubmissionStatusTypeID": 200

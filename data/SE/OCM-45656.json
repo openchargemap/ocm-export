@@ -1,9 +1,47 @@
 {
-    "IsRecentlyVerified": false,
+    "MediaItems": [
+        {
+            "ID": 30719,
+            "ChargePointID": 45656,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/SE/OCM45656/OCM-45656.orig.2022021002433337.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/SE/OCM45656/OCM-45656.thmb.2022021002433337.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36602,
+                "Username": "lyn1337"
+            },
+            "DateCreated": "2022-02-10T02:44:00Z"
+        },
+        {
+            "ID": 30718,
+            "ChargePointID": 45656,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/SE/OCM45656/OCM-45656.orig.2022021002425074.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/SE/OCM45656/OCM-45656.thmb.2022021002425074.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36602,
+                "Username": "lyn1337"
+            },
+            "DateCreated": "2022-02-10T02:43:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-10T13:07:00Z",
     "ID": 45656,
     "UUID": "8AD479BF-7AF7-491F-9F47-17AF93A0CAB7",
     "DataProviderID": 1,
     "DataProvidersReference": "2706",
+    "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 46002,
         "Title": "Gjutgärnsgatan 12 - 001",
@@ -14,23 +52,26 @@
         "CountryID": 216,
         "Latitude": 57.71814,
         "Longitude": 11.96634,
-        "AccessComments": "",
+        "AccessComments": "end of the road",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 56319,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 13,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
             "Comments": "Mode 1"
         }
     ],
-    "NumberOfPoints": 1,
-    "DateLastStatusUpdate": "2020-05-26T08:21:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-02-10T13:07:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2015-05-03T00:54:00Z",
     "SubmissionStatusTypeID": 100

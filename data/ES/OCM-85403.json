@@ -1,5 +1,6 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-03-03T14:39:00Z",
     "ID": 85403,
     "UUID": "C1F7190D-3058-4162-84EF-D1AC947B5827",
     "DataProviderID": 1,
@@ -8,14 +9,14 @@
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 85749,
-        "Title": "Calle de Génova 24",
-        "AddressLine1": "Calle Génova 24",
+        "Title": "ECOVE PuntoDeCarga: GENOVA",
+        "AddressLine1": " Calle Génova 24, 28004 Madrid",
         "Town": "Madrid",
         "StateOrProvince": "Madrid",
         "Postcode": "28004",
         "CountryID": 210,
-        "Latitude": 40.4258213271988,
-        "Longitude": -3.69230089259031,
+        "Latitude": 40.42614801780883,
+        "Longitude": -3.692451096294832,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,16 +25,29 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 20,
-            "Voltage": 230,
-            "PowerKW": 4.6,
-            "CurrentTypeID": 10,
+            "PowerKW": 22,
+            "Quantity": 1
+        },
+        {
+            "ID": 311638,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 50,
+            "Quantity": 1
+        },
+        {
+            "ID": 311639,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 50,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-04-06T09:04:00Z",
+    "DateLastStatusUpdate": "2022-03-03T14:39:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-04-03T23:53:00Z",
     "SubmissionStatusTypeID": 200

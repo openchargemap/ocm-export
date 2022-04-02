@@ -1,5 +1,24 @@
 {
-    "IsRecentlyVerified": false,
+    "MediaItems": [
+        {
+            "ID": 31124,
+            "ChargePointID": 171479,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CR/OCM171479/OCM-171479.orig.2022031820091665.jpeg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CR/OCM171479/OCM-171479.thmb.2022031820091665.jpeg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37227,
+                "Username": "Charlz93"
+            },
+            "DateCreated": "2022-03-18T20:09:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-03-19T09:48:00Z",
     "ID": 171479,
     "UUID": "6AA127DE-3396-499B-9968-464DFF3AA833",
     "DataProviderID": 1,
@@ -7,14 +26,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 171838,
-        "Title": "La Esquina del Sabor vara blanca",
-        "AddressLine1": "La Esquina del Sabor",
+        "Title": "Vía 126",
+        "AddressLine1": "Vía 126",
         "Town": "Varablanca",
-        "StateOrProvince": "Heredia",
-        "Postcode": "",
+        "StateOrProvince": "Cantón Heredia",
+        "Postcode": "40105",
         "CountryID": 58,
-        "Latitude": 10.158126814381063,
-        "Longitude": -84.1558485943159,
+        "Latitude": 10.158325821420206,
+        "Longitude": -84.15590208397441,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -45,14 +64,16 @@
             "ConnectionTypeID": 1040,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 50,
+            "Voltage": 480,
             "PowerKW": 50,
-            "CurrentTypeID": 20,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-03T14:42:00Z",
+    "DateLastStatusUpdate": "2022-03-19T09:48:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-01-02T22:04:00Z",
     "SubmissionStatusTypeID": 200

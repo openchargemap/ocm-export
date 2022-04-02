@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 25345,
+            "ChargePointID": 19121,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "in process of being upgraded by Gridserve",
+            "DateCreated": "2022-02-04T10:44:54.443Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 20415,
             "ChargePointID": 19121,
             "CommentTypeID": 10,
@@ -116,14 +130,15 @@
             "DateCreated": "2013-11-03T12:25:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-04T10:45:00Z",
     "ID": 19121,
     "UUID": "621B8680-CA5A-4AD2-84BB-E38AA2A97789",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1043,1042",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.39/kWh",
     "AddressInfo": {
         "ID": 19466,
         "Title": "London Gateway Welcome Break M1 Services",
@@ -134,49 +149,49 @@
         "CountryID": 1,
         "Latitude": 51.6306262792363,
         "Longitude": -0.26373023516544,
-        "ContactTelephone1": "01453 761455",
+        "ContactTelephone1": "",
         "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/our-electric-highway",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 19374,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 100,
+            "StatusTypeID": 150,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 19375,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 100,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
             "ID": 34548,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 100,
+            "StatusTypeID": 150,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 310488,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 150,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2021-06-09T20:18:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2022-02-04T10:45:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2013-09-11T12:53:00Z",
     "SubmissionStatusTypeID": 200

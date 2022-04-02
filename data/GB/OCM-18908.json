@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 25341,
+            "ChargePointID": 18908,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "ABB units replace the old units.",
+            "RelatedURL": "https://twitter.com/brownjamesm/status/1489188784977682433?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1489188784977682433%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fwww.speakev.com%2Fthreads%2Fgridserved-ecotricity-location-spotting.157540%2Fpage-106",
+            "DateCreated": "2022-02-03T15:18:47.77Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 9663,
             "ChargePointID": 18908,
             "CommentTypeID": 1000,
@@ -129,14 +144,14 @@
             "DateCreated": "2013-08-28T16:56:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-03T15:19:00Z",
     "ID": 18908,
     "UUID": "030CC51F-D9D0-45C4-A715-22AC2685F4DD",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1041,1039,1040",
-    "UsageTypeID": 4,
-    "UsageCost": "Free,£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.39/kWh",
     "AddressInfo": {
         "ID": 19253,
         "Title": "Leicester Forest East Welcome Break M1 (S) Services",
@@ -153,20 +168,23 @@
         {
             "ID": 19158,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 75,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 19159,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 100,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -185,15 +203,27 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310481,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "Access via Ecotricity Electric Highway app only",
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2021-06-09T08:51:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-02-03T15:19:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2013-08-28T16:47:00Z",
     "SubmissionStatusTypeID": 200

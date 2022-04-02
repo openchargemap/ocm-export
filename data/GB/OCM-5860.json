@@ -130,14 +130,15 @@
             }
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-01-31T17:15:00Z",
     "ID": 5860,
     "UUID": "EB9D4004-DB66-47F7-95BA-4C8EB0FA2B2B",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1011,1012,1013",
-    "UsageTypeID": 4,
-    "UsageCost": "Free,£0.30/kWh; £0.15/kWh for Ecotricity energy customers. 22kW Socket charging free via RFID",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.39/kWh",
     "AddressInfo": {
         "ID": 5782,
         "Title": "Charnock Richard Welcome Break M6 (S) Services",
@@ -149,25 +150,38 @@
         "CountryID": 1,
         "Latitude": 53.631417,
         "Longitude": -2.689302,
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 609,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10343*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 105274,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10343*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 105278,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 100,
+            "Reference": "GB*GFX*EGS10343*3",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -176,30 +190,33 @@
             "Quantity": 1
         },
         {
-            "ID": 105278,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
             "ID": 105281,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10344*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310395,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10344*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "Rapid chargers access via Ecotricity Electric Highway app only. 22kW chargers access via RFID (Ecotricity,Source London,Source East, CYC)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-13T06:13:00Z",
+    "DateLastStatusUpdate": "2022-01-31T17:15:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-09-12T11:40:00Z",
     "SubmissionStatusTypeID": 200

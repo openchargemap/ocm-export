@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 25380,
+            "ChargePointID": 148393,
+            "CommentTypeID": 50,
+            "UserName": "Wild Rice",
+            "Comment": "Tesla HPWC has been removed, probably permanently. The three phase 32 amp outlet remains but it seems to be unpowered. This site may have been decommissioned. ",
+            "DateCreated": "2022-02-12T12:40:56.09Z",
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "CheckinStatusTypeID": 50,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 25007,
             "ChargePointID": 148393,
             "CommentTypeID": 10,
@@ -136,6 +150,38 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 30741,
+            "ChargePointID": 148393,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM148393/OCM-148393.orig.2022021212361082.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM148393/OCM-148393.thmb.2022021212361082.jpg",
+            "Comment": "Tesla HPWC removed. ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2022-02-12T12:36:00Z"
+        },
+        {
+            "ID": 30740,
+            "ChargePointID": 148393,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM148393/OCM-148393.orig.2022021212223437.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM148393/OCM-148393.thmb.2022021212223437.jpg",
+            "Comment": "Tesla HPWC removed. ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2022-02-12T12:23:00Z"
+        },
         {
             "ID": 29725,
             "ChargePointID": 148393,
@@ -314,7 +360,7 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-11-08T21:42:00Z",
+    "DateLastVerified": "2022-02-28T08:56:00Z",
     "ID": 148393,
     "UUID": "40096043-B1DF-4147-A092-53FF3A53B12E",
     "DataProviderID": 1,
@@ -340,7 +386,7 @@
         {
             "ID": 206019,
             "ConnectionTypeID": 1041,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 1,
             "Amps": 16,
             "Voltage": 0,
@@ -351,7 +397,7 @@
         {
             "ID": 206020,
             "ConnectionTypeID": 30,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "Amps": 16,
             "PowerKW": 11,
@@ -361,8 +407,8 @@
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "81-J",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-08T21:42:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-02-28T08:56:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-02-01T03:06:00Z",
     "SubmissionStatusTypeID": 200

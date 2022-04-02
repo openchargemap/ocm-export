@@ -80,31 +80,31 @@
     ],
     "MediaItems": [
         {
-            "ID": 605,
+            "ID": 30689,
             "ChargePointID": 20781,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20781/OCM-20781.orig.2014082406551381.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20781/OCM-20781.thmb.2014082406551381.jpg",
-            "Comment": "Newly installed CCS. Next along M4 not until Chievely services",
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20781/OCM-20781.orig.2022020622023583.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20781/OCM-20781.thmb.2022020622023583.jpg",
+            "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
             "IsFeaturedItem": false,
             "IsExternalResource": false,
             "User": {
-                "ID": 2257,
-                "Username": "jenkins.andrew"
+                "ID": 4575,
+                "Username": "Simon Hewison"
             },
-            "DateCreated": "2014-08-24T06:55:00Z"
+            "DateCreated": "2022-02-06T22:03:00Z"
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-11-19T15:54:00Z",
+    "DateLastVerified": "2022-02-06T22:03:00Z",
     "ID": 20781,
     "UUID": "C8546D24-743C-41FD-B19D-C610F9ED5602",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1172,1173,1174",
     "UsageTypeID": 5,
-    "UsageCost": "£0.30/kWh",
+    "UsageCost": "£0.39/kWh; £0.49/kWh for >=150kW charge points",
     "AddressInfo": {
         "ID": 21126,
         "Title": "Swansea West Moto M4 Services",
@@ -115,7 +115,7 @@
         "CountryID": 1,
         "Latitude": 51.678746,
         "Longitude": -3.994655,
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
+        "AccessComments": "Higher power charge points are further down the car park from the services building, but tariffs on those are more expensive.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -214,11 +214,107 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 310629,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10417*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310630,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10417*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310631,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10421*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310632,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10422*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310633,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10418*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310634,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10421*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310635,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10420*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310636,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10422*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-19T15:54:00Z",
+    "DateLastStatusUpdate": "2022-02-06T22:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-11T13:04:00Z",
     "SubmissionStatusTypeID": 200

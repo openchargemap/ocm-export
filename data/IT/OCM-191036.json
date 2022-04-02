@@ -1,6 +1,41 @@
 {
+    "UserComments": [
+        {
+            "ID": 25590,
+            "ChargePointID": 191036,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "4 CCS Combo 2 da 300 kW e 2 CHAdeMO da 100 kW, situate alla fine del tratto a 4 corsie della nuova tangenziale sud di Brescia. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnine-enel-x-high-power-q8-castenedolo-bs-bretella-ss-236-ss-11-t24238.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-enel-x-high-power-q8-castenedolo-bs-bretella-ss-236-ss-11-t24238.html",
+            "DateCreated": "2022-03-29T05:23:45.103Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 140,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 31215,
+            "ChargePointID": 191036,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM191036/OCM-191036.orig.2022032905235392.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM191036/OCM-191036.thmb.2022032905235392.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-03-29T05:24:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-29T03:36:00Z",
+    "DateLastVerified": "2022-03-29T05:24:00Z",
     "ID": 191036,
     "UUID": "9D51DA40-7834-4D95-A6A1-0BA47C08A6B6",
     "DataProviderID": 1,
@@ -9,14 +44,15 @@
     "UsageCost": "€ 0.79/kWh",
     "AddressInfo": {
         "ID": 191395,
-        "Title": "Distributore Q8",
-        "AddressLine1": "Raccordo A4",
+        "Title": "Enel X Q8",
+        "AddressLine1": "Bretella SS 236 SS 11",
         "Town": "Castenedolo",
         "StateOrProvince": "Lombardy",
         "Postcode": "25014",
         "CountryID": 112,
-        "Latitude": 45.46112234551512,
-        "Longitude": 10.319207232859071,
+        "Latitude": 45.460634,
+        "Longitude": 10.319102,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-enel-x-high-power-q8-castenedolo-bs-bretella-ss-236-ss-11-t24238.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,12 +62,19 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 300,
+            "Quantity": 4
+        },
+        {
+            "ID": 312385,
+            "ConnectionTypeID": 2,
+            "LevelID": 2,
+            "PowerKW": 100,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-01-29T03:36:00Z",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2022-03-29T05:24:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-01-14T08:44:00Z",
     "SubmissionStatusTypeID": 200

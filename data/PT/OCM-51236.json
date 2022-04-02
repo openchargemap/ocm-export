@@ -1,34 +1,41 @@
 {
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-14T21:48:00Z",
     "ID": 51236,
     "UUID": "52BB172E-0DCE-4D20-9E82-501B7CDDEAE5",
     "DataProviderID": 1,
     "DataProvidersReference": "PMZ-00001",
+    "OperatorID": 21,
+    "UsageTypeID": 4,
+    "UsageCost": "Mobi.E compatible card or App",
     "AddressInfo": {
         "ID": 51582,
-        "Title": "Rua do Ilhéu Mole",
-        "AddressLine1": "Rua do Ilhéu Mole",
+        "Title": "PMZ-00003",
+        "AddressLine1": "Rua do Figueiral",
         "Town": "Porto Moniz",
         "Postcode": "9270-105",
         "CountryID": 180,
-        "Latitude": 32.867604,
-        "Longitude": -17.166597,
+        "Latitude": 32.86697192387061,
+        "Longitude": -17.167512187369965,
         "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 63398,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 75,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 30
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-12-24T08:08:00Z",
+    "DateLastStatusUpdate": "2022-02-14T21:48:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2015-07-24T04:24:00Z",
     "SubmissionStatusTypeID": 100

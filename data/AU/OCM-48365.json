@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 25349,
+            "ChargePointID": 48365,
+            "CommentTypeID": 10,
+            "UserName": "Wild Rice",
+            "Comment": "Good location, easy access. Coffee and food near.",
+            "DateCreated": "2022-02-05T07:01:37.11Z",
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 8060,
             "ChargePointID": 48365,
             "CommentTypeID": 10,
@@ -16,6 +30,54 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 30653,
+            "ChargePointID": 48365,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48365/OCM-48365.orig.2022020507000872.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48365/OCM-48365.thmb.2022020507000872.jpg",
+            "Comment": "New Tritium charger ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2022-02-05T07:00:00Z"
+        },
+        {
+            "ID": 30651,
+            "ChargePointID": 48365,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48365/OCM-48365.orig.2022020506583780.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48365/OCM-48365.thmb.2022020506583780.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2022-02-05T06:59:00Z"
+        },
+        {
+            "ID": 30652,
+            "ChargePointID": 48365,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48365/OCM-48365.orig.2022020506591355.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM48365/OCM-48365.thmb.2022020506591355.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2022-02-05T06:59:00Z"
+        },
         {
             "ID": 25936,
             "ChargePointID": 48365,
@@ -49,7 +111,8 @@
             "DateCreated": "2015-11-22T14:27:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-02-05T07:16:00Z",
     "ID": 48365,
     "UUID": "D0947B06-5E16-45A9-B168-DD704FEDF3EC",
     "DataProviderID": 1,
@@ -65,22 +128,11 @@
         "StateOrProvince": "Western Australia",
         "Postcode": "6280",
         "CountryID": 18,
-        "Latitude": -33.645748046681014,
-        "Longitude": 115.3418423700889,
+        "Latitude": -33.6458309709066,
+        "Longitude": 115.34195677902198,
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 59796,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
         {
             "ID": 59797,
             "ConnectionTypeID": 2,
@@ -117,7 +169,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-03T01:56:00Z",
+    "DateLastStatusUpdate": "2022-02-05T07:16:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-06-25T06:12:00Z",
     "SubmissionStatusTypeID": 200

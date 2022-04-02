@@ -211,7 +211,8 @@
             "DateCreated": "2015-02-04T17:13:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-03-09T14:34:00Z",
     "ID": 31384,
     "UUID": "17FB69B6-A203-4B8C-B7D8-589B99BA8AC7",
     "DataProviderID": 1,
@@ -277,12 +278,41 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 311789,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 6
+        },
+        {
+            "ID": 311790,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 6
+        },
+        {
+            "ID": 311791,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 150,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 6
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "Rapid chargers accessed via Ecotricity Electric Highway only.",
+    "GeneralComments": "Rapid chargers accessed via Ecotricity Electric Highway only. New Gridserve charging hub under construction.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-11-14T06:13:00Z",
+    "DateLastStatusUpdate": "2022-03-09T14:34:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-01-06T18:59:00Z",
     "SubmissionStatusTypeID": 200

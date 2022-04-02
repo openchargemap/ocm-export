@@ -79,14 +79,14 @@
             "CheckinStatusTypeID": 20
         }
     ],
-    "IsRecentlyVerified": false,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-01-31T16:46:00Z",
     "ID": 19118,
     "UUID": "39BFCEE2-BDE9-45FF-BDEE-1940E42A1349",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1018",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.39/kWh",
     "AddressInfo": {
         "ID": 19463,
         "Title": " Derby South Welcome Break A50 (E) Services",
@@ -97,37 +97,50 @@
         "CountryID": 1,
         "Latitude": 52.867562,
         "Longitude": -1.36643,
-        "ContactTelephone1": "01453 761455",
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
         "AccessComments": "Charger located at read of building. First two bays on the left when entering car park. ",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/our-electric-highway",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 19368,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GFX*EGS10262*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 19369,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GFX*EGS10262*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 310389,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GFX*EGS10262*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 43,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-05T06:14:00Z",
+    "DateLastStatusUpdate": "2022-01-31T16:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2013-09-11T12:29:00Z",
     "SubmissionStatusTypeID": 200
