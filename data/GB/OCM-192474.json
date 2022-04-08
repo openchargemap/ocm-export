@@ -1,0 +1,104 @@
+{
+    "MediaItems": [
+        {
+            "ID": 31315,
+            "ChargePointID": 192474,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM192474/OCM-192474.orig.2022040614034092.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM192474/OCM-192474.thmb.2022040614034092.jpg",
+            "Comment": "3-phase AC connector example",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 19665,
+                "Username": "Pink Duck"
+            },
+            "DateCreated": "2022-04-06T14:04:00Z"
+        },
+        {
+            "ID": 31316,
+            "ChargePointID": 192474,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM192474/OCM-192474.orig.2022040614040110.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM192474/OCM-192474.thmb.2022040614040110.jpg",
+            "Comment": "DC connectors example",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 19665,
+                "Username": "Pink Duck"
+            },
+            "DateCreated": "2022-04-06T14:04:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-04-07T09:54:00Z",
+    "ID": 192474,
+    "UUID": "6143B9C9-8163-45D5-B30A-018227151ED3",
+    "DataProviderID": 1,
+    "OperatorID": 3392,
+    "UsageTypeID": 5,
+    "UsageCost": "£0.45/kWh",
+    "AddressInfo": {
+        "ID": 192833,
+        "Title": "Waitrose Car Park",
+        "AddressLine1": "Waitrose Car Park",
+        "Town": "Norwich",
+        "StateOrProvince": "England",
+        "Postcode": "NR4 7LD",
+        "CountryID": 1,
+        "Latitude": 52.60746966864494,
+        "Longitude": 1.2498735061205082,
+        "ContactTelephone1": "+44 2038 681036",
+        "AccessComments": "Turn immediately right on entering Waitrose Car Park. Open Mon-Sat 07:00-20:00 and Sun 10:00-16:00, often gates left open at other times.",
+        "RelatedURL": "https://find.shell.com/gb/fuel/12883058-shell-recharge-waitrose-norwich/en_GB",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 312727,
+            "ConnectionTypeID": 33,
+            "Reference": "K",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 312728,
+            "ConnectionTypeID": 2,
+            "Reference": "M",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 312729,
+            "ConnectionTypeID": 25,
+            "Reference": "C",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 6
+        }
+    ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "App, Membership Card or Contactless Payment for authentication and payment.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-04-07T09:54:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-04-06T13:57:00Z",
+    "SubmissionStatusTypeID": 200
+}

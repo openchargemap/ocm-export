@@ -202,13 +202,13 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-02-13T21:29:00Z",
+    "DateLastVerified": "2022-04-04T16:37:00Z",
     "ID": 24697,
     "UUID": "44D5B251-F080-4869-A38E-1D9D0C19D088",
     "DataProviderID": 1,
     "OperatorID": 24,
     "UsageTypeID": 5,
-    "UsageCost": "£0.39/kWh",
+    "UsageCost": "£0.39/kWh; £0.45/kWh for >=100kW capable charge points",
     "AddressInfo": {
         "ID": 25043,
         "Title": "Burton-in-Kendal Services, M6 Motorway Northbound, Jct 35/36",
@@ -238,7 +238,7 @@
         {
             "ID": 27003,
             "ConnectionTypeID": 33,
-            "Reference": "GB*GFX*EGS10247*1",
+            "Reference": "GB*GRD*EGS10247*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -250,7 +250,7 @@
         {
             "ID": 27004,
             "ConnectionTypeID": 33,
-            "Reference": "GB*GFX*EGS10248*1",
+            "Reference": "GB*GRD*EGS10248*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -262,7 +262,7 @@
         {
             "ID": 151182,
             "ConnectionTypeID": 33,
-            "Reference": "GB*GFX*EGS10248*2",
+            "Reference": "GB*GRD*EGS10248*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -270,11 +270,67 @@
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 312653,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10453*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312654,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10454*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312655,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10455*1",
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312656,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10456*1",
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312657,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10457*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312658,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10458*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-13T21:29:00Z",
+    "DateLastStatusUpdate": "2022-04-04T16:37:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-11-01T03:05:00Z",
     "SubmissionStatusTypeID": 200
