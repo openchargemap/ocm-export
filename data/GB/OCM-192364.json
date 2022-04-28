@@ -1,6 +1,6 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-03-31T16:20:00Z",
+    "DateLastVerified": "2022-04-15T12:49:00Z",
     "ID": 192364,
     "UUID": "5B128CC8-E3A4-41C1-873B-74D87795F7AB",
     "DataProviderID": 1,
@@ -15,37 +15,60 @@
         "StateOrProvince": "",
         "Postcode": "NP23 4PT",
         "CountryID": 1,
-        "Latitude": 51.7941565,
-        "Longitude": -3.1782932,
+        "Latitude": 51.79568212566414,
+        "Longitude": -3.174926496816397,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 312523,
             "ConnectionTypeID": 33,
+            "Reference": "COSTA-BRYNMAWR-1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 150,
             "Voltage": 1000,
             "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 312524,
             "ConnectionTypeID": 2,
+            "Reference": "COSTA-BRYNMAWR-1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 150,
             "Voltage": 1000,
             "PowerKW": 75,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 312958,
+            "ConnectionTypeID": 33,
+            "Reference": "COSTA-BRYNMAWR-2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": ""
+        },
+        {
+            "ID": 312959,
+            "ConnectionTypeID": 2,
+            "Reference": "COSTA-BRYNMAWR-2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-31T16:20:00Z",
+    "DateLastStatusUpdate": "2022-04-15T12:49:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-03-31T16:20:00Z",
     "SubmissionStatusTypeID": 200

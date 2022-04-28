@@ -1,16 +1,17 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-02-03T11:18:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-04-20T17:20:00Z",
     "ID": 81710,
     "UUID": "4496350D-BABD-45A2-AD0C-7E41B5CF970F",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "9285",
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 82056,
         "Title": "St. Mark's Place",
-        "AddressLine1": "5142 Lighthouse Route",
+        "AddressLine1": "5142 Hwy-332",
         "Town": "Middle LaHave",
         "StateOrProvince": "NS",
         "Postcode": "B4V 3L9",
@@ -18,6 +19,7 @@
         "Latitude": 44.315744,
         "Longitude": -64.392926,
         "ContactTelephone1": "(902) 298-1292",
+        "AccessComments": "CHARGERS OFF LINE UNTIL FURTHER NOTICE DUE TO FIRE.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,13 +30,23 @@
             "LevelID": 2,
             "PowerKW": 16,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 313143,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Suncountry"
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 16kW.Available to the public. Self park.",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-02-03T11:18:00Z",
+    "GeneralComments": "1 Tesla Connectors, up to 16kW; 1 Suncountry J1772. Available to the public. Self park.",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2022-04-20T17:20:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-02-03T11:18:00Z",
     "SubmissionStatusTypeID": 200

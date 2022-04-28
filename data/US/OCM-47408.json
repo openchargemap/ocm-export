@@ -1,15 +1,66 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:02:00Z",
+    "UserComments": [
+        {
+            "ID": 25692,
+            "ChargePointID": 47408,
+            "CommentTypeID": 10,
+            "UserName": "schniebr",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2022-04-23T21:02:21.847Z",
+            "User": {
+                "ID": 37842,
+                "Username": "schniebr"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 31477,
+            "ChargePointID": 47408,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM47408/OCM-47408.orig.2022042321292817.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM47408/OCM-47408.thmb.2022042321292817.jpg",
+            "Comment": "4 dedicated parking spots",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37842,
+                "Username": "schniebr"
+            },
+            "DateCreated": "2022-04-23T21:30:00Z"
+        },
+        {
+            "ID": 31476,
+            "ChargePointID": 47408,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM47408/OCM-47408.orig.2022042321280328.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM47408/OCM-47408.thmb.2022042321280328.jpg",
+            "Comment": "Thanks, Destination Outlets!",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37842,
+                "Username": "schniebr"
+            },
+            "DateCreated": "2022-04-23T21:28:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-04-26T11:41:00Z",
     "ID": 47408,
     "UUID": "98142E05-6731-4C64-9495-7377C9F1CD9F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "67165",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 47754,
-        "Title": "JEFFERSONVILLE",
+        "Title": "JEFFERSONVILLE OUTLET MALL",
         "AddressLine1": "8800 Factory Shops Blvd",
         "Town": "Jeffersonville",
         "StateOrProvince": "OH",
@@ -18,6 +69,7 @@
         "Latitude": 39.622187,
         "Longitude": -83.600742,
         "ContactTelephone1": "888-758-4389",
+        "ContactTelephone2": "800-213-9083",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
         "DistanceUnit": 0
@@ -29,12 +81,14 @@
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 6.6,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "2 dual charging stations, 4 dedicated parking spots"
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:02:00Z",
+    "GeneralComments": "www.destinationoutlets.com",
+    "DateLastStatusUpdate": "2022-04-26T11:41:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2015-05-27T08:51:00Z",
     "SubmissionStatusTypeID": 100

@@ -34,13 +34,13 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-07T09:54:00Z",
+    "DateLastVerified": "2022-04-26T11:41:00Z",
     "ID": 192474,
     "UUID": "6143B9C9-8163-45D5-B30A-018227151ED3",
     "DataProviderID": 1,
     "OperatorID": 3392,
     "UsageTypeID": 5,
-    "UsageCost": "£0.45/kWh",
+    "UsageCost": "£0.45–£0.55 / kWh (+10% transaction fee)",
     "AddressInfo": {
         "ID": 192833,
         "Title": "Waitrose Car Park",
@@ -49,9 +49,10 @@
         "StateOrProvince": "England",
         "Postcode": "NR4 7LD",
         "CountryID": 1,
-        "Latitude": 52.60746966864494,
-        "Longitude": 1.2498735061205082,
+        "Latitude": 52.607495804361605,
+        "Longitude": 1.2475171809869323,
         "ContactTelephone1": "+44 2038 681036",
+        "ContactTelephone2": "+44 8000 266440",
         "AccessComments": "Turn immediately right on entering Waitrose Car Park. Open Mon-Sat 07:00-20:00 and Sun 10:00-16:00, often gates left open at other times.",
         "RelatedURL": "https://find.shell.com/gb/fuel/12883058-shell-recharge-waitrose-norwich/en_GB",
         "DistanceUnit": 0
@@ -60,44 +61,47 @@
         {
             "ID": 312727,
             "ConnectionTypeID": 33,
-            "Reference": "K",
+            "Reference": "TERRA_54_006, TERRA_54_007",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
-            "Voltage": 400,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "£0.55 / kWh"
         },
         {
             "ID": 312728,
             "ConnectionTypeID": 2,
-            "Reference": "M",
+            "Reference": "TERRA_54_006, TERRA_54_007",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
-            "Voltage": 400,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "£0.55 / kWh"
         },
         {
             "ID": 312729,
             "ConnectionTypeID": 25,
-            "Reference": "C",
+            "Reference": "08105716,09103035,08106346,08105721,08106326;08106344",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 6
+            "Quantity": 6,
+            "Comments": "45 p/kWh"
         }
     ],
     "NumberOfPoints": 8,
     "GeneralComments": "App, Membership Card or Contactless Payment for authentication and payment.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-07T09:54:00Z",
+    "DateLastStatusUpdate": "2022-04-26T11:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-06T13:57:00Z",
     "SubmissionStatusTypeID": 200

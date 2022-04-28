@@ -83,7 +83,7 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-03-06T14:10:00Z",
+    "DateLastVerified": "2022-04-24T19:24:00Z",
     "ID": 191916,
     "UUID": "F031B2A3-FB34-48C4-8032-C2DA4049B880",
     "DataProviderID": 1,
@@ -91,7 +91,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 192275,
-        "Title": "Enel X ",
+        "Title": "Enel X fast",
         "AddressLine1": "Via dei Pensieri 11/C",
         "Town": "Mirano",
         "StateOrProvince": "VE",
@@ -105,25 +105,36 @@
         {
             "ID": 311715,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 311716,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 311717,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 64,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T14:10:00Z",
+    "DateLastStatusUpdate": "2022-04-24T19:24:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-03-06T14:08:00Z",
     "SubmissionStatusTypeID": 200

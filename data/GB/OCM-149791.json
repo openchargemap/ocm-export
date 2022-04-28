@@ -1,14 +1,15 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-08T02:04:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-04-15T11:19:00Z",
     "ID": 149791,
     "UUID": "195F3BC4-042E-4467-9107-E3982BC68014",
     "DataProviderID": 1,
     "OperatorID": 203,
     "UsageTypeID": 5,
+    "UsageCost": "£0.49/kWh",
     "AddressInfo": {
         "ID": 150144,
-        "Title": "Rhydycar Leisure Park",
+        "Title": "King Brychan Pub and Restaurant",
         "AddressLine1": "Rhydycar Leisure Park",
         "Town": "Merthyr Tydfil",
         "Postcode": "CF48 1DH",
@@ -16,26 +17,26 @@
         "Latitude": 51.73789,
         "Longitude": -3.37835,
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 207970,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00456-3",
+            "Reference": "GB*OSP*EOSP00546*3",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
+            "Amps": 20,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 16,
             "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
             "ID": 207971,
             "ConnectionTypeID": 2,
-            "Reference": "ENG00456-2",
+            "Reference": "GB*OSP*EOSP00546*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -47,7 +48,7 @@
         {
             "ID": 207972,
             "ConnectionTypeID": 33,
-            "Reference": "ENG00456-1",
+            "Reference": "GB*OSP*EOSP00546*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -55,10 +56,43 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 312951,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP00456*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312952,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP00456*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 312953,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*OSP*EOSP00456*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 20,
+            "Voltage": 400,
+            "PowerKW": 16,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-08T02:04:00Z",
+    "DateLastStatusUpdate": "2022-04-15T11:19:00Z",
     "MetadataValues": [
         {
             "ID": 7052,

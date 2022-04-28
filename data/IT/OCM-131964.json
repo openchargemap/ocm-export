@@ -1,22 +1,58 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-09-16T05:36:00Z",
+    "UserComments": [
+        {
+            "ID": 25693,
+            "ChargePointID": 131964,
+            "CommentTypeID": 10,
+            "UserName": "Carlomanda",
+            "Comment": "Beautiful Hotel with excellent service!",
+            "Rating": 5,
+            "DateCreated": "2022-04-24T07:15:35.497Z",
+            "User": {
+                "ID": 30566,
+                "Username": "Carlomanda"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 31484,
+            "ChargePointID": 131964,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM131964/OCM-131964.orig.2022042412492790.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM131964/OCM-131964.thmb.2022042412492790.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 30566,
+                "Username": "Carlomanda"
+            },
+            "DateCreated": "2022-04-24T12:50:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-04-26T11:41:00Z",
     "ID": 131964,
     "UUID": "EEFB5F0B-4A49-4DF8-9768-B42884629F7A",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "51821",
-    "UsageTypeID": 4,
+    "UsageTypeID": 6,
     "AddressInfo": {
         "ID": 132310,
         "Title": "Hotel Miramonti",
-        "AddressLine1": "Via Acquapartita",
+        "AddressLine1": "Via Acquapartita 103",
         "Town": "Bagno di Romagna",
         "Postcode": "47021",
         "CountryID": 112,
         "Latitude": 43.86335,
         "Longitude": 12.024522,
         "ContactTelephone1": "+39 0543 903640",
+        "AccessComments": "Inside underground covered parking.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,12 +64,21 @@
             "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 313333,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 11kW.Available for customers. Please call ahead.",
+    "NumberOfPoints": 3,
+    "GeneralComments": "3 Tesla Connectors, up to 11kW (only 1 for non-Tesla). Available for customers. Please call ahead.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-09-16T05:36:00Z",
+    "DateLastStatusUpdate": "2022-04-26T11:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-09-16T05:36:00Z",
     "SubmissionStatusTypeID": 200

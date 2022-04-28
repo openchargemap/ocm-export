@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-06-04T02:37:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-04-20T17:20:00Z",
     "ID": 62522,
     "UUID": "EC40E84A-83A7-464F-9638-6D463B6B454C",
-    "DataProviderID": 26,
-    "DataProvidersReference": "79166",
+    "DataProviderID": 1,
     "OperatorID": 157,
     "OperatorsReference": "NewMotion 02013924",
-    "UsageCost": "0.00 jaarabonnement",
+    "UsageTypeID": 1,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 62868,
         "Title": "Jalan Tun Perak",
@@ -17,8 +17,8 @@
         "CountryID": 137,
         "Latitude": 2.209708,
         "Longitude": 102.243628,
-        "ContactTelephone1": "088 0109500",
-        "RelatedURL": "http://thenewmotion.nl/",
+        "ContactTelephone1": "062882228",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,19 +27,22 @@
             "ConnectionTypeID": 25,
             "LevelID": 2,
             "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Comments": "ChargEV"
         },
         {
             "ID": 79438,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "LevelID": 2,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 30,
+            "CurrentTypeID": 20,
+            "Comments": "StarCharge 30 kW DCFC"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "BMW dealer showroom",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-06-04T02:37:00Z",
+    "DateLastStatusUpdate": "2022-04-20T17:20:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-03-03T12:28:00Z",
     "SubmissionStatusTypeID": 100

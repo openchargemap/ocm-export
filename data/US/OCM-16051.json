@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:05:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-04-20T17:20:00Z",
     "ID": 16051,
     "UUID": "20903385-F7FF-47D5-A95A-1BB38B856DF7",
-    "DataProviderID": 2,
-    "DataProvidersReference": "50831",
-    "UsageTypeID": 7,
+    "DataProviderID": 1,
+    "OperatorID": 6,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 16396,
         "Title": "Milford Nissan",
@@ -14,17 +14,18 @@
         "StateOrProvince": "MA",
         "Postcode": "01757",
         "CountryID": 2,
-        "Latitude": 42.151933,
-        "Longitude": -71.49534,
+        "Latitude": 42.15176258481188,
+        "Longitude": -71.49526583770592,
         "ContactTelephone1": "888-474-8603",
         "AccessComments": "24 hours daily\r\nPublic - Call ahead",
-        "RelatedURL": "",
+        "RelatedURL": "http://www.milfordnissan.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 16916,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 0,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
@@ -35,15 +36,29 @@
         {
             "ID": 22119,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 313147,
+            "ConnectionTypeID": 0,
+            "StatusTypeID": 0,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "CCS"
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:05:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Quick Charger is right out front. Payment Required. Free for Nissan drivers w/PIN (available inside during business hours). Do not leave car unattended while charging as others rely on timely access. $1.50 “plug-in” fee plus $0.50/kW for CHAdeMO/CCS.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-04-20T17:20:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2013-02-28T04:50:00Z",
     "SubmissionStatusTypeID": 100
