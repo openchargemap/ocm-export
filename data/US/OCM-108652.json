@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-10-14T15:00:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-01T12:29:00Z",
     "ID": 108652,
     "UUID": "978E5BB5-583E-49C6-B073-0B570CD3BF5E",
     "DataProviderID": 1,
@@ -14,10 +14,12 @@
         "StateOrProvince": "NC",
         "Postcode": "27713",
         "CountryID": 2,
-        "Latitude": 35.90042053148329,
-        "Longitude": -78.9611402863892,
-        "AccessComments": "Charging stations left (south) of the hotel.",
-        "RelatedURL": "http://www.evgo.com/",
+        "Latitude": 35.90046153232457,
+        "Longitude": -78.96114513359618,
+        "ContactTelephone1": "310-954-2900",
+        "ContactTelephone2": "877-494-3833",
+        "AccessComments": "Charging stations left (south) of the hotel.  J1772 chargers and fast charger on separate parking rows.",
+        "RelatedURL": "https://www.evgo.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,19 +27,29 @@
             "ID": 153746,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Quantity": 1
+            "PowerKW": 14.4,
+            "Quantity": 2
         },
         {
             "ID": 153747,
             "ConnectionTypeID": 2,
             "LevelID": 2,
+            "PowerKW": 50,
+            "Quantity": 1
+        },
+        {
+            "ID": 313502,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 50,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Chademo and J1772/Combo chargers available.",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-10-14T15:00:00Z",
+    "NumberOfPoints": 4,
+    "GeneralComments": "J1772 and CCS chargers functional, CHAdeMO offline.",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2022-05-01T12:29:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-10-09T18:35:00Z",
     "SubmissionStatusTypeID": 200
