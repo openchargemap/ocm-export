@@ -1,49 +1,131 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-01-18T09:45:00Z",
+    "UserComments": [
+        {
+            "ID": 27545,
+            "ChargePointID": 62518,
+            "CommentTypeID": 10,
+            "UserName": "Pinni",
+            "Comment": "Fast and Free, what could be better?",
+            "Rating": 5,
+            "DateCreated": "2022-11-05T03:05:52.657Z",
+            "User": {
+                "ID": 42225,
+                "Username": "Pinni"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 35262,
+            "ChargePointID": 62518,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM62518/OCM-62518.orig.2022110503045888.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM62518/OCM-62518.thmb.2022110503045888.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 42225,
+                "Username": "Pinni"
+            },
+            "DateCreated": "2022-11-05T03:05:00Z"
+        },
+        {
+            "ID": 35261,
+            "ChargePointID": 62518,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM62518/OCM-62518.orig.2022110503034930.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM62518/OCM-62518.thmb.2022110503034930.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 42225,
+                "Username": "Pinni"
+            },
+            "DateCreated": "2022-11-05T03:04:00Z"
+        },
+        {
+            "ID": 35260,
+            "ChargePointID": 62518,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM62518/OCM-62518.orig.2022110503024568.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM62518/OCM-62518.thmb.2022110503024568.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 42225,
+                "Username": "Pinni"
+            },
+            "DateCreated": "2022-11-05T03:03:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-06T15:18:00Z",
     "ID": 62518,
     "UUID": "B352C75C-94B0-4EA5-9CFF-5D17C1367332",
     "DataProviderID": 1,
-    "OperatorID": 162,
+    "OperatorID": 45,
     "OperatorsReference": "Mitsubishi Motors Limited",
     "UsageTypeID": 1,
-    "UsageCost": "0.00 onbekend",
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 62864,
         "Title": "Tonsley Solar Garage",
         "AddressLine1": "Tonsley Blvd",
-        "Town": "Adelaide",
+        "Town": "Tonsley",
         "StateOrProvince": "South Australia",
-        "Postcode": "5000",
+        "Postcode": "5042",
         "CountryID": 18,
-        "Latitude": -35.00848587441584,
-        "Longitude": 138.57503984145848,
+        "Latitude": -35.00825619441188,
+        "Longitude": 138.57490811884736,
+        "AccessComments": "In Carpark",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 79432,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 600,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 310052,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 600,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 349100,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 600,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-18T09:45:00Z",
+    "DateLastStatusUpdate": "2022-11-06T15:18:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-03-03T12:28:00Z",
     "SubmissionStatusTypeID": 100

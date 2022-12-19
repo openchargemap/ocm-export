@@ -1,11 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-27T18:16:00Z",
     "ID": 160798,
     "UUID": "36273962-0D61-4FD7-852E-7E697E142649",
-    "DataProviderID": 2,
-    "DataProvidersReference": "157840",
-    "UsageTypeID": 2,
+    "DataProviderID": 1,
+    "OperatorID": 3385,
+    "UsageTypeID": 1,
+    "UsageCost": "$0.1207 + GST/minute",
     "AddressInfo": {
         "ID": 161155,
         "Title": "British Columbia Hydro and Power Authority",
@@ -16,9 +17,9 @@
         "CountryID": 44,
         "Latitude": 54.985014,
         "Longitude": -123.050098,
-        "ContactTelephone1": "",
+        "ContactTelephone1": "1 866-338-3369",
         "AccessComments": "",
-        "RelatedURL": "",
+        "RelatedURL": "https://ev.bchydro.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,27 +27,26 @@
             "ID": 231422,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 25,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 231423,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 25,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "NumberOfPoints": 2,
+    "GeneralComments": "2 Dual head 25 kW chargers, one vehicle at a time per charger",
     "DatePlanned": "2020-09-01T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2020-06-26T03:12:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-11-27T18:16:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2020-06-26T03:12:00Z",
     "SubmissionStatusTypeID": 100

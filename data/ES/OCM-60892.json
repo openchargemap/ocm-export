@@ -1,11 +1,30 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35689,
+            "ChargePointID": 60892,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM60892/OCM-60892.orig.2022113012320911.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM60892/OCM-60892.thmb.2022113012320911.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-30T12:32:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-09-11T11:16:00Z",
+    "DateLastVerified": "2022-11-30T12:34:00Z",
     "ID": 60892,
     "UUID": "FC033E04-B9C2-4FD1-BDD1-777D693DA62F",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "0,40€/kWh + parking fee",
     "AddressInfo": {
         "ID": 61238,
         "Title": "Plaza de la Montañeta",
@@ -14,10 +33,11 @@
         "StateOrProvince": "Alicante",
         "Postcode": "03001",
         "CountryID": 210,
-        "Latitude": 38.3447544925052,
-        "Longitude": -0.4881649536694876,
+        "Latitude": 38.34461416231784,
+        "Longitude": -0.4880659652137638,
         "ContactTelephone1": "96 520 20 52",
         "ContactEmail": "info@parkingcentroalicante.com",
+        "AccessComments": "parking level -1",
         "RelatedURL": "http://www.parkingcentroalicante.es/",
         "DistanceUnit": 0
     },
@@ -29,20 +49,12 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
-        },
-        {
-            "ID": 77236,
-            "ConnectionTypeID": 28,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "Quantity": 1
         }
     ],
-    "GeneralComments": "Pedir tarjeta al encargado",
+    "NumberOfPoints": 2,
+    "GeneralComments": "app moviltik",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-11T11:16:00Z",
+    "DateLastStatusUpdate": "2022-11-30T12:34:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

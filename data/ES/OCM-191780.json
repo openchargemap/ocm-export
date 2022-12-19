@@ -1,6 +1,56 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35355,
+            "ChargePointID": 191780,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191780/OCM-191780.orig.2022111211432057.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191780/OCM-191780.thmb.2022111211432057.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-12T11:43:00Z"
+        },
+        {
+            "ID": 35354,
+            "ChargePointID": 191780,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191780/OCM-191780.orig.2022111211381757.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191780/OCM-191780.thmb.2022111211381757.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-12T11:38:00Z"
+        },
+        {
+            "ID": 35353,
+            "ChargePointID": 191780,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191780/OCM-191780.orig.2022111211371261.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191780/OCM-191780.thmb.2022111211371261.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-12T11:37:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-26T14:02:00Z",
+    "DateLastVerified": "2022-11-12T11:43:00Z",
     "ID": 191780,
     "UUID": "19395A31-1F74-453C-8586-DFD94EAA99BC",
     "DataProviderID": 1,
@@ -35,14 +85,27 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 150,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "power is split between both connectors. Max amperage 300A"
+        },
+        {
+            "ID": 349240,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "power is split between both connectors. Max amperage 300A"
         }
     ],
     "NumberOfPoints": 28,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-26T14:02:00Z",
+    "DateLastStatusUpdate": "2022-11-12T11:43:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-02-28T14:28:00Z",
     "SubmissionStatusTypeID": 200

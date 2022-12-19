@@ -1,6 +1,64 @@
 {
     "UserComments": [
         {
+            "ID": 27712,
+            "ChargePointID": 201851,
+            "CommentTypeID": 50,
+            "UserName": "DCA",
+            "Comment": "This chargepoint has been reset by podpoint HQ and is reported as being ready to resume norma service. ",
+            "DateCreated": "2022-12-12T21:55:24.097Z",
+            "User": {
+                "ID": 37168,
+                "Username": "DCA"
+            },
+            "CheckinStatusTypeID": 140,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 27674,
+            "ChargePointID": 201851,
+            "CommentTypeID": 50,
+            "UserName": "DCA",
+            "Comment": "Nearest Alternative Rapid Charger is at LIDL Colchester St Andrews Avenue CO4 3BG ",
+            "DateCreated": "2022-12-04T04:07:35.843Z",
+            "User": {
+                "ID": 37168,
+                "Username": "DCA"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 27668,
+            "ChargePointID": 201851,
+            "CommentTypeID": 50,
+            "UserName": "DCA",
+            "Comment": "These Units are not free to use from 01 November 2022. When working high power is 50 pence per kWh",
+            "Rating": 2,
+            "DateCreated": "2022-12-03T17:54:09.413Z",
+            "User": {
+                "ID": 37168,
+                "Username": "DCA"
+            },
+            "CheckinStatusTypeID": 25,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 27667,
+            "ChargePointID": 201851,
+            "CommentTypeID": 50,
+            "UserName": "DCA",
+            "Comment": "HIGH POWER eban-eira is OUT OF SERVICE",
+            "Rating": 2,
+            "DateCreated": "2022-12-03T17:51:59.87Z",
+            "User": {
+                "ID": 37168,
+                "Username": "DCA"
+            },
+            "CheckinStatusTypeID": 25,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 26287,
             "ChargePointID": 201851,
             "CommentTypeID": 50,
@@ -16,6 +74,38 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 35751,
+            "ChargePointID": 201851,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM201851/OCM-201851.orig.2022120317511021.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM201851/OCM-201851.thmb.2022120317511021.jpg",
+            "Comment": "High Power Unit is OUT OF SERVICE 17:00 hrs 03/12/2022 ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37168,
+                "Username": "DCA"
+            },
+            "DateCreated": "2022-12-03T17:51:00Z"
+        },
+        {
+            "ID": 35750,
+            "ChargePointID": 201851,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM201851/OCM-201851.orig.2022120317500534.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM201851/OCM-201851.thmb.2022120317500534.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37168,
+                "Username": "DCA"
+            },
+            "DateCreated": "2022-12-03T17:50:00Z"
+        },
         {
             "ID": 33744,
             "ChargePointID": 201851,
@@ -50,14 +140,14 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-09-22T12:00:00Z",
+    "DateLastVerified": "2022-12-12T21:55:00Z",
     "ID": 201851,
     "UUID": "209DEE95-1D3C-430D-8BE3-BD1EFA6B6EC0",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70538,PG-87040,veefil-12100385",
     "UsageTypeID": 4,
-    "UsageCost": "Free,£0.28/kWh",
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 202215,
         "Title": "Tesco Extra-Colchester",
@@ -122,7 +212,7 @@
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at Tesco Extra Super Store site at Highwoods Square, Colchester",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-22T12:00:00Z",
+    "DateLastStatusUpdate": "2022-12-12T21:55:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-09-05T08:03:00Z",
     "SubmissionStatusTypeID": 200

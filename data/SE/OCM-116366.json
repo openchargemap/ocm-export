@@ -1,13 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:22:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-06T18:34:00Z",
     "ID": 116366,
     "UUID": "2D1920EB-84B8-4D70-B594-B3243CA01096",
     "DataProviderID": 1,
     "DataProvidersReference": "5331",
+    "OperatorID": 3403,
     "AddressInfo": {
         "ID": 116712,
-        "Title": "Laxå Tavernagatan",
+        "Title": "Laxå Tavernagatan - E.ON",
         "AddressLine1": "Tavernagatan 1",
         "Town": "LAXÅ",
         "StateOrProvince": "ÖREBRO",
@@ -21,57 +22,52 @@
     "Connections": [
         {
             "ID": 163990,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 43,
+            "Quantity": 1,
             "Comments": "Mode 3"
         },
         {
             "ID": 163991,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "2",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
+            "Quantity": 2,
             "Comments": "Mode 3"
         },
         {
             "ID": 163992,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "3",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 163993,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "4",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
-        },
-        {
-            "ID": 163994,
-            "ConnectionTypeID": 0,
-            "Reference": "5",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "Comments": "Mode 3"
         }
     ],
     "NumberOfPoints": 5,
-    "DateLastStatusUpdate": "2020-05-26T08:22:00Z",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2022-11-06T18:34:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2019-02-11T09:16:00Z",
     "SubmissionStatusTypeID": 100

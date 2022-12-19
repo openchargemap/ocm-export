@@ -1,15 +1,15 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-09-04T15:27:00Z",
+    "DateLastVerified": "2022-12-14T18:58:00Z",
     "ID": 172754,
     "UUID": "462D1AFE-52A9-4C9E-95F3-62E944EE037F",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0.45€/kWh",
+    "UsageCost": "0.45€/kWh DC/AC43kW - 0,25€/kWh 22kW AC",
     "AddressInfo": {
         "ID": 173113,
-        "Title": "Iberdrola Fast charge",
+        "Title": "Iberdrola Reinosa",
         "AddressLine1": "56A Poligono Vega",
         "Town": "Reinosa",
         "StateOrProvince": "Cantabria",
@@ -40,7 +40,7 @@
         },
         {
             "ID": 264208,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -48,11 +48,20 @@
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 350706,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-04T15:27:00Z",
+    "DateLastStatusUpdate": "2022-12-14T18:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-02-16T06:13:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,0 +1,80 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-11T06:22:00Z",
+    "ID": 210360,
+    "UUID": "73053C82-8A39-4290-B05F-DF8B0DC75153",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70599,PG-89230,veefil-12200301",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
+    "AddressInfo": {
+        "ID": 210740,
+        "Title": "Tesco Extra-Broadstairs",
+        "AddressLine1": "475 Margate Road",
+        "Town": "Westwood",
+        "StateOrProvince": "Broadstairs",
+        "Postcode": "CT10 2QJ",
+        "CountryID": 1,
+        "Latitude": 51.35911445,
+        "Longitude": 1.39910044,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 350339,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70599",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Buck-Ewan"
+        },
+        {
+            "ID": 350340,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-89230",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Niki-Noah"
+        },
+        {
+            "ID": 350341,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200301",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Nori-Lyla"
+        },
+        {
+            "ID": 350342,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200301",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Nori-Lyla"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is a Pod Point rapid unit installed at Tesco Extra site at Broadstairs",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-12-11T06:22:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-12-10T06:23:00Z",
+    "SubmissionStatusTypeID": 200
+}

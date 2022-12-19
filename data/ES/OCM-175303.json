@@ -1,12 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-25T10:30:00Z",
+    "DateLastVerified": "2022-12-11T11:21:00Z",
     "ID": 175303,
     "UUID": "1D2B0FBB-5E85-432A-A796-6F164E2FA099",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,50€/kWh",
+    "UsageCost": "0,60€/kWh - 0,45€/kWh AC",
     "AddressInfo": {
         "ID": 175662,
         "Title": "McDonald's Los Alcores Calle Utrera",
@@ -15,8 +15,8 @@
         "StateOrProvince": "Sevilla",
         "Postcode": "41520",
         "CountryID": 210,
-        "Latitude": 37.381816317192104,
-        "Longitude": -5.733221173520633,
+        "Latitude": 37.38173964435201,
+        "Longitude": -5.733156697106551,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,13 +30,22 @@
             "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage per socket 200A"
+            "Comments": "The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage per socket 200A   (max power limited for 400V cars)"
+        },
+        {
+            "ID": 350255,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-10-25T10:30:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-12-11T11:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-08T11:35:00Z",
     "SubmissionStatusTypeID": 200

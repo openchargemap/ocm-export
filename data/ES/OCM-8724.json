@@ -1,6 +1,24 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-17T18:44:00Z",
+    "MediaItems": [
+        {
+            "ID": 35515,
+            "ChargePointID": 8724,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM8724/OCM-8724.orig.2022112210073162.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM8724/OCM-8724.thmb.2022112210073162.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-22T10:08:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-22T10:40:00Z",
     "ID": 8724,
     "UUID": "B7FAB511-9BEE-4585-97D0-C65F54229CF4",
     "DataProviderID": 1,
@@ -14,26 +32,26 @@
         "StateOrProvince": "Madrid",
         "Postcode": "28042",
         "CountryID": 210,
-        "Latitude": 40.4595,
-        "Longitude": -3.61678,
+        "Latitude": 40.459065822953164,
+        "Longitude": -3.6173857054757264,
         "RelatedURL": "http://carstations.com/256",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 6142,
-            "ConnectionTypeID": 28,
-            "Reference": "NEMA5",
+            "ConnectionTypeID": 1036,
+            "Reference": "",
             "StatusTypeID": 0,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "Quantity": 4
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 13
         }
     ],
+    "NumberOfPoints": 13,
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-17T18:44:00Z",
+    "DateLastStatusUpdate": "2022-11-22T10:40:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-11-11T12:07:00Z",
     "SubmissionStatusTypeID": 100

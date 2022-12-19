@@ -1,18 +1,53 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:10:00Z",
+    "MediaItems": [
+        {
+            "ID": 35248,
+            "ChargePointID": 150491,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM150491/OCM-150491.orig.2022110312242861.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM150491/OCM-150491.thmb.2022110312242861.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 42197,
+                "Username": "Gdh"
+            },
+            "DateCreated": "2022-11-03T12:25:00Z"
+        },
+        {
+            "ID": 35247,
+            "ChargePointID": 150491,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM150491/OCM-150491.orig.2022110312235846.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM150491/OCM-150491.thmb.2022110312235846.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 42197,
+                "Username": "Gdh"
+            },
+            "DateCreated": "2022-11-03T12:24:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-04T09:19:00Z",
     "ID": 150491,
     "UUID": "B77EBEB9-76C8-4736-81DE-1144D77EA553",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*M13*P13207*002",
+    "DataProviderID": 1,
     "UsageTypeID": 5,
+    "UsageCost": "7am - 22pm 3€/h 22pm-7am 1,20 €/h",
     "AddressInfo": {
         "ID": 150844,
         "Title": "MARSEILLE-7E - Avenue De La Corse",
         "AddressLine1": "Avenue De La Corse 13007 MARSEILLE-7E",
         "CountryID": 80,
-        "Latitude": 43.28988,
-        "Longitude": 5.3559,
+        "Latitude": 43.289877280074734,
+        "Longitude": 5.355800819581418,
+        "ContactTelephone1": "0033488776110",
         "AccessComments": "24h/24 7j/7",
         "DistanceUnit": 0
     },
@@ -22,7 +57,7 @@
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "PowerKW": 3,
             "CurrentTypeID": 10
         },
         {
@@ -48,43 +83,12 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20
-        },
-        {
-            "ID": 238170,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 238171,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 238172,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 238173,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
         }
     ],
+    "NumberOfPoints": 1,
     "GeneralComments": "Recharge par badge et avec une application smartphone",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:10:00Z",
+    "DateLastStatusUpdate": "2022-11-04T09:19:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T06:17:00Z",
     "SubmissionStatusTypeID": 100

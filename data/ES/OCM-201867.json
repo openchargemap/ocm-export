@@ -1,12 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-09-05T11:39:00Z",
+    "DateLastVerified": "2022-12-14T13:09:00Z",
     "ID": 201867,
     "UUID": "785728DA-C42E-4C8A-AC92-CF88F45035E5",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh",
+    "UsageCost": "0,45€/kWh DC - 0,39€/kWh AC",
     "AddressInfo": {
         "ID": 202231,
         "Title": "Pavelló Poliespotiu Cobert",
@@ -15,8 +15,8 @@
         "StateOrProvince": "Valencian Community",
         "Postcode": "03740",
         "CountryID": 210,
-        "Latitude": 38.77668741996672,
-        "Longitude": 0.08959034610086292,
+        "Latitude": 38.77672537012754,
+        "Longitude": 0.08963754534750024,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -41,11 +41,20 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 350569,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-05T11:39:00Z",
+    "DateLastStatusUpdate": "2022-12-14T13:09:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-09-05T11:27:00Z",
     "SubmissionStatusTypeID": 200

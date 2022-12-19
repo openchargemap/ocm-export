@@ -1,10 +1,44 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35564,
+            "ChargePointID": 202405,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202405/OCM-202405.orig.2022112410400406.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202405/OCM-202405.thmb.2022112410400406.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-24T10:40:00Z"
+        },
+        {
+            "ID": 35563,
+            "ChargePointID": 202405,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202405/OCM-202405.orig.2022112410391277.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202405/OCM-202405.thmb.2022112410391277.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-24T10:39:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-10T10:13:00Z",
+    "DateLastVerified": "2022-11-24T11:05:00Z",
     "ID": 202405,
     "UUID": "3223A438-ED5A-43E6-B4F0-E661E4A79861",
     "DataProviderID": 1,
-    "OperatorID": 3279,
+    "OperatorID": 3571,
     "UsageTypeID": 4,
     "UsageCost": "",
     "AddressInfo": {
@@ -15,8 +49,9 @@
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28020",
         "CountryID": 210,
-        "Latitude": 40.45773131559659,
-        "Longitude": -3.69443733364335,
+        "Latitude": 40.458044726989726,
+        "Longitude": -3.694035521193996,
+        "AccessComments": "parking level -1",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,11 +65,20 @@
             "PowerKW": 7.4,
             "CurrentTypeID": 10,
             "Quantity": 3
+        },
+        {
+            "ID": 349719,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-10T10:13:00Z",
+    "DateLastStatusUpdate": "2022-11-24T11:05:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-09-10T13:21:00Z",
     "SubmissionStatusTypeID": 200

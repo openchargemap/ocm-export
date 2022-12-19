@@ -1,0 +1,79 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-11T06:22:00Z",
+    "ID": 210176,
+    "UUID": "F5325B42-8B25-41F2-92F4-671EE00D76EA",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70552,PG-89169,veefil-12100673",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
+    "AddressInfo": {
+        "ID": 210556,
+        "Title": "Tesco Extra-Borehamwood",
+        "AddressLine1": "Shenley Road",
+        "Town": "Borehamwood",
+        "Postcode": "WD6 1JG",
+        "CountryID": 1,
+        "Latitude": 51.65625369,
+        "Longitude": -0.26981133,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 349927,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70552",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Ewan-Shia"
+        },
+        {
+            "ID": 349928,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-89169",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Jean-Kyle"
+        },
+        {
+            "ID": 349929,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12100673",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Witt-Todd"
+        },
+        {
+            "ID": 349930,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100673",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Witt-Todd"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is an open charge unit installed at Tesco Extra site at Shenley Road",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-12-11T06:22:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-12-02T06:23:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 27716,
+            "ChargePointID": 23087,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "charge points powered down",
+            "DateCreated": "2022-12-14T08:17:40.753Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 25,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 23987,
             "ChargePointID": 23087,
             "CommentTypeID": 10,
@@ -179,8 +193,8 @@
             "DateCreated": "2014-07-06T15:53:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-08T11:37:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-14T08:18:00Z",
     "ID": 23087,
     "UUID": "A3C2AB7C-0249-463F-8B86-828655A3E871",
     "DataProviderID": 1,
@@ -205,19 +219,20 @@
         {
             "ID": 24791,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 4,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "powered down, taped over"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "Waitrose have advised that car parks under their control will be free to use. Check with branch.",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-08T11:37:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-12-14T08:18:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-04-11T17:44:00Z",
     "SubmissionStatusTypeID": 200

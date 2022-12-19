@@ -1,13 +1,47 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35400,
+            "ChargePointID": 79413,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM79413/OCM-79413.orig.2022111411435013.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM79413/OCM-79413.thmb.2022111411435013.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-14T11:44:00Z"
+        },
+        {
+            "ID": 35398,
+            "ChargePointID": 79413,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM79413/OCM-79413.orig.2022111411424420.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM79413/OCM-79413.thmb.2022111411424420.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-14T11:43:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-09-20T14:10:00Z",
+    "DateLastVerified": "2022-11-14T11:44:00Z",
     "ID": 79413,
     "UUID": "6B73540C-5DB8-4554-A38E-3698A85CB3EF",
     "DataProviderID": 1,
     "OperatorID": 45,
     "OperatorsReference": "17093",
-    "UsageTypeID": 6,
-    "UsageCost": "Free",
+    "UsageTypeID": 5,
+    "UsageCost": "6€ parking",
     "AddressInfo": {
         "ID": 79759,
         "Title": "Hotel Claridge",
@@ -18,6 +52,7 @@
         "Latitude": 40.406371,
         "Longitude": -3.669528,
         "ContactTelephone1": "+34 915 519 400",
+        "AccessComments": "parking level -3",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -39,13 +74,31 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 10
+            "Quantity": 8
+        },
+        {
+            "ID": 349394,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 349395,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 11,
     "GeneralComments": "1 Tesla Connector, up to 22kW.Available for patrons only. Please call ahead.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-20T14:10:00Z",
+    "DateLastStatusUpdate": "2022-11-14T11:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-01-29T16:22:00Z",
     "SubmissionStatusTypeID": 200

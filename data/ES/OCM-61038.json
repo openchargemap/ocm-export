@@ -1,11 +1,29 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "MediaItems": [
+        {
+            "ID": 35362,
+            "ChargePointID": 61038,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM61038/OCM-61038.orig.2022111212434909.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM61038/OCM-61038.thmb.2022111212434909.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-12T12:44:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-12T12:44:00Z",
     "ID": 61038,
     "UUID": "C24D783F-B52A-4F51-A0E0-1C716A270584",
-    "DataProviderID": 27,
-    "DataProvidersReference": "260",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 45,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 61384,
         "Title": "Parking Serrano 1",
@@ -23,32 +41,17 @@
     "Connections": [
         {
             "ID": 77544,
-            "ConnectionTypeID": 28
-        },
-        {
-            "ID": 77545,
-            "ConnectionTypeID": 28
-        },
-        {
-            "ID": 77546,
-            "ConnectionTypeID": 28
-        },
-        {
-            "ID": 77547,
-            "ConnectionTypeID": 28
-        },
-        {
-            "ID": 77548,
-            "ConnectionTypeID": 28
-        },
-        {
-            "ID": 77549,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 6
         }
     ],
+    "NumberOfPoints": 6,
     "GeneralComments": "Pedir tarjeta al encargado",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "DateLastStatusUpdate": "2022-11-12T12:44:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

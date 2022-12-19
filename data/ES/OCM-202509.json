@@ -1,11 +1,30 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35716,
+            "ChargePointID": 202509,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202509/OCM-202509.orig.2022120215553671.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202509/OCM-202509.thmb.2022120215553671.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-12-02T15:56:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-09-11T12:21:00Z",
+    "DateLastVerified": "2022-12-02T16:04:00Z",
     "ID": 202509,
     "UUID": "AD861AE9-3E18-4136-9DB9-03101C9AAAC2",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 1,
+    "UsageCost": "parking fee",
     "AddressInfo": {
         "ID": 202876,
         "Title": "Mercadona San Vicente",
@@ -16,6 +35,7 @@
         "CountryID": 210,
         "Latitude": 38.390999641820684,
         "Longitude": -0.5138182457590119,
+        "AccessComments": "parking level -1",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,14 +44,15 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Amps": 16,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-11T12:21:00Z",
+    "DateLastStatusUpdate": "2022-12-02T16:04:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-09-11T12:21:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,22 +1,57 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35444,
+            "ChargePointID": 191833,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191833/OCM-191833.orig.2022111810463132.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191833/OCM-191833.thmb.2022111810463132.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-18T10:47:00Z"
+        },
+        {
+            "ID": 35443,
+            "ChargePointID": 191833,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191833/OCM-191833.orig.2022111810452693.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191833/OCM-191833.thmb.2022111810452693.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-18T10:46:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-11-01T15:36:00Z",
+    "DateLastVerified": "2022-11-18T10:52:00Z",
     "ID": 191833,
     "UUID": "8177A0C7-E66F-43D6-94D6-EB1A232DFABE",
     "DataProviderID": 1,
     "OperatorID": 3276,
     "UsageTypeID": 4,
-    "UsageCost": " parking fee + 0,45€/kWh (0,01€/min parked without charging)",
+    "UsageCost": " parking fee + 0,24€/kWh 22kW - 0,20€/kWh 7,4kW  (0,01€/min parked without charging)",
     "AddressInfo": {
         "ID": 192192,
-        "Title": "Klepierre - Príncipe Pío",
+        "Title": "Parking Klepierre - Príncipe Pío",
         "AddressLine1": " Paseo de la Florida 2",
         "Town": "Madrid",
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28008",
         "CountryID": 210,
-        "Latitude": 40.42277740829954,
-        "Longitude": -3.720555189379951,
+        "Latitude": 40.42253237822058,
+        "Longitude": -3.7211560982387937,
+        "AccessComments": "level -1",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,14 +60,23 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 11,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 11
+            "Quantity": 3
+        },
+        {
+            "ID": 349529,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 16
         }
     ],
-    "NumberOfPoints": 11,
+    "NumberOfPoints": 19,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-11-01T15:36:00Z",
+    "DateLastStatusUpdate": "2022-11-18T10:52:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-03-02T16:13:00Z",
     "SubmissionStatusTypeID": 200

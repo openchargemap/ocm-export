@@ -1,0 +1,79 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-06T06:22:00Z",
+    "ID": 210153,
+    "UUID": "1BF7D964-D631-4284-8257-C9CDE98C721E",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-400154,PG-70612,veefil-12200265",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh,£0.28/kWh,£0.50/kWh",
+    "AddressInfo": {
+        "ID": 210533,
+        "Title": "Tesco Extra-Stockton-on-Tees",
+        "AddressLine1": "Durham Road",
+        "Town": "Stockton-on-Tees",
+        "Postcode": "TS21 3LU",
+        "CountryID": 1,
+        "Latitude": 54.592803,
+        "Longitude": -1.352526,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 349874,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-400154",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Jake-Ivan"
+        },
+        {
+            "ID": 349875,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70612",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Arne-Quin"
+        },
+        {
+            "ID": 349876,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200265",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Juhi-Bair"
+        },
+        {
+            "ID": 349877,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200265",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Juhi-Bair"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Durham Road, Stockton-on-Tees",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-12-06T06:22:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-12-01T06:22:00Z",
+    "SubmissionStatusTypeID": 200
+}

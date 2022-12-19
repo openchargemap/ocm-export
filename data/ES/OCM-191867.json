@@ -1,6 +1,40 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-03-03T19:40:00Z",
+    "MediaItems": [
+        {
+            "ID": 35402,
+            "ChargePointID": 191867,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191867/OCM-191867.orig.2022111412252781.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191867/OCM-191867.thmb.2022111412252781.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-14T12:26:00Z"
+        },
+        {
+            "ID": 35401,
+            "ChargePointID": 191867,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191867/OCM-191867.orig.2022111412245470.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191867/OCM-191867.thmb.2022111412245470.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-14T12:25:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-14T12:26:00Z",
     "ID": 191867,
     "UUID": "3D055C1A-3FAA-4488-9828-88679BE5D48E",
     "DataProviderID": 1,
@@ -14,8 +48,8 @@
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28009",
         "CountryID": 210,
-        "Latitude": 40.41900315699496,
-        "Longitude": -3.6784790731771864,
+        "Latitude": 40.418588863374566,
+        "Longitude": -3.6784590296840634,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -47,11 +81,20 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 349396,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-03T19:40:00Z",
+    "DateLastStatusUpdate": "2022-11-14T12:26:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-03-02T16:44:00Z",
     "SubmissionStatusTypeID": 200

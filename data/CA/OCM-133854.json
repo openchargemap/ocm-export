@@ -17,13 +17,14 @@
             "DateCreated": "2019-10-28T23:27:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-11-02T08:31:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-27T17:52:00Z",
     "ID": 133854,
     "UUID": "E8FCD110-B538-43DE-AD73-8F0B97ABE258",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3385,
     "UsageTypeID": 1,
+    "UsageCost": "50 kW $0.2113/minute... 100 kW $0.2717/minute",
     "AddressInfo": {
         "ID": 134200,
         "Title": "Valemount Centennial Park CCS/SAE, CHAdeMO",
@@ -33,7 +34,9 @@
         "CountryID": 44,
         "Latitude": 52.833753189588,
         "Longitude": -119.269140324228,
-        "AccessComments": "BC Hydro dual-standard fast charger (one vehicle at a time) located off Dogwood Street, near 4th Avenue.\r\n",
+        "ContactTelephone1": "1 866-338-3369",
+        "AccessComments": "BC Hydro dual-standard fast charger (One vehicle at a time per charger) located off Dogwood Street, near 4th Avenue.",
+        "RelatedURL": "https://ev.bchydro.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -56,12 +59,32 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 349796,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Voltage": 400,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 349797,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Voltage": 400,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "The fast charger can be activated by the BC Hydro EV app, RFID card or by calling BC Hydro at 1 866 338-3369. Flo app/Card and ChargePoint app also supported.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-11-02T08:31:00Z",
+    "DateLastStatusUpdate": "2022-11-27T17:52:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-10-28T22:45:00Z",
     "SubmissionStatusTypeID": 200

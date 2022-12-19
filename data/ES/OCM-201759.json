@@ -1,12 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-09-04T15:23:00Z",
+    "DateLastVerified": "2022-12-16T09:18:00Z",
     "ID": 201759,
     "UUID": "C9B7C978-CC57-46F2-828C-7F75565CB2CB",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh",
+    "UsageCost": "0,45€/kWh DC50kW/AC43kW - 0,39€/kWh 22kW AC",
     "AddressInfo": {
         "ID": 202123,
         "Title": "Siguenza Biblioteca",
@@ -15,8 +15,8 @@
         "StateOrProvince": "Castile-La Mancha",
         "Postcode": "",
         "CountryID": 210,
-        "Latitude": 41.06851559811665,
-        "Longitude": -2.6386809203929715,
+        "Latitude": 41.06852223381435,
+        "Longitude": -2.63870862020633,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -50,11 +50,20 @@
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 351106,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-04T15:23:00Z",
+    "DateLastStatusUpdate": "2022-12-16T09:18:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-09-04T14:20:00Z",
     "SubmissionStatusTypeID": 200

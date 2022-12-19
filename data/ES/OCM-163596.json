@@ -1,23 +1,57 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35478,
+            "ChargePointID": 163596,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM163596/OCM-163596.orig.2022111912070243.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM163596/OCM-163596.thmb.2022111912070243.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-19T12:07:00Z"
+        },
+        {
+            "ID": 35477,
+            "ChargePointID": 163596,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM163596/OCM-163596.orig.2022111912053546.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM163596/OCM-163596.thmb.2022111912053546.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-19T12:06:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-09-20T14:01:00Z",
+    "DateLastVerified": "2022-11-26T20:06:00Z",
     "ID": 163596,
     "UUID": "4FBDE4D0-81E8-4CD2-A8CC-60F998A9751B",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 207,
     "OperatorsReference": "41254",
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 163953,
         "Title": "Centro Comercial Abc Serrano",
         "AddressLine1": "Calle de Serrano",
-        "Town": "61",
-        "StateOrProvince": "Madrid",
+        "AddressLine2": "Salamanca",
+        "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28006",
         "CountryID": 210,
-        "Latitude": 40.432498,
-        "Longitude": -3.68678,
-        "ContactTelephone1": "+34 91 577 50 31",
+        "Latitude": 40.4322368920667,
+        "Longitude": -3.688093133349639,
+        "AccessComments": "level -2 (Tesla level -1)",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -32,18 +66,18 @@
         },
         {
             "ID": 340483,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 11,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 8
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "1 Tesla Connector, up to 22kW.Available for customers. Self park.",
+    "NumberOfPoints": 9,
+    "GeneralComments": "endesa chargers + 1 Tesla Connector, up to 22kW.Available for customers. Self park.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-20T14:01:00Z",
+    "DateLastStatusUpdate": "2022-11-26T20:06:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-08-24T13:06:00Z",
     "SubmissionStatusTypeID": 200

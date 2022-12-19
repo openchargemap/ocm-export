@@ -1,13 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-14T13:34:00Z",
     "ID": 116429,
     "UUID": "1541C4E9-900A-4870-AD5F-7581C8DA633A",
     "DataProviderID": 1,
     "DataProvidersReference": "4940",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 116775,
-        "Title": "Hallstahammar Laddregion Mälardalen",
+        "Title": "Hallstahammar Laddregion Mälardalen - EVcore",
         "AddressLine1": "Vegagatan ",
         "Town": "HALLSTAHAMMAR",
         "StateOrProvince": "VÄSTMANLAND",
@@ -21,67 +22,40 @@
     "Connections": [
         {
             "ID": 164376,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 164377,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "2",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 164378,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "3",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 164379,
-            "ConnectionTypeID": 0,
-            "Reference": "4",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 164380,
-            "ConnectionTypeID": 0,
-            "Reference": "5",
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 164381,
-            "ConnectionTypeID": 0,
-            "Reference": "6",
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Quantity": 4,
             "Comments": "Mode 3"
         }
     ],
     "NumberOfPoints": 6,
-    "DateLastStatusUpdate": "2020-05-26T08:23:00Z",
+    "DateLastStatusUpdate": "2022-11-14T13:34:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2019-02-11T09:16:00Z",
     "SubmissionStatusTypeID": 100

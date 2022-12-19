@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 35482,
+            "ChargePointID": 130827,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM130827/OCM-130827.orig.2022111915222277.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM130827/OCM-130827.thmb.2022111915222277.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-19T15:22:00Z"
+        },
+        {
             "ID": 33411,
             "ChargePointID": 130827,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM130827/OCM-130827.orig.2022083007323241.jpg",
@@ -18,13 +34,13 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-24T17:55:00Z",
+    "DateLastVerified": "2022-12-02T08:36:00Z",
     "ID": 130827,
     "UUID": "A81652BC-6025-4F10-92B3-BCC18BC0F2AD",
     "DataProviderID": 1,
     "OperatorID": 3324,
-    "UsageTypeID": 1,
-    "UsageCost": "0,39€/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "0.55€/kWh DC>90kW - 0,39€/kWh DC 50kW/AC",
     "AddressInfo": {
         "ID": 131173,
         "Title": "Zunder Outeiro de Rei",
@@ -41,12 +57,15 @@
     "Connections": [
         {
             "ID": 183163,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW"
         },
         {
             "ID": 183164,
@@ -59,6 +78,15 @@
         },
         {
             "ID": 183165,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 349575,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
@@ -67,9 +95,9 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-24T17:55:00Z",
+    "DateLastStatusUpdate": "2022-12-02T08:36:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-08-18T09:55:00Z",
     "SubmissionStatusTypeID": 200

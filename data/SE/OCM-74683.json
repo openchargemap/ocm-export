@@ -1,14 +1,16 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-06T14:33:00Z",
     "ID": 74683,
     "UUID": "F5F8C391-71D0-4F60-8D53-01343A4DF906",
     "DataProviderID": 1,
     "DataProvidersReference": "3698",
+    "OperatorID": 3343,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 75029,
-        "Title": "Vattelfall InCharge Snabbladdning",
-        "AddressLine1": "Hästhovsvägen 8",
+        "Title": "MAX Hästhovsvägen - InCharge",
+        "AddressLine1": "Hästhovsvägen 2",
         "Town": "JÖNKÖPING",
         "StateOrProvince": "JÖNKÖPING",
         "Postcode": "55454",
@@ -21,37 +23,20 @@
     "Connections": [
         {
             "ID": 107357,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
-            "PowerKW": 50,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
             "Comments": "Mode 4"
-        },
-        {
-            "ID": 107358,
-            "ConnectionTypeID": 0,
-            "Reference": "2",
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 107359,
-            "ConnectionTypeID": 0,
-            "Reference": "3",
-            "LevelID": 2,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "Comments": "Mode 3"
         }
     ],
     "NumberOfPoints": 3,
-    "DateLastStatusUpdate": "2020-05-26T08:21:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-11-06T14:33:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2016-12-03T02:36:00Z",
     "SubmissionStatusTypeID": 100

@@ -1,0 +1,80 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-08T06:22:00Z",
+    "ID": 210279,
+    "UUID": "3289D67B-75D3-4214-B331-46967D14D704",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70593,PG-89229,veefil-12200191",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
+    "AddressInfo": {
+        "ID": 210659,
+        "Title": "Tesco Extra-Cardiff",
+        "AddressLine1": "Excelsior Estate",
+        "Town": "Excelsior Road",
+        "StateOrProvince": "Cardiff",
+        "Postcode": "CF14 3AT",
+        "CountryID": 1,
+        "Latitude": 51.49791839,
+        "Longitude": -3.2071764,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 350168,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70593",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Khan-Ewan"
+        },
+        {
+            "ID": 350169,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-89229",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Rich-Kent"
+        },
+        {
+            "ID": 350170,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200191",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Bair-Todd"
+        },
+        {
+            "ID": 350171,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200191",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Bair-Todd"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is an open charge unit installed at Tesco Extra site at Excelsior Estate, Excelsior Road, Cardiff",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-12-08T06:22:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-12-07T06:33:00Z",
+    "SubmissionStatusTypeID": 200
+}

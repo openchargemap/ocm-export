@@ -1,0 +1,79 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-02T06:23:00Z",
+    "ID": 210158,
+    "UUID": "1908905F-34F0-4B36-80E6-21F75E847A63",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70614,PG-89212,veefil-12200299",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
+    "AddressInfo": {
+        "ID": 210538,
+        "Title": "Tesco Superstore-Aldershot",
+        "AddressLine1": "5 Wellington Ave",
+        "Town": "Aldershot",
+        "Postcode": "GU11 1SQ",
+        "CountryID": 1,
+        "Latitude": 51.25094167,
+        "Longitude": -0.77414726,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 349888,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70614",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Owen-Edna"
+        },
+        {
+            "ID": 349889,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-89212",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Zara-Dale"
+        },
+        {
+            "ID": 349890,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200299",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Andy-Bach"
+        },
+        {
+            "ID": 349891,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200299",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Andy-Bach"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is a Pod Point Rapid unit installed at Tesco superstore at Wellington Avenue, Aldershot",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-12-02T06:23:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-12-01T06:23:00Z",
+    "SubmissionStatusTypeID": 200
+}

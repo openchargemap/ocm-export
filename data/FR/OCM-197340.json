@@ -1,16 +1,18 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T10:32:00Z",
+    "DateLastVerified": "2022-11-25T16:05:00Z",
     "ID": 197340,
     "UUID": "E804836C-077D-4D0E-B29D-21CFF298592F",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRTDAPAVTD1711",
-    "OperatorID": 213,
+    "DataProviderID": 1,
+    "OperatorID": 3299,
     "UsageTypeID": 1,
+    "UsageCost": "0,69€/kWh",
     "AddressInfo": {
         "ID": 197699,
-        "Title": "AIRE DE VALLEIRY SUD",
-        "AddressLine1": "60 Impasse de l’Arche 74520 Dingy-en-Vuache",
+        "Title": "Ionity - Valleiry Sud",
+        "AddressLine1": "A40 - Aire de Valleiry Sud",
+        "Town": "Valleiry",
+        "Postcode": "74520",
         "CountryID": 80,
         "Latitude": 46.09647,
         "Longitude": 5.96435,
@@ -23,16 +25,18 @@
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 20
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 328856,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 328857,
@@ -40,12 +44,22 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 349733,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "GeneralComments": "Conditions accès aux bornes dépendantes des accords et formules de votre EMSP",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:32:00Z",
+    "DateLastStatusUpdate": "2022-11-25T16:05:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2022-08-23T10:32:00Z",
     "SubmissionStatusTypeID": 100

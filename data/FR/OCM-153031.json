@@ -1,16 +1,17 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:14:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-13T00:05:00Z",
     "ID": 153031,
     "UUID": "1F77FA4E-8F5F-45AF-B736-E0B314E568DF",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*S56*P56164*B",
+    "DataProviderID": 1,
     "OperatorID": 3379,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 153384,
         "Title": "Parking relais - proximité route nationale",
         "AddressLine1": "Parking relais - proximité route nationale 56880 Ploeren",
+        "Town": "Vannes",
+        "Postcode": "56000",
         "CountryID": 80,
         "Latitude": 47.660678,
         "Longitude": -2.79624,
@@ -24,7 +25,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 20,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 214495,
@@ -32,20 +34,23 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 20,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 247808,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 20,
-            "CurrentTypeID": 30
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 1,
     "GeneralComments": "Recharge Gratuite",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:14:00Z",
+    "DateLastStatusUpdate": "2022-12-13T00:05:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:54:00Z",
     "SubmissionStatusTypeID": 100

@@ -1,12 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-27T18:45:00Z",
+    "DateLastVerified": "2022-12-13T19:34:00Z",
     "ID": 209381,
     "UUID": "D80E7A3D-F9B0-4168-9CDB-9BFC7AB0AA81",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh ",
+    "UsageCost": "0,45€/kWh  - 0,39€/kWh 22kW AC",
     "AddressInfo": {
         "ID": 209761,
         "Title": "Parking C.C.",
@@ -15,8 +15,8 @@
         "StateOrProvince": "Andalucía",
         "Postcode": "29561",
         "CountryID": 210,
-        "Latitude": 36.5278114026072,
-        "Longitude": -4.632387484171204,
+        "Latitude": 36.52780348310556,
+        "Longitude": -4.631985960192651,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -37,11 +37,20 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 350937,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-27T18:45:00Z",
+    "DateLastStatusUpdate": "2022-12-13T19:34:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-10-27T18:45:00Z",
     "SubmissionStatusTypeID": 200

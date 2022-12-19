@@ -1,12 +1,47 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35785,
+            "ChargePointID": 163519,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM163519/OCM-163519.orig.2022120523035228.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM163519/OCM-163519.thmb.2022120523035228.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22915,
+                "Username": "@Dr_Eco_EV"
+            },
+            "DateCreated": "2022-12-05T23:04:00Z"
+        },
+        {
+            "ID": 35784,
+            "ChargePointID": 163519,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM163519/OCM-163519.orig.2022120523030370.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM163519/OCM-163519.thmb.2022120523030370.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22915,
+                "Username": "@Dr_Eco_EV"
+            },
+            "DateCreated": "2022-12-05T23:03:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-09-19T18:26:00Z",
+    "DateLastVerified": "2022-12-08T17:41:00Z",
     "ID": 163519,
     "UUID": "D4CCA5A5-E6AE-4F8C-98FB-31795F25730B",
     "DataProviderID": 1,
     "OperatorID": 45,
     "OperatorsReference": "51320",
     "UsageTypeID": 6,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 163876,
         "Title": "Gran Hotel Don Manuel Caceres",
@@ -17,6 +52,8 @@
         "Latitude": 39.477644,
         "Longitude": -6.371765,
         "ContactTelephone1": "+34 927 24 25 24",
+        "AccessComments": "Hotel Parking. Floor -1",
+        "RelatedURL": "https://www.granhoteldonmanuel.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,7 +62,7 @@
             "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 17,
+            "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 2
         },
@@ -40,9 +77,9 @@
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "2 Tesla Connectors, up to 17kW.Available to the public. Please see valet.",
+    "GeneralComments": "4 Tesla Destinations Chargers up to 11kW. Available only for hotel guests.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-19T18:26:00Z",
+    "DateLastStatusUpdate": "2022-12-08T17:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-08-24T11:45:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-27T14:16:00Z",
+    "DateLastVerified": "2022-12-15T19:23:00Z",
     "ID": 162048,
     "UUID": "9AFD9450-6B83-49CA-966F-40CC190FADAA",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,54€/kWh 80-200kW - 0,45€/kWh 50kW / AC43kW ",
+    "UsageCost": "0,54€/kWh 80-200kW - 0,45€/kWh 50kW / AC43kW - 0,39€/kWh 22kW AC",
     "AddressInfo": {
         "ID": 162405,
         "Title": "E.S. Oropesa - Saras",
@@ -15,8 +15,8 @@
         "StateOrProvince": "Toledo",
         "Postcode": "45560",
         "CountryID": 210,
-        "Latitude": 39.92641326536821,
-        "Longitude": -5.185378454902548,
+        "Latitude": 39.92681373015469,
+        "Longitude": -5.185436735623853,
         "ContactTelephone1": "900929293",
         "ContactEmail": "SmartMobility@iberdrola.es",
         "RelatedURL": "https://www.iberdrola.es/movilidad-electrica/recarga-fuera-de-casa",
@@ -32,7 +32,8 @@
             "Voltage": 920,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Maximum amperage 200A (max power is limited for 400V cars)"
         },
         {
             "ID": 233228,
@@ -64,11 +65,20 @@
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 351062,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-27T14:16:00Z",
+    "DateLastStatusUpdate": "2022-12-15T19:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-08-01T00:19:00Z",
     "SubmissionStatusTypeID": 200

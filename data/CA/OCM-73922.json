@@ -1,16 +1,16 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-08-26T05:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-08T17:40:00Z",
     "ID": 73922,
     "UUID": "7EE5D1E9-D4C0-4365-A35C-E7E47EF82160",
     "DataProviderID": 1,
     "OperatorID": 90,
     "OperatorsReference": "CEA-318",
     "UsageTypeID": 4,
-    "UsageCost": "CAD 1.00/hour",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 74268,
-        "Title": "St-Hubert-Drummondville",
+        "Title": "BRCC - Drummondville - St-Hubert",
         "AddressLine1": "125 boul. St-Joseph",
         "Town": "Drummondville",
         "StateOrProvince": "QC",
@@ -22,20 +22,45 @@
     },
     "Connections": [
         {
-            "ID": 106234,
-            "ConnectionTypeID": 1,
+            "ID": 350216,
+            "ConnectionTypeID": 32,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 350217,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 350218,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 350219,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-08-26T05:11:00Z",
+    "DateLastStatusUpdate": "2022-12-08T17:40:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-11-23T23:36:00Z",
     "SubmissionStatusTypeID": 200

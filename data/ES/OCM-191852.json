@@ -1,12 +1,62 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35475,
+            "ChargePointID": 191852,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191852/OCM-191852.orig.2022111911362848.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191852/OCM-191852.thmb.2022111911362848.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-19T11:37:00Z"
+        },
+        {
+            "ID": 35474,
+            "ChargePointID": 191852,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191852/OCM-191852.orig.2022111911361220.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191852/OCM-191852.thmb.2022111911361220.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-19T11:36:00Z"
+        },
+        {
+            "ID": 35473,
+            "ChargePointID": 191852,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191852/OCM-191852.orig.2022111911312655.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191852/OCM-191852.thmb.2022111911312655.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-19T11:32:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-30T12:20:00Z",
+    "DateLastVerified": "2022-11-19T11:38:00Z",
     "ID": 191852,
     "UUID": "FF801F9F-96A3-493F-A024-488AABEF08E6",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,25€/kWh",
+    "UsageCost": "0,25€/kWh + parking fee",
     "AddressInfo": {
         "ID": 192211,
         "Title": "Parking Juan Bravo 13 ",
@@ -15,8 +65,9 @@
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28006",
         "CountryID": 210,
-        "Latitude": 40.433383070168844,
-        "Longitude": -3.682386021775727,
+        "Latitude": 40.433080427716504,
+        "Longitude": -3.6825009534496758,
+        "AccessComments": "levels -1 and -2",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,21 +77,12 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 7.4,
-            "Quantity": 16
-        },
-        {
-            "ID": 345300,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 8
+            "Quantity": 30
         }
     ],
-    "NumberOfPoints": 24,
+    "NumberOfPoints": 30,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-30T12:20:00Z",
+    "DateLastStatusUpdate": "2022-11-19T11:38:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-03-02T16:31:00Z",
     "SubmissionStatusTypeID": 200

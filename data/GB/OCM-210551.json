@@ -1,0 +1,79 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-13T06:23:00Z",
+    "ID": 210551,
+    "UUID": "E61EC268-D598-4594-B6D7-739F9434CD96",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70620,PG-89208,veefil-12200196",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
+    "AddressInfo": {
+        "ID": 210931,
+        "Title": "Tesco Extra-Newbury",
+        "AddressLine1": "Pinchington Lane",
+        "Town": "Newbury",
+        "Postcode": "RG14 7HB",
+        "CountryID": 1,
+        "Latitude": 51.383322,
+        "Longitude": -1.31793,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 350720,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70620",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Dale-Amir"
+        },
+        {
+            "ID": 350721,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-89208",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Drew-Herb"
+        },
+        {
+            "ID": 350722,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200196",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Kriv-Evin"
+        },
+        {
+            "ID": 350723,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200196",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Kriv-Evin"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is a Pod Point rapid unit installed at the Tesco Extra superstore in Pinchington Lane, Newbury",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-12-13T06:23:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-12-12T06:22:00Z",
+    "SubmissionStatusTypeID": 200
+}

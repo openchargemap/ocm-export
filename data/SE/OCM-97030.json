@@ -1,13 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:22:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-06T17:32:00Z",
     "ID": 97030,
     "UUID": "D517871F-8F1C-4742-833C-E31767102BDF",
     "DataProviderID": 1,
     "DataProvidersReference": "4584",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 97376,
-        "Title": "Vattenfall InCharge Snabbladdning",
+        "Title": "MAX Västerleden - InCharge",
         "AddressLine1": "Västerleden ",
         "Town": "ESKILSTUNA",
         "StateOrProvince": "SÖDERMANLAND",
@@ -21,27 +22,37 @@
     "Connections": [
         {
             "ID": 137613,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 137614,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "2",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
+        },
+        {
+            "ID": 349107,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "DateLastStatusUpdate": "2020-05-26T08:22:00Z",
+    "DateLastStatusUpdate": "2022-11-06T17:32:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2018-01-04T08:28:00Z",
     "SubmissionStatusTypeID": 100

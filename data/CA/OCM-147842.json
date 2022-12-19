@@ -17,14 +17,14 @@
             "DateCreated": "2021-11-22T04:49:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-11-23T11:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-27T18:06:00Z",
     "ID": 147842,
     "UUID": "620BD937-2F53-46F7-8604-093519406BF6",
     "DataProviderID": 1,
     "OperatorID": 3385,
     "UsageTypeID": 1,
-    "UsageCost": "$0.21/minute",
+    "UsageCost": "$0.2113 + GST/minute for 50 kW... $0.2717 + GST/minute for 100 kW",
     "AddressInfo": {
         "ID": 148194,
         "Title": "BC Hydro - Hixon Tempo Gas Bar",
@@ -58,11 +58,30 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 349800,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 349801,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "2 dual head chargers, on vehicle at a time per charger",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-23T11:21:00Z",
+    "DateLastStatusUpdate": "2022-11-27T18:06:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-01-17T18:17:00Z",
     "SubmissionStatusTypeID": 200

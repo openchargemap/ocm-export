@@ -1,6 +1,40 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35415,
+            "ChargePointID": 202311,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202311/OCM-202311.orig.2022111612044389.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202311/OCM-202311.thmb.2022111612044389.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-16T12:05:00Z"
+        },
+        {
+            "ID": 35416,
+            "ChargePointID": 202311,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202311/OCM-202311.orig.2022111612051079.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202311/OCM-202311.thmb.2022111612051079.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-16T12:05:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-30T17:46:00Z",
+    "DateLastVerified": "2022-11-16T12:05:00Z",
     "ID": 202311,
     "UUID": "E3601A3A-5365-4350-BC77-E921EF4273F6",
     "DataProviderID": 1,
@@ -25,12 +59,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 920,
+            "Amps": 200,
+            "Voltage": 1000,
             "PowerKW": 180,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW"
+            "Comments": "The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Max  amperage 200A"
         },
         {
             "ID": 338350,
@@ -44,7 +78,7 @@
         },
         {
             "ID": 338351,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -63,7 +97,7 @@
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-30T17:46:00Z",
+    "DateLastStatusUpdate": "2022-11-16T12:05:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-09-09T11:42:00Z",
     "SubmissionStatusTypeID": 200

@@ -49,15 +49,15 @@
             "DateCreated": "2020-01-19T19:11:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-11-15T17:29:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-28T15:31:00Z",
     "ID": 98011,
     "UUID": "98689713-3E01-444F-879C-32D9FC1BBDCB",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "28776",
     "UsageTypeID": 4,
-    "UsageCost": "€0.29/kWh; other tariffs possible",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 98357,
         "Title": "Tesla Supercharger - Birdhill",
@@ -65,8 +65,8 @@
         "Town": "Birdhill Ireland Co. Tipperary",
         "StateOrProvince": "Coolderry",
         "CountryID": 3,
-        "Latitude": 52.757822,
-        "Longitude": -8.408856,
+        "Latitude": 52.75787241200072,
+        "Longitude": -8.408999566483317,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -75,15 +75,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 6
+        },
+        {
+            "ID": 349819,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
     "NumberOfPoints": 8,
     "GeneralComments": "Charging8 Superchargers, available 24/7, up to 120kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-15T17:29:00Z",
+    "DateLastStatusUpdate": "2022-11-28T15:31:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-01-21T17:33:00Z",
     "SubmissionStatusTypeID": 200

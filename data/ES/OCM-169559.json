@@ -1,6 +1,70 @@
 {
     "MediaItems": [
         {
+            "ID": 35532,
+            "ChargePointID": 169559,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM169559/OCM-169559.orig.2022112220585053.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM169559/OCM-169559.thmb.2022112220585053.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-22T20:59:00Z"
+        },
+        {
+            "ID": 35460,
+            "ChargePointID": 169559,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM169559/OCM-169559.orig.2022111820203271.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM169559/OCM-169559.thmb.2022111820203271.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 16782,
+                "Username": "Amarre"
+            },
+            "DateCreated": "2022-11-18T20:21:00Z"
+        },
+        {
+            "ID": 35458,
+            "ChargePointID": 169559,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM169559/OCM-169559.orig.2022111820195342.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM169559/OCM-169559.thmb.2022111820195342.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 16782,
+                "Username": "Amarre"
+            },
+            "DateCreated": "2022-11-18T20:20:00Z"
+        },
+        {
+            "ID": 35459,
+            "ChargePointID": 169559,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM169559/OCM-169559.orig.2022111820201571.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM169559/OCM-169559.thmb.2022111820201571.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 16782,
+                "Username": "Amarre"
+            },
+            "DateCreated": "2022-11-18T20:20:00Z"
+        },
+        {
             "ID": 33304,
             "ChargePointID": 169559,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM169559/OCM-169559.orig.2022082807340635.jpg",
@@ -18,13 +82,13 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-24T18:00:00Z",
+    "DateLastVerified": "2022-11-22T20:59:00Z",
     "ID": 169559,
     "UUID": "2159A3E4-27A7-442F-B248-86A0EA11CF6A",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh ",
+    "UsageCost": "0,55€/kWh DC>90kW - 0,39€/kWh DC 50kW/AC",
     "AddressInfo": {
         "ID": 169918,
         "Title": "Zunder Lleida",
@@ -43,34 +107,39 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW"
         },
         {
             "ID": 258111,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 258113,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
+            "LevelID": 3,
+            "Amps": 125,
             "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-24T18:00:00Z",
+    "DateLastStatusUpdate": "2022-11-22T20:59:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-23T15:24:00Z",
     "SubmissionStatusTypeID": 200

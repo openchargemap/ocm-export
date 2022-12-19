@@ -17,15 +17,17 @@
             "DateCreated": "2017-12-16T20:20:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-06T14:40:00Z",
     "ID": 94892,
     "UUID": "832EDAD4-8EF1-4934-A4C4-46F25E59E235",
     "DataProviderID": 1,
     "DataProvidersReference": "4299",
+    "OperatorID": 198,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 95238,
-        "Title": "Fortum McD Ulricehamn",
+        "Title": "McDonalds Ulricehamn - Recharge",
         "AddressLine1": "Vist Kyrkvägen 3",
         "Town": "ULRICEHAMN",
         "StateOrProvince": "VÄSTRA GÖTALAND",
@@ -39,28 +41,35 @@
     "Connections": [
         {
             "ID": 134180,
-            "ConnectionTypeID": 0,
-            "Reference": "1",
-            "LevelID": 2,
+            "ConnectionTypeID": 33,
+            "Reference": "SE*CHA*ES457*A",
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 134181,
-            "ConnectionTypeID": 0,
-            "Reference": "2",
-            "LevelID": 2,
+            "ConnectionTypeID": 2,
+            "Reference": "SE*CHA*ES457*B",
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "Mode 4"
         }
     ],
     "NumberOfPoints": 2,
-    "DateLastStatusUpdate": "2020-05-26T08:21:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-11-06T14:40:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2017-10-28T13:36:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

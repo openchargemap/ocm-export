@@ -1,6 +1,35 @@
 {
     "UserComments": [
         {
+            "ID": 27677,
+            "ChargePointID": 133717,
+            "CommentTypeID": 50,
+            "UserName": "DCA",
+            "Comment": "app works successfully this morning for me after update on 30/11/2022 and associated issues post update",
+            "Rating": 4,
+            "DateCreated": "2022-12-04T06:13:56.25Z",
+            "User": {
+                "ID": 37168,
+                "Username": "DCA"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 27672,
+            "ChargePointID": 133717,
+            "CommentTypeID": 50,
+            "UserName": "DCA",
+            "Comment": "Users report problems with BP pulse Go! app. Telephone Support number if any problems starting a charge.",
+            "DateCreated": "2022-12-03T19:52:45.093Z",
+            "User": {
+                "ID": 37168,
+                "Username": "DCA"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 27500,
             "ChargePointID": 133717,
             "CommentTypeID": 10,
@@ -294,6 +323,38 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 35754,
+            "ChargePointID": 133717,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM133717/OCM-133717.orig.2022120406012003.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM133717/OCM-133717.thmb.2022120406012003.jpg",
+            "Comment": "BPU0006 in use and charging a Nissan Leaf on CHAdeMO connector 05:56 am 04/12/2022",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37168,
+                "Username": "DCA"
+            },
+            "DateCreated": "2022-12-04T06:01:00Z"
+        },
+        {
+            "ID": 35753,
+            "ChargePointID": 133717,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM133717/OCM-133717.orig.2022120406001324.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM133717/OCM-133717.thmb.2022120406001324.jpg",
+            "Comment": "Successful Charging Session Started on unit BPU0007 05:55am 04/12/2022",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37168,
+                "Username": "DCA"
+            },
+            "DateCreated": "2022-12-04T06:00:00Z"
+        },
         {
             "ID": 35160,
             "ChargePointID": 133717,
@@ -744,53 +805,80 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-26T11:29:00Z",
+    "DateLastVerified": "2022-12-08T21:50:00Z",
     "ID": 133717,
     "UUID": "34EC9F53-4B85-4892-8042-99B44EA5963F",
     "DataProviderID": 1,
     "OperatorID": 32,
     "UsageTypeID": 5,
+    "UsageCost": "£0.77/kWh; Other tariffs available",
     "AddressInfo": {
         "ID": 134063,
-        "Title": "BP Fuel Station",
-        "AddressLine1": "Cukoo Farm",
+        "Title": "BP Fuel Station Colchester SF Connect",
+        "AddressLine1": "Cuckoo Farm",
         "AddressLine2": "Mile End",
         "Town": "Colchester",
         "StateOrProvince": "Essex",
         "Postcode": "CO4 5XY",
         "CountryID": 1,
-        "Latitude": 51.92534883843638,
-        "Longitude": 0.8990976342395243,
+        "Latitude": 51.925658823671796,
+        "Longitude": 0.8987885346500661,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 187138,
             "ConnectionTypeID": 2,
+            "Reference": "BPU0006",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 187139,
             "ConnectionTypeID": 33,
+            "Reference": "BPU0006",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 375,
             "Voltage": 400,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 349037,
+            "ConnectionTypeID": 33,
+            "Reference": "BPU0007",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 375,
+            "Voltage": 400,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 349038,
+            "ConnectionTypeID": 2,
+            "Reference": "BPU0007",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "To the left of the Hydrocarbon pumps as you enter the Station",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-26T11:29:00Z",
+    "DateLastStatusUpdate": "2022-12-08T21:50:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-10-24T16:31:00Z",
     "SubmissionStatusTypeID": 200

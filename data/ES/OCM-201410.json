@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 35345,
+            "ChargePointID": 201410,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201410/OCM-201410.orig.2022111210062400.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201410/OCM-201410.thmb.2022111210062400.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-12T10:06:00Z"
+        },
+        {
             "ID": 35243,
             "ChargePointID": 201410,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201410/OCM-201410.orig.2022110211583209.jpg",
@@ -34,12 +50,13 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-11-02T11:59:00Z",
+    "DateLastVerified": "2022-11-23T15:11:00Z",
     "ID": 201410,
     "UUID": "08E1FE7C-7E8F-4F3A-BE56-4004FA762AC8",
     "DataProviderID": 1,
     "OperatorID": 3553,
     "UsageTypeID": 4,
+    "UsageCost": "0,35€/kWh + parking fee",
     "AddressInfo": {
         "ID": 201774,
         "Title": "EMT Pza. Canalejas 360",
@@ -78,16 +95,17 @@
         },
         {
             "ID": 336044,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 4
         },
         {
             "ID": 336045,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -102,11 +120,20 @@
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 4
+        },
+        {
+            "ID": 349391,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 12,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-11-02T11:59:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-11-23T15:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-08-31T06:30:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,9 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-05-16T05:24:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-11T05:40:00Z",
     "ID": 87699,
     "UUID": "66092DD2-456B-45B2-A70E-F034E3390960",
     "DataProviderID": 1,
+    "OperatorID": 45,
+    "UsageTypeID": 6,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 88045,
         "Title": "The Te Mata Mushroom Company",
@@ -13,13 +16,23 @@
         "CountryID": 161,
         "Latitude": -39.657015,
         "Longitude": 176.9026182,
+        "ContactTelephone1": "+64 6-877 7266",
         "DistanceUnit": 0
     },
-    "Connections": [],
+    "Connections": [
+        {
+            "ID": 349229,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.3,
+            "Quantity": 1
+        }
+    ],
     "NumberOfPoints": 1,
-    "GeneralComments": "EV Plug (Type 3)   Any time\r\nFree rapid charge station for electric vehicles",
+    "GeneralComments": "charger in front of the shop - our vehicle charger is available free of charge to the public if you're in the area.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-16T05:24:00Z",
+    "DateLastStatusUpdate": "2022-11-11T05:40:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-16T05:24:00Z",
     "SubmissionStatusTypeID": 200

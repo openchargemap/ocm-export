@@ -1,39 +1,58 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35397,
+            "ChargePointID": 191686,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191686/OCM-191686.orig.2022111411262639.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191686/OCM-191686.thmb.2022111411262639.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-14T11:27:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-10T10:44:00Z",
+    "DateLastVerified": "2022-11-15T11:43:00Z",
     "ID": 191686,
     "UUID": "4F6AEB74-A182-43F9-B5B2-02B4A6FBEA1A",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 45,
     "UsageTypeID": 2,
     "AddressInfo": {
         "ID": 192045,
-        "Title": "Parking Calle Carlos y Guillermo Fernández Shaw",
+        "Title": "Parking Prosegur Calle Carlos y Guillermo Fernández Shaw",
         "AddressLine1": "Calle Carlos y Guillermo Fernández Shaw",
-        "Town": "Madrid",
-        "StateOrProvince": "Community of Madrid",
+        "AddressLine2": "Retiro",
+        "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28007",
         "CountryID": 210,
-        "Latitude": 40.40535007159147,
-        "Longitude": -3.668796427237453,
+        "Latitude": 40.40575974951605,
+        "Longitude": -3.6694742067980997,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 311294,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 5
+            "Quantity": 5,
+            "Comments": "only for Prosegur cars"
         }
     ],
-    "NumberOfPoints": 5,
+    "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-10T10:44:00Z",
+    "DateLastStatusUpdate": "2022-11-15T11:43:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-02-21T12:31:00Z",
     "SubmissionStatusTypeID": 200

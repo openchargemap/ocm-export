@@ -17,17 +17,17 @@
             "DateCreated": "2021-11-21T17:44:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-12-10T21:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-27T18:01:00Z",
     "ID": 147843,
     "UUID": "519A13DE-D1A6-4118-8D6F-3C3F3014A55A",
     "DataProviderID": 1,
     "OperatorID": 3385,
     "UsageTypeID": 1,
-    "UsageCost": "$0.2205/minute",
+    "UsageCost": "$0.2113 + GST/minute for 50 kW... $0.2717 + GST/minute for 100 kW",
     "AddressInfo": {
         "ID": 148195,
-        "Title": "Mobil @Extra Foods",
+        "Title": "Quesnel Extra Foods",
         "AddressLine1": "Chew Road North",
         "Town": "Quesnel",
         "StateOrProvince": "Cariboo Regional District",
@@ -58,12 +58,32 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 349798,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Voltage": 400,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 349799,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Voltage": 400,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "1 combo\r\n1 Chademo",
+    "GeneralComments": "2 Dual head chargers... one vehicle at a time per charger",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-10T21:12:00Z",
+    "DateLastStatusUpdate": "2022-11-27T18:01:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-01-17T18:23:00Z",
     "SubmissionStatusTypeID": 200

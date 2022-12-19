@@ -1,14 +1,14 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-26T18:54:00Z",
+    "DateLastVerified": "2022-12-17T18:55:00Z",
     "ID": 209344,
     "UUID": "4F2C057F-8AA8-4D4E-8FBB-141B32884B6F",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 3584,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 209724,
-        "Title": "Cepsa Móstoles",
+        "Title": "CEPSA Móstoles",
         "AddressLine1": "Avenida de Portugal",
         "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28931",
@@ -23,14 +23,29 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Charger with two CCS connectors   but only a single parking space. Power is split between both outlets."
+        },
+        {
+            "ID": 349662,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Charger with two CCS connectors   but only a single parking space.  Power is split between both outlets"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-10-26T18:54:00Z",
+    "DateLastStatusUpdate": "2022-12-17T18:55:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-10-26T18:54:00Z",
     "SubmissionStatusTypeID": 200

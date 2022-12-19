@@ -1,10 +1,28 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35703,
+            "ChargePointID": 201315,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201315/OCM-201315.orig.2022120111415259.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201315/OCM-201315.thmb.2022120111415259.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-12-01T11:42:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-18T10:07:00Z",
+    "DateLastVerified": "2022-12-17T19:03:00Z",
     "ID": 201315,
     "UUID": "F28E00F0-11DD-49C9-B2ED-FCDF3897FC89",
     "DataProviderID": 1,
-    "OperatorID": 3556,
+    "OperatorID": 3583,
     "UsageTypeID": 4,
     "UsageCost": "0,39€/kWh DC - 0,29€/kWh AC",
     "AddressInfo": {
@@ -15,9 +33,10 @@
         "StateOrProvince": "Valencian Community",
         "Postcode": "03009",
         "CountryID": 210,
-        "Latitude": 38.363789234524376,
-        "Longitude": -0.4874258247727994,
+        "Latitude": 38.36366292656126,
+        "Longitude": -0.4876037878424313,
         "ContactTelephone2": "nbm@ecpoints.es",
+        "AccessComments": "parking level 0 close to the exit",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -37,14 +56,13 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
-            "PowerKW": 100,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 335814,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -53,8 +71,9 @@
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "Eranovum",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-18T10:07:00Z",
+    "DateLastStatusUpdate": "2022-12-17T19:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-08-26T20:18:00Z",
     "SubmissionStatusTypeID": 200

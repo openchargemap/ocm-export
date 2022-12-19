@@ -1,11 +1,46 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35560,
+            "ChargePointID": 207356,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207356/OCM-207356.orig.2022112410015952.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207356/OCM-207356.thmb.2022112410015952.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-24T10:02:00Z"
+        },
+        {
+            "ID": 35559,
+            "ChargePointID": 207356,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207356/OCM-207356.orig.2022112410012176.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207356/OCM-207356.thmb.2022112410012176.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-24T10:01:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-10T10:23:00Z",
+    "DateLastVerified": "2022-11-24T10:03:00Z",
     "ID": 207356,
     "UUID": "64F0770A-5F9D-49DC-A3D8-293B5A4B5BDC",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 5,
+    "OperatorID": 207,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh + parking fee",
     "AddressInfo": {
         "ID": 207736,
         "Title": "Parking Mundial",
@@ -14,8 +49,8 @@
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28036",
         "CountryID": 210,
-        "Latitude": 40.45901368523312,
-        "Longitude": -3.686546785060841,
+        "Latitude": 40.459177183618465,
+        "Longitude": -3.686102657067863,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,11 +62,38 @@
             "PowerKW": 22,
             "CurrentTypeID": 10,
             "Quantity": 4
+        },
+        {
+            "ID": 349716,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 349717,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 349718,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-10T10:23:00Z",
+    "DateLastStatusUpdate": "2022-11-24T10:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-10-10T10:23:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,11 +1,45 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "MediaItems": [
+        {
+            "ID": 35597,
+            "ChargePointID": 61039,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM61039/OCM-61039.orig.2022112513113060.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM61039/OCM-61039.thmb.2022112513113060.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-25T13:12:00Z"
+        },
+        {
+            "ID": 35596,
+            "ChargePointID": 61039,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM61039/OCM-61039.orig.2022112513110139.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM61039/OCM-61039.thmb.2022112513110139.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-25T13:11:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-25T13:12:00Z",
     "ID": 61039,
     "UUID": "C297A181-B83C-443F-A56F-26FA9CAB9ED3",
-    "DataProviderID": 27,
-    "DataProvidersReference": "303",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 207,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 61385,
         "Title": "Mercado San Antón",
@@ -18,38 +52,31 @@
         "Longitude": -3.697554,
         "ContactTelephone1": "913300299",
         "ContactEmail": "movilidad.electrica@emtmadrid.es",
+        "AccessComments": "parking levels -2 , -3",
         "RelatedURL": "http://www.movilidadelectricamadrid...",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 77550,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 6
         },
         {
-            "ID": 77551,
-            "ConnectionTypeID": 28
-        },
-        {
-            "ID": 77552,
-            "ConnectionTypeID": 28
-        },
-        {
-            "ID": 77553,
-            "ConnectionTypeID": 28
-        },
-        {
-            "ID": 77554,
-            "ConnectionTypeID": 28
-        },
-        {
-            "ID": 77555,
-            "ConnectionTypeID": 28
+            "ID": 349726,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 10,
+            "Quantity": 4
         }
     ],
+    "NumberOfPoints": 6,
     "GeneralComments": "Tarjeta MOVELE",
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-11-25T13:12:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

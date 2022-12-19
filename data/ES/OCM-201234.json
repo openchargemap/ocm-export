@@ -18,13 +18,13 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-28T07:34:00Z",
+    "DateLastVerified": "2022-12-12T15:11:00Z",
     "ID": 201234,
     "UUID": "67E65524-67EA-4A7C-8FF0-502B40E317A7",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": "0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "0,56€/kWh 100kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 201593,
         "Title": "Restaurante Chorrilla",
@@ -43,9 +43,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 400,
+            "Voltage": 920,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Max power of the charger for both combined outlets 200 kW"
         },
         {
             "ID": 335614,
@@ -68,7 +71,7 @@
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-28T07:34:00Z",
+    "DateLastStatusUpdate": "2022-12-12T15:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-08-24T21:07:00Z",
     "SubmissionStatusTypeID": 200

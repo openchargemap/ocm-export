@@ -1,12 +1,46 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35733,
+            "ChargePointID": 209305,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM209305/OCM-209305.orig.2022120310473051.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM209305/OCM-209305.thmb.2022120310473051.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-12-03T10:48:00Z"
+        },
+        {
+            "ID": 35734,
+            "ChargePointID": 209305,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM209305/OCM-209305.orig.2022120310475745.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM209305/OCM-209305.thmb.2022120310475745.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-12-03T10:48:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-26T11:07:00Z",
+    "DateLastVerified": "2022-12-18T19:14:00Z",
     "ID": 209305,
     "UUID": "D0FA292E-7594-403C-9383-4F598B21BD48",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 5,
-    "UsageCost": "",
+    "OperatorID": 3583,
+    "UsageTypeID": 4,
+    "UsageCost": "0,39€/kWh DC - 0,29€/kWh AC",
     "AddressInfo": {
         "ID": 209685,
         "Title": "Garaje Europa S.L",
@@ -15,8 +49,8 @@
         "StateOrProvince": "Comunitat Valenciana",
         "Postcode": "03007",
         "CountryID": 210,
-        "Latitude": 38.33658966313499,
-        "Longitude": -0.507147957028792,
+        "Latitude": 38.33670960757479,
+        "Longitude": -0.5070675320737337,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,11 +62,29 @@
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
             "Quantity": 2
+        },
+        {
+            "ID": 349954,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 30,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 349955,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 3
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-26T11:07:00Z",
+    "NumberOfPoints": 8,
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-12-18T19:14:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-10-26T11:07:00Z",
     "SubmissionStatusTypeID": 200
