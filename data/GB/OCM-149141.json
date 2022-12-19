@@ -14,15 +14,15 @@
             "IsActionedByEditor": false
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-18T12:42:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T14:42:00Z",
     "ID": 149141,
     "UUID": "A1BB4D6F-2116-49DC-A45B-F16E2A32A922",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70173,PG-84108",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 149494,
         "Title": "Tesco Extra-Andover",
@@ -38,19 +38,34 @@
         {
             "ID": 207105,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84108",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Dane-Hiro"
+        },
+        {
+            "ID": 320361,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70173",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Enzo-Zach"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at River Way, Andover",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-18T12:42:00Z",
+    "DateLastStatusUpdate": "2022-11-01T14:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-02-19T06:27:00Z",
     "SubmissionStatusTypeID": 200

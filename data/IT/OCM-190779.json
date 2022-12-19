@@ -1,5 +1,54 @@
 {
+    "UserComments": [
+        {
+            "ID": 27506,
+            "ChargePointID": 190779,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Di giorno c'è un bar abbastanza fornito anche per uno spuntino. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnina-fast-via-a-canova-174-firenze-presso-distributore-eni-t22180.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-fast-via-a-canova-174-firenze-presso-distributore-eni-t22180.html",
+            "DateCreated": "2022-10-28T05:38:09.98Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
+        {
+            "ID": 35176,
+            "ChargePointID": 190779,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190779/OCM-190779.orig.2022102805381923.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190779/OCM-190779.thmb.2022102805381923.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-10-28T05:38:00Z"
+        },
+        {
+            "ID": 35177,
+            "ChargePointID": 190779,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190779/OCM-190779.orig.2022102805382471.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190779/OCM-190779.thmb.2022102805382471.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-10-28T05:38:00Z"
+        },
         {
             "ID": 30138,
             "ChargePointID": 190779,
@@ -18,22 +67,23 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-12-28T03:20:00Z",
+    "DateLastVerified": "2022-10-28T05:38:00Z",
     "ID": 190779,
     "UUID": "428B3EA1-03EB-4BEA-B5B9-22FACCE8DD2E",
     "DataProviderID": 1,
     "OperatorID": 80,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 191138,
-        "Title": "Enel X presso distributore ENI",
+        "Title": "Enel X Way Eni",
         "AddressLine1": "Via Antonio Canova",
         "Town": "Firenze",
         "StateOrProvince": "FI",
         "Postcode": "50142",
         "CountryID": 112,
-        "Latitude": 43.78056929264676,
-        "Longitude": 11.19276593174493,
+        "Latitude": 43.780621,
+        "Longitude": 11.192798,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-fast-via-a-canova-174-firenze-presso-distributore-eni-t22180.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -43,7 +93,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 309398,
@@ -51,7 +102,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 309399,
@@ -61,12 +113,13 @@
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-28T03:20:00Z",
+    "DateLastStatusUpdate": "2022-10-28T05:38:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-12-22T22:31:00Z",
     "SubmissionStatusTypeID": 200

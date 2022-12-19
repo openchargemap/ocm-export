@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-06-18T08:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-03T06:22:00Z",
     "ID": 175892,
     "UUID": "CAB12A72-FE4D-41C3-8CBF-C1D89AFC0519",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "OperatorsReference": "PG-70380,PG-86469,veefil-12100002",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 176251,
         "Title": "Tesco Extra-Crewe",
@@ -21,7 +22,31 @@
     },
     "Connections": [
         {
-            "ID": 273160,
+            "ID": 273161,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86469",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Enid-Jude"
+        },
+        {
+            "ID": 323930,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12100002",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Tina-Alya"
+        },
+        {
+            "ID": 323931,
             "ConnectionTypeID": 25,
             "Reference": "PG-70380",
             "StatusTypeID": 50,
@@ -30,24 +55,24 @@
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Hiro-Kent"
         },
         {
-            "ID": 273161,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-86469",
+            "ID": 323932,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100002",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Tina-Alya"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-18T08:23:00Z",
+    "DateLastStatusUpdate": "2022-11-03T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-18T08:23:00Z",
     "SubmissionStatusTypeID": 200

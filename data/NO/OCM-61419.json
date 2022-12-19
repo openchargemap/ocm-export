@@ -1,9 +1,28 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-07-31T19:46:00Z",
+    "MediaItems": [
+        {
+            "ID": 32858,
+            "ChargePointID": 61419,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NO/OCM61419/OCM-61419.orig.2022081112013163.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NO/OCM61419/OCM-61419.thmb.2022081112013163.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39826,
+                "Username": "Darulin007"
+            },
+            "DateCreated": "2022-08-11T12:02:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-13T10:25:00Z",
     "ID": 61419,
     "UUID": "812708D4-80F2-4578-98DF-06B25B23AFA4",
     "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61765,
@@ -15,7 +34,7 @@
         "CountryID": 168,
         "Latitude": 61.42459998198174,
         "Longitude": 11.080291190490685,
-        "AccessComments": "Free parking. Charge with SMS, app or RFID",
+        "AccessComments": "Free parking. Charge with SMS, app (CloudCharge is working with android) or RFID",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,7 +45,7 @@
             "LevelID": 3,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 12,
+            "PowerKW": 22,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "Mode 3"
@@ -68,7 +87,7 @@
     "NumberOfPoints": 4,
     "GeneralComments": "Paw with SMS, App or lade i norge RFID chip",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-07-31T19:46:00Z",
+    "DateLastStatusUpdate": "2022-08-13T10:25:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2016-02-27T02:32:00Z",
     "SubmissionStatusTypeID": 100

@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-08-22T10:28:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-15T14:36:00Z",
     "ID": 70976,
     "UUID": "C4F2F6E9-29FA-409E-859B-F5A953ED94D7",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3283,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 71322,
@@ -16,7 +16,7 @@
         "CountryID": 210,
         "Latitude": 39.88523856116067,
         "Longitude": 4.261497046310407,
-        "ContactTelephone1": "+34 971 36 98 00",
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,14 +25,24 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 346616,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "RFID card Maó",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-08-22T10:28:00Z",
+    "DateLastStatusUpdate": "2022-10-15T14:36:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-08-22T10:28:00Z",
     "SubmissionStatusTypeID": 200

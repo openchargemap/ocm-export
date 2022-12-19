@@ -32,15 +32,15 @@
             "DateCreated": "2019-03-26T15:18:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-22T19:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:13:00Z",
     "ID": 94812,
     "UUID": "7A5DB90B-DB74-4613-A6D2-6EEEEECEDC06",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_it1_0717_027",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 95158,
         "Title": "Askern Road",
@@ -57,40 +57,42 @@
         {
             "ID": 134019,
             "ConnectionTypeID": 2,
+            "Reference": "t53_it1_0717_027",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Gary-Judy"
         },
         {
-            "ID": 134020,
-            "ConnectionTypeID": 1036,
+            "ID": 323523,
+            "ConnectionTypeID": 33,
+            "Reference": "t53_it1_0717_027",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Gary-Judy"
+        },
+        {
+            "ID": 323524,
+            "ConnectionTypeID": 1036,
+            "Reference": "t53_it1_0717_027",
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 134021,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Gary-Judy"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-22T19:38:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:13:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-10-27T12:17:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,6 +1,6 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-21T10:43:00Z",
+    "DateLastVerified": "2022-06-06T09:00:00Z",
     "ID": 192677,
     "UUID": "13D90FDE-C5F9-480C-8BC4-AC50EDB06CE3",
     "DataProviderID": 1,
@@ -8,7 +8,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 193036,
-        "Title": "ENEL X 22kW IKEA PADOVA",
+        "Title": "ENEL X IKEA PADOVA",
         "AddressLine1": "Via Sergio Fraccalanza",
         "Town": "Padua",
         "StateOrProvince": "Veneto",
@@ -21,19 +21,48 @@
     "Connections": [
         {
             "ID": 313176,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 150,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 314567,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 314568,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 314569,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 22,
+            "Voltage": 400,
+            "PowerKW": 15,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-04-21T10:43:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-06-06T09:00:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-21T10:11:00Z",
     "SubmissionStatusTypeID": 200

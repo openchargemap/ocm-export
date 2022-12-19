@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-22T19:36:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:13:00Z",
     "ID": 94808,
     "UUID": "AFAF1155-CB21-43E5-9EB6-44737A29836A",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_it1_2217_004",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 95154,
         "Title": "Lidl-Pelaw",
@@ -25,40 +25,42 @@
         {
             "ID": 134007,
             "ConnectionTypeID": 2,
+            "Reference": "t53_it1_2217_004",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Gary-Dora"
         },
         {
-            "ID": 134008,
-            "ConnectionTypeID": 1036,
+            "ID": 323532,
+            "ConnectionTypeID": 33,
+            "Reference": "t53_it1_2217_004",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Gary-Dora"
+        },
+        {
+            "ID": 325081,
+            "ConnectionTypeID": 1036,
+            "Reference": "t53_it1_2217_004",
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 134009,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Gary-Dora"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-22T19:36:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:13:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-10-27T12:02:00Z",
     "SubmissionStatusTypeID": 200

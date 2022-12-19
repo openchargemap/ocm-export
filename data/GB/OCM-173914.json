@@ -1,13 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-11T12:10:00Z",
+    "DateLastVerified": "2022-11-02T06:22:00Z",
     "ID": 173914,
     "UUID": "6E41C69E-06AB-45EC-B70B-BCEDC5C03493",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_3820_018",
-    "UsageTypeID": 6,
-    "UsageCost": "£0.25/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 174273,
         "Title": "Lidl-Peckham",
@@ -24,37 +24,43 @@
         {
             "ID": 267582,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_3820_018",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Edna-Emry"
         },
         {
-            "ID": 268300,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 268332,
+            "ID": 323599,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_3820_018",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Edna-Emry"
+        },
+        {
+            "ID": 323600,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_3820_018",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Edna-Emry"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 1,
     "GeneralComments": "This is a Pod Point rapid charger installed at the Lidl super store at Bellenden Road, Peckham, London",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-11T12:10:00Z",
+    "DateLastStatusUpdate": "2022-11-02T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-06T06:22:00Z",
     "SubmissionStatusTypeID": 200

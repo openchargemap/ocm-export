@@ -1,51 +1,54 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-09-17T21:04:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-29T16:33:00Z",
     "ID": 167957,
     "UUID": "319821C4-14CA-4BE5-8208-94295EA5EC47",
-    "DataProviderID": 18,
-    "DataProvidersReference": "6373a0d7d97978a774863ae69886b98c",
-    "OperatorID": 150,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 3496,
+    "UsageTypeID": 1,
+    "UsageCost": "£0.35/kWh",
     "AddressInfo": {
         "ID": 168316,
-        "Title": "Heol Maengwyn",
-        "AddressLine1": "Heol Maengwyn",
+        "Title": "Maengwyn St Car Park",
+        "AddressLine1": " Machynlleth",
         "Town": "Machynlleth",
-        "Postcode": "SY20 8DY",
+        "StateOrProvince": "Wales",
+        "Postcode": "SY20 8DT",
         "CountryID": 1,
-        "Latitude": 52.589975,
-        "Longitude": -3.851359,
-        "AccessComments": "",
-        "RelatedURL": "http://www.chargepointservices.com/",
+        "Latitude": 52.58993834530662,
+        "Longitude": -3.851147671647368,
+        "RelatedURL": "https://www.clenergy-ev.com/ev-drivers/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 254989,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "DC5901",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         },
         {
             "ID": 254990,
             "ConnectionTypeID": 25,
-            "Reference": "2",
+            "Reference": "DC5902",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2020-09-17T21:04:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-29T16:33:00Z",
     "MetadataValues": [
         {
             "ID": 8001,

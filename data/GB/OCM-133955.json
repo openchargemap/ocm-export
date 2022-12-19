@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-09T06:22:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T18:48:00Z",
     "ID": 133955,
     "UUID": "44C7385A-3B75-49BF-A80E-8E4F6CB267EE",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70107,PG-85828",
+    "OperatorsReference": "PG-70107,PG-85828,veefil-12000089",
     "UsageTypeID": 4,
-    "UsageCost": "£0.27/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 134301,
         "Title": "Tesco Extra-Hatfield",
@@ -24,30 +24,56 @@
         {
             "ID": 187449,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70107",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Pria-Ross"
+        },
+        {
+            "ID": 323873,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000089",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Orry-Joye"
+        },
+        {
+            "ID": 323874,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000089",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Orry-Joye"
+        },
+        {
+            "ID": 323875,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85828",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
-            "ID": 263763,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Stan-Myer"
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 6,
     "GeneralComments": "This is a pay charge unit installed at the Tesco superstore at Mount Pleasant, Oldings Corner, Hatfield",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-09T06:22:00Z",
+    "DateLastStatusUpdate": "2022-08-16T18:48:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-10-31T06:25:00Z",
     "SubmissionStatusTypeID": 200

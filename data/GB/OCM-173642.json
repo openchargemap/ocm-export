@@ -1,51 +1,71 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-03T11:25:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-29T18:15:00Z",
     "ID": 173642,
     "UUID": "13390D73-F9D6-4C23-B8B5-309FE5891ADE",
-    "DataProviderID": 18,
-    "DataProvidersReference": "5435356714a010c094414aaea430121d",
-    "OperatorID": 150,
+    "DataProviderID": 1,
+    "OperatorID": 3496,
     "UsageTypeID": 5,
+    "UsageCost": "£0.65/kWh",
     "AddressInfo": {
         "ID": 174001,
-        "Title": "Freemens Way",
+        "Title": "County Hall Car Park, Haverfordwest",
         "AddressLine1": "Freemens Way",
         "Town": "Haverfordwest",
         "Postcode": "SA61 1UG",
         "CountryID": 1,
         "Latitude": 51.800952,
-        "Longitude": -5.2662,
-        "AccessComments": "",
-        "RelatedURL": "http://www.chargepointservices.com/",
+        "Longitude": -4.965811596290678,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 266752,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "002086",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         },
         {
             "ID": 266753,
             "ConnectionTypeID": 25,
-            "Reference": "2",
+            "Reference": "002087",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 314422,
+            "ConnectionTypeID": 2,
+            "Reference": "002087",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 314423,
+            "ConnectionTypeID": 33,
+            "Reference": "002087",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-03-03T11:25:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-05-29T18:15:00Z",
     "MetadataValues": [
         {
             "ID": 8564,
@@ -55,5 +75,5 @@
     ],
     "DataQualityLevel": 3,
     "DateCreated": "2021-03-03T11:25:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

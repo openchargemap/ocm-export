@@ -74,15 +74,15 @@
             "DateCreated": "2016-12-28T17:20:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-22T06:17:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T18:36:00Z",
     "ID": 45027,
     "UUID": "8E4BE85A-A532-4003-83C7-0C7B6C072BCB",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-80586",
     "UsageTypeID": 4,
-    "UsageCost": "£0.31/kWh",
+    "UsageCost": "£0.45/kWh",
     "AddressInfo": {
         "ID": 45373,
         "Title": "Midsomer Norton Sports Centre",
@@ -92,25 +92,26 @@
         "CountryID": 1,
         "Latitude": 51.28609,
         "Longitude": -2.47771,
-        "AccessComments": "No parking fees apply. No length of stay restrictions.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 55357,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80586",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Mark-Jeff"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-22T06:17:00Z",
+    "DateLastStatusUpdate": "2022-08-15T18:36:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-04-22T18:33:00Z",
     "SubmissionStatusTypeID": 200

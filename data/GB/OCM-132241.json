@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-25T15:55:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-04T05:21:00Z",
     "ID": 132241,
     "UUID": "84F355F6-8E1F-4FDE-A28B-BA58AB47C402",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_hu1_5018_008",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 132587,
         "Title": "Lidl-Milton Keynes",
@@ -24,35 +24,41 @@
         {
             "ID": 185103,
             "ConnectionTypeID": 1036,
+            "Reference": "t53_hu1_5018_008",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Doug-Sean"
         },
         {
-            "ID": 269991,
+            "ID": 321942,
             "ConnectionTypeID": 2,
+            "Reference": "t53_hu1_5018_008",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Doug-Sean"
         },
         {
-            "ID": 270053,
+            "ID": 323514,
             "ConnectionTypeID": 33,
+            "Reference": "t53_hu1_5018_008",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Doug-Sean"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 1,
     "GeneralComments": "This is an open charge rapid unit installed at the Lidl superstore at Fen Street, Countess Way, Milton Keynes",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-25T15:55:00Z",
+    "DateLastStatusUpdate": "2022-10-04T05:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-09-25T05:30:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,28 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-07-16T13:06:00Z",
+    "UserComments": [
+        {
+            "ID": 25840,
+            "ChargePointID": 107063,
+            "CommentTypeID": 10,
+            "UserName": "Stefano9899",
+            "Comment": "Ho scritto una email alla concessionaria e mi hanno confermato che la colonnina esterna NON è attiva.",
+            "DateCreated": "2022-06-04T09:39:33.153Z",
+            "User": {
+                "ID": 36013,
+                "Username": "Stefano9899"
+            },
+            "CheckinStatusTypeID": 22,
+            "IsActionedByEditor": false
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-06-06T09:00:00Z",
     "ID": 107063,
     "UUID": "7F7C4209-FA69-4D52-8522-C1E9BAA689E4",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "free",
+    "UsageTypeID": 4,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 107409,
         "Title": "Nissan Scalcauto Group",
@@ -26,18 +42,36 @@
         {
             "ID": 150944,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 240,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 314570,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 314571,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-07-16T13:06:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-06-06T09:00:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-07-16T13:06:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,11 +1,29 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:12:00Z",
+    "MediaItems": [
+        {
+            "ID": 31698,
+            "ChargePointID": 160714,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM160714/OCM-160714.orig.2022051420485508.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM160714/OCM-160714.thmb.2022051420485508.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 30533,
+                "Username": "Jason Cruickshank"
+            },
+            "DateCreated": "2022-05-14T20:49:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-14T20:51:00Z",
     "ID": 160714,
     "UUID": "E7B03E90-0599-4F16-A370-2F0FC1B8F617",
-    "DataProviderID": 2,
-    "DataProvidersReference": "156704",
-    "UsageTypeID": 2,
+    "DataProviderID": 1,
+    "OperatorID": 89,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 161071,
         "Title": "Canadian Tire Corporation",
@@ -25,28 +43,30 @@
         {
             "ID": 231269,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 231270,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "GeneralComments": "",
     "DatePlanned": "2020-09-01T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2020-06-26T03:12:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-05-14T20:51:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2020-06-26T03:12:00Z",
     "SubmissionStatusTypeID": 100

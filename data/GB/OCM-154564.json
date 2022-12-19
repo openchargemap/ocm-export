@@ -1,11 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-12-24T22:02:00Z",
+    "DateLastVerified": "2022-07-25T20:25:00Z",
     "ID": 154564,
     "UUID": "682E27CC-BB07-4B49-8ADA-F983F0236C90",
     "DataProviderID": 1,
     "OperatorID": 3392,
     "UsageTypeID": 5,
+    "UsageCost": "£0.60/kWh. Other tarrifs available.",
     "AddressInfo": {
         "ID": 154917,
         "Title": "Shell Little Waitrose Portway",
@@ -21,41 +22,47 @@
     },
     "Connections": [
         {
-            "ID": 217393,
-            "ConnectionTypeID": 1036,
-            "Reference": "1",
-            "StatusTypeID": 100,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20
-        },
-        {
             "ID": 217394,
             "ConnectionTypeID": 33,
-            "Reference": "2",
-            "StatusTypeID": 100,
+            "Reference": "TRIT_PK_00084-2",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 175,
             "CurrentTypeID": 30
         },
         {
             "ID": 217395,
             "ConnectionTypeID": 2,
-            "Reference": "3",
-            "StatusTypeID": 100,
+            "Reference": "TRIT_PK_00084-3",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 70,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 316568,
+            "ConnectionTypeID": 33,
+            "Reference": "TRIT_PK_00084-4",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 316569,
+            "ConnectionTypeID": 2,
+            "Reference": "TRIT_PK_00084-1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2021-12-24T22:02:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-07-25T20:25:00Z",
     "MetadataValues": [
         {
             "ID": 7117,

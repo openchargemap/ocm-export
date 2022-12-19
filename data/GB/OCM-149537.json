@@ -33,15 +33,15 @@
             "DateCreated": "2021-10-09T09:31:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-10-12T22:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T09:11:00Z",
     "ID": 149537,
     "UUID": "44487938-37AA-4502-AFB9-4FD326B5C667",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70206,PG-84279",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 149890,
         "Title": "Tesco Superstore-Victoria Park",
@@ -58,19 +58,34 @@
         {
             "ID": 207616,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70206",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Cato-Hugh"
+        },
+        {
+            "ID": 320394,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84279",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Orla-Alma"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Victoria Park, Turnells Mill Lane, Wellingborough",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-12T22:11:00Z",
+    "DateLastStatusUpdate": "2022-11-01T09:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-02-27T17:06:00Z",
     "SubmissionStatusTypeID": 200

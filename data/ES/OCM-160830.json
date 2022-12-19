@@ -1,11 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-29T17:58:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-24T18:34:00Z",
     "ID": 160830,
     "UUID": "11F75935-4FEC-4C79-BA25-634B4F336780",
     "DataProviderID": 1,
-    "OperatorID": 3295,
+    "OperatorID": 3377,
     "UsageTypeID": 1,
+    "UsageCost": " 0,55€/kWh",
     "AddressInfo": {
         "ID": 161187,
         "Title": "E.S. Mides",
@@ -22,14 +23,16 @@
         {
             "ID": 231493,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
         },
         {
             "ID": 231494,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
         },
         {
             "ID": 231495,
@@ -39,8 +42,9 @@
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "App EVCharge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-29T17:58:00Z",
+    "DateLastStatusUpdate": "2022-10-24T18:34:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-06-28T17:08:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,13 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-11T12:09:00Z",
+    "DateLastVerified": "2022-10-19T05:21:00Z",
     "ID": 174066,
     "UUID": "8C97F4A0-998C-464D-A65D-E6C5474496BF",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_4520_028",
-    "UsageTypeID": 6,
-    "UsageCost": "£0.25/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 174425,
         "Title": "Lidl-Farnham",
@@ -23,37 +23,43 @@
         {
             "ID": 268700,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4520_028",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Aldo-Scot"
         },
         {
-            "ID": 268701,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 268702,
+            "ID": 323676,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4520_028",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Aldo-Scot"
+        },
+        {
+            "ID": 323677,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4520_028",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Aldo-Scot"
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "This is a Pod Point rapid charge unit installed at the Lidl super store at East Street, Farnham",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-11T12:09:00Z",
+    "DateLastStatusUpdate": "2022-10-19T05:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-13T06:21:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-09-24T13:20:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-31T21:49:00Z",
     "ID": 132218,
     "UUID": "D8627041-D1AC-4F95-9423-3F1A882ACBF1",
     "DataProviderID": 1,
     "OperatorID": 150,
     "UsageTypeID": 4,
-    "UsageCost": "£1.00+£0.30/kWh; £10.00 overstay fee after 95 mins, then £10.00 every subsequent 95 mins",
+    "UsageCost": "£0.48/kWh. Overstay fees apply",
     "AddressInfo": {
         "ID": 132564,
         "Title": "Haslemere High Street Car Park",
@@ -23,8 +23,8 @@
         {
             "ID": 185059,
             "ConnectionTypeID": 1036,
-            "Reference": "1",
-            "StatusTypeID": 50,
+            "Reference": "GP10936*1",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
@@ -35,7 +35,8 @@
         {
             "ID": 185067,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "Reference": "GP10936*2",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -44,15 +45,16 @@
         {
             "ID": 185068,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "Reference": "GP10936*3",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-09-24T13:20:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-05-31T21:49:00Z",
     "MetadataValues": [
         {
             "ID": 4945,

@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-13T13:16:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:44:00Z",
     "ID": 126159,
     "UUID": "610EC36E-F626-4B26-A368-D43DD374D8D4",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-82918",
+    "OperatorsReference": "PG-82918,PG-87155",
     "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -23,19 +23,34 @@
         {
             "ID": 176812,
             "ConnectionTypeID": 25,
+            "Reference": "PG-82918",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
+            "Voltage": 400,
             "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Beck-Rory"
+        },
+        {
+            "ID": 319863,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-87155",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Joel-Hope"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Luton Airport Parkway customer car park",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T13:16:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-05-13T13:16:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:13:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-23T10:32:00Z",
     "ID": 152724,
     "UUID": "0EB580BC-9B4D-4DC3-9A9B-ECF1BAF3995B",
     "DataProviderID": 28,
     "DataProvidersReference": "FRS1808802",
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 153077,
         "Title": "Ennordres",
@@ -13,28 +13,30 @@
         "CountryID": 80,
         "Latitude": 47.411948,
         "Longitude": 2.4350891,
-        "AccessComments": "24h/24h",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 213924,
-            "ConnectionTypeID": 26,
+            "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 18
+            "PowerKW": 18,
+            "CurrentTypeID": 10
         },
         {
             "ID": 247111,
-            "ConnectionTypeID": 26,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 18
+            "PowerKW": 18,
+            "CurrentTypeID": 20
         }
     ],
-    "GeneralComments": "Borne en service",
+    "GeneralComments": "Paiement via badge et smarthphone",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:13:00Z",
+    "DateLastStatusUpdate": "2022-08-23T10:32:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:54:00Z",
     "SubmissionStatusTypeID": 100

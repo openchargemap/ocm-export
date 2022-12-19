@@ -209,44 +209,52 @@
             "DateCreated": "2017-05-22T08:04:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-05-22T08:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-06T23:44:00Z",
     "ID": 88100,
     "UUID": "EDCECFAD-27F5-41E5-848C-B06AB8D67C2E",
     "DataProviderID": 1,
+    "OperatorID": 233,
+    "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 88446,
-        "Title": "Vector's Gillies Ave Substation",
+        "Title": "Vector Gillies Ave",
         "AddressLine1": "1 Gillies Ave",
         "Town": "Newmarket, Auckland",
         "Postcode": "1023",
         "CountryID": 161,
-        "Latitude": -36.8691726637574,
-        "Longitude": 174.774561682209,
+        "Latitude": -36.86933083851839,
+        "Longitude": 174.77482848804107,
+        "AccessComments": "This is a FREE Vector DC Fast Charging Station. Please \"Limit usage to 30 minutes ONLY at a time\".",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 124976,
-            "ConnectionTypeID": 1
-        },
-        {
             "ID": 124977,
-            "ConnectionTypeID": 2
-        },
-        {
-            "ID": 124978,
-            "ConnectionTypeID": 1036
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "This is a FREE Vector DC Fast Charging Station. Please \"Limit usage to 30 minutes ONLY at a time\"."
         },
         {
             "ID": 124986,
-            "ConnectionTypeID": 33
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "This is a FREE Vector DC Fast Charging Station. Please \"Limit usage to 30 minutes ONLY at a time\"."
         }
     ],
-    "NumberOfPoints": 4,
-    "GeneralComments": "24/7\r\nVector's Gillies Ave substation free rapid charging site. Four free parking spaces for EVs while they are charging. Two 50kW chargers, each with a CHAdeMO and a CCS type1 plug. One standard J1772 type 1 charger and one Mennekes type 2 charger\r\n",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Open 24/7 , P30",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-22T08:21:00Z",
+    "DateLastStatusUpdate": "2022-07-06T23:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-22T08:03:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,10 +1,27 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-01-22T08:48:00Z",
+    "UserComments": [
+        {
+            "ID": 26001,
+            "ChargePointID": 97229,
+            "CommentTypeID": 1000,
+            "UserName": "SuperKco ",
+            "Comment": "este punto ya no existe, this point doesn’t exist",
+            "Rating": 1,
+            "DateCreated": "2022-07-15T07:41:47Z",
+            "User": {
+                "ID": 37627,
+                "Username": "SuperKco "
+            },
+            "CheckinStatusTypeID": 50,
+            "IsActionedByEditor": false
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-26T08:59:00Z",
     "ID": 97229,
     "UUID": "CD614856-B1B1-427F-8564-25C8408CB4F1",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 45,
     "UsageTypeID": 1,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -25,9 +42,10 @@
     "Connections": [
         {
             "ID": 138076,
-            "ConnectionTypeID": 4,
+            "ConnectionTypeID": 25,
             "LevelID": 2,
             "Voltage": 230,
+            "PowerKW": 7.4,
             "CurrentTypeID": 10,
             "Quantity": 1
         },
@@ -45,7 +63,7 @@
     "NumberOfPoints": 2,
     "GeneralComments": "Can only plug in one car at a time.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-01-22T08:48:00Z",
+    "DateLastStatusUpdate": "2022-09-26T08:59:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-01-12T09:38:00Z",
     "SubmissionStatusTypeID": 200

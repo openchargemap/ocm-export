@@ -18,7 +18,7 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-05-06T22:28:00Z",
+    "DateLastVerified": "2022-05-07T23:44:00Z",
     "ID": 192929,
     "UUID": "61C80ECC-1D9D-42AB-81F1-B1B77B6FC19B",
     "DataProviderID": 1,
@@ -33,10 +33,12 @@
         "StateOrProvince": "NSW",
         "Postcode": "2103",
         "CountryID": 18,
-        "Latitude": -33.675913637572584,
-        "Longitude": 151.30391241643235,
+        "Latitude": -33.67610252225354,
+        "Longitude": 151.3038961163004,
         "ContactTelephone1": "+61255656000",
+        "ContactEmail": "support@joltcharge.com",
         "AccessComments": "In off-street carpark, enter from Park St",
+        "RelatedURL": "https://jolt.com.au",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -55,14 +57,16 @@
             "ConnectionTypeID": 33,
             "Reference": "1452",
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 25,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Max power is 25kW. In a Tesla, because it is a DC charger, the car will pull 7+ kW for battery heating initially, so charging will start very slowly."
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-05-06T22:28:00Z",
+    "DateLastStatusUpdate": "2022-05-07T23:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-05-04T23:25:00Z",
     "SubmissionStatusTypeID": 200

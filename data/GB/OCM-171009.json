@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-12-17T00:05:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T14:41:00Z",
     "ID": 171009,
     "UUID": "CCBFE4DF-BEC6-410B-AA60-6F0D1CDE2E97",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-100745",
     "UsageTypeID": 4,
-    "UsageCost": " £0.20 per kWh ",
+    "UsageCost": "£0.65/kWh",
     "AddressInfo": {
         "ID": 171368,
         "Title": "Sudbury Court Hotel",
@@ -15,9 +16,8 @@
         "StateOrProvince": "England",
         "Postcode": "SN7 7AA",
         "CountryID": 1,
-        "Latitude": 51.65865803882784,
-        "Longitude": -1.5768213872039496,
-        "AccessComments": "You'll need to add your payment details and top up before you can start charging ",
+        "Latitude": 51.6586580388278,
+        "Longitude": -1.57682138720395,
         "RelatedURL": "https://pod-point.com/",
         "DistanceUnit": 0
     },
@@ -25,17 +25,21 @@
         {
             "ID": 261282,
             "ConnectionTypeID": 25,
+            "Reference": "PG-100745",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Levi-Shay"
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "Levi-Shay",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-17T00:05:00Z",
+    "DateLastStatusUpdate": "2022-11-01T14:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-17T00:05:00Z",
     "SubmissionStatusTypeID": 200

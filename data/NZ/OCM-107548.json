@@ -1,27 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-08-01T20:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-10T05:50:00Z",
     "ID": 107548,
     "UUID": "337A2383-9824-48A5-996A-3AB22E63A69E",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 229,
     "UsageTypeID": 4,
     "UsageCost": "$0.40/kWh",
     "AddressInfo": {
         "ID": 107894,
-        "Title": "Corner McVicar Road",
-        "AddressLine1": "State Highway 5",
+        "Title": "McVicar Road (Napier-Taupo Highway)",
+        "AddressLine1": "4237 State Highway 5",
         "Town": "Te Haroto",
         "Postcode": "4182",
         "CountryID": 161,
         "Latitude": -39.174617,
         "Longitude": 176.62586,
+        "ContactTelephone1": "+64 800 286 476",
+        "AccessComments": "Open 24/7",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 151757,
             "ConnectionTypeID": 2,
+            "Reference": "HRTO-DC",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -31,6 +34,7 @@
         {
             "ID": 151758,
             "ConnectionTypeID": 25,
+            "Reference": "HRTO-AC",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -40,6 +44,7 @@
         {
             "ID": 151759,
             "ConnectionTypeID": 33,
+            "Reference": "HRTO-DC",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -47,9 +52,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Near the intersection of SH5 and McVicar Road. Has CCS Type 2, CHAdeMO, and AC Type 2 socket. You can use either a Unison PowerPark fob or Charge Net fob to activate.  World’s most remote AND most picturesque EV charging site. :)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-08-01T20:12:00Z",
+    "DateLastStatusUpdate": "2022-07-10T05:50:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-08-01T12:43:00Z",
     "SubmissionStatusTypeID": 200

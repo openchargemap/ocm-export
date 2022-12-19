@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-15T06:30:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T18:41:00Z",
     "ID": 172428,
     "UUID": "F4A6BAD7-F4D2-454D-BD4B-6F47C830E528",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70321,PG-85409",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 172787,
         "Title": "Tesco Superstore Clitheroe",
@@ -25,18 +25,33 @@
         {
             "ID": 263641,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70321",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Stan-Finn"
+        },
+        {
+            "ID": 320492,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85409",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Ruby-Earl"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-15T06:30:00Z",
+    "DateLastStatusUpdate": "2022-11-02T18:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-02-02T12:42:00Z",
     "SubmissionStatusTypeID": 200

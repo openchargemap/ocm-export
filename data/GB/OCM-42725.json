@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 26102,
+            "ChargePointID": 42725,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Unit has been replaced by Gridserve with new unit that supports contactless payment",
+            "DateCreated": "2022-08-03T08:56:45.033Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 4399,
             "ChargePointID": 42725,
             "CommentTypeID": 10,
@@ -20,15 +34,15 @@
             "CheckinStatusTypeID": 210
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-12-29T06:13:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-03T08:57:00Z",
     "ID": 42725,
     "UUID": "04B6C660-2F1A-4180-B718-2B5B4E0168A0",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1275",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.48/kWh",
     "AddressInfo": {
         "ID": 43071,
         "Title": "Liverpool John Lennon Airport, Long Stay Disabled Car Park",
@@ -38,49 +52,52 @@
         "CountryID": 1,
         "Latitude": 53.338357,
         "Longitude": -2.854199,
-        "ContactTelephone1": "+44 1453 761455",
+        "ContactTelephone1": "",
         "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 51554,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10370*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 51555,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10370*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 51556,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10370*3",
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
+            "LevelID": 2,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 43,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-29T06:13:00Z",
+    "DateLastStatusUpdate": "2022-08-03T08:57:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-03-20T06:35:00Z",
     "SubmissionStatusTypeID": 200

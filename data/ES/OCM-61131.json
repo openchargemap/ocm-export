@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:24:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-07T09:46:00Z",
     "ID": 61131,
     "UUID": "0D9A02A5-BFB5-4097-821D-5314D2BDF93E",
-    "DataProviderID": 27,
-    "DataProvidersReference": "203",
+    "DataProviderID": 1,
+    "OperatorID": 2247,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61477,
@@ -23,16 +23,24 @@
     "Connections": [
         {
             "ID": 77768,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10
         },
         {
             "ID": 77769,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 1,
     "GeneralComments": "Recarga verde Iberdrola",
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:24:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-07T09:46:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:24:00Z",
     "SubmissionStatusTypeID": 200

@@ -29,15 +29,15 @@
             "CheckinStatusTypeID": 25
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-06-28T08:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-03T06:22:00Z",
     "ID": 48495,
     "UUID": "D613352E-974C-41A3-B139-33CBE89B6DDF",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70399,PG-86835",
+    "OperatorsReference": "PG-70399,PG-86835,veefil-12000638",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 48841,
         "Title": "Tesco Superstore-Kensington",
@@ -47,23 +47,10 @@
         "CountryID": 1,
         "Latitude": 51.493178,
         "Longitude": -0.20204,
-        "AccessComments": "Tesco Kensington.",
         "RelatedURL": "http://pod-point.com/",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 59950,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-70399",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
         {
             "ID": 273170,
             "ConnectionTypeID": 25,
@@ -72,14 +59,50 @@
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Juan-Kent"
+        },
+        {
+            "ID": 323943,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000638",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Andy-Lyla"
+        },
+        {
+            "ID": 324618,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70399",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Orla-Amos"
+        },
+        {
+            "ID": 324619,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000638",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Andy-Lyla"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-28T08:38:00Z",
+    "DateLastStatusUpdate": "2022-11-03T06:22:00Z",
     "MetadataValues": [
         {
             "ID": 1502,
@@ -87,7 +110,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2015-06-27T07:22:00Z",
     "SubmissionStatusTypeID": 200
 }

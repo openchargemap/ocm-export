@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-07-15T16:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-04T10:27:00Z",
     "ID": 129213,
     "UUID": "192A7145-F042-4BBB-9B08-A2B013D816FD",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "51067",
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 129559,
         "Title": "Town of Superior",
@@ -17,6 +17,7 @@
         "Latitude": 33.293457,
         "Longitude": -111.098439,
         "ContactTelephone1": "(520) 689-5752",
+        "AccessComments": "Street Parking",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +26,16 @@
             "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 16,
+            "Amps": 40,
+            "PowerKW": 10,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "4 Tesla Connectors, up to 16kW.Available to the public. Self park.",
+    "GeneralComments": "1 Tesla Connector, up to 10kW. Available to the public. Self park.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-07-15T16:19:00Z",
+    "DateLastStatusUpdate": "2022-09-04T10:27:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-07-15T16:19:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-31T07:49:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T18:41:00Z",
     "ID": 172339,
     "UUID": "3C7B6082-D62B-4D67-B380-568F9D5A9D36",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70332,PG-85505",
+    "OperatorsReference": "PG-70332,PG-85505,veefil-12000255",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 172698,
         "Title": "Tesco Extra-Lakeside",
@@ -25,29 +25,55 @@
         {
             "ID": 263482,
             "ConnectionTypeID": 25,
+            "Reference": "PG-85505",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Ralf-Enya"
         },
         {
-            "ID": 270250,
+            "ID": 323891,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000255",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Pola-Alya"
+        },
+        {
+            "ID": 324594,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70332",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Frey-Rory"
+        },
+        {
+            "ID": 324595,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000255",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Pola-Alya"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-31T07:49:00Z",
+    "DateLastStatusUpdate": "2022-11-02T18:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-01-30T17:26:00Z",
     "SubmissionStatusTypeID": 200

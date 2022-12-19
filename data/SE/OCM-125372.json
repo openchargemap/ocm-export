@@ -1,21 +1,22 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-04-15T15:32:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T17:27:00Z",
     "ID": 125372,
     "UUID": "F33C459C-90BE-44DE-9C3D-56AB80076B0A",
     "DataProviderID": 1,
-    "OperatorID": 3299,
+    "OperatorID": 3343,
     "UsageTypeID": 5,
     "UsageCost": "80 SEK pr charge",
     "AddressInfo": {
         "ID": 125718,
-        "Title": "Circle K",
-        "AddressLine1": "Bastekärrsvegen 2",
+        "Title": "Torskholmen 1 - InCharge",
+        "AddressLine1": "Torskholmen 1",
+        "AddressLine2": "Kristorp",
         "Town": "Strömstad",
-        "Postcode": "452 94",
+        "Postcode": "452 33",
         "CountryID": 216,
-        "Latitude": 58.914616222831,
-        "Longitude": 11.2596247726133,
+        "Latitude": 58.94289594161799,
+        "Longitude": 11.197217070987563,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,14 +25,22 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 2
+        },
+        {
+            "ID": 348206,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-04-15T15:32:00Z",
+    "StatusTypeID": 210,
+    "DateLastStatusUpdate": "2022-10-25T17:27:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-04-15T14:00:00Z",
     "SubmissionStatusTypeID": 200

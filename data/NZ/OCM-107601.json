@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-08-02T21:58:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-19T22:30:00Z",
     "ID": 107601,
     "UUID": "5EB814E4-B308-46A1-A15D-EAD67D925778",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.25/kWh + $0.25/min",
+    "UsageCost": "$0.60 / kWh (minimum $0.35 / minute)",
     "AddressInfo": {
         "ID": 107947,
         "Title": "Twizel Events Centre",
@@ -14,8 +14,10 @@
         "Town": "Twizel",
         "Postcode": "7901",
         "CountryID": 161,
-        "Latitude": -44.256678,
-        "Longitude": 170.100182,
+        "Latitude": -44.256710980132276,
+        "Longitude": 170.1005192624457,
+        "ContactTelephone1": "+64 800 224 274",
+        "AccessComments": "Open 24/7 - 2 cars can charge at once",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -33,14 +35,14 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-08-02T21:58:00Z",
+    "DateLastStatusUpdate": "2022-09-19T22:30:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-08-02T21:53:00Z",
     "SubmissionStatusTypeID": 200

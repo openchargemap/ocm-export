@@ -1,10 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-24T05:12:00Z",
+    "MediaItems": [
+        {
+            "ID": 33180,
+            "ChargePointID": 157265,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NO/OCM157265/OCM-157265.orig.2022082509552815.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NO/OCM157265/OCM-157265.thmb.2022082509552815.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39826,
+                "Username": "Darulin007"
+            },
+            "DateCreated": "2022-08-25T09:56:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-25T09:56:00Z",
     "ID": 157265,
     "UUID": "2B43CE79-B1BD-4E95-9BDD-D6D99A3D96A2",
-    "DataProviderID": 19,
-    "DataProvidersReference": "6401",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 6,
+    "UsageCost": "6kr/kWh",
     "AddressInfo": {
         "ID": 157619,
         "Title": "Sulland Mo AS",
@@ -13,9 +33,10 @@
         "StateOrProvince": "Nordland",
         "Postcode": "8624",
         "CountryID": 168,
-        "Latitude": 66.30417,
-        "Longitude": 14.12859,
-        "AccessComments": "VW, Audi og Skoda bil butikk/servicepunkt",
+        "Latitude": 66.30444319775847,
+        "Longitude": 14.130116996081597,
+        "AccessComments": "CloudCharge App can be used for payment.      VW, Audi og Skoda bil butikk/servicepunkt",
+        "RelatedURL": "https://www.defa.com/ev-charging/cloudcharge/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -48,21 +69,11 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 30
-        },
-        {
-            "ID": 226331,
-            "ConnectionTypeID": 25,
-            "Reference": "4",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
         }
     ],
-    "NumberOfPoints": 4,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-03-24T05:12:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-25T09:56:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-05-26T08:25:00Z",
     "SubmissionStatusTypeID": 100

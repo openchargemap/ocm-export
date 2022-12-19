@@ -46,8 +46,8 @@
             "DateCreated": "2016-01-08T10:52:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-13T13:01:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:00:00Z",
     "ID": 31385,
     "UUID": "C00296B1-436A-48ED-A315-976D429E3EA4",
     "DataProviderID": 1,
@@ -66,26 +66,51 @@
         "CountryID": 1,
         "Latitude": 51.5227487149889,
         "Longitude": -0.678304009096562,
-        "AccessComments": "At left hand end of buildings, near Costa/wine merchants",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 34887,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80129",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 6
+            "Quantity": 2,
+            "Comments": "Emma-Dave"
+        },
+        {
+            "ID": 324054,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80130",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Luke-Jeff"
+        },
+        {
+            "ID": 324811,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80122",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Luke-June"
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 4,
     "GeneralComments": "3 Pod-Point T7-S charge points. Open charge. No RFID needed.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T13:01:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:00:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-01-06T22:39:00Z",
     "SubmissionStatusTypeID": 200

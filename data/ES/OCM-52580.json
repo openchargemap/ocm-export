@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2015-09-04T20:43:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-10T09:28:00Z",
     "ID": 52580,
     "UUID": "2A3F2617-A564-47E0-BBF8-C5197A7B5EDF",
     "DataProviderID": 1,
@@ -8,37 +8,48 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 52926,
-        "Title": "GIC - Paseo de la Castellana 259",
-        "AddressLine1": "Paseo de la Castellana, 259",
+        "Title": "GIC - Paseo de la Castellana ",
+        "AddressLine1": "Túnel de Pío XII",
         "Town": "Madrid",
-        "StateOrProvince": "Madrid",
-        "Postcode": "28046",
+        "StateOrProvince": "Community of Madrid",
+        "Postcode": "28029",
         "CountryID": 210,
-        "Latitude": 40.4759108,
-        "Longitude": -3.68801429999996,
-        "ContactTelephone1": "902 103 498",
-        "ContactEmail": "info@recargagic.com",
-        "AccessComments": "solicitar tarjeta",
-        "RelatedURL": "http://www.recargagic.com/",
+        "Latitude": 40.47444717916332,
+        "Longitude": -3.6879531338560128,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 65303,
-            "ConnectionTypeID": 28,
+            "ID": 65304,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 65304,
+            "ID": 345191,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 345192,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2015-09-04T20:43:00Z",
+    "DateLastStatusUpdate": "2022-10-10T09:28:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-09-03T12:37:00Z",
     "SubmissionStatusTypeID": 200

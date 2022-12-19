@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-12-05T11:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:05:00Z",
     "ID": 170668,
     "UUID": "9CE8F444-8D9D-4623-938F-34E78A8DFB3A",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-91435,PG-91437,PG-91441,PG-91442",
-    "UsageTypeID": 6,
+    "UsageTypeID": 4,
     "UsageCost": "£0.15/kWh",
     "AddressInfo": {
         "ID": 171027,
@@ -18,26 +18,66 @@
         "CountryID": 1,
         "Latitude": 51.523654,
         "Longitude": -0.127568,
-        "AccessComments": "Hotel guests only",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 260628,
             "ConnectionTypeID": 25,
+            "Reference": "PG-91437",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 1,
+            "Comments": "Toby-Gino"
+        },
+        {
+            "ID": 324499,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-91435",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Josh-Judy"
+        },
+        {
+            "ID": 324500,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-91441",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Gill-Pete"
+        },
+        {
+            "ID": 324501,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-91442",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Rick-Bill"
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 6,
     "GeneralComments": "This is an open charge unit installed at the Imperial Hotels - Royal National Hotel in Bedford Way, Bloomsbury, London",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-05T11:19:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:05:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-05T06:15:00Z",
     "SubmissionStatusTypeID": 200

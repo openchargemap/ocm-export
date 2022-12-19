@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-22T19:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-25T05:22:00Z",
     "ID": 94811,
     "UUID": "BE280641-8EB1-44B1-857F-9E78B609D92A",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_it1_0417_014",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 95157,
         "Title": "Lidl-Bedlington",
@@ -24,40 +24,42 @@
         {
             "ID": 134016,
             "ConnectionTypeID": 2,
+            "Reference": "t53_it1_0417_014",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Phil-Jack"
         },
         {
-            "ID": 134017,
-            "ConnectionTypeID": 1036,
+            "ID": 323520,
+            "ConnectionTypeID": 33,
+            "Reference": "t53_it1_0417_014",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Phil-Jack"
+        },
+        {
+            "ID": 323521,
+            "ConnectionTypeID": 1036,
+            "Reference": "t53_it1_0417_014",
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 134018,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Phil-Jack"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-22T19:38:00Z",
+    "DateLastStatusUpdate": "2022-09-25T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-10-27T12:15:00Z",
     "SubmissionStatusTypeID": 200

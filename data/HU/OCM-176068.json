@@ -1,38 +1,82 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-08-10T05:17:00Z",
+    "MediaItems": [
+        {
+            "ID": 33082,
+            "ChargePointID": 176068,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM176068/OCM-176068.orig.2022082411070268.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM176068/OCM-176068.thmb.2022082411070268.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39961,
+                "Username": "adamhermann"
+            },
+            "DateCreated": "2022-08-24T11:07:00Z"
+        },
+        {
+            "ID": 33083,
+            "ChargePointID": 176068,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM176068/OCM-176068.orig.2022082411071782.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM176068/OCM-176068.thmb.2022082411071782.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39961,
+                "Username": "adamhermann"
+            },
+            "DateCreated": "2022-08-24T11:07:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-24T11:07:00Z",
     "ID": 176068,
     "UUID": "659969E4-D707-45CE-8765-594F634279F2",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 4,
+    "OperatorID": 3462,
+    "UsageTypeID": 1,
+    "UsageCost": "0,- Ft/kWh",
     "AddressInfo": {
         "ID": 176427,
         "Title": "TEA. Galyatető",
         "AddressLine1": "Kodály Zoltán sétány",
+        "AddressLine2": "Turistacentrum",
         "Town": "Mátraszentimre",
+        "StateOrProvince": "Heves megye",
+        "Postcode": "3234",
         "CountryID": 104,
-        "Latitude": 47.916748206453974,
-        "Longitude": 19.92401062428462,
+        "Latitude": 47.916747,
+        "Longitude": 19.924799,
         "ContactTelephone1": "+36305509858",
-        "RelatedURL": "http://www.teapont.hu",
+        "ContactTelephone2": "+36 30 550 9858",
+        "AccessComments": "Start charging with Teapont application or QR code  HELPDESK: help@teapont.hu +36305509858  WEB: https://www.teapont.hu/",
+        "RelatedURL": "https://www.teapont.hu/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 273533,
             "ConnectionTypeID": 25,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "TEApont alkalmazásból vagy a készüléken található QR kóddal, illetve RFID kártyával indítható a töltés. Töltsd le a TEApont applikációt a Google Play-ből vagy az AppStore-ból!",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-08-10T05:17:00Z",
+    "DateLastStatusUpdate": "2022-08-24T11:07:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-24T08:46:00Z",
     "SubmissionStatusTypeID": 200

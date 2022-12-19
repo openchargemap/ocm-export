@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-19T06:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:15:00Z",
     "ID": 173936,
     "UUID": "701CC572-6564-4F5D-A67F-E8D5D39E570E",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_4520_017",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 174295,
         "Title": "Lidl-Nursling",
@@ -24,37 +24,43 @@
         {
             "ID": 267752,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4520_017",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Fawn-Noah"
         },
         {
-            "ID": 267753,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 267754,
+            "ID": 323663,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4520_017",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Fawn-Noah"
+        },
+        {
+            "ID": 323664,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4520_017",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Fawn-Noah"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "GeneralComments": "This is a Pod Point rapid charge unit installed at the Lidl super store at Bargin Farm, Frogmore Lane, Nursling",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-19T06:19:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:15:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-07T20:58:00Z",
     "SubmissionStatusTypeID": 200

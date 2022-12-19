@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-05-13T10:56:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-06T10:54:00Z",
     "ID": 87574,
     "UUID": "9B096B00-9CCA-4684-B760-F94399817375",
     "DataProviderID": 1,
@@ -9,20 +9,22 @@
     "UsageCost": "$0.25/kWh + $0.25/min",
     "AddressInfo": {
         "ID": 87920,
-        "Title": "Tairua, Opposite Ambulance Station",
-        "AddressLine1": "Manaia Road",
+        "Title": "Tairua (Opposite Ambulance Station)",
+        "AddressLine1": "6 Tokoroa Rd",
         "AddressLine2": "Paku",
         "Town": "Thames Coromandel District",
         "StateOrProvince": "Thames Coromandel District",
         "CountryID": 161,
         "Latitude": -37.000794,
         "Longitude": 175.850207,
+        "AccessComments": "Open 24/7 , Opposite the ambulance station.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 124142,
             "ConnectionTypeID": 2,
+            "Reference": "TRUA1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -32,6 +34,7 @@
         {
             "ID": 124143,
             "ConnectionTypeID": 33,
+            "Reference": "TRUA1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -40,8 +43,9 @@
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-13T10:56:00Z",
+    "DateLastStatusUpdate": "2022-07-06T10:54:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-13T10:56:00Z",
     "SubmissionStatusTypeID": 200

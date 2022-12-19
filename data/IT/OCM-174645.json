@@ -34,16 +34,16 @@
             "DateCreated": "2021-04-10T05:32:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-10T05:32:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-08T17:20:00Z",
     "ID": 174645,
     "UUID": "AD6444CF-34E7-42C1-BC8D-7717BE5B67F4",
     "DataProviderID": 1,
     "OperatorID": 80,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 175004,
-        "Title": "Enel X ",
+        "Title": "Enel X Fast Via Padana Superiore",
         "AddressLine1": "Via Padana Superiore",
         "Town": "Ospitaletto",
         "StateOrProvince": "BS",
@@ -57,25 +57,36 @@
         {
             "ID": 270600,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 270601,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 270602,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 64,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-04-10T05:32:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-05-08T17:20:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-10T05:31:00Z",
     "SubmissionStatusTypeID": 200

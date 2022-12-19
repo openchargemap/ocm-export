@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-18T13:09:00Z",
+    "DateLastVerified": "2022-11-03T06:22:00Z",
     "ID": 174405,
     "UUID": "68903DEF-8E17-4DC3-A5F1-A52083CD91FF",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-70370,PG-86412,veefil-12000599",
     "UsageTypeID": 4,
-    "UsageCost": "7kW AC: Free; DC: £0.25/kWh",
+    "UsageCost": "£0.28/kWh,Free,£0.50/kWh",
     "AddressInfo": {
         "ID": 174764,
         "Title": "Tesco Superstore Cheetham Hill",
@@ -16,58 +17,65 @@
         "StateOrProvince": "England",
         "Postcode": "M8 5DP",
         "CountryID": 1,
-        "Latitude": 53.51385471636402,
-        "Longitude": -2.2440708180051843,
-        "AccessComments": "Store: Mon-Sat 6am-Midnight, Sun 11am-5pm *FOLLOW PARKING TERMS - ANPR £70 FINE*",
+        "Latitude": 53.513854716364,
+        "Longitude": -2.24407081800518,
         "RelatedURL": "http://www.podpoint.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 270151,
-            "ConnectionTypeID": 1036,
+            "ID": 323923,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86412",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Kent-Stan"
         },
         {
-            "ID": 270152,
+            "ID": 323924,
             "ConnectionTypeID": 33,
+            "Reference": "veefil-12000599",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Juhi-Eira"
         },
         {
-            "ID": 270153,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 270275,
+            "ID": 323925,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70370",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Lars-Alma"
+        },
+        {
+            "ID": 324607,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000599",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Juhi-Eira"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "GeneralComments": "Pod Point. Twin Type 2: 7kW Lars-Alma & 22kW Kent-Stan. 50kW CHAdeMO & CCS",
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2022-04-18T13:09:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-11-03T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-28T11:51:00Z",
     "SubmissionStatusTypeID": 200

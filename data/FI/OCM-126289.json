@@ -1,12 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-15T09:04:00Z",
+    "MediaItems": [
+        {
+            "ID": 32850,
+            "ChargePointID": 126289,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FI/OCM126289/OCM-126289.orig.2022081106573464.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FI/OCM126289/OCM-126289.thmb.2022081106573464.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 38664,
+                "Username": "IVA79"
+            },
+            "DateCreated": "2022-08-11T06:58:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-11T10:33:00Z",
     "ID": 126289,
     "UUID": "C474C974-96C9-4ACF-846B-4FD01DDCFF0C",
     "DataProviderID": 1,
     "OperatorID": 136,
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "0.35€/kWh + 0.20€/min after 60min",
     "AddressInfo": {
         "ID": 126635,
         "Title": "Hesburger Parkano",
@@ -21,28 +39,20 @@
     },
     "Connections": [
         {
-            "ID": 176991,
-            "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
-        },
-        {
-            "ID": 176992,
+            "ID": 316926,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
-        },
-        {
-            "ID": 176993,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "Quantity": 1
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "chge.eu/137735, chge.eu/137736, chge.eu/137747, chge.eu/137748"
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Charging is free but Virta registration is required (30€ initial credit purchase).",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-15T09:04:00Z",
+    "DateLastStatusUpdate": "2022-08-11T10:33:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-05-14T15:14:00Z",
     "SubmissionStatusTypeID": 200

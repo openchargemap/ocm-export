@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-25T15:55:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:15:00Z",
     "ID": 173862,
     "UUID": "1DFB364D-5638-4B64-B11E-004057F25028",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_4520_023",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 174221,
         "Title": "Lidl-Crowborough",
@@ -23,37 +23,43 @@
         {
             "ID": 267420,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4520_023",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Luca-Vera"
         },
         {
-            "ID": 270002,
+            "ID": 323670,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4520_023",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Luca-Vera"
         },
         {
-            "ID": 270052,
+            "ID": 323671,
             "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4520_023",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Luca-Vera"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 3,
     "GeneralComments": "This is a Pod Point rapid charge unit installed at the Lidl super store at Beacon Road, Crowborough",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-25T15:55:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:15:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-04T06:18:00Z",
     "SubmissionStatusTypeID": 200

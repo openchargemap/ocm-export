@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:15:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-23T10:36:00Z",
     "ID": 166662,
     "UUID": "F0E8FCA3-58F8-4C0C-B062-22CA2A7D982F",
     "DataProviderID": 28,
@@ -11,14 +11,29 @@
         "Title": "La Chaussée-d'Ivry | Place de l'Eglise",
         "AddressLine1": "Place de l'Eglise 28260 La Chaussée-d'Ivry",
         "CountryID": 80,
-        "Latitude": 48.88283,
+        "Latitude": 48.882833,
         "Longitude": 1.478731,
-        "AccessComments": "24/24 7/7",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 250523,
+            "ConnectionTypeID": 26,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22
+        },
+        {
+            "ID": 250524,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 10
+        },
+        {
+            "ID": 250525,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -26,14 +41,22 @@
             "CurrentTypeID": 20
         },
         {
-            "ID": 250524,
+            "ID": 332129,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 332130,
             "ConnectionTypeID": 26,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22
         },
         {
-            "ID": 250525,
+            "ID": 332131,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -43,7 +66,7 @@
     ],
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:15:00Z",
+    "DateLastStatusUpdate": "2022-08-23T10:36:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:15:00Z",
     "SubmissionStatusTypeID": 100

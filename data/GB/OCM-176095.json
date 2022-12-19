@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-06-29T14:03:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:04:00Z",
     "ID": 176095,
     "UUID": "86B41365-F7D8-4D40-B0BE-263A6ED77138",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "t54_hu1_4520_016",
+    "OperatorsReference": "PG-86438,PG-86453,t54_hu1_4520_016",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh,Free",
     "AddressInfo": {
         "ID": 176454,
         "Title": "Lidl-Richmond Road",
@@ -24,39 +24,66 @@
         {
             "ID": 273586,
             "ConnectionTypeID": 25,
-            "Reference": "t54_hu1_4520_016",
+            "Reference": "PG-86438",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 7,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Yoko-Juan"
         },
         {
-            "ID": 273587,
+            "ID": 324386,
             "ConnectionTypeID": 33,
             "Reference": "t54_hu1_4520_016",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Amos-Glen"
         },
         {
-            "ID": 273588,
+            "ID": 324387,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86453",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Bess-Teri"
+        },
+        {
+            "ID": 324388,
             "ConnectionTypeID": 2,
             "Reference": "t54_hu1_4520_016",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Amos-Glen"
+        },
+        {
+            "ID": 324964,
+            "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4520_016",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Amos-Glen"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-29T14:03:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:04:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-25T07:20:00Z",
     "SubmissionStatusTypeID": 200

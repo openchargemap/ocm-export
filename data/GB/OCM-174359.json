@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-25T15:53:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-26T05:22:00Z",
     "ID": 174359,
     "UUID": "BAD709C1-EF91-41A1-99C8-7E91B683D2EA",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_3919_037,t54_it1_2719_095",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 174718,
         "Title": "Lidl-Beckton",
@@ -23,37 +23,78 @@
         {
             "ID": 269987,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_3919_037",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Skye-Dina"
         },
         {
-            "ID": 269988,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 270044,
+            "ID": 323609,
             "ConnectionTypeID": 2,
+            "Reference": "t54_it1_2719_095",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Gabe-Rose"
+        },
+        {
+            "ID": 323610,
+            "ConnectionTypeID": 25,
+            "Reference": "t54_it1_2719_095",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Gabe-Rose"
+        },
+        {
+            "ID": 323611,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_3919_037",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Skye-Dina"
+        },
+        {
+            "ID": 325115,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_it1_2719_095",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Gabe-Rose"
+        },
+        {
+            "ID": 325116,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_3919_037",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Skye-Dina"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is a Pod Point rapid unit installed at the Lidl super store at Claps Gate Lane, Beckton",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-25T15:53:00Z",
+    "DateLastStatusUpdate": "2022-09-26T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-25T06:19:00Z",
     "SubmissionStatusTypeID": 200

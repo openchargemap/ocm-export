@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-17T05:17:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-03T06:22:00Z",
     "ID": 169407,
     "UUID": "131BF974-2F72-46C0-8E07-A2F721F58309",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70260,PG-85048",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 169766,
         "Title": "Tesco Superstore-Driffield",
@@ -23,19 +23,34 @@
         {
             "ID": 257750,
             "ConnectionTypeID": 25,
+            "Reference": "PG-85048",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Shia-Hans"
+        },
+        {
+            "ID": 320447,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70260",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Owen-Levi"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at George Street, Driffield",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-17T05:17:00Z",
+    "DateLastStatusUpdate": "2022-11-03T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-16T05:16:00Z",
     "SubmissionStatusTypeID": 200

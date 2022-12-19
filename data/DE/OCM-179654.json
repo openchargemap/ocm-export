@@ -1,11 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-09T03:16:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-22T21:26:00Z",
     "ID": 179654,
     "UUID": "1AAC6C56-D622-4E4A-A64E-9C0AC645F5BB",
-    "DataProviderID": 29,
-    "DataProvidersReference": "10354",
+    "DataProviderID": 1,
     "OperatorID": 45,
+    "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 180013,
         "Title": "Zollhausstraße 22",
@@ -13,22 +14,42 @@
         "Town": "Nürnberg",
         "Postcode": "90469",
         "CountryID": 87,
-        "Latitude": 49.400678,
-        "Longitude": 11.1167731,
+        "Latitude": 49.400943170202396,
+        "Longitude": 11.117059011278343,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 281748,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 314189,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 314190,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 2,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-09T03:16:00Z",
+    "DateLastStatusUpdate": "2022-05-22T21:26:00Z",
     "MetadataValues": [
         {
             "ID": 11948,

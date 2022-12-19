@@ -14,15 +14,15 @@
             "CheckinStatusTypeID": 0
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-21T06:17:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:41:00Z",
     "ID": 51383,
     "UUID": "B3440B36-A5DF-4939-9456-CAB25E412AB0",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-80587,PG-80589",
     "UsageTypeID": 4,
-    "UsageCost": "£0.31/kWh. Parking conditions apply. (Bus Ticket purchase expected)",
+    "UsageCost": "£0.45/kWh. Parking conditions apply. (Bus Ticket purchase expected)",
     "AddressInfo": {
         "ID": 51729,
         "Title": "Odd Down Park and Ride",
@@ -38,19 +38,34 @@
         {
             "ID": 63630,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80589",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Nick-Toby"
+        },
+        {
+            "ID": 320874,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80587",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Tony-Alex"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-21T06:17:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-07-24T13:16:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

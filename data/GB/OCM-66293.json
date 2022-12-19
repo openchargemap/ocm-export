@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 26034,
+            "ChargePointID": 66293,
+            "CommentTypeID": 50,
+            "UserName": "Doug Goulding ",
+            "Comment": "No longer free to use, £0.35 per k/watt",
+            "Rating": 1,
+            "DateCreated": "2022-07-20T18:30:36.083Z",
+            "User": {
+                "ID": 26128,
+                "Username": "Doug Goulding "
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 24252,
             "ChargePointID": 66293,
             "CommentTypeID": 10,
@@ -101,15 +116,15 @@
             "DateCreated": "2016-05-20T11:31:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-27T19:14:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-24T19:38:00Z",
     "ID": 66293,
     "UUID": "A77F2BA4-9E33-48CB-906A-48DEDDB20BD8",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-81197,PG-84938,PG-84939,PG-84941..PG-84944,PG-84948",
+    "OperatorsReference": "PG-81197,PG-84938,PG-84939,PG-84941,PG-84942,PG-84943,PG-84944,PG-84948",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.35/kWh",
     "AddressInfo": {
         "ID": 66639,
         "Title": "Orbital Shopping Park",
@@ -120,13 +135,77 @@
         "CountryID": 1,
         "Latitude": 51.5984622749578,
         "Longitude": -1.8095061456188,
-        "AccessComments": "Units are scattered throughout the retail park car park. Max stay in car park 5 hours",
         "RelatedURL": "https://www.orbitalshoppingpark.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 91652,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-81197",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Tara-Gino"
+        },
+        {
+            "ID": 320963,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84939",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Lily-Dion"
+        },
+        {
+            "ID": 320964,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84941",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Bing-Scot"
+        },
+        {
+            "ID": 320965,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84938",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Sven-Bess"
+        },
+        {
+            "ID": 320966,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84948",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Cain-Bret"
+        },
+        {
+            "ID": 320967,
             "ConnectionTypeID": 25,
             "Reference": "PG-84943",
             "StatusTypeID": 50,
@@ -136,58 +215,10 @@
             "PowerKW": 3,
             "CurrentTypeID": 10,
             "Quantity": 2,
-            "Comments": "Labelled as 7kW but restricted to 3.6kW."
+            "Comments": "Liam-Dane"
         },
         {
-            "ID": 271441,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-84948",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 271442,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-84938",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 271443,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-84939",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 271444,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-84941",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 271445,
+            "ID": 320968,
             "ConnectionTypeID": 25,
             "Reference": "PG-84944",
             "StatusTypeID": 50,
@@ -196,10 +227,11 @@
             "Voltage": 230,
             "PowerKW": 3,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Fawn-Seth"
         },
         {
-            "ID": 271446,
+            "ID": 324153,
             "ConnectionTypeID": 25,
             "Reference": "PG-84942",
             "StatusTypeID": 50,
@@ -208,24 +240,13 @@
             "Voltage": 230,
             "PowerKW": 3,
             "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 271447,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-81197",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Rudy-Enya"
         }
     ],
-    "NumberOfPoints": 16,
+    "NumberOfPoints": 30,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-27T19:14:00Z",
+    "DateLastStatusUpdate": "2022-08-24T19:38:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-05-17T10:38:00Z",
     "SubmissionStatusTypeID": 200

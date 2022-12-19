@@ -1,14 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-05T13:13:00Z",
     "ID": 60991,
     "UUID": "01110571-53F4-4C6A-8F93-7170623FB41C",
-    "DataProviderID": 27,
-    "DataProvidersReference": "192",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61337,
-        "Title": "Parkin Calle Trebol",
+        "Title": "Parking Calle Trebol",
         "AddressLine1": "Calle Rabo de Buey",
         "Town": "Badajoz",
         "StateOrProvince": "Badajoz",
@@ -16,21 +16,31 @@
         "CountryID": 210,
         "Latitude": 38.927652,
         "Longitude": -6.336633,
-        "ContactTelephone1": "ND",
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 77425,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 77426,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Senergygps",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-05T13:13:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

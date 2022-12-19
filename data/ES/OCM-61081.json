@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-10T14:47:00Z",
     "ID": 61081,
     "UUID": "ED83813E-C4F7-4669-903B-58AFD2D18054",
-    "DataProviderID": 27,
-    "DataProvidersReference": "268",
+    "DataProviderID": 1,
+    "OperatorID": 45,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61427,
@@ -24,15 +24,24 @@
     "Connections": [
         {
             "ID": 77641,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 1,
+            "PowerKW": 2.3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 77642,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "GeneralComments": "Pedir tarjeta en el ayuntamiento",
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2022-09-10T14:47:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

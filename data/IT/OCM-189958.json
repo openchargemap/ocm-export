@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 25991,
+            "ChargePointID": 189958,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Nessun problema sulla CCS con Corsa-e, infilando prima il cavo nell'auto e poi passando card Be Charge, ed ho interrotto avvicinandomi all'auto e premendo il pulsante sulla presa auto. Leggi la recensione https://www.forumelettrico.it/forum/post316307.html#p316307",
+            "RelatedURL": "https://www.forumelettrico.it/forum/post316307.html#p316307",
+            "DateCreated": "2022-07-12T09:54:33.193Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 25028,
             "ChargePointID": 189958,
             "CommentTypeID": 10,
@@ -17,6 +32,22 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 32415,
+            "ChargePointID": 189958,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM189958/OCM-189958.orig.2022071209544240.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM189958/OCM-189958.thmb.2022071209544240.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-07-12T09:55:00Z"
+        },
         {
             "ID": 29770,
             "ChargePointID": 189958,
@@ -83,12 +114,12 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-11-11T10:21:00Z",
+    "DateLastVerified": "2022-08-14T12:00:00Z",
     "ID": 189958,
     "UUID": "D2E1C53A-3261-4DDB-AE2A-E82968EBA092",
     "DataProviderID": 1,
     "OperatorID": 80,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 190317,
         "Title": "Enel X Conad",
@@ -105,25 +136,34 @@
         {
             "ID": 307671,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 307672,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 307673,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-11T10:21:00Z",
+    "DateLastStatusUpdate": "2022-08-14T12:00:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-11-11T10:20:00Z",
     "SubmissionStatusTypeID": 200

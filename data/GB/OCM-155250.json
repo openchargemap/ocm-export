@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-08T05:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-28T05:22:00Z",
     "ID": 155250,
     "UUID": "AEC27BD1-F424-4636-90E8-D79D598F155B",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-84695,PG-84757",
     "UsageTypeID": 4,
-    "UsageCost": "£0.27/kWh",
+    "UsageCost": "£0.55/kWh",
     "AddressInfo": {
         "ID": 155604,
         "Title": "Studley Hotel & Orchid Restaurant",
@@ -23,19 +23,34 @@
         {
             "ID": 218547,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84757",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Enid-Frey"
+        },
+        {
+            "ID": 321327,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84695",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Rudy-Seth"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Studley Hotel at Swan Road, Harrogate, North Yorkshire",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-05-08T05:23:00Z",
+    "DateLastStatusUpdate": "2022-09-28T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-04-03T05:28:00Z",
     "SubmissionStatusTypeID": 200

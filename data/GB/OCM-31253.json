@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-10-10T05:37:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-24T18:30:00Z",
     "ID": 31253,
     "UUID": "38EC79AD-D951-47C8-94C9-12EC96115487",
     "DataProviderID": 1,
@@ -17,37 +17,41 @@
         "CountryID": 1,
         "Latitude": 51.8708075034242,
         "Longitude": -2.24710753064744,
-        "ContactTelephone1": "01452 316885",
-        "AccessComments": "Turn left after entering the garage car park",
         "RelatedURL": "http://www.wessexgarages.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 34578,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 34688,
+            "ID": 323864,
             "ConnectionTypeID": 25,
+            "Reference": "PG-83775",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Cruz-Tori"
+        },
+        {
+            "ID": 324801,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70063",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Neve-Hope"
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 5,
     "GeneralComments": "For Nissan customers",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-10-10T05:37:00Z",
+    "DateLastStatusUpdate": "2022-08-24T18:30:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-12-21T12:41:00Z",
     "SubmissionStatusTypeID": 200

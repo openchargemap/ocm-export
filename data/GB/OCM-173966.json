@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-08T19:29:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T06:22:00Z",
     "ID": 173966,
     "UUID": "E2D24AAE-CECE-4051-801F-337F29207C84",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70342,PG-85728",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 174325,
         "Title": "Tesco Superstore-Bradford Buttershaw",
@@ -23,19 +23,34 @@
         {
             "ID": 268043,
             "ConnectionTypeID": 25,
+            "Reference": "PG-85728",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Bryn-Rudy"
+        },
+        {
+            "ID": 320515,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70342",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Emry-Neve"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Halifax Road, Bradford",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-08T19:29:00Z",
+    "DateLastStatusUpdate": "2022-11-02T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-08T14:40:00Z",
     "SubmissionStatusTypeID": 200

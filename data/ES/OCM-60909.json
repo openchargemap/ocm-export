@@ -1,22 +1,22 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-23T11:31:00Z",
     "ID": 60909,
     "UUID": "F33E269E-801C-4EB9-AC33-48BC77C18CA4",
-    "DataProviderID": 27,
-    "DataProvidersReference": "166",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 61255,
         "Title": "Residencial Anaga",
-        "AddressLine1": "Calle de Carlos J.R. Hamilton, 1",
-        "Town": "Santa Cruz de Tenerife",
-        "StateOrProvince": "Santa Cruz de Tenerife",
+        "AddressLine1": "Calle Fernando H. Guzmán",
+        "AddressLine2": "Distrito Centro-Ifara",
         "Postcode": "38001",
         "CountryID": 210,
-        "Latitude": 28.476883,
-        "Longitude": -16.247284,
-        "ContactTelephone1": "+34 922479900",
+        "Latitude": 28.479407448146674,
+        "Longitude": -16.24644061478307,
+        "ContactTelephone1": "922 217 922",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,20 +26,22 @@
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.68
+            "PowerKW": 3.68,
+            "CurrentTypeID": 10
         },
         {
             "ID": 77269,
             "ConnectionTypeID": 25,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 400,
-            "PowerKW": 11
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Pedir tarjeta en oficinas Endesa",
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "NumberOfPoints": 1,
+    "GeneralComments": "Ayunt. Santa Cruz de Tenerife - IMESAPI",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-23T11:31:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

@@ -30,13 +30,13 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-02T09:17:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-05T16:44:00Z",
     "ID": 83479,
     "UUID": "0E8AD66C-2B04-4A50-8191-607ABD6574A9",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-80796..PG-80798",
+    "OperatorsReference": "PG-80796,PG-80797,PG-80798",
     "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -49,7 +49,6 @@
         "CountryID": 1,
         "Latitude": 51.50782,
         "Longitude": -2.553816,
-        "AccessComments": "Take main entrance to Sainsbury's car park by turning right at mini-roundabout opposite petrol station.  Continue to far end then turn right towards corner of main building.",
         "RelatedURL": "https://pod-point.com/find-electric-car-charging-stations",
         "DistanceUnit": 0
     },
@@ -57,19 +56,47 @@
         {
             "ID": 118294,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80797",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 6
+            "Quantity": 2,
+            "Comments": "Doug-Ruth"
+        },
+        {
+            "ID": 322763,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80798",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Ivan-Jeff"
+        },
+        {
+            "ID": 324110,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80796",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Kate-Erik"
         }
     ],
     "NumberOfPoints": 6,
     "GeneralComments": "Three Pod Point 22kW posts outside the Sainsbury's store",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-02T09:17:00Z",
+    "DateLastStatusUpdate": "2022-09-05T16:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-02-08T10:24:00Z",
     "SubmissionStatusTypeID": 200

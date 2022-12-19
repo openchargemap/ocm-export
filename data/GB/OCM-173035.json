@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-02T21:03:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T06:22:00Z",
     "ID": 173035,
     "UUID": "E8A57ABA-13F0-497A-A15E-29468FC342DA",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70329,PG-86228",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 173394,
         "Title": "Tesco Superstore-Braunton",
@@ -23,19 +23,34 @@
         {
             "ID": 264758,
             "ConnectionTypeID": 25,
+            "Reference": "PG-86228",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Cora-Edna"
+        },
+        {
+            "ID": 320500,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70329",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Bert-Ross"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Vellator Way, Braunton",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-02T21:03:00Z",
+    "DateLastStatusUpdate": "2022-11-02T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-02T06:17:00Z",
     "SubmissionStatusTypeID": 200

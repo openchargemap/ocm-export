@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-11T06:31:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T14:42:00Z",
     "ID": 174016,
     "UUID": "ECED3A00-B3BE-4058-98E5-93137C4C1893",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70265,PG-84557",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 174375,
         "Title": "Tesco Superstore-Burnside",
@@ -24,19 +24,34 @@
         {
             "ID": 268352,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70265",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Cole-Cato"
+        },
+        {
+            "ID": 320451,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84557",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Herb-Jude"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Stonelaw Road, Burnside, Glasgow",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-11T06:31:00Z",
+    "DateLastStatusUpdate": "2022-11-01T14:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-10T17:20:00Z",
     "SubmissionStatusTypeID": 200

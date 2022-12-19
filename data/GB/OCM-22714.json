@@ -29,13 +29,13 @@
             "CheckinStatusTypeID": 160
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-12-24T05:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-24T18:32:00Z",
     "ID": 22714,
     "UUID": "5EE09F63-9E0B-4D99-9D8E-1E35B96AAD97",
-    "DataProviderID": 18,
-    "DataProvidersReference": "8dd99f719edf43e07427cc78a3549648",
+    "DataProviderID": 1,
     "OperatorID": 20,
+    "OperatorsReference": "t54_hu1_4021_002",
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 23059,
@@ -47,24 +47,49 @@
         "CountryID": 1,
         "Latitude": 54.593109,
         "Longitude": -1.343349,
-        "AccessComments": "North Shore Academy",
         "RelatedURL": "http://www.chargeyourcar.org.uk",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 24395,
+            "ID": 317793,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4021_002",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Najm-Eban"
+        },
+        {
+            "ID": 323637,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4021_002",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Najm-Eban"
+        },
+        {
+            "ID": 323638,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "t54_hu1_4021_002",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Najm-Eban"
         }
     ],
-    "DateLastStatusUpdate": "2019-12-24T05:23:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-24T18:32:00Z",
     "MetadataValues": [
         {
             "ID": 701,
@@ -72,7 +97,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2014-03-22T08:41:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

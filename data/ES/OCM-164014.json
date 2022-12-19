@@ -1,12 +1,31 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-25T00:00:00Z",
+    "MediaItems": [
+        {
+            "ID": 33052,
+            "ChargePointID": 164014,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM164014/OCM-164014.orig.2022082314190749.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM164014/OCM-164014.thmb.2022082314190749.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-23T14:19:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-14T16:07:00Z",
     "ID": 164014,
     "UUID": "0B610971-10BA-4606-8239-AAE128369D2D",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 45,
     "OperatorsReference": "41352",
-    "UsageTypeID": 4,
+    "UsageTypeID": 6,
+    "UsageCost": "0.03€/min",
     "AddressInfo": {
         "ID": 164373,
         "Title": "Sofraga Palacio Restaurante",
@@ -18,6 +37,7 @@
         "Latitude": 40.657685,
         "Longitude": -4.697594,
         "ContactTelephone1": "+34 920 254 080",
+        "RelatedURL": "http://www.sofragapalacio.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,12 +49,21 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 339777,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "1 Tesla Connector, up to 22kW.Available for customers. Please call ahead.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-25T00:00:00Z",
+    "DateLastStatusUpdate": "2022-10-14T16:07:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-08-25T00:00:00Z",
     "SubmissionStatusTypeID": 200

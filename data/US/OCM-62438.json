@@ -1,11 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:08:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-23T10:21:00Z",
     "ID": 62438,
     "UUID": "32E26039-880B-41CE-96F5-1748B1BF32BA",
-    "DataProviderID": 2,
-    "DataProvidersReference": "73428",
-    "OperatorID": 3373,
+    "DataProviderID": 1,
+    "OperatorID": 3542,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 62784,
@@ -15,36 +14,44 @@
         "StateOrProvince": "OR",
         "Postcode": "97761",
         "CountryID": 2,
-        "Latitude": 44.76316,
-        "Longitude": -121.25056,
-        "ContactTelephone1": "888-833-2148",
+        "Latitude": 44.76408620851268,
+        "Longitude": -121.25230932879822,
+        "ContactTelephone1": "(866) 300-3827",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://www.evsolutions.com/ev-network",
+        "RelatedURL": "https://evcs.com/ev-drivers/find-a-charger",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 79343,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
         },
         {
             "ID": 79344,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 326501,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:08:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-23T10:21:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-03-03T11:39:00Z",
     "SubmissionStatusTypeID": 100

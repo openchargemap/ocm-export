@@ -1,0 +1,79 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T14:42:00Z",
+    "ID": 201688,
+    "UUID": "AD89A737-7C91-4C3A-9234-3D87B0A68211",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70476,PG-87314,veefil-12100273",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
+    "AddressInfo": {
+        "ID": 202052,
+        "Title": "Tesco Superstore-Aberdeen Woodend",
+        "AddressLine1": "Woodend Hospital",
+        "Town": "Aberdeen",
+        "Postcode": "AB15 6LT",
+        "CountryID": 1,
+        "Latitude": 57.14961,
+        "Longitude": -2.171054,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 336721,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70476",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Owen-Buck"
+        },
+        {
+            "ID": 336722,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-87314",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Dirk-Cruz"
+        },
+        {
+            "ID": 336723,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12100273",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Alya-Inri"
+        },
+        {
+            "ID": 336724,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100273",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Alya-Inri"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is an open charge unit installed at Tesco Super Store site at Aberdeen Woodend",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-11-01T14:42:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-09-04T09:46:00Z",
+    "SubmissionStatusTypeID": 200
+}

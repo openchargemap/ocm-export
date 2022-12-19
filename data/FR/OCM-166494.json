@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:14:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-23T10:33:00Z",
     "ID": 166494,
     "UUID": "0C2DC984-34AE-4A5F-BAC9-D62CFA50C80C",
     "DataProviderID": 28,
@@ -11,14 +11,29 @@
         "Title": "Commune nouvelle d'Arrou | Rue de Courtalain 4",
         "AddressLine1": "4 Rue de Courtalain 28290 Commune nouvelle d'Arrou",
         "CountryID": 80,
-        "Latitude": 48.115524,
+        "Latitude": 48.115525,
         "Longitude": 1.1844,
-        "AccessComments": "24/24 7/7",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 248737,
+            "ConnectionTypeID": 26,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22
+        },
+        {
+            "ID": 248738,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 10
+        },
+        {
+            "ID": 248739,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -26,14 +41,22 @@
             "CurrentTypeID": 20
         },
         {
-            "ID": 248738,
+            "ID": 329729,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 329730,
             "ConnectionTypeID": 26,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22
         },
         {
-            "ID": 248739,
+            "ID": 329731,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -43,7 +66,7 @@
     ],
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:14:00Z",
+    "DateLastStatusUpdate": "2022-08-23T10:33:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:14:00Z",
     "SubmissionStatusTypeID": 100

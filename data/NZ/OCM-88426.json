@@ -1,9 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-05-29T11:46:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-05T08:13:00Z",
     "ID": 88426,
     "UUID": "3A2A5ADE-EC1D-4571-812C-E36B0205E923",
     "DataProviderID": 1,
+    "OperatorID": 45,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 88772,
         "Title": "Stratford Holiday Park",
@@ -16,11 +18,21 @@
         "ContactTelephone1": "067656440",
         "DistanceUnit": 0
     },
-    "Connections": [],
+    "Connections": [
+        {
+            "ID": 315669,
+            "ConnectionTypeID": 4,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "Quantity": 1,
+            "Comments": "9am to 5pm"
+        }
+    ],
     "NumberOfPoints": 1,
     "GeneralComments": "Caravan Mains Socket\r\n9am to 5pm",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-29T11:46:00Z",
+    "DateLastStatusUpdate": "2022-07-05T08:13:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-29T11:46:00Z",
     "SubmissionStatusTypeID": 200

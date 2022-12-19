@@ -47,15 +47,15 @@
             "DateCreated": "2018-06-17T09:07:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-22T19:34:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-03T05:21:00Z",
     "ID": 106066,
     "UUID": "52B426A2-6FCE-403F-96FA-5C983DBBF6F6",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_hu1_4517_014",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 106412,
         "Title": "Lidl Lincoln",
@@ -73,46 +73,41 @@
         {
             "ID": 149377,
             "ConnectionTypeID": 33,
+            "Reference": "t53_hu1_4517_014",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Phil-Eddy"
         },
         {
-            "ID": 149378,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 149379,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
-            "ID": 176688,
+            "ID": 323507,
             "ConnectionTypeID": 1036,
+            "Reference": "t53_hu1_4517_014",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Phil-Eddy"
+        },
+        {
+            "ID": 323508,
+            "ConnectionTypeID": 2,
+            "Reference": "t53_hu1_4517_014",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Phil-Eddy"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 2,
     "GeneralComments": "Activated using Pod-Point app",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-22T19:34:00Z",
+    "DateLastStatusUpdate": "2022-10-03T05:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-06-14T20:56:00Z",
     "SubmissionStatusTypeID": 200

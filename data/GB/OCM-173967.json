@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-08T19:31:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T09:11:00Z",
     "ID": 173967,
     "UUID": "8E977BE3-7FDB-44A2-82A2-CCB7740778A8",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70269,PG-84622",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 174326,
         "Title": "Tesco Superstore-Maidstone Tovil",
@@ -24,19 +24,34 @@
         {
             "ID": 268055,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70269",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Noel-Jody"
+        },
+        {
+            "ID": 320456,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84622",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Gina-Finn"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Farleigh Hill, Tovil, Maidstone",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-08T19:31:00Z",
+    "DateLastStatusUpdate": "2022-11-01T09:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-08T14:41:00Z",
     "SubmissionStatusTypeID": 200

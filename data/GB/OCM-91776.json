@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-13T12:06:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-03T06:22:00Z",
     "ID": 91776,
     "UUID": "9F4F4045-2086-4D43-A6DE-F9BC4B54C56F",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-81219",
     "UsageTypeID": 4,
-    "UsageCost": "£2.00/hour for 1 hour,then £1.50/hour",
+    "UsageCost": "then £1.50/hour,£2.00/hour for 1 hour",
     "AddressInfo": {
         "ID": 92122,
         "Title": "Vroom Car Retail Park",
@@ -23,19 +23,21 @@
         {
             "ID": 130125,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81219",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Suzy-Adam"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the Vroom Car Retail Park in Orion Business Park, North Shields",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T12:06:00Z",
+    "DateLastStatusUpdate": "2022-11-03T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-08-18T05:20:00Z",
     "SubmissionStatusTypeID": 200

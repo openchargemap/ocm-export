@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-05T12:10:00Z",
     "ID": 60978,
     "UUID": "28D28F91-1234-4216-A8C2-5CB6F0406887",
-    "DataProviderID": 27,
-    "DataProvidersReference": "229",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 207,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 61324,
         "Title": "Parking Conquistadores",
@@ -16,21 +16,22 @@
         "CountryID": 210,
         "Latitude": 38.871014,
         "Longitude": -6.973981,
-        "ContactTelephone1": "ND",
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 77403,
-            "ConnectionTypeID": 28
-        },
-        {
             "ID": 77404,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-05T12:10:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

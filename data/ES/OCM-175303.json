@@ -1,14 +1,15 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-02-07T09:44:00Z",
+    "DateLastVerified": "2022-10-25T10:30:00Z",
     "ID": 175303,
     "UUID": "1D2B0FBB-5E85-432A-A796-6F164E2FA099",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
+    "UsageCost": "0,50€/kWh",
     "AddressInfo": {
         "ID": 175662,
-        "Title": "Calle Utrera",
+        "Title": "McDonald's Los Alcores Calle Utrera",
         "AddressLine1": "Calle Utrera",
         "Town": "Mairena del Alcor",
         "StateOrProvince": "Sevilla",
@@ -24,25 +25,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 271896,
-            "ConnectionTypeID": 2,
-            "Reference": "800 760 255",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "movilidad.endesaX@enel.com"
+            "Quantity": 2,
+            "Comments": "The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage per socket 200A"
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-07T09:44:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-10-25T10:30:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-08T11:35:00Z",
     "SubmissionStatusTypeID": 200

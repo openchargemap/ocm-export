@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-28T18:32:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:46:00Z",
     "ID": 175011,
     "UUID": "311748AE-7A08-4FE6-A9FC-7299FEEF0574",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-70394,PG-86118,veefil-12100035",
     "UsageTypeID": 4,
-    "UsageCost": "Type 2 free, use Pod Point app or webpage charge.pod-point.com to confirm charge within 15 mins. Rapid Charger £0.27 per kWh",
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh. Rapid Charger £0.27 per kWh",
     "AddressInfo": {
         "ID": 175370,
         "Title": "Tesco Superstore-Littlehampton",
@@ -23,6 +24,30 @@
         {
             "ID": 271228,
             "ConnectionTypeID": 25,
+            "Reference": "PG-86118",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Jody-Bess"
+        },
+        {
+            "ID": 323936,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100035",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Eban-Scot"
+        },
+        {
+            "ID": 323937,
+            "ConnectionTypeID": 25,
             "Reference": "PG-70394",
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -30,41 +55,25 @@
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Amos-Colt"
         },
         {
-            "ID": 271229,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-86118",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
-            "ID": 271522,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 271523,
+            "ID": 324616,
             "ConnectionTypeID": 2,
+            "Reference": "veefil-12100035",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Eban-Scot"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "*3HRS MAX PARKING - ANPR £70 FINE*",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-28T18:32:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-23T16:14:00Z",
     "SubmissionStatusTypeID": 200

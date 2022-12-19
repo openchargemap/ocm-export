@@ -81,12 +81,12 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-20T17:21:00Z",
+    "DateLastVerified": "2022-06-06T08:58:00Z",
     "ID": 40718,
     "UUID": "AA0944B1-9E14-4BEB-941F-8C0565B3AD4E",
     "DataProviderID": 1,
     "OperatorID": 3266,
-    "UsageTypeID": 6,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 41064,
         "Title": "Concessionario Nissan Bertucco",
@@ -116,20 +116,28 @@
         {
             "ID": 207264,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 207265,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "http://www.loginet.it/e-mobility/colonnine_installate/",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-20T17:21:00Z",
+    "DateLastStatusUpdate": "2022-06-06T08:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-01-10T18:41:00Z",
     "SubmissionStatusTypeID": 200

@@ -34,13 +34,13 @@
             "DateCreated": "2021-04-09T05:20:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-04T21:07:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-24T07:58:00Z",
     "ID": 174610,
     "UUID": "487EEB5C-DB66-4B0A-8787-A55D11FE3BBA",
     "DataProviderID": 1,
     "OperatorID": 82,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 174969,
         "Title": "A2A Eurospin",
@@ -57,25 +57,36 @@
         {
             "ID": 270529,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 270530,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 270531,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-04T21:07:00Z",
+    "DateLastStatusUpdate": "2022-05-24T07:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-09T05:20:00Z",
     "SubmissionStatusTypeID": 200

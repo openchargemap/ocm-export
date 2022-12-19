@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-31T17:10:00Z",
     "ID": 187593,
     "UUID": "481BCD56-DE3B-4611-A518-091A792A2F29",
-    "DataProviderID": 18,
-    "DataProvidersReference": "a68ff546db3e1dfbbef72041279c5574",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-86133,PG-86145,PG-88421,PG-88483",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 187952,
         "Title": "Outlet Shopping Village",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 51.130008,
         "Longitude": -2.740425,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,59 @@
         {
             "ID": 302773,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-86145",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Lois-Neve"
         },
         {
-            "ID": 302774,
+            "ID": 324377,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "PG-88421",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Rich-Anna"
+        },
+        {
+            "ID": 324961,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-88483",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Pria-Omar"
+        },
+        {
+            "ID": 324962,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86133",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Bert-Elle"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 8,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-31T17:10:00Z",
     "MetadataValues": [
         {
             "ID": 19833,
@@ -53,7 +84,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:38:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

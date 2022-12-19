@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-13T12:27:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T18:39:00Z",
     "ID": 100480,
     "UUID": "E3BE8485-BA08-4DA7-9BB7-4CABAA6AF48C",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-81726",
     "UsageTypeID": 4,
-    "UsageCost": "£1.00/hour",
+    "UsageCost": "then £1.00/hour,£2.00/hour for 4 hours",
     "AddressInfo": {
         "ID": 100826,
         "Title": "Windermere Manor Hotel",
@@ -23,19 +23,21 @@
         {
             "ID": 141930,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81726",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Leon-Ryan"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the Windermere Manor Hotel in Rayrigg Road, Windermere",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T12:27:00Z",
+    "DateLastStatusUpdate": "2022-08-15T18:39:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-02-26T14:09:00Z",
     "SubmissionStatusTypeID": 200

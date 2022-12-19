@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-26T18:40:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T18:48:00Z",
     "ID": 173987,
     "UUID": "A7E88D68-E9A9-4592-B80E-CC43A571A66F",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70334,PG-84571",
+    "OperatorsReference": "PG-70334,PG-84571,veefil-12000204",
     "UsageTypeID": 4,
-    "UsageCost": "Free,£0.27/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 174346,
         "Title": "Tesco Superstore-Lewisham",
@@ -23,30 +23,56 @@
         {
             "ID": 268197,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84571",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Axel-Gwen"
         },
         {
-            "ID": 270089,
+            "ID": 323892,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70334",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Dion-Enya"
+        },
+        {
+            "ID": 323893,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000204",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Lynn-Arah"
+        },
+        {
+            "ID": 324596,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000204",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Lynn-Arah"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 7,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Lewisham Road, London",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-26T18:40:00Z",
+    "DateLastStatusUpdate": "2022-08-16T18:48:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-09T06:23:00Z",
     "SubmissionStatusTypeID": 200

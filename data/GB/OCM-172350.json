@@ -1,13 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-11T12:10:00Z",
+    "DateLastVerified": "2022-09-12T05:21:00Z",
     "ID": 172350,
     "UUID": "CB39492D-D7C6-47A0-9A2A-A2B42CF9C041",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_4120_010",
-    "UsageTypeID": 6,
-    "UsageCost": "£0.25/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 172709,
         "Title": "Lidl - Rosehill",
@@ -25,37 +25,43 @@
         {
             "ID": 263504,
             "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4120_010",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Kent-Khan"
         },
         {
-            "ID": 263505,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 263506,
+            "ID": 323642,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4120_010",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Kent-Khan"
+        },
+        {
+            "ID": 325126,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4120_010",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Kent-Khan"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "use Pod Point app or webpage charge.pod-point.com to confirm charge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-11T12:10:00Z",
+    "DateLastStatusUpdate": "2022-09-12T05:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-01-30T18:02:00Z",
     "SubmissionStatusTypeID": 200

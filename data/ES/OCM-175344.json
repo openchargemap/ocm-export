@@ -1,12 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-10T18:21:00Z",
+    "MediaItems": [
+        {
+            "ID": 33357,
+            "ChargePointID": 175344,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM175344/OCM-175344.orig.2022082813500501.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM175344/OCM-175344.thmb.2022082813500501.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-28T13:50:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T07:23:00Z",
     "ID": 175344,
     "UUID": "98A79D4E-A66F-44DA-BC3E-A275013D7140",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": "0,30 €/kWh",
+    "UsageCost": "0,56€/kWh 100kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 175703,
         "Title": "Restaurante Los Cordobeses",
@@ -26,6 +44,8 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 1000,
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2
@@ -51,7 +71,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-10T18:21:00Z",
+    "DateLastStatusUpdate": "2022-10-25T07:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-10T15:56:00Z",
     "SubmissionStatusTypeID": 200

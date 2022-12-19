@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-06-14T10:15:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-24T18:30:00Z",
     "ID": 75521,
     "UUID": "91D8295E-96F8-4613-AAA5-F3505F5B894E",
     "DataProviderID": 1,
     "OperatorID": 7,
     "OperatorsReference": "PG-80064",
-    "UsageTypeID": 6,
+    "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 75867,
@@ -19,10 +19,6 @@
         "CountryID": 1,
         "Latitude": 53.537056,
         "Longitude": -0.046601,
-        "ContactTelephone1": "",
-        "ContactTelephone2": "",
-        "ContactEmail": "",
-        "AccessComments": "",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
@@ -30,28 +26,21 @@
         {
             "ID": 108856,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80064",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 126295,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 0,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Phil-Judy"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the Trenton Nissan (Altyre Way, Humberston, Grimsby, North Lincolnshire DN36 4RJ)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-06-14T10:15:00Z",
+    "DateLastStatusUpdate": "2022-08-24T18:30:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-12-15T20:43:00Z",
     "SubmissionStatusTypeID": 200

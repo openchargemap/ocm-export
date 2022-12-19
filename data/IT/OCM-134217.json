@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 27431,
+            "ChargePointID": 134217,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Colonnina di recente sostituita con un altro modello di pari potenza e sempre accessibile 24/7. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/post339600.html#p339600",
+            "RelatedURL": "https://www.forumelettrico.it/forum/post339600.html#p339600",
+            "DateCreated": "2022-10-15T15:12:54.053Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 140,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 23861,
             "ChargePointID": 134217,
             "CommentTypeID": 10,
@@ -45,6 +60,70 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 35012,
+            "ChargePointID": 134217,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM134217/OCM-134217.orig.2022101515130396.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM134217/OCM-134217.thmb.2022101515130396.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-10-15T15:13:00Z"
+        },
+        {
+            "ID": 35013,
+            "ChargePointID": 134217,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM134217/OCM-134217.orig.2022101515130923.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM134217/OCM-134217.thmb.2022101515130923.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-10-15T15:13:00Z"
+        },
+        {
+            "ID": 35014,
+            "ChargePointID": 134217,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM134217/OCM-134217.orig.2022101515131445.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM134217/OCM-134217.thmb.2022101515131445.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-10-15T15:13:00Z"
+        },
+        {
+            "ID": 35015,
+            "ChargePointID": 134217,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM134217/OCM-134217.orig.2022101515131961.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM134217/OCM-134217.thmb.2022101515131961.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-10-15T15:13:00Z"
+        },
         {
             "ID": 26415,
             "ChargePointID": 134217,
@@ -238,8 +317,8 @@
             "DateCreated": "2019-11-05T11:06:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-02-06T16:06:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-15T15:13:00Z",
     "ID": 134217,
     "UUID": "4AF20A07-4987-4573-A22D-0A0F6BBD9615",
     "DataProviderID": 1,
@@ -247,21 +326,22 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 134563,
-        "Title": "Concessionario Nissan Alma Bologna",
-        "AddressLine1": "Via Francesco Zanardi, 41",
+        "Title": "Allego Nissan Alma",
+        "AddressLine1": "Via Francesco Zanardi, 39",
         "Town": "Bologna",
         "StateOrProvince": "BO",
         "Postcode": "40131",
         "CountryID": 112,
         "Latitude": 44.51161613304558,
         "Longitude": 11.328101535303858,
+        "RelatedURL": "https://www.forumelettrico.it/forum/fast-c-o-alma-srl-concessionario-auto-nissan-t7734.html",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 187795,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 120,
             "Voltage": 500,
@@ -272,29 +352,18 @@
         {
             "ID": 187796,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 120,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
-        },
-        {
-            "ID": 187797,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 150,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-02-06T16:06:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-15T15:13:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-11-04T12:01:00Z",
     "SubmissionStatusTypeID": 200

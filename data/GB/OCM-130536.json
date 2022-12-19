@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-22T19:33:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-16T05:22:00Z",
     "ID": 130536,
     "UUID": "8A15DC14-EF51-4D5F-ADDF-46BE8FE8FBC8",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_it1_0919_042",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 130882,
         "Title": "Lidl - East Kilbride",
@@ -23,49 +23,44 @@
     },
     "Connections": [
         {
-            "ID": 182733,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 3
-        },
-        {
-            "ID": 182734,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 182735,
+            "ID": 323702,
             "ConnectionTypeID": 33,
+            "Reference": "t54_it1_0919_042",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Will-Mark"
         },
         {
-            "ID": 185673,
+            "ID": 323703,
             "ConnectionTypeID": 25,
+            "Reference": "t54_it1_0919_042",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Will-Mark"
+        },
+        {
+            "ID": 325146,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_it1_0919_042",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Will-Mark"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-22T19:33:00Z",
+    "DateLastStatusUpdate": "2022-10-16T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-08-06T10:00:00Z",
     "SubmissionStatusTypeID": 200

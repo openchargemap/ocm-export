@@ -1,14 +1,33 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-12-02T09:45:00Z",
+    "MediaItems": [
+        {
+            "ID": 33353,
+            "ChargePointID": 134899,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM134899/OCM-134899.orig.2022082813324739.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM134899/OCM-134899.thmb.2022082813324739.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-28T13:33:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T07:44:00Z",
     "ID": 134899,
     "UUID": "7E20B032-44A6-457F-A8C7-501500D2A5A1",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 1,
+    "UsageCost": "0,42€/kWh DC 50kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 135245,
-        "Title": "Autovía de Castilla",
+        "Title": "Restaurante La Vasca",
         "AddressLine1": "Autovía de Castilla",
         "AddressLine2": "Colonia Militar Infantil General Varela",
         "Town": "Quintana del Puente",
@@ -23,14 +42,16 @@
         {
             "ID": 188755,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
         },
         {
             "ID": 188756,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
         },
         {
             "ID": 188757,
@@ -41,7 +62,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-12-02T09:45:00Z",
+    "DateLastStatusUpdate": "2022-10-25T07:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-11-29T17:56:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-16T06:16:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T14:42:00Z",
     "ID": 169481,
     "UUID": "463AAE50-BD0B-4827-87E4-5C22EF2931AE",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70349,PG-85205",
+    "OperatorsReference": "PG-70349,PG-85205,veefil-12000206",
     "UsageTypeID": 4,
-    "UsageCost": "Free. Use Pod Point app or webpage charge.pod-point.com to confirm charge",
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh. Use Pod Point app or webpage charge.pod-point.com to confirm charge",
     "AddressInfo": {
         "ID": 169840,
         "Title": "Tesco Superstore",
@@ -18,7 +18,6 @@
         "CountryID": 1,
         "Latitude": 51.7245382128318,
         "Longitude": -2.53536266977699,
-        "AccessComments": "Store: Mon-Sat 6am-10pm, Sun 10am-4pm",
         "RelatedURL": "https://charge.pod-point.com/",
         "DistanceUnit": 0
     },
@@ -26,48 +25,56 @@
         {
             "ID": 257928,
             "ConnectionTypeID": 33,
+            "Reference": "veefil-12000206",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Ejaz-Eira"
         },
         {
-            "ID": 257929,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 257930,
+            "ID": 322520,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
-            "ID": 257931,
-            "ConnectionTypeID": 25,
+            "Reference": "PG-70349",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Quin-Skye"
+        },
+        {
+            "ID": 323899,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85205",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Ruby-Joey"
+        },
+        {
+            "ID": 323900,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000206",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Ejaz-Eira"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 5,
     "GeneralComments": "Pod Point. Twin Type 2: 7kW Quin-Skye & 22kW Ruby-Joey. 50kW CHAdeMO & CCS Ejaz-Eira",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-16T06:16:00Z",
+    "DateLastStatusUpdate": "2022-11-01T14:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-19T19:42:00Z",
     "SubmissionStatusTypeID": 200

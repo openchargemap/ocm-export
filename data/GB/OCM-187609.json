@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T06:23:00Z",
     "ID": 187609,
     "UUID": "93051EF0-20B4-4F6A-B49B-964A19622745",
-    "DataProviderID": 18,
-    "DataProvidersReference": "9bc13833d3db27f5bde171feaaef699c",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-83468,PG-85070",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.25/kWh",
     "AddressInfo": {
         "ID": 187968,
         "Title": "Central Car Park",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 51.315,
         "Longitude": 0.89012,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,33 @@
         {
             "ID": 302805,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-83468",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Joey-Jane"
         },
         {
-            "ID": 302806,
+            "ID": 321262,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "PG-85070",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Beck-Noel"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-11-02T06:23:00Z",
     "MetadataValues": [
         {
             "ID": 19849,
@@ -53,7 +58,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:38:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-15T21:37:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:06:00Z",
     "ID": 169384,
     "UUID": "4788EFF8-C013-4BF5-824B-A2B5719C86D7",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-98080",
+    "OperatorsReference": "PG-97962,PG-98080,PG-98081",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "1,Free",
     "AddressInfo": {
         "ID": 169743,
         "Title": "Calcot Health and Leisure Company Limited",
@@ -24,19 +24,47 @@
         {
             "ID": 257708,
             "ConnectionTypeID": 25,
+            "Reference": "PG-98081",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Lola-Skye"
+        },
+        {
+            "ID": 324567,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-98080",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Yoko-Skye"
+        },
+        {
+            "ID": 325059,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-97962",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Gwen-Fawn"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "GeneralComments": "This is an open charge unit in the Calcot Health and Leisure Company Limited site in Barnsley House, Barnsley Cirencester in Gloucester",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-15T21:37:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:06:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-15T21:37:00Z",
     "SubmissionStatusTypeID": 200

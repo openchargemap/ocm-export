@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-06-09T05:32:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:44:00Z",
     "ID": 126137,
     "UUID": "C91F8D81-D231-4D75-966F-60B0D5C789B1",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-82367,PG-82481",
     "UsageTypeID": 4,
-    "UsageCost": "£0.10/kWh",
+    "UsageCost": "£0.25/kWh",
     "AddressInfo": {
         "ID": 126483,
         "Title": "Fusion 1-3 Car Parks (for Tenants Use Only)",
@@ -25,19 +25,34 @@
         {
             "ID": 176783,
             "ConnectionTypeID": 25,
+            "Reference": "PG-82367",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "June-Jeri"
+        },
+        {
+            "ID": 321136,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-82481",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Cruz-Bert"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Fusion 1-3 Car Park site at Parkway, Whiteley, Fareham, Hampshire",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-06-09T05:32:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-05-13T12:04:00Z",
     "SubmissionStatusTypeID": 200

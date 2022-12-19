@@ -1,15 +1,15 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-13T20:46:00Z",
+    "DateLastVerified": "2022-09-17T14:54:00Z",
     "ID": 192573,
     "UUID": "2075EEA5-08CD-4556-B72D-1CD970899DC2",
     "DataProviderID": 1,
     "OperatorID": 3503,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 192932,
         "Title": "Area di servizio Aurelia sud",
-        "AddressLine1": "A10",
+        "AddressLine1": "Outside A10 Station",
         "Town": "Savona",
         "StateOrProvince": "Liguria",
         "Postcode": "17047",
@@ -23,30 +23,43 @@
             "ID": 312932,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 300,
-            "Quantity": 2
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 312933,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 2,
+            "StatusTypeID": 150,
+            "LevelID": 3,
             "PowerKW": 63,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 312934,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 150,
             "LevelID": 2,
-            "PowerKW": 22
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 317207,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "PowerKW": 64,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "in installation",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-04-13T20:46:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-09-17T14:54:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-13T20:46:00Z",
     "SubmissionStatusTypeID": 200

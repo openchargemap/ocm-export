@@ -1,11 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T21:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:52:00Z",
     "ID": 188094,
     "UUID": "DEAA526B-40DE-4D9F-9E29-BBC723AA1FAB",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-97375,PG-97323",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.247/kWh",
     "AddressInfo": {
         "ID": 188453,
         "Title": "IOM Food Park",
@@ -22,17 +24,33 @@
         {
             "ID": 303543,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-97323",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Iris-Ivor"
+        },
+        {
+            "ID": 321858,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-97375",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Nina-Enzo"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T21:19:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-16T13:52:00Z",
     "MetadataValues": [
         {
             "ID": 20334,
@@ -40,7 +58,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

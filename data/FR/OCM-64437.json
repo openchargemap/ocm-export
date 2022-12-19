@@ -1,11 +1,29 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-03-06T13:29:00Z",
+    "MediaItems": [
+        {
+            "ID": 35017,
+            "ChargePointID": 64437,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM64437/OCM-64437.orig.2022101522124030.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM64437/OCM-64437.thmb.2022101522124030.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 31826,
+                "Username": "Ernesst"
+            },
+            "DateCreated": "2022-10-15T22:13:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-15T22:13:00Z",
     "ID": 64437,
     "UUID": "4B7A979D-9F74-41BE-ABB9-B88A22CDB94A",
     "DataProviderID": 1,
     "OperatorID": 213,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "UsageCost": "0",
     "AddressInfo": {
         "ID": 64783,
@@ -23,18 +41,46 @@
     "Connections": [
         {
             "ID": 82660,
-            "ConnectionTypeID": 28,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 220,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 346642,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 346643,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 346644,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-03-06T13:29:00Z",
+    "DateLastStatusUpdate": "2022-10-15T22:13:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-03-06T13:29:00Z",
     "SubmissionStatusTypeID": 200

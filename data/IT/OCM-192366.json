@@ -131,7 +131,7 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-03T16:58:00Z",
+    "DateLastVerified": "2022-08-06T06:24:00Z",
     "ID": 192366,
     "UUID": "5D9D93BE-AE8C-4B45-8E23-394A06286824",
     "DataProviderID": 1,
@@ -145,8 +145,9 @@
         "StateOrProvince": "Emilia-Romagna",
         "Postcode": "29016",
         "CountryID": 112,
-        "Latitude": 44.96286306539881,
-        "Longitude": 9.904368195448598,
+        "Latitude": 44.96286306539818,
+        "Longitude": 9.904368195449933,
+        "RelatedURL": "https://nextcharge.app/map?location=44.962650,9.904350",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -157,12 +158,41 @@
             "LevelID": 3,
             "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 4
+        },
+        {
+            "ID": 314670,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 314671,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 317182,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-03T16:58:00Z",
+    "DateLastStatusUpdate": "2022-08-06T06:24:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-03-31T16:40:00Z",
     "SubmissionStatusTypeID": 200

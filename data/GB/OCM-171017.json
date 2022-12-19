@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-15T06:35:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:46:00Z",
     "ID": 171017,
     "UUID": "070E8950-0E97-4794-94C4-03E07E4DDBFD",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70346,PG-85726",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 171376,
         "Title": "Tesco Superstore - New Milton",
@@ -25,18 +25,33 @@
         {
             "ID": 261301,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70346",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Pria-Iris"
+        },
+        {
+            "ID": 320520,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85726",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Lars-Jude"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-15T06:35:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-17T00:39:00Z",
     "SubmissionStatusTypeID": 200

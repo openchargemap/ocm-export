@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:13:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-23T10:32:00Z",
     "ID": 152300,
     "UUID": "F216A735-AB74-462A-9430-0B70B97941B7",
     "DataProviderID": 28,
     "DataProvidersReference": "FRS1805801",
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 152653,
         "Title": "Chateauneuf sur Cher",
@@ -13,28 +13,30 @@
         "CountryID": 80,
         "Latitude": 46.85747,
         "Longitude": 2.3192016,
-        "AccessComments": "24h/24h",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 213166,
-            "ConnectionTypeID": 26,
+            "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 18
+            "PowerKW": 18,
+            "CurrentTypeID": 10
         },
         {
             "ID": 246029,
-            "ConnectionTypeID": 26,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 18
+            "PowerKW": 18,
+            "CurrentTypeID": 20
         }
     ],
-    "GeneralComments": "Borne en service",
+    "GeneralComments": "Paiement via badge et smarthphone",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:13:00Z",
+    "DateLastStatusUpdate": "2022-08-23T10:32:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:53:00Z",
     "SubmissionStatusTypeID": 100

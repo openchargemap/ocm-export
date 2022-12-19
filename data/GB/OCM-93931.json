@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-01-19T13:15:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:05:00Z",
     "ID": 93931,
     "UUID": "5792383C-C810-41EC-A835-49DAB2005CC6",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-91193,PG-91363,PG-91366",
+    "OperatorsReference": "PG-91193,PG-94059,PG-94071",
     "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -23,30 +23,47 @@
         {
             "ID": 132966,
             "ConnectionTypeID": 25,
+            "Reference": "PG-91193",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Kate-Tony"
         },
         {
-            "ID": 134041,
+            "ID": 321679,
             "ConnectionTypeID": 25,
+            "Reference": "PG-94059",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Olaf-Dirk"
+        },
+        {
+            "ID": 324496,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-94071",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Milo-Huey"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Midcounties Co-Operative - Station Road in Bourton-On-The-Water, Cheltenham, Gloucestershire",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-01-19T13:15:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:05:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-10-13T05:30:00Z",
     "SubmissionStatusTypeID": 200

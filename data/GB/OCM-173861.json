@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-25T15:53:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-29T08:30:00Z",
     "ID": 173861,
     "UUID": "8244BD91-412F-4CB8-9062-86AB66C2322B",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_4819_029",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 174220,
         "Title": "Lidl-Llangefni",
@@ -23,37 +23,43 @@
         {
             "ID": 267418,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4819_029",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Cole-Lara"
         },
         {
-            "ID": 269986,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 270039,
+            "ID": 322146,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4819_029",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Cole-Lara"
+        },
+        {
+            "ID": 323690,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4819_029",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Cole-Lara"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is a Pod Point rapid charger installed at the Lidl super store at Industrial Estate Road, Llangefni",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-25T15:53:00Z",
+    "DateLastStatusUpdate": "2022-08-29T08:30:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-04T06:18:00Z",
     "SubmissionStatusTypeID": 200

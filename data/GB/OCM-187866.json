@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-16T05:22:00Z",
     "ID": 187866,
     "UUID": "0A76FC34-7752-4E4A-87FF-CF988F594952",
-    "DataProviderID": 18,
-    "DataProvidersReference": "fb9747406f67a316a761832fe0422cea",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-86330",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.25/kWh",
     "AddressInfo": {
         "ID": 188225,
         "Title": "Llanrhystud",
@@ -16,36 +17,27 @@
         "CountryID": 1,
         "Latitude": 52.304601,
         "Longitude": -4.132841,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 303182,
+            "ID": 321446,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-86330",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 303183,
-            "ConnectionTypeID": 25,
-            "Reference": "1",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Frey-Olaf"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-09-16T05:22:00Z",
     "MetadataValues": [
         {
             "ID": 20106,
@@ -53,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

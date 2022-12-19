@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 25904,
+            "ChargePointID": 172915,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Tutto ok con card Be Charge sulla CCS Combo 2. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/post312650.html#p312650",
+            "RelatedURL": "https://www.forumelettrico.it/forum/post312650.html#p312650",
+            "DateCreated": "2022-06-25T08:48:12.073Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 25052,
             "ChargePointID": 172915,
             "CommentTypeID": 10,
@@ -92,6 +107,22 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 32119,
+            "ChargePointID": 172915,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM172915/OCM-172915.orig.2022062508482493.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM172915/OCM-172915.thmb.2022062508482493.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-06-25T08:48:00Z"
+        },
         {
             "ID": 29908,
             "ChargePointID": 172915,
@@ -334,14 +365,15 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-11-28T07:19:00Z",
+    "DateLastVerified": "2022-08-14T11:54:00Z",
     "ID": 172915,
     "UUID": "8D67AA19-B220-48BD-9462-4766048C8AE3",
     "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 173274,
-        "Title": "Europ Assistance ",
+        "Title": "Be Charge Autofficina Corradini",
         "AddressLine1": "Via Abramo Lincoln 1",
         "Town": "Reggio Emilia",
         "StateOrProvince": "RE",
@@ -355,30 +387,36 @@
         {
             "ID": 264523,
             "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 264524,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 264525,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-28T07:19:00Z",
+    "DateLastStatusUpdate": "2022-08-14T11:54:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-02-21T10:23:00Z",
     "SubmissionStatusTypeID": 200

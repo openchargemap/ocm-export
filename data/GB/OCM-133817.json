@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-09-10T09:09:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:31:00Z",
     "ID": 133817,
     "UUID": "17816C16-C7F5-411B-8940-B6B8D7E5E1C1",
     "DataProviderID": 1,
@@ -16,27 +16,42 @@
         "StateOrProvince": "Rickmansworth",
         "Postcode": "WD3 1LX",
         "CountryID": 1,
-        "Latitude": 51.633093857418174,
-        "Longitude": -0.47071874148707593,
+        "Latitude": 51.6330938574182,
+        "Longitude": -0.470718741487076,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 187269,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70106",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Boyd-Fran"
+        },
+        {
+            "ID": 320299,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-83918",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Kent-Bryn"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco superstore at Frogmoor Wharf, Harefield Road, Rickmansworth",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-10T09:09:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:31:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-10-28T06:28:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,22 +1,39 @@
 {
+    "MediaItems": [
+        {
+            "ID": 33345,
+            "ChargePointID": 191201,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191201/OCM-191201.orig.2022082811264908.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM191201/OCM-191201.thmb.2022082811264908.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-28T11:27:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-29T20:29:00Z",
+    "DateLastVerified": "2022-10-27T08:06:00Z",
     "ID": 191201,
     "UUID": "C85FD791-C579-4E1F-96B8-F30C146E7802",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
+    "UsageCost": "0,56€/kWh 100kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 191560,
         "Title": "Hotel Ruta Jacobea",
         "AddressLine1": "Avenida de San Marcos",
-        "Town": "Lavacolla",
-        "StateOrProvince": "A Coruña",
+        "StateOrProvince": "Galicia",
         "Postcode": "15820",
         "CountryID": 210,
-        "Latitude": 42.899896768871486,
-        "Longitude": -8.441367547729897,
-        "RelatedURL": "http://wenea.com",
+        "Latitude": 42.89986612915939,
+        "Longitude": -8.441718889731305,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,10 +42,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 1000,
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "0,49€"
+            "Comments": ""
         },
         {
             "ID": 310293,
@@ -38,7 +57,7 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "0,39€"
+            "Comments": ""
         },
         {
             "ID": 310294,
@@ -48,12 +67,12 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1,
-            "Comments": "0,3€"
+            "Comments": ""
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-29T20:29:00Z",
+    "DateLastStatusUpdate": "2022-10-27T08:06:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-01-26T20:24:00Z",
     "SubmissionStatusTypeID": 200

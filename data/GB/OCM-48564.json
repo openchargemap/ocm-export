@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-12-16T06:08:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T18:35:00Z",
     "ID": 48564,
     "UUID": "3A78B267-2A7B-4D61-A4C3-4E12A9B8B601",
     "DataProviderID": 1,
     "OperatorID": 7,
     "OperatorsReference": "PG-80252",
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 48910,
@@ -17,9 +17,8 @@
         "StateOrProvince": "Greater Manchester",
         "Postcode": "BL9 0HY",
         "CountryID": 1,
-        "Latitude": 53.594371869430546,
-        "Longitude": -2.306188201996065,
-        "AccessComments": "This post is on the Pod Point Open Network.",
+        "Latitude": 53.5943718694305,
+        "Longitude": -2.30618820199606,
         "RelatedURL": "http://www.rrggroup-nissan.co.uk/",
         "DistanceUnit": 0
     },
@@ -27,18 +26,20 @@
         {
             "ID": 60019,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80252",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Brad-Anne"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-12-16T06:08:00Z",
+    "DateLastStatusUpdate": "2022-08-15T18:35:00Z",
     "MetadataValues": [
         {
             "ID": 1571,
@@ -46,7 +47,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2015-06-27T07:22:00Z",
     "SubmissionStatusTypeID": 200
 }

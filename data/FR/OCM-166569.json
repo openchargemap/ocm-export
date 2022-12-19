@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:15:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-23T10:34:00Z",
     "ID": 166569,
     "UUID": "C4813AB2-1F11-4024-8E3E-203594F52120",
     "DataProviderID": 28,
@@ -11,14 +11,29 @@
         "Title": "Chartres | Rue de la Porte Drouaise",
         "AddressLine1": "Rue de la Porte Drouaise 28000 Chartres",
         "CountryID": 80,
-        "Latitude": 48.452724,
+        "Latitude": 48.452725,
         "Longitude": 1.488464,
-        "AccessComments": "24/24 7/7",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 249461,
+            "ConnectionTypeID": 26,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22
+        },
+        {
+            "ID": 249462,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 10
+        },
+        {
+            "ID": 249463,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -26,14 +41,22 @@
             "CurrentTypeID": 20
         },
         {
-            "ID": 249462,
+            "ID": 330151,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 330152,
             "ConnectionTypeID": 26,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22
         },
         {
-            "ID": 249463,
+            "ID": 330153,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -43,7 +66,7 @@
     ],
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:15:00Z",
+    "DateLastStatusUpdate": "2022-08-23T10:34:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:15:00Z",
     "SubmissionStatusTypeID": 100

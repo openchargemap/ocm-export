@@ -50,13 +50,13 @@
             "DateCreated": "2021-09-03T05:42:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-09-03T05:42:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-06-11T15:03:00Z",
     "ID": 189042,
     "UUID": "EC4D230C-51EF-4752-A7E6-4EF5D8FEFC92",
     "DataProviderID": 1,
     "OperatorID": 82,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 189401,
         "Title": "A2A Conad",
@@ -73,25 +73,34 @@
         {
             "ID": 305563,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 305564,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 305565,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-03T05:42:00Z",
+    "DateLastStatusUpdate": "2022-06-11T15:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-09-03T05:42:00Z",
     "SubmissionStatusTypeID": 200

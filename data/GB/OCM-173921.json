@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-25T15:51:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-26T05:22:00Z",
     "ID": 173921,
     "UUID": "D85659E4-D9A3-456A-AF8C-DE380728353F",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_4720_006",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 174280,
         "Title": "Lidl-Stockton-on-Tees",
@@ -23,37 +23,43 @@
         {
             "ID": 267629,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4720_006",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Lulu-Nina"
         },
         {
-            "ID": 269995,
+            "ID": 323683,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4720_006",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Lulu-Nina"
         },
         {
-            "ID": 270025,
+            "ID": 325138,
             "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4720_006",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Lulu-Nina"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 1,
     "GeneralComments": "This is a Pod Point rapid charger installed at the Lidl super store at Tower Street, Stockton-on-Tees",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-25T15:51:00Z",
+    "DateLastStatusUpdate": "2022-09-26T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-07T06:21:00Z",
     "SubmissionStatusTypeID": 200

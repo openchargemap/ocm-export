@@ -98,13 +98,13 @@
             "DateCreated": "2021-10-09T09:12:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-10-09T09:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-14T12:09:00Z",
     "ID": 189527,
     "UUID": "6613BE07-1658-4D3E-B4C3-59B334E5728E",
     "DataProviderID": 1,
     "OperatorID": 3327,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 189886,
         "Title": "Be Charge ",
@@ -121,25 +121,34 @@
         {
             "ID": 306569,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 75
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 306570,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 63
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 306571,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-09T09:12:00Z",
+    "DateLastStatusUpdate": "2022-08-14T12:09:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-10-09T09:11:00Z",
     "SubmissionStatusTypeID": 200

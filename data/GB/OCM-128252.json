@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-06-21T05:40:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:02:00Z",
     "ID": 128252,
     "UUID": "93CFE849-5478-4C0E-B96C-B92DF76C2D1A",
     "DataProviderID": 1,
@@ -17,26 +17,53 @@
         "CountryID": 1,
         "Latitude": 50.830809,
         "Longitude": -0.140682,
-        "ContactTelephone1": "+44 330 1235 247 Vinci Parking (Car park operator)",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 179526,
             "ConnectionTypeID": 25,
+            "Reference": "PG-82993",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 6
+            "Quantity": 2,
+            "Comments": "Enid-Rhys"
+        },
+        {
+            "ID": 322992,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-82973",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Arlo-Hans"
+        },
+        {
+            "ID": 324279,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-82981",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Hans-Nina"
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 8,
     "GeneralComments": "This is an open charge unit located on the top deck of the Brighton train station car park towards the southern end of the car park",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-06-21T05:40:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:02:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-06-20T05:54:00Z",
     "SubmissionStatusTypeID": 200

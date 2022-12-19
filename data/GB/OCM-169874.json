@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-15T06:31:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:46:00Z",
     "ID": 169874,
     "UUID": "6FBD5437-44C5-4ED5-862F-A496AD080233",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70333,PG-84611",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 170233,
         "Title": "Tesco Superstore",
@@ -25,18 +25,33 @@
         {
             "ID": 258864,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70333",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Yoko-Elle"
+        },
+        {
+            "ID": 320505,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84611",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Jane-Gwen"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-15T06:31:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-11-12T05:01:00Z",
     "SubmissionStatusTypeID": 200

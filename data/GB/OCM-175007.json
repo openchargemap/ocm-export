@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-23T16:06:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T06:22:00Z",
     "ID": 175007,
     "UUID": "06F541B3-6600-4707-B9B2-9D93DDDAD738",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-70430,PG-86410,veefil-12000561",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 175366,
         "Title": "Tesco Superstore-Sidcup",
@@ -26,27 +27,51 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
+            "Voltage": 400,
             "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Emil-Milo"
         },
         {
-            "ID": 271220,
+            "ID": 323967,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000561",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Todd-Joye"
+        },
+        {
+            "ID": 323968,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000561",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Todd-Joye"
+        },
+        {
+            "ID": 324629,
             "ConnectionTypeID": 25,
             "Reference": "PG-86410",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Yves-Hans"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-23T16:06:00Z",
+    "DateLastStatusUpdate": "2022-11-02T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-23T16:06:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-10-29T09:29:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-16T11:30:00Z",
     "ID": 101467,
     "UUID": "01F234E1-3034-4222-9AFB-54A80CE95636",
     "DataProviderID": 1,
-    "OperatorID": 3279,
+    "OperatorID": 3283,
     "OperatorsReference": "0185,0186",
     "UsageTypeID": 4,
     "UsageCost": "€0/kWh",
@@ -27,14 +27,23 @@
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 7,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 346692,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2018-10-29T09:29:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-16T11:30:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-03-29T06:07:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:15:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-23T10:34:00Z",
     "ID": 166579,
     "UUID": "D3318F6A-6978-4FE4-BD1C-44A718D4C690",
     "DataProviderID": 28,
@@ -11,14 +11,29 @@
         "Title": "Gallardon | Résidence de la Tour",
         "AddressLine1": "Résidence de la Tour 28320 Gallardon",
         "CountryID": 80,
-        "Latitude": 48.527462,
+        "Latitude": 48.527464,
         "Longitude": 1.687425,
-        "AccessComments": "24/24 7/7",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 249637,
+            "ConnectionTypeID": 26,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22
+        },
+        {
+            "ID": 249638,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 10
+        },
+        {
+            "ID": 249639,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -26,14 +41,22 @@
             "CurrentTypeID": 20
         },
         {
-            "ID": 249638,
+            "ID": 330320,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 330321,
             "ConnectionTypeID": 26,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22
         },
         {
-            "ID": 249639,
+            "ID": 330322,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -43,7 +66,7 @@
     ],
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:15:00Z",
+    "DateLastStatusUpdate": "2022-08-23T10:34:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:15:00Z",
     "SubmissionStatusTypeID": 100

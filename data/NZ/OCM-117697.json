@@ -1,27 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-02-22T23:31:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-16T08:26:00Z",
     "ID": 117697,
     "UUID": "40BB760C-11B8-47E3-9180-EE38957DC9D3",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "$0.40 / kWh",
     "AddressInfo": {
         "ID": 118043,
-        "Title": "State Highway 2",
-        "AddressLine1": "State Highway 2",
+        "Title": "Morere (State Highway 2)",
+        "AddressLine1": "3968 State Highway 2",
         "Town": "Morere",
         "Postcode": "4078",
         "CountryID": 161,
         "Latitude": -38.986666,
         "Longitude": 177.791665,
+        "ContactTelephone1": "+64 800 384 357",
+        "AccessComments": "Open 24/7",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 166500,
             "ConnectionTypeID": 33,
+            "Reference": "MRRE1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 25,
@@ -31,6 +34,7 @@
         {
             "ID": 166501,
             "ConnectionTypeID": 2,
+            "Reference": "MRRE1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 25,
@@ -39,8 +43,9 @@
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "In the carpark of the Morere Hot Springs.  This is a 25kw charger.  If you get a status code - 00400A. This means the emergency stop button has been pressed. Screw the emergency button back into place to reset, then you can start charging.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-02-22T23:31:00Z",
+    "DateLastStatusUpdate": "2022-07-16T08:26:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-02-22T23:31:00Z",
     "SubmissionStatusTypeID": 200

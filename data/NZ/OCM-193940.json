@@ -1,0 +1,65 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-08T07:46:00Z",
+    "ID": 193940,
+    "UUID": "BEB6E2B5-E08C-401E-90B0-FE36EB42C91E",
+    "DataProviderID": 1,
+    "OperatorID": 229,
+    "UsageTypeID": 4,
+    "UsageCost": "DC: 0.25 / kWh + 0.25 / minute ||  AC: $0.40 / kWh",
+    "AddressInfo": {
+        "ID": 194299,
+        "Title": "Springfield Parking Lot",
+        "AddressLine1": "23 West Coast Road",
+        "Town": "Springfield",
+        "StateOrProvince": "Canterbury",
+        "Postcode": "7681",
+        "CountryID": 161,
+        "Latitude": -43.33778671576905,
+        "Longitude": 171.9289579403369,
+        "ContactTelephone1": "+64 800 224 274",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 315808,
+            "ConnectionTypeID": 33,
+            "Reference": "SFLD1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "$0.25 / kWh + $0.25 / minute"
+        },
+        {
+            "ID": 315809,
+            "ConnectionTypeID": 2,
+            "Reference": "SFLD1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "$0.25 / kWh + $0.25 / minute"
+        },
+        {
+            "ID": 315810,
+            "ConnectionTypeID": 25,
+            "Reference": "SFLD2",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "$0.40 / kWh"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "50kW CCS/CHAdeMO and 22kW Type 2 AC  Commando right next to fast charger",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-07-08T07:46:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-07-08T07:46:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-11-24T06:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:51:00Z",
     "ID": 103399,
     "UUID": "6C5BDCF5-43B8-4A89-B834-C11D42B558AD",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-91570,PG-91576",
     "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh",
+    "UsageCost": "£0.80/kWh",
     "AddressInfo": {
         "ID": 103745,
         "Title": "Grabex Windows LTD",
@@ -23,19 +23,34 @@
         {
             "ID": 146058,
             "ConnectionTypeID": 25,
+            "Reference": "PG-91576",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Kate-Jeri"
+        },
+        {
+            "ID": 321705,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-91570",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Erik-Zack"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the Grabex Windows Ltd site in Murray Road, Orpington",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-11-24T06:19:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:51:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-05-01T05:53:00Z",
     "SubmissionStatusTypeID": 200

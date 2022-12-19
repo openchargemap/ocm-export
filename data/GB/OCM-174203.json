@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-22T04:03:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-03T06:22:00Z",
     "ID": 174203,
     "UUID": "6259C1D8-FED9-4340-9170-724201E22CCC",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-70425,PG-86419",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh. Parking restrictions apply",
     "AddressInfo": {
         "ID": 174562,
         "Title": "Tesco Extra Bolton Horwich",
@@ -14,40 +15,44 @@
         "AddressLine2": "Horwich",
         "Town": "Bolton",
         "StateOrProvince": "England",
-        "Postcode": "BL6 6JS,",
+        "Postcode": "BL6 6JS",
         "CountryID": 1,
         "Latitude": 53.5814684,
         "Longitude": -2.532021,
-        "AccessComments": "*3HRS MAX PARKING - ANPR £70 FINE*",
-        "RelatedURL": "http://www.podpoint.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 269305,
             "ConnectionTypeID": 25,
+            "Reference": "PG-86419",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Jude-Yoko"
         },
         {
-            "ID": 269306,
+            "ID": 321453,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70425",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Jody-Neve"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "GeneralComments": "Twin 7kW Pod Points, Jude-Yoko & Jody-Neve",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-22T04:03:00Z",
+    "DateLastStatusUpdate": "2022-11-03T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-22T04:03:00Z",
     "SubmissionStatusTypeID": 200

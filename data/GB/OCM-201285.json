@@ -1,0 +1,79 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T06:24:00Z",
+    "ID": 201285,
+    "UUID": "68937E7C-7E55-4808-BE9B-32551DE2A79A",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70521,PG-86876,veefil-12100271",
+    "UsageTypeID": 4,
+    "UsageCost": "Free,£0.28/kWh,Free,£0.40/kWh,£0.28/kWh",
+    "AddressInfo": {
+        "ID": 201648,
+        "Title": "Tesco Superstore-Montrose",
+        "AddressLine1": "Western Road",
+        "Town": "Montrose",
+        "Postcode": "DD10 8LW",
+        "CountryID": 1,
+        "Latitude": 56.710486,
+        "Longitude": -2.471421,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 335732,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70521",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Lars-Dale"
+        },
+        {
+            "ID": 335733,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86876",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Reno-Demi"
+        },
+        {
+            "ID": 335734,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12100271",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Orry-Ayla"
+        },
+        {
+            "ID": 335735,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100271",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Orry-Ayla"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is an open charge unit installed at the Tesco Superstore - Montrose site in Western Road, Montrose.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-11-01T06:24:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-08-26T09:08:00Z",
+    "SubmissionStatusTypeID": 200
+}

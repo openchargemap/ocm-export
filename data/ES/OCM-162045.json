@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-08T07:09:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-05T16:51:00Z",
     "ID": 162045,
     "UUID": "CC8A8A54-C958-4829-98E9-2008F2D3D836",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 1,
-    "UsageCost": "0.3 €/kWh",
+    "UsageCost": "0.45 €/kWh",
     "AddressInfo": {
         "ID": 162402,
         "Title": "Asivalco",
@@ -23,25 +23,31 @@
         {
             "ID": 233218,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 233219,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 233220,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-08T07:09:00Z",
+    "DateLastStatusUpdate": "2022-09-05T16:51:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-07-31T22:58:00Z",
     "SubmissionStatusTypeID": 200

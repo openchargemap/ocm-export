@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 26023,
+            "ChargePointID": 31369,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "These units have all recently been replaced, apparently with 7kW capable versions.",
+            "DateCreated": "2022-07-20T08:19:51.487Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 4543,
             "ChargePointID": 31369,
             "CommentTypeID": 50,
@@ -72,13 +86,13 @@
             "DateCreated": "2015-05-18T21:31:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-20T06:29:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:05:00Z",
     "ID": 31369,
     "UUID": "5ED826D4-71FF-40E9-8A38-8107DE9B2872",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-80592,PG-80598,PG-80602,PG-80605,PG-81040",
+    "OperatorsReference": "PG-88832,PG-88833,PG-88835,PG-88837,PG-88839",
     "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -97,30 +111,72 @@
         {
             "ID": 34844,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 207617,
-            "ConnectionTypeID": 25,
+            "Reference": "PG-88837",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 8
+            "Quantity": 2,
+            "Comments": "Finn-Cleo"
+        },
+        {
+            "ID": 321618,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-88832",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Pria-Rudy"
+        },
+        {
+            "ID": 324484,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-88835",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Alma-Iris"
+        },
+        {
+            "ID": 324485,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-88833",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Glen-Kyla"
+        },
+        {
+            "ID": 325001,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-88839",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Glen-Erin"
         }
     ],
     "NumberOfPoints": 10,
-    "GeneralComments": "accepts any RFID cards to start and stop a charge. Limited to slow 16A charging, despite being labelled as 7kW.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-20T06:29:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:05:00Z",
     "MetadataValues": [
         {
             "ID": 1292,

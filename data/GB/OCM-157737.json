@@ -1,12 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-12-30T19:31:00Z",
+    "UserComments": [
+        {
+            "ID": 26265,
+            "ChargePointID": 157737,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Osprey report that this site will be unavailable for a while due to renovation works. 5th – 30th September 2022",
+            "Rating": 2,
+            "RelatedURL": "https://twitter.com/OspreyCharging/status/1565592362759372800",
+            "DateCreated": "2022-09-02T07:46:05.343Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-02T07:46:00Z",
     "ID": 157737,
     "UUID": "C8C41456-D4F3-4182-B3A3-5860C5EDBB87",
     "DataProviderID": 1,
     "OperatorID": 203,
     "UsageTypeID": 5,
-    "UsageCost": "Engenie 36p/kWh. App, RFID or contactless.",
+    "UsageCost": "£0.66/kWh. App, RFID or contactless.",
     "AddressInfo": {
         "ID": 158091,
         "Title": "The Wighton Pub & Restaurant",
@@ -24,8 +42,8 @@
         {
             "ID": 227257,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00496-3",
-            "StatusTypeID": 50,
+            "Reference": "GB*EOSP00496*3",
+            "StatusTypeID": 30,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -36,8 +54,8 @@
         {
             "ID": 227258,
             "ConnectionTypeID": 2,
-            "Reference": "ENG00496-2",
-            "StatusTypeID": 50,
+            "Reference": "GB*EOSP00496*2",
+            "StatusTypeID": 30,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
@@ -48,19 +66,52 @@
         {
             "ID": 227259,
             "ConnectionTypeID": 33,
-            "Reference": "ENG00496-1",
-            "StatusTypeID": 50,
+            "Reference": "GB*EOSP00496*1",
+            "StatusTypeID": 30,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 336207,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*EOSP00066*3",
+            "StatusTypeID": 30,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 336208,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*EOSP00066*1",
+            "StatusTypeID": 30,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 336209,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*EOSP00066*2",
+            "StatusTypeID": 30,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Engenie Rapid Charger. AC is Socket only 22Kw : AC has tethered cable https://engenie.co.uk/help-with-charging/",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-30T19:31:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2022-09-02T07:46:00Z",
     "MetadataValues": [
         {
             "ID": 7270,

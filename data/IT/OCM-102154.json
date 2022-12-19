@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-07-14T17:05:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-13T11:59:00Z",
     "ID": 102154,
     "UUID": "B9951232-2CC4-4034-80BA-7CFC0C33CB56",
     "DataProviderID": 1,
@@ -16,6 +16,7 @@
         "CountryID": 112,
         "Latitude": 46.8929798108624,
         "Longitude": 11.4365851089696,
+        "RelatedURL": "https://nextcharge.app/map?lang=it&station=OCPI-123-LOC376813&provider=Neogy&location=46.892961,11.436691",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,11 +30,29 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 318033,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 318034,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-07-14T17:05:00Z",
+    "DateLastStatusUpdate": "2022-08-13T11:59:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-04-17T15:20:00Z",
     "SubmissionStatusTypeID": 200

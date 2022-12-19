@@ -1,11 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-10T10:36:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T18:41:00Z",
     "ID": 169046,
     "UUID": "B07F2632-5AF1-4373-9FA5-59FDCDAC05B7",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-83295",
+    "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 169405,
@@ -15,9 +16,8 @@
         "StateOrProvince": "England",
         "Postcode": "HU18 1PZ",
         "CountryID": 1,
-        "Latitude": 53.91296440030081,
-        "Longitude": -0.16200463397080966,
-        "AccessComments": "Parking fee while actively charging",
+        "Latitude": 53.9129644003008,
+        "Longitude": -0.16200463397081,
         "RelatedURL": "http://www.pod-point.com",
         "DistanceUnit": 0
     },
@@ -25,30 +25,21 @@
         {
             "ID": 257146,
             "ConnectionTypeID": 25,
+            "Reference": "PG-83295",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
-            "ID": 257147,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Dina-Kyla"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Free, use Pod Point app or webpage to charge.pod-point.com to confirm charge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-10T10:36:00Z",
+    "DateLastStatusUpdate": "2022-08-15T18:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-10T10:36:00Z",
     "SubmissionStatusTypeID": 200

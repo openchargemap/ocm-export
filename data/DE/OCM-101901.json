@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-06-24T11:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-20T14:31:00Z",
     "ID": 101901,
     "UUID": "F0BD5CA2-9A09-4A5A-A66A-CFF47AF5D780",
     "DataProviderID": 1,
@@ -11,13 +11,15 @@
         "ID": 102247,
         "Title": "Raststätte Osterfeld Ost",
         "AddressLine1": "A9",
-        "Town": "Burgenlandkreis",
+        "Town": "Stößen",
         "StateOrProvince": "Saxony-Anhalt",
-        "Postcode": "06721",
+        "Postcode": "06667",
         "CountryID": 87,
         "Latitude": 51.1054890459838,
         "Longitude": 11.9572985172272,
+        "ContactTelephone1": "+49 89 121 89 555",
         "AccessComments": "Keep to the very right when entering the area",
+        "RelatedURL": "http://eon.de",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -37,11 +39,11 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 375,
+            "Voltage": 900,
+            "PowerKW": 175,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4
         },
         {
             "ID": 143864,
@@ -53,12 +55,34 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 325391,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 325392,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 120,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "No longer free. Requires a E.ON contract. Can be used via RFID or app.",
     "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2019-06-24T11:38:00Z",
+    "DateLastStatusUpdate": "2022-08-20T14:31:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-04-14T05:24:00Z",
     "SubmissionStatusTypeID": 200

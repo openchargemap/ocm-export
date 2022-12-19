@@ -49,11 +49,14 @@
             "DateCreated": "2017-05-31T10:45:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-05-31T10:45:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-08T06:29:00Z",
     "ID": 88488,
     "UUID": "3471566E-9385-48C2-BC72-B3DDF6BDC68C",
     "DataProviderID": 1,
+    "OperatorID": 233,
+    "UsageTypeID": 1,
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 88834,
         "Title": "Auckland War Memorial Museum",
@@ -68,17 +71,27 @@
     "Connections": [
         {
             "ID": 125514,
-            "ConnectionTypeID": 1
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 125515,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "1 x Type 1 plug (J1772), 1× Type 2 Vector Charges may apply, free for now *Bays painted .... but if unlucky you may be ICEd",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-31T10:45:00Z",
+    "DateLastStatusUpdate": "2022-09-08T06:29:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-31T10:45:00Z",
     "SubmissionStatusTypeID": 200

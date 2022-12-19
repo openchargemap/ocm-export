@@ -17,11 +17,13 @@
             "DateCreated": "2017-05-29T11:40:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-05-29T11:40:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-08T06:41:00Z",
     "ID": 88423,
     "UUID": "1232068B-752A-41B2-A9BE-2ED2CC0C970D",
     "DataProviderID": 1,
+    "OperatorID": 45,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 88769,
         "Title": "Watercare Services Ltd",
@@ -36,13 +38,18 @@
     "Connections": [
         {
             "ID": 125419,
-            "ConnectionTypeID": 1
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "1 Type 1 (J1772) Delta located in time-limited car park (max 1 hour).",
+    "GeneralComments": "time-limited car park (max 1 hour).",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-29T11:40:00Z",
+    "DateLastStatusUpdate": "2022-09-08T06:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-29T11:40:00Z",
     "SubmissionStatusTypeID": 200

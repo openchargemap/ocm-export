@@ -1,57 +1,91 @@
 {
+    "MediaItems": [
+        {
+            "ID": 32798,
+            "ChargePointID": 192026,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM192026/OCM-192026.orig.2022080621391184.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM192026/OCM-192026.thmb.2022080621391184.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "DateCreated": "2022-08-06T21:39:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-03-15T07:59:00Z",
+    "DateLastVerified": "2022-08-20T13:42:00Z",
     "ID": 192026,
     "UUID": "733411B1-7575-4C83-89CC-6D540E556E42",
     "DataProviderID": 1,
     "OperatorID": 3462,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
+    "UsageCost": "AC 22 kW: 99Ft/kWh, DC 50 kW: 112Ft/kWh",
     "AddressInfo": {
         "ID": 192385,
-        "Title": "Dorog, Égetőmű",
-        "AddressLine1": "Dorog, Égetőmű",
+        "Title": "TEA. SARPI Dorog Égetőmű",
+        "AddressLine1": "SARPI Dorog, Égetőmű",
         "Town": "Tokodaltáró",
         "StateOrProvince": "Transdanubia",
         "Postcode": "2532",
         "CountryID": 104,
         "Latitude": 47.730366498247776,
         "Longitude": 18.709659764433923,
+        "ContactTelephone1": "+36 30 550 9858",
+        "ContactTelephone2": "+36 30 550 9858",
+        "AccessComments": "help@teapont.hu",
+        "RelatedURL": "https://www.teapont.hu/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 311920,
             "ConnectionTypeID": 33,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 120,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         },
         {
             "ID": 311921,
             "ConnectionTypeID": 2,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 120,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         },
         {
             "ID": 311922,
             "ConnectionTypeID": 25,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "TEApont alkalmazásból vagy a készüléken található QR kóddal, illetve RFID kártyával indítható a töltés. Töltsd le a TEApont applikációt a Google Play-ből vagy az AppStore-ból!",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-15T07:59:00Z",
+    "DateLastStatusUpdate": "2022-08-20T13:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-03-14T14:24:00Z",
     "SubmissionStatusTypeID": 200

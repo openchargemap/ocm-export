@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-22T10:46:00Z",
     "ID": 61033,
     "UUID": "0EC806BA-A5EC-4048-9F27-ADE7BD3CA512",
-    "DataProviderID": 27,
-    "DataProvidersReference": "297",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 2,
     "AddressInfo": {
         "ID": 61379,
         "Title": "Estación de Atocha",
@@ -14,8 +14,8 @@
         "StateOrProvince": "Madrid",
         "Postcode": "28007",
         "CountryID": 210,
-        "Latitude": 40.405859,
-        "Longitude": -3.687117,
+        "Latitude": 40.40572309021309,
+        "Longitude": -3.686530441737659,
         "ContactTelephone1": "+34914684781",
         "ContactEmail": "estacion.mad.atocha@saba.eu",
         "RelatedURL": "http://www.saba.es/es/aparcamientos",
@@ -23,16 +23,17 @@
     },
     "Connections": [
         {
-            "ID": 77538,
-            "ConnectionTypeID": 28
-        },
-        {
             "ID": 77539,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "DateLastStatusUpdate": "2022-09-22T10:46:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-15T05:30:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:52:00Z",
     "ID": 101379,
     "UUID": "EC594A14-202E-4FF4-ABE8-C6FA454225E9",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-92149,PG-92154",
     "UsageTypeID": 4,
-    "UsageCost": "£1.00/hour",
+    "UsageCost": "£2.00/hour for 4 hours,then £1.00/hour",
     "AddressInfo": {
         "ID": 101725,
         "Title": "Ibis Leicester",
@@ -23,19 +23,34 @@
         {
             "ID": 143143,
             "ConnectionTypeID": 25,
+            "Reference": "PG-92154",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Troy-Luke"
+        },
+        {
+            "ID": 321724,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-92149",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Emma-Abby"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the IBIS Leicester car park in St Georges Way, Constitution Hill, Leicester",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-15T05:30:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:52:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-03-27T05:29:00Z",
     "SubmissionStatusTypeID": 200

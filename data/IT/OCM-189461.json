@@ -146,12 +146,12 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-03-08T16:42:00Z",
+    "DateLastVerified": "2022-08-14T12:08:00Z",
     "ID": 189461,
     "UUID": "76889FD1-8E40-43A3-A1D8-E50B177FC3DD",
     "DataProviderID": 1,
     "OperatorID": 3327,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 189820,
         "Title": "Be Charge Euro Torri",
@@ -168,25 +168,34 @@
         {
             "ID": 306434,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 75
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 306435,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 63
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 306436,
             "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-08T16:42:00Z",
+    "DateLastStatusUpdate": "2022-08-14T12:08:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-10-02T09:59:00Z",
     "SubmissionStatusTypeID": 200

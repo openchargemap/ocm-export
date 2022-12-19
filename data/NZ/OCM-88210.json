@@ -17,11 +17,14 @@
             "DateCreated": "2017-05-24T09:24:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-05-24T09:24:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-10T11:32:00Z",
     "ID": 88210,
     "UUID": "2BAD4948-9437-4545-B375-35E2F5E0F8BA",
     "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 88556,
         "Title": "ZEALANDIA Ecosanctuary",
@@ -32,18 +35,32 @@
         "Latitude": -41.290134267478045,
         "Longitude": 174.7534763994056,
         "ContactTelephone1": "049209213",
+        "AccessComments": "9-5 every day except Christmas day. Barrier closed after hours.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 125114,
-            "ConnectionTypeID": 1
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "PowerKW": 3.5,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 315879,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.5,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 3,
-    "GeneralComments": "9-5 every day except Christmas day\r\nThree EV charging points in the marked bays of the main car park. Conversion lead for Mennekes available at admissions desk.We are a 225 hectare ecosanctuary with a cafe and exhibition so feel free to charge your car while you recharge yourself by immersing yourself in our native flora and fauna.",
+    "GeneralComments": "Three EV charging points in the main car park for use by visitors to ZEALANDIA. Conversion lead for Mennekes available at admissions desk. We are a 225 hectare ecosanctuary with a cafe and exhibition so feel free to charge your car while you recharge yourself by immersing yourself in our native flora and fauna.  Parking is not reserved for EVs. Type 2 chargers are 3.5 kW.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-24T09:24:00Z",
+    "DateLastStatusUpdate": "2022-07-10T11:32:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-24T09:24:00Z",
     "SubmissionStatusTypeID": 200

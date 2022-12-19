@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-14T05:21:00Z",
     "ID": 187867,
     "UUID": "909B9464-2EAA-4074-8EA5-C1666F789585",
-    "DataProviderID": 18,
-    "DataProvidersReference": "c81545110d3c55bf7244a8086634145d",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-86540",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.29/kWh",
     "AddressInfo": {
         "ID": 188226,
         "Title": "13 The Quadrant",
@@ -16,36 +17,27 @@
         "CountryID": 1,
         "Latitude": 52.324859,
         "Longitude": -0.070796,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 303184,
+            "ID": 321459,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-86540",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 303185,
-            "ConnectionTypeID": 25,
-            "Reference": "1",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Earl-Enya"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-09-14T05:21:00Z",
     "MetadataValues": [
         {
             "ID": 20107,
@@ -53,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

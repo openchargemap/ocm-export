@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 25831,
+            "ChargePointID": 148039,
+            "CommentTypeID": 10,
+            "UserName": "Christopher Cook",
+            "Comment": "Site upgraded to Ocular charging unit.",
+            "Rating": 5,
+            "DateCreated": "2022-06-03T01:29:13.763Z",
+            "User": {
+                "ID": 1000,
+                "Username": "Christopher Cook"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 24319,
             "ChargePointID": 148039,
             "CommentTypeID": 10,
@@ -121,6 +136,22 @@
     ],
     "MediaItems": [
         {
+            "ID": 31913,
+            "ChargePointID": 148039,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM148039/OCM-148039.orig.2022060301275351.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM148039/OCM-148039.thmb.2022060301275351.jpg",
+            "Comment": "Single unit with 2 ports.",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 1000,
+                "Username": "Christopher Cook"
+            },
+            "DateCreated": "2022-06-03T01:28:00Z"
+        },
+        {
             "ID": 21137,
             "ChargePointID": 148039,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM148039/OCM-148039.orig.2020020401542339.jpg",
@@ -153,14 +184,14 @@
             "DateCreated": "2020-01-24T03:23:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-09-03T01:59:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-02T09:04:00Z",
     "ID": 148039,
     "UUID": "8437BCC3-2C36-48ED-B2F9-E64E84448244",
     "DataProviderID": 1,
-    "OperatorID": 3298,
+    "OperatorID": 45,
     "UsageTypeID": 4,
-    "UsageCost": "Requires EO app - this location is currently free to use.",
+    "UsageCost": "Currently free to use.",
     "AddressInfo": {
         "ID": 148391,
         "Title": "Floreat Beach",
@@ -184,7 +215,7 @@
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 11,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         },
@@ -196,14 +227,14 @@
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 11,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-03T01:59:00Z",
+    "DateLastStatusUpdate": "2022-07-02T09:04:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-01-23T12:52:00Z",
     "SubmissionStatusTypeID": 200

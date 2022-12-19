@@ -15,15 +15,15 @@
             "IsActionedByEditor": false
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-10-21T13:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T10:01:00Z",
     "ID": 89062,
     "UUID": "FB79B2DE-5887-448A-A7D2-49348526A92D",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_it1_0417_004",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 89408,
         "Title": "Lidl-North Hylton Road",
@@ -41,36 +41,40 @@
         {
             "ID": 126407,
             "ConnectionTypeID": 2,
+            "Reference": "t53_it1_0417_004",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Gary-Bill"
         },
         {
-            "ID": 126408,
-            "ConnectionTypeID": 1036,
+            "ID": 321948,
+            "ConnectionTypeID": 33,
+            "Reference": "t53_it1_0417_004",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Gary-Bill"
+        },
+        {
+            "ID": 323519,
+            "ConnectionTypeID": 1036,
+            "Reference": "t53_it1_0417_004",
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 126409,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Gary-Bill"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-21T13:39:00Z",
+    "DateLastStatusUpdate": "2022-08-16T10:01:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-06-21T16:34:00Z",
     "SubmissionStatusTypeID": 200

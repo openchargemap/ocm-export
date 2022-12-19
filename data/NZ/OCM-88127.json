@@ -33,12 +33,14 @@
             "DateCreated": "2017-05-22T12:21:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-05-23T08:13:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-06T11:27:00Z",
     "ID": 88127,
     "UUID": "2AA970A8-4804-4826-A996-D1B28DA5F1A9",
     "DataProviderID": 1,
-    "UsageTypeID": 7,
+    "OperatorID": 45,
+    "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 88473,
         "Title": "Orion New Zealand Limited",
@@ -48,24 +50,35 @@
         "CountryID": 161,
         "Latitude": -43.489171,
         "Longitude": 172.5631276,
+        "ContactTelephone1": "+64 3-363 9898",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 125008,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 13,
+            "Comments": "BYO Cable"
+        },
+        {
+            "ID": 315725,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 3,
+            "Comments": "Parks 95-97 are 3 phase ie up to 22kW"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 16,
     "GeneralComments": "8am to 4.30pm\r\nMultiple 7kw charging spots available free for public use Mon - Fri 8 - 4.30pm. Report to reception on arrival to collect charging lead.\r\n",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-23T08:13:00Z",
+    "DateLastStatusUpdate": "2022-07-06T11:27:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-22T12:20:00Z",
     "SubmissionStatusTypeID": 200

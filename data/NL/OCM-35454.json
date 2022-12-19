@@ -14,15 +14,15 @@
             "CheckinStatusTypeID": 140
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-06-23T17:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-23T12:27:00Z",
     "ID": 35454,
     "UUID": "388F8984-D8A3-4C6F-84BA-B35E618E32DB",
-    "DataProviderID": 26,
-    "DataProvidersReference": "47643",
-    "OperatorID": 178,
+    "DataProviderID": 1,
+    "OperatorID": 103,
     "OperatorsReference": "EVnetNL AL794",
-    "UsageCost": "0.00 jaarabonnement",
+    "UsageTypeID": 1,
+    "UsageCost": "0,40 per kWh",
     "AddressInfo": {
         "ID": 35800,
         "Title": "Telefoonweg",
@@ -33,21 +33,25 @@
         "Latitude": 52.045572,
         "Longitude": 5.668365,
         "ContactTelephone1": "0800-3522365",
-        "RelatedURL": "http://www.evnet.nl",
+        "RelatedURL": "https://www.allego.eu",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 38965,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 11,
-            "CurrentTypeID": 10
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 10,
+            "Quantity": 12
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 12,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-06-23T17:19:00Z",
+    "DateLastStatusUpdate": "2022-09-23T12:27:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2015-01-09T06:05:00Z",
     "SubmissionStatusTypeID": 100

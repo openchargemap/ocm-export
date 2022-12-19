@@ -46,8 +46,8 @@
             "DateCreated": "2017-09-26T13:14:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-02T09:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:42:00Z",
     "ID": 93191,
     "UUID": "31AA9B52-A137-49A0-A223-2AE0595E41B9",
     "DataProviderID": 1,
@@ -66,7 +66,6 @@
         "CountryID": 1,
         "Latitude": 51.660135230221,
         "Longitude": -0.266537399388314,
-        "AccessComments": "in public pay and display car park. Marked bays. Two near entrance, two near back wall to the right of the car park.",
         "RelatedURL": "https://www.hertsmere.gov.uk/transport--streets--parking/parking/car-parks-within-hertsmere/borehamwood-car-parks.aspx",
         "DistanceUnit": 0
     },
@@ -74,19 +73,34 @@
         {
             "ID": 132008,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81309",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Sean-Carl"
+        },
+        {
+            "ID": 320981,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-81282",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Nick-Lisa"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Hertsmere Borough Council - Civic Car Park in Civic Offices, Elstree Way, Borehamwood",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-02T09:11:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-09-21T16:20:00Z",
     "SubmissionStatusTypeID": 200

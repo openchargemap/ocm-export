@@ -1,15 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-03T11:25:00Z",
+    "UserComments": [
+        {
+            "ID": 26062,
+            "ChargePointID": 173500,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "still faulty.",
+            "DateCreated": "2022-07-25T09:09:21.747Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-25T09:09:00Z",
     "ID": 173500,
     "UUID": "53ADAAB5-31AE-414E-88F7-6ACEA9815A11",
-    "DataProviderID": 18,
-    "DataProvidersReference": "b153ea161401d7c68911515ffd65d457",
+    "DataProviderID": 1,
     "OperatorID": 20,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 173859,
-        "Title": "At Bristol",
+        "Title": "Millennium Square underground car park",
         "AddressLine1": "10 Canons Way",
         "Town": "Bristol",
         "Postcode": "BS1 5LL",
@@ -25,27 +40,30 @@
             "ID": 266553,
             "ConnectionTypeID": 25,
             "Reference": "SW1",
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 266554,
             "ConnectionTypeID": 25,
             "Reference": "SW2",
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-03-03T11:25:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-07-25T09:09:00Z",
     "MetadataValues": [
         {
             "ID": 8422,

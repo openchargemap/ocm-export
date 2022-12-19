@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-02-25T09:51:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T12:49:00Z",
     "ID": 134886,
     "UUID": "015D4200-534B-48AD-8174-875FD9D1B1E6",
     "DataProviderID": 1,
     "OperatorID": 207,
-    "UsageTypeID": 5,
-    "UsageCost": "0,35 in AC and 0,54 in DC",
+    "UsageTypeID": 4,
+    "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
     "AddressInfo": {
         "ID": 135232,
         "Title": "Àrea de Bassella",
@@ -25,33 +25,35 @@
     "Connections": [
         {
             "ID": 188720,
-            "ConnectionTypeID": 7,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 75,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 10,
+            "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
             "ID": 188721,
             "ConnectionTypeID": 33,
             "StatusTypeID": 75,
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 188722,
             "ConnectionTypeID": 2,
             "StatusTypeID": 75,
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -65,7 +67,7 @@
     "NumberOfPoints": 2,
     "GeneralComments": "We do have 2 different charging stations: \r\nOne from TESLA with a universal charger and a charger only for Tesla Vehicles. \r\nOne from ENDESA, which is much faster and powerful",
     "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2020-02-25T09:51:00Z",
+    "DateLastStatusUpdate": "2022-10-25T12:49:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-11-28T14:00:00Z",
     "SubmissionStatusTypeID": 200

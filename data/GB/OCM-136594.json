@@ -1,15 +1,15 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-03-17T08:54:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-31T22:05:00Z",
     "ID": 136594,
     "UUID": "00C37C00-5BD3-466A-BD5F-DBA348367642",
-    "DataProviderID": 18,
-    "DataProvidersReference": "2968213e79a3a2d48490ffd189255384",
-    "OperatorID": 25,
+    "DataProviderID": 1,
+    "OperatorID": 3357,
     "UsageTypeID": 1,
+    "UsageCost": "£0.45/kWh",
     "AddressInfo": {
         "ID": 136940,
-        "Title": "119 Bramley Road",
+        "Title": "Oakwood Station NCP Car Park",
         "AddressLine1": "119 Bramley Road",
         "Town": "Southgate",
         "Postcode": "N14 4UT",
@@ -23,29 +23,28 @@
     "Connections": [
         {
             "ID": 191064,
-            "ConnectionTypeID": 25,
-            "Reference": "1",
+            "ConnectionTypeID": 2,
+            "Reference": "UT07E4",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 191065,
-            "ConnectionTypeID": 25,
-            "Reference": "2",
+            "ConnectionTypeID": 33,
+            "Reference": "UT07E4",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2020-03-17T08:54:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-05-31T22:05:00Z",
     "MetadataValues": [
         {
             "ID": 6446,

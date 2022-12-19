@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-06-18T08:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T09:12:00Z",
     "ID": 175896,
     "UUID": "877224AD-6F23-4760-A462-88D6F1E03A34",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "OperatorsReference": "PG-70414,PG-85943",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 176255,
         "Title": "Tesco Extra-Ryde",
@@ -23,18 +24,6 @@
         {
             "ID": 273168,
             "ConnectionTypeID": 25,
-            "Reference": "PG-70414",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 273169,
-            "ConnectionTypeID": 25,
             "Reference": "PG-85943",
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -42,12 +31,26 @@
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Duke-Yves"
+        },
+        {
+            "ID": 321414,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70414",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Erin-Alec"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-18T08:38:00Z",
+    "DateLastStatusUpdate": "2022-11-01T09:12:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-18T08:38:00Z",
     "SubmissionStatusTypeID": 200

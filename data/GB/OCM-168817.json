@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-18T06:20:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-26T05:22:00Z",
     "ID": 168817,
     "UUID": "23D3BC75-44A8-489C-9B6C-6C4DA9A161A2",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_4219_011,t54_it1_3519_095",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 169176,
         "Title": "Lidl - Nottingham",
@@ -25,39 +25,78 @@
         {
             "ID": 256625,
             "ConnectionTypeID": 33,
+            "Reference": "t54_it1_3519_095",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Dell-Lois"
         },
         {
-            "ID": 269002,
+            "ID": 323645,
             "ConnectionTypeID": 2,
+            "Reference": "t54_it1_3519_095",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Dell-Lois"
         },
         {
-            "ID": 269048,
+            "ID": 323646,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4219_011",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Cleo-Herb"
+        },
+        {
+            "ID": 323647,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4219_011",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 63,
+            "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Cleo-Herb"
+        },
+        {
+            "ID": 323648,
+            "ConnectionTypeID": 25,
+            "Reference": "t54_it1_3519_095",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Dell-Lois"
+        },
+        {
+            "ID": 325127,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4219_011",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Cleo-Herb"
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 3,
     "GeneralComments": "43kW Type 2, 50kW CCS & CHAdeMO. Pod Point Rapids, Dell-Lois & Cleo-Herb. AC + 1 DC connector can charge simultaneously on each unit",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-18T06:20:00Z",
+    "DateLastStatusUpdate": "2022-10-26T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-06T13:59:00Z",
     "SubmissionStatusTypeID": 200

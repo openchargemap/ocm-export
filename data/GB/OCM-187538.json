@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-24T18:30:00Z",
     "ID": 187538,
     "UUID": "5652F14D-D566-4D59-8C33-B46155A45A38",
-    "DataProviderID": 18,
-    "DataProvidersReference": "3dfbf3b3c53c9a8744f6d0572b9158cf",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-101316,PG-101380",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.26/kWh",
     "AddressInfo": {
         "ID": 187897,
         "Title": "Basin Road",
@@ -16,25 +17,40 @@
         "CountryID": 1,
         "Latitude": 50.828302,
         "Longitude": -0.203343,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 302689,
+            "ID": 319930,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-101316",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Herb-Bing"
+        },
+        {
+            "ID": 323769,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-101380",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Cody-Theo"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-24T18:30:00Z",
     "MetadataValues": [
         {
             "ID": 19778,
@@ -42,7 +58,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:38:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

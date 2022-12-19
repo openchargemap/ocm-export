@@ -1,38 +1,82 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-10-28T19:56:00Z",
+    "MediaItems": [
+        {
+            "ID": 33102,
+            "ChargePointID": 189712,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM189712/OCM-189712.orig.2022082411583731.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM189712/OCM-189712.thmb.2022082411583731.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39961,
+                "Username": "adamhermann"
+            },
+            "DateCreated": "2022-08-24T11:59:00Z"
+        },
+        {
+            "ID": 33101,
+            "ChargePointID": 189712,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM189712/OCM-189712.orig.2022082411582490.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM189712/OCM-189712.thmb.2022082411582490.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39961,
+                "Username": "adamhermann"
+            },
+            "DateCreated": "2022-08-24T11:58:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-24T11:59:00Z",
     "ID": 189712,
     "UUID": "8E0E667E-DE1D-4413-ADC0-ED7CB96ED701",
     "DataProviderID": 1,
     "OperatorID": 3462,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
+    "UsageCost": "135,- Ft/kWh",
     "AddressInfo": {
         "ID": 190071,
         "Title": "TEA. Lázbérc",
         "AddressLine1": "2506",
+        "AddressLine2": "H2O Autómosó és Benzinkút",
         "Town": "Dédestapolcsány",
+        "StateOrProvince": "Borsod-Abaúj-Zemplén megye",
+        "Postcode": "3643",
         "CountryID": 104,
-        "Latitude": 48.18761188834796,
-        "Longitude": 20.487143487618738,
+        "Latitude": 48.187762,
+        "Longitude": 20.486916,
         "ContactTelephone1": "+36305509858",
-        "RelatedURL": "http://www.teapont.hu",
+        "ContactTelephone2": "+36 30 550 9858",
+        "AccessComments": "Start charging with Teapont application or QR code  HELPDESK: help@teapont.hu +36305509858  WEB: https://www.teapont.hu/",
+        "RelatedURL": "https://www.teapont.hu/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 306918,
             "ConnectionTypeID": 25,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "help@teapont.hu",
+    "NumberOfPoints": 2,
+    "GeneralComments": "TEApont alkalmazásból vagy a készüléken található QR kóddal, illetve RFID kártyával indítható a töltés. Töltsd le a TEApont applikációt a Google Play-ből vagy az AppStore-ból!",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-28T19:56:00Z",
+    "DateLastStatusUpdate": "2022-08-24T11:59:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-10-28T12:45:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 25770,
+            "ChargePointID": 50339,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Una nuova fast e due nuove quick che sono andate a sostituire le due quick non funzionanti da tempo. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnine-enel-x-fast-ikea-camerano-an-via-aspio-terme-t22447.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-enel-x-fast-ikea-camerano-an-via-aspio-terme-t22447.html",
+            "DateCreated": "2022-05-18T10:21:09.627Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 160,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 19194,
             "ChargePointID": 50339,
             "CommentTypeID": 10,
@@ -28,6 +43,54 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 31743,
+            "ChargePointID": 50339,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM50339/OCM-50339.orig.2022051810213149.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM50339/OCM-50339.thmb.2022051810213149.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-05-18T10:22:00Z"
+        },
+        {
+            "ID": 31741,
+            "ChargePointID": 50339,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM50339/OCM-50339.orig.2022051810212122.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM50339/OCM-50339.thmb.2022051810212122.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-05-18T10:21:00Z"
+        },
+        {
+            "ID": 31742,
+            "ChargePointID": 50339,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM50339/OCM-50339.orig.2022051810212648.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM50339/OCM-50339.thmb.2022051810212648.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-05-18T10:21:00Z"
+        },
         {
             "ID": 15072,
             "ChargePointID": 50339,
@@ -109,8 +172,8 @@
             "DateCreated": "2015-08-30T14:56:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-10-21T10:54:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-02T10:47:00Z",
     "ID": 50339,
     "UUID": "08508996-DC73-4E6D-B2C5-3B90F85C8A45",
     "DataProviderID": 1,
@@ -119,14 +182,14 @@
     "UsageCost": "0,45€/kW",
     "AddressInfo": {
         "ID": 50685,
-        "Title": "IKEA Ancona | EnelX",
-        "AddressLine1": "Via Aspio Terme",
+        "Title": "Enel X IKEA Aspio Terme",
+        "AddressLine1": "Via Carlo Goldoni 76",
         "Town": "Camerano",
         "StateOrProvince": "AN",
         "Postcode": "60021",
         "CountryID": 112,
-        "Latitude": 43.529448443475815,
-        "Longitude": 13.519411447570064,
+        "Latitude": 43.529396,
+        "Longitude": 13.519741,
         "AccessComments": "A14 uscita Ancona Sud/Osimo",
         "RelatedURL": "https://www.enelx.com/it/it/emobility",
         "DistanceUnit": 0
@@ -144,21 +207,37 @@
             "Quantity": 2
         },
         {
-            "ID": 62011,
-            "ConnectionTypeID": 36,
+            "ID": 313999,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 240,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 314000,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 314001,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Accessibile solo durante gli orari di apertura del negozio.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-10-21T10:54:00Z",
+    "DateLastStatusUpdate": "2022-07-02T10:47:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-07-21T19:24:00Z",
     "SubmissionStatusTypeID": 200

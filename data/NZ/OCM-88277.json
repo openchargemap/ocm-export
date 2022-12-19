@@ -1,14 +1,15 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-01-01T11:27:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-11T01:01:00Z",
     "ID": 88277,
     "UUID": "B4AF3DF2-AAF8-4633-883E-70074FFBEE85",
     "DataProviderID": 1,
     "OperatorID": 229,
+    "UsageTypeID": 4,
     "UsageCost": "$0.25/kWh + $0.25/min",
     "AddressInfo": {
         "ID": 88623,
-        "Title": "Te Kuiti New World (Coming Soon)",
+        "Title": "Te Kuiti (New World)",
         "AddressLine1": "53 Rora Street",
         "Town": "Te Kuiti",
         "Postcode": "3910",
@@ -16,13 +17,15 @@
         "Latitude": -38.3323751839562,
         "Longitude": 175.163235868752,
         "ContactTelephone1": "(080) 022-4274",
+        "AccessComments": "24/7",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 125227,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "TKTI1",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -31,17 +34,18 @@
         {
             "ID": 125228,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "TKTI1",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "24/7\r\nNew World front carpark",
+    "NumberOfPoints": 1,
+    "GeneralComments": "New World front carpark",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-01-01T11:27:00Z",
+    "DateLastStatusUpdate": "2022-07-11T01:01:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-25T14:23:00Z",
     "SubmissionStatusTypeID": 200

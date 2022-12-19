@@ -1,42 +1,60 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-02-16T08:54:00Z",
+    "MediaItems": [
+        {
+            "ID": 32900,
+            "ChargePointID": 149037,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM149037/OCM-149037.orig.2022081619163383.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM149037/OCM-149037.thmb.2022081619163383.jpg",
+            "Comment": "esta en la gasolinera, no en la direccion que indica. aun sin conectar",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39939,
+                "Username": "amovilar"
+            },
+            "DateCreated": "2022-08-16T19:17:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-04T10:25:00Z",
     "ID": 149037,
     "UUID": "E83F5C6D-14D7-4575-883C-F784722FCA43",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 91,
     "UsageTypeID": 1,
-    "UsageCost": "0.38€/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 149390,
-        "Title": "Calle San Francisco",
-        "AddressLine1": "Calle San Francisco",
+        "Title": "Repsol",
+        "AddressLine1": "Repsol",
         "Town": "Villares de la Reina",
         "StateOrProvince": "Castile and León",
         "Postcode": "37184",
         "CountryID": 210,
-        "Latitude": 41.00706259163874,
-        "Longitude": -5.648292559268009,
+        "Latitude": 41.00487014819467,
+        "Longitude": -5.649298946510612,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 206957,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 150,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 206958,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 150,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 206959,
@@ -45,12 +63,12 @@
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-02-16T08:54:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-09-04T10:25:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-02-15T22:46:00Z",
     "SubmissionStatusTypeID": 200

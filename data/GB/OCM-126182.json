@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-13T13:20:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T18:40:00Z",
     "ID": 126182,
     "UUID": "FB821395-9EF8-486D-8279-87B279F5E886",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-82298",
     "UsageTypeID": 4,
-    "UsageCost": "£1.00/hour",
+    "UsageCost": "£2.00/hour for 4 hours,then £1.00/hour",
     "AddressInfo": {
         "ID": 126528,
         "Title": "Ibis Birmingham Bordersley Circus",
@@ -24,19 +24,21 @@
         {
             "ID": 176837,
             "ConnectionTypeID": 25,
+            "Reference": "PG-82298",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Evan-Otis"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the IBIS Birmingham Bordersley Circus hotel in Bordesley Park Road, Bordesley Green, Birmingham",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T13:20:00Z",
+    "DateLastStatusUpdate": "2022-08-15T18:40:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-05-13T13:20:00Z",
     "SubmissionStatusTypeID": 200

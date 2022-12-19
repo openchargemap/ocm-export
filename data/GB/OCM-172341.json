@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-01-30T17:33:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-28T05:22:00Z",
     "ID": 172341,
     "UUID": "8DD1FF6E-598A-4D88-8408-B049D83C0DA1",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-100633,PG-98707",
     "UsageTypeID": 4,
-    "UsageCost": "Free, use Pod Point app or webpage charge.pod-point.com to confirm cha",
+    "UsageCost": "£0.50/kWh,£1.50/kWh",
     "AddressInfo": {
         "ID": 172700,
         "Title": "Doughnut Time",
@@ -17,7 +18,7 @@
         "Postcode": "RG2 0AU ",
         "CountryID": 1,
         "Latitude": 51.4422261643528,
-        "Longitude": -0.9700897079592323,
+        "Longitude": -0.970089707959232,
         "RelatedURL": "https://pod-point.com/",
         "DistanceUnit": 0
     },
@@ -25,27 +26,33 @@
         {
             "ID": 263486,
             "ConnectionTypeID": 25,
+            "Reference": "PG-98707",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Quin-Hans"
         },
         {
-            "ID": 263487,
+            "ID": 319907,
             "ConnectionTypeID": 25,
+            "Reference": "PG-100633",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Clay-Abel"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-30T17:33:00Z",
+    "DateLastStatusUpdate": "2022-10-28T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-01-30T17:33:00Z",
     "SubmissionStatusTypeID": 200

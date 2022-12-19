@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-29T05:22:00Z",
     "ID": 187841,
     "UUID": "7C4B887E-FFB5-424B-AE46-6FD09EAAF836",
-    "DataProviderID": 18,
-    "DataProvidersReference": "ed0fcab9aa153ab5f9265e339d240d4c",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-70388,PG-85396,veefil-12000295",
+    "UsageTypeID": 4,
+    "UsageCost": "Free,£0.28/kWh",
     "AddressInfo": {
         "ID": 188200,
         "Title": "Colletts Drive",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 51.905567,
         "Longitude": -2.087004,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,55 @@
         {
             "ID": 303128,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-85396",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Ralf-Shay"
         },
         {
-            "ID": 303129,
+            "ID": 320576,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "PG-70388",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Yves-Shia"
+        },
+        {
+            "ID": 339711,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000295",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Kyla-Koah"
+        },
+        {
+            "ID": 339712,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000295",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Kyla-Koah"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-29T05:22:00Z",
     "MetadataValues": [
         {
             "ID": 20081,
@@ -53,7 +80,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

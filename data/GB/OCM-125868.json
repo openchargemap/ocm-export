@@ -241,15 +241,15 @@
             "DateCreated": "2019-05-02T15:36:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-19T06:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T10:01:00Z",
     "ID": 125868,
     "UUID": "7775B38B-DC97-485C-8540-594C4BBC528B",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_hu1_5018_028",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 126214,
         "Title": "Lidl Droitwich",
@@ -265,36 +265,40 @@
         {
             "ID": 176398,
             "ConnectionTypeID": 2,
+            "Reference": "t53_hu1_5018_028",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Dora-Kirk"
         },
         {
-            "ID": 176399,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 176400,
+            "ID": 321943,
             "ConnectionTypeID": 1036,
+            "Reference": "t53_hu1_5018_028",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Dora-Kirk"
+        },
+        {
+            "ID": 323515,
+            "ConnectionTypeID": 33,
+            "Reference": "t53_hu1_5018_028",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Dora-Kirk"
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-19T06:19:00Z",
+    "DateLastStatusUpdate": "2022-08-16T10:01:00Z",
     "MetadataValues": [
         {
             "ID": 4207,

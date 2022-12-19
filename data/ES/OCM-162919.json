@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-21T07:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-27T19:20:00Z",
     "ID": 162919,
     "UUID": "F8412394-CBA1-40C9-BF86-03C9C44001E0",
     "DataProviderID": 1,
     "OperatorID": 2247,
-    "UsageTypeID": 1,
-    "UsageCost": "0.3 €/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh ",
     "AddressInfo": {
         "ID": 163276,
         "Title": "Iberdrola Ibi",
@@ -22,43 +22,31 @@
         {
             "ID": 234457,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 234458,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 234459,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
-        },
-        {
-            "ID": 234460,
-            "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
-        },
-        {
-            "ID": 234461,
-            "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
-        },
-        {
-            "ID": 234462,
-            "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-21T07:21:00Z",
+    "DateLastStatusUpdate": "2022-10-27T19:20:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-08-18T13:52:00Z",
     "SubmissionStatusTypeID": 200

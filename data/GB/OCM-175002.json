@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-06-28T08:04:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-03T06:22:00Z",
     "ID": 175002,
     "UUID": "BDAD77E5-2F6C-465D-B699-FC327F6E821A",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70440,PG-86853",
+    "OperatorsReference": "PG-70440,PG-86853,veefil-12100044",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 175361,
         "Title": "Tesco Superstore-Sleaford",
@@ -16,8 +16,8 @@
         "StateOrProvince": "England",
         "Postcode": "NG34 7BB",
         "CountryID": 1,
-        "Latitude": 53.00155561661305,
-        "Longitude": -0.4101765962892614,
+        "Latitude": 53.001555616613,
+        "Longitude": -0.410176596289261,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,51 +28,51 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
+            "Voltage": 400,
             "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Yves-Ruby"
         },
         {
-            "ID": 271210,
+            "ID": 323980,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12100044",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Pola-Mazy"
+        },
+        {
+            "ID": 323981,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100044",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Pola-Mazy"
+        },
+        {
+            "ID": 324636,
             "ConnectionTypeID": 25,
             "Reference": "PG-86853",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
-            "ID": 273722,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "Shared with 50kW CHAdeMO"
-        },
-        {
-            "ID": 273723,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "Shared with 50kW CCS"
+            "Quantity": 2,
+            "Comments": "Cora-Rory"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-28T08:04:00Z",
+    "DateLastStatusUpdate": "2022-11-03T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-23T15:38:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,13 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-11T12:10:00Z",
+    "DateLastVerified": "2022-08-16T19:14:00Z",
     "ID": 172344,
     "UUID": "98944C96-3132-431F-95CF-800BE811BA76",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_4020_013",
-    "UsageTypeID": 6,
-    "UsageCost": "£0.25/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 172703,
         "Title": "Lidl - Rowan Road",
@@ -25,36 +25,42 @@
         {
             "ID": 263492,
             "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4020_013",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Luca-Rudy"
         },
         {
-            "ID": 263493,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 263494,
+            "ID": 323633,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4020_013",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Luca-Rudy"
+        },
+        {
+            "ID": 325125,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4020_013",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Luca-Rudy"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-11T12:10:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:14:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-01-30T17:43:00Z",
     "SubmissionStatusTypeID": 200

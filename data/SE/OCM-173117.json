@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-24T05:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T17:28:00Z",
     "ID": 173117,
     "UUID": "E0778DF9-8E9B-44B9-B5EB-111CBC46EE45",
-    "DataProviderID": 19,
-    "DataProvidersReference": "7213",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 173476,
         "Title": "Lidl Uddevalla Torp",
@@ -13,8 +13,8 @@
         "StateOrProvince": "VÄSTRA GÖTALAND",
         "Postcode": "45176",
         "CountryID": 216,
-        "Latitude": 58.35202,
-        "Longitude": 11.82355,
+        "Latitude": 58.3578939863512,
+        "Longitude": 11.816247718304112,
         "AccessComments": "Två laddstationer med två laddplatser vardera befinner sig på Lidls kundparkering.",
         "DistanceUnit": 0
     },
@@ -28,6 +28,7 @@
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 2,
             "Comments": "Mode 2"
         },
         {
@@ -39,56 +40,25 @@
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 2,
             "Comments": "Mode 2"
         },
         {
             "ID": 265170,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "Reference": "3",
             "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Comments": "Mode 2"
-        },
-        {
-            "ID": 265171,
-            "ConnectionTypeID": 2,
-            "Reference": "4",
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 2"
-        },
-        {
-            "ID": 265172,
-            "ConnectionTypeID": 33,
-            "Reference": "5",
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 2"
-        },
-        {
-            "ID": 265173,
-            "ConnectionTypeID": 25,
-            "Reference": "6",
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "Quantity": 2,
             "Comments": "Mode 2"
         }
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-03-24T05:11:00Z",
+    "DateLastStatusUpdate": "2022-10-25T17:28:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2021-03-03T09:01:00Z",
     "SubmissionStatusTypeID": 100

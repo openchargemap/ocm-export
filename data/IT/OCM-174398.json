@@ -50,13 +50,13 @@
             "DateCreated": "2021-03-28T06:09:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-28T06:09:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-03T09:35:00Z",
     "ID": 174398,
     "UUID": "35E951CF-27E2-4EB3-B8F8-F826DA6B8CC9",
     "DataProviderID": 1,
     "OperatorID": 80,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 174757,
         "Title": "Enel X Mossa ",
@@ -73,25 +73,34 @@
         {
             "ID": 270134,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 270135,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 270136,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-03-28T06:09:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2022-07-03T09:35:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-28T06:08:00Z",
     "SubmissionStatusTypeID": 200

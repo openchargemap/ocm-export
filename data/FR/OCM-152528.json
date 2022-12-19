@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:13:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-23T10:32:00Z",
     "ID": 152528,
     "UUID": "2F0E22DE-DA1C-4FF7-B4A8-EFC0C10325D8",
     "DataProviderID": 28,
     "DataProvidersReference": "FRS1827902",
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 152881,
         "Title": "Vierzon - Place Fernand Micouraud",
@@ -13,28 +13,30 @@
         "CountryID": 80,
         "Latitude": 47.221537,
         "Longitude": 2.0691079,
-        "AccessComments": "24h/24h",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 213561,
-            "ConnectionTypeID": 26,
+            "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 18
+            "PowerKW": 18,
+            "CurrentTypeID": 10
         },
         {
             "ID": 246595,
-            "ConnectionTypeID": 26,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 18
+            "PowerKW": 18,
+            "CurrentTypeID": 20
         }
     ],
-    "GeneralComments": "Borne en service",
+    "GeneralComments": "Paiement via badge et smarthphone",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:13:00Z",
+    "DateLastStatusUpdate": "2022-08-23T10:32:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:53:00Z",
     "SubmissionStatusTypeID": 100

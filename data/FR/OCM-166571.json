@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:15:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-23T10:34:00Z",
     "ID": 166571,
     "UUID": "DE5E713E-8F9A-41D1-9EAD-D114B926DED3",
     "DataProviderID": 28,
@@ -11,14 +11,29 @@
         "Title": "La Loupe | Rue Pasteur",
         "AddressLine1": "Rue Pasteur 28240 La Loupe",
         "CountryID": 80,
-        "Latitude": 48.47071,
+        "Latitude": 48.470711,
         "Longitude": 1.012175,
-        "AccessComments": "24/24 7/7",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 249491,
+            "ConnectionTypeID": 26,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22
+        },
+        {
+            "ID": 249492,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 10
+        },
+        {
+            "ID": 249493,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -26,14 +41,22 @@
             "CurrentTypeID": 20
         },
         {
-            "ID": 249492,
+            "ID": 330179,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 330180,
             "ConnectionTypeID": 26,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22
         },
         {
-            "ID": 249493,
+            "ID": 330181,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -43,7 +66,7 @@
     ],
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:15:00Z",
+    "DateLastStatusUpdate": "2022-08-23T10:34:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:15:00Z",
     "SubmissionStatusTypeID": 100

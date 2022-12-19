@@ -99,12 +99,12 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-12-05T16:27:00Z",
+    "DateLastVerified": "2022-05-22T21:27:00Z",
     "ID": 190414,
     "UUID": "2B7F9EE6-56DC-4C0E-B0AF-5773794530CE",
     "DataProviderID": 1,
     "OperatorID": 80,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 190773,
         "Title": "Enel X Eni",
@@ -121,25 +121,36 @@
         {
             "ID": 308687,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 308688,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 308689,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 64,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-05T16:27:00Z",
+    "DateLastStatusUpdate": "2022-05-22T21:27:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-12-05T16:26:00Z",
     "SubmissionStatusTypeID": 200

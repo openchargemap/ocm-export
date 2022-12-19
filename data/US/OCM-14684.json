@@ -1,11 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:06:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-23T17:14:00Z",
     "ID": 14684,
     "UUID": "0C081B7E-BCDC-4CD5-B9F1-F11277F6957A",
-    "DataProviderID": 2,
-    "DataProvidersReference": "49768",
-    "UsageTypeID": 7,
+    "DataProviderID": 1,
+    "OperatorID": 45,
+    "UsageTypeID": 1,
+    "UsageCost": "CCS/CHAdeMO - Free, J1772 - Blink network",
     "AddressInfo": {
         "ID": 14581,
         "Title": "Rosen Nissan",
@@ -17,8 +18,7 @@
         "Latitude": 43.036416,
         "Longitude": -89.42127,
         "ContactTelephone1": "608-271-6000",
-        "AccessComments": "Dealership business hours\r\nPublic - Call ahead",
-        "RelatedURL": "",
+        "AccessComments": "In front of Nissan Dealership. Can park in front of showroom door or on curb. Running 24/7.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,20 +30,32 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Uses Blink network"
         },
         {
             "ID": 21952,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 45,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Free"
+        },
+        {
+            "ID": 316486,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 0,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:06:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-07-23T17:14:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2012-12-06T16:50:00Z",
     "SubmissionStatusTypeID": 100

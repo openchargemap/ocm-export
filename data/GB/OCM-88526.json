@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-01-12T14:10:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:42:00Z",
     "ID": 88526,
     "UUID": "E4932E5D-6937-4C1E-9111-A50D4B81507E",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-81084,PG-81087",
     "UsageTypeID": 4,
-    "UsageCost": "£0.17/kWh",
+    "UsageCost": "£0.29/kWh",
     "AddressInfo": {
         "ID": 88872,
         "Title": "Center Parcs-Sherwood Forest (for Center Parcs Guests Only)",
@@ -23,19 +23,34 @@
         {
             "ID": 125576,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81084",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Roxy-Dave"
+        },
+        {
+            "ID": 320951,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-81087",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Ryan-Mary"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Center Parcs - Sherwood Forest site in Rufford, Newark, Nottinghamshire",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-12T14:10:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-06-01T05:51:00Z",
     "SubmissionStatusTypeID": 200

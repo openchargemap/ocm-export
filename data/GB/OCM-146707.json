@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-01-14T14:58:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T09:11:00Z",
     "ID": 146707,
     "UUID": "417659B7-6819-436F-A608-374AAD9FADE2",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70117,PG-83929",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 147059,
         "Title": "Tesco Extra-Barrow-in-Furness",
@@ -24,19 +24,34 @@
         {
             "ID": 204009,
             "ConnectionTypeID": 25,
+            "Reference": "PG-83929",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Noel-Lara"
+        },
+        {
+            "ID": 320309,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70117",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Noel-Demi"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Corner House Park, Hindpool Road, Barrow-In-Furness",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-14T14:58:00Z",
+    "DateLastStatusUpdate": "2022-11-01T09:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-01-14T09:51:00Z",
     "SubmissionStatusTypeID": 200

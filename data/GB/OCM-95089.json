@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-13T12:53:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T18:39:00Z",
     "ID": 95089,
     "UUID": "DBE7D9C4-3577-445D-B1A2-7A3F52668480",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-81476",
     "UsageTypeID": 4,
-    "UsageCost": "£1.00/hour",
+    "UsageCost": "£2.00/hour for 4 hours,then £1.00/hour",
     "AddressInfo": {
         "ID": 95435,
         "Title": "BW Carlton Blackpool",
@@ -23,19 +23,21 @@
         {
             "ID": 134731,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81476",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Tess-Bill"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the BW Carlton Blackpool hotel in North Promenade, Blackpool",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T12:53:00Z",
+    "DateLastStatusUpdate": "2022-08-15T18:39:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-11-03T06:22:00Z",
     "SubmissionStatusTypeID": 200

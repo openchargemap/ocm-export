@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-24T15:26:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-10T07:32:00Z",
     "ID": 163736,
     "UUID": "18D3AEEF-2275-433A-97EF-1C75C6F45F76",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 45,
     "OperatorsReference": "40883",
     "UsageTypeID": 4,
     "AddressInfo": {
@@ -17,7 +17,7 @@
         "CountryID": 210,
         "Latitude": 40.363669,
         "Longitude": -3.739337,
-        "ContactTelephone1": "+34 915 11 46 80",
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,13 +28,40 @@
             "LevelID": 2,
             "PowerKW": 11,
             "CurrentTypeID": 20,
+            "Quantity": 3
+        },
+        {
+            "ID": 345143,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 345144,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 345145,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 11kW.Available for customers. Self park.",
+    "NumberOfPoints": 9,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-24T15:26:00Z",
+    "DateLastStatusUpdate": "2022-10-10T07:32:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-08-24T15:26:00Z",
     "SubmissionStatusTypeID": 200

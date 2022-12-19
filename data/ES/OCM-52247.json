@@ -1,14 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2015-08-31T10:14:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-21T22:17:00Z",
     "ID": 52247,
     "UUID": "571B1AFE-47D1-45DB-91DF-AADEF54E4CC6",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3577,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 52593,
-        "Title": "Via Augusta - Setze Jutges (TRIO) FC002",
+        "Title": "B:SM Via Augusta - Setze Jutges (TRIO) FC002",
         "AddressLine1": "Via Augusta, 352",
         "Town": "Barcelona",
         "StateOrProvince": "Barcelona",
@@ -25,28 +25,34 @@
     "Connections": [
         {
             "ID": 64883,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 43,
-            "Quantity": 1
+            "CurrentTypeID": 20,
+            "Quantity": 2
         },
         {
             "ID": 64884,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 64885,
-            "ConnectionTypeID": 32
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2015-08-31T10:14:00Z",
+    "DateLastStatusUpdate": "2022-10-21T22:17:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-08-27T10:36:00Z",
     "SubmissionStatusTypeID": 200

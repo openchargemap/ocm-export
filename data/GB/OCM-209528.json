@@ -1,0 +1,79 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-31T06:22:00Z",
+    "ID": 209528,
+    "UUID": "2AEE34EF-4C8C-4BBD-913B-71FDF7F8CF9A",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70579,PG-89157,veefil-12100560",
+    "UsageTypeID": 4,
+    "UsageCost": "Free,£0.28/kWh",
+    "AddressInfo": {
+        "ID": 209908,
+        "Title": "Tesco Superstore-Warwick",
+        "AddressLine1": "Emscote Road",
+        "Town": "Warwick",
+        "Postcode": "CV34 5QJ",
+        "CountryID": 1,
+        "Latitude": 52.286155,
+        "Longitude": -1.564236,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 348616,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70579",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Niki-Chip"
+        },
+        {
+            "ID": 348617,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-89157",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Rudy-Orla"
+        },
+        {
+            "ID": 348618,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12100560",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Lynn-Amoy"
+        },
+        {
+            "ID": 348619,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100560",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Lynn-Amoy"
+        }
+    ],
+    "NumberOfPoints": 3,
+    "GeneralComments": "This is an open charge unit installed at the Tesco Superstore site in Emscote Road, Warwick",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-31T06:22:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-10-30T06:22:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-08T11:41:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:46:00Z",
     "ID": 173051,
     "UUID": "CBF95EF7-BDE5-4CAB-8FBE-6AC171A16572",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70322,PG-86128",
+    "OperatorsReference": "PG-70322,PG-86128,veefil-12000558",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 173410,
         "Title": "Tesco Superstore-Newtown",
@@ -23,30 +23,56 @@
         {
             "ID": 264780,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70322",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Iris-Suki"
+        },
+        {
+            "ID": 322511,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000558",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Earl-Arah"
+        },
+        {
+            "ID": 323889,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000558",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Earl-Arah"
+        },
+        {
+            "ID": 323890,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86128",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
-            "ID": 267916,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Elle-Jess"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Pool Road, Newtown",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-08T11:41:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-02T21:01:00Z",
     "SubmissionStatusTypeID": 200

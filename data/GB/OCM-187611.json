@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-14T05:22:00Z",
     "ID": 187611,
     "UUID": "A074CAD7-29F1-4020-A9A9-5CBAA8E9C78A",
-    "DataProviderID": 18,
-    "DataProvidersReference": "a833fe62e6db834b5dede9b7313f7ddb",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-96864",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.75/kWh",
     "AddressInfo": {
         "ID": 187970,
         "Title": "Indigo Antiques Ltd, Dairy Barn",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 51.321305,
         "Longitude": -1.79694,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,17 +24,20 @@
         {
             "ID": 302809,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-96864",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Syed-Lise"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-14T05:22:00Z",
     "MetadataValues": [
         {
             "ID": 19851,
@@ -42,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:38:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

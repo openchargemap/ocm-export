@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-01-13T07:42:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-19T10:15:00Z",
     "ID": 59129,
     "UUID": "C3F80604-E9F5-481F-9BD3-E2F070E0A2C0",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 45,
     "UsageTypeID": 6,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -29,14 +29,26 @@
         {
             "ID": 75034,
             "ConnectionTypeID": 1,
-            "StatusTypeID": 0,
-            "LevelID": 2
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 316357,
+            "ConnectionTypeID": 29,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "",
+    "NumberOfPoints": 2,
+    "GeneralComments": "1 outside plug and 1 in their undercover car park",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-01-13T07:42:00Z",
+    "DateLastStatusUpdate": "2022-07-19T10:15:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-01-07T14:52:00Z",
     "SubmissionStatusTypeID": 200

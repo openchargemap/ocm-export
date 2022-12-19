@@ -98,12 +98,14 @@
             "DateCreated": "2020-09-09T07:34:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-09-09T07:35:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-03T11:24:00Z",
     "ID": 167662,
     "UUID": "52F94752-04B0-4CD3-AC96-6317BAC58FAB",
     "DataProviderID": 1,
-    "UsageTypeID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 168021,
         "Title": "Ricarica Aeroporto di Cagliari",
@@ -120,25 +122,35 @@
         {
             "ID": 254590,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 254591,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 254592,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Pay with Nextcharge - 2 hours of free parking for recharge, go to the service desk",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-09T07:35:00Z",
+    "DateLastStatusUpdate": "2022-07-03T11:24:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-09-09T07:34:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-10-21T12:41:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-10T11:20:00Z",
     "ID": 64015,
     "UUID": "232DBCD4-A64C-47EF-B96F-152870EFB7B0",
     "DataProviderID": 1,
     "OperatorID": 74,
     "OperatorsReference": "Fastned Akermaat",
-    "UsageCost": "0.00 per kWh",
+    "UsageCost": "https://fastnedcharging.com/nl/tarieven",
     "AddressInfo": {
         "ID": 64361,
         "Title": "Akermaat",
@@ -24,33 +24,27 @@
     "Connections": [
         {
             "ID": 81838,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 81839,
             "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 186973,
-            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "2 stations have only CCS. 2 have CCS and CHAdeMO.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-10-21T12:41:00Z",
+    "DateLastStatusUpdate": "2022-10-10T11:20:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-03-03T12:32:00Z",
     "SubmissionStatusTypeID": 100

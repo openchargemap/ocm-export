@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-19T05:22:00Z",
     "ID": 187527,
     "UUID": "54F5BB20-046A-448B-8093-BB9F8ED71468",
-    "DataProviderID": 18,
-    "DataProvidersReference": "964dbfcbe013d88c6e39dc4d7b92108f",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-85567",
+    "UsageTypeID": 4,
+    "UsageCost": "then £3.00/hour for 1 hour,then £4.00/hour for 1 hour,then £5.00/hour for 1 hour,then £5.00/hour for 3 hours,then £6.00/hour,then £6.00/hour for 3 hours,£2.00/hour for 1 hour,£3.00/hour for 1 hour",
     "AddressInfo": {
         "ID": 187886,
         "Title": "Ambrook Lodge",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 50.473423,
         "Longitude": -3.658692,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,20 @@
         {
             "ID": 302669,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-85567",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 302670,
-            "ConnectionTypeID": 25,
-            "Reference": "1",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Yoko-Gene"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-09-19T05:22:00Z",
     "MetadataValues": [
         {
             "ID": 19767,
@@ -53,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:38:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

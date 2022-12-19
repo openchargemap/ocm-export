@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-03T06:22:00Z",
     "ID": 187825,
     "UUID": "E91A9CA7-D8E2-485C-B64D-E51E1EE93286",
-    "DataProviderID": 18,
-    "DataProvidersReference": "74597a9c60c0a04fe4288a13a1f9ff55",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-83717,PG-85819,PG-85821,PG-85823",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.14/kWh,Free",
     "AddressInfo": {
         "ID": 188184,
         "Title": "Heol Llywelyn",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 51.653181,
         "Longitude": -3.022232,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,59 @@
         {
             "ID": 303098,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-83717",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Noel-Jess"
         },
         {
-            "ID": 303099,
+            "ID": 324372,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "PG-85823",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Alec-Nero"
+        },
+        {
+            "ID": 324913,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85821",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Amos-Erin"
+        },
+        {
+            "ID": 324914,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85819",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Robb-Neve"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 8,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-11-03T06:22:00Z",
     "MetadataValues": [
         {
             "ID": 20065,
@@ -53,7 +84,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-27T06:22:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T14:42:00Z",
     "ID": 173055,
     "UUID": "FB617F78-897C-4FBB-974D-49DB1FB28A7B",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70423,PG-86125",
+    "OperatorsReference": "PG-70423,PG-86125,veefil-12000557",
     "UsageTypeID": 4,
-    "UsageCost": "Free,£0.27/kWh",
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 173414,
         "Title": "Tesco Superstore-Fareham",
@@ -23,30 +23,56 @@
         {
             "ID": 264784,
             "ConnectionTypeID": 25,
+            "Reference": "PG-86125",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Sage-Jude"
         },
         {
-            "ID": 270091,
+            "ID": 320606,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000557",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Eban-Isra"
+        },
+        {
+            "ID": 323963,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70423",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Liam-Zena"
+        },
+        {
+            "ID": 324625,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000557",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Eban-Isra"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Quay Street, Fareham",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-27T06:22:00Z",
+    "DateLastStatusUpdate": "2022-11-01T14:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-02T21:02:00Z",
     "SubmissionStatusTypeID": 200

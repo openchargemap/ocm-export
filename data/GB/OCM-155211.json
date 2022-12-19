@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-12-20T06:18:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:52:00Z",
     "ID": 155211,
     "UUID": "434050FF-C723-42EB-AA1F-B202A0A56478",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-96536,PG-96547",
     "UsageTypeID": 4,
-    "UsageCost": "£0.16 fixed rate",
+    "UsageCost": "£0.25/kWh",
     "AddressInfo": {
         "ID": 155565,
         "Title": "Denbies Wine Estate",
@@ -24,19 +24,34 @@
         {
             "ID": 218475,
             "ConnectionTypeID": 25,
+            "Reference": "PG-96536",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Nero-Myer"
+        },
+        {
+            "ID": 321808,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-96547",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Owen-Herb"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the Denbies Wine Estate at London Road, Dorking, Surrey",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-20T06:18:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:52:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-03-31T05:39:00Z",
     "SubmissionStatusTypeID": 200

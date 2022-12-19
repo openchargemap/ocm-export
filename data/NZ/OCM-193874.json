@@ -1,0 +1,65 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-05T03:13:00Z",
+    "ID": 193874,
+    "UUID": "BBB6903E-6407-47DE-B1C5-93B4B28FFA8C",
+    "DataProviderID": 1,
+    "OperatorID": 229,
+    "UsageTypeID": 4,
+    "UsageCost": "DC: $0.60/kWh + $0.40/m, AC: $0.25/kWh + $0.25/m, $1/m overstay fee",
+    "AddressInfo": {
+        "ID": 194233,
+        "Title": "Grey Lynn (Giltrap Audi)",
+        "AddressLine1": "150 Great North Road",
+        "Town": "Waitemata",
+        "StateOrProvince": "Auckland",
+        "Postcode": "1021",
+        "CountryID": 161,
+        "Latitude": -36.86268654143719,
+        "Longitude": 174.7493289679869,
+        "ContactTelephone1": "+64 9-887 1874",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 315664,
+            "ConnectionTypeID": 2,
+            "Reference": "GLTP1-DC ,  GLTP2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "$0.60/kWh + $0.40/m"
+        },
+        {
+            "ID": 315665,
+            "ConnectionTypeID": 33,
+            "Reference": "GLTP1DC , GLTP2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "$0.60/kWh + $0.40/m"
+        },
+        {
+            "ID": 315666,
+            "ConnectionTypeID": 1036,
+            "Reference": "GLTP1-AC",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "$0.25/kWh + $0.25/m, $1/m overstay fee"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "Unplug within 5m of stopping charge, or vehicle has been fully charged to avoid $1/m idle fee.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-07-05T03:13:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-07-05T03:13:00Z",
+    "SubmissionStatusTypeID": 200
+}

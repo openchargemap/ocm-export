@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-04T19:28:00Z",
     "ID": 60935,
     "UUID": "057E0813-D676-4B6E-8B5B-2C16DFA2AB22",
-    "DataProviderID": 27,
-    "DataProvidersReference": "138",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61281,
@@ -23,16 +23,25 @@
     "Connections": [
         {
             "ID": 77329,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 77330,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 1,
+            "PowerKW": 2.3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "Tarjeta Movele Sevilla",
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-10-04T19:28:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

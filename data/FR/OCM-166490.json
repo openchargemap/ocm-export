@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:14:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-23T10:33:00Z",
     "ID": 166490,
     "UUID": "7877942B-C419-4122-B830-C062ADF961E8",
     "DataProviderID": 28,
@@ -11,14 +11,29 @@
         "Title": "Varize | Rue du Château",
         "AddressLine1": "Rue du Château 28140 Varize",
         "CountryID": 80,
-        "Latitude": 48.09592,
+        "Latitude": 48.095922,
         "Longitude": 1.51415,
-        "AccessComments": "24/24 7/7",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 248699,
+            "ConnectionTypeID": 26,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22
+        },
+        {
+            "ID": 248700,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 10
+        },
+        {
+            "ID": 248701,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -26,14 +41,22 @@
             "CurrentTypeID": 20
         },
         {
-            "ID": 248700,
+            "ID": 329695,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 329696,
             "ConnectionTypeID": 26,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22
         },
         {
-            "ID": 248701,
+            "ID": 329697,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -43,7 +66,7 @@
     ],
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:14:00Z",
+    "DateLastStatusUpdate": "2022-08-23T10:33:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:14:00Z",
     "SubmissionStatusTypeID": 100

@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-12T12:38:00Z",
     "ID": 61073,
     "UUID": "A5E7B873-0F92-462E-A874-A3C78C4863E9",
-    "DataProviderID": 27,
-    "DataProvidersReference": "81",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61419,
@@ -24,12 +24,17 @@
     "Connections": [
         {
             "ID": 77628,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "Pedir tarjeta en policía local",
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-09-12T12:38:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

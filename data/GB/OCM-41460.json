@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-12-13T11:50:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:00:00Z",
     "ID": 41460,
     "UUID": "7FA3936E-765C-46A6-8434-B8F186D1AF57",
     "DataProviderID": 1,
     "OperatorID": 7,
-    "OperatorsReference": "PG-80042 \"Ryan-Suzy\"",
-    "UsageTypeID": 6,
+    "OperatorsReference": "PG-80042",
+    "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 41806,
@@ -18,25 +18,26 @@
         "CountryID": 1,
         "Latitude": 51.275534,
         "Longitude": -1.104334,
-        "AccessComments": "Available only for Nissan EV's and customers. ",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 45344,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80042",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Ryan-Suzy"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-12-13T11:50:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:00:00Z",
     "MetadataValues": [
         {
             "ID": 1296,
@@ -44,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2015-02-05T08:39:00Z",
     "SubmissionStatusTypeID": 200
 }

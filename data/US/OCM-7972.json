@@ -1,14 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-11-04T14:04:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-01T20:25:00Z",
     "ID": 7972,
     "UUID": "0BCF4233-05EB-4B17-8D7C-97E5995965D5",
-    "DataProviderID": 15,
-    "DataProvidersReference": "6637",
+    "DataProviderID": 1,
     "OperatorID": 26,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 7869,
-        "Title": "1329 Huffman Mill Rd",
+        "Title": "Carolina Nissan",
         "AddressLine1": "1329 Huffman Mill Rd",
         "Town": "Burlington",
         "StateOrProvince": "NC",
@@ -17,6 +17,7 @@
         "Latitude": 36.06369,
         "Longitude": -79.50374,
         "ContactTelephone1": " (336) 584-0201",
+        "AccessComments": "DCQC and two Nissan Level 2 chargers at the south corner of the main building. https://www.plugshare.com/location/2034",
         "RelatedURL": "http://carstations.com/6637",
         "DistanceUnit": 0
     },
@@ -25,11 +26,20 @@
             "ID": 5401,
             "ConnectionTypeID": 1,
             "Reference": "J1772",
-            "LevelID": 2
+            "LevelID": 2,
+            "Quantity": 2
+        },
+        {
+            "ID": 316921,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 45,
+            "Quantity": 1
         }
     ],
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2017-11-04T14:04:00Z",
+    "DateLastStatusUpdate": "2022-08-01T20:25:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-11-11T12:05:00Z",
     "SubmissionStatusTypeID": 100

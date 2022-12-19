@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-11-06T09:55:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-03T09:21:00Z",
     "ID": 60913,
     "UUID": "2AF16A1D-81E7-4528-BF02-80BC13AF8702",
     "DataProviderID": 1,
@@ -9,32 +9,40 @@
     "UsageCost": "Free ",
     "AddressInfo": {
         "ID": 61259,
-        "Title": "Bahía Sur",
-        "AddressLine1": "Calle Ferrocarril, 39",
+        "Title": "C.C. Bahía Sur",
+        "AddressLine1": "El Corte Inglés",
         "Town": "San Fernando",
-        "StateOrProvince": "Cádiz",
-        "Postcode": "11100",
+        "StateOrProvince": "Andalusia",
+        "Postcode": "11001",
         "CountryID": 210,
-        "Latitude": 36.471006,
-        "Longitude": -6.205369,
-        "ContactTelephone1": "+34 956 592 184",
-        "RelatedURL": "http://www.ccbahiasur.com/W/do/cent...",
+        "Latitude": 36.47192096584564,
+        "Longitude": -6.207475055964437,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 77275,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 28,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 220,
-            "PowerKW": 3.6
+            "PowerKW": 3.6,
+            "CurrentTypeID": 10
+        },
+        {
+            "ID": 342400,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "You have to phone, wait for security people and they will put power on",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-11-06T09:55:00Z",
+    "DateLastStatusUpdate": "2022-10-03T09:21:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T20:11:00Z",
     "ID": 187537,
     "UUID": "2D15DFA6-1AD5-40F6-8751-FB6CCD5D80B7",
-    "DataProviderID": 18,
-    "DataProvidersReference": "b992294cb5bd7b2790f3310aec69a486",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-100761",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.25/kWh",
     "AddressInfo": {
         "ID": 187896,
         "Title": "Boundary Lane",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 50.820976,
         "Longitude": -1.852694,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,17 +24,19 @@
         {
             "ID": 302688,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-100761",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-15T20:11:00Z",
     "MetadataValues": [
         {
             "ID": 19777,
@@ -42,7 +44,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:38:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

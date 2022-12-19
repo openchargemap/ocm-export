@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-15T04:43:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-24T05:21:00Z",
     "ID": 173711,
     "UUID": "70636928-0F7F-4A53-9DFE-AE538D10888D",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 5,
-    "UsageCost": "0.25 per kWh, use Pod Point app or webpage charge.pod-point.com to co",
+    "OperatorsReference": "PG-86446",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 174070,
         "Title": "Malham Car Park",
@@ -24,30 +25,20 @@
         {
             "ID": 266892,
             "ConnectionTypeID": 25,
-            "Reference": "PG-86446-A",
+            "Reference": "PG-86446",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
-            "ID": 266893,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-86446-B",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Aldo-Teri"
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-15T04:43:00Z",
+    "DateLastStatusUpdate": "2022-10-24T05:21:00Z",
     "MetadataValues": [
         {
             "ID": 8633,
@@ -55,7 +46,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-03-03T11:25:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

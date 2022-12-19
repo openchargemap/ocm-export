@@ -1,13 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T17:30:00Z",
     "ID": 45580,
     "UUID": "2C52E05B-AA79-48C1-B24E-F7EA1DEEE2C0",
     "DataProviderID": 1,
     "DataProvidersReference": "2063",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 45926,
-        "Title": "Fortum Preem Malmö",
+        "Title": "Preem Malmö - Recharge",
         "AddressLine1": "Thomsons väg 1",
         "Town": "MALMÖ",
         "StateOrProvince": "SKÅNE",
@@ -21,7 +22,7 @@
     "Connections": [
         {
             "ID": 56243,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "3",
             "LevelID": 2,
             "Amps": 32,
@@ -31,17 +32,25 @@
         },
         {
             "ID": 87740,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "2",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
             "Comments": "Mode 4"
+        },
+        {
+            "ID": 348218,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 50,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 3,
-    "DateLastStatusUpdate": "2020-05-26T08:21:00Z",
+    "DateLastStatusUpdate": "2022-10-25T17:30:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2015-05-03T00:54:00Z",
     "SubmissionStatusTypeID": 100

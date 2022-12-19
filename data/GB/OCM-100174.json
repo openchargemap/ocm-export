@@ -1,13 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-24T19:20:00Z",
+    "UserComments": [
+        {
+            "ID": 26078,
+            "ChargePointID": 100174,
+            "CommentTypeID": 1000,
+            "UserName": "DCA",
+            "Comment": "Charger was out of service 1week ago and reported to Roberto at the Operator Company.",
+            "Rating": 2,
+            "DateCreated": "2022-07-28T18:51:05.933Z",
+            "User": {
+                "ID": 37168,
+                "Username": "DCA"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-19T20:18:00Z",
     "ID": 100174,
     "UUID": "9C964BD7-8D85-49B5-A243-75CA24B57AD4",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_it1_5115_009",
     "UsageTypeID": 4,
-    "UsageCost": "£0.20/kWh",
+    "UsageCost": "£0.32/kWh",
     "AddressInfo": {
         "ID": 100520,
         "Title": "Budgens - Darsham Service Sation",
@@ -25,40 +42,44 @@
         {
             "ID": 141509,
             "ConnectionTypeID": 2,
+            "Reference": "t53_it1_5115_009",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Gail-Dave"
         },
         {
-            "ID": 141510,
+            "ID": 323541,
             "ConnectionTypeID": 33,
+            "Reference": "t53_it1_5115_009",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Gail-Dave"
         },
         {
-            "ID": 141511,
+            "ID": 323542,
             "ConnectionTypeID": 25,
+            "Reference": "t53_it1_5115_009",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Gail-Dave"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-24T19:20:00Z",
+    "DateLastStatusUpdate": "2022-08-19T20:18:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-02-15T12:24:00Z",
     "SubmissionStatusTypeID": 200

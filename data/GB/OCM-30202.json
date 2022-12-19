@@ -103,15 +103,15 @@
             "CheckinStatusTypeID": 130
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-01-27T13:52:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-23T19:55:00Z",
     "ID": 30202,
     "UUID": "41E0991B-1F8C-47FE-83BB-5893B0BF8143",
     "DataProviderID": 1,
     "OperatorID": 32,
     "OperatorsReference": "24030",
     "UsageTypeID": 5,
-    "UsageCost": "£0.30/kWh Contactless; Overstay £10/hour after 90 minutes; Other tariffs available",
+    "UsageCost": "£0.65/kWh Contactless; Overstay £10/hour after 90 minutes; Other tariffs available",
     "AddressInfo": {
         "ID": 30548,
         "Title": "Post Office Lane Car Park, Corsham",
@@ -130,7 +130,8 @@
         {
             "ID": 33419,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 100,
+            "Reference": "24030",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "PowerKW": 50,
@@ -140,7 +141,8 @@
         {
             "ID": 75086,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 100,
+            "Reference": "24030",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
@@ -151,7 +153,8 @@
         {
             "ID": 75087,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 100,
+            "Reference": "24030",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
@@ -161,8 +164,8 @@
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2021-01-27T13:52:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-23T19:55:00Z",
     "MetadataValues": [
         {
             "ID": 1279,

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-13T11:45:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T18:35:00Z",
     "ID": 75747,
     "UUID": "3161B29B-2AC2-4550-B59C-E2D98C08AFB2",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-80351",
-    "UsageTypeID": 2,
-    "UsageCost": "Free",
+    "UsageTypeID": 4,
+    "UsageCost": "1",
     "AddressInfo": {
         "ID": 76093,
         "Title": "Dolphin Retail Park",
@@ -24,18 +24,20 @@
         {
             "ID": 109237,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80351",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 3,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Adam-Rose"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T11:45:00Z",
+    "DateLastStatusUpdate": "2022-08-15T18:35:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-12-22T16:51:00Z",
     "SubmissionStatusTypeID": 200

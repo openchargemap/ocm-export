@@ -1,13 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-11T12:10:00Z",
+    "DateLastVerified": "2022-08-16T10:04:00Z",
     "ID": 173933,
     "UUID": "E1FAA3D8-5061-49D6-8A24-C690D24A6F66",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_4020_018",
-    "UsageTypeID": 6,
-    "UsageCost": "£0.26/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 174292,
         "Title": "Lidl-Blackbird Hill",
@@ -23,37 +23,43 @@
         {
             "ID": 267699,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4020_018",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Herb-Jill"
         },
         {
-            "ID": 267700,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 267701,
+            "ID": 322087,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4020_018",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Herb-Jill"
+        },
+        {
+            "ID": 323635,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4020_018",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Herb-Jill"
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "This is a Pod Point rapid charge unit installed at the Lidl super store at Blackbird Hill, London",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-11T12:10:00Z",
+    "DateLastStatusUpdate": "2022-08-16T10:04:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-07T20:33:00Z",
     "SubmissionStatusTypeID": 200

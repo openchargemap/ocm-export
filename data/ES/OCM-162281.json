@@ -1,21 +1,22 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-09-16T21:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-27T17:57:00Z",
     "ID": 162281,
     "UUID": "4E2DFF8E-E7D8-42E4-86B5-BC46C834757C",
     "DataProviderID": 1,
     "OperatorID": 2247,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 162638,
-        "Title": "Iberdrola Charging Station Toral de los Vados",
-        "AddressLine1": "Plaza Industria Toral-, 58",
-        "Town": "Toral de los Vados",
-        "StateOrProvince": "Castilla y León",
+        "Title": "E.S. Valcarcel Toral de los Vados",
+        "AddressLine1": "Nacional 120 Logroño-Vigo",
+        "Town": "Villadecanes",
+        "StateOrProvince": "Castile and León",
         "Postcode": "24560",
         "CountryID": 210,
-        "Latitude": 42.544061962421694,
-        "Longitude": -6.782245902681552,
+        "Latitude": 42.54479218008774,
+        "Longitude": -6.7825139417311675,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,7 +26,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 233570,
@@ -38,19 +40,19 @@
         },
         {
             "ID": 233571,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
+            "LevelID": 3,
+            "Amps": 64,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-16T21:23:00Z",
+    "DateLastStatusUpdate": "2022-10-27T17:57:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-08-04T14:43:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 25854,
+            "ChargePointID": 85219,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Una colonnina dotata di una CCS Combo 2 da 100 kW che è andata a sostituire la vecchia Pole Station. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnina-enel-x-fast-spazio-enel-viterbo-vt-via-giuseppe-saragat-26-t22529.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-enel-x-fast-spazio-enel-viterbo-vt-via-giuseppe-saragat-26-t22529.html",
+            "DateCreated": "2022-06-06T13:16:16.543Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 160,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 22975,
             "ChargePointID": 85219,
             "CommentTypeID": 10,
@@ -17,6 +32,22 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 31970,
+            "ChargePointID": 85219,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM85219/OCM-85219.orig.2022060613162750.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM85219/OCM-85219.thmb.2022060613162750.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-06-06T13:17:00Z"
+        },
         {
             "ID": 23331,
             "ChargePointID": 85219,
@@ -98,17 +129,17 @@
             "DateCreated": "2020-07-30T07:51:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-07-30T07:51:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-06-07T13:16:00Z",
     "ID": 85219,
     "UUID": "1AABACEB-650B-4602-A18B-EE17DC6DF62A",
     "DataProviderID": 1,
     "OperatorID": 80,
     "UsageTypeID": 4,
-    "UsageCost": "0,40 €/kW",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 85565,
-        "Title": " Punto Enel di Viterbo",
+        "Title": "Enel X Spazio Enel",
         "AddressLine1": "Via Giuseppe Saragat, 26",
         "Town": "Viterbo",
         "StateOrProvince": "VT",
@@ -116,36 +147,22 @@
         "CountryID": 112,
         "Latitude": 42.4273676318502,
         "Longitude": 12.1010897840346,
-        "RelatedURL": "http://eneldrive.it",
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-enel-x-fast-spazio-enel-viterbo-vt-via-giuseppe-saragat-26-t22529.html#google_vignette",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 120997,
-            "ConnectionTypeID": 36,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 240,
-            "PowerKW": 3.5,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
-            "ID": 120998,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
+            "ID": 314577,
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-07-30T07:51:00Z",
+    "DateLastStatusUpdate": "2022-06-07T13:16:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-03-30T08:31:00Z",
     "SubmissionStatusTypeID": 200

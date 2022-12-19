@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-18T06:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:14:00Z",
     "ID": 157397,
     "UUID": "0FB104AB-62AE-4B50-A02A-D0B197494965",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_3919_047",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 157751,
         "Title": "Lidl-Llandudno Junction",
@@ -24,39 +24,43 @@
         {
             "ID": 226699,
             "ConnectionTypeID": 1036,
+            "Reference": "t54_hu1_3919_047",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Ivan-Tara"
         },
         {
-            "ID": 226702,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 226703,
+            "ID": 323613,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_3919_047",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Ivan-Tara"
+        },
+        {
+            "ID": 325117,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_3919_047",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Ivan-Tara"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 1,
     "GeneralComments": "This is a Pod Point rapid charge unit installed at the Lidl superstore at Vale Road, Llandudno Junction, Conwy",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-18T06:19:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:14:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-06-02T09:09:00Z",
     "SubmissionStatusTypeID": 200

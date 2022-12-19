@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-20T06:28:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:13:00Z",
     "ID": 170766,
     "UUID": "0015A3D2-4A37-45C6-A2E5-95B8922669A9",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_1820_012",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 171125,
         "Title": "Lidl - Bellingham",
@@ -18,7 +18,6 @@
         "CountryID": 1,
         "Latitude": 51.4263737039388,
         "Longitude": -0.0263157530159788,
-        "AccessComments": "Store: Mon-Sat 8am-10pm, Sun 10am-4pm",
         "RelatedURL": "https://charge.pod-point.com/",
         "DistanceUnit": 0
     },
@@ -26,37 +25,43 @@
         {
             "ID": 260905,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_1820_012",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Jill-Sven"
         },
         {
             "ID": 268966,
             "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_1820_012",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Jill-Sven"
         },
         {
-            "ID": 268967,
+            "ID": 323568,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_1820_012",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Jill-Sven"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "GeneralComments": "22kW Type 2, 50kW CCS & CHAdeMO. Pod Point Rapid, Jill-Sven. AC + 1 DC connector can charge simultaneously",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-20T06:28:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:13:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-08T20:30:00Z",
     "SubmissionStatusTypeID": 200

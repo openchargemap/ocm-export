@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-02-16T13:59:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-17T09:13:00Z",
     "ID": 95064,
     "UUID": "BDEC8EA9-FD0E-4847-90E9-6F65D46D50DA",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70008,PG-81532",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "1",
     "AddressInfo": {
         "ID": 95410,
         "Title": "Tesco Elmers End",
@@ -23,30 +23,34 @@
         {
             "ID": 134704,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81532",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 3,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Lucy-Jeri"
         },
         {
             "ID": 206991,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70008",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Dirk-Shia"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco Elmers End superstore in Croydon Road, Beckenham, London",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-02-16T13:59:00Z",
+    "DateLastStatusUpdate": "2022-08-17T09:13:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-11-02T06:25:00Z",
     "SubmissionStatusTypeID": 200

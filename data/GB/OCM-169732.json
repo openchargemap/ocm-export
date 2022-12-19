@@ -17,24 +17,24 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-07T01:15:00Z",
+    "DateLastVerified": "2022-11-01T09:11:00Z",
     "ID": 169732,
     "UUID": "24858F5D-6476-498F-8165-834110E90B90",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "t53_it1_3617_021",
+    "OperatorsReference": "PG-70327,PG-85725",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 170091,
         "Title": "Tesco Brighouse",
-        "AddressLine1": "Huddersfield Rd",
+        "AddressLine1": "Huddersfield Road",
         "Town": "Calderdale",
         "StateOrProvince": "England",
         "Postcode": "HD6 1RZ",
         "CountryID": 1,
-        "Latitude": 53.70423605934019,
-        "Longitude": -1.7771824168949024,
+        "Latitude": 53.7042360593402,
+        "Longitude": -1.7771824168949,
         "RelatedURL": "https://charge.pod-point.com/",
         "DistanceUnit": 0
     },
@@ -42,29 +42,33 @@
         {
             "ID": 305571,
             "ConnectionTypeID": 25,
+            "Reference": "PG-85725",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Kyle-Axel"
         },
         {
-            "ID": 309761,
+            "ID": 320498,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70327",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Enid-Lois"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-07T01:15:00Z",
+    "DateLastStatusUpdate": "2022-11-01T09:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-11-05T23:48:00Z",
     "SubmissionStatusTypeID": 200

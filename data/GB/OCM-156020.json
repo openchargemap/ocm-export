@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-22T19:37:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:14:00Z",
     "ID": 156020,
     "UUID": "2E70BAB5-7EA1-4120-87C5-713FAB3F4324",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_3919_012",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 156374,
         "Title": "Lidl-Dundee",
@@ -23,37 +23,43 @@
         {
             "ID": 219610,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_3919_012",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Tina-Brad"
         },
         {
-            "ID": 219611,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 219612,
+            "ID": 323605,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_3919_012",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Tina-Brad"
+        },
+        {
+            "ID": 323606,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_3919_012",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Tina-Brad"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "GeneralComments": "This is a Pod Point rapid charger installed at the Lidl super store at New Craigie Road, Dundee",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-22T19:37:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:14:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-05-03T05:37:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,21 +1,22 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-10T10:08:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-30T10:43:00Z",
     "ID": 176342,
     "UUID": "7F320DB0-93F3-451B-8937-4E7F59606E9D",
     "DataProviderID": 1,
     "OperatorID": 3447,
     "UsageTypeID": 1,
+    "UsageCost": "175 kW : 0,65€/kWh - 50 kW : 0,55€/kWh",
     "AddressInfo": {
         "ID": 176701,
         "Title": "Total - Relais de Romorantin",
-        "AddressLine1": "Aire de Romorantin",
-        "Town": "Pruniers en Sologne",
+        "AddressLine1": "A85 - Aire de Romorantin",
+        "Town": "Pruniers-en-Sologne",
         "Postcode": "41200",
         "CountryID": 80,
-        "Latitude": 47.339050949046225,
-        "Longitude": 1.6683227378719039,
-        "RelatedURL": "https://apps.total-ev-charge.com/charge-points/TOTAL-NF080056-001",
+        "Latitude": 47.33949657808623,
+        "Longitude": 1.6681650814646218,
+        "RelatedURL": "https://apps.total-ev-charge.com/charge-points/TOTAL-NF080056",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,7 +27,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 274107,
@@ -35,7 +36,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 274108,
@@ -44,19 +45,21 @@
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
-            "ID": 274109,
-            "ConnectionTypeID": 28,
+            "ID": 316450,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "LevelID": 3,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-10T10:08:00Z",
+    "DateLastStatusUpdate": "2022-07-30T10:43:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-07-07T10:05:00Z",
     "SubmissionStatusTypeID": 200

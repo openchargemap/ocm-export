@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-15T06:27:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T14:42:00Z",
     "ID": 171036,
     "UUID": "6753CC4C-CA05-4FF4-B6FA-7292E909D7D7",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70285,PG-85086",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 171395,
         "Title": "Tesco Superstore - Carnforth",
@@ -26,18 +26,33 @@
         {
             "ID": 261340,
             "ConnectionTypeID": 25,
+            "Reference": "PG-85086",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Buck-Chip"
+        },
+        {
+            "ID": 320472,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70285",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Elmo-Myla"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-15T06:27:00Z",
+    "DateLastStatusUpdate": "2022-11-01T14:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-17T23:11:00Z",
     "SubmissionStatusTypeID": 200

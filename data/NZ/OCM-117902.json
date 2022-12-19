@@ -1,16 +1,16 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-03-08T21:03:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-06T07:38:00Z",
     "ID": 117902,
     "UUID": "A5DC404E-6E78-4892-BF4E-0CF9D7D966F9",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
-    "UsageCost": "0",
+    "OperatorID": 229,
+    "UsageTypeID": 4,
+    "UsageCost": "25 c/kWh + 25 c/min",
     "AddressInfo": {
         "ID": 118248,
-        "Title": "West Street",
-        "AddressLine1": "West Street",
+        "Title": "Ashburton West Street Car Park",
+        "AddressLine1": "109 West Street",
         "AddressLine2": "Netherby",
         "Town": "Ashburton District",
         "StateOrProvince": "Ashburton District",
@@ -18,6 +18,8 @@
         "CountryID": 161,
         "Latitude": -43.905189862422,
         "Longitude": 171.745304683696,
+        "ContactTelephone1": "+64 800 430 460",
+        "AccessComments": "In the West Street Car Park off the main road opposite McDonald's.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -38,12 +40,22 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 315713,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "BYO Cable, Two cars will be able to charge at the same time, if one is AC charging and the other is DC charging. "
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "EA Networks public DC charger.",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Two cars will be able to charge at the same time, if one is AC charging and the other is DC charging. Bring your own cable for 22kWh but there is still a charge for power. Provided by EA Networks.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-03-08T21:03:00Z",
+    "DateLastStatusUpdate": "2022-07-06T07:38:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-03-08T20:15:00Z",
     "SubmissionStatusTypeID": 200

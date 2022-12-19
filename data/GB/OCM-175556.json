@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-28T10:17:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T09:12:00Z",
     "ID": 175556,
     "UUID": "8FBCD21E-1061-4024-BB5D-914BF078B1FE",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
-    "UsageCost": "Rapid £0.25/kWh ",
+    "OperatorsReference": "PG-70435,PG-86857,veefil-12000703",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 175915,
         "Title": "Tesco Superstore Hull",
@@ -22,48 +23,58 @@
     },
     "Connections": [
         {
-            "ID": 272535,
+            "ID": 272538,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70435",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Nina-Dirk"
+        },
+        {
+            "ID": 323970,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000703",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Alya-Evin"
+        },
+        {
+            "ID": 323971,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86857",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Tate-Faye"
         },
         {
-            "ID": 272536,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 272537,
+            "ID": 324632,
             "ConnectionTypeID": 2,
+            "Reference": "veefil-12000703",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 272538,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Alya-Evin"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "GeneralComments": "Type 2 free, use Pod Point app or webpage charge.pod-point.com",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-28T10:17:00Z",
+    "DateLastStatusUpdate": "2022-11-01T09:12:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-28T10:17:00Z",
     "SubmissionStatusTypeID": 200

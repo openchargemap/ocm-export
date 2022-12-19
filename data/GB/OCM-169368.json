@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-15T21:58:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T09:11:00Z",
     "ID": 169368,
     "UUID": "E46B20D7-2BC3-4F16-8DDF-533F9B5BB30D",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70235,PG-85038",
+    "OperatorsReference": "PG-70235",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 169727,
         "Title": "Tesco Extra-Southport",
@@ -22,21 +22,23 @@
     },
     "Connections": [
         {
-            "ID": 257689,
+            "ID": 320424,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70235",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Drew-Beck"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Town Lane, Kew, Southport",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-15T21:58:00Z",
+    "DateLastStatusUpdate": "2022-11-01T09:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-15T21:35:00Z",
     "SubmissionStatusTypeID": 200

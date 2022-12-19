@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-02-14T17:20:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-18T05:21:00Z",
     "ID": 100049,
     "UUID": "6FA1F202-2CEC-4B70-BCBF-FE2A2B4B0A8B",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-81680,PG-81682,PG-81684,PG-81707",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.35/kWh",
     "AddressInfo": {
         "ID": 100395,
         "Title": "Eliot Park Innovation Centre",
@@ -23,30 +23,60 @@
         {
             "ID": 141335,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81680",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Mike-Will"
+        },
+        {
+            "ID": 324182,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-81707",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Dora-Eddy"
         },
         {
-            "ID": 206901,
+            "ID": 324879,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81682",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 6
+            "Quantity": 2,
+            "Comments": "Kirk-Evan"
+        },
+        {
+            "ID": 324880,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-81684",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Zack-Josh"
         }
     ],
-    "NumberOfPoints": 16,
+    "NumberOfPoints": 8,
     "GeneralComments": "This is an open charge unit installed at the Eliot Park Innovation Centre site in Barling Way, Nuneaton, Warwickshire",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-02-14T17:20:00Z",
+    "DateLastStatusUpdate": "2022-09-18T05:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-02-10T06:43:00Z",
     "SubmissionStatusTypeID": 200

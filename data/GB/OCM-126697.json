@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-06-24T11:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-30T19:26:00Z",
     "ID": 126697,
     "UUID": "D432F5AF-F6F5-432A-8529-818E936DEC84",
     "DataProviderID": 1,
-    "OperatorID": 150,
-    "UsageTypeID": 4,
-    "UsageCost": "£0.85 + £0.25/kWh",
+    "OperatorID": 3496,
+    "UsageTypeID": 5,
+    "UsageCost": "£0.65/kWh",
     "AddressInfo": {
         "ID": 127043,
         "Title": "Long Street Car Park",
@@ -23,18 +23,32 @@
         {
             "ID": 177472,
             "ConnectionTypeID": 25,
+            "Reference": "002011",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 2
+        },
+        {
+            "ID": 314453,
+            "ConnectionTypeID": 25,
+            "Reference": "002012",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "Scan QR code",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-06-24T11:38:00Z",
+    "DateLastStatusUpdate": "2022-05-30T19:26:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-05-17T13:18:00Z",
     "SubmissionStatusTypeID": 200

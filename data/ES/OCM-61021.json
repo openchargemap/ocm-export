@@ -1,23 +1,41 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "UserComments": [
+        {
+            "ID": 25940,
+            "ChargePointID": 61021,
+            "CommentTypeID": 10,
+            "UserName": "TonyRedondo",
+            "Comment": "Until around 2021 there also were a few charging bays at the outdoors parking. But these have been removed and as of 2022 the only parking stations are the 3 bays at El Corte Inglés underground parking.",
+            "DateCreated": "2022-06-30T11:17:43.043Z",
+            "User": {
+                "ID": 38972,
+                "Username": "TonyRedondo"
+            },
+            "CheckinStatusTypeID": 50,
+            "IsActionedByEditor": false
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-13T12:01:00Z",
     "ID": 61021,
     "UUID": "EAFC4B84-7052-4569-BE9F-D1A7EA8E287E",
-    "DataProviderID": 27,
-    "DataProvidersReference": "157",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 45,
+    "UsageTypeID": 5,
+    "UsageCost": "Free the first 1h",
     "AddressInfo": {
         "ID": 61367,
-        "Title": "Madrid Xanadú",
+        "Title": "Madrid Xanadú El Corte Inglés",
         "AddressLine1": "Calle del Puerto de Navacerrada, 10",
         "Town": "Arroyomolinos",
         "StateOrProvince": "Arroyomolinos",
         "Postcode": "28939",
         "CountryID": 210,
-        "Latitude": 40.301016,
-        "Longitude": -3.927334,
+        "Latitude": 40.29829351903447,
+        "Longitude": -3.9287053937975998,
         "ContactTelephone1": "+34 902263026",
-        "RelatedURL": "http://www.madridxanadu.com/",
+        "AccessComments": "The bays are at El Corte Inglés underground parking",
+        "RelatedURL": "https://www.elcorteingles.es/centroscomerciales/es/eci/servicios/recarga-vehiculos-electricos",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,41 +43,15 @@
             "ID": 77504,
             "ConnectionTypeID": 25,
             "LevelID": 2,
-            "PowerKW": 3.7
-        },
-        {
-            "ID": 77505,
-            "ConnectionTypeID": 28,
-            "LevelID": 1,
-            "PowerKW": 2.3
-        },
-        {
-            "ID": 77506,
-            "ConnectionTypeID": 28,
-            "LevelID": 1,
-            "PowerKW": 2.3
-        },
-        {
-            "ID": 77507,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "PowerKW": 3.7
-        },
-        {
-            "ID": 77508,
-            "ConnectionTypeID": 28,
-            "LevelID": 1,
-            "PowerKW": 2.3
-        },
-        {
-            "ID": 77509,
-            "ConnectionTypeID": 28,
-            "LevelID": 1,
-            "PowerKW": 2.3
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 3,
+            "Comments": ""
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-09-13T12:01:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

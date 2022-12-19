@@ -1,34 +1,36 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:24:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T21:29:00Z",
     "ID": 61170,
     "UUID": "D53A4230-DB85-4C19-B12D-199AB43A3923",
-    "DataProviderID": 27,
-    "DataProvidersReference": "90",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 3276,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh (0,01€/min parked without charging)",
     "AddressInfo": {
         "ID": 61516,
-        "Title": "Canga Argüelles",
-        "AddressLine1": "Calle Canga Argüelles, 8-10",
-        "Town": "Gijón",
-        "StateOrProvince": "Asturias",
+        "Title": "Calle Canga Argüelles",
+        "AddressLine1": "Calle Canga Argüelles",
+        "Town": "Gijón/Xixón",
+        "StateOrProvince": "Principality of Asturias",
         "Postcode": "33202",
         "CountryID": 210,
-        "Latitude": 43.538221,
-        "Longitude": -5.65102,
-        "ContactTelephone1": "+34 985371122",
-        "RelatedURL": "http://tc.gijon.es",
+        "Latitude": 43.53865132631444,
+        "Longitude": -5.650904736115422,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 77849,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10
         }
     ],
     "GeneralComments": "Tarjeta ayuntamiento de Gijón",
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:24:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-11-01T21:29:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:24:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-20T06:29:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-17T19:34:00Z",
     "ID": 85800,
     "UUID": "E279A34D-E163-4271-97CC-7187F85EE3E5",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-81006,PG-91851",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "1",
     "AddressInfo": {
         "ID": 86146,
         "Title": "Sainsbury's Dulwich",
@@ -23,19 +23,34 @@
         {
             "ID": 121953,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81006",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 3
+            "Quantity": 2,
+            "Comments": "Lisa-Cris"
+        },
+        {
+            "ID": 320946,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-91851",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Lisa-Anne"
         }
     ],
     "NumberOfPoints": 3,
     "GeneralComments": "This is an open charge unit installed at the Sainsbury's Dulwich superstore site in Dog Kennel Hill, London",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-20T06:29:00Z",
+    "DateLastStatusUpdate": "2022-08-17T19:34:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-04-15T10:21:00Z",
     "SubmissionStatusTypeID": 200

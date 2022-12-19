@@ -1,6 +1,6 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-30T08:19:00Z",
+    "DateLastVerified": "2022-08-06T06:06:00Z",
     "ID": 192807,
     "UUID": "692F324D-437A-4EA5-9A39-61D22B71ECA0",
     "DataProviderID": 1,
@@ -8,7 +8,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 193166,
-        "Title": "A4 AdS Brianza Sud",
+        "Title": "A4 AdS Brianza Sud Direzione Venezia",
         "AddressLine1": "AdS Brianza Sud",
         "Town": "Caponago",
         "StateOrProvince": "Lombardy",
@@ -16,6 +16,7 @@
         "CountryID": 112,
         "Latitude": 45.57398742577709,
         "Longitude": 9.392903891048263,
+        "RelatedURL": "https://nextcharge.app/map?location=45.574060,9.393400",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,14 +24,44 @@
             "ID": 313426,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 317174,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 317175,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 317176,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 150,
-            "Quantity": 2
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-04-30T08:19:00Z",
+    "NumberOfPoints": 6,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-06T06:06:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-30T08:19:00Z",
     "SubmissionStatusTypeID": 200

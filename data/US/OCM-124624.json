@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-04-06T05:03:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-19T05:19:00Z",
     "ID": 124624,
     "UUID": "026FC9C3-D29C-4BDB-ADD3-D665CFC2E33D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "121175",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "0.43 / kWh",
     "AddressInfo": {
         "ID": 124970,
         "Title": "Firefly Grill",
@@ -15,8 +15,8 @@
         "StateOrProvince": "IL",
         "Postcode": "62401",
         "CountryID": 2,
-        "Latitude": 39.138388,
-        "Longitude": -88.571312,
+        "Latitude": 39.139213,
+        "Longitude": -88.565182,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -26,25 +26,35 @@
         {
             "ID": 174750,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 174751,
-            "ConnectionTypeID": 32,
-            "LevelID": 2,
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 316348,
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:03:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2022-07-19T05:19:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100

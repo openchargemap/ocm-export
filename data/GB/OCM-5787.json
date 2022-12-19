@@ -1,10 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-10-13T11:56:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T15:51:00Z",
     "ID": 5787,
     "UUID": "12D15787-22FA-4C85-A60D-AEA62B94C4AA",
     "DataProviderID": 1,
-    "OperatorID": 25,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-84049",
     "UsageTypeID": 4,
     "UsageCost": "Free. Parking fees apply.",
     "AddressInfo": {
@@ -17,22 +18,27 @@
         "CountryID": 1,
         "Latitude": 51.5016873,
         "Longitude": -0.1895541,
-        "ContactTelephone1": "0845 850 0653",
-        "AccessComments": "1.9m Height restriction. Located on level 1 at top of entrance ramp.. \r\n",
         "RelatedURL": "https://www.sourcelondon.net/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 536,
-            "ConnectionTypeID": 3,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84049",
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Quantity": 1
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Asta-Rita"
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-10-13T11:56:00Z",
+    "DateLastStatusUpdate": "2022-08-15T15:51:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-09-12T11:40:00Z",
     "SubmissionStatusTypeID": 200

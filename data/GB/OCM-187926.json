@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:47:00Z",
     "ID": 187926,
     "UUID": "8E511D89-A170-4ED0-9A8A-C83A9EE27020",
-    "DataProviderID": 18,
-    "DataProvidersReference": "ba50580b3b51d85c69fb484502f9c691",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-85608,PG-70316",
+    "UsageTypeID": 4,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 188285,
         "Title": "Kilverstone",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 52.422916,
         "Longitude": 0.770631,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,33 @@
         {
             "ID": 303255,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-70316",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Ewan-Dell"
         },
         {
-            "ID": 303256,
+            "ID": 321385,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "PG-85608",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Pria-Myla"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-16T13:47:00Z",
     "MetadataValues": [
         {
             "ID": 20166,
@@ -53,7 +58,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

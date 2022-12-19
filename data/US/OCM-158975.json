@@ -1,10 +1,27 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T02:57:00Z",
+    "MediaItems": [
+        {
+            "ID": 33524,
+            "ChargePointID": 158975,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM158975/OCM-158975.orig.2022090218312446.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM158975/OCM-158975.thmb.2022090218312446.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2022-09-02T18:31:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-02T18:31:00Z",
     "ID": 158975,
     "UUID": "82FB4C5F-28B0-41BA-8A5E-F18886DEEF54",
-    "DataProviderID": 2,
-    "DataProvidersReference": "153898",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -26,6 +43,7 @@
         {
             "ID": 229016,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
@@ -36,16 +54,28 @@
         {
             "ID": 229017,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4
+        },
+        {
+            "ID": 314116,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T02:57:00Z",
+    "DateLastStatusUpdate": "2022-09-02T18:31:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2020-06-26T02:57:00Z",
     "SubmissionStatusTypeID": 100

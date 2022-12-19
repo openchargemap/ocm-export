@@ -1,47 +1,83 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-10-20T11:37:00Z",
+    "UserComments": [
+        {
+            "ID": 26155,
+            "ChargePointID": 168986,
+            "CommentTypeID": 10,
+            "UserName": "Jegesjeles",
+            "Comment": "perfect service ✅",
+            "Rating": 5,
+            "DateCreated": "2022-08-15T15:07:56.97Z",
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 33075,
+            "ChargePointID": 168986,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM168986/OCM-168986.orig.2022082410501095.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM168986/OCM-168986.thmb.2022082410501095.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39961,
+                "Username": "adamhermann"
+            },
+            "DateCreated": "2022-08-24T10:50:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-24T10:50:00Z",
     "ID": 168986,
     "UUID": "92A60B76-5910-4220-B209-6A9A2DD39978",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 4,
-    "UsageCost": "79huf/kWh + after finished charging 50 Huf/min",
+    "OperatorID": 3462,
+    "UsageTypeID": 1,
+    "UsageCost": "123,- Ft/kWh",
     "AddressInfo": {
         "ID": 169345,
-        "Title": "TEA Csepel ",
-        "AddressLine1": "Görgey Artur square 2",
+        "Title": "TEA. Csepel ",
+        "AddressLine1": "Görgey Artúr tér 2.",
+        "AddressLine2": "Csepel Üzletház Spar",
+        "Town": "Budapest",
+        "StateOrProvince": "Budapest",
+        "Postcode": "1212",
         "CountryID": 104,
-        "Latitude": 47.42305165709698,
-        "Longitude": 19.071524702081433,
+        "Latitude": 47.423058,
+        "Longitude": 19.071654,
         "ContactTelephone1": "+36305509858",
-        "RelatedURL": "http://www.teapont.hu",
+        "ContactTelephone2": "+36 30 550 9858",
+        "AccessComments": "Start charging with Teapont application or QR code  HELPDESK: help@teapont.hu +36305509858  WEB: https://www.teapont.hu/",
+        "RelatedURL": "https://www.teapont.hu/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 257033,
             "ConnectionTypeID": 25,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
-            "ID": 257034,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Start charging with QR code  HELPDESK: help@teapont.hu +36305509858  WEB: www.teapont.hu",
+    "GeneralComments": "TEApont alkalmazásból vagy a készüléken található QR kóddal, illetve RFID kártyával indítható a töltés. Töltsd le a TEApont applikációt a Google Play-ből vagy az AppStore-ból!",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-20T11:37:00Z",
+    "DateLastStatusUpdate": "2022-08-24T10:50:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-08T13:15:00Z",
     "SubmissionStatusTypeID": 200

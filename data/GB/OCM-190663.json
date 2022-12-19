@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-11T12:11:00Z",
+    "DateLastVerified": "2022-09-25T05:22:00Z",
     "ID": 190663,
     "UUID": "E11C47B7-9DE5-4943-9F9D-CAC4CBEFA227",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 6,
-    "UsageCost": "£0.26/kWh",
+    "OperatorsReference": "t54_hu1_2621_004",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 191022,
         "Title": "Lidl Arnot Street Falkirk",
@@ -14,46 +15,64 @@
         "Town": "Falkirk",
         "Postcode": "FK1 1YG",
         "CountryID": 1,
-        "Latitude": 55.99642882312233,
-        "Longitude": -3.778373004510968,
+        "Latitude": 55.9964288231223,
+        "Longitude": -3.77837300451097,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 309197,
             "ConnectionTypeID": 2,
-            "Reference": "Najm-Kriv",
+            "Reference": "t54_hu1_2621_004",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Najm-Kriv"
         },
         {
             "ID": 309198,
             "ConnectionTypeID": 1036,
-            "Reference": "Najm-Kriv",
+            "Reference": "t54_hu1_2621_004",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Najm-Kriv"
         },
         {
-            "ID": 309199,
+            "ID": 323585,
             "ConnectionTypeID": 33,
-            "Reference": "Najm-Kriv",
+            "Reference": "t54_hu1_2621_004",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Najm-Kriv"
+        },
+        {
+            "ID": 325105,
+            "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_2621_004",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Najm-Kriv"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 3,
     "GeneralComments": "Activate and pay via Pod-Point app.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-11T12:11:00Z",
+    "DateLastStatusUpdate": "2022-09-25T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-12-16T11:59:00Z",
     "SubmissionStatusTypeID": 200

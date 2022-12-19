@@ -34,8 +34,8 @@
             "DateCreated": "2020-08-20T09:36:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-21T07:29:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:44:00Z",
     "ID": 126920,
     "UUID": "06C8B685-C67F-4915-8F99-45C1ADBCC0A1",
     "DataProviderID": 1,
@@ -51,27 +51,42 @@
         "Town": "Whitby",
         "Postcode": "YO22 4PU",
         "CountryID": 1,
-        "Latitude": 54.47053744519852,
-        "Longitude": -0.5992029355572868,
+        "Latitude": 54.4705374451985,
+        "Longitude": -0.599202935557287,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 177759,
             "ConnectionTypeID": 25,
+            "Reference": "PG-82475",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Faye-Lois"
+        },
+        {
+            "ID": 321149,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-82435",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Maya-Neve"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Aldi superstore at Fairfield Way, Whitby",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-21T07:29:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-05-22T14:03:00Z",
     "SubmissionStatusTypeID": 200

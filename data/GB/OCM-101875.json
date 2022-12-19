@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-04-14T05:34:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:00:00Z",
     "ID": 101875,
     "UUID": "CB5738AD-A630-44E4-8AEF-A362FF56B81A",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-80443,PG-90755,PG-90758",
-    "UsageTypeID": 6,
+    "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 102221,
@@ -23,19 +23,47 @@
         {
             "ID": 143814,
             "ConnectionTypeID": 25,
+            "Reference": "PG-90755",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 1,
+            "Comments": "Pete-Hugo"
+        },
+        {
+            "ID": 324078,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-90758",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Abby-Lisa"
+        },
+        {
+            "ID": 324845,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80443",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Mark-Judy"
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the Bath Spa University - Newton Park campus in Newton St Loe, Bath",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-04-14T05:34:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:00:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-04-13T05:54:00Z",
     "SubmissionStatusTypeID": 200

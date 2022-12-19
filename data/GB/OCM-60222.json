@@ -47,8 +47,8 @@
             "DateCreated": "2016-01-17T15:37:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-02T09:17:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:41:00Z",
     "ID": 60222,
     "UUID": "49121D3C-BC59-41D5-9BAF-B6EC2848C9A6",
     "DataProviderID": 1,
@@ -67,7 +67,6 @@
         "CountryID": 1,
         "Latitude": 52.9070814324833,
         "Longitude": 1.26273024763791,
-        "AccessComments": "For National Trust visitors only. No web or app sign-in required (or possible - it doesn't show on Pod-Point's map, and very poor mobile signal). Side A is limited to 16A / 3.6kW. Side B gives full 32A / 7kW.",
         "RelatedURL": "https://www.nationaltrust.org.uk/felbrigg-hall-gardens-and-estate",
         "DistanceUnit": 0
     },
@@ -75,30 +74,34 @@
         {
             "ID": 76221,
             "ConnectionTypeID": 25,
+            "Reference": "PG-90274",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 3
+            "Quantity": 1,
+            "Comments": "Dora-Rick"
         },
         {
-            "ID": 76241,
+            "ID": 320822,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80263",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 4,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Gail-Jeri"
         }
     ],
     "NumberOfPoints": 3,
     "GeneralComments": "currently free, this may change.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-02T09:17:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-01-15T14:27:00Z",
     "SubmissionStatusTypeID": 200

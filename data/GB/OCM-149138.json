@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-02-20T06:33:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T14:42:00Z",
     "ID": 149138,
     "UUID": "36B7C6CE-37D6-48F5-80E8-53874FED32B3",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70139,PG-84264",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 149491,
         "Title": "Tesco Superstore-Hammersmith",
@@ -24,19 +24,34 @@
         {
             "ID": 207102,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70139",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Dale-Lena"
+        },
+        {
+            "ID": 320330,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84264",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Sven-Dean"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the 180 Shepherds Bush Rd, Hammersmith, London, W6 7NL",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-02-20T06:33:00Z",
+    "DateLastStatusUpdate": "2022-11-01T14:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-02-19T06:27:00Z",
     "SubmissionStatusTypeID": 200

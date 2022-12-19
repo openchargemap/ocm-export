@@ -1,11 +1,27 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-04-10T05:17:00Z",
+    "UserComments": [
+        {
+            "ID": 26293,
+            "ChargePointID": 134185,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Network back-end has been changed by Wokingham Borough Council from Charge your Car to Rolec VendElectric.",
+            "DateCreated": "2022-09-09T10:51:30.83Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-09T10:53:00Z",
     "ID": 134185,
     "UUID": "EC8791C2-3FBD-44FB-9253-7F1FCF402556",
     "DataProviderID": 1,
-    "OperatorID": 20,
-    "OperatorsReference": "70116,70117",
+    "OperatorID": 3473,
+    "OperatorsReference": "UKEV12551,UKEV12552",
     "UsageTypeID": 4,
     "UsageCost": "£0.36/kWh",
     "AddressInfo": {
@@ -22,34 +38,69 @@
         {
             "ID": 187747,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 75,
+            "Reference": "UKEV12551",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 187748,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 75,
+            "Reference": "UKEV12551",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 187749,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 75,
+            "Reference": "UKEV12551",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 338332,
+            "ConnectionTypeID": 2,
+            "Reference": "UKEV12552",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 338333,
+            "ConnectionTypeID": 1036,
+            "Reference": "UKEV12552",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 338334,
+            "ConnectionTypeID": 33,
+            "Reference": "UKEV12552",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2020-04-10T05:17:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-09-09T10:53:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-11-04T06:23:00Z",
     "SubmissionStatusTypeID": 200

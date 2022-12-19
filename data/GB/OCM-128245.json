@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 26195,
+            "ChargePointID": 128245,
+            "CommentTypeID": 10,
+            "UserName": "FramX",
+            "Comment": "Free of charge if you have the BP pulse app. Hardly you will find a place because it's mostly busy. Parking fees do apply.",
+            "Rating": 4,
+            "DateCreated": "2022-08-22T13:18:45.833Z",
+            "User": {
+                "ID": 35810,
+                "Username": "FramX"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 25141,
             "ChargePointID": 128245,
             "CommentTypeID": 10,
@@ -15,12 +30,30 @@
             "IsActionedByEditor": false
         }
     ],
+    "MediaItems": [
+        {
+            "ID": 33003,
+            "ChargePointID": 128245,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM128245/OCM-128245.orig.2022082213172575.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM128245/OCM-128245.thmb.2022082213172575.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 35810,
+                "Username": "FramX"
+            },
+            "DateCreated": "2022-08-22T13:17:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-12-18T18:25:00Z",
+    "DateLastVerified": "2022-08-23T10:24:00Z",
     "ID": 128245,
     "UUID": "5C25CEAD-7AD0-42E9-B2A2-851181926C18",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 32,
     "UsageTypeID": 1,
     "UsageCost": "Free. Parking fees apply",
     "AddressInfo": {
@@ -32,8 +65,8 @@
         "StateOrProvince": "Hampshire",
         "Postcode": "RG21 7BA",
         "CountryID": 1,
-        "Latitude": 51.265232159142,
-        "Longitude": -1.08585579033718,
+        "Latitude": 51.2651757716132,
+        "Longitude": -1.0858429160883816,
         "AccessComments": "Level 5 of car park",
         "DistanceUnit": 0
     },
@@ -41,18 +74,42 @@
         {
             "ID": 179515,
             "ConnectionTypeID": 25,
+            "Reference": "11986",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 6
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 326513,
+            "ConnectionTypeID": 25,
+            "Reference": "11988",
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 326514,
+            "ConnectionTypeID": 25,
+            "Reference": "11987",
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-18T18:25:00Z",
+    "DateLastStatusUpdate": "2022-08-23T10:24:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-06-19T10:04:00Z",
     "SubmissionStatusTypeID": 200

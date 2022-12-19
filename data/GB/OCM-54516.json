@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-02T09:09:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-24T17:42:00Z",
     "ID": 54516,
     "UUID": "4EA1B306-D630-4FA0-AED3-558C28BF0B62",
     "DataProviderID": 1,
@@ -10,32 +10,59 @@
     "UsageCost": "1",
     "AddressInfo": {
         "ID": 54862,
-        "Title": "Telefónica O2 UK",
+        "Title": "Telefonica O2 UK",
         "AddressLine1": "Bath Road",
         "Town": "Slough",
         "Postcode": "SL1 4DX",
         "CountryID": 1,
         "Latitude": 51.51881822,
         "Longitude": -0.62827997,
-        "AccessComments": "Private charging point located within Telefónica O2 UK car park in Slough.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 68791,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80187",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 6
+            "Quantity": 2,
+            "Comments": "Tony-Nick"
+        },
+        {
+            "ID": 320772,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80188",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Kirk-Suzy"
+        },
+        {
+            "ID": 324055,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80145",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Alex-Lisa"
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-02T09:09:00Z",
+    "DateLastStatusUpdate": "2022-08-24T17:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-10-06T11:00:00Z",
     "SubmissionStatusTypeID": 200

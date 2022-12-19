@@ -16,13 +16,15 @@
             "IsActionedByEditor": false
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-02-15T10:29:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-11T05:22:00Z",
     "ID": 136665,
     "UUID": "4B02087F-60F3-49BB-B7CB-1EE12C70FA36",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-85659",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.29/kWh",
     "AddressInfo": {
         "ID": 137011,
         "Title": "Cattle Market Car Park",
@@ -31,22 +33,29 @@
         "StateOrProvince": "England",
         "Postcode": "PE27 5BH",
         "CountryID": 1,
-        "Latitude": 52.32314472185499,
-        "Longitude": -0.06988842327336897,
+        "Latitude": 52.323144721855,
+        "Longitude": -0.069888423273369,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 264179,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85659",
             "StatusTypeID": 50,
-            "Quantity": 1
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Robb-Zach"
         }
     ],
-    "NumberOfPoints": 0,
+    "NumberOfPoints": 2,
     "GeneralComments": "This station has not worked since the network closed.",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2021-02-15T10:29:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-09-11T05:22:00Z",
     "MetadataValues": [
         {
             "ID": 6517,
@@ -54,7 +63,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2019-12-24T05:22:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

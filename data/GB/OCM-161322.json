@@ -1,21 +1,22 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-07-09T08:27:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-08T11:40:00Z",
     "ID": 161322,
     "UUID": "C2572381-A162-4D7F-8D9B-64575112300B",
     "DataProviderID": 1,
     "OperatorID": 3403,
-    "UsageTypeID": 4,
-    "UsageCost": "£0.43/kWh",
+    "UsageTypeID": 1,
+    "UsageCost": "£0.39/kWh",
     "AddressInfo": {
         "ID": 161679,
-        "Title": "Starbucks",
+        "Title": "Eurogarages Preston East Starbucks",
         "AddressLine1": "Starbucks",
         "Town": "Preston",
         "StateOrProvince": "England",
+        "Postcode": "PR2 5RX",
         "CountryID": 1,
-        "Latitude": 53.79142234591538,
-        "Longitude": -2.6533457251404116,
+        "Latitude": 53.79123587135817,
+        "Longitude": -2.6534852083113947,
         "AccessComments": "Found in Starbucks car Park",
         "DistanceUnit": 0
     },
@@ -26,24 +27,46 @@
             "Reference": "25180 ",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "PowerKW": 175,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "E.On  provided site. £0.43 p /kW"
+            "Quantity": 1,
+            "Comments": "Preston UFC 01"
         },
         {
             "ID": 232214,
             "ConnectionTypeID": 2,
+            "Reference": "25180",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Preston UFC 01"
+        },
+        {
+            "ID": 317331,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Preston UFC 02"
+        },
+        {
+            "ID": 317332,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Preston UFC 02"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-07-09T08:27:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2022-08-08T11:40:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-07-08T18:58:00Z",
     "SubmissionStatusTypeID": 200

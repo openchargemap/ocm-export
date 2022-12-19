@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T15:51:00Z",
     "ID": 188025,
     "UUID": "DDB023BD-0D23-4DA3-A93E-E0F53E8D7BDB",
-    "DataProviderID": 18,
-    "DataProvidersReference": "bc78129d997c21cb9fd8b13b4e0d7f7c",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-86291",
+    "UsageTypeID": 4,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 188384,
         "Title": "Ashton Road",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 53.227302,
         "Longitude": -2.701839,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,17 +24,20 @@
         {
             "ID": 303401,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-86291",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Teri-Enid"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-15T15:51:00Z",
     "MetadataValues": [
         {
             "ID": 20265,
@@ -42,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

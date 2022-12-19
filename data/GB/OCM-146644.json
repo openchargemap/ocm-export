@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-05T12:15:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:46:00Z",
     "ID": 146644,
     "UUID": "5534CAA3-4E8E-45A7-B93D-5F34D8738E84",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-83713",
+    "OperatorsReference": "PG-83713,PG-87634",
     "UsageTypeID": 4,
-    "UsageCost": "£0.20/kWh",
+    "UsageCost": "£0.50/kWh,£0.35/kWh",
     "AddressInfo": {
         "ID": 146996,
         "Title": "The Royal Mint Experience",
@@ -30,13 +30,27 @@
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Cleo-Shia"
+        },
+        {
+            "ID": 321269,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-87634",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Bing-Tate"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at The Royal Mint Museum site at Heol-Y-Sarn, Pontyclun",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-05T12:15:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-01-13T09:09:00Z",
     "SubmissionStatusTypeID": 200

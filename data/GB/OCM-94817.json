@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-20T06:28:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:12:00Z",
     "ID": 94817,
     "UUID": "DC54F337-D52A-4E62-B361-6F2804AED898",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_hu1_0717_001",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 95163,
         "Title": "Lidl-Gipton",
@@ -17,44 +17,49 @@
         "CountryID": 1,
         "Latitude": 53.813506,
         "Longitude": -1.494525,
-        "AccessComments": "Parking must be validated in store. Max stay 1.5 hours once validated.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 134037,
             "ConnectionTypeID": 1036,
+            "Reference": "t53_hu1_0717_001",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Adam-Gill"
         },
         {
-            "ID": 134038,
+            "ID": 323494,
             "ConnectionTypeID": 2,
+            "Reference": "t53_hu1_0717_001",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Adam-Gill"
         },
         {
-            "ID": 134039,
+            "ID": 325068,
             "ConnectionTypeID": 33,
+            "Reference": "t53_hu1_0717_001",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Adam-Gill"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 2,
     "GeneralComments": "This is a POD Point rapid charge unit installed at the Lidl superstore in Amberton Road, Leeds",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-20T06:28:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:12:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-10-27T12:41:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-22T19:33:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:13:00Z",
     "ID": 93591,
     "UUID": "D177D22F-5BA6-4B2D-B0C7-BBA1554C69B6",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_it1_0417_002",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 93937,
         "Title": "Lidl Mirfield",
@@ -17,47 +17,48 @@
         "CountryID": 1,
         "Latitude": 53.672987,
         "Longitude": -1.693677,
-        "AccessComments": "Car park available in store opening hours only, for Lidl customers only",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 132532,
             "ConnectionTypeID": 2,
+            "Reference": "t53_it1_0417_002",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Suzy-Troy"
         },
         {
-            "ID": 132533,
-            "ConnectionTypeID": 1036,
+            "ID": 323518,
+            "ConnectionTypeID": 33,
+            "Reference": "t53_it1_0417_002",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Suzy-Troy"
+        },
+        {
+            "ID": 325078,
+            "ConnectionTypeID": 1036,
+            "Reference": "t53_it1_0417_002",
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 132534,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Suzy-Troy"
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-22T19:33:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:13:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-10-02T16:06:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,15 +1,33 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-01-11T10:50:00Z",
+    "MediaItems": [
+        {
+            "ID": 33321,
+            "ChargePointID": 146548,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM146548/OCM-146548.orig.2022082808240542.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM146548/OCM-146548.thmb.2022082808240542.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-28T08:24:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T08:21:00Z",
     "ID": 146548,
     "UUID": "F999D6D0-AE9A-4A5A-9531-485ACBDBFD34",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,30 € kw/h",
+    "UsageCost": "0,39€/kWh",
     "AddressInfo": {
         "ID": 146900,
-        "Title": "EasyCharger",
+        "Title": "Zunder Santiago de Compostela",
         "AddressLine1": "Rua de Miguel Ferro Caveiro ",
         "Town": "Santiago de Compostela",
         "StateOrProvince": "A Coruña",
@@ -50,11 +68,20 @@
             "PowerKW": 44,
             "CurrentTypeID": 20,
             "Quantity": 3
+        },
+        {
+            "ID": 343269,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-11T10:50:00Z",
+    "DateLastStatusUpdate": "2022-10-25T08:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-01-10T23:02:00Z",
     "SubmissionStatusTypeID": 200

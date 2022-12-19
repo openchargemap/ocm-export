@@ -113,8 +113,8 @@
             "DateCreated": "2017-05-23T09:48:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-05-23T12:16:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-10T10:51:00Z",
     "ID": 88166,
     "UUID": "3E0C7CC9-BC09-4E0C-B57E-15F48F5AD59B",
     "DataProviderID": 1,
@@ -123,7 +123,7 @@
     "UsageCost": "$0.40/kWh",
     "AddressInfo": {
         "ID": 88512,
-        "Title": "Hastings - City Car Park",
+        "Title": "Hastings (City Car Park)",
         "AddressLine1": "100 Queen Street West",
         "Town": "Hastings",
         "StateOrProvince": "Hastings",
@@ -132,12 +132,14 @@
         "Latitude": -39.640834305358,
         "Longitude": 176.843721126389,
         "ContactTelephone1": "(080) 028-6476",
+        "AccessComments": "Open 24/7, P60",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 125057,
             "ConnectionTypeID": 2,
+            "Reference": "HSTG1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -147,6 +149,7 @@
         {
             "ID": 125058,
             "ConnectionTypeID": 33,
+            "Reference": "HSTG1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -154,10 +157,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "24/7\r\nAccess from Queen St West or Market St North. NB: The CCS plug on this charger is now Type 2",
+    "NumberOfPoints": 1,
+    "GeneralComments": "Access from Queen St West or Market St North. To start a charge session use your Unison or ChargeNet fob.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-23T12:16:00Z",
+    "DateLastStatusUpdate": "2022-07-10T10:51:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-23T09:47:00Z",
     "SubmissionStatusTypeID": 200

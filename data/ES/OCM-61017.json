@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-22T18:46:00Z",
     "ID": 61017,
     "UUID": "5F537227-556C-4958-A69B-6ABB8A95893D",
-    "DataProviderID": 27,
-    "DataProvidersReference": "50",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 6,
     "AddressInfo": {
         "ID": 61363,
         "Title": "Universitat Jaume I",
@@ -24,16 +24,23 @@
     "Connections": [
         {
             "ID": 77493,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10
         },
         {
             "ID": 77494,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "Solicitar tarjeta en recepción",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "DateLastStatusUpdate": "2022-09-22T18:46:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

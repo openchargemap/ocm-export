@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-07-29T14:07:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-28T08:43:00Z",
     "ID": 161927,
     "UUID": "AF2DAF02-36A4-4C62-9952-565A67DF9280",
     "DataProviderID": 1,
     "OperatorID": 2247,
-    "UsageTypeID": 1,
-    "UsageCost": "0.3 €/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh ",
     "AddressInfo": {
         "ID": 162284,
         "Title": "ES Aralar",
@@ -23,25 +23,31 @@
         {
             "ID": 233033,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 233034,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 233035,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-07-29T14:07:00Z",
+    "DateLastStatusUpdate": "2022-10-28T08:43:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-07-28T18:12:00Z",
     "SubmissionStatusTypeID": 200

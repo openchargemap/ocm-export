@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-03-09T23:45:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T18:41:00Z",
     "ID": 149922,
     "UUID": "9CEB63FF-E646-4AC5-AB69-8737C208964A",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70213,PG-84340",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 150275,
         "Title": "Tesco Superstore-Prestwich",
@@ -24,19 +24,34 @@
         {
             "ID": 208151,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70213",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Jill-Ralf"
+        },
+        {
+            "ID": 320403,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84340",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Sven-Omar"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Valley Park Road, Prestwich, Manchester",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-03-09T23:45:00Z",
+    "DateLastStatusUpdate": "2022-11-02T18:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-03-09T06:35:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-09-01T08:00:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-28T08:57:00Z",
     "ID": 188983,
     "UUID": "856BB579-40CA-4FC4-88A4-05AB2B7421D8",
     "DataProviderID": 1,
     "OperatorID": 2247,
-    "UsageTypeID": 1,
-    "UsageCost": "0.3 €/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh 50kW - 0,39€/kWh 22kW AC",
     "AddressInfo": {
         "ID": 189342,
         "Title": "Max Ocio Barakaldo",
@@ -23,22 +23,33 @@
             "ID": 305441,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 305442,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 343473,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-01T08:00:00Z",
+    "DateLastStatusUpdate": "2022-10-28T08:57:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-08-29T13:53:00Z",
     "SubmissionStatusTypeID": 200

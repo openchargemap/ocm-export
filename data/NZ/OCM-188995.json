@@ -1,22 +1,23 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-09-01T07:57:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-05T01:47:00Z",
     "ID": 188995,
     "UUID": "C03891BB-79AA-4C9B-AC69-BC051C2936B6",
     "DataProviderID": 1,
-    "OperatorID": 28,
+    "OperatorID": 3527,
     "UsageTypeID": 4,
+    "UsageCost": "0.25/kW + 0.25/min",
     "AddressInfo": {
         "ID": 189354,
-        "Title": "Hakiaha Street",
-        "AddressLine1": "Hakiaha Street",
+        "Title": "Taumarunui i-Site",
+        "AddressLine1": "112 Hakiaha Street",
         "AddressLine2": "Rangoroa",
-        "Town": "Ruapehu District",
-        "StateOrProvince": "Ruapehu District",
+        "Town": "Taumarunui",
+        "StateOrProvince": "",
         "Postcode": "3920",
         "CountryID": 161,
-        "Latitude": -38.88280651229234,
-        "Longitude": 175.26610397544073,
+        "Latitude": -38.882878189669185,
+        "Longitude": 175.2648744528109,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -37,11 +38,21 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 315656,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Fast charger run by openloop.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-01T07:57:00Z",
+    "DateLastStatusUpdate": "2022-07-05T01:47:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-08-30T21:06:00Z",
     "SubmissionStatusTypeID": 200

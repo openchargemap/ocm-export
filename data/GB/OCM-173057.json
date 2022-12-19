@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-02T21:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:46:00Z",
     "ID": 173057,
     "UUID": "0C6E0CB1-244A-4C90-AE45-1CF46213AA72",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70323,PG-85609",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 173416,
         "Title": "Tesco Superstore-Cambridge Newmarket Road",
@@ -24,19 +24,34 @@
         {
             "ID": 264786,
             "ConnectionTypeID": 25,
+            "Reference": "PG-85609",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Levi-Seth"
+        },
+        {
+            "ID": 320494,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70323",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Stan-Jess"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Cheddars Lane, Newmarket Road, Cambridge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-02T21:11:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-02T21:03:00Z",
     "SubmissionStatusTypeID": 200

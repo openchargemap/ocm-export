@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-15T06:30:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T06:22:00Z",
     "ID": 169047,
     "UUID": "2FF65514-B169-48C6-B626-CB9FBBB11550",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70279,PG-84520",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 169406,
         "Title": "Tesco Extra Ilkeston",
@@ -18,7 +18,6 @@
         "CountryID": 1,
         "Latitude": 52.9777876159228,
         "Longitude": -1.30756032800628,
-        "AccessComments": "4 x 7 kW Pod Point. 2 hrs free parking when using the store.",
         "RelatedURL": "http://www.pod-point.com",
         "DistanceUnit": 0
     },
@@ -26,18 +25,33 @@
         {
             "ID": 257148,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84520",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Faye-Ruby"
+        },
+        {
+            "ID": 320466,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70279",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Cain-Joel"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-15T06:30:00Z",
+    "DateLastStatusUpdate": "2022-11-02T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-10T10:43:00Z",
     "SubmissionStatusTypeID": 200

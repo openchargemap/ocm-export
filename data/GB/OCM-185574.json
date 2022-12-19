@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T08:42:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T14:42:00Z",
     "ID": 185574,
     "UUID": "5B413A1A-0836-41C4-BD7E-B83D106DCC39",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-70441,PG-86843,veefil-12000692",
     "UsageTypeID": 4,
-    "UsageCost": "27p per kWh",
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 185933,
         "Title": "Tesco Eston",
@@ -15,35 +16,63 @@
         "StateOrProvince": "England",
         "Postcode": "TS6 6TD",
         "CountryID": 1,
-        "Latitude": 54.57359875486651,
-        "Longitude": -1.1641300951620224,
+        "Latitude": 54.5735987548665,
+        "Longitude": -1.16413009516202,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 295205,
+            "ID": 323982,
             "ConnectionTypeID": 33,
-            "Reference": "NANA-JUNE",
+            "Reference": "veefil-12000692",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Nana-June"
         },
         {
-            "ID": 295206,
+            "ID": 323983,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70441",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Shay-Bryn"
+        },
+        {
+            "ID": 323984,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86843",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Vern-Skye"
+        },
+        {
+            "ID": 323985,
             "ConnectionTypeID": 2,
-            "Reference": "NANA-JUNE",
+            "Reference": "veefil-12000692",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Nana-June"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-12T08:42:00Z",
+    "DateLastStatusUpdate": "2022-11-01T14:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-07-11T12:53:00Z",
     "SubmissionStatusTypeID": 200

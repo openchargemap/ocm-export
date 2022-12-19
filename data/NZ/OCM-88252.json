@@ -113,8 +113,8 @@
             "DateCreated": "2017-05-25T06:58:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-05-25T12:17:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-12T23:30:00Z",
     "ID": 88252,
     "UUID": "99D633BA-A6E9-422C-BA16-84855B8F2A72",
     "DataProviderID": 1,
@@ -123,20 +123,23 @@
     "UsageCost": "$0.25/kWh + $0.25/min",
     "AddressInfo": {
         "ID": 88598,
-        "Title": "Bayfair Shopping Centre",
+        "Title": "Bayfair (Bayfair Shopping Centre)",
         "AddressLine1": "19 Girven Rd",
-        "Town": "Mt Maunganui, Tauranga ",
+        "AddressLine2": "",
+        "Town": "Tauranga ",
         "Postcode": "3116",
         "CountryID": 161,
-        "Latitude": -37.6747966797318,
-        "Longitude": 176.224494036875,
+        "Latitude": -37.67495291524444,
+        "Longitude": 176.2243279593231,
         "ContactTelephone1": "0800 224 274",
+        "AccessComments": "Open 24/7,  On ground level, inside the covered parking, very close to the pedestrian entrance to the Mall.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 125183,
             "ConnectionTypeID": 2,
+            "Reference": "TNGA1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -146,6 +149,7 @@
         {
             "ID": 125184,
             "ConnectionTypeID": 33,
+            "Reference": "TNGA1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -153,10 +157,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "24/7\r\nOn ground level, inside the covered parking, very close to the pedestrian entrance to the Mall.",
+    "NumberOfPoints": 1,
+    "GeneralComments": "1 x CHAdeMO/CCS",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-25T12:17:00Z",
+    "DateLastStatusUpdate": "2022-07-12T23:30:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-25T06:58:00Z",
     "SubmissionStatusTypeID": 200

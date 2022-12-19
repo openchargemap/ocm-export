@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-05T06:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T09:11:00Z",
     "ID": 173865,
     "UUID": "57C0BB7E-C14D-4289-95EB-5C4CD1FB9D88",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70230,PG-84497",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 174224,
         "Title": "Tesco Extra-Norwich",
@@ -24,19 +24,34 @@
         {
             "ID": 267428,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84497",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Elle-Aida"
+        },
+        {
+            "ID": 320419,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70230",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Hans-Todd"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Blue Boar Lane, Sprowston, Norwich",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-05T06:23:00Z",
+    "DateLastStatusUpdate": "2022-11-01T09:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-04T06:20:00Z",
     "SubmissionStatusTypeID": 200

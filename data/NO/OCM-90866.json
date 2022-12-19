@@ -1,10 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:25:00Z",
+    "MediaItems": [
+        {
+            "ID": 33181,
+            "ChargePointID": 90866,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NO/OCM90866/OCM-90866.orig.2022082512525907.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NO/OCM90866/OCM-90866.thmb.2022082512525907.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39826,
+                "Username": "Darulin007"
+            },
+            "DateCreated": "2022-08-25T12:53:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-25T12:56:00Z",
     "ID": 90866,
     "UUID": "8B985E06-F49E-4B3E-AC4A-5EAC7454FD27",
     "DataProviderID": 1,
     "DataProvidersReference": "4185",
+    "OperatorID": 198,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 91212,
         "Title": "Hattfjelldal",
@@ -13,30 +33,30 @@
         "StateOrProvince": "Nordland",
         "Postcode": "8690",
         "CountryID": 168,
-        "Latitude": 65.59562,
-        "Longitude": 13.98965,
+        "Latitude": 65.5958322495826,
+        "Longitude": 13.989154824417255,
         "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 128859,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Comments": "Mode 3"
         },
         {
             "ID": 128860,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "2",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Comments": "Mode 3"
         },
         {
@@ -46,7 +66,7 @@
             "LevelID": 3,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 12,
+            "PowerKW": 22,
             "CurrentTypeID": 30,
             "Comments": "Mode 3"
         },
@@ -57,13 +77,14 @@
             "LevelID": 3,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 12,
+            "PowerKW": 22,
             "CurrentTypeID": 30,
             "Comments": "Mode 3"
         }
     ],
     "NumberOfPoints": 2,
-    "DateLastStatusUpdate": "2020-05-26T08:25:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-25T12:56:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2017-07-25T08:28:00Z",
     "SubmissionStatusTypeID": 100

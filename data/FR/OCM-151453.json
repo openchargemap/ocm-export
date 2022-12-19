@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-06-11T15:03:00Z",
     "ID": 151453,
     "UUID": "8D64913B-99A9-4115-A1F4-78C1DD98BF3C",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*S12*P12098*001",
+    "DataProviderID": 1,
     "OperatorID": 3257,
     "UsageTypeID": 5,
+    "UsageCost": "EUR 0.30/kWh plus overstay charges after two hours",
     "AddressInfo": {
         "ID": 151806,
         "Title": "ESTAING - Rue François D'Estaing",
@@ -15,12 +15,13 @@
         "Latitude": 44.553411,
         "Longitude": 2.67216,
         "AccessComments": "24h/24 7j/7",
+        "RelatedURL": "https://map.alizecharge.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 211523,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -31,12 +32,12 @@
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10
         },
         {
             "ID": 242261,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -47,13 +48,13 @@
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10
         }
     ],
     "GeneralComments": "Recharge par badge et avec une application smartphone",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:11:00Z",
+    "DateLastStatusUpdate": "2022-06-11T15:03:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:53:00Z",
     "SubmissionStatusTypeID": 100

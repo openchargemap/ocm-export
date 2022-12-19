@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:47:00Z",
     "ID": 187614,
     "UUID": "240D8CEF-3922-4706-AE60-0CA4423638C4",
-    "DataProviderID": 18,
-    "DataProvidersReference": "da690128c03bb7fa95093289bca002a9",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-85485,PG-85569",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.50/hour for 1 hour,then £2.00/hour,then £2.00/hour,£0.50/hour for 1 hour",
     "AddressInfo": {
         "ID": 187973,
         "Title": "Westwood Road",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 51.360934,
         "Longitude": 1.411378,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,33 @@
         {
             "ID": 302814,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-85485",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Fran-Jade"
         },
         {
-            "ID": 302815,
+            "ID": 321365,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "PG-85569",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Rich-Cody"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-16T13:47:00Z",
     "MetadataValues": [
         {
             "ID": 19854,
@@ -53,7 +58,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:38:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

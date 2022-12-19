@@ -91,15 +91,15 @@
             "DateCreated": "2015-09-27T19:30:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-31T05:17:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-04T17:48:00Z",
     "ID": 52011,
     "UUID": "07125905-4972-419D-99FA-C69D8E57D0A9",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1071,1070",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.48/kWh",
     "AddressInfo": {
         "ID": 52357,
         "Title": "Welcome Break Telford Services",
@@ -116,40 +116,71 @@
         {
             "ID": 64513,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10318*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 64514,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10318*3",
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
+            "LevelID": 2,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 43,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 64515,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10318*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 337082,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10319*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 337083,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10319*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 337084,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10319*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-31T05:17:00Z",
+    "DateLastStatusUpdate": "2022-09-04T17:48:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-08-13T15:50:00Z",
     "SubmissionStatusTypeID": 200

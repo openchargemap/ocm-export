@@ -1,10 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:25:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-13T10:25:00Z",
     "ID": 85345,
     "UUID": "FF17E632-A729-4FCB-9F3F-9026ED4927C5",
     "DataProviderID": 1,
     "DataProvidersReference": "3861",
+    "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "4,50kr/kWh",
     "AddressInfo": {
         "ID": 85691,
         "Title": "Pernilla Wiberg Hotel / Idre Fjäll",
@@ -13,35 +16,22 @@
         "StateOrProvince": "DALARNA",
         "Postcode": "79090",
         "CountryID": 216,
-        "Latitude": 61.88693,
-        "Longitude": 12.8365,
+        "Latitude": 61.887075579644915,
+        "Longitude": 12.836295560595318,
         "AccessComments": "Parkering utanför Pernilla Wiberg hotel",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 121327,
-            "ConnectionTypeID": 0,
-            "Reference": "1",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 121328,
-            "ConnectionTypeID": 0,
-            "Reference": "2",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "Comments": "Mode 3"
+            "ID": 318014,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "Quantity": 10
         }
     ],
-    "NumberOfPoints": 2,
-    "DateLastStatusUpdate": "2020-05-26T08:25:00Z",
+    "NumberOfPoints": 10,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-13T10:25:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2017-04-01T15:08:00Z",
     "SubmissionStatusTypeID": 100

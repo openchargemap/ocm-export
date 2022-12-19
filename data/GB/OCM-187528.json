@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:27:00Z",
     "ID": 187528,
     "UUID": "1A6E1006-26EF-4333-90B8-F5AEF0ACB6CC",
-    "DataProviderID": 18,
-    "DataProvidersReference": "769b8cf23a5869a604f8ae1416fc48ad",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-100086,PG-100089",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 187887,
         "Title": "Priests Way",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 50.606208,
         "Longitude": -1.975045,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,17 +24,33 @@
         {
             "ID": 302671,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-100086",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Ewan-Izzy"
+        },
+        {
+            "ID": 319881,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-100089",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Abel-Joel"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-16T13:27:00Z",
     "MetadataValues": [
         {
             "ID": 19768,
@@ -42,7 +58,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:38:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

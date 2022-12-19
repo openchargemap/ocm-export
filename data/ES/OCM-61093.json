@@ -1,9 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-01-02T12:16:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-18T14:42:00Z",
     "ID": 61093,
     "UUID": "0E9CA486-B5D6-4B11-AF48-33135E630698",
     "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61439,
@@ -24,11 +25,17 @@
     "Connections": [
         {
             "ID": 77669,
-            "ConnectionTypeID": 17
+            "ConnectionTypeID": 17,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20
         },
         {
             "ID": 77670,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10
         },
         {
             "ID": 77671,
@@ -47,9 +54,10 @@
             "ConnectionTypeID": 28
         }
     ],
+    "NumberOfPoints": 11,
     "GeneralComments": "Pedir tarjeta al encargado",
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2018-01-02T12:16:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-09-18T14:42:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:24:00Z",
     "SubmissionStatusTypeID": 200

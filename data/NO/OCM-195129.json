@@ -1,0 +1,100 @@
+{
+    "MediaItems": [
+        {
+            "ID": 32936,
+            "ChargePointID": 195129,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NO/OCM195129/OCM-195129.orig.2022081913211696.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NO/OCM195129/OCM-195129.thmb.2022081913211696.jpg",
+            "Comment": "AC cable",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39826,
+                "Username": "Darulin007"
+            },
+            "DateCreated": "2022-08-19T13:21:00Z"
+        },
+        {
+            "ID": 32935,
+            "ChargePointID": 195129,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NO/OCM195129/OCM-195129.orig.2022081913201490.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NO/OCM195129/OCM-195129.thmb.2022081913201490.jpg",
+            "Comment": "DC",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39826,
+                "Username": "Darulin007"
+            },
+            "DateCreated": "2022-08-19T13:20:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-19T13:21:00Z",
+    "ID": 195129,
+    "UUID": "C4B86463-AD4C-47BD-AEE6-19C0CF054271",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "DC: 300 kr/h     AC: 40 kr/h",
+    "AddressInfo": {
+        "ID": 195488,
+        "Title": "2 Ringveien",
+        "AddressLine1": "2 Ringveien",
+        "Town": "Tynset",
+        "StateOrProvince": "Hedmark",
+        "Postcode": "2500",
+        "CountryID": 168,
+        "Latitude": 62.278583908655776,
+        "Longitude": 10.77562327744215,
+        "AccessComments": "use CloudCharge App",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 317951,
+            "ConnectionTypeID": 1036,
+            "Reference": "241AC101    &    241AC102    &    241AC103    &    241AC104",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4,
+            "Comments": "Manufacturer:  DEFA"
+        },
+        {
+            "ID": 317952,
+            "ConnectionTypeID": 25,
+            "Reference": "AC0301241",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 317953,
+            "ConnectionTypeID": 33,
+            "Reference": "DC0101241    &    DC0201241",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 6,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-19T13:21:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-08-13T09:43:00Z",
+    "SubmissionStatusTypeID": 200
+}

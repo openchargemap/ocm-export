@@ -27,13 +27,48 @@
             "IsActionedByEditor": false
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-09-26T10:19:00Z",
+    "MediaItems": [
+        {
+            "ID": 33577,
+            "ChargePointID": 168460,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM168460/OCM-168460.orig.2022090507033957.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM168460/OCM-168460.thmb.2022090507033957.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-09-05T07:04:00Z"
+        },
+        {
+            "ID": 33326,
+            "ChargePointID": 168460,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM168460/OCM-168460.orig.2022082810213985.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM168460/OCM-168460.thmb.2022082810213985.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-28T10:22:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T07:24:00Z",
     "ID": 168460,
     "UUID": "77E9273F-304E-48B1-B459-DEC1DD5D76DC",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
+    "UsageCost": "0,56€/kWh 100kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 168819,
         "Title": "E.S La Gran Familia",
@@ -52,9 +87,9 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 400,
+            "Voltage": 1000,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
@@ -73,17 +108,26 @@
             "ID": 255838,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 64,
-            "Voltage": 400,
-            "PowerKW": 43,
+            "LevelID": 2,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 335940,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-26T10:19:00Z",
+    "DateLastStatusUpdate": "2022-10-25T07:24:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-09-26T10:18:00Z",
     "SubmissionStatusTypeID": 200

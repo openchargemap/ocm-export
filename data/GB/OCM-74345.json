@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-25T06:02:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-18T14:21:00Z",
     "ID": 74345,
     "UUID": "BA544B86-7C4B-4738-ACF6-A23E9BF165BB",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "22278",
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "UsageCost": "£0.24/kWh;other tariffs for older cars",
     "AddressInfo": {
         "ID": 74691,
@@ -25,7 +25,18 @@
         {
             "ID": 106911,
             "ConnectionTypeID": 27,
-            "StatusTypeID": 0,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 337,
+            "Voltage": 400,
+            "PowerKW": 135,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 314035,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 337,
             "Voltage": 400,
@@ -35,8 +46,9 @@
         }
     ],
     "NumberOfPoints": 8,
+    "GeneralComments": "Available to non-tesla CCS vehicles (short cable permitting) via Tesla App.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-05-25T06:02:00Z",
+    "DateLastStatusUpdate": "2022-05-18T14:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-12-02T11:55:00Z",
     "SubmissionStatusTypeID": 200

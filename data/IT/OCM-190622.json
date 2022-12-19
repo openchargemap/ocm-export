@@ -51,12 +51,12 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-12-15T06:32:00Z",
+    "DateLastVerified": "2022-05-08T17:19:00Z",
     "ID": 190622,
     "UUID": "724E0C0D-A91C-4084-A1B4-78A1F3ADC295",
     "DataProviderID": 1,
     "OperatorID": 82,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 190981,
         "Title": "A2A McDonald's",
@@ -73,25 +73,36 @@
         {
             "ID": 309062,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 309063,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 309064,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-15T06:32:00Z",
+    "DateLastStatusUpdate": "2022-05-08T17:19:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-12-15T06:31:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-30T05:22:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T00:12:00Z",
     "ID": 174030,
     "UUID": "0F7453E4-CAEF-4625-B609-946E2330D17A",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70348,PG-84574",
+    "OperatorsReference": "PG-70348,PG-84574,veefil-12000227",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "Free,£0.28/kWh,Free,£0.40/kWh,£0.28/kWh",
     "AddressInfo": {
         "ID": 174389,
         "Title": "Tesco Superstore-South Tottenham",
@@ -24,30 +24,56 @@
         {
             "ID": 268513,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84574",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Enzo-Kyla"
         },
         {
-            "ID": 269974,
+            "ID": 323897,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000227",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Avri-Mazy"
+        },
+        {
+            "ID": 323898,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70348",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Frey-Leah"
+        },
+        {
+            "ID": 324599,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000227",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Avri-Mazy"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at High Road, South Tottenham, London",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-30T05:22:00Z",
+    "DateLastStatusUpdate": "2022-11-01T00:12:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-11T06:27:00Z",
     "SubmissionStatusTypeID": 200

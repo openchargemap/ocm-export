@@ -115,12 +115,12 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-31T06:30:00Z",
+    "DateLastVerified": "2022-05-24T07:58:00Z",
     "ID": 191234,
     "UUID": "AB1FF692-1F07-49D0-AB0E-85D499113506",
     "DataProviderID": 1,
     "OperatorID": 80,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 191593,
         "Title": "Enel X Eni Borgo Milano",
@@ -137,25 +137,33 @@
         {
             "ID": 310358,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 310359,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 310360,
             "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 43
+            "PowerKW": 43,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-31T06:30:00Z",
+    "DateLastStatusUpdate": "2022-05-24T07:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-01-31T06:29:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-05T12:07:00Z",
     "ID": 60976,
     "UUID": "EC8E4C20-D29B-44C1-9203-D2E72A94217F",
-    "DataProviderID": 27,
-    "DataProvidersReference": "66",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61322,
@@ -21,15 +21,25 @@
     "Connections": [
         {
             "ID": 77399,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 77400,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Senergyps",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-05T12:07:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

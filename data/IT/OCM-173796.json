@@ -209,12 +209,12 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-10T16:37:00Z",
+    "DateLastVerified": "2022-09-10T11:52:00Z",
     "ID": 173796,
     "UUID": "7BE2D323-9D1D-48DC-A0EB-F0E92BB6CF95",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 174155,
         "Title": "LeasePlan Ristorante Atto Primo",
@@ -231,25 +231,43 @@
         {
             "ID": 267150,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 200
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 267151,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 60
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 267152,
             "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 338454,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-10T16:37:00Z",
+    "DateLastStatusUpdate": "2022-09-10T11:52:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-03T14:11:00Z",
     "SubmissionStatusTypeID": 200

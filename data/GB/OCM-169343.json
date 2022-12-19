@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-15T21:59:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:47:00Z",
     "ID": 169343,
     "UUID": "D7D8708A-476E-40E6-BD50-E44BFDBE9E63",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70266,PG-84604",
+    "OperatorsReference": "PG-84604,PG-86706",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 169702,
         "Title": "Tesco Superstore-Heanor",
@@ -23,19 +23,34 @@
         {
             "ID": 257661,
             "ConnectionTypeID": 25,
+            "Reference": "PG-86706",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Seth-Buck"
+        },
+        {
+            "ID": 323883,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84604",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Myer-Nina"
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 6,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at High Street, Heanor",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-15T21:59:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:47:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-15T21:33:00Z",
     "SubmissionStatusTypeID": 200

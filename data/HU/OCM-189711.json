@@ -1,11 +1,46 @@
 {
+    "MediaItems": [
+        {
+            "ID": 33095,
+            "ChargePointID": 189711,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM189711/OCM-189711.orig.2022082411364764.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM189711/OCM-189711.thmb.2022082411364764.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39961,
+                "Username": "adamhermann"
+            },
+            "DateCreated": "2022-08-24T11:37:00Z"
+        },
+        {
+            "ID": 33094,
+            "ChargePointID": 189711,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM189711/OCM-189711.orig.2022082411362444.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM189711/OCM-189711.thmb.2022082411362444.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39961,
+                "Username": "adamhermann"
+            },
+            "DateCreated": "2022-08-24T11:36:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-11-09T22:58:00Z",
+    "DateLastVerified": "2022-08-24T11:37:00Z",
     "ID": 189711,
     "UUID": "D409C375-25A2-41BE-BB82-57C19B77713C",
     "DataProviderID": 1,
     "OperatorID": 3462,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
+    "UsageCost": "112,- Ft/kWh",
     "AddressInfo": {
         "ID": 190070,
         "Title": "TEA. Polgár",
@@ -15,43 +50,56 @@
         "Latitude": 47.84101660445128,
         "Longitude": 21.13099470375562,
         "ContactTelephone1": "+36305509858",
-        "RelatedURL": "http://www.teapont.hu",
+        "ContactTelephone2": "+36 30 550 9858",
+        "AccessComments": "help@teapont.hu",
+        "RelatedURL": "https://www.teapont.hu/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 306915,
             "ConnectionTypeID": 2,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
-            "LevelID": 1,
-            "Voltage": 0,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         },
         {
             "ID": 306916,
             "ConnectionTypeID": 25,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         },
         {
             "ID": 306917,
             "ConnectionTypeID": 33,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "help@teapont.hu",
+    "GeneralComments": "TEApont alkalmazásból vagy a készüléken található QR kóddal, illetve RFID kártyával indítható a töltés. Töltsd le a TEApont applikációt a Google Play-ből vagy az AppStore-ból!",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-09T22:58:00Z",
+    "DateLastStatusUpdate": "2022-08-24T11:37:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-10-28T12:42:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-06-22T07:51:00Z",
+    "MediaItems": [
+        {
+            "ID": 33332,
+            "ChargePointID": 175538,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM175538/OCM-175538.orig.2022082810365502.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM175538/OCM-175538.thmb.2022082810365502.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-28T10:37:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T07:34:00Z",
     "ID": 175538,
     "UUID": "03EEC8E2-A8B6-407C-8B62-022F0285A47C",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": "0.30 €/kWh",
+    "UsageCost": "0,59€/kWh 200kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 175897,
         "Title": "Restaurante el Navarro",
@@ -52,16 +70,17 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 400,
-            "Voltage": 920,
+            "Voltage": 1000,
             "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Power is split between both oulets"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "App. Wenea",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-22T07:51:00Z",
+    "DateLastStatusUpdate": "2022-10-25T07:34:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-27T19:26:00Z",
     "SubmissionStatusTypeID": 200

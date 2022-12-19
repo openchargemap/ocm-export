@@ -1,33 +1,45 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-11T14:08:00Z",
     "ID": 60974,
     "UUID": "1FFDE889-17D8-4618-B151-11A86EA6ECD0",
-    "DataProviderID": 27,
-    "DataProvidersReference": "244",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61320,
-        "Title": "Plaza del Ayuntamiento",
-        "AddressLine1": "Calle Gabriel Miró, 2A",
-        "Town": "Altea",
-        "StateOrProvince": "Alicante",
-        "Postcode": "03590",
+        "Title": "Ayunt. Bocairent Mercado",
+        "AddressLine1": "Mercat Municipal",
+        "Town": "Bocairent",
+        "StateOrProvince": "Valencian Community",
+        "Postcode": "46880",
         "CountryID": 210,
-        "Latitude": 38.767227,
-        "Longitude": -0.611986,
-        "ContactTelephone1": "+34 966 881 425",
-        "RelatedURL": "http://www.pkal.es/",
+        "Latitude": 38.76645283030646,
+        "Longitude": -0.6099804220007172,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 77397,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 338703,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 1,
+            "PowerKW": 2.3,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-09-11T14:08:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,40 +1,54 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-10T20:20:00Z",
     "ID": 61040,
     "UUID": "960FF79C-C4B4-42A5-8A3C-6859AB56862B",
-    "DataProviderID": 27,
-    "DataProvidersReference": "184",
+    "DataProviderID": 1,
     "OperatorID": 210,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61386,
         "Title": "Goya 36",
-        "AddressLine1": "Calle de Goya, 34",
+        "AddressLine1": "Goya - Príncipe Vergara",
         "Town": "Madrid",
-        "StateOrProvince": "Madrid",
+        "StateOrProvince": "Community of Madrid",
         "Postcode": "28001",
         "CountryID": 210,
-        "Latitude": 40.424871,
-        "Longitude": -3.681347,
-        "ContactTelephone1": "+34 902 103 498",
-        "ContactEmail": "info@recargagic.com",
-        "RelatedURL": "http://www.recargagic.com/",
+        "Latitude": 40.42506937377959,
+        "Longitude": -3.6812430992333702,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 77556,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 77557,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 345280,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "Tarjeta GIC",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "DateLastStatusUpdate": "2022-10-10T20:20:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

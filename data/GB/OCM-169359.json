@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-15T21:59:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T09:11:00Z",
     "ID": 169359,
     "UUID": "9B16DCD8-DDC1-4615-8A1B-D98EB5532DCE",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70234,PG-84517",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 169718,
         "Title": "Tesco Extra-Accrington",
@@ -23,19 +23,34 @@
         {
             "ID": 257678,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84517",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Amir-Demi"
+        },
+        {
+            "ID": 320423,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70234",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Chet-Chad"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Eagle Street, Accrington",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-15T21:59:00Z",
+    "DateLastStatusUpdate": "2022-11-01T09:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-15T21:34:00Z",
     "SubmissionStatusTypeID": 200

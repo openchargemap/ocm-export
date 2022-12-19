@@ -1,20 +1,22 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T21:36:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-17T15:12:00Z",
     "ID": 188101,
     "UUID": "494B5C91-D5B2-44DD-86E4-96CDBAD45A6B",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-84483,PG-84971",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.247/kWh",
     "AddressInfo": {
         "ID": 188460,
-        "Title": "Ramsey",
-        "AddressLine1": "Ramsey",
+        "Title": "Market Square",
+        "AddressLine1": "Market Square",
         "Town": "Ramsey",
         "Postcode": "IM8 1JY",
         "CountryID": 110,
-        "Latitude": 54.32184,
-        "Longitude": -4.37996,
+        "Latitude": 54.3218673023944,
+        "Longitude": -4.37992495849085,
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -22,28 +24,33 @@
         {
             "ID": 303554,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-84483",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Emry-Izzy"
         },
         {
-            "ID": 303555,
+            "ID": 321310,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "PG-84971",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Bryn-Faye"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T21:36:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-17T15:12:00Z",
     "MetadataValues": [
         {
             "ID": 20341,
@@ -51,7 +58,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

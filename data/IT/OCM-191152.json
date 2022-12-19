@@ -1,6 +1,57 @@
 {
+    "UserComments": [
+        {
+            "ID": 26064,
+            "ChargePointID": 191152,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Quattro CCS Combo 2 da 300 kW più 2 CHAdeMO da 63 kW, situate nel parcheggio del distributore con accanto un bar. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnine-high-power-enel-x-q8-porsche-ravenna-ra-t22801.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-high-power-enel-x-q8-porsche-ravenna-ra-t22801.html",
+            "DateCreated": "2022-07-26T05:55:36.62Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 140,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 32664,
+            "ChargePointID": 191152,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM191152/OCM-191152.orig.2022072605554698.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM191152/OCM-191152.thmb.2022072605554698.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-07-26T05:56:00Z"
+        },
+        {
+            "ID": 32665,
+            "ChargePointID": 191152,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM191152/OCM-191152.orig.2022072605555171.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM191152/OCM-191152.thmb.2022072605555171.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-07-26T05:56:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-22T07:35:00Z",
+    "DateLastVerified": "2022-07-26T05:56:00Z",
     "ID": 191152,
     "UUID": "6B986773-36BE-458E-B392-A89840E5BAD5",
     "DataProviderID": 1,
@@ -9,14 +60,14 @@
     "UsageCost": "€ 0.79/kWh",
     "AddressInfo": {
         "ID": 191511,
-        "Title": "Q8",
+        "Title": "Enel X Q8",
         "AddressLine1": "Via classicana",
         "Town": "Ravenna",
         "StateOrProvince": "Emilia-Romagna",
-        "Postcode": "",
         "CountryID": 112,
-        "Latitude": 44.376123545387486,
-        "Longitude": 12.223533563576183,
+        "Latitude": 44.376257,
+        "Longitude": 12.223701,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-high-power-enel-x-q8-porsche-ravenna-ra-t22801.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,14 +75,24 @@
             "ID": 310175,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 315402,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-22T07:35:00Z",
+    "DateLastStatusUpdate": "2022-07-26T05:56:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-01-22T07:35:00Z",
     "SubmissionStatusTypeID": 200

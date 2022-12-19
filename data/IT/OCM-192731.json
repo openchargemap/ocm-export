@@ -131,12 +131,12 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-24T15:52:00Z",
+    "DateLastVerified": "2022-08-22T09:56:00Z",
     "ID": 192731,
     "UUID": "1825C37D-2C5D-4234-BE6B-2B01DACC6F35",
     "DataProviderID": 1,
     "OperatorID": 3327,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 193090,
         "Title": "Be Charge The Style Outlets",
@@ -146,6 +146,7 @@
         "CountryID": 112,
         "Latitude": 44.432516,
         "Longitude": 11.608393,
+        "AccessComments": "no 24/7 it's in a private parking , shop working time only",
         "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-be-charge-fast-the-style-outlets-castel-guelfo-di-bologna-bo-via-del-commercio-17-b-t24736.html",
         "DistanceUnit": 0
     },
@@ -153,33 +154,43 @@
         {
             "ID": 313296,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 75,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 313297,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 63
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 313298,
             "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 313299,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-24T15:52:00Z",
+    "DateLastStatusUpdate": "2022-08-22T09:56:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-24T15:51:00Z",
     "SubmissionStatusTypeID": 200

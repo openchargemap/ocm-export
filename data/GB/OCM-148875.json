@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-02-12T11:48:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:45:00Z",
     "ID": 148875,
     "UUID": "A97262EA-C0BF-4960-BBD9-D79C82DB7FFD",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70207,PG-84319",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 149227,
         "Title": "Tesco Superstore-Blandford Forum",
@@ -24,19 +24,34 @@
         {
             "ID": 206735,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70207",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Olaf-Enid"
+        },
+        {
+            "ID": 320395,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84319",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Kyla-Teri"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Stour Park, Blandford St Mary, Blandford Forum",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-02-12T11:48:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:45:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-02-12T06:33:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-11T12:13:00Z",
+    "DateLastVerified": "2022-11-01T10:45:00Z",
     "ID": 174989,
     "UUID": "027EC609-B5EA-4575-A275-5FA7683D998B",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 6,
-    "UsageCost": "£0.25/kWh",
+    "OperatorsReference": "t54_hu1_4720_003",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 175348,
         "Title": "Lidl Mansfield",
@@ -15,8 +16,8 @@
         "StateOrProvince": "England",
         "Postcode": "NG19 9AQ",
         "CountryID": 1,
-        "Latitude": 53.157468392638975,
-        "Longitude": -1.1900777511046954,
+        "Latitude": 53.157468392639,
+        "Longitude": -1.1900777511047,
         "RelatedURL": "http://www.pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,36 +25,42 @@
         {
             "ID": 271180,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4720_003",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Dean-Luis"
         },
         {
-            "ID": 271181,
+            "ID": 322137,
             "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4720_003",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Dean-Luis"
         },
         {
-            "ID": 271182,
+            "ID": 323681,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4720_003",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Dean-Luis"
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-11T12:13:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:45:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-23T04:42:00Z",
     "SubmissionStatusTypeID": 200

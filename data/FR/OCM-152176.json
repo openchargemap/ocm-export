@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-23T10:32:00Z",
     "ID": 152176,
     "UUID": "28CC307A-4A60-4C9C-9649-0794F4630C32",
     "DataProviderID": 28,
     "DataProvidersReference": "FRS1805901",
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 152529,
         "Title": "Le Chatelet",
@@ -13,28 +13,30 @@
         "CountryID": 80,
         "Latitude": 46.6423156,
         "Longitude": 2.2834187,
-        "AccessComments": "24h/24h",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 212924,
-            "ConnectionTypeID": 26,
+            "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 18
+            "PowerKW": 18,
+            "CurrentTypeID": 10
         },
         {
             "ID": 245790,
-            "ConnectionTypeID": 26,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 18
+            "PowerKW": 18,
+            "CurrentTypeID": 20
         }
     ],
-    "GeneralComments": "Borne en service",
+    "GeneralComments": "Paiement via badge et smarthphone",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:12:00Z",
+    "DateLastStatusUpdate": "2022-08-23T10:32:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:53:00Z",
     "SubmissionStatusTypeID": 100

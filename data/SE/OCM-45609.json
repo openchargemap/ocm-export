@@ -1,13 +1,15 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-10T11:20:00Z",
     "ID": 45609,
     "UUID": "964418C0-6924-4171-84A1-ADA4C93D3FA1",
     "DataProviderID": 1,
     "DataProvidersReference": "2268",
+    "OperatorID": 198,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 45955,
-        "Title": "Fortum McD Falkenberg",
+        "Title": "McDonalds Falkenberg - Recharge",
         "AddressLine1": "Mellangårdsvägen 4",
         "Town": "FALKENBERG",
         "StateOrProvince": "HALLAND",
@@ -21,27 +23,37 @@
     "Connections": [
         {
             "ID": 56272,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "3",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
+            "Quantity": 1,
             "Comments": "Mode 3"
         },
         {
             "ID": 87803,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "2",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
+        },
+        {
+            "ID": 345260,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 50,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 3,
-    "DateLastStatusUpdate": "2020-05-26T08:21:00Z",
+    "DateLastStatusUpdate": "2022-10-10T11:20:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2015-05-03T00:54:00Z",
     "SubmissionStatusTypeID": 100

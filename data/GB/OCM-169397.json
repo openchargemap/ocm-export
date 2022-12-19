@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-17T06:20:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:45:00Z",
     "ID": 169397,
     "UUID": "501E93AD-B0D4-420A-8148-E8CDA963411D",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-83426,PG-84820",
     "UsageTypeID": 4,
-    "UsageCost": "Free,£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 169756,
         "Title": "Lidl-Kingsway",
@@ -24,19 +24,34 @@
         {
             "ID": 257723,
             "ConnectionTypeID": 25,
+            "Reference": "PG-83426",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Fran-Enid"
+        },
+        {
+            "ID": 321260,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84820",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Colt-Hugh"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Lidl - Kingsway super store at Newhaven Road, Quedgeley, Gloucester",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-17T06:20:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:45:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-15T21:38:00Z",
     "SubmissionStatusTypeID": 200

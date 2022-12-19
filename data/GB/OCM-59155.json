@@ -13,14 +13,14 @@
             "CheckinStatusTypeID": 140
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-11-12T12:08:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T18:43:00Z",
     "ID": 59155,
     "UUID": "2F57B26F-3591-4A10-B0C4-3EAFC780D2F5",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-90084",
-    "UsageTypeID": 6,
+    "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 59501,
@@ -31,26 +31,27 @@
         "CountryID": 1,
         "Latitude": 51.5690733699818,
         "Longitude": -0.234565013491868,
-        "AccessComments": "Next to customer entrance",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 75122,
             "ConnectionTypeID": 25,
+            "Reference": "PG-90084",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Jack-Zack"
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "Pod-Point Solo. You will need a long cable if you are not to block the entrance",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-11-12T12:08:00Z",
+    "DateLastStatusUpdate": "2022-08-15T18:43:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-01-09T19:06:00Z",
     "SubmissionStatusTypeID": 200

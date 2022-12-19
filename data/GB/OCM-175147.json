@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-28T17:16:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-28T05:22:00Z",
     "ID": 175147,
     "UUID": "CEB47E11-26B2-4AC4-8FA9-69FBA3F0FA38",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "t54_it1_3620_034",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25 per kWh",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 175506,
         "Title": "Lidl - Witney",
@@ -16,8 +17,8 @@
         "StateOrProvince": "England",
         "Postcode": "OX28 4TT",
         "CountryID": 1,
-        "Latitude": 51.77323450986398,
-        "Longitude": -1.4926814020506072,
+        "Latitude": 51.773234509864,
+        "Longitude": -1.49268140205061,
         "RelatedURL": "https://charge.pod-point.com/",
         "DistanceUnit": 0
     },
@@ -25,37 +26,43 @@
         {
             "ID": 271496,
             "ConnectionTypeID": 25,
+            "Reference": "t54_it1_3620_034",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Frey-Aida"
         },
         {
-            "ID": 271497,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 271498,
+            "ID": 323727,
             "ConnectionTypeID": 2,
+            "Reference": "t54_it1_3620_034",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Frey-Aida"
+        },
+        {
+            "ID": 325154,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_it1_3620_034",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Frey-Aida"
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "Podpoint 50kw Rapid ( AC is a 22kw Socket )",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-28T17:16:00Z",
+    "DateLastStatusUpdate": "2022-09-28T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-28T17:14:00Z",
     "SubmissionStatusTypeID": 200

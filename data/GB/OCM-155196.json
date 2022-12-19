@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-04-04T05:41:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:03:00Z",
     "ID": 155196,
     "UUID": "7616E209-B870-40CC-94A9-51ECB66DAD42",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-84197,PG-84198,PG-84469",
     "UsageTypeID": 4,
-    "UsageCost": "£0.22/kWh",
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 155550,
         "Title": "Cofton Country Holidays",
@@ -24,19 +24,47 @@
         {
             "ID": 218445,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84198",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 6
+            "Quantity": 2,
+            "Comments": "Tate-Enid"
+        },
+        {
+            "ID": 323029,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84197",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Bess-Juan"
+        },
+        {
+            "ID": 324317,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84469",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Cleo-Faye"
         }
     ],
-    "NumberOfPoints": 14,
+    "NumberOfPoints": 8,
     "GeneralComments": "This is an open charge unit installed at the Cofton Country Holidays site at Starcross, Nr. Dawlish, South Devon",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-04-04T05:41:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-03-30T05:27:00Z",
     "SubmissionStatusTypeID": 200

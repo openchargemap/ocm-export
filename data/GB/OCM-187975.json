@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T06:23:00Z",
     "ID": 187975,
     "UUID": "1E75C7B0-DF8A-496C-B2FB-3260763843E0",
-    "DataProviderID": 18,
-    "DataProvidersReference": "d3fec6c4a7a7e89d98b8c67838fa8fb9",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-86763,PG-86764,PG-86773,PG-86774,PG-86779,PG-86782",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.25/kWh",
     "AddressInfo": {
         "ID": 188334,
         "Title": "Hill Street,",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 52.541401,
         "Longitude": -1.367827,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,85 @@
         {
             "ID": 303309,
             "ConnectionTypeID": 25,
-            "Reference": "PG-86764A",
+            "Reference": "PG-86773",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Neve-Enya"
         },
         {
-            "ID": 303310,
+            "ID": 324397,
             "ConnectionTypeID": 25,
-            "Reference": "PG-86764B",
+            "Reference": "PG-86764",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Yoko-Dale"
+        },
+        {
+            "ID": 324398,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86779",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Suki-Lola"
+        },
+        {
+            "ID": 324970,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86763",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Aida-Rich"
+        },
+        {
+            "ID": 324971,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86774",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Robb-Omar"
+        },
+        {
+            "ID": 324972,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86782",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Liam-Aida"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 12,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-11-02T06:23:00Z",
     "MetadataValues": [
         {
             "ID": 20215,
@@ -53,7 +110,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

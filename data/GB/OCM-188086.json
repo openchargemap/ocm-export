@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T21:14:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-21T05:22:00Z",
     "ID": 188086,
     "UUID": "D04D97DB-5CCB-4841-9487-2EC1F9C1AA0B",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
-    "UsageCost": "£0.25/kWh",
+    "OperatorsReference": "PG-85551",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 188445,
         "Title": "Ribblesdale Car Park",
@@ -23,18 +24,20 @@
         {
             "ID": 303527,
             "ConnectionTypeID": 25,
+            "Reference": "PG-85551",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Dean-Alec"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-12T21:14:00Z",
+    "DateLastStatusUpdate": "2022-10-21T05:22:00Z",
     "MetadataValues": [
         {
             "ID": 20326,
@@ -42,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
     "SubmissionStatusTypeID": 200
 }

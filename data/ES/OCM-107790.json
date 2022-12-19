@@ -33,13 +33,13 @@
             "DateCreated": "2018-08-09T21:26:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-08-11T21:05:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-12T13:04:00Z",
     "ID": 107790,
     "UUID": "DE9B5FA6-12FA-42CA-9C96-F4B016F27901",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 5,
+    "UsageTypeID": 6,
     "UsageCost": "Parking fee",
     "AddressInfo": {
         "ID": 108136,
@@ -64,18 +64,27 @@
             "ID": 152199,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
-            "LevelID": 1,
+            "LevelID": 2,
             "Amps": 32,
-            "Voltage": 44,
-            "PowerKW": 44,
+            "Voltage": 400,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 345731,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 1,
+            "PowerKW": 2.3,
+            "CurrentTypeID": 10,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 0,
+    "NumberOfPoints": 2,
     "GeneralComments": "This charger is free for Odissea Park Aparhotel clients, if you are not client, ask at reception desk about.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-08-11T21:05:00Z",
+    "DateLastStatusUpdate": "2022-10-12T13:04:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-08-09T21:25:00Z",
     "SubmissionStatusTypeID": 200

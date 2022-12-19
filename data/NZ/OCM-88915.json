@@ -33,37 +33,51 @@
             "DateCreated": "2017-06-12T09:34:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-06-12T09:35:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-07T05:32:00Z",
     "ID": 88915,
     "UUID": "F24C1ED4-2BD1-4117-85C5-E1C912DF51E8",
     "DataProviderID": 1,
+    "OperatorID": 229,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.45 / kWh + $0.15 / minute",
     "AddressInfo": {
         "ID": 89261,
-        "Title": "Town Basin Clock Museum",
+        "Title": "Whangarei Town Basin Clock Museum",
         "AddressLine1": "100/88-100 Dent St ",
         "Town": "Whangarei ",
         "Postcode": "0110",
         "CountryID": 161,
         "Latitude": -35.725339613962056,
         "Longitude": 174.32640653393787,
-        "ContactTelephone1": "(080) 010-4040",
+        "ContactTelephone1": "+64 800 224 274",
+        "AccessComments": "Open 24/7",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 126180,
-            "ConnectionTypeID": 25
+            "ID": 315760,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
-            "ID": 126181,
-            "ConnectionTypeID": 29
+            "ID": 315761,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
-    "GeneralComments": "Lock combination is 3636. Push button on bottom of lock to pop open\r\n1 charging location but the long cord can reach two spots. Cord, Type 2 to Type 1 Cord and plugs (2x 15 Amp and 1x 10 Amp) are inside Northpower boxes. The boxes can be accessed by setting the locks to 3636 and then push the bottom button on the lock.",
+    "NumberOfPoints": 1,
+    "GeneralComments": "25 kW DC charger with CHAdeMO & CCS",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-06-12T09:35:00Z",
+    "DateLastStatusUpdate": "2022-07-07T05:32:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-06-12T09:34:00Z",
     "SubmissionStatusTypeID": 200

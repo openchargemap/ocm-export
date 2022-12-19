@@ -1,28 +1,31 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:14:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-16T21:40:00Z",
     "ID": 153176,
     "UUID": "92538C37-6DB0-4219-A308-60956AF57FD9",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR S89 P89438 A",
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 33,
+    "UsageTypeID": 1,
+    "UsageCost": "Free. RFID required",
     "AddressInfo": {
         "ID": 153529,
         "Title": "place",
-        "AddressLine1": "Place du Presbytere - VENOY",
+        "AddressLine1": "Place du Presbytere",
+        "Town": "VENOY",
+        "Postcode": "89290",
         "CountryID": 80,
         "Latitude": 47.8067199884,
         "Longitude": 3.6368734605,
-        "AccessComments": "24/24 - 7/7",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 214762,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 45
+            "PowerKW": 44
         },
         {
             "ID": 214763,
@@ -41,9 +44,10 @@
             "CurrentTypeID": 30
         }
     ],
-    "GeneralComments": "En service",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Type 2 + (Chademo OR Combo CCS EU)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:14:00Z",
+    "DateLastStatusUpdate": "2022-10-16T21:40:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:54:00Z",
     "SubmissionStatusTypeID": 100

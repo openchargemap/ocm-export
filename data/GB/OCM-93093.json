@@ -1,11 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-11-22T11:07:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-19T11:55:00Z",
     "ID": 93093,
     "UUID": "8B1F8E94-9E91-4A89-99BE-5193CFE55085",
     "DataProviderID": 1,
     "OperatorID": 3295,
     "UsageTypeID": 5,
+    "UsageCost": "£1.25/hour",
     "AddressInfo": {
         "ID": 93439,
         "Title": "Bradford-on-Avon Station Car Park",
@@ -22,19 +23,32 @@
         {
             "ID": 131870,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "Reference": "UKEV0138",
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 7,
+            "PowerKW": 7.2,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 316361,
+            "ConnectionTypeID": 25,
+            "Reference": "UKEV0139",
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Wiltshire Council funded by Local Sustainable Transport Fund project.",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-11-22T11:07:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-07-19T11:55:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-09-18T15:03:00Z",
     "SubmissionStatusTypeID": 200

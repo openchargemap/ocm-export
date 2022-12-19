@@ -1,13 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T10:59:00Z",
     "ID": 96984,
     "UUID": "D898EAF0-129C-4677-AD9E-5203A7CF0E7B",
     "DataProviderID": 1,
     "DataProvidersReference": "4573",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 97330,
-        "Title": "Vattenfall InCharge Snabbladdning",
+        "Title": "MAX Björkavägen - InCharge",
         "AddressLine1": "Björkavägen 103",
         "Town": "ÖDÅKRA-VÄLA",
         "StateOrProvince": "SKÅNE",
@@ -21,27 +22,37 @@
     "Connections": [
         {
             "ID": 137380,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 137381,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "2",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
+        },
+        {
+            "ID": 348094,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "DateLastStatusUpdate": "2020-05-26T08:21:00Z",
+    "DateLastStatusUpdate": "2022-10-25T10:59:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2018-01-04T08:28:00Z",
     "SubmissionStatusTypeID": 100

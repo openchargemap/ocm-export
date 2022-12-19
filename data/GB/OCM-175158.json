@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-28T18:43:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-15T05:21:00Z",
     "ID": 175158,
     "UUID": "41FAE538-72E6-4FB3-82C1-E634AF8F0AC5",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-70358,PG-86382,veefil-12100034",
     "UsageTypeID": 4,
-    "UsageCost": "Type 2 free, use Pod Point app or webpage charge.pod-point.com to confirm charge within 15 mins. Rapid Charger £0.27 per kWh",
+    "UsageCost": "Free,£0.28/kWh. Rapid Charger £0.27 per kWh",
     "AddressInfo": {
         "ID": 175517,
         "Title": "Tesco Superstore - Aylsham",
@@ -16,54 +17,64 @@
         "StateOrProvince": "England",
         "Postcode": "NR11 6BW ",
         "CountryID": 1,
-        "Latitude": 52.79139715717943,
-        "Longitude": 1.2524505105784556,
+        "Latitude": 52.7913971571794,
+        "Longitude": 1.25245051057846,
         "RelatedURL": "https://charge.pod-point.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 271526,
+            "ID": 271529,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70358",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Anna-Alma"
+        },
+        {
+            "ID": 323909,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12100034",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Naya-Judi"
+        },
+        {
+            "ID": 323910,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100034",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Naya-Judi"
+        },
+        {
+            "ID": 323911,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86382",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
-            "ID": 271527,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 271528,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 271529,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Vern-Theo"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-28T18:43:00Z",
+    "DateLastStatusUpdate": "2022-09-15T05:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-28T18:43:00Z",
     "SubmissionStatusTypeID": 200

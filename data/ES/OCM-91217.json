@@ -51,24 +51,24 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-11-27T10:37:00Z",
+    "DateLastVerified": "2022-10-03T10:50:00Z",
     "ID": 91217,
     "UUID": "33295199-E089-49C1-A046-90866D79C0A0",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 45,
     "OperatorsReference": "32506",
-    "UsageTypeID": 6,
+    "UsageTypeID": 4,
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 91563,
         "Title": "El Corte Ingles Puerto Banus",
-        "AddressLine1": "Av Ramon Areces",
-        "Town": "s/n",
-        "StateOrProvince": "Marbella",
+        "AddressLine1": "El Corte Inglés",
+        "Town": "Marbella",
+        "StateOrProvince": "Andalusia",
         "Postcode": "29660",
         "CountryID": 210,
-        "Latitude": 36.490589,
-        "Longitude": -4.951873,
-        "ContactTelephone1": "+34 952 90 99 90",
+        "Latitude": 36.490899517254434,
+        "Longitude": -4.952280695770014,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -81,13 +81,31 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 340437,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 340438,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "GeneralComments": "1 Tesla Connector, up to 22kW.Available for patrons only. Self park.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-27T10:37:00Z",
+    "DateLastStatusUpdate": "2022-10-03T10:50:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-08-02T05:34:00Z",
     "SubmissionStatusTypeID": 200

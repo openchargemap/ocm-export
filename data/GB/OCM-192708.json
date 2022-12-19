@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-23T12:20:00Z",
+    "DateLastVerified": "2022-10-28T05:22:00Z",
     "ID": 192708,
     "UUID": "F379F21D-6C85-4427-887B-14D4E91E1EAD",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
-    "UsageCost": "£0.26/kWh",
+    "OperatorsReference": "t54_hu1_1121_015",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 193067,
         "Title": "Lidl",
@@ -15,42 +16,50 @@
         "StateOrProvince": "England",
         "Postcode": "NR7 0TA",
         "CountryID": 1,
-        "Latitude": 52.630557202746814,
-        "Longitude": 1.3820382103467352,
+        "Latitude": 52.6305572027468,
+        "Longitude": 1.38203821034674,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 313244,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_1121_015",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Judi-Zaye"
         },
         {
-            "ID": 313245,
-            "ConnectionTypeID": 1036,
+            "ID": 318377,
+            "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_1121_015",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Judi-Zaye"
         },
         {
-            "ID": 313246,
+            "ID": 323550,
             "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_1121_015",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Judi-Zaye"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-23T12:20:00Z",
+    "DateLastStatusUpdate": "2022-10-28T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-23T12:20:00Z",
     "SubmissionStatusTypeID": 200

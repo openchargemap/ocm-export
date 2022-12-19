@@ -1,15 +1,15 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-12-19T01:53:00Z",
+    "DateLastVerified": "2022-06-30T07:52:00Z",
     "ID": 172921,
     "UUID": "5F6B8268-C957-4203-9FB8-3A5181817B03",
     "DataProviderID": 1,
     "OperatorID": 3339,
     "UsageTypeID": 1,
-    "UsageCost": "$0.40/kWh, $0.32/kWh for NRMA members",
+    "UsageCost": "$0.60/kWh, 20% discount for NRMA members",
     "AddressInfo": {
         "ID": 173280,
-        "Title": "Thrumster [Chargefox]",
+        "Title": "Port Macquarie Service Centre [Chargefox]",
         "AddressLine1": "1063 Oxley Highway",
         "Town": "Thrumster",
         "StateOrProvince": "NSW",
@@ -18,6 +18,7 @@
         "Latitude": -31.463751231214047,
         "Longitude": 152.82172752510883,
         "AccessComments": "Located behind the BP service station",
+        "RelatedURL": "https://chargefox.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,26 +26,28 @@
             "ID": 264538,
             "ConnectionTypeID": 33,
             "Reference": "Station 4520 Ports B & D",
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "$0.60/kWh\r\n20% discount for state motoring club members"
         },
         {
             "ID": 264539,
             "ConnectionTypeID": 2,
             "Reference": "Station 4520 Ports A & C",
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "$0.60/kWh\r\n20% discount for state motoring club members"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-19T01:53:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-06-30T07:52:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-02-22T04:25:00Z",
     "SubmissionStatusTypeID": 200

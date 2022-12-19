@@ -33,16 +33,17 @@
             "DateCreated": "2020-03-16T08:07:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-03-17T08:37:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-24T17:55:00Z",
     "ID": 150100,
     "UUID": "391CC8B0-4336-415F-B827-8447D34BB4CF",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 1,
+    "UsageCost": "0,39€/kWh",
     "AddressInfo": {
         "ID": 150453,
-        "Title": "EasyCharger - Hotel Meleiros",
+        "Title": "Zunder - Hotel Meleiros",
         "AddressLine1": "Carr. nacional 525, km 84, 300",
         "Town": "Zamora",
         "StateOrProvince": "Zamora",
@@ -50,6 +51,7 @@
         "CountryID": 210,
         "Latitude": 42.06097924275369,
         "Longitude": -6.642557382472432,
+        "RelatedURL": "https://www.zunder.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -58,6 +60,8 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
@@ -67,6 +71,8 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
@@ -76,13 +82,16 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-03-17T08:37:00Z",
+    "DateLastStatusUpdate": "2022-10-24T17:55:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-03-13T23:35:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-30T05:22:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-03T06:22:00Z",
     "ID": 75543,
     "UUID": "C6A081D9-4194-4209-890E-9E9561D85A73",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-80806,PG-80809,PG-80812",
     "UsageTypeID": 4,
-    "UsageCost": "1,£1.00/hour",
+    "UsageCost": "£1.00/hour",
     "AddressInfo": {
         "ID": 75889,
         "Title": "Sholden Fields",
@@ -24,18 +24,46 @@
         {
             "ID": 108888,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80809",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 6
+            "Quantity": 2,
+            "Comments": "Rick-Anne"
+        },
+        {
+            "ID": 320916,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80812",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Neil-Dave"
+        },
+        {
+            "ID": 324115,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80806",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Dora-Mark"
         }
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-30T05:22:00Z",
+    "DateLastStatusUpdate": "2022-11-03T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-12-16T09:44:00Z",
     "SubmissionStatusTypeID": 200

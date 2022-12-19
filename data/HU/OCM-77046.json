@@ -18,6 +18,86 @@
     ],
     "MediaItems": [
         {
+            "ID": 32263,
+            "ChargePointID": 77046,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM77046/OCM-77046.orig.2022070122133289.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM77046/OCM-77046.thmb.2022070122133289.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36524,
+                "Username": "Dominik"
+            },
+            "DateCreated": "2022-07-01T22:14:00Z"
+        },
+        {
+            "ID": 32264,
+            "ChargePointID": 77046,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM77046/OCM-77046.orig.2022070122135615.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM77046/OCM-77046.thmb.2022070122135615.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36524,
+                "Username": "Dominik"
+            },
+            "DateCreated": "2022-07-01T22:14:00Z"
+        },
+        {
+            "ID": 32260,
+            "ChargePointID": 77046,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM77046/OCM-77046.orig.2022070122125183.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM77046/OCM-77046.thmb.2022070122125183.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36524,
+                "Username": "Dominik"
+            },
+            "DateCreated": "2022-07-01T22:13:00Z"
+        },
+        {
+            "ID": 32261,
+            "ChargePointID": 77046,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM77046/OCM-77046.orig.2022070122130762.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM77046/OCM-77046.thmb.2022070122130762.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36524,
+                "Username": "Dominik"
+            },
+            "DateCreated": "2022-07-01T22:13:00Z"
+        },
+        {
+            "ID": 32262,
+            "ChargePointID": 77046,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM77046/OCM-77046.orig.2022070122132278.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM77046/OCM-77046.thmb.2022070122132278.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36524,
+                "Username": "Dominik"
+            },
+            "DateCreated": "2022-07-01T22:13:00Z"
+        },
+        {
             "ID": 30681,
             "ChargePointID": 77046,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM77046/OCM-77046.orig.2022020613553646.jpg",
@@ -67,13 +147,13 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-02-06T13:56:00Z",
+    "DateLastVerified": "2022-07-02T10:49:00Z",
     "ID": 77046,
     "UUID": "CD3AFA6F-34A1-41C2-A4D2-F27B7679EE62",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 1,
-    "UsageCost": "free",
+    "UsageCost": "172 Ft / kWh",
     "AddressInfo": {
         "ID": 77392,
         "Title": "Budapest, Media Markt Stop Shop",
@@ -92,12 +172,28 @@
     },
     "Connections": [
         {
-            "ID": 110664,
+            "ID": 315379,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 315380,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 315381,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
@@ -105,7 +201,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-06T13:56:00Z",
+    "DateLastStatusUpdate": "2022-07-02T10:49:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-12-27T17:46:00Z",
     "SubmissionStatusTypeID": 200

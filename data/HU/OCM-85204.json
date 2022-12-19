@@ -1,5 +1,69 @@
 {
+    "UserComments": [
+        {
+            "ID": 26282,
+            "ChargePointID": 85204,
+            "CommentTypeID": 10,
+            "UserName": "Jegesjeles",
+            "Comment": "Very good charging point ✅ ",
+            "Rating": 5,
+            "DateCreated": "2022-09-05T16:46:56.063Z",
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 26237,
+            "ChargePointID": 85204,
+            "CommentTypeID": 10,
+            "UserName": "Jegesjeles",
+            "Comment": "Excellent charging point ✅ Public working ✅",
+            "Rating": 5,
+            "DateCreated": "2022-08-29T19:37:14.863Z",
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
+        {
+            "ID": 32796,
+            "ChargePointID": 85204,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM85204/OCM-85204.orig.2022080620271674.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM85204/OCM-85204.thmb.2022080620271674.jpg",
+            "Comment": "75 kW DC, üzemel ✅",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "DateCreated": "2022-08-06T20:27:00Z"
+        },
+        {
+            "ID": 32795,
+            "ChargePointID": 85204,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM85204/OCM-85204.orig.2022080620245211.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM85204/OCM-85204.thmb.2022080620245211.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "DateCreated": "2022-08-06T20:25:00Z"
+        },
         {
             "ID": 10704,
             "ChargePointID": 85204,
@@ -33,48 +97,77 @@
             "DateCreated": "2017-03-29T11:33:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-08-21T16:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-05T16:47:00Z",
     "ID": 85204,
     "UUID": "85F0369F-4673-4B9B-9613-285BD116D74D",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 3462,
     "UsageTypeID": 1,
-    "UsageCost": "free of charge",
+    "UsageCost": "123,- Ft/kWh ",
     "AddressInfo": {
         "ID": 85550,
-        "Title": "Töltéstava, Hedoti Autohof",
+        "Title": "TEA. Győr M1 Hedoti Autohof 75 kW DC ",
         "AddressLine1": "Fehérvári út 2608/5",
-        "Town": "Töltéstava",
+        "AddressLine2": "Hedoti Autohof Pótkerék Falatozó",
+        "Town": "Győr Töltéstava ",
         "StateOrProvince": "Győr-Moson-Sopron",
         "Postcode": "9086",
         "CountryID": 104,
-        "Latitude": 47.6491789,
-        "Longitude": 17.7052226000001,
-        "ContactTelephone1": "+36302564617",
-        "ContactTelephone2": "+36305201655",
+        "Latitude": 47.64938181136765,
+        "Longitude": 17.704850354163113,
+        "ContactTelephone1": "+36 30 550 9858",
+        "ContactTelephone2": "+36 30 550 9858",
         "ContactEmail": "kamionparkologyor@gmail.com",
         "AccessComments": "We are located in Győr, Hungary at the M1 higway EXIT 115",
-        "RelatedURL": "http://autohof-gyor.hu",
+        "RelatedURL": "https://www.teapont.hu/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 120980,
+            "ID": 317240,
+            "ConnectionTypeID": 33,
+            "Reference": "TEA.",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 180,
+            "Voltage": 500,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
+        },
+        {
+            "ID": 317241,
+            "ConnectionTypeID": 2,
+            "Reference": "TEA.",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
+        },
+        {
+            "ID": 317242,
             "ConnectionTypeID": 25,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "22 kW AC charger, cable is available for both Type2 and Type1 compatible EVs",
+    "GeneralComments": "TEApont alkalmazásból vagy a készüléken található QR kóddal, illetve RFID kártyával indítható a töltés. Töltsd le a TEApont applikációt a Google Play-ből vagy az AppStore-ból!",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-08-21T16:19:00Z",
+    "DateLastStatusUpdate": "2022-09-05T16:47:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-03-29T11:32:00Z",
     "SubmissionStatusTypeID": 200

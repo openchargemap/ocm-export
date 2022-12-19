@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-10-02T09:46:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:52:00Z",
     "ID": 126113,
     "UUID": "FFCE59C4-505B-4137-8752-4CAEA584A499",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-92680,PG-92707",
     "UsageTypeID": 4,
-    "UsageCost": "£0.15/kWh,£0.15/kWh,£0.15/kWh,£0.15/kWh,£0.15/kWh,£0.15/kWh,£0.15/kWh",
+    "UsageCost": "£0.30/kWh,£0.30/kWh,£0.30/kWh,£0.30/kWh,£0.30/kWh,£0.30/kWh,£0.30/kWh",
     "AddressInfo": {
         "ID": 126459,
         "Title": "Boulder Hut LTD",
@@ -22,19 +22,34 @@
         {
             "ID": 176758,
             "ConnectionTypeID": 25,
+            "Reference": "PG-92680",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Luis-Quin"
+        },
+        {
+            "ID": 321726,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-92707",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Cody-Axel"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the Boulder Hut Ltd site in Olympic Park, Poole Hall Road, Ellesmere Port, Cheshire",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-10-02T09:46:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:52:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-05-13T11:38:00Z",
     "SubmissionStatusTypeID": 200

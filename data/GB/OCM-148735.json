@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-02-10T06:26:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:45:00Z",
     "ID": 148735,
     "UUID": "0462BB95-E860-406C-9664-0053C390C589",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70190,PG-84426",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 149087,
         "Title": "Tesco Superstore-Windsor",
@@ -23,19 +23,34 @@
         {
             "ID": 206524,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84426",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Kent-Vera"
+        },
+        {
+            "ID": 320379,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70190",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Arlo-Amir"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Dedworth Road, Windsor",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-02-10T06:26:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:45:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-02-09T22:24:00Z",
     "SubmissionStatusTypeID": 200

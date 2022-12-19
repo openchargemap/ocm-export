@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:14:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-23T10:33:00Z",
     "ID": 166511,
     "UUID": "EC2C6545-3CE3-424D-8B99-8B81E27E1106",
     "DataProviderID": 28,
@@ -11,14 +11,29 @@
         "Title": "Le Gault-Saint-Denis | Place de l'Église",
         "AddressLine1": "Place de l'Église 28800 Le Gault-Saint-Denis",
         "CountryID": 80,
-        "Latitude": 48.243988,
+        "Latitude": 48.243989,
         "Longitude": 1.484286,
-        "AccessComments": "24/24 7/7",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 248942,
+            "ConnectionTypeID": 26,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22
+        },
+        {
+            "ID": 248943,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 10
+        },
+        {
+            "ID": 248944,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -26,14 +41,22 @@
             "CurrentTypeID": 20
         },
         {
-            "ID": 248943,
+            "ID": 329874,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 329875,
             "ConnectionTypeID": 26,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22
         },
         {
-            "ID": 248944,
+            "ID": 329876,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -43,7 +66,7 @@
     ],
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:14:00Z",
+    "DateLastStatusUpdate": "2022-08-23T10:33:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:14:00Z",
     "SubmissionStatusTypeID": 100

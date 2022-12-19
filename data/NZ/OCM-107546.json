@@ -1,27 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-08-01T20:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-10T05:44:00Z",
     "ID": 107546,
     "UUID": "E85D20E4-EA28-4312-9FC6-CF644BD5C5F3",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 229,
     "UsageTypeID": 4,
     "UsageCost": "$0.40/kWh",
     "AddressInfo": {
         "ID": 107892,
-        "Title": "Rangitaiki Lodge",
-        "AddressLine1": "State Highway 5",
+        "Title": "Rangitaiki (Rangitaiki Lodge)",
+        "AddressLine1": "3281 State Highway 5",
         "Town": "Rangitaiki",
         "Postcode": "3379",
         "CountryID": 161,
         "Latitude": -38.878541,
         "Longitude": 176.369803,
+        "ContactTelephone1": "+64 800 286 476",
+        "AccessComments": "Open 24/7",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 151751,
             "ConnectionTypeID": 2,
+            "Reference": "RTKL1-DC",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -31,15 +34,18 @@
         {
             "ID": 151752,
             "ConnectionTypeID": 25,
+            "Reference": "RTKL1-AC",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "BYO Cable"
         },
         {
             "ID": 151753,
             "ConnectionTypeID": 33,
+            "Reference": "RTKL1-DC",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -47,9 +53,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Free WIFI available (search for NOW WIFI on your phone)  This charger is outside the FORMER Rangitaiki Lodge/Cafe (unfortunately now permanently closed). It has CCS Type 2 (50kW), CHAdeMO (50kW), and AC Type 2 socket (22kW)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-08-01T20:12:00Z",
+    "DateLastStatusUpdate": "2022-07-10T05:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-08-01T12:34:00Z",
     "SubmissionStatusTypeID": 200

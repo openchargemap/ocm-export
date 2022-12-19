@@ -1,11 +1,28 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-11T19:33:00Z",
+    "UserComments": [
+        {
+            "ID": 26104,
+            "ChargePointID": 157933,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Former Polar Network charge point removed and replaced with Porsche Destination Charging units",
+            "DateCreated": "2022-08-03T09:09:43.11Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-03T09:10:00Z",
     "ID": 157933,
     "UUID": "2354D733-513C-4CD4-A30E-E00ADD4CBB02",
     "DataProviderID": 1,
-    "OperatorID": 32,
-    "UsageTypeID": 4,
+    "OperatorID": 45,
+    "UsageTypeID": 7,
+    "UsageCost": "ask at hotel reception",
     "AddressInfo": {
         "ID": 158287,
         "Title": "Blunsdon House Hotel",
@@ -16,36 +33,27 @@
         "CountryID": 1,
         "Latitude": 51.613602,
         "Longitude": -1.78872,
+        "AccessComments": "Contact hotel reception",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 227619,
-            "ConnectionTypeID": 3,
-            "Reference": "405",
-            "StatusTypeID": 100,
-            "LevelID": 2,
-            "Amps": 13,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
             "ID": 227620,
-            "ConnectionTypeID": 25,
-            "Reference": "405",
-            "StatusTypeID": 100,
+            "ConnectionTypeID": 1036,
+            "Reference": "",
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2021-05-11T19:33:00Z",
+    "NumberOfPoints": 4,
+    "GeneralComments": "Porsche Destination Charging",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-03T09:10:00Z",
     "MetadataValues": [
         {
             "ID": 7466,

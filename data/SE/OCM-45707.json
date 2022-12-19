@@ -1,13 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T17:28:00Z",
     "ID": 45707,
     "UUID": "7F2B9425-8679-4BC6-84A0-F5D28484041E",
     "DataProviderID": 1,
     "DataProvidersReference": "1588",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 46053,
-        "Title": "Orust Snabbladdare, Henån",
+        "Title": "Henån Orust Snabbladdare - CloudCharge",
         "AddressLine1": "Norra Strandvägen ",
         "Town": "HENÅN",
         "StateOrProvince": "VÄSTRA GÖTALAND",
@@ -21,17 +22,34 @@
     "Connections": [
         {
             "ID": 56370,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
+        },
+        {
+            "ID": 348210,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 50,
+            "Quantity": 1
+        },
+        {
+            "ID": 348211,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 44,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "DateLastStatusUpdate": "2020-05-26T08:21:00Z",
+    "DateLastStatusUpdate": "2022-10-25T17:28:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2015-05-03T00:54:00Z",
     "SubmissionStatusTypeID": 100

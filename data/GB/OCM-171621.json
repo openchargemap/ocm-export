@@ -82,15 +82,15 @@
             "DateCreated": "2021-01-08T19:51:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-15T06:28:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T06:22:00Z",
     "ID": 171621,
     "UUID": "5B003821-C8E9-4C37-AFFF-0B27D04FAEDD",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70376,PG-85502",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 171980,
         "Title": "Tesco",
@@ -107,18 +107,33 @@
         {
             "ID": 262437,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70376",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Jade-Amos"
+        },
+        {
+            "ID": 320562,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85502",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Hugh-Cato"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-15T06:28:00Z",
+    "DateLastStatusUpdate": "2022-11-02T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-01-06T22:16:00Z",
     "SubmissionStatusTypeID": 200

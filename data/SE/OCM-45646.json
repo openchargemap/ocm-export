@@ -1,13 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T17:28:00Z",
     "ID": 45646,
     "UUID": "7D6BE123-FFCE-4DFA-B295-968C7E788AEC",
     "DataProviderID": 1,
     "DataProvidersReference": "2052",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 45992,
-        "Title": "Fortum McD Landvetter",
+        "Title": "McDonalds Landvetter - Recharge",
         "AddressLine1": "Flygplatsvägen 12",
         "Town": "LANDVETTER",
         "StateOrProvince": "VÄSTRA GÖTALAND",
@@ -21,37 +22,40 @@
     "Connections": [
         {
             "ID": 56309,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "4",
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 3"
         },
         {
             "ID": 83939,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "2",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 87866,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "3",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
+            "Quantity": 1,
             "Comments": "Mode 3"
         }
     ],
-    "NumberOfPoints": 4,
-    "DateLastStatusUpdate": "2020-05-26T08:21:00Z",
+    "NumberOfPoints": 3,
+    "DateLastStatusUpdate": "2022-10-25T17:28:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2015-05-03T00:54:00Z",
     "SubmissionStatusTypeID": 100

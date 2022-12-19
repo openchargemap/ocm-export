@@ -1,15 +1,33 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-01T11:04:00Z",
+    "MediaItems": [
+        {
+            "ID": 33315,
+            "ChargePointID": 173926,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM173926/OCM-173926.orig.2022082808134481.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM173926/OCM-173926.thmb.2022082808134481.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-28T08:14:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T08:18:00Z",
     "ID": 173926,
     "UUID": "99F843BB-14C9-4F19-A598-AE90E1B5C004",
     "DataProviderID": 1,
     "OperatorID": 3324,
-    "UsageTypeID": 1,
-    "UsageCost": "0,30",
+    "UsageTypeID": 4,
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 174285,
-        "Title": "Torrent 1 - Dir Alicante",
+        "Title": "Torrent 1 - Dir Alicante - Zunder",
         "AddressLine1": "AP7 km 519 dirección Alicante",
         "Town": "Torrent",
         "StateOrProvince": "Valencia",
@@ -24,6 +42,8 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
             "PowerKW": 90,
             "CurrentTypeID": 30,
             "Quantity": 2
@@ -33,14 +53,15 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 200,
             "PowerKW": 90,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-01T11:04:00Z",
+    "DateLastStatusUpdate": "2022-10-25T08:18:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-07T13:28:00Z",
     "SubmissionStatusTypeID": 200

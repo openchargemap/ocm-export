@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-11-17T23:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-07T05:21:00Z",
     "ID": 170076,
     "UUID": "98C94BA9-F894-45F8-B4BD-168125EAC42D",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-100762,PG-100774",
     "UsageTypeID": 4,
-    "UsageCost": "£0.20 per kWh, use Pod Point app or webpage charge.pod-point.com to confirm charge within 15mins",
+    "UsageCost": "£0.42/kWh",
     "AddressInfo": {
         "ID": 170435,
         "Title": "Forever Green Restaurant",
@@ -16,10 +17,8 @@
         "StateOrProvince": "England",
         "Postcode": "NG21 0HJ",
         "CountryID": 1,
-        "Latitude": 53.13060337820326,
-        "Longitude": -1.1427160948925348,
-        "ContactTelephone1": "+44 1623 675323",
-        "AccessComments": "Mon-Fri 8.30am-4pm, Closed Sat-Sun",
+        "Latitude": 53.1306033782033,
+        "Longitude": -1.14271609489253,
         "RelatedURL": "https://pod-point.com/",
         "DistanceUnit": 0
     },
@@ -27,19 +26,34 @@
         {
             "ID": 259265,
             "ConnectionTypeID": 25,
+            "Reference": "PG-100762",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Bret-Dean"
+        },
+        {
+            "ID": 319908,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-100774",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Stan-Pria"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "7kW Pod Points, Stan-Pria & Bret-Dean",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-11-17T23:12:00Z",
+    "DateLastStatusUpdate": "2022-10-07T05:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-11-17T23:12:00Z",
     "SubmissionStatusTypeID": 200

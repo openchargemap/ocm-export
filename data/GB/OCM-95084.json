@@ -49,8 +49,8 @@
             "DateCreated": "2017-11-26T17:07:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-02T09:17:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:29:00Z",
     "ID": 95084,
     "UUID": "FB947FF3-2930-4B67-9FDA-6AB5C2AB0837",
     "DataProviderID": 1,
@@ -68,37 +68,40 @@
         "CountryID": 1,
         "Latitude": 51.652531,
         "Longitude": -0.386805,
-        "AccessComments": "In Tesco Extra car park. Free parking. Max stay 3 hours. ANPR enforced.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 134724,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70002",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Jude-Vern"
         },
         {
             "ID": 135738,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81597",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 3,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Pete-Alan"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco Extra Watford superstore in Lower High Street, Watford, Hertfordshire. Pod point app or website login required for more than 15 minutes charge.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-02T09:17:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:29:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-11-02T14:19:00Z",
     "SubmissionStatusTypeID": 200

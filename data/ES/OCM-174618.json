@@ -15,53 +15,95 @@
             "IsActionedByEditor": false
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-08-25T10:05:00Z",
+    "MediaItems": [
+        {
+            "ID": 33461,
+            "ChargePointID": 174618,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM174618/OCM-174618.orig.2022083111135070.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM174618/OCM-174618.thmb.2022083111135070.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-31T11:14:00Z"
+        },
+        {
+            "ID": 33462,
+            "ChargePointID": 174618,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM174618/OCM-174618.orig.2022083111141164.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM174618/OCM-174618.thmb.2022083111141164.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-31T11:14:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-24T13:01:00Z",
     "ID": 174618,
     "UUID": "D89039AE-BE01-403F-9DB5-E6C275A4BE56",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3523,
     "UsageTypeID": 6,
     "AddressInfo": {
         "ID": 174977,
         "Title": "Centro Porsche ALICANTE",
-        "AddressLine1": "Calle Río Turia, 16",
-        "Town": "Alicante",
-        "StateOrProvince": "Alicante",
-        "Postcode": "03006",
+        "AddressLine1": "calle río Turia",
+        "AddressLine2": "Ciudad de Asís",
+        "StateOrProvince": "Comunitat Valenciana",
+        "Postcode": "03007",
         "CountryID": 210,
-        "Latitude": 38.34659,
-        "Longitude": -0.52295,
-        "ContactTelephone1": "96 511 05 33",
-        "RelatedURL": "http://www.porsche.es",
+        "Latitude": 38.34610867794086,
+        "Longitude": -0.5226557525396629,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 270551,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 800,
-            "PowerKW": 350,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 320,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 270552,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 341717,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-08-25T10:05:00Z",
+    "DateLastStatusUpdate": "2022-10-24T13:01:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-09T17:29:00Z",
     "SubmissionStatusTypeID": 200

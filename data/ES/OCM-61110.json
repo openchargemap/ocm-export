@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:24:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-14T17:27:00Z",
     "ID": 61110,
     "UUID": "F301D4DF-B107-4030-BDFF-01AAFE3B171E",
-    "DataProviderID": 27,
-    "DataProvidersReference": "119",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61456,
@@ -24,12 +24,25 @@
     "Connections": [
         {
             "ID": 77707,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10
+        },
+        {
+            "ID": 339500,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "Tarjeta ayuntamiento de Valladolid",
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:24:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-09-14T17:27:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:24:00Z",
     "SubmissionStatusTypeID": 200

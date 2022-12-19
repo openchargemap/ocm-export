@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-09-30T08:31:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-24T18:31:00Z",
     "ID": 149063,
     "UUID": "E676C773-A25D-4B5B-85DC-9703DDE5D530",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_2019_016",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 149416,
         "Title": "Lidl-Newcastle Upon Tyne",
@@ -21,48 +21,45 @@
     },
     "Connections": [
         {
-            "ID": 207014,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 218493,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 218494,
+            "ID": 323573,
             "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_2019_016",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Suzy-Joan"
         },
         {
-            "ID": 306383,
+            "ID": 325097,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_2019_016",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Suzy-Joan"
+        },
+        {
+            "ID": 325098,
             "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_2019_016",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Suzy-Joan"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge rapid unit installed at the Lidl superstore at Benton Park Road, Newcastle Upon Tyne",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-30T08:31:00Z",
+    "DateLastStatusUpdate": "2022-08-24T18:31:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-02-17T06:40:00Z",
     "SubmissionStatusTypeID": 200

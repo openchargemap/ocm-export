@@ -45,14 +45,14 @@
             "DateCreated": "2014-10-05T14:13:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-12-15T09:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T18:34:00Z",
     "ID": 24532,
     "UUID": "45396140-FF0A-4BD1-A185-AFFD30CEDFC6",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-80075",
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 24878,
@@ -64,27 +64,27 @@
         "CountryID": 1,
         "Latitude": 53.2621423731835,
         "Longitude": -2.8918610952453,
-        "ContactTelephone1": "0151 472 1200",
-        "AccessComments": "Enter via route signposted for disabled; post is at the junction ",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 26775,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80075",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Joan-Lary"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Pod-Point T7-S, no RFID needed.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-12-15T09:39:00Z",
+    "DateLastStatusUpdate": "2022-08-15T18:34:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-10-05T14:06:00Z",
     "SubmissionStatusTypeID": 200

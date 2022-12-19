@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-28T18:22:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:46:00Z",
     "ID": 172437,
     "UUID": "51C6EC23-47F4-44E7-AD6D-2A4A04CA6DA1",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-70428,PG-85379",
     "UsageTypeID": 4,
-    "UsageCost": "Free, use Pod Point app or webpage charge.pod-point.com to confirm cha",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 172796,
         "Title": "Tesco Extra Warrington",
@@ -15,8 +16,8 @@
         "StateOrProvince": "England",
         "Postcode": "WA2 7NE",
         "CountryID": 1,
-        "Latitude": 53.39728705456034,
-        "Longitude": -2.595623908529774,
+        "Latitude": 53.3972870545603,
+        "Longitude": -2.59562390852977,
         "RelatedURL": "https://pod-point.com/",
         "DistanceUnit": 0
     },
@@ -24,27 +25,33 @@
         {
             "ID": 263658,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70428",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Cruz-Izzy"
         },
         {
-            "ID": 263659,
+            "ID": 320610,
             "ConnectionTypeID": 25,
+            "Reference": "PG-85379",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Elle-Yves"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-28T18:22:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-02-02T22:18:00Z",
     "SubmissionStatusTypeID": 200

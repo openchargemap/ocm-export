@@ -81,17 +81,17 @@
             "DateCreated": "2017-05-29T11:36:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-05-31T18:35:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-10T10:40:00Z",
     "ID": 88422,
     "UUID": "ECA845AC-726A-4660-A59E-B6C2830A6BB6",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "40 c/kWh",
     "AddressInfo": {
         "ID": 88768,
-        "Title": "Dickens Street Car Park",
+        "Title": "Napier (Dickens Street Car Park)",
         "AddressLine1": "206 Dickens Street",
         "Town": "Napier South, Napier ",
         "Postcode": "4110",
@@ -99,12 +99,14 @@
         "Latitude": -39.4923541310665,
         "Longitude": 176.914704750297,
         "ContactTelephone1": "08002864766",
+        "AccessComments": "Open 24/7",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 125416,
             "ConnectionTypeID": 2,
+            "Reference": "NPIA1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -112,19 +114,9 @@
             "Quantity": 1
         },
         {
-            "ID": 125417,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
             "ID": 125418,
             "ConnectionTypeID": 33,
+            "Reference": "NPIA1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -132,10 +124,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
-    "GeneralComments": "24/7\r\nLocated in the carpark next to the Quest Hotel. Free charging until early May 2017. The CCS plug on this charger is Type 2. Map marker location is precise.",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Located in the carpark next to the Quest Hotel. Map marker location is precise.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-31T18:35:00Z",
+    "DateLastStatusUpdate": "2022-07-10T10:40:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-29T11:36:00Z",
     "SubmissionStatusTypeID": 200

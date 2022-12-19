@@ -1,38 +1,95 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-10-28T19:54:00Z",
+    "MediaItems": [
+        {
+            "ID": 33090,
+            "ChargePointID": 189714,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM189714/OCM-189714.orig.2022082411314419.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM189714/OCM-189714.thmb.2022082411314419.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39961,
+                "Username": "adamhermann"
+            },
+            "DateCreated": "2022-08-24T11:32:00Z"
+        },
+        {
+            "ID": 33091,
+            "ChargePointID": 189714,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM189714/OCM-189714.orig.2022082411320419.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM189714/OCM-189714.thmb.2022082411320419.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39961,
+                "Username": "adamhermann"
+            },
+            "DateCreated": "2022-08-24T11:32:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-24T11:32:00Z",
     "ID": 189714,
     "UUID": "C694BD1B-C130-4D57-BF2D-870506943588",
     "DataProviderID": 1,
     "OperatorID": 3462,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
+    "UsageCost": "0,- Ft/kWh",
     "AddressInfo": {
         "ID": 190073,
         "Title": "TEA. Mátrakeresztes",
         "AddressLine1": "Ágasvári menedékház, 2408",
+        "AddressLine2": "Fakanalas Csárda",
         "Town": "Mátrakeresztes",
+        "StateOrProvince": "Heves megye",
+        "Postcode": "3082",
         "CountryID": 104,
-        "Latitude": 47.90482395545132,
-        "Longitude": 19.807918388865573,
+        "Latitude": 47.904477,
+        "Longitude": 19.807883,
         "ContactTelephone1": "+36305509858",
-        "RelatedURL": "http://www.teapont.hu",
+        "ContactTelephone2": "+36 30 550 9858",
+        "AccessComments": "Start charging with Teapont application or QR code  HELPDESK: help@teapont.hu +36305509858  WEB: https://www.teapont.hu/",
+        "RelatedURL": "https://www.teapont.hu/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 306920,
             "ConnectionTypeID": 25,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
+        },
+        {
+            "ID": 317450,
+            "ConnectionTypeID": 1036,
+            "Reference": "TEA.",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "help@teapont.hu",
+    "NumberOfPoints": 2,
+    "GeneralComments": "TEApont alkalmazásból vagy a készüléken található QR kóddal, illetve RFID kártyával indítható a töltés. Töltsd le a TEApont applikációt a Google Play-ből vagy az AppStore-ból!",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-28T19:54:00Z",
+    "DateLastStatusUpdate": "2022-08-24T11:32:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-10-28T12:58:00Z",
     "SubmissionStatusTypeID": 200

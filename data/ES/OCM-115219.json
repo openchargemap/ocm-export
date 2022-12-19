@@ -1,5 +1,38 @@
 {
+    "UserComments": [
+        {
+            "ID": 27414,
+            "ChargePointID": 115219,
+            "CommentTypeID": 10,
+            "UserName": "kapis",
+            "Comment": "Cargando a 10kwh max incluso con CCS y sin otros coches  cargando",
+            "Rating": 2,
+            "DateCreated": "2022-10-09T20:53:29.093Z",
+            "User": {
+                "ID": 41772,
+                "Username": "kapis"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
+        {
+            "ID": 34977,
+            "ChargePointID": 115219,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM115219/OCM-115219.orig.2022100921060687.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM115219/OCM-115219.thmb.2022100921060687.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 41772,
+                "Username": "kapis"
+            },
+            "DateCreated": "2022-10-09T21:06:00Z"
+        },
         {
             "ID": 19286,
             "ChargePointID": 115219,
@@ -17,8 +50,8 @@
             "DateCreated": "2019-08-21T19:56:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-11T15:50:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-10T11:18:00Z",
     "ID": 115219,
     "UUID": "F6B1B0A5-FC47-4CBC-992B-E401CA7078AF",
     "DataProviderID": 1,
@@ -26,7 +59,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 115565,
-        "Title": "Avenida Fray Luis Amigo",
+        "Title": "Ayunt. Segorbe",
         "AddressLine1": "Avenida Fray Luis Amigo 14",
         "Town": "Segorbe",
         "StateOrProvince": "Valencian Community",
@@ -41,7 +74,7 @@
             "ID": 162202,
             "ConnectionTypeID": 33,
             "LevelID": 2,
-            "PowerKW": 25,
+            "PowerKW": 10,
             "Quantity": 1
         },
         {
@@ -49,7 +82,7 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 45,
+            "PowerKW": 10,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -57,14 +90,15 @@
             "ID": 183272,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20
+            "LevelID": 2,
+            "PowerKW": 10,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-11T15:50:00Z",
+    "DateLastStatusUpdate": "2022-10-10T11:18:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-02-09T00:18:00Z",
     "SubmissionStatusTypeID": 200

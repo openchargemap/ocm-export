@@ -1,56 +1,156 @@
 {
+    "UserComments": [
+        {
+            "ID": 26344,
+            "ChargePointID": 191064,
+            "CommentTypeID": 10,
+            "UserName": "Jegesjeles",
+            "Comment": "perfectly charging station ✅",
+            "Rating": 5,
+            "DateCreated": "2022-09-23T16:27:04.423Z",
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 26180,
+            "ChargePointID": 191064,
+            "CommentTypeID": 10,
+            "UserName": "Jegesjeles",
+            "Comment": "super charger ✅",
+            "Rating": 5,
+            "DateCreated": "2022-08-19T16:42:00.05Z",
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 33783,
+            "ChargePointID": 191064,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM191064/OCM-191064.orig.2022092316273252.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM191064/OCM-191064.thmb.2022092316273252.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "DateCreated": "2022-09-23T16:28:00Z"
+        },
+        {
+            "ID": 32943,
+            "ChargePointID": 191064,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM191064/OCM-191064.orig.2022081916412040.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM191064/OCM-191064.thmb.2022081916412040.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "DateCreated": "2022-08-19T16:41:00Z"
+        },
+        {
+            "ID": 32797,
+            "ChargePointID": 191064,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM191064/OCM-191064.orig.2022080620353141.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM191064/OCM-191064.thmb.2022080620353141.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "DateCreated": "2022-08-06T20:36:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-16T15:57:00Z",
+    "DateLastVerified": "2022-09-23T16:28:00Z",
     "ID": 191064,
     "UUID": "8CB0E9FA-CA0E-4AAE-B9CA-7CF500308269",
     "DataProviderID": 1,
     "OperatorID": 3462,
-    "UsageTypeID": 4,
-    "UsageCost": "112 Ft/kWh",
+    "UsageTypeID": 1,
+    "UsageCost": "123,- Ft/kWh",
     "AddressInfo": {
         "ID": 191423,
-        "Title": "Zrínyi utca",
+        "Title": "TEA. Székesfehérvár Interspar",
         "AddressLine1": "Zrínyi utca",
+        "AddressLine2": "KFC parkoló",
         "Town": "Székesfehérvár",
-        "StateOrProvince": "Transdanubia",
+        "StateOrProvince": "Fejér megye",
         "Postcode": "8000",
         "CountryID": 104,
-        "Latitude": 47.191269561621965,
-        "Longitude": 18.426148184646195,
+        "Latitude": 47.191060607563145,
+        "Longitude": 18.426323747185393,
+        "ContactTelephone1": "+36 30 550 9858",
+        "ContactTelephone2": "+36 30 550 9858",
+        "AccessComments": "Üzemel ✅ Public working 0 - 24h Helpdesk: help@teapont.hu",
+        "RelatedURL": "https://www.teapont.hu/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 309954,
             "ConnectionTypeID": 33,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 180,
+            "Voltage": 500,
             "PowerKW": 75,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         },
         {
             "ID": 309955,
             "ConnectionTypeID": 2,
+            "Reference": "TEA.",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 75,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         },
         {
             "ID": 309956,
             "ConnectionTypeID": 25,
+            "Reference": "TEA. ",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 3
+            "Quantity": 3,
+            "Comments": "Üzemel ✅ 0 - 24 h public working"
         }
     ],
     "NumberOfPoints": 8,
+    "GeneralComments": "TEApont alkalmazásból vagy a készüléken található QR kóddal, illetve RFID kártyával indítható a töltés. Töltsd le a TEApont applikációt a Google Play-ből vagy az AppStore-ból!",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-16T15:57:00Z",
+    "DateLastStatusUpdate": "2022-09-23T16:28:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-01-16T07:41:00Z",
     "SubmissionStatusTypeID": 200

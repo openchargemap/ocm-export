@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-01-21T06:43:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:46:00Z",
     "ID": 146550,
     "UUID": "71E521D3-E55F-4F8E-B9B6-F39FA4C4C48B",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-84270,PG-84371",
     "UsageTypeID": 4,
-    "UsageCost": "£0.29/kWh",
+    "UsageCost": "£0.33/kWh",
     "AddressInfo": {
         "ID": 146902,
         "Title": "Forest of Arden Marriott Hotel & Country Club",
@@ -24,19 +24,34 @@
         {
             "ID": 203771,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84270",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Lily-Kyla"
+        },
+        {
+            "ID": 321291,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84371",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Hans-Aida"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Forest of Arden Marriott Hotel & Country Club at Maxstoke Lane, Meriden, Birmingham",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-21T06:43:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-01-11T01:26:00Z",
     "SubmissionStatusTypeID": 200

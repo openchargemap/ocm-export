@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-21T09:50:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-12T15:00:00Z",
     "ID": 174185,
     "UUID": "E0C4F2DE-A423-4494-B11F-7E7A76BEF475",
     "DataProviderID": 1,
@@ -9,7 +9,7 @@
     "UsageCost": "Mobi.E compatible card or App",
     "AddressInfo": {
         "ID": 174544,
-        "Title": "PRT-00072 - Repsol",
+        "Title": "PRT-00072/140 - Repsol",
         "AddressLine1": "Repsol",
         "Town": "Porto",
         "StateOrProvince": "Porto",
@@ -30,12 +30,45 @@
             "PowerKW": 160,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 317881,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 317882,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 1000,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 317883,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "GeneralComments": "160kW only in 800V vehicles  (80kW @ 400V)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-21T09:50:00Z",
+    "DateLastStatusUpdate": "2022-08-12T15:00:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-21T09:50:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-04T09:46:00Z",
     "ID": 188019,
     "UUID": "08B11CB2-40BF-4A2E-A191-F5641EEA8E30",
-    "DataProviderID": 18,
-    "DataProvidersReference": "90d5b6e17badaaedd1a4c2c4b7d65bbc",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-104923,PG-104927,PG-88673,PG-88677,PG-88976,PG-96063,PG-96183",
+    "UsageTypeID": 4,
+    "UsageCost": "Free,£0.30/kWh",
     "AddressInfo": {
         "ID": 188378,
         "Title": "Frog Lane",
@@ -16,25 +17,103 @@
         "CountryID": 1,
         "Latitude": 53.120736,
         "Longitude": -2.777025,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 303391,
+            "ID": 336709,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-88976",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Emry-Orla"
+        },
+        {
+            "ID": 336710,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-96063",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Earl-Stan"
+        },
+        {
+            "ID": 336711,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-88677",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Sven-Scot"
+        },
+        {
+            "ID": 336712,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-104927",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Gene-Shay"
+        },
+        {
+            "ID": 336713,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-104923",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Iggy-Vern"
+        },
+        {
+            "ID": 336714,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-96183",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Myla-Rory"
+        },
+        {
+            "ID": 336715,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-88673",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Liam-Drew"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-09-04T09:46:00Z",
     "MetadataValues": [
         {
             "ID": 20259,
@@ -42,7 +121,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

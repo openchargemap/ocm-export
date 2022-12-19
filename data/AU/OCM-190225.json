@@ -1,11 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-12-01T16:15:00Z",
+    "DateLastVerified": "2022-06-30T07:53:00Z",
     "ID": 190225,
     "UUID": "7EA6A2D4-20AD-4C4B-8C4B-E1616AE4725D",
     "DataProviderID": 1,
     "OperatorID": 3339,
     "UsageTypeID": 4,
+    "UsageCost": "Ultra-Rapid: $0.60/kWh, Rapid: $0.40/kWh",
     "AddressInfo": {
         "ID": 190584,
         "Title": "ChargeFox Ballina",
@@ -24,16 +25,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 350,
-            "Quantity": 2
+            "PowerKW": 84,
+            "Quantity": 2,
+            "Comments": "$0.60/kWh\r\n20% Discount for motoring club members"
         },
         {
             "ID": 308312,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 350,
-            "Quantity": 2
+            "PowerKW": 84,
+            "Quantity": 2,
+            "Comments": "$0.60/kWh\r\n20% Discount for motoring club members"
         },
         {
             "ID": 308313,
@@ -41,7 +44,8 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 50,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "$0.40/kWh"
         },
         {
             "ID": 308314,
@@ -49,12 +53,14 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 50,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "$0.40/kWh"
         }
     ],
     "NumberOfPoints": 3,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-01T16:15:00Z",
+    "GeneralComments": "Due to local powergrid design, this site is limited to 84kW total power. This is shared amongst all stalls.\r\nCosts:\r\nUltra-Rapid: $0.60/kWh\r\nRapid: $0.40/kWh",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2022-06-30T07:53:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-11-25T08:37:00Z",
     "SubmissionStatusTypeID": 200

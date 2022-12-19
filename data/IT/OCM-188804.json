@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 25983,
+            "ChargePointID": 188804,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Nessun problema con card Be Charge sulla CCS Combo 2, ed ho interrotto avvicinandomi all'auto e premendo il pulsante sulla presa auto. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/post315845.html#p315845",
+            "RelatedURL": "https://www.forumelettrico.it/forum/post315845.html#p315845",
+            "DateCreated": "2022-07-10T16:13:38.843Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 24737,
             "ChargePointID": 188804,
             "CommentTypeID": 10,
@@ -17,6 +32,22 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 32385,
+            "ChargePointID": 188804,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM188804/OCM-188804.orig.2022071016134778.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM188804/OCM-188804.thmb.2022071016134778.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-07-10T16:14:00Z"
+        },
         {
             "ID": 28996,
             "ChargePointID": 188804,
@@ -98,13 +129,13 @@
             "DateCreated": "2021-08-18T14:44:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-08-18T14:44:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-14T13:02:00Z",
     "ID": 188804,
     "UUID": "D17CF44A-A148-496A-955D-D18E2C5CD043",
     "DataProviderID": 1,
     "OperatorID": 80,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 189163,
         "Title": "Enel X Municipio",
@@ -121,25 +152,34 @@
         {
             "ID": 305050,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 305051,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 305052,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-08-18T14:44:00Z",
+    "DateLastStatusUpdate": "2022-08-14T13:02:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-08-18T14:23:00Z",
     "SubmissionStatusTypeID": 200

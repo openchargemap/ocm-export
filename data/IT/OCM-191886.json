@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 26295,
+            "ChargePointID": 191886,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Nessun problema sulla Tipo 2 con card Be Charge. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/post331424.html#p331424",
+            "RelatedURL": "https://www.forumelettrico.it/forum/post331424.html#p331424",
+            "DateCreated": "2022-09-10T15:02:21.953Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 25476,
             "ChargePointID": 191886,
             "CommentTypeID": 10,
@@ -17,6 +32,38 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 33608,
+            "ChargePointID": 191886,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM191886/OCM-191886.orig.2022091015023282.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM191886/OCM-191886.thmb.2022091015023282.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-09-10T15:03:00Z"
+        },
+        {
+            "ID": 33609,
+            "ChargePointID": 191886,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM191886/OCM-191886.orig.2022091015023803.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM191886/OCM-191886.thmb.2022091015023803.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-09-10T15:03:00Z"
+        },
         {
             "ID": 30954,
             "ChargePointID": 191886,
@@ -99,12 +146,12 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-03-05T11:14:00Z",
+    "DateLastVerified": "2022-09-10T15:03:00Z",
     "ID": 191886,
     "UUID": "DAEED05D-7CBA-4E3A-9A78-6AD01DB99119",
     "DataProviderID": 1,
     "OperatorID": 3327,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 192245,
         "Title": "Be Charge McDonald's",
@@ -121,20 +168,25 @@
         {
             "ID": 311662,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 150,
+            "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 311663,
             "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-05T11:14:00Z",
+    "DateLastStatusUpdate": "2022-09-10T15:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-03-05T11:13:00Z",
     "SubmissionStatusTypeID": 200

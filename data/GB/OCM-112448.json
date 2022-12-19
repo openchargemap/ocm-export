@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-18T06:20:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-25T05:22:00Z",
     "ID": 112448,
     "UUID": "0DF120B5-6F3B-4824-AA4E-40BFF0A70128",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_it1_3717_011",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 112794,
         "Title": "LIDL",
@@ -18,41 +18,46 @@
         "CountryID": 1,
         "Latitude": 53.71342595933,
         "Longitude": -2.09029247078433,
-        "AccessComments": "Retail Car Park",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 158173,
             "ConnectionTypeID": 33,
+            "Reference": "t53_it1_3717_011",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Greg-John"
         },
         {
-            "ID": 158174,
+            "ID": 321971,
             "ConnectionTypeID": 2,
+            "Reference": "t53_it1_3717_011",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Greg-John"
         },
         {
-            "ID": 158175,
+            "ID": 323539,
             "ConnectionTypeID": 1036,
+            "Reference": "t53_it1_3717_011",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Greg-John"
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-18T06:20:00Z",
+    "DateLastStatusUpdate": "2022-09-25T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-10-30T11:15:00Z",
     "SubmissionStatusTypeID": 200

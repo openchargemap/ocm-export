@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-15T22:00:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-20T13:28:00Z",
     "ID": 169355,
     "UUID": "02906F49-A6DE-48E3-ACF6-5688CEB602F0",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-83954,PG-84954",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.25/kWh",
     "AddressInfo": {
         "ID": 169714,
         "Title": "Aldi-Bradford",
@@ -24,19 +24,34 @@
         {
             "ID": 257674,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84954",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Drew-Hiro"
+        },
+        {
+            "ID": 321273,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-83954",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Noel-Fawn"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Aldi super store at Leeds Old Road, Thornbury, Bradford",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-15T22:00:00Z",
+    "DateLastStatusUpdate": "2022-09-20T13:28:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-15T21:34:00Z",
     "SubmissionStatusTypeID": 200

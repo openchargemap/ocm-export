@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-06-25T07:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T06:23:00Z",
     "ID": 176091,
     "UUID": "32EE7FF4-259A-4BED-8A57-ECA939D7AB49",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "OperatorsReference": "PG-70397,PG-86471,veefil-12000603",
+    "UsageTypeID": 4,
+    "UsageCost": "Free,£0.28/kWh,Free,£0.40/kWh,£0.28/kWh",
     "AddressInfo": {
         "ID": 176450,
         "Title": "Tesco Superstore-Beverley",
@@ -21,7 +22,31 @@
     },
     "Connections": [
         {
-            "ID": 273577,
+            "ID": 273578,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86471",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Frey-Bing"
+        },
+        {
+            "ID": 323938,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000603",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Juhi-Naya"
+        },
+        {
+            "ID": 323939,
             "ConnectionTypeID": 25,
             "Reference": "PG-70397",
             "StatusTypeID": 50,
@@ -30,24 +55,24 @@
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Levi-Enya"
         },
         {
-            "ID": 273578,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-86471",
+            "ID": 323940,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000603",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Juhi-Naya"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-25T07:11:00Z",
+    "DateLastStatusUpdate": "2022-11-01T06:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-25T07:11:00Z",
     "SubmissionStatusTypeID": 200

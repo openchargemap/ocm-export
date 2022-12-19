@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-04T20:02:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T09:12:00Z",
     "ID": 175005,
     "UUID": "FDAA5D2E-896C-4D34-9B1A-574EA7B6BDCA",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-70374,PG-86392,veefil-12000560",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 175364,
         "Title": "Tesco Extra-Baldock",
@@ -26,13 +27,25 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
+            "Voltage": 400,
             "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Finn-Zane"
         },
         {
-            "ID": 271216,
+            "ID": 323929,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000560",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Levy-Judi"
+        },
+        {
+            "ID": 324611,
             "ConnectionTypeID": 25,
             "Reference": "PG-86392",
             "StatusTypeID": 50,
@@ -40,13 +53,25 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Enid-Omar"
+        },
+        {
+            "ID": 324612,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000560",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Levy-Judi"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-04T20:02:00Z",
+    "DateLastStatusUpdate": "2022-11-01T09:12:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-23T15:44:00Z",
     "SubmissionStatusTypeID": 200

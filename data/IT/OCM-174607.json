@@ -208,13 +208,13 @@
             "DateCreated": "2021-04-08T13:27:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-11-03T16:17:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-14T12:14:00Z",
     "ID": 174607,
     "UUID": "A3170545-4C4B-4EDE-B240-D5B12CEBA4F1",
     "DataProviderID": 1,
     "OperatorID": 3327,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 174966,
         "Title": "Be Charge Lidl",
@@ -231,25 +231,34 @@
         {
             "ID": 270522,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 75
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 270523,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 51
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 51,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 270524,
             "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "PowerKW": 22
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-03T16:17:00Z",
+    "DateLastStatusUpdate": "2022-08-14T12:14:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-08T13:26:00Z",
     "SubmissionStatusTypeID": 200

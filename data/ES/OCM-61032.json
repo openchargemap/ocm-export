@@ -1,11 +1,11 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-02-15T14:48:00Z",
+    "DateLastVerified": "2022-10-10T11:04:00Z",
     "ID": 61032,
     "UUID": "BEF9AA22-77EB-45C8-90EA-00470ACCFAC9",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
+    "OperatorID": 210,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 61378,
         "Title": "ECOVE PuntoDeCarga: RONDA_VALENCIA",
@@ -21,22 +21,34 @@
     "Connections": [
         {
             "ID": 77536,
-            "ConnectionTypeID": 33
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 77537,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 311182,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-15T14:48:00Z",
+    "DateLastStatusUpdate": "2022-10-10T11:04:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

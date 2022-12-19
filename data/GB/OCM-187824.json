@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-11T09:13:00Z",
     "ID": 187824,
     "UUID": "5E84D0D9-D2E4-48CC-AD42-C9597EA653DB",
-    "DataProviderID": 18,
-    "DataProvidersReference": "bacdc8f8d282de74959e66600387ea71",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-84648,PG-85089,PG-85092,PG-85116,PG-85118,PG-85119",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 188183,
         "Title": "Llanyravon",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 51.649912,
         "Longitude": -2.996654,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,85 @@
         {
             "ID": 303096,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-85116",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Page-Cora"
         },
         {
-            "ID": 303097,
+            "ID": 324336,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "PG-85089",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Cain-Iggy"
+        },
+        {
+            "ID": 324337,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85092",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Cory-Luca"
+        },
+        {
+            "ID": 324338,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85118",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Dean-Orla"
+        },
+        {
+            "ID": 324339,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84648",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Bing-Olaf"
+        },
+        {
+            "ID": 324943,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85119",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Emil-Colt"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 12,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-11T09:13:00Z",
     "MetadataValues": [
         {
             "ID": 20064,
@@ -53,7 +110,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

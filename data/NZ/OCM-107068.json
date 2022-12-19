@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-07-16T22:29:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-07T04:40:00Z",
     "ID": 107068,
     "UUID": "92EC77E0-E8C2-41B9-9384-D0948B0CA88A",
     "DataProviderID": 1,
@@ -9,19 +9,22 @@
     "UsageCost": "$0.25/kWh + $0.25/min",
     "AddressInfo": {
         "ID": 107414,
-        "Title": "New World",
+        "Title": "Orewa (New World)",
         "AddressLine1": "11 Moana Avenue",
         "Town": "Orewa",
         "Postcode": "0931",
         "CountryID": 161,
         "Latitude": -36.58647,
         "Longitude": 174.694801,
+        "ContactTelephone1": "+64 800 224 274",
+        "AccessComments": "Open 24/7",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 150952,
             "ConnectionTypeID": 2,
+            "Reference": "OREW2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -31,6 +34,7 @@
         {
             "ID": 150953,
             "ConnectionTypeID": 33,
+            "Reference": "OREW2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -38,9 +42,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 1,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-07-16T22:29:00Z",
+    "DateLastStatusUpdate": "2022-07-07T04:40:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-07-16T17:40:00Z",
     "SubmissionStatusTypeID": 200

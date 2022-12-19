@@ -1,13 +1,64 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-24T19:18:00Z",
+    "UserComments": [
+        {
+            "ID": 26162,
+            "ChargePointID": 173047,
+            "CommentTypeID": 10,
+            "UserName": "FramX",
+            "Comment": "There are 3 charger with 5 plugs. 2 x 7kw free, 2 x 22kw free and a paid one 50Kw. All working at the time of the visit",
+            "Rating": 5,
+            "DateCreated": "2022-08-18T15:02:31.82Z",
+            "User": {
+                "ID": 35810,
+                "Username": "FramX"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 32907,
+            "ChargePointID": 173047,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM173047/OCM-173047.orig.2022081815035711.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM173047/OCM-173047.thmb.2022081815035711.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 35810,
+                "Username": "FramX"
+            },
+            "DateCreated": "2022-08-18T15:04:00Z"
+        },
+        {
+            "ID": 32906,
+            "ChargePointID": 173047,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM173047/OCM-173047.orig.2022081815032522.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM173047/OCM-173047.thmb.2022081815032522.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 35810,
+                "Username": "FramX"
+            },
+            "DateCreated": "2022-08-18T15:03:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-03T06:22:00Z",
     "ID": 173047,
     "UUID": "0B2178DE-128A-4696-AA72-87258591A63D",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70381,PG-86136",
+    "OperatorsReference": "PG-70381,PG-86136,veefil-12000554",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh,Free,£0.50/kWh",
     "AddressInfo": {
         "ID": 173406,
         "Title": "Tesco Extra-Risca",
@@ -24,30 +75,56 @@
         {
             "ID": 264775,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70381",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Todd-Herb"
+        },
+        {
+            "ID": 323933,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86136",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Cora-Dane"
         },
         {
-            "ID": 269952,
-            "ConnectionTypeID": 25,
+            "ID": 323934,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000554",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "June-Azan"
+        },
+        {
+            "ID": 324613,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000554",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "June-Azan"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at Pontymister Industrial Estate, Newport Road, Risca",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-24T19:18:00Z",
+    "DateLastStatusUpdate": "2022-11-03T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-02T21:01:00Z",
     "SubmissionStatusTypeID": 200

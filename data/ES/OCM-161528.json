@@ -1,11 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-26T11:40:00Z",
+    "DateLastVerified": "2022-10-27T19:05:00Z",
     "ID": 161528,
     "UUID": "7EA42CF0-3AD4-4A24-9F7F-F25E12C6B219",
     "DataProviderID": 1,
     "OperatorID": 2247,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh 50kW   - 0,39€/kWh 22kW AC",
     "AddressInfo": {
         "ID": 161885,
         "Title": "San Fulgencio",
@@ -21,43 +22,32 @@
         {
             "ID": 232454,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 232455,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
-            "ID": 232456,
-            "ConnectionTypeID": 33,
+            "ID": 348382,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 50
-        },
-        {
-            "ID": 232457,
-            "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
-        },
-        {
-            "ID": 232458,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "PowerKW": 7.3
-        },
-        {
-            "ID": 232459,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "PowerKW": 7.3
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-04-26T11:40:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-27T19:05:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-07-15T08:10:00Z",
     "SubmissionStatusTypeID": 200

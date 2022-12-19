@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:43:00Z",
     "ID": 187979,
     "UUID": "5D7B2E8C-A6E5-42BE-ACD2-0D7CB63AA65A",
-    "DataProviderID": 18,
-    "DataProvidersReference": "bee96678d85cb37eb86037d2f1e03618",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-81787,PG-81788",
+    "UsageTypeID": 4,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 188338,
         "Title": "Railway Sidings",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 52.565794,
         "Longitude": -0.235063,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,33 @@
         {
             "ID": 303317,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-81788",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Tara-Roxy"
         },
         {
-            "ID": 303318,
+            "ID": 321039,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "PG-81787",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Mary-Alex"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-16T13:43:00Z",
     "MetadataValues": [
         {
             "ID": 20219,
@@ -53,7 +58,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

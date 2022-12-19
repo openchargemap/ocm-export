@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-18T06:22:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-03T05:21:00Z",
     "ID": 149056,
     "UUID": "53AF8A05-3781-4280-A9A7-0E828E6CC6A5",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_it1_2419_020",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 149409,
         "Title": "Lidl-Manchester",
@@ -21,50 +21,45 @@
     },
     "Connections": [
         {
-            "ID": 206994,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 3
-        },
-        {
-            "ID": 206995,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 206996,
+            "ID": 323710,
             "ConnectionTypeID": 2,
+            "Reference": "t54_it1_2419_020",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Rose-Beth"
         },
         {
-            "ID": 218497,
+            "ID": 325148,
             "ConnectionTypeID": 25,
+            "Reference": "t54_it1_2419_020",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Rose-Beth"
+        },
+        {
+            "ID": 325149,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_it1_2419_020",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Rose-Beth"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 2,
     "GeneralComments": "This is a Pod Point Rapid charger installed at the Lidl superstore at Worsley Road, Manchester",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-18T06:22:00Z",
+    "DateLastStatusUpdate": "2022-10-03T05:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-02-16T14:18:00Z",
     "SubmissionStatusTypeID": 200

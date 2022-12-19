@@ -1,21 +1,25 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-07-23T07:41:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-06-11T15:01:00Z",
     "ID": 161739,
     "UUID": "1BBF61C2-4ABF-4A8D-878C-D2E364403ED6",
     "DataProviderID": 1,
-    "OperatorID": 63,
-    "UsageTypeID": 5,
+    "OperatorID": 3394,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 162096,
-        "Title": "Gym Phenix",
-        "AddressLine1": "Invalidenlaan",
-        "StateOrProvince": "Brussels-Capital",
+        "Title": "Eneco @ ACB Delta Volvo",
+        "AddressLine1": "Jules Cockxstraat 12",
+        "Town": "Oudergem",
+        "StateOrProvince": "BHG",
         "Postcode": "1160",
         "CountryID": 26,
-        "Latitude": 50.818159,
-        "Longitude": 4.404202,
-        "RelatedURL": "https://www.charge.brussels/",
+        "Latitude": 50.81809946840181,
+        "Longitude": 4.405055102883807,
+        "ContactTelephone1": "+3215404154",
+        "ContactTelephone2": "0882022800",
+        "AccessComments": "Succesful charged with Shell Recharge dongle and ChargePoint app, all credit and debit cards were refused",
+        "RelatedURL": "https://www.eneco-emobility.com/be-nl/thuis/laadpas#tarieven",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,13 +29,23 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 10
+        },
+        {
+            "ID": 314298,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 400,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "22kW regional charging station",
+    "NumberOfPoints": 12,
+    "GeneralComments": "10x 22kW Type 2 + 2x 400kW CCS with card payment terminal",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-07-23T07:41:00Z",
+    "DateLastStatusUpdate": "2022-06-11T15:01:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-07-22T20:02:00Z",
     "SubmissionStatusTypeID": 200

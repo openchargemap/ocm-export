@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-25T10:00:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-24T18:32:00Z",
     "ID": 158157,
     "UUID": "D23C511E-339F-4E81-AC8E-2A385D75A580",
-    "DataProviderID": 18,
-    "DataProvidersReference": "1866196c5d13d900d7f614232c51a46e",
+    "DataProviderID": 1,
     "OperatorID": 20,
+    "OperatorsReference": "t54_hu1_3921_010",
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 158511,
@@ -16,25 +16,49 @@
         "CountryID": 1,
         "Latitude": 54.844806,
         "Longitude": -1.473656,
-        "AccessComments": "Station Road Car Park",
         "RelatedURL": "http://www.chargeyourcar.org.uk",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 228070,
+            "ID": 323621,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_3921_010",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Kriv-Bach"
+        },
+        {
+            "ID": 323622,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "t54_hu1_3921_010",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Kriv-Bach"
+        },
+        {
+            "ID": 323623,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_3921_010",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Kriv-Bach"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2020-06-25T10:00:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-24T18:32:00Z",
     "MetadataValues": [
         {
             "ID": 7690,
@@ -42,7 +66,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-06-25T10:00:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

@@ -1,10 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-08-19T16:57:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-31T09:44:00Z",
     "ID": 70945,
     "UUID": "BBA12DF2-F59E-486B-92DD-F33D51958438",
     "DataProviderID": 1,
+    "OperatorID": 3276,
     "UsageTypeID": 4,
+    "UsageCost": "0,50€/kWh DC/AC43kW - 0,45€/kWh AC 22kW - (0,01€/min parked without charging)",
     "AddressInfo": {
         "ID": 71291,
         "Title": "Ecoestación Roces EDP",
@@ -25,9 +27,9 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
+            "Amps": 125,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -36,9 +38,9 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
+            "Amps": 125,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -52,12 +54,21 @@
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 337391,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "RFID card needed",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-08-19T16:57:00Z",
+    "DateLastStatusUpdate": "2022-10-31T09:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-08-19T16:57:00Z",
     "SubmissionStatusTypeID": 200

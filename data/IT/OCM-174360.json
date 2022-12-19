@@ -82,49 +82,55 @@
             "DateCreated": "2021-03-25T06:58:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-08-17T13:47:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-02T15:59:00Z",
     "ID": 174360,
     "UUID": "E0811856-4A84-4D7E-A53B-4BA9119E5530",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3525,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 174719,
-        "Title": "Viale Tirreno 140",
-        "AddressLine1": "Viale Tirreno 140",
-        "AddressLine2": "Municipio Roma III",
+        "Title": "Viale Tirreno",
+        "AddressLine1": "Viale Tirreno",
+        "Town": "Rome",
         "StateOrProvince": "Lazio",
         "Postcode": "00141",
         "CountryID": 112,
-        "Latitude": 41.93992367070436,
-        "Longitude": 12.529271180962041,
+        "Latitude": 41.93983545772949,
+        "Longitude": 12.529244888634366,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 270011,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 270012,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 270013,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Not available until Jude 2022 due to road works ",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Not available until July 2022 due to road works ",
     "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2021-08-17T13:47:00Z",
+    "DateLastStatusUpdate": "2022-07-02T15:59:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-25T06:57:00Z",
     "SubmissionStatusTypeID": 200

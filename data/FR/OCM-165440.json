@@ -1,20 +1,71 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:10:00Z",
+    "MediaItems": [
+        {
+            "ID": 32775,
+            "ChargePointID": 165440,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM165440/OCM-165440.orig.2022080421224753.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM165440/OCM-165440.thmb.2022080421224753.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 32810,
+                "Username": "Tom_Fred"
+            },
+            "DateCreated": "2022-08-04T21:23:00Z"
+        },
+        {
+            "ID": 32774,
+            "ChargePointID": 165440,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM165440/OCM-165440.orig.2022080421220280.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM165440/OCM-165440.thmb.2022080421220280.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 32810,
+                "Username": "Tom_Fred"
+            },
+            "DateCreated": "2022-08-04T21:22:00Z"
+        },
+        {
+            "ID": 32773,
+            "ChargePointID": 165440,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM165440/OCM-165440.orig.2022080420585295.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM165440/OCM-165440.thmb.2022080420585295.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 32810,
+                "Username": "Tom_Fred"
+            },
+            "DateCreated": "2022-08-04T20:59:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-07T20:59:00Z",
     "ID": 165440,
     "UUID": "15DCDD96-D8CC-42FA-ABEC-9EF03DBBB34A",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*S64*PMB64*49",
+    "DataProviderID": 1,
     "OperatorID": 3407,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 165799,
-        "Title": "CIBOURE - Parking Marinela - Avenue François Miterrand",
-        "AddressLine1": "Parking Marinela - Avenue François Miterrand 64500 CIBOURE",
+        "Title": "Avenue François Mitterrand",
+        "AddressLine1": "Avenue François Mitterrand",
+        "Town": "Ciboure",
+        "StateOrProvince": "Aquitaine-Limousin-Poitou-Charentes",
+        "Postcode": "64500",
         "CountryID": 80,
-        "Latitude": 43.382231,
-        "Longitude": -1.665693,
-        "AccessComments": "24h/24 7j/7",
+        "Latitude": 43.38165378833884,
+        "Longitude": -1.6647271467245446,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,15 +75,17 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 18,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 238727,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 18,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 238728,
@@ -40,20 +93,22 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 18,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 238729,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 18,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "GeneralComments": "Recharge par badge et avec une application smartphone",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:10:00Z",
+    "DateLastStatusUpdate": "2022-08-07T20:59:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:10:00Z",
     "SubmissionStatusTypeID": 100

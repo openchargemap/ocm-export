@@ -1,11 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-11-04T14:04:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-06-15T20:15:00Z",
     "ID": 7927,
     "UUID": "A42F3104-7C4C-433C-AE75-9F4357550E6A",
-    "DataProviderID": 15,
-    "DataProvidersReference": "6310",
+    "DataProviderID": 1,
     "OperatorID": 26,
+    "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 7824,
         "Title": "6564 Mechanicsville Pike",
@@ -26,10 +27,31 @@
             "ConnectionTypeID": 1,
             "Reference": "J1772",
             "LevelID": 2
+        },
+        {
+            "ID": 314891,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "ABB CHAdeMO/CCS combo station "
+        },
+        {
+            "ID": 314892,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "ABB CHAdeMO/CCS combo station"
         }
     ],
+    "GeneralComments": "Only open during business hours for DCFC",
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2017-11-04T14:04:00Z",
+    "DateLastStatusUpdate": "2022-06-15T20:15:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-11-11T12:05:00Z",
     "SubmissionStatusTypeID": 100

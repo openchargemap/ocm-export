@@ -29,14 +29,14 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-13T11:43:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-18T07:13:00Z",
     "ID": 60168,
     "UUID": "C1BBBEBC-240C-42A8-9F81-4BB321B8701F",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-80534",
-    "UsageTypeID": 2,
+    "UsageTypeID": 4,
     "UsageCost": "£0.25/kWh",
     "AddressInfo": {
         "ID": 60514,
@@ -49,25 +49,26 @@
         "CountryID": 1,
         "Latitude": 51.7704317,
         "Longitude": -0.942360600000029,
-        "AccessComments": "in drop-off area, not main car park. Daily parking fees apply",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 76142,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80534",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Gail-Mark"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T11:43:00Z",
+    "DateLastStatusUpdate": "2022-08-18T07:13:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-01-11T18:19:00Z",
     "SubmissionStatusTypeID": 200

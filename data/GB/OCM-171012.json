@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-15T06:28:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:46:00Z",
     "ID": 171012,
     "UUID": "DD8A268A-DCB9-428F-8B68-3F8AE034587E",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70326,PG-85366",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 171371,
         "Title": "Tesco Superstore - Bo Ness",
@@ -18,7 +18,6 @@
         "CountryID": 1,
         "Latitude": 56.0178986370219,
         "Longitude": -3.60372750088527,
-        "AccessComments": "This is an open charge unit installed at the Tesco super store at Link Road, Bo Ness",
         "RelatedURL": "https://pod-point.com/",
         "DistanceUnit": 0
     },
@@ -26,19 +25,34 @@
         {
             "ID": 261287,
             "ConnectionTypeID": 25,
+            "Reference": "PG-85366",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Shia-Bess"
+        },
+        {
+            "ID": 320497,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70326",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Emil-Erin"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "Emil-Erin   / Shia-Bess",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-15T06:28:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-17T00:19:00Z",
     "SubmissionStatusTypeID": 200

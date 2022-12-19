@@ -39,8 +39,8 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-08T19:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T06:22:00Z",
     "ID": 72437,
     "UUID": "741AC5E4-2194-42BD-B89A-BA248EBF8663",
     "DataProviderID": 1,
@@ -55,26 +55,67 @@
         "Town": "London",
         "Postcode": "E6 6JF",
         "CountryID": 1,
-        "Latitude": 51.52233414782705,
-        "Longitude": 0.06566418190141121,
+        "Latitude": 51.5223341478271,
+        "Longitude": 0.0656641819014112,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 103807,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80678",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 8
+            "Quantity": 2,
+            "Comments": "Paul-Leon"
+        },
+        {
+            "ID": 324067,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80676",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Mary-Joan"
+        },
+        {
+            "ID": 324840,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80280",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Fred-Suzy"
+        },
+        {
+            "ID": 324841,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80671",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Mark-Kate"
         }
     ],
     "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-08T19:21:00Z",
+    "DateLastStatusUpdate": "2022-11-02T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-10-15T08:10:00Z",
     "SubmissionStatusTypeID": 200

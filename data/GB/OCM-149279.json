@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-06-21T09:54:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-25T10:12:00Z",
     "ID": 149279,
     "UUID": "6F1DB1C5-A173-4C2E-9FEA-9F3A4DE5FB64",
     "DataProviderID": 1,
     "OperatorID": 2244,
     "UsageTypeID": 5,
-    "UsageCost": "£0.24/kWh; other tariffs available",
+    "UsageCost": "£0.35/session + £0.32/kWh; other tariffs available",
     "AddressInfo": {
         "ID": 149632,
         "Title": "40 High Street",
@@ -24,17 +24,19 @@
         {
             "ID": 207282,
             "ConnectionTypeID": 25,
-            "Reference": "hidq",
+            "Reference": "GB*UBI*E10066922",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 20,
             "Voltage": 230,
             "PowerKW": 5,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-06-21T09:54:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-25T10:12:00Z",
     "MetadataValues": [
         {
             "ID": 7026,

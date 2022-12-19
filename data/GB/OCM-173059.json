@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-02T21:10:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T09:11:00Z",
     "ID": 173059,
     "UUID": "00EFE466-F67D-4A92-9760-F8EE86105097",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70325,PG-85613",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 173418,
         "Title": "Tesco Extra-St Neots",
@@ -23,19 +23,34 @@
         {
             "ID": 264788,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70325",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Jane-Jill"
+        },
+        {
+            "ID": 320496,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85613",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Noah-Bess"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Barford Road, St Neots",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-02T21:10:00Z",
+    "DateLastStatusUpdate": "2022-11-01T09:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-02T21:03:00Z",
     "SubmissionStatusTypeID": 200

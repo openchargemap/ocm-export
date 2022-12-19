@@ -1,27 +1,31 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-08-01T20:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-19T09:51:00Z",
     "ID": 107544,
     "UUID": "C0580E31-E71E-4FE2-8A6E-07F0542F6281",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "OperatorID": 229,
+    "UsageTypeID": 4,
+    "UsageCost": " DC: $0.20 / kWh + $0.275 / minute,  AC: $0.20 / kWh",
     "AddressInfo": {
         "ID": 107890,
-        "Title": "Pine Drive Car Park",
+        "Title": "Murupara (Pine Drive Carpark)",
         "AddressLine1": "62 Pine Drive",
         "Town": "Murupara",
         "Postcode": "3025",
         "CountryID": 161,
         "Latitude": -38.457189,
         "Longitude": 176.704486,
+        "ContactTelephone1": "+64 800 224 2743",
+        "AccessComments": "Open 24/7",
+        "RelatedURL": "https://charge.net.nz/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 151746,
             "ConnectionTypeID": 2,
+            "Reference": "MURP1-DC",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -31,6 +35,7 @@
         {
             "ID": 151747,
             "ConnectionTypeID": 25,
+            "Reference": "MURP1-AC",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -40,6 +45,7 @@
         {
             "ID": 151748,
             "ConnectionTypeID": 33,
+            "Reference": "MURP1-DC",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -47,9 +53,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "(50kw DC) Terra 53 Fast Charging Station with CCS, CHAdeMO, and Mennekes (Type 2) socket.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-08-01T20:12:00Z",
+    "DateLastStatusUpdate": "2022-07-19T09:51:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-08-01T12:07:00Z",
     "SubmissionStatusTypeID": 200

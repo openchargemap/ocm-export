@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-13T14:48:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:03:00Z",
     "ID": 126206,
     "UUID": "7261B8DF-1336-44F0-811A-509D8F0F5153",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-83117",
+    "OperatorsReference": "PG-83117,PG-86206,PG-87144",
     "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -24,19 +24,47 @@
         {
             "ID": 176885,
             "ConnectionTypeID": 25,
+            "Reference": "PG-83117",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
+            "Voltage": 400,
             "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Orla-Gene"
+        },
+        {
+            "ID": 324285,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-87144",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Drew-Liam"
+        },
+        {
+            "ID": 324286,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86206",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Axel-Buck"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 8,
     "GeneralComments": "This is an open charge unit installed at the St. Albans station at Station Way, St. Albans",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T14:48:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-05-13T14:48:00Z",
     "SubmissionStatusTypeID": 200

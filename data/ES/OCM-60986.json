@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-05T12:59:00Z",
     "ID": 60986,
     "UUID": "2AF2F40D-D964-4CCB-B8F3-52581CAA8D4A",
-    "DataProviderID": 27,
-    "DataProvidersReference": "69",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61332,
@@ -16,20 +16,24 @@
         "CountryID": 210,
         "Latitude": 38.917242,
         "Longitude": -6.33921,
+        "ContactTelephone1": "+34670052259",
+        "ContactTelephone2": "info@senergyps.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 77415,
-            "ConnectionTypeID": 28
-        },
-        {
             "ID": 77416,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Senergyps",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-05T12:59:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

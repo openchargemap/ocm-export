@@ -1,6 +1,19 @@
 {
     "UserComments": [
         {
+            "ID": 26302,
+            "ChargePointID": 107584,
+            "CommentTypeID": 10,
+            "Comment": "",
+            "Rating": 4,
+            "DateCreated": "2022-09-11T12:35:29.473Z",
+            "User": {
+                "ID": 39195
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 24723,
             "ChargePointID": 107584,
             "CommentTypeID": 50,
@@ -16,22 +29,43 @@
             "IsActionedByEditor": false
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-08-14T17:43:00Z",
+    "MediaItems": [
+        {
+            "ID": 33619,
+            "ChargePointID": 107584,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/SM/OCM107584/OCM-107584.orig.2022091112351906.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/SM/OCM107584/OCM-107584.thmb.2022091112351906.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39195
+            },
+            "DateCreated": "2022-09-11T12:35:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-11T12:35:00Z",
     "ID": 107584,
     "UUID": "D031D8F6-40D5-4B3B-862D-B3F93221C5E5",
     "DataProviderID": 1,
+    "OperatorID": 3533,
     "UsageTypeID": 4,
+    "UsageCost": "0,40 €/kWh",
     "AddressInfo": {
         "ID": 107930,
-        "Title": "ZapGrid Scarito",
-        "AddressLine1": "Via Oddone Scarito",
+        "Title": "E-way Stazione di Ricarica",
+        "AddressLine1": "Via Paolo Amaducci",
         "Town": "Borgo Maggiore",
         "Postcode": "47893",
         "CountryID": 195,
-        "Latitude": 43.93996854300062,
-        "Longitude": 12.446448249265245,
-        "RelatedURL": "https://zapgrid.net/",
+        "Latitude": 43.940527,
+        "Longitude": 12.44507,
+        "ContactTelephone1": "0549 883700",
+        "ContactTelephone2": "0549 999102",
+        "RelatedURL": "https://eway.aass.sm/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -48,9 +82,9 @@
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": " APP ZapGrid\r\n https://play.google.com/store/apps/details?id=net.zapgrid.zapgrid ",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-08-14T17:43:00Z",
+    "DateLastStatusUpdate": "2022-09-11T12:35:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-08-02T13:30:00Z",
     "SubmissionStatusTypeID": 200

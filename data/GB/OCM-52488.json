@@ -60,13 +60,13 @@
             "DateCreated": "2017-05-07T21:45:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-02T08:46:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T14:42:00Z",
     "ID": 52488,
     "UUID": "DEB459F4-5B14-41F8-87BA-6C52064B02D4",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-80813..PG-80815,PG-80817,PG-80818,PG-80820",
+    "OperatorsReference": "PG-80813,PG-80814,PG-80815,PG-80817,PG-80818,PG-80820",
     "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -79,26 +79,91 @@
         "CountryID": 1,
         "Latitude": 51.4917449,
         "Longitude": 0.120863999999983,
-        "ContactTelephone1": "020 8172 4800 Sainsbury's",
-        "AccessComments": "3 hour time limit, parking is under supermarket.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 65158,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80820",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 12
+            "Quantity": 2,
+            "Comments": "Macy-Lary"
+        },
+        {
+            "ID": 324116,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80815",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Macy-Kirk"
+        },
+        {
+            "ID": 324117,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80813",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Mary-Nick"
+        },
+        {
+            "ID": 324118,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80814",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Mike-Ivan"
+        },
+        {
+            "ID": 324861,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80817",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Fred-Gary"
+        },
+        {
+            "ID": 324862,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80818",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Luke-Otis"
         }
     ],
     "NumberOfPoints": 12,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-02T08:46:00Z",
+    "DateLastStatusUpdate": "2022-11-01T14:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-08-30T02:04:00Z",
     "SubmissionStatusTypeID": 200

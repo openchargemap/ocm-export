@@ -1,6 +1,6 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-05-06T08:34:00Z",
+    "DateLastVerified": "2022-08-06T06:53:00Z",
     "ID": 192837,
     "UUID": "6CACCC1B-6F37-4DDD-8CB9-00294A0BC6E5",
     "DataProviderID": 1,
@@ -16,6 +16,7 @@
         "CountryID": 112,
         "Latitude": 43.650700888979145,
         "Longitude": 11.464287275966853,
+        "RelatedURL": "https://nextcharge.app/map?location=43.650520,11.464420",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,31 +24,33 @@
             "ID": 313474,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 300
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 313522,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 150,
             "LevelID": 3,
             "PowerKW": 64,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 313523,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "StatusTypeID": 150,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-05-06T08:34:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-06T06:53:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-30T22:08:00Z",
     "SubmissionStatusTypeID": 200

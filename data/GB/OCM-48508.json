@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-28T05:30:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-05T08:56:00Z",
     "ID": 48508,
     "UUID": "D4603BC6-8B7F-4A56-BD39-EE3BC696A495",
     "DataProviderID": 1,
@@ -16,7 +16,6 @@
         "CountryID": 1,
         "Latitude": 52.28638,
         "Longitude": -1.61183,
-        "AccessComments": "On left of entrance, just before multistory car park",
         "RelatedURL": "http://pod-point.com/",
         "DistanceUnit": 0
     },
@@ -24,19 +23,34 @@
         {
             "ID": 59963,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80524",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Rose-Bart"
+        },
+        {
+            "ID": 320864,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80533",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Anne-Jack"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "Open Charge. No RFID required.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-28T05:30:00Z",
+    "DateLastStatusUpdate": "2022-09-05T08:56:00Z",
     "MetadataValues": [
         {
             "ID": 1515,
@@ -44,7 +58,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2015-06-27T07:22:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

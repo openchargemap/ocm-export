@@ -1,13 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-12-07T21:48:00Z",
+    "DateLastVerified": "2022-10-02T05:22:00Z",
     "ID": 94816,
     "UUID": "FFC6B6F0-23D5-4DCC-A167-1142159385C9",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_it1_0317_017",
     "UsageTypeID": 4,
-    "UsageCost": "£0.26/kWh",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 95162,
         "Title": "Lidl-Hayes",
@@ -23,37 +23,43 @@
         {
             "ID": 134031,
             "ConnectionTypeID": 1036,
+            "Reference": "t53_it1_0317_017",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "June-Doug"
         },
         {
-            "ID": 134032,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 134033,
+            "ID": 323517,
             "ConnectionTypeID": 33,
+            "Reference": "t53_it1_0317_017",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "June-Doug"
+        },
+        {
+            "ID": 325077,
+            "ConnectionTypeID": 2,
+            "Reference": "t53_it1_0317_017",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "June-Doug"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 1,
     "GeneralComments": "This is a POD Point rapid charge unit installed at the Lidl superstore in Botwell Lane, Hayes",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-07T21:48:00Z",
+    "DateLastStatusUpdate": "2022-10-02T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-10-27T12:41:00Z",
     "SubmissionStatusTypeID": 200

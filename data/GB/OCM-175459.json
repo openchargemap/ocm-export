@@ -1,11 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-21T20:29:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:04:00Z",
     "ID": 175459,
     "UUID": "9D48FA3B-6209-4FA9-9267-23B6231A1BBA",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-85578,PG-85581,PG-85847",
+    "UsageTypeID": 4,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 175818,
         "Title": "Travelodge Emersons Green",
@@ -13,26 +15,54 @@
         "Town": "Bury Hill",
         "Postcode": "BS16 7FN",
         "CountryID": 1,
-        "Latitude": 51.50557399157725,
-        "Longitude": -2.4866709312398143,
+        "Latitude": 51.5055739915773,
+        "Longitude": -2.48667093123981,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 272266,
             "ConnectionTypeID": 25,
+            "Reference": "PG-85847",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 6
+            "Quantity": 2,
+            "Comments": "Amir-Dane"
+        },
+        {
+            "ID": 321381,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85578",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Olaf-Hope"
+        },
+        {
+            "ID": 324349,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85581",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Luca-Clay"
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-21T20:29:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:04:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-20T12:34:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,0 +1,64 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-05T09:20:00Z",
+    "ID": 193612,
+    "UUID": "C0DD18BF-CE31-45A8-858C-0EBA7496F68F",
+    "DataProviderID": 1,
+    "OperatorID": 229,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.25 / kWh + $0.25 / minute",
+    "AddressInfo": {
+        "ID": 193971,
+        "Title": "Drive EV",
+        "AddressLine1": "60 Tuwharetoa Street",
+        "Town": "Taupo",
+        "Postcode": "3330",
+        "CountryID": 161,
+        "Latitude": -38.68904304947905,
+        "Longitude": 176.07245541949192,
+        "ContactTelephone1": "+64 7-378 0082",
+        "AccessComments": "1x 50kW DC Tritium Veefil fast charger, with CHAdeMO + CCS connections available (only one can be used at time) and 2x EVNex 22kW 3 Phase socketed Type 2 units. For the Type 2 units you will need to “Bring your own cable”, during work hour we will happily lend you a cable if needed. Both units will be run through the ChargeNet billing system.",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 315087,
+            "ConnectionTypeID": 33,
+            "Reference": "DVEV1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "1x 50kW DC Tritium Veefil fast charger, with CHAdeMO + CCS connections available (only one can be used at time)"
+        },
+        {
+            "ID": 315088,
+            "ConnectionTypeID": 2,
+            "Reference": "DVEV1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "1x 50kW DC Tritium Veefil fast charger, with CHAdeMO + CCS connections available (only one can be used at time)"
+        },
+        {
+            "ID": 315089,
+            "ConnectionTypeID": 25,
+            "Reference": "DVEV2, DVEV3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "2x EVNex 22kW 3 Phase socketed Type 2 units. For the Type 2 units you will need to “Bring your own cable”, during work hour we will happily lend you a cable if needed."
+        }
+    ],
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-07-05T09:20:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-06-26T07:29:00Z",
+    "SubmissionStatusTypeID": 200
+}

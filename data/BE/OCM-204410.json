@@ -1,0 +1,68 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-02T09:46:00Z",
+    "ID": 204410,
+    "UUID": "EBFCC363-D1D9-42AE-A4A7-4E04BA43AF46",
+    "DataProviderID": 1,
+    "OperatorID": 3447,
+    "UsageTypeID": 4,
+    "AddressInfo": {
+        "ID": 204777,
+        "Title": "C-Charge",
+        "AddressLine1": "Mijnlamphof 5",
+        "Town": "Heusden-Zolder",
+        "StateOrProvince": "Limburg",
+        "Postcode": "3550",
+        "CountryID": 26,
+        "Latitude": 51.043170909711705,
+        "Longitude": 5.321480583072798,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 341500,
+            "ConnectionTypeID": 33,
+            "Reference": "C-Charge",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "DC charger of 120kW"
+        },
+        {
+            "ID": 341501,
+            "ConnectionTypeID": 33,
+            "Reference": "C-Charge 22",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 60,
+            "Voltage": 920,
+            "PowerKW": 24,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "DC Charger of 24kW"
+        },
+        {
+            "ID": 341502,
+            "ConnectionTypeID": 25,
+            "Reference": "C-Charge 22AC",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 3,
+            "Comments": "AC Chargers of 22kW"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-02T09:46:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2022-09-28T18:54:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-16T06:16:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T14:42:00Z",
     "ID": 172436,
     "UUID": "7A15D0C9-DBC9-48A2-929D-557B7DCEEC33",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70324,PG-85378",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 172795,
         "Title": "Tesco Deysbrook",
@@ -24,18 +24,33 @@
         {
             "ID": 263656,
             "ConnectionTypeID": 25,
+            "Reference": "PG-85378",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Dion-Ralf"
+        },
+        {
+            "ID": 320495,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70324",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Enzo-Pria"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-16T06:16:00Z",
+    "DateLastStatusUpdate": "2022-11-01T14:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-02-02T22:13:00Z",
     "SubmissionStatusTypeID": 200

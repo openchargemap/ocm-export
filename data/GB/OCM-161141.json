@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-19T06:18:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:14:00Z",
     "ID": 161141,
     "UUID": "29728776-D838-469F-AA23-BF85A4802F57",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_hu1_4019_007",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 161498,
         "Title": "Lidl Stores",
@@ -18,43 +18,46 @@
         "CountryID": 1,
         "Latitude": 51.7057072360618,
         "Longitude": -1.95984373763099,
-        "AccessComments": "In Lidl car park to right of store. ",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 231856,
             "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4019_007",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Hank-Ella"
         },
         {
-            "ID": 231919,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 231920,
+            "ID": 323630,
             "ConnectionTypeID": 1036,
+            "Reference": "t54_hu1_4019_007",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Hank-Ella"
+        },
+        {
+            "ID": 325122,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4019_007",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Hank-Ella"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-19T06:18:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:14:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-07-04T22:07:00Z",
     "SubmissionStatusTypeID": 200

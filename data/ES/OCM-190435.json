@@ -1,10 +1,60 @@
 {
+    "MediaItems": [
+        {
+            "ID": 35242,
+            "ChargePointID": 190435,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190435/OCM-190435.orig.2022110210005594.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190435/OCM-190435.thmb.2022110210005594.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-11-02T10:01:00Z"
+        },
+        {
+            "ID": 33014,
+            "ChargePointID": 190435,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190435/OCM-190435.orig.2022082216282891.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190435/OCM-190435.thmb.2022082216282891.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-22T16:29:00Z"
+        },
+        {
+            "ID": 33005,
+            "ChargePointID": 190435,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190435/OCM-190435.orig.2022082215081720.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190435/OCM-190435.thmb.2022082215081720.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-22T15:08:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-12-13T21:05:00Z",
+    "DateLastVerified": "2022-11-02T15:22:00Z",
     "ID": 190435,
     "UUID": "47C7C3AD-2E45-4C34-AE51-D541CDD51C9C",
     "DataProviderID": 1,
-    "OperatorID": 2247,
+    "OperatorID": 3523,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 190794,
@@ -25,15 +75,39 @@
             "Reference": "Porsche",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 375,
+            "Voltage": 920,
             "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 348987,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "Amps": 375,
+            "Voltage": 1000,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 348988,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "Porsche",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-13T21:05:00Z",
+    "DateLastStatusUpdate": "2022-11-02T15:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-12-07T13:25:00Z",
     "SubmissionStatusTypeID": 200

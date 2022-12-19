@@ -1,50 +1,67 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-09T03:23:00Z",
+    "MediaItems": [
+        {
+            "ID": 32960,
+            "ChargePointID": 182478,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM182478/OCM-182478.orig.2022082014394239.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM182478/OCM-182478.thmb.2022082014394239.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39425,
+                "Username": "Volker Holthaus"
+            },
+            "DateCreated": "2022-08-20T14:40:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-20T14:40:00Z",
     "ID": 182478,
     "UUID": "346D874F-FF9B-4DEC-8B4A-C2EB13C9F8AA",
-    "DataProviderID": 29,
-    "DataProvidersReference": "8704,4350,16639",
+    "DataProviderID": 1,
     "OperatorID": 175,
     "AddressInfo": {
         "ID": 182837,
-        "Title": "Bäumchen 15",
+        "Title": "Total Autohof Leuna / Weißenfels",
         "AddressLine1": "Bäumchen 15",
         "Town": "Weißenfels",
         "Postcode": "06667",
         "CountryID": 87,
         "Latitude": 51.268704,
         "Longitude": 11.978404,
+        "ContactTelephone1": "+49 309 158 80 28",
+        "RelatedURL": "http://apps.total-ev-charge.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 288275,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 30,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 950,
             "PowerKW": 175,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 3
         },
         {
-            "ID": 288276,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "ID": 325419,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 30,
             "LevelID": 3,
-            "PowerKW": 175,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 288277,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 175,
-            "CurrentTypeID": 30
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-09T03:23:00Z",
+    "DateLastStatusUpdate": "2022-08-20T14:40:00Z",
     "MetadataValues": [
         {
             "ID": 14771,

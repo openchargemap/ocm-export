@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-03-25T06:53:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T14:42:00Z",
     "ID": 155004,
     "UUID": "63F27B0A-32B6-4824-BE18-5C56E338804E",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70177,PG-84324",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 155358,
         "Title": "Tesco Superstore-Meir Stoke-on-Trent",
@@ -24,19 +24,34 @@
         {
             "ID": 218179,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70177",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Hugh-Joel"
+        },
+        {
+            "ID": 320365,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84324",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Myer-Owen"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Lysander Road, Meir, Stoke-On-Trent",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-03-25T06:53:00Z",
+    "DateLastStatusUpdate": "2022-11-01T14:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-03-24T06:39:00Z",
     "SubmissionStatusTypeID": 200

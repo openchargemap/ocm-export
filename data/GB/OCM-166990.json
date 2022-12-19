@@ -1,22 +1,21 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T08:10:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-04T16:07:00Z",
     "ID": 166990,
     "UUID": "57AEDEDE-DA1D-4443-99AB-92CC0AD868BC",
-    "DataProviderID": 18,
-    "DataProvidersReference": "f25df188f31273c63e02a3e6aabfc4fd",
+    "DataProviderID": 1,
     "OperatorID": 3326,
     "UsageTypeID": 5,
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 167349,
-        "Title": "St Helens Parade",
+        "Title": "Best Western Royal Beach Hotel ",
         "AddressLine1": "St Helens Parade",
         "Town": "Portsmouth",
         "Postcode": "PO4 0RN",
         "CountryID": 1,
         "Latitude": 50.78035,
         "Longitude": -1.07386,
-        "AccessComments": "",
         "RelatedURL": "http://www.alfapower.co.uk/",
         "DistanceUnit": 0
     },
@@ -24,8 +23,8 @@
         {
             "ID": 252804,
             "ConnectionTypeID": 25,
-            "Reference": "A",
-            "StatusTypeID": 50,
+            "Reference": "GB*ALP*ECCV2UK0004*A",
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -35,8 +34,8 @@
         {
             "ID": 252805,
             "ConnectionTypeID": 25,
-            "Reference": "B",
-            "StatusTypeID": 50,
+            "Reference": "GB*ALP*ECCV2UK0004*B",
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -44,8 +43,9 @@
             "CurrentTypeID": 20
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2020-08-27T08:10:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2022-09-04T16:07:00Z",
     "MetadataValues": [
         {
             "ID": 7747,
@@ -55,5 +55,5 @@
     ],
     "DataQualityLevel": 3,
     "DateCreated": "2020-08-27T08:10:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

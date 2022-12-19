@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-10-04T05:30:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:30:00Z",
     "ID": 132564,
     "UUID": "C91ED918-53DC-4A89-B6AA-9C52870BE406",
     "DataProviderID": 1,
@@ -24,19 +24,34 @@
         {
             "ID": 185594,
             "ConnectionTypeID": 25,
+            "Reference": "PG-83501",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Glen-Cole"
+        },
+        {
+            "ID": 320250,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70053",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Milo-Bing"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Maidenwell Avenue, Hamilton, Leicester",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-10-04T05:30:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:30:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-10-03T05:25:00Z",
     "SubmissionStatusTypeID": 200

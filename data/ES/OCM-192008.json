@@ -1,11 +1,30 @@
 {
+    "MediaItems": [
+        {
+            "ID": 33347,
+            "ChargePointID": 192008,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM192008/OCM-192008.orig.2022082811344584.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM192008/OCM-192008.thmb.2022082811344584.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-28T11:35:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-03-13T05:03:00Z",
+    "DateLastVerified": "2022-10-25T07:10:00Z",
     "ID": 192008,
     "UUID": "B461CD32-A367-42B0-8FA5-FE4A98E2D443",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 1,
+    "UsageCost": "0,56€/kWh 100kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 192367,
         "Title": "Hotel Plazaola",
@@ -22,16 +41,20 @@
             "ID": 311883,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 1000,
             "PowerKW": 100,
+            "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 311884,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -40,12 +63,13 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-13T05:03:00Z",
+    "DateLastStatusUpdate": "2022-10-25T07:10:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-03-12T18:26:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,13 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T11:09:00Z",
     "ID": 116266,
     "UUID": "90BA23FE-F6BF-419D-8E80-3E4C463A779E",
     "DataProviderID": 1,
     "DataProvidersReference": "5345",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 116612,
-        "Title": "Preem Landskrona",
+        "Title": "Preem Landskrona - E.ON",
         "AddressLine1": "Örjaleden ",
         "Town": "LANDSKRONA",
         "StateOrProvince": "SKÅNE",
@@ -21,37 +22,40 @@
     "Connections": [
         {
             "ID": 163469,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 163470,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "2",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 163471,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "3",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 43,
+            "Quantity": 1,
             "Comments": "Mode 3"
         }
     ],
     "NumberOfPoints": 3,
-    "DateLastStatusUpdate": "2020-05-26T08:21:00Z",
+    "DateLastStatusUpdate": "2022-10-25T11:09:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2019-02-11T09:16:00Z",
     "SubmissionStatusTypeID": 100

@@ -98,13 +98,13 @@
             "DateCreated": "2021-09-12T06:08:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-09-12T06:08:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-02T10:47:00Z",
     "ID": 189178,
     "UUID": "95225691-B08D-46FD-97C5-CA4CD3F1C7F9",
     "DataProviderID": 1,
     "OperatorID": 3327,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 189537,
         "Title": "Be Charge AdS Tamoil",
@@ -121,25 +121,34 @@
         {
             "ID": 305846,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 75
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 305847,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 63
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 305848,
             "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-12T06:08:00Z",
+    "DateLastStatusUpdate": "2022-07-02T10:47:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-09-12T06:03:00Z",
     "SubmissionStatusTypeID": 200

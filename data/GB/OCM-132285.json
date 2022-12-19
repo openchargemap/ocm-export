@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-01-08T06:16:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-12T10:53:00Z",
     "ID": 132285,
     "UUID": "476B8528-F245-4EF7-B0DB-83F32F957E3D",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-83368,PG-83369",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£2.70/hour",
     "AddressInfo": {
         "ID": 132631,
         "Title": "Watts Truck & Van",
@@ -24,19 +24,34 @@
         {
             "ID": 185152,
             "ConnectionTypeID": 25,
+            "Reference": "PG-83369",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Ford-Arlo"
+        },
+        {
+            "ID": 321255,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-83368",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Jean-Seth"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Watts Truck & Van site at Lion WaySwansea Enterprise Park, Swansea",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-08T06:16:00Z",
+    "DateLastStatusUpdate": "2022-09-12T10:53:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-09-26T05:34:00Z",
     "SubmissionStatusTypeID": 200

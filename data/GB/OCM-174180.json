@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-22T06:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T09:11:00Z",
     "ID": 174180,
     "UUID": "AE143274-F313-4E14-89A0-ADC77F7FDA7A",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70247,PG-84514",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 174539,
         "Title": "Tesco Superstore-Sheringham Cromer Road",
@@ -23,19 +23,34 @@
         {
             "ID": 269253,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84514",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Axel-Neve"
+        },
+        {
+            "ID": 320435,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70247",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Lulu-Lola"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Cromer Road, Sheringham",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-22T06:19:00Z",
+    "DateLastStatusUpdate": "2022-11-01T09:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-21T06:18:00Z",
     "SubmissionStatusTypeID": 200

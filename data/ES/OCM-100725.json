@@ -1,16 +1,16 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-12-29T16:49:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-14T16:08:00Z",
     "ID": 100725,
     "UUID": "1BFBA035-47CB-41CF-B589-B4AA198DBFDB",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 45,
     "OperatorsReference": "0364",
-    "UsageTypeID": 4,
+    "UsageTypeID": 6,
     "UsageCost": "7,75€ por día",
     "AddressInfo": {
         "ID": 101071,
-        "Title": "Carretera de Madrid",
+        "Title": "Hotel Cuatro Postes",
         "AddressLine1": "Carretera de Madrid",
         "Town": "Ávila",
         "StateOrProvince": "Ávila",
@@ -18,23 +18,35 @@
         "CountryID": 210,
         "Latitude": 40.66210582871934,
         "Longitude": -4.712055687061856,
+        "ContactTelephone1": "+34 920 22 00 00",
+        "RelatedURL": "https://www.cuatroposteshotel.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 142270,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 20,
             "Voltage": 220,
-            "PowerKW": 13,
+            "PowerKW": 11,
+            "Quantity": 1
+        },
+        {
+            "ID": 338374,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Tesla Destination Chargers",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-12-29T16:49:00Z",
+    "DateLastStatusUpdate": "2022-10-14T16:08:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-03-08T07:22:00Z",
     "SubmissionStatusTypeID": 200

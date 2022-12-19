@@ -49,14 +49,14 @@
             "DateCreated": "2018-06-16T19:23:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-24T15:50:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-15T18:40:00Z",
     "ID": 101688,
     "UUID": "55763C87-2677-46F4-B217-7EA927C37854",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-81827",
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 102034,
@@ -69,10 +69,6 @@
         "CountryID": 1,
         "Latitude": 53.588799,
         "Longitude": -0.692133,
-        "ContactTelephone1": "",
-        "ContactTelephone2": "",
-        "ContactEmail": "",
-        "AccessComments": "",
         "RelatedURL": "https://open.pod-point.com",
         "DistanceUnit": 0
     },
@@ -80,19 +76,21 @@
         {
             "ID": 143547,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81827",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Pete-Bill"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the North Lincolnshire Shopping Park in Doncaster Road, Gunness, Scunthorpe",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-24T15:50:00Z",
+    "DateLastStatusUpdate": "2022-08-15T18:40:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-04-05T05:29:00Z",
     "SubmissionStatusTypeID": 200

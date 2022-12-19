@@ -1,14 +1,33 @@
 {
+    "MediaItems": [
+        {
+            "ID": 33008,
+            "ChargePointID": 190495,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190495/OCM-190495.orig.2022082215223853.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190495/OCM-190495.thmb.2022082215223853.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-22T15:23:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-12-10T20:59:00Z",
+    "DateLastVerified": "2022-10-26T13:19:00Z",
     "ID": 190495,
     "UUID": "65D865E2-481E-4A81-AD17-FC6CAF74657E",
     "DataProviderID": 1,
     "OperatorID": 3299,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "0,79€/kWh (or subscription rates) ",
     "AddressInfo": {
         "ID": 190854,
-        "Title": "CEPSA La Marina Este",
+        "Title": "IONITY La Marina Este",
         "AddressLine1": "CEPSA",
         "Town": "la Vila Joiosa",
         "StateOrProvince": "Valencian Community",
@@ -22,16 +41,19 @@
         {
             "ID": 308854,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 350,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Both sides of the Motorway",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2021-12-10T20:59:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-26T13:19:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-12-10T18:47:00Z",
     "SubmissionStatusTypeID": 200

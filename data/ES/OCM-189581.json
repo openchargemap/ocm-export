@@ -1,14 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-10-15T06:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-03T13:50:00Z",
     "ID": 189581,
     "UUID": "B3F9074C-98AC-47CD-90F6-037BEEB94E8C",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 45,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 189940,
-        "Title": "bricomart",
+        "Title": "Bricomart",
         "AddressLine1": "junto a centro comercial los alcores",
         "Town": "sevilla, alcala de guadaira",
         "StateOrProvince": "alcala de guadaira",
@@ -20,15 +20,27 @@
     "Connections": [
         {
             "ID": 306672,
-            "ConnectionTypeID": 1,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
-            "Quantity": 1,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 3,
             "Comments": "gratis, free"
+        },
+        {
+            "ID": 342526,
+            "ConnectionTypeID": 17,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 3
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-15T06:12:00Z",
+    "DateLastStatusUpdate": "2022-10-03T13:50:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-10-14T14:06:00Z",
     "SubmissionStatusTypeID": 200

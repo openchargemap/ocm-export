@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-02T21:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:46:00Z",
     "ID": 173063,
     "UUID": "5A014F28-4D45-43C7-8781-57BFF3E99E2D",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70353,PG-86112",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 173422,
         "Title": "Tesco Superstore-Springfield Road",
@@ -23,19 +23,34 @@
         {
             "ID": 264792,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70353",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Chet-Emry"
+        },
+        {
+            "ID": 320530,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86112",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Joel-Dirk"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Springfield Road, Chelmsford",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-02T21:11:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-02T21:04:00Z",
     "SubmissionStatusTypeID": 200

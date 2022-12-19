@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-16T12:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T06:22:00Z",
     "ID": 175388,
     "UUID": "D7B1D209-6CFA-4411-A9EF-EC9C40E85B2C",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
-    "UsageCost": "AC:Free; DC: £0.27/kWh",
+    "OperatorsReference": "PG-70438,PG-86860,veefil-12100047",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 175747,
         "Title": "Tesco Superstore-Leighton Buzzard",
@@ -22,18 +23,6 @@
         {
             "ID": 272097,
             "ConnectionTypeID": 25,
-            "Reference": "PG-70438",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 272098,
-            "ConnectionTypeID": 25,
             "Reference": "PG-86860",
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -41,30 +30,48 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Suki-Jean"
         },
         {
-            "ID": 272099,
+            "ID": 323976,
             "ConnectionTypeID": 33,
+            "Reference": "veefil-12100047",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Roma-Levy"
         },
         {
-            "ID": 272100,
+            "ID": 323977,
             "ConnectionTypeID": 2,
+            "Reference": "veefil-12100047",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Roma-Levy"
+        },
+        {
+            "ID": 324635,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70438",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Duke-Frey"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-16T12:39:00Z",
+    "DateLastStatusUpdate": "2022-11-02T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-16T12:30:00Z",
     "SubmissionStatusTypeID": 200

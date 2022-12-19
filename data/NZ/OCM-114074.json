@@ -1,20 +1,21 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-03-23T07:49:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-12T11:00:00Z",
     "ID": 114074,
     "UUID": "56ECF79F-9B76-4BFA-8018-D46744777F50",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "34216",
     "UsageTypeID": 4,
-    "UsageCost": "NZD 0.42/kWh;other tariffs for older cars",
+    "UsageCost": "60c/kWh",
     "AddressInfo": {
         "ID": 114420,
         "Title": "Christchurch Supercharger",
-        "AddressLine1": "Christchurch Supercharger",
+        "AddressLine1": "50 Park Terrace",
         "CountryID": 161,
         "Latitude": -43.52642,
         "Longitude": 172.628965,
+        "AccessComments": "24/7",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,12 +27,21 @@
             "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 4
+        },
+        {
+            "ID": 316065,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "Charging4 Superchargers, available 24/7, up to 120kW",
+    "GeneralComments": "All stalls have both Tesla proprietary connectors (Model S/X) and CCS connectors (Model 3).  Access by driving through the George car park and proceeding around the back.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-03-23T07:49:00Z",
+    "DateLastStatusUpdate": "2022-07-12T11:00:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-01-03T06:46:00Z",
     "SubmissionStatusTypeID": 200

@@ -17,12 +17,12 @@
             "DateCreated": "2019-02-17T04:27:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-02-17T04:27:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-29T08:07:00Z",
     "ID": 91536,
     "UUID": "71C44A5C-72C2-4390-8696-DFAE7E616FD7",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 45,
     "UsageTypeID": 1,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -42,20 +42,29 @@
     "Connections": [
         {
             "ID": 129746,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 400,
-            "PowerKW": 11,
+            "PowerKW": 3,
             "CurrentTypeID": 20,
+            "Quantity": 9
+        },
+        {
+            "ID": 341568,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 1,
+            "PowerKW": 2.3,
+            "CurrentTypeID": 10,
             "Quantity": 9
         }
     ],
     "NumberOfPoints": 9,
     "GeneralComments": "Typ2 16 Ampere ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-02-17T04:27:00Z",
+    "DateLastStatusUpdate": "2022-09-29T08:07:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-08-04T17:57:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-13T11:43:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:51:00Z",
     "ID": 74795,
     "UUID": "625AF9D8-C52B-4314-89D5-A650C510447B",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-90889,PG-90895",
-    "UsageTypeID": 2,
+    "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 75141,
@@ -23,18 +23,33 @@
         {
             "ID": 107916,
             "ConnectionTypeID": 25,
+            "Reference": "PG-90895",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Lary-Gill"
+        },
+        {
+            "ID": 321677,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-90889",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Anne-Fred"
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T11:43:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:51:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-12-03T20:32:00Z",
     "SubmissionStatusTypeID": 200

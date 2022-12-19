@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-06-29T14:02:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:46:00Z",
     "ID": 176096,
     "UUID": "8FEE2E42-B017-4E26-99DE-263902C405DD",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-86836,PG-70420",
-    "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "OperatorsReference": "PG-70420,PG-86836,veefil-12000662",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 176455,
         "Title": "Tesco Superstore-Arbroath",
@@ -22,7 +22,42 @@
     },
     "Connections": [
         {
-            "ID": 273589,
+            "ID": 273590,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86836",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Dina-Amos"
+        },
+        {
+            "ID": 323959,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12000662",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Elia-Joye"
+        },
+        {
+            "ID": 323960,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12000662",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Elia-Joye"
+        },
+        {
+            "ID": 324623,
             "ConnectionTypeID": 25,
             "Reference": "PG-70420",
             "StatusTypeID": 50,
@@ -31,24 +66,13 @@
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 273590,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-86836",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Amos-Ruby"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-29T14:02:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-25T07:22:00Z",
     "SubmissionStatusTypeID": 200

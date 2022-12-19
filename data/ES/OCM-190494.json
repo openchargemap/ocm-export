@@ -1,36 +1,58 @@
 {
+    "MediaItems": [
+        {
+            "ID": 33007,
+            "ChargePointID": 190494,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190494/OCM-190494.orig.2022082215202031.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190494/OCM-190494.thmb.2022082215202031.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-22T15:20:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2021-12-10T20:59:00Z",
+    "DateLastVerified": "2022-10-26T13:19:00Z",
     "ID": 190494,
     "UUID": "DA22982F-9FB5-474B-B52D-6A40177A81DC",
     "DataProviderID": 1,
     "OperatorID": 3299,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "0,79€/kWh (or subscription rates) ",
     "AddressInfo": {
         "ID": 190853,
-        "Title": "CEPSA",
+        "Title": "IONITY La Marina Oeste",
         "AddressLine1": "CEPSA",
         "Town": "la Vila Joiosa",
         "StateOrProvince": "Valencian Community",
         "Postcode": "03570",
         "CountryID": 210,
-        "Latitude": 38.536119955634746,
-        "Longitude": -0.20228138642050908,
+        "Latitude": 38.535849,
+        "Longitude": -0.203861,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 308853,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 350,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-10T20:59:00Z",
+    "DateLastStatusUpdate": "2022-10-26T13:19:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-12-10T18:45:00Z",
     "SubmissionStatusTypeID": 200

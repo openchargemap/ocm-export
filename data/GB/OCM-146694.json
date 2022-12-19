@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-01-14T09:51:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T06:22:00Z",
     "ID": 146694,
     "UUID": "68EB548A-CA33-4AEE-B967-FB263B29DAEE",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70144,PG-84268",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 147046,
         "Title": "Tesco Superstore-St Ives",
@@ -24,19 +24,34 @@
         {
             "ID": 203986,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70144",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Jill-Stan"
+        },
+        {
+            "ID": 320335,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84268",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Gina-Niki"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco Superstore at St Ives Road, Carbis Bay, St Ives",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-14T09:51:00Z",
+    "DateLastStatusUpdate": "2022-11-02T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-01-13T21:12:00Z",
     "SubmissionStatusTypeID": 200

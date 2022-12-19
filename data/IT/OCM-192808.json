@@ -1,6 +1,6 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-30T08:25:00Z",
+    "DateLastVerified": "2022-08-06T06:18:00Z",
     "ID": 192808,
     "UUID": "57B9B8F9-550C-433A-A248-CDCF13184DBB",
     "DataProviderID": 1,
@@ -8,7 +8,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 193167,
-        "Title": "A1 AdS San Zenone Est",
+        "Title": "FREETOX A1 AdS San Zenone Est",
         "AddressLine1": "AdS San Zenone Est",
         "Town": "Lodi Vecchio",
         "StateOrProvince": "Lombardy",
@@ -16,6 +16,7 @@
         "CountryID": 112,
         "Latitude": 45.32224021000218,
         "Longitude": 9.376819967354578,
+        "RelatedURL": "https://nextcharge.app/map?location=45.321512,9.377230",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,14 +24,44 @@
             "ID": 313427,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 317179,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 317180,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 317181,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 150,
-            "Quantity": 2
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-04-30T08:25:00Z",
+    "NumberOfPoints": 6,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-06T06:18:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-30T08:25:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-14T14:14:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-14T19:35:00Z",
     "ID": 24601,
     "UUID": "3F0C5879-676D-45BF-AD7A-59786E6F71E2",
     "DataProviderID": 1,
@@ -25,12 +25,33 @@
     "Connections": [
         {
             "ID": 26883,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 336757,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 336758,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-02-14T14:14:00Z",
+    "DateLastStatusUpdate": "2022-09-14T19:35:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-10-21T12:23:00Z",
     "SubmissionStatusTypeID": 200

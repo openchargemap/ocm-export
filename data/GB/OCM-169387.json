@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-15T21:57:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T06:23:00Z",
     "ID": 169387,
     "UUID": "6147FE60-BBFE-45A4-BA73-BB6300BA49D0",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70228,PG-85046",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "Free,£0.28/kWh",
     "AddressInfo": {
         "ID": 169746,
         "Title": "Tesco Extra-Bangor",
@@ -23,19 +23,34 @@
         {
             "ID": 257711,
             "ConnectionTypeID": 25,
+            "Reference": "PG-70228",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Enzo-Lois"
+        },
+        {
+            "ID": 320417,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85046",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Todd-Ralf"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Caernarfon Road, Bangor",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-15T21:57:00Z",
+    "DateLastStatusUpdate": "2022-11-01T06:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-10-15T21:37:00Z",
     "SubmissionStatusTypeID": 200

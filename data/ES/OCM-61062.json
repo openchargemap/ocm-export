@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-09T12:04:00Z",
     "ID": 61062,
     "UUID": "A1E8E83B-26A9-462B-94DB-756E13AE8911",
-    "DataProviderID": 27,
-    "DataProvidersReference": "161",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 61408,
         "Title": "Gas Natural fenosa",
@@ -23,15 +23,35 @@
     "Connections": [
         {
             "ID": 77601,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
-            "ID": 77602,
-            "ConnectionTypeID": 28
+            "ID": 344937,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 344938,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "App Naturgy Easyrecarga",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-09T12:04:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

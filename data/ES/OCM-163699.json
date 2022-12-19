@@ -1,40 +1,66 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-24T14:42:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T20:48:00Z",
     "ID": 163699,
     "UUID": "FF10D067-EAA8-49FA-9E10-224E3D682B9E",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3276,
     "OperatorsReference": "39467",
     "UsageTypeID": 4,
+    "UsageCost": "0,50€/kWh DC/AC43kW -  0,45€/kWh AC 7,4kW - (0,01€/min parked without charging)",
     "AddressInfo": {
         "ID": 164056,
-        "Title": "Centro Comercial Sevilla Factory",
-        "AddressLine1": "Ctra Nacional Iv Madrid-Cadiz",
-        "Town": "Km. 553.8",
-        "StateOrProvince": "Dos Hermanas",
-        "Postcode": "41703",
+        "Title": "Avenida 4 de Diciembre",
+        "AddressLine1": "Avenida 4 de Diciembre",
+        "StateOrProvince": "Andalucía",
+        "Postcode": "41702",
         "CountryID": 210,
         "Latitude": 37.288794,
         "Longitude": -5.94185,
-        "ContactTelephone1": "+34 954 727 772",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 235296,
-            "ConnectionTypeID": 30,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 340457,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 342532,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 342533,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 10
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 22kW.Available for customers. Self park.",
+    "NumberOfPoints": 12,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-24T14:42:00Z",
+    "DateLastStatusUpdate": "2022-11-01T20:48:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-08-24T14:42:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,6 +1,19 @@
 {
     "UserComments": [
         {
+            "ID": 26299,
+            "ChargePointID": 90618,
+            "CommentTypeID": 10,
+            "Comment": "",
+            "Rating": 4,
+            "DateCreated": "2022-09-11T12:33:39.567Z",
+            "User": {
+                "ID": 39195
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 18084,
             "ChargePointID": 90618,
             "CommentTypeID": 10,
@@ -15,6 +28,21 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 33616,
+            "ChargePointID": 90618,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/SM/OCM90618/OCM-90618.orig.2022091112333058.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/SM/OCM90618/OCM-90618.thmb.2022091112333058.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39195
+            },
+            "DateCreated": "2022-09-11T12:34:00Z"
+        },
         {
             "ID": 16307,
             "ChargePointID": 90618,
@@ -64,25 +92,27 @@
             "DateCreated": "2018-01-07T14:42:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-08-18T16:08:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-11T12:34:00Z",
     "ID": 90618,
     "UUID": "C4AB2C64-389E-48DD-A776-6761024D251D",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "free",
+    "OperatorID": 3533,
+    "UsageTypeID": 4,
+    "UsageCost": "0,40 €/kWh",
     "AddressInfo": {
         "ID": 90964,
-        "Title": "Piscina Olimpica di Serravalle",
-        "AddressLine1": "Via Rancaglia, 30",
+        "Title": "E-way Stazione di Ricarica",
+        "AddressLine1": "Via Rancaglia",
         "Town": "Serravalle",
-        "StateOrProvince": "San Marino",
+        "StateOrProvince": "",
         "Postcode": "47899",
         "CountryID": 195,
-        "Latitude": 43.9701448123794,
-        "Longitude": 12.475978470375,
-        "RelatedURL": "http://www.multieventi.sm/on-line/home.html",
+        "Latitude": 43.970875,
+        "Longitude": 12.476054,
+        "ContactTelephone1": "0549 883700",
+        "ContactTelephone2": "0549 999102",
+        "RelatedURL": "https://eway.aass.sm/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -95,24 +125,13 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 128321,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Due colonnine distanziate tra di loro",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-08-18T16:08:00Z",
+    "DateLastStatusUpdate": "2022-09-11T12:34:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-07-20T08:45:00Z",
     "SubmissionStatusTypeID": 200

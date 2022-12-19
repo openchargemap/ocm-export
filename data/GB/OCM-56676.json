@@ -59,15 +59,15 @@
             "DateCreated": "2016-10-29T21:53:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-01-09T06:34:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-03T15:44:00Z",
     "ID": 56676,
     "UUID": "41AEBE8F-F23B-4C79-BB7D-8A1247E4E860",
     "DataProviderID": 1,
     "OperatorID": 25,
     "OperatorsReference": "9860000184,9860000156",
     "UsageTypeID": 4,
-    "UsageCost": "£0.059/minute; min £1.18; other tariffs available. Parking fees apply.",
+    "UsageCost": "£0.69/kWh.; Idle £0.05/min; other tariffs available. Parking fees apply.",
     "AddressInfo": {
         "ID": 57022,
         "Title": "Bunns Lane Car Park",
@@ -84,30 +84,55 @@
         {
             "ID": 71473,
             "ConnectionTypeID": 25,
+            "Reference": "GB*BPL*E000041",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 71474,
             "ConnectionTypeID": 1,
+            "Reference": "GB*BPL*E000041",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 4,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 342555,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*BPL*E000040",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 342556,
+            "ConnectionTypeID": 1,
+            "Reference": "GB*BPL*E000040",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 4,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Does not accept Source East cards.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-01-09T06:34:00Z",
+    "DateLastStatusUpdate": "2022-10-03T15:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-11-05T21:31:00Z",
     "SubmissionStatusTypeID": 200

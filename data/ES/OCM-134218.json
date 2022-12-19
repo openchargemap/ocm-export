@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-07-16T17:34:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-30T11:19:00Z",
     "ID": 134218,
     "UUID": "05181296-3DAB-4E07-94EC-0D32A4D5C0F8",
     "DataProviderID": 1,
@@ -23,19 +23,23 @@
     "Connections": [
         {
             "ID": 187798,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
             "PowerKW": 400,
             "CurrentTypeID": 30,
             "Quantity": 4
         },
         {
             "ID": 187799,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 400,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 4
         }
@@ -43,7 +47,7 @@
     "NumberOfPoints": 4,
     "GeneralComments": "Minimum charge: 8€ (around 18kWh)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-07-16T17:34:00Z",
+    "DateLastStatusUpdate": "2022-09-30T11:19:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-11-04T14:34:00Z",
     "SubmissionStatusTypeID": 200

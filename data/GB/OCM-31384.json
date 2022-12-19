@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 27437,
+            "ChargePointID": 31384,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Gridserve-installed equipment installed and powered up, it's a soft-opening, Gridserve want to check that their battery storage / solar / limited grid supply setup works. https://twitter.com/ElecHighway/status/1581564433930719235",
+            "DateCreated": "2022-10-16T19:32:45.607Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 22678,
             "ChargePointID": 31384,
             "CommentTypeID": 10,
@@ -212,14 +226,13 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-03-09T14:34:00Z",
+    "DateLastVerified": "2022-10-16T19:33:00Z",
     "ID": 31384,
     "UUID": "17FB69B6-A203-4B8C-B7D8-589B99BA8AC7",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1269,1270",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers. Commando sockets free.",
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 31730,
         "Title": "Cornwall Services",
@@ -240,65 +253,14 @@
         {
             "ID": 34885,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 34893,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 65923,
-            "ConnectionTypeID": 4,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 4,
-            "CurrentTypeID": 10,
-            "Quantity": 4
-        },
-        {
-            "ID": 83389,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 311789,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 6
-        },
-        {
-            "ID": 311790,
-            "ConnectionTypeID": 2,
             "StatusTypeID": 150,
             "LevelID": 3,
             "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 6
+            "Quantity": 3
         },
         {
-            "ID": 311791,
+            "ID": 34893,
             "ConnectionTypeID": 25,
             "StatusTypeID": 150,
             "LevelID": 2,
@@ -306,13 +268,21 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
+            "Quantity": 5
+        },
+        {
+            "ID": 65923,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
             "Quantity": 6
         }
     ],
-    "NumberOfPoints": 4,
-    "GeneralComments": "Rapid chargers accessed via Ecotricity Electric Highway only. New Gridserve charging hub under construction.",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-09T14:34:00Z",
+    "NumberOfPoints": 12,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2022-10-16T19:33:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-01-06T18:59:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-06T05:22:00Z",
     "ID": 188024,
     "UUID": "99E77631-3AD8-467E-A7B1-C4F4005AB327",
-    "DataProviderID": 18,
-    "DataProvidersReference": "46537d0ae899cfae938d045a4bb90d07",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-98836,PG-98921",
+    "UsageTypeID": 4,
+    "UsageCost": "£4.20/hour",
     "AddressInfo": {
         "ID": 188383,
         "Title": "Twemlow Lane",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 53.216741,
         "Longitude": -2.331829,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,17 +24,33 @@
         {
             "ID": 303400,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-98921",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Zach-Jill"
+        },
+        {
+            "ID": 321900,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-98836",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Izzy-Duke"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-06T05:22:00Z",
     "MetadataValues": [
         {
             "ID": 20264,
@@ -42,7 +58,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

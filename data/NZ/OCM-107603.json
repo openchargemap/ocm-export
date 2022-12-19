@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-08-02T22:07:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-06T07:15:00Z",
     "ID": 107603,
     "UUID": "7AB9BD75-8381-4B41-9E82-ACDF35B751A7",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.25/kWh + $0.25/min",
+    "UsageCost": "$0.25/kWh + $0.25/min, Type 2 free",
     "AddressInfo": {
         "ID": 107949,
         "Title": "Rolleston New World",
@@ -16,6 +16,8 @@
         "CountryID": 161,
         "Latitude": -43.596959,
         "Longitude": 172.383137,
+        "ContactTelephone1": "+64 800 224 274",
+        "AccessComments": "Open 24/7, Three reserved car parks",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -36,11 +38,21 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 315709,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Two Type 2 sockets, 22 kW. BYO cable and a (Charge.net.nz) RFID card is required for use. Free to use. Two reserved car parks. A 3rd reserved car park for the fast charger"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-08-02T22:07:00Z",
+    "DateLastStatusUpdate": "2022-07-06T07:15:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-08-02T22:06:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-24T06:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T10:06:00Z",
     "ID": 174007,
     "UUID": "261FF9FE-59F4-4C3E-9D11-61F8D2E3E950",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_it1_3820_049",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 174366,
         "Title": "Lidl-Streatham",
@@ -23,37 +23,43 @@
         {
             "ID": 268262,
             "ConnectionTypeID": 25,
+            "Reference": "t54_it1_3820_049",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Cody-Hope"
         },
         {
-            "ID": 268263,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 268264,
+            "ID": 322192,
             "ConnectionTypeID": 2,
+            "Reference": "t54_it1_3820_049",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Cody-Hope"
+        },
+        {
+            "ID": 323731,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_it1_3820_049",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Cody-Hope"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "This is a Pod Point rapid charger at the Lidl super store at Streatham High Road, London",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-24T06:19:00Z",
+    "DateLastStatusUpdate": "2022-08-16T10:06:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-10T06:21:00Z",
     "SubmissionStatusTypeID": 200

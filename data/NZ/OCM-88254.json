@@ -97,8 +97,8 @@
             "DateCreated": "2017-05-25T07:08:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-05-25T12:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-07-09T11:53:00Z",
     "ID": 88254,
     "UUID": "DD2AA626-1EEB-4F72-87C2-CE71A0DBE18B",
     "DataProviderID": 1,
@@ -107,20 +107,22 @@
     "UsageCost": "$0.25/kWh + $0.25/min",
     "AddressInfo": {
         "ID": 88600,
-        "Title": "Papa Cliff Cafe",
+        "Title": "Mangaweka (The Dukes Roadhouse)",
         "AddressLine1": "6336B Mangawharariki Road",
         "Town": "Mangaweka ",
         "Postcode": "4797",
         "CountryID": 161,
         "Latitude": -39.8096483,
         "Longitude": 175.7884298,
-        "ContactTelephone1": "(080) 022-4274",
+        "ContactTelephone1": "+64 800 224 274",
+        "AccessComments": "Open 24/7",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 125187,
             "ConnectionTypeID": 2,
+            "Reference": "MWKA1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -130,6 +132,7 @@
         {
             "ID": 125188,
             "ConnectionTypeID": 33,
+            "Reference": "MWKA1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -137,10 +140,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "24/7",
+    "NumberOfPoints": 1,
+    "GeneralComments": "1x 50kW ChargeNet station right beside 4x Tesla Superchargers",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-25T12:23:00Z",
+    "DateLastStatusUpdate": "2022-07-09T11:53:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-05-25T07:08:00Z",
     "SubmissionStatusTypeID": 200

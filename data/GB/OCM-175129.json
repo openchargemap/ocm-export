@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-06T08:43:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:46:00Z",
     "ID": 175129,
     "UUID": "65B875E9-3806-48C6-A9BA-46DE7B8EE2CB",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-70366,PG-86385,veefil-12100032",
     "UsageTypeID": 4,
-    "UsageCost": "AC:Free; DC: £0.27/kWh",
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
     "AddressInfo": {
         "ID": 175488,
         "Title": "Tesco Superstore-Coventry Walsgrave",
@@ -23,18 +24,6 @@
         {
             "ID": 271451,
             "ConnectionTypeID": 25,
-            "Reference": "PG-70366",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 271452,
-            "ConnectionTypeID": 25,
             "Reference": "PG-86385",
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -42,32 +31,48 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Scot-Lola"
         },
         {
-            "ID": 271828,
+            "ID": 323920,
             "ConnectionTypeID": 33,
             "Reference": "veefil-12100032",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Kyla-Evin"
         },
         {
-            "ID": 271829,
+            "ID": 323921,
             "ConnectionTypeID": 2,
             "Reference": "veefil-12100032",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Kyla-Evin"
+        },
+        {
+            "ID": 324604,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70366",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Cora-Rhys"
         }
     ],
-    "NumberOfPoints": 5,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-06T08:43:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-27T23:53:00Z",
     "SubmissionStatusTypeID": 200

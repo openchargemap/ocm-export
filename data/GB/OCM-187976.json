@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-30T06:22:00Z",
     "ID": 187976,
     "UUID": "68B80191-10ED-4D82-B406-86D0AF173412",
-    "DataProviderID": 18,
-    "DataProvidersReference": "22f748169024cbefbce5c252c5f4b23d",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-86822,PG-86825,PG-86826,PG-86847,PG-86848,PG-86849",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.25/kWh",
     "AddressInfo": {
         "ID": 188335,
         "Title": "18 Lower Bond St",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 52.543066,
         "Longitude": -1.374148,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,85 @@
         {
             "ID": 303311,
             "ConnectionTypeID": 25,
-            "Reference": "PG-86825A",
+            "Reference": "PG-86826",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Page-Edna"
         },
         {
-            "ID": 303312,
+            "ID": 324399,
             "ConnectionTypeID": 25,
-            "Reference": "PG-86825B",
+            "Reference": "PG-86848",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Chip-Lars"
+        },
+        {
+            "ID": 324400,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86847",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Rhys-Dirk"
+        },
+        {
+            "ID": 324973,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86825",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Tate-Ford"
+        },
+        {
+            "ID": 324974,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86822",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Arne-Maya"
+        },
+        {
+            "ID": 324975,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86849",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Kent-Tori"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 12,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-30T06:22:00Z",
     "MetadataValues": [
         {
             "ID": 20216,
@@ -53,7 +110,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

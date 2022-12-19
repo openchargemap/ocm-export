@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-04-17T05:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:44:00Z",
     "ID": 126167,
     "UUID": "D5362644-64EA-4B93-ABCA-86C306D0CABF",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-82702,PG-82703",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.45/kWh",
     "AddressInfo": {
         "ID": 126513,
         "Title": "Arnhem Wharf",
@@ -23,19 +23,34 @@
         {
             "ID": 176820,
             "ConnectionTypeID": 25,
+            "Reference": "PG-82703",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Vern-Chad"
+        },
+        {
+            "ID": 321168,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-82702",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Cato-Olaf"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Arnhem Wharf site at Arnhem Place, London",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-04-17T05:39:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-05-13T13:17:00Z",
     "SubmissionStatusTypeID": 200

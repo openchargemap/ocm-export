@@ -1,11 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-12-20T10:58:00Z",
+    "MediaItems": [
+        {
+            "ID": 33491,
+            "ChargePointID": 171083,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM171083/OCM-171083.orig.2022090111571723.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM171083/OCM-171083.thmb.2022090111571723.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22105,
+                "Username": "lemont"
+            },
+            "DateCreated": "2022-09-01T11:57:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-01T13:36:00Z",
     "ID": 171083,
     "UUID": "11A9799D-1F12-48D8-B889-DCAFEAF40A4C",
     "DataProviderID": 1,
     "OperatorID": 38,
     "UsageTypeID": 4,
+    "UsageCost": "0.25€/kWh sur bornes DC",
     "AddressInfo": {
         "ID": 171442,
         "Title": "Avenue de la Mairie",
@@ -37,11 +56,20 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 336173,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-20T10:58:00Z",
+    "DateLastStatusUpdate": "2022-09-01T13:36:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-19T16:24:00Z",
     "SubmissionStatusTypeID": 200

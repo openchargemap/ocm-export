@@ -1,13 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-02-21T12:30:00Z",
+    "UserComments": [
+        {
+            "ID": 25849,
+            "ChargePointID": 149222,
+            "CommentTypeID": 10,
+            "UserName": "Waag101",
+            "Comment": "definitely need faster chargers.",
+            "Rating": 4,
+            "DateCreated": "2022-06-05T22:27:51.247Z",
+            "User": {
+                "ID": 38499,
+                "Username": "Waag101"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T06:22:00Z",
     "ID": 149222,
     "UUID": "6AE39577-7550-497A-A9B8-FBF2EB7C09C4",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70109,PG-83951",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 149575,
         "Title": "Tesco Superstore-Forfar Castle Street",
@@ -23,19 +40,34 @@
         {
             "ID": 207208,
             "ConnectionTypeID": 25,
+            "Reference": "PG-83951",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Myla-Orla"
+        },
+        {
+            "ID": 320301,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70109",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Dell-Emil"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Castle Street, Forfar",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-02-21T12:30:00Z",
+    "DateLastStatusUpdate": "2022-11-02T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-02-21T06:27:00Z",
     "SubmissionStatusTypeID": 200

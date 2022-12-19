@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2014-08-10T14:48:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-17T18:29:00Z",
     "ID": 24292,
     "UUID": "69082E9D-5F89-45ED-B6AE-BC6F4E7E7347",
     "DataProviderID": 1,
@@ -8,12 +8,14 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 24637,
-        "Title": "EstaciÃ³n Servicio Moncalian",
-        "AddressLine1": "AUTOVIA A-8, KM. 182 (BÂª. AMBROSERO)",
-        "Town": "BÃ¡rcena de Cicero",
+        "Title": "Repsol La Pausa",
+        "AddressLine1": "La Parada",
+        "Town": "Bárcena de Cicero",
+        "StateOrProvince": "Cantabria",
+        "Postcode": "39791",
         "CountryID": 210,
-        "Latitude": 43.411743,
-        "Longitude": -3.542807,
+        "Latitude": 43.41152611332973,
+        "Longitude": -3.542357725447232,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,11 +24,27 @@
             "ConnectionTypeID": 2,
             "LevelID": 3,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 318449,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 339935,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2014-08-10T14:48:00Z",
+    "DateLastStatusUpdate": "2022-09-17T18:29:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-08-10T14:48:00Z",
     "SubmissionStatusTypeID": 200

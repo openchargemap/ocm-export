@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-05-13T13:17:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:44:00Z",
     "ID": 126165,
     "UUID": "28A717F5-95B9-44D1-8568-3791AFC9F2C8",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-82565",
+    "OperatorsReference": "PG-82565,PG-88356",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.50/kWh",
     "AddressInfo": {
         "ID": 126511,
         "Title": "Waterside Holiday Park & Spa",
@@ -24,19 +24,34 @@
         {
             "ID": 176818,
             "ConnectionTypeID": 25,
+            "Reference": "PG-82565",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Ford-Hope"
+        },
+        {
+            "ID": 321154,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-88356",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Bing-Mack"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at Waterside Holiday Park & Spa site at Bowleaze Coveway, Weymouth, Dorset",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T13:17:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-05-13T13:17:00Z",
     "SubmissionStatusTypeID": 200

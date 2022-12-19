@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-16T05:21:00Z",
     "ID": 188043,
     "UUID": "FFB9343A-6B3A-4418-872D-7F832E5B0A3D",
-    "DataProviderID": 18,
-    "DataProvidersReference": "8d4be727d9bd5102d0956522241e469c",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-85633,PG-85637,PG-85639",
+    "UsageTypeID": 4,
+    "UsageCost": "then £2.94/hour,£1.47/hour for 5 hours",
     "AddressInfo": {
         "ID": 188402,
         "Title": "Marshalls Cross Road",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 53.44112,
         "Longitude": -2.718961,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,46 @@
         {
             "ID": 303438,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-85633",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Kent-Lois"
         },
         {
-            "ID": 303439,
+            "ID": 324352,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "PG-85637",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Ewan-Emry"
+        },
+        {
+            "ID": 324955,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-85639",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Ewan-Cory"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:39:00Z",
+    "NumberOfPoints": 6,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-09-16T05:21:00Z",
     "MetadataValues": [
         {
             "ID": 20283,
@@ -53,7 +71,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

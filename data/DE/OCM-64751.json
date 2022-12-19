@@ -1,25 +1,26 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-03-17T07:51:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-06-06T08:57:00Z",
     "ID": 64751,
     "UUID": "64442AC0-CA84-4A91-B4C3-6A22C32C83A4",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 65097,
-        "Title": "Stadtverwaltung",
+        "Title": "Stromtankstelle",
         "AddressLine1": "Marktplatz 1",
-        "AddressLine2": "Nieder-Neundorf",
+        "AddressLine2": "",
         "Town": "Rothenburg/Oberlausitz",
-        "StateOrProvince": "Rothenburg/Oberlausitz",
+        "StateOrProvince": "Sachsen",
         "Postcode": "02929",
         "CountryID": 87,
-        "Latitude": 51.33491,
-        "Longitude": 14.96977,
+        "Latitude": 51.33485685880288,
+        "Longitude": 14.970025797973108,
         "ContactTelephone1": "+49 35891 77803",
-        "AccessComments": "Inbetriebnahme 04/2016, weitere Details unbekannt",
-        "RelatedURL": "http://www.stadtwerke-goerlitz.de/",
+        "AccessComments": "50 ct or 1 € coin needed as deposit to turn on power.",
+        "RelatedURL": "https://www.stadtwerke-goerlitz.de",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,9 +30,9 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
-            "Voltage": 400,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
             "Quantity": 1
         },
         {
@@ -46,9 +47,9 @@
             "Quantity": 3
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-03-17T07:51:00Z",
+    "DateLastStatusUpdate": "2022-06-06T08:57:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-03-17T06:35:00Z",
     "SubmissionStatusTypeID": 200

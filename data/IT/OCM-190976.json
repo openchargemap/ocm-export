@@ -1,6 +1,73 @@
 {
+    "UserComments": [
+        {
+            "ID": 26070,
+            "ChargePointID": 190976,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "E' presente un bar aperto tutti i giorni tranne la domenica pomeriggio. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnine-high-power-enel-x-area-di-servizio-lng-papa-san-vitaliano-na-t22803.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-high-power-enel-x-area-di-servizio-lng-papa-san-vitaliano-na-t22803.html",
+            "DateCreated": "2022-07-27T06:09:28.863Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 32683,
+            "ChargePointID": 190976,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190976/OCM-190976.orig.2022072706094213.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190976/OCM-190976.thmb.2022072706094213.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-07-27T06:10:00Z"
+        },
+        {
+            "ID": 32684,
+            "ChargePointID": 190976,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190976/OCM-190976.orig.2022072706094779.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190976/OCM-190976.thmb.2022072706094779.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-07-27T06:10:00Z"
+        },
+        {
+            "ID": 32685,
+            "ChargePointID": 190976,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190976/OCM-190976.orig.2022072706095509.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190976/OCM-190976.thmb.2022072706095509.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-07-27T06:10:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-11T18:58:00Z",
+    "DateLastVerified": "2022-07-27T06:10:00Z",
     "ID": 190976,
     "UUID": "616E3369-61C2-4161-99BE-9B51AE5CEBD3",
     "DataProviderID": 1,
@@ -8,14 +75,15 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 191335,
-        "Title": "VulcanCard distributore",
-        "AddressLine1": "Strada Vicinale Pagliarella",
+        "Title": "Enel X Q8",
+        "AddressLine1": "Via Quaranta Moggia",
         "Town": "San Vitaliano",
         "StateOrProvince": "Campania",
         "Postcode": "80034",
         "CountryID": 112,
-        "Latitude": 40.93469352032699,
-        "Longitude": 14.491985744070348,
+        "Latitude": 40.934704,
+        "Longitude": 14.492049,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-high-power-enel-x-area-di-servizio-lng-papa-san-vitaliano-na-t22803.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,12 +94,26 @@
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 316595,
+            "ConnectionTypeID": 33,
+            "LevelID": 2,
+            "PowerKW": 300,
+            "Quantity": 1
+        },
+        {
+            "ID": 316596,
+            "ConnectionTypeID": 2,
+            "LevelID": 2,
+            "PowerKW": 63,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-11T18:58:00Z",
+    "DateLastStatusUpdate": "2022-07-27T06:10:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-01-08T13:05:00Z",
     "SubmissionStatusTypeID": 200

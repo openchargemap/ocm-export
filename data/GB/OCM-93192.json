@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-12-05T06:15:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-20T22:27:00Z",
     "ID": 93192,
     "UUID": "50CA96F5-70EA-4C44-9715-113D747B3E7B",
     "DataProviderID": 1,
@@ -19,36 +19,52 @@
         "CountryID": 1,
         "Latitude": 51.507212,
         "Longitude": -0.113625,
-        "AccessComments": "In private car park",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 132009,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 132010,
-            "ConnectionTypeID": 25,
+            "Reference": "PG-91683",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Thor-Pete"
+        },
+        {
+            "ID": 324505,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-91553",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Doug-Jeff"
+        },
+        {
+            "ID": 325011,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-91623",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Nick-Jeff"
         }
     ],
     "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-05T06:15:00Z",
+    "DateLastStatusUpdate": "2022-09-20T22:27:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-09-21T16:29:00Z",
     "SubmissionStatusTypeID": 200

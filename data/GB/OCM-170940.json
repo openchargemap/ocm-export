@@ -1,20 +1,20 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-19T06:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-26T05:22:00Z",
     "ID": 170940,
     "UUID": "9DE236FD-DA7E-4101-B185-14F91AAF3B85",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t54_it1_3820_070",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 171299,
         "Title": "Lidl - Tyldesley",
         "AddressLine1": "Mosley Common Rd",
         "Town": "Tyldesley",
         "StateOrProvince": "England",
-        "Postcode": "M29 8QR",
+        "Postcode": "M29 8RZ",
         "CountryID": 1,
         "Latitude": 53.5120303142031,
         "Longitude": -2.43353580284213,
@@ -25,37 +25,43 @@
         {
             "ID": 261156,
             "ConnectionTypeID": 25,
+            "Reference": "t54_it1_3820_070",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Dina-Shay"
         },
         {
-            "ID": 261157,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 261158,
+            "ID": 322194,
             "ConnectionTypeID": 2,
+            "Reference": "t54_it1_3820_070",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Dina-Shay"
+        },
+        {
+            "ID": 323733,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_it1_3820_070",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Dina-Shay"
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "22kW Type 2, 50kW CCS & CHAdeMO. Pod Point Rapid, Dina-Shay. AC + 1 DC connector can charge simultaneously",
+    "GeneralComments": "AC + 1 DC connector can charge simultaneously",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-19T06:19:00Z",
+    "DateLastStatusUpdate": "2022-09-26T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-12-12T12:17:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-25T05:22:00Z",
     "ID": 187579,
     "UUID": "E610A734-A3BC-4654-8A7D-A81D3E12BAD2",
-    "DataProviderID": 18,
-    "DataProvidersReference": "24d23110ec84821d9d9a89f35c18b6ce",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-102253,PG-99906",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.22/kWh",
     "AddressInfo": {
         "ID": 187938,
         "Title": "Dark Lane",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 51.041721,
         "Longitude": -2.930608,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,17 +24,33 @@
         {
             "ID": 302753,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-99906",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Zena-Ralf"
+        },
+        {
+            "ID": 319986,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-102253",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Dean-Rory"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-25T05:22:00Z",
     "MetadataValues": [
         {
             "ID": 19819,
@@ -42,7 +58,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:38:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

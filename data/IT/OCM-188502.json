@@ -66,13 +66,13 @@
             "DateCreated": "2021-07-30T05:48:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-08-02T12:53:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-24T07:58:00Z",
     "ID": 188502,
     "UUID": "D5484827-9AAC-4483-8BBB-08FF3A00EE38",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 188861,
         "Title": "A2A ",
@@ -89,25 +89,34 @@
         {
             "ID": 304429,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 304430,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 304431,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-08-02T12:53:00Z",
+    "DateLastStatusUpdate": "2022-05-24T07:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-07-30T05:47:00Z",
     "SubmissionStatusTypeID": 200

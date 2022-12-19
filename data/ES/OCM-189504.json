@@ -1,6 +1,24 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-10-08T15:53:00Z",
+    "MediaItems": [
+        {
+            "ID": 33351,
+            "ChargePointID": 189504,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM189504/OCM-189504.orig.2022082811490368.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM189504/OCM-189504.thmb.2022082811490368.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-28T11:49:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-14T17:36:00Z",
     "ID": 189504,
     "UUID": "355A22F1-877A-4464-807F-42B5E951E50A",
     "DataProviderID": 1,
@@ -10,7 +28,7 @@
     "AddressInfo": {
         "ID": 189863,
         "Title": "Grijota Golf",
-        "AddressLine1": "",
+        "AddressLine1": "Grijota Golf",
         "Town": "Grijota",
         "StateOrProvince": "Castile and León",
         "Postcode": "34192",
@@ -28,7 +46,7 @@
             "LevelID": 3,
             "Amps": 400,
             "Voltage": 920,
-            "PowerKW": 100,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
@@ -56,8 +74,9 @@
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "El Cargador CCS es de 100 kW pero está limitado limitado a 50kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-08T15:53:00Z",
+    "DateLastStatusUpdate": "2022-09-14T17:36:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-10-05T15:49:00Z",
     "SubmissionStatusTypeID": 200

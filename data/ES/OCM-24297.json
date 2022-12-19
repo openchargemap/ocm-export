@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2014-08-10T15:10:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-04T10:24:00Z",
     "ID": 24297,
     "UUID": "5278ABBE-315C-44E2-87B3-05EB2FAA12BF",
     "DataProviderID": 1,
@@ -8,7 +8,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 24642,
-        "Title": "EstaciÃ³n Servicio Barakaldo",
+        "Title": "Repsol Ibarreta",
         "AddressLine1": "Avda de la ribera S/N",
         "Town": "Barakaldo",
         "CountryID": 210,
@@ -21,16 +21,29 @@
             "ID": 26435,
             "ConnectionTypeID": 2,
             "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30
         },
         {
             "ID": 26436,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20
+        },
+        {
+            "ID": 336747,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2014-08-10T15:10:00Z",
+    "DateLastStatusUpdate": "2022-09-04T10:24:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-08-10T15:10:00Z",
     "SubmissionStatusTypeID": 200

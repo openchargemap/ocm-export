@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-02T21:22:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-03T06:22:00Z",
     "ID": 173066,
     "UUID": "3DCD146E-7B44-48DB-A15A-F51EFF690D92",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70241,PG-84502",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 173425,
         "Title": "Tesco Extra-Martlesham",
@@ -24,19 +24,34 @@
         {
             "ID": 264801,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84502",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Sven-Alma"
+        },
+        {
+            "ID": 320430,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70241",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Myla-Khan"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Anson Road, Martlesham Heath, Ipswich",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-02T21:22:00Z",
+    "DateLastStatusUpdate": "2022-11-03T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-03-02T21:12:00Z",
     "SubmissionStatusTypeID": 200

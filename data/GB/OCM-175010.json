@@ -1,10 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-23T16:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T13:46:00Z",
     "ID": 175010,
     "UUID": "3F89449C-BC06-4037-84BA-768689A24795",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-84547,PG-70249",
     "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -22,18 +23,6 @@
         {
             "ID": 271226,
             "ConnectionTypeID": 25,
-            "Reference": "PG-70249",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 271227,
-            "ConnectionTypeID": 25,
             "Reference": "PG-84547",
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -41,12 +30,26 @@
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Cato-Skye"
+        },
+        {
+            "ID": 321315,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70249",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Fawn-Jane"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-23T16:11:00Z",
+    "DateLastStatusUpdate": "2022-08-16T13:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-23T16:11:00Z",
     "SubmissionStatusTypeID": 200

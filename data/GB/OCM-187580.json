@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-14T14:39:00Z",
     "ID": 187580,
     "UUID": "F6689D9E-AFAB-4280-9D3D-F74C94ED005C",
-    "DataProviderID": 18,
-    "DataProvidersReference": "50ab42017e70b8a0846086dd9f90c747",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-86544",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 187939,
         "Title": "Croft Way car park (top level)",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 51.042274,
         "Longitude": -3.312698,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,19 @@
         {
             "ID": 302754,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-86544",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 302755,
-            "ConnectionTypeID": 25,
-            "Reference": "1",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-08-14T14:39:00Z",
     "MetadataValues": [
         {
             "ID": 19820,
@@ -53,7 +44,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:38:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

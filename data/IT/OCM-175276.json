@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 26103,
+            "ChargePointID": 175276,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Tutto ok con card Be Charge su CHAdeMO con C-Zero. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/post321915.html#p321915",
+            "RelatedURL": "https://www.forumelettrico.it/forum/post321915.html#p321915",
+            "DateCreated": "2022-08-03T09:00:39.133Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 24286,
             "ChargePointID": 175276,
             "CommentTypeID": 10,
@@ -17,6 +32,38 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 32752,
+            "ChargePointID": 175276,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM175276/OCM-175276.orig.2022080309004888.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM175276/OCM-175276.thmb.2022080309004888.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-08-03T09:01:00Z"
+        },
+        {
+            "ID": 32753,
+            "ChargePointID": 175276,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM175276/OCM-175276.orig.2022080309005464.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM175276/OCM-175276.thmb.2022080309005464.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-08-03T09:01:00Z"
+        },
         {
             "ID": 27525,
             "ChargePointID": 175276,
@@ -98,13 +145,13 @@
             "DateCreated": "2021-05-04T16:22:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-04T16:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-03T09:01:00Z",
     "ID": 175276,
     "UUID": "E52DDF14-4284-41C3-8AB7-7C776AFF713D",
     "DataProviderID": 1,
     "OperatorID": 3327,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 175635,
         "Title": "Be Charge Ristorante Turismo",
@@ -121,28 +168,34 @@
         {
             "ID": 271812,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 75,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 271813,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 62,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 271814,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-04T16:23:00Z",
+    "DateLastStatusUpdate": "2022-08-03T09:01:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-04T16:22:00Z",
     "SubmissionStatusTypeID": 200

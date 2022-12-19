@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-09T14:08:00Z",
     "ID": 61066,
     "UUID": "D5663D2D-7D34-4AE8-91B7-F7C5C4A8C078",
-    "DataProviderID": 27,
-    "DataProvidersReference": "16",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61412,
@@ -24,11 +24,18 @@
     "Connections": [
         {
             "ID": 77612,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 77613,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10
         },
         {
             "ID": 77614,
@@ -39,9 +46,10 @@
             "ConnectionTypeID": 28
         }
     ],
+    "NumberOfPoints": 3,
     "GeneralComments": "Pedir tarjeta al conserje",
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-09T14:08:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

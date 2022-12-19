@@ -1,13 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-12-25T06:35:00Z",
+    "UserComments": [
+        {
+            "ID": 26317,
+            "ChargePointID": 169830,
+            "CommentTypeID": 10,
+            "UserName": "Volker Holthaus",
+            "Comment": "In dem Rasthof ist eine sehr gute Pizzeria.",
+            "Rating": 5,
+            "DateCreated": "2022-09-16T21:14:00.813Z",
+            "User": {
+                "ID": 39425,
+                "Username": "Volker Holthaus"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-16T21:14:00Z",
     "ID": 169830,
     "UUID": "9B869419-040D-4F46-91B7-8DA20D20A42D",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "54946",
     "UsageTypeID": 4,
-    "UsageCost": "€0.33/kWh; Andere Tarife für ältere Autos",
+    "UsageCost": "€0.69 / kWh Tarif für Fahrzeuge von anderen Marken",
     "AddressInfo": {
         "ID": 170189,
         "Title": "Wörth Supercharger",
@@ -17,23 +34,24 @@
         "CountryID": 87,
         "Latitude": 48.625604,
         "Longitude": 12.320251,
+        "AccessComments": "Mit der Tesla App lassen sich die Supercharger freischalten",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 258778,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12
         }
     ],
     "NumberOfPoints": 12,
-    "GeneralComments": "Charging8 superchargers, available 24/7, up to 250kW",
+    "GeneralComments": "Charging 12 superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-25T06:35:00Z",
+    "DateLastStatusUpdate": "2022-09-16T21:14:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-11-11T06:41:00Z",
     "SubmissionStatusTypeID": 200

@@ -188,8 +188,8 @@
             "DateCreated": "2016-05-21T17:45:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-01-13T21:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-17T15:12:00Z",
     "ID": 13225,
     "UUID": "EFE375CC-3CA3-414F-8067-B86ECDBD140E",
     "DataProviderID": 1,
@@ -207,27 +207,28 @@
         "CountryID": 1,
         "Latitude": 51.590627,
         "Longitude": -0.147201,
-        "AccessComments": "two on-street charging bays. Max stay 4 hours",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 10644,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80312",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Ruth-Mary"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "There is a Pod-Point Pay-as-you-go T7-S unit here, side B seems to be limited to 16A, and doesn't seem to time out after 15 minutes, no web login required.",
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2020-01-13T21:12:00Z",
-    "DataQualityLevel": 3,
+    "DateLastStatusUpdate": "2022-08-17T15:12:00Z",
+    "DataQualityLevel": 1,
     "DateCreated": "2012-09-08T22:19:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

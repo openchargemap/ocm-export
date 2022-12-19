@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-04T19:54:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:03:00Z",
     "ID": 175031,
     "UUID": "8BA4BEFF-675D-4F9D-B70C-E16801918AC1",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-83297,PG-83560,PG-83570,PG-96000",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "â¬0.40/kWh",
     "AddressInfo": {
         "ID": 175390,
         "Title": "Dundrum Town Centre",
@@ -24,29 +24,18 @@
         {
             "ID": 271271,
             "ConnectionTypeID": 25,
-            "Reference": "PG-83297",
+            "Reference": "PG-96000",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Joey-Liam"
         },
         {
-            "ID": 271272,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-83560",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 271273,
+            "ID": 324293,
             "ConnectionTypeID": 25,
             "Reference": "PG-83570",
             "StatusTypeID": 50,
@@ -55,24 +44,37 @@
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Ralf-Levi"
         },
         {
-            "ID": 271274,
+            "ID": 324294,
             "ConnectionTypeID": 25,
-            "Reference": "PG-96000",
+            "Reference": "PG-83297",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Jake-Jean"
+        },
+        {
+            "ID": 324912,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-83560",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Skye-Hugh"
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-04T19:54:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-25T08:23:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,13 +1,95 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-09-19T09:27:00Z",
+    "MediaItems": [
+        {
+            "ID": 33856,
+            "ChargePointID": 42673,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM42673/OCM-42673.orig.2022093007274077.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM42673/OCM-42673.thmb.2022093007274077.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 6216,
+                "Username": "Sordone"
+            },
+            "DateCreated": "2022-09-30T07:28:00Z"
+        },
+        {
+            "ID": 33857,
+            "ChargePointID": 42673,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM42673/OCM-42673.orig.2022093007280110.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM42673/OCM-42673.thmb.2022093007280110.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 6216,
+                "Username": "Sordone"
+            },
+            "DateCreated": "2022-09-30T07:28:00Z"
+        },
+        {
+            "ID": 33853,
+            "ChargePointID": 42673,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM42673/OCM-42673.orig.2022093007263920.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM42673/OCM-42673.thmb.2022093007263920.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 6216,
+                "Username": "Sordone"
+            },
+            "DateCreated": "2022-09-30T07:27:00Z"
+        },
+        {
+            "ID": 33854,
+            "ChargePointID": 42673,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM42673/OCM-42673.orig.2022093007270410.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM42673/OCM-42673.thmb.2022093007270410.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 6216,
+                "Username": "Sordone"
+            },
+            "DateCreated": "2022-09-30T07:27:00Z"
+        },
+        {
+            "ID": 33855,
+            "ChargePointID": 42673,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM42673/OCM-42673.orig.2022093007272065.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM42673/OCM-42673.thmb.2022093007272065.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 6216,
+                "Username": "Sordone"
+            },
+            "DateCreated": "2022-09-30T07:27:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-30T07:28:00Z",
     "ID": 42673,
     "UUID": "B9B4F1B7-0E06-4993-818C-CD2890909B42",
     "DataProviderID": 1,
     "OperatorID": 103,
     "OperatorsReference": "NLALLEGO0009063,NLALLEGO0009063,NLALLEGO0009062,NLALLEGO0009061",
-    "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageTypeID": 1,
+    "UsageCost": "paid",
     "AddressInfo": {
         "ID": 43019,
         "Title": "Van der Valk - Arnhem",
@@ -15,8 +97,8 @@
         "Town": "Arnhem",
         "Postcode": "6816 VK ",
         "CountryID": 159,
-        "Latitude": 52.014184,
-        "Longitude": 5.81908939999994,
+        "Latitude": 52.01418208512479,
+        "Longitude": 5.819065904632112,
         "RelatedURL": "http://www.allego.eu",
         "DistanceUnit": 0
     },
@@ -44,18 +126,41 @@
             "Quantity": 1
         },
         {
-            "ID": 51466,
-            "ConnectionTypeID": 25,
+            "ID": 340895,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 43,
+            "Voltage": 400,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 340896,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 340897,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-09-19T09:27:00Z",
+    "DateLastStatusUpdate": "2022-09-30T07:28:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-03-19T17:16:00Z",
     "SubmissionStatusTypeID": 200

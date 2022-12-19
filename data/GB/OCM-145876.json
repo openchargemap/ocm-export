@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-12-24T19:15:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-06T16:37:00Z",
     "ID": 145876,
     "UUID": "7C08941A-7D04-4AB6-AA8E-F23CF4233EB0",
     "DataProviderID": 1,
     "OperatorID": 150,
     "OperatorsReference": "GP10893",
     "UsageTypeID": 4,
-    "UsageCost": "£1.00+£0.30/kWh; £10.00 overstay fee after 95 mins, then £10.00 every subsequent 95 mins",
+    "UsageCost": "£0.57/kWh; £10.00 overstay fee after 95 mins, then £10.00 every subsequent 95 mins",
     "AddressInfo": {
         "ID": 146228,
         "Title": "Morrisons Caernarfon",
@@ -18,14 +18,14 @@
         "Latitude": 53.144686,
         "Longitude": -4.271662,
         "AccessComments": "Pre-payment account needed",
-        "RelatedURL": "http://www.chargepointservices.com/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 202686,
             "ConnectionTypeID": 1036,
-            "Reference": "1",
+            "Reference": "GP10893",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
@@ -37,8 +37,8 @@
         {
             "ID": 202687,
             "ConnectionTypeID": 2,
-            "Reference": "2",
-            "StatusTypeID": 50,
+            "Reference": "GP10893",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
@@ -49,8 +49,8 @@
         {
             "ID": 202688,
             "ConnectionTypeID": 33,
-            "Reference": "3",
-            "StatusTypeID": 50,
+            "Reference": "GP10893",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
@@ -60,8 +60,8 @@
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-12-24T19:15:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2022-09-06T16:37:00Z",
     "MetadataValues": [
         {
             "ID": 6953,

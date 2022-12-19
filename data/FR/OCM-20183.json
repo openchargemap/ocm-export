@@ -1,19 +1,19 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2013-11-06T14:27:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-02T19:22:00Z",
     "ID": 20183,
     "UUID": "0111D1FE-BAC3-4904-9512-E20F0D627EA6",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 0,
+    "OperatorID": 103,
+    "UsageTypeID": 1,
     "UsageCost": "",
     "AddressInfo": {
         "ID": 20528,
-        "Title": "Nissan - Bordeaux",
+        "Title": "Allego - Nissan - Bordeaux",
         "AddressLine1": "469 Route du Médoc",
         "AddressLine2": "",
-        "Town": "",
-        "StateOrProvince": "Bruges",
+        "Town": "Bruges",
+        "StateOrProvince": "",
         "Postcode": "33520",
         "CountryID": 80,
         "Latitude": 44.87888,
@@ -25,10 +25,30 @@
         "RelatedURL": "",
         "DistanceUnit": 0
     },
-    "Connections": [],
+    "Connections": [
+        {
+            "ID": 316945,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 316946,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2013-11-06T14:27:00Z",
+    "DateLastStatusUpdate": "2022-08-02T19:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2013-11-06T11:50:00Z",
     "SubmissionStatusTypeID": 200

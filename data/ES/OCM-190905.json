@@ -1,23 +1,56 @@
 {
+    "MediaItems": [
+        {
+            "ID": 33459,
+            "ChargePointID": 190905,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190905/OCM-190905.orig.2022083110580796.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190905/OCM-190905.thmb.2022083110580796.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-31T10:58:00Z"
+        },
+        {
+            "ID": 33006,
+            "ChargePointID": 190905,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190905/OCM-190905.orig.2022082215115997.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190905/OCM-190905.thmb.2022082215115997.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-08-22T15:12:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-01-03T15:37:00Z",
+    "DateLastVerified": "2022-10-27T13:57:00Z",
     "ID": 190905,
     "UUID": "81D0375B-BC9B-4D80-AE13-06016501F6DB",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0.50€/kWh (400kW) / 0.40 (200kW)",
+    "UsageCost": "0,69€/kWh >200kW - 0,54€/kWh 80-200kW - 0,39€/kWh 22kW AC",
     "AddressInfo": {
         "ID": 191264,
-        "Title": "Área de servicio Elche",
-        "AddressLine1": "",
+        "Title": "Estacion Servcio GALP Elche",
+        "AddressLine1": "GALP",
         "Town": "Elche/Elx",
         "StateOrProvince": "Valencian Community",
         "Postcode": "03320",
         "CountryID": 210,
-        "Latitude": 38.30981146420535,
-        "Longitude": -0.6056028249167866,
-        "RelatedURL": "https://www.iberdrola.es/smart-mobility/puntos-de-recarga",
+        "Latitude": 38.30984439694629,
+        "Longitude": -0.6056182708578035,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,23 +59,46 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
             "PowerKW": 400,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 309655,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
             "PowerKW": 200,
             "CurrentTypeID": 30,
+            "Quantity": 6
+        },
+        {
+            "ID": 326512,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 336115,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-03T15:37:00Z",
+    "DateLastStatusUpdate": "2022-10-27T13:57:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-01-03T15:13:00Z",
     "SubmissionStatusTypeID": 200

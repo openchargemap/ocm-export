@@ -114,13 +114,13 @@
             "DateCreated": "2021-10-03T15:52:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-10-03T15:53:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-14T12:58:00Z",
     "ID": 189489,
     "UUID": "B85D8805-2B9F-4D55-8E58-CB9DF69C882F",
     "DataProviderID": 1,
     "OperatorID": 80,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 189848,
         "Title": "Enel X Conad Riccò",
@@ -137,25 +137,34 @@
         {
             "ID": 306491,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 306492,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 306493,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-03T15:53:00Z",
+    "DateLastStatusUpdate": "2022-08-14T12:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-10-03T15:52:00Z",
     "SubmissionStatusTypeID": 200

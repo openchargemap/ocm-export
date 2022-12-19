@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 25812,
+            "ChargePointID": 190134,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Nessun problema infilando prima il cavo CCS Combo 2 e poi passando NFC Enel X. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/post306489.html#p306489",
+            "RelatedURL": "https://www.forumelettrico.it/forum/post306489.html#p306489",
+            "DateCreated": "2022-05-29T16:13:17.017Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 25494,
             "ChargePointID": 190134,
             "CommentTypeID": 10,
@@ -17,6 +32,70 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 31843,
+            "ChargePointID": 190134,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190134/OCM-190134.orig.2022052916132773.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190134/OCM-190134.thmb.2022052916132773.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-05-29T16:14:00Z"
+        },
+        {
+            "ID": 31844,
+            "ChargePointID": 190134,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190134/OCM-190134.orig.2022052916133368.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190134/OCM-190134.thmb.2022052916133368.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-05-29T16:14:00Z"
+        },
+        {
+            "ID": 31845,
+            "ChargePointID": 190134,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190134/OCM-190134.orig.2022052916134040.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190134/OCM-190134.thmb.2022052916134040.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-05-29T16:14:00Z"
+        },
+        {
+            "ID": 31846,
+            "ChargePointID": 190134,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190134/OCM-190134.orig.2022052916134650.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM190134/OCM-190134.thmb.2022052916134650.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-05-29T16:14:00Z"
+        },
         {
             "ID": 31005,
             "ChargePointID": 190134,
@@ -67,7 +146,7 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-03-09T10:33:00Z",
+    "DateLastVerified": "2022-06-08T08:54:00Z",
     "ID": 190134,
     "UUID": "63529DAF-3693-4459-BC30-735D396EE14B",
     "DataProviderID": 1,
@@ -75,15 +154,16 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 190493,
-        "Title": "Via Vicinale di San Biagio",
+        "Title": "Enel X Conad",
         "AddressLine1": "Via Vicinale di San Biagio",
         "Town": "Pistoia",
         "StateOrProvince": "Tuscany",
         "Postcode": "51100",
         "CountryID": 112,
-        "Latitude": 43.94175298460735,
-        "Longitude": 10.89902541427773,
+        "Latitude": 43.941751,
+        "Longitude": 10.898911,
         "AccessComments": "in the rear parking of Conad, hidden by shopping carts",
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-evad-fast-conad-pistoia-pt-via-vicinale-di-s-biagio-t21866.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -91,28 +171,33 @@
             "ID": 308098,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 308099,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 50
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 308100,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-09T10:33:00Z",
+    "DateLastStatusUpdate": "2022-06-08T08:54:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-11-22T14:39:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 25907,
+            "ChargePointID": 188248,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Tutto ok con card Be Charge sulla CCS Combo 2. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/post312704.html#p312704",
+            "RelatedURL": "https://www.forumelettrico.it/forum/post312704.html#p312704",
+            "DateCreated": "2022-06-25T16:25:06.183Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 25725,
             "ChargePointID": 188248,
             "CommentTypeID": 10,
@@ -32,6 +47,86 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 32135,
+            "ChargePointID": 188248,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM188248/OCM-188248.orig.2022062516252869.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM188248/OCM-188248.thmb.2022062516252869.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-06-25T16:26:00Z"
+        },
+        {
+            "ID": 32136,
+            "ChargePointID": 188248,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM188248/OCM-188248.orig.2022062516253405.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM188248/OCM-188248.thmb.2022062516253405.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-06-25T16:26:00Z"
+        },
+        {
+            "ID": 32137,
+            "ChargePointID": 188248,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM188248/OCM-188248.orig.2022062516253936.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM188248/OCM-188248.thmb.2022062516253936.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-06-25T16:26:00Z"
+        },
+        {
+            "ID": 32133,
+            "ChargePointID": 188248,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM188248/OCM-188248.orig.2022062516251520.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM188248/OCM-188248.thmb.2022062516251520.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-06-25T16:25:00Z"
+        },
+        {
+            "ID": 32134,
+            "ChargePointID": 188248,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM188248/OCM-188248.orig.2022062516252101.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM188248/OCM-188248.thmb.2022062516252101.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2022-06-25T16:25:00Z"
+        },
         {
             "ID": 28636,
             "ChargePointID": 188248,
@@ -98,12 +193,12 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-05-02T17:22:00Z",
+    "DateLastVerified": "2022-07-02T10:46:00Z",
     "ID": 188248,
     "UUID": "4D6AC2DD-B5A3-492F-982C-411A67A0DEE3",
     "DataProviderID": 1,
     "OperatorID": 80,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 188607,
         "Title": "Enel X AdS Conad Stella",
@@ -120,25 +215,34 @@
         {
             "ID": 303872,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 303873,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 303874,
             "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-05-02T17:22:00Z",
+    "DateLastStatusUpdate": "2022-07-02T10:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-07-16T09:30:00Z",
     "SubmissionStatusTypeID": 200

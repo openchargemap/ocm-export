@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-28T18:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-09-14T05:21:00Z",
     "ID": 175155,
     "UUID": "23E50178-9F48-4F58-A5F6-1E1CEE941824",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-86491",
     "UsageTypeID": 4,
-    "UsageCost": "£0.29 per kWh ",
+    "UsageCost": "£0.29/kWh",
     "AddressInfo": {
         "ID": 175514,
         "Title": "Priory Lane Car Par",
@@ -16,8 +17,8 @@
         "StateOrProvince": "England",
         "Postcode": "PE19 2BH",
         "CountryID": 1,
-        "Latitude": 52.22850597640209,
-        "Longitude": -0.2717730508520617,
+        "Latitude": 52.2285059764021,
+        "Longitude": -0.271773050852062,
         "RelatedURL": "https://charge.pod-point.com/",
         "DistanceUnit": 0
     },
@@ -25,18 +26,20 @@
         {
             "ID": 271517,
             "ConnectionTypeID": 25,
+            "Reference": "PG-86491",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 7,
+            "PowerKW": 3,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Robb-Hiro"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-28T18:12:00Z",
+    "DateLastStatusUpdate": "2022-09-14T05:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-28T18:12:00Z",
     "SubmissionStatusTypeID": 200

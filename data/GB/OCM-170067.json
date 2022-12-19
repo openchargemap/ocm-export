@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-11-17T14:27:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-28T05:22:00Z",
     "ID": 170067,
     "UUID": "89EE471F-43F8-42AE-BFAE-10E6260A17EF",
     "DataProviderID": 1,
     "OperatorID": 3,
+    "OperatorsReference": "PG-85244",
     "UsageTypeID": 4,
-    "UsageCost": "Free to charge",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 170426,
         "Title": "Buckden Car Park",
@@ -16,8 +17,8 @@
         "StateOrProvince": "England",
         "Postcode": "BD23 5JL",
         "CountryID": 1,
-        "Latitude": 54.19191217531693,
-        "Longitude": -2.090261247004719,
+        "Latitude": 54.1919121753169,
+        "Longitude": -2.09026124700472,
         "RelatedURL": "http://www pod-point.com",
         "DistanceUnit": 0
     },
@@ -25,17 +26,21 @@
         {
             "ID": 259249,
             "ConnectionTypeID": 25,
+            "Reference": "PG-85244",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Nina-Hope"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "Twin 7kW Pod Point, Nina-Hope",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-11-17T14:27:00Z",
+    "DateLastStatusUpdate": "2022-10-28T05:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-11-17T14:27:00Z",
     "SubmissionStatusTypeID": 200

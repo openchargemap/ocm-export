@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-08T11:48:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:00:00Z",
     "ID": 60236,
     "UUID": "72B2C7BD-20CB-4464-809D-22A2ED7F055F",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-80016,PG-80019,PG-80020",
     "UsageTypeID": 4,
-    "UsageCost": "£0.80/hour for 2 hours,then Free",
+    "UsageCost": "£0.24/hour",
     "AddressInfo": {
         "ID": 60582,
         "Title": "JLR Land Rover Experience Solihull",
@@ -23,18 +23,46 @@
         {
             "ID": 76238,
             "ConnectionTypeID": 25,
+            "Reference": "PG-80016",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 6
+            "Quantity": 2,
+            "Comments": "Pete-Mark"
+        },
+        {
+            "ID": 320743,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80020",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Hugo-Dora"
+        },
+        {
+            "ID": 324044,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80019",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Mike-Gary"
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-08T11:48:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:00:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2016-01-17T08:59:00Z",
     "SubmissionStatusTypeID": 200

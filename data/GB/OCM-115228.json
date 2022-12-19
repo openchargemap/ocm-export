@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-22T19:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-08-16T19:12:00Z",
     "ID": 115228,
     "UUID": "7AD33CDA-74D0-4DB5-A70E-0DD4BC85AD1D",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_hu1_4718_008",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 115574,
         "Title": "Lidl White Rock Way",
@@ -23,34 +23,40 @@
         {
             "ID": 162219,
             "ConnectionTypeID": 1036,
+            "Reference": "t53_hu1_4718_008",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Alex-Leon"
         },
         {
-            "ID": 162220,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 162221,
+            "ID": 323511,
             "ConnectionTypeID": 33,
+            "Reference": "t53_hu1_4718_008",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Alex-Leon"
+        },
+        {
+            "ID": 323512,
+            "ConnectionTypeID": 2,
+            "Reference": "t53_hu1_4718_008",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Alex-Leon"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-22T19:39:00Z",
+    "DateLastStatusUpdate": "2022-08-16T19:12:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-02-09T23:25:00Z",
     "SubmissionStatusTypeID": 200

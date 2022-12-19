@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-09T14:46:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-02T06:22:00Z",
     "ID": 175013,
     "UUID": "E8A766E0-3C2D-4380-B2BC-520F2A69E440",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70434,PG-86183",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.28/kWh",
     "AddressInfo": {
         "ID": 175372,
         "Title": "Tesco Superstore-Colinton",
@@ -22,7 +22,7 @@
     },
     "Connections": [
         {
-            "ID": 271232,
+            "ID": 320619,
             "ConnectionTypeID": 25,
             "Reference": "PG-70434",
             "StatusTypeID": 50,
@@ -31,24 +31,24 @@
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Elmo-Sven"
         },
         {
-            "ID": 271233,
+            "ID": 348978,
             "ConnectionTypeID": 25,
             "Reference": "PG-86183",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Alec-Luis"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-09T14:46:00Z",
+    "DateLastStatusUpdate": "2022-11-02T06:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-23T16:29:00Z",
     "SubmissionStatusTypeID": 200

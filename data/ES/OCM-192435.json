@@ -1,11 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-04-06T11:09:00Z",
+    "DateLastVerified": "2022-10-28T08:18:00Z",
     "ID": 192435,
     "UUID": "66104B16-1958-44D7-875F-78AF1AA7051B",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh 50kW - 0,39€/kWh 22kW AC",
     "AddressInfo": {
         "ID": 192794,
         "Title": "Camí de la Corona, 2",
@@ -21,19 +22,21 @@
     "Connections": [
         {
             "ID": 312627,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 22,
+            "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 312628,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
-            "Quantity": 2
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 312629,
@@ -44,9 +47,9 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-06T11:09:00Z",
+    "DateLastStatusUpdate": "2022-10-28T08:18:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-03T11:05:00Z",
     "SubmissionStatusTypeID": 200

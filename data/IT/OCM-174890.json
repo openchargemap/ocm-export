@@ -130,13 +130,13 @@
             "DateCreated": "2021-04-17T04:53:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-17T04:53:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-06-11T15:03:00Z",
     "ID": 174890,
     "UUID": "8FCC3580-69AD-4F31-9147-06DDE60816F0",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 175249,
         "Title": "Enerxenia Agenzia delle entrate-Riscossione",
@@ -153,28 +153,37 @@
         {
             "ID": 271000,
             "ConnectionTypeID": 33,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 3
         },
         {
             "ID": 271001,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 3
         },
         {
             "ID": 271002,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
-            "Quantity": 5
+            "CurrentTypeID": 20,
+            "Quantity": 3
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 6,
+    "GeneralComments": "pay with Nextcharge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-17T04:53:00Z",
+    "DateLastStatusUpdate": "2022-06-11T15:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-17T04:52:00Z",
     "SubmissionStatusTypeID": 200

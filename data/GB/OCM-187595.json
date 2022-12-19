@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-10-09T05:22:00Z",
     "ID": 187595,
     "UUID": "045F392F-F000-4DA0-B359-15572B673D29",
-    "DataProviderID": 18,
-    "DataProvidersReference": "78cfa4d6b4e79bab66f69a63679a1d62",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-85185,PG-85191",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.30/kWh",
     "AddressInfo": {
         "ID": 187954,
         "Title": "Chawton Park Road",
@@ -16,7 +17,6 @@
         "CountryID": 1,
         "Latitude": 51.137611,
         "Longitude": -0.99275,
-        "AccessComments": "",
         "RelatedURL": "http://pod-point.com",
         "DistanceUnit": 0
     },
@@ -24,28 +24,33 @@
         {
             "ID": 302777,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-85191",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Rory-Amir"
         },
         {
-            "ID": 302778,
+            "ID": 321355,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "PG-85185",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Scot-Huey"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-10-09T05:22:00Z",
     "MetadataValues": [
         {
             "ID": 19835,
@@ -53,7 +58,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:38:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

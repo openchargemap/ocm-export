@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-31T07:53:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-11-01T10:46:00Z",
     "ID": 175603,
     "UUID": "F0D9CEF2-4BF8-40C5-A6A6-10A2166E78BB",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "OperatorsReference": "PG-70403,PG-86348",
+    "UsageTypeID": 4,
+    "UsageCost": "Free,£0.28/kWh,£0.28/kWh",
     "AddressInfo": {
         "ID": 175962,
         "Title": "Tesco Superstore-Dalkeith Hardengreen",
@@ -23,18 +24,6 @@
         {
             "ID": 272640,
             "ConnectionTypeID": 25,
-            "Reference": "PG-70403",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 272641,
-            "ConnectionTypeID": 25,
             "Reference": "PG-86348",
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -42,12 +31,26 @@
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Maya-Beck"
+        },
+        {
+            "ID": 320589,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70403",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Ivor-Luca"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-31T07:53:00Z",
+    "DateLastStatusUpdate": "2022-11-01T10:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-05-31T07:53:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 25754,
+            "ChargePointID": 172678,
+            "CommentTypeID": 10,
+            "UserName": "Carlomanda",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2022-05-14T11:14:46.607Z",
+            "User": {
+                "ID": 30566,
+                "Username": "Carlomanda"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 23887,
             "ChargePointID": 172678,
             "CommentTypeID": 10,
@@ -17,6 +32,54 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 31688,
+            "ChargePointID": 172678,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM172678/OCM-172678.orig.2022051411340414.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM172678/OCM-172678.thmb.2022051411340414.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 30566,
+                "Username": "Carlomanda"
+            },
+            "DateCreated": "2022-05-14T11:34:00Z"
+        },
+        {
+            "ID": 31689,
+            "ChargePointID": 172678,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM172678/OCM-172678.orig.2022051411341895.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM172678/OCM-172678.thmb.2022051411341895.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 30566,
+                "Username": "Carlomanda"
+            },
+            "DateCreated": "2022-05-14T11:34:00Z"
+        },
+        {
+            "ID": 31687,
+            "ChargePointID": 172678,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM172678/OCM-172678.orig.2022051411330666.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM172678/OCM-172678.thmb.2022051411330666.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 30566,
+                "Username": "Carlomanda"
+            },
+            "DateCreated": "2022-05-14T11:33:00Z"
+        },
         {
             "ID": 26519,
             "ChargePointID": 172678,
@@ -66,8 +129,8 @@
             "DateCreated": "2021-02-12T17:46:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-05-01T09:26:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-17T07:45:00Z",
     "ID": 172678,
     "UUID": "300CDA94-9C42-41B0-9735-6E4A3C62B1D7",
     "DataProviderID": 1,
@@ -80,8 +143,8 @@
         "Town": "Erbusco",
         "StateOrProvince": "BS",
         "CountryID": 112,
-        "Latitude": 45.580225,
-        "Longitude": 10.003395,
+        "Latitude": 45.58018606825493,
+        "Longitude": 10.003347145007524,
         "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-ads-q8easy-erbusco-bs-via-rovato-43-t14068.html",
         "DistanceUnit": 0
     },
@@ -90,15 +153,17 @@
             "ID": 264066,
             "ConnectionTypeID": 33,
             "LevelID": 3,
-            "PowerKW": 75,
-            "CurrentTypeID": 30
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 264067,
             "ConnectionTypeID": 33,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 264068,
@@ -116,20 +181,11 @@
             "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20
-        },
-        {
-            "ID": 264070,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2021-05-01T09:26:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-05-17T07:45:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-02-12T17:45:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 25797,
+            "ChargePointID": 62925,
+            "CommentTypeID": 10,
+            "UserName": "My_Leaf",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2022-05-26T09:45:15.207Z",
+            "User": {
+                "ID": 4511,
+                "Username": "My_Leaf"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 23486,
             "ChargePointID": 62925,
             "CommentTypeID": 10,
@@ -110,8 +125,8 @@
             "DateCreated": "2017-03-06T14:29:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-11-08T09:58:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-05-26T09:48:00Z",
     "ID": 62925,
     "UUID": "6FDBCBCD-67CF-440A-ACC5-2E26B86587FD",
     "DataProviderID": 1,
@@ -134,16 +149,6 @@
     },
     "Connections": [
         {
-            "ID": 79978,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
             "ID": 79979,
             "ConnectionTypeID": 2,
             "LevelID": 3,
@@ -158,14 +163,14 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Voltage": 400,
-            "PowerKW": 50,
-            "Quantity": 2
+            "PowerKW": 150,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Incl Tesla adapter",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-11-08T09:58:00Z",
+    "DateLastStatusUpdate": "2022-05-26T09:48:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-03-03T12:29:00Z",
     "SubmissionStatusTypeID": 200
