@@ -1,11 +1,29 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-04-06T05:06:00Z",
+    "MediaItems": [
+        {
+            "ID": 36112,
+            "ChargePointID": 62253,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM62253/OCM-62253.orig.2023010201155834.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM62253/OCM-62253.thmb.2023010201155834.jpg",
+            "Comment": "It appears to be working with green light and snow plowed up to the station today.",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 42341,
+                "Username": "Programmin"
+            },
+            "DateCreated": "2023-01-02T01:16:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-02T23:49:00Z",
     "ID": 62253,
     "UUID": "AA32306D-9B9B-4173-807B-FD95F26EC31D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "73748",
+    "DataProviderID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 62599,
         "Title": "Crater Lake National Park",
@@ -14,11 +32,10 @@
         "StateOrProvince": "OR",
         "Postcode": "97604",
         "CountryID": 2,
-        "Latitude": 42.8675074,
-        "Longitude": -122.1686476,
+        "Latitude": 42.867502485328714,
+        "Longitude": -122.16864692944819,
         "ContactTelephone1": "541-594-2255  541-594-3002",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -33,7 +50,10 @@
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:06:00Z",
+    "NumberOfPoints": 1,
+    "GeneralComments": "1 Tesla 1 j1772 connector.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-01-02T23:49:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-03-03T11:38:00Z",
     "SubmissionStatusTypeID": 100

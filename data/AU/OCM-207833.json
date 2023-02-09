@@ -1,21 +1,23 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-13T12:35:00Z",
+    "DateLastVerified": "2022-12-23T23:30:00Z",
     "ID": 207833,
     "UUID": "E9C6C36D-36AE-4EF5-8305-C3C9E21D7FF7",
     "DataProviderID": 1,
     "OperatorID": 3398,
     "UsageTypeID": 4,
+    "UsageCost": "$0.50/kWh Parking is $10.40 per night for Vibe Hotel guests",
     "AddressInfo": {
         "ID": 208213,
         "Title": "Vibe Hotel",
-        "AddressLine1": "1 Terminal Circuit",
+        "AddressLine1": "1 Rogan St",
         "Town": "Canberra",
         "StateOrProvince": "Australian Capital Territory",
         "Postcode": "2609",
         "CountryID": 18,
         "Latitude": -35.309243894976746,
         "Longitude": 149.1877257460651,
+        "ContactTelephone1": "1300 463 843",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,14 +25,33 @@
             "ID": 345941,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 351572,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 351573,
+            "ConnectionTypeID": 29,
+            "StatusTypeID": 50,
+            "Voltage": 240,
+            "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "50kW DC charger AA003 on the Evie network is located in the hotel forecourt, and is available to the public.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-13T12:35:00Z",
+    "DateLastStatusUpdate": "2022-12-23T23:30:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-10-13T02:38:00Z",
     "SubmissionStatusTypeID": 200

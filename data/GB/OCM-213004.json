@@ -1,0 +1,80 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-30T06:23:00Z",
+    "ID": 213004,
+    "UUID": "4636179B-F7E2-40F7-A748-482F8AFE2FFA",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-401683,PG-70627,veefil-12200377",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh,£0.28/kWh,£0.50/kWh",
+    "AddressInfo": {
+        "ID": 213384,
+        "Title": "Tesco Extra-Wembley",
+        "AddressLine1": "Great Central Way",
+        "Town": "Neasden",
+        "StateOrProvince": "London",
+        "Postcode": "NW10 0TL",
+        "CountryID": 1,
+        "Latitude": 51.55387121,
+        "Longitude": -0.25630381,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 354790,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-401683",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Omar-Lucy"
+        },
+        {
+            "ID": 354791,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70627",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Nero-Seth"
+        },
+        {
+            "ID": 354792,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200377",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Nori-Bain"
+        },
+        {
+            "ID": 354858,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200377",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Nori-Bain"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is a Pod Point unit installed at Tesco Extra site at Wembley",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-01-30T06:23:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2023-01-29T06:22:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,13 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-15T15:48:00Z",
+    "DateLastVerified": "2023-01-26T01:41:00Z",
     "ID": 9646,
     "UUID": "50604028-FC69-4BFA-9F32-C37FC5AEB775",
     "DataProviderID": 1,
-    "OperatorID": 26,
+    "OperatorID": 3542,
     "AddressInfo": {
         "ID": 9543,
-        "Title": "227 Garden Valley Blvd",
+        "Title": "ROSEBURG - WAGON WHEEL RESTAURANT",
         "AddressLine1": "227 Garden Valley Blvd",
         "Town": "Roseburg",
         "StateOrProvince": "OR",
@@ -16,7 +16,7 @@
         "Latitude": 43.22624,
         "Longitude": -123.35593,
         "ContactTelephone1": "(541) 672-7555",
-        "RelatedURL": "http://carstations.com/15897",
+        "RelatedURL": "https://www.evcs.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,18 +24,32 @@
             "ID": 7406,
             "ConnectionTypeID": 1,
             "Reference": "J1772",
-            "LevelID": 2
+            "LevelID": 2,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 8431,
             "ConnectionTypeID": 2,
             "Reference": "CHADEMO",
             "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 353448,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-12-15T15:48:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-01-26T01:41:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2012-03-20T12:43:00Z",
     "SubmissionStatusTypeID": 100

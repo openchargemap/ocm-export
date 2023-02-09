@@ -1,11 +1,11 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-18T17:57:00Z",
+    "DateLastVerified": "2022-12-25T09:35:00Z",
     "ID": 209779,
     "UUID": "7CF3C490-4EA9-41BE-BA80-C72CCE33F0DC",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "UsageCost": "18 ₽/kwt",
     "AddressInfo": {
         "ID": 210159,
@@ -24,33 +24,37 @@
     },
     "Connections": [
         {
-            "ID": 349079,
-            "ConnectionTypeID": 25,
+            "ID": 351623,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 351624,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 351625,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "Quantity": 1
-        },
-        {
-            "ID": 349080,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 60,
-            "Quantity": 1
-        },
-        {
-            "ID": 349081,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 60,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "Требуется приложение РусГидро ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-18T17:57:00Z",
+    "DateLastStatusUpdate": "2022-12-25T09:35:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-11-05T18:44:00Z",
     "SubmissionStatusTypeID": 200

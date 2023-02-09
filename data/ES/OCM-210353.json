@@ -1,12 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-09T18:03:00Z",
+    "DateLastVerified": "2023-02-05T13:18:00Z",
     "ID": 210353,
     "UUID": "3C16C2C5-217F-49F1-973D-80A93E0B748A",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh",
+    "UsageCost": " 0,50€/kWh DC - 0,45€/kWh AC",
     "AddressInfo": {
         "ID": 210733,
         "Title": "McDonalds El Ejido",
@@ -22,7 +22,25 @@
     },
     "Connections": [
         {
-            "ID": 350324,
+            "ID": 355281,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 355282,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 355283,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -31,9 +49,9 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-09T18:03:00Z",
+    "DateLastStatusUpdate": "2023-02-05T13:18:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-12-09T18:03:00Z",
     "SubmissionStatusTypeID": 200

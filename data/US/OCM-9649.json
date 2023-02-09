@@ -1,14 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-11-04T14:04:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-26T01:37:00Z",
     "ID": 9649,
     "UUID": "F3AEEC55-5B33-4F20-9E1B-72CCEB801755",
-    "DataProviderID": 15,
-    "DataProvidersReference": "15905",
-    "OperatorID": 26,
+    "DataProviderID": 1,
+    "OperatorID": 3542,
     "AddressInfo": {
         "ID": 9546,
-        "Title": "100 Front St",
+        "Title": "Wolf Creek Inn & Tavern",
         "AddressLine1": "100 Front St",
         "Town": "Wolf Creek",
         "StateOrProvince": "OR",
@@ -17,26 +16,40 @@
         "Latitude": 42.695224,
         "Longitude": -123.396713,
         "ContactTelephone1": "(541) 866-2474",
-        "RelatedURL": "http://carstations.com/15905",
+        "RelatedURL": "https://www.evcs.com/",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 7409,
-            "ConnectionTypeID": 1,
-            "Reference": "J1772",
-            "LevelID": 2
-        },
         {
             "ID": 9158,
             "ConnectionTypeID": 2,
             "Reference": "CHADEMO",
             "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 353447,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 354508,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-11-04T14:04:00Z",
+    "DateLastStatusUpdate": "2023-01-26T01:37:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2012-03-20T12:43:00Z",
     "SubmissionStatusTypeID": 100

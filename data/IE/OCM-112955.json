@@ -1,17 +1,18 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-06-03T09:41:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-04T20:20:00Z",
     "ID": 112955,
     "UUID": "C26411CB-1A62-43F0-A138-8B804E9B3C1B",
     "DataProviderID": 1,
     "OperatorID": 22,
     "OperatorsReference": "C5D6Z",
     "UsageTypeID": 4,
+    "UsageCost": "up to 0.682/kWh on High Power Charger",
     "AddressInfo": {
         "ID": 113301,
-        "Title": "Circle K / Topaz Service Station Mullamurphy",
+        "Title": "Circle K Service Station Emyvale Rd, Coolshanagh, Monaghan Town",
         "AddressLine1": "Emyvale Road",
-        "Town": "Mullamurphy",
+        "Town": "Coolshanagh",
         "StateOrProvince": "County Monaghan",
         "Postcode": "H18 YW81",
         "CountryID": 3,
@@ -23,6 +24,7 @@
         {
             "ID": 159096,
             "ConnectionTypeID": 2,
+            "Reference": "C6D28",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -32,16 +34,49 @@
         {
             "ID": 159097,
             "ConnectionTypeID": 33,
+            "Reference": "C6D28",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 351927,
+            "ConnectionTypeID": 25,
+            "Reference": "C6D28",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 351928,
+            "ConnectionTypeID": 33,
+            "Reference": "C7X4B",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "150kW, load shared if both sides in use"
+        },
+        {
+            "ID": 351929,
+            "ConnectionTypeID": 2,
+            "Reference": "C7X4B",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "70kW, load shared if both sides in use"
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-06-03T09:41:00Z",
+    "DateLastStatusUpdate": "2023-01-04T20:20:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-11-27T12:46:00Z",
     "SubmissionStatusTypeID": 200

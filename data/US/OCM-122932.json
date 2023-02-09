@@ -1,11 +1,46 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T02:57:00Z",
+    "MediaItems": [
+        {
+            "ID": 36128,
+            "ChargePointID": 122932,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM122932/OCM-122932.orig.2023010218544333.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM122932/OCM-122932.thmb.2023010218544333.jpg",
+            "Comment": "Eaton SBR3BX000000",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 42855,
+                "Username": "N. Anderson"
+            },
+            "DateCreated": "2023-01-02T18:55:00Z"
+        },
+        {
+            "ID": 36127,
+            "ChargePointID": 122932,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM122932/OCM-122932.orig.2023010218541425.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM122932/OCM-122932.thmb.2023010218541425.jpg",
+            "Comment": "Clipper Creek HCS-40",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 42855,
+                "Username": "N. Anderson"
+            },
+            "DateCreated": "2023-01-02T18:54:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-05T22:41:00Z",
     "ID": 122932,
     "UUID": "48CA8D45-FFFC-4C66-8CC4-CB6CD917E872",
-    "DataProviderID": 2,
-    "DataProvidersReference": "49882",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 123278,
         "Title": "Town of Southern Pines - Library",
@@ -14,26 +49,41 @@
         "StateOrProvince": "NC",
         "Postcode": "28387",
         "CountryID": 2,
-        "Latitude": 35.176173,
-        "Longitude": -79.390553,
+        "Latitude": 35.176183391167996,
+        "Longitude": -79.3907137457843,
         "ContactTelephone1": "910-692-8235",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 172860,
+            "ID": 351824,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Amps": 30,
+            "Voltage": 240,
+            "PowerKW": 7.2,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Eaton equipment"
+        },
+        {
+            "ID": 351825,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 240,
+            "PowerKW": 7.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Clipper Creek equipment"
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T02:57:00Z",
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-01-05T22:41:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100

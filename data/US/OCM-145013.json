@@ -1,10 +1,9 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:10:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-08T23:15:00Z",
     "ID": 145013,
     "UUID": "4C55E598-97AC-48F0-BCFA-339623F73898",
-    "DataProviderID": 2,
-    "DataProvidersReference": "124684",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -27,9 +26,7 @@
             "ID": 201589,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -37,15 +34,23 @@
             "ID": 201590,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 352247,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
+    "GeneralComments": "3 of the chargers were recently upgraded to the new 350's",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:10:00Z",
+    "DateLastStatusUpdate": "2023-01-08T23:15:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:24:00Z",
     "SubmissionStatusTypeID": 100

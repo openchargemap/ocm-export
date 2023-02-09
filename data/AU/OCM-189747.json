@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-11-02T09:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-24T01:17:00Z",
     "ID": 189747,
     "UUID": "28E666F2-C928-40CA-88E3-BFE8DBCE1ABF",
     "DataProviderID": 1,
@@ -9,14 +9,14 @@
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 190106,
-        "Title": "Bell Street",
-        "AddressLine1": "Bell Street",
-        "Town": "",
+        "Title": "Coburg Town Hall / Moreland City",
+        "AddressLine1": "90 Bell Street",
+        "Town": "Coburg",
         "StateOrProvince": "Victoria",
         "Postcode": "3058",
         "CountryID": 18,
-        "Latitude": -37.7412393579267,
-        "Longitude": 144.9700907604655,
+        "Latitude": -37.74104152020631,
+        "Longitude": 144.9701497464091,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,8 +24,9 @@
             "ID": 307000,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -36,11 +37,21 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 351501,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
+    "GeneralComments": "50kW DC fast charger, two 7kW & one 22kW Level 2 station. 50kW fast charge & L2 11kW stations are located under cover, access off Bell St, look for 'Zap n Go' sign on Bell St. The other Level 2 stations are available in the car park behind the Civic Centre. Access for the Level 2 stations is off Urquhart St. All stations are on the Chargefox network.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-02T09:23:00Z",
+    "DateLastStatusUpdate": "2022-12-24T01:17:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-11-01T06:37:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,10 +1,25 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-04-06T04:02:00Z",
+    "UserComments": [
+        {
+            "ID": 27988,
+            "ChargePointID": 14744,
+            "CommentTypeID": 100,
+            "UserName": "N. Anderson",
+            "Comment": "This location appears to be a duplicate of one that already has more accurate information and photos.",
+            "DateCreated": "2023-01-04T21:29:08.26Z",
+            "User": {
+                "ID": 42855,
+                "Username": "N. Anderson"
+            },
+            "CheckinStatusTypeID": 150,
+            "IsActionedByEditor": false
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-05T22:41:00Z",
     "ID": 14744,
     "UUID": "ACC4BA60-EEEC-4391-8AD2-63DEA24481D2",
-    "DataProviderID": 2,
-    "DataProvidersReference": "49882",
+    "DataProviderID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 14641,
@@ -18,28 +33,34 @@
         "Longitude": -79.390553,
         "ContactTelephone1": "910-692-8235",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 12244,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
+            "Amps": 32,
+            "Voltage": 240,
+            "PowerKW": 7.7,
             "CurrentTypeID": 10,
             "Quantity": 2
         },
         {
             "ID": 21989,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Quantity": 2
+            "Amps": 30,
+            "Voltage": 240,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T04:02:00Z",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-01-05T22:41:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2012-12-06T16:50:00Z",
     "SubmissionStatusTypeID": 100

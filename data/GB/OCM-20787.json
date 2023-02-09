@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 28096,
+            "ChargePointID": 20787,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "plenty of choice, the new charging bays are towards the western end of the site, signposted.",
+            "Rating": 5,
+            "DateCreated": "2023-01-30T09:12:17.373Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 20747,
             "ChargePointID": 20787,
             "CommentTypeID": 10,
@@ -202,15 +217,33 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-12-01T17:11:00Z",
+    "MediaItems": [
+        {
+            "ID": 36459,
+            "ChargePointID": 20787,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20787/OCM-20787.orig.2023013009133534.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM20787/OCM-20787.thmb.2023013009133534.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "DateCreated": "2023-01-30T09:14:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-30T09:14:00Z",
     "ID": 20787,
     "UUID": "EC5EE48C-39FC-4F3F-B30A-2BA3832BEEEE",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "GB*GFX*EGS10377*1,GB*GFX*EGS10377*2,GB*GFX*EGS10378*1,GB*GFX*EGS10378*2",
     "UsageTypeID": 5,
-    "UsageCost": "£0.30/kWh",
+    "UsageCost": "High Power DC: £0.66/kWh, 60kW: £0.66/kWh; AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 21132,
         "Title": "Reading Moto M4 (E) Services",
@@ -227,7 +260,7 @@
         {
             "ID": 22608,
             "ConnectionTypeID": 2,
-            "Reference": "GB*GFX*EGS10377*2",
+            "Reference": "GB*GRD*EGS10377*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -239,7 +272,7 @@
         {
             "ID": 22609,
             "ConnectionTypeID": 33,
-            "Reference": "GB*GFX*EGS10377*1",
+            "Reference": "GB*GRD*EGS10377*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -251,7 +284,7 @@
         {
             "ID": 34554,
             "ConnectionTypeID": 33,
-            "Reference": "GB*GFX*EGS10378*1",
+            "Reference": "GB*GRD*EGS10378*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -263,7 +296,7 @@
         {
             "ID": 304186,
             "ConnectionTypeID": 33,
-            "Reference": "GB*GFX*EGS10378*2",
+            "Reference": "GB*GRD*EGS10378*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -287,7 +320,7 @@
         {
             "ID": 307137,
             "ConnectionTypeID": 25,
-            "Reference": "GB*GFX*ETACW2241121T1278*1",
+            "Reference": "GB*GRD*ETACW2241121T1278*1",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -295,11 +328,189 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 352336,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10472*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352337,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10378*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352338,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10473*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352339,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10378*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352340,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10474*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352341,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10475*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352342,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10476*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352343,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10477*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352344,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10478*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352345,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10479*1",
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352346,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10480*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352347,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10481*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352348,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10482*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352349,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10475*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352350,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10476*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352351,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10477*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352352,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10481*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352353,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10482*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 15,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-01T17:11:00Z",
+    "DateLastStatusUpdate": "2023-01-30T09:14:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-12T12:07:00Z",
     "SubmissionStatusTypeID": 200

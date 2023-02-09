@@ -1,15 +1,33 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-04-15T08:33:00Z",
+    "MediaItems": [
+        {
+            "ID": 36402,
+            "ChargePointID": 192564,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RU/OCM192564/OCM-192564.orig.2023012506560316.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RU/OCM192564/OCM-192564.thmb.2023012506560316.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37649,
+                "Username": "Green Drive"
+            },
+            "DateCreated": "2023-01-25T06:56:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-25T06:56:00Z",
     "ID": 192564,
     "UUID": "1450DFDB-F7BF-496E-96DA-5623F8D50AE9",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
+    "OperatorID": 3507,
+    "UsageTypeID": 5,
     "UsageCost": "17 руб/кВтч",
     "AddressInfo": {
         "ID": 192923,
-        "Title": "Green Drive Azimut Hotel Freestyle Rosa Khutor",
+        "Title": "Green Drive Azimut Hotel Freestyle Курорт Роза Хутор",
         "AddressLine1": "Kamenka Street, 354340 Estosadok Village, Sochi Urban District, Krasnodar Territory, RU",
         "Town": "Сочи",
         "Postcode": "354340",
@@ -17,6 +35,7 @@
         "Latitude": 43.67434226666826,
         "Longitude": 40.28958920122261,
         "ContactTelephone1": "+7 800 775-81-87",
+        "ContactTelephone2": "+74991120910",
         "RelatedURL": "https://green-drive.net/",
         "DistanceUnit": 0
     },
@@ -26,7 +45,7 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -35,7 +54,7 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -49,10 +68,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
-    "GeneralComments": "Сеть ЭЗС - Green Drive.\r\nСтанция быстрой зарядки электромобилей мощностью DC 120 кВт (CCS Combo2 120 кВт, CHAdeMO 50 кВт) + AC 22 кВт Type 2 Mennekes.\r\nРоза Хутор, с.Эстосадок, ул.Набережная реки Полянка, д.4, с.1, парковка рядом с отелем Azimut Free Style.\r\nУправляется через Мобильное приложение Electro.cars (скачивание по QR коду).",
+    "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-15T08:33:00Z",
+    "DateLastStatusUpdate": "2023-01-25T06:56:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-13T08:22:00Z",
     "SubmissionStatusTypeID": 200

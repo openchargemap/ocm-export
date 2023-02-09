@@ -1,0 +1,79 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-02T19:03:00Z",
+    "ID": 213003,
+    "UUID": "6A91568E-A5BD-4A3D-96FC-3FAEF5E36A6B",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-401337,PG-70642,veefil-12200268",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh,£0.28/kWh,£0.50/kWh",
+    "AddressInfo": {
+        "ID": 213383,
+        "Title": "Tesco Extra-Whitstable",
+        "AddressLine1": "Millstrood RD",
+        "Town": "Whitstable",
+        "Postcode": "CT5 3EE",
+        "CountryID": 1,
+        "Latitude": 51.347295,
+        "Longitude": 1.042859,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 354788,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-401337",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Otis-Demi"
+        },
+        {
+            "ID": 354789,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70642",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Myla-Jude"
+        },
+        {
+            "ID": 354995,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200268",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Krew-Edil"
+        },
+        {
+            "ID": 354996,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200268",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Krew-Edil"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is an open charge unit installed at the Tesco Extra superstore in Millstrood Road, Whitstable",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-02T19:03:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2023-01-29T06:22:00Z",
+    "SubmissionStatusTypeID": 200
+}

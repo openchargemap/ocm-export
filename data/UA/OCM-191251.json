@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-02-02T22:49:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-02T22:22:00Z",
     "ID": 191251,
     "UUID": "8F452E43-65BE-488A-89BB-DBFC95FA1609",
     "DataProviderID": 1,
@@ -17,6 +17,9 @@
         "CountryID": 234,
         "Latitude": 50.52569580924879,
         "Longitude": 30.811588909838292,
+        "ContactTelephone1": "+380 97 535 7777",
+        "AccessComments": "для IOS: https://apps.apple.com/ua/app/ae-charging-point/id1274189210  для Android: https://play.google.com/store/apps/details?id=ua.com.autoenterprise.charge.chargeae",
+        "RelatedURL": "http://www.autoenterprise.com.ua",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -47,11 +50,31 @@
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 355025,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 40,
+            "PowerKW": 9,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 355026,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-02T22:49:00Z",
+    "DateLastStatusUpdate": "2023-02-02T22:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-01-31T19:48:00Z",
     "SubmissionStatusTypeID": 200

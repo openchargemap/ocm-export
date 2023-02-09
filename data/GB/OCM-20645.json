@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 27994,
+            "ChargePointID": 20645,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "New 350kW-capable high-power charge points are being installed.",
+            "DateCreated": "2023-01-06T21:50:57.07Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 21952,
             "ChargePointID": 20645,
             "CommentTypeID": 10,
@@ -375,15 +389,15 @@
             "DateCreated": "2014-12-16T18:37:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-02-16T11:36:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-20T12:36:00Z",
     "ID": 20645,
     "UUID": "FD12E99E-B5E1-4674-8341-A8B259E1E3F5",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1156,1157",
     "UsageTypeID": 5,
-    "UsageCost": "£0.39/kWh",
+    "UsageCost": "DC High Power units: £0.66/kWh; other DC: £0.65/kWh; AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 20990,
         "Title": "Pease Pottage Moto M23 Services",
@@ -395,7 +409,7 @@
         "CountryID": 1,
         "Latitude": 51.0838404050509,
         "Longitude": -0.199664980173111,
-        "ContactTelephone2": "01293 562852",
+        "ContactTelephone2": "",
         "AccessComments": "Far corner by Disabled Bays",
         "DistanceUnit": 0
     },
@@ -447,11 +461,43 @@
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 352087,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 6
+        },
+        {
+            "ID": 352088,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 353870,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 8,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-16T11:36:00Z",
+    "DateLastStatusUpdate": "2023-01-20T12:36:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2013-12-12T19:46:00Z",
     "SubmissionStatusTypeID": 200

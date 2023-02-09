@@ -34,8 +34,8 @@
             "DateCreated": "2022-05-16T14:19:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-05-16T14:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-06T15:21:00Z",
     "ID": 192713,
     "UUID": "C6557A69-2383-4E5E-A83F-6D6A5551D028",
     "DataProviderID": 1,
@@ -43,7 +43,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 193072,
-        "Title": "Eni station via piacenza",
+        "Title": "BECHARGE Eni station via piacenza",
         "AddressLine1": "Via Piacenza",
         "Town": "Crema",
         "StateOrProvince": "Lombardy",
@@ -51,6 +51,7 @@
         "CountryID": 112,
         "Latitude": 45.3537822897525,
         "Longitude": 9.687255438869528,
+        "RelatedURL": "https://nextcharge.app/map?lang=it&station=OCPI-129-841384e2-69ce-45a1-b153-1f8d72ef4c11&provider=Be%20Charge&location=45.353750,9.687120",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -58,8 +59,9 @@
             "ID": 313254,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 75,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -67,7 +69,11 @@
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 313256,
@@ -81,7 +87,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-05-16T14:19:00Z",
+    "DateLastStatusUpdate": "2023-01-06T15:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-24T04:12:00Z",
     "SubmissionStatusTypeID": 200

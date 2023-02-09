@@ -1,11 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-16T21:40:00Z",
+    "DateLastVerified": "2023-01-14T08:13:00Z",
     "ID": 85406,
     "UUID": "042F7453-EDF7-4665-AA9E-2EC749D104DD",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 5,
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 85752,
         "Title": "Golf de Son Gual",
@@ -16,6 +17,8 @@
         "CountryID": 210,
         "Latitude": 39.566332451455,
         "Longitude": 2.8057075461315435,
+        "ContactTelephone1": "+34681373671",
+        "ContactTelephone2": "info@emallorca.io",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,9 +27,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited for 400V cars)"
         },
         {
             "ID": 121457,
@@ -38,9 +44,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "eMallorca",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-16T21:40:00Z",
+    "DateLastStatusUpdate": "2023-01-14T08:13:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2017-04-04T00:12:00Z",
     "SubmissionStatusTypeID": 200

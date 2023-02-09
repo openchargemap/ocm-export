@@ -17,6 +17,38 @@
     ],
     "MediaItems": [
         {
+            "ID": 36042,
+            "ChargePointID": 114650,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM114650/OCM-114650.orig.2022122416444220.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM114650/OCM-114650.thmb.2022122416444220.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-12-24T16:45:00Z"
+        },
+        {
+            "ID": 36023,
+            "ChargePointID": 114650,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM114650/OCM-114650.orig.2022122209471925.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM114650/OCM-114650.thmb.2022122209471925.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-12-22T09:47:00Z"
+        },
+        {
             "ID": 33409,
             "ChargePointID": 114650,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM114650/OCM-114650.orig.2022083007131911.jpg",
@@ -31,48 +63,16 @@
                 "Username": "lmjgarcia"
             },
             "DateCreated": "2022-08-30T07:13:00Z"
-        },
-        {
-            "ID": 33306,
-            "ChargePointID": 114650,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM114650/OCM-114650.orig.2022082807543885.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM114650/OCM-114650.thmb.2022082807543885.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 40036,
-                "Username": "lmjgarcia"
-            },
-            "DateCreated": "2022-08-28T07:55:00Z"
-        },
-        {
-            "ID": 33307,
-            "ChargePointID": 114650,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM114650/OCM-114650.orig.2022082807545110.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM114650/OCM-114650.thmb.2022082807545110.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 40036,
-                "Username": "lmjgarcia"
-            },
-            "DateCreated": "2022-08-28T07:55:00Z"
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-02T08:59:00Z",
+    "DateLastVerified": "2023-01-08T11:41:00Z",
     "ID": 114650,
     "UUID": "2042B48E-BE00-411C-BB3F-2509291740A2",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh de 22 a 50kW -  0,55€/kWh 160kW/80kW",
+    "UsageCost": "0,55€/kWh >60kW - 0,39€/kWh DC50kW/AC",
     "AddressInfo": {
         "ID": 114996,
         "Title": "Complejo Tudanca - Zunder",
@@ -81,8 +81,8 @@
         "StateOrProvince": "Castilla y León",
         "Postcode": "09470",
         "CountryID": 210,
-        "Latitude": 41.62312409960464,
-        "Longitude": -3.6864324714656505,
+        "Latitude": 41.623453928015294,
+        "Longitude": -3.6875013489607227,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -112,15 +112,16 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 500,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 4,
+            "Comments": "Four Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (600 kW). Charging power limited for 400V cars"
         },
         {
             "ID": 313747,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -131,6 +132,17 @@
         },
         {
             "ID": 313748,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 313749,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
@@ -141,20 +153,18 @@
             "Quantity": 2
         },
         {
-            "ID": 313749,
+            "ID": 351453,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-02T08:59:00Z",
+    "DateLastStatusUpdate": "2023-01-08T11:41:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-01-12T20:42:00Z",
     "SubmissionStatusTypeID": 200

@@ -101,13 +101,14 @@
             "DateCreated": "2015-03-09T17:11:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-11-28T15:31:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-31T13:12:00Z",
     "ID": 40726,
     "UUID": "53153856-D9B1-451A-BFC7-59E242C80962",
     "DataProviderID": 1,
-    "OperatorID": 156,
+    "OperatorID": 121,
     "UsageTypeID": 4,
+    "UsageCost": "0,40€ (Stand 12/22)",
     "AddressInfo": {
         "ID": 41072,
         "Title": "Messe/Nord Hannover",
@@ -117,22 +118,11 @@
         "CountryID": 87,
         "Latitude": 52.3298913050528,
         "Longitude": 9.80535897993398,
-        "AccessComments": "Von der Hermesallee aus auf die Nordallee abbiegen / den Schildern zum Parkplatz Nord4 folgen. Ladesäule befindet sich auf Parkplatz Nord 4, gleich erster Parkplatz auf linker Seite. Ladesäule hat rechte Seite Typ2 22 KW, linke Seite 11 KW. Normalerweise keine Parkgebühren, werden nur während der Messezeiten erhoben, dann ca 20€ für Parken und Laden",
+        "AccessComments": "Von der Hermesallee aus auf die Nordallee abbiegen / den Schildern zum Parkplatz Nord4 folgen. Normalerweise keine Parkgebühren, werden nur während der Messezeiten erhoben, dann ca 20€ für Parken und Laden",
         "RelatedURL": "http://www.enercity.de/",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 44325,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
         {
             "ID": 44326,
             "ConnectionTypeID": 25,
@@ -141,23 +131,14 @@
             "Amps": 32,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 44327,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 10,
+            "Comments": "8 einzelne Wallb-e Ladeboxen und 1 Ladestation mit 2 Anschlüssen"
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "Betreiber sind die Stadtwerke \"EnerCity\", haben sich Anfang 2016 dem Verbund von \"The New Motion\" angeschlossen. Seit 2020 werden auch Ladekarten der EnbW, PlugSurfing und EinfachStromLDen akzeptiert.Zu Messezeiten werden zusätzlich bis zu 10 Wallb e Boxen bereitgestellt. ",
+    "NumberOfPoints": 10,
+    "GeneralComments": "Auch EnbW, PlugSurfing und EinfachStromLaden möglich sowie EC Karte VPay und Kreditkartenzahlung. ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-11-28T15:31:00Z",
+    "DateLastStatusUpdate": "2022-12-31T13:12:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-01-11T10:43:00Z",
     "SubmissionStatusTypeID": 200

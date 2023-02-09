@@ -1,11 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:05:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-02T11:06:00Z",
     "ID": 71558,
     "UUID": "73F18FCA-2434-4788-A142-96646969DAF4",
-    "DataProviderID": 2,
-    "DataProvidersReference": "77350",
-    "OperatorID": 3373,
+    "DataProviderID": 1,
+    "OperatorID": 3542,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 71904,
@@ -15,11 +14,11 @@
         "StateOrProvince": "OR",
         "Postcode": "97415",
         "CountryID": 2,
-        "Latitude": 42.05418,
-        "Longitude": -124.28892,
-        "ContactTelephone1": "888-833-2148",
+        "Latitude": 42.05423974499581,
+        "Longitude": -124.29096917959515,
+        "ContactTelephone1": "1-866-300-3827",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://www.evsolutions.com/ev-network",
+        "RelatedURL": "https://www.evcs.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,9 +26,7 @@
             "ID": 102382,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
         },
@@ -37,14 +34,24 @@
             "ID": 102383,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352131,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:05:00Z",
+    "NumberOfPoints": 1,
+    "GeneralComments": "Despite being part of the West Coast Electric Highway, EVCS does not appear to be maintaining this charger and appears to be non-functional most of the time",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-02T11:06:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-09-02T10:15:00Z",
     "SubmissionStatusTypeID": 100

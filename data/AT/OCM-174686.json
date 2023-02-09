@@ -1,10 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-11T12:45:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-07T19:40:00Z",
     "ID": 174686,
     "UUID": "1A18424B-AD9A-4D4D-95D9-E1A3B3FEEEEB",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3285,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 175045,
@@ -16,6 +16,7 @@
         "CountryID": 19,
         "Latitude": 46.60400287388313,
         "Longitude": 13.869255433030276,
+        "RelatedURL": "https://nextcharge.app/map?lang=it&station=OCPI-196-02.S95-00880&provider=KELAG-K%C3%A4rntner%20Elektrizit%C3%A4ts-AG&location=46.603949,13.869255",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,7 +27,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 4
         },
         {
             "ID": 270682,
@@ -35,7 +36,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 4
         },
         {
             "ID": 270683,
@@ -54,11 +55,29 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 4
+        },
+        {
+            "ID": 352121,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 240,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 352122,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 16,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-11T12:45:00Z",
+    "DateLastStatusUpdate": "2023-01-07T19:40:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-04-11T11:16:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,11 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:07:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-26T04:34:00Z",
     "ID": 143549,
     "UUID": "EA9F4411-68F1-4461-80E7-0764C9DED29D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "73439",
-    "OperatorID": 3373,
+    "DataProviderID": 1,
+    "OperatorID": 3542,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 143901,
@@ -15,11 +14,11 @@
         "StateOrProvince": "OR",
         "Postcode": "97420",
         "CountryID": 2,
-        "Latitude": 43.357193,
-        "Longitude": -124.211286,
+        "Latitude": 43.357535267487236,
+        "Longitude": -124.21057577485749,
         "ContactTelephone1": "888-833-2148",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://www.evsolutions.com/ev-network",
+        "RelatedURL": "https://www.evcs.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,9 +26,7 @@
             "ID": 199889,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
         },
@@ -37,15 +34,22 @@
             "ID": 199890,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352137,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:07:00Z",
+    "DateLastStatusUpdate": "2023-01-26T04:34:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:21:00Z",
     "SubmissionStatusTypeID": 100

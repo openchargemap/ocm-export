@@ -1,13 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:22:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-24T19:22:00Z",
     "ID": 45901,
     "UUID": "114C320B-7029-4F7B-A797-6A3A84B869B8",
     "DataProviderID": 1,
     "DataProvidersReference": "2686",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 46247,
-        "Title": "Vattenfall InCharge Snabbladdning",
+        "Title": "Nybohovsbacken 11 - InCharge",
         "AddressLine1": "Nybohovsbacken 11",
         "Town": "STOCKHOLM",
         "StateOrProvince": "STOCKHOLM",
@@ -21,37 +22,48 @@
     "Connections": [
         {
             "ID": 56564,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 2,
             "Comments": "Mode 4"
         },
         {
             "ID": 84527,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "2",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 2,
             "Comments": "Mode 4"
         },
         {
             "ID": 88193,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "3",
             "LevelID": 2,
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
+            "Quantity": 1,
             "Comments": "Mode 3"
+        },
+        {
+            "ID": 354289,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 3,
-    "DateLastStatusUpdate": "2020-05-26T08:22:00Z",
+    "DateLastStatusUpdate": "2023-01-24T19:22:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2015-05-03T00:54:00Z",
     "SubmissionStatusTypeID": 100

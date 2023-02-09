@@ -1,11 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:09:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-26T01:18:00Z",
     "ID": 144282,
     "UUID": "763CAF88-FB27-4FED-9607-A5CB150D894D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "73436",
-    "OperatorID": 3373,
+    "DataProviderID": 1,
+    "OperatorID": 3542,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 144634,
@@ -19,7 +18,7 @@
         "Longitude": -123.845554,
         "ContactTelephone1": "888-833-2148",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://www.evsolutions.com/ev-network",
+        "RelatedURL": "https://www.evcs.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,9 +26,7 @@
             "ID": 200774,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7.2,
             "CurrentTypeID": 10,
             "Quantity": 1
         },
@@ -37,15 +34,22 @@
             "ID": 200775,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 354506,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:09:00Z",
+    "DateLastStatusUpdate": "2023-01-26T01:18:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:23:00Z",
     "SubmissionStatusTypeID": 100

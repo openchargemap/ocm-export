@@ -1,20 +1,20 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-12T13:43:00Z",
+    "DateLastVerified": "2023-01-31T15:47:00Z",
     "ID": 210564,
     "UUID": "68D6A751-291F-4190-B143-EF93B4A42131",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": "0,56€/kWh 150kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "0,56€/kWh >80kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 210944,
-        "Title": "Rest. El MArino I",
+        "Title": "Rest. El Marino I (Wenea)",
         "AddressLine1": "Honrrubia",
         "StateOrProvince": "Castilla-La Mancha",
         "CountryID": 210,
-        "Latitude": 39.59650233164095,
-        "Longitude": -2.2804936757989935,
+        "Latitude": 39.59667796331078,
+        "Longitude": -2.2805211898259756,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,10 +25,10 @@
             "LevelID": 3,
             "Amps": 400,
             "Voltage": 920,
-            "PowerKW": 100,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Max power of the charger for both combined outlets 200 kW"
+            "Comments": "Max power of the charger for both combined outlets 200 kW. Total power limited to 50 kW for this charger  in this station"
         },
         {
             "ID": 350748,
@@ -40,18 +40,39 @@
             "Quantity": 1
         },
         {
-            "ID": 350749,
+            "ID": 354891,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 920,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Max power of the charger for both combined outlets 200 kW. Total power limited to 50 kW for this charger in this station"
+        },
+        {
+            "ID": 354892,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 354893,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-12-12T13:43:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-01-31T15:47:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-12-12T13:42:00Z",
     "SubmissionStatusTypeID": 200

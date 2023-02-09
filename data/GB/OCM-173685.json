@@ -1,51 +1,40 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-03T11:25:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-26T13:17:00Z",
     "ID": 173685,
     "UUID": "6B6F0756-FCA1-45F4-9F46-D4F1DE0B9C0D",
-    "DataProviderID": 18,
-    "DataProvidersReference": "f4593152ea45591a46a58bf6988a04ca",
-    "OperatorID": 150,
+    "DataProviderID": 1,
+    "OperatorID": 3496,
     "UsageTypeID": 5,
+    "UsageCost": "£0.35/kWh. Parking fees apply",
     "AddressInfo": {
         "ID": 174044,
-        "Title": "Back Lane",
+        "Title": "Back Lane Car Park Newtown",
         "AddressLine1": "Back Lane",
         "Town": "Newtown",
         "Postcode": "SY16 2NH",
         "CountryID": 1,
         "Latitude": 52.514998,
         "Longitude": -3.318314,
-        "AccessComments": "",
-        "RelatedURL": "http://www.chargepointservices.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 266829,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "002105",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 266830,
-            "ConnectionTypeID": 25,
-            "Reference": "2",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-03-03T11:25:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2022-12-26T13:17:00Z",
     "MetadataValues": [
         {
             "ID": 8607,
@@ -55,5 +44,5 @@
     ],
     "DataQualityLevel": 3,
     "DateCreated": "2021-03-03T11:25:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

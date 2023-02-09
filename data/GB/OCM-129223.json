@@ -1,29 +1,30 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-19T19:44:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-06T12:45:00Z",
     "ID": 129223,
     "UUID": "A693455B-0C9B-4F9A-AE43-E43D6D60D057",
     "DataProviderID": 1,
     "OperatorID": 20,
     "OperatorsReference": "60465",
     "UsageTypeID": 4,
-    "UsageCost": "£20 per year RFID Card or Free with CYC App. £1 connection fee. Charging fee £4.50 for the first hour, £5 per hour thereafter.",
+    "UsageCost": "£4.50 for up to 1 hour, then £5.00 thereafter. Minimum charge = £4.50",
     "AddressInfo": {
         "ID": 129569,
         "Title": "Hanley Farm Shop",
         "AddressLine1": "Hanley Farm Shop",
         "Postcode": "NP16 7NA",
         "CountryID": 1,
-        "Latitude": 51.66821,
-        "Longitude": -2.63051,
-        "RelatedURL": "https://polar-network.com/",
+        "Latitude": 51.66788848535688,
+        "Longitude": -2.630055725102409,
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 180875,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "Reference": "60465",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -32,7 +33,8 @@
         {
             "ID": 180876,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "Reference": "60465",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -41,6 +43,7 @@
         {
             "ID": 180877,
             "ConnectionTypeID": 1036,
+            "Reference": "60465",
             "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 43,
@@ -49,9 +52,9 @@
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Charge point operated by Chargemaster. Available on the POLAR network. Visit www.polar-network.com to apply. Operated by Charge Your Car CYC Network: http://chargeyourcar.org.uk/ , (Tel: 01912650500) Off A48, Tidenham, Forest of Dean, Chepstow, Gloucestershire, NP16 7NA",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-19T19:44:00Z",
+    "GeneralComments": "",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2023-01-06T12:45:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-07-16T05:12:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,10 +1,10 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T10:35:00Z",
+    "DateLastVerified": "2023-01-08T11:32:00Z",
     "ID": 198427,
     "UUID": "A8F941C3-63B0-41B4-B28A-78E3B60FBF85",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRSSDPOUESTBMW223001",
+    "DataProviderID": 1,
+    "OperatorID": 3316,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 198786,
@@ -19,16 +19,26 @@
     "Connections": [
         {
             "ID": 331056,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 352201,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:35:00Z",
+    "DateLastStatusUpdate": "2023-01-08T11:32:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2022-08-23T10:35:00Z",
     "SubmissionStatusTypeID": 100

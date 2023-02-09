@@ -1,6 +1,6 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-12T15:15:00Z",
+    "DateLastVerified": "2022-12-31T09:22:00Z",
     "ID": 210582,
     "UUID": "BF15D0B8-71FC-4C25-B3B5-5E9CFBA5ED0A",
     "DataProviderID": 1,
@@ -14,8 +14,8 @@
         "StateOrProvince": "Andalucía",
         "Postcode": "04600",
         "CountryID": 210,
-        "Latitude": 37.43456428736313,
-        "Longitude": -1.911318917464996,
+        "Latitude": 37.434565704119564,
+        "Longitude": -1.9113425929340337,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,12 +24,24 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 400,
+            "Voltage": 920,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Max power of the charger for both combined outlets 200 kW. Total power limited to 150 kW for this charger  "
         },
         {
             "ID": 350795,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 350796,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
@@ -38,18 +50,27 @@
             "Quantity": 2
         },
         {
-            "ID": 350796,
+            "ID": 351782,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 351783,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-12T15:15:00Z",
+    "DateLastStatusUpdate": "2022-12-31T09:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-12-12T15:15:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-11-02T09:10:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-23T20:49:00Z",
     "ID": 189750,
     "UUID": "237B0647-0A2F-4B19-B942-C52C0B2D2EC1",
     "DataProviderID": 1,
@@ -9,14 +9,15 @@
     "UsageCost": "$0.40 / Kwh",
     "AddressInfo": {
         "ID": 190109,
-        "Title": "Graduate Road",
-        "AddressLine1": "Graduate Road",
-        "Town": "",
+        "Title": "Uni Hill Town Centre",
+        "AddressLine1": "19 Graduate Drive",
+        "Town": "Bundoora",
         "StateOrProvince": "Victoria",
         "Postcode": "3082",
         "CountryID": 18,
-        "Latitude": -37.68328820990773,
-        "Longitude": 145.07085475706305,
+        "Latitude": -37.682971406829196,
+        "Longitude": 145.07101659256762,
+        "ContactTelephone1": "1300 463 843",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,14 +26,24 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 112.5,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 351557,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-02T09:10:00Z",
+    "DateLastStatusUpdate": "2022-12-23T20:49:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-11-01T06:42:00Z",
     "SubmissionStatusTypeID": 200

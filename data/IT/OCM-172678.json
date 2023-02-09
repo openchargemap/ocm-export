@@ -129,8 +129,8 @@
             "DateCreated": "2021-02-12T17:46:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-05-17T07:45:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-06T15:26:00Z",
     "ID": 172678,
     "UUID": "300CDA94-9C42-41B0-9735-6E4A3C62B1D7",
     "DataProviderID": 1,
@@ -152,14 +152,16 @@
         {
             "ID": 264066,
             "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 264067,
             "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -168,6 +170,7 @@
         {
             "ID": 264068,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -176,16 +179,18 @@
         {
             "ID": 264069,
             "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-05-17T07:45:00Z",
+    "DateLastStatusUpdate": "2023-01-06T15:26:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-02-12T17:45:00Z",
     "SubmissionStatusTypeID": 200

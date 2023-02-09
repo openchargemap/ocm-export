@@ -1,21 +1,40 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-04-15T08:38:00Z",
+    "MediaItems": [
+        {
+            "ID": 36406,
+            "ChargePointID": 192560,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RU/OCM192560/OCM-192560.orig.2023012507080589.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RU/OCM192560/OCM-192560.thmb.2023012507080589.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37649,
+                "Username": "Green Drive"
+            },
+            "DateCreated": "2023-01-25T07:08:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-25T07:08:00Z",
     "ID": 192560,
     "UUID": "B9328865-2C41-4806-82AD-3E207AEA5D35",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 4,
+    "OperatorID": 3507,
+    "UsageTypeID": 5,
     "UsageCost": "17 RUB / kWh",
     "AddressInfo": {
         "ID": 192919,
-        "Title": "GREEN DRIVE. Pullman",
+        "Title": "Green Drive Парковка отеля Pullman",
         "AddressLine1": "г.Сочи, Центральный район, ул.Орджоникидзе, д.11, парковка отеля Pullman",
         "Town": "Сочи",
         "CountryID": 185,
         "Latitude": 43.57714639968239,
         "Longitude": 39.72541228169962,
         "ContactTelephone1": "+7 800 775-81-87",
+        "ContactTelephone2": "+74991120910",
         "RelatedURL": "http://www.green-drive.net",
         "DistanceUnit": 0
     },
@@ -25,7 +44,7 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -34,7 +53,7 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -49,9 +68,8 @@
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Станция быстрой зарядки электромобилей мощностью DC 120 кВт (CCS Combo 2, CHADEMO) + AC 22 кВт Type 2 Mennekes\r\nг.Сочи, Центральный район, ул.Орджоникидзе, д.11, парковка отеля Pullman\r\nУправляется через Мобильное приложение Electro.cars (скачивание по QR коду).\r\nПарковка на время зарядки - бесплатная.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-15T08:38:00Z",
+    "DateLastStatusUpdate": "2023-01-25T07:08:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-13T07:21:00Z",
     "SubmissionStatusTypeID": 200

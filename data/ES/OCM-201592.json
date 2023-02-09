@@ -1,11 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-09-04T10:06:00Z",
+    "DateLastVerified": "2023-01-16T17:10:00Z",
     "ID": 201592,
     "UUID": "3428D89A-7D83-4947-95E1-DE04EC7A2CE2",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh DC>100kW  0,39€/kWh DC - 0,29€/kWh AC",
     "AddressInfo": {
         "ID": 201956,
         "Title": "REPSOL Espinosa",
@@ -14,8 +15,8 @@
         "Town": "Espinosa de los Caballeros",
         "StateOrProvince": "Castile and León",
         "CountryID": 210,
-        "Latitude": 41.009765754608765,
-        "Longitude": -4.665292483526514,
+        "Latitude": 41.01018209777112,
+        "Longitude": -4.665661575826789,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,16 +24,18 @@
             "ID": 336445,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 336446,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -45,9 +48,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-04T10:06:00Z",
+    "DateLastStatusUpdate": "2023-01-16T17:10:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-09-03T12:51:00Z",
     "SubmissionStatusTypeID": 200

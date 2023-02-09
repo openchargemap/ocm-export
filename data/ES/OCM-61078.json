@@ -1,10 +1,10 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-18T13:41:00Z",
+    "DateLastVerified": "2023-01-16T18:23:00Z",
     "ID": 61078,
     "UUID": "F552249D-6586-4673-94C5-EBC2C39C66C8",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 45,
     "UsageTypeID": 6,
     "AddressInfo": {
         "ID": 61424,
@@ -14,9 +14,10 @@
         "StateOrProvince": "Valladolid",
         "Postcode": "47008",
         "CountryID": 210,
-        "Latitude": 41.61289,
-        "Longitude": -4.72742,
+        "Latitude": 41.612835763192464,
+        "Longitude": -4.726607156305789,
         "ContactTelephone1": "+34 983213198",
+        "ContactTelephone2": "jgmartin@grupocobra.com",
         "ContactEmail": "jgmartin@grupocobra.com",
         "RelatedURL": "http://www.grupocobra.com/",
         "DistanceUnit": 0
@@ -24,16 +25,25 @@
     "Connections": [
         {
             "ID": 77635,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 77636,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 28,
+            "LevelID": 1,
+            "PowerKW": 2.3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 1,
     "GeneralComments": "Pedir activación del punto",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-18T13:41:00Z",
+    "DateLastStatusUpdate": "2023-01-16T18:23:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

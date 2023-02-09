@@ -1,20 +1,23 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T10:35:00Z",
+    "DateLastVerified": "2023-01-09T19:33:00Z",
     "ID": 198416,
     "UUID": "CAA54016-DA91-405D-88C1-79A25DA36429",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS22PSDE211312",
+    "DataProviderID": 1,
     "OperatorID": 213,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 198775,
         "Title": "LANNION-BOULEVARD LOUIS GUILLOU PARKING KERMARIA",
         "AddressLine1": "13 Boulevard Louis Guilloux 22300 Lannion",
+        "Town": "Lannion",
+        "StateOrProvince": "Bretagne",
+        "Postcode": "22300",
         "CountryID": 80,
         "Latitude": 48.727578,
         "Longitude": -3.456394,
         "AccessComments": "",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,21 +26,24 @@
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 331033,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "Conditions accès aux bornes dépendantes des accords et formules de votre EMSP",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:35:00Z",
+    "DateLastStatusUpdate": "2023-01-09T19:33:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2022-08-23T10:35:00Z",
     "SubmissionStatusTypeID": 100

@@ -1,15 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2017-11-04T14:05:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-26T01:39:00Z",
     "ID": 11675,
     "UUID": "D75CAEF5-2364-410A-8E68-F7A862FA33C6",
-    "DataProviderID": 15,
-    "DataProvidersReference": "18862",
-    "OperatorID": 26,
+    "DataProviderID": 1,
+    "OperatorID": 3542,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 11572,
-        "Title": "6370 Pioneer Street",
+        "Title": "RIDGEFIELD - COUNTRY CAFÉ",
         "AddressLine1": "6370 Pioneer Street",
         "Town": "Ridgefield",
         "StateOrProvince": "WA",
@@ -18,7 +17,7 @@
         "Latitude": 45.817513,
         "Longitude": -122.683575,
         "ContactTelephone1": "(360) 887-8201",
-        "RelatedURL": "http://carstations.com/18862",
+        "RelatedURL": "https://www.evcs.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,19 +25,33 @@
             "ID": 9011,
             "ConnectionTypeID": 1,
             "Reference": "J1772",
-            "LevelID": 2
+            "LevelID": 2,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 9161,
             "ConnectionTypeID": 2,
             "Reference": "CHADEMO",
             "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 353464,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2017-11-04T14:05:00Z",
+    "DateLastStatusUpdate": "2023-01-26T01:39:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2012-06-06T14:38:00Z",
     "SubmissionStatusTypeID": 100

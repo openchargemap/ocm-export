@@ -1,16 +1,18 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T10:35:00Z",
+    "DateLastVerified": "2023-01-09T19:32:00Z",
     "ID": 198492,
     "UUID": "A45E712F-AF4C-4EDC-A67C-AFDAC6F07CD2",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS22PSDE218011",
+    "DataProviderID": 1,
     "OperatorID": 213,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 198851,
         "Title": "PLEUMEUR BODOU - POLE PHOENIX",
-        "AddressLine1": "4 Crec H Beg 22560 Pleumeur-Bodou",
+        "AddressLine1": "4 Crec H Beg",
+        "Town": "Pleumeur-Bodou",
+        "StateOrProvince": "Bretagne",
+        "Postcode": "22560",
         "CountryID": 80,
         "Latitude": 48.784696,
         "Longitude": -3.517615,
@@ -22,12 +24,24 @@
             "ID": 331170,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
-            "CurrentTypeID": 10
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 352280,
+            "ConnectionTypeID": 26,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "GeneralComments": "Conditions accès aux bornes dépendantes des accords et formules de votre EMSP",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:35:00Z",
+    "DateLastStatusUpdate": "2023-01-09T19:32:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2022-08-23T10:35:00Z",
     "SubmissionStatusTypeID": 100

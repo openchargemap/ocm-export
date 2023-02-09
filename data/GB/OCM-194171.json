@@ -1,12 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-07-17T09:19:00Z",
+    "DateLastVerified": "2023-01-26T14:42:00Z",
     "ID": 194171,
     "UUID": "7FCE1344-7AA8-4D1C-9B96-A45837AF7013",
     "DataProviderID": 1,
     "OperatorID": 3492,
     "UsageTypeID": 4,
-    "UsageCost": "DC: £0.55/kWh AC: £0.39/kWh",
+    "UsageCost": "DC: £0.72/kWh AC: £0.56/kWh",
     "AddressInfo": {
         "ID": 194530,
         "Title": "Chestnut Avenue Retail Park",
@@ -23,34 +23,55 @@
         {
             "ID": 316277,
             "ConnectionTypeID": 33,
+            "Reference": "MER-UK-RTM0009-2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 75,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "75kW unit downrated to 50kW"
         },
         {
             "ID": 316278,
             "ConnectionTypeID": 2,
+            "Reference": "MER-UK-RTM0009-1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 75,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "75kW unit downrated to 50kW"
         },
         {
             "ID": 316279,
             "ConnectionTypeID": 25,
+            "Reference": "GB*MER*E000870*01",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "MER-UK-AD00204"
+        },
+        {
+            "ID": 354579,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*MER*E000870*02",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "MER-UK-AD00204"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-17T09:19:00Z",
+    "DateLastStatusUpdate": "2023-01-26T14:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-07-17T08:24:00Z",
     "SubmissionStatusTypeID": 200

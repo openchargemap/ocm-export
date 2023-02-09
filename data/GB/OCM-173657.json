@@ -1,11 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:10:00Z",
+    "DateLastVerified": "2023-01-10T22:24:00Z",
     "ID": 173657,
     "UUID": "B36AA71E-3A4A-4475-8F16-4B1EF0C083F3",
-    "DataProviderID": 18,
-    "DataProvidersReference": "c6160b0e7c84f3f6ed551013921d9778",
+    "DataProviderID": 1,
+    "OperatorID": 3605,
     "UsageTypeID": 1,
+    "UsageCost": "£0.75/kWh",
     "AddressInfo": {
         "ID": 174016,
         "Title": "Bridge Street",
@@ -16,34 +17,26 @@
         "Latitude": 52.075911,
         "Longitude": -4.158837,
         "AccessComments": "",
-        "RelatedURL": "http://www.clenerg-ev.com/",
+        "RelatedURL": "https://m.clenergy.online/charger-details?barcode=000376",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 266781,
             "ConnectionTypeID": 25,
-            "Reference": "Connector 1",
+            "Reference": "000376",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 266782,
-            "ConnectionTypeID": 25,
-            "Reference": "Connector 2",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:10:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-01-10T22:24:00Z",
     "MetadataValues": [
         {
             "ID": 8579,

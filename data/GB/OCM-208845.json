@@ -1,9 +1,10 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-21T13:07:00Z",
+    "DateLastVerified": "2023-01-04T14:12:00Z",
     "ID": 208845,
     "UUID": "62F8A5C7-954A-4C5C-87D8-DFC4ABF68F13",
     "DataProviderID": 1,
+    "OperatorID": 3578,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 209225,
@@ -15,13 +16,15 @@
         "CountryID": 1,
         "Latitude": 54.59970384875399,
         "Longitude": -5.946686602353452,
+        "ContactTelephone1": "02890 313031",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 347477,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "WN236*2",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -30,7 +33,8 @@
         {
             "ID": 347478,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "WN236*1",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -39,7 +43,8 @@
         {
             "ID": 347479,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "WN237*2",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -48,16 +53,17 @@
         {
             "ID": 347480,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "WN237*1",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-10-21T13:07:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-01-04T14:12:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-10-21T12:59:00Z",
     "SubmissionStatusTypeID": 200

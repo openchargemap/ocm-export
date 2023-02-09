@@ -1,9 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-06-02T14:15:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-12T11:53:00Z",
     "ID": 26045,
     "UUID": "3DE21DDD-6898-476D-B714-9A94E39D549A",
     "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 26391,
         "Title": "The Quay",
@@ -12,13 +13,23 @@
         "StateOrProvince": "County Down",
         "Postcode": "BT5 7DL",
         "CountryID": 1,
-        "Latitude": 54.5735,
-        "Longitude": -5.8434,
+        "Latitude": 54.573351228387935,
+        "Longitude": -5.843812478993414,
         "DistanceUnit": 0
     },
-    "Connections": [],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-06-02T14:15:00Z",
+    "Connections": [
+        {
+            "ID": 352454,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 210,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "StatusTypeID": 210,
+    "DateLastStatusUpdate": "2023-01-12T11:53:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2014-11-27T09:11:00Z",
     "SubmissionStatusTypeID": 100

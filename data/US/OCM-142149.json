@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:02:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-10T22:07:00Z",
     "ID": 142149,
     "UUID": "9ED1C40C-AF4E-4271-89B9-525BD4C6A805",
-    "DataProviderID": 2,
-    "DataProvidersReference": "96387",
+    "DataProviderID": 1,
     "OperatorID": 9,
     "UsageTypeID": 1,
+    "UsageCost": "$2.20/kWh",
     "AddressInfo": {
         "ID": 142501,
         "Title": "King of Prussia Service Plaza (Milepost 328.4 WB)",
@@ -36,16 +36,20 @@
         {
             "ID": 198225,
             "ConnectionTypeID": 2,
+            "Reference": "",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
             "PowerKW": 40,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "under repair"
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:02:00Z",
+    "DateLastStatusUpdate": "2023-01-10T22:07:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:17:00Z",
     "SubmissionStatusTypeID": 100

@@ -1,10 +1,9 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:09:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-31T19:21:00Z",
     "ID": 144855,
     "UUID": "724E0BEF-2C34-46D2-96D4-F18DD2A8E1C3",
-    "DataProviderID": 2,
-    "DataProvidersReference": "123768",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -27,9 +26,7 @@
             "ID": 201399,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -37,15 +34,24 @@
             "ID": 201400,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Voltage": 800,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 3
+        },
+        {
+            "ID": 352125,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "This is a single combined CHAdeMO/CCS charger"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:09:00Z",
+    "DateLastStatusUpdate": "2023-01-31T19:21:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:23:00Z",
     "SubmissionStatusTypeID": 100

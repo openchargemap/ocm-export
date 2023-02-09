@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-07T13:49:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-26T22:12:00Z",
     "ID": 105982,
     "UUID": "5790A01F-301E-45AC-82E5-99A6D157B440",
     "DataProviderID": 1,
     "OperatorID": 150,
     "OperatorsReference": "Shell Hucclecote - Gloucester",
     "UsageTypeID": 4,
-    "UsageCost": "£0.50 + £0.30/kWh",
+    "UsageCost": "£0.57 / kWh. Overstay £10 every 90 mins",
     "AddressInfo": {
         "ID": 106328,
         "Title": "MFG Shell Hucclecote",
@@ -24,7 +24,8 @@
         {
             "ID": 149235,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "Reference": "GP10242",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 36,
             "CurrentTypeID": 30,
@@ -33,7 +34,8 @@
         {
             "ID": 149236,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "Reference": "GP10242",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 36,
             "CurrentTypeID": 30,
@@ -42,7 +44,8 @@
         {
             "ID": 149237,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "Reference": "GP10242",
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -53,7 +56,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-07T13:49:00Z",
+    "DateLastStatusUpdate": "2023-01-26T22:12:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-06-13T09:32:00Z",
     "SubmissionStatusTypeID": 200

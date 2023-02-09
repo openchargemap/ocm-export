@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 36035,
+            "ChargePointID": 195468,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM195468/OCM-195468.orig.2022122313304875.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM195468/OCM-195468.thmb.2022122313304875.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2022-12-23T13:31:00Z"
+        },
+        {
             "ID": 33038,
             "ChargePointID": 195468,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM195468/OCM-195468.orig.2022082313235836.jpg",
@@ -18,7 +34,7 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-25T08:16:00Z",
+    "DateLastVerified": "2022-12-26T20:42:00Z",
     "ID": 195468,
     "UUID": "D1088FAE-78D6-412D-AD4D-93E3D37055D0",
     "DataProviderID": 1,
@@ -42,22 +58,24 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 400,
-            "Voltage": 1000,
-            "PowerKW": 240,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "The ABB DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW."
         },
         {
             "ID": 325536,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
-            "Amps": 400,
-            "Voltage": 1000,
-            "PowerKW": 180,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "The ABB DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW."
         },
         {
             "ID": 348072,
@@ -67,12 +85,37 @@
             "Amps": 200,
             "PowerKW": 80,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Siemens DC charger"
+        },
+        {
+            "ID": 351520,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 1000,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Siemens DC charger"
+        },
+        {
+            "ID": 351521,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 1000,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Siemens DC charger"
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-25T08:16:00Z",
+    "DateLastStatusUpdate": "2022-12-26T20:42:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-08-22T16:09:00Z",
     "SubmissionStatusTypeID": 200

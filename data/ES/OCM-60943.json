@@ -1,9 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-01-07T17:40:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-04T18:33:00Z",
     "ID": 60943,
     "UUID": "3CE6D78E-33CB-4939-A06C-41F44AD25E7F",
     "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 61289,
@@ -22,16 +23,17 @@
     "Connections": [
         {
             "ID": 77344,
-            "ConnectionTypeID": 28
-        },
-        {
-            "ID": 77345,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "Tarjeta ayuntamiento de Águilas",
     "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2020-01-07T17:40:00Z",
+    "DateLastStatusUpdate": "2023-02-04T18:33:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

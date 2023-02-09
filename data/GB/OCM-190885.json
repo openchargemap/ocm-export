@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-01-03T13:09:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-10T22:31:00Z",
     "ID": 190885,
     "UUID": "25196EFA-118C-4528-B020-3525F341F8D8",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3349,
     "UsageTypeID": 1,
-    "UsageCost": "42p/kwh",
+    "UsageCost": "£0.42/kWh",
     "AddressInfo": {
         "ID": 191244,
         "Title": "The Moody Cow",
@@ -20,17 +20,21 @@
     "Connections": [
         {
             "ID": 309613,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
+            "Reference": "08269",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
             "Quantity": 1,
             "Comments": "socket only "
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-03T13:09:00Z",
+    "DateLastStatusUpdate": "2023-01-10T22:31:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-12-31T13:04:00Z",
     "SubmissionStatusTypeID": 200

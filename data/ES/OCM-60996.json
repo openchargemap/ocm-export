@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-22T12:21:00Z",
     "ID": 60996,
     "UUID": "7B74D7DD-27E3-454C-AA89-996AAD0B85F3",
-    "DataProviderID": 27,
-    "DataProvidersReference": "283",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 45,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 61342,
         "Title": "Parking Plaza de la Concordia",
@@ -16,23 +16,24 @@
         "CountryID": 210,
         "Latitude": 39.427589,
         "Longitude": -0.469094,
-        "ContactTelephone1": "954 287 488",
-        "RelatedURL": "http://www.sevillatienesupunto.org",
+        "ContactTelephone1": "",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 77433,
-            "ConnectionTypeID": 28
-        },
-        {
-            "ID": 77434,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "Tarjeta MOVELE",
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-01-22T12:21:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,0 +1,79 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-02T19:03:00Z",
+    "ID": 212348,
+    "UUID": "27E94CAC-A15B-4F5F-87E1-117270222DE3",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-401335,PG-70638,veefil-12200220",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh,£0.28/kWh,£0.50/kWh",
+    "AddressInfo": {
+        "ID": 212728,
+        "Title": "Tesco Extra-Stevenage",
+        "AddressLine1": "The Forum",
+        "Town": "Stevenage",
+        "Postcode": "SG1 1ES",
+        "CountryID": 1,
+        "Latitude": 51.903927,
+        "Longitude": -0.205601,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 353490,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-401335",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Macy-Bret"
+        },
+        {
+            "ID": 353491,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70638",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Alec-Ford"
+        },
+        {
+            "ID": 354993,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200220",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Mery-Avri"
+        },
+        {
+            "ID": 354994,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200220",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Mery-Avri"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is an open charge unit installed at the Tesco Extra site in The Forum, Stevenage",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-02T19:03:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2023-01-14T06:22:00Z",
+    "SubmissionStatusTypeID": 200
+}

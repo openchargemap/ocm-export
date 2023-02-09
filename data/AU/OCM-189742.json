@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-11-02T09:09:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2022-12-22T23:39:00Z",
     "ID": 189742,
     "UUID": "7BF77223-C294-44D1-8C60-FEE70DE04C79",
     "DataProviderID": 1,
     "OperatorID": 3398,
     "UsageTypeID": 4,
-    "UsageCost": "$0.30 / kWh",
+    "UsageCost": "$0.60 / kWh",
     "AddressInfo": {
         "ID": 190101,
         "Title": "Heatherton Road",
@@ -17,6 +17,7 @@
         "CountryID": 18,
         "Latitude": -37.97128123711468,
         "Longitude": 145.2236965774951,
+        "ContactTelephone1": "1300 463 843",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,14 +26,24 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 450,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 351507,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-02T09:09:00Z",
+    "DateLastStatusUpdate": "2022-12-22T23:39:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-11-01T06:29:00Z",
     "SubmissionStatusTypeID": 200

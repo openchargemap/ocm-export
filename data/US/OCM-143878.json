@@ -1,11 +1,10 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:08:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-26T04:42:00Z",
     "ID": 143878,
     "UUID": "C24B0C3B-69E6-4802-AB62-D73CA7327906",
-    "DataProviderID": 2,
-    "DataProvidersReference": "65867",
-    "OperatorID": 3373,
+    "DataProviderID": 1,
+    "OperatorID": 3542,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 144230,
@@ -15,11 +14,11 @@
         "StateOrProvince": "OR",
         "Postcode": "97365",
         "CountryID": 2,
-        "Latitude": 44.632443,
-        "Longitude": -124.055347,
+        "Latitude": 44.632786571356206,
+        "Longitude": -124.05557766547761,
         "ContactTelephone1": "888-833-2148",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://www.evsolutions.com/ev-network",
+        "RelatedURL": "https://www.evcs.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,9 +26,7 @@
             "ID": 200293,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7.2,
             "CurrentTypeID": 10,
             "Quantity": 1
         },
@@ -37,15 +34,22 @@
             "ID": 200294,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 352149,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:08:00Z",
+    "DateLastStatusUpdate": "2023-01-26T04:42:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:22:00Z",
     "SubmissionStatusTypeID": 100

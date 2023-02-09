@@ -75,15 +75,15 @@
             "DateCreated": "2015-08-20T11:14:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-02-07T06:14:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-01-25T09:25:00Z",
     "ID": 20264,
     "UUID": "6CE493BA-1B47-45E0-9220-3370364A124F",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1016,1017",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.56/kWh",
     "AddressInfo": {
         "ID": 20609,
         "Title": "Corley Welcome Break M6 (S) Services",
@@ -95,49 +95,76 @@
         "CountryID": 1,
         "Latitude": 52.47233635,
         "Longitude": -1.54775251235368,
-        "ContactTelephone1": "01453 761455",
+        "ContactTelephone1": "",
         "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "RelatedURL": "http://www.ecotricity.co.uk/for-the-road/our-electric-highway",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 20010,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10259*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 34535,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 34536,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10259*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
+            "Amps": 150,
+            "Voltage": 900,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 354345,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10259*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 354346,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10260*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 354347,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10260*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-02-07T06:14:00Z",
+    "DateLastStatusUpdate": "2023-01-25T09:25:00Z",
     "MetadataValues": [
         {
             "ID": 373,
