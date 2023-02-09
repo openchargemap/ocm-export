@@ -1,50 +1,51 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-24T05:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-09T09:47:00Z",
     "ID": 173136,
     "UUID": "6EE7DDFB-BF38-4162-AB4F-D6C89D6E5B3D",
     "DataProviderID": 19,
     "DataProvidersReference": "7295",
     "AddressInfo": {
         "ID": 173495,
-        "Title": "BKK Hurtigladestasjon Rema 1000 Tjøme",
+        "Title": "Rema 1000 Tjøme",
         "AddressLine1": "Haugsveien 5",
         "Town": "TJØME",
         "StateOrProvince": "Vestfold og Telemark",
         "Postcode": "3145",
         "CountryID": 168,
-        "Latitude": 59.12118,
-        "Longitude": 10.40059,
+        "Latitude": 59.12115,
+        "Longitude": 10.400164,
         "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 265274,
+            "ConnectionTypeID": 25,
+            "Reference": "7",
+            "LevelID": 3,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
+        },
+        {
+            "ID": 265275,
             "ConnectionTypeID": 2,
-            "Reference": "1",
+            "Reference": "2",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 265275,
-            "ConnectionTypeID": 33,
-            "Reference": "2",
             "Comments": "Mode 4"
         },
         {
             "ID": 265276,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "Reference": "3",
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
         {
@@ -55,8 +56,13 @@
         },
         {
             "ID": 265278,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
             "Reference": "5",
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
         {
@@ -66,9 +72,8 @@
             "Comments": "Mode 4"
         }
     ],
-    "NumberOfPoints": 6,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-03-24T05:11:00Z",
+    "NumberOfPoints": 7,
+    "DateLastStatusUpdate": "2023-02-09T09:47:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2021-03-03T09:01:00Z",
     "SubmissionStatusTypeID": 100

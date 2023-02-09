@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-24T05:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-09T09:48:00Z",
     "ID": 156952,
     "UUID": "618EF233-908B-420E-B6B7-FD4D99B82097",
     "DataProviderID": 19,
@@ -13,8 +13,8 @@
         "StateOrProvince": "Rogaland",
         "Postcode": "4200",
         "CountryID": 168,
-        "Latitude": 59.65109,
-        "Longitude": 6.35235,
+        "Latitude": 59.651068,
+        "Longitude": 6.352346,
         "AccessComments": "",
         "DistanceUnit": 0
     },
@@ -54,8 +54,19 @@
         },
         {
             "ID": 223323,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 25,
             "Reference": "4",
+            "LevelID": 3,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
+        },
+        {
+            "ID": 223324,
+            "ConnectionTypeID": 33,
+            "Reference": "5",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -64,19 +75,8 @@
             "Comments": "Mode 4"
         },
         {
-            "ID": 223324,
-            "ConnectionTypeID": 33,
-            "Reference": "5",
-            "LevelID": 3,
-            "Amps": 375,
-            "Voltage": 400,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 4"
-        },
-        {
             "ID": 223325,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
             "Reference": "6",
             "LevelID": 3,
             "Amps": 100,
@@ -87,19 +87,8 @@
         },
         {
             "ID": 223326,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 2,
             "Reference": "7",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 223327,
-            "ConnectionTypeID": 33,
-            "Reference": "8",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -108,13 +97,24 @@
             "Comments": "Mode 4"
         },
         {
+            "ID": 223327,
+            "ConnectionTypeID": 33,
+            "Reference": "8",
+            "LevelID": 3,
+            "Amps": 375,
+            "Voltage": 400,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
+        },
+        {
             "ID": 223328,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "Reference": "9",
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
+            "Amps": 375,
+            "Voltage": 400,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
@@ -134,9 +134,9 @@
             "ConnectionTypeID": 33,
             "Reference": "11",
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
+            "Amps": 375,
+            "Voltage": 400,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
@@ -153,8 +153,7 @@
         }
     ],
     "NumberOfPoints": 12,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-03-24T05:11:00Z",
+    "DateLastStatusUpdate": "2023-02-09T09:48:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-05-26T08:23:00Z",
     "SubmissionStatusTypeID": 100

@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-24T05:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-09T09:52:00Z",
     "ID": 157278,
     "UUID": "63B494D9-F304-4A52-8323-82DFA2EF7315",
     "DataProviderID": 19,
@@ -21,19 +21,8 @@
     "Connections": [
         {
             "ID": 226389,
-            "ConnectionTypeID": 33,
-            "Reference": "1",
-            "LevelID": 3,
-            "Amps": 375,
-            "Voltage": 400,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 226390,
             "ConnectionTypeID": 2,
-            "Reference": "2",
+            "Reference": "1",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -42,13 +31,24 @@
             "Comments": "Mode 4"
         },
         {
-            "ID": 226391,
+            "ID": 226390,
             "ConnectionTypeID": 33,
-            "Reference": "3",
+            "Reference": "2",
             "LevelID": 3,
             "Amps": 375,
             "Voltage": 400,
             "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 226391,
+            "ConnectionTypeID": 2,
+            "Reference": "3",
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
@@ -65,23 +65,23 @@
         },
         {
             "ID": 226393,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
             "Reference": "5",
             "LevelID": 3,
-            "Amps": 375,
-            "Voltage": 400,
-            "PowerKW": 150,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
         {
             "ID": 226394,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "Reference": "6",
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
+            "Amps": 375,
+            "Voltage": 400,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
@@ -98,19 +98,18 @@
         },
         {
             "ID": 226396,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "Reference": "8",
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
+            "Amps": 375,
+            "Voltage": 400,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Comments": "Mode 4"
         }
     ],
     "NumberOfPoints": 8,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-03-24T05:12:00Z",
+    "DateLastStatusUpdate": "2023-02-09T09:52:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-05-26T08:25:00Z",
     "SubmissionStatusTypeID": 100

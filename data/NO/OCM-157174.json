@@ -1,20 +1,20 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-03-24T05:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-09T09:50:00Z",
     "ID": 157174,
     "UUID": "1417615C-8097-4B9B-AF13-B0EEF00FBFC2",
     "DataProviderID": 19,
     "DataProvidersReference": "6051",
     "AddressInfo": {
         "ID": 157528,
-        "Title": "Esso Vigra",
+        "Title": "Recharge Esso Vigra",
         "AddressLine1": "Nørestranda 43",
         "Town": "VIGRA",
         "StateOrProvince": "Møre og Romsdal",
         "Postcode": "6040",
         "CountryID": 168,
-        "Latitude": 62.53255,
-        "Longitude": 6.12368,
+        "Latitude": 62.532097,
+        "Longitude": 6.122983,
         "AccessComments": "",
         "DistanceUnit": 0
     },
@@ -43,8 +43,30 @@
         },
         {
             "ID": 225741,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
             "Reference": "3",
+            "LevelID": 3,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
+        },
+        {
+            "ID": 225742,
+            "ConnectionTypeID": 25,
+            "Reference": "4",
+            "LevelID": 3,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
+        },
+        {
+            "ID": 225743,
+            "ConnectionTypeID": 33,
+            "Reference": "5",
             "LevelID": 3,
             "Amps": 375,
             "Voltage": 400,
@@ -53,42 +75,19 @@
             "Comments": "Mode 4"
         },
         {
-            "ID": 225742,
+            "ID": 225744,
             "ConnectionTypeID": 2,
-            "Reference": "4",
+            "Reference": "6",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Comments": "Mode 4"
-        },
-        {
-            "ID": 225743,
-            "ConnectionTypeID": 25,
-            "Reference": "5",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 225744,
-            "ConnectionTypeID": 25,
-            "Reference": "6",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 3"
         }
     ],
     "NumberOfPoints": 6,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-03-24T05:12:00Z",
+    "DateLastStatusUpdate": "2023-02-09T09:50:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-05-26T08:25:00Z",
     "SubmissionStatusTypeID": 100
