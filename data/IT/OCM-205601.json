@@ -1,6 +1,41 @@
 {
+    "UserComments": [
+        {
+            "ID": 28237,
+            "ChargePointID": 205601,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "4 CCS Combo 2 da 300 kW (o forse una o tutte da 150 kW, non si sa :-)). Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnine-enel-x-hpc-150kw-via-caselle-s-lazzaro-di-savena-t27691.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-enel-x-hpc-150kw-via-caselle-s-lazzaro-di-savena-t27691.html",
+            "DateCreated": "2023-03-06T06:38:30.557Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 140,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 36870,
+            "ChargePointID": 205601,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM205601/OCM-205601.orig.2023030606383882.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM205601/OCM-205601.thmb.2023030606383882.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-03-06T06:39:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-06T07:59:00Z",
+    "DateLastVerified": "2023-03-06T06:39:00Z",
     "ID": 205601,
     "UUID": "26C84900-22A3-4B69-9C97-0BE506EB1D92",
     "DataProviderID": 1,
@@ -8,7 +43,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 205970,
-        "Title": "Via Caselle",
+        "Title": "Ewiva Caselle ",
         "AddressLine1": "Via Caselle 77",
         "Town": "San Lazzaro di Savena",
         "StateOrProvince": "Emilia-Romagna",
@@ -16,6 +51,7 @@
         "CountryID": 112,
         "Latitude": 44.47715326457373,
         "Longitude": 11.41637157289722,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-enel-x-hpc-150kw-via-caselle-s-lazzaro-di-savena-t27691.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,23 +59,15 @@
             "ID": 343204,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 300,
-            "Quantity": 2
-        },
-        {
-            "ID": 343205,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-10-06T07:59:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-06T06:39:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-10-06T07:59:00Z",
     "SubmissionStatusTypeID": 200

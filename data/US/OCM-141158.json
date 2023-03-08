@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:00:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:20:00Z",
     "ID": 141158,
     "UUID": "CF043212-ABB1-4271-AD18-BC99B9C8047A",
     "DataProviderID": 2,
@@ -8,33 +8,43 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 141510,
-        "Title": "University of California - Davis",
+        "Title": "University of California - Davis - Gateway Parking Structure",
         "AddressLine1": "Hilgard Ln",
         "Town": "Davis",
         "StateOrProvince": "CA",
         "Postcode": "95616",
         "CountryID": 2,
-        "Latitude": 38.532506,
-        "Longitude": -121.750085,
+        "Latitude": 38.533127,
+        "Longitude": -121.749398,
         "ContactTelephone1": "530-752-8277",
-        "AccessComments": "24 hours daily; pay lot; permit required 7am-10pm M-F",
+        "AccessComments": "24 hours daily; pay lot; parking permit required; Drivers must bring their own J1772 cordset for Level 1 charging",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 197006,
+            "ConnectionTypeID": 11,
+            "LevelID": 1,
+            "Amps": 16,
+            "Voltage": 120,
+            "PowerKW": 1.9,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 374819,
             "ConnectionTypeID": 1,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 10
+            "Quantity": 14
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:00:00Z",
+    "DateLastStatusUpdate": "2023-03-07T05:20:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:14:00Z",
     "SubmissionStatusTypeID": 100

@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-10T19:16:00Z",
     "ID": 61051,
     "UUID": "A0C663F3-C203-4DDB-B4A1-3FC3365D4941",
-    "DataProviderID": 27,
-    "DataProvidersReference": "218",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 61397,
         "Title": "Parking Nuevos Ministerios",
@@ -14,8 +14,8 @@
         "StateOrProvince": "Madrid",
         "Postcode": "28046",
         "CountryID": 210,
-        "Latitude": 40.447269,
-        "Longitude": -3.691702,
+        "Latitude": 40.447020889481365,
+        "Longitude": -3.6918882782811124,
         "ContactTelephone1": "+34 915 97 01 99",
         "ContactEmail": "publicidad@comfersa.com",
         "RelatedURL": "http://www.comfersa.es/",
@@ -24,19 +24,25 @@
     "Connections": [
         {
             "ID": 77580,
-            "ConnectionTypeID": 25
-        },
-        {
-            "ID": 77581,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 77582,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "Pedir tarjeta al encargado",
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-10T19:16:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,22 +1,21 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-11-21T08:42:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-19T09:39:00Z",
     "ID": 170220,
     "UUID": "522F160C-4A4A-46F1-A6FC-B371A023732D",
     "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 5,
-    "UsageCost": "",
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 170579,
-        "Title": "Hemlock Drive",
-        "AddressLine1": "Hemlock Drive",
+        "Title": "Mobile - Cadillac",
+        "AddressLine1": "2560 E. Division St",
         "Town": "Cadillac",
         "StateOrProvince": "MI",
         "Postcode": "49601",
         "CountryID": 2,
-        "Latitude": 44.253045220514565,
-        "Longitude": -85.3644411601739,
+        "Latitude": 44.251593108411726,
+        "Longitude": -85.36461550177427,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,7 +24,8 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 62.5,
+            "Amps": 200,
+            "PowerKW": 125,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
@@ -34,14 +34,16 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-11-21T08:42:00Z",
+    "DateLastStatusUpdate": "2023-02-19T09:39:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-11-20T14:56:00Z",
     "SubmissionStatusTypeID": 200

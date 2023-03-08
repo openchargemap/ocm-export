@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-02-28T20:28:00Z",
     "ID": 167099,
     "UUID": "817CC886-3122-43CD-9155-A6DEB2BC7E12",
-    "DataProviderID": 18,
-    "DataProvidersReference": "1b36a7ba1bc3c917d710d5cef8c83a02",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00446",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 167458,
         "Title": "2 Little Field",
@@ -17,23 +18,26 @@
         "Latitude": 52.420912,
         "Longitude": -1.479637,
         "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "RelatedURL": "https://char.gy/00446",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 253013,
             "ConnectionTypeID": 25,
-            "Reference": "00446",
+            "Reference": "GB*CGY*E*00446",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T20:28:00Z",
     "MetadataValues": [
         {
             "ID": 7856,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-08-27T08:10:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:08:00Z",
+    "DateLastVerified": "2023-02-28T15:30:00Z",
     "ID": 173509,
     "UUID": "699AB3F3-1D3D-4822-913A-2911394DC29D",
-    "DataProviderID": 18,
-    "DataProvidersReference": "35d0c0e834682f3a9f85f75e3ac3695f",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00583",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 173868,
         "Title": "Forsyth Gardens",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 51.483461,
         "Longitude": -0.101755,
-        "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "J Permit Holders Only: Mon - Fri, 08:30 - 18:30",
+        "RelatedURL": "https://char.gy/00583",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 266566,
             "ConnectionTypeID": 25,
-            "Reference": "00583",
+            "Reference": "GB*CGY*E*00583",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 5.1,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:08:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T15:30:00Z",
     "MetadataValues": [
         {
             "ID": 8431,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-03-03T11:25:00Z",
     "SubmissionStatusTypeID": 100
 }

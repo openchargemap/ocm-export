@@ -1,40 +1,41 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:07:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:49:00Z",
     "ID": 111078,
     "UUID": "895022BB-A5D9-4094-A99A-80217C707657",
     "DataProviderID": 2,
     "DataProvidersReference": "88687",
+    "OperatorID": 3372,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 111424,
-        "Title": "YMCA",
+        "Title": "YMCA Markham",
         "AddressLine1": "101 YMCA Blvd",
-        "Town": "Markham",
+        "Town": "Unionville",
         "StateOrProvince": "ON",
         "Postcode": "L6G 0A1",
         "CountryID": 44,
-        "Latitude": 43.852599,
-        "Longitude": -79.310815,
-        "ContactTelephone1": "905-513-9622",
-        "AccessComments": "24 hours daily; for client use only",
-        "RelatedURL": "",
+        "Latitude": 43.852443,
+        "Longitude": -79.310817,
+        "ContactTelephone1": "866-816-7584",
+        "AccessComments": "",
+        "RelatedURL": "http://evconnect.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 156433,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 156434,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 32,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
@@ -53,7 +54,8 @@
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:07:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:49:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100

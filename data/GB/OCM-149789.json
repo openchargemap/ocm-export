@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-06T02:22:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-06T12:46:00Z",
     "ID": 149789,
     "UUID": "8292428D-A6C0-47D1-B322-8349B87E06F7",
     "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "36p per kWh with credit or debit card (contactless)",
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 150142,
         "Title": "The Oyster Bed Pub & Restaurant",
@@ -16,16 +17,15 @@
         "CountryID": 1,
         "Latitude": 51.35964,
         "Longitude": 1.06229,
-        "ContactTelephone1": "441143030140",
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 207964,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00191-3",
+            "Reference": "GB*OSP*EOSP00191*3",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -37,7 +37,7 @@
         {
             "ID": 207965,
             "ConnectionTypeID": 2,
-            "Reference": "ENG00191-2",
+            "Reference": "GB*OSP*EOSP00191*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -49,7 +49,7 @@
         {
             "ID": 207966,
             "ConnectionTypeID": 33,
-            "Reference": "ENG00191-1",
+            "Reference": "GB*OSP*EOSP00191*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -61,7 +61,7 @@
     ],
     "GeneralComments": "Engenie rapid chargers AC is s 22kW Socket",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-06T02:22:00Z",
+    "DateLastStatusUpdate": "2023-03-06T12:46:00Z",
     "MetadataValues": [
         {
             "ID": 7050,
@@ -69,7 +69,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-03-05T14:22:00Z",
     "SubmissionStatusTypeID": 100
 }

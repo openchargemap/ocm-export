@@ -1,15 +1,31 @@
 {
+    "UserComments": [
+        {
+            "ID": 28223,
+            "ChargePointID": 210966,
+            "CommentTypeID": 10,
+            "UserName": "Winston37",
+            "Rating": 5,
+            "DateCreated": "2023-03-02T14:36:32.77Z",
+            "User": {
+                "ID": 44971,
+                "Username": "Winston37"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-26T19:13:00Z",
+    "DateLastVerified": "2023-03-05T21:50:00Z",
     "ID": 210966,
     "UUID": "A506DDBC-9C8C-4ADB-9031-2C1D27E047FE",
     "DataProviderID": 1,
     "OperatorID": 3592,
     "UsageTypeID": 4,
-    "UsageCost": "15 р/кВт ",
+    "UsageCost": "17 р/кВт ",
     "AddressInfo": {
         "ID": 211346,
-        "Title": "тц Крейсер",
+        "Title": "ТЦ Крейсер",
         "AddressLine1": "проспект Ленина",
         "AddressLine2": "Ленинский район",
         "Town": "Владимир",
@@ -27,7 +43,8 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
+            "Amps": 150,
+            "Voltage": 1000,
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -37,7 +54,8 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Voltage": 400,
+            "Amps": 150,
+            "Voltage": 1000,
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -47,23 +65,27 @@
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
             "ID": 351657,
-            "ConnectionTypeID": 1,
+            "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 36,
             "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-26T19:13:00Z",
+    "DateLastStatusUpdate": "2023-03-05T21:50:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-12-26T19:02:00Z",
     "SubmissionStatusTypeID": 200

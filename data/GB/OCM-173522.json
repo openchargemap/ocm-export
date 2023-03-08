@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:08:00Z",
+    "DateLastVerified": "2023-02-28T15:30:00Z",
     "ID": 173522,
     "UUID": "8826C574-AA76-48E6-8E1F-F571707EBA89",
-    "DataProviderID": 18,
-    "DataProvidersReference": "d9c1f12818a167b0a76fed5e79e2b986",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00596",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 173881,
         "Title": "155 Brook Drive",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 51.49355,
         "Longitude": -0.104555,
-        "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "C2 Resident Permit Holders: Mon - Fri, 08:30 - 18:30",
+        "RelatedURL": "https://char.gy/00596",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 266581,
             "ConnectionTypeID": 25,
-            "Reference": "00596",
+            "Reference": "GB*CGY*E*00596",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:08:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T15:30:00Z",
     "MetadataValues": [
         {
             "ID": 8444,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-03-03T11:25:00Z",
     "SubmissionStatusTypeID": 100
 }

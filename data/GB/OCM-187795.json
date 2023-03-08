@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:10:00Z",
+    "DateLastVerified": "2023-02-28T15:30:00Z",
     "ID": 187795,
     "UUID": "0339A353-D6C2-408A-99C5-06743307A0EB",
-    "DataProviderID": 18,
-    "DataProvidersReference": "75b4af0dacbc119eadf4eeb096738405",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*01107",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 188154,
         "Title": "Essex Engineering Works",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 51.582902,
         "Longitude": 0.027407,
-        "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "Resident Permit Holders - WD - Mon-Fri 08:30-18:30",
+        "RelatedURL": "https://char.gy/01107",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 303051,
             "ConnectionTypeID": 25,
-            "Reference": "01107",
+            "Reference": "GB*CGY*E*01107",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 5.3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:10:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T15:30:00Z",
     "MetadataValues": [
         {
             "ID": 20035,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
     "SubmissionStatusTypeID": 100
 }

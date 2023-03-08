@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-02-28T15:22:00Z",
     "ID": 136671,
     "UUID": "9F5EA399-B1A0-4CBA-9500-AE2F6EBEC589",
-    "DataProviderID": 18,
-    "DataProvidersReference": "35bdc623f69673e500105a8cece93321",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00373",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 137017,
         "Title": "Opp 41 Quinton Road",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 52.397131,
         "Longitude": -1.508304,
-        "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "CE Permit Holders Only, Mon - Sat 08:00 - 18:00 OR 2 hours, No Return Within 4 hours",
+        "RelatedURL": "https://char.gy/00373",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191209,
             "ConnectionTypeID": 25,
-            "Reference": "00373",
+            "Reference": "GB*CGY*E*00373",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-02-28T15:22:00Z",
     "MetadataValues": [
         {
             "ID": 6523,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2019-12-24T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

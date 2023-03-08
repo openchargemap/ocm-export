@@ -1,15 +1,15 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:10:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T06:00:00Z",
     "ID": 111672,
     "UUID": "26B760C2-ECC5-4273-A0A3-7F0AFB057A38",
     "DataProviderID": 2,
     "DataProvidersReference": "84231",
-    "UsageTypeID": 2,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 112018,
         "Title": "Pharmacie des Eboulements",
-        "AddressLine1": "2409 Rte du Fleuve",
+        "AddressLine1": "2190 Rte du Fleuve",
         "Town": "Les Eboulements",
         "StateOrProvince": "QC",
         "Postcode": "G0A 2M0",
@@ -17,23 +17,24 @@
         "Latitude": 47.480625,
         "Longitude": -70.314991,
         "ContactTelephone1": "",
-        "AccessComments": "For employee use only",
-        "RelatedURL": "",
+        "AccessComments": "24 hours daily",
+        "RelatedURL": "https://addenergietechnologies.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 157149,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:10:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T06:00:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2018-10-18T23:37:00Z",
     "SubmissionStatusTypeID": 100

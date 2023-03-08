@@ -1,12 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-11T10:11:00Z",
+    "DateLastVerified": "2023-03-02T07:44:00Z",
     "ID": 205164,
     "UUID": "E8948394-6DEC-44E3-9C66-C4C08B97636B",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,60€/kWh DC >60kW - 0,50€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,65€/kWh >150kW - 0,55€/kWh >60kW - 0,45€/kWh DC - 0,39€/kWh AC ",
     "AddressInfo": {
         "ID": 205531,
         "Title": "McDonalds Ciudad de la imagen",
@@ -25,11 +25,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 500,
+            "Amps": 200,
             "Voltage": 1000,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Starcharge Titan180. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         },
         {
             "ID": 342540,
@@ -38,7 +39,8 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Circutor Raption50 Charger"
         },
         {
             "ID": 342541,
@@ -61,7 +63,7 @@
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-11T10:11:00Z",
+    "DateLastStatusUpdate": "2023-03-02T07:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-10-03T14:06:00Z",
     "SubmissionStatusTypeID": 200

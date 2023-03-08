@@ -1,12 +1,47 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-10-03T22:08:00Z",
+    "UserComments": [
+        {
+            "ID": 28238,
+            "ChargePointID": 97873,
+            "CommentTypeID": 10,
+            "UserName": "Itakey",
+            "Comment": "",
+            "DateCreated": "2023-03-06T09:33:26.51Z",
+            "User": {
+                "ID": 45021,
+                "Username": "Itakey"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 36872,
+            "ChargePointID": 97873,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM97873/OCM-97873.orig.2023030609350086.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM97873/OCM-97873.thmb.2023030609350086.jpg",
+            "Comment": "free charge but have to pay parking.",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 45021,
+                "Username": "Itakey"
+            },
+            "DateCreated": "2023-03-06T09:35:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-06T10:57:00Z",
     "ID": 97873,
     "UUID": "31D2D29A-8D03-4556-9F95-640F7EE03A46",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "39793",
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
+    "UsageCost": "free, parking fee.",
     "AddressInfo": {
         "ID": 98219,
         "Title": "Parking Chardonney",
@@ -14,9 +49,10 @@
         "Town": "Champorcher",
         "Postcode": "11020",
         "CountryID": 112,
-        "Latitude": 45.621361,
-        "Longitude": 7.607194,
+        "Latitude": 45.62148618810525,
+        "Longitude": 7.6071409826683976,
         "ContactTelephone1": "+39 012 537 106",
+        "AccessComments": "first floor underground, pubblic parking, parking fee, free charge.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -32,10 +68,10 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 7kW.Available to the public. Self park.",
+    "NumberOfPoints": 3,
+    "GeneralComments": "3 Tesla Connectors, up to 7kW.Available to the public. Self park.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-10-03T22:08:00Z",
+    "DateLastStatusUpdate": "2023-03-06T10:57:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2018-01-21T16:52:00Z",
     "SubmissionStatusTypeID": 200

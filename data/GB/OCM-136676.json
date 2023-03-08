@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-02-28T15:29:00Z",
     "ID": 136676,
     "UUID": "2D12BC8B-39D5-44B9-B745-6F30D5B94C1A",
-    "DataProviderID": 18,
-    "DataProvidersReference": "501510c9ce823d6f2d88e8de67085f66",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00326",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 137022,
         "Title": "33 Earlsdon Ave South",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 52.397674,
         "Longitude": -1.527995,
-        "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "EV charging only: 06:00 - 22:00, 4 hours no return within 4 hours",
+        "RelatedURL": "https://char.gy/00326",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191214,
             "ConnectionTypeID": 25,
-            "Reference": "00326",
+            "Reference": "GB*CGY*E*00326",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "PowerKW": 22.2,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T15:29:00Z",
     "MetadataValues": [
         {
             "ID": 6528,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2019-12-24T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

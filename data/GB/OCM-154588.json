@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:07:00Z",
+    "DateLastVerified": "2023-02-28T15:28:00Z",
     "ID": 154588,
     "UUID": "92A1BC4C-1521-4753-B000-B10D7DC202D3",
-    "DataProviderID": 18,
-    "DataProvidersReference": "83c421f4a8828f7035a933ca8acf744b",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00041",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 154941,
         "Title": "Carver Street",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 51.453818,
         "Longitude": -0.098476,
-        "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "HH Resident Permit Holders: Mon - Fri, Noon - 14:00",
+        "RelatedURL": "https://char.gy/00041",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 217443,
             "ConnectionTypeID": 25,
-            "Reference": "00041",
+            "Reference": "GB*CGY*E*00041",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 5.1,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:07:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T15:28:00Z",
     "MetadataValues": [
         {
             "ID": 7141,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-03-17T08:15:00Z",
     "SubmissionStatusTypeID": 100
 }

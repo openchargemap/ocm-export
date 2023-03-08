@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-09T08:14:00Z",
+    "DateLastVerified": "2023-03-06T12:58:00Z",
     "ID": 201161,
     "UUID": "EBEC9109-E1E7-45EC-A6B8-A6DE46389858",
-    "DataProviderID": 18,
-    "DataProvidersReference": "a6cd3550e6ba71f30f2db15a5d971c9c",
+    "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 201520,
         "Title": "2650 Great Western Road, Clydebank, G81 2XT",
@@ -17,14 +18,14 @@
         "Latitude": 55.91193,
         "Longitude": -4.39147,
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 335447,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00062-3",
+            "Reference": "GB*OSP*EOSP00062*3",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -35,7 +36,7 @@
         {
             "ID": 335448,
             "ConnectionTypeID": 2,
-            "Reference": "OSP20010-2",
+            "Reference": "GB*OSP*EOSP20010*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -46,7 +47,7 @@
         {
             "ID": 335449,
             "ConnectionTypeID": 1036,
-            "Reference": "OSP20010-3",
+            "Reference": "GB*OSP*EOSP20010*3",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -55,7 +56,8 @@
             "CurrentTypeID": 30
         }
     ],
-    "DateLastStatusUpdate": "2023-02-09T08:14:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-06T12:58:00Z",
     "MetadataValues": [
         {
             "ID": 21582,
@@ -63,7 +65,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2022-08-23T11:12:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-06-26T21:09:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-03T16:23:00Z",
     "ID": 193578,
     "UUID": "E1DC66C0-81F5-4731-9412-D8DBC13FC88B",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 5,
-    "UsageCost": "15 RUB/kWh",
+    "UsageCost": "19 RUB/kWh",
     "AddressInfo": {
         "ID": 193937,
         "Title": "E-WAY 50kW Рынок на Студёной",
@@ -26,7 +26,9 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 1000,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -35,6 +37,8 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -42,7 +46,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-06-26T21:09:00Z",
+    "DateLastStatusUpdate": "2023-03-03T16:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-06-23T21:04:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-10-04T03:09:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-06T12:45:00Z",
     "ID": 167127,
     "UUID": "405B68E0-6B22-4C03-97FD-107744BEBCC5",
     "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "£0.36/kWh Contactless",
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 167486,
         "Title": "Skipton High Street Car Park",
@@ -16,16 +17,15 @@
         "CountryID": 1,
         "Latitude": 53.9623,
         "Longitude": -2.01436,
-        "ContactTelephone1": "03300 101 757",
         "AccessComments": "Parking Charges: Mon - Sun 9am-6pm  Up to 1 Hour £1.20 Up to 2 Hours £2.30 Up to 3 Hours £3.50, Up to 4 Hours £4.50",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 253086,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00212-3",
+            "Reference": "GB*OSP*EOSP00212*3",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -37,7 +37,7 @@
         {
             "ID": 253087,
             "ConnectionTypeID": 2,
-            "Reference": "ENG00212-2",
+            "Reference": "GB*OSP*EOSP00212*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -49,7 +49,7 @@
         {
             "ID": 253088,
             "ConnectionTypeID": 33,
-            "Reference": "ENG00212-1",
+            "Reference": "GB*OSP*EOSP00212*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -61,7 +61,7 @@
     ],
     "GeneralComments": "2 Engenie rapid chargers AC is a 22kw Socket https://engenie.co.uk/ev-drivers/.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-04T03:09:00Z",
+    "DateLastStatusUpdate": "2023-03-06T12:45:00Z",
     "MetadataValues": [
         {
             "ID": 7884,
@@ -69,7 +69,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-08-27T08:10:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,6 +1,6 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-09T09:48:00Z",
+    "DateLastVerified": "2023-03-07T08:31:00Z",
     "ID": 215285,
     "UUID": "F138D495-13FA-4061-86A8-3A026B3D41BC",
     "DataProviderID": 19,
@@ -13,8 +13,8 @@
         "StateOrProvince": "VÄRMLAND",
         "Postcode": "66594",
         "CountryID": 216,
-        "Latitude": 59.52152,
-        "Longitude": 13.22775,
+        "Latitude": 59.521507,
+        "Longitude": 13.227745,
         "AccessComments": "",
         "DistanceUnit": 0
     },
@@ -22,7 +22,7 @@
         {
             "ID": 360388,
             "ConnectionTypeID": 2,
-            "Reference": "1",
+            "Reference": "4",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -32,7 +32,7 @@
         },
         {
             "ID": 360389,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "Reference": "2",
             "LevelID": 3,
             "Amps": 100,
@@ -43,8 +43,19 @@
         },
         {
             "ID": 360390,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 25,
             "Reference": "3",
+            "LevelID": 3,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
+        },
+        {
+            "ID": 360391,
+            "ConnectionTypeID": 33,
+            "Reference": "5",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -53,20 +64,30 @@
             "Comments": "Mode 4"
         },
         {
-            "ID": 360391,
-            "ConnectionTypeID": 25,
-            "Reference": "4",
+            "ID": 402843,
+            "ConnectionTypeID": 2,
+            "Reference": "6",
             "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Comments": "Mode 3"
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 402844,
+            "ConnectionTypeID": 33,
+            "Reference": "7",
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
         }
     ],
-    "NumberOfPoints": 4,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2023-02-09T09:48:00Z",
+    "NumberOfPoints": 7,
+    "DateLastStatusUpdate": "2023-03-07T08:31:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2023-02-09T09:48:00Z",
     "SubmissionStatusTypeID": 100

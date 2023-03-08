@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-02-28T20:27:00Z",
     "ID": 136674,
     "UUID": "EBB90156-8072-4842-98FC-196AB024C102",
-    "DataProviderID": 18,
-    "DataProvidersReference": "993df254b9a406be5ce596a1a8113b4c",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00360",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 137020,
         "Title": "82 Mickleton Road",
@@ -17,23 +18,26 @@
         "Latitude": 52.39762,
         "Longitude": -1.524388,
         "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "RelatedURL": "https://char.gy/00360",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191212,
             "ConnectionTypeID": 25,
-            "Reference": "00360",
+            "Reference": "GB*CGY*E*00360",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T20:27:00Z",
     "MetadataValues": [
         {
             "ID": 6526,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2019-12-24T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

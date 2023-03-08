@@ -1,15 +1,15 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-07-29T23:30:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-03T08:32:00Z",
     "ID": 194083,
     "UUID": "058E2A81-66E4-4435-A74C-8132CB9AB7D1",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.25 / kWh + $0.25 / minute",
+    "UsageCost": "$0.85 / kWh",
     "AddressInfo": {
         "ID": 194442,
-        "Title": "Bulls (Library Carpark)",
+        "Title": "Bulls Community Centre",
         "AddressLine1": "7 Criterion Street",
         "Town": "Bulls",
         "StateOrProvince": "Manawatu-Wanganui",
@@ -25,7 +25,7 @@
         {
             "ID": 316103,
             "ConnectionTypeID": 33,
-            "Reference": "THDN1",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -35,17 +35,35 @@
         {
             "ID": 316104,
             "ConnectionTypeID": 2,
-            "Reference": "THDN1",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 391876,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 391877,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-29T23:30:00Z",
+    "DateLastStatusUpdate": "2023-03-03T08:32:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-07-13T06:56:00Z",
     "SubmissionStatusTypeID": 200

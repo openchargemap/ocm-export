@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:00:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:21:00Z",
     "ID": 67205,
     "UUID": "D0C05EBC-577B-4928-996F-CB239FA7D465",
     "DataProviderID": 2,
@@ -16,8 +16,8 @@
         "CountryID": 2,
         "Latitude": 38.733819,
         "Longitude": -77.771631,
-        "ContactTelephone1": "540-347-1234",
-        "AccessComments": "Service center use only",
+        "ContactTelephone1": "",
+        "AccessComments": "Service center use only; Drivers must bring their own J1772 cordset for Level 1 charging",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
@@ -31,9 +31,20 @@
             "PowerKW": 1.9,
             "CurrentTypeID": 10,
             "Quantity": 3
+        },
+        {
+            "ID": 375097,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:00:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:21:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2016-05-29T02:04:00Z",
     "SubmissionStatusTypeID": 100

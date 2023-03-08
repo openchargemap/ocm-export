@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:07:00Z",
+    "DateLastVerified": "2023-02-28T20:29:00Z",
     "ID": 173501,
     "UUID": "4C9A417C-F4F2-46A5-B216-FB0EBEDFC9AE",
-    "DataProviderID": 18,
-    "DataProvidersReference": "6aa0ab5b874b35bb21f89136ee1e8175",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00555",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 173860,
         "Title": "3 Desenfans Road",
@@ -17,23 +18,26 @@
         "Latitude": 51.450529,
         "Longitude": -0.082988,
         "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "RelatedURL": "https://char.gy/00555",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 266555,
             "ConnectionTypeID": 25,
-            "Reference": "00555",
+            "Reference": "GB*CGY*E*00555",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 5.1,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:07:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T20:29:00Z",
     "MetadataValues": [
         {
             "ID": 8423,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-03-03T11:25:00Z",
     "SubmissionStatusTypeID": 100
 }

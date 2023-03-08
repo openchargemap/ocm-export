@@ -1,14 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:06:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:44:00Z",
     "ID": 91495,
     "UUID": "50056616-3FA7-4EB8-BEBE-025CE4252931",
     "DataProviderID": 2,
     "DataProvidersReference": "73803",
-    "UsageTypeID": 7,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 91841,
-        "Title": "Pocatello Nissan Kia",
+        "Title": "Cole Nissan Kia",
         "AddressLine1": "1900 Flandro Dr",
         "Town": "Pocatello",
         "StateOrProvince": "ID",
@@ -17,13 +17,23 @@
         "Latitude": 42.909627,
         "Longitude": -112.450552,
         "ContactTelephone1": "208-232-1062",
-        "AccessComments": "Dealership business hours\r\nPublic - Call ahead",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 129665,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 129666,
             "ConnectionTypeID": 2,
             "LevelID": 3,
             "Amps": 100,
@@ -33,27 +43,18 @@
             "Quantity": 1
         },
         {
-            "ID": 129666,
-            "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
             "ID": 149069,
             "ConnectionTypeID": 32,
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
             "PowerKW": 40,
-            "CurrentTypeID": 10,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:06:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:44:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2017-08-03T12:25:00Z",
     "SubmissionStatusTypeID": 100

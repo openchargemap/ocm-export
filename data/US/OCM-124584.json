@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:01:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:23:00Z",
     "ID": 124584,
     "UUID": "DA0AF824-2325-47C9-BBC3-4F8A5D23C329",
     "DataProviderID": 2,
     "DataProvidersReference": "50680",
     "OperatorID": 107,
-    "UsageTypeID": 2,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 124930,
         "Title": "United States Naval Academy",
@@ -17,7 +17,7 @@
         "CountryID": 2,
         "Latitude": 38.987765,
         "Longitude": -76.497598,
-        "ContactTelephone1": "",
+        "ContactTelephone1": "855-885-9571",
         "AccessComments": "",
         "RelatedURL": "http://www.opconnect.com/",
         "DistanceUnit": 0
@@ -25,13 +25,13 @@
     "Connections": [
         {
             "ID": 174701,
-            "ConnectionTypeID": 9,
-            "LevelID": 1,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
             "Amps": 16,
-            "Voltage": 120,
-            "PowerKW": 1.9,
+            "Voltage": 230,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 4
         },
         {
             "ID": 174702,
@@ -44,7 +44,8 @@
             "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:01:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:23:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100

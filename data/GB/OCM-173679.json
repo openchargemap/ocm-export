@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-03-06T12:45:00Z",
     "ID": 173679,
     "UUID": "2B01917E-1299-4450-AA0B-ED16AA0DA5BE",
-    "DataProviderID": 18,
-    "DataProvidersReference": "c74573a0e64196d5d5d568313889d239",
+    "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 174038,
         "Title": "Grayswood Avenue",
@@ -17,14 +18,14 @@
         "Latitude": 52.41275,
         "Longitude": -1.54801,
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 266813,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00485-3",
+            "Reference": "GB*OSP*EOSP00485*3",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -35,7 +36,7 @@
         {
             "ID": 266814,
             "ConnectionTypeID": 2,
-            "Reference": "ENG00485-2",
+            "Reference": "GB*OSP*EOSP00485*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -46,7 +47,7 @@
         {
             "ID": 266815,
             "ConnectionTypeID": 1036,
-            "Reference": "ENG00485-1",
+            "Reference": "GB*OSP*EOSP00485*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -55,7 +56,8 @@
             "CurrentTypeID": 30
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-06T12:45:00Z",
     "MetadataValues": [
         {
             "ID": 8601,
@@ -63,7 +65,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-03-03T11:25:00Z",
     "SubmissionStatusTypeID": 100
 }

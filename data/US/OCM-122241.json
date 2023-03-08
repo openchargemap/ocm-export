@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T02:56:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:06:00Z",
     "ID": 122241,
     "UUID": "5941301F-A687-42BE-A47F-524249A5F1B4",
     "DataProviderID": 2,
     "DataProvidersReference": "68859",
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 122587,
         "Title": "City of Suwanee",
@@ -17,20 +17,20 @@
         "Latitude": 34.055372,
         "Longitude": -84.06375,
         "ContactTelephone1": "770-945-8996",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "24 hours daily; Google Pay\r\nPublic - Credit card at all times",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 172115,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 172116,
@@ -43,7 +43,8 @@
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T02:56:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:06:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-06T05:02:00Z",
     "SubmissionStatusTypeID": 100

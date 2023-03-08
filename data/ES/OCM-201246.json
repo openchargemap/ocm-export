@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 36643,
+            "ChargePointID": 201246,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201246/OCM-201246.orig.2023021522093058.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201246/OCM-201246.thmb.2023021522093058.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-02-15T22:10:00Z"
+        },
+        {
             "ID": 33325,
             "ChargePointID": 201246,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201246/OCM-201246.orig.2022082808373090.jpg",
@@ -18,7 +34,7 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-26T20:47:00Z",
+    "DateLastVerified": "2023-02-20T18:15:00Z",
     "ID": 201246,
     "UUID": "AE39D46B-A1C2-4701-A7CB-3BDCCF3CA4DB",
     "DataProviderID": 1,
@@ -48,7 +64,7 @@
             "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "The ABB DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW"
+            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited for 400V cars"
         },
         {
             "ID": 335646,
@@ -60,7 +76,7 @@
             "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "The ABB DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW"
+            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited for 400V cars"
         },
         {
             "ID": 335647,
@@ -71,8 +87,8 @@
             "Voltage": 1000,
             "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Two Siemens DC Chargers"
+            "Quantity": 1,
+            "Comments": "Siemens Charger. Shares the power with the Chademo outlet. (max power limited for 400V cars)"
         },
         {
             "ID": 335648,
@@ -82,13 +98,13 @@
             "Amps": 200,
             "PowerKW": 80,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Two Siemens DC Chargers"
+            "Quantity": 1,
+            "Comments": "Siemens DC Charger"
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 6,
     "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-12-26T20:47:00Z",
+    "DateLastStatusUpdate": "2023-02-20T18:15:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-08-25T09:01:00Z",
     "SubmissionStatusTypeID": 200

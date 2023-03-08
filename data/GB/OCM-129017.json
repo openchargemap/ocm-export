@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-07-10T21:44:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-28T20:26:00Z",
     "ID": 129017,
     "UUID": "9F7A318C-0A6E-4ECB-80EB-2F991F3009E4",
     "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
-    "UsageCost": "£0.33/kWh; other tariffs available",
+    "OperatorsReference": "GB*CGY*E*00246",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 129363,
         "Title": "Mount Nugent",
@@ -16,26 +17,27 @@
         "CountryID": 1,
         "Latitude": 51.72337,
         "Longitude": -0.620754,
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "",
+        "RelatedURL": "https://char.gy/00246",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 180600,
             "ConnectionTypeID": 25,
-            "Reference": "char.gy/00246",
+            "Reference": "GB*CGY*E*00246",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 5.1,
             "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-07-10T21:44:00Z",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-02-28T20:26:00Z",
     "MetadataValues": [
         {
             "ID": 4763,
@@ -43,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2019-07-10T14:20:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,22 +1,23 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-10-05T20:53:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-03T16:23:00Z",
     "ID": 189474,
     "UUID": "B38DAEC8-CEC8-48E6-B889-E4008C351972",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 189833,
         "Title": "Парк Швейцария",
         "AddressLine1": "проспект Гагарина 66",
-        "Town": "Nizhny Novgorod",
-        "StateOrProvince": "Nizhny Novgorod Oblast",
+        "Town": "Нижний Новгород",
+        "StateOrProvince": "",
         "Postcode": "603104",
         "CountryID": 185,
         "Latitude": 56.28302950887084,
         "Longitude": 43.98047513637508,
-        "AccessComments": "ЭЗС-DС/AC ФОРА 50/22кВт Россети центр и приволжье. Активировать станцию можно через приложение \"Фора\".",
+        "AccessComments": "Активация любой RFID картой",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,29 +26,49 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
-            "Quantity": 1
+            "CurrentTypeID": 20,
+            "Quantity": 3
         },
         {
             "ID": 306459,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 306460,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 391909,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.6,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-05T20:53:00Z",
+    "DateLastStatusUpdate": "2023-03-03T16:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-10-02T20:49:00Z",
     "SubmissionStatusTypeID": 200

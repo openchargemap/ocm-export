@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T02:58:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:14:00Z",
     "ID": 123573,
     "UUID": "B0AE0E73-6325-44AB-8B9A-1945D9FF0E27",
     "DataProviderID": 2,
@@ -9,31 +9,32 @@
     "AddressInfo": {
         "ID": 123919,
         "Title": "Villa Appalaccia Winery",
-        "AddressLine1": "752 Rock Castle Gorge",
+        "AddressLine1": "752 Rock Castle Gorge Rd",
         "Town": "Floyd",
         "StateOrProvince": "VA",
         "Postcode": "24091",
         "CountryID": 2,
-        "Latitude": 36.801673,
-        "Longitude": -80.370996,
+        "Latitude": 36.79849,
+        "Longitude": -80.373918,
         "ContactTelephone1": "540-593-3100",
-        "AccessComments": "11am-5pm M-F, 11am-6pm Sat, 12pm-4:30pm Sun",
+        "AccessComments": "11am-5pm M-F, 11am-6pm Sat, 12pm-4:30pm Sun; Drivers must bring their own J1772 cordset for Level 1 charging",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 173576,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
+            "ConnectionTypeID": 9,
+            "LevelID": 1,
             "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Voltage": 120,
+            "PowerKW": 1.9,
             "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T02:58:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:14:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100

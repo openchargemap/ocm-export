@@ -1,10 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:06:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:41:00Z",
     "ID": 42023,
     "UUID": "F1EE69B0-9FA8-4C33-B658-EB9ED9ED71F8",
     "DataProviderID": 2,
     "DataProvidersReference": "65681",
+    "OperatorID": 3619,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 42369,
@@ -18,19 +19,19 @@
         "Longitude": -72.729866,
         "ContactTelephone1": "413-268-7901",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "",
+        "RelatedURL": "https://ampup.io/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 50400,
-            "ConnectionTypeID": 22,
-            "LevelID": 1,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
             "Amps": 16,
-            "Voltage": 120,
-            "PowerKW": 1.9,
+            "Voltage": 230,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 4
         },
         {
             "ID": 50401,
@@ -43,7 +44,8 @@
             "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:06:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:41:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2015-02-23T02:10:00Z",
     "SubmissionStatusTypeID": 100

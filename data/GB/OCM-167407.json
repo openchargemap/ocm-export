@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:08:00Z",
+    "DateLastVerified": "2023-02-28T15:29:00Z",
     "ID": 167407,
     "UUID": "6B317EF8-EBA8-43DB-8BA0-A393431E2978",
-    "DataProviderID": 18,
-    "DataProvidersReference": "690e4fce2cedf93c535e7dc259f7f259",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00515",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 167766,
         "Title": "28 Liverpool Grove",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 51.486165,
         "Longitude": -0.092671,
-        "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "M2 Resident Permit Holders: Mon - Fri 08:30 - 18:30",
+        "RelatedURL": "https://char.gy/00515",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 253556,
             "ConnectionTypeID": 25,
-            "Reference": "00515",
+            "Reference": "GB*CGY*E*00515",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 5.1,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:08:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T15:29:00Z",
     "MetadataValues": [
         {
             "ID": 7948,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-09-08T02:47:00Z",
     "SubmissionStatusTypeID": 100
 }

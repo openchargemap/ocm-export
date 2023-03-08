@@ -1,50 +1,72 @@
 {
+    "UserComments": [
+        {
+            "ID": 28225,
+            "ChargePointID": 157852,
+            "CommentTypeID": 10,
+            "UserName": "Celso Azevedo",
+            "Comment": "While public, this charger/spot is only for \"e-Taxis\". If you have a normal car, you might get a penalty charge.",
+            "DateCreated": "2023-03-02T19:56:35.267Z",
+            "User": {
+                "ID": 36388,
+                "Username": "Celso Azevedo"
+            },
+            "CheckinStatusTypeID": 200,
+            "IsActionedByEditor": false
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:08:00Z",
+    "DateLastVerified": "2023-03-03T17:03:00Z",
     "ID": 157852,
     "UUID": "2E475804-0632-4895-82E7-E6CD09BF8543",
-    "DataProviderID": 18,
-    "DataProvidersReference": "bbac73489b26653f6067219f44a7df04",
+    "DataProviderID": 1,
     "OperatorID": 32,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 158206,
-        "Title": "Stockwell Road",
-        "AddressLine1": "Stockwell Road",
+        "Title": "Morant House (e-TAXIS only)",
+        "AddressLine1": "25 Stockwell Road",
         "Town": "London",
+        "StateOrProvince": "England",
         "Postcode": "SW9 9AA",
         "CountryID": 1,
-        "Latitude": 51.471146,
-        "Longitude": -0.121199,
+        "Latitude": 51.47113,
+        "Longitude": -0.12122,
         "AccessComments": "",
-        "RelatedURL": "https://www.bpchargemaster.com",
+        "RelatedURL": "https://www.bppulse.co.uk/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 227459,
-            "ConnectionTypeID": 2,
-            "Reference": "1",
+            "ConnectionTypeID": 33,
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 227460,
             "ConnectionTypeID": 2,
-            "Reference": "2",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 391921,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:08:00Z",
+    "GeneralComments": "Taxis/black cabs ONLY. Penalty Charge for other cars.",
+    "DateLastStatusUpdate": "2023-03-03T17:03:00Z",
     "MetadataValues": [
         {
             "ID": 7385,

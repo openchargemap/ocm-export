@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:12:00Z",
+    "DateLastVerified": "2023-03-06T12:45:00Z",
     "ID": 149808,
     "UUID": "53F4A1BB-DD62-4A49-8C92-CC8CE6459C82",
-    "DataProviderID": 18,
-    "DataProvidersReference": "54131750400c405b83bf61f22889371f",
+    "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 150161,
         "Title": "Spott Road",
@@ -17,14 +18,14 @@
         "Latitude": 55.98873,
         "Longitude": -2.51199,
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 208011,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00160-3",
+            "Reference": "GB*OSP*EOSP00160*3",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -35,7 +36,7 @@
         {
             "ID": 208012,
             "ConnectionTypeID": 2,
-            "Reference": "ENG00160-2",
+            "Reference": "GB*OSP*EOSP00160*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -46,7 +47,7 @@
         {
             "ID": 208013,
             "ConnectionTypeID": 1036,
-            "Reference": "ENG00160-1",
+            "Reference": "GB*OSP*EOSP00160*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -55,7 +56,8 @@
             "CurrentTypeID": 30
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:12:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-06T12:45:00Z",
     "MetadataValues": [
         {
             "ID": 7069,
@@ -63,7 +65,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-03-05T14:22:00Z",
     "SubmissionStatusTypeID": 100
 }

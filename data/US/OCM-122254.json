@@ -1,10 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T02:56:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:06:00Z",
     "ID": 122254,
     "UUID": "FFEDCA8A-0FAA-409C-9667-820357881EEA",
     "DataProviderID": 2,
     "DataProvidersReference": "63052",
+    "OperatorID": 3618,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 122600,
@@ -14,11 +15,11 @@
         "StateOrProvince": "CA",
         "Postcode": "90012",
         "CountryID": 2,
-        "Latitude": 34.059816,
-        "Longitude": -118.24936,
+        "Latitude": 34.060148,
+        "Longitude": -118.250747,
         "ContactTelephone1": "213-972-7211  323-267-2023",
         "AccessComments": "Garage business hours; pay lot; keypad activated, instructions on EVSE",
-        "RelatedURL": "",
+        "RelatedURL": "https://www.powerflex.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,10 +31,21 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 40
+        },
+        {
+            "ID": 371176,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T02:56:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:06:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-06T05:02:00Z",
     "SubmissionStatusTypeID": 100

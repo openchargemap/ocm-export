@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:08:00Z",
+    "DateLastVerified": "2023-02-28T15:30:00Z",
     "ID": 173515,
     "UUID": "59AA3CD5-C8A8-424C-86DA-BFA736103B96",
-    "DataProviderID": 18,
-    "DataProvidersReference": "71a8ad2060e607c12c8c3c50013eafc9",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00552",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 173874,
         "Title": "28 Berryfield Road",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 51.488468,
         "Longitude": -0.1011,
-        "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "E Permit Holders Only: Mon - Fri, 08:30 - 18:30",
+        "RelatedURL": "https://char.gy/00552",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 266572,
             "ConnectionTypeID": 25,
-            "Reference": "00552",
+            "Reference": "GB*CGY*E*00552",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 4.8,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:08:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T15:30:00Z",
     "MetadataValues": [
         {
             "ID": 8437,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-03-03T11:25:00Z",
     "SubmissionStatusTypeID": 100
 }

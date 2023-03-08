@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:04:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:35:00Z",
     "ID": 28571,
     "UUID": "34CF6502-D82E-461F-BC30-863C5A058B2E",
     "DataProviderID": 2,
@@ -9,31 +9,42 @@
     "AddressInfo": {
         "ID": 28917,
         "Title": "Glenn Research Center",
-        "AddressLine1": "21000 Brookpark Rd",
+        "AddressLine1": "5577 Taylor Rd",
         "Town": "Cleveland",
         "StateOrProvince": "OH",
         "Postcode": "44135",
         "CountryID": 2,
-        "Latitude": 41.418719,
-        "Longitude": -81.854476,
+        "Latitude": 41.412789,
+        "Longitude": -81.864656,
         "ContactTelephone1": "",
-        "AccessComments": "Also accessible through chip keys",
+        "AccessComments": "Drivers must bring their own J1772 cordset for Level 1 charging; Also accessible through chip keys",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 31393,
+            "ConnectionTypeID": 22,
+            "LevelID": 1,
+            "Amps": 16,
+            "Voltage": 120,
+            "PowerKW": 1.9,
+            "CurrentTypeID": 10,
+            "Quantity": 5
+        },
+        {
+            "ID": 379187,
             "ConnectionTypeID": 1,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 3
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:04:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:35:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2014-11-28T03:38:00Z",
     "SubmissionStatusTypeID": 100

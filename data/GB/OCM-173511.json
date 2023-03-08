@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:08:00Z",
+    "DateLastVerified": "2023-02-28T20:29:00Z",
     "ID": 173511,
     "UUID": "3A82A711-288F-4C37-9AFF-2D03E9CE5714",
-    "DataProviderID": 18,
-    "DataProvidersReference": "fc61d0a773fcc42b8fe6a8a6297fbce4",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00574",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 173870,
         "Title": "Varcoe Road",
@@ -17,23 +18,26 @@
         "Latitude": 51.485331,
         "Longitude": -0.057211,
         "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "RelatedURL": "https://char.gy/00574",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 266568,
             "ConnectionTypeID": 25,
-            "Reference": "00574",
+            "Reference": "GB*CGY*E*00574",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 5.1,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:08:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T20:29:00Z",
     "MetadataValues": [
         {
             "ID": 8433,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-03-03T11:25:00Z",
     "SubmissionStatusTypeID": 100
 }

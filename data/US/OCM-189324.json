@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-09-20T08:33:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-21T14:44:00Z",
     "ID": 189324,
     "UUID": "73DA3224-D34F-4D39-967C-304A40F08126",
     "DataProviderID": 1,
@@ -9,13 +9,16 @@
     "UsageCost": "$0.43/kWh; other tariffs available",
     "AddressInfo": {
         "ID": 189683,
-        "Title": "Meijers",
+        "Title": "Meijer - Bay City",
         "AddressLine1": "2980 Wilder Road",
         "Town": "Bay City",
         "StateOrProvince": "MI",
+        "Postcode": "48706",
         "CountryID": 2,
         "Latitude": 43.6229258349172,
         "Longitude": -83.9320463174646,
+        "ContactTelephone1": "833-632-2778",
+        "RelatedURL": "https://www.electrifyamerica.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,9 +28,11 @@
             "Reference": "110070-03",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 306152,
@@ -35,6 +40,8 @@
             "Reference": "110070-01",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -45,9 +52,11 @@
             "Reference": "110070-02",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 306154,
@@ -55,6 +64,8 @@
             "Reference": "110070-01",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
             "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -65,14 +76,16 @@
             "Reference": "110070-04",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-20T08:33:00Z",
+    "DateLastStatusUpdate": "2023-02-21T14:44:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-09-20T03:31:00Z",
     "SubmissionStatusTypeID": 200

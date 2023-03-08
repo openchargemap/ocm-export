@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T02:56:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:02:00Z",
     "ID": 120902,
     "UUID": "5CEFC994-8E2C-4521-9C3F-D94DCEFFC2D8",
     "DataProviderID": 2,
@@ -9,14 +9,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 121248,
-        "Title": "GEORGIA POWER",
+        "Title": "GEORGIA POWER EPICENTER DC",
         "AddressLine1": "135 Riverside Pkwy",
         "Town": "Austell",
         "StateOrProvince": "GA",
         "Postcode": "30168",
         "CountryID": 2,
-        "Latitude": 33.771546,
-        "Longitude": -84.55754,
+        "Latitude": 33.771288,
+        "Longitude": -84.558434,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,17 +25,17 @@
     "Connections": [
         {
             "ID": 170305,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 170306,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 32,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
@@ -54,7 +54,8 @@
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T02:56:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:02:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-01T04:59:00Z",
     "SubmissionStatusTypeID": 100

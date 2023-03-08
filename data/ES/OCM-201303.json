@@ -18,13 +18,13 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-06T17:35:00Z",
+    "DateLastVerified": "2023-03-02T07:38:00Z",
     "ID": 201303,
     "UUID": "6512E1FC-D78C-46E6-A6AB-5AE18F27A478",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,60€/kWh",
+    "UsageCost": "0,65€/kWh >150kW - 0,55€/kWh >60kW - 0,45€/kWh DC - 0,39€/kWh AC ",
     "AddressInfo": {
         "ID": 201666,
         "Title": "Guarromán Endesa",
@@ -47,24 +47,26 @@
             "Voltage": 1000,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "XCharge C9LQ350 DC charger allows charging one vehicle at 350kW, or two simultaneous charges splitting the total power. First CCS2 connector (500A) up to 350kW, second CCS connector (200A) up to 120kW. (max power is limited for 400V cars)"
         },
         {
             "ID": 335776,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 500,
+            "Amps": 200,
             "Voltage": 1000,
             "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 8,
     "GeneralComments": "Four 350 kW chargers with double CCS outlet. Power is split between both outlets",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-06T17:35:00Z",
+    "DateLastStatusUpdate": "2023-03-02T07:38:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-08-26T14:01:00Z",
     "SubmissionStatusTypeID": 200

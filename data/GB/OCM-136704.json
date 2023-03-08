@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-02-28T20:26:00Z",
     "ID": 136704,
     "UUID": "34B7A121-71A7-4313-9422-4121A1693EE6",
-    "DataProviderID": 18,
-    "DataProvidersReference": "0379b86902c34a9281d793eafea993bb",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00300",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 137050,
         "Title": "Opp 5 Byfield Rd",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 52.418093,
         "Longitude": -1.54141,
-        "AccessComments": "Corner of Byfield Road and Southbank Road",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "",
+        "RelatedURL": "https://char.gy/00300",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191245,
             "ConnectionTypeID": 25,
-            "Reference": "00300",
+            "Reference": "GB*CGY*E*00300",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T20:26:00Z",
     "MetadataValues": [
         {
             "ID": 6556,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2019-12-24T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,30 +1,31 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-09T08:14:00Z",
+    "DateLastVerified": "2023-03-06T12:57:00Z",
     "ID": 201143,
     "UUID": "805C32D3-64EF-46F3-9165-E02CFD7AA630",
-    "DataProviderID": 18,
-    "DataProvidersReference": "970457cbb97508ef7dd348b6f987498d",
+    "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 201502,
         "Title": "Allison St",
-        "AddressLine1": "Allison St",
+        "AddressLine1": "Allison Street",
         "Town": "Ayr",
         "Postcode": "KA8 8HD",
         "CountryID": 1,
         "Latitude": 55.46836,
         "Longitude": -4.62754,
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 335411,
             "ConnectionTypeID": 2,
-            "Reference": "OSP20013-1",
+            "Reference": "GB*OSP*EOSP20013*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -35,7 +36,7 @@
         {
             "ID": 335412,
             "ConnectionTypeID": 1036,
-            "Reference": "OSP20013-2",
+            "Reference": "GB*OSP*EOSP20013*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 190,
@@ -44,7 +45,8 @@
             "CurrentTypeID": 30
         }
     ],
-    "DateLastStatusUpdate": "2023-02-09T08:14:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-06T12:57:00Z",
     "MetadataValues": [
         {
             "ID": 21564,
@@ -52,7 +54,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2022-08-23T11:12:00Z",
     "SubmissionStatusTypeID": 100
 }

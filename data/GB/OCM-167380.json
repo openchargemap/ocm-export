@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:08:00Z",
+    "DateLastVerified": "2023-02-28T15:29:00Z",
     "ID": 167380,
     "UUID": "6ED388EE-0FF1-441E-BAB5-EC31D1EAC46F",
-    "DataProviderID": 18,
-    "DataProvidersReference": "45369390df76f18317cba08340e5d684",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00506",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 167739,
         "Title": "10 Malfort Road",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 51.465872,
         "Longitude": -0.08024,
-        "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "Q Permit Holders Only: Mon - Fri : 11:00 - 13:00",
+        "RelatedURL": "https://char.gy/00506",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 253498,
             "ConnectionTypeID": 25,
-            "Reference": "00506",
+            "Reference": "GB*CGY*E*00506",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 5.1,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:08:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T15:29:00Z",
     "MetadataValues": [
         {
             "ID": 7921,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-09-08T02:47:00Z",
     "SubmissionStatusTypeID": 100
 }

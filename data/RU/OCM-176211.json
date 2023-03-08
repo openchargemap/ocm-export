@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-10-05T20:53:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-03T16:23:00Z",
     "ID": 176211,
     "UUID": "D408B3F3-98DF-463E-9C5E-32A03B68F77C",
     "DataProviderID": 1,
@@ -9,7 +9,7 @@
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 176570,
-        "Title": "BERLUTI Nijni Novgorod Luxury Store",
+        "Title": "Нижневолжская набережная",
         "AddressLine1": "пл. Маркина, 15Б",
         "Town": "Нижний Новгород",
         "StateOrProvince": "Нижегородская область",
@@ -17,26 +17,59 @@
         "CountryID": 185,
         "Latitude": 56.329121186141606,
         "Longitude": 43.986032187353885,
-        "ContactTelephone1": "+7 925 771-11-79",
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 273841,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 75,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 391910,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 391911,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 3
+        },
+        {
+            "ID": 391912,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.6,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "RewattSmartCharge. ЭЗС, сделанная компанией Rewatt для МРСК Центра",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2021-10-05T20:53:00Z",
+    "GeneralComments": "Активация любой RFID картой",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-03T16:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-06-30T20:06:00Z",
     "SubmissionStatusTypeID": 200

@@ -160,15 +160,14 @@
             "DateCreated": "2013-11-08T20:45:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-08T12:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-05T22:03:00Z",
     "ID": 19451,
     "UUID": "D992BDEA-8C74-4D6A-AA22-412A6E9E6B18",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1082,1083",
     "UsageTypeID": 5,
-    "UsageCost": "Free,£0.30/kWh",
     "AddressInfo": {
         "ID": 19796,
         "Title": "IKEA Croydon",
@@ -178,12 +177,9 @@
         "StateOrProvince": "Surrey",
         "Postcode": "CR0 4UZ",
         "CountryID": 1,
-        "Latitude": 51.37986115,
-        "Longitude": -0.123811245980222,
-        "ContactTelephone1": "",
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
-        "AccessComments": "Charges may apply - refer to the owner of the parking bay for details.",
-        "RelatedURL": "",
+        "Latitude": 51.38089709640915,
+        "Longitude": -0.12358752513720385,
+        "RelatedURL": "https://electrichighway.gridserve.com/ikea-croydon",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -192,9 +188,7 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 920,
-            "PowerKW": 120,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -203,17 +197,23 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 500,
-            "PowerKW": 100,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 392298,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "",
     "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2021-07-08T12:39:00Z",
+    "DateLastStatusUpdate": "2023-03-05T22:03:00Z",
     "MetadataValues": [
         {
             "ID": 63,

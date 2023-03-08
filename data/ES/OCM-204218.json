@@ -1,12 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-26T20:48:00Z",
+    "DateLastVerified": "2023-02-28T18:18:00Z",
     "ID": 204218,
     "UUID": "8214C168-575C-4D3A-86E3-3A4C0B70EE5F",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,60€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,65€/kWh >150kW - 0,55€/kWh >60kW - 0,45€/kWh DC - 0,39€/kWh AC ",
     "AddressInfo": {
         "ID": 204585,
         "Title": "Luz Shoping Endesa",
@@ -14,8 +14,8 @@
         "StateOrProvince": "Andalucía",
         "Postcode": "11404",
         "CountryID": 210,
-        "Latitude": 36.69456588345997,
-        "Longitude": -6.157131034315768,
+        "Latitude": 36.69430164482769,
+        "Longitude": -6.157088601828775,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,11 +28,23 @@
             "Voltage": 1000,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage per socket 200A   (max power limited for 400V cars)"
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         },
         {
             "ID": 341242,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+        },
+        {
+            "ID": 391469,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -43,8 +55,8 @@
     ],
     "NumberOfPoints": 10,
     "GeneralComments": "Cada cargador DC permite cargar un vehículo a 150kW, o bien dos cargas simultáneas a 75kW de potencia. Amperaje máximo 200A (potencia máxima limitada para vehículos de 400V",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-12-26T20:48:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T18:18:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-09-26T09:59:00Z",
     "SubmissionStatusTypeID": 200

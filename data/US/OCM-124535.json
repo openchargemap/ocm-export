@@ -1,23 +1,23 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:00:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:21:00Z",
     "ID": 124535,
     "UUID": "570D5881-9E7A-4EE8-A171-E2376FC2251E",
     "DataProviderID": 2,
     "DataProvidersReference": "47194",
     "OperatorID": 107,
-    "UsageTypeID": 2,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 124881,
         "Title": "Washington Navy Yard",
-        "AddressLine1": "1314 Harwood St",
+        "AddressLine1": "1314 Harwood St.",
         "Town": "Washington",
         "StateOrProvince": "DC",
         "Postcode": "20003",
         "CountryID": 2,
-        "Latitude": 38.8745395466831,
-        "Longitude": -76.9945162939179,
-        "ContactTelephone1": "",
+        "Latitude": 38.874415,
+        "Longitude": -76.992381,
+        "ContactTelephone1": "855-885-9571",
         "AccessComments": "",
         "RelatedURL": "http://www.opconnect.com/",
         "DistanceUnit": 0
@@ -25,13 +25,13 @@
     "Connections": [
         {
             "ID": 174648,
-            "ConnectionTypeID": 9,
-            "LevelID": 1,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
             "Amps": 16,
-            "Voltage": 120,
-            "PowerKW": 1.9,
+            "Voltage": 230,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 8
         },
         {
             "ID": 174649,
@@ -41,10 +41,11 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 4
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:00:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:21:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100

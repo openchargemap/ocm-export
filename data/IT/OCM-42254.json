@@ -1,6 +1,41 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-07-05T15:25:00Z",
+    "UserComments": [
+        {
+            "ID": 28133,
+            "ChargePointID": 42254,
+            "CommentTypeID": 10,
+            "UserName": "AndreaDFC",
+            "Comment": "Nuovissima colonnina da 50 kW: sarebbe solo un'ottima notizia, se non l'avessero installata in posizione difficile da raggiungere con auto dotata di porta di ricarica verso il posteriore. Avrebbero dovuto scegliere una posizione diversa degli stalli oppure dotare la colonnina di cavi più lunghi.",
+            "Rating": 3,
+            "DateCreated": "2023-02-10T09:52:31.517Z",
+            "User": {
+                "ID": 16290,
+                "Username": "AndreaDFC"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 36554,
+            "ChargePointID": 42254,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM42254/OCM-42254.orig.2023021009534994.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM42254/OCM-42254.thmb.2023021009534994.jpg",
+            "Comment": "Fase di test con offerta di utilizzo gratuito dal 16-1-2023 al 19-2-2023",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 16290,
+                "Username": "AndreaDFC"
+            },
+            "DateCreated": "2023-02-10T09:54:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-11T08:43:00Z",
     "ID": 42254,
     "UUID": "CBC02103-C841-47D0-AD27-F095B12F5645",
     "DataProviderID": 1,
@@ -8,32 +43,31 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 42600,
-        "Title": "Bolzano Piazza Giuseppe Mazzini | Neogy",
+        "Title": "Alperia Neogy BZ Mazzini",
         "AddressLine1": "Piazza Giuseppe Mazzini",
         "Town": "Bolzano",
         "StateOrProvince": "BZ",
         "Postcode": "39100",
         "CountryID": 112,
-        "Latitude": 46.5013028937875,
-        "Longitude": 11.339818295787,
+        "Latitude": 46.501302893786914,
+        "Longitude": 11.339818295784653,
+        "RelatedURL": "https://www.user.neogy.it/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 50799,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-07-05T15:25:00Z",
+    "DateLastStatusUpdate": "2023-02-11T08:43:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-03-03T16:48:00Z",
     "SubmissionStatusTypeID": 200

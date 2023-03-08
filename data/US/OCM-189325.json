@@ -1,12 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-09-27T20:54:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-19T09:31:00Z",
     "ID": 189325,
     "UUID": "4ADC8D96-3713-4574-ADA0-7FBEA33DB841",
     "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 5,
-    "UsageCost": "$.20/minute",
+    "UsageCost": "$.35 per kWh",
     "AddressInfo": {
         "ID": 189684,
         "Title": "Expressway EZ mart",
@@ -25,22 +25,28 @@
             "ID": 306151,
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 1000,
             "PowerKW": 62.5,
+            "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 306253,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-27T20:54:00Z",
+    "DateLastStatusUpdate": "2023-02-19T09:31:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-09-20T03:37:00Z",
     "SubmissionStatusTypeID": 200

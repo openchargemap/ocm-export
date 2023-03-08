@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-09T08:10:00Z",
+    "DateLastVerified": "2023-03-06T12:57:00Z",
     "ID": 200001,
     "UUID": "63E26F19-EE43-4FC5-958D-2F69B4A3B9D5",
-    "DataProviderID": 18,
-    "DataProvidersReference": "5db1eed45d633f36a1b2bd6bdb6f4585",
+    "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 200360,
         "Title": "259 Barrack Road",
@@ -17,14 +18,14 @@
         "Latitude": 50.74271,
         "Longitude": -1.80007,
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 333757,
             "ConnectionTypeID": 2,
-            "Reference": "OSP20004-1",
+            "Reference": "GB*OSP*EOSP20004*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -35,7 +36,7 @@
         {
             "ID": 333758,
             "ConnectionTypeID": 1036,
-            "Reference": "OSP20004-2",
+            "Reference": "GB*OSP*EOSP20004*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 190,
@@ -44,7 +45,8 @@
             "CurrentTypeID": 30
         }
     ],
-    "DateLastStatusUpdate": "2023-02-09T08:10:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-06T12:57:00Z",
     "MetadataValues": [
         {
             "ID": 20423,
@@ -52,7 +54,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2022-08-23T11:06:00Z",
     "SubmissionStatusTypeID": 100
 }

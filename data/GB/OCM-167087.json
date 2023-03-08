@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-02-28T20:28:00Z",
     "ID": 167087,
     "UUID": "2822D1EB-AEFC-4AFA-993B-4EEEB450FACF",
-    "DataProviderID": 18,
-    "DataProvidersReference": "51801f917af970365b0a283173e7a599",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00458",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 167446,
         "Title": "8 Hocking Road",
@@ -17,23 +18,26 @@
         "Latitude": 52.417413,
         "Longitude": -1.457958,
         "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "RelatedURL": "https://char.gy/00458",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 252999,
             "ConnectionTypeID": 25,
-            "Reference": "00458",
+            "Reference": "GB*CGY*E*00458",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T20:28:00Z",
     "MetadataValues": [
         {
             "ID": 7844,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-08-27T08:10:00Z",
     "SubmissionStatusTypeID": 100
 }

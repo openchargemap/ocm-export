@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-02-28T15:29:00Z",
     "ID": 136699,
     "UUID": "158A64DB-8178-4266-9F62-39F70FA5DCC1",
-    "DataProviderID": 18,
-    "DataProvidersReference": "ba48e3bddfd8b7160acdedcad3055780",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00345",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 137045,
         "Title": "1 Evenlode Crescent",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 52.415128,
         "Longitude": -1.534255,
-        "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "Mon - Sat 8am - 6:30pm, 30 mins / No return within 1 hour",
+        "RelatedURL": "https://char.gy/00345",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191239,
             "ConnectionTypeID": 25,
-            "Reference": "00345",
+            "Reference": "GB*CGY*E*00345",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T15:29:00Z",
     "MetadataValues": [
         {
             "ID": 6551,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2019-12-24T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

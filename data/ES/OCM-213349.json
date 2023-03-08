@@ -1,12 +1,46 @@
 {
+    "MediaItems": [
+        {
+            "ID": 36721,
+            "ChargePointID": 213349,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM213349/OCM-213349.orig.2023022318213541.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM213349/OCM-213349.thmb.2023022318213541.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-02-23T18:22:00Z"
+        },
+        {
+            "ID": 36720,
+            "ChargePointID": 213349,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM213349/OCM-213349.orig.2023022316421549.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM213349/OCM-213349.thmb.2023022316421549.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-02-23T16:42:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-05T18:48:00Z",
+    "DateLastVerified": "2023-02-23T18:22:00Z",
     "ID": 213349,
     "UUID": "58EB9D99-EFCF-4568-AC5F-753680864D12",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": " 0,39€/kWh DC - 0,29€/kWh AC",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 213729,
         "Title": "Repsol Albatera",
@@ -14,8 +48,8 @@
         "StateOrProvince": "Comunitat Valenciana",
         "Postcode": "03340",
         "CountryID": 210,
-        "Latitude": 38.1750225608435,
-        "Longitude": -0.853992899394683,
+        "Latitude": 38.17495147908241,
+        "Longitude": -0.8538609556376286,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,32 +58,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 355362,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 355363,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-05T18:48:00Z",
+    "DateLastStatusUpdate": "2023-02-23T18:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2023-02-05T18:48:00Z",
     "SubmissionStatusTypeID": 200

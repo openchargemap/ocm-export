@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-02-28T15:29:00Z",
     "ID": 136669,
     "UUID": "B92F8FFD-44A4-4669-8AB2-FC7646078B65",
-    "DataProviderID": 18,
-    "DataProvidersReference": "2bb5d090e1244593f264237a380c828e",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00343",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 137015,
         "Title": "26 Quinton Road",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 52.396935,
         "Longitude": -1.5082,
-        "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "CE Permit Holders Only, Mon - Sat 8am - 6pm OR 2 hours, No Return Within 4 hours",
+        "RelatedURL": "https://char.gy/00343",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191207,
             "ConnectionTypeID": 25,
-            "Reference": "00343",
+            "Reference": "GB*CGY*E*00343",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T15:29:00Z",
     "MetadataValues": [
         {
             "ID": 6521,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2019-12-24T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

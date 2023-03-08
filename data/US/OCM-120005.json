@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T02:53:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T04:54:00Z",
     "ID": 120005,
     "UUID": "02117D5A-6C29-463F-9130-4BCC48B0B597",
     "DataProviderID": 2,
@@ -9,14 +9,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 120351,
-        "Title": "JLRHOUSTON",
+        "Title": "JLRHOUSTON DC FAST 02",
         "AddressLine1": "7025 Old Katy Rd",
         "Town": "Houston",
         "StateOrProvince": "TX",
         "Postcode": "77024",
         "CountryID": 2,
-        "Latitude": 29.781164,
-        "Longitude": -95.443788,
+        "Latitude": 29.782113,
+        "Longitude": -95.443958,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,13 +25,13 @@
     "Connections": [
         {
             "ID": 169312,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 169313,
@@ -44,7 +44,8 @@
             "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T02:53:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T04:54:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-01T04:59:00Z",
     "SubmissionStatusTypeID": 100

@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-03-06T12:44:00Z",
     "ID": 188110,
     "UUID": "0F73B9E1-CA93-4E7D-8CF3-8981561DB4A0",
-    "DataProviderID": 18,
-    "DataProvidersReference": "88bb26595f63aa953e87e3357fb65d55",
+    "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 188469,
         "Title": "The Highlight",
@@ -17,14 +18,14 @@
         "Latitude": 54.69101,
         "Longitude": -1.20674,
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 303570,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00261-3",
+            "Reference": "GB*OSP*EOSP00261*3",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -35,7 +36,7 @@
         {
             "ID": 303571,
             "ConnectionTypeID": 2,
-            "Reference": "ENG00261-2",
+            "Reference": "GB*OSP*EOSP00261*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -46,7 +47,7 @@
         {
             "ID": 303572,
             "ConnectionTypeID": 1036,
-            "Reference": "ENG00261-1",
+            "Reference": "GB*OSP*EOSP00261*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -55,7 +56,8 @@
             "CurrentTypeID": 30
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-06T12:44:00Z",
     "MetadataValues": [
         {
             "ID": 20350,
@@ -63,7 +65,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
     "SubmissionStatusTypeID": 100
 }

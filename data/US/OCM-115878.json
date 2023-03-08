@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:03:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:32:00Z",
     "ID": 115878,
     "UUID": "77E3F1B0-6D0C-45D6-83DA-E7B303B2E5BA",
     "DataProviderID": 2,
@@ -24,16 +24,27 @@
     "Connections": [
         {
             "ID": 162920,
+            "ConnectionTypeID": 0,
+            "LevelID": 1,
+            "Amps": 16,
+            "Voltage": 120,
+            "PowerKW": 1.9,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 378353,
             "ConnectionTypeID": 1,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 8
+            "Quantity": 14
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:03:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:32:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-02-11T07:13:00Z",
     "SubmissionStatusTypeID": 100

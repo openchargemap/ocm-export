@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-09-23T09:54:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-21T13:50:00Z",
     "ID": 189371,
     "UUID": "917FBF55-23AC-4BAC-B01D-ADFF075A4E00",
     "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 189730,
         "Title": "Bayview EZ Mart",
@@ -17,6 +17,8 @@
         "CountryID": 2,
         "Latitude": 45.38897380589708,
         "Longitude": -84.9210079890409,
+        "ContactTelephone1": "888-758-4389",
+        "RelatedURL": "https://www.chargepoint.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,7 +27,9 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 62.5,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 125,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
@@ -34,6 +38,8 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
@@ -41,7 +47,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-23T09:54:00Z",
+    "DateLastStatusUpdate": "2023-02-21T13:50:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-09-22T17:09:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,4 +1,21 @@
 {
+    "UserComments": [
+        {
+            "ID": 28137,
+            "ChargePointID": 192929,
+            "CommentTypeID": 10,
+            "UserName": "Sir Surfalot",
+            "Comment": "Charger hardware was recently replaced after a period with intermittent issues with handshaking at start of charging sessions that the operator couldn't otherwise resolve. Has been working well since then.",
+            "Rating": 5,
+            "DateCreated": "2023-02-11T02:35:22.89Z",
+            "User": {
+                "ID": 35899,
+                "Username": "Sir Surfalot"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
         {
             "ID": 31585,
@@ -17,14 +34,14 @@
             "DateCreated": "2022-05-04T23:29:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-05-07T23:44:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-11T08:43:00Z",
     "ID": 192929,
     "UUID": "61C80ECC-1D9D-42AB-81F1-B1B77B6FC19B",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3529,
     "UsageTypeID": 4,
-    "UsageCost": "First 7kWh free, then $0.40 per kWh thereafter. $5/hr idle time",
+    "UsageCost": "First 7kWh free, then $0.46 per kWh thereafter. $5/hr idle time",
     "AddressInfo": {
         "ID": 193288,
         "Title": "Mona Vale library carpark [JOLT]",
@@ -60,13 +77,12 @@
             "LevelID": 3,
             "PowerKW": 25,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "Max power is 25kW. In a Tesla, because it is a DC charger, the car will pull 7+ kW for battery heating initially, so charging will start very slowly."
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-05-07T23:44:00Z",
+    "DateLastStatusUpdate": "2023-02-11T08:43:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-05-04T23:25:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T02:58:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:12:00Z",
     "ID": 121154,
     "UUID": "E2BCCB64-BEF8-45DD-A5BD-E93118863B0F",
     "DataProviderID": 2,
@@ -9,14 +9,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 121500,
-        "Title": "RALEIGH STATION",
+        "Title": "RALEIGH STATION DC FAST 02",
         "AddressLine1": "4005 Capital Hills Dr",
         "Town": "Raleigh",
         "StateOrProvince": "NC",
         "Postcode": "27616",
         "CountryID": 2,
-        "Latitude": 35.88656,
-        "Longitude": -78.56933,
+        "Latitude": 35.887798,
+        "Longitude": -78.568955,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,13 +25,13 @@
     "Connections": [
         {
             "ID": 170590,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 5
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 170591,
@@ -44,7 +44,8 @@
             "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T02:58:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:12:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-01T04:59:00Z",
     "SubmissionStatusTypeID": 100

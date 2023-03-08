@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:05:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:39:00Z",
     "ID": 28738,
     "UUID": "5C07379E-EA49-4898-9670-742561088611",
     "DataProviderID": 2,
@@ -9,14 +9,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 29084,
-        "Title": "BMW SCHAUMBURG",
+        "Title": "D3_BMW SCHAUM DC FAST 01",
         "AddressLine1": "498 Commerce Dr",
         "Town": "Schaumburg",
         "StateOrProvince": "IL",
         "Postcode": "60173",
         "CountryID": 2,
-        "Latitude": 42.061131,
-        "Longitude": -88.059806,
+        "Latitude": 42.061267,
+        "Longitude": -88.067085,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,13 +25,13 @@
     "Connections": [
         {
             "ID": 31564,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 4
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 64493,
@@ -44,7 +44,9 @@
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:05:00Z",
+    "DatePlanned": "2022-09-09T00:00:00Z",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2023-03-07T05:39:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2014-11-28T03:38:00Z",
     "SubmissionStatusTypeID": 100

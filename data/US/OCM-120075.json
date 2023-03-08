@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T02:54:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T04:55:00Z",
     "ID": 120075,
     "UUID": "8DF20664-E9E9-43C1-A5B0-000B529B0BAB",
     "DataProviderID": 2,
@@ -9,23 +9,23 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 120421,
-        "Title": "MCDONALD SWLA",
+        "Title": "MCDONALD SWLA CHARGE AT MCD 1",
         "AddressLine1": "625 E Prien Lake Rd",
         "Town": "Lake Charles",
         "StateOrProvince": "LA",
         "Postcode": "70601",
         "CountryID": 2,
-        "Latitude": 30.1987038,
-        "Longitude": -93.2123184,
+        "Latitude": 30.198704,
+        "Longitude": -93.212318,
         "ContactTelephone1": "888-758-4389",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "24 hours daily; Drivers must bring their own J1772 cordset for Level 1 charging",
         "RelatedURL": "http://www.chargepoint.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 169390,
-            "ConnectionTypeID": 9,
+            "ConnectionTypeID": 22,
             "LevelID": 1,
             "Amps": 16,
             "Voltage": 120,
@@ -44,7 +44,9 @@
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T02:54:00Z",
+    "DatePlanned": "2022-09-09T00:00:00Z",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2023-03-07T04:55:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-01T04:59:00Z",
     "SubmissionStatusTypeID": 100

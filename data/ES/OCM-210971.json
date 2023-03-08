@@ -1,6 +1,24 @@
 {
+    "MediaItems": [
+        {
+            "ID": 36709,
+            "ChargePointID": 210971,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM210971/OCM-210971.orig.2023022306533664.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM210971/OCM-210971.thmb.2023022306533664.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-02-23T06:54:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-26T19:43:00Z",
+    "DateLastVerified": "2023-02-23T07:19:00Z",
     "ID": 210971,
     "UUID": "452AAE68-C873-4847-A2C7-012F894DE19B",
     "DataProviderID": 1,
@@ -16,8 +34,8 @@
         "StateOrProvince": "Castilla y León",
         "Postcode": "09200",
         "CountryID": 210,
-        "Latitude": 42.67959274117095,
-        "Longitude": -2.932585864912312,
+        "Latitude": 42.679470018385814,
+        "Longitude": -2.9326061634161533,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,10 +45,11 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 350,
-            "Voltage": 1000,
-            "PowerKW": 180,
+            "Voltage": 920,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW."
         },
         {
             "ID": 351668,
@@ -43,8 +62,8 @@
         }
     ],
     "NumberOfPoints": 6,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-12-26T19:43:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-23T07:19:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-12-26T19:43:00Z",
     "SubmissionStatusTypeID": 200

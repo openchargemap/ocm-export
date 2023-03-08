@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-02-28T20:33:00Z",
     "ID": 187916,
     "UUID": "5DFE31BD-6E5E-4FB7-87CA-E7760E7C2138",
-    "DataProviderID": 18,
-    "DataProvidersReference": "1e71380bc42d9ddef7847d24982ecccc",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*01062",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 188275,
         "Title": "446 Allesley Old Road",
@@ -17,23 +18,26 @@
         "Latitude": 52.414367,
         "Longitude": -1.550115,
         "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "RelatedURL": "https://char.gy/01062",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 303244,
             "ConnectionTypeID": 25,
-            "Reference": "01062",
+            "Reference": "GB*CGY*E*01062",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T20:33:00Z",
     "MetadataValues": [
         {
             "ID": 20156,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-07-12T03:39:00Z",
     "SubmissionStatusTypeID": 100
 }

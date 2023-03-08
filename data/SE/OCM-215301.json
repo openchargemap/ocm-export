@@ -1,13 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-09T09:48:00Z",
+    "DateLastVerified": "2023-03-07T08:31:00Z",
     "ID": 215301,
     "UUID": "41258A23-4D1C-4312-96E6-E1ABEB58A25D",
     "DataProviderID": 19,
     "DataProvidersReference": "11721",
     "AddressInfo": {
         "ID": 215681,
-        "Title": "Truckstop 128",
+        "Title": "Speditörgatan 1",
         "AddressLine1": "Speditörgatan 1 ",
         "Town": "VÄSTERÅS",
         "StateOrProvince": "VÄSTMANLAND",
@@ -21,18 +21,38 @@
     "Connections": [
         {
             "ID": 360482,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
             "Reference": "1",
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
             "CurrentTypeID": 30
         },
         {
             "ID": 360483,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
             "Reference": "2",
+            "LevelID": 3,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 360484,
+            "ConnectionTypeID": 25,
+            "Reference": "3",
+            "LevelID": 3,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 387055,
+            "ConnectionTypeID": 33,
+            "Reference": "4",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -40,19 +60,44 @@
             "CurrentTypeID": 30
         },
         {
-            "ID": 360484,
+            "ID": 387056,
             "ConnectionTypeID": 33,
-            "Reference": "3",
+            "Reference": "5",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 393644,
+            "ConnectionTypeID": 33,
+            "Reference": "6",
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 393645,
+            "ConnectionTypeID": 33,
+            "Reference": "7",
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 393646,
+            "ConnectionTypeID": 33,
+            "Reference": "8",
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30
         }
     ],
-    "NumberOfPoints": 3,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2023-02-09T09:48:00Z",
+    "NumberOfPoints": 8,
+    "DateLastStatusUpdate": "2023-03-07T08:31:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2023-02-09T09:48:00Z",
     "SubmissionStatusTypeID": 100

@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:01:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:24:00Z",
     "ID": 121201,
     "UUID": "50485A08-A06F-4620-97B0-E07231D6207B",
     "DataProviderID": 2,
@@ -9,14 +9,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 121547,
-        "Title": "STOP N SAVE",
+        "Title": "STOP N SAVE 723 HORIZON DC1",
         "AddressLine1": "723 Horizon Dr",
         "Town": "Grand Junction",
         "StateOrProvince": "CO",
         "Postcode": "81506",
         "CountryID": 2,
-        "Latitude": 39.109676,
-        "Longitude": -108.542435,
+        "Latitude": 39.109635,
+        "Longitude": -108.542347,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,17 +25,17 @@
     "Connections": [
         {
             "ID": 170639,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 170640,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 32,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
@@ -54,7 +54,8 @@
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:01:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:24:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-04-01T04:59:00Z",
     "SubmissionStatusTypeID": 100

@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-02-28T20:26:00Z",
     "ID": 136691,
     "UUID": "8009AC80-AE70-4816-99B8-C1DC62FF02F6",
-    "DataProviderID": 18,
-    "DataProvidersReference": "a0f56bb43799522951d7a3d3a5b4e597",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00312",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 137037,
         "Title": "97 Melbourne Road",
@@ -16,24 +17,27 @@
         "CountryID": 1,
         "Latitude": 52.406284,
         "Longitude": -1.529724,
-        "AccessComments": "EV Bay on Farman Road, cnr Farman Road & Shakelton Road",
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "",
+        "RelatedURL": "https://char.gy/00312",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191230,
             "ConnectionTypeID": 25,
-            "Reference": "00312",
+            "Reference": "GB*CGY*E*00312",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T20:26:00Z",
     "MetadataValues": [
         {
             "ID": 6543,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2019-12-24T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

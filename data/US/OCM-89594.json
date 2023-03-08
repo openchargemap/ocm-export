@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:02:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:27:00Z",
     "ID": 89594,
     "UUID": "DB2459B0-4C2F-4C10-B98D-7D97AAF31CB9",
     "DataProviderID": 2,
@@ -9,14 +9,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 89940,
-        "Title": "EVERGY",
+        "Title": "EVERGY @SPEEDYS - 233B",
         "AddressLine1": "4623 N Village Dr @ Speedys Convenience Store",
         "Town": "St Joseph",
         "StateOrProvince": "MO",
         "Postcode": "64506",
         "CountryID": 2,
-        "Latitude": 39.8112303,
-        "Longitude": -94.8059859,
+        "Latitude": 39.81123,
+        "Longitude": -94.805986,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,17 +25,17 @@
     "Connections": [
         {
             "ID": 127010,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 127011,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 32,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
@@ -54,7 +54,8 @@
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:02:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:27:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2017-06-22T08:16:00Z",
     "SubmissionStatusTypeID": 100

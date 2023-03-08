@@ -1,10 +1,10 @@
 {
     "MediaItems": [
         {
-            "ID": 36035,
+            "ID": 36742,
             "ChargePointID": 195468,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM195468/OCM-195468.orig.2022122313304875.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM195468/OCM-195468.thmb.2022122313304875.jpg",
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM195468/OCM-195468.orig.2023022419514439.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM195468/OCM-195468.thmb.2023022419514439.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -14,27 +14,11 @@
                 "ID": 40036,
                 "Username": "lmjgarcia"
             },
-            "DateCreated": "2022-12-23T13:31:00Z"
-        },
-        {
-            "ID": 33038,
-            "ChargePointID": 195468,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM195468/OCM-195468.orig.2022082313235836.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM195468/OCM-195468.thmb.2022082313235836.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 40036,
-                "Username": "lmjgarcia"
-            },
-            "DateCreated": "2022-08-23T13:24:00Z"
+            "DateCreated": "2023-02-24T19:52:00Z"
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-26T20:42:00Z",
+    "DateLastVerified": "2023-02-24T19:54:00Z",
     "ID": 195468,
     "UUID": "D1088FAE-78D6-412D-AD4D-93E3D37055D0",
     "DataProviderID": 1,
@@ -63,19 +47,19 @@
             "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "The ABB DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW."
+            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited for 400V cars"
         },
         {
             "ID": 325536,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 100,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 500,
             "Voltage": 920,
             "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "The ABB DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW."
+            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited for 400V cars"
         },
         {
             "ID": 348072,
@@ -85,7 +69,7 @@
             "Amps": 200,
             "PowerKW": 80,
             "CurrentTypeID": 30,
-            "Quantity": 2,
+            "Quantity": 1,
             "Comments": "Siemens DC charger"
         },
         {
@@ -98,24 +82,12 @@
             "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Siemens DC charger"
-        },
-        {
-            "ID": 351521,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 400,
-            "Voltage": 1000,
-            "PowerKW": 180,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "Siemens DC charger"
+            "Comments": "Siemens DC charger. Shares the total power (300 kW) with the Chademo connector (max power limited for 400V cars). "
         }
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-26T20:42:00Z",
+    "DateLastStatusUpdate": "2023-02-24T19:54:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-08-22T16:09:00Z",
     "SubmissionStatusTypeID": 200

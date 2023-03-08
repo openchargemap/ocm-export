@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-03-01T09:48:00Z",
     "ID": 167082,
     "UUID": "5DE979A3-61AF-49D3-B4CA-177BB0E8399B",
-    "DataProviderID": 18,
-    "DataProvidersReference": "e2a6a1c40165b0789b9e107f2bbdf2b9",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00423",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 167441,
         "Title": "52 Oldham Avenue",
@@ -17,23 +18,38 @@
         "Latitude": 52.416009,
         "Longitude": -1.456534,
         "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "RelatedURL": "https://char.gy/00402",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 252994,
             "ConnectionTypeID": 25,
-            "Reference": "00402",
+            "Reference": "GB*CGY*E*00402",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 391416,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*CGY*E*00423",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 13,
+            "Voltage": 230,
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-01T09:48:00Z",
     "MetadataValues": [
         {
             "ID": 7839,
@@ -41,7 +57,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-08-27T08:10:00Z",
     "SubmissionStatusTypeID": 100
 }

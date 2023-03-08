@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-07-14T14:34:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-06T12:46:00Z",
     "ID": 167434,
     "UUID": "A2567416-99E0-40A9-98A6-C1B76EF91737",
     "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "ENGENIE: 36p per kWh with credit or debit card (contactless)",
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 167793,
         "Title": "Tappers Harker Pub & Restaurant",
@@ -16,16 +17,15 @@
         "CountryID": 1,
         "Latitude": 52.89339,
         "Longitude": -1.26384,
-        "ContactTelephone1": "+44 114 303 0140",
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 253610,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00214-3",
+            "Reference": "GB*OSP*EOSP00214*3",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -37,7 +37,7 @@
         {
             "ID": 253611,
             "ConnectionTypeID": 2,
-            "Reference": "ENG00214-2",
+            "Reference": "GB*OSP*EOSP00214*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -49,7 +49,7 @@
         {
             "ID": 253612,
             "ConnectionTypeID": 33,
-            "Reference": "ENG00214-1",
+            "Reference": "GB*OSP*EOSP00214*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -61,7 +61,7 @@
     ],
     "GeneralComments": "Engenie rapid chargers AC may be a 22kw Socket",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-14T14:34:00Z",
+    "DateLastStatusUpdate": "2023-03-06T12:46:00Z",
     "MetadataValues": [
         {
             "ID": 7975,
@@ -69,7 +69,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-09-08T02:47:00Z",
     "SubmissionStatusTypeID": 100
 }

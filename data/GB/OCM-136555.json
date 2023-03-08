@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:10:00Z",
+    "DateLastVerified": "2023-03-02T19:41:00Z",
     "ID": 136555,
     "UUID": "11991DDB-A991-44AB-AAB3-54E8CC592ADA",
-    "DataProviderID": 18,
-    "DataProvidersReference": "07f7b0f164f1efeceb8663f443baebef",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00344",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 136901,
         "Title": "61 Station Road",
@@ -17,23 +18,26 @@
         "Latitude": 51.570972,
         "Longitude": -0.770386,
         "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "RelatedURL": "https://char.gy/00344",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191007,
             "ConnectionTypeID": 25,
-            "Reference": "00344",
+            "Reference": "GB*CGY*E*00344",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 4.8,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:10:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-02T19:41:00Z",
     "MetadataValues": [
         {
             "ID": 6407,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2019-12-24T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

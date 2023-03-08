@@ -1,10 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:07:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:49:00Z",
     "ID": 160207,
     "UUID": "DEBB5529-E82E-41E5-B34D-E0D6307A4EA7",
     "DataProviderID": 2,
     "DataProvidersReference": "158042",
+    "OperatorID": 89,
     "UsageTypeID": 2,
     "AddressInfo": {
         "ID": 160564,
@@ -16,14 +17,24 @@
         "CountryID": 44,
         "Latitude": 43.771699,
         "Longitude": -79.2830523,
-        "ContactTelephone1": "",
+        "ContactTelephone1": "416-642-3552",
         "AccessComments": "",
-        "RelatedURL": "",
+        "RelatedURL": "https://flo.ca/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 230482,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 230483,
             "ConnectionTypeID": 2,
             "LevelID": 3,
             "Amps": 100,
@@ -33,7 +44,7 @@
             "Quantity": 1
         },
         {
-            "ID": 230483,
+            "ID": 414773,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "Amps": 100,
@@ -44,9 +55,9 @@
         }
     ],
     "GeneralComments": "Planned for future date. Not Operational.",
-    "DatePlanned": "2020-09-01T00:00:00Z",
+    "DatePlanned": "2023-06-15T00:00:00Z",
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2020-06-26T03:07:00Z",
+    "DateLastStatusUpdate": "2023-03-07T05:49:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2020-06-26T03:07:00Z",
     "SubmissionStatusTypeID": 100

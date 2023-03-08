@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:12:00Z",
+    "DateLastVerified": "2023-03-06T12:44:00Z",
     "ID": 173732,
     "UUID": "05D047C1-FC2D-48DB-82FA-945338CB552D",
-    "DataProviderID": 18,
-    "DataProvidersReference": "2e400a73fc6ec8cf7ac47e37888f8feb",
+    "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 174091,
         "Title": "Chapelton Drive",
@@ -17,14 +18,14 @@
         "Latitude": 56.13543,
         "Longitude": -3.20522,
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 266937,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00414-3",
+            "Reference": "GB*OSP*EOSP00414*3",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -35,7 +36,7 @@
         {
             "ID": 266938,
             "ConnectionTypeID": 2,
-            "Reference": "ENG00414-2",
+            "Reference": "GB*OSP*EOSP00414*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -46,7 +47,7 @@
         {
             "ID": 266939,
             "ConnectionTypeID": 1036,
-            "Reference": "ENG00414-1",
+            "Reference": "GB*OSP*EOSP00414*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -55,7 +56,8 @@
             "CurrentTypeID": 30
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:12:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-06T12:44:00Z",
     "MetadataValues": [
         {
             "ID": 8654,
@@ -63,7 +65,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2021-03-03T11:25:00Z",
     "SubmissionStatusTypeID": 100
 }

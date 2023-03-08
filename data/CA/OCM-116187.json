@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T06:03:00Z",
     "ID": 116187,
     "UUID": "120CCBE2-A723-492E-A58F-93499E1A9651",
     "DataProviderID": 2,
@@ -9,14 +9,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 116533,
-        "Title": "VANCOUVER INTL",
+        "Title": "VANCOUVER INTL PK1-EV-01",
         "AddressLine1": "5140 Grant McConachie Way",
         "Town": "Richmond",
         "StateOrProvince": "BC",
         "Postcode": "V7B 1V1",
         "CountryID": 44,
-        "Latitude": 49.191803,
-        "Longitude": -123.17263,
+        "Latitude": 49.194113,
+        "Longitude": -123.17881,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,17 +25,17 @@
     "Connections": [
         {
             "ID": 163260,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 4
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 163261,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 32,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
@@ -54,7 +54,9 @@
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:11:00Z",
+    "DatePlanned": "2022-10-26T00:00:00Z",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2023-03-07T06:03:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-02-11T07:13:00Z",
     "SubmissionStatusTypeID": 100

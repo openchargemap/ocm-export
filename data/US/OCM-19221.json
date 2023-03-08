@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T02:54:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T04:55:00Z",
     "ID": 19221,
     "UUID": "1238CD4C-A406-48CC-8D73-8FD133CBF79C",
     "DataProviderID": 2,
@@ -9,14 +9,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 19566,
-        "Title": "PIE AE",
+        "Title": "PIE AE ERCOT 3",
         "AddressLine1": "7620 Metro Center Dr",
         "Town": "Austin",
         "StateOrProvince": "TX",
         "Postcode": "78744",
         "CountryID": 2,
-        "Latitude": 30.216281,
-        "Longitude": -97.692052,
+        "Latitude": 30.216443,
+        "Longitude": -97.69223,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,11 +25,11 @@
     "Connections": [
         {
             "ID": 19501,
-            "ConnectionTypeID": 9,
-            "LevelID": 1,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
             "Amps": 16,
-            "Voltage": 120,
-            "PowerKW": 1.9,
+            "Voltage": 230,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10,
             "Quantity": 2
         },
@@ -50,7 +50,8 @@
             "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T02:54:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T04:55:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2013-09-15T03:45:00Z",
     "SubmissionStatusTypeID": 200

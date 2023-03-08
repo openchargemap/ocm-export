@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-09-22T23:33:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-17T09:40:00Z",
     "ID": 189353,
     "UUID": "18B475EE-8831-499A-B3B1-5C403239BB68",
     "DataProviderID": 1,
@@ -9,13 +9,13 @@
     "AddressInfo": {
         "ID": 189712,
         "Title": "Meijer",
-        "AddressLine1": "Meijer",
-        "Town": "Scio Township",
+        "AddressLine1": "5645 Jackson Rd",
+        "Town": "Ann Arbor",
         "StateOrProvince": "MI",
         "Postcode": "48103",
         "CountryID": 2,
-        "Latitude": 42.28651648912023,
-        "Longitude": -83.8429183447123,
+        "Latitude": 42.286516489120174,
+        "Longitude": -83.84291834471185,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,7 +24,9 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 62.5,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
@@ -33,6 +35,8 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
@@ -49,7 +53,7 @@
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-22T23:33:00Z",
+    "DateLastStatusUpdate": "2023-02-17T09:40:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2021-09-22T02:42:00Z",
     "SubmissionStatusTypeID": 200

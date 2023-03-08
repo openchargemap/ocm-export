@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:11:00Z",
+    "DateLastVerified": "2023-02-28T20:28:00Z",
     "ID": 167058,
     "UUID": "10E358EA-F089-43D5-BCBF-8EBACE69F2A7",
-    "DataProviderID": 18,
-    "DataProvidersReference": "c4aa11b586919fbce3523233e5eff2c6",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00452",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 167417,
         "Title": "Bromleigh Drive",
@@ -17,23 +18,26 @@
         "Latitude": 52.407022,
         "Longitude": -1.466388,
         "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "RelatedURL": "https://char.gy/00452",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 252968,
             "ConnectionTypeID": 25,
-            "Reference": "00452",
+            "Reference": "GB*CGY*E*00452",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:11:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-28T20:28:00Z",
     "MetadataValues": [
         {
             "ID": 7815,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-08-27T08:10:00Z",
     "SubmissionStatusTypeID": 100
 }

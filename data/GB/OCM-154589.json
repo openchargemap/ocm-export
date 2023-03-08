@@ -1,50 +1,79 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-09T08:11:00Z",
+    "DateLastVerified": "2023-02-10T11:27:00Z",
     "ID": 154589,
     "UUID": "FF94BB95-4593-45EC-9A30-94626505C5FD",
-    "DataProviderID": 18,
-    "DataProvidersReference": "d0dc2b0962c01d6b64275a971ca3158a",
+    "DataProviderID": 1,
     "OperatorID": 150,
     "UsageTypeID": 5,
+    "UsageCost": "£0.45 / kWh ",
     "AddressInfo": {
         "ID": 154942,
-        "Title": "Trenchard Street",
+        "Title": "Trenchard Street Multi-Storey Car Park",
         "AddressLine1": "Trenchard Street",
         "Town": "Bristol",
         "Postcode": "BS1 5AN",
         "CountryID": 1,
-        "Latitude": 51.454736,
-        "Longitude": -2.59893,
-        "AccessComments": "",
-        "RelatedURL": "https://www.equans.co.uk/ev-solutions",
+        "Latitude": 51.45497408065427,
+        "Longitude": -2.5998864501924857,
+        "AccessComments": "Level 1 (down from entrance level). Max headroom 2.05m",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 217444,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "RV01011",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 217445,
             "ConnectionTypeID": 25,
-            "Reference": "2",
+            "Reference": "RV01012",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 366944,
+            "ConnectionTypeID": 25,
+            "Reference": "RV01013",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 366945,
+            "ConnectionTypeID": 25,
+            "Reference": "RV01014",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2023-02-09T08:11:00Z",
+    "NumberOfPoints": 8,
+    "GeneralComments": "Revive regional network branded. Accepts Geniepoint credentials, but not most roaming partners",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-10T11:27:00Z",
     "MetadataValues": [
         {
             "ID": 7142,

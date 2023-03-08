@@ -1,23 +1,23 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:00:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-02-13T09:49:00Z",
     "ID": 89501,
     "UUID": "FEF29029-2EC9-469C-ACDA-9A2F97151EE9",
     "DataProviderID": 2,
     "DataProvidersReference": "81775",
     "OperatorID": 107,
-    "UsageTypeID": 2,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 89847,
-        "Title": "Joint Base Anacostia Bolling",
-        "AddressLine1": "Chappie James Blvd",
+        "Title": "Anacostia",
+        "AddressLine1": "Joint Base Anacostia-Bolling Chappie James Blvd.",
         "Town": "Washington",
         "StateOrProvince": "DC",
         "Postcode": "20032",
         "CountryID": 2,
-        "Latitude": 38.854215,
-        "Longitude": -77.008716,
-        "ContactTelephone1": "",
+        "Latitude": 38.853242,
+        "Longitude": -77.008022,
+        "ContactTelephone1": "855-885-9571",
         "AccessComments": "",
         "RelatedURL": "http://www.opconnect.com/",
         "DistanceUnit": 0
@@ -25,13 +25,13 @@
     "Connections": [
         {
             "ID": 126909,
-            "ConnectionTypeID": 9,
+            "ConnectionTypeID": 0,
             "LevelID": 1,
             "Amps": 16,
             "Voltage": 120,
             "PowerKW": 1.9,
             "CurrentTypeID": 10,
-            "Quantity": 5
+            "Quantity": 10
         },
         {
             "ID": 126910,
@@ -41,10 +41,11 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 5
+            "Quantity": 10
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:00:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-02-13T09:49:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2017-06-22T08:16:00Z",
     "SubmissionStatusTypeID": 100

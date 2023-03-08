@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:07:00Z",
+    "DateLastVerified": "2023-02-28T20:29:00Z",
     "ID": 167369,
     "UUID": "A47A7EF6-8088-42E3-8037-5A326C4EE313",
-    "DataProviderID": 18,
-    "DataProvidersReference": "631e7b7a05742837ad8859c34a00e02f",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00551",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 167728,
         "Title": "Wood Vale",
@@ -17,23 +18,26 @@
         "Latitude": 51.441828,
         "Longitude": -0.064303,
         "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "RelatedURL": "https://char.gy/00551",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 253475,
             "ConnectionTypeID": 25,
-            "Reference": "00551",
+            "Reference": "GB*CGY*E*00551",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 5.1,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:07:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-02-28T20:29:00Z",
     "MetadataValues": [
         {
             "ID": 7910,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-09-08T02:47:00Z",
     "SubmissionStatusTypeID": 100
 }

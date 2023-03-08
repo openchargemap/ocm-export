@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:11:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T06:02:00Z",
     "ID": 145578,
     "UUID": "68BE3D45-B038-4EE0-A1D5-DD3200E565A8",
     "DataProviderID": 2,
@@ -9,15 +9,15 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 145930,
-        "Title": "Accomodation Senneterre, 560, 6e Rue Ouest",
-        "AddressLine1": "560 6e Rue Ouest",
+        "Title": "BRCC - Senneterre - Ultramar",
+        "AddressLine1": "560 6e rue Ouest",
         "Town": "Senneterre",
         "StateOrProvince": "QC",
         "Postcode": "J0Y 2M0",
         "CountryID": 44,
-        "Latitude": 48.38573,
-        "Longitude": -77.250021,
-        "ContactTelephone1": "877-505-2674",
+        "Latitude": 48.385858,
+        "Longitude": -77.24993,
+        "ContactTelephone1": "855-999-8378",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://lecircuitelectrique.com/",
         "DistanceUnit": 0
@@ -25,17 +25,27 @@
     "Connections": [
         {
             "ID": 202289,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 386007,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:11:00Z",
+    "DateLastStatusUpdate": "2023-03-07T06:02:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-12-24T09:25:00Z",
     "SubmissionStatusTypeID": 100

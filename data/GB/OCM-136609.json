@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-08-23T11:10:00Z",
+    "DateLastVerified": "2023-02-28T20:26:00Z",
     "ID": 136609,
     "UUID": "6F5D9AD8-1C9A-46D8-8C96-D8631190F08D",
-    "DataProviderID": 18,
-    "DataProvidersReference": "6c24a6b8494388ea76cb24c6e60d79b0",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00245",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 136955,
         "Title": "121 Hivings Hill",
@@ -17,23 +18,26 @@
         "Latitude": 51.717076,
         "Longitude": -0.618658,
         "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "RelatedURL": "https://char.gy/00245",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191094,
             "ConnectionTypeID": 25,
-            "Reference": "00245",
+            "Reference": "GB*CGY*E*00245",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 5.1,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2022-08-23T11:10:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-02-28T20:26:00Z",
     "MetadataValues": [
         {
             "ID": 6461,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2019-12-24T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

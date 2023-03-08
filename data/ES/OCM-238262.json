@@ -1,0 +1,79 @@
+{
+    "MediaItems": [
+        {
+            "ID": 36840,
+            "ChargePointID": 238262,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM238262/OCM-238262.orig.2023030317595007.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM238262/OCM-238262.thmb.2023030317595007.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-03-03T18:00:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-03T18:01:00Z",
+    "ID": 238262,
+    "UUID": "294FA02F-1C5E-4557-B2B7-BDA419E70D55",
+    "DataProviderID": 1,
+    "OperatorID": 3371,
+    "UsageTypeID": 4,
+    "UsageCost": "0,56€/kWh >80kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "AddressInfo": {
+        "ID": 238646,
+        "Title": "Ayuntamiento de Calonge i Sant Antoni-Calonge",
+        "AddressLine1": "Passeig d'Hivern",
+        "Town": "Calonge",
+        "StateOrProvince": "Catalunya",
+        "Postcode": "17251",
+        "CountryID": 210,
+        "Latitude": 41.86121002047352,
+        "Longitude": 3.0761871204208546,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 391927,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 3,
+            "Comments": "Kempower CCS/Chademo chargers that dynamically share the total power of the cabinet (200 kW)"
+        },
+        {
+            "ID": 391928,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Kempower CCS/Chademo chargers that dynamically share the total power of the cabinet (200 kW)"
+        },
+        {
+            "ID": 391929,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-03T18:01:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2023-03-03T18:00:00Z",
+    "SubmissionStatusTypeID": 200
+}

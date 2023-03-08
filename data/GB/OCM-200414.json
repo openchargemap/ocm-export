@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-09T08:11:00Z",
+    "DateLastVerified": "2023-03-06T12:57:00Z",
     "ID": 200414,
     "UUID": "5EEC1141-32D1-41DC-8011-7D87483D4309",
-    "DataProviderID": 18,
-    "DataProvidersReference": "1745b3f87170fab69098843e56dfe278",
+    "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 200773,
         "Title": "Park Place",
@@ -17,14 +18,14 @@
         "Latitude": 51.48663,
         "Longitude": -3.1768,
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 334316,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00062-3",
+            "Reference": "GB*OSP*EOSP00062*3",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -35,7 +36,7 @@
         {
             "ID": 334317,
             "ConnectionTypeID": 2,
-            "Reference": "OSP00992-2",
+            "Reference": "GB*OSP*EOSP00992*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -46,7 +47,7 @@
         {
             "ID": 334318,
             "ConnectionTypeID": 1036,
-            "Reference": "OSP00992-3",
+            "Reference": "GB*OSP*EOSP00992*3",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -55,7 +56,8 @@
             "CurrentTypeID": 30
         }
     ],
-    "DateLastStatusUpdate": "2023-02-09T08:11:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-06T12:57:00Z",
     "MetadataValues": [
         {
             "ID": 20836,
@@ -63,7 +65,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2022-08-23T11:08:00Z",
     "SubmissionStatusTypeID": 100
 }

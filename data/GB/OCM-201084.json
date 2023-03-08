@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-09T08:13:00Z",
+    "DateLastVerified": "2023-03-06T12:57:00Z",
     "ID": 201084,
     "UUID": "3DE3852B-B9E8-4756-9AFE-621BAFDB66AE",
-    "DataProviderID": 18,
-    "DataProvidersReference": "8306baf4871a572e95bb1f1e3ec0d885",
+    "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 201443,
         "Title": "Ripon Road",
@@ -17,14 +18,14 @@
         "Latitude": 54.02323,
         "Longitude": -1.56393,
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 335295,
             "ConnectionTypeID": 2,
-            "Reference": "OSP20039-1",
+            "Reference": "GB*OSP*EOSP20039*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -35,7 +36,7 @@
         {
             "ID": 335296,
             "ConnectionTypeID": 1036,
-            "Reference": "OSP20039-2",
+            "Reference": "GB*OSP*EOSP20039*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 190,
@@ -44,7 +45,8 @@
             "CurrentTypeID": 30
         }
     ],
-    "DateLastStatusUpdate": "2023-02-09T08:13:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-06T12:57:00Z",
     "MetadataValues": [
         {
             "ID": 21505,
@@ -52,7 +54,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2022-08-23T11:11:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-04-06T05:04:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:30:00Z",
     "ID": 89936,
     "UUID": "40D6DED1-5177-4EB9-97A7-B993439EB432",
     "DataProviderID": 2,
@@ -17,29 +17,29 @@
         "Latitude": 40.447848,
         "Longitude": -80.01288,
         "ContactTelephone1": "412-323-4455",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "24 hours daily; 1 hour limit",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 127472,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 127473,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
             "PowerKW": 40,
-            "CurrentTypeID": 10,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 127473,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -53,7 +53,9 @@
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:04:00Z",
+    "DatePlanned": "2023-06-01T00:00:00Z",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2023-03-07T05:30:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2017-07-01T03:43:00Z",
     "SubmissionStatusTypeID": 100

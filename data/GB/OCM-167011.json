@@ -1,5 +1,54 @@
 {
+    "UserComments": [
+        {
+            "ID": 28205,
+            "ChargePointID": 167011,
+            "CommentTypeID": 10,
+            "UserName": "Celso Azevedo",
+            "Comment": "You must register your number plate at the reception. Check the signs to avoid a penalty.",
+            "Rating": 5,
+            "DateCreated": "2023-02-24T22:11:58.25Z",
+            "User": {
+                "ID": 36388,
+                "Username": "Celso Azevedo"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
+        {
+            "ID": 36739,
+            "ChargePointID": 167011,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM167011/OCM-167011.orig.2023022419093962.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM167011/OCM-167011.thmb.2023022419093962.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36388,
+                "Username": "Celso Azevedo"
+            },
+            "DateCreated": "2023-02-24T19:10:00Z"
+        },
+        {
+            "ID": 36740,
+            "ChargePointID": 167011,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM167011/OCM-167011.orig.2023022419095718.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM167011/OCM-167011.thmb.2023022419095718.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36388,
+                "Username": "Celso Azevedo"
+            },
+            "DateCreated": "2023-02-24T19:10:00Z"
+        },
         {
             "ID": 31354,
             "ChargePointID": 167011,
@@ -17,13 +66,15 @@
             "DateCreated": "2022-04-10T19:43:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-04-10T19:43:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-06T12:47:00Z",
     "ID": 167011,
     "UUID": "F391793F-8EAF-4175-AD6F-2E2F02F6E1ED",
     "DataProviderID": 1,
     "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 167370,
         "Title": "East Dulwich",
@@ -34,14 +85,14 @@
         "Latitude": 51.45921,
         "Longitude": -0.07978,
         "AccessComments": "",
-        "RelatedURL": "http://engenie.co.uk/",
+        "RelatedURL": "https://www.ospreycharging.co.uk/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 252862,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00064-3",
+            "Reference": "GB*OSP*EOSP00064*3",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -52,7 +103,7 @@
         {
             "ID": 252863,
             "ConnectionTypeID": 2,
-            "Reference": "ENG00064-2",
+            "Reference": "GB*OSP*EOSP00064*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -63,7 +114,7 @@
         {
             "ID": 252864,
             "ConnectionTypeID": 33,
-            "Reference": "ENG00064-1",
+            "Reference": "GB*OSP*EOSP00064*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -73,7 +124,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-10T19:43:00Z",
+    "DateLastStatusUpdate": "2023-03-06T12:47:00Z",
     "MetadataValues": [
         {
             "ID": 7768,
@@ -81,7 +132,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2020-08-27T08:10:00Z",
     "SubmissionStatusTypeID": 100
 }

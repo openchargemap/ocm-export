@@ -1,12 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-07-10T22:20:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-02T19:40:00Z",
     "ID": 129002,
     "UUID": "499A9722-01D3-4E09-892C-2E62B95B29E0",
     "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
-    "UsageCost": "£0.33/kWh; other tariffs available",
+    "OperatorsReference": "GB*CGY*E*00247",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 129348,
         "Title": "Marefield Road",
@@ -16,26 +17,27 @@
         "CountryID": 1,
         "Latitude": 51.574559,
         "Longitude": -0.7794,
-        "RelatedURL": "https://char.gy",
+        "AccessComments": "",
+        "RelatedURL": "https://char.gy/00247",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 180585,
             "ConnectionTypeID": 25,
-            "Reference": "char.gy/00247",
+            "Reference": "GB*CGY*E*00247",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 5.1,
             "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-07-10T22:20:00Z",
+    "DateLastStatusUpdate": "2023-03-02T19:40:00Z",
     "MetadataValues": [
         {
             "ID": 4748,
@@ -43,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2019-07-10T14:20:00Z",
     "SubmissionStatusTypeID": 100
 }

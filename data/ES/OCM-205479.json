@@ -1,6 +1,6 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-07T13:58:00Z",
+    "DateLastVerified": "2023-02-20T20:14:00Z",
     "ID": 205479,
     "UUID": "92AA79F9-BD70-4B66-A339-DD21A6B67922",
     "DataProviderID": 1,
@@ -27,10 +27,10 @@
             "LevelID": 3,
             "Amps": 400,
             "Voltage": 920,
-            "PowerKW": 200,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Max power of the charger for both combined outlets 200 kW"
+            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 150 kW"
         },
         {
             "ID": 342991,
@@ -43,17 +43,38 @@
         },
         {
             "ID": 342992,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 920,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Max power of the charger for both combined outlets 200 kW. Total power limited to 50 kW for this charger"
+        },
+        {
+            "ID": 367059,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 367060,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-07T13:58:00Z",
+    "DateLastStatusUpdate": "2023-02-20T20:14:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-10-05T14:21:00Z",
     "SubmissionStatusTypeID": 200

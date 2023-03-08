@@ -1,6 +1,6 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T03:05:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T05:40:00Z",
     "ID": 110674,
     "UUID": "2C33C823-B48F-415A-8978-62634F479892",
     "DataProviderID": 2,
@@ -9,14 +9,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 111020,
-        "Title": "DENOOYER JAGUAR",
+        "Title": "DENOOYER JAGUAR CPE100- DC FAST",
         "AddressLine1": "5850 Stadium Dr",
         "Town": "Kalamazoo",
         "StateOrProvince": "MI",
         "Postcode": "49009",
         "CountryID": 2,
-        "Latitude": 42.267424,
-        "Longitude": -85.665007,
+        "Latitude": 42.267379,
+        "Longitude": -85.664722,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,13 +25,13 @@
     "Connections": [
         {
             "ID": 155949,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 155950,
@@ -44,7 +44,8 @@
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:05:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-07T05:40:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
