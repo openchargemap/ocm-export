@@ -1,10 +1,11 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-28T10:31:00Z",
+    "DateLastVerified": "2023-03-07T19:32:00Z",
     "ID": 237903,
     "UUID": "CE579A64-B265-4956-86F3-FA77A61B9E56",
     "DataProviderID": 1,
-    "OperatorID": 203,
+    "OperatorID": 3345,
+    "OperatorsReference": "GB*OSP*EOSP20301*1",
     "UsageTypeID": 5,
     "UsageCost": "£0.79/kWh",
     "AddressInfo": {
@@ -17,34 +18,36 @@
         "Postcode": "RG5 4UL",
         "CountryID": 1,
         "Latitude": 51.45486,
-        "Longitude": -0.8876299071276168,
+        "Longitude": -0.887629907127617,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 391306,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 0,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 391307,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 0,
             "LevelID": 3,
             "Amps": 190,
             "Voltage": 400,
             "PowerKW": 75,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 391308,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 0,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -53,7 +56,7 @@
         {
             "ID": 391309,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 0,
             "LevelID": 3,
             "PowerKW": 75,
             "CurrentTypeID": 30,
@@ -62,7 +65,7 @@
         {
             "ID": 391310,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 0,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -71,7 +74,7 @@
         {
             "ID": 391311,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 0,
             "LevelID": 3,
             "PowerKW": 75,
             "CurrentTypeID": 30,
@@ -79,8 +82,8 @@
         }
     ],
     "NumberOfPoints": 3,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-28T10:31:00Z",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-03-07T19:32:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2023-02-28T10:28:00Z",
     "SubmissionStatusTypeID": 200

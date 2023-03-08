@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 28244,
+            "ChargePointID": 35675,
+            "CommentTypeID": 10,
+            "UserName": "My_Leaf",
+            "Comment": "",
+            "DateCreated": "2023-03-07T17:21:27.753Z",
+            "User": {
+                "ID": 4511,
+                "Username": "My_Leaf"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 21810,
             "ChargePointID": 35675,
             "CommentTypeID": 10,
@@ -44,6 +58,22 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 36889,
+            "ChargePointID": 35675,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM35675/OCM-35675.orig.2023030717195792.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NL/OCM35675/OCM-35675.thmb.2023030717195792.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 4511,
+                "Username": "My_Leaf"
+            },
+            "DateCreated": "2023-03-07T17:20:00Z"
+        },
         {
             "ID": 29763,
             "ChargePointID": 35675,
@@ -157,8 +187,8 @@
             "DateCreated": "2015-04-18T20:15:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-05-01T06:53:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-07T17:21:00Z",
     "ID": 35675,
     "UUID": "EE2A3C69-A61D-48E4-A17A-D314F9AA11A7",
     "DataProviderID": 1,
@@ -185,7 +215,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         },
         {
             "ID": 44650,
@@ -194,7 +225,8 @@
             "LevelID": 3,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 44651,
@@ -203,7 +235,8 @@
             "LevelID": 3,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 3
         },
         {
             "ID": 313488,
@@ -212,12 +245,12 @@
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 3
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-05-01T06:53:00Z",
+    "DateLastStatusUpdate": "2023-03-07T17:21:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2015-01-09T06:05:00Z",
     "SubmissionStatusTypeID": 200
