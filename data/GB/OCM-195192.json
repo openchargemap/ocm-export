@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-08-14T13:01:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-04-03T18:51:00Z",
     "ID": 195192,
     "UUID": "54E98100-DD56-41BC-991F-8F9C5E32A557",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-105752",
+    "OperatorsReference": "PG-105752,PG-105760",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 195551,
         "Title": "Yate Supplies",
@@ -32,12 +32,25 @@
             "CurrentTypeID": 20,
             "Quantity": 1,
             "Comments": "Hiro-Fran"
+        },
+        {
+            "ID": 435485,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-105760",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Aldo-Katy"
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "This is an open charger based at the Yate Supplies BS37 7PA site",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-14T13:01:00Z",
+    "DateLastStatusUpdate": "2023-04-03T18:51:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-08-13T14:25:00Z",
     "SubmissionStatusTypeID": 200

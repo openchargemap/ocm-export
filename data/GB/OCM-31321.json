@@ -127,14 +127,15 @@
             "DateCreated": "2018-03-23T08:35:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-02-10T13:43:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-27T20:07:00Z",
     "ID": 31321,
     "UUID": "9F26CB8C-45ED-4F32-A525-964BAD6C2BE9",
     "DataProviderID": 1,
     "OperatorID": 24,
+    "OperatorsReference": "GB*GRD*EGS10355*1,GB*GRD*EGS10355*2,GB*GRD*EGS10355*3,GB*GRD*EGS10356*1,GB*GRD*EGS10356*2",
     "UsageTypeID": 5,
-    "UsageCost": "£0.39/kWh",
+    "UsageCost": "DC: £0.65/kWh,AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 31667,
         "Title": "Gordano Welcome Break M5 Services",
@@ -149,64 +150,61 @@
     },
     "Connections": [
         {
-            "ID": 34710,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "ID": 433075,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10356*1",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 500,
-            "PowerKW": 100,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 34711,
+            "ID": 433076,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10356*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433077,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10355*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433078,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10355*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434581,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 150,
+            "Reference": "GB*GRD*EGS10355*3",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
-        },
-        {
-            "ID": 34712,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 920,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 310935,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 920,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 310936,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 920,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
-            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-02-10T13:43:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-27T20:07:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-01-03T07:56:00Z",
     "SubmissionStatusTypeID": 200

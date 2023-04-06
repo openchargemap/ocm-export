@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-08T04:15:00Z",
+    "DateLastVerified": "2023-03-15T06:25:00Z",
     "ID": 251019,
     "UUID": "81870C4B-3BA7-423A-8421-47A6B48C5544",
-    "DataProviderID": 18,
-    "DataProvidersReference": "8f87d4b94113d31b79513839ae5dbc3f",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-90779",
+    "UsageTypeID": 4,
+    "UsageCost": "£2.50/hour for 2 hours,then £5.00/hour for 2 hours,then £10.00/hour",
     "AddressInfo": {
         "ID": 251403,
         "Title": "Coast Road",
@@ -22,18 +23,21 @@
     },
     "Connections": [
         {
-            "ID": 418247,
+            "ID": 425453,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-90779",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
+            "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2023-03-08T04:15:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-15T06:25:00Z",
     "MetadataValues": [
         {
             "ID": 23001,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2023-03-07T07:55:00Z",
     "SubmissionStatusTypeID": 100
 }

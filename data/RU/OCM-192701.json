@@ -1,21 +1,21 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-11-27T16:59:00Z",
+    "DateLastVerified": "2023-03-13T15:11:00Z",
     "ID": 192701,
     "UUID": "C36C79A3-B2DA-4C7D-94FB-6F78A6F23430",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
-    "UsageCost": "17р ",
+    "OperatorID": 3592,
+    "UsageTypeID": 5,
+    "UsageCost": "16 р/кВт*ч",
     "AddressInfo": {
         "ID": 193060,
-        "Title": "Р-22, enel-x на Лукойле (2х Type2, 22 кВт)",
-        "AddressLine1": "Волгоград, Авиаторов, 12А",
-        "Town": "Волгоград",
+        "Title": "Новая Крымза",
+        "AddressLine1": "Центральная, 6Б",
+        "Town": "Новая Крымза",
         "CountryID": 185,
-        "Latitude": 53.20970054811673,
-        "Longitude": 48.48365365683412,
-        "AccessComments": "888км м5 Центральная 6б новая Крымза ",
+        "Latitude": 53.209993,
+        "Longitude": 48.480983,
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,7 +25,7 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 250,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
@@ -33,14 +33,36 @@
         {
             "ID": 349784,
             "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 428084,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 428085,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 60
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.6,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
-    "GeneralComments": "Новая Крымза от Рус Гидро",
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2022-11-27T16:59:00Z",
+    "NumberOfPoints": 1,
+    "GeneralComments": "",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-13T15:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-23T11:34:00Z",
     "SubmissionStatusTypeID": 200

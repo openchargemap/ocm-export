@@ -1,0 +1,63 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-28T11:15:00Z",
+    "ID": 258886,
+    "UUID": "163F8C70-6E0E-4E5C-A668-06B08DF7333C",
+    "DataProviderID": 1,
+    "OperatorID": 24,
+    "OperatorsReference": "GB*GRD*EGS10125*1,GB*GRD*EGS10125*2,GB*GRD*ETACW2241721T0908*1",
+    "UsageTypeID": 5,
+    "UsageCost": "DC: £0.65/kWh,AC: £0.49/kWh",
+    "AddressInfo": {
+        "ID": 259270,
+        "Title": "IKEA Lakeside",
+        "AddressLine1": "Heron Way",
+        "Town": "West Thurrock",
+        "StateOrProvince": "Essex",
+        "Postcode": "RM20 3WJ",
+        "CountryID": 1,
+        "Latitude": 51.480335,
+        "Longitude": 0.284178,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 433621,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10125*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433622,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10125*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434686,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*ETACW2241721T0908*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-28T11:15:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2023-03-26T14:51:00Z",
+    "SubmissionStatusTypeID": 200
+}

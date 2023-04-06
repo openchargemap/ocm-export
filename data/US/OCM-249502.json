@@ -1,10 +1,44 @@
 {
+    "UserComments": [
+        {
+            "ID": 28265,
+            "ChargePointID": 249502,
+            "CommentTypeID": 10,
+            "UserName": "AndyK",
+            "Comment": "Only 20 kW on our Bolt at < 25% SOC. Dissapointing. It was 41 degrees F out.",
+            "Rating": 3,
+            "DateCreated": "2023-03-13T01:34:26.643Z",
+            "User": {
+                "ID": 42995,
+                "Username": "AndyK"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 36960,
+            "ChargePointID": 249502,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM249502/OCM-249502.orig.2023031301432224.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM249502/OCM-249502.thmb.2023031301432224.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 42995,
+                "Username": "AndyK"
+            },
+            "DateCreated": "2023-03-13T01:43:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T05:59:00Z",
+    "DateLastVerified": "2023-03-13T01:43:00Z",
     "ID": 249502,
     "UUID": "567C1685-3405-41FF-A694-58EE245B7871",
-    "DataProviderID": 2,
-    "DataProvidersReference": "164163",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -15,8 +49,8 @@
         "StateOrProvince": "WA",
         "Postcode": "98502",
         "CountryID": 2,
-        "Latitude": 47.04545,
-        "Longitude": -122.93618,
+        "Latitude": 47.04525809076222,
+        "Longitude": -122.93616390956666,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -27,9 +61,7 @@
             "ID": 416274,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -37,15 +69,14 @@
             "ID": 416275,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4
         }
     ],
+    "GeneralComments": "The chargers are tucked in next to the Joan's fabric on the side nearest to the Target.  A little hard to find but they are there.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-07T05:59:00Z",
+    "DateLastStatusUpdate": "2023-03-13T01:43:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2023-03-07T05:59:00Z",
     "SubmissionStatusTypeID": 100

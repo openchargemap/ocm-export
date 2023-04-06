@@ -1,6 +1,6 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-01-14T08:14:00Z",
+    "DateLastVerified": "2023-03-19T13:21:00Z",
     "ID": 212349,
     "UUID": "F424DB50-1EB3-4839-80E9-A6CBB6588046",
     "DataProviderID": 1,
@@ -30,20 +30,47 @@
             "Voltage": 1000,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 5,
-            "Comments": "3 DC 150kW chargers. The charger splits the power between both outlets. Power limited to 40 kW "
+            "Quantity": 2,
+            "Comments": "XCharge 150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         },
         {
             "ID": 353493,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "XCharge150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         },
         {
             "ID": 353494,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "XCharge150 CCS/Chademo charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+        },
+        {
+            "ID": 429100,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "XCharge 150 DC charger"
+        },
+        {
+            "ID": 429101,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -55,7 +82,7 @@
     "NumberOfPoints": 8,
     "GeneralComments": "eMallorca",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-14T08:14:00Z",
+    "DateLastStatusUpdate": "2023-03-19T13:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2023-01-14T08:10:00Z",
     "SubmissionStatusTypeID": 200

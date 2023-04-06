@@ -18,7 +18,7 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-24T19:54:00Z",
+    "DateLastVerified": "2023-04-03T08:03:00Z",
     "ID": 195468,
     "UUID": "D1088FAE-78D6-412D-AD4D-93E3D37055D0",
     "DataProviderID": 1,
@@ -47,7 +47,7 @@
             "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited for 400V cars"
+            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited to 200kW for 400V cars"
         },
         {
             "ID": 325536,
@@ -59,7 +59,7 @@
             "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited for 400V cars"
+            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited to 200kW for 400V cars"
         },
         {
             "ID": 348072,
@@ -82,12 +82,22 @@
             "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Siemens DC charger. Shares the total power (300 kW) with the Chademo connector (max power limited for 400V cars). "
+            "Comments": "Siemens DC charger. Shares the total power (300 kW) with the Chademo connector (max power limited to 160kW for 400V cars). "
+        },
+        {
+            "ID": 435367,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Siemens DC charger"
         }
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-24T19:54:00Z",
+    "DateLastStatusUpdate": "2023-04-03T08:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-08-22T16:09:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,0 +1,64 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-28T11:48:00Z",
+    "ID": 259036,
+    "UUID": "C0811B0C-31D6-4F74-BFB4-AE58EA7F2DDB",
+    "DataProviderID": 1,
+    "OperatorID": 24,
+    "OperatorsReference": "GB*GRD*EGS10135*1,GB*GRD*EGS10135*2,GB*GRD*ETACW2243920T0554*1",
+    "UsageTypeID": 5,
+    "UsageCost": "DC: £0.65/kWh,AC: £0.49/kWh",
+    "AddressInfo": {
+        "ID": 259420,
+        "Title": "IKEA Southampton",
+        "AddressLine1": "W Quay RD",
+        "Town": "Southampton",
+        "StateOrProvince": "Hampshire",
+        "Postcode": "SO15 1GY",
+        "CountryID": 1,
+        "Latitude": 50.903346,
+        "Longitude": -1.411625,
+        "RelatedURL": "https://electrichighway.gridserve.com/ikea-southampton",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 434294,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10135*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434295,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10135*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434365,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*ETACW2243920T0554*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-28T11:48:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2023-03-26T20:02:00Z",
+    "SubmissionStatusTypeID": 200
+}

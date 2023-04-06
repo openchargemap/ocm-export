@@ -1,15 +1,18 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-08-23T10:33:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-10T07:57:00Z",
     "ID": 197804,
     "UUID": "37A81C73-6780-46F3-AD1B-6EA17261A162",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRIENS35353A",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 198163,
-        "Title": "Vezin-le-Coquet",
-        "AddressLine1": "4001 Rue de la Belle Épine 35132 Vezin-le-Coquet",
+        "Title": "IECharge - Vezin-le-Coquet",
+        "AddressLine1": "4001 Rue de la Belle Épine",
+        "Town": "Vezin-le-Coquet",
+        "StateOrProvince": "Ille et Vilaine",
+        "Postcode": "35132 ",
         "CountryID": 80,
         "Latitude": 48.125067030488154,
         "Longitude": -1.7548354193520386,
@@ -22,13 +25,42 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "PowerKW": 320,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 427045,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 160,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427046,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 56,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427047,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 4,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:33:00Z",
+    "DateLastStatusUpdate": "2023-03-10T07:57:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2022-08-23T10:33:00Z",
     "SubmissionStatusTypeID": 100

@@ -161,13 +161,14 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-05T22:03:00Z",
+    "DateLastVerified": "2023-03-28T11:48:00Z",
     "ID": 19451,
     "UUID": "D992BDEA-8C74-4D6A-AA22-412A6E9E6B18",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1082,1083",
+    "OperatorsReference": "GB*GRD*EGS10363*1,GB*GRD*EGS10363*2,GB*GRD*ETACW2243920T0498*1,GB*GRD*ETACW2243920T0512*1",
     "UsageTypeID": 5,
+    "UsageCost": "DC: £0.65/kWh,AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 19796,
         "Title": "IKEA Croydon",
@@ -177,15 +178,16 @@
         "StateOrProvince": "Surrey",
         "Postcode": "CR0 4UZ",
         "CountryID": 1,
-        "Latitude": 51.38089709640915,
-        "Longitude": -0.12358752513720385,
+        "Latitude": 51.3808970964092,
+        "Longitude": -0.123587525137204,
         "RelatedURL": "https://electrichighway.gridserve.com/ikea-croydon",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 19764,
+            "ID": 433073,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10363*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 60,
@@ -193,8 +195,9 @@
             "Quantity": 1
         },
         {
-            "ID": 20014,
+            "ID": 433074,
             "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10363*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 60,
@@ -202,18 +205,33 @@
             "Quantity": 1
         },
         {
-            "ID": 392298,
+            "ID": 434645,
             "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*ETACW2243920T0498*1",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 434646,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*ETACW2243920T0512*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2023-03-05T22:03:00Z",
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-28T11:48:00Z",
     "MetadataValues": [
         {
             "ID": 63,

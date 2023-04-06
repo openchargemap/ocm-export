@@ -1,13 +1,14 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-27T20:59:00Z",
     "ID": 85334,
     "UUID": "537DE701-CC5A-4A37-A46D-7AC390DF3D47",
     "DataProviderID": 1,
     "DataProvidersReference": "3842",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 85680,
-        "Title": "Enellys",
+        "Title": "Enelly's Lindesberg - Mer",
         "AddressLine1": "Stafettgatan 8",
         "Town": "LINDESBERG",
         "StateOrProvince": "ÖREBRO",
@@ -21,27 +22,37 @@
     "Connections": [
         {
             "ID": 121270,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 121271,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "3",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
+            "Quantity": 1,
             "Comments": "Mode 3"
+        },
+        {
+            "ID": 434750,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 50,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 3,
-    "DateLastStatusUpdate": "2020-05-26T08:23:00Z",
+    "DateLastStatusUpdate": "2023-03-27T20:59:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2017-04-01T15:08:00Z",
     "SubmissionStatusTypeID": 100

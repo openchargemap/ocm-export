@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-08T04:16:00Z",
+    "DateLastVerified": "2023-03-08T06:28:00Z",
     "ID": 251225,
     "UUID": "95C4B3B2-FD80-406C-A734-A9D346928956",
-    "DataProviderID": 18,
-    "DataProvidersReference": "9e500f4c2d43935070e57ff9a3f47a6d",
+    "DataProviderID": 1,
     "OperatorID": 3345,
-    "UsageTypeID": 5,
+    "OperatorsReference": "GB*CGY*E*00558",
+    "UsageTypeID": 1,
+    "UsageCost": "Day (07:00-00:00): £0.65/kWh Night (00:00-0700): £0.29/kWh ",
     "AddressInfo": {
         "ID": 251609,
         "Title": "117 South Croxted Road",
@@ -17,23 +18,26 @@
         "Latitude": 51.431411,
         "Longitude": -0.089223,
         "AccessComments": "",
-        "RelatedURL": "https://char.gy",
+        "RelatedURL": "https://char.gy/00558",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 418572,
             "ConnectionTypeID": 25,
-            "Reference": "00558",
+            "Reference": "GB*CGY*E*00558",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "PowerKW": 5.1,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2023-03-08T04:16:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-08T06:28:00Z",
     "MetadataValues": [
         {
             "ID": 23207,
@@ -41,7 +45,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2023-03-07T07:56:00Z",
     "SubmissionStatusTypeID": 100
 }

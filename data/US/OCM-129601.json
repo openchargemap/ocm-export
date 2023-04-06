@@ -1,10 +1,27 @@
 {
+    "MediaItems": [
+        {
+            "ID": 36959,
+            "ChargePointID": 129601,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM129601/OCM-129601.orig.2023031222555295.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM129601/OCM-129601.thmb.2023031222555295.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2023-03-12T22:56:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T04:56:00Z",
+    "DateLastVerified": "2023-03-25T02:20:00Z",
     "ID": 129601,
     "UUID": "423E394F-6A43-4437-BAA6-A5D07415E748",
-    "DataProviderID": 2,
-    "DataProvidersReference": "123483",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -15,8 +32,8 @@
         "StateOrProvince": "AZ",
         "Postcode": "85602",
         "CountryID": 2,
-        "Latitude": 31.9698,
-        "Longitude": -110.31471,
+        "Latitude": 31.97014305332202,
+        "Longitude": -110.31496158675539,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -37,15 +54,23 @@
             "ID": 181359,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 427832,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 75,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-07T04:56:00Z",
+    "DateLastStatusUpdate": "2023-03-25T02:20:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2019-07-21T11:43:00Z",
     "SubmissionStatusTypeID": 100

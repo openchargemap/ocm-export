@@ -265,14 +265,14 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-01-25T08:22:00Z",
+    "DateLastVerified": "2023-03-31T15:14:00Z",
     "ID": 18907,
     "UUID": "53599BD8-0153-44C7-8FB5-AA18228BFD64",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1020,1021",
+    "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "£0.65/kWh",
+    "UsageCost": "DC: £0.65/kWh,AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 19252,
         "Title": "Fleet Welcome Break M3 (N) Services",
@@ -283,10 +283,8 @@
         "CountryID": 1,
         "Latitude": 51.2964002051699,
         "Longitude": -0.856080651283264,
-        "ContactTelephone1": "",
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
         "AccessComments": "M3 junctions 5/4a",
-        "RelatedURL": "",
+        "RelatedURL": "https://electrichighway.gridserve.com/fleet-northbound-services",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -337,12 +335,36 @@
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 434569,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10353*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 434570,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10352*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-25T08:22:00Z",
+    "DateLastStatusUpdate": "2023-03-31T15:14:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2013-08-28T05:38:00Z",
     "SubmissionStatusTypeID": 200

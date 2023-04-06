@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 28253,
+            "ChargePointID": 211327,
+            "CommentTypeID": 50,
+            "UserName": "DCA",
+            "Comment": "11:23am 11/03/23 checked osprey app states only 3/6 connectors available.",
+            "DateCreated": "2023-03-11T11:24:08.36Z",
+            "User": {
+                "ID": 37168,
+                "Username": "DCA"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 28041,
             "ChargePointID": 211327,
             "CommentTypeID": 50,
@@ -46,22 +60,6 @@
         }
     ],
     "MediaItems": [
-        {
-            "ID": 36618,
-            "ChargePointID": 211327,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM211327/OCM-211327.orig.2023021222354451.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM211327/OCM-211327.thmb.2023021222354451.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 37168,
-                "Username": "DCA"
-            },
-            "DateCreated": "2023-02-12T22:36:00Z"
-        },
         {
             "ID": 36619,
             "ChargePointID": 211327,
@@ -288,12 +286,12 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T19:32:00Z",
+    "DateLastVerified": "2023-03-13T18:56:00Z",
     "ID": 211327,
     "UUID": "FBA539B6-6277-45CF-9A87-1BE393CC7C57",
     "DataProviderID": 1,
-    "OperatorID": 3345,
-    "OperatorsReference": "GB*OSP*EOSP20281*8",
+    "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
     "UsageCost": "£0.79/kWh",
     "AddressInfo": {
@@ -303,33 +301,136 @@
         "Town": "Ipswich",
         "Postcode": "IP8 3TQ",
         "CountryID": 1,
-        "Latitude": 52.0408951200957,
-        "Longitude": 1.09686026680652,
+        "Latitude": 52.0408239996678,
+        "Longitude": 1.09613354749399,
+        "AccessComments": "24/7",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 352445,
+            "ID": 427701,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 0,
+            "Reference": "GB*OSP*EOSP20281*12",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 75,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 6
+            "Quantity": 1
         },
         {
-            "ID": 352446,
+            "ID": 427702,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP20281*6",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427703,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 0,
+            "Reference": "GB*OSP*EOSP20281*7",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 6
+            "Quantity": 1
+        },
+        {
+            "ID": 427704,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP20281*4",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427705,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP20281*3",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427706,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP20281*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427707,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP20281*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427708,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP20281*5",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427709,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP20281*9",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427710,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP20281*8",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427711,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP20281*10",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427712,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP20281*11",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 6,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2023-03-07T19:32:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-13T18:56:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2023-01-12T08:41:00Z",
     "SubmissionStatusTypeID": 200

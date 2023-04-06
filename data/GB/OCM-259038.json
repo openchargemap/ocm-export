@@ -1,0 +1,63 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-27T08:33:00Z",
+    "ID": 259038,
+    "UUID": "EC521F3C-E032-4E79-99CD-682A76BC3B43",
+    "DataProviderID": 1,
+    "OperatorID": 24,
+    "OperatorsReference": "GB*GRD*EGS10362*1,GB*GRD*EGS10362*2,GB*GRD*EGS10362*3",
+    "UsageTypeID": 5,
+    "UsageCost": "DC: £0.65/kWh,AC: £0.49/kWh",
+    "AddressInfo": {
+        "ID": 259422,
+        "Title": "IKEA Belfast",
+        "AddressLine1": "Airport Road West",
+        "AddressLine2": "Holywood",
+        "Town": "Belfast",
+        "Postcode": "BT3 9EJ",
+        "CountryID": 1,
+        "Latitude": 54.62046,
+        "Longitude": -5.863654,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 434298,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10362*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434299,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10362*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434336,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10362*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-27T08:33:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2023-03-26T20:02:00Z",
+    "SubmissionStatusTypeID": 200
+}

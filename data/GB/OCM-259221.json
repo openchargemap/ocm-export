@@ -1,0 +1,79 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-31T05:27:00Z",
+    "ID": 259221,
+    "UUID": "840720B4-741E-41F5-A61F-EC1818AED6C3",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70610,PG-89228,veefil-12200270",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.28/kWh,£0.40/kWh,£0.50/kWh",
+    "AddressInfo": {
+        "ID": 259605,
+        "Title": "Tesco Extra-Walsall",
+        "AddressLine1": "Littleton Street West",
+        "Town": "Walsall",
+        "Postcode": "WS2 8EQ",
+        "CountryID": 1,
+        "Latitude": 52.58759742,
+        "Longitude": -1.98286864,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 434828,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70610",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Hiro-Lulu"
+        },
+        {
+            "ID": 434829,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-89228",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Gwen-Buck"
+        },
+        {
+            "ID": 434830,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200270",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Nori-Kriv"
+        },
+        {
+            "ID": 434831,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200270",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Nori-Kriv"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Littleton Street West, Walsall",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-31T05:27:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2023-03-30T05:24:00Z",
+    "SubmissionStatusTypeID": 200
+}

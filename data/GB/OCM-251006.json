@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-08T04:15:00Z",
+    "DateLastVerified": "2023-03-08T06:28:00Z",
     "ID": 251006,
     "UUID": "1B43B650-FD50-4B67-9902-C97B69AB8E81",
-    "DataProviderID": 18,
-    "DataProvidersReference": "71e4422de9a1f8f4732429fa283c0c0e",
+    "DataProviderID": 1,
     "OperatorID": 3,
-    "UsageTypeID": 1,
+    "OperatorsReference": "PG-96547,PG-96536",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.45/kWh",
     "AddressInfo": {
         "ID": 251390,
         "Title": "London Road",
@@ -22,18 +23,33 @@
     },
     "Connections": [
         {
-            "ID": 418217,
+            "ID": 425461,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "PG-96536",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Nero-Myer"
+        },
+        {
+            "ID": 425462,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-96547",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Owen-Herb"
         }
     ],
-    "DateLastStatusUpdate": "2023-03-08T04:15:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-08T06:28:00Z",
     "MetadataValues": [
         {
             "ID": 22988,
@@ -41,7 +57,7 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
+    "DataQualityLevel": 1,
     "DateCreated": "2023-03-07T07:55:00Z",
     "SubmissionStatusTypeID": 100
 }

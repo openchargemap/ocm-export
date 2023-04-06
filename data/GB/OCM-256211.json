@@ -1,12 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T22:28:00Z",
+    "DateLastVerified": "2023-03-13T18:59:00Z",
     "ID": 256211,
     "UUID": "FC21BFD5-92B6-4D51-B6BB-2AB031687395",
     "DataProviderID": 1,
     "OperatorID": 203,
-    "OperatorsReference": "GB*OSP*EOSP20053*2",
-    "UsageTypeID": 1,
+    "OperatorsReference": "GB*OSP*EOSP20052*1,GB*OSP*EOSP20052*2,GB*OSP*EOSP20053*1,GB*OSP*EOSP20053*2",
+    "UsageTypeID": 5,
     "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 256595,
@@ -30,11 +30,41 @@
             "PowerKW": 75,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 426217,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP20053*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 426218,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP20052*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 426219,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP20052*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-07T22:28:00Z",
+    "DateLastStatusUpdate": "2023-03-13T18:59:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2023-03-07T22:28:00Z",
     "SubmissionStatusTypeID": 200

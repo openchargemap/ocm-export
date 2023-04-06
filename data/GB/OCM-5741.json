@@ -280,15 +280,15 @@
             "DateCreated": "2014-01-16T09:15:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-03-05T10:19:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-30T15:22:00Z",
     "ID": 5741,
     "UUID": "0422C3D9-4BD7-4620-A51B-2A744975951B",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1044,1045,1046",
+    "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "£0.39/kWh",
+    "UsageCost": "DC: £0.65/kWh,AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 5663,
         "Title": "Membury Welcome Break M4 (E) Services",
@@ -300,13 +300,56 @@
         "CountryID": 1,
         "Latitude": 51.483884744577,
         "Longitude": -1.55782988095097,
-        "RelatedURL": "",
+        "RelatedURL": "https://electrichighway.gridserve.com/membury-eastbound-services",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 22602,
+            "ID": 311660,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10371*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433067,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10372*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433068,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10372*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433069,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10371*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434691,
             "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10372*3",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -316,54 +359,22 @@
             "Quantity": 1
         },
         {
-            "ID": 34723,
-            "ConnectionTypeID": 33,
+            "ID": 434692,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10371*3",
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 920,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 105273,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 500,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 311660,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 920,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 311661,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 500,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "2hrs free parking then fees apply but unlimited free parking if staying in hotel",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-05T10:19:00Z",
+    "DateLastStatusUpdate": "2023-03-30T15:22:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2011-09-12T11:40:00Z",
     "SubmissionStatusTypeID": 200

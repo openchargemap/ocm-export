@@ -1,15 +1,18 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-08-23T10:35:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-10T16:21:00Z",
     "ID": 198255,
     "UUID": "086ACB85-BFB5-4A34-92ED-6C59B3AED213",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS50P505431",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 198614,
-        "Title": "SAINT QUENTIN SUR LE HOMME",
-        "AddressLine1": "D103 50220 SAINT QUENTIN SUR LE HOMME",
+        "Title": "SDE - Saint Quentin sur le Homme",
+        "AddressLine1": "D103 Saint Quentin sur le Homme",
+        "Town": "Saint Quantin sur le Homme",
+        "StateOrProvince": "Manche",
+        "Postcode": "50220",
         "CountryID": 80,
         "Latitude": 48.649714,
         "Longitude": -1.347532,
@@ -18,17 +21,37 @@
     },
     "Connections": [
         {
-            "ID": 330730,
+            "ID": 427212,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427213,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427214,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Prise T2<br>Service accessible<br>- aux abonnÃ©s disposant d'un badge de mobilitÃ© Ã©lectrique<br>- aux non abonnÃ©s disposant d'une carte bancaire, via le site www.e-charge50.fr, soit d'un TPE sans contact<br>Informations disponibles sur le site www.e-charge50.fr'",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:35:00Z",
+    "DateLastStatusUpdate": "2023-03-10T16:21:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2022-08-23T10:35:00Z",
     "SubmissionStatusTypeID": 100

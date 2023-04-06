@@ -1,15 +1,18 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-08-23T10:36:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-12T10:59:00Z",
     "ID": 199314,
     "UUID": "629D8420-F336-4CA7-BA46-7E53A1609C34",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS14PCPFJ1PSP4H",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 199673,
-        "Title": "Villers-Bocage, Rue Richard Lenoir",
-        "AddressLine1": "Rue Richard Lenoir 14310 VILLERS-BOCAGE",
+        "Title": "MobiSDEC - Villers-Bocage",
+        "AddressLine1": "Rue Richard Lenoir ",
+        "Town": "Villiers-Bocage",
+        "StateOrProvince": "Calvados",
+        "Postcode": "14310 ",
         "CountryID": 80,
         "Latitude": 49.080152,
         "Longitude": -0.651174,
@@ -18,17 +21,37 @@
     },
     "Connections": [
         {
-            "ID": 332646,
+            "ID": 427581,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427582,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427583,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 44,
-            "CurrentTypeID": 20
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Autre paiements : compte prépayé.",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:36:00Z",
+    "DateLastStatusUpdate": "2023-03-12T10:59:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2022-08-23T10:36:00Z",
     "SubmissionStatusTypeID": 100

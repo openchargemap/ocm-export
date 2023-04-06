@@ -1,10 +1,9 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T06:00:00Z",
+    "DateLastVerified": "2023-03-20T15:25:00Z",
     "ID": 249531,
     "UUID": "74734021-7C2C-42A5-8F6E-BEBE9F57AC49",
-    "DataProviderID": 2,
-    "DataProvidersReference": "201423",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -15,8 +14,8 @@
         "StateOrProvince": "WA",
         "Postcode": "98335",
         "CountryID": 2,
-        "Latitude": 47.3067,
-        "Longitude": -122.58017,
+        "Latitude": 47.306962501414404,
+        "Longitude": -122.58062751598088,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -27,9 +26,7 @@
             "ID": 416311,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -37,15 +34,23 @@
             "ID": 416312,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 431243,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-07T06:00:00Z",
+    "DateLastStatusUpdate": "2023-03-20T15:25:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2023-03-07T06:00:00Z",
     "SubmissionStatusTypeID": 100

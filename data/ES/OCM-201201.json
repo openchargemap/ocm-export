@@ -18,7 +18,7 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-21T18:04:00Z",
+    "DateLastVerified": "2023-04-03T08:03:00Z",
     "ID": 201201,
     "UUID": "41511871-9A70-41A7-A920-0748D841A8ED",
     "DataProviderID": 1,
@@ -48,7 +48,7 @@
             "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Siemens Charger. Shares the power with the Chademo outlet. (max power limited for 400V cars)"
+            "Comments": "Siemens Charger. Shares the power with the Chademo outlet. (max power limited to 160kW for 400V cars)"
         },
         {
             "ID": 335534,
@@ -60,11 +60,21 @@
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "Siemens Charger."
+        },
+        {
+            "ID": 435368,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Siemens charger"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-21T18:04:00Z",
+    "DateLastStatusUpdate": "2023-04-03T08:03:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-08-23T13:19:00Z",
     "SubmissionStatusTypeID": 200

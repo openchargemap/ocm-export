@@ -1,10 +1,27 @@
 {
+    "MediaItems": [
+        {
+            "ID": 36923,
+            "ChargePointID": 218888,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM218888/OCM-218888.orig.2023031014403299.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM218888/OCM-218888.thmb.2023031014403299.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2023-03-10T14:41:00Z"
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T04:57:00Z",
+    "DateLastVerified": "2023-03-25T00:52:00Z",
     "ID": 218888,
     "UUID": "3FF866B3-C185-41D8-8A2E-2FB7C455CBA3",
-    "DataProviderID": 2,
-    "DataProvidersReference": "169411",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -27,9 +44,7 @@
             "ID": 369242,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -37,15 +52,22 @@
             "ID": 369243,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 427206,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-07T04:57:00Z",
+    "DateLastStatusUpdate": "2023-03-25T00:52:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2023-02-13T04:56:00Z",
     "SubmissionStatusTypeID": 100

@@ -16,15 +16,15 @@
             "IsActionedByEditor": false
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-01-30T02:30:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-04-03T17:50:00Z",
     "ID": 118694,
     "UUID": "3D8770C7-CE4A-410F-9136-0630215FED26",
     "DataProviderID": 1,
     "OperatorID": 32,
     "OperatorsReference": "24547",
     "UsageTypeID": 4,
-    "UsageCost": "Free for Polar Plus subscription members. Polar Instant users will pay max of £1.20 (Polar Instant minimum transaction amount)",
+    "UsageCost": "Inclusive; for BP Pulse Members only",
     "AddressInfo": {
         "ID": 119040,
         "Title": "Slough the Leisure Centre",
@@ -41,7 +41,8 @@
         {
             "ID": 167875,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "Reference": "24547",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -50,7 +51,8 @@
         {
             "ID": 167876,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "Reference": "24547",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -59,7 +61,8 @@
         {
             "ID": 167877,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "Reference": "24547",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
@@ -68,8 +71,8 @@
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "The unit is located at the back of the building in the Car Park.",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-30T02:30:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2023-04-03T17:50:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2019-03-29T06:13:00Z",
     "SubmissionStatusTypeID": 200

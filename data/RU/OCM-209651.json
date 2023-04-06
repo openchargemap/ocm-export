@@ -1,20 +1,21 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-31T16:54:00Z",
+    "DateLastVerified": "2023-03-13T09:28:00Z",
     "ID": 209651,
     "UUID": "7BA27FA5-1258-4D96-AF72-FCEAA18C88B0",
     "DataProviderID": 1,
-    "OperatorID": 3316,
-    "UsageTypeID": 4,
+    "OperatorID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "340 р/сессия",
     "AddressInfo": {
         "ID": 210031,
-        "Title": "Lukoil",
-        "AddressLine1": "Lukoil Fuel Station",
+        "Title": "Лукойл",
+        "AddressLine1": "26-й километр",
         "Town": "Краснода́рский край",
         "Postcode": "353556",
         "CountryID": 185,
-        "Latitude": 45.21135889834554,
-        "Longitude": 36.75924611158541,
+        "Latitude": 45.211787,
+        "Longitude": 36.760087,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,7 +24,7 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 25,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -32,14 +33,25 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 25,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427210,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-31T16:54:00Z",
+    "DateLastStatusUpdate": "2023-03-13T09:28:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-10-31T16:50:00Z",
     "SubmissionStatusTypeID": 200

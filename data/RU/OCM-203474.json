@@ -1,18 +1,22 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-09-20T15:39:00Z",
+    "DateLastVerified": "2023-03-10T16:21:00Z",
     "ID": 203474,
     "UUID": "0713E47A-2D17-4CC1-AA3F-F5A11898AFDE",
     "DataProviderID": 1,
     "OperatorID": 3316,
     "UsageTypeID": 4,
+    "UsageCost": "13 р/кВт*ч",
     "AddressInfo": {
         "ID": 203841,
-        "Title": "Tes76",
-        "AddressLine1": "Belogorsk",
+        "Title": "TES 76",
+        "AddressLine1": "Кричинское сельское поселение",
+        "StateOrProvince": "Крым",
         "CountryID": 185,
-        "Latitude": 45.0684213676665,
-        "Longitude": 34.59805184561344,
+        "Latitude": 45.06974277868613,
+        "Longitude": 34.601130345912395,
+        "ContactTelephone1": "89780162216",
+        "RelatedURL": "https://driveenergychargers.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,11 +28,31 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 427215,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427216,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-20T15:39:00Z",
+    "DateLastStatusUpdate": "2023-03-10T16:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-09-18T04:55:00Z",
     "SubmissionStatusTypeID": 200

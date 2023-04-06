@@ -1,0 +1,84 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-04-03T20:31:00Z",
+    "ID": 259035,
+    "UUID": "0FCE31E2-2439-4563-95A7-89CF71B54954",
+    "DataProviderID": 1,
+    "OperatorID": 24,
+    "OperatorsReference": "GB*GRD*EGS10288*1,GB*GRD*EGS10288*2,GB*GRD*EGS10288*3,GB*GRD*EGS10289*1,GB*GRD*EGS10289*2",
+    "UsageTypeID": 5,
+    "UsageCost": "DC: £0.65/kWh,AC: £0.49/kWh",
+    "AddressInfo": {
+        "ID": 259419,
+        "Title": "Welcome Break Membury Westbound Services",
+        "AddressLine1": "M4 Westbound",
+        "AddressLine2": "Baydon",
+        "Town": "Lambourn",
+        "Postcode": "RG17 7TZ",
+        "CountryID": 1,
+        "Latitude": 51.480757,
+        "Longitude": -1.556847,
+        "RelatedURL": "https://electrichighway.gridserve.com/membury-westbound",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 434290,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10288*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434291,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10288*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434292,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10289*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434293,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10289*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434696,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10288*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 5,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-03T20:31:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2023-03-26T20:02:00Z",
+    "SubmissionStatusTypeID": 200
+}

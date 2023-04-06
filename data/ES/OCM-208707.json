@@ -1,11 +1,29 @@
 {
+    "UserComments": [
+        {
+            "ID": 28288,
+            "ChargePointID": 208707,
+            "CommentTypeID": 10,
+            "UserName": "HonzaH",
+            "Comment": "Only charges for one hour and then turns off",
+            "Rating": 1,
+            "DateCreated": "2023-03-18T00:31:34.89Z",
+            "User": {
+                "ID": 45202,
+                "Username": "HonzaH"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-20T14:39:00Z",
+    "DateLastVerified": "2023-03-19T14:46:00Z",
     "ID": 208707,
     "UUID": "7FCA9DED-0356-4681-AAF5-D82FF807755B",
     "DataProviderID": 1,
     "OperatorID": 3499,
     "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 209087,
         "Title": "Mercadona Arrecife",
@@ -14,8 +32,9 @@
         "StateOrProvince": "Canary Islands",
         "Postcode": "35507",
         "CountryID": 210,
-        "Latitude": 28.972520487475208,
-        "Longitude": -13.561318784185005,
+        "Latitude": 28.972447852726447,
+        "Longitude": -13.5616901300711,
+        "AccessComments": "Only accessible during opening hours of the shop",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,14 +44,16 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
-            "PowerKW": 11,
+            "PowerKW": 3,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "Only charges for one hour and then turns off",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-20T14:39:00Z",
+    "DateLastStatusUpdate": "2023-03-19T14:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-10-20T14:39:00Z",
     "SubmissionStatusTypeID": 200

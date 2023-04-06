@@ -28,15 +28,16 @@
             "CheckinStatusTypeID": 30
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-27T20:50:00Z",
     "ID": 46122,
     "UUID": "A8F24E38-A9D7-472B-B908-92E2F7567CA5",
     "DataProviderID": 1,
     "DataProvidersReference": "2058",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 46468,
-        "Title": "Fortum McD Vaksalagatan",
+        "Title": "McDonalds Vaksalagatan - Recharge",
         "AddressLine1": "Årstagatan 1",
         "Town": "UPPSALA",
         "StateOrProvince": "UPPSALA",
@@ -50,48 +51,40 @@
     "Connections": [
         {
             "ID": 56785,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 88493,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "2",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 137822,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "3",
             "LevelID": 2,
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
+            "Quantity": 1,
             "Comments": "Mode 3"
-        },
-        {
-            "ID": 137823,
-            "ConnectionTypeID": 28,
-            "Reference": "4",
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Comments": "Mode 2"
         }
     ],
     "NumberOfPoints": 3,
-    "DateLastStatusUpdate": "2020-05-26T08:23:00Z",
+    "DateLastStatusUpdate": "2023-03-27T20:50:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2015-05-03T00:54:00Z",
     "SubmissionStatusTypeID": 100

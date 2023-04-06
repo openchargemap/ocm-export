@@ -97,15 +97,15 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-30T14:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-28T12:25:00Z",
     "ID": 24698,
     "UUID": "47BAA2D9-8759-4737-858B-119043A2C0E4",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1138,1137",
+    "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "£0.30/kWh",
+    "UsageCost": "DC: £0.65/kWh,AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 25044,
         "Title": "Hilton Park Moto M6 (N) Services",
@@ -117,47 +117,81 @@
         "CountryID": 1,
         "Latitude": 52.6433238370032,
         "Longitude": -2.05805361270905,
+        "RelatedURL": "https://electrichighway.gridserve.com/hilton-park-northbound-services",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 27005,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 500,
-            "PowerKW": 100,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 27006,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 920,
-            "PowerKW": 120,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 27007,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10182*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
-            "PowerKW": 120,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 433058,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10184*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433059,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10182*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433060,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10184*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434702,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*ETACW2241121T1185*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 434703,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*ETACW2243920T0447*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-30T14:12:00Z",
+    "DateLastStatusUpdate": "2023-03-28T12:25:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-11-01T03:05:00Z",
     "SubmissionStatusTypeID": 200

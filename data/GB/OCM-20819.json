@@ -1,12 +1,13 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-26T11:12:00Z",
+    "DateLastVerified": "2023-03-28T12:25:00Z",
     "ID": 20819,
     "UUID": "8338BDF8-A742-4F5F-B162-B42C6762B5F6",
     "DataProviderID": 1,
     "OperatorID": 24,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "£0.66/kWh",
+    "UsageCost": "DC: £0.65/kWh,High-Power DC:£0.66/kWh,AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 21164,
         "Title": "Woolley Edge Moto M1 (S) Services",
@@ -18,6 +19,7 @@
         "CountryID": 1,
         "Latitude": 53.622016,
         "Longitude": -1.54533,
+        "RelatedURL": "https://electrichighway.gridserve.com/woolley-edge-southbound-services",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -140,11 +142,33 @@
             "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 433143,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10501*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434718,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*ETACW2243920T0529*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-26T11:12:00Z",
+    "DateLastStatusUpdate": "2023-03-28T12:25:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-01-13T11:21:00Z",
     "SubmissionStatusTypeID": 200

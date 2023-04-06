@@ -1,15 +1,18 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-08-23T10:34:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-12T10:57:00Z",
     "ID": 166562,
     "UUID": "3A955A7B-468B-47D7-9D80-251DA0AF18E5",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*S61*P61497A",
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 166921,
-        "Title": "Valframbert | Rue de Gatel 8",
-        "AddressLine1": "8 Rue de Gatel 61250 Valframbert",
+        "Title": "SDE61 - Valframbert",
+        "AddressLine1": "8 Rue de Gatel ",
+        "Town": "Valframbert",
+        "StateOrProvince": "Orne",
+        "Postcode": "61250",
         "CountryID": 80,
         "Latitude": 48.44969,
         "Longitude": 0.098126,
@@ -18,38 +21,64 @@
     },
     "Connections": [
         {
-            "ID": 249432,
-            "ConnectionTypeID": 0,
+            "ID": 427573,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 60
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
-            "ID": 249433,
-            "ConnectionTypeID": 0,
+            "ID": 427574,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 60
+            "LevelID": 3,
+            "PowerKW": 190,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
-            "ID": 249434,
+            "ID": 427575,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427576,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427577,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
-            "ID": 249435,
-            "ConnectionTypeID": 0,
+            "ID": 427578,
+            "ConnectionTypeID": 28,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 60
+            "LevelID": 1,
+            "PowerKW": 2.3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:34:00Z",
+    "DateLastStatusUpdate": "2023-03-12T10:57:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-08-27T05:15:00Z",
     "SubmissionStatusTypeID": 100

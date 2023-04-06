@@ -18,23 +18,25 @@
         }
     ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-01-25T06:52:00Z",
+    "DateLastVerified": "2023-03-13T09:27:00Z",
     "ID": 192570,
     "UUID": "7A01CC4A-BD42-4683-B7AE-E3B30AE81461",
     "DataProviderID": 1,
-    "OperatorID": 3507,
+    "OperatorID": 1,
     "UsageTypeID": 5,
-    "UsageCost": "17 руб/кВтч",
+    "UsageCost": "20 р/кВт*ч",
     "AddressInfo": {
         "ID": 192929,
-        "Title": "Green Drive ТРЦ СБС Мегамолл",
-        "AddressLine1": "Sem' zvyozd Mall, Krasnodar, Krasnodarskiy kray, Russia, 350059",
+        "Title": "Green Drive - ТЦ СБС-Мегамолл",
+        "AddressLine1": "Новороссийская улица",
+        "Town": "Краснодар",
+        "StateOrProvince": "Краснодарский край",
+        "Postcode": "350000",
         "CountryID": 185,
         "Latitude": 45.03595092885374,
         "Longitude": 39.05056016809169,
-        "ContactTelephone1": "+7 800 775-81-87",
-        "ContactTelephone2": "+74991120910",
-        "RelatedURL": "https://green-drive.net/",
+        "ContactTelephone1": "88007758187",
+        "RelatedURL": "https://electro.cars",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -52,7 +54,7 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30
         },
         {
@@ -60,14 +62,16 @@
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 10,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-25T06:52:00Z",
+    "DateLastStatusUpdate": "2023-03-13T09:27:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-04-13T09:10:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,61 +1,98 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-08T04:25:00Z",
+    "DateLastVerified": "2023-04-03T08:29:00Z",
     "ID": 255959,
     "UUID": "4689730A-235F-4CE3-88C6-A596A8892E4E",
-    "DataProviderID": 18,
-    "DataProvidersReference": "35e3dc185e29d7889f2b2250517b2396",
+    "DataProviderID": 1,
     "OperatorID": 3315,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "https://chargeplacescotland.org/cpmap/chargepoint/1064098/",
     "AddressInfo": {
         "ID": 256343,
-        "Title": "7-9 Dunrobin Street",
-        "AddressLine1": "7-9 Dunrobin Street",
+        "Title": "Coupers Yard Car Park",
+        "AddressLine1": "Shore Street",
         "Town": "Helmsdale",
-        "Postcode": "KW8 6JA",
+        "StateOrProvince": "Scotland",
+        "Postcode": "KW8 6HH",
         "CountryID": 1,
-        "Latitude": 58.116858,
-        "Longitude": -3.652821,
+        "Latitude": 58.116069,
+        "Longitude": -3.653254,
         "AccessComments": "",
         "RelatedURL": "https://chargeplacescotland.org/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 424852,
-            "ConnectionTypeID": 1036,
-            "Reference": "51066-3",
+            "ID": 435378,
+            "ConnectionTypeID": 33,
+            "Reference": "54215",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
-            "ID": 424853,
+            "ID": 435379,
             "ConnectionTypeID": 2,
-            "Reference": "51066-2",
+            "Reference": "54215",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
-            "ID": 424854,
-            "ConnectionTypeID": 1036,
-            "Reference": "51066-1",
+            "ID": 435380,
+            "ConnectionTypeID": 2,
+            "Reference": "54216",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 435381,
+            "ConnectionTypeID": 33,
+            "Reference": "54216",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 435382,
+            "ConnectionTypeID": 1036,
+            "Reference": "54216",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 43,
+            "Quantity": 1
+        },
+        {
+            "ID": 435383,
+            "ConnectionTypeID": 1036,
+            "Reference": "54215",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 43,
+            "Quantity": 1
+        },
+        {
+            "ID": 435384,
+            "ConnectionTypeID": 1036,
+            "Reference": "54217",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2023-03-08T04:25:00Z",
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-03T08:29:00Z",
     "MetadataValues": [
         {
             "ID": 27941,

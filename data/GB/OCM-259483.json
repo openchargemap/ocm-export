@@ -1,0 +1,80 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-04-03T11:36:00Z",
+    "ID": 259483,
+    "UUID": "84507EC6-6470-4B2F-A667-D43FE0C8133C",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-402347,PG-70559,veefil-12200335",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.49/kWh,£0.44/kWh,£0.62/kWh",
+    "AddressInfo": {
+        "ID": 259867,
+        "Title": "Tesco Extra-Cambridge Bar Hill",
+        "AddressLine1": "15-18 Viking Way",
+        "Town": "Bar Hill",
+        "StateOrProvince": "Cambridge",
+        "Postcode": "CB23 8EL",
+        "CountryID": 1,
+        "Latitude": 52.254367,
+        "Longitude": 0.019107,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 435399,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-402347",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Gill-Ralf"
+        },
+        {
+            "ID": 435400,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70559",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Boyd-Amir"
+        },
+        {
+            "ID": 435401,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200335",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Yuto-Kriv"
+        },
+        {
+            "ID": 435402,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200335",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Yuto-Kriv"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Viking Way, Bar Hill, Cambridge",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-03T11:36:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2023-04-03T10:59:00Z",
+    "SubmissionStatusTypeID": 200
+}

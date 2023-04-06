@@ -1,11 +1,11 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T19:24:00Z",
+    "DateLastVerified": "2023-03-21T16:55:00Z",
     "ID": 194009,
     "UUID": "C7EF122A-B4CA-4C00-B315-508293972530",
     "DataProviderID": 1,
-    "OperatorID": 3345,
-    "OperatorsReference": "GB*OSP*EOSP00053*1",
+    "OperatorID": 203,
+    "OperatorsReference": "",
     "UsageTypeID": 5,
     "UsageCost": "£0.79/kWh",
     "AddressInfo": {
@@ -22,42 +22,73 @@
     },
     "Connections": [
         {
-            "ID": 315971,
+            "ID": 315972,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP00054*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427685,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP00053*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427686,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP00054*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427687,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP00053*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427688,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 0,
+            "Reference": "GB*OSP*EOSP00054*3",
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 20,
             "Voltage": 400,
             "PowerKW": 16,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
-            "ID": 315972,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 0,
-            "LevelID": 3,
-            "Amps": 125,
+            "ID": 427689,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*OSP*EOSP00053*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
             "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 315973,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 0,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
+            "PowerKW": 16,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2023-03-07T19:24:00Z",
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-21T16:55:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-07-11T14:31:00Z",
     "SubmissionStatusTypeID": 200

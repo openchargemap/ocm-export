@@ -1,0 +1,64 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-29T17:13:00Z",
+    "ID": 258892,
+    "UUID": "0DA9D8FA-B07F-4D85-BF99-9DD88C9E0850",
+    "DataProviderID": 1,
+    "OperatorID": 24,
+    "OperatorsReference": "GB*GRD*EGS10188*1,GB*GRD*EGS10188*2,GB*GRD*EGS10188*3",
+    "UsageTypeID": 5,
+    "UsageCost": "DC: £0.65/kWh,AC: £0.49/kWh",
+    "AddressInfo": {
+        "ID": 259276,
+        "Title": "IKEA Cardiff",
+        "AddressLine1": "Ferry Road",
+        "Town": "Grangetown",
+        "StateOrProvince": "Cardiff",
+        "Postcode": "CF11 0JR",
+        "CountryID": 1,
+        "Latitude": 51.462816,
+        "Longitude": -3.188446,
+        "RelatedURL": "https://electrichighway.gridserve.com/ikea-cardiff",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 433637,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10188*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433638,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10188*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434316,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10188*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-29T17:13:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2023-03-26T14:51:00Z",
+    "SubmissionStatusTypeID": 200
+}

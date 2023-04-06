@@ -1,10 +1,91 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-06-26T02:55:00Z",
+    "MediaItems": [
+        {
+            "ID": 36917,
+            "ChargePointID": 158406,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM158406/OCM-158406.orig.2023031001064681.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM158406/OCM-158406.thmb.2023031001064681.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2023-03-10T01:07:00Z"
+        },
+        {
+            "ID": 36918,
+            "ChargePointID": 158406,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM158406/OCM-158406.orig.2023031001071070.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM158406/OCM-158406.thmb.2023031001071070.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2023-03-10T01:07:00Z"
+        },
+        {
+            "ID": 36915,
+            "ChargePointID": 158406,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM158406/OCM-158406.orig.2023031001054913.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM158406/OCM-158406.thmb.2023031001054913.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2023-03-10T01:06:00Z"
+        },
+        {
+            "ID": 36916,
+            "ChargePointID": 158406,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM158406/OCM-158406.orig.2023031001062167.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM158406/OCM-158406.thmb.2023031001062167.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2023-03-10T01:06:00Z"
+        },
+        {
+            "ID": 36914,
+            "ChargePointID": 158406,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM158406/OCM-158406.orig.2023031001052071.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM158406/OCM-158406.thmb.2023031001052071.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2023-03-10T01:05:00Z"
+        }
+    ],
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-26T01:26:00Z",
     "ID": 158406,
     "UUID": "26F9A019-E2EC-4BB2-927B-E81C7DDBCD7F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "151968",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -15,8 +96,8 @@
         "StateOrProvince": "CA",
         "Postcode": "92243",
         "CountryID": 2,
-        "Latitude": 32.793268,
-        "Longitude": -115.567683,
+        "Latitude": 32.79352954340938,
+        "Longitude": -115.56803166634053,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -27,9 +108,7 @@
             "ID": 228382,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -37,15 +116,22 @@
             "ID": 228383,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 427203,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T02:55:00Z",
+    "DateLastStatusUpdate": "2023-03-26T01:26:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2020-06-26T02:55:00Z",
     "SubmissionStatusTypeID": 100

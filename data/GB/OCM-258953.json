@@ -1,0 +1,62 @@
+{
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-27T08:33:00Z",
+    "ID": 258953,
+    "UUID": "2A0599BE-F32D-462D-AD89-904296703F2C",
+    "DataProviderID": 1,
+    "OperatorID": 24,
+    "OperatorsReference": "GB*GRD*EGS10370*1,GB*GRD*EGS10370*2,GB*GRD*EGS10370*3",
+    "UsageTypeID": 5,
+    "UsageCost": "DC: £0.65/kWh,AC: £0.49/kWh",
+    "AddressInfo": {
+        "ID": 259337,
+        "Title": "Liverpool John Lennon Airport",
+        "AddressLine1": "Long Stay Disabled Car Park",
+        "Town": "Liverpool",
+        "Postcode": "L24 1YD",
+        "CountryID": 1,
+        "Latitude": 53.338364,
+        "Longitude": -2.854186,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 433888,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10370*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433889,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10370*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434338,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10370*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-27T08:33:00Z",
+    "DataQualityLevel": 1,
+    "DateCreated": "2023-03-26T14:57:00Z",
+    "SubmissionStatusTypeID": 200
+}

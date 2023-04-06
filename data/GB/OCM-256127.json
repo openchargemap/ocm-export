@@ -1,12 +1,12 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T22:25:00Z",
+    "DateLastVerified": "2023-03-22T09:20:00Z",
     "ID": 256127,
     "UUID": "68171316-E596-465E-B34C-9F3FC04272FD",
     "DataProviderID": 1,
     "OperatorID": 203,
-    "OperatorsReference": "GB*OSP*EOSP00207*3",
-    "UsageTypeID": 1,
+    "OperatorsReference": "",
+    "UsageTypeID": 5,
     "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 256511,
@@ -27,13 +27,67 @@
             "Reference": "GB*OSP*EOSP00207*3",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Voltage": 400,
             "PowerKW": 16,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 426676,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP00207*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 426766,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP00207*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 431750,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP00736*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 431751,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*OSP*EOSP00736*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 431752,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP00736*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-07T22:25:00Z",
+    "DateLastStatusUpdate": "2023-03-22T09:20:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2023-03-07T22:25:00Z",
     "SubmissionStatusTypeID": 200

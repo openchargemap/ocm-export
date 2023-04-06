@@ -1,11 +1,12 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-10-13T05:59:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-29T11:23:00Z",
     "ID": 156052,
     "UUID": "094F251C-14F7-453E-BEE6-AAFEC9F655A8",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 6,
+    "OperatorID": 3339,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.40 / kWh + $0.33",
     "AddressInfo": {
         "ID": 156406,
         "Title": "CD Dodd",
@@ -23,35 +24,27 @@
         {
             "ID": 219653,
             "ConnectionTypeID": 33,
+            "Reference": "5523 A",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 16,
+            "LevelID": 3,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 219654,
-            "ConnectionTypeID": 2,
+            "ID": 434812,
+            "ConnectionTypeID": 33,
+            "Reference": "5523 B",
             "StatusTypeID": 50,
-            "PowerKW": 16,
+            "LevelID": 3,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 219655,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-13T05:59:00Z",
+    "DateLastStatusUpdate": "2023-03-29T11:23:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-05-04T07:33:00Z",
     "SubmissionStatusTypeID": 200

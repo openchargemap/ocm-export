@@ -47,15 +47,15 @@
             "DateCreated": "2015-05-19T16:28:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-03-10T06:21:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-30T21:58:00Z",
     "ID": 46783,
     "UUID": "6740BB2A-1614-4DEF-B7B4-21AE146E56A7",
     "DataProviderID": 1,
     "OperatorID": 32,
     "OperatorsReference": "3218",
     "UsageTypeID": 4,
-    "UsageCost": "Inclusive; for Polar Plus subscription members only",
+    "UsageCost": "Inclusive; for BP Pulse subscription members only. Parking fees apply",
     "AddressInfo": {
         "ID": 47129,
         "Title": "Sainsbury's Royal Wootton Bassett",
@@ -74,18 +74,33 @@
         {
             "ID": 57486,
             "ConnectionTypeID": 25,
+            "Reference": "GB*BPC*276991",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "3218"
+        },
+        {
+            "ID": 434855,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*BPC*276992",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "3218"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-03-10T06:21:00Z",
+    "DateLastStatusUpdate": "2023-03-30T21:58:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2015-05-07T13:07:00Z",
     "SubmissionStatusTypeID": 200

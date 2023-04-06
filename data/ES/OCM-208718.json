@@ -1,11 +1,28 @@
 {
+    "UserComments": [
+        {
+            "ID": 28277,
+            "ChargePointID": 208718,
+            "CommentTypeID": 1000,
+            "UserName": "HonzaH",
+            "Comment": "only one type 2 socket working",
+            "DateCreated": "2023-03-14T21:06:13.833Z",
+            "User": {
+                "ID": 45202,
+                "Username": "HonzaH"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-20T17:53:00Z",
+    "DateLastVerified": "2023-03-19T14:46:00Z",
     "ID": 208718,
     "UUID": "A1FA833D-EB46-404E-898D-651550D7252B",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 209098,
         "Title": "Ayuntamiento de Arrecife",
@@ -22,11 +39,12 @@
         {
             "ID": 347283,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 2,
             "PowerKW": 7.4,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "One type 2 socket visibly broken (alert light on), the other pretends to work, but does not charge"
         },
         {
             "ID": 347284,
@@ -40,8 +58,8 @@
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Ayuntamiento de Arrecife",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-20T17:53:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2023-03-19T14:46:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2022-10-20T17:53:00Z",
     "SubmissionStatusTypeID": 200

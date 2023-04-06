@@ -1,21 +1,22 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-27T23:27:00Z",
+    "DateLastVerified": "2023-03-13T15:11:00Z",
     "ID": 235720,
     "UUID": "ECE4A8B0-B7CC-4E25-BEA9-CEB437DD954C",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 4,
-    "UsageCost": "15",
+    "UsageTypeID": 5,
+    "UsageCost": "15 р/кВт*ч",
     "AddressInfo": {
         "ID": 236104,
         "Title": "VRNG_10",
-        "AddressLine1": "20Н-13-2",
+        "AddressLine1": "ул. Дзержинского",
+        "Town": "село Липовка",
         "StateOrProvince": "Воронежская область",
         "Postcode": "397724",
         "CountryID": 185,
-        "Latitude": 50.85615414781296,
-        "Longitude": 39.98652836713916,
+        "Latitude": 50.856207,
+        "Longitude": 39.98642,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,16 +24,18 @@
             "ID": 388904,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 80,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 388905,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 90,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -40,13 +43,16 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-27T23:27:00Z",
+    "DateLastStatusUpdate": "2023-03-13T15:11:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2023-02-27T11:23:00Z",
     "SubmissionStatusTypeID": 200

@@ -1,11 +1,11 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-01-11T21:45:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-22T00:48:00Z",
     "ID": 146595,
     "UUID": "C69E7103-8DDC-4922-8CB7-0EBAD4A9E352",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "UsageCost": "0",
     "AddressInfo": {
         "ID": 146947,
@@ -20,17 +20,35 @@
     "Connections": [
         {
             "ID": 203834,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 432106,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 432107,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-11T21:45:00Z",
+    "DateLastStatusUpdate": "2023-03-22T00:48:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2020-01-11T21:45:00Z",
     "SubmissionStatusTypeID": 200

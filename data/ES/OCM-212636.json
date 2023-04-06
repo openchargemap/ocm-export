@@ -1,6 +1,6 @@
 {
     "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-02-22T18:27:00Z",
+    "DateLastVerified": "2023-03-18T15:02:00Z",
     "ID": 212636,
     "UUID": "21A57A30-B046-4B6D-A92C-C394204A0CD4",
     "DataProviderID": 1,
@@ -22,19 +22,19 @@
         {
             "ID": 354059,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Blueberry100 Charger"
+            "Comments": "Blueberry100 Charger. The DC CCS/Chademo charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW"
         },
         {
             "ID": 354060,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "Amps": 200,
             "PowerKW": 100,
@@ -62,11 +62,21 @@
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "Two Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (100 kW). Charging power limited for 400V cars"
+        },
+        {
+            "ID": 428491,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": " Kempower Chademo Satellite"
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-02-22T18:27:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-03-18T15:02:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2023-01-21T19:47:00Z",
     "SubmissionStatusTypeID": 200

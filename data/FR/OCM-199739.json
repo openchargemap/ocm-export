@@ -1,16 +1,18 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-08-23T10:37:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-26T20:13:00Z",
     "ID": 199739,
     "UUID": "F9B7BE61-E69F-4666-8EDD-78BEEFAAAFEA",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRTDAPAVTD1011",
-    "OperatorID": 213,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 3447,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 200098,
-        "Title": "AIRE DE HAVRINCOURT",
-        "AddressLine1": "1 Station Avia 62147 Havrincourt",
+        "Title": "Total Energies - Aire de Havrincourt",
+        "AddressLine1": "A2 Aire de Havrincourt",
+        "Town": "Havrincourt",
+        "StateOrProvince": "Pas de Calais",
+        "Postcode": "62147",
         "CountryID": 80,
         "Latitude": 50.122249,
         "Longitude": 3.089774,
@@ -19,33 +21,46 @@
     },
     "Connections": [
         {
-            "ID": 333374,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 54,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 333375,
+            "ID": 434303,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 54,
-            "CurrentTypeID": 30
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
-            "ID": 333376,
+            "ID": 434304,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 434305,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 54,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 434306,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "Conditions accès aux bornes dépendantes des accords et formules de votre EMSP",
+    "NumberOfPoints": 4,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:37:00Z",
+    "DateLastStatusUpdate": "2023-03-26T20:13:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2022-08-23T10:37:00Z",
     "SubmissionStatusTypeID": 100

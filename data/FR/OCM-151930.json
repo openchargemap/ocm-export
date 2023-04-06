@@ -1,58 +1,48 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-13T20:15:00Z",
     "ID": 151930,
     "UUID": "6FC82B69-F5B2-487D-80C7-4A6D47036D37",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS42P42187N1",
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 3408,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 152283,
-        "Title": "Boulevard Jean Baptiste Clément",
+        "Title": "Eborn - Boulevard Jean Baptiste Clément",
         "AddressLine1": "60 boulevard jean baptiste clément",
+        "Town": "Roanne",
+        "StateOrProvince": "Loire",
+        "Postcode": "42300",
         "CountryID": 80,
         "Latitude": 46.042738,
         "Longitude": 4.082332,
-        "AccessComments": "24/24 - 7/7",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 212439,
+            "ID": 428150,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 428151,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 212440,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 245272,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 245273,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "En service",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:12:00Z",
+    "DateLastStatusUpdate": "2023-03-13T20:15:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2020-03-15T10:53:00Z",
     "SubmissionStatusTypeID": 100

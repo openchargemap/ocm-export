@@ -51,15 +51,15 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-03T16:12:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-28T11:21:00Z",
     "ID": 30327,
     "UUID": "EC554466-2343-4EC2-B757-34361963C79F",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "1106,1105,1104",
+    "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "£0.30/kWh",
+    "UsageCost": "DC: £0.65/kWh,AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 30673,
         "Title": "Birch Moto M62 (W) Services",
@@ -70,49 +70,100 @@
         "CountryID": 1,
         "Latitude": 53.5675541502285,
         "Longitude": -2.22983376152957,
-        "ContactTelephone1": "",
-        "ContactEmail": "fortheroad@ecotricity.co.uk",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 33547,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 920,
-            "PowerKW": 120,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 33548,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 500,
-            "PowerKW": 100,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
             "ID": 273999,
             "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10172*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
-            "PowerKW": 120,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 433102,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10172*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433103,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10170*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433104,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10171*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433105,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10171*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 433106,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10170*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 434653,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*ETACW2240921T0725*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 434654,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*ETACW2243920T0446*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-03T16:12:00Z",
+    "DateLastStatusUpdate": "2023-03-28T11:21:00Z",
     "DataQualityLevel": 1,
     "DateCreated": "2014-12-05T21:02:00Z",
     "SubmissionStatusTypeID": 200

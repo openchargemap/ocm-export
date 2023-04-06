@@ -23,18 +23,18 @@
             "CheckinStatusTypeID": 110
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2019-03-08T06:29:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-04-04T09:23:00Z",
     "ID": 18244,
     "UUID": "038B0689-F57A-4745-AACA-76BA6770931E",
     "DataProviderID": 1,
     "OperatorID": 32,
-    "OperatorsReference": "1263",
+    "OperatorsReference": "VPP000107",
     "UsageTypeID": 4,
-    "UsageCost": "£0.108/kWh; for Polar Plus subscription members only. Type 2 at £1.70 per hour",
+    "UsageCost": "£0.59/kWh; other tariffs available.",
     "AddressInfo": {
         "ID": 18589,
-        "Title": "Bletchley Town Centre / Queensway",
+        "Title": "Halifax Bank",
         "AddressLine1": "43-47 Queensway",
         "AddressLine2": "Bletchley",
         "Town": "Milton Keynes",
@@ -43,24 +43,13 @@
         "Latitude": 51.994529,
         "Longitude": -0.731813,
         "AccessComments": "No marked bays, frequently ICEd",
-        "RelatedURL": "http://www.chargemasterplc.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 18467,
-            "ConnectionTypeID": 3,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 13,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
-            "ID": 52833,
             "ConnectionTypeID": 25,
+            "Reference": "VPP000107",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -70,11 +59,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "Chargemaster post 1263",
+    "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-03-08T06:29:00Z",
-    "DataQualityLevel": 3,
+    "DateLastStatusUpdate": "2023-04-04T09:23:00Z",
+    "DataQualityLevel": 1,
     "DateCreated": "2013-07-16T03:52:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -14,15 +14,16 @@
             "CheckinStatusTypeID": 25
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-05-26T08:23:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-27T20:50:00Z",
     "ID": 46145,
     "UUID": "9BB11996-296D-4621-9B7F-F3E89B2731B0",
     "DataProviderID": 1,
     "DataProvidersReference": "2458",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 46491,
-        "Title": "Vattenfall InCharge Snabbladdning",
+        "Title": "MAX Takpannegatan - InCharge",
         "AddressLine1": "Takpannegatan 33",
         "Town": "UPPSALA",
         "StateOrProvince": "UPPSALA",
@@ -36,37 +37,40 @@
     "Connections": [
         {
             "ID": 56808,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 85225,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "2",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 88511,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "3",
             "LevelID": 2,
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
+            "Quantity": 1,
             "Comments": "Mode 3"
         }
     ],
     "NumberOfPoints": 3,
-    "DateLastStatusUpdate": "2020-05-26T08:23:00Z",
+    "DateLastStatusUpdate": "2023-03-27T20:50:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2015-05-03T00:54:00Z",
     "SubmissionStatusTypeID": 100

@@ -1,13 +1,13 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2016-06-04T02:39:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-22T09:25:00Z",
     "ID": 32824,
     "UUID": "540149D7-F589-4112-B65B-AAED3E9FBE80",
-    "DataProviderID": 26,
-    "DataProvidersReference": "29044",
+    "DataProviderID": 1,
     "OperatorID": 69,
     "OperatorsReference": "SW Duisburg - Innenhafen",
-    "UsageCost": "0.00 onbekend",
+    "UsageTypeID": 1,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 33170,
         "Title": "Philosophenweg",
@@ -15,8 +15,8 @@
         "Town": "Duisburg",
         "Postcode": "47051",
         "CountryID": 87,
-        "Latitude": 51.439697,
-        "Longitude": 6.767,
+        "Latitude": 51.4399828320623,
+        "Longitude": 6.767883445611687,
         "RelatedURL": "http://www.ladenetz.de",
         "DistanceUnit": 0
     },
@@ -24,14 +24,18 @@
         {
             "ID": 36335,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 11,
-            "CurrentTypeID": 10
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-06-04T02:39:00Z",
+    "DateLastStatusUpdate": "2023-03-22T09:25:00Z",
     "DataQualityLevel": 3,
     "DateCreated": "2015-01-09T06:03:00Z",
     "SubmissionStatusTypeID": 100

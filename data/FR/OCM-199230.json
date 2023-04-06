@@ -1,15 +1,18 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-08-23T10:36:00Z",
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2023-03-12T10:43:00Z",
     "ID": 199230,
     "UUID": "A89BC706-9DE2-4ADC-8470-C76FD50EC9C4",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS50P502242",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 3640,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 199589,
-        "Title": "GUILBERVILLE - Aire de covoiturage Le Saussey",
-        "AddressLine1": "D974 GUILBERVILLE 50160 TORIGNY-LES-VILLES",
+        "Title": "SDE50 - Aire de covoiturage Le Saussey",
+        "AddressLine1": "14 Le Petit Parc",
+        "Town": "Torigny-les-Villes",
+        "StateOrProvince": "Manche",
+        "Postcode": "50160",
         "CountryID": 80,
         "Latitude": 48.983317,
         "Longitude": -0.954338,
@@ -18,17 +21,37 @@
     },
     "Connections": [
         {
-            "ID": 332499,
+            "ID": 427557,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427558,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 427559,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Prise T2<br>Service accessible<br>- aux abonnÃ©s disposant d'un badge de mobilitÃ© Ã©lectrique<br>- aux non abonnÃ©s disposant d'une carte bancaire, via le site www.e-charge50.fr, soit d'un TPE sans contact<br>Informations disponibles sur le site www.e-charge50.fr'",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:36:00Z",
+    "DateLastStatusUpdate": "2023-03-12T10:43:00Z",
     "DataQualityLevel": 2,
     "DateCreated": "2022-08-23T10:36:00Z",
     "SubmissionStatusTypeID": 100
