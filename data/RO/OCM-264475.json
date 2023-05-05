@@ -1,0 +1,81 @@
+{
+    "MediaItems": [
+        {
+            "ID": 37643,
+            "ChargePointID": 264475,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RO/OCM264475/OCM-264475.orig.2023050309573185.png",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RO/OCM264475/OCM-264475.thmb.2023050309573185.png",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46172,
+                "Username": "EV-Spots"
+            },
+            "DateCreated": "2023-05-03T09:58:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-05-04T09:14:00Z",
+    "ID": 264475,
+    "UUID": "B28D51D6-1F66-4708-9816-EE4B63E918D3",
+    "DataProviderID": 1,
+    "OperatorID": 3662,
+    "UsageTypeID": 4,
+    "UsageCost": "1.49 RON/kWh AC, 2.09 RON/kWh DC",
+    "AddressInfo": {
+        "ID": 264859,
+        "Title": "Piatra Neamt - Volta - ABB",
+        "AddressLine1": "Str. Plaiesului, Nr. 13",
+        "Town": "Piatra Neamt",
+        "StateOrProvince": "Neamt",
+        "Postcode": "610190",
+        "CountryID": 184,
+        "Latitude": 46.919403920175284,
+        "Longitude": 26.39078142217818,
+        "ContactTelephone1": "+40376448484",
+        "ContactEmail": "drive@evspots.ro",
+        "AccessComments": "Showroom Volta Grup",
+        "RelatedURL": "http://evspots.ro",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 448451,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 0,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Cannot be used at the same time as CHAdeMO."
+        },
+        {
+            "ID": 448452,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Cannot be used at the same time as CCS."
+        },
+        {
+            "ID": 448453,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "EV-Spots App required!",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-04T09:14:00Z",
+    "DateCreated": "2023-05-03T08:23:00Z",
+    "SubmissionStatusTypeID": 200
+}
