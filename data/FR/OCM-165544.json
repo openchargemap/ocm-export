@@ -1,16 +1,17 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:11:00Z",
+    "DateLastVerified": "2023-04-24T20:26:00Z",
     "ID": 165544,
     "UUID": "DA9A751D-0902-4691-B7AB-BEAFDEBD39A3",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*S40*PMB40*62",
+    "DataProviderID": 1,
     "OperatorID": 3407,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 165903,
         "Title": "HAGETMAU - Place Gramont",
-        "AddressLine1": "Place Gramont 40700 HAGETMAU",
+        "AddressLine1": "Place Gramont",
+        "Town": "Hagetmau",
+        "StateOrProvince": "Landes",
+        "Postcode": "40700",
         "CountryID": 80,
         "Latitude": 43.657413,
         "Longitude": -0.592122,
@@ -19,42 +20,46 @@
     },
     "Connections": [
         {
-            "ID": 240139,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 4,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 240140,
+            "ID": 438472,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
-            "ID": 240141,
+            "ID": 438473,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
-            "ID": 240142,
+            "ID": 438474,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 438475,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 36,
-            "CurrentTypeID": 20
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Recharge par badge et avec une application smartphone",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:11:00Z",
-    "DataQualityLevel": 2,
+    "DateLastStatusUpdate": "2023-04-24T20:26:00Z",
     "DateCreated": "2020-08-27T05:11:00Z",
     "SubmissionStatusTypeID": 100
 }

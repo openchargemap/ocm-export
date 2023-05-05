@@ -1,0 +1,78 @@
+{
+    "DateLastVerified": "2023-05-02T09:59:00Z",
+    "ID": 264048,
+    "UUID": "0D24F7E8-968B-445E-80A8-1592499EC809",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-401339,PG-70640,veefil-12200221",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.49/kWh,£0.44/kWh,£0.62/kWh",
+    "AddressInfo": {
+        "ID": 264432,
+        "Title": "Tesco Superstore-Aston Lane",
+        "AddressLine1": "Aston Lane",
+        "Town": "Aston",
+        "StateOrProvince": "Birmingham",
+        "Postcode": "B6 6QR",
+        "CountryID": 1,
+        "Latitude": 52.51319864,
+        "Longitude": -1.88781697,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 447437,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-401339",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Jean-Carl"
+        },
+        {
+            "ID": 447438,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70640",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Nina-Lulu"
+        },
+        {
+            "ID": 447439,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200221",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "June-Eira"
+        },
+        {
+            "ID": 447440,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200221",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "June-Eira"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at Tesco Superstore site at Aston Lane",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-02T09:59:00Z",
+    "DateCreated": "2023-05-02T05:32:00Z",
+    "SubmissionStatusTypeID": 200
+}

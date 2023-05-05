@@ -34,12 +34,11 @@
             "DateCreated": "2022-10-09T05:13:00Z"
         }
     ],
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-10T11:19:00Z",
+    "DateLastVerified": "2023-04-13T07:31:00Z",
     "ID": 204433,
     "UUID": "A2FC002B-753D-4C0C-89C0-B7A084BC73C0",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 80,
     "UsageTypeID": 1,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -50,8 +49,8 @@
         "StateOrProvince": "São Paulo",
         "Postcode": "11950-000",
         "CountryID": 36,
-        "Latitude": -24.779282832065533,
-        "Longitude": -48.1864584410888,
+        "Latitude": -24.78074397448374,
+        "Longitude": -48.18600783359733,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -66,12 +65,20 @@
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Power shared between cars if two are charging at the same time. Maximum 200A at each charger, so 400V battery cars can charge at 80kW maximum"
+        },
+        {
+            "ID": 435995,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-10T11:19:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-13T07:31:00Z",
     "DateCreated": "2022-09-28T21:07:00Z",
     "SubmissionStatusTypeID": 200
 }

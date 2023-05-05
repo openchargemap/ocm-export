@@ -1,20 +1,19 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T02:49:00Z",
+    "DateLastVerified": "2023-04-19T11:39:00Z",
     "ID": 177339,
     "UUID": "C43EE11B-E3DC-41E0-B42A-EC2CF5CCD56F",
-    "DataProviderID": 29,
-    "DataProvidersReference": "2932",
+    "DataProviderID": 1,
     "OperatorID": 86,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 177698,
-        "Title": "Upstallstraße 3",
+        "Title": "EnBW_Hellweg",
         "AddressLine1": "Upstallstraße 3",
         "Town": "Brandenburg an der Havel",
         "Postcode": "14772",
         "CountryID": 87,
-        "Latitude": 52.430611,
-        "Longitude": 12.550501,
+        "Latitude": 52.43061099999932,
+        "Longitude": 12.55050099999778,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,19 +23,13 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 276377,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T02:49:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-19T11:39:00Z",
     "MetadataValues": [
         {
             "ID": 9633,
@@ -44,7 +37,6 @@
             "ItemValue": "Data from the German chargepoint registry provided by Bundesnetzagentur.de under the CC-BY 4.0 license"
         }
     ],
-    "DataQualityLevel": 3,
     "DateCreated": "2021-07-08T09:48:00Z",
     "SubmissionStatusTypeID": 100
 }

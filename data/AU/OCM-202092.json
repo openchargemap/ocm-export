@@ -1,6 +1,87 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-01T06:57:00Z",
+    "UserComments": [
+        {
+            "ID": 28451,
+            "ChargePointID": 202092,
+            "CommentTypeID": 10,
+            "UserName": "Wild Rice",
+            "Comment": "Standard layout with vehicle bay either side of charger.",
+            "DateCreated": "2023-04-25T16:03:42.65Z",
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "CheckinStatusTypeID": 22,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 37501,
+            "ChargePointID": 202092,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202092/OCM-202092.orig.2023042516010720.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202092/OCM-202092.thmb.2023042516010720.jpg",
+            "Comment": "Overview.",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2023-04-25T16:01:00Z"
+        },
+        {
+            "ID": 37500,
+            "ChargePointID": 202092,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202092/OCM-202092.orig.2023042515580431.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202092/OCM-202092.thmb.2023042515580431.jpg",
+            "Comment": "Utility cabinet.",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2023-04-25T15:58:00Z"
+        },
+        {
+            "ID": 37499,
+            "ChargePointID": 202092,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202092/OCM-202092.orig.2023042515571626.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202092/OCM-202092.thmb.2023042515571626.jpg",
+            "Comment": "AC charger post with charger to be installed.",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2023-04-25T15:57:00Z"
+        },
+        {
+            "ID": 37498,
+            "ChargePointID": 202092,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202092/OCM-202092.orig.2023042515561653.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202092/OCM-202092.thmb.2023042515561653.jpg",
+            "Comment": "DC charger.",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2023-04-25T15:56:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-25T16:04:00Z",
     "ID": 202092,
     "UUID": "FA3A542C-7147-4E51-A9C7-A692C6E60EBC",
     "DataProviderID": 1,
@@ -9,13 +90,13 @@
     "AddressInfo": {
         "ID": 202459,
         "Title": "Jurien Bay (EV Highway)",
-        "AddressLine1": "Murray Street Road Reserve",
+        "AddressLine1": "Murray Street",
         "Town": "Jurien Bay",
         "StateOrProvince": "Western Australia",
         "Postcode": "6516",
         "CountryID": 18,
-        "Latitude": -30.302922372523,
-        "Longitude": 115.04165585272449,
+        "Latitude": -30.30298489742188,
+        "Longitude": 115.04158343384756,
         "RelatedURL": "https://www.dandaragan.wa.gov.au/Profiles/dandaragan/Assets/ClientData/Documents/Council_Meetings/Minutes/2022/20220503_24_March_2022_Minutes_-_Public__Signed_.pdf",
         "DistanceUnit": 0
     },
@@ -23,17 +104,25 @@
         {
             "ID": 337758,
             "ConnectionTypeID": 33,
+            "Reference": "6232",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 438548,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-12-01T06:57:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-25T16:04:00Z",
     "DateCreated": "2022-09-07T06:56:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,20 +1,19 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T02:49:00Z",
+    "DateLastVerified": "2023-04-19T11:39:00Z",
     "ID": 178329,
     "UUID": "D3E058B8-5FA4-42C9-B783-FA5B0C5D0C1E",
-    "DataProviderID": 29,
-    "DataProvidersReference": "10540",
+    "DataProviderID": 1,
     "OperatorID": 69,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 178688,
-        "Title": "Nicolaiplatz",
-        "AddressLine1": "Nicolaiplatz",
-        "Town": "Brandenburg",
+        "Title": "StWB_Nicolaiplatz",
+        "AddressLine1": "Neuendorfer Str. 91",
+        "Town": "Brandenburg an der Havel",
         "Postcode": "14776",
         "CountryID": 87,
-        "Latitude": 52.411261,
-        "Longitude": 12.550202,
+        "Latitude": 52.41123855421867,
+        "Longitude": 12.55015819597827,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,19 +23,13 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 278591,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T02:49:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-19T11:39:00Z",
     "MetadataValues": [
         {
             "ID": 10623,
@@ -44,7 +37,6 @@
             "ItemValue": "Data from the German chargepoint registry provided by Bundesnetzagentur.de under the CC-BY 4.0 license"
         }
     ],
-    "DataQualityLevel": 3,
     "DateCreated": "2021-07-08T09:49:00Z",
     "SubmissionStatusTypeID": 100
 }

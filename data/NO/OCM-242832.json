@@ -1,6 +1,5 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T08:32:00Z",
+    "DateLastVerified": "2023-05-01T04:22:00Z",
     "ID": 242832,
     "UUID": "DF7BD928-6A6A-4124-8A70-1FFF55957ECD",
     "DataProviderID": 19,
@@ -29,11 +28,14 @@
         },
         {
             "ID": 404154,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 28,
+            "Reference": "1",
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.68
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Comments": "Mode 3"
         },
         {
             "ID": 404155,
@@ -45,11 +47,14 @@
         },
         {
             "ID": 404156,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 28,
+            "Reference": "2",
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.68
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Comments": "Mode 3"
         },
         {
             "ID": 404157,
@@ -61,25 +66,8 @@
         },
         {
             "ID": 404158,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.68
-        },
-        {
-            "ID": 404159,
-            "ConnectionTypeID": 25,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.68,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 404160,
             "ConnectionTypeID": 28,
-            "Reference": "4",
+            "Reference": "3",
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
@@ -88,13 +76,28 @@
             "Comments": "Mode 3"
         },
         {
+            "ID": 404159,
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.68
+        },
+        {
+            "ID": 404160,
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.68
+        },
+        {
             "ID": 404161,
             "ConnectionTypeID": 25,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.68,
-            "CurrentTypeID": 10
+            "PowerKW": 3.68
         },
         {
             "ID": 404162,
@@ -129,8 +132,7 @@
         }
     ],
     "NumberOfPoints": 6,
-    "DateLastStatusUpdate": "2023-03-07T08:32:00Z",
-    "DataQualityLevel": 2,
+    "DateLastStatusUpdate": "2023-05-01T04:22:00Z",
     "DateCreated": "2023-03-07T03:58:00Z",
     "SubmissionStatusTypeID": 100
 }

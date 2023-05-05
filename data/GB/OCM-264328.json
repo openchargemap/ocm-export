@@ -1,0 +1,90 @@
+{
+    "DateLastVerified": "2023-05-02T05:39:00Z",
+    "ID": 264328,
+    "UUID": "FA6D0342-96B1-4129-A91E-838D5B8831DB",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-87793,PG-87801,t54_hu1_4221_008",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh",
+    "AddressInfo": {
+        "ID": 264712,
+        "Title": "Lidl-Warwick",
+        "AddressLine1": "Emscote Road",
+        "Town": "Warwick",
+        "Postcode": "CV34 4QP",
+        "CountryID": 1,
+        "Latitude": 52.285722,
+        "Longitude": -1.571641,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 448156,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-87793",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Emry-Kent"
+        },
+        {
+            "ID": 448157,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-87801",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Cruz-Alec"
+        },
+        {
+            "ID": 448158,
+            "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4221_008",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Amoy-Judi"
+        },
+        {
+            "ID": 448159,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4221_008",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Amoy-Judi"
+        },
+        {
+            "ID": 448160,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4221_008",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Amoy-Judi"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at the Lidl super store at Emscote Road, Warwick",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-02T05:39:00Z",
+    "DateCreated": "2023-05-02T05:39:00Z",
+    "SubmissionStatusTypeID": 200
+}

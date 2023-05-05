@@ -1,6 +1,23 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-19T14:55:00Z",
+    "MediaItems": [
+        {
+            "ID": 37512,
+            "ChargePointID": 205568,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM205568/OCM-205568.orig.2023042610472058.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM205568/OCM-205568.thmb.2023042610472058.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-26T10:47:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-26T10:47:00Z",
     "ID": 205568,
     "UUID": "043087A4-4665-4395-B204-ED5A32546698",
     "DataProviderID": 1,
@@ -25,12 +42,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 500,
+            "Amps": 400,
             "Voltage": 920,
-            "PowerKW": 100,
+            "PowerKW": 70,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 100 kW"
+            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 70 kW"
         },
         {
             "ID": 343156,
@@ -52,9 +69,8 @@
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-03-19T14:55:00Z",
-    "DataQualityLevel": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-26T10:47:00Z",
     "DateCreated": "2022-10-05T19:01:00Z",
     "SubmissionStatusTypeID": 200
 }

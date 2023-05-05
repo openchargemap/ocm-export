@@ -1,12 +1,27 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T05:37:00Z",
+    "UserComments": [
+        {
+            "ID": 28440,
+            "ChargePointID": 246791,
+            "CommentTypeID": 10,
+            "UserName": "Programmin",
+            "Comment": "Working DC Fast charge.",
+            "Rating": 5,
+            "DateCreated": "2023-04-24T01:35:11.147Z",
+            "User": {
+                "ID": 42341,
+                "Username": "Programmin"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-04-24T09:24:00Z",
     "ID": 246791,
     "UUID": "6FF80B50-1ED5-4066-A831-261023901367",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102010",
-    "OperatorID": 3534,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 59,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 247175,
         "Title": "Crescent City Downtown Parking - Tesla Supercharger",
@@ -17,26 +32,30 @@
         "CountryID": 2,
         "Latitude": 41.752393,
         "Longitude": -124.1944,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 413110,
-            "ConnectionTypeID": 27,
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 30,
-            "Quantity": 6
+            "ID": 438213,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 200,
+            "Quantity": 2,
+            "Comments": "Shell recharge. Just plug in and insert payment card."
+        },
+        {
+            "ID": 438214,
+            "ConnectionTypeID": 1,
+            "Quantity": 2,
+            "Comments": "Shell"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-07T05:37:00Z",
-    "DataQualityLevel": 3,
+    "DateLastStatusUpdate": "2023-04-24T09:24:00Z",
     "DateCreated": "2023-03-07T05:37:00Z",
     "SubmissionStatusTypeID": 100
 }

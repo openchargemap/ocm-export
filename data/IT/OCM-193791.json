@@ -1,6 +1,56 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-08-06T06:31:00Z",
+    "UserComments": [
+        {
+            "ID": 28462,
+            "ChargePointID": 193791,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "In una zona strategica per andare/tornare dalle vacanze, ma con accesso e soprattutto reimmissione piuttosto pericolose (la coppia elettrica si rivela molto preziosa). Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnine-freetox-ultra-fast-area-di-servizio-sant-ilario-nord-t26515.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-freetox-ultra-fast-area-di-servizio-sant-ilario-nord-t26515.html",
+            "DateCreated": "2023-04-29T06:17:14.49Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 140,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 37604,
+            "ChargePointID": 193791,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM193791/OCM-193791.orig.2023042906173085.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM193791/OCM-193791.thmb.2023042906173085.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-04-29T06:18:00Z"
+        },
+        {
+            "ID": 37603,
+            "ChargePointID": 193791,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM193791/OCM-193791.orig.2023042906172568.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM193791/OCM-193791.thmb.2023042906172568.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-04-29T06:17:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-29T06:18:00Z",
     "ID": 193791,
     "UUID": "C7D06C1F-3220-4D11-B701-87DFDE34DF86",
     "DataProviderID": 1,
@@ -8,15 +58,15 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 194150,
-        "Title": "A12 AdS Sant'Ilario Nord Direzione Genova",
-        "AddressLine1": "A12 ",
+        "Title": "Free To X AdS Sant'Ilario Nord",
+        "AddressLine1": "A12 km 192 (verso Genova)",
         "Town": "Genoa",
         "StateOrProvince": "Liguria",
         "Postcode": "16167",
         "CountryID": 112,
         "Latitude": 44.39337388253412,
         "Longitude": 9.046286236627566,
-        "RelatedURL": "https://nextcharge.app/map?location=44.393379,9.046716",
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-freetox-ultra-fast-area-di-servizio-sant-ilario-nord-t26515.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,12 +78,35 @@
             "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 4
+        },
+        {
+            "ID": 438995,
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 438996,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 438997,
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-06T06:31:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-29T06:18:00Z",
     "DateCreated": "2022-07-03T06:42:00Z",
     "SubmissionStatusTypeID": 200
 }

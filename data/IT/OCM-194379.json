@@ -1,6 +1,88 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-07-29T12:22:00Z",
+    "UserComments": [
+        {
+            "ID": 28426,
+            "ChargePointID": 194379,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Si ricarica senza l'uso né di applicazioni né di tessere e si paga il totale al benzinaio di turno, utilizzabile 24 ore al giorno e 7 giorni su 7 poiché l'area di servizio è presidiata in continuità. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnina-fast-tritium-galdieri-ip-salerno-sa-tangenziale-verso-pontecagnano-t26443.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-fast-tritium-galdieri-ip-salerno-sa-tangenziale-verso-pontecagnano-t26443.html",
+            "DateCreated": "2023-04-22T05:34:18.393Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 140,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 37412,
+            "ChargePointID": 194379,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM194379/OCM-194379.orig.2023042205342924.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM194379/OCM-194379.thmb.2023042205342924.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-04-22T05:35:00Z"
+        },
+        {
+            "ID": 37413,
+            "ChargePointID": 194379,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM194379/OCM-194379.orig.2023042205343438.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM194379/OCM-194379.thmb.2023042205343438.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-04-22T05:35:00Z"
+        },
+        {
+            "ID": 37414,
+            "ChargePointID": 194379,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM194379/OCM-194379.orig.2023042205343956.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM194379/OCM-194379.thmb.2023042205343956.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-04-22T05:35:00Z"
+        },
+        {
+            "ID": 37415,
+            "ChargePointID": 194379,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM194379/OCM-194379.orig.2023042205344622.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM194379/OCM-194379.thmb.2023042205344622.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-04-22T05:35:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-22T05:41:00Z",
     "ID": 194379,
     "UUID": "6B37E11F-91E4-445F-A597-5069FA8B00FA",
     "DataProviderID": 1,
@@ -9,14 +91,15 @@
     "UsageCost": "€ 0,69/kWh to be paid to the cashier",
     "AddressInfo": {
         "ID": 194738,
-        "Title": "Galdiery Energy station direction south",
-        "AddressLine1": "Tangenziale di Salerno",
+        "Title": "Galdieri IP (verso Pontecagnano)",
+        "AddressLine1": "Tangenziale di Salerno (verso Pontecagnano)",
         "Town": "Salerno",
         "StateOrProvince": "Campania",
         "Postcode": "84131",
         "CountryID": 112,
-        "Latitude": 40.651250370135955,
-        "Longitude": 14.824881774293772,
+        "Latitude": 40.650784,
+        "Longitude": 14.824504,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-fast-tritium-galdieri-ip-salerno-sa-tangenziale-verso-pontecagnano-t26443.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,14 +110,29 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 438003,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 438004,
+            "ConnectionTypeID": 1036,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "open 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-29T12:22:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-22T05:41:00Z",
     "DateCreated": "2022-07-29T12:22:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,15 +1,14 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-08T04:25:00Z",
+    "DateLastVerified": "2023-04-10T16:27:00Z",
     "ID": 255769,
     "UUID": "6997B098-5BEA-42AE-AD8F-4D5EE0449FC1",
-    "DataProviderID": 18,
-    "DataProvidersReference": "74031546be2db65f0705bea4b1c0654b",
-    "OperatorID": 20,
+    "DataProviderID": 1,
+    "OperatorID": 3295,
     "UsageTypeID": 4,
+    "UsageCost": "£0.57/kWh. Parking fees apply.",
     "AddressInfo": {
         "ID": 256153,
-        "Title": "Morpeth",
+        "Title": "Morpeth Railway Station (South) Car Park",
         "AddressLine1": "Coopies Lane",
         "Town": "Morpeth",
         "Postcode": "NE61 6JN",
@@ -17,23 +16,37 @@
         "Latitude": 55.162623,
         "Longitude": -1.67997,
         "AccessComments": "Coopies Lane",
-        "RelatedURL": "http://www.chargeyourcar.org.uk",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 424434,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "UKEV6276",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
+            "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 7,
+            "PowerKW": 3.6,
             "CurrentTypeID": 10
+        },
+        {
+            "ID": 435749,
+            "ConnectionTypeID": 25,
+            "Reference": "UKEV6277",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.6,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2023-03-08T04:25:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-10T16:27:00Z",
     "MetadataValues": [
         {
             "ID": 27751,
@@ -41,7 +54,6 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
     "DateCreated": "2023-03-07T08:03:00Z",
     "SubmissionStatusTypeID": 100
 }

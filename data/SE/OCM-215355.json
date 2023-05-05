@@ -1,33 +1,33 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T08:31:00Z",
+    "DateLastVerified": "2023-05-01T04:22:00Z",
     "ID": 215355,
     "UUID": "6A442C1F-3F96-4EEE-BAC1-1406302C1E6C",
     "DataProviderID": 19,
     "DataProvidersReference": "10088",
     "AddressInfo": {
         "ID": 215735,
-        "Title": "Sikforsvägen 15",
-        "AddressLine1": "Sikforsvägen 15 ",
+        "Title": "Vattenfall - Sikforsvägen 15",
+        "AddressLine1": "Vattenfall - Sikforsvägen 15",
         "Town": "HÄLLEFORS",
         "StateOrProvince": "ÖREBRO",
         "Postcode": "71234",
         "CountryID": 216,
-        "Latitude": 59.78444,
-        "Longitude": 14.52217,
+        "Latitude": 59.784473,
+        "Longitude": 14.522211,
         "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 360839,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
             "Reference": "1",
             "LevelID": 3,
-            "Amps": 375,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 150,
-            "CurrentTypeID": 30
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 360840,
@@ -37,7 +37,8 @@
             "Amps": 375,
             "Voltage": 400,
             "PowerKW": 150,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
         },
         {
             "ID": 360841,
@@ -47,22 +48,23 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 360842,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "Reference": "4",
             "LevelID": 3,
-            "Amps": 32,
+            "Amps": 375,
             "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
         }
     ],
     "NumberOfPoints": 4,
-    "DateLastStatusUpdate": "2023-03-07T08:31:00Z",
-    "DataQualityLevel": 2,
+    "DateLastStatusUpdate": "2023-05-01T04:22:00Z",
     "DateCreated": "2023-02-09T09:48:00Z",
     "SubmissionStatusTypeID": 100
 }

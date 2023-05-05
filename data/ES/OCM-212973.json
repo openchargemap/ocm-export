@@ -1,12 +1,11 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-01-27T12:21:00Z",
+    "DateLastVerified": "2023-04-23T17:41:00Z",
     "ID": 212973,
     "UUID": "7000E4C7-CCD0-46A4-A1F2-B0F86533E4CB",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "",
+    "OperatorID": 207,
+    "UsageTypeID": 4,
+    "UsageCost": "0,65€/kWh >150kW - 0,55€/kWh >60kW - 0,45€/kWh DC - 0,39€/kWh AC ",
     "AddressInfo": {
         "ID": 213353,
         "Title": "Fashion outlet",
@@ -15,8 +14,8 @@
         "StateOrProvince": "Andalucía",
         "Postcode": "41300",
         "CountryID": 210,
-        "Latitude": 37.4399804635961,
-        "Longitude": -5.884954530048361,
+        "Latitude": 37.439615043494285,
+        "Longitude": -5.885231485215286,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +24,26 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 3.7,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 12
+        },
+        {
+            "ID": 438174,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Starcharge Titan180. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 12,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-01-27T12:21:00Z",
-    "DataQualityLevel": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-23T17:41:00Z",
     "DateCreated": "2023-01-27T12:20:00Z",
     "SubmissionStatusTypeID": 200
 }

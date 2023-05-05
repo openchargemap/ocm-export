@@ -1,20 +1,19 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-07-12T02:49:00Z",
+    "DateLastVerified": "2023-04-18T19:19:00Z",
     "ID": 186899,
     "UUID": "F7669FB2-5406-487C-96F6-89518543FD70",
-    "DataProviderID": 29,
-    "DataProvidersReference": "2477",
+    "DataProviderID": 1,
     "OperatorID": 69,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 187258,
-        "Title": "Molkenmarkt",
-        "AddressLine1": "Molkenmarkt",
-        "Town": "Brandenburg",
+        "Title": "StWB_Molkenmarkt",
+        "AddressLine1": "Molkenmarkt 1",
+        "Town": "Brandenburg an der Havel",
         "Postcode": "14776",
         "CountryID": 87,
-        "Latitude": 52.409511,
-        "Longitude": 12.563621,
+        "Latitude": 52.409552811854695,
+        "Longitude": 12.56349142255982,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,19 +23,12 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 300515,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-12T02:49:00Z",
+    "DateLastStatusUpdate": "2023-04-18T19:19:00Z",
     "MetadataValues": [
         {
             "ID": 19139,
@@ -44,7 +36,6 @@
             "ItemValue": "Data from the German chargepoint registry provided by Bundesnetzagentur.de under the CC-BY 4.0 license"
         }
     ],
-    "DataQualityLevel": 3,
     "DateCreated": "2021-07-12T02:49:00Z",
     "SubmissionStatusTypeID": 100
 }

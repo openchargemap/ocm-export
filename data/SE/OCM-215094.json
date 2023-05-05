@@ -1,43 +1,44 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T08:29:00Z",
+    "DateLastVerified": "2023-05-01T04:19:00Z",
     "ID": 215094,
     "UUID": "B987C833-437E-4693-84DE-E8A9B4915F74",
     "DataProviderID": 19,
     "DataProvidersReference": "7847",
     "AddressInfo": {
         "ID": 215474,
-        "Title": "Vattenfall InCharge Snabbladdning",
-        "AddressLine1": "Torskholmen 1",
+        "Title": "Vattenfall - Torskholmen 1",
+        "AddressLine1": "Vattenfall - Torskholmen 1",
         "Town": "STRÖMSTAD",
         "StateOrProvince": "VÄSTRA GÖTALAND",
         "Postcode": "45231",
         "CountryID": 216,
-        "Latitude": 58.935228,
-        "Longitude": 11.171097,
+        "Latitude": 58.935216,
+        "Longitude": 11.17113,
         "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 359082,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
             "Reference": "1",
             "LevelID": 3,
-            "Amps": 270,
-            "Voltage": 480,
-            "PowerKW": 135,
-            "CurrentTypeID": 30
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 359083,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
             "Reference": "2",
             "LevelID": 3,
-            "Amps": 270,
-            "Voltage": 480,
-            "PowerKW": 135,
-            "CurrentTypeID": 30
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 359084,
@@ -47,27 +48,30 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 359085,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "Reference": "4",
             "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
         },
         {
             "ID": 359086,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "Reference": "5",
             "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
         },
         {
             "ID": 359087,
@@ -77,12 +81,12 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         }
     ],
     "NumberOfPoints": 6,
-    "DateLastStatusUpdate": "2023-03-07T08:29:00Z",
-    "DataQualityLevel": 2,
+    "DateLastStatusUpdate": "2023-05-01T04:19:00Z",
     "DateCreated": "2023-02-09T09:47:00Z",
     "SubmissionStatusTypeID": 100
 }

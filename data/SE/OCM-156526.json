@@ -1,68 +1,70 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T08:27:00Z",
+    "DateLastVerified": "2023-05-01T04:16:00Z",
     "ID": 156526,
     "UUID": "689939F8-EC5D-48E6-8F1E-35A5A6B403C1",
     "DataProviderID": 19,
     "DataProvidersReference": "5780",
     "AddressInfo": {
         "ID": 156880,
-        "Title": "Vattenfall InCharge Snabbladdning",
-        "AddressLine1": "Handelsvägen 1",
+        "Title": "Vattenfall - MAX - Handelsvägen 1",
+        "AddressLine1": "Vattenfall - MAX - Handelsvägen 1",
         "Town": "LÖDDEKÖPINGE",
         "StateOrProvince": "SKÅNE",
         "Postcode": "24642",
         "CountryID": 216,
-        "Latitude": 55.77156,
-        "Longitude": 12.98849,
+        "Latitude": 55.771379,
+        "Longitude": 12.988891,
         "AccessComments": "MAX parkering",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 220452,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 25,
             "Reference": "1",
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 220453,
-            "ConnectionTypeID": 33,
-            "Reference": "2",
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 220454,
-            "ConnectionTypeID": 33,
-            "Reference": "3",
             "LevelID": 3,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
+        },
+        {
+            "ID": 220453,
+            "ConnectionTypeID": 25,
+            "Reference": "2",
+            "LevelID": 3,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
+        },
+        {
+            "ID": 220454,
+            "ConnectionTypeID": 2,
+            "Reference": "3",
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
         },
         {
             "ID": 220455,
             "ConnectionTypeID": 33,
             "Reference": "4",
             "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
         }
     ],
     "NumberOfPoints": 4,
-    "DateLastStatusUpdate": "2023-03-07T08:27:00Z",
-    "DataQualityLevel": 2,
+    "DateLastStatusUpdate": "2023-05-01T04:16:00Z",
     "DateCreated": "2020-05-26T08:21:00Z",
     "SubmissionStatusTypeID": 100
 }

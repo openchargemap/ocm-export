@@ -1,0 +1,90 @@
+{
+    "DateLastVerified": "2023-05-02T10:00:00Z",
+    "ID": 264194,
+    "UUID": "EE93A33D-59E2-4816-9B5C-98DADF450982",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-401709,PG-403162,t54_hu1_3422_050",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh,£0.65/kWh",
+    "AddressInfo": {
+        "ID": 264578,
+        "Title": "Lidl-Kingston Upon Thames",
+        "AddressLine1": "153-161 London RD",
+        "Town": "Kingston upon Thames",
+        "Postcode": "KT2 6NU",
+        "CountryID": 1,
+        "Latitude": 51.4128532,
+        "Longitude": -0.2913811,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 447916,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-401709",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Kate-Alec"
+        },
+        {
+            "ID": 447917,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-403162",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Will-John"
+        },
+        {
+            "ID": 447918,
+            "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_3422_050",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Eban-Axia"
+        },
+        {
+            "ID": 447919,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_3422_050",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Eban-Axia"
+        },
+        {
+            "ID": 447920,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_3422_050",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Eban-Axia"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at the Lidl site in London Rd, Kingston upon Thames",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-02T10:00:00Z",
+    "DateCreated": "2023-05-02T05:36:00Z",
+    "SubmissionStatusTypeID": 200
+}

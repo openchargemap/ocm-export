@@ -1,6 +1,23 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-14T11:28:00Z",
+    "MediaItems": [
+        {
+            "ID": 37190,
+            "ChargePointID": 160846,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM160846/OCM-160846.orig.2023040610050024.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM160846/OCM-160846.thmb.2023040610050024.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-06T10:05:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-06T10:05:00Z",
     "ID": 160846,
     "UUID": "62399FCC-DFE2-40C6-AD7F-9F1E53BE582F",
     "DataProviderID": 1,
@@ -22,46 +39,40 @@
         {
             "ID": 231520,
             "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 231521,
-            "ConnectionTypeID": 33,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 231522,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
-        },
-        {
-            "ID": 231523,
-            "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "PowerKW": 50
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 231524,
             "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 43
-        },
-        {
-            "ID": 231525,
-            "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "PowerKW": 43
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-14T11:28:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-06T10:05:00Z",
     "DateCreated": "2020-06-30T18:26:00Z",
     "SubmissionStatusTypeID": 200
 }

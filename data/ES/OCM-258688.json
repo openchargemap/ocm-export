@@ -1,6 +1,71 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-24T22:48:00Z",
+    "MediaItems": [
+        {
+            "ID": 37258,
+            "ChargePointID": 258688,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM258688/OCM-258688.orig.2023041309454010.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM258688/OCM-258688.thmb.2023041309454010.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-13T09:46:00Z"
+        },
+        {
+            "ID": 37256,
+            "ChargePointID": 258688,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM258688/OCM-258688.orig.2023041309434317.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM258688/OCM-258688.thmb.2023041309434317.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-13T09:44:00Z"
+        },
+        {
+            "ID": 37257,
+            "ChargePointID": 258688,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM258688/OCM-258688.orig.2023041309441083.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM258688/OCM-258688.thmb.2023041309441083.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-13T09:44:00Z"
+        },
+        {
+            "ID": 37255,
+            "ChargePointID": 258688,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM258688/OCM-258688.orig.2023041309423219.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM258688/OCM-258688.thmb.2023041309423219.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-13T09:43:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-13T09:49:00Z",
     "ID": 258688,
     "UUID": "6286F4D8-E6CD-43BE-AB5B-F2FC0732B328",
     "DataProviderID": 1,
@@ -16,8 +81,8 @@
         "StateOrProvince": "Castilla y León",
         "Postcode": "37900",
         "CountryID": 210,
-        "Latitude": 40.951322622261245,
-        "Longitude": -5.65365392504134,
+        "Latitude": 40.95146467535636,
+        "Longitude": -5.653535743909174,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,29 +92,16 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 300,
-            "Voltage": 920,
-            "PowerKW": 180,
+            "Voltage": 1000,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Ingeteam RAPID180 Charger  (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW.  Charging power limited for 400V cars"
-        },
-        {
-            "ID": 432804,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 920,
-            "PowerKW": 180,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Ingeteam RAPID180 Charger  (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW.  Charging power limited for 400V cars"
+            "Quantity": 4,
+            "Comments": "Four Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (200 kW). Charging power limited for 400V cars"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-03-24T22:48:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-13T09:49:00Z",
     "DateCreated": "2023-03-24T22:45:00Z",
     "SubmissionStatusTypeID": 200
 }

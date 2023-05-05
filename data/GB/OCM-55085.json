@@ -28,16 +28,15 @@
             "CheckinStatusTypeID": 120
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-08-24T18:33:00Z",
+    "DateLastVerified": "2023-04-26T13:25:00Z",
     "ID": 55085,
     "UUID": "B31C5C05-593F-41FC-A095-EE0824725D1C",
     "DataProviderID": 1,
     "DataProvidersReference": "PG-80205,PG-90523,PG-90543,PG-90582,t53_it1_5115_009",
     "OperatorID": 3,
-    "OperatorsReference": "PSL-62322",
+    "OperatorsReference": "PG-92397,PSL-62322",
     "UsageTypeID": 4,
-    "UsageCost": "1",
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 55431,
         "Title": "Pod Point Office",
@@ -58,18 +57,28 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Test-Erik"
+        },
+        {
+            "ID": 438718,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-92397",
+            "StatusTypeID": 50,
+            "LevelID": 2,
             "PowerKW": 7,
             "CurrentTypeID": 20,
             "Quantity": 1,
-            "Comments": "Test-Erik"
+            "Comments": "Adam-Rick"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 1,
     "GeneralComments": "Pod-Point T7-S charge points, and S7-UP. Web/app login and pre-payment account required",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-24T18:33:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-26T13:25:00Z",
     "DateCreated": "2015-10-14T12:00:00Z",
     "SubmissionStatusTypeID": 200
 }

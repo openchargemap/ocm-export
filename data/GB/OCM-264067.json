@@ -1,0 +1,77 @@
+{
+    "DateLastVerified": "2023-05-02T10:00:00Z",
+    "ID": 264067,
+    "UUID": "B5570793-4384-4E75-9908-A85DD861253E",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70459,PG-86872,veefil-12100180",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.44/kWh,£0.62/kWh",
+    "AddressInfo": {
+        "ID": 264451,
+        "Title": "Tesco Extra-Maldon",
+        "AddressLine1": "Fulbridge",
+        "Town": "Maldon",
+        "Postcode": "CM9 4LE",
+        "CountryID": 1,
+        "Latitude": 51.736908,
+        "Longitude": 0.677843,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 447509,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70459",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Glen-Hope"
+        },
+        {
+            "ID": 447510,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86872",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Fern-Ralf"
+        },
+        {
+            "ID": 447511,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12100180",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Zaye-Najm"
+        },
+        {
+            "ID": 447512,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100180",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Zaye-Najm"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at the Tesco Extra Maldon site in Fulbridge, Maldon.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-02T10:00:00Z",
+    "DateCreated": "2023-05-02T05:32:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,20 +1,19 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T08:26:00Z",
+    "DateLastVerified": "2023-05-01T04:16:00Z",
     "ID": 156504,
     "UUID": "30C4689A-C6B4-4581-8B31-1E5AAFF94604",
     "DataProviderID": 19,
     "DataProvidersReference": "6300",
     "AddressInfo": {
         "ID": 156858,
-        "Title": "Vattenfall InCharge Snabbladdning",
-        "AddressLine1": "Fredsgatan 12",
+        "Title": "Vattenfall - Malmö Entré - Fredsgatan 12",
+        "AddressLine1": "Vattenfall - Malmö Entré - Fredsgatan 12",
         "Town": "MALMÖ",
         "StateOrProvince": "SKÅNE",
         "Postcode": "21212",
         "CountryID": 216,
         "Latitude": 55.60756,
-        "Longitude": 13.0248,
+        "Longitude": 13.024802,
         "AccessComments": "I garaget en våning ner i Malmö Entré (vid Hemköp).",
         "DistanceUnit": 0
     },
@@ -27,27 +26,30 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 220316,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
             "Reference": "2",
             "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 500,
-            "PowerKW": 120,
-            "CurrentTypeID": 30
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 220317,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "Reference": "3",
             "LevelID": 3,
-            "Amps": 200,
+            "Amps": 100,
             "Voltage": 500,
-            "PowerKW": 120,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
         },
         {
             "ID": 220318,
@@ -57,7 +59,8 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 220319,
@@ -67,7 +70,8 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 220320,
@@ -77,22 +81,23 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 220321,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 2,
             "Reference": "7",
             "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
         }
     ],
     "NumberOfPoints": 7,
-    "DateLastStatusUpdate": "2023-03-07T08:26:00Z",
-    "DataQualityLevel": 2,
+    "DateLastStatusUpdate": "2023-05-01T04:16:00Z",
     "DateCreated": "2020-05-26T08:21:00Z",
     "SubmissionStatusTypeID": 100
 }

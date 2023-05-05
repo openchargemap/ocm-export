@@ -1,16 +1,17 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2020-08-27T05:11:00Z",
+    "DateLastVerified": "2023-04-24T20:23:00Z",
     "ID": 165542,
     "UUID": "1328AB5A-B31C-4E69-B616-BAFF9983BDE4",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*S40*PMB40*9",
-    "OperatorID": 3407,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 165901,
-        "Title": "HAGETMAU - Parking Des Arênes- Chemin De Loussets",
-        "AddressLine1": "Parking Des Arênes- Chemin De Loussets 40700 HAGETMAU",
+        "Title": "SDEYC - Parking Des Arênes",
+        "AddressLine1": "Parking Des Arênes- Chemin De Loussets ",
+        "Town": "Hagetmau",
+        "StateOrProvince": "Landes",
+        "Postcode": "40700 ",
         "CountryID": 80,
         "Latitude": 43.652554,
         "Longitude": -0.59247,
@@ -19,42 +20,28 @@
     },
     "Connections": [
         {
-            "ID": 240085,
+            "ID": 438466,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 18,
-            "CurrentTypeID": 20
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         },
         {
-            "ID": 240086,
+            "ID": 438467,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 18,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 240087,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 18,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 240088,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 18,
-            "CurrentTypeID": 10
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "Recharge par badge et avec une application smartphone",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:11:00Z",
-    "DataQualityLevel": 2,
+    "DateLastStatusUpdate": "2023-04-24T20:23:00Z",
     "DateCreated": "2020-08-27T05:11:00Z",
     "SubmissionStatusTypeID": 100
 }

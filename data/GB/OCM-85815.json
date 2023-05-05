@@ -17,13 +17,12 @@
             "DateCreated": "2018-08-29T11:58:00Z"
         }
     ],
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-08-15T20:12:00Z",
+    "DateLastVerified": "2023-05-02T10:05:00Z",
     "ID": 85815,
     "UUID": "33F06E42-97A6-467E-99B2-336B0F7302F4",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-105610,PG-105621,PG-90732,PG-90733,PG-91104,PG-91105,PG-91113,PG-91115,PG-91120,PG-91121",
+    "OperatorsReference": "",
     "UsageTypeID": 4,
     "UsageCost": "£0.35/kWh",
     "AddressInfo": {
@@ -282,7 +281,7 @@
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2,
+            "Quantity": 1,
             "Comments": "Doug-Joan"
         },
         {
@@ -629,17 +628,31 @@
             "Reference": "PG-106606",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 20,
+            "CurrentTypeID": 10,
             "Quantity": 1,
             "Comments": "Kriv-Witt"
+        },
+        {
+            "ID": 448305,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-106822",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Inri-Mann"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 5,
     "GeneralComments": "This is an open charge unit installed at the Bullring Shopping Centre in Birmingham The POD Point is located in sections 2G and 2F of the main centre car park",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-15T20:12:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-05-02T10:05:00Z",
     "DateCreated": "2017-04-15T20:16:00Z",
     "SubmissionStatusTypeID": 200
 }

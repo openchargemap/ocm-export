@@ -1,14 +1,13 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T05:15:00Z",
+    "DateLastVerified": "2023-05-01T05:31:00Z",
     "ID": 123627,
     "UUID": "1A479665-0C3C-4865-93A9-3BE6C1134837",
     "DataProviderID": 2,
     "DataProvidersReference": "47457",
-    "UsageTypeID": 7,
+    "UsageTypeID": 2,
     "AddressInfo": {
         "ID": 123973,
-        "Title": "Toyota of Santa Cruz",
+        "Title": "Toyota/Subaru of Santa Cruz",
         "AddressLine1": "4200 Auto Plaza Dr",
         "Town": "Capitola",
         "StateOrProvince": "CA",
@@ -17,20 +16,20 @@
         "Latitude": 36.981884,
         "Longitude": -121.962228,
         "ContactTelephone1": "831-462-4200",
-        "AccessComments": "Dealership business hours; Drivers must bring their own J1772 cordset for Level 1 charging\r\nPublic - Call ahead",
+        "AccessComments": "Dealership business hours; customer use only",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 173639,
-            "ConnectionTypeID": 9,
-            "LevelID": 1,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
             "Amps": 16,
-            "Voltage": 120,
-            "PowerKW": 1.9,
+            "Voltage": 230,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 6
         },
         {
             "ID": 173640,
@@ -44,8 +43,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-07T05:15:00Z",
-    "DataQualityLevel": 3,
+    "DateLastStatusUpdate": "2023-05-01T05:31:00Z",
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100
 }

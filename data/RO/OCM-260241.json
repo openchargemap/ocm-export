@@ -1,0 +1,137 @@
+{
+    "UserComments": [
+        {
+            "ID": 28418,
+            "ChargePointID": 260241,
+            "CommentTypeID": 50,
+            "UserName": "Bobby",
+            "Comment": "Fast charging working. Two separate charging spots: one AC with 2 Type2 plugs on the wall and one DC station with fast charge and AC plug.",
+            "Rating": 5,
+            "DateCreated": "2023-04-19T15:30:41.42Z",
+            "User": {
+                "ID": 45835,
+                "Username": "Bobby"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 28412,
+            "ChargePointID": 260241,
+            "CommentTypeID": 1000,
+            "UserName": "Bobby",
+            "Comment": "Both charging spots occuppied by nonEV",
+            "DateCreated": "2023-04-18T12:46:22.147Z",
+            "User": {
+                "ID": 45835,
+                "Username": "Bobby"
+            },
+            "CheckinStatusTypeID": 110,
+            "IsActionedByEditor": true
+        },
+        {
+            "ID": 28411,
+            "ChargePointID": 260241,
+            "CommentTypeID": 50,
+            "UserName": "Bobby",
+            "Comment": "25% discount in app: AC 1,13 RON start fee, 1,72 RON/kWh, DC start fee 0,75 RON, 2,25 RON/kWh",
+            "Rating": 5,
+            "DateCreated": "2023-04-18T12:45:17.84Z",
+            "User": {
+                "ID": 45835,
+                "Username": "Bobby"
+            },
+            "CheckinStatusTypeID": 210,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 28410,
+            "ChargePointID": 260241,
+            "CommentTypeID": 1000,
+            "UserName": "Bobby",
+            "Comment": "Fast charging (DC) is offline in application, not possible to start session.",
+            "DateCreated": "2023-04-18T12:43:23.33Z",
+            "User": {
+                "ID": 45835,
+                "Username": "Bobby"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": true
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 37378,
+            "ChargePointID": 260241,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RO/OCM260241/OCM-260241.orig.2023041812560644.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RO/OCM260241/OCM-260241.thmb.2023041812560644.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 45835,
+                "Username": "Bobby"
+            },
+            "DateCreated": "2023-04-18T12:56:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-21T22:36:00Z",
+    "ID": 260241,
+    "UUID": "CFBD1BF5-12E4-482C-A56D-FC4134B4F291",
+    "DataProviderID": 1,
+    "OperatorID": 3420,
+    "UsageTypeID": 4,
+    "UsageCost": "DC Start fee 0.75 RON, 2,25 RON/kWh, AC Start fee 1,13 RON, 1,72 RON/kWh",
+    "AddressInfo": {
+        "ID": 260625,
+        "Title": "Shopping City - Plugpoint",
+        "AddressLine1": "Bld. George Cosbuc",
+        "AddressLine2": "Parcarea Shopping City",
+        "Town": "Galati",
+        "StateOrProvince": "Galati",
+        "CountryID": 184,
+        "Latitude": 45.45433098601208,
+        "Longitude": 28.03161803907122,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 437702,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Voltage": 400,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 437703,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 437803,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 3,
+    "GeneralComments": "Activate by Plugpoint App",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-21T22:36:00Z",
+    "DateCreated": "2023-04-18T12:42:00Z",
+    "SubmissionStatusTypeID": 200
+}

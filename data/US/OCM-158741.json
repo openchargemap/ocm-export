@@ -1,6 +1,5 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T05:06:00Z",
+    "DateLastVerified": "2023-05-01T05:22:00Z",
     "ID": 158741,
     "UUID": "A25D45DD-3A37-4991-9D79-A0AE0095BEFD",
     "DataProviderID": 2,
@@ -17,25 +16,34 @@
         "Latitude": 34.061071,
         "Longitude": -117.818795,
         "ContactTelephone1": "909-869-3061",
-        "AccessComments": "24 hours daily; parking permit required",
+        "AccessComments": "24 hours daily; parking permit required; 4 hour limit",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 228766,
+            "ConnectionTypeID": 9,
+            "LevelID": 1,
+            "Amps": 16,
+            "Voltage": 120,
+            "PowerKW": 1.9,
+            "CurrentTypeID": 10,
+            "Quantity": 7
+        },
+        {
+            "ID": 445084,
             "ConnectionTypeID": 1,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 22
+            "Quantity": 15
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-07T05:06:00Z",
-    "DataQualityLevel": 3,
+    "DateLastStatusUpdate": "2023-05-01T05:22:00Z",
     "DateCreated": "2020-06-26T02:56:00Z",
     "SubmissionStatusTypeID": 100
 }

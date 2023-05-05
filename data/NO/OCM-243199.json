@@ -1,13 +1,12 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T08:34:00Z",
+    "DateLastVerified": "2023-05-01T04:24:00Z",
     "ID": 243199,
     "UUID": "5B180DAC-BC82-4F71-8A7F-7F3B85D4DCF6",
     "DataProviderID": 19,
     "DataProvidersReference": "5068",
     "AddressInfo": {
         "ID": 243583,
-        "Title": "Amfi Voss",
+        "Title": "AMFI Voss",
         "AddressLine1": "Hardangervegen 25",
         "Town": "VOSS",
         "StateOrProvince": "Vestland",
@@ -76,18 +75,18 @@
         },
         {
             "ID": 407002,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 25,
             "Reference": "6",
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
             "CurrentTypeID": 30,
-            "Comments": "Mode 4"
+            "Comments": "Mode 3"
         },
         {
             "ID": 407003,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "Reference": "7",
             "LevelID": 3,
             "Amps": 100,
@@ -98,7 +97,7 @@
         },
         {
             "ID": 407004,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
             "Reference": "8",
             "LevelID": 3,
             "Amps": 100,
@@ -109,8 +108,19 @@
         },
         {
             "ID": 407005,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 25,
             "Reference": "9",
+            "LevelID": 3,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
+        },
+        {
+            "ID": 407006,
+            "ConnectionTypeID": 2,
+            "Reference": "10",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -119,26 +129,15 @@
             "Comments": "Mode 4"
         },
         {
-            "ID": 407006,
-            "ConnectionTypeID": 25,
-            "Reference": "10",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 3"
-        },
-        {
             "ID": 407007,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 2,
             "Reference": "11",
             "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Comments": "Mode 3"
+            "Comments": "Mode 4"
         },
         {
             "ID": 407008,
@@ -153,8 +152,7 @@
         }
     ],
     "NumberOfPoints": 12,
-    "DateLastStatusUpdate": "2023-03-07T08:34:00Z",
-    "DataQualityLevel": 2,
+    "DateLastStatusUpdate": "2023-05-01T04:24:00Z",
     "DateCreated": "2023-03-07T04:00:00Z",
     "SubmissionStatusTypeID": 100
 }

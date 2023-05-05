@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 37200,
+            "ChargePointID": 146624,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM146624/OCM-146624.orig.2023040614181121.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM146624/OCM-146624.thmb.2023040614181121.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-06T14:18:00Z"
+        },
+        {
             "ID": 33043,
             "ChargePointID": 146624,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM146624/OCM-146624.orig.2022082313364914.jpg",
@@ -17,8 +33,7 @@
             "DateCreated": "2022-08-23T13:37:00Z"
         }
     ],
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-28T07:31:00Z",
+    "DateLastVerified": "2023-04-07T08:19:00Z",
     "ID": 146624,
     "UUID": "5B0C0FCA-7DDB-488F-B9D4-9DA8E8C899A7",
     "DataProviderID": 1,
@@ -27,7 +42,7 @@
     "UsageCost": "0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 146976,
-        "Title": "Avenida Madrid - Valencia",
+        "Title": "Saelices (Wenea)",
         "AddressLine1": "Avenida Madrid - Valencia",
         "AddressLine2": "Las termas de Segóbtidas",
         "Town": "Saelices",
@@ -47,18 +62,22 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "PowerElectronics NB240 charger. Power is split between both outlets. The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW. "
         },
         {
             "ID": 203937,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Circuitor Rapid50 charger"
         },
         {
             "ID": 203938,
@@ -69,13 +88,23 @@
             "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Circuitor Rapid50 charger"
+        },
+        {
+            "ID": 435595,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Circuitor Rapid50 charger"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-28T07:31:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-07T08:19:00Z",
     "DateCreated": "2020-01-12T15:05:00Z",
     "SubmissionStatusTypeID": 200
 }

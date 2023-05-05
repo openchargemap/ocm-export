@@ -1,10 +1,26 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-01-26T06:44:00Z",
+    "UserComments": [
+        {
+            "ID": 28429,
+            "ChargePointID": 99405,
+            "CommentTypeID": 10,
+            "UserName": "Programmin",
+            "Comment": "J1772 and Tesla plugs.",
+            "Rating": 4,
+            "DateCreated": "2023-04-22T07:01:12.6Z",
+            "User": {
+                "ID": 42341,
+                "Username": "Programmin"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-04-22T11:40:00Z",
     "ID": 99405,
     "UUID": "805FEBD8-FB0D-4CCB-87BE-8F3319F9C696",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 45,
     "OperatorsReference": "40025",
     "UsageTypeID": 4,
     "AddressInfo": {
@@ -29,13 +45,21 @@
             "PowerKW": 16,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 438011,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 8,
+            "Quantity": 1,
+            "Comments": "Standard plug Clippercreek level2 unit. In the guest parking lot."
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 16kW.Available for customers. Please see front desk.",
+    "GeneralComments": "2 Tesla Connectors, up to 16kW. Standard plug provides up to 8kw. Available for customers. Please see front desk.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-01-26T06:44:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-22T11:40:00Z",
     "DateCreated": "2018-01-26T06:44:00Z",
     "SubmissionStatusTypeID": 200
 }

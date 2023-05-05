@@ -1,6 +1,55 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-22T08:15:00Z",
+    "MediaItems": [
+        {
+            "ID": 37261,
+            "ChargePointID": 201245,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201245/OCM-201245.orig.2023041310123694.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201245/OCM-201245.thmb.2023041310123694.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-13T10:13:00Z"
+        },
+        {
+            "ID": 37262,
+            "ChargePointID": 201245,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201245/OCM-201245.orig.2023041310125435.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201245/OCM-201245.thmb.2023041310125435.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-13T10:13:00Z"
+        },
+        {
+            "ID": 37260,
+            "ChargePointID": 201245,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201245/OCM-201245.orig.2023041310110029.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201245/OCM-201245.thmb.2023041310110029.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-13T10:11:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-22T12:43:00Z",
     "ID": 201245,
     "UUID": "BB014FA8-434E-4F28-A237-CB44CD31374E",
     "DataProviderID": 1,
@@ -25,24 +74,24 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 600,
+            "Amps": 500,
             "Voltage": 1000,
             "PowerKW": 400,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Ingeteam RAPID ST400 Charger (600A). Charging power limited to 240kW for 400V cars"
+            "Comments": "Ingeteam RAPID ST400 Charger (500A). Charging power limited to 240kW for 400V cars"
         },
         {
             "ID": 335643,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
+            "Amps": 250,
             "Voltage": 1000,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 6,
-            "Comments": "Ingeteam RAPID ST200 Charger (300A). Charging power limited to 120kW for 400V cars"
+            "Comments": "Ingeteam RAPID ST200 Charger. Charging power limited to 100kW for 400V cars"
         },
         {
             "ID": 335644,
@@ -58,8 +107,7 @@
     ],
     "NumberOfPoints": 8,
     "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-03-22T08:15:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-22T12:43:00Z",
     "DateCreated": "2022-08-25T08:57:00Z",
     "SubmissionStatusTypeID": 200
 }

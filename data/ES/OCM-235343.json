@@ -1,6 +1,71 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-04-03T13:20:00Z",
+    "MediaItems": [
+        {
+            "ID": 37589,
+            "ChargePointID": 235343,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM235343/OCM-235343.orig.2023042809553505.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM235343/OCM-235343.thmb.2023042809553505.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-28T09:56:00Z"
+        },
+        {
+            "ID": 37590,
+            "ChargePointID": 235343,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM235343/OCM-235343.orig.2023042809560486.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM235343/OCM-235343.thmb.2023042809560486.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-28T09:56:00Z"
+        },
+        {
+            "ID": 37587,
+            "ChargePointID": 235343,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM235343/OCM-235343.orig.2023042809532340.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM235343/OCM-235343.thmb.2023042809532340.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-28T09:54:00Z"
+        },
+        {
+            "ID": 37588,
+            "ChargePointID": 235343,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM235343/OCM-235343.orig.2023042809535585.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM235343/OCM-235343.thmb.2023042809535585.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-28T09:54:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-28T09:56:00Z",
     "ID": 235343,
     "UUID": "34B2AB89-932E-467D-8A29-F328299A3DBF",
     "DataProviderID": 1,
@@ -27,7 +92,8 @@
             "LevelID": 3,
             "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Starcharge Titan60 charger"
         },
         {
             "ID": 388156,
@@ -54,10 +120,10 @@
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
-            "PowerKW": 180,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Starcharge Titan180 charger. The DC charger shares the total power (180 KW) with the Chademo connector. (max power is limited to 80kW for 400V cars)"
+            "Comments": "Starcharge Titan120 charger. The DC charger shares the total power (120 KW) with the Chademo connector. (max power is limited to 80kW for 400V cars)"
         },
         {
             "ID": 388159,
@@ -68,12 +134,29 @@
             "PowerKW": 80,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 438955,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 438956,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-03T13:20:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-28T09:56:00Z",
     "DateCreated": "2023-02-18T12:49:00Z",
     "SubmissionStatusTypeID": 200
 }

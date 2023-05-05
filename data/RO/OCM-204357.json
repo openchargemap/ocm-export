@@ -1,23 +1,72 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-10-02T09:48:00Z",
+    "MediaItems": [
+        {
+            "ID": 37365,
+            "ChargePointID": 204357,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RO/OCM204357/OCM-204357.orig.2023041811234317.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RO/OCM204357/OCM-204357.thmb.2023041811234317.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 45835,
+                "Username": "Bobby"
+            },
+            "DateCreated": "2023-04-18T11:24:00Z"
+        },
+        {
+            "ID": 37366,
+            "ChargePointID": 204357,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RO/OCM204357/OCM-204357.orig.2023041811240176.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RO/OCM204357/OCM-204357.thmb.2023041811240176.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 45835,
+                "Username": "Bobby"
+            },
+            "DateCreated": "2023-04-18T11:24:00Z"
+        },
+        {
+            "ID": 37364,
+            "ChargePointID": 204357,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RO/OCM204357/OCM-204357.orig.2023041811232334.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RO/OCM204357/OCM-204357.thmb.2023041811232334.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 45835,
+                "Username": "Bobby"
+            },
+            "DateCreated": "2023-04-18T11:23:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-18T11:24:00Z",
     "ID": 204357,
     "UUID": "F042C37F-8FFE-4FA6-BB9F-2ED1B1A7C541",
     "DataProviderID": 1,
-    "OperatorID": 3420,
+    "OperatorID": 80,
     "UsageTypeID": 4,
-    "UsageCost": "Please see Plugpoint App",
+    "UsageCost": "DC 2,47lei/kWh, AC 1,97lei/kWh (ENEL X Way App)",
     "AddressInfo": {
         "ID": 204724,
-        "Title": "Galati Charging Hub",
+        "Title": "Galati Shopping City - EnelX",
         "AddressLine1": "Bulevardul George Coșbuc",
-        "AddressLine2": "Micro 39 B",
+        "AddressLine2": "Parcare Shopping City",
         "Town": "Galati",
         "Postcode": "800506",
         "CountryID": 184,
-        "Latitude": 45.45444389732205,
-        "Longitude": 28.031785769486532,
-        "ContactTelephone1": "+40746217031",
+        "Latitude": 45.454334692611184,
+        "Longitude": 28.031441321117228,
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,9 +75,8 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 115,
             "Voltage": 400,
-            "PowerKW": 75,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -37,17 +85,25 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 437496,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-02T09:48:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-18T11:24:00Z",
     "DateCreated": "2022-09-27T15:38:00Z",
     "SubmissionStatusTypeID": 200
 }

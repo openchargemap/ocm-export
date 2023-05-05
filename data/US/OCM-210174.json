@@ -1,11 +1,10 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-12-02T09:12:00Z",
+    "DateLastVerified": "2023-04-25T23:00:00Z",
     "ID": 210174,
     "UUID": "7F5468BB-762C-4A59-82EB-18278A281F3C",
     "DataProviderID": 1,
     "OperatorID": 3318,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 210554,
         "Title": "Electrify America (Target)",
@@ -16,6 +15,7 @@
         "CountryID": 2,
         "Latitude": 42.84765704477033,
         "Longitude": -106.26335495111414,
+        "RelatedURL": "https://www.electrifyamerica.com/locate-charger/wy/casper/401-wyoming-blvd-se/110151/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,13 +25,31 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 438674,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 438675,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-02T09:12:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-25T23:00:00Z",
     "DateCreated": "2022-12-02T05:00:00Z",
     "SubmissionStatusTypeID": 200
 }

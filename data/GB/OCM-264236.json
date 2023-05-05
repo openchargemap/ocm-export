@@ -1,0 +1,55 @@
+{
+    "DateLastVerified": "2023-05-02T05:37:00Z",
+    "ID": 264236,
+    "UUID": "DD84715A-32AD-4E45-AEDF-B8E488C8FD7C",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70515,PG-86061",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.44/kWh",
+    "AddressInfo": {
+        "ID": 264620,
+        "Title": "Tesco Superstore-Southampton",
+        "AddressLine1": "Tebourba Way",
+        "Town": "Southampton",
+        "Postcode": "SO16 4QE",
+        "CountryID": 1,
+        "Latitude": 50.9232,
+        "Longitude": -1.447364,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 448000,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70515",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Tate-Isla"
+        },
+        {
+            "ID": 448001,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86061",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Luis-Liam"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at the Tesco Superstore site in Tebourba Way, Southampton.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-02T05:37:00Z",
+    "DateCreated": "2023-05-02T05:37:00Z",
+    "SubmissionStatusTypeID": 200
+}

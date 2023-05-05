@@ -1,0 +1,78 @@
+{
+    "DateLastVerified": "2023-05-02T11:52:00Z",
+    "ID": 264053,
+    "UUID": "F5621E92-432E-4642-A1F4-B11D69EF3BDC",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-401660,PG-70633,veefil-12200472",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.49/kWh,£0.44/kWh,£0.62/kWh",
+    "AddressInfo": {
+        "ID": 264437,
+        "Title": "Tesco Extra-Beckton Gallions Reach",
+        "AddressLine1": "1 Armada Way",
+        "Town": "Beckton",
+        "StateOrProvince": "London",
+        "Postcode": "E6 7ER",
+        "CountryID": 1,
+        "Latitude": 51.517005,
+        "Longitude": 0.075474,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 447455,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-401660",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Lucy-Erin"
+        },
+        {
+            "ID": 447456,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70633",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Earl-Cato"
+        },
+        {
+            "ID": 447457,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200472",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Edil-Bach"
+        },
+        {
+            "ID": 447458,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200472",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Edil-Bach"
+        }
+    ],
+    "NumberOfPoints": 3,
+    "GeneralComments": "This is an open charge unit installed at Tesco Extra site at Armada Way, Beckton, London",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-02T11:52:00Z",
+    "DateCreated": "2023-05-02T05:32:00Z",
+    "SubmissionStatusTypeID": 200
+}

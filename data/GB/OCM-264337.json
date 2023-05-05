@@ -1,0 +1,55 @@
+{
+    "DateLastVerified": "2023-05-02T05:39:00Z",
+    "ID": 264337,
+    "UUID": "AED5DA9E-3FA5-4697-AA3A-526019AD5AE9",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-88529,PG-88531",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.712183/kWh",
+    "AddressInfo": {
+        "ID": 264721,
+        "Title": "SNC Lavalin",
+        "AddressLine1": "2 Roundhouse Road",
+        "Town": "Derby",
+        "Postcode": "DE24 8JE",
+        "CountryID": 1,
+        "Latitude": 52.915779,
+        "Longitude": -1.46001,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 448175,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-88529",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Huey-Amos"
+        },
+        {
+            "ID": 448176,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-88531",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Faye-Quin"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at SNC Lavalin site",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-02T05:39:00Z",
+    "DateCreated": "2023-05-02T05:39:00Z",
+    "SubmissionStatusTypeID": 200
+}

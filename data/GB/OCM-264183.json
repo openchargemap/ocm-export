@@ -1,0 +1,55 @@
+{
+    "DateLastVerified": "2023-05-02T09:59:00Z",
+    "ID": 264183,
+    "UUID": "1760CF30-DDD1-4B75-95EC-9A4A77FEE6DB",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-400145,PG-70591",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.49/kWh,£0.44/kWh",
+    "AddressInfo": {
+        "ID": 264567,
+        "Title": "Tesco Superstore-Kirkwall",
+        "AddressLine1": "Pickaquoy RD",
+        "Town": "Kirkwall",
+        "Postcode": "KW15 1RP",
+        "CountryID": 1,
+        "Latitude": 58.98065549,
+        "Longitude": -2.96686093,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 447901,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-400145",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Enzo-Ryan"
+        },
+        {
+            "ID": 447902,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70591",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Mack-Dina"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at Tesco superstore site at Pickaquoy Rd, Kirkwall",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-02T09:59:00Z",
+    "DateCreated": "2023-05-02T05:35:00Z",
+    "SubmissionStatusTypeID": 200
+}

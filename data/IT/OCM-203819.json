@@ -1,6 +1,40 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-09-22T03:25:00Z",
+    "UserComments": [
+        {
+            "ID": 28464,
+            "ChargePointID": 203819,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "12 stalli V3 da 250 kW situati nel parcheggio del centro commerciale ed utilizzabili anche dai NON Tesla. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/supercharger-v3-250-kw-4-stalli-outlet-vicolungo-no-t26539.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/supercharger-v3-250-kw-4-stalli-outlet-vicolungo-no-t26539.html",
+            "DateCreated": "2023-04-29T14:56:05.203Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 37610,
+            "ChargePointID": 203819,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM203819/OCM-203819.orig.2023042914561315.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM203819/OCM-203819.thmb.2023042914561315.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-04-29T14:56:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-29T14:56:00Z",
     "ID": 203819,
     "UUID": "0275354D-E04B-42BD-944C-B47A992238EE",
     "DataProviderID": 1,
@@ -16,6 +50,7 @@
         "CountryID": 112,
         "Latitude": 45.468808000970824,
         "Longitude": 8.460288555841771,
+        "RelatedURL": "https://www.forumelettrico.it/forum/supercharger-v3-250-kw-4-stalli-outlet-vicolungo-no-t26539.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,12 +61,19 @@
             "LevelID": 2,
             "PowerKW": 250,
             "Quantity": 12
+        },
+        {
+            "ID": 439001,
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 12
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-22T03:25:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-29T14:56:00Z",
     "DateCreated": "2022-09-22T03:25:00Z",
     "SubmissionStatusTypeID": 200
 }

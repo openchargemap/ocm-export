@@ -1,6 +1,39 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-04-05T14:02:00Z",
+    "MediaItems": [
+        {
+            "ID": 37263,
+            "ChargePointID": 259303,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM259303/OCM-259303.orig.2023041311105647.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM259303/OCM-259303.thmb.2023041311105647.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36013,
+                "Username": "Stefano9899"
+            },
+            "DateCreated": "2023-04-13T11:11:00Z"
+        },
+        {
+            "ID": 37264,
+            "ChargePointID": 259303,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM259303/OCM-259303.orig.2023041311112343.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM259303/OCM-259303.thmb.2023041311112343.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36013,
+                "Username": "Stefano9899"
+            },
+            "DateCreated": "2023-04-13T11:11:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-14T20:20:00Z",
     "ID": 259303,
     "UUID": "9D84E539-9911-4324-BA7C-134CDC9F0122",
     "DataProviderID": 1,
@@ -16,6 +49,7 @@
         "CountryID": 112,
         "Latitude": 45.70782814470243,
         "Longitude": 11.484556231839065,
+        "RelatedURL": "https://nextcharge.app/map?lang=it&station=OCPI-130-22BZ3501A_1907iu9n061",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,8 +57,9 @@
             "ID": 434942,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 75,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -50,8 +85,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-05T14:02:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-14T20:20:00Z",
     "DateCreated": "2023-03-31T15:17:00Z",
     "SubmissionStatusTypeID": 200
 }

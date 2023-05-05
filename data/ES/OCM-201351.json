@@ -1,10 +1,10 @@
 {
     "MediaItems": [
         {
-            "ID": 33429,
+            "ID": 37422,
             "ChargePointID": 201351,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201351/OCM-201351.orig.2022083009305726.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201351/OCM-201351.thmb.2022083009305726.jpg",
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201351/OCM-201351.orig.2023042218082626.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201351/OCM-201351.thmb.2023042218082626.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -14,20 +14,19 @@
                 "ID": 40036,
                 "Username": "lmjgarcia"
             },
-            "DateCreated": "2022-08-30T09:31:00Z"
+            "DateCreated": "2023-04-22T18:08:00Z"
         }
     ],
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2022-10-28T07:27:00Z",
+    "DateLastVerified": "2023-04-22T18:10:00Z",
     "ID": 201351,
     "UUID": "0CF7D2B2-865A-4365-9187-2C3CCE5E8A98",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": "0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "0,59€/kWh ",
     "AddressInfo": {
         "ID": 201715,
-        "Title": "E.S. el Berrocal",
+        "Title": "E.S. El Berrocal",
         "AddressLine1": "Repsol",
         "Town": "Navalmoral de la Mata",
         "StateOrProvince": "Extremadura",
@@ -43,33 +42,28 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 375,
+            "Voltage": 920,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 4,
+            "Comments": "Four ABB Terra HP175 Chargers with Dual CCS/Chademo outlets. Two of them are limited to 50kW"
         },
         {
             "ID": 335881,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 335882,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-28T07:27:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-22T18:10:00Z",
     "DateCreated": "2022-08-28T10:56:00Z",
     "SubmissionStatusTypeID": 200
 }

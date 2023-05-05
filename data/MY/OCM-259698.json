@@ -1,0 +1,71 @@
+{
+    "DateLastVerified": "2023-04-09T08:27:00Z",
+    "ID": 259698,
+    "UUID": "EB02C284-54A4-4823-9360-43BB02474583",
+    "DataProviderID": 1,
+    "OperatorID": 3517,
+    "UsageTypeID": 1,
+    "UsageCost": "DCFC RM1.40/min; AC RM0.15/min",
+    "AddressInfo": {
+        "ID": 260082,
+        "Title": "Gentari @ Perdana Hotel Kota Bahru",
+        "AddressLine1": "Jalan Mahmood",
+        "StateOrProvince": "Kelantan",
+        "Postcode": "15990",
+        "CountryID": 137,
+        "Latitude": 6.121831844839946,
+        "Longitude": 102.24170259798882,
+        "ContactTelephone1": "+60 11 1095 2675",
+        "ContactTelephone2": "+60 18 988 1333",
+        "AccessComments": "IMPORTANT DCFC NOTICE: If 2 EVs charging simultaneously, the max power will dynamically split to 30kW per nozzle. Publicly accessible 24/7 pay-per-use EV chargers. 60kW DCFC, 22kW AC, 11kW AC. If you are facing the hotel main entrance, the AC chargers are at the front towards the left side & the DCFC is at the left side near the back of the main building. Use SETEL or JomCharge mobile app to activate your charging session.",
+        "RelatedURL": "https://www.gentari.com/",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 435718,
+            "ConnectionTypeID": 33,
+            "Reference": "GENTARI_PERDANA_HOTEL_03",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "60kW x1 or 30kW x2"
+        },
+        {
+            "ID": 435719,
+            "ConnectionTypeID": 1036,
+            "Reference": "GENTARI_PERDANA_HOTEL_01",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 415,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "1x 22kW AC Type 2 connector"
+        },
+        {
+            "ID": 435720,
+            "ConnectionTypeID": 1036,
+            "Reference": "GENTARI_PERDANA_HOTEL_02",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 415,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "11kW AC Type 2 connector"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "IMPORTANT DCFC NOTICE: If 2 EVs charging simultaneously, the max power will dynamically split to 30kW per nozzle.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-09T08:27:00Z",
+    "DateCreated": "2023-04-08T23:15:00Z",
+    "SubmissionStatusTypeID": 200
+}

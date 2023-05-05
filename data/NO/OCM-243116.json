@@ -1,17 +1,16 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T08:33:00Z",
+    "DateLastVerified": "2023-05-01T04:23:00Z",
     "ID": 243116,
     "UUID": "6C1B6353-331C-43D4-8A20-3CA4C30EF21F",
     "DataProviderID": 19,
     "DataProvidersReference": "1389",
     "AddressInfo": {
         "ID": 243500,
-        "Title": "Recharge Sande Auto Vest",
-        "AddressLine1": "Janaflaten 47",
-        "Town": "GODVIK",
-        "StateOrProvince": "Vestland",
-        "Postcode": "5179",
+        "Title": "Recharge Sande Auto Vest(Coming soon)",
+        "AddressLine1": "Gallebergveien 2",
+        "Town": "SANDE I VESTFOLD",
+        "StateOrProvince": "Vestfold og Telemark",
+        "Postcode": "3070",
         "CountryID": 168,
         "Latitude": 60.36719,
         "Longitude": 5.191054,
@@ -21,8 +20,8 @@
     "Connections": [
         {
             "ID": 406493,
-            "ConnectionTypeID": 33,
-            "Reference": "1",
+            "ConnectionTypeID": 2,
+            "Reference": "3",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -32,8 +31,60 @@
         },
         {
             "ID": 406494,
+            "ConnectionTypeID": 33,
+            "Reference": "4",
+            "LevelID": 3,
+            "Amps": 375,
+            "Voltage": 400,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 443883,
+            "ConnectionTypeID": 33,
+            "Reference": "5",
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 443884,
+            "ConnectionTypeID": 33,
+            "Reference": "6",
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 443885,
+            "ConnectionTypeID": 33,
+            "Reference": "7",
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 443886,
+            "ConnectionTypeID": 33,
+            "Reference": "8",
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 443887,
+            "ConnectionTypeID": 33,
+            "Reference": "9",
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 443888,
+            "ConnectionTypeID": 33,
+            "Reference": "10",
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 443889,
             "ConnectionTypeID": 2,
-            "Reference": "2",
+            "Reference": "11",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -42,9 +93,8 @@
             "Comments": "Mode 4"
         }
     ],
-    "NumberOfPoints": 2,
-    "DateLastStatusUpdate": "2023-03-07T08:33:00Z",
-    "DataQualityLevel": 2,
+    "NumberOfPoints": 11,
+    "DateLastStatusUpdate": "2023-05-01T04:23:00Z",
     "DateCreated": "2023-03-07T03:59:00Z",
     "SubmissionStatusTypeID": 100
 }

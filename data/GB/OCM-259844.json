@@ -1,0 +1,60 @@
+{
+    "DateLastVerified": "2023-05-02T14:54:00Z",
+    "ID": 259844,
+    "UUID": "7A6F81B3-7FF2-429D-9342-2D6E557E4A1F",
+    "DataProviderID": 1,
+    "OperatorID": 203,
+    "OperatorsReference": "GB*OSP*EOSP10091*1,GB*OSP*EOSP10091*2,GB*OSP*EOSP10091*3",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
+    "AddressInfo": {
+        "ID": 260228,
+        "Title": "Storrington Library",
+        "AddressLine1": "Storrington Library",
+        "Town": "North Street",
+        "StateOrProvince": "Storrington",
+        "Postcode": "RH20 4PA",
+        "CountryID": 1,
+        "Latitude": 50.918783,
+        "Longitude": -0.454201,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 436069,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP10091*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 436070,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*OSP*EOSP10091*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Voltage": 400,
+            "PowerKW": 25.5,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 437314,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP10091*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-02T14:54:00Z",
+    "DateCreated": "2023-04-13T11:17:00Z",
+    "SubmissionStatusTypeID": 200
+}

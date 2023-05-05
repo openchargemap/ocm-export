@@ -1,10 +1,8 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-08T04:24:00Z",
+    "DateLastVerified": "2023-04-26T18:00:00Z",
     "ID": 255566,
     "UUID": "DFEA1C8D-0426-4736-BF56-13BBA8ABEB4A",
-    "DataProviderID": 18,
-    "DataProvidersReference": "3a30be93eb45566a90f4e95ee72a089a",
+    "DataProviderID": 1,
     "OperatorID": 22,
     "UsageTypeID": 4,
     "AddressInfo": {
@@ -14,10 +12,10 @@
         "Town": "Newry",
         "Postcode": "BT35 8AE",
         "CountryID": 1,
-        "Latitude": 54.170538,
-        "Longitude": -6.341426,
-        "AccessComments": "Bridge Street Car Park, Newry (Socket 2)",
-        "RelatedURL": "https://www.esb.ie/ecars",
+        "Latitude": 54.17025269489454,
+        "Longitude": -6.341441230138344,
+        "AccessComments": "",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,24 +25,14 @@
             "Reference": "LBBN15000885",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 424070,
-            "ConnectionTypeID": 25,
-            "Reference": "LBBO27000818",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2023-03-08T04:24:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-26T18:00:00Z",
     "MetadataValues": [
         {
             "ID": 27548,
@@ -52,7 +40,6 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
     "DateCreated": "2023-03-07T08:03:00Z",
     "SubmissionStatusTypeID": 100
 }

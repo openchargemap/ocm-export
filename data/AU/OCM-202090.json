@@ -1,10 +1,92 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-09-28T21:44:00Z",
+    "UserComments": [
+        {
+            "ID": 28448,
+            "ChargePointID": 202090,
+            "CommentTypeID": 10,
+            "UserName": "Wild Rice",
+            "Comment": "Standard layout with vechile bay either side of the  DC charger. ",
+            "Rating": 4,
+            "DateCreated": "2023-04-25T05:25:26.36Z",
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "CheckinStatusTypeID": 22,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 37488,
+            "ChargePointID": 202090,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202090/OCM-202090.orig.2023042505230937.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202090/OCM-202090.thmb.2023042505230937.jpg",
+            "Comment": "Utility cabinet. ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2023-04-25T05:23:00Z"
+        },
+        {
+            "ID": 37487,
+            "ChargePointID": 202090,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202090/OCM-202090.orig.2023042505214214.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202090/OCM-202090.thmb.2023042505214214.jpg",
+            "Comment": "DC charger.",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2023-04-25T05:22:00Z"
+        },
+        {
+            "ID": 37486,
+            "ChargePointID": 202090,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202090/OCM-202090.orig.2023042505193779.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202090/OCM-202090.thmb.2023042505193779.jpg",
+            "Comment": "7kW charger still be installed. ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2023-04-25T05:20:00Z"
+        },
+        {
+            "ID": 37485,
+            "ChargePointID": 202090,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202090/OCM-202090.orig.2023042505174715.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM202090/OCM-202090.thmb.2023042505174715.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2023-04-25T05:18:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-25T05:31:00Z",
     "ID": 202090,
     "UUID": "0209E8D1-17C1-43AC-95A2-E611C4773EC2",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3339,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 202457,
@@ -14,8 +96,8 @@
         "StateOrProvince": "Western Australia",
         "Postcode": "6044",
         "CountryID": 18,
-        "Latitude": -31.02050475528884,
-        "Longitude": 115.3326044434815,
+        "Latitude": -31.020608259818943,
+        "Longitude": 115.33250387085991,
         "RelatedURL": "https://www.gingin.wa.gov.au/council-meetings/ordinary-meeting-of-council/ordinary-meeting-of-council-17-may-2022/185/documents/minutes-18-may-2022-v2-compressed.pdf",
         "DistanceUnit": 0
     },
@@ -23,7 +105,8 @@
         {
             "ID": 337755,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "Reference": "6233",
+            "StatusTypeID": 150,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
@@ -32,17 +115,17 @@
         {
             "ID": 341544,
             "ConnectionTypeID": 25,
+            "Reference": "6233",
             "StatusTypeID": 150,
             "LevelID": 2,
-            "PowerKW": 22,
+            "PowerKW": 7,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 3,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-09-28T21:44:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-25T05:31:00Z",
     "DateCreated": "2022-09-07T06:50:00Z",
     "SubmissionStatusTypeID": 200
 }

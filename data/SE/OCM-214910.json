@@ -1,43 +1,44 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T08:27:00Z",
+    "DateLastVerified": "2023-05-01T04:17:00Z",
     "ID": 214910,
     "UUID": "E4E7C49B-9C68-4850-ABA2-E6F035BD2E45",
     "DataProviderID": 19,
     "DataProvidersReference": "7830",
     "AddressInfo": {
         "ID": 215290,
-        "Title": "Vattenfall InCharge Snabbladdning",
-        "AddressLine1": "Marketenterivägen 27",
+        "Title": "Vattenfall - Willys - Marketenterivägen 25",
+        "AddressLine1": "Vattenfall - Willys - Marketenterivägen 25",
         "Town": "VÄXJÖ",
         "StateOrProvince": "KRONOBERG",
         "Postcode": "35236",
         "CountryID": 216,
-        "Latitude": 56.877961,
-        "Longitude": 14.76941,
+        "Latitude": 56.877972,
+        "Longitude": 14.769411,
         "AccessComments": "Vid Willys.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 358050,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
             "Reference": "1",
             "LevelID": 3,
-            "Amps": 375,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 150,
-            "CurrentTypeID": 30
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 358051,
             "ConnectionTypeID": 33,
             "Reference": "2",
             "LevelID": 3,
-            "Amps": 375,
-            "Voltage": 400,
-            "PowerKW": 150,
-            "CurrentTypeID": 30
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
         },
         {
             "ID": 358052,
@@ -47,7 +48,8 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 358053,
@@ -57,7 +59,8 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 358054,
@@ -67,22 +70,23 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Comments": "Mode 3"
         },
         {
             "ID": 358055,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "Reference": "6",
             "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
         }
     ],
     "NumberOfPoints": 6,
-    "DateLastStatusUpdate": "2023-03-07T08:27:00Z",
-    "DataQualityLevel": 2,
+    "DateLastStatusUpdate": "2023-05-01T04:17:00Z",
     "DateCreated": "2023-02-09T09:46:00Z",
     "SubmissionStatusTypeID": 100
 }

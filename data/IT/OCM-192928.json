@@ -1,11 +1,45 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2022-05-04T19:39:00Z",
+    "UserComments": [
+        {
+            "ID": 28386,
+            "ChargePointID": 192928,
+            "CommentTypeID": 10,
+            "UserName": "Roberto ",
+            "Comment": "working ok",
+            "Rating": 5,
+            "DateCreated": "2023-04-13T16:39:18.257Z",
+            "User": {
+                "ID": 27473,
+                "Username": "Roberto "
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 37274,
+            "ChargePointID": 192928,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192928/OCM-192928.orig.2023041316385154.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192928/OCM-192928.thmb.2023041316385154.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27473,
+                "Username": "Roberto "
+            },
+            "DateCreated": "2023-04-13T16:39:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-13T16:39:00Z",
     "ID": 192928,
     "UUID": "04EDDD11-77FF-4B25-AE92-D02A7E69F414",
     "DataProviderID": 1,
     "OperatorID": 3503,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 193287,
         "Title": "A14 AdS Sillaro Est (Verso Ancona)",
@@ -14,8 +48,8 @@
         "StateOrProvince": "Emilia-Romagna",
         "Postcode": "40064",
         "CountryID": 112,
-        "Latitude": 44.429743185349366,
-        "Longitude": 11.60012592429257,
+        "Latitude": 44.42974318534985,
+        "Longitude": 11.600125924295071,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,12 +61,38 @@
             "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 437219,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 437220,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 64,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 437221,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-05-04T19:39:00Z",
-    "DataQualityLevel": 1,
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-13T16:39:00Z",
     "DateCreated": "2022-05-04T19:39:00Z",
     "SubmissionStatusTypeID": 200
 }

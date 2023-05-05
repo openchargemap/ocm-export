@@ -1,9 +1,9 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2018-05-30T17:58:00Z",
+    "DateLastVerified": "2023-04-26T18:08:00Z",
     "ID": 15143,
     "UUID": "A22A8BF1-CB5D-4733-B77F-3C1B555B839E",
     "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 15489,
         "Title": "Down Train Station",
@@ -16,10 +16,16 @@
         "Longitude": -6.361695,
         "DistanceUnit": 0
     },
-    "Connections": [],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-05-30T17:58:00Z",
-    "DataQualityLevel": 2,
+    "Connections": [
+        {
+            "ID": 438812,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "Quantity": 1
+        }
+    ],
+    "StatusTypeID": 210,
+    "DateLastStatusUpdate": "2023-04-26T18:08:00Z",
     "DateCreated": "2012-12-11T15:08:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,0 +1,77 @@
+{
+    "DateLastVerified": "2023-05-02T10:00:00Z",
+    "ID": 264062,
+    "UUID": "B6253D52-F458-4104-A088-2672A353141C",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70373,PG-86398,veefil-12100029",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.44/kWh,£0.49/kWh,£0.62/kWh",
+    "AddressInfo": {
+        "ID": 264446,
+        "Title": "Tesco Extra-Gateshead Trinity Square",
+        "AddressLine1": "1 Trinity Square",
+        "Town": "Gateshead",
+        "Postcode": "NE8 1AG",
+        "CountryID": 1,
+        "Latitude": 54.963717,
+        "Longitude": -1.603064,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 447489,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70373",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Finn-Buck"
+        },
+        {
+            "ID": 447490,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86398",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Colt-Vern"
+        },
+        {
+            "ID": 447491,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12100029",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Nana-Juhi"
+        },
+        {
+            "ID": 447492,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100029",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Nana-Juhi"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Trinity Square, Gateshead",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-02T10:00:00Z",
+    "DateCreated": "2023-05-02T05:32:00Z",
+    "SubmissionStatusTypeID": 200
+}

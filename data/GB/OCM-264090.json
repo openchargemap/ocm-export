@@ -1,0 +1,76 @@
+{
+    "DateLastVerified": "2023-05-02T10:01:00Z",
+    "ID": 264090,
+    "UUID": "5500639F-9C88-49BB-B21E-3F38700A8E53",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70586,PG-89160,veefil-12100674",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.44/kWh,£0.49/kWh,£0.62/kWh",
+    "AddressInfo": {
+        "ID": 264474,
+        "Title": "Tesco Extra-Swansea Cadle",
+        "AddressLine1": "Tesco Extra",
+        "Postcode": "SA5 4BA",
+        "CountryID": 1,
+        "Latitude": 51.651277,
+        "Longitude": -3.991022,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 447599,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70586",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Amos-Enya"
+        },
+        {
+            "ID": 447600,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-89160",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Tori-Owen"
+        },
+        {
+            "ID": 447601,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12100674",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Azan-Mery"
+        },
+        {
+            "ID": 447602,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100674",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Azan-Mery"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is a rapid charger installed at the Tesco Extra super store at Pontardulais Road, Cadle, Fforest-fach, Swansea",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-02T10:01:00Z",
+    "DateCreated": "2023-05-02T05:33:00Z",
+    "SubmissionStatusTypeID": 200
+}

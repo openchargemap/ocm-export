@@ -1,0 +1,91 @@
+{
+    "DateLastVerified": "2023-04-26T19:23:00Z",
+    "ID": 260626,
+    "UUID": "9DFDB6CF-981B-4A99-A5A6-61A825DCD101",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-401733,PG-402261,t54_hu1_3822_031",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh,£0.65/kWh",
+    "AddressInfo": {
+        "ID": 261010,
+        "Title": "Lidl-Mottingham",
+        "AddressLine1": "Mottingham Road",
+        "Town": "Mottingham",
+        "StateOrProvince": "London",
+        "Postcode": "SE9 4QW",
+        "CountryID": 1,
+        "Latitude": 51.43416476,
+        "Longitude": 0.04732684,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 438720,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-401733",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Liam-Beth"
+        },
+        {
+            "ID": 438721,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-402261",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Brad-Ivor"
+        },
+        {
+            "ID": 438722,
+            "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_3822_031",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Kiri-Koah"
+        },
+        {
+            "ID": 438723,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_3822_031",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Kiri-Koah"
+        },
+        {
+            "ID": 438724,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_3822_031",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Kiri-Koah"
+        }
+    ],
+    "NumberOfPoints": 5,
+    "GeneralComments": "This is a Pod Point Rapid unit installed at Lidl site at Mottingham Road, Mottingham, London",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-26T19:23:00Z",
+    "DateCreated": "2023-04-26T13:26:00Z",
+    "SubmissionStatusTypeID": 200
+}

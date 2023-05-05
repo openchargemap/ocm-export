@@ -1,0 +1,78 @@
+{
+    "DateLastVerified": "2023-05-02T10:00:00Z",
+    "ID": 264197,
+    "UUID": "9E56EA97-1A61-441B-AB06-F468BE1A1170",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-401853,t54_it1_4122_140",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh,£0.65/kWh",
+    "AddressInfo": {
+        "ID": 264581,
+        "Title": "Lidl-Watton",
+        "AddressLine1": "Romney Road",
+        "Town": "Watton",
+        "StateOrProvince": "Thetford",
+        "Postcode": "IP25 6GN",
+        "CountryID": 1,
+        "Latitude": 52.57109876,
+        "Longitude": 0.85159973,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 447927,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-401853",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Erin-Adam"
+        },
+        {
+            "ID": 447928,
+            "ConnectionTypeID": 25,
+            "Reference": "t54_it1_4122_140",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Bach-Todd"
+        },
+        {
+            "ID": 447929,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_it1_4122_140",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Bach-Todd"
+        },
+        {
+            "ID": 448276,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_it1_4122_140",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Bach-Todd"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is a Pod Point Rapid unit installed at Lidl site at Lidl store Watton at Portal Avenue, Watton, Thetford",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-02T10:00:00Z",
+    "DateCreated": "2023-05-02T05:36:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,12 +1,11 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-01T07:26:00Z",
+    "DateLastVerified": "2023-04-23T17:01:00Z",
     "ID": 202029,
     "UUID": "2EC51688-7956-4BD7-BEBE-969E576A8564",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,55€/kWh DC ",
     "AddressInfo": {
         "ID": 202396,
         "Title": "McDonald's Aeropuerto",
@@ -15,8 +14,8 @@
         "StateOrProvince": "Cantabria",
         "Postcode": "39600",
         "CountryID": 210,
-        "Latitude": 43.425196061519785,
-        "Longitude": -3.837596279016509,
+        "Latitude": 43.42524962643125,
+        "Longitude": -3.8375582876317083,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,33 +24,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 337585,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 337586,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Starcharge Titan180. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-03-01T07:26:00Z",
-    "DataQualityLevel": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-23T17:01:00Z",
     "DateCreated": "2022-09-06T14:25:00Z",
     "SubmissionStatusTypeID": 200
 }

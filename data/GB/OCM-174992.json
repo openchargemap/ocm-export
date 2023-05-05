@@ -1,22 +1,41 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2021-04-25T11:51:00Z",
+    "MediaItems": [
+        {
+            "ID": 37384,
+            "ChargePointID": 174992,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM174992/OCM-174992.orig.2023041912263866.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM174992/OCM-174992.thmb.2023041912263866.jpg",
+            "Comment": "Socket by arched doorway",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 31772,
+                "Username": "Bossington Hall"
+            },
+            "DateCreated": "2023-04-19T12:27:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-19T15:59:00Z",
     "ID": 174992,
     "UUID": "BD7A29F5-47DB-43F8-A2AA-E346E008B131",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 6,
-    "UsageCost": "0",
+    "UsageCost": "£5 per hour",
     "AddressInfo": {
         "ID": 175351,
-        "Title": "Bossington Hall",
+        "Title": "Bossington Hall Luxury B&B",
         "AddressLine1": "Bossington Lane",
+        "Town": "Porlock",
         "StateOrProvince": "England",
         "Postcode": "TA24 8HJ",
         "CountryID": 1,
         "Latitude": 51.21733458478607,
         "Longitude": -3.572571806903852,
         "ContactTelephone1": "01643862800",
+        "RelatedURL": "http://bossingtonhall.co.uk",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,7 +46,7 @@
             "LevelID": 2,
             "Amps": 20,
             "Voltage": 240,
-            "PowerKW": 5,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
         }
@@ -35,8 +54,7 @@
     "NumberOfPoints": 1,
     "GeneralComments": "For Guests use",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-25T11:51:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-19T15:59:00Z",
     "DateCreated": "2021-04-23T12:31:00Z",
     "SubmissionStatusTypeID": 200
 }

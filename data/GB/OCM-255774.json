@@ -1,23 +1,21 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-08T04:25:00Z",
+    "DateLastVerified": "2023-04-22T21:18:00Z",
     "ID": 255774,
     "UUID": "23ABDD25-80AF-427B-9A6F-BCA609285428",
-    "DataProviderID": 18,
-    "DataProvidersReference": "169582a799e5b6c46fdfd432379f60d8",
+    "DataProviderID": 1,
     "OperatorID": 22,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 256158,
-        "Title": "RC04 Portrush Service Station, 185 Bushmills Road",
+        "Title": "Portrush Service Station",
         "AddressLine1": "BT56 8JE",
         "Town": "Portrush",
         "Postcode": "BT56 8JE",
         "CountryID": 1,
-        "Latitude": 55.201482,
-        "Longitude": -6.645468,
-        "AccessComments": "RC04 Portrush Service Station, 185 Bushmills Road",
-        "RelatedURL": "https://www.esb.ie/ecars",
+        "Latitude": 55.20159693986699,
+        "Longitude": -6.645799817153886,
+        "AccessComments": "",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -42,9 +40,20 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20
+        },
+        {
+            "ID": 438015,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2023-03-08T04:25:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-22T21:18:00Z",
     "MetadataValues": [
         {
             "ID": 27756,
@@ -52,7 +61,6 @@
             "ItemValue": "Contains public sector information licensed under the Open Government Licence v2.0. http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
         }
     ],
-    "DataQualityLevel": 3,
     "DateCreated": "2023-03-07T08:03:00Z",
     "SubmissionStatusTypeID": 100
 }

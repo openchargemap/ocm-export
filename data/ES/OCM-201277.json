@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 37231,
+            "ChargePointID": 201277,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201277/OCM-201277.orig.2023041118211787.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201277/OCM-201277.thmb.2023041118211787.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-04-11T18:21:00Z"
+        },
+        {
             "ID": 33408,
             "ChargePointID": 201277,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201277/OCM-201277.orig.2022083007105990.jpg",
@@ -17,8 +33,7 @@
             "DateCreated": "2022-08-30T07:11:00Z"
         }
     ],
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-19T12:48:00Z",
+    "DateLastVerified": "2023-04-12T11:25:00Z",
     "ID": 201277,
     "UUID": "A3BF054E-77BB-445D-820E-53470344C7E7",
     "DataProviderID": 1,
@@ -27,14 +42,14 @@
     "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 201640,
-        "Title": "Caserio Cortaficio - Zunder",
-        "AddressLine1": "Alimerka",
+        "Title": "Tapia de Casariego - Zunder",
+        "AddressLine1": "Caserio de Cortaficio",
         "Town": "Tapia de Casariego",
         "StateOrProvince": "Principality of Asturias",
         "Postcode": "",
         "CountryID": 210,
-        "Latitude": 43.561829474186595,
-        "Longitude": -6.922669276930833,
+        "Latitude": 43.56148989543141,
+        "Longitude": -6.922599127497563,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -44,17 +59,16 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 300,
-            "Voltage": 1000,
-            "PowerKW": 180,
+            "Voltage": 920,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited to 150kW for 400V cars"
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. "
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-03-19T12:48:00Z",
-    "DataQualityLevel": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-04-12T11:25:00Z",
     "DateCreated": "2022-08-26T06:55:00Z",
     "SubmissionStatusTypeID": 200
 }

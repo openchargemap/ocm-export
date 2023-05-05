@@ -1,6 +1,5 @@
 {
-    "IsRecentlyVerified": true,
-    "DateLastVerified": "2023-03-07T06:03:00Z",
+    "DateLastVerified": "2023-05-01T06:23:00Z",
     "ID": 160692,
     "UUID": "F725D323-6EA6-4BB3-9751-7F623B172396",
     "DataProviderID": 2,
@@ -8,22 +7,32 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 161049,
-        "Title": "UBC",
+        "Title": "UBC University Blvd Parkade",
         "AddressLine1": "6163 University Blvd",
         "Town": "Vancouver",
         "StateOrProvince": "BC",
         "Postcode": "V6T 1Z3",
         "CountryID": 44,
-        "Latitude": 49.26563,
-        "Longitude": -123.25002,
+        "Latitude": 49.26702409,
+        "Longitude": -123.2494069,
         "ContactTelephone1": "604-822-6786",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "24 hours daily; Smart phone required to start charging session. Google Pay, PayPal, and Interac Debit also accepted.",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 231234,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 12
+        },
+        {
+            "ID": 231235,
             "ConnectionTypeID": 2,
             "LevelID": 3,
             "Amps": 100,
@@ -33,7 +42,7 @@
             "Quantity": 1
         },
         {
-            "ID": 231235,
+            "ID": 446697,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "Amps": 100,
@@ -44,8 +53,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-07T06:03:00Z",
-    "DataQualityLevel": 3,
+    "DateLastStatusUpdate": "2023-05-01T06:23:00Z",
     "DateCreated": "2020-06-26T03:12:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,17 +1,33 @@
 {
-    "IsRecentlyVerified": false,
-    "DateLastVerified": "2014-11-16T15:53:00Z",
+    "MediaItems": [
+        {
+            "ID": 37208,
+            "ChargePointID": 16280,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM16280/OCM-16280.orig.2023041007263907.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM16280/OCM-16280.thmb.2023041007263907.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 45713,
+                "Username": "Lattice Lodge"
+            },
+            "DateCreated": "2023-04-10T07:27:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-04-11T08:55:00Z",
     "ID": 16280,
     "UUID": "7643DCE2-E949-4CB4-85FC-41B77070D638",
     "DataProviderID": 1,
-    "OperatorID": 3,
-    "UsageTypeID": 6,
-    "UsageCost": "Free",
+    "OperatorID": 45,
+    "UsageTypeID": 5,
+    "UsageCost": "£0.70/kWh",
     "AddressInfo": {
         "ID": 16625,
         "Title": "Lattice Lodge Guest House",
         "AddressLine1": "499 Woodbridge Road",
-        "AddressLine2": "",
         "Town": "Ipswich",
         "StateOrProvince": "Suffolk",
         "Postcode": "IP4 4EP",
@@ -19,7 +35,6 @@
         "Latitude": 52.06194381203082,
         "Longitude": 1.18228018283844,
         "ContactTelephone1": "01473 712474",
-        "ContactTelephone2": "",
         "ContactEmail": "info@latticelodge.co.uk",
         "AccessComments": "In car park, just to left of main front door.",
         "RelatedURL": "http://www.latticelodge.co.uk",
@@ -27,22 +42,21 @@
     },
     "Connections": [
         {
-            "ID": 14736,
-            "ConnectionTypeID": 1,
-            "StatusTypeID": 10,
+            "ID": 435742,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
+            "Amps": 32,
+            "Voltage": 240,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Tap Electric app required to use",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2014-11-16T15:53:00Z",
-    "DataQualityLevel": 1,
+    "DateLastStatusUpdate": "2023-04-11T08:55:00Z",
     "DateCreated": "2013-03-26T17:48:00Z",
     "SubmissionStatusTypeID": 200
 }
