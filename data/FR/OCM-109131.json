@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-03-06T15:37:00Z",
+    "DateLastVerified": "2023-06-18T23:23:00Z",
     "ID": 109131,
     "UUID": "FC041359-13D6-4F8C-A2BB-B44ED968D805",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "43286",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 109477,
         "Title": "Tesla Supercharger Besançon",
@@ -22,7 +22,16 @@
     "Connections": [
         {
             "ID": 154249,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454732,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -33,7 +42,7 @@
     "NumberOfPoints": 8,
     "GeneralComments": "Entry code is on the car screen",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:37:00Z",
+    "DateLastStatusUpdate": "2023-06-18T23:23:00Z",
     "DateCreated": "2018-10-11T13:42:00Z",
     "SubmissionStatusTypeID": 200
 }

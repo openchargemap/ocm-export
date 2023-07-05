@@ -1,5 +1,88 @@
 {
-    "DateLastVerified": "2022-08-14T13:10:00Z",
+    "UserComments": [
+        {
+            "ID": 28708,
+            "ChargePointID": 195295,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Nella stazione di servizio c'è il classico bar Eni Cafè, ma siamo anche a soli 500 metri dal porto e tutto intorno troviamo servizi di ogni tipo. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnina-be-charge-ultra-fast-eni-la-spezia-sp-viale-italia-160-t32292.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-be-charge-ultra-fast-eni-la-spezia-sp-viale-italia-160-t32292.html",
+            "DateCreated": "2023-06-28T05:29:14.463Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 38476,
+            "ChargePointID": 195295,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM195295/OCM-195295.orig.2023062805293060.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM195295/OCM-195295.thmb.2023062805293060.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-06-28T05:30:00Z"
+        },
+        {
+            "ID": 38477,
+            "ChargePointID": 195295,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM195295/OCM-195295.orig.2023062805293628.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM195295/OCM-195295.thmb.2023062805293628.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-06-28T05:30:00Z"
+        },
+        {
+            "ID": 38478,
+            "ChargePointID": 195295,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM195295/OCM-195295.orig.2023062805294154.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM195295/OCM-195295.thmb.2023062805294154.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-06-28T05:30:00Z"
+        },
+        {
+            "ID": 38475,
+            "ChargePointID": 195295,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM195295/OCM-195295.orig.2023062805292413.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM195295/OCM-195295.thmb.2023062805292413.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-06-28T05:29:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-28T05:30:00Z",
     "ID": 195295,
     "UUID": "DB5D9E7D-8718-4D20-BFFE-A3676296CAAE",
     "DataProviderID": 1,
@@ -7,7 +90,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 195654,
-        "Title": "BECHARGE Viale Italia",
+        "Title": "Be Charge Eni",
         "AddressLine1": "Viale Italia, 160",
         "Town": "La Spezia",
         "StateOrProvince": "Liguria",
@@ -15,7 +98,7 @@
         "CountryID": 112,
         "Latitude": 44.114449700189226,
         "Longitude": 9.839762725534456,
-        "RelatedURL": "https://nextcharge.app/map?lang=it&station=OCPI-129-95b728e0-5637-490b-947d-e38ebe00bad1&provider=Be%20Charge&location=44.114320,9.839670",
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-be-charge-ultra-fast-eni-la-spezia-sp-viale-italia-160-t32292.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,11 +110,19 @@
             "PowerKW": 110,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 455882,
+            "ConnectionTypeID": 1036,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-14T13:10:00Z",
+    "DateLastStatusUpdate": "2023-06-28T05:30:00Z",
     "DateCreated": "2022-08-14T13:10:00Z",
     "SubmissionStatusTypeID": 200
 }

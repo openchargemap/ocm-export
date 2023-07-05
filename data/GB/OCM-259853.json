@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-04-27T18:42:00Z",
+    "DateLastVerified": "2023-06-21T13:57:00Z",
     "ID": 259853,
     "UUID": "3E56E449-6295-49DD-BCD3-E5FD104D4EFF",
     "DataProviderID": 1,
@@ -21,16 +21,6 @@
     },
     "Connections": [
         {
-            "ID": 436102,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*OSP*EOSP0102*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 436103,
             "ConnectionTypeID": 2,
             "Reference": "GB*OSP*EOSP0102*2",
@@ -38,17 +28,6 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 436104,
-            "ConnectionTypeID": 25,
-            "Reference": "GB*OSP*EOSP0102*3",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Voltage": 400,
-            "PowerKW": 16,
-            "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
@@ -62,7 +41,19 @@
             "Quantity": 1
         },
         {
-            "ID": 436106,
+            "ID": 436107,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*OSP*EOSP0103*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 23,
+            "Voltage": 400,
+            "PowerKW": 13,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 450873,
             "ConnectionTypeID": 2,
             "Reference": "GB*OSP*EOSP0103*2",
             "StatusTypeID": 50,
@@ -72,20 +63,31 @@
             "Quantity": 1
         },
         {
-            "ID": 436107,
+            "ID": 450874,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP0102*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 450875,
             "ConnectionTypeID": 25,
-            "Reference": "GB*OSP*EOSP0103*3",
+            "Reference": "GB*OSP*EOSP0102*3",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 18,
             "Voltage": 400,
-            "PowerKW": 16,
+            "PowerKW": 13,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-27T18:42:00Z",
+    "DateLastStatusUpdate": "2023-06-21T13:57:00Z",
     "DateCreated": "2023-04-13T11:17:00Z",
     "SubmissionStatusTypeID": 200
 }

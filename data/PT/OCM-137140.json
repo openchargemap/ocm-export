@@ -1,40 +1,49 @@
 {
-    "DateLastVerified": "2020-08-08T09:27:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 137140,
     "UUID": "F31D6902-3280-47F3-B437-B490F46E207C",
     "DataProviderID": 1,
     "DataProvidersReference": "ACN-00002",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
+    "OperatorID": 3557,
     "AddressInfo": {
         "ID": 137486,
-        "Title": "ACN-00002",
+        "Title": "Intermarche Alcanena",
         "AddressLine1": "Intermarche Alcanena",
         "Town": "Alcanena",
         "Postcode": "2380-180",
         "CountryID": 180,
         "Latitude": 39.463109,
         "Longitude": -8.65772,
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191997,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "ACN-00002-01-01",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449847,
+            "ConnectionTypeID": 1036,
+            "Reference": "ACN-00002-02-01",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-08T09:27:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-12-24T08:09:00Z",
     "SubmissionStatusTypeID": 100
 }

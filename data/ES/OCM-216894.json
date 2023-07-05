@@ -1,19 +1,37 @@
 {
-    "DateLastVerified": "2023-02-10T19:31:00Z",
+    "MediaItems": [
+        {
+            "ID": 38013,
+            "ChargePointID": 216894,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM216894/OCM-216894.orig.2023060419163474.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM216894/OCM-216894.thmb.2023060419163474.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-06-04T19:17:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-04T19:17:00Z",
     "ID": 216894,
     "UUID": "4A987687-529E-4CCA-8D33-C69FB4FC9C57",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": " 0,45€/kWh DC50kW/AC43kW - 0,39€/kWh 22kW AC",
+    "UsageCost": " 0,54€/kWh ",
     "AddressInfo": {
         "ID": 217274,
         "Title": "Granja de Iniesta",
         "AddressLine1": "Calle Eras Altas",
         "StateOrProvince": "Castilla-La Mancha",
         "CountryID": 210,
-        "Latitude": 39.51729510354576,
-        "Longitude": -1.674105868929587,
+        "Latitude": 39.51706282771784,
+        "Longitude": -1.6745006992695437,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,9 +40,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         },
         {
             "ID": 367050,
@@ -36,9 +57,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-02-10T19:31:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-06-04T19:17:00Z",
     "DateCreated": "2023-02-10T19:31:00Z",
     "SubmissionStatusTypeID": 200
 }

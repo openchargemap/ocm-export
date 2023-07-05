@@ -17,14 +17,14 @@
             "DateCreated": "2019-11-05T10:18:00Z"
         }
     ],
-    "DateLastVerified": "2022-03-06T15:44:00Z",
+    "DateLastVerified": "2023-06-18T23:04:00Z",
     "ID": 75248,
     "UUID": "8D160D13-8A25-4A65-9D4C-0EA69D6513D5",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "9017",
     "UsageTypeID": 4,
-    "UsageCost": "€0.38/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75594,
         "Title": "Tesla Supercharger Le Mans",
@@ -40,7 +40,16 @@
     "Connections": [
         {
             "ID": 108553,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454723,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -51,7 +60,7 @@
     "NumberOfPoints": 8,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:44:00Z",
+    "DateLastStatusUpdate": "2023-06-18T23:04:00Z",
     "DateCreated": "2016-12-14T16:02:00Z",
     "SubmissionStatusTypeID": 200
 }

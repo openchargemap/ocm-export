@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-04-23T17:55:00Z",
+    "MediaItems": [
+        {
+            "ID": 38413,
+            "ChargePointID": 260415,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM260415/OCM-260415.orig.2023062613124620.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM260415/OCM-260415.thmb.2023062613124620.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-06-26T13:13:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-26T13:13:00Z",
     "ID": 260415,
     "UUID": "7E92F5FE-1ED7-4A66-93C6-22EB83E3E041",
     "DataProviderID": 1,
@@ -13,8 +31,8 @@
         "StateOrProvince": "Castilla-La Mancha",
         "Postcode": "02007",
         "CountryID": 210,
-        "Latitude": 39.02586147961503,
-        "Longitude": -1.8900091674076407,
+        "Latitude": 39.02608697581658,
+        "Longitude": -1.8902070642162698,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,13 +45,14 @@
             "Voltage": 920,
             "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited to 120kW for 400V cars"
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Charging power limited to 120kW for 400V cars",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-23T17:55:00Z",
+    "DateLastStatusUpdate": "2023-06-26T13:13:00Z",
     "DateCreated": "2023-04-23T17:55:00Z",
     "SubmissionStatusTypeID": 200
 }

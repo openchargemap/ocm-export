@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-05-01T05:36:00Z",
+    "DateLastVerified": "2023-07-04T09:02:00Z",
     "ID": 262713,
     "UUID": "1BF6B706-5E93-4B51-B413-58E692442FD7",
     "DataProviderID": 2,
@@ -9,13 +9,13 @@
     "AddressInfo": {
         "ID": 263097,
         "Title": "MONTROSE EV 1 MONTROSE PL2",
-        "AddressLine1": "533 North 1st Street",
+        "AddressLine1": "533 N 1st St",
         "Town": "Montrose",
         "StateOrProvince": "CO",
         "Postcode": "81401",
         "CountryID": 2,
-        "Latitude": 38.481584,
-        "Longitude": -107.875873,
+        "Latitude": 38.481458,
+        "Longitude": -107.876442,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -24,6 +24,16 @@
     "Connections": [
         {
             "ID": 445457,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 400,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 458931,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "Amps": 100,
@@ -33,8 +43,9 @@
             "Quantity": 1
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-01T05:36:00Z",
+    "DatePlanned": "2023-07-01T00:00:00Z",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2023-07-04T09:02:00Z",
     "DateCreated": "2023-05-01T05:36:00Z",
     "SubmissionStatusTypeID": 100
 }

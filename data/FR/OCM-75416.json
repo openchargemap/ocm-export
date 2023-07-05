@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-03-06T15:59:00Z",
+    "DateLastVerified": "2023-06-19T00:29:00Z",
     "ID": 75416,
     "UUID": "9D3FD011-526E-4425-9CC0-DFB517BB3508",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "18400",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh; Autres tarifs pour les voitures anciennes",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75762,
         "Title": "Tesla Supercharger Mougins",
@@ -22,7 +22,16 @@
     "Connections": [
         {
             "ID": 108721,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 454760,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -33,7 +42,7 @@
     "NumberOfPoints": 4,
     "GeneralComments": "4 Superchargers, available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:59:00Z",
+    "DateLastStatusUpdate": "2023-06-19T00:29:00Z",
     "DateCreated": "2016-12-14T19:59:00Z",
     "SubmissionStatusTypeID": 200
 }

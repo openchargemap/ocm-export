@@ -17,14 +17,14 @@
             "DateCreated": "2019-11-05T10:17:00Z"
         }
     ],
-    "DateLastVerified": "2022-03-06T15:49:00Z",
+    "DateLastVerified": "2023-06-18T23:37:00Z",
     "ID": 75297,
     "UUID": "2E57BCA8-2CE5-4867-8C5C-2BFF3AB50567",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "22244",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75643,
         "Title": "Tesla Supercharger Poitiers",
@@ -40,7 +40,16 @@
     "Connections": [
         {
             "ID": 108602,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454735,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -51,7 +60,7 @@
     "NumberOfPoints": 8,
     "GeneralComments": "Entry code is on the car screen",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:49:00Z",
+    "DateLastStatusUpdate": "2023-06-18T23:37:00Z",
     "DateCreated": "2016-12-14T17:01:00Z",
     "SubmissionStatusTypeID": 200
 }

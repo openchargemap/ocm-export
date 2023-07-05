@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2022-10-06T17:59:00Z",
+    "DateLastVerified": "2023-05-17T06:26:00Z",
     "ID": 205816,
     "UUID": "330B0DAD-8477-40AB-92F2-787FE223BEB7",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
+    "UsageCost": "0,35 €/kWh",
     "AddressInfo": {
         "ID": 206185,
         "Title": "Parking Athletic",
@@ -20,17 +21,41 @@
     "Connections": [
         {
             "ID": 343489,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 451883,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7.36,
             "CurrentTypeID": 10,
-            "Quantity": 10
+            "Quantity": 6
+        },
+        {
+            "ID": 451884,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7.36,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-06T17:59:00Z",
+    "DateLastStatusUpdate": "2023-05-17T06:26:00Z",
     "DateCreated": "2022-10-06T17:59:00Z",
     "SubmissionStatusTypeID": 200
 }

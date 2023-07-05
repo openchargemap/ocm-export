@@ -1,13 +1,96 @@
 {
-    "DateLastVerified": "2022-07-01T21:29:00Z",
+    "UserComments": [
+        {
+            "ID": 28599,
+            "ChargePointID": 191004,
+            "CommentTypeID": 10,
+            "UserName": "Azzeddine :)",
+            "Comment": "Using FastVolt App",
+            "Rating": 5,
+            "DateCreated": "2023-06-05T17:36:33.18Z",
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 38040,
+            "ChargePointID": 191004,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191004/OCM-191004.orig.2023060517353339.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191004/OCM-191004.thmb.2023060517353339.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-05T17:36:00Z"
+        },
+        {
+            "ID": 38041,
+            "ChargePointID": 191004,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191004/OCM-191004.orig.2023060517354222.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191004/OCM-191004.thmb.2023060517354222.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-05T17:36:00Z"
+        },
+        {
+            "ID": 38037,
+            "ChargePointID": 191004,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191004/OCM-191004.orig.2023060517351448.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191004/OCM-191004.thmb.2023060517351448.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-05T17:35:00Z"
+        },
+        {
+            "ID": 38039,
+            "ChargePointID": 191004,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191004/OCM-191004.orig.2023060517352493.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191004/OCM-191004.thmb.2023060517352493.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-05T17:35:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-06T12:13:00Z",
     "ID": 191004,
     "UUID": "97F2F64A-345C-47D9-A192-90CEC705FD8E",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 4,
+    "OperatorID": 3677,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 191363,
-        "Title": "Afriquia El Jadida",
+        "Title": "Afriquia El Jadida centre ville",
         "AddressLine1": "Ibis El Jadida ",
         "Town": "El Jadida",
         "StateOrProvince": "Casablanca-Settat",
@@ -15,14 +98,21 @@
         "CountryID": 153,
         "Latitude": 33.244421543770855,
         "Longitude": -8.490150205522696,
+        "ContactTelephone1": "+212520100115",
+        "ContactEmail": "contact@fastvolt.net",
+        "AccessComments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)",
+        "RelatedURL": "https://fastvolt.net/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 309859,
             "ConnectionTypeID": 33,
+            "Reference": "t54004",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -30,8 +120,11 @@
         {
             "ID": 309860,
             "ConnectionTypeID": 2,
+            "Reference": "t54004",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -41,14 +134,16 @@
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 380,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-01T21:29:00Z",
+    "DateLastStatusUpdate": "2023-06-06T12:13:00Z",
     "DateCreated": "2022-01-10T11:26:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2023-05-01T05:41:00Z",
+    "DateLastVerified": "2023-05-14T17:26:00Z",
     "ID": 224889,
     "UUID": "FC593A25-1DE3-4B8A-8920-3C65152767CE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "224433",
-    "UsageTypeID": 4,
+    "DataProviderID": 1,
+    "OperatorID": 3526,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 225272,
         "Title": "Northstar - Castle Peak",
@@ -16,7 +16,7 @@
         "Latitude": 39.28712,
         "Longitude": -120.107261,
         "ContactTelephone1": "833-387-2643",
-        "AccessComments": "24 hours daily\r\nPublic - Card key at all times",
+        "AccessComments": "24 hours daily\r\nPublic",
         "RelatedURL": "https://www.evrange.com",
         "DistanceUnit": 0
     },
@@ -24,26 +24,29 @@
         {
             "ID": 376061,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4
         },
         {
             "ID": 376062,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-01T05:41:00Z",
+    "DateLastStatusUpdate": "2023-05-14T17:26:00Z",
     "DateCreated": "2023-02-13T05:14:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,36 +1,49 @@
 {
-    "DateLastVerified": "2022-09-18T07:04:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 133593,
     "UUID": "7ECAE0FD-2BB4-4DFF-9673-AB42472FA82A",
     "DataProviderID": 1,
     "DataProvidersReference": "MCH-00003",
-    "OperatorID": 1,
+    "OperatorID": 3685,
     "AddressInfo": {
         "ID": 133939,
         "Title": "Rua do Porto",
         "AddressLine1": "Rua do Porto",
-        "Town": "Caniçal",
+        "Town": "Machico",
         "Postcode": "9200-032",
         "CountryID": 180,
         "Latitude": 32.737829,
         "Longitude": -16.73668,
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 186993,
-            "ConnectionTypeID": 0,
-            "LevelID": 2,
-            "Amps": 75,
-            "Voltage": 400,
-            "PowerKW": 30,
-            "CurrentTypeID": 20
+            "ConnectionTypeID": 33,
+            "Reference": "MCH-00003-02-01",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 449694,
+            "ConnectionTypeID": 2,
+            "Reference": "MCH-00003-01-01",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-18T07:04:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-10-21T14:07:00Z",
     "SubmissionStatusTypeID": 100
 }

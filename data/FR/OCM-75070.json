@@ -1,18 +1,19 @@
 {
-    "DateLastVerified": "2022-03-06T15:31:00Z",
+    "DateLastVerified": "2023-06-18T22:27:00Z",
     "ID": 75070,
     "UUID": "840289A2-2AF6-43DD-9BAE-55689ECB5449",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "18756",
     "UsageTypeID": 4,
-    "UsageCost": "€0.38/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75416,
         "Title": "Tesla Supercharger Rouen",
-        "AddressLine1": "Rue de la Mare Sansoure",
+        "AddressLine1": "Angle Avenue de l'Université Rue de la Mare Sansoure",
         "AddressLine2": "Novotel Rouen Sud",
         "Town": "Saint-Etienne-du-Rouvray",
+        "StateOrProvince": "Seine-Maritime",
         "Postcode": "76800",
         "CountryID": 80,
         "Latitude": 49.388964,
@@ -22,7 +23,7 @@
     "Connections": [
         {
             "ID": 108271,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -31,7 +32,16 @@
         },
         {
             "ID": 306754,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 30,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454708,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 250,
@@ -42,7 +52,7 @@
     "NumberOfPoints": 12,
     "GeneralComments": "Access code on the car screen",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:31:00Z",
+    "DateLastStatusUpdate": "2023-06-18T22:27:00Z",
     "DateCreated": "2016-12-11T16:56:00Z",
     "SubmissionStatusTypeID": 200
 }

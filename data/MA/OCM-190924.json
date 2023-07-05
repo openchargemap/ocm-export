@@ -1,10 +1,60 @@
 {
-    "DateLastVerified": "2023-03-22T00:53:00Z",
+    "UserComments": [
+        {
+            "ID": 28613,
+            "ChargePointID": 190924,
+            "CommentTypeID": 10,
+            "UserName": "Azzeddine :)",
+            "Rating": 5,
+            "DateCreated": "2023-06-07T08:37:55.19Z",
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 38092,
+            "ChargePointID": 190924,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM190924/OCM-190924.orig.2023060708380841.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM190924/OCM-190924.thmb.2023060708380841.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-07T08:38:00Z"
+        },
+        {
+            "ID": 38093,
+            "ChargePointID": 190924,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM190924/OCM-190924.orig.2023060708381638.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM190924/OCM-190924.thmb.2023060708381638.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-07T08:38:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-12T15:55:00Z",
     "ID": 190924,
     "UUID": "6E138BFA-9DC8-40E3-9993-90F7284EC3BE",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 4,
+    "OperatorID": 3677,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 191283,
         "Title": "Afriquia Hay Hassani",
@@ -13,8 +63,12 @@
         "StateOrProvince": "Casablanca-Settat",
         "Postcode": "20200",
         "CountryID": 153,
-        "Latitude": 33.57729864004017,
-        "Longitude": -7.674631580088658,
+        "Latitude": 33.582620928946724,
+        "Longitude": -7.6728780663264615,
+        "ContactTelephone1": "+212520100115",
+        "ContactEmail": "contact@fastvolt.net",
+        "AccessComments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)",
+        "RelatedURL": "https://fastvolt.net/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,32 +77,42 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)"
         },
         {
             "ID": 309707,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)"
         },
         {
             "ID": 309708,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 380,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 1,
+    "GeneralComments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-22T00:53:00Z",
+    "DateLastStatusUpdate": "2023-06-12T15:55:00Z",
     "DateCreated": "2022-01-05T04:01:00Z",
     "SubmissionStatusTypeID": 200
 }

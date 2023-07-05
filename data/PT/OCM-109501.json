@@ -1,40 +1,49 @@
 {
-    "DateLastVerified": "2020-09-11T21:33:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 109501,
     "UUID": "DF51A9F0-73CC-4ED3-936B-2CDE71DB569E",
     "DataProviderID": 1,
     "DataProvidersReference": "TBC-00001",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
+    "OperatorID": 3588,
     "AddressInfo": {
         "ID": 109847,
-        "Title": "TBC-00001",
+        "Title": "Rua Macedo Pinto",
         "AddressLine1": "Rua Macedo Pinto",
         "Town": "Tabuaço",
         "Postcode": "5120-385",
         "CountryID": 180,
         "Latitude": 41.116561,
         "Longitude": -7.569564,
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 154700,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "TBC-00001-01-01",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
+            "Amps": 16,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449908,
+            "ConnectionTypeID": 1036,
+            "Reference": "TBC-00001-02-01",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-11T21:33:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2018-10-18T01:59:00Z",
     "SubmissionStatusTypeID": 100
 }

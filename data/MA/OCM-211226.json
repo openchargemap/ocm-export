@@ -1,10 +1,92 @@
 {
-    "DateLastVerified": "2023-01-08T12:35:00Z",
+    "UserComments": [
+        {
+            "ID": 28621,
+            "ChargePointID": 211226,
+            "CommentTypeID": 10,
+            "UserName": "Azzeddine :)",
+            "Rating": 5,
+            "DateCreated": "2023-06-08T16:10:45.953Z",
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 38114,
+            "ChargePointID": 211226,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM211226/OCM-211226.orig.2023060816103157.jpeg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM211226/OCM-211226.thmb.2023060816103157.jpeg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-08T16:11:00Z"
+        },
+        {
+            "ID": 38111,
+            "ChargePointID": 211226,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM211226/OCM-211226.orig.2023060816094252.jpeg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM211226/OCM-211226.thmb.2023060816094252.jpeg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-08T16:10:00Z"
+        },
+        {
+            "ID": 38112,
+            "ChargePointID": 211226,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM211226/OCM-211226.orig.2023060816095550.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM211226/OCM-211226.thmb.2023060816095550.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-08T16:10:00Z"
+        },
+        {
+            "ID": 38113,
+            "ChargePointID": 211226,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM211226/OCM-211226.orig.2023060816101009.jpeg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM211226/OCM-211226.thmb.2023060816101009.jpeg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-08T16:10:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-08T16:12:00Z",
     "ID": 211226,
     "UUID": "D9DEFDB4-2B1E-4855-B585-9614720F72F7",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 4,
+    "OperatorID": 3677,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 211606,
         "Title": "Afriquia Meknes Riad El Menzeh",
@@ -14,6 +96,10 @@
         "CountryID": 153,
         "Latitude": 33.840254576480035,
         "Longitude": -5.521765658444565,
+        "ContactTelephone1": "+212520100115",
+        "ContactEmail": "contact@fastvolt.net",
+        "AccessComments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)",
+        "RelatedURL": "https://fastvolt.net/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,32 +108,42 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)"
         },
         {
             "ID": 352171,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)"
         },
         {
             "ID": 352172,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 380,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-08T12:35:00Z",
+    "DateLastStatusUpdate": "2023-06-08T16:12:00Z",
     "DateCreated": "2023-01-08T00:42:00Z",
     "SubmissionStatusTypeID": 200
 }

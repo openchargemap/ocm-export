@@ -1,10 +1,60 @@
 {
-    "DateLastVerified": "2023-01-08T01:06:00Z",
+    "UserComments": [
+        {
+            "ID": 28623,
+            "ChargePointID": 211232,
+            "CommentTypeID": 10,
+            "UserName": "Azzeddine :)",
+            "Rating": 5,
+            "DateCreated": "2023-06-08T16:34:33.75Z",
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 38118,
+            "ChargePointID": 211232,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM211232/OCM-211232.orig.2023060816341425.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM211232/OCM-211232.thmb.2023060816341425.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-08T16:34:00Z"
+        },
+        {
+            "ID": 38119,
+            "ChargePointID": 211232,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM211232/OCM-211232.orig.2023060816342220.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM211232/OCM-211232.thmb.2023060816342220.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-08T16:34:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-08T16:36:00Z",
     "ID": 211232,
     "UUID": "74094BCB-3562-44E7-979A-6355C58528BC",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 4,
+    "OperatorID": 3677,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 211612,
         "Title": "Afriquia Tafraouti Ain Sebaa",
@@ -16,6 +66,10 @@
         "CountryID": 153,
         "Latitude": 33.60437587477604,
         "Longitude": -7.547670898936076,
+        "ContactTelephone1": "+212520100115",
+        "ContactEmail": "contact@fastvolt.net",
+        "AccessComments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)",
+        "RelatedURL": "https://fastvolt.net/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,23 +78,30 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 1000,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)"
         },
         {
             "ID": 352183,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)"
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-08T01:06:00Z",
+    "DateLastStatusUpdate": "2023-06-08T16:36:00Z",
     "DateCreated": "2023-01-08T01:05:00Z",
     "SubmissionStatusTypeID": 200
 }

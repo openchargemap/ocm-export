@@ -1,16 +1,17 @@
 {
-    "DateLastVerified": "2022-03-06T15:29:00Z",
+    "DateLastVerified": "2023-06-18T22:16:00Z",
     "ID": 94828,
     "UUID": "8BBABAB6-A5CA-48E4-AD39-5571B4DD6995",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "34058",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 95174,
         "Title": "Tesla Supercharger Amiens",
         "AddressLine1": "Route d'Amiens - Dury",
+        "AddressLine2": "Auchan Amiens",
         "Town": "Amiens",
         "Postcode": "80000",
         "CountryID": 80,
@@ -21,7 +22,16 @@
     "Connections": [
         {
             "ID": 134053,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 10
+        },
+        {
+            "ID": 454705,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -32,7 +42,7 @@
     "NumberOfPoints": 10,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:29:00Z",
+    "DateLastStatusUpdate": "2023-06-18T22:16:00Z",
     "DateCreated": "2017-10-28T05:38:00Z",
     "SubmissionStatusTypeID": 200
 }

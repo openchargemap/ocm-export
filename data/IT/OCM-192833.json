@@ -1,5 +1,104 @@
 {
-    "DateLastVerified": "2022-04-30T17:47:00Z",
+    "UserComments": [
+        {
+            "ID": 28556,
+            "ChargePointID": 192833,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "2 HPC da 300 kW Hypercharger Alpitronic, strategica sia perché vicinissima all'SS100 che va a Taranto, sia altrettanto vicina all'SS Adriatica uscita 13A. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnine-high-power-enel-x-bari-ba-t22760.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-high-power-enel-x-bari-ba-t22760.html",
+            "DateCreated": "2023-05-24T05:59:45.883Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 38132,
+            "ChargePointID": 192833,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192833/OCM-192833.orig.2023061007593180.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192833/OCM-192833.thmb.2023061007593180.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 34585,
+                "Username": "Xantato "
+            },
+            "DateCreated": "2023-06-10T08:00:00Z"
+        },
+        {
+            "ID": 38133,
+            "ChargePointID": 192833,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192833/OCM-192833.orig.2023061007595381.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192833/OCM-192833.thmb.2023061007595381.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 34585,
+                "Username": "Xantato "
+            },
+            "DateCreated": "2023-06-10T08:00:00Z"
+        },
+        {
+            "ID": 37873,
+            "ChargePointID": 192833,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192833/OCM-192833.orig.2023052405595438.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192833/OCM-192833.thmb.2023052405595438.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-05-24T06:00:00Z"
+        },
+        {
+            "ID": 37874,
+            "ChargePointID": 192833,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192833/OCM-192833.orig.2023052405595967.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192833/OCM-192833.thmb.2023052405595967.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-05-24T06:00:00Z"
+        },
+        {
+            "ID": 37875,
+            "ChargePointID": 192833,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192833/OCM-192833.orig.2023052406000473.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192833/OCM-192833.thmb.2023052406000473.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-05-24T06:00:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-10T08:00:00Z",
     "ID": 192833,
     "UUID": "D0C7D039-D836-4F77-A946-7914FBD30587",
     "DataProviderID": 1,
@@ -7,14 +106,15 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 193192,
-        "Title": "Via Sette Pietro",
+        "Title": "Ewiva ",
         "AddressLine1": "Via Sette Pietro 1/l",
         "Town": "Bari",
         "StateOrProvince": "Apulia",
         "Postcode": "70125",
         "CountryID": 112,
-        "Latitude": 41.10128006927627,
-        "Longitude": 16.886507186541735,
+        "Latitude": 41.10123228844458,
+        "Longitude": 16.88678829415926,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-high-power-enel-x-bari-ba-t22760.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,12 +125,20 @@
             "LevelID": 3,
             "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 3
+        },
+        {
+            "ID": 452354,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 62,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-04-30T17:47:00Z",
+    "DateLastStatusUpdate": "2023-06-10T08:00:00Z",
     "DateCreated": "2022-04-30T17:47:00Z",
     "SubmissionStatusTypeID": 200
 }

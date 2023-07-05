@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-03-13T07:48:00Z",
+    "MediaItems": [
+        {
+            "ID": 37754,
+            "ChargePointID": 256764,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM256764/OCM-256764.orig.2023051307574049.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM256764/OCM-256764.thmb.2023051307574049.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-05-13T07:58:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-05-13T07:58:00Z",
     "ID": 256764,
     "UUID": "F06EF400-CA4E-45F0-B715-07C018BEA51A",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,54€/kWh",
+    "UsageCost": "0,54€/kWh DC - 0,39€/kWh 22kW AC ",
     "AddressInfo": {
         "ID": 257148,
         "Title": "Plaza de España",
@@ -29,11 +47,20 @@
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
+        },
+        {
+            "ID": 451631,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-13T07:48:00Z",
+    "DateLastStatusUpdate": "2023-05-13T07:58:00Z",
     "DateCreated": "2023-03-13T07:48:00Z",
     "SubmissionStatusTypeID": 200
 }

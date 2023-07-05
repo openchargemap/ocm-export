@@ -1,41 +1,61 @@
 {
-    "DateLastVerified": "2020-09-30T19:31:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 133599,
     "UUID": "1CC7A3C2-416D-4627-BCA3-F14065EA1964",
     "DataProviderID": 1,
     "DataProvidersReference": "VNF-00009",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
+    "OperatorID": 3557,
     "AddressInfo": {
         "ID": 133945,
-        "Title": "VNF-00008",
+        "Title": "Rua Luís Barroso",
         "AddressLine1": "Rua Luís Barroso",
         "Town": "Vila Nova de Famalicão",
-        "StateOrProvince": "Braga",
         "Postcode": "4760-153",
         "CountryID": 180,
-        "Latitude": 41.4054,
+        "Latitude": 41.4054001,
         "Longitude": -8.520685,
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 186999,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
+            "Reference": "VNF-00009-02-01",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 449943,
+            "ConnectionTypeID": 2,
+            "Reference": "VNF-00009-01-01",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 449944,
+            "ConnectionTypeID": 25,
+            "Reference": "VNF-00009-03-01",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 63,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-30T19:31:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-10-21T14:07:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-03-06T15:53:00Z",
+    "DateLastVerified": "2023-06-19T00:12:00Z",
     "ID": 75005,
     "UUID": "553EF215-2CE4-4414-9E69-93DB6031FE95",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "6565",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh; Autres tarifs pour les voitures anciennes",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75351,
         "Title": "Tesla Supercharger Narbonne",
@@ -22,7 +22,16 @@
     "Connections": [
         {
             "ID": 108198,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 12
+        },
+        {
+            "ID": 454750,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -33,7 +42,7 @@
     "NumberOfPoints": 12,
     "GeneralComments": "12 Superchargers, available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:53:00Z",
+    "DateLastStatusUpdate": "2023-06-19T00:12:00Z",
     "DateCreated": "2016-12-10T17:08:00Z",
     "SubmissionStatusTypeID": 200
 }

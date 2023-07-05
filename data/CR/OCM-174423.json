@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2021-05-06T22:37:00Z",
+    "DateLastVerified": "2023-06-27T10:47:00Z",
     "ID": 174423,
     "UUID": "4E310CB1-AE1A-4CD5-AD94-59CA9AD660D3",
     "DataProviderID": 1,
@@ -14,8 +14,8 @@
         "StateOrProvince": "Heredia",
         "Postcode": "40801",
         "CountryID": 58,
-        "Latitude": 9.999941435962157,
-        "Longitude": -84.13438766908877,
+        "Latitude": 10.000048763368753,
+        "Longitude": -84.13442798364167,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,14 +29,24 @@
             "Voltage": 240,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 1,
-            "Comments": "fines de semana cerrado"
+            "Quantity": 1
+        },
+        {
+            "ID": 455795,
+            "ConnectionTypeID": 32,
+            "Reference": "ESPH",
+            "StatusTypeID": 50
+        },
+        {
+            "ID": 455796,
+            "ConnectionTypeID": 2,
+            "Reference": "ESPH",
+            "StatusTypeID": 50
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "fines cerrado",
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-06T22:37:00Z",
+    "DateLastStatusUpdate": "2023-06-27T10:47:00Z",
     "DateCreated": "2021-03-29T00:27:00Z",
     "SubmissionStatusTypeID": 200
 }

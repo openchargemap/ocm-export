@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-03-06T15:55:00Z",
+    "DateLastVerified": "2023-06-19T00:17:00Z",
     "ID": 75071,
     "UUID": "3A6EB03D-C61D-45C3-B4F6-4C1123321834",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "6465",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh; Autres tarifs pour les voitures anciennes",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75417,
         "Title": "Tesla Supercharger Nîmes",
@@ -23,7 +23,16 @@
     "Connections": [
         {
             "ID": 108272,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454752,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -33,7 +42,7 @@
     ],
     "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:55:00Z",
+    "DateLastStatusUpdate": "2023-06-19T00:17:00Z",
     "DateCreated": "2016-12-11T17:06:00Z",
     "SubmissionStatusTypeID": 200
 }

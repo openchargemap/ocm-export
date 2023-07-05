@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 28489,
+            "ChargePointID": 175752,
+            "CommentTypeID": 50,
+            "UserName": "mv131",
+            "Comment": "Position of charger has been corrected.",
+            "DateCreated": "2023-05-06T09:57:44.11Z",
+            "User": {
+                "ID": 45972,
+                "Username": "mv131"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 26123,
             "ChargePointID": 175752,
             "CommentTypeID": 1000,
@@ -15,24 +29,26 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2022-08-08T11:30:00Z",
+    "DateLastVerified": "2023-05-06T09:58:00Z",
     "ID": 175752,
     "UUID": "416E6372-F133-4178-BAAE-D12632AB4480",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "DC 2500 MKD per charge, AC 1500 MKD per charge",
     "AddressInfo": {
         "ID": 176111,
-        "Title": "Босна и Херцеговина",
+        "Title": "Porsche Makedonija",
         "AddressLine1": "Босна и Херцеговина",
         "AddressLine2": "Бутел",
         "Town": "Skopje",
         "StateOrProvince": "Град Скопје",
         "Postcode": "1009",
         "CountryID": 134,
-        "Latitude": 42.024876,
-        "Longitude": 21.445101,
-        "AccessComments": "This station does not exist!!",
+        "Latitude": 42.024874672305515,
+        "Longitude": 21.433183099179814,
+        "ContactTelephone1": "+38922626266",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -41,14 +57,15 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 320,
+            "PowerKW": 160,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "Charging only during office hours. Mon-Fri 08:00-16:30, Sat 09:00-14:00",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-08T11:30:00Z",
+    "DateLastStatusUpdate": "2023-05-06T09:58:00Z",
     "DateCreated": "2021-06-12T12:19:00Z",
     "SubmissionStatusTypeID": 200
 }

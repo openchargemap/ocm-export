@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 28727,
+            "ChargePointID": 175034,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Apparently these have now been energised, about three years after being installed.",
+            "DateCreated": "2023-07-04T12:55:31.277Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 28094,
             "ChargePointID": 175034,
             "CommentTypeID": 10,
@@ -16,14 +30,14 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2023-04-03T14:51:00Z",
+    "DateLastVerified": "2023-07-04T12:56:00Z",
     "ID": 175034,
     "UUID": "84A6B3DD-5D70-40FF-B668-7CE8AB41414E",
     "DataProviderID": 1,
     "OperatorID": 32,
     "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "£0.79/kWh; other tariffs available",
+    "UsageCost": "£0.79/kWh. Overstay £10.00 after 90 mins; other tariffs available",
     "AddressInfo": {
         "ID": 175393,
         "Title": "BP Pulse Moto Reading Services M4 Eastbound",
@@ -40,25 +54,87 @@
         {
             "ID": 271280,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "BPU0041",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 1
         },
         {
             "ID": 271281,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "BPU0041",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 1
+        },
+        {
+            "ID": 460545,
+            "ConnectionTypeID": 33,
+            "Reference": "BPU0042",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 460546,
+            "ConnectionTypeID": 33,
+            "Reference": "BPU0043",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 460547,
+            "ConnectionTypeID": 33,
+            "Reference": "BPU0044",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 460548,
+            "ConnectionTypeID": 2,
+            "Reference": "BPU0042",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 460549,
+            "ConnectionTypeID": 2,
+            "Reference": "BPU0043",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 460550,
+            "ConnectionTypeID": 2,
+            "Reference": "BPU0044",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-04-03T14:51:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-04T12:56:00Z",
     "DateCreated": "2021-04-25T13:12:00Z",
     "SubmissionStatusTypeID": 200
 }

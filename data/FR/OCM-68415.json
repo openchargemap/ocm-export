@@ -17,14 +17,14 @@
             "DateCreated": "2019-11-05T10:27:00Z"
         }
     ],
-    "DateLastVerified": "2022-03-06T15:20:00Z",
+    "DateLastVerified": "2023-06-18T23:39:00Z",
     "ID": 68415,
     "UUID": "17FCAFFD-27EF-4196-8804-28C240D0026B",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "16872",
     "UsageTypeID": 4,
-    "UsageCost": "€0.36/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 68761,
         "Title": "Tesla Supercharger Châteauroux",
@@ -41,7 +41,16 @@
     "Connections": [
         {
             "ID": 95680,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454737,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -51,7 +60,7 @@
     ],
     "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:20:00Z",
+    "DateLastStatusUpdate": "2023-06-18T23:39:00Z",
     "DateCreated": "2016-06-05T13:04:00Z",
     "SubmissionStatusTypeID": 200
 }

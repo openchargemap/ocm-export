@@ -1,41 +1,49 @@
 {
-    "DateLastVerified": "2020-09-24T18:58:00Z",
+    "DateLastVerified": "2023-07-04T05:55:00Z",
     "ID": 109506,
     "UUID": "984BC24D-D1CF-4711-93DB-206A98CDC179",
     "DataProviderID": 1,
     "DataProvidersReference": "BCL-00003",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
+    "OperatorID": 3648,
     "AddressInfo": {
         "ID": 109852,
-        "Title": "BCL-00003",
-        "AddressLine1": "E.Leclerc",
+        "Title": "Rua Irmão Martinho Corral Alcalde",
+        "AddressLine1": "Rua Irmão Martinho Corral Alcalde",
         "Town": "Barcelos",
-        "StateOrProvince": "Braga",
         "Postcode": "4755-054",
         "CountryID": 180,
         "Latitude": 41.522407,
         "Longitude": -8.610039,
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 154705,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "BCL-00003-02-01",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7.4,
+            "Voltage": 240,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449964,
+            "ConnectionTypeID": 1036,
+            "Reference": "BCL-00003-01-01",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 240,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-24T18:58:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:55:00Z",
     "DateCreated": "2018-10-18T01:59:00Z",
     "SubmissionStatusTypeID": 100
 }

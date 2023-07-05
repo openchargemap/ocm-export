@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-04-17T02:02:00Z",
+    "DateLastVerified": "2023-06-08T12:28:00Z",
     "ID": 238124,
     "UUID": "89A32458-1EA9-4459-8F95-40D2F3CBC7D9",
     "DataProviderID": 1,
     "OperatorID": 3398,
     "UsageTypeID": 4,
+    "UsageCost": "$0.60/kWh",
     "AddressInfo": {
         "ID": 238508,
         "Title": "Sally’s Corner",
@@ -12,8 +13,10 @@
         "Town": "Sutton Forest Service Centre",
         "StateOrProvince": "NSW",
         "CountryID": 18,
-        "Latitude": -34.60716838169009,
-        "Longitude": 150.22515652800473,
+        "Latitude": -34.607284700423534,
+        "Longitude": 150.22517362271452,
+        "ContactTelephone1": "1300 463 843",
+        "RelatedURL": "https://goevie.com.au/our-network/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -21,22 +24,24 @@
             "ID": 391676,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 350,
+            "CurrentTypeID": 30,
             "Quantity": 4
         },
         {
             "ID": 391677,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 350,
+            "CurrentTypeID": 30,
             "Quantity": 4
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-17T02:02:00Z",
+    "DateLastStatusUpdate": "2023-06-08T12:28:00Z",
     "DateCreated": "2023-03-01T23:46:00Z",
     "SubmissionStatusTypeID": 200
 }

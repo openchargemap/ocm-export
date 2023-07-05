@@ -33,7 +33,7 @@
             "DateCreated": "2023-04-06T13:25:00Z"
         }
     ],
-    "DateLastVerified": "2023-04-17T08:02:00Z",
+    "DateLastVerified": "2023-07-02T08:53:00Z",
     "ID": 210564,
     "UUID": "68D6A751-291F-4190-B143-EF93B4A42131",
     "DataProviderID": 1,
@@ -46,31 +46,32 @@
         "AddressLine1": "Honrrubia",
         "StateOrProvince": "Castilla-La Mancha",
         "CountryID": 210,
-        "Latitude": 39.59667796331078,
-        "Longitude": -2.2805211898259756,
+        "Latitude": 39.59600821977904,
+        "Longitude": -2.2800564866215893,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 350747,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 100,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 500,
+            "Amps": 400,
             "Voltage": 920,
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 100 kW "
+            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 50 kW "
         },
         {
             "ID": 350748,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 100,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Delta UFC200 Charger. Chademo socket"
         },
         {
             "ID": 354891,
@@ -79,7 +80,7 @@
             "LevelID": 3,
             "Amps": 500,
             "Voltage": 920,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 50 kW "
@@ -91,7 +92,8 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Delta UFC200 Charger. Chademo socket"
         },
         {
             "ID": 354893,
@@ -104,8 +106,9 @@
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "Max power of the station currently limited to 50kW ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-17T08:02:00Z",
+    "DateLastStatusUpdate": "2023-07-02T08:53:00Z",
     "DateCreated": "2022-12-12T13:42:00Z",
     "SubmissionStatusTypeID": 200
 }

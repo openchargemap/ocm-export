@@ -1,14 +1,15 @@
 {
-    "DateLastVerified": "2023-03-19T14:42:00Z",
+    "DateLastVerified": "2023-06-01T14:49:00Z",
     "ID": 64233,
     "UUID": "942FDADD-8B6A-4EC3-968C-4DD11F73DC8A",
     "DataProviderID": 1,
-    "OperatorID": 3301,
+    "OperatorID": 3676,
     "OperatorsReference": "MOESK(Sadovnicheskaya ulitsa, Moskva)",
-    "UsageCost": "17",
+    "UsageTypeID": 5,
+    "UsageCost": "15 р/кВт*ч",
     "AddressInfo": {
         "ID": 64579,
-        "Title": "Садовническая улица 36",
+        "Title": "ZEVS на Садовнической",
         "AddressLine1": "Садовническая улица 36",
         "Town": "Москва",
         "Postcode": "115035",
@@ -21,32 +22,25 @@
         {
             "ID": 82178,
             "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 125071,
-            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 125072,
-            "ConnectionTypeID": 1036,
-            "LevelID": 2,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
+            "ID": 125071,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-19T14:42:00Z",
+    "DateLastStatusUpdate": "2023-06-01T14:49:00Z",
     "DateCreated": "2016-03-03T12:33:00Z",
     "SubmissionStatusTypeID": 200
 }

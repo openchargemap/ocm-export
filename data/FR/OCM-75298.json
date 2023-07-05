@@ -17,14 +17,14 @@
             "DateCreated": "2022-06-09T21:53:00Z"
         }
     ],
-    "DateLastVerified": "2022-06-09T21:53:00Z",
+    "DateLastVerified": "2023-06-19T00:56:00Z",
     "ID": 75298,
     "UUID": "AB88AAA9-330F-4366-839D-8279231680A0",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "6433",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75644,
         "Title": "Tesla Supercharger Mâcon",
@@ -40,7 +40,16 @@
     "Connections": [
         {
             "ID": 108603,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 20
+        },
+        {
+            "ID": 454773,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -51,7 +60,7 @@
     "NumberOfPoints": 20,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-06-09T21:53:00Z",
+    "DateLastStatusUpdate": "2023-06-19T00:56:00Z",
     "DateCreated": "2016-12-14T17:01:00Z",
     "SubmissionStatusTypeID": 200
 }

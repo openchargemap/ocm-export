@@ -1,41 +1,49 @@
 {
-    "DateLastVerified": "2021-05-08T21:05:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 9404,
     "UUID": "7117BCEF-3096-4CF4-A26E-4485BC17A89E",
     "DataProviderID": 1,
     "DataProvidersReference": "ALM-00014",
     "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card or App",
     "AddressInfo": {
         "ID": 9301,
-        "Title": "ALM-00014",
+        "Title": "Praia da Rainha",
         "AddressLine1": "Praia da Rainha",
         "Town": "Almada",
         "Postcode": "2825-308",
         "CountryID": 180,
-        "Latitude": 38.61707855317073,
-        "Longitude": -9.21685291489598,
-        "RelatedURL": "http://www.mobie.pt",
+        "Latitude": 38.61693,
+        "Longitude": -9.21659,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 33197,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "ALM-00014-01-01",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Voltage": 240,
+            "PowerKW": 3,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449746,
+            "ConnectionTypeID": 1036,
+            "Reference": "ALM-00014-02-01",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 240,
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "Paid parking",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-08T21:05:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2012-02-08T15:15:00Z",
     "SubmissionStatusTypeID": 100
 }

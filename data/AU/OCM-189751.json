@@ -49,7 +49,7 @@
             "DateCreated": "2022-05-14T08:04:00Z"
         }
     ],
-    "DateLastVerified": "2022-12-27T07:31:00Z",
+    "DateLastVerified": "2023-07-04T14:52:00Z",
     "ID": 189751,
     "UUID": "A01B2BEF-47FB-4824-BBBE-6BE0CC2E119A",
     "DataProviderID": 1,
@@ -58,14 +58,14 @@
     "UsageCost": "$0.40 /kWh",
     "AddressInfo": {
         "ID": 190110,
-        "Title": "Davies Street",
+        "Title": "RACV Ballarat",
         "AddressLine1": "Davies Street",
         "Town": "Ballarat",
         "StateOrProvince": "Victoria",
         "Postcode": "3350",
         "CountryID": 18,
-        "Latitude": -37.56120426576834,
-        "Longitude": 143.8623615318828,
+        "Latitude": -37.56121656089711,
+        "Longitude": 143.86241227253106,
         "RelatedURL": "https://www.chargefox.com/",
         "DistanceUnit": 0
     },
@@ -73,32 +73,37 @@
         {
             "ID": 307005,
             "ConnectionTypeID": 33,
+            "Reference": "4508",
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 350,
+            "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 307006,
             "ConnectionTypeID": 33,
+            "Reference": "4031",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 311765,
             "ConnectionTypeID": 2,
+            "Reference": "4031",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 312944,
             "ConnectionTypeID": 2,
+            "Reference": "4508",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
@@ -106,11 +111,31 @@
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 460589,
+            "ConnectionTypeID": 33,
+            "Reference": "4032",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 460590,
+            "ConnectionTypeID": 2,
+            "Reference": "4032",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-27T07:31:00Z",
+    "DateLastStatusUpdate": "2023-07-04T14:52:00Z",
     "DateCreated": "2021-11-01T06:45:00Z",
     "SubmissionStatusTypeID": 200
 }

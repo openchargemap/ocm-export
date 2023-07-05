@@ -1,31 +1,28 @@
 {
-    "DateLastVerified": "2020-08-14T19:50:00Z",
+    "DateLastVerified": "2023-05-08T03:45:00Z",
     "ID": 94854,
     "UUID": "FC328CCE-D063-4702-98CA-37CF7773283D",
     "DataProviderID": 1,
     "DataProvidersReference": "LSB-01529",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
     "AddressInfo": {
         "ID": 95200,
-        "Title": "LSB-01529",
+        "Title": "R. Hermínio da Palma Inácio",
         "AddressLine1": "R. Hermínio da Palma Inácio",
         "Town": "Lisboa",
         "Postcode": "1750-224",
         "CountryID": 180,
-        "Latitude": 38.78806999999938,
-        "Longitude": -9.146473000003198,
-        "RelatedURL": "http://www.mobie.pt",
+        "Latitude": 38.78807,
+        "Longitude": -9.146473,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 134083,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 33,
+            "Reference": "LSB-01529-02-01",
+            "StatusTypeID": 0,
             "LevelID": 3,
-            "Amps": 120,
+            "Amps": 125,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -33,8 +30,9 @@
         },
         {
             "ID": 234184,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 2,
+            "Reference": "LSB-01529-01-01",
+            "StatusTypeID": 0,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 500,
@@ -43,9 +41,8 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-14T19:50:00Z",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-05-08T03:45:00Z",
     "DateCreated": "2017-10-28T13:32:00Z",
     "SubmissionStatusTypeID": 100
 }

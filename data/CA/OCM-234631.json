@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2023-05-01T06:25:00Z",
+    "DateLastVerified": "2023-06-14T07:34:00Z",
     "ID": 234631,
     "UUID": "78447103-F7EA-4F8E-9F4D-D6A4D502AC2D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "238355",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "$15/hour",
     "AddressInfo": {
         "ID": 235015,
-        "Title": "HYDRO FLOWERS CV L2",
+        "Title": "HYDRO Flowers Cove",
         "AddressLine1": "200 Viking Trail",
         "Town": "Flower's Cove",
         "StateOrProvince": "NL",
@@ -25,16 +25,38 @@
         {
             "ID": 386770,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
+            "Amps": 30,
+            "Voltage": 208,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 454202,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 156,
+            "Voltage": 397,
+            "PowerKW": 62.5,
+            "Quantity": 1
+        },
+        {
+            "ID": 454203,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 156,
+            "Voltage": 397,
+            "PowerKW": 62.5,
             "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-01T06:25:00Z",
+    "DateLastStatusUpdate": "2023-06-14T07:34:00Z",
     "DateCreated": "2023-02-13T05:42:00Z",
     "SubmissionStatusTypeID": 100
 }

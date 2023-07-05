@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-03-06T15:55:00Z",
+    "DateLastVerified": "2023-06-19T00:20:00Z",
     "ID": 75109,
     "UUID": "44F15560-0A44-484B-A882-7B67E8AD220E",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "6845",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh; Autres tarifs pour les voitures anciennes",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75455,
         "Title": "Tesla Supercharger Orange",
@@ -22,7 +22,7 @@
     "Connections": [
         {
             "ID": 108312,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -31,10 +31,19 @@
         },
         {
             "ID": 307118,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454753,
+            "ConnectionTypeID": 30,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 8
         }
@@ -42,7 +51,7 @@
     "NumberOfPoints": 16,
     "GeneralComments": "16 Superchargers, available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:55:00Z",
+    "DateLastStatusUpdate": "2023-06-19T00:20:00Z",
     "DateCreated": "2016-12-11T18:21:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-03-06T15:58:00Z",
+    "DateLastVerified": "2023-06-19T00:27:00Z",
     "ID": 172966,
     "UUID": "37E46A7E-6B27-4967-954E-50C40A349095",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "28756",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh; Autres tarifs pour les voitures anciennes",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 173325,
         "Title": "Tesla Supercharger Toulon",
@@ -22,7 +22,16 @@
     "Connections": [
         {
             "ID": 264600,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454757,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -33,7 +42,7 @@
     "NumberOfPoints": 8,
     "GeneralComments": "8 superchargers, available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:58:00Z",
+    "DateLastStatusUpdate": "2023-06-19T00:27:00Z",
     "DateCreated": "2021-02-23T06:29:00Z",
     "SubmissionStatusTypeID": 200
 }

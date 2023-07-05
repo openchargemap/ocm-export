@@ -65,13 +65,13 @@
             "DateCreated": "2017-09-26T16:01:00Z"
         }
     ],
-    "DateLastVerified": "2019-06-26T08:38:00Z",
+    "DateLastVerified": "2023-05-16T17:03:00Z",
     "ID": 92582,
     "UUID": "77BF3818-1475-46F8-B88C-B67C41770A5E",
-    "DataProviderID": 24,
-    "DataProvidersReference": "CEC-90004",
+    "DataProviderID": 1,
     "OperatorID": 90,
     "UsageTypeID": 1,
+    "UsageCost": "DCFC $17.44/hr, AC $2/hr",
     "AddressInfo": {
         "ID": 92928,
         "Title": "DCFC - Ottawa - Terry Fox Park’N Ride",
@@ -82,6 +82,7 @@
         "CountryID": 44,
         "Latitude": 45.308005,
         "Longitude": -75.909408,
+        "ContactTelephone1": "1 855-999-8378",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -91,12 +92,31 @@
             "LevelID": 2,
             "Amps": 125,
             "Voltage": 400,
-            "PowerKW": 50
+            "PowerKW": 50,
+            "Quantity": 2
+        },
+        {
+            "ID": 451855,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 451856,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-06-26T08:38:00Z",
+    "DateLastStatusUpdate": "2023-05-16T17:03:00Z",
     "DateCreated": "2017-09-07T10:51:00Z",
     "SubmissionStatusTypeID": 100
 }

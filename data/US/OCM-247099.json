@@ -1,15 +1,33 @@
 {
-    "DateLastVerified": "2023-05-01T05:58:00Z",
+    "MediaItems": [
+        {
+            "ID": 38143,
+            "ChargePointID": 247099,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM247099/OCM-247099.orig.2023061019032389.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM247099/OCM-247099.thmb.2023061019032389.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2023-06-10T19:03:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-10T19:06:00Z",
     "ID": 247099,
     "UUID": "3B66F292-ADAC-4A19-A029-710E85795D54",
-    "DataProviderID": 2,
-    "DataProvidersReference": "200995",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 247483,
-        "Title": "FLEET SERVICES DCFC-STATION 3",
+        "Title": "FLEET SERVICES DCFC",
         "AddressLine1": "301 E Huron St",
+        "AddressLine2": "",
         "Town": "Ann Arbor",
         "StateOrProvince": "MI",
         "Postcode": "48104",
@@ -17,7 +35,7 @@
         "Latitude": 42.282111,
         "Longitude": -83.745025,
         "ContactTelephone1": "888-758-4389",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "24 hours daily. Use 320 Ann St for navigation",
         "RelatedURL": "http://www.chargepoint.com/",
         "DistanceUnit": 0
     },
@@ -25,26 +43,29 @@
         {
             "ID": 413461,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4
         },
         {
             "ID": 413462,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 125,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4,
+            "Comments": "Two pairs of CPE250 units"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-01T05:58:00Z",
+    "DateLastStatusUpdate": "2023-06-10T19:06:00Z",
     "DateCreated": "2023-03-07T05:40:00Z",
     "SubmissionStatusTypeID": 100
 }

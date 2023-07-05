@@ -1,16 +1,16 @@
 {
-    "DateLastVerified": "2022-03-06T15:57:00Z",
+    "DateLastVerified": "2023-06-19T00:25:00Z",
     "ID": 189783,
     "UUID": "68C0B81A-0B89-4756-9774-AA5A7BD83B43",
     "DataProviderID": 1,
     "OperatorID": 23,
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh; Autres tarifs pour les voitures anciennes",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 190142,
         "Title": "Tesla Supercharger Aix-en-Provence - Val de l'Arc",
         "AddressLine1": "Ibis Aix-en-Provence",
-        "AddressLine2": "Avenue des Infirmeries",
+        "AddressLine2": "Chemin des Infirmeries",
         "Town": "Aix-en-Provence",
         "StateOrProvince": "Provence-Alpes-Côte d'Azur",
         "Postcode": "13090;13100",
@@ -22,7 +22,7 @@
     "Connections": [
         {
             "ID": 307057,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -31,17 +31,26 @@
         },
         {
             "ID": 307058,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 4
+        },
+        {
+            "ID": 454756,
+            "ConnectionTypeID": 30,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         }
     ],
     "NumberOfPoints": 12,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:57:00Z",
+    "DateLastStatusUpdate": "2023-06-19T00:25:00Z",
     "DateCreated": "2021-11-03T00:02:00Z",
     "SubmissionStatusTypeID": 200
 }

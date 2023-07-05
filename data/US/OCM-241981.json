@@ -1,9 +1,9 @@
 {
-    "DateLastVerified": "2023-05-01T05:28:00Z",
+    "DateLastVerified": "2023-05-14T17:26:00Z",
     "ID": 241981,
     "UUID": "A0B1B49F-4BE2-4228-8F8D-6C508F3D2B14",
-    "DataProviderID": 2,
-    "DataProvidersReference": "234968",
+    "DataProviderID": 1,
+    "OperatorID": 3526,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 242365,
@@ -16,7 +16,7 @@
         "Latitude": 35.9864299606126,
         "Longitude": -119.961033735046,
         "ContactTelephone1": "833-387-2643",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.evrange.com",
         "DistanceUnit": 0
     },
@@ -24,26 +24,29 @@
         {
             "ID": 398103,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 398104,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-01T05:28:00Z",
+    "DateLastStatusUpdate": "2023-05-14T17:26:00Z",
     "DateCreated": "2023-03-07T03:43:00Z",
     "SubmissionStatusTypeID": 100
 }

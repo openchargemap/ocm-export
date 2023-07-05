@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2023-02-16T18:04:00Z",
+    "DateLastVerified": "2023-05-28T21:56:00Z",
     "ID": 235205,
     "UUID": "F14A321E-1807-4AB1-B081-3152DCEEC401",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": " 0,39€/kWh DC - 0,29€/kWh AC",
+    "UsageCost": " 0,54€/kWh ",
     "AddressInfo": {
         "ID": 235589,
-        "Title": "Repsol Batan Madrid",
+        "Title": "E.S. Repsol Batan Madrid",
         "AddressLine1": "Autovía del Suroeste",
         "AddressLine2": "Latina",
         "StateOrProvince": "Comunidad de Madrid",
@@ -24,32 +24,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 387895,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 387896,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-02-16T18:04:00Z",
+    "DateLastStatusUpdate": "2023-05-28T21:56:00Z",
     "DateCreated": "2023-02-16T18:04:00Z",
     "SubmissionStatusTypeID": 200
 }

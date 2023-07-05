@@ -1,41 +1,49 @@
 {
-    "DateLastVerified": "2020-08-13T19:31:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 137133,
     "UUID": "62E7EBA9-52B8-4268-B2B6-7EA1821978D9",
     "DataProviderID": 1,
     "DataProvidersReference": "SNT-00042",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
+    "OperatorID": 3684,
     "AddressInfo": {
         "ID": 137479,
-        "Title": "SNT-00041/42",
+        "Title": "IC 19 - Alto do Forte",
         "AddressLine1": "IC 19 - Alto do Forte",
         "Town": "Sintra",
         "Postcode": "2635-018",
         "CountryID": 180,
         "Latitude": 38.774869,
         "Longitude": -9.341244,
-        "AccessComments": "Only during shopping center opening hours",
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191990,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "SNT-00042-01-01",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 1
+        },
+        {
+            "ID": 449800,
+            "ConnectionTypeID": 1036,
+            "Reference": "SNT-00042-02-01",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-13T19:31:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-12-24T08:09:00Z",
     "SubmissionStatusTypeID": 100
 }

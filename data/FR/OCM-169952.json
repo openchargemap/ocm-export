@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2020-11-15T10:45:00Z",
+    "DateLastVerified": "2023-05-23T08:46:00Z",
     "ID": 169952,
     "UUID": "4EBA126B-3A52-4843-A67E-F53083943898",
     "DataProviderID": 1,
-    "OperatorID": 38,
-    "UsageTypeID": 1,
-    "UsageCost": "0",
+    "OperatorID": 3379,
+    "UsageTypeID": 4,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 170311,
-        "Title": "Lidl",
+        "Title": "Lidl - Croissy-Beaubourg",
         "AddressLine1": "Avenue de la Soubriarde",
         "Town": "Croissy-Beaubourg",
         "StateOrProvince": "Seine-et-Marne",
@@ -20,20 +20,36 @@
     },
     "Connections": [
         {
-            "ID": 259000,
+            "ID": 452298,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 452299,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 7
+        },
+        {
+            "ID": 452300,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 14,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-11-15T10:45:00Z",
+    "DateLastStatusUpdate": "2023-05-23T08:46:00Z",
     "DateCreated": "2020-11-15T00:36:00Z",
     "SubmissionStatusTypeID": 200
 }

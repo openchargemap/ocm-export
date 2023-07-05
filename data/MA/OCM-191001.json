@@ -1,20 +1,89 @@
 {
-    "DateLastVerified": "2022-01-10T01:00:00Z",
+    "UserComments": [
+        {
+            "ID": 28612,
+            "ChargePointID": 191001,
+            "CommentTypeID": 10,
+            "UserName": "Azzeddine :)",
+            "Rating": 5,
+            "DateCreated": "2023-06-07T08:35:55.743Z",
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 38086,
+            "ChargePointID": 191001,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191001/OCM-191001.orig.2023060708300794.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191001/OCM-191001.thmb.2023060708300794.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-07T08:30:00Z"
+        },
+        {
+            "ID": 38087,
+            "ChargePointID": 191001,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191001/OCM-191001.orig.2023060708301692.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191001/OCM-191001.thmb.2023060708301692.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-07T08:30:00Z"
+        },
+        {
+            "ID": 38088,
+            "ChargePointID": 191001,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191001/OCM-191001.orig.2023060708302521.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/MA/OCM191001/OCM-191001.thmb.2023060708302521.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46702,
+                "Username": "Azzeddine :)"
+            },
+            "DateCreated": "2023-06-07T08:30:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-07T09:37:00Z",
     "ID": 191001,
     "UUID": "71484C56-9EEC-43A2-8D63-0F6389274540",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 4,
+    "OperatorID": 3677,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 191360,
-        "Title": "Afriquia aire de service M'Nasra",
+        "Title": "Afriquia Mnasra1 ADM",
         "AddressLine1": "Aire de service M'Nasra",
         "Town": "Bahhara Oulad Ayad بحارة أولاد عياد",
         "StateOrProvince": "Rabat-Salé-Kenitra",
-        "Postcode": "",
         "CountryID": 153,
         "Latitude": 34.64352183690433,
         "Longitude": -6.406365164418389,
+        "ContactTelephone1": "+212520100115",
+        "ContactEmail": "contact@fastvolt.net",
+        "AccessComments": "Accessible for all, need to use FastVolt App (Available in Google Play or App Store)",
+        "RelatedURL": "https://fastvolt.net/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,6 +92,8 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -32,6 +103,8 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -41,6 +114,8 @@
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 380,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
@@ -48,7 +123,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-10T01:00:00Z",
+    "DateLastStatusUpdate": "2023-06-07T09:37:00Z",
     "DateCreated": "2022-01-10T01:00:00Z",
     "SubmissionStatusTypeID": 200
 }

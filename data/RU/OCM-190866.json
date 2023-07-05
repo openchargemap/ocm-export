@@ -1,20 +1,21 @@
 {
-    "DateLastVerified": "2021-12-29T14:56:00Z",
+    "DateLastVerified": "2023-06-14T14:33:00Z",
     "ID": 190866,
     "UUID": "57C2D1E0-DCB7-48FC-AD45-739836D35A68",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "17 р/кВт*ч",
     "AddressInfo": {
         "ID": 191225,
-        "Title": "Non-Stop Power АЗС Татнефть (NSP) KZNH04D",
-        "AddressLine1": "",
+        "Title": "ЭЗС №1-092",
+        "AddressLine1": "Кощаковское сельское поселение",
         "Town": "",
         "StateOrProvince": "Tatarstan",
         "Postcode": "422774",
         "CountryID": 185,
-        "Latitude": 55.7943376531822,
-        "Longitude": 49.340058650933514,
+        "Latitude": 55.79421563328603,
+        "Longitude": 49.34004001353368,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,7 +24,7 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -32,23 +33,23 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "PowerKW": 90,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 309566,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1040,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
+            "LevelID": 3,
+            "PowerKW": 90,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-29T14:56:00Z",
+    "DateLastStatusUpdate": "2023-06-14T14:33:00Z",
     "DateCreated": "2021-12-29T13:41:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,41 +1,49 @@
 {
-    "DateLastVerified": "2020-10-06T18:42:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 109502,
     "UUID": "D701BC7F-F887-4374-9FED-D2FE0A549902",
     "DataProviderID": 1,
     "DataProvidersReference": "VCD-00003",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
+    "OperatorID": 3588,
     "AddressInfo": {
         "ID": 109848,
-        "Title": "VCD-00002/3",
+        "Title": "Avenida Fonte Cova",
         "AddressLine1": "Avenida Fonte Cova",
         "Town": "Vila do Conde",
-        "StateOrProvince": "Porto",
         "Postcode": "4485-592",
         "CountryID": 180,
-        "Latitude": 41.30030708022838,
-        "Longitude": -8.706233118672799,
-        "RelatedURL": "",
+        "Latitude": 41.301029,
+        "Longitude": -8.706583,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 154701,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "VCD-00003-02-01",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 1
+        },
+        {
+            "ID": 449934,
+            "ConnectionTypeID": 1036,
+            "Reference": "VCD-00003-01-01",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-06T18:42:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2018-10-18T01:59:00Z",
     "SubmissionStatusTypeID": 100
 }

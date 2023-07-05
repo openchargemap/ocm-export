@@ -43,32 +43,14 @@
             "CheckinStatusTypeID": 140
         }
     ],
-    "MediaItems": [
-        {
-            "ID": 13599,
-            "ChargePointID": 94959,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM94959/OCM-94959.orig.2017102815582029.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM94959/OCM-94959.thmb.2017102815582029.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 4575,
-                "Username": "Simon Hewison"
-            },
-            "DateCreated": "2017-10-28T15:59:00Z"
-        }
-    ],
-    "DateLastVerified": "2018-06-07T17:16:00Z",
+    "DateLastVerified": "2023-06-20T10:57:00Z",
     "ID": 94959,
     "UUID": "D4540C83-C7C3-4F33-8F71-0181ADBA05B6",
     "DataProviderID": 1,
-    "OperatorID": 103,
+    "OperatorID": 3392,
     "OperatorsReference": "UKALLEGO000104",
     "UsageTypeID": 5,
-    "UsageCost": "£0.49/kWh",
+    "UsageCost": "£0.85/kWh",
     "AddressInfo": {
         "ID": 95305,
         "Title": "Shell Recharge Stirling Corner",
@@ -79,44 +61,131 @@
         "CountryID": 1,
         "Latitude": 51.6427744604293,
         "Longitude": -0.253829297344974,
-        "RelatedURL": "https://www.smoovapp.eu/en/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 134570,
             "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTRIT*PK*00091*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 70,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 134571,
             "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTRIT*PK*00091*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 350,
+            "Voltage": 500,
+            "PowerKW": 175,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 134572,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTRIT*PK*00091*3",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
+            "Amps": 175,
             "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 455041,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTRIT*PK*00091*4",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 500,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 455042,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTRIT*PK*00091*5",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 175,
+            "Voltage": 400,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 455043,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTRIT*PK*00091*6",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 500,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 455044,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTRIT*PK*00091*7",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 175,
+            "Voltage": 400,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 455045,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTRIT*PK*00091*8",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 500,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 455046,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTRIT*PK*00091*9",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 175,
+            "Voltage": 400,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 455047,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTRIT*PK*00091*10",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 500,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Siemens chargerDirect payment only.Please use SMOOV App.Can charge AC at the same as DC, but current will be reduced.",
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-06-07T17:16:00Z",
+    "DateLastStatusUpdate": "2023-06-20T10:57:00Z",
     "DateCreated": "2017-10-28T15:50:00Z",
     "SubmissionStatusTypeID": 200
 }

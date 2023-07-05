@@ -15,14 +15,14 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "DateLastVerified": "2022-03-06T15:32:00Z",
+    "DateLastVerified": "2023-06-19T18:25:00Z",
     "ID": 75366,
     "UUID": "392B4873-31C3-4DF1-A77F-BBB24E6B648E",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "18757",
     "UsageTypeID": 4,
-    "UsageCost": "€0.38/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75712,
         "Title": "Tesla Supercharger Orgeval",
@@ -38,7 +38,16 @@
     "Connections": [
         {
             "ID": 108671,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 454715,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -49,7 +58,7 @@
     "NumberOfPoints": 4,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:32:00Z",
+    "DateLastStatusUpdate": "2023-06-19T18:25:00Z",
     "DateCreated": "2016-12-14T17:54:00Z",
     "SubmissionStatusTypeID": 200
 }

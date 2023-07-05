@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-03-06T15:54:00Z",
+    "DateLastVerified": "2023-06-18T23:46:00Z",
     "ID": 75292,
     "UUID": "AC85DAAA-F238-461B-B5F2-9BD4AB03BC55",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "15364",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75638,
         "Title": "Tesla Supercharger Clermont-Ferrand",
@@ -22,7 +22,7 @@
     "Connections": [
         {
             "ID": 108597,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -31,17 +31,27 @@
         },
         {
             "ID": 307076,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454739,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 250,
+            "CurrentTypeID": 30,
             "Quantity": 8
         }
     ],
     "NumberOfPoints": 16,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:54:00Z",
+    "DateLastStatusUpdate": "2023-06-18T23:46:00Z",
     "DateCreated": "2016-12-14T16:59:00Z",
     "SubmissionStatusTypeID": 200
 }

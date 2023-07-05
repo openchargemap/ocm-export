@@ -1,13 +1,32 @@
 {
-    "DateLastVerified": "2023-03-15T17:06:00Z",
+    "MediaItems": [
+        {
+            "ID": 37773,
+            "ChargePointID": 213402,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM213402/OCM-213402.orig.2023051408113494.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM213402/OCM-213402.thmb.2023051408113494.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-05-14T08:12:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-15T16:39:00Z",
     "ID": 213402,
     "UUID": "AA404F74-0E42-483C-924D-14AAC9691AC7",
     "DataProviderID": 1,
     "OperatorID": 3550,
     "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh",
     "AddressInfo": {
         "ID": 213782,
-        "Title": "Santa Cruz de Bezana",
+        "Title": "Mimoondo Santa Cruz de Bezana",
         "AddressLine1": "Avenida de la Santa Cruz",
         "Town": "Santa Cruz de Bezana",
         "StateOrProvince": "Cantabria",
@@ -26,7 +45,7 @@
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Blueberry200 Charger. The DC charger allows charging one vehicle at 200kW, or two simultaneous charges at 100kW"
+            "Comments": "Blueberry100 Charger. The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW"
         },
         {
             "ID": 355442,
@@ -45,7 +64,7 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Two Kempower CCS/Chademo Satellite chargers that dynamically share the total power of the cabinet (100 kW). Charging power limited for 400V cars"
+            "Comments": "Two Kempower CCS/Chademo Satellite chargers that dynamically share the total power of the cabinet (100 kW)."
         },
         {
             "ID": 355444,
@@ -59,7 +78,7 @@
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-15T17:06:00Z",
+    "DateLastStatusUpdate": "2023-06-15T16:39:00Z",
     "DateCreated": "2023-02-06T15:22:00Z",
     "SubmissionStatusTypeID": 200
 }

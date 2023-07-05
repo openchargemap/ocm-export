@@ -14,19 +14,19 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "DateLastVerified": "2022-03-06T15:31:00Z",
+    "DateLastVerified": "2023-06-18T22:28:00Z",
     "ID": 74960,
     "UUID": "3F9F9B93-944E-485A-9138-8561D9917F67",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "6785",
     "UsageTypeID": 4,
-    "UsageCost": "€0.36/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75306,
         "Title": "Tesla Supercharger Senlis",
         "AddressLine1": "72 Avenue du General de Gaulle",
-        "AddressLine2": "Ibis Senlis",
+        "AddressLine2": "Hotel Ibis Senlis",
         "Town": "Senlis",
         "Postcode": "60300",
         "CountryID": 80,
@@ -37,7 +37,16 @@
     "Connections": [
         {
             "ID": 108143,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 16
+        },
+        {
+            "ID": 454709,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -48,7 +57,7 @@
     "NumberOfPoints": 16,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:31:00Z",
+    "DateLastStatusUpdate": "2023-06-18T22:28:00Z",
     "DateCreated": "2016-12-09T09:46:00Z",
     "SubmissionStatusTypeID": 200
 }

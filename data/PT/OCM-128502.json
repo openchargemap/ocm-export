@@ -1,39 +1,49 @@
 {
-    "DateLastVerified": "2020-01-16T20:07:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 128502,
     "UUID": "2556C57C-B07C-4F84-BFDA-0AAF453A5EA6",
     "DataProviderID": 1,
     "DataProvidersReference": "ABF-00006",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
+    "OperatorID": 3588,
     "AddressInfo": {
         "ID": 128848,
-        "Title": "ABF-00006",
+        "Title": "Rua Manuel Bentes Junior",
         "AddressLine1": "Rua Manuel Bentes Junior",
         "Town": "Albufeira",
         "Postcode": "8200-176",
         "CountryID": 180,
         "Latitude": 37.087239,
         "Longitude": -8.24759,
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 179886,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 1036,
+            "Reference": "ABF-00006-01-01",
+            "StatusTypeID": 0,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449702,
+            "ConnectionTypeID": 1036,
+            "Reference": "ABF-00006-02-01",
+            "StatusTypeID": 0,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-16T20:07:00Z",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-06-26T08:34:00Z",
     "SubmissionStatusTypeID": 100
 }

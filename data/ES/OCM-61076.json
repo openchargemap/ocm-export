@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-01-16T18:00:00Z",
+    "DateLastVerified": "2023-05-15T12:47:00Z",
     "ID": 61076,
     "UUID": "EC3ACC05-CB1A-4C6C-A6EF-BF7FBD1FB34B",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 6,
+    "OperatorID": 3377,
+    "UsageTypeID": 4,
+    "UsageCost": "0,20€/kWh",
     "AddressInfo": {
         "ID": 61422,
         "Title": "PRAE Cañada Real",
@@ -15,25 +16,34 @@
         "CountryID": 210,
         "Latitude": 41.604021700458816,
         "Longitude": -4.762737132666302,
-        "ContactTelephone1": "010",
+        "ContactTelephone1": "",
         "ContactEmail": "vehiculoelectrico@ava.es",
-        "RelatedURL": "http://www.cidaut.es/eren/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 77632,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "LevelID": 2,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 451747,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Tarjeta ayuntamiento de Valladolid",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-01-16T18:00:00Z",
+    "GeneralComments": "",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-15T12:47:00Z",
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200
 }

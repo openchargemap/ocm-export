@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-02-25T20:23:00Z",
+    "MediaItems": [
+        {
+            "ID": 38268,
+            "ChargePointID": 99238,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM99238/OCM-99238.orig.2023062113403873.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM99238/OCM-99238.thmb.2023062113403873.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-06-21T13:41:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-21T21:04:00Z",
     "ID": 99238,
     "UUID": "4BDDE50E-FD66-49B2-995A-4E6B898BE85B",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 5,
-    "UsageCost": "0.38 €/kWh",
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 99584,
         "Title": "Hotel Restaurante Segóbriga",
@@ -23,11 +41,11 @@
             "ID": 140199,
             "ConnectionTypeID": 25,
             "LevelID": 2,
-            "Amps": 32,
+            "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 4
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 140200,
@@ -37,13 +55,13 @@
             "Voltage": 230,
             "PowerKW": 2.3,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 2,
     "GeneralComments": "Free parking. Adaptors for Tesla vehicles are available. Time is unlimited as long as there are no pending reservations.",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-02-25T20:23:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-06-21T21:04:00Z",
     "DateCreated": "2018-01-24T10:57:00Z",
     "SubmissionStatusTypeID": 200
 }

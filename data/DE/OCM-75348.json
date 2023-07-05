@@ -1,16 +1,16 @@
 {
-    "DateLastVerified": "2019-05-12T19:46:00Z",
+    "DateLastVerified": "2023-06-19T08:58:00Z",
     "ID": 75348,
     "UUID": "F1C2BDA1-659B-4003-8B32-C9A31E79948A",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "10206",
-    "UsageTypeID": 4,
-    "UsageCost": "€0.33/kWh; Andere Tarife für ältere Autos",
+    "UsageTypeID": 1,
+    "UsageCost": "Prices are listed in the app",
     "AddressInfo": {
         "ID": 75694,
         "Title": "Zella-Mehlis Supercharger",
-        "AddressLine1": "5 An der Quelle",
+        "AddressLine1": "An der Quelle 5",
         "Town": "Zella-Mehlis",
         "Postcode": "98544",
         "CountryID": 87,
@@ -26,13 +26,34 @@
             "LevelID": 3,
             "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 6
+            "Quantity": 6,
+            "Comments": "Tesla - Supercharger V2"
+        },
+        {
+            "ID": 454870,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
+            "Comments": "Tesla - Supercharger V2"
+        },
+        {
+            "ID": 454871,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 14,
+            "Comments": "Tesla - Supercharger V3"
         }
     ],
-    "NumberOfPoints": 6,
-    "GeneralComments": "6 Superchargers, available 24/7",
+    "NumberOfPoints": 20,
+    "GeneralComments": "20 Superchargers, available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-12T19:46:00Z",
+    "DateLastStatusUpdate": "2023-06-19T08:58:00Z",
     "DateCreated": "2016-12-14T17:36:00Z",
     "SubmissionStatusTypeID": 200
 }

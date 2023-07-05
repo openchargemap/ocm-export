@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2023-05-01T06:26:00Z",
+    "DateLastVerified": "2023-06-14T07:35:00Z",
     "ID": 234702,
     "UUID": "9D01CE11-9FDD-4E52-8111-10F90CE94A14",
-    "DataProviderID": 2,
-    "DataProvidersReference": "232827",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "$15/hour",
     "AddressInfo": {
         "ID": 235086,
-        "Title": "HYDRO CF DCFC",
+        "Title": "HYDRO Churchill Falls F DCFC",
         "AddressLine1": "1 Ressegieu Dr",
         "Town": "Churchill Falls",
         "StateOrProvince": "NL",
@@ -26,25 +26,37 @@
             "ID": 386856,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
+            "Amps": 156,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 386857,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
+            "Amps": 156,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 454212,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Churchill Falls Town Centre",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-01T06:26:00Z",
+    "DateLastStatusUpdate": "2023-06-14T07:35:00Z",
     "DateCreated": "2023-02-13T05:42:00Z",
     "SubmissionStatusTypeID": 100
 }

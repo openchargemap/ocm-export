@@ -65,7 +65,7 @@
             "DateCreated": "2022-08-30T07:13:00Z"
         }
     ],
-    "DateLastVerified": "2023-04-02T09:10:00Z",
+    "DateLastVerified": "2023-06-14T09:00:00Z",
     "ID": 114650,
     "UUID": "2042B48E-BE00-411C-BB3F-2509291740A2",
     "DataProviderID": 1,
@@ -103,7 +103,7 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
-            "Voltage": 500,
+            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2,
@@ -118,7 +118,8 @@
             "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Efacec QC45 Charger"
         },
         {
             "ID": 313749,
@@ -129,21 +130,48 @@
             "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Efacec QC45 Charger"
         },
         {
             "ID": 351453,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 454222,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 920,
+            "PowerKW": 160,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Siemens Charger. Shares the power with the Chademo outlet. (max power limited to 160kW for 400V cars)"
+        },
+        {
+            "ID": 454223,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 400,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Siemens Charger. "
         }
     ],
     "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-02T09:10:00Z",
+    "DateLastStatusUpdate": "2023-06-14T09:00:00Z",
     "DateCreated": "2019-01-12T20:42:00Z",
     "SubmissionStatusTypeID": 200
 }

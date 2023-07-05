@@ -1,41 +1,49 @@
 {
-    "DateLastVerified": "2020-08-08T11:45:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 109497,
     "UUID": "016712E3-C4D7-4099-B4F6-462CB66409E1",
     "DataProviderID": 1,
     "DataProvidersReference": "TNV-00001",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
+    "OperatorID": 3588,
     "AddressInfo": {
         "ID": 109843,
-        "Title": "TNV-00001",
-        "AddressLine1": "TorreShopping",
+        "Title": "Rotunda da Ponte do Bico",
+        "AddressLine1": "Rotunda da Ponte do Bico",
         "Town": "Torres Novas",
-        "StateOrProvince": "Centro",
-        "Postcode": "",
+        "Postcode": "2350-464",
         "CountryID": 180,
         "Latitude": 39.465087,
         "Longitude": -8.524621,
-        "AccessComments": "Only during shopping center opening hours, Level -1",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 154696,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "TNV-00001-01-01",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449848,
+            "ConnectionTypeID": 1036,
+            "Reference": "TNV-00001-02-01",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-08T11:45:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2018-10-18T01:59:00Z",
     "SubmissionStatusTypeID": 100
 }

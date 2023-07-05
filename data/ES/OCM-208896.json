@@ -1,21 +1,55 @@
 {
-    "DateLastVerified": "2022-10-22T10:45:00Z",
+    "MediaItems": [
+        {
+            "ID": 37790,
+            "ChargePointID": 208896,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM208896/OCM-208896.orig.2023051507033178.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM208896/OCM-208896.thmb.2023051507033178.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-05-15T07:04:00Z"
+        },
+        {
+            "ID": 37789,
+            "ChargePointID": 208896,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM208896/OCM-208896.orig.2023051507025178.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM208896/OCM-208896.thmb.2023051507025178.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-05-15T07:03:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-05-15T07:17:00Z",
     "ID": 208896,
     "UUID": "6B3F7917-54FB-4BE1-9646-5A460857196F",
     "DataProviderID": 1,
-    "OperatorID": 207,
-    "UsageTypeID": 4,
+    "OperatorID": 45,
+    "UsageTypeID": 5,
     "UsageCost": "",
     "AddressInfo": {
         "ID": 209276,
-        "Title": "Aparcamiento Intermodal del Rincón",
+        "Title": "Parking Intermodal del Rincón (Isla Movilidad)",
         "AddressLine1": "Aparcamiento Intermodal del Rincón",
         "Town": "Las Palmas de Gran Canaria",
         "StateOrProvince": "Canary Islands",
         "Postcode": "35010",
         "CountryID": 210,
-        "Latitude": 28.12782871134479,
-        "Longitude": -15.452485915381999,
+        "Latitude": 28.127099443272698,
+        "Longitude": -15.452085497537553,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,23 +58,14 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 3.7,
+            "PowerKW": 7.4,
             "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
-            "ID": 347553,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 1,
-            "PowerKW": 2.3,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 16
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 16,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-22T10:45:00Z",
+    "DateLastStatusUpdate": "2023-05-15T07:17:00Z",
     "DateCreated": "2022-10-21T14:06:00Z",
     "SubmissionStatusTypeID": 200
 }

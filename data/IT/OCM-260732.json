@@ -1,5 +1,40 @@
 {
-    "DateLastVerified": "2023-04-27T14:21:00Z",
+    "UserComments": [
+        {
+            "ID": 28560,
+            "ChargePointID": 260732,
+            "CommentTypeID": 10,
+            "UserName": "Roberto ",
+            "Comment": "working ok",
+            "Rating": 5,
+            "DateCreated": "2023-05-25T15:13:00.203Z",
+            "User": {
+                "ID": 27473,
+                "Username": "Roberto "
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 37885,
+            "ChargePointID": 260732,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM260732/OCM-260732.orig.2023052515132834.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM260732/OCM-260732.thmb.2023052515132834.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27473,
+                "Username": "Roberto "
+            },
+            "DateCreated": "2023-05-25T15:14:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-05-25T15:16:00Z",
     "ID": 260732,
     "UUID": "FA9A59D1-C4F2-4F17-B9FF-546B1925AA3C",
     "DataProviderID": 1,
@@ -12,8 +47,8 @@
         "Town": "Barberino Del Mugello",
         "StateOrProvince": "FI",
         "CountryID": 112,
-        "Latitude": 43.983928114103605,
-        "Longitude": 11.215995145593979,
+        "Latitude": 43.984096612239796,
+        "Longitude": 11.215080471578403,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,12 +59,23 @@
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 10
+        },
+        {
+            "ID": 452505,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 4,
+            "CurrentTypeID": 20,
+            "Quantity": 10,
+            "Comments": "destination charger"
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-04-27T14:21:00Z",
+    "GeneralComments": "No non-tesla ev",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-25T15:16:00Z",
     "DateCreated": "2023-04-27T14:21:00Z",
     "SubmissionStatusTypeID": 200
 }

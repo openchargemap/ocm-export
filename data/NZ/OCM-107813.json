@@ -1,26 +1,28 @@
 {
-    "DateLastVerified": "2018-08-11T21:26:00Z",
+    "DateLastVerified": "2023-06-04T11:31:00Z",
     "ID": 107813,
     "UUID": "FEF1607A-088B-4975-B670-B70AB0561D05",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.25/kWh + $0.25/min",
+    "UsageCost": "$0.80/kWh (DC), $0.40/kWh (AC)",
     "AddressInfo": {
         "ID": 108159,
         "Title": "Raeward Fresh",
         "AddressLine1": "800 Harewood Road",
+        "AddressLine2": "Harewood",
         "Town": "Christchurch",
         "Postcode": "8051",
         "CountryID": 161,
-        "Latitude": -43.477613,
-        "Longitude": 172.556252,
+        "Latitude": -43.47799730295173,
+        "Longitude": 172.55625730096165,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 152233,
             "ConnectionTypeID": 2,
+            "Reference": "HARE1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -30,16 +32,37 @@
         {
             "ID": 152234,
             "ConnectionTypeID": 33,
+            "Reference": "HARE1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 453395,
+            "ConnectionTypeID": 25,
+            "Reference": "HARE2-A",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 453396,
+            "ConnectionTypeID": 25,
+            "Reference": "HARE2-B",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-08-11T21:26:00Z",
+    "DateLastStatusUpdate": "2023-06-04T11:31:00Z",
     "DateCreated": "2018-08-10T13:00:00Z",
     "SubmissionStatusTypeID": 200
 }

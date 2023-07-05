@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2020-01-15T10:22:00Z",
+    "DateLastVerified": "2023-05-31T06:45:00Z",
     "ID": 61045,
     "UUID": "CA870E34-4CD0-4111-88BE-B8CD4AEE4B9F",
     "DataProviderID": 1,
     "OperatorID": 91,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "0,35€/kWh",
     "AddressInfo": {
         "ID": 61391,
         "Title": "Pozuelo",
@@ -13,35 +14,27 @@
         "StateOrProvince": "Madrid",
         "Postcode": "28223",
         "CountryID": 210,
-        "Latitude": 40.43051437445615,
-        "Longitude": -3.8088463841452267,
-        "ContactTelephone1": "+34 902 540 810",
-        "RelatedURL": "http://www.ibil.es/ibilcard y www.pozuelod...",
+        "Latitude": 40.430379395665256,
+        "Longitude": -3.8124356143231353,
+        "ContactTelephone1": "",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 77569,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 100,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 240,
-            "PowerKW": 22
-        },
-        {
-            "ID": 77570,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 100,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 240,
-            "PowerKW": 22
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "IBIL card",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2020-01-15T10:22:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-31T06:45:00Z",
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200
 }

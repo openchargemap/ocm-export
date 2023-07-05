@@ -1,42 +1,49 @@
 {
-    "DateLastVerified": "2020-09-12T11:38:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 137147,
     "UUID": "852B1290-2834-487A-8CC8-59C3B820AB67",
     "DataProviderID": 1,
     "DataProvidersReference": "VIS-00056",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
+    "OperatorID": 3684,
     "AddressInfo": {
         "ID": 137493,
-        "Title": "VIS-00056",
-        "AddressLine1": "Rua D. José da Cruz Moreira Pinto 32",
+        "Title": "Rua D. José da Cruz Moreira Pinto",
+        "AddressLine1": "Rua D. José da Cruz Moreira Pinto",
         "Town": "Viseu",
         "Postcode": "3510-078",
         "CountryID": 180,
         "Latitude": 40.661975,
         "Longitude": -7.913864,
-        "AccessComments": "Level -1",
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 192004,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "VIS-00056-02-01",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449885,
+            "ConnectionTypeID": 1036,
+            "Reference": "VIS-00056-01-01",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "Only during shopping center opening hours",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-12T11:38:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-12-24T08:09:00Z",
     "SubmissionStatusTypeID": 100
 }

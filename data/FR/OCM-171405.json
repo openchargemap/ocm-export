@@ -1,16 +1,17 @@
 {
-    "DateLastVerified": "2022-03-06T15:40:00Z",
+    "DateLastVerified": "2023-06-19T00:41:00Z",
     "ID": 171405,
     "UUID": "0EBBAB00-7300-4BF0-9941-C6C200E1BE75",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "55400",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh; Autres tarifs pour les voitures anciennes",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 171764,
         "Title": "Tesla Supercharger Chambéry",
         "AddressLine1": "Avenue des Landiers 1097",
+        "AddressLine2": "Centre Commercial Chamnord",
         "Town": "Chambéry",
         "Postcode": "73000",
         "CountryID": 80,
@@ -21,7 +22,16 @@
     "Connections": [
         {
             "ID": 262039,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 454766,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -32,7 +42,7 @@
     "NumberOfPoints": 4,
     "GeneralComments": "4 superchargers, available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:40:00Z",
+    "DateLastStatusUpdate": "2023-06-19T00:41:00Z",
     "DateCreated": "2020-12-31T06:41:00Z",
     "SubmissionStatusTypeID": 200
 }

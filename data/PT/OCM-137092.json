@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2020-02-22T15:42:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 137092,
     "UUID": "E5B00E3D-9287-438D-BA08-2A730A38B1F4",
     "DataProviderID": 1,
@@ -7,28 +7,42 @@
     "AddressInfo": {
         "ID": 137438,
         "Title": "Largo do Municipio ",
-        "AddressLine1": "Largo do Municipio  2",
+        "AddressLine1": "Largo do Municipio ",
         "Town": "São Vicente",
         "Postcode": "9240-225",
         "CountryID": 180,
-        "Latitude": 32.8037,
-        "Longitude": -17.0463,
-        "RelatedURL": "http://www.mobie.pt",
+        "Latitude": 32.8037001,
+        "Longitude": -17.0462999,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191949,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 1036,
+            "Reference": "SVC-00001-2-1",
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 220,
-            "PowerKW": 3
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 449695,
+            "ConnectionTypeID": 1036,
+            "Reference": "SVC-00001-1-1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-02-22T15:42:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-12-24T08:08:00Z",
     "SubmissionStatusTypeID": 100
 }

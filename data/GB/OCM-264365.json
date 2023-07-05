@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2023-05-02T05:40:00Z",
+    "DateLastVerified": "2023-07-03T10:10:00Z",
     "ID": 264365,
     "UUID": "23FD1022-45B0-4BA3-8295-FB30C9E5AA25",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "veefil-62100388,veefil-62200086",
+    "OperatorsReference": "PG-401963,veefil-62100388,veefil-62200086,veefil-62201243",
     "UsageTypeID": 4,
     "UsageCost": "£0.89/kWh",
     "AddressInfo": {
@@ -62,12 +62,36 @@
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "Orry-Nori"
+        },
+        {
+            "ID": 456108,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-401963",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Dave-Gabe"
+        },
+        {
+            "ID": 456109,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-62201243",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Edil-Kyla"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "This is a Pod Point Rapid charger installed at Strawberry Fields Shop site at Strawberry Fields, Lifton",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-02T05:40:00Z",
+    "DateLastStatusUpdate": "2023-07-03T10:10:00Z",
     "DateCreated": "2023-05-02T05:40:00Z",
     "SubmissionStatusTypeID": 200
 }

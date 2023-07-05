@@ -1,9 +1,9 @@
 {
-    "DateLastVerified": "2023-03-12T13:31:00Z",
+    "DateLastVerified": "2023-06-01T05:34:00Z",
     "ID": 256592,
     "UUID": "DC45CDBC-9A03-4D42-AE7D-06AE9A27E2E3",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 44,
     "UsageTypeID": 3,
     "UsageCost": "10 р/кВт*ч",
     "AddressInfo": {
@@ -17,6 +17,7 @@
         "Latitude": 56.99027188554473,
         "Longitude": 40.95241293365814,
         "ContactTelephone1": "89621555558",
+        "AccessComments": "Станция в свободном доступе на фасаде гаража. Оплата через СБП по контактному номеру телефона.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,11 +31,22 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 453281,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.6,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-12T13:31:00Z",
+    "DateLastStatusUpdate": "2023-06-01T05:34:00Z",
     "DateCreated": "2023-03-10T20:52:00Z",
     "SubmissionStatusTypeID": 200
 }

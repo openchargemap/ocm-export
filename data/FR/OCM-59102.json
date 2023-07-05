@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-08-15T15:48:00Z",
+    "DateLastVerified": "2023-06-18T23:21:00Z",
     "ID": 59102,
     "UUID": "34E6B8A3-6AA0-4C48-8D28-A52478F95895",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "10202",
     "UsageTypeID": 4,
-    "UsageCost": "€0.42/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 59448,
         "Title": "Tesla Supercharger Mulhouse",
@@ -22,7 +22,16 @@
     "Connections": [
         {
             "ID": 74994,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454731,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -32,7 +41,7 @@
     ],
     "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-15T15:48:00Z",
+    "DateLastStatusUpdate": "2023-06-18T23:21:00Z",
     "DateCreated": "2016-01-07T13:01:00Z",
     "SubmissionStatusTypeID": 200
 }

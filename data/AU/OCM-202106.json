@@ -1,13 +1,14 @@
 {
-    "DateLastVerified": "2022-09-07T07:39:00Z",
+    "DateLastVerified": "2023-06-03T12:51:00Z",
     "ID": 202106,
     "UUID": "BC7F9C06-DA74-4974-896A-54B78B47E04C",
     "DataProviderID": 1,
     "OperatorID": 3554,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
+    "UsageCost": "$0.60 per kWh DC, $0.35 per kWh AC",
     "AddressInfo": {
         "ID": 202473,
-        "Title": "Kojonup (EV Highway)",
+        "Title": "Kojonup (WA EV Network)",
         "AddressLine1": "143 Albany Highway",
         "Town": "Kojonup",
         "StateOrProvince": "Western Australia",
@@ -22,16 +23,24 @@
         {
             "ID": 337779,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 150,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 453518,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 150,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-09-07T07:39:00Z",
+    "DateLastStatusUpdate": "2023-06-03T12:51:00Z",
     "DateCreated": "2022-09-07T07:33:00Z",
     "SubmissionStatusTypeID": 200
 }

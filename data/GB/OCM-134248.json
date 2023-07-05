@@ -1,21 +1,22 @@
 {
-    "DateLastVerified": "2023-05-02T01:35:00Z",
+    "DateLastVerified": "2023-06-10T22:37:00Z",
     "ID": 134248,
     "UUID": "896DF04D-7C07-47B0-9072-F8779C51DCDE",
     "DataProviderID": 1,
-    "OperatorID": 20,
+    "OperatorID": 3555,
     "OperatorsReference": "70094",
-    "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageTypeID": 1,
+    "UsageCost": "LiFe App or Octopus Juice Card ",
     "AddressInfo": {
         "ID": 134594,
-        "Title": "Seahouses Station Yard Car Park",
-        "AddressLine1": "Station Yard Car Park",
+        "Title": "Seafield Car Park ",
+        "AddressLine1": "Seafield Road",
         "Town": "Seahouses",
-        "Postcode": "NE68 7RQ",
+        "Postcode": "NE68 7SP",
         "CountryID": 1,
-        "Latitude": 55.58123,
-        "Longitude": -1.65419,
+        "Latitude": 55.581223033808016,
+        "Longitude": -1.6554254935033441,
+        "AccessComments": "Parking charges apply ",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,39 +30,28 @@
             "Quantity": 1
         },
         {
-            "ID": 187855,
+            "ID": 351930,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 40,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 453963,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
-        },
-        {
-            "ID": 187856,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 351930,
-            "ConnectionTypeID": 0,
-            "StatusTypeID": 50,
-            "Quantity": 1
-        },
-        {
-            "ID": 446896,
-            "ConnectionTypeID": 0,
-            "StatusTypeID": 50,
-            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "Requires car parking ticket while charging. Charger operated by Northumberland County Council. Triple head rapid charger. This is a pay to use machine, use either the LiFe EV app, or credit/debit card.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-02T01:35:00Z",
+    "DateLastStatusUpdate": "2023-06-10T22:37:00Z",
     "DateCreated": "2019-11-05T06:18:00Z",
     "SubmissionStatusTypeID": 200
 }

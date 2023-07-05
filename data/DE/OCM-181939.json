@@ -1,9 +1,44 @@
 {
-    "DateLastVerified": "2021-07-09T03:21:00Z",
+    "MediaItems": [
+        {
+            "ID": 38226,
+            "ChargePointID": 181939,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM181939/OCM-181939.orig.2023061715474567.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM181939/OCM-181939.thmb.2023061715474567.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46970,
+                "Username": "Smiljan"
+            },
+            "DateCreated": "2023-06-17T15:48:00Z"
+        },
+        {
+            "ID": 38227,
+            "ChargePointID": 181939,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM181939/OCM-181939.orig.2023061715480482.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM181939/OCM-181939.thmb.2023061715480482.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46970,
+                "Username": "Smiljan"
+            },
+            "DateCreated": "2023-06-17T15:48:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-19T08:59:00Z",
     "ID": 181939,
     "UUID": "078C3777-D79B-464B-ACD3-DC8B2419000D",
-    "DataProviderID": 29,
-    "DataProvidersReference": "8821",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 182298,
         "Title": "Schwerborner Straße 30",
@@ -13,6 +48,8 @@
         "CountryID": 87,
         "Latitude": 51.012314,
         "Longitude": 11.039866,
+        "ContactTelephone2": "+49 3641 8171111",
+        "RelatedURL": "http://thueringerenergie.de",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -21,20 +58,22 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 175,
-            "CurrentTypeID": 30
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 287009,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 175,
-            "CurrentTypeID": 30
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-09T03:21:00Z",
+    "DateLastStatusUpdate": "2023-06-19T08:59:00Z",
     "MetadataValues": [
         {
             "ID": 14233,

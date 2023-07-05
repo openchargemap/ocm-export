@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2023-05-01T06:19:00Z",
+    "DateLastVerified": "2023-06-14T07:34:00Z",
     "ID": 233572,
     "UUID": "303FFFE2-C0DE-4933-947B-9DEF79000797",
-    "DataProviderID": 2,
-    "DataProvidersReference": "232737",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "$15/hour",
     "AddressInfo": {
         "ID": 233955,
-        "Title": "TAKECHARGE MARYSTOWN DCFC",
+        "Title": "Marystown Hotel",
         "AddressLine1": "180-190 Ville Marie Dr",
         "Town": "Marystown",
         "StateOrProvince": "NL",
@@ -25,26 +25,40 @@
         {
             "ID": 385549,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
+            "Amps": 156,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 385550,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
+            "Amps": 156,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 454180,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 30,
+            "Voltage": 237,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-01T06:19:00Z",
+    "DateLastStatusUpdate": "2023-06-14T07:34:00Z",
     "DateCreated": "2023-02-13T05:38:00Z",
     "SubmissionStatusTypeID": 100
 }

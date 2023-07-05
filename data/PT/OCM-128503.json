@@ -1,40 +1,49 @@
 {
-    "DateLastVerified": "2020-01-15T16:47:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 128503,
     "UUID": "35230D9E-AF88-4A43-B025-FFC6DD86BDC3",
     "DataProviderID": 1,
     "DataProvidersReference": "ABF-00005",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
+    "OperatorID": 3588,
     "AddressInfo": {
         "ID": 128849,
-        "Title": "ABF-00005",
+        "Title": "Rua do Município",
         "AddressLine1": "Rua do Município",
         "Town": "Albufeira",
-        "StateOrProvince": "Algarve",
-        "Postcode": "8200-157",
+        "Postcode": "8200-077",
         "CountryID": 180,
-        "Latitude": 37.091078595721726,
-        "Longitude": -8.245674384792096,
-        "RelatedURL": "https://www.mobie.pt",
+        "Latitude": 37.090829,
+        "Longitude": -8.2458999,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 179887,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 1036,
+            "Reference": "ABF-00005-02-01",
+            "StatusTypeID": 0,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449703,
+            "ConnectionTypeID": 1036,
+            "Reference": "ABF-00005-01-01",
+            "StatusTypeID": 0,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-15T16:47:00Z",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-06-26T08:34:00Z",
     "SubmissionStatusTypeID": 100
 }

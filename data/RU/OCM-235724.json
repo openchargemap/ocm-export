@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-02-27T23:27:00Z",
+    "DateLastVerified": "2023-05-28T15:05:00Z",
     "ID": 235724,
     "UUID": "438996CC-3AA3-4652-8A84-3E699750E021",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 4,
-    "UsageCost": "10",
+    "UsageCost": "18",
     "AddressInfo": {
         "ID": 236108,
         "Title": "АЗС Трасс 49",
@@ -15,6 +15,7 @@
         "CountryID": 185,
         "Latitude": 56.08406651355631,
         "Longitude": 37.923736664178335,
+        "AccessComments": "запуск зарядки на кассе АЗС",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,11 +26,29 @@
             "LevelID": 2,
             "PowerKW": 22,
             "Quantity": 1
+        },
+        {
+            "ID": 452802,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 452803,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-27T23:27:00Z",
+    "DateLastStatusUpdate": "2023-05-28T15:05:00Z",
     "DateCreated": "2023-02-27T11:41:00Z",
     "SubmissionStatusTypeID": 200
 }

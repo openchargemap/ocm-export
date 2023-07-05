@@ -1,41 +1,49 @@
 {
-    "DateLastVerified": "2020-09-10T11:04:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 137142,
     "UUID": "E29FF334-3316-43B7-BAD5-21A77AA2CC7F",
     "DataProviderID": 1,
     "DataProvidersReference": "CBR-00025",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
+    "OperatorID": 3684,
     "AddressInfo": {
         "ID": 137488,
-        "Title": "CBR-00025",
-        "AddressLine1": "Avenida José Bonifácio Andrade e Silva 1",
+        "Title": "Avenida José Bonifácio Andrade e Silva",
+        "AddressLine1": "Avenida José Bonifácio Andrade e Silva",
         "Town": "Coimbra",
         "Postcode": "3044-520",
         "CountryID": 180,
         "Latitude": 40.211371,
         "Longitude": -8.444192,
-        "AccessComments": "Open 08h00>24h00",
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191999,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 1036,
+            "Reference": "CBR-00025-02-01",
+            "StatusTypeID": 0,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449877,
+            "ConnectionTypeID": 1036,
+            "Reference": "CBR-00025-01-01",
+            "StatusTypeID": 0,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-10T11:04:00Z",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-12-24T08:09:00Z",
     "SubmissionStatusTypeID": 100
 }

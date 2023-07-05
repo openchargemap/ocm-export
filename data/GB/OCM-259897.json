@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2023-04-13T17:10:00Z",
+    "DateLastVerified": "2023-07-03T09:03:00Z",
     "ID": 259897,
     "UUID": "2BEC8AAC-D79B-46AB-8734-1C263926F129",
     "DataProviderID": 1,
     "OperatorID": 203,
-    "OperatorsReference": "GB*OSP*EOSP00997*1,GB*OSP*EOSP00998*1,GB*OSP*EOSP00998*2",
+    "OperatorsReference": "GB*OSP*EOSP00997*1,GB*OSP*EOSP00997*2,GB*OSP*EOSP00998*1,GB*OSP*EOSP00998*2",
     "UsageTypeID": 5,
     "UsageCost": "£0.79/kWh",
     "AddressInfo": {
@@ -20,7 +20,17 @@
     },
     "Connections": [
         {
-            "ID": 436315,
+            "ID": 437313,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP00997*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 450480,
             "ConnectionTypeID": 33,
             "Reference": "GB*OSP*EOSP00997*1",
             "StatusTypeID": 50,
@@ -30,17 +40,7 @@
             "Quantity": 1
         },
         {
-            "ID": 436316,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*OSP*EOSP00998*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 436317,
+            "ID": 450786,
             "ConnectionTypeID": 2,
             "Reference": "GB*OSP*EOSP00998*2",
             "StatusTypeID": 50,
@@ -50,9 +50,9 @@
             "Quantity": 1
         },
         {
-            "ID": 437313,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*OSP*EOSP00997*2",
+            "ID": 450787,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP00998*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -62,7 +62,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-13T17:10:00Z",
+    "DateLastStatusUpdate": "2023-07-03T09:03:00Z",
     "DateCreated": "2023-04-13T11:17:00Z",
     "SubmissionStatusTypeID": 200
 }

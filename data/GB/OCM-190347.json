@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 28726,
+            "ChargePointID": 190347,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "reported as finally open, after three years.",
+            "DateCreated": "2023-07-04T11:57:02.057Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 28093,
             "ChargePointID": 190347,
             "CommentTypeID": 10,
@@ -46,16 +60,16 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2023-01-30T09:10:00Z",
+    "DateLastVerified": "2023-07-04T11:58:00Z",
     "ID": 190347,
     "UUID": "083AC8B5-2CC6-49E4-9991-6ACE5098B845",
     "DataProviderID": 1,
     "OperatorID": 32,
     "UsageTypeID": 5,
-    "UsageCost": "£0.42p/kWh; other tariffs available",
+    "UsageCost": "£0.79p/kWh. Idle fee £10.00 after 90 mins; other tariffs available",
     "AddressInfo": {
         "ID": 190706,
-        "Title": "BP Western Avenue",
+        "Title": "BP Perivale SF Connect",
         "AddressLine1": "Western Avenue",
         "AddressLine2": "Perivale",
         "StateOrProvince": "England",
@@ -69,25 +83,47 @@
         {
             "ID": 308546,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "BPU0064",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 308547,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "BPU0064",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 460537,
+            "ConnectionTypeID": 33,
+            "Reference": "BPU0063",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 460538,
+            "ConnectionTypeID": 2,
+            "Reference": "BPU0063",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-01-30T09:10:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-04T11:58:00Z",
     "DateCreated": "2021-11-30T16:04:00Z",
     "SubmissionStatusTypeID": 200
 }

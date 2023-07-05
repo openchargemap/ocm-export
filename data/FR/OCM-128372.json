@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-03-06T15:49:00Z",
+    "DateLastVerified": "2023-06-18T23:47:00Z",
     "ID": 128372,
     "UUID": "10118AA4-6315-4953-82A8-5B52FD87E437",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "34511",
     "UsageTypeID": 4,
-    "UsageCost": "€0.36/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 128718,
         "Title": "Tesla Supercharger Limoges",
@@ -22,7 +22,16 @@
     "Connections": [
         {
             "ID": 179686,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 10
+        },
+        {
+            "ID": 454740,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -33,7 +42,7 @@
     "NumberOfPoints": 10,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:49:00Z",
+    "DateLastStatusUpdate": "2023-06-18T23:47:00Z",
     "DateCreated": "2019-06-23T05:55:00Z",
     "SubmissionStatusTypeID": 200
 }

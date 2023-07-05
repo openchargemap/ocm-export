@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-05-04T08:50:00Z",
+    "DateLastVerified": "2023-06-20T12:25:00Z",
     "ID": 255002,
     "UUID": "D7B741A2-1DE2-4862-88F3-F46CCC44FBA9",
-    "DataProviderID": 18,
-    "DataProvidersReference": "e4fe67535fb25d774b08d9e867bb7ab9",
+    "DataProviderID": 1,
     "OperatorID": 3392,
     "UsageTypeID": 5,
+    "UsageCost": "£0.85/kWh",
     "AddressInfo": {
         "ID": 255386,
         "Title": "SHELL RECHARGE LITTLE WAITROSE HOLYWELL",
@@ -21,29 +21,32 @@
     },
     "Connections": [
         {
-            "ID": 422908,
-            "ConnectionTypeID": 1036,
-            "Reference": "1",
+            "ID": 422909,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTERRA*184*004",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
+            "Amps": 200,
             "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30
         },
         {
-            "ID": 422909,
-            "ConnectionTypeID": 2,
-            "Reference": "2",
+            "ID": 455060,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTERRA*184*004",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "Amps": 300,
+            "Voltage": 600,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2023-05-04T08:50:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-06-20T12:25:00Z",
     "MetadataValues": [
         {
             "ID": 26984,

@@ -1,26 +1,45 @@
 {
-    "DateLastVerified": "2023-04-20T08:58:00Z",
+    "DateLastVerified": "2023-05-10T16:38:00Z",
     "ID": 195384,
     "UUID": "B26DC7C5-28B4-45D4-BD31-FC339DC37283",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3666,
     "UsageTypeID": 1,
-    "UsageCost": "IDR 85.000 / 30 mins",
+    "UsageCost": "Rp85000/30 minutes",
     "AddressInfo": {
         "ID": 195743,
-        "Title": "SPKLU Shell",
-        "AddressLine1": "Jl. Pangeran Antasari",
+        "Title": "Shell Antasari",
+        "AddressLine1": "Jl. Pangeran Antasari No.14, RW.1, Cipete Utara, Kec. Kby. Baru",
         "Town": "Jakarta Selatan",
         "StateOrProvince": "Jakarta",
+        "Postcode": "12150",
         "CountryID": 107,
-        "Latitude": -6.256413343787372,
-        "Longitude": 106.808345924376,
+        "Latitude": -6.256409398862573,
+        "Longitude": 106.80833419514443,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 325340,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 450834,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 450835,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -30,7 +49,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-20T08:58:00Z",
+    "DateLastStatusUpdate": "2023-05-10T16:38:00Z",
     "DateCreated": "2022-08-19T13:07:00Z",
     "SubmissionStatusTypeID": 200
 }

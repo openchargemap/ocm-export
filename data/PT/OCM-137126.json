@@ -1,31 +1,29 @@
 {
-    "DateLastVerified": "2021-02-20T18:55:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 137126,
     "UUID": "F2CFF781-D487-4C79-A67B-7DE9C333C024",
     "DataProviderID": 1,
     "DataProvidersReference": "VPV-00001",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card or App",
+    "OperatorID": 3557,
     "AddressInfo": {
         "ID": 137472,
-        "Title": "VPV-00001",
+        "Title": "Via Vitorino Nemésio km 17,75",
         "AddressLine1": "Via Vitorino Nemésio km 17,75",
         "Town": "Praia da Vitória",
         "Postcode": "9760-587",
         "CountryID": 180,
         "Latitude": 38.750064,
-        "Longitude": -27.0953,
-        "RelatedURL": "http://www.mobie.pt",
+        "Longitude": -27.0952999,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191983,
             "ConnectionTypeID": 2,
+            "Reference": "VPV-00001-01-01",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 120,
+            "Amps": 125,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -34,6 +32,7 @@
         {
             "ID": 264431,
             "ConnectionTypeID": 33,
+            "Reference": "VPV-00001-02-01",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -44,7 +43,8 @@
         },
         {
             "ID": 264432,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
+            "Reference": "VPV-00001-03-01",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
@@ -54,9 +54,8 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-02-20T18:55:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-12-24T08:08:00Z",
     "SubmissionStatusTypeID": 100
 }

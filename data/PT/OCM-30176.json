@@ -1,41 +1,49 @@
 {
-    "DateLastVerified": "2020-09-24T20:02:00Z",
+    "DateLastVerified": "2023-07-04T05:55:00Z",
     "ID": 30176,
     "UUID": "907F02DB-7DDC-44C2-BDB0-D0622E439EFE",
     "DataProviderID": 1,
     "DataProvidersReference": "BRG-00006",
     "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
     "AddressInfo": {
         "ID": 30522,
-        "Title": "BRG-00006",
+        "Title": "Rua Doutor Francisco Duarte",
         "AddressLine1": "Rua Doutor Francisco Duarte",
         "Town": "Braga",
-        "StateOrProvince": "Braga",
         "Postcode": "4715-126",
         "CountryID": 180,
-        "Latitude": 41.54868907,
-        "Longitude": -8.413551225,
-        "RelatedURL": "http://www.mobie.pt",
+        "Latitude": 41.5486891,
+        "Longitude": -8.4135512,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 33161,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "BRG-00006-02-01",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 449967,
+            "ConnectionTypeID": 1036,
+            "Reference": "BRG-00006-01-01",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-24T20:02:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:55:00Z",
     "DateCreated": "2014-11-29T14:48:00Z",
     "SubmissionStatusTypeID": 100
 }

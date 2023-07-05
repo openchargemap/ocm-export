@@ -1,31 +1,29 @@
 {
-    "DateLastVerified": "2021-02-20T19:25:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 137101,
     "UUID": "600F74F5-F8AF-4C41-9BBE-F91F89434613",
     "DataProviderID": 1,
     "DataProvidersReference": "MAD-00001",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card or App",
+    "OperatorID": 3557,
     "AddressInfo": {
         "ID": 137447,
-        "Title": "MAD-00001",
+        "Title": "Rua Dr. Manuel de Arriaga",
         "AddressLine1": "Rua Dr. Manuel de Arriaga",
-        "Town": "Ilha do Pico - Município de Madalena",
+        "Town": "Madalena",
         "Postcode": "9950-305",
         "CountryID": 180,
         "Latitude": 38.525833,
         "Longitude": -28.530778,
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191958,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
+            "Reference": "MAD-00001-02-01",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 120,
+            "Amps": 125,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -33,7 +31,8 @@
         },
         {
             "ID": 264443,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
+            "Reference": "MAD-00001-01-01",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -44,7 +43,8 @@
         },
         {
             "ID": 264444,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
+            "Reference": "MAD-00001-03-01",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
@@ -54,9 +54,8 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-02-20T19:25:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-12-24T08:08:00Z",
     "SubmissionStatusTypeID": 100
 }

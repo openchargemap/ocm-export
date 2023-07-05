@@ -1,5 +1,39 @@
 {
-    "DateLastVerified": "2023-04-22T11:56:00Z",
+    "MediaItems": [
+        {
+            "ID": 37793,
+            "ChargePointID": 260370,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM260370/OCM-260370.orig.2023051507410398.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM260370/OCM-260370.thmb.2023051507410398.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-05-15T07:41:00Z"
+        },
+        {
+            "ID": 37792,
+            "ChargePointID": 260370,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM260370/OCM-260370.orig.2023051507294457.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM260370/OCM-260370.thmb.2023051507294457.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-05-15T07:30:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-05-15T13:58:00Z",
     "ID": 260370,
     "UUID": "66D92D88-7AF0-4131-9035-67715AE44044",
     "DataProviderID": 1,
@@ -13,8 +47,8 @@
         "StateOrProvince": "Navarra - Nafarroa",
         "Postcode": "31191",
         "CountryID": 210,
-        "Latitude": 42.783409949118635,
-        "Longitude": -1.6339171731647184,
+        "Latitude": 42.78354306795279,
+        "Longitude": -1.6340371943740877,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -49,13 +83,49 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 18
+            "Quantity": 24
+        },
+        {
+            "ID": 451740,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
+        },
+        {
+            "ID": 451741,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Ingeteam RAPID120 Charger. The CCS/Chademo charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
+        },
+        {
+            "ID": 451770,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Ingeteam RAPID120 Charger. "
         }
     ],
-    "NumberOfPoints": 22,
+    "NumberOfPoints": 32,
     "GeneralComments": "App EVCharge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-22T11:56:00Z",
+    "DateLastStatusUpdate": "2023-05-15T13:58:00Z",
     "DateCreated": "2023-04-22T11:51:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -28,13 +28,13 @@
             "CheckinStatusTypeID": 120
         }
     ],
-    "DateLastVerified": "2023-04-26T13:25:00Z",
+    "DateLastVerified": "2023-07-03T10:11:00Z",
     "ID": 55085,
     "UUID": "B31C5C05-593F-41FC-A095-EE0824725D1C",
     "DataProviderID": 1,
     "DataProvidersReference": "PG-80205,PG-90523,PG-90543,PG-90582,t53_it1_5115_009",
     "OperatorID": 3,
-    "OperatorsReference": "PG-92397,PSL-62322",
+    "OperatorsReference": "PG-91921,PG-92397,PSL-62322",
     "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -69,16 +69,31 @@
             "Reference": "PG-92397",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 20,
+            "CurrentTypeID": 10,
             "Quantity": 1,
             "Comments": "Adam-Rick"
+        },
+        {
+            "ID": 451825,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-91921",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Josh-Kate"
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "Pod-Point T7-S charge points, and S7-UP. Web/app login and pre-payment account required",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-26T13:25:00Z",
+    "DateLastStatusUpdate": "2023-07-03T10:11:00Z",
     "DateCreated": "2015-10-14T12:00:00Z",
     "SubmissionStatusTypeID": 200
 }

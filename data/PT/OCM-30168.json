@@ -1,41 +1,49 @@
 {
-    "DateLastVerified": "2020-09-28T18:32:00Z",
+    "DateLastVerified": "2023-07-04T05:55:00Z",
     "ID": 30168,
     "UUID": "98AD3BBC-A326-4872-8272-AEAE5605EB6E",
     "DataProviderID": 1,
     "DataProvidersReference": "GMR-00002",
     "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
     "AddressInfo": {
         "ID": 30514,
-        "Title": "GMR-00002",
+        "Title": "Rua Val de Donas",
         "AddressLine1": "Rua Val de Donas",
         "Town": "Guimarães",
-        "StateOrProvince": "Braga",
         "Postcode": "4800-476",
         "CountryID": 180,
-        "Latitude": 41.4445,
+        "Latitude": 41.4445001,
         "Longitude": -8.29428,
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 33153,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 1036,
+            "Reference": "GMR-00002-02-01",
+            "StatusTypeID": 0,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 449957,
+            "ConnectionTypeID": 1036,
+            "Reference": "GMR-00002-01-01",
+            "StatusTypeID": 0,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-28T18:32:00Z",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-07-04T05:55:00Z",
     "DateCreated": "2014-11-29T14:48:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,11 +1,45 @@
 {
-    "DateLastVerified": "2023-03-05T12:28:00Z",
+    "MediaItems": [
+        {
+            "ID": 38418,
+            "ChargePointID": 238423,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM238423/OCM-238423.orig.2023062613394057.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM238423/OCM-238423.thmb.2023062613394057.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-06-26T13:40:00Z"
+        },
+        {
+            "ID": 38417,
+            "ChargePointID": 238423,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM238423/OCM-238423.orig.2023062613392272.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM238423/OCM-238423.thmb.2023062613392272.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-06-26T13:39:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-26T13:40:00Z",
     "ID": 238423,
     "UUID": "13D4A660-1D97-49BD-87D8-15D84A0FFA37",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh",
+    "UsageCost": "0,45€/kWh DC - 0,39€/kWh AC",
     "AddressInfo": {
         "ID": 238807,
         "Title": "Hotel B&B Albacete (Endesa)",
@@ -14,8 +48,8 @@
         "StateOrProvince": "Castilla-La Mancha",
         "Postcode": "02005",
         "CountryID": 210,
-        "Latitude": 39.00790186822917,
-        "Longitude": -1.8838291019492317,
+        "Latitude": 39.00792077869889,
+        "Longitude": -1.8838937112248288,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,11 +61,38 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 4
+        },
+        {
+            "ID": 451663,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 451664,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 451665,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-05T12:28:00Z",
+    "DateLastStatusUpdate": "2023-06-26T13:40:00Z",
     "DateCreated": "2023-03-05T12:26:00Z",
     "SubmissionStatusTypeID": 200
 }

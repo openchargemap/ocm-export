@@ -17,13 +17,13 @@
             "DateCreated": "2023-04-26T12:00:00Z"
         }
     ],
-    "DateLastVerified": "2023-04-26T12:00:00Z",
+    "DateLastVerified": "2023-06-15T10:24:00Z",
     "ID": 204295,
     "UUID": "C1D76DC1-82B4-4856-947E-ABB134A1CC3F",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": "0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "0,56€/kWh >80kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 204662,
         "Title": "Rest. Casa Pepe",
@@ -40,32 +40,46 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 250,
+            "Voltage": 920,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Delta Slim100 Charger. The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW. "
         },
         {
             "ID": 341345,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Circutor Raption50"
+        },
+        {
+            "ID": 341346,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 454267,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 341346,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "Circutor Raption50"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-26T12:00:00Z",
+    "DateLastStatusUpdate": "2023-06-15T10:24:00Z",
     "DateCreated": "2022-09-26T15:33:00Z",
     "SubmissionStatusTypeID": 200
 }

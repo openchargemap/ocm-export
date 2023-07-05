@@ -17,16 +17,16 @@
             "DateCreated": "2022-08-28T14:14:00Z"
         }
     ],
-    "DateLastVerified": "2022-10-28T07:33:00Z",
+    "DateLastVerified": "2023-06-15T10:22:00Z",
     "ID": 172230,
     "UUID": "C22EB534-24AA-49DD-A66E-0DC9C06DD557",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": "0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "0,56€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 172589,
-        "Title": "PRVE Hotel Zodiaco",
+        "Title": "Hotel Zodiaco (Wenea)",
         "AddressLine1": "Carretera Madrid - Cádiz, km 294",
         "Town": "Bailén",
         "StateOrProvince": "Andalusia",
@@ -38,22 +38,16 @@
     },
     "Connections": [
         {
-            "ID": 263295,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
             "ID": 263296,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 250,
+            "Voltage": 920,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Delta Slim100 Charger. The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW. "
         },
         {
             "ID": 263297,
@@ -61,12 +55,12 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "Quantity": 2
+            "Quantity": 3
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-28T07:33:00Z",
+    "DateLastStatusUpdate": "2023-06-15T10:22:00Z",
     "DateCreated": "2021-01-23T19:53:00Z",
     "SubmissionStatusTypeID": 200
 }

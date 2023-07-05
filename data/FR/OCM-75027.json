@@ -1,18 +1,19 @@
 {
-    "DateLastVerified": "2022-03-06T15:36:00Z",
+    "DateLastVerified": "2023-06-18T23:19:00Z",
     "ID": 75027,
     "UUID": "C20B0414-1950-4542-9027-29F882DEDB70",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "18155",
-    "UsageTypeID": 4,
-    "UsageCost": "€0.34/kWh",
+    "UsageTypeID": 1,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75373,
         "Title": "Tesla Supercharger Strasbourg",
         "AddressLine1": "Rue du 23 Novembre",
-        "AddressLine2": "Hôtel Mercure Strasbourg Aeroport",
+        "AddressLine2": "Hôtel Mercure Strasbourg Aéroport",
         "Town": "Ostwald",
+        "StateOrProvince": "Bas-Rhin",
         "Postcode": "67400",
         "CountryID": 80,
         "Latitude": 48.534041,
@@ -21,8 +22,17 @@
     },
     "Connections": [
         {
-            "ID": 108220,
-            "ConnectionTypeID": 27,
+            "ID": 452217,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454730,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -33,7 +43,7 @@
     "NumberOfPoints": 8,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:36:00Z",
+    "DateLastStatusUpdate": "2023-06-18T23:19:00Z",
     "DateCreated": "2016-12-10T18:18:00Z",
     "SubmissionStatusTypeID": 200
 }

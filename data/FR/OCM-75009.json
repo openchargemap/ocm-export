@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-03-06T16:06:00Z",
+    "DateLastVerified": "2023-06-19T00:23:00Z",
     "ID": 75009,
     "UUID": "03A379BD-E543-4837-8B25-BDBBCE1AD651",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "13774",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh; Autres tarifs pour les voitures anciennes",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75355,
         "Title": "Tesla Supercharger Aix-en-Provence",
@@ -22,7 +22,16 @@
     "Connections": [
         {
             "ID": 108202,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 454755,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -33,7 +42,7 @@
     "NumberOfPoints": 4,
     "GeneralComments": "4 Superchargers, available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T16:06:00Z",
+    "DateLastStatusUpdate": "2023-06-19T00:23:00Z",
     "DateCreated": "2016-12-10T17:19:00Z",
     "SubmissionStatusTypeID": 200
 }

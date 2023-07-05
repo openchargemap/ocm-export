@@ -1,41 +1,49 @@
 {
-    "DateLastVerified": "2021-09-25T19:17:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 149303,
     "UUID": "86671F1F-60F4-4232-9CAE-75861962D6CB",
     "DataProviderID": 1,
     "DataProvidersReference": "STN-00002",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card or App",
+    "OperatorID": 3685,
     "AddressInfo": {
         "ID": 149656,
-        "Title": "STN-00002 - Quinta do Furão",
-        "AddressLine1": "Estrada da Quinta do Furão 6",
+        "Title": "Estrada da Quinta do Furão",
+        "AddressLine1": "Estrada da Quinta do Furão",
         "Town": "Santana",
-        "StateOrProvince": "Madeira",
         "Postcode": "9230-082",
         "CountryID": 180,
         "Latitude": 32.823144,
         "Longitude": -16.885319,
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 207314,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 1036,
+            "Reference": "STN-00002-02-01",
+            "StatusTypeID": 0,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 11,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449698,
+            "ConnectionTypeID": 1036,
+            "Reference": "STN-00002-01-01",
+            "StatusTypeID": 0,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-25T19:17:00Z",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2020-02-22T15:42:00Z",
     "SubmissionStatusTypeID": 100
 }

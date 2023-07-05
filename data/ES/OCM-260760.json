@@ -50,12 +50,13 @@
             "DateCreated": "2023-04-29T16:05:00Z"
         }
     ],
-    "DateLastVerified": "2023-05-02T02:03:00Z",
+    "DateLastVerified": "2023-05-11T16:03:00Z",
     "ID": 260760,
     "UUID": "2D668808-E95F-4BEA-B018-AFB06EBCE58A",
     "DataProviderID": 1,
     "OperatorID": 3557,
     "UsageTypeID": 4,
+    "UsageCost": "0,50€/kWh",
     "AddressInfo": {
         "ID": 261144,
         "Title": "Hotel EXE Getafe",
@@ -73,17 +74,19 @@
         {
             "ID": 438986,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 200,
             "Voltage": 1000,
             "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "HelloNext H2-150 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW. Maximum amperage 200A (max power is limited  to 80kW for 400V cars)"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-05-02T02:03:00Z",
+    "DateLastStatusUpdate": "2023-05-11T16:03:00Z",
     "DateCreated": "2023-04-28T15:50:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,28 +1,37 @@
 {
-    "DateLastVerified": "2021-09-25T18:57:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 94848,
     "UUID": "871E356D-6E0C-4BD2-B7AA-76B6C59DDFCE",
     "DataProviderID": 1,
     "DataProvidersReference": "MCH-00002",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card or App",
     "AddressInfo": {
         "ID": 95194,
-        "Title": "MCH-00002",
+        "Title": "Praceta 25 de Abril",
         "AddressLine1": "Praceta 25 de Abril",
         "Town": "Machico",
         "Postcode": "9200-084",
         "CountryID": 180,
         "Latitude": 32.717401,
         "Longitude": -16.765716,
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 134077,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
+            "Reference": "MCH-00002-03-01",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 306301,
+            "ConnectionTypeID": 2,
+            "Reference": "MCH-00002-01-01",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -32,31 +41,20 @@
             "Quantity": 1
         },
         {
-            "ID": 306301,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "ID": 306302,
+            "ConnectionTypeID": 33,
+            "Reference": "MCH-00002-02-01",
+            "StatusTypeID": 100,
             "LevelID": 3,
-            "Amps": 120,
+            "Amps": 125,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
-        },
-        {
-            "ID": 306302,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 64,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-25T18:57:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2017-10-28T13:32:00Z",
     "SubmissionStatusTypeID": 100
 }

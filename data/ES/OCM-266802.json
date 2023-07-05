@@ -1,0 +1,49 @@
+{
+    "DateLastVerified": "2023-06-15T16:49:00Z",
+    "ID": 266802,
+    "UUID": "096EFC56-4429-4127-B7B0-E436B3DBA754",
+    "DataProviderID": 1,
+    "OperatorID": 3550,
+    "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh  + parking",
+    "AddressInfo": {
+        "ID": 267186,
+        "Title": "C.C. Albufera Plaza",
+        "AddressLine1": "Plaza de Mariana Pineda",
+        "AddressLine2": "Puente de Vallecas",
+        "StateOrProvince": "Comunidad de Madrid",
+        "Postcode": "28038",
+        "CountryID": 210,
+        "Latitude": 40.392326428186294,
+        "Longitude": -3.6559605275303113,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 454324,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 5,
+            "Comments": "Six Kempower CCS/Chademo Satellite chargers that dynamically share the total power of the cabinet (200 kW). Charging power limited for 400V cars."
+        },
+        {
+            "ID": 454325,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 6,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-06-15T16:49:00Z",
+    "DateCreated": "2023-06-15T15:40:00Z",
+    "SubmissionStatusTypeID": 200
+}

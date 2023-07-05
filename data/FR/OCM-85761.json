@@ -1,17 +1,19 @@
 {
-    "DateLastVerified": "2022-03-06T15:30:00Z",
+    "DateLastVerified": "2023-06-18T22:20:00Z",
     "ID": 85761,
     "UUID": "4AFCFDE4-7402-4B4C-88E0-D680255C9FEA",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "26726",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 86107,
         "Title": "Tesla Supercharger Aire d'Urvillers",
-        "AddressLine1": "A26",
+        "AddressLine1": "A26 - Aire d'Urvillers",
         "Town": "Urvillers",
+        "StateOrProvince": "Aisne",
+        "Postcode": "02690",
         "CountryID": 80,
         "Latitude": 49.787019,
         "Longitude": 3.335626,
@@ -20,7 +22,16 @@
     "Connections": [
         {
             "ID": 121914,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454706,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -31,7 +42,7 @@
     "NumberOfPoints": 8,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:30:00Z",
+    "DateLastStatusUpdate": "2023-06-18T22:20:00Z",
     "DateCreated": "2017-04-15T05:40:00Z",
     "SubmissionStatusTypeID": 200
 }

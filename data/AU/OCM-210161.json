@@ -1,21 +1,23 @@
 {
-    "DateLastVerified": "2022-12-01T06:39:00Z",
+    "DateLastVerified": "2023-05-26T14:27:00Z",
     "ID": 210161,
     "UUID": "673D6F73-E07F-4916-BF2F-64AB4BDB1CC7",
     "DataProviderID": 1,
-    "OperatorID": 3554,
+    "OperatorID": 3339,
     "UsageTypeID": 4,
+    "UsageCost": "DC - $0.60 per kWh (at all times) AC - $0.35 per kWh (at all times)",
     "AddressInfo": {
         "ID": 210541,
-        "Title": "Manjimup (EV Highway)",
+        "Title": "Manjimup (WA EV Network)",
         "AddressLine1": "Johnson Crescent",
         "Town": "Manjimup",
         "StateOrProvince": "Western Australia",
         "Postcode": "6258",
         "CountryID": 18,
-        "Latitude": -34.241381180413306,
-        "Longitude": 116.14707748567128,
-        "RelatedURL": "https://manjimup.infocouncil.biz/Open/2022/11/OC_17112022_MIN.htm#PDF2_ReportName_4977",
+        "Latitude": -34.241007903844505,
+        "Longitude": 116.14730165820424,
+        "ContactTelephone1": "1300 518 038",
+        "RelatedURL": "https://www.chargefox.com/charge/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,11 +29,20 @@
             "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 452592,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2022-12-01T06:39:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-05-26T14:27:00Z",
     "DateCreated": "2022-12-01T06:34:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-02-27T21:50:00Z",
+    "DateLastVerified": "2023-06-29T14:43:00Z",
     "ID": 237818,
     "UUID": "6981EDE5-2416-44D4-9A88-4F01C21D6C4A",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
+    "UsageCost": "19 р/кВт*ч",
     "AddressInfo": {
         "ID": 238202,
         "Title": "Нефтемагистраль на 12км МКАД. АЗС 060",
@@ -13,6 +14,8 @@
         "CountryID": 185,
         "Latitude": 55.67432068109542,
         "Longitude": 37.83623221145956,
+        "ContactTelephone1": "+78007758187",
+        "RelatedURL": "https://electro.cars/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -20,17 +23,19 @@
             "ID": 391192,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 120,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 391193,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 391194,
@@ -38,12 +43,12 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-27T21:50:00Z",
+    "DateLastStatusUpdate": "2023-06-29T14:43:00Z",
     "DateCreated": "2023-02-27T19:14:00Z",
     "SubmissionStatusTypeID": 200
 }

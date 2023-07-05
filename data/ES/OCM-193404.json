@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2022-10-25T11:37:00Z",
+    "MediaItems": [
+        {
+            "ID": 38179,
+            "ChargePointID": 193404,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM193404/OCM-193404.orig.2023061406244710.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM193404/OCM-193404.thmb.2023061406244710.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-06-14T06:25:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-14T06:25:00Z",
     "ID": 193404,
     "UUID": "CC5F789F-69D1-446F-9E8B-E151B6CD5970",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,60€/kWh >60kW - 0,50€/kWh DC - 0,45€/kWh AC",
     "AddressInfo": {
         "ID": 193763,
         "Title": "Verdecora Torrelodones",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28251",
         "CountryID": 210,
-        "Latitude": 40.56794509554223,
-        "Longitude": -3.917144462217607,
+        "Latitude": 40.56778063705238,
+        "Longitude": -3.917059989381869,
         "AccessComments": "Verdecora parking first floor",
         "DistanceUnit": 0
     },
@@ -49,12 +67,36 @@
             "CurrentTypeID": 20,
             "Quantity": 1,
             "Comments": "requires cable"
+        },
+        {
+            "ID": 454138,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW of power. Maximum amperage 200A (max power limited to 80kW for 400V cars)"
+        },
+        {
+            "ID": 454139,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW of power. Maximum amperage 200A (max power limited to 80kW for 400V cars)"
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Operated by Endesa X thru the app JuicePass",
+    "NumberOfPoints": 6,
+    "GeneralComments": "Operated by Endesa X thru the app JuicePass. Accesible only during bussiness hours",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-25T11:37:00Z",
+    "DateLastStatusUpdate": "2023-06-14T06:25:00Z",
     "DateCreated": "2022-06-08T14:02:00Z",
     "SubmissionStatusTypeID": 200
 }

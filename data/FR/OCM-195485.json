@@ -1,17 +1,86 @@
 {
-    "DateLastVerified": "2022-08-23T10:43:00Z",
+    "UserComments": [
+        {
+            "ID": 28562,
+            "ChargePointID": 195485,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "A 500 metri dall'uscita 38 (Narbonne) dell'autostrada A9 in Francia, accessibili sia se si viene dalla A64 (Tolosa) che da sud sulla A9 (Barcellona) che da nord sempre sulla A9 (Montpellier). Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnine-high-power-alize-narbonne-t26899.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-high-power-alize-narbonne-t26899.html",
+            "DateCreated": "2023-05-26T14:03:04.773Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 37893,
+            "ChargePointID": 195485,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM195485/OCM-195485.orig.2023052614032901.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM195485/OCM-195485.thmb.2023052614032901.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-05-26T14:04:00Z"
+        },
+        {
+            "ID": 37891,
+            "ChargePointID": 195485,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM195485/OCM-195485.orig.2023052614031774.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM195485/OCM-195485.thmb.2023052614031774.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-05-26T14:03:00Z"
+        },
+        {
+            "ID": 37892,
+            "ChargePointID": 195485,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM195485/OCM-195485.orig.2023052614032309.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM195485/OCM-195485.thmb.2023052614032309.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-05-26T14:03:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-05-26T14:26:00Z",
     "ID": 195485,
     "UUID": "92F20AAC-114C-4272-BD8B-88FDD58B08F8",
-    "DataProviderID": 28,
-    "DataProvidersReference": "NK7ry8DEGP",
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 3543,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 195844,
-        "Title": "NARBONNE - Route de Perpignan",
+        "Title": "Alizé Cinéma CGR",
         "AddressLine1": "Route de Perpignan - 11100 NARBONNE",
+        "Town": "Narbonne",
         "CountryID": 80,
         "Latitude": 43.164325714,
         "Longitude": 2.986775398,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-high-power-alize-narbonne-t26899.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -20,13 +89,39 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30
+            "PowerKW": 240,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 452589,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 452590,
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 452591,
+            "ConnectionTypeID": 1036,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 3,
     "GeneralComments": "Recharge par badge et avec une application smartphone",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:43:00Z",
+    "DateLastStatusUpdate": "2023-05-26T14:26:00Z",
     "DateCreated": "2022-08-23T09:32:00Z",
     "SubmissionStatusTypeID": 100
 }

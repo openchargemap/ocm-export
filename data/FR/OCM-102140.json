@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-03-06T15:23:00Z",
+    "DateLastVerified": "2023-06-18T22:43:00Z",
     "ID": 102140,
     "UUID": "CD8EE916-535C-4C93-92B7-D19FFE58530B",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "42312",
     "UsageTypeID": 4,
-    "UsageCost": "€0.36/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 102486,
         "Title": "Tesla Supercharger Thiais",
@@ -22,7 +22,16 @@
     "Connections": [
         {
             "ID": 144139,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 12
+        },
+        {
+            "ID": 454713,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -33,7 +42,7 @@
     "NumberOfPoints": 12,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:23:00Z",
+    "DateLastStatusUpdate": "2023-06-18T22:43:00Z",
     "DateCreated": "2018-04-17T05:53:00Z",
     "SubmissionStatusTypeID": 200
 }

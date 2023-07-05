@@ -1,40 +1,49 @@
 {
-    "DateLastVerified": "2021-01-21T22:38:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 137135,
     "UUID": "C51A8B35-EA47-44D1-B427-CFE7BC487C83",
     "DataProviderID": 1,
     "DataProvidersReference": "MFR-00001",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
+    "OperatorID": 3557,
     "AddressInfo": {
         "ID": 137481,
-        "Title": "MFR-00001",
-        "AddressLine1": "Estrada Nacional N247 S/N",
+        "Title": "Estrada Nacional N247",
+        "AddressLine1": "Estrada Nacional N247",
         "Town": "Mafra",
         "Postcode": "2655-270 ",
         "CountryID": 180,
         "Latitude": 38.970284,
         "Longitude": -9.419668,
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191992,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "MFR-00001-1-1",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449818,
+            "ConnectionTypeID": 1036,
+            "Reference": "MFR-00001-2-1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-21T22:38:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-12-24T08:09:00Z",
     "SubmissionStatusTypeID": 100
 }

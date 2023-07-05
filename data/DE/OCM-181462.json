@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 28504,
+            "ChargePointID": 181462,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "2 colonnine Alpitronic da 300 kW con 2 CCS cadauno presso il locale distributore di benzina. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnine-hfc-300-kw-enbw-durener-str-176-kreuzau-t26769.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-hfc-300-kw-enbw-durener-str-176-kreuzau-t26769.html",
+            "DateCreated": "2023-05-09T14:40:41.313Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 26156,
             "ChargePointID": 181462,
             "CommentTypeID": 10,
@@ -18,6 +33,38 @@
     ],
     "MediaItems": [
         {
+            "ID": 37713,
+            "ChargePointID": 181462,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM181462/OCM-181462.orig.2023050914405127.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM181462/OCM-181462.thmb.2023050914405127.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-05-09T14:41:00Z"
+        },
+        {
+            "ID": 37714,
+            "ChargePointID": 181462,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM181462/OCM-181462.orig.2023050914405694.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM181462/OCM-181462.thmb.2023050914405694.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-05-09T14:41:00Z"
+        },
+        {
             "ID": 32899,
             "ChargePointID": 181462,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM181462/OCM-181462.orig.2022081613383013.jpg",
@@ -34,20 +81,22 @@
             "DateCreated": "2022-08-16T13:39:00Z"
         }
     ],
-    "DateLastVerified": "2022-08-16T19:12:00Z",
+    "DateLastVerified": "2023-05-09T20:25:00Z",
     "ID": 181462,
     "UUID": "00EF8DA2-6E60-4481-B163-D6128AAF3B05",
     "DataProviderID": 1,
     "OperatorID": 86,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 181821,
-        "Title": "Dürener Str. 176",
-        "AddressLine1": "Dürener Str. 176",
+        "Title": "EnBW Shell",
+        "AddressLine1": "Dürener Straße 176/A",
         "Town": "Kreuzau",
         "Postcode": "52372",
         "CountryID": 87,
-        "Latitude": 50.754764560100426,
-        "Longitude": 6.488645886394806,
+        "Latitude": 50.755075,
+        "Longitude": 6.488923,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-hfc-300-kw-enbw-durener-str-176-kreuzau-t26769.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -57,35 +106,21 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 300,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 285808,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 300,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 285809,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 300,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 285810,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 300,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-16T19:12:00Z",
+    "DateLastStatusUpdate": "2023-05-09T20:25:00Z",
     "MetadataValues": [
         {
             "ID": 13756,

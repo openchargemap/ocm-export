@@ -1,41 +1,49 @@
 {
-    "DateLastVerified": "2020-08-12T21:40:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 128504,
     "UUID": "4EDF8D99-C1BF-459D-8373-1BABE76F14FA",
     "DataProviderID": 1,
     "DataProvidersReference": "SNT-00014",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
+    "OperatorID": 3588,
     "AddressInfo": {
         "ID": 128850,
-        "Title": "SNT-00014",
-        "AddressLine1": "Av. Pedro Alvares Cabral 230",
+        "Title": "Av. Pedro Alvares Cabral",
+        "AddressLine1": "Av. Pedro Alvares Cabral",
         "Town": "Sintra",
         "Postcode": "2714-544",
         "CountryID": 180,
         "Latitude": 38.758436,
         "Longitude": -9.380988,
-        "AccessComments": "Open 10h00>01h00",
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 179888,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "SNT-00014-02-01",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449797,
+            "ConnectionTypeID": 1036,
+            "Reference": "SNT-00014-01-01",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-12T21:40:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-06-26T08:34:00Z",
     "SubmissionStatusTypeID": 100
 }

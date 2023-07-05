@@ -1,11 +1,46 @@
 {
-    "DateLastVerified": "2018-10-04T00:05:00Z",
+    "MediaItems": [
+        {
+            "ID": 38237,
+            "ChargePointID": 88342,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM88342/OCM-88342.orig.2023061913423375.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM88342/OCM-88342.thmb.2023061913423375.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 19496,
+                "Username": "ECOGY"
+            },
+            "DateCreated": "2023-06-19T13:43:00Z"
+        },
+        {
+            "ID": 38238,
+            "ChargePointID": 88342,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM88342/OCM-88342.orig.2023061913425558.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM88342/OCM-88342.thmb.2023061913425558.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 19496,
+                "Username": "ECOGY"
+            },
+            "DateCreated": "2023-06-19T13:43:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-19T13:43:00Z",
     "ID": 88342,
     "UUID": "12CB5A20-C7F5-43E4-92D8-DC78839A1E08",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "30032",
-    "UsageTypeID": 6,
+    "UsageTypeID": 4,
+    "UsageCost": "Consumption-based by kWh",
     "AddressInfo": {
         "ID": 88688,
         "Title": "Hotel Traminer Hof",
@@ -16,25 +51,59 @@
         "Latitude": 46.342859,
         "Longitude": 11.24544,
         "ContactTelephone1": "+39 0471 860 384",
+        "AccessComments": "RFID card available at office",
+        "RelatedURL": "https://www.traminerhof.it/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 125310,
-            "ConnectionTypeID": 30,
+            "ID": 454941,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
+            "Amps": 16,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 454942,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 454943,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 454944,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "1 Tesla Connector, up to 22kW.Available for patrons only. Please call ahead.Seasonal availability. Please call ahead.",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-10-04T00:05:00Z",
+    "DateLastStatusUpdate": "2023-06-19T13:43:00Z",
     "DateCreated": "2017-05-29T05:38:00Z",
     "SubmissionStatusTypeID": 200
 }

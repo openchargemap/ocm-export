@@ -1,11 +1,45 @@
 {
-    "DateLastVerified": "2023-03-03T16:24:00Z",
+    "MediaItems": [
+        {
+            "ID": 37952,
+            "ChargePointID": 238149,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RU/OCM238149/OCM-238149.orig.2023053020074727.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RU/OCM238149/OCM-238149.thmb.2023053020074727.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44971,
+                "Username": "Winston37"
+            },
+            "DateCreated": "2023-05-30T20:08:00Z"
+        },
+        {
+            "ID": 37953,
+            "ChargePointID": 238149,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RU/OCM238149/OCM-238149.orig.2023053020082320.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RU/OCM238149/OCM-238149.thmb.2023053020082320.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44971,
+                "Username": "Winston37"
+            },
+            "DateCreated": "2023-05-30T20:08:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-07-03T14:54:00Z",
     "ID": 238149,
     "UUID": "345AC3D4-DBC1-4488-8427-C005570001E6",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 4,
-    "UsageCost": "15",
+    "OperatorID": 3686,
+    "UsageTypeID": 1,
+    "UsageCost": "Бесплатно",
     "AddressInfo": {
         "ID": 238533,
         "Title": "улица Победы",
@@ -23,6 +57,8 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 1000,
             "PowerKW": 90,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -41,14 +77,17 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-03T16:24:00Z",
+    "GeneralComments": "",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2023-07-03T14:54:00Z",
     "DateCreated": "2023-03-02T13:01:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,0 +1,81 @@
+{
+    "MediaItems": [
+        {
+            "ID": 37689,
+            "ChargePointID": 265212,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM265212/OCM-265212.orig.2023050708301998.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM265212/OCM-265212.thmb.2023050708301998.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-05-07T08:30:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-01T18:33:00Z",
+    "ID": 265212,
+    "UUID": "D58EBD93-C8D6-4978-9DB5-6AF3879EC065",
+    "DataProviderID": 1,
+    "OperatorID": 3671,
+    "UsageTypeID": 4,
+    "UsageCost": "0,55€/kWh",
+    "AddressInfo": {
+        "ID": 265596,
+        "Title": "Hotel Commodoro Playa",
+        "AddressLine1": "Passeig Marítim de Son Maties",
+        "AddressLine2": "Magaluf",
+        "StateOrProvince": "Illes Balears",
+        "Postcode": "07184",
+        "CountryID": 210,
+        "Latitude": 39.51193970043204,
+        "Longitude": 2.539261646665068,
+        "ContactTelephone1": "+34681373671",
+        "ContactTelephone2": "info@emallorca.io",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 449585,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "XCharge 150 DC (CCS/Chademo) charger allows charging one vehicle at 90kW, or two simultaneous charges at 45kW. Max Amperage 200A, charging power limited to 80kW for 400V cars"
+        },
+        {
+            "ID": 449586,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 449590,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "eMallorca. Payment with credit card",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-06-01T18:33:00Z",
+    "DateCreated": "2023-05-07T08:04:00Z",
+    "SubmissionStatusTypeID": 200
+}

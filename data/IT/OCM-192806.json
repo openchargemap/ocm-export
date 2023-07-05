@@ -1,5 +1,72 @@
 {
-    "DateLastVerified": "2022-08-06T06:03:00Z",
+    "UserComments": [
+        {
+            "ID": 28610,
+            "ChargePointID": 192806,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "4 CCS Combo 2 da 300 kW più una colonnina multistantard con CCS2, CHAdeMO e Tipo 2, nei pressi dell'area di servizio. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnine-free-to-x-high-power-ads-brugheria-est-castronno-va-a8-t24067.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-free-to-x-high-power-ads-brugheria-est-castronno-va-a8-t24067.html",
+            "DateCreated": "2023-06-07T05:36:47.037Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 38080,
+            "ChargePointID": 192806,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192806/OCM-192806.orig.2023060705365756.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192806/OCM-192806.thmb.2023060705365756.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-06-07T05:37:00Z"
+        },
+        {
+            "ID": 38081,
+            "ChargePointID": 192806,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192806/OCM-192806.orig.2023060705370300.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192806/OCM-192806.thmb.2023060705370300.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-06-07T05:37:00Z"
+        },
+        {
+            "ID": 38082,
+            "ChargePointID": 192806,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192806/OCM-192806.orig.2023060705370858.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM192806/OCM-192806.thmb.2023060705370858.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-06-07T05:37:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-07T05:37:00Z",
     "ID": 192806,
     "UUID": "869D8B8D-60B0-43C6-8E8C-A40CB8C8F360",
     "DataProviderID": 1,
@@ -7,15 +74,15 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 193165,
-        "Title": "FREETOX A8 AdS Brugherio Est",
-        "AddressLine1": "AdS Brugherio Est",
+        "Title": "Free To X AdS Brughiera Est",
+        "AddressLine1": "A8 km 41 (verso Varese)",
         "Town": "Castronno",
         "StateOrProvince": "Lombardy",
         "Postcode": "21045",
         "CountryID": 112,
-        "Latitude": 45.76271930133302,
-        "Longitude": 8.811181899999042,
-        "RelatedURL": "https://nextcharge.app/map?location=45.762379,8.810866",
+        "Latitude": 45.762393,
+        "Longitude": 8.810867,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-free-to-x-high-power-ads-brugheria-est-castronno-va-a8-t24067.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,11 +94,35 @@
             "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 4
+        },
+        {
+            "ID": 453745,
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 453746,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 453747,
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-06T06:03:00Z",
+    "DateLastStatusUpdate": "2023-06-07T05:37:00Z",
     "DateCreated": "2022-04-30T08:17:00Z",
     "SubmissionStatusTypeID": 200
 }

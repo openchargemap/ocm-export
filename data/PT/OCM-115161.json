@@ -1,41 +1,49 @@
 {
-    "DateLastVerified": "2020-08-19T20:56:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 115161,
     "UUID": "611FB47E-B6DF-4282-8EDF-48CC56F116D7",
     "DataProviderID": 1,
     "DataProvidersReference": "CLD-00007",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card",
+    "OperatorID": 200,
     "AddressInfo": {
         "ID": 115507,
-        "Title": "CLD-00007",
-        "AddressLine1": "Rua Isidoro Inácio Alves de Carvalho Campus 3",
+        "Title": "Rua Isidoro Inácio Alves de Carvalho",
+        "AddressLine1": "Rua Isidoro Inácio Alves de Carvalho",
         "Town": "Caldas da Rainha",
         "Postcode": "2500 - 321",
         "CountryID": 180,
         "Latitude": 39.395324,
         "Longitude": -9.135525,
-        "AccessComments": "IPL Campus 3",
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 162095,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "CLD-00007-2-1",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 449836,
+            "ConnectionTypeID": 1036,
+            "Reference": "CLD-00007-1-1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-19T20:56:00Z",
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-02-02T22:37:00Z",
     "SubmissionStatusTypeID": 100
 }

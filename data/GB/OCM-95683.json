@@ -15,14 +15,14 @@
             "CheckinStatusTypeID": 25
         }
     ],
-    "DateLastVerified": "2023-04-03T16:23:00Z",
+    "DateLastVerified": "2023-06-27T10:46:00Z",
     "ID": 95683,
     "UUID": "6ECFD1EF-12EE-4C16-BFB5-19D7D74C6DDF",
     "DataProviderID": 1,
     "OperatorID": 32,
     "OperatorsReference": "22029",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.79/kWh; other tariffs available",
+    "UsageTypeID": 5,
+    "UsageCost": "DC: £0.79/kWh, AC £0.44/kWh; other tariffs available",
     "AddressInfo": {
         "ID": 96029,
         "Title": "Willen Lake South Car Park",
@@ -39,6 +39,7 @@
         {
             "ID": 135544,
             "ConnectionTypeID": 2,
+            "Reference": "UC25099",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -48,6 +49,7 @@
         {
             "ID": 135545,
             "ConnectionTypeID": 33,
+            "Reference": "UC25099",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -57,17 +59,54 @@
         {
             "ID": 135546,
             "ConnectionTypeID": 1036,
+            "Reference": "UC25099",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 455787,
+            "ConnectionTypeID": 25,
+            "Reference": "FC15235",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 455788,
+            "ConnectionTypeID": 25,
+            "Reference": "14285",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 455789,
+            "ConnectionTypeID": 25,
+            "Reference": "FC15232",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Opposite Veterinary Centre",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-03T16:23:00Z",
+    "DateLastStatusUpdate": "2023-06-27T10:46:00Z",
     "DateCreated": "2017-11-20T06:14:00Z",
     "SubmissionStatusTypeID": 200
 }

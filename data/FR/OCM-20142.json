@@ -1,33 +1,62 @@
 {
-    "DateLastVerified": "2013-11-04T21:10:00Z",
+    "DateLastVerified": "2023-05-07T20:09:00Z",
     "ID": 20142,
     "UUID": "02B1D87A-8C31-43D2-8F04-1B445565B2CB",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 0,
+    "OperatorID": 3379,
+    "UsageTypeID": 4,
     "UsageCost": "",
     "AddressInfo": {
         "ID": 20487,
-        "Title": "Leclerc - Oloron Ste Marie (Station Service)",
+        "Title": "Freshmile Leclerc - Oloron Ste Marie (Station Service)",
         "AddressLine1": "Avenue Alexander Fleming ",
         "AddressLine2": "",
-        "Town": "",
-        "StateOrProvince": "Oloron-Sainte-Marie",
+        "Town": "Oloron Sainte Marie",
+        "StateOrProvince": "Pyrénées-Atlantiques",
         "Postcode": "64400",
         "CountryID": 80,
-        "Latitude": 43.19724,
-        "Longitude": -0.61775,
+        "Latitude": 43.19758064283374,
+        "Longitude": -0.6178573464347608,
         "ContactTelephone1": "",
         "ContactTelephone2": "",
         "ContactEmail": "",
-        "AccessComments": "Ouvert à tous",
+        "AccessComments": "",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
-    "Connections": [],
+    "Connections": [
+        {
+            "ID": 449650,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 449651,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
+        },
+        {
+            "ID": 449652,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 4
+        }
+    ],
+    "NumberOfPoints": 6,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2013-11-04T21:10:00Z",
+    "DateLastStatusUpdate": "2023-05-07T20:09:00Z",
     "DateCreated": "2013-11-04T00:02:00Z",
     "SubmissionStatusTypeID": 200
 }

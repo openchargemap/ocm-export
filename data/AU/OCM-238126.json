@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-03-02T09:22:00Z",
+    "DateLastVerified": "2023-06-08T12:25:00Z",
     "ID": 238126,
     "UUID": "9FB7029D-4669-4DD7-8428-FB2AD5112664",
     "DataProviderID": 1,
-    "OperatorID": 32,
+    "OperatorID": 3659,
     "UsageTypeID": 4,
+    "UsageCost": "$0.55/kWh ",
     "AddressInfo": {
         "ID": 238510,
         "Title": "Marulan Roadhouse Northbound",
@@ -15,6 +16,8 @@
         "CountryID": 18,
         "Latitude": -34.71913537033707,
         "Longitude": 149.99575545222547,
+        "ContactTelephone1": "1300 002 738",
+        "RelatedURL": "https://www.bp.com/en_au/australia/home/products-services/bppulse/find-a-charging-station.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,22 +25,24 @@
             "ID": 391680,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 75,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 391681,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 75,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-02T09:22:00Z",
+    "DateLastStatusUpdate": "2023-06-08T12:25:00Z",
     "DateCreated": "2023-03-01T23:52:00Z",
     "SubmissionStatusTypeID": 200
 }

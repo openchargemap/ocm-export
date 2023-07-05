@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 28606,
+            "ChargePointID": 94804,
+            "CommentTypeID": 50,
+            "UserName": "roberto",
+            "Comment": "Replaced with a new single CC/AC charger in the rear parking lot",
+            "Rating": 5,
+            "DateCreated": "2023-06-06T10:50:40.92Z",
+            "User": {
+                "ID": 46764,
+                "Username": "roberto"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 19357,
             "ChargePointID": 94804,
             "CommentTypeID": 10,
@@ -28,6 +43,22 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 38066,
+            "ChargePointID": 94804,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM94804/OCM-94804.orig.2023060610473790.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM94804/OCM-94804.thmb.2023060610473790.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46764,
+                "Username": "roberto"
+            },
+            "DateCreated": "2023-06-06T10:48:00Z"
+        },
         {
             "ID": 15220,
             "ChargePointID": 94804,
@@ -93,38 +124,59 @@
             "DateCreated": "2018-03-30T19:13:00Z"
         }
     ],
-    "DateLastVerified": "2018-03-30T19:13:00Z",
+    "DateLastVerified": "2023-06-06T12:12:00Z",
     "ID": 94804,
     "UUID": "C0A708C4-6FC5-4FD8-B533-D66CB04EC6B9",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 0,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 95150,
-        "Title": "Supermercato Oasi",
-        "AddressLine1": "Via Giulio Pastore, 30",
+        "Title": "Enel X - Supermercato Oasi",
+        "AddressLine1": "Via Valenti Ghino, 1",
         "AddressLine2": "Baraccola Est",
         "Town": "Ancona",
         "StateOrProvince": "AN",
         "Postcode": "60131",
         "CountryID": 112,
-        "Latitude": 43.571281772657095,
-        "Longitude": 13.509297445564926,
+        "Latitude": 43.572339748979545,
+        "Longitude": 13.509496296387624,
+        "AccessComments": "Open 08:00 - 21:00",
         "RelatedURL": "http://www.oasiipermercati.it/puntovendita?idpv=538",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 134003,
-            "ConnectionTypeID": 25,
+            "ID": 453699,
+            "ConnectionTypeID": 33,
+            "Reference": "22BZ2149A",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 453700,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Quantity": 2
+            "PowerKW": 50,
+            "Quantity": 1
+        },
+        {
+            "ID": 453701,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-03-30T19:13:00Z",
+    "DateLastStatusUpdate": "2023-06-06T12:12:00Z",
     "DateCreated": "2017-10-27T10:48:00Z",
     "SubmissionStatusTypeID": 200
 }

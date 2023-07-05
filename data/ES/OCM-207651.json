@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2022-10-12T11:39:00Z",
+    "DateLastVerified": "2023-05-18T17:13:00Z",
     "ID": 207651,
     "UUID": "5E52B0B6-DE2A-42FB-9D72-2AFE7CFBFEC7",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3377,
     "UsageTypeID": 1,
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 208031,
         "Title": "Policía La Llagosta",
@@ -13,8 +14,8 @@
         "StateOrProvince": "Catalonia",
         "Postcode": "08110",
         "CountryID": 210,
-        "Latitude": 41.511819977084315,
-        "Longitude": 2.1965130935993784,
+        "Latitude": 41.51126786613588,
+        "Longitude": 2.195827058166401,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,12 +26,40 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 452037,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 452038,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 452039,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
+    "GeneralComments": "App EVcharge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-12T11:39:00Z",
+    "DateLastStatusUpdate": "2023-05-18T17:13:00Z",
     "DateCreated": "2022-10-12T11:39:00Z",
     "SubmissionStatusTypeID": 200
 }

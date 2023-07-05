@@ -1,20 +1,38 @@
 {
-    "DateLastVerified": "2023-04-23T17:35:00Z",
+    "MediaItems": [
+        {
+            "ID": 38140,
+            "ChargePointID": 260414,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM260414/OCM-260414.orig.2023061018452473.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM260414/OCM-260414.thmb.2023061018452473.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-06-10T18:45:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-10T18:46:00Z",
     "ID": 260414,
     "UUID": "9F35A7F7-992E-4687-8728-33CC36A8BC29",
     "DataProviderID": 1,
-    "OperatorID": 207,
+    "OperatorID": 3584,
     "UsageTypeID": 4,
-    "UsageCost": "0,55€/kWh >60kW - 0,45€/kWh DC - 0,39€/kWh AC ",
+    "UsageCost": "0,60€/kWh ",
     "AddressInfo": {
         "ID": 260798,
-        "Title": "Conforama Benidorm",
+        "Title": "CEPSA Finestrat",
         "AddressLine1": "CV-767",
         "AddressLine2": "la Cala de Finestrat",
         "StateOrProvince": "Comunitat Valenciana",
         "CountryID": 210,
-        "Latitude": 38.53470551642906,
-        "Longitude": -0.16952409934322077,
+        "Latitude": 38.53490453687186,
+        "Longitude": -0.16944568654662362,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,17 +41,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
+            "Amps": 500,
             "Voltage": 1000,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC150 DC charger. Charger with two CCS connectors but only a single parking space. Power is split between both outlets."
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Starcharge Titan180. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)",
+    "GeneralComments": "Payment with credit card or App CEPSA GOW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-23T17:35:00Z",
+    "DateLastStatusUpdate": "2023-06-10T18:46:00Z",
     "DateCreated": "2023-04-23T17:34:00Z",
     "SubmissionStatusTypeID": 200
 }

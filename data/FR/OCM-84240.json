@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-03-06T16:01:00Z",
+    "DateLastVerified": "2023-06-19T00:30:00Z",
     "ID": 84240,
     "UUID": "5669429C-C76B-4556-97A5-444874268A4E",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "24847",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 84586,
         "Title": "Tesla Supercharger Cagnes-sur-Mer",
@@ -22,7 +22,16 @@
     "Connections": [
         {
             "ID": 119641,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 454761,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -33,7 +42,7 @@
     "NumberOfPoints": 4,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T16:01:00Z",
+    "DateLastStatusUpdate": "2023-06-19T00:30:00Z",
     "DateCreated": "2017-02-16T17:22:00Z",
     "SubmissionStatusTypeID": 200
 }

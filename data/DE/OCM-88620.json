@@ -1,5 +1,56 @@
 {
-    "DateLastVerified": "2017-06-06T06:00:00Z",
+    "UserComments": [
+        {
+            "ID": 28720,
+            "ChargePointID": 88620,
+            "CommentTypeID": 10,
+            "UserName": "PinguDEV",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2023-07-02T12:28:13.073Z",
+            "User": {
+                "ID": 47190,
+                "Username": "PinguDEV"
+            },
+            "CheckinStatusTypeID": 140,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 38544,
+            "ChargePointID": 88620,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM88620/OCM-88620.orig.2023070212272672.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM88620/OCM-88620.thmb.2023070212272672.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47190,
+                "Username": "PinguDEV"
+            },
+            "DateCreated": "2023-07-02T12:28:00Z"
+        },
+        {
+            "ID": 38543,
+            "ChargePointID": 88620,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM88620/OCM-88620.orig.2023070212263628.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM88620/OCM-88620.thmb.2023070212263628.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47190,
+                "Username": "PinguDEV"
+            },
+            "DateCreated": "2023-07-02T12:27:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-07-03T08:56:00Z",
     "ID": 88620,
     "UUID": "69746539-973A-4691-977A-71E05AAD8F2F",
     "DataProviderID": 1,
@@ -23,18 +74,31 @@
         {
             "ID": 125693,
             "ConnectionTypeID": 25,
+            "Reference": "Hanse Werk",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
+            "Amps": 16,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 11,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 456038,
+            "ConnectionTypeID": 25,
+            "Reference": "Hanse Werk",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-06-06T06:00:00Z",
+    "DateLastStatusUpdate": "2023-07-03T08:56:00Z",
     "DateCreated": "2017-06-06T06:00:00Z",
     "SubmissionStatusTypeID": 200
 }

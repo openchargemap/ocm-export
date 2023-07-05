@@ -1,21 +1,22 @@
 {
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "DateLastVerified": "2023-05-28T07:26:00Z",
     "ID": 60949,
     "UUID": "233A265E-09B1-4AE1-A850-E41DFEC0235F",
-    "DataProviderID": 27,
-    "DataProvidersReference": "205",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 2247,
+    "UsageTypeID": 4,
+    "UsageCost": "0,30€/kWh",
     "AddressInfo": {
         "ID": 61295,
-        "Title": "Makro",
+        "Title": "Makro Murcia",
         "AddressLine1": "Calle Jeronimo Molina Garcia, 2-17",
         "Town": "Murcia",
         "StateOrProvince": "Murcia",
         "Postcode": "30012",
         "CountryID": 210,
-        "Latitude": 37.959641,
-        "Longitude": -1.134474,
-        "ContactTelephone1": "968 34 61 52",
+        "Latitude": 37.96016546155474,
+        "Longitude": -1.1340233886079716,
+        "ContactTelephone1": "",
         "ContactEmail": "atencionclientes.16@makro.es",
         "RelatedURL": "https://www.makro.es/centros-de-neg...",
         "DistanceUnit": 0
@@ -23,15 +24,19 @@
     "Connections": [
         {
             "ID": 77357,
-            "ConnectionTypeID": 17,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 380,
-            "PowerKW": 6.1
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 10
         }
     ],
+    "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "DateLastStatusUpdate": "2023-05-28T07:26:00Z",
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200
 }

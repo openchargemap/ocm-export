@@ -1,19 +1,89 @@
 {
-    "DateLastVerified": "2021-07-12T02:48:00Z",
+    "UserComments": [
+        {
+            "ID": 28702,
+            "ChargePointID": 186714,
+            "CommentTypeID": 10,
+            "UserName": "Smiljan",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2023-06-26T14:39:32.677Z",
+            "User": {
+                "ID": 46970,
+                "Username": "Smiljan"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 38433,
+            "ChargePointID": 186714,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM186714/OCM-186714.orig.2023062614372862.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM186714/OCM-186714.thmb.2023062614372862.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46970,
+                "Username": "Smiljan"
+            },
+            "DateCreated": "2023-06-26T14:38:00Z"
+        },
+        {
+            "ID": 38434,
+            "ChargePointID": 186714,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM186714/OCM-186714.orig.2023062614375823.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM186714/OCM-186714.thmb.2023062614375823.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46970,
+                "Username": "Smiljan"
+            },
+            "DateCreated": "2023-06-26T14:38:00Z"
+        },
+        {
+            "ID": 38435,
+            "ChargePointID": 186714,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM186714/OCM-186714.orig.2023062614382048.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM186714/OCM-186714.thmb.2023062614382048.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46970,
+                "Username": "Smiljan"
+            },
+            "DateCreated": "2023-06-26T14:38:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-27T10:11:00Z",
     "ID": 186714,
     "UUID": "0A23431D-6C5F-41C6-990F-02C145127183",
-    "DataProviderID": 29,
-    "DataProvidersReference": "7085",
+    "DataProviderID": 1,
     "OperatorID": 103,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 187073,
-        "Title": "LPG Str. 1",
-        "AddressLine1": "LPG Str. 1",
-        "Town": "Lübbenau",
+        "Title": "LPG-Straße",
+        "AddressLine1": "LPG-Straße 1",
+        "AddressLine2": "Groß Beuchow",
+        "Town": "Lübbenau/Spreewald",
+        "StateOrProvince": "Brandenburg",
         "Postcode": "03222",
         "CountryID": 87,
-        "Latitude": 51.849893,
-        "Longitude": 13.906529,
+        "Latitude": 51.84980846686352,
+        "Longitude": 13.907031886742317,
+        "RelatedURL": "http://allego.eu",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,7 +92,7 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 80,
+            "PowerKW": 300,
             "CurrentTypeID": 30
         },
         {
@@ -30,12 +100,32 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 320,
+            "PowerKW": 300,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 455783,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 455784,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "RFID, App, open 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-12T02:48:00Z",
+    "DateLastStatusUpdate": "2023-06-27T10:11:00Z",
     "MetadataValues": [
         {
             "ID": 18955,

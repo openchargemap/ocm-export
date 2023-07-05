@@ -1,5 +1,56 @@
 {
-    "DateLastVerified": "2022-08-28T17:03:00Z",
+    "UserComments": [
+        {
+            "ID": 28569,
+            "ChargePointID": 201365,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Dotata di una CCS Combo 2 da 75 kW, una CHAdeMO da 63 kW ed una Tipo 2 da 22 kW. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnina-neogy-nova-levante-t26948.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-neogy-nova-levante-t26948.html",
+            "DateCreated": "2023-05-28T05:21:45.19Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 37918,
+            "ChargePointID": 201365,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM201365/OCM-201365.orig.2023052805215375.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM201365/OCM-201365.thmb.2023052805215375.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-05-28T05:22:00Z"
+        },
+        {
+            "ID": 37919,
+            "ChargePointID": 201365,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM201365/OCM-201365.orig.2023052805215929.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IT/OCM201365/OCM-201365.thmb.2023052805215929.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-05-28T05:22:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-05-28T05:22:00Z",
     "ID": 201365,
     "UUID": "504C0BB1-E9BE-47D5-99BD-3D5753A0D73B",
     "DataProviderID": 1,
@@ -7,7 +58,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 201729,
-        "Title": "Via Carezza - Parking",
+        "Title": "Neogy Cabinovia Laurin",
         "AddressLine1": "Via Carezza",
         "Town": "Welschnofen - Nova Levante",
         "StateOrProvince": "Trentino-Alto Adige - Südtirol",
@@ -15,6 +66,7 @@
         "CountryID": 112,
         "Latitude": 46.4314286545827,
         "Longitude": 11.544401982639556,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-neogy-nova-levante-t26948.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -35,11 +87,19 @@
             "PowerKW": 63,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 452726,
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-28T17:03:00Z",
+    "DateLastStatusUpdate": "2023-05-28T05:22:00Z",
     "DateCreated": "2022-08-28T17:03:00Z",
     "SubmissionStatusTypeID": 200
 }

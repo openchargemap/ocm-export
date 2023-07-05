@@ -1,16 +1,16 @@
 {
-    "DateLastVerified": "2022-03-06T15:53:00Z",
+    "DateLastVerified": "2023-06-19T00:15:00Z",
     "ID": 75176,
     "UUID": "CC536E7F-1377-4C61-84D0-B8EDC9A4C372",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "20894",
     "UsageTypeID": 4,
-    "UsageCost": "€0.37/kWh; Autres tarifs pour les voitures anciennes",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 75522,
         "Title": "Tesla Supercharger Aire du Caylar",
-        "AddressLine1": "Aire du Caylar",
+        "AddressLine1": "A75 - Aire du Caylar",
         "Town": "Le Caylar",
         "Postcode": "34520",
         "CountryID": 80,
@@ -21,7 +21,16 @@
     "Connections": [
         {
             "ID": 108430,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 454751,
+            "ConnectionTypeID": 30,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -32,7 +41,7 @@
     "NumberOfPoints": 8,
     "GeneralComments": "8 Superchargers, available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-06T15:53:00Z",
+    "DateLastStatusUpdate": "2023-06-19T00:15:00Z",
     "DateCreated": "2016-12-13T20:53:00Z",
     "SubmissionStatusTypeID": 200
 }

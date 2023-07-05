@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2023-05-01T06:25:00Z",
+    "DateLastVerified": "2023-06-14T07:34:00Z",
     "ID": 234581,
     "UUID": "37E9D24A-84E8-4A4F-97D3-25EE7B659BF6",
-    "DataProviderID": 2,
-    "DataProvidersReference": "238354",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "$15/hour",
     "AddressInfo": {
         "ID": 234965,
-        "Title": "HYDRO RODDICKTON L2",
+        "Title": "HYDRO RODDICKTON",
         "AddressLine1": "97 Majors St",
         "Town": "Roddickton",
         "StateOrProvince": "NL",
@@ -25,16 +25,38 @@
         {
             "ID": 386714,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
+            "Amps": 32,
+            "Voltage": 204,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 454199,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 156,
+            "Voltage": 397,
+            "PowerKW": 62.5,
+            "Quantity": 1
+        },
+        {
+            "ID": 454200,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 156,
+            "Voltage": 400,
+            "PowerKW": 62.5,
             "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-01T06:25:00Z",
+    "DateLastStatusUpdate": "2023-06-14T07:34:00Z",
     "DateCreated": "2023-02-13T05:42:00Z",
     "SubmissionStatusTypeID": 100
 }

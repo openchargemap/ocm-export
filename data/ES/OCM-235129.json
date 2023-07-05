@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-03-03T08:26:00Z",
+    "MediaItems": [
+        {
+            "ID": 38384,
+            "ChargePointID": 235129,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM235129/OCM-235129.orig.2023062514345767.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM235129/OCM-235129.thmb.2023062514345767.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-06-25T14:35:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-06-25T14:35:00Z",
     "ID": 235129,
     "UUID": "A531B691-43EC-415A-9E1F-48AF310F29E2",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": " 0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "  0,56€/kWh >50 kW  0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 235513,
         "Title": "Parque Galapagar",
@@ -15,8 +33,8 @@
         "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28260",
         "CountryID": 210,
-        "Latitude": 40.575123529664296,
-        "Longitude": -4.009136870606596,
+        "Latitude": 40.575042781663456,
+        "Longitude": -4.009071193936478,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,31 +42,49 @@
             "ID": 387762,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "PowerKW": 10,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 920,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 100 kW "
         },
         {
             "ID": 387763,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "PowerKW": 10,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 920,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 100 kW "
         },
         {
             "ID": 387764,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "2 Delta UFC200 Chargers"
+        },
+        {
+            "ID": 455527,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 11,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-03T08:26:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2023-06-25T14:35:00Z",
     "DateCreated": "2023-02-15T19:44:00Z",
     "SubmissionStatusTypeID": 200
 }

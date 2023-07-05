@@ -1,0 +1,50 @@
+{
+    "DateLastVerified": "2023-05-27T09:11:00Z",
+    "ID": 266053,
+    "UUID": "B92628D9-BD82-445C-B200-7D705AECC559",
+    "DataProviderID": 1,
+    "OperatorID": 2247,
+    "UsageTypeID": 4,
+    "UsageCost": "0,69€/kWh >200kW - 0,54€/kWh 80-200kW",
+    "AddressInfo": {
+        "ID": 266437,
+        "Title": "E.S. Ruta 4",
+        "AddressLine1": "Autovía del Sur",
+        "StateOrProvince": "Andalucía",
+        "CountryID": 210,
+        "Latitude": 37.508144584631694,
+        "Longitude": -5.389417368423722,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 452644,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra360 Charger. Max 500A, charging power limited to 200kW for 400V cars"
+        },
+        {
+            "ID": 452645,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
+            "Comments": "ABB Terra184 Charger.  Charging power limited to 120kW for 400V cars"
+        }
+    ],
+    "NumberOfPoints": 8,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2023-05-27T09:11:00Z",
+    "DateCreated": "2023-05-27T09:11:00Z",
+    "SubmissionStatusTypeID": 200
+}

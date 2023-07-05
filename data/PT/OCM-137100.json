@@ -1,31 +1,29 @@
 {
-    "DateLastVerified": "2021-02-20T19:28:00Z",
+    "DateLastVerified": "2023-07-04T05:54:00Z",
     "ID": 137100,
     "UUID": "DE602B3C-4AE8-4B3C-85A1-738DA730274B",
     "DataProviderID": 1,
     "DataProvidersReference": "HRT-00001",
-    "OperatorID": 21,
-    "UsageTypeID": 4,
-    "UsageCost": "Mobi.E compatible card or App",
+    "OperatorID": 3557,
     "AddressInfo": {
         "ID": 137446,
-        "Title": "HRT-00001",
+        "Title": "Estrada Príncipe Alberto do Mónaco",
         "AddressLine1": "Estrada Príncipe Alberto do Mónaco",
-        "Town": "Ilha do Faial",
+        "Town": "Horta",
         "Postcode": "9900-038",
         "CountryID": 180,
         "Latitude": 38.528667,
         "Longitude": -28.630181,
-        "RelatedURL": "http://www.mobie.pt",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 191957,
             "ConnectionTypeID": 2,
+            "Reference": "HRT-00001-01-01",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 120,
+            "Amps": 125,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -34,6 +32,7 @@
         {
             "ID": 264445,
             "ConnectionTypeID": 33,
+            "Reference": "HRT-00001-02-01",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -44,8 +43,9 @@
         },
         {
             "ID": 264446,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 25,
+            "Reference": "HRT-00001-03-01",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
@@ -54,9 +54,8 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-02-20T19:28:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2023-07-04T05:54:00Z",
     "DateCreated": "2019-12-24T08:08:00Z",
     "SubmissionStatusTypeID": 100
 }

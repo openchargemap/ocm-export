@@ -33,7 +33,7 @@
             "DateCreated": "2014-06-28T14:42:00Z"
         }
     ],
-    "DateLastVerified": "2021-11-15T13:50:00Z",
+    "DateLastVerified": "2023-06-25T08:31:00Z",
     "ID": 14976,
     "UUID": "E40A1C97-7332-4235-AF75-0BEE4A13CAC8",
     "DataProviderID": 1,
@@ -42,8 +42,9 @@
     "AddressInfo": {
         "ID": 15322,
         "Title": "Marina Car Park",
-        "AddressLine1": "Marina Car Park, Dingle, County Kerry",
-        "Town": "Kerry",
+        "AddressLine1": "Marina Car Park",
+        "Town": "Dingle",
+        "StateOrProvince": "Co. Kerry",
         "CountryID": 3,
         "Latitude": 52.1395184103672,
         "Longitude": -10.2787908911705,
@@ -53,7 +54,7 @@
         {
             "ID": 13358,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -64,7 +65,7 @@
         {
             "ID": 307825,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -73,16 +74,25 @@
         {
             "ID": 307826,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 455519,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-15T13:50:00Z",
+    "DateLastStatusUpdate": "2023-06-25T08:31:00Z",
     "DateCreated": "2012-12-11T15:08:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-07-14T15:55:00Z",
+    "DateLastVerified": "2023-06-20T12:13:00Z",
     "ID": 117760,
     "UUID": "902503BA-1181-4595-9201-C5C9A3BCC27B",
     "DataProviderID": 1,
-    "OperatorID": 103,
-    "UsageTypeID": 1,
-    "UsageCost": "£0.25/kWh",
+    "OperatorID": 3392,
+    "UsageTypeID": 5,
+    "UsageCost": "£0.85/kWh",
     "AddressInfo": {
         "ID": 118106,
         "Title": "Shell Cannock",
@@ -22,6 +22,7 @@
         {
             "ID": 166619,
             "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTERRA*54*038*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -31,6 +32,7 @@
         {
             "ID": 166620,
             "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTERRA*54*038*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -38,21 +40,50 @@
             "Quantity": 1
         },
         {
-            "ID": 166621,
-            "ConnectionTypeID": 1036,
+            "ID": 455054,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTRIT*PKM150*0046",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 455055,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTRIT*PKM150*0046",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 455056,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTRIT*PKM150*0047",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 455057,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTRIT*PKM150*0047",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Shell Recharge",
+    "NumberOfPoints": 3,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-14T15:55:00Z",
+    "DateLastStatusUpdate": "2023-06-20T12:13:00Z",
     "DateCreated": "2019-02-28T17:14:00Z",
     "SubmissionStatusTypeID": 200
 }
