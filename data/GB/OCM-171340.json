@@ -1,50 +1,70 @@
 {
-    "DateLastVerified": "2020-12-30T20:07:00Z",
+    "DateLastVerified": "2023-07-19T18:03:00Z",
     "ID": 171340,
     "UUID": "28EBC861-02E1-4A5A-8DCD-DAB93953C9E7",
     "DataProviderID": 1,
     "OperatorID": 3392,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "(2023-07-19) CCS: £0.85/kWh, CHAdeMO: £0.79/kWh",
     "AddressInfo": {
         "ID": 171699,
-        "Title": "Shell Garage A2/A258",
-        "AddressLine1": " Duke of York’s Roundabout",
+        "Title": "Shell Guston Road",
+        "AddressLine1": "Guston Road",
         "Town": "Dover",
         "StateOrProvince": "England",
-        "Postcode": "CT16",
+        "Postcode": "CT15 5FA",
         "CountryID": 1,
-        "Latitude": 51.145322418398706,
-        "Longitude": 1.3293624239795463,
-        "RelatedURL": "https://www.shell.co.uk/motorist/ev-charging.html",
+        "Latitude": 51.145237620318916,
+        "Longitude": 1.3293921819208443,
+        "RelatedURL": "https://shellrecharge.com/en-gb/find-a-charge-point",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 261901,
             "ConnectionTypeID": 33,
+            "Reference": "TRIT_PK_00057-1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 175,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 261902,
             "ConnectionTypeID": 2,
+            "Reference": "TRIT_PK_00057-1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 70,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 468821,
+            "ConnectionTypeID": 33,
+            "Reference": "TRIT_PK_00057-2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 468822,
+            "ConnectionTypeID": 2,
+            "Reference": "TRIT_PK_00057-2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2020-12-30T20:07:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Pay with: Contactless, Shell Recharge app, Shell charge cards. Amenities: WC, coffee, car wash, air, etc.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-19T18:03:00Z",
     "DateCreated": "2020-12-30T20:07:00Z",
     "SubmissionStatusTypeID": 200
 }

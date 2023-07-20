@@ -1,22 +1,22 @@
 {
-    "DateLastVerified": "2023-05-04T08:39:00Z",
+    "DateLastVerified": "2023-07-19T17:27:00Z",
     "ID": 250982,
     "UUID": "139DA911-86AF-4E07-9A86-50F943EE41AB",
-    "DataProviderID": 18,
-    "DataProvidersReference": "ee6ea24e3263aeca20dff071f5d47f1b",
+    "DataProviderID": 1,
     "OperatorID": 3509,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 251366,
-        "Title": "Park Place, Dover",
-        "AddressLine1": "Park Place",
+        "Title": "Dover Police Station",
+        "AddressLine1": "6 Park Place",
         "Town": "Dover",
+        "StateOrProvince": "England",
         "Postcode": "CT16 1DJ",
         "CountryID": 1,
-        "Latitude": 51.128949,
-        "Longitude": 1.309676,
+        "Latitude": 51.128985169899416,
+        "Longitude": 1.3096731170586375,
         "AccessComments": "",
-        "RelatedURL": "http://www.connectedkerb.com/",
+        "RelatedURL": "https://www.connectedkerb.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,10 +26,9 @@
             "Reference": "1722",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 418168,
@@ -37,13 +36,15 @@
             "Reference": "2618",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2023-05-04T08:39:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "You can pay with the Connected Kerb app and ZapMap/ZapPay.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-19T17:27:00Z",
     "MetadataValues": [
         {
             "ID": 22964,

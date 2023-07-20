@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-04T10:19:00Z",
+    "DateLastVerified": "2023-07-15T08:36:00Z",
     "ID": 259939,
     "UUID": "FC0371DB-F0C0-426B-BA70-D621C49B7176",
     "DataProviderID": 1,
@@ -21,22 +21,10 @@
     },
     "Connections": [
         {
-            "ID": 436531,
-            "ConnectionTypeID": 25,
-            "Reference": "GB*OSP*EOSP00092*3",
-            "StatusTypeID": 0,
-            "LevelID": 2,
-            "Amps": 23,
-            "Voltage": 400,
-            "PowerKW": 13,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
             "ID": 450800,
             "ConnectionTypeID": 33,
             "Reference": "GB*OSP*EOSP00092*1",
-            "StatusTypeID": 0,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -46,16 +34,39 @@
             "ID": 450801,
             "ConnectionTypeID": 2,
             "Reference": "GB*OSP*EOSP00092*2",
-            "StatusTypeID": 0,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 467887,
+            "ConnectionTypeID": 1036,
+            "Reference": "GB*OSP*EOSP00092*3",
+            "StatusTypeID": 0,
+            "LevelID": 2,
+            "Voltage": 400,
+            "PowerKW": 22.4,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 468366,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*OSP*EOSP00092*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T10:19:00Z",
+    "DateLastStatusUpdate": "2023-07-15T08:36:00Z",
     "DateCreated": "2023-04-13T11:18:00Z",
     "SubmissionStatusTypeID": 200
 }

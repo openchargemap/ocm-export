@@ -3,8 +3,8 @@
         {
             "ID": 12564,
             "ChargePointID": 88280,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NZ/OCM88280/OCM-88280.orig.2017052514415385.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/NZ/OCM88280/OCM-88280.thmb.2017052514415385.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/NZ/OCM88280/OCM-88280.orig.2017052514415385.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/NZ/OCM88280/OCM-88280.thmb.2017052514415385.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -17,22 +17,23 @@
             "DateCreated": "2017-05-25T14:42:00Z"
         }
     ],
-    "DateLastVerified": "2017-05-25T18:25:00Z",
+    "DateLastVerified": "2023-07-15T01:53:00Z",
     "ID": 88280,
     "UUID": "53149F62-1CDA-4F15-BFD9-A52829AD0F39",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.25/kWh + $0.25/min",
+    "UsageCost": "$0.80/kWh",
     "AddressInfo": {
         "ID": 88626,
-        "Title": "Kaikoura",
-        "AddressLine1": "51 W End",
+        "Title": "Kaikoura i-Site",
+        "AddressLine1": "51 West End",
         "Town": "Kaikoura ",
+        "StateOrProvince": "Canterbury",
         "Postcode": "7300",
         "CountryID": 161,
-        "Latitude": -42.4025039207252,
-        "Longitude": 173.682756155416,
+        "Latitude": -42.40246248310951,
+        "Longitude": 173.68281439420116,
         "ContactTelephone1": "(080) 022-4274",
         "DistanceUnit": 0
     },
@@ -40,6 +41,7 @@
         {
             "ID": 125233,
             "ConnectionTypeID": 2,
+            "Reference": "KKRA1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -49,6 +51,7 @@
         {
             "ID": 125234,
             "ConnectionTypeID": 33,
+            "Reference": "KKRA1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -56,10 +59,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "24/7\r\nOpposite the Council in the car park.",
+    "NumberOfPoints": 1,
+    "GeneralComments": "24/7 Opposite the Council in the car park.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-25T18:25:00Z",
+    "DateLastStatusUpdate": "2023-07-15T01:53:00Z",
     "DateCreated": "2017-05-25T14:42:00Z",
     "SubmissionStatusTypeID": 200
 }

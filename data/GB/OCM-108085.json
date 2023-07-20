@@ -17,8 +17,8 @@
         {
             "ID": 18806,
             "ChargePointID": 108085,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM108085/OCM-108085.orig.2019070611424272.png",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM108085/OCM-108085.thmb.2019070611424272.png",
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM108085/OCM-108085.orig.2019070611424272.png",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM108085/OCM-108085.thmb.2019070611424272.png",
             "Comment": "In corner next to B&M",
             "IsEnabled": true,
             "IsVideo": false,
@@ -31,7 +31,7 @@
             "DateCreated": "2019-07-06T11:43:00Z"
         }
     ],
-    "DateLastVerified": "2023-06-08T12:30:00Z",
+    "DateLastVerified": "2023-07-14T22:08:00Z",
     "ID": 108085,
     "UUID": "6B61FFEC-CD2E-4EA8-81FD-50687F5C7D92",
     "DataProviderID": 1,
@@ -52,16 +52,6 @@
     },
     "Connections": [
         {
-            "ID": 428350,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*OSP*EOSP10062*2",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 62.5,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 428352,
             "ConnectionTypeID": 1036,
             "Reference": "GB*OSP*EOSP10061*1",
@@ -69,28 +59,8 @@
             "LevelID": 2,
             "Amps": 23,
             "Voltage": 400,
-            "PowerKW": 25.2,
+            "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 428354,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*OSP*EOSP10062*3",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 62.5,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 451216,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*OSP*EOSP10061*3",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 62.5,
-            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -101,24 +71,54 @@
             "LevelID": 2,
             "Amps": 36,
             "Voltage": 400,
-            "PowerKW": 25.2,
+            "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
-            "ID": 451218,
+            "ID": 467334,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP10062*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 467335,
             "ConnectionTypeID": 2,
             "Reference": "GB*OSP*EOSP10061*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 62.5,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 467336,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP10062*3",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 467337,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP10061*3",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-08T12:30:00Z",
+    "DateLastStatusUpdate": "2023-07-14T22:08:00Z",
     "DateCreated": "2018-08-31T22:25:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2019-04-06T05:03:00Z",
+    "DateLastVerified": "2023-07-09T10:10:00Z",
     "ID": 123618,
     "UUID": "A5AF113F-2AAD-42BE-BB58-5FEC7EDFBA0D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "104886",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "$0.48/kWh",
     "AddressInfo": {
         "ID": 123964,
         "Title": "Sheetz 407 (Wytheville, VA)",
@@ -35,15 +35,28 @@
         {
             "ID": 173630,
             "ConnectionTypeID": 32,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 500,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 461426,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:03:00Z",
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2023-07-09T10:10:00Z",
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100
 }

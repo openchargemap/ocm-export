@@ -1,0 +1,77 @@
+{
+    "DateLastVerified": "2023-07-08T05:18:00Z",
+    "ID": 270920,
+    "UUID": "135421BA-E6AC-4317-BEC6-9FBF80FD728C",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-400140,PG-70619,veefil-12200304",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.49/kWh,£0.44/kWh,£0.62/kWh",
+    "AddressInfo": {
+        "ID": 271304,
+        "Title": "Tesco Superstore-Annan",
+        "AddressLine1": "Scott's Street",
+        "Town": "Dumfries",
+        "Postcode": "DG12 6JH",
+        "CountryID": 1,
+        "Latitude": 54.98546376,
+        "Longitude": -3.24871647,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 461084,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-400140",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Rhys-Gabe"
+        },
+        {
+            "ID": 461085,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70619",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Axel-Lena"
+        },
+        {
+            "ID": 461086,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200304",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Earl-Amoy"
+        },
+        {
+            "ID": 461087,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200304",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Earl-Amoy"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at Tesco Superstore site at Annan",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-08T05:18:00Z",
+    "DateCreated": "2023-07-07T05:21:00Z",
+    "SubmissionStatusTypeID": 200
+}

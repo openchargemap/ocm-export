@@ -3,8 +3,8 @@
         {
             "ID": 20217,
             "ChargePointID": 126711,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM126711/OCM-126711.orig.2019110410000291.png",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM126711/OCM-126711.thmb.2019110410000291.png",
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM126711/OCM-126711.orig.2019110410000291.png",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM126711/OCM-126711.thmb.2019110410000291.png",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -17,7 +17,7 @@
             "DateCreated": "2019-11-04T10:00:00Z"
         }
     ],
-    "DateLastVerified": "2019-11-04T10:00:00Z",
+    "DateLastVerified": "2023-07-13T23:38:00Z",
     "ID": 126711,
     "UUID": "57069ACA-701B-4C61-8B34-47B8FDCE42D3",
     "DataProviderID": 1,
@@ -40,19 +40,32 @@
         {
             "ID": 177496,
             "ConnectionTypeID": 1036,
+            "Reference": "1055",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Parking Level G"
+        },
+        {
+            "ID": 466925,
+            "ConnectionTypeID": 25,
+            "Reference": "1056",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Parking Level E"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "Located on Level E and Rooftop of Carpark",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-11-04T10:00:00Z",
+    "DateLastStatusUpdate": "2023-07-13T23:38:00Z",
     "DateCreated": "2019-05-18T02:59:00Z",
     "SubmissionStatusTypeID": 200
 }

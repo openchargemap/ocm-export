@@ -1,21 +1,22 @@
 {
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "DateLastVerified": "2023-07-19T17:13:00Z",
     "ID": 187591,
     "UUID": "8CDCBC16-B32A-4991-9AEC-7E46F02D8EE5",
-    "DataProviderID": 18,
-    "DataProvidersReference": "a03c8ebb1a9f8a88dd5b60ebc9fa0e6d",
+    "DataProviderID": 1,
+    "OperatorID": 3509,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 187950,
-        "Title": "CT17 9SD",
-        "AddressLine1": "",
+        "Title": "81 Folkestone Road",
+        "AddressLine1": "81 Folkestone Road",
         "Town": "Dover",
+        "StateOrProvince": "England",
         "Postcode": "CT17 9SD",
         "CountryID": 1,
-        "Latitude": 51.124999,
-        "Longitude": 1.304915,
+        "Latitude": 51.12503890395585,
+        "Longitude": 1.3048697877249624,
         "AccessComments": "",
-        "RelatedURL": "http://www.connectedkerb.com/",
+        "RelatedURL": "https://www.connectedkerb.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,10 +26,9 @@
             "Reference": "1191",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 302770,
@@ -36,14 +36,15 @@
             "Reference": "1192",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "You can pay with the Connected Kerb app and ZapMap/ZapPay.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-19T17:13:00Z",
     "MetadataValues": [
         {
             "ID": 19831,

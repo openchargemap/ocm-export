@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2022-06-07T08:22:00Z",
+    "DateLastVerified": "2023-07-17T13:23:00Z",
     "ID": 190453,
     "UUID": "B97F094E-BFF8-48DC-9013-2762FC5201E9",
     "DataProviderID": 1,
@@ -22,6 +22,7 @@
         {
             "ID": 308773,
             "ConnectionTypeID": 33,
+            "Reference": "4006",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -31,17 +32,28 @@
         {
             "ID": 308774,
             "ConnectionTypeID": 2,
+            "Reference": "4006",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 468683,
+            "ConnectionTypeID": 25,
+            "Reference": "1003",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "Pay QESH rate per kWh, not Chargefox rate (via Chargefox account) ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-06-07T08:22:00Z",
+    "DateLastStatusUpdate": "2023-07-17T13:23:00Z",
     "DateCreated": "2021-12-08T14:02:00Z",
     "SubmissionStatusTypeID": 200
 }

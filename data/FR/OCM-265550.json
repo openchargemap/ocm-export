@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-06-08T03:24:00Z",
+    "MediaItems": [
+        {
+            "ID": 38598,
+            "ChargePointID": 265550,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM265550/OCM-265550.orig.2023070709491352.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM265550/OCM-265550.thmb.2023070709491352.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-07-07T09:49:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-07-07T10:38:00Z",
     "ID": 265550,
     "UUID": "67DCC891-7D8E-4F74-9B06-0E5F5BC52EF4",
     "DataProviderID": 1,
     "OperatorID": 3324,
-    "UsageTypeID": 1,
-    "UsageCost": "0.45€/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "0,58€/kWh >90kW - 0,42€/kWh AC",
     "AddressInfo": {
         "ID": 265934,
         "Title": "Aire du Pays d´Argentan",
@@ -13,34 +31,36 @@
         "StateOrProvince": "Francia",
         "Postcode": "3443",
         "CountryID": 80,
-        "Latitude": 48.723084,
-        "Longitude": -0.056488,
+        "Latitude": 48.72365778064042,
+        "Longitude": -0.055205767182286536,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 451673,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 150,
-            "Quantity": 2,
-            "Comments": ""
-        },
-        {
             "ID": 451674,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 300,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 12,
-            "Comments": "building at this moment "
+            "Quantity": 8,
+            "Comments": "Eight Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (600 kW). Charging power limited for 400V cars"
+        },
+        {
+            "ID": 461177,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 12,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-08T03:24:00Z",
+    "DateLastStatusUpdate": "2023-07-07T10:38:00Z",
     "DateCreated": "2023-05-14T09:20:00Z",
     "SubmissionStatusTypeID": 200
 }

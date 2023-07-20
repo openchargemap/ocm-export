@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-06-06T08:50:00Z",
+    "DateLastVerified": "2023-07-05T13:15:00Z",
     "ID": 193377,
     "UUID": "8D0B6D19-4FA3-496F-8566-EB77F00F391A",
     "DataProviderID": 1,
     "OperatorID": 3339,
     "UsageTypeID": 4,
-    "UsageCost": "0.20c/kWh",
+    "UsageCost": "0.30c/kWh",
     "AddressInfo": {
         "ID": 193736,
         "Title": "Bayside Council",
@@ -20,8 +20,30 @@
     },
     "Connections": [
         {
-            "ID": 314561,
+            "ID": 460830,
             "ConnectionTypeID": 33,
+            "Reference": "4628",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Not available for public use 6am-6pm Monday to Friday"
+        },
+        {
+            "ID": 460831,
+            "ConnectionTypeID": 33,
+            "Reference": "4629",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 75,
+            "Quantity": 2,
+            "Comments": "Not available for public use 6am-6pm Monday to Friday"
+        },
+        {
+            "ID": 460832,
+            "ConnectionTypeID": 33,
+            "Reference": "4651",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -29,19 +51,53 @@
             "Quantity": 1
         },
         {
-            "ID": 314562,
+            "ID": 460833,
             "ConnectionTypeID": 2,
+            "Reference": "4651",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 460834,
+            "ConnectionTypeID": 25,
+            "Reference": "1655",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Not available for public use 6am-6pm Monday to Friday"
+        },
+        {
+            "ID": 460835,
+            "ConnectionTypeID": 25,
+            "Reference": "1656",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Not available for public use 6am-6pm Monday to Friday"
+        },
+        {
+            "ID": 460836,
+            "ConnectionTypeID": 25,
+            "Reference": "1657",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Not available for public use 6am-6pm Monday to Friday"
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "Chargefox app",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-06-06T08:50:00Z",
+    "DateLastStatusUpdate": "2023-07-05T13:15:00Z",
     "DateCreated": "2022-06-06T06:32:00Z",
     "SubmissionStatusTypeID": 200
 }

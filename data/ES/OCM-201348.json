@@ -1,10 +1,10 @@
 {
     "MediaItems": [
         {
-            "ID": 33432,
+            "ID": 38659,
             "ChargePointID": 201348,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201348/OCM-201348.orig.2022083009351175.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201348/OCM-201348.thmb.2022083009351175.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201348/OCM-201348.orig.2023071311255955.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201348/OCM-201348.thmb.2023071311255955.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -14,10 +14,10 @@
                 "ID": 40036,
                 "Username": "lmjgarcia"
             },
-            "DateCreated": "2022-08-30T09:35:00Z"
+            "DateCreated": "2023-07-13T11:26:00Z"
         }
     ],
-    "DateLastVerified": "2023-03-19T15:27:00Z",
+    "DateLastVerified": "2023-07-13T11:29:00Z",
     "ID": 201348,
     "UUID": "3ED1C151-45B9-4D28-A3F7-4437FCE44E2E",
     "DataProviderID": 1,
@@ -44,10 +44,10 @@
             "LevelID": 3,
             "Amps": 500,
             "Voltage": 920,
-            "PowerKW": 200,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 200 kW. Charging power limited to 160kW for 400V cars"
+            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 150 kW."
         },
         {
             "ID": 335872,
@@ -56,7 +56,8 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Delta UFC200 Charger."
         },
         {
             "ID": 335873,
@@ -65,12 +66,25 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Delta UFC200 Charger /Siemens Charger"
+        },
+        {
+            "ID": 466850,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 920,
+            "PowerKW": 240,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Siemens Charger. Max power of the charger for both combined outlets 240 kW (max power limited to 160kW for 400V cars)"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-19T15:27:00Z",
+    "DateLastStatusUpdate": "2023-07-13T11:29:00Z",
     "DateCreated": "2022-08-28T10:07:00Z",
     "SubmissionStatusTypeID": 200
 }

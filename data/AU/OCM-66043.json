@@ -3,8 +3,8 @@
         {
             "ID": 25938,
             "ChargePointID": 66043,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM66043/OCM-66043.orig.2020122501013137.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM66043/OCM-66043.thmb.2020122501013137.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM66043/OCM-66043.orig.2020122501013137.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM66043/OCM-66043.thmb.2020122501013137.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -19,8 +19,8 @@
         {
             "ID": 25937,
             "ChargePointID": 66043,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM66043/OCM-66043.orig.2020122501003747.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM66043/OCM-66043.thmb.2020122501003747.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM66043/OCM-66043.orig.2020122501003747.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM66043/OCM-66043.thmb.2020122501003747.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -33,13 +33,13 @@
             "DateCreated": "2020-12-25T01:01:00Z"
         }
     ],
-    "DateLastVerified": "2021-02-20T21:07:00Z",
+    "DateLastVerified": "2023-07-13T23:43:00Z",
     "ID": 66043,
     "UUID": "F7B7F0F2-FF08-4EE8-9332-1E3A29882A08",
     "DataProviderID": 1,
     "OperatorID": 3339,
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "$0.45 per kWh",
     "AddressInfo": {
         "ID": 66389,
         "Title": "Dunsborough RAC Electric Highway",
@@ -56,6 +56,7 @@
         {
             "ID": 91318,
             "ConnectionTypeID": 2,
+            "Reference": "4216",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -67,17 +68,17 @@
         {
             "ID": 91319,
             "ConnectionTypeID": 25,
+            "Reference": "5004",
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
             "Quantity": 1
         },
         {
             "ID": 91320,
             "ConnectionTypeID": 33,
+            "Reference": "4216",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -89,7 +90,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-02-20T21:07:00Z",
+    "DateLastStatusUpdate": "2023-07-13T23:43:00Z",
     "DateCreated": "2016-05-09T22:49:00Z",
     "SubmissionStatusTypeID": 200
 }

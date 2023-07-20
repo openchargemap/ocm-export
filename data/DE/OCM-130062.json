@@ -1,5 +1,37 @@
 {
-    "DateLastVerified": "2019-08-01T19:18:00Z",
+    "UserComments": [
+        {
+            "ID": 28753,
+            "ChargePointID": 130062,
+            "CommentTypeID": 10,
+            "UserName": "Smiljan",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2023-07-12T17:40:12.96Z",
+            "User": {
+                "ID": 46970,
+                "Username": "Smiljan"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 28752,
+            "ChargePointID": 130062,
+            "CommentTypeID": 10,
+            "UserName": "Smiljan",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2023-07-12T17:39:36.903Z",
+            "User": {
+                "ID": 46970,
+                "Username": "Smiljan"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-07-13T02:32:00Z",
     "ID": 130062,
     "UUID": "876C7556-9378-4AA4-B5D7-E443674AD60C",
     "DataProviderID": 1,
@@ -8,12 +40,14 @@
     "AddressInfo": {
         "ID": 130408,
         "Title": "IONITY Schwabhausen",
-        "AddressLine1": "Autohof Schwabhausen, An der Bundesstraße 247, 99869 Schwabhausen, Deutschland",
-        "Town": "Schwabhausen",
+        "AddressLine1": "Autohof Schwabhausen",
+        "AddressLine2": "An der Bundesstraße 247",
+        "Town": "99869 Schwabhausen",
         "Postcode": "99869",
         "CountryID": 87,
-        "Latitude": 50.898384,
-        "Longitude": 10.725625,
+        "Latitude": 50.898082963577224,
+        "Longitude": 10.727792127802616,
+        "AccessComments": "RFID, APP , open 24/7",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,12 +58,13 @@
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 6
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-08-01T19:18:00Z",
+    "DateLastStatusUpdate": "2023-07-13T02:32:00Z",
     "DateCreated": "2019-07-30T13:13:00Z",
     "SubmissionStatusTypeID": 200
 }

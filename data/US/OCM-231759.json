@@ -3,8 +3,8 @@
         {
             "ID": 36652,
             "ChargePointID": 231759,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM231759/OCM-231759.orig.2023021701323019.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM231759/OCM-231759.thmb.2023021701323019.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM231759/OCM-231759.orig.2023021701323019.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM231759/OCM-231759.thmb.2023021701323019.jpg",
             "Comment": "Two 175kW ABB units",
             "IsEnabled": true,
             "IsVideo": false,
@@ -17,7 +17,7 @@
             "DateCreated": "2023-02-17T01:33:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-04T09:36:00Z",
+    "DateLastVerified": "2023-07-12T09:19:00Z",
     "ID": 231759,
     "UUID": "F449FAEE-3720-4693-B8DB-0F4461F6C5EA",
     "DataProviderID": 2,
@@ -44,25 +44,23 @@
             "ID": 383544,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 383545,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T09:36:00Z",
+    "DateLastStatusUpdate": "2023-07-12T09:19:00Z",
     "DateCreated": "2023-02-13T05:32:00Z",
     "SubmissionStatusTypeID": 100
 }

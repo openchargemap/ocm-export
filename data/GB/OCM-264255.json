@@ -1,54 +1,54 @@
 {
-    "DateLastVerified": "2023-05-02T05:37:00Z",
+    "DateLastVerified": "2023-07-19T18:42:00Z",
     "ID": 264255,
     "UUID": "6959A5C4-71B3-4D7B-9164-8518F6411184",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70570,PG-88796",
     "UsageTypeID": 4,
-    "UsageCost": "£0.44/kWh",
+    "UsageCost": "£0.44 per kWh (July 2023)",
     "AddressInfo": {
         "ID": 264639,
-        "Title": "Tesco Extra-Dover",
-        "AddressLine1": "Tesco Extra",
+        "Title": "Tesco Extra Dover",
+        "AddressLine1": "Honeywood Parkway",
+        "AddressLine2": "Whitfield",
+        "Town": "Dover",
+        "StateOrProvince": "England",
         "Postcode": "CT16 3PS",
         "CountryID": 1,
-        "Latitude": 51.154042,
-        "Longitude": 1.29931,
+        "Latitude": 51.154072078919306,
+        "Longitude": 1.2993976710318114,
+        "RelatedURL": "https://pod-point.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 448038,
             "ConnectionTypeID": 25,
-            "Reference": "PG-70570",
+            "Reference": "Edna-Dell",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 2,
-            "Comments": "Edna-Dell"
+            "Comments": ""
         },
         {
             "ID": 448039,
             "ConnectionTypeID": 25,
-            "Reference": "PG-88796",
+            "Reference": "Theo-Myer",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 2,
-            "Comments": "Theo-Myer"
+            "Comments": ""
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "This is an open charge unit installed at the Tesco Extra - Dover site in White Cliffs business Park, Honeywood Pkwy, Whitfield, Dover",
+    "GeneralComments": "Pay with the Pod Point app.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-02T05:37:00Z",
+    "DateLastStatusUpdate": "2023-07-19T18:42:00Z",
     "DateCreated": "2023-05-02T05:37:00Z",
     "SubmissionStatusTypeID": 200
 }

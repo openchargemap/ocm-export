@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-12-23T21:31:00Z",
+    "DateLastVerified": "2023-07-05T13:14:00Z",
     "ID": 190362,
     "UUID": "3733DD85-F45E-41D3-A77A-43EF6F1DB3C9",
     "DataProviderID": 1,
     "OperatorID": 3339,
     "UsageTypeID": 4,
-    "UsageCost": "$0.40",
+    "UsageCost": "AUD 0.65 per kWh",
     "AddressInfo": {
         "ID": 190721,
         "Title": "ChargeFox Cooma",
@@ -22,6 +22,7 @@
         {
             "ID": 308575,
             "ConnectionTypeID": 2,
+            "Reference": "4033",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -31,16 +32,27 @@
         {
             "ID": 308576,
             "ConnectionTypeID": 33,
+            "Reference": "4509",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 460827,
+            "ConnectionTypeID": 33,
+            "Reference": "4033",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-23T21:31:00Z",
+    "DateLastStatusUpdate": "2023-07-05T13:14:00Z",
     "DateCreated": "2021-12-01T13:24:00Z",
     "SubmissionStatusTypeID": 200
 }

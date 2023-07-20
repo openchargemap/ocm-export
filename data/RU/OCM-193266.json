@@ -3,8 +3,8 @@
         {
             "ID": 36392,
             "ChargePointID": 193266,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RU/OCM193266/OCM-193266.orig.2023012506482294.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RU/OCM193266/OCM-193266.thmb.2023012506482294.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/RU/OCM193266/OCM-193266.orig.2023012506482294.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/RU/OCM193266/OCM-193266.thmb.2023012506482294.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -17,13 +17,13 @@
             "DateCreated": "2023-01-25T06:48:00Z"
         }
     ],
-    "DateLastVerified": "2023-01-25T06:48:00Z",
+    "DateLastVerified": "2023-07-10T11:15:00Z",
     "ID": 193266,
     "UUID": "DD468B0D-8EEF-4BF6-9464-D6E60235FE00",
     "DataProviderID": 1,
     "OperatorID": 3507,
     "UsageTypeID": 5,
-    "UsageCost": "17 руб/кВтч",
+    "UsageCost": "20 р/кВт*ч",
     "AddressInfo": {
         "ID": 193625,
         "Title": "Green Drive. ТРЦ Мега",
@@ -42,7 +42,7 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -54,11 +54,20 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 461890,
+            "ConnectionTypeID": 1040,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-25T06:48:00Z",
+    "DateLastStatusUpdate": "2023-07-10T11:15:00Z",
     "DateCreated": "2022-05-27T08:42:00Z",
     "SubmissionStatusTypeID": 200
 }

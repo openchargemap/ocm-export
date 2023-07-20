@@ -3,8 +3,8 @@
         {
             "ID": 33801,
             "ChargePointID": 139031,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM139031/OCM-139031.orig.2022092618110213.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM139031/OCM-139031.thmb.2022092618110213.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM139031/OCM-139031.orig.2022092618110213.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM139031/OCM-139031.thmb.2022092618110213.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -17,7 +17,7 @@
             "DateCreated": "2022-09-26T18:11:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-04T08:41:00Z",
+    "DateLastVerified": "2023-07-12T08:05:00Z",
     "ID": 139031,
     "UUID": "6B990F47-6E77-443C-9734-320931AD59B2",
     "DataProviderID": 2,
@@ -48,31 +48,30 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 194279,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 194280,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T08:41:00Z",
+    "DateLastStatusUpdate": "2023-07-12T08:05:00Z",
     "DateCreated": "2019-12-24T09:09:00Z",
     "SubmissionStatusTypeID": 100
 }

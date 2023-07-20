@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-04T09:37:00Z",
+    "DateLastVerified": "2023-07-14T21:53:00Z",
     "ID": 143937,
     "UUID": "420B4EF0-9526-4260-88E0-601BABBB5385",
-    "DataProviderID": 2,
-    "DataProvidersReference": "145683",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "$0.48/kwh, or $0.36/kwh with membership",
     "AddressInfo": {
         "ID": 144289,
         "Title": "Walmart 2643 - Woodbury, MN",
@@ -14,8 +14,8 @@
         "StateOrProvince": "MN",
         "Postcode": "55129",
         "CountryID": 2,
-        "Latitude": 44.94571,
-        "Longitude": -92.89834,
+        "Latitude": 44.94570999999763,
+        "Longitude": -92.89833999999934,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -26,25 +26,33 @@
             "ID": 200364,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 200365,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 468086,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T09:37:00Z",
+    "DateLastStatusUpdate": "2023-07-14T21:53:00Z",
     "DateCreated": "2019-12-24T09:22:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,11 +1,12 @@
 {
-    "DateLastVerified": "2023-07-04T10:21:00Z",
+    "DateLastVerified": "2023-07-15T08:37:00Z",
     "ID": 268443,
     "UUID": "2AA0F3FF-895D-446A-9A01-E9BCF115538A",
     "DataProviderID": 1,
     "OperatorID": 203,
-    "OperatorsReference": "",
+    "OperatorsReference": "GB-OSP-2708378be69d4f818392e3c20c551e25",
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 268827,
         "Title": "Red Squirrel Pub & Restaurant, A78",
@@ -21,41 +22,81 @@
     },
     "Connections": [
         {
-            "ID": 457775,
+            "ID": 468157,
             "ConnectionTypeID": 2,
-            "Reference": "ENG00034-2",
-            "StatusTypeID": 0,
+            "Reference": "GB*OSP*EOSP20178*1",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
-            "ID": 457776,
+            "ID": 468158,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP20179*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 468159,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP20178*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 468160,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP20179*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 468371,
             "ConnectionTypeID": 25,
-            "Reference": "ENG00034-3",
-            "StatusTypeID": 0,
+            "Reference": "GB*OSP*EOSP00034*3",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
-            "ID": 457777,
-            "ConnectionTypeID": 1036,
-            "Reference": "ENG00034-1",
-            "StatusTypeID": 0,
+            "ID": 468372,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP00034*1",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 468373,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP00034*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2023-07-04T10:21:00Z",
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-15T08:37:00Z",
     "MetadataValues": [
         {
             "ID": 29471,

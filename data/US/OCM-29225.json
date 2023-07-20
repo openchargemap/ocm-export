@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-07-04T09:37:00Z",
+    "DateLastVerified": "2023-07-14T21:54:00Z",
     "ID": 29225,
     "UUID": "43686684-27C0-4462-821D-EA3CC94A10F7",
-    "DataProviderID": 2,
-    "DataProvidersReference": "64410",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 29571,
         "Title": "St. Louis Park - City Hall",
@@ -13,8 +14,8 @@
         "StateOrProvince": "MN",
         "Postcode": "55416",
         "CountryID": 2,
-        "Latitude": 44.94674,
-        "Longitude": -93.342971,
+        "Latitude": 44.94781278849777,
+        "Longitude": -93.34335486765997,
         "ContactTelephone1": "952-924-2500",
         "AccessComments": "24 hours daily; but 3 hour time limit for non-overnight",
         "RelatedURL": "",
@@ -24,16 +25,18 @@
         {
             "ID": 32119,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Amps": 30,
+            "Voltage": 240,
+            "PowerKW": 6,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T09:37:00Z",
+    "DateLastStatusUpdate": "2023-07-14T21:54:00Z",
     "DateCreated": "2014-11-28T03:39:00Z",
     "SubmissionStatusTypeID": 100
 }

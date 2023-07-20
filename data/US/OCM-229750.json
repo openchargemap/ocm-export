@@ -1,9 +1,26 @@
 {
-    "DateLastVerified": "2023-07-04T09:27:00Z",
+    "MediaItems": [
+        {
+            "ID": 38715,
+            "ChargePointID": 229750,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM229750/OCM-229750.orig.2023071600263511.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM229750/OCM-229750.thmb.2023071600263511.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2023-07-16T00:27:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-07-16T00:31:00Z",
     "ID": 229750,
     "UUID": "891F3EFD-9CF6-4E92-8820-211661350F71",
-    "DataProviderID": 2,
-    "DataProvidersReference": "236025",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -25,26 +42,31 @@
         {
             "ID": 381394,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 381395,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 125,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T09:27:00Z",
+    "DateLastStatusUpdate": "2023-07-16T00:31:00Z",
     "DateCreated": "2023-02-13T05:27:00Z",
     "SubmissionStatusTypeID": 100
 }

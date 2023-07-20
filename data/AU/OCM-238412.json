@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-03-05T21:39:00Z",
+    "DateLastVerified": "2023-07-05T13:15:00Z",
     "ID": 238412,
     "UUID": "D23D0F79-CABB-43B6-9E5C-BE3D8A47463A",
     "DataProviderID": 1,
     "OperatorID": 3339,
     "UsageTypeID": 4,
+    "UsageCost": "AUD 0.40 per kWh",
     "AddressInfo": {
         "ID": 238796,
         "Title": "Orbost Chargefox",
@@ -20,23 +21,27 @@
         {
             "ID": 392211,
             "ConnectionTypeID": 33,
+            "Reference": "4356",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 75,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 392212,
             "ConnectionTypeID": 2,
+            "Reference": "4356",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 75,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-05T21:39:00Z",
+    "DateLastStatusUpdate": "2023-07-05T13:15:00Z",
     "DateCreated": "2023-03-05T04:56:00Z",
     "SubmissionStatusTypeID": 200
 }

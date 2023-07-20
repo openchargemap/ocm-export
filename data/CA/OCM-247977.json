@@ -1,21 +1,38 @@
 {
-    "DateLastVerified": "2023-07-04T09:32:00Z",
+    "UserComments": [
+        {
+            "ID": 28759,
+            "ChargePointID": 247977,
+            "CommentTypeID": 50,
+            "UserName": "Data Cable",
+            "Comment": "Station is open and operational",
+            "Rating": 5,
+            "DateCreated": "2023-07-14T19:20:07.893Z",
+            "User": {
+                "ID": 47314,
+                "Username": "Data Cable"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-07-14T21:53:00Z",
     "ID": 247977,
     "UUID": "1E369EF9-F65C-4600-A87A-680114386036",
-    "DataProviderID": 2,
-    "DataProvidersReference": "255031",
+    "DataProviderID": 1,
     "OperatorID": 3416,
-    "UsageTypeID": 2,
+    "UsageTypeID": 5,
+    "UsageCost": "$23.73 CAD / hr",
     "AddressInfo": {
         "ID": 248361,
-        "Title": "Ontario Charging Network LP",
+        "Title": "Meadowvale Town Centre",
         "AddressLine1": "6677 Meadowvale Town Centre Circle",
         "Town": "Mississauga",
         "StateOrProvince": "ON",
         "Postcode": "L5N 2R5",
         "CountryID": 44,
-        "Latitude": 43.58351484054563,
-        "Longitude": -79.75977665940398,
+        "Latitude": 43.584320580775966,
+        "Longitude": -79.75976333444862,
         "ContactTelephone1": "",
         "AccessComments": "",
         "RelatedURL": "https://ivycharge.com/",
@@ -26,27 +43,26 @@
             "ID": 414420,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 414421,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "DatePlanned": "2023-06-15T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-07-04T09:32:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-14T21:53:00Z",
     "DateCreated": "2023-03-07T05:47:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,11 +1,45 @@
 {
-    "DateLastVerified": "2022-08-23T10:31:00Z",
+    "MediaItems": [
+        {
+            "ID": 38601,
+            "ChargePointID": 196971,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM196971/OCM-196971.orig.2023070713181230.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM196971/OCM-196971.thmb.2023070713181230.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22105,
+                "Username": "lemont"
+            },
+            "DateCreated": "2023-07-07T13:18:00Z"
+        },
+        {
+            "ID": 38600,
+            "ChargePointID": 196971,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM196971/OCM-196971.orig.2023070713172332.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM196971/OCM-196971.thmb.2023070713172332.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22105,
+                "Username": "lemont"
+            },
+            "DateCreated": "2023-07-07T13:17:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-07-10T15:10:00Z",
     "ID": 196971,
     "UUID": "AFC7A2FB-39F9-4C66-BA89-DCB5DBE4154C",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRSPSPSHEL1111",
+    "DataProviderID": 1,
     "OperatorID": 213,
     "UsageTypeID": 1,
+    "UsageCost": "0,59",
     "AddressInfo": {
         "ID": 197330,
         "Title": "AIRE DE LA PLAINE DU FOREZ OUEST",
@@ -40,11 +74,29 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 461969,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 461970,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 125,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "GeneralComments": "Conditions accès aux bornes dépendantes des accords et formules de votre EMSP",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:31:00Z",
+    "DateLastStatusUpdate": "2023-07-10T15:10:00Z",
     "DateCreated": "2022-08-23T10:31:00Z",
     "SubmissionStatusTypeID": 100
 }

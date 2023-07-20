@@ -1,22 +1,22 @@
 {
-    "DateLastVerified": "2023-05-04T08:39:00Z",
+    "DateLastVerified": "2023-07-19T16:38:00Z",
     "ID": 250980,
     "UUID": "BDDDCD75-C1BE-409E-AF72-64A84A46CD19",
-    "DataProviderID": 18,
-    "DataProvidersReference": "1ae969cae63e4ed5bb12e2427ecb1fca",
+    "DataProviderID": 1,
     "OperatorID": 3509,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 251364,
-        "Title": "13, Waterloo Crescent 1",
-        "AddressLine1": "13, Waterloo Crescent",
+        "Title": "Waterloo Crescent",
+        "AddressLine1": "13 Waterloo Crescent",
         "Town": "Dover",
+        "StateOrProvince": "England",
         "Postcode": "CT17 9BP",
         "CountryID": 1,
         "Latitude": 51.12281,
-        "Longitude": 1.315517,
+        "Longitude": 1.31552,
         "AccessComments": "",
-        "RelatedURL": "http://www.connectedkerb.com/",
+        "RelatedURL": "https://www.connectedkerb.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,10 +26,9 @@
             "Reference": "1822",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 418164,
@@ -37,13 +36,24 @@
             "Reference": "2017",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 468804,
+            "ConnectionTypeID": 25,
+            "Reference": "1735",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2023-05-04T08:39:00Z",
+    "NumberOfPoints": 3,
+    "GeneralComments": "You can pay with the Connected Kerb app and ZapMap/ZapPay.",
+    "DateLastStatusUpdate": "2023-07-19T16:38:00Z",
     "MetadataValues": [
         {
             "ID": 22962,

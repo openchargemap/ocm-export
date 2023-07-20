@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2023-07-04T09:23:00Z",
+    "DateLastVerified": "2023-07-09T10:10:00Z",
     "ID": 228597,
     "UUID": "5EC2B594-544C-40DA-B652-7DFBBEFF0503",
-    "DataProviderID": 2,
-    "DataProvidersReference": "203302",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "Pricing at this station is not determined by Electrify America. Check the charger’s display for pricing details",
     "AddressInfo": {
         "ID": 228980,
-        "Title": "EVolve NY Binghamton",
+        "Title": "EVolve NY [Electrify America] Binghamton",
         "AddressLine1": "33 South Washington",
         "Town": "Binghamton",
         "StateOrProvince": "NY",
@@ -28,23 +28,36 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Station 1 & 4"
         },
         {
             "ID": 380180,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 300,
+            "Voltage": 500,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 461434,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T09:23:00Z",
+    "DateLastStatusUpdate": "2023-07-09T10:10:00Z",
     "DateCreated": "2023-02-13T05:24:00Z",
     "SubmissionStatusTypeID": 100
 }

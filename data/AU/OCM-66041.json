@@ -35,8 +35,8 @@
         {
             "ID": 30655,
             "ChargePointID": 66041,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM66041/OCM-66041.orig.2022020508322541.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM66041/OCM-66041.thmb.2022020508322541.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM66041/OCM-66041.orig.2022020508322541.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM66041/OCM-66041.thmb.2022020508322541.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -51,8 +51,8 @@
         {
             "ID": 30654,
             "ChargePointID": 66041,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM66041/OCM-66041.orig.2022020508314071.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM66041/OCM-66041.thmb.2022020508314071.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM66041/OCM-66041.orig.2022020508314071.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM66041/OCM-66041.thmb.2022020508314071.jpg",
             "Comment": "New Tritium charger ",
             "IsEnabled": true,
             "IsVideo": false,
@@ -65,7 +65,7 @@
             "DateCreated": "2022-02-05T08:32:00Z"
         }
     ],
-    "DateLastVerified": "2022-02-05T08:35:00Z",
+    "DateLastVerified": "2023-07-13T23:48:00Z",
     "ID": 66041,
     "UUID": "8FA185C8-806C-4A51-815B-88F998D5A8F1",
     "DataProviderID": 1,
@@ -88,17 +88,18 @@
         {
             "ID": 91323,
             "ConnectionTypeID": 25,
+            "Reference": "1905",
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": ""
         },
         {
             "ID": 91324,
             "ConnectionTypeID": 33,
+            "Reference": "4047",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -108,18 +109,19 @@
             "Quantity": 1
         },
         {
-            "ID": 227078,
-            "ConnectionTypeID": 1,
+            "ID": 466926,
+            "ConnectionTypeID": 2,
+            "Reference": "4047",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-05T08:35:00Z",
+    "DateLastStatusUpdate": "2023-07-13T23:48:00Z",
     "DateCreated": "2016-05-09T22:49:00Z",
     "SubmissionStatusTypeID": 200
 }

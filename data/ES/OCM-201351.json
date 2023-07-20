@@ -3,8 +3,8 @@
         {
             "ID": 37422,
             "ChargePointID": 201351,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201351/OCM-201351.orig.2023042218082626.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201351/OCM-201351.thmb.2023042218082626.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201351/OCM-201351.orig.2023042218082626.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201351/OCM-201351.thmb.2023042218082626.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -17,7 +17,7 @@
             "DateCreated": "2023-04-22T18:08:00Z"
         }
     ],
-    "DateLastVerified": "2023-04-22T18:10:00Z",
+    "DateLastVerified": "2023-07-12T21:27:00Z",
     "ID": 201351,
     "UUID": "0CF7D2B2-865A-4365-9187-2C3CCE5E8A98",
     "DataProviderID": 1,
@@ -42,15 +42,27 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 375,
+            "Amps": 500,
             "Voltage": 920,
-            "PowerKW": 150,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "Four ABB Terra HP175 Chargers with Dual CCS/Chademo outlets. Two of them are limited to 50kW"
+            "Quantity": 2,
+            "Comments": "Two ABB Terra HP350 Chargers with Dual CCS/Chademo outlets."
         },
         {
             "ID": 335881,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Two ABB Terra HP175 Chargers with Dual CCS/Chademo outlets. One of them is limited to 50kW"
+        },
+        {
+            "ID": 466690,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
@@ -63,7 +75,7 @@
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-22T18:10:00Z",
+    "DateLastStatusUpdate": "2023-07-12T21:27:00Z",
     "DateCreated": "2022-08-28T10:56:00Z",
     "SubmissionStatusTypeID": 200
 }

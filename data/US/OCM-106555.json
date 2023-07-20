@@ -1,10 +1,44 @@
 {
-    "DateLastVerified": "2018-06-28T18:40:00Z",
+    "MediaItems": [
+        {
+            "ID": 38613,
+            "ChargePointID": 106555,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM106555/OCM-106555.orig.2023070819213896.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM106555/OCM-106555.thmb.2023070819213896.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47321,
+                "Username": "d_id4"
+            },
+            "DateCreated": "2023-07-08T19:22:00Z"
+        },
+        {
+            "ID": 38612,
+            "ChargePointID": 106555,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM106555/OCM-106555.orig.2023070819205316.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM106555/OCM-106555.thmb.2023070819205316.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47321,
+                "Username": "d_id4"
+            },
+            "DateCreated": "2023-07-08T19:21:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-07-09T10:10:00Z",
     "ID": 106555,
     "UUID": "297BC1AD-6895-4F46-9B07-96131935AB65",
     "DataProviderID": 1,
     "OperatorID": 3318,
-    "UsageTypeID": 6,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 106901,
         "Title": "Electrify America - Brughs Mill Country Store",
@@ -29,7 +63,8 @@
             "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Charger 4"
         },
         {
             "ID": 149942,
@@ -40,24 +75,14 @@
             "Voltage": 1000,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 149943,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 500,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 4,
+            "Comments": ""
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "Electrify America station",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-06-28T18:40:00Z",
+    "DateLastStatusUpdate": "2023-07-09T10:10:00Z",
     "DateCreated": "2018-06-24T22:16:00Z",
     "SubmissionStatusTypeID": 200
 }

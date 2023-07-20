@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-04-08T11:36:00Z",
+    "DateLastVerified": "2023-07-07T10:39:00Z",
     "ID": 259691,
     "UUID": "57B356A4-46E9-4856-97DB-C9C394F19608",
     "DataProviderID": 1,
-    "OperatorID": 3595,
+    "OperatorID": 3339,
     "UsageTypeID": 4,
+    "UsageCost": "AUD 0.55 per kWh",
     "AddressInfo": {
         "ID": 260075,
         "Title": "Scorseby Engie",
@@ -20,23 +21,25 @@
         {
             "ID": 435704,
             "ConnectionTypeID": 33,
+            "Reference": "4704",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 100,
-            "Quantity": 1
+            "Quantity": 3
         },
         {
             "ID": 435705,
             "ConnectionTypeID": 2,
+            "Reference": "4704",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-04-08T11:36:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-07T10:39:00Z",
     "DateCreated": "2023-04-08T05:37:00Z",
     "SubmissionStatusTypeID": 200
 }

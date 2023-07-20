@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2020-06-19T07:39:00Z",
+    "DateLastVerified": "2023-07-13T23:02:00Z",
     "ID": 157597,
     "UUID": "1A144FBB-D992-45E7-8633-787405104818",
     "DataProviderID": 1,
@@ -9,7 +9,7 @@
     "AddressInfo": {
         "ID": 157951,
         "Title": "Sheffield Visitor Information Centre",
-        "AddressLine1": "Pioneer Crescent",
+        "AddressLine1": "6 Pioneer Crescent",
         "Town": "Sheffield",
         "StateOrProvince": "Tasmania",
         "Postcode": "7306",
@@ -24,18 +24,40 @@
         {
             "ID": 227047,
             "ConnectionTypeID": 25,
+            "Reference": "6045",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 466918,
+            "ConnectionTypeID": 33,
+            "Reference": "6225",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 24,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 466919,
+            "ConnectionTypeID": 2,
+            "Reference": "6225",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 24,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "$0.25 per kWh + $0.15 min peak (9am - 6pm) / $0.10 off peak",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-19T07:39:00Z",
+    "DateLastStatusUpdate": "2023-07-13T23:02:00Z",
     "DateCreated": "2020-06-19T05:07:00Z",
     "SubmissionStatusTypeID": 200
 }

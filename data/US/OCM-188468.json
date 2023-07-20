@@ -1,10 +1,28 @@
 {
-    "DateLastVerified": "2021-12-20T20:54:00Z",
+    "MediaItems": [
+        {
+            "ID": 38716,
+            "ChargePointID": 188468,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM188468/OCM-188468.orig.2023071600313820.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM188468/OCM-188468.thmb.2023071600313820.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2023-07-16T00:32:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-07-16T00:34:00Z",
     "ID": 188468,
     "UUID": "3C21B406-36F0-4C3F-8463-190002962D90",
     "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "UsageCost": "$0.45/kWh",
     "AddressInfo": {
         "ID": 188827,
@@ -12,6 +30,7 @@
         "AddressLine1": "13200 32 Mile Road",
         "Town": "Washingtown Township",
         "StateOrProvince": "Michigan",
+        "Postcode": "48065",
         "CountryID": 2,
         "Latitude": 42.80265612192312,
         "Longitude": -83.00423528333909,
@@ -22,8 +41,11 @@
             "ID": 304360,
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 1000,
             "PowerKW": 125,
+            "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Combined station with Chademo"
         },
@@ -31,6 +53,10 @@
             "ID": 304361,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Combined with CCS"
@@ -38,7 +64,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-20T20:54:00Z",
+    "DateLastStatusUpdate": "2023-07-16T00:34:00Z",
     "DateCreated": "2021-07-27T20:19:00Z",
     "SubmissionStatusTypeID": 200
 }

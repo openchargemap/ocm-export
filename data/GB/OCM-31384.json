@@ -195,8 +195,8 @@
         {
             "ID": 6123,
             "ChargePointID": 31384,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31384/OCM-31384.orig.2016032915230183.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31384/OCM-31384.thmb.2016032915230183.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM31384/OCM-31384.orig.2016032915230183.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM31384/OCM-31384.thmb.2016032915230183.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -211,8 +211,8 @@
         {
             "ID": 961,
             "ChargePointID": 31384,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31384/OCM-31384.orig.2015020417124426.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM31384/OCM-31384.thmb.2015020417124426.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM31384/OCM-31384.orig.2015020417124426.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM31384/OCM-31384.thmb.2015020417124426.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -225,7 +225,7 @@
             "DateCreated": "2015-02-04T17:13:00Z"
         }
     ],
-    "DateLastVerified": "2023-06-01T08:24:00Z",
+    "DateLastVerified": "2023-07-13T05:23:00Z",
     "ID": 31384,
     "UUID": "17FB69B6-A203-4B8C-B7D8-589B99BA8AC7",
     "DataProviderID": 1,
@@ -248,26 +248,6 @@
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 433121,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10464*2",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 433122,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10462*2",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 433123,
             "ConnectionTypeID": 33,
@@ -312,16 +292,6 @@
             "ID": 433127,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10462*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 433128,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10463*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 60,
@@ -409,11 +379,41 @@
             "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
+        },
+        {
+            "ID": 460905,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10464*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 460906,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10462*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 460907,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10463*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 12,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-01T08:24:00Z",
+    "DateLastStatusUpdate": "2023-07-13T05:23:00Z",
     "DateCreated": "2015-01-06T18:59:00Z",
     "SubmissionStatusTypeID": 200
 }

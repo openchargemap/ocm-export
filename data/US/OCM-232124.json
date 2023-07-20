@@ -3,8 +3,8 @@
         {
             "ID": 36653,
             "ChargePointID": 232124,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM232124/OCM-232124.orig.2023021701345136.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM232124/OCM-232124.thmb.2023021701345136.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM232124/OCM-232124.orig.2023021701345136.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM232124/OCM-232124.thmb.2023021701345136.jpg",
             "Comment": "Two ChargePoint CPE 250 units",
             "IsEnabled": true,
             "IsVideo": false,
@@ -17,7 +17,7 @@
             "DateCreated": "2023-02-17T01:35:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-04T09:37:00Z",
+    "DateLastVerified": "2023-07-12T09:21:00Z",
     "ID": 232124,
     "UUID": "E30EC1B3-BBD8-48C2-9113-BD753DF8899D",
     "DataProviderID": 2,
@@ -44,25 +44,23 @@
             "ID": 383934,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 383935,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T09:37:00Z",
+    "DateLastStatusUpdate": "2023-07-12T09:21:00Z",
     "DateCreated": "2023-02-13T05:33:00Z",
     "SubmissionStatusTypeID": 100
 }

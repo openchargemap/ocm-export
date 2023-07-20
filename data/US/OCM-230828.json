@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-02-21T19:50:00Z",
+    "MediaItems": [
+        {
+            "ID": 38719,
+            "ChargePointID": 230828,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM230828/OCM-230828.orig.2023071600393906.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM230828/OCM-230828.thmb.2023071600393906.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2023-07-16T00:40:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-07-16T00:42:00Z",
     "ID": 230828,
     "UUID": "64CCE2B1-5CE5-41E8-AB07-3A87C214293E",
     "DataProviderID": 1,
@@ -24,37 +42,40 @@
         {
             "ID": 382543,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 75,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 8
         },
         {
             "ID": 382544,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 3
         },
         {
             "ID": 382545,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 250,
+            "Voltage": 1000,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 3
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 11,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-21T19:50:00Z",
+    "DateLastStatusUpdate": "2023-07-16T00:42:00Z",
     "DateCreated": "2023-02-13T05:30:00Z",
     "SubmissionStatusTypeID": 100
 }

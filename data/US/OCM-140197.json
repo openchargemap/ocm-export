@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2020-06-26T02:58:00Z",
+    "DateLastVerified": "2023-07-09T10:10:00Z",
     "ID": 140197,
     "UUID": "E29CA57D-9FC4-4CA9-B836-24C8603F8A37",
-    "DataProviderID": 2,
-    "DataProvidersReference": "125139",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "Guest & Pass Member $0.48/ kWh. Pass+ Members $0.36/ kWh",
     "AddressInfo": {
         "ID": 140549,
         "Title": "Walmart 2134 - Charlotte, NC",
@@ -30,21 +30,35 @@
             "Voltage": 400,
             "PowerKW": 40,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "station 2 "
         },
         {
             "ID": 195775,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "Amps": 300,
+            "Voltage": 500,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 8
+        },
+        {
+            "ID": 461429,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 350,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "stations 8 & 9"
         }
     ],
+    "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T02:58:00Z",
+    "DateLastStatusUpdate": "2023-07-09T10:10:00Z",
     "DateCreated": "2019-12-24T09:12:00Z",
     "SubmissionStatusTypeID": 100
 }

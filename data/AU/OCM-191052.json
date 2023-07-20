@@ -3,8 +3,8 @@
         {
             "ID": 31112,
             "ChargePointID": 191052,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM191052/OCM-191052.orig.2022031808062706.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM191052/OCM-191052.thmb.2022031808062706.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM191052/OCM-191052.orig.2022031808062706.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM191052/OCM-191052.thmb.2022031808062706.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -19,8 +19,8 @@
         {
             "ID": 31113,
             "ChargePointID": 191052,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM191052/OCM-191052.orig.2022031808072010.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM191052/OCM-191052.thmb.2022031808072010.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM191052/OCM-191052.orig.2022031808072010.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM191052/OCM-191052.thmb.2022031808072010.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -33,7 +33,7 @@
             "DateCreated": "2022-03-18T08:07:00Z"
         }
     ],
-    "DateLastVerified": "2022-03-18T19:44:00Z",
+    "DateLastVerified": "2023-07-13T10:55:00Z",
     "ID": 191052,
     "UUID": "A5E5AE46-2399-4519-B27A-CD9D4F1F54AE",
     "DataProviderID": 1,
@@ -55,7 +55,18 @@
     "Connections": [
         {
             "ID": 309934,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
+            "Reference": "1730",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 466849,
+            "ConnectionTypeID": 25,
+            "Reference": "1731",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -65,7 +76,7 @@
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-18T19:44:00Z",
+    "DateLastStatusUpdate": "2023-07-13T10:55:00Z",
     "DateCreated": "2022-01-14T20:03:00Z",
     "SubmissionStatusTypeID": 200
 }

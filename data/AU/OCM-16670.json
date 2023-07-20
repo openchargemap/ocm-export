@@ -40,8 +40,8 @@
         {
             "ID": 28175,
             "ChargePointID": 16670,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM16670/OCM-16670.orig.2021061701304136.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM16670/OCM-16670.thmb.2021061701304136.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM16670/OCM-16670.orig.2021061701304136.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM16670/OCM-16670.thmb.2021061701304136.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -56,8 +56,8 @@
         {
             "ID": 28174,
             "ChargePointID": 16670,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM16670/OCM-16670.orig.2021061701301172.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM16670/OCM-16670.thmb.2021061701301172.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM16670/OCM-16670.orig.2021061701301172.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM16670/OCM-16670.thmb.2021061701301172.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -70,13 +70,13 @@
             "DateCreated": "2021-06-17T01:30:00Z"
         }
     ],
-    "DateLastVerified": "2021-10-13T06:04:00Z",
+    "DateLastVerified": "2023-07-13T12:21:00Z",
     "ID": 16670,
     "UUID": "57071C69-FB07-4786-B92A-301CF96E3099",
     "DataProviderID": 1,
     "OperatorID": 3339,
     "UsageTypeID": 4,
-    "UsageCost": "$0.45 per kwh",
+    "UsageCost": "$0.60 per kwh",
     "AddressInfo": {
         "ID": 17015,
         "Title": "RAC, West Perth",
@@ -91,26 +91,16 @@
     },
     "Connections": [
         {
-            "ID": 15121,
-            "ConnectionTypeID": 1,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 240,
-            "PowerKW": 7.2,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
             "ID": 91328,
             "ConnectionTypeID": 2,
+            "Reference": "4524",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 91329,
@@ -126,18 +116,19 @@
         {
             "ID": 91330,
             "ConnectionTypeID": 33,
+            "Reference": "4524",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 500,
             "Voltage": 920,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-13T06:04:00Z",
+    "DateLastStatusUpdate": "2023-07-13T12:21:00Z",
     "DateCreated": "2013-05-29T01:08:00Z",
     "SubmissionStatusTypeID": 200
 }

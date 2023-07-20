@@ -1,22 +1,22 @@
 {
-    "DateLastVerified": "2023-02-09T08:10:00Z",
+    "DateLastVerified": "2023-07-19T18:09:00Z",
     "ID": 200064,
     "UUID": "C4AA63D2-B532-4EE1-8840-449A46784B60",
-    "DataProviderID": 18,
-    "DataProvidersReference": "6cc7fe61fc22e167259b7669487b5b53",
+    "DataProviderID": 1,
     "OperatorID": 3509,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 200423,
-        "Title": "167, Lewisham Road",
-        "AddressLine1": "167, Lewisham Road",
+        "Title": "169 Lewisham Road (Car Park)",
+        "AddressLine1": "169 Lewisham Road",
         "Town": "Dover",
+        "StateOrProvince": "England",
         "Postcode": "CT17 0PP",
         "CountryID": 1,
-        "Latitude": 51.144039,
-        "Longitude": 1.273797,
+        "Latitude": 51.14401804691737,
+        "Longitude": 1.273850390409955,
         "AccessComments": "",
-        "RelatedURL": "http://www.connectedkerb.com/",
+        "RelatedURL": "https://www.connectedkerb.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,10 +26,9 @@
             "Reference": "1875",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 333864,
@@ -37,13 +36,15 @@
             "Reference": "2614",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2023-02-09T08:10:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "You can pay with the Connected Kerb app and ZapMap/ZapPay.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-19T18:09:00Z",
     "MetadataValues": [
         {
             "ID": 20486,

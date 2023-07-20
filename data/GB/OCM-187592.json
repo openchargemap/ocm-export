@@ -1,21 +1,22 @@
 {
-    "DateLastVerified": "2021-07-12T03:38:00Z",
+    "DateLastVerified": "2023-07-19T17:18:00Z",
     "ID": 187592,
     "UUID": "E7A53B02-0CC1-4671-806C-5243405DB4E4",
-    "DataProviderID": 18,
-    "DataProvidersReference": "4b663b62aeaf93c1ec07e7f73bf25431",
+    "DataProviderID": 1,
+    "OperatorID": 3509,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 187951,
-        "Title": "CT16 1RL",
-        "AddressLine1": "",
+        "Title": "Maison Dieu Car Park",
+        "AddressLine1": "Maison Dieu Road",
         "Town": "Dover",
+        "StateOrProvince": "England",
         "Postcode": "CT16 1RL",
         "CountryID": 1,
-        "Latitude": 51.128765,
-        "Longitude": 1.311227,
+        "Latitude": 51.12871449364174,
+        "Longitude": 1.311413747254271,
         "AccessComments": "",
-        "RelatedURL": "http://www.connectedkerb.com/",
+        "RelatedURL": "https://www.connectedkerb.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,10 +26,9 @@
             "Reference": "1199",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 302772,
@@ -36,14 +36,35 @@
             "Reference": "1200",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 468815,
+            "ConnectionTypeID": 25,
+            "Reference": "1201",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 468816,
+            "ConnectionTypeID": 25,
+            "Reference": "1202",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2021-07-12T03:38:00Z",
+    "NumberOfPoints": 4,
+    "GeneralComments": "You can pay with the Connected Kerb app and ZapMap/ZapPay.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-19T17:18:00Z",
     "MetadataValues": [
         {
             "ID": 19832,

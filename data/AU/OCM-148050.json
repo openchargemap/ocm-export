@@ -1,15 +1,16 @@
 {
-    "DateLastVerified": "2021-10-13T06:06:00Z",
+    "DateLastVerified": "2023-07-13T23:31:00Z",
     "ID": 148050,
     "UUID": "5C90D5E4-913A-4CE1-97F6-13022A138D18",
     "DataProviderID": 1,
     "OperatorID": 3339,
     "UsageTypeID": 4,
+    "UsageCost": "$0.45 per kWh",
     "AddressInfo": {
         "ID": 148402,
         "Title": "Primewest Gwelup",
         "AddressLine1": "707 North Beach Road",
-        "Town": "Perth",
+        "Town": "Gwelup",
         "StateOrProvince": "Western Australia",
         "Postcode": "6018",
         "CountryID": 18,
@@ -19,17 +20,9 @@
     },
     "Connections": [
         {
-            "ID": 205540,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 205541,
             "ConnectionTypeID": 33,
+            "Reference": "4046",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -39,6 +32,7 @@
         {
             "ID": 205542,
             "ConnectionTypeID": 25,
+            "Reference": "3016",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -48,7 +42,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-13T06:06:00Z",
+    "DateLastStatusUpdate": "2023-07-13T23:31:00Z",
     "DateCreated": "2020-01-24T05:21:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,0 +1,58 @@
+{
+    "DateLastVerified": "2023-07-09T08:42:00Z",
+    "ID": 271073,
+    "UUID": "22E97985-E789-4715-BAAE-AA50DF98C72D",
+    "DataProviderID": 1,
+    "OperatorID": 3552,
+    "UsageTypeID": 4,
+    "UsageCost": "0,54€/kWh DC >80kW - 0,42€/kWh DC - 0,35kWh AC",
+    "AddressInfo": {
+        "ID": 271457,
+        "Title": "Encin Golf Alcalá de Henares",
+        "AddressLine1": "A-2",
+        "StateOrProvince": "Comunidad de Madrid",
+        "Postcode": "28805",
+        "CountryID": 210,
+        "Latitude": 40.5230986566242,
+        "Longitude": -3.3115428511584923,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 461401,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Two CCS/Chademo Starcharge Titan120 chargers. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+        },
+        {
+            "ID": 461402,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Starcharge Titan120 charger"
+        },
+        {
+            "ID": 461404,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 6,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-09T08:42:00Z",
+    "DateCreated": "2023-07-09T08:29:00Z",
+    "SubmissionStatusTypeID": 200
+}

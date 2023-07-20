@@ -3,8 +3,8 @@
         {
             "ID": 36412,
             "ChargePointID": 212776,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RU/OCM212776/OCM-212776.orig.2023012507423710.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/RU/OCM212776/OCM-212776.thmb.2023012507423710.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/RU/OCM212776/OCM-212776.orig.2023012507423710.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/RU/OCM212776/OCM-212776.thmb.2023012507423710.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -17,15 +17,16 @@
             "DateCreated": "2023-01-25T07:43:00Z"
         }
     ],
-    "DateLastVerified": "2023-01-25T07:45:00Z",
+    "DateLastVerified": "2023-07-10T11:05:00Z",
     "ID": 212776,
     "UUID": "BE21A5BC-8961-465E-A8ED-9E17B2EF275D",
     "DataProviderID": 1,
     "OperatorID": 3507,
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
+    "UsageCost": "16 р/кВт*ч",
     "AddressInfo": {
         "ID": 213156,
-        "Title": "Green Drive парк чудес Кудыкина гора",
+        "Title": "Парк Кудыкина гора",
         "AddressLine1": "Липецкая область, Задонский район, с. Каменка",
         "CountryID": 185,
         "Latitude": 52.36703415188617,
@@ -38,18 +39,27 @@
     "Connections": [
         {
             "ID": 354334,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 10,
             "Quantity": 1,
-            "Comments": "Коннекторы/мощность: AC Type 2 - 22 кВт, AC Type1 - 7,4 кВт"
+            "Comments": ""
+        },
+        {
+            "ID": 461881,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-25T07:45:00Z",
+    "DateLastStatusUpdate": "2023-07-10T11:05:00Z",
     "DateCreated": "2023-01-25T07:41:00Z",
     "SubmissionStatusTypeID": 200
 }

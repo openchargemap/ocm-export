@@ -3,8 +3,8 @@
         {
             "ID": 24617,
             "ChargePointID": 137659,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM137659/OCM-137659.orig.2020090622220477.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM137659/OCM-137659.thmb.2020090622220477.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM137659/OCM-137659.orig.2020090622220477.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM137659/OCM-137659.thmb.2020090622220477.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -17,7 +17,7 @@
             "DateCreated": "2020-09-06T22:22:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-04T08:38:00Z",
+    "DateLastVerified": "2023-07-11T08:32:00Z",
     "ID": 137659,
     "UUID": "7704D720-ADF6-42F3-82C5-D958222CB6B4",
     "DataProviderID": 2,
@@ -44,25 +44,23 @@
             "ID": 192609,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 192610,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T08:38:00Z",
+    "DateLastStatusUpdate": "2023-07-11T08:32:00Z",
     "DateCreated": "2019-12-24T09:06:00Z",
     "SubmissionStatusTypeID": 100
 }

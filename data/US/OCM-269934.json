@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2023-07-04T09:23:00Z",
+    "DateLastVerified": "2023-07-12T09:01:00Z",
     "ID": 269934,
     "UUID": "0ABBC0D5-07DE-4181-B218-1D52E67EF821",
     "DataProviderID": 2,
     "DataProvidersReference": "77350",
     "OperatorID": 3542,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 270318,
         "Title": "WCEH - Brookings",
-        "AddressLine1": "325 5th st",
+        "AddressLine1": "325 5th St",
         "Town": "Brookings",
         "StateOrProvince": "OR",
         "Postcode": "97415",
@@ -17,7 +17,7 @@
         "Latitude": 42.05422,
         "Longitude": -124.28892,
         "ContactTelephone1": "866-300-3827",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card after hours",
+        "AccessComments": "24 hours daily\r\nPublic - Card key at all times",
         "RelatedURL": "https://evcs.com",
         "DistanceUnit": 0
     },
@@ -30,31 +30,30 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 459582,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 459583,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T09:23:00Z",
+    "DateLastStatusUpdate": "2023-07-12T09:01:00Z",
     "DateCreated": "2023-07-04T07:23:00Z",
     "SubmissionStatusTypeID": 100
 }

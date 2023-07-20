@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-02-06T07:44:00Z",
+    "DateLastVerified": "2023-07-11T21:39:00Z",
     "ID": 213368,
     "UUID": "B36FCB03-7948-42BF-8E8C-48210A9F275F",
     "DataProviderID": 1,
     "OperatorID": 3508,
     "UsageTypeID": 4,
-    "UsageCost": "CCS/ CHADEMO: 0.40€/kWh // TYPE 2: 0.30€/kWh",
+    "UsageCost": "CCS/ CHADEMO: 0.48€/kWh // TYPE 2: 0.35€/kWh",
     "AddressInfo": {
         "ID": 213748,
         "Title": "La Puebla de Argazon",
@@ -13,8 +13,8 @@
         "StateOrProvince": "Castilla y León",
         "Postcode": "09294",
         "CountryID": 210,
-        "Latitude": 42.764779154088274,
-        "Longitude": -2.828878328270008,
+        "Latitude": 42.76412841915024,
+        "Longitude": -2.828583638594864,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -39,11 +39,20 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 462393,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-02-06T07:44:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-11T21:39:00Z",
     "DateCreated": "2023-02-06T07:44:00Z",
     "SubmissionStatusTypeID": 200
 }

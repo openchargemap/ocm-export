@@ -3,8 +3,8 @@
         {
             "ID": 37386,
             "ChargePointID": 222336,
-            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM222336/OCM-222336.orig.2023041922581494.jpg",
-            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM222336/OCM-222336.thmb.2023041922581494.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM222336/OCM-222336.orig.2023041922581494.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM222336/OCM-222336.thmb.2023041922581494.jpg",
             "Comment": "Signs indicate Tesla only charging",
             "IsEnabled": true,
             "IsVideo": false,
@@ -17,7 +17,7 @@
             "DateCreated": "2023-04-19T22:58:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-04T08:56:00Z",
+    "DateLastVerified": "2023-07-12T08:24:00Z",
     "ID": 222336,
     "UUID": "982F41EE-2DC0-430C-8B14-6B0968AAA3B7",
     "DataProviderID": 2,
@@ -44,15 +44,14 @@
             "ID": 373119,
             "ConnectionTypeID": 27,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 7
+            "Quantity": 7,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T08:56:00Z",
+    "DateLastStatusUpdate": "2023-07-12T08:24:00Z",
     "DateCreated": "2023-02-13T05:06:00Z",
     "SubmissionStatusTypeID": 100
 }

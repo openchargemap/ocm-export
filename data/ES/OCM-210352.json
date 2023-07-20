@@ -1,5 +1,55 @@
 {
-    "DateLastVerified": "2022-12-09T17:59:00Z",
+    "MediaItems": [
+        {
+            "ID": 38596,
+            "ChargePointID": 210352,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM210352/OCM-210352.orig.2023070620533074.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM210352/OCM-210352.thmb.2023070620533074.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46612,
+                "Username": "haldorff"
+            },
+            "DateCreated": "2023-07-06T20:54:00Z"
+        },
+        {
+            "ID": 38595,
+            "ChargePointID": 210352,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM210352/OCM-210352.orig.2023070620525219.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM210352/OCM-210352.thmb.2023070620525219.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46612,
+                "Username": "haldorff"
+            },
+            "DateCreated": "2023-07-06T20:53:00Z"
+        },
+        {
+            "ID": 38594,
+            "ChargePointID": 210352,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM210352/OCM-210352.orig.2023070620521208.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM210352/OCM-210352.thmb.2023070620521208.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46612,
+                "Username": "haldorff"
+            },
+            "DateCreated": "2023-07-06T20:52:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-07-06T20:54:00Z",
     "ID": 210352,
     "UUID": "EFFFBFBF-97FD-4224-BA4D-F963D5BF33BC",
     "DataProviderID": 1,
@@ -14,8 +64,8 @@
         "StateOrProvince": "Andalucía",
         "Postcode": "29740",
         "CountryID": 210,
-        "Latitude": 36.742468381227084,
-        "Longitude": -4.093479334115273,
+        "Latitude": 36.74221119033915,
+        "Longitude": -4.092202882134188,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,11 +77,47 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 461039,
+            "ConnectionTypeID": 33,
+            "Reference": "see image",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "No QR code yet, you will need to enter either entering serial number or present NFC"
+        },
+        {
+            "ID": 461040,
+            "ConnectionTypeID": 25,
+            "Reference": "see image",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 461041,
+            "ConnectionTypeID": 2,
+            "Reference": "see image",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "No QR code yet"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-09T17:59:00Z",
+    "DateLastStatusUpdate": "2023-07-06T20:54:00Z",
     "DateCreated": "2022-12-09T17:59:00Z",
     "SubmissionStatusTypeID": 200
 }

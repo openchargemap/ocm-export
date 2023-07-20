@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2020-03-08T21:33:00Z",
+    "DateLastVerified": "2023-07-19T18:36:00Z",
     "ID": 149886,
     "UUID": "A46959DC-C18B-4C73-B70F-B464AB9CF3AD",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 6,
+    "OperatorID": 3509,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 150239,
         "Title": "Dover District Leisure Centre",
@@ -15,24 +15,55 @@
         "CountryID": 1,
         "Latitude": 51.15078489410513,
         "Longitude": 1.3047746030169947,
+        "RelatedURL": "https://www.connectedkerb.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 208113,
+            "ID": 468825,
             "ConnectionTypeID": 25,
+            "Reference": "1474",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 1
+        },
+        {
+            "ID": 468826,
+            "ConnectionTypeID": 25,
+            "Reference": "1434",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 468827,
+            "ConnectionTypeID": 25,
+            "Reference": "1433",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 468828,
+            "ConnectionTypeID": 25,
+            "Reference": "1877",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "Pay with Connected Kerb app, Zap Map/Zap Pay, RFID card",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-03-08T21:33:00Z",
+    "DateLastStatusUpdate": "2023-07-19T18:36:00Z",
     "DateCreated": "2020-03-08T21:33:00Z",
     "SubmissionStatusTypeID": 200
 }

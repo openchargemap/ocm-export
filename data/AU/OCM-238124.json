@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-06-08T12:28:00Z",
+    "DateLastVerified": "2023-07-12T22:58:00Z",
     "ID": 238124,
     "UUID": "89A32458-1EA9-4459-8F95-40D2F3CBC7D9",
     "DataProviderID": 1,
     "OperatorID": 3398,
     "UsageTypeID": 4,
-    "UsageCost": "$0.60/kWh",
+    "UsageCost": "65c per kWh energy consumed.",
     "AddressInfo": {
         "ID": 238508,
         "Title": "Sally’s Corner",
@@ -23,25 +23,47 @@
         {
             "ID": 391676,
             "ConnectionTypeID": 33,
+            "Reference": "HS002",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 2
         },
         {
             "ID": 391677,
             "ConnectionTypeID": 2,
+            "Reference": "HS002",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 2
+        },
+        {
+            "ID": 466705,
+            "ConnectionTypeID": 33,
+            "Reference": "HS002B",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 466706,
+            "ConnectionTypeID": 2,
+            "Reference": "HS002B",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-08T12:28:00Z",
+    "DateLastStatusUpdate": "2023-07-12T22:58:00Z",
     "DateCreated": "2023-03-01T23:46:00Z",
     "SubmissionStatusTypeID": 200
 }
