@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T09:21:00Z",
+    "DateLastVerified": "2023-07-20T05:00:00Z",
     "ID": 232141,
     "UUID": "9E8BF37F-A190-4CD5-9379-9C04BD9437E7",
-    "DataProviderID": 2,
-    "DataProvidersReference": "164663",
+    "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "First 2 hours free, then $6.00 / hr",
     "AddressInfo": {
         "ID": 232524,
-        "Title": "CITY OF EDINA CITY HALL 1",
+        "Title": "Edina City Hall",
         "AddressLine1": "4801 W 50th St",
         "Town": "Edina",
         "StateOrProvince": "MN",
         "Postcode": "55424",
         "CountryID": 2,
-        "Latitude": 44.911248,
-        "Longitude": -93.347814,
+        "Latitude": 44.911165357908544,
+        "Longitude": -93.3480014967135,
         "ContactTelephone1": "888-758-4389",
-        "AccessComments": "Mon 12:00am - 11:45pm; Tue 12:00am - 11:45pm; Wed 12:00am - 11:45pm; Thu 12:00am - 11:45pm; Fri 12:00am - 11:45pm; Sat 12:00am - 11:45pm; Sun 12:00am - 11:45pm",
+        "AccessComments": "",
         "RelatedURL": "http://www.chargepoint.com/",
         "DistanceUnit": 0
     },
@@ -25,17 +25,19 @@
         {
             "ID": 383955,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Amps": 30,
+            "Voltage": 240,
+            "PowerKW": 6,
             "CurrentTypeID": 10,
-            "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 6,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:21:00Z",
+    "DateLastStatusUpdate": "2023-07-20T05:00:00Z",
     "DateCreated": "2023-02-13T05:33:00Z",
     "SubmissionStatusTypeID": 100
 }

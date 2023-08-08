@@ -1,27 +1,28 @@
 {
-    "DateLastVerified": "2022-08-07T23:09:00Z",
+    "DateLastVerified": "2023-07-26T15:07:00Z",
     "ID": 129624,
     "UUID": "BD369E19-CFF3-40FC-92DD-FDAF13AB27EE",
     "DataProviderID": 1,
-    "OperatorID": 103,
+    "OperatorID": 3392,
     "UsageTypeID": 5,
-    "UsageCost": "£0.65/kWh",
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 129970,
         "Title": "Shell Little Waitrose Chiswell ",
-        "AddressLine1": "551 Watford Rd",
+        "AddressLine1": "551 Watford Road",
         "Town": "St Albans",
         "Postcode": " AL2 3EH",
         "CountryID": 1,
         "Latitude": 51.7211405176627,
         "Longitude": -0.363717000191855,
-        "RelatedURL": "https://www.smoovapp.eu",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 181394,
             "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTERRA*54*043*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -29,19 +30,9 @@
             "Quantity": 1
         },
         {
-            "ID": 181395,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
             "ID": 181396,
             "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTERRA*54*043*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -51,17 +42,88 @@
         {
             "ID": 317290,
             "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTRIT*PK*00073*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 175,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 1
+        },
+        {
+            "ID": 470552,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTRIT*PK*00073*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 470553,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTRIT*PK*00073*3",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 470554,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTRIT*PK*00073*4",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 470555,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTRIT*PK*00073*5",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 470556,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTRIT*PK*00073*6",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 470557,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTRIT*PK*00073*7",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 470558,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTRIT*PK*00073*8",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 5,
-    "GeneralComments": "Payment by contactless payment card, smoov app or newmotion RFID.",
+    "GeneralComments": "Payment by contactless payment card, newmotion or roaming RFID.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-07T23:09:00Z",
+    "DateLastStatusUpdate": "2023-07-26T15:07:00Z",
     "DateCreated": "2019-07-21T15:38:00Z",
     "SubmissionStatusTypeID": 200
 }

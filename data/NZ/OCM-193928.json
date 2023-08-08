@@ -1,18 +1,18 @@
 {
-    "DateLastVerified": "2022-07-07T11:01:00Z",
+    "DateLastVerified": "2023-07-28T11:13:00Z",
     "ID": 193928,
     "UUID": "24ECD1B0-6EA9-4A42-9CF8-C4F401ACEC2A",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "DC 50kW: $0.25 / kWh + $0.25 / minute,  AC 22 kW / 7 kW: $0.40 / kWh",
+    "UsageCost": "DC: $0.80 / kWh,  AC: $0.40 / kWh",
     "AddressInfo": {
         "ID": 194287,
         "Title": "Arthurs Pass National Park Visitor Centre",
         "AddressLine1": "80 West Coast Road",
         "Town": "Arthur's Pass",
         "StateOrProvince": "Canterbury",
-        "Postcode": "",
+        "Postcode": "7875",
         "CountryID": 161,
         "Latitude": -42.94168637896143,
         "Longitude": 171.5629629894329,
@@ -24,7 +24,7 @@
         {
             "ID": 315782,
             "ConnectionTypeID": 33,
-            "Reference": "ARPS1",
+            "Reference": "ARPS3-B",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -34,7 +34,7 @@
         {
             "ID": 315783,
             "ConnectionTypeID": 2,
-            "Reference": "ARPS1",
+            "Reference": "ARPS3-A",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -52,10 +52,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 3,
     "GeneralComments": "50kW CCS/CHAdeMO and 22kW Type 2 AC",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-07T11:01:00Z",
+    "DateLastStatusUpdate": "2023-07-28T11:13:00Z",
     "DateCreated": "2022-07-07T11:01:00Z",
     "SubmissionStatusTypeID": 200
 }

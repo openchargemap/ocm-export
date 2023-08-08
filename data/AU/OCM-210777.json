@@ -15,13 +15,13 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2023-04-02T09:58:00Z",
+    "DateLastVerified": "2023-07-28T08:21:00Z",
     "ID": 210777,
     "UUID": "94AAA225-0154-4BB2-ADF6-691EF5B6FAA1",
     "DataProviderID": 1,
-    "OperatorID": 3398,
+    "OperatorID": 3339,
     "UsageTypeID": 4,
-    "UsageCost": "",
+    "UsageCost": "$0.45 per kWh",
     "AddressInfo": {
         "ID": 211157,
         "Title": "Leisurelink Aquatic & Recreation Centre",
@@ -36,28 +36,50 @@
     },
     "Connections": [
         {
-            "ID": 351240,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "ID": 470925,
+            "ConnectionTypeID": 33,
+            "Reference": "7100",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
-            "ID": 351241,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "ID": 470926,
+            "ConnectionTypeID": 2,
+            "Reference": "7100",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 470927,
+            "ConnectionTypeID": 33,
+            "Reference": "7101",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 470928,
+            "ConnectionTypeID": 2,
+            "Reference": "7101",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "2x 50kW public electric vehicle chargers. Provided by the City of Greater Geelong and funded by a Victorian Government \"Destination Charging Across Victoria\" grant.",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-04-02T09:58:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-28T08:21:00Z",
     "DateCreated": "2022-12-18T01:31:00Z",
     "SubmissionStatusTypeID": 200
 }

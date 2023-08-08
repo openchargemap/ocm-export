@@ -1,9 +1,27 @@
 {
-    "DateLastVerified": "2022-08-23T10:31:00Z",
+    "MediaItems": [
+        {
+            "ID": 39011,
+            "ChargePointID": 196808,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM196808/OCM-196808.orig.2023080618460079.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM196808/OCM-196808.thmb.2023080618460079.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 31826,
+                "Username": "Ernesst"
+            },
+            "DateCreated": "2023-08-06T18:46:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-08-06T18:53:00Z",
     "ID": 196808,
     "UUID": "D729E119-B29B-4164-996D-490D861AB871",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FREBNPQQ4AFDK4RT",
+    "DataProviderID": 1,
+    "OperatorID": 3408,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 197167,
@@ -18,16 +36,20 @@
     "Connections": [
         {
             "ID": 327985,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
-            "LevelID": 3,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 220,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "Autre paiements : compte prépayé.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:31:00Z",
+    "DateLastStatusUpdate": "2023-08-06T18:53:00Z",
     "DateCreated": "2022-08-23T10:31:00Z",
     "SubmissionStatusTypeID": 100
 }

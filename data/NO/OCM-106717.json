@@ -1,9 +1,61 @@
 {
-    "DateLastVerified": "2020-05-26T08:24:00Z",
+    "MediaItems": [
+        {
+            "ID": 38866,
+            "ChargePointID": 106717,
+            "ItemURL": "https://media.openchargemap.io/images/NO/OCM106717/OCM-106717.orig.2023072612262680.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/NO/OCM106717/OCM-106717.thmb.2023072612262680.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47591,
+                "Username": "odinh"
+            },
+            "DateCreated": "2023-07-26T12:27:00Z"
+        },
+        {
+            "ID": 38867,
+            "ChargePointID": 106717,
+            "ItemURL": "https://media.openchargemap.io/images/NO/OCM106717/OCM-106717.orig.2023072612264468.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/NO/OCM106717/OCM-106717.thmb.2023072612264468.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47591,
+                "Username": "odinh"
+            },
+            "DateCreated": "2023-07-26T12:27:00Z"
+        },
+        {
+            "ID": 38868,
+            "ChargePointID": 106717,
+            "ItemURL": "https://media.openchargemap.io/images/NO/OCM106717/OCM-106717.orig.2023072612265982.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/NO/OCM106717/OCM-106717.thmb.2023072612265982.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47591,
+                "Username": "odinh"
+            },
+            "DateCreated": "2023-07-26T12:27:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-07-26T21:14:00Z",
     "ID": 106717,
     "UUID": "1B233354-5EEB-40C2-AC89-6C3D84166871",
     "DataProviderID": 1,
     "DataProvidersReference": "4766",
+    "OperatorID": 198,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 107063,
         "Title": "Kiwi Sandsli",
@@ -12,75 +64,39 @@
         "StateOrProvince": "Vestland",
         "Postcode": "5254",
         "CountryID": 168,
-        "Latitude": 60.29186,
-        "Longitude": 5.28475,
-        "AccessComments": "",
+        "Latitude": 60.29186970205856,
+        "Longitude": 5.2847341109763875,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 150361,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 2,
             "Comments": "Mode 4"
         },
         {
             "ID": 150362,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "2",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 2,
             "Comments": "Mode 4"
-        },
-        {
-            "ID": 150363,
-            "ConnectionTypeID": 0,
-            "Reference": "3",
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 150364,
-            "ConnectionTypeID": 0,
-            "Reference": "4",
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 150365,
-            "ConnectionTypeID": 0,
-            "Reference": "5",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 150366,
-            "ConnectionTypeID": 0,
-            "Reference": "6",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "Comments": "Mode 3"
         }
     ],
-    "NumberOfPoints": 6,
-    "DateLastStatusUpdate": "2020-05-26T08:24:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-26T21:14:00Z",
     "DateCreated": "2018-06-27T12:11:00Z",
     "SubmissionStatusTypeID": 100
 }

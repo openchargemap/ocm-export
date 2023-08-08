@@ -49,68 +49,74 @@
             "DateCreated": "2023-07-19T23:36:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-19T23:44:00Z",
+    "DateLastVerified": "2023-07-20T06:34:00Z",
     "ID": 215460,
     "UUID": "C8D4F556-D850-4B04-AEDC-20549291B925",
-    "DataProviderID": 19,
-    "DataProvidersReference": "7932",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "3,99 Nok per kwh 0,35 Eur",
     "AddressInfo": {
         "ID": 215840,
-        "Title": "Heggenveien 305",
-        "AddressLine1": "Heggenveien 305 ",
-        "Town": "VIKERSUND",
-        "StateOrProvince": "Viken",
+        "Title": "Yx Vikersund - Hydropower",
+        "AddressLine1": "Krøderveien 32",
+        "Town": "Vikersund",
         "Postcode": "3370",
         "CountryID": 168,
-        "Latitude": 59.97867,
-        "Longitude": 9.99126,
-        "AccessComments": "YX Vikersund, Krøderveien 670, 3370 Vikersund",
+        "Latitude": 59.97892706557849,
+        "Longitude": 9.991217084660889,
+        "ContactTelephone2": "004798625717",
+        "AccessComments": "At the gas station, pay with card at charger. Visa,Mastercard,ApplePay,GooglePay ect",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 361659,
+            "ID": 468939,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 400,
+            "PowerKW": 225,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "3,99 Nok per kwh"
+        },
+        {
+            "ID": 468940,
             "ConnectionTypeID": 2,
-            "Reference": "1"
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "3,99 Nok per kwh"
         },
         {
-            "ID": 361660,
+            "ID": 468941,
             "ConnectionTypeID": 33,
-            "Reference": "2"
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
-            "ID": 361661,
+            "ID": 468942,
             "ConnectionTypeID": 2,
-            "Reference": "3"
-        },
-        {
-            "ID": 361662,
-            "ConnectionTypeID": 33,
-            "Reference": "4"
-        },
-        {
-            "ID": 361663,
-            "ConnectionTypeID": 33,
-            "Reference": "5"
-        },
-        {
-            "ID": 361664,
-            "ConnectionTypeID": 2,
-            "Reference": "6"
-        },
-        {
-            "ID": 361665,
-            "ConnectionTypeID": 33,
-            "Reference": "7"
-        },
-        {
-            "ID": 361666,
-            "ConnectionTypeID": 33,
-            "Reference": "8"
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 8,
-    "DateLastStatusUpdate": "2023-07-19T23:44:00Z",
+    "NumberOfPoints": 6,
+    "GeneralComments": "Free WIFI and vacum, ability to order food online. And with roof and walls for bad weather",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-20T06:34:00Z",
     "DateCreated": "2023-02-09T09:49:00Z",
     "SubmissionStatusTypeID": 100
 }

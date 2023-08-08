@@ -1,18 +1,50 @@
 {
-    "DateLastVerified": "2022-08-23T10:31:00Z",
+    "MediaItems": [
+        {
+            "ID": 38942,
+            "ChargePointID": 197207,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM197207/OCM-197207.orig.2023080213214363.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM197207/OCM-197207.thmb.2023080213214363.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 31826,
+                "Username": "Ernesst"
+            },
+            "DateCreated": "2023-08-02T13:22:00Z"
+        },
+        {
+            "ID": 38943,
+            "ChargePointID": 197207,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM197207/OCM-197207.orig.2023080213215766.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM197207/OCM-197207.thmb.2023080213215766.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 31826,
+                "Username": "Ernesst"
+            },
+            "DateCreated": "2023-08-02T13:22:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-08-02T13:22:00Z",
     "ID": 197207,
     "UUID": "1BA158F2-2221-4F71-A375-50452FD6032F",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS63P63055A",
+    "DataProviderID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 197566,
         "Title": "SIEG63 - ePremium - Bromon Lamothe - Combrailles",
         "AddressLine1": "58 Avenue des Combrailles BROMONT-LAMOTHE (63)",
         "CountryID": 80,
-        "Latitude": 45.838203,
-        "Longitude": 2.819307,
-        "AccessComments": "",
+        "Latitude": 45.83819275471231,
+        "Longitude": 2.8193097364662663,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,11 +55,27 @@
             "LevelID": 3,
             "PowerKW": 25,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 471307,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 471308,
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 220,
+            "PowerKW": 22,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "",
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:31:00Z",
+    "DateLastStatusUpdate": "2023-08-02T13:22:00Z",
     "DateCreated": "2022-08-23T10:31:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

@@ -1,24 +1,76 @@
 {
-    "DateLastVerified": "2022-08-23T10:31:00Z",
+    "MediaItems": [
+        {
+            "ID": 38982,
+            "ChargePointID": 196920,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM196920/OCM-196920.orig.2023080416014434.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM196920/OCM-196920.thmb.2023080416014434.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47625,
+                "Username": "laurent-38"
+            },
+            "DateCreated": "2023-08-04T16:02:00Z"
+        },
+        {
+            "ID": 38983,
+            "ChargePointID": 196920,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM196920/OCM-196920.orig.2023080416020365.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM196920/OCM-196920.thmb.2023080416020365.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47625,
+                "Username": "laurent-38"
+            },
+            "DateCreated": "2023-08-04T16:02:00Z"
+        },
+        {
+            "ID": 38981,
+            "ChargePointID": 196920,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM196920/OCM-196920.orig.2023080416011412.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM196920/OCM-196920.thmb.2023080416011412.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47625,
+                "Username": "laurent-38"
+            },
+            "DateCreated": "2023-08-04T16:01:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-08-06T17:14:00Z",
     "ID": 196920,
     "UUID": "BED37EA5-C798-46D3-B27B-0F78A0D0BD75",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*EBN*PIQXD4XD3T3",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 197279,
         "Title": "Villefontaine, 118 Avenue du Driève",
-        "AddressLine1": "118 Avenue du Driève 38090 VILLEFONTAINE",
+        "AddressLine1": "118 Avenue du Driève",
+        "Town": "VILLEFONTAINE",
+        "Postcode": "38090",
         "CountryID": 80,
-        "Latitude": 45.6165465,
-        "Longitude": 5.1450261,
+        "Latitude": 45.616546499999004,
+        "Longitude": 5.145026100003406,
         "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 328182,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -26,16 +78,33 @@
         },
         {
             "ID": 328183,
-            "ConnectionTypeID": 28,
+            "ConnectionTypeID": 23,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "PowerKW": 3,
             "CurrentTypeID": 10
+        },
+        {
+            "ID": 471517,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 24,
+            "Quantity": 1
+        },
+        {
+            "ID": 471518,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 24,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:31:00Z",
+    "DateLastStatusUpdate": "2023-08-06T17:14:00Z",
     "DateCreated": "2022-08-23T10:31:00Z",
     "SubmissionStatusTypeID": 100
 }

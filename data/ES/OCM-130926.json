@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2023-02-10T22:24:00Z",
+    "DateLastVerified": "2023-07-30T17:00:00Z",
     "ID": 130926,
     "UUID": "6C5A803F-58C2-4683-A92E-B54C663CBEF4",
     "DataProviderID": 1,
-    "OperatorID": 3276,
+    "OperatorID": 3550,
     "UsageTypeID": 4,
-    "UsageCost": "0,54€/kWh (0,10€/min parked without charging)",
+    "UsageCost": "0,45€/kWh ",
     "AddressInfo": {
         "ID": 131272,
-        "Title": "EDP Posada de Llanes",
+        "Title": "GALP Posada de Llanes",
         "AddressLine1": "Estación de Servicio GALP",
         "Town": "Posada de Llanes",
         "StateOrProvince": "Asturias",
@@ -19,43 +19,22 @@
     },
     "Connections": [
         {
-            "ID": 183402,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 183403,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 183404,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Blueberry100 Charger. The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW"
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Use EDP Move On app to activate charging sesion",
+    "GeneralComments": "Galp / PowerDot",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-10T22:24:00Z",
+    "DateLastStatusUpdate": "2023-07-30T17:00:00Z",
     "DateCreated": "2019-08-25T21:04:00Z",
     "SubmissionStatusTypeID": 200
 }

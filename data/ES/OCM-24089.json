@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2014-06-17T09:31:00Z",
+    "DateLastVerified": "2023-07-22T15:39:00Z",
     "ID": 24089,
     "UUID": "0DF2086D-E1C7-4CFE-B1DF-F1A0A0FA136A",
     "DataProviderID": 1,
     "OperatorID": 91,
-    "UsageTypeID": 0,
+    "UsageTypeID": 4,
+    "UsageCost": "0,47€/kWh DC - 0,35€/kWh AC",
     "AddressInfo": {
         "ID": 24434,
         "Title": "Estación Servicio Palma De Mallorca",
@@ -23,13 +24,32 @@
             "ID": 26110,
             "ConnectionTypeID": 2,
             "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 469219,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 12
+        },
+        {
+            "ID": 469220,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2014-06-17T09:31:00Z",
+    "DateLastStatusUpdate": "2023-07-22T15:39:00Z",
     "DateCreated": "2014-06-17T09:31:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2017-10-11T08:27:00Z",
+    "DateLastVerified": "2023-07-28T13:27:00Z",
     "ID": 93885,
     "UUID": "3BA3CEE0-B0B6-480C-B2F2-F4A51754936C",
     "DataProviderID": 1,
-    "OperatorID": 103,
+    "OperatorID": 3392,
     "OperatorsReference": "UKALLEGO0001021,UKALLEGO0001022,UKALLEGO0001023",
     "UsageTypeID": 5,
-    "UsageCost": "£0.49/kWh",
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 94231,
         "Title": "Shell Recharge Derby with Burton",
@@ -17,13 +17,14 @@
         "CountryID": 1,
         "Latitude": 52.86370087,
         "Longitude": -1.56459999,
-        "RelatedURL": "https://www.smoovapp.eu/en/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 132902,
             "ConnectionTypeID": 2,
+            "Reference": "GB*TNM*EGLTERRA*54*084*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -33,28 +34,18 @@
         {
             "ID": 132903,
             "ConnectionTypeID": 33,
+            "Reference": "GB*TNM*EGLTERRA*54*084*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
-        },
-        {
-            "ID": 132904,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Siemens charger\r\nDirect payment only.\r\nPlease use SMOOV App.\r\nCan charge AC at the same as DC, but current will be reduced.",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-10-11T08:27:00Z",
+    "DateLastStatusUpdate": "2023-07-28T13:27:00Z",
     "DateCreated": "2017-10-11T08:23:00Z",
     "SubmissionStatusTypeID": 200
 }

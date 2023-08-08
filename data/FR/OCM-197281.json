@@ -1,9 +1,26 @@
 {
-    "DateLastVerified": "2022-08-23T10:31:00Z",
+    "MediaItems": [
+        {
+            "ID": 38985,
+            "ChargePointID": 197281,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM197281/OCM-197281.orig.2023080504494827.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM197281/OCM-197281.thmb.2023080504494827.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47767,
+                "Username": "sim_v"
+            },
+            "DateCreated": "2023-08-05T04:50:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-08-06T17:14:00Z",
     "ID": 197281,
     "UUID": "496392FE-26C8-4AC1-B544-7E1C0D8A54BA",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRE04POAZS19211",
+    "DataProviderID": 1,
     "OperatorID": 213,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -18,33 +35,27 @@
     },
     "Connections": [
         {
-            "ID": 328751,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 328752,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
-        },
-        {
             "ID": 328753,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 471512,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "power shared if 2 or 4 cars are plugged"
         }
     ],
     "GeneralComments": "Conditions accès aux bornes dépendantes des accords et formules de votre EMSP",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:31:00Z",
+    "DateLastStatusUpdate": "2023-08-06T17:14:00Z",
     "DateCreated": "2022-08-23T10:31:00Z",
     "SubmissionStatusTypeID": 100
 }

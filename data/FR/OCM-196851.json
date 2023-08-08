@@ -1,9 +1,26 @@
 {
-    "DateLastVerified": "2022-08-23T10:31:00Z",
+    "MediaItems": [
+        {
+            "ID": 38993,
+            "ChargePointID": 196851,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM196851/OCM-196851.orig.2023080519192209.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM196851/OCM-196851.thmb.2023080519192209.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 31826,
+                "Username": "Ernesst"
+            },
+            "DateCreated": "2023-08-05T19:19:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-08-05T19:19:00Z",
     "ID": 196851,
     "UUID": "4504F144-F8F1-48DD-B2A2-F926B32201D2",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS63P63038B",
+    "DataProviderID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 197210,
@@ -12,7 +29,6 @@
         "CountryID": 80,
         "Latitude": 45.51016,
         "Longitude": 2.93237,
-        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,11 +39,29 @@
             "LevelID": 3,
             "PowerKW": 25,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 471478,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 471479,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 220,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:31:00Z",
+    "DateLastStatusUpdate": "2023-08-05T19:19:00Z",
     "DateCreated": "2022-08-23T10:31:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

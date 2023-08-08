@@ -1,0 +1,77 @@
+{
+    "DateLastVerified": "2023-07-21T05:23:00Z",
+    "ID": 272828,
+    "UUID": "FEE82290-B7F5-493A-BF1F-D8CB5ECCE12E",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-401698,PG-70643,veefil-12200375",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.49/kWh,£0.44/kWh,£0.62/kWh",
+    "AddressInfo": {
+        "ID": 273212,
+        "Title": "Tesco Extra-Romford",
+        "AddressLine1": "300 Hornchurch Road",
+        "Town": "Hornchurch",
+        "Postcode": "RM11 1PY",
+        "CountryID": 1,
+        "Latitude": 51.565975,
+        "Longitude": 0.190999,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 468910,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-401698",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Shay-Abby"
+        },
+        {
+            "ID": 468911,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70643",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Neve-Reno"
+        },
+        {
+            "ID": 468912,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200375",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Earl-Tina"
+        },
+        {
+            "ID": 468913,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200375",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Earl-Tina"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at the Tesco Extra superstore at Hornchurch Road, Hornchurch",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-07-21T05:23:00Z",
+    "DateCreated": "2023-07-20T05:19:00Z",
+    "SubmissionStatusTypeID": 200
+}

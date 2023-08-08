@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-07-19T18:42:00Z",
+    "DateLastVerified": "2023-07-20T05:19:00Z",
     "ID": 264255,
     "UUID": "6959A5C4-71B3-4D7B-9164-8518F6411184",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70570,PG-88796",
     "UsageTypeID": 4,
-    "UsageCost": "£0.44 per kWh (July 2023)",
+    "UsageCost": "£0.44/kWh",
     "AddressInfo": {
         "ID": 264639,
         "Title": "Tesco Extra Dover",
@@ -16,39 +16,40 @@
         "StateOrProvince": "England",
         "Postcode": "CT16 3PS",
         "CountryID": 1,
-        "Latitude": 51.154072078919306,
-        "Longitude": 1.2993976710318114,
+        "Latitude": 51.1540720789193,
+        "Longitude": 1.29939767103181,
         "RelatedURL": "https://pod-point.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 448038,
+            "ID": 468914,
             "ConnectionTypeID": 25,
-            "Reference": "Edna-Dell",
+            "Reference": "PG-88796",
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 2,
-            "Comments": ""
+            "Comments": "Theo-Myer"
         },
         {
-            "ID": 448039,
+            "ID": 468915,
             "ConnectionTypeID": 25,
-            "Reference": "Theo-Myer",
+            "Reference": "PG-70570",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 7,
-            "CurrentTypeID": 10,
             "Quantity": 2,
-            "Comments": ""
+            "Comments": "Edna-Dell"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Pay with the Pod Point app.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-19T18:42:00Z",
+    "DateLastStatusUpdate": "2023-07-20T05:19:00Z",
     "DateCreated": "2023-05-02T05:37:00Z",
     "SubmissionStatusTypeID": 200
 }

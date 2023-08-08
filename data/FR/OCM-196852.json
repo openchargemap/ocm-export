@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2022-08-23T10:31:00Z",
+    "DateLastVerified": "2023-08-05T19:22:00Z",
     "ID": 196852,
     "UUID": "93AA55F8-0A91-4F52-AEF7-87626520DEB6",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS63P63038A",
+    "DataProviderID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 197211,
@@ -12,7 +11,6 @@
         "CountryID": 80,
         "Latitude": 45.512334,
         "Longitude": 2.854209,
-        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,11 +21,30 @@
             "LevelID": 3,
             "PowerKW": 25,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 471481,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 471482,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 220,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:31:00Z",
+    "DateLastStatusUpdate": "2023-08-05T19:22:00Z",
     "DateCreated": "2022-08-23T10:31:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

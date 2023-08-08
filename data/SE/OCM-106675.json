@@ -1,12 +1,13 @@
 {
-    "DateLastVerified": "2020-05-26T08:22:00Z",
+    "DateLastVerified": "2023-07-23T08:46:00Z",
     "ID": 106675,
     "UUID": "6BDC0CD6-38F9-47AD-BA48-7680CC1E111A",
     "DataProviderID": 1,
     "DataProvidersReference": "4789",
+    "OperatorID": 3534,
     "AddressInfo": {
         "ID": 107021,
-        "Title": "Depot Mantorp",
+        "Title": "Mantorp Supercharger - Tesla",
         "AddressLine1": "Runvägen 2",
         "Town": "MANTORP",
         "StateOrProvince": "ÖSTERGÖTLAND",
@@ -19,48 +20,27 @@
     },
     "Connections": [
         {
-            "ID": 150140,
-            "ConnectionTypeID": 0,
-            "Reference": "1",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 150141,
-            "ConnectionTypeID": 0,
-            "Reference": "2",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 150142,
-            "ConnectionTypeID": 0,
-            "Reference": "3",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "Comments": "Mode 3"
-        },
-        {
             "ID": 150143,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "4",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 250,
+            "Quantity": 40,
             "Comments": "Mode 3"
+        },
+        {
+            "ID": 469314,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 250,
+            "Quantity": 40
         }
     ],
-    "NumberOfPoints": 4,
-    "DateLastStatusUpdate": "2020-05-26T08:22:00Z",
+    "NumberOfPoints": 40,
+    "DateLastStatusUpdate": "2023-07-23T08:46:00Z",
     "DateCreated": "2018-06-27T12:11:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -15,14 +15,14 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2023-07-19T18:14:00Z",
+    "DateLastVerified": "2023-08-07T05:22:00Z",
     "ID": 95314,
     "UUID": "D0555608-7380-444C-9EA6-D88EF27B36DB",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "t53_it1_3617_004",
     "UsageTypeID": 4,
-    "UsageCost": "",
+    "UsageCost": "£0.65/kWh",
     "AddressInfo": {
         "ID": 95660,
         "Title": "Lidl Dover",
@@ -32,50 +32,51 @@
         "StateOrProvince": "England",
         "Postcode": "CT16 3FJ",
         "CountryID": 1,
-        "Latitude": 51.15182650054567,
-        "Longitude": 1.3063799538138183,
+        "Latitude": 51.1518265005457,
+        "Longitude": 1.30637995381382,
         "RelatedURL": "https://pod-point.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 135000,
+            "ID": 468907,
             "ConnectionTypeID": 1036,
-            "Reference": "Macy-Alex",
+            "Reference": "t53_it1_3617_004",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1,
-            "Comments": ""
+            "Comments": "Macy-Alex"
         },
         {
-            "ID": 323533,
+            "ID": 468908,
             "ConnectionTypeID": 2,
-            "Reference": "Macy-Alex",
+            "Reference": "t53_it1_3617_004",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": ""
+            "Comments": "Macy-Alex"
         },
         {
-            "ID": 323534,
+            "ID": 468909,
             "ConnectionTypeID": 33,
-            "Reference": "Macy-Alex",
+            "Reference": "t53_it1_3617_004",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": ""
+            "Comments": "Macy-Alex"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Pay with the POD Point app.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-19T18:14:00Z",
+    "DateLastStatusUpdate": "2023-08-07T05:22:00Z",
     "DateCreated": "2017-11-07T06:41:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,9 +1,26 @@
 {
-    "DateLastVerified": "2023-07-12T09:06:00Z",
+    "MediaItems": [
+        {
+            "ID": 38883,
+            "ChargePointID": 229473,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM229473/OCM-229473.orig.2023072823355483.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM229473/OCM-229473.thmb.2023072823355483.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2023-07-28T23:36:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-07-28T23:36:00Z",
     "ID": 229473,
     "UUID": "16E37276-9CF4-4312-9CC6-608BC44E0DA0",
-    "DataProviderID": 2,
-    "DataProvidersReference": "235596",
+    "DataProviderID": 1,
     "OperatorID": 3696,
     "UsageTypeID": 5,
     "AddressInfo": {
@@ -23,26 +40,19 @@
     },
     "Connections": [
         {
-            "ID": 381101,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 381102,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Voltage": 950,
+            "PowerKW": 160,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:06:00Z",
+    "DateLastStatusUpdate": "2023-07-28T23:36:00Z",
     "DateCreated": "2023-02-13T05:26:00Z",
     "SubmissionStatusTypeID": 100
 }

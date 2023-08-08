@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-12T09:37:00Z",
+    "DateLastVerified": "2023-08-06T17:14:00Z",
     "ID": 250081,
     "UUID": "5B5C1A96-4E7A-4D43-9339-AFD175430F29",
-    "DataProviderID": 2,
-    "DataProvidersReference": "154190",
+    "DataProviderID": 1,
     "OperatorID": 89,
     "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 250465,
         "Title": "Kidd Creek Rest Area",
@@ -14,8 +14,8 @@
         "StateOrProvince": "BC",
         "Postcode": "V0B 1W1",
         "CountryID": 44,
-        "Latitude": 49.162232,
-        "Longitude": -116.265736,
+        "Latitude": 49.16165944579268,
+        "Longitude": -116.2651111370576,
         "ContactTelephone1": "888-356-8911",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://flo.ca/",
@@ -32,10 +32,21 @@
             "CurrentTypeID": 10,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 471514,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "Provided by the BC Ministry of Transportation.  No app required to activate.  Smaller type 1 charger is provided by Flo.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:37:00Z",
+    "DateLastStatusUpdate": "2023-08-06T17:14:00Z",
     "DateCreated": "2023-03-07T06:03:00Z",
     "SubmissionStatusTypeID": 100
 }

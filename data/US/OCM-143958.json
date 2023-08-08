@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2020-06-26T03:08:00Z",
+    "DateLastVerified": "2023-07-20T05:00:00Z",
     "ID": 143958,
     "UUID": "CEBF6BAF-BC99-411F-A1BF-E146579D5B27",
-    "DataProviderID": 2,
-    "DataProvidersReference": "147657",
-    "OperatorID": 39,
+    "DataProviderID": 1,
+    "OperatorID": 45,
     "UsageTypeID": 1,
+    "UsageCost": "Paid parking, free to charge",
     "AddressInfo": {
         "ID": 144310,
         "Title": "SPS Tower",
@@ -14,27 +14,29 @@
         "StateOrProvince": "MN",
         "Postcode": "55402",
         "CountryID": 2,
-        "Latitude": 44.9743015,
-        "Longitude": -93.2675787,
-        "ContactTelephone1": "800-663-5633",
-        "AccessComments": "MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified",
-        "RelatedURL": "http://www.semacharge.com/",
+        "Latitude": 44.97395327960771,
+        "Longitude": -93.26787925482085,
+        "ContactTelephone1": "612-359-3036",
+        "AccessComments": "",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 200395,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Amps": 30,
+            "Voltage": 240,
+            "PowerKW": 6,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 10
         }
     ],
+    "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:08:00Z",
+    "DateLastStatusUpdate": "2023-07-20T05:00:00Z",
     "DateCreated": "2019-12-24T09:22:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-02-17T09:40:00Z",
+    "MediaItems": [
+        {
+            "ID": 38995,
+            "ChargePointID": 235272,
+            "ItemURL": "https://media.openchargemap.io/images/BR/OCM235272/OCM-235272.orig.2023080520595308.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/BR/OCM235272/OCM-235272.thmb.2023080520595308.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47711,
+                "Username": "Lauriano86"
+            },
+            "DateCreated": "2023-08-05T21:00:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-08-06T17:13:00Z",
     "ID": 235272,
     "UUID": "236DDEB4-2F49-4AFB-A13E-89964D6CEFC3",
     "DataProviderID": 1,
@@ -8,7 +26,7 @@
     "AddressInfo": {
         "ID": 235656,
         "Title": "Lanchonete Lili Doces",
-        "AddressLine1": "BR-343, KM 90",
+        "AddressLine1": "BR-343, KM 190",
         "Town": "Piripiri",
         "StateOrProvince": "Piauí",
         "Postcode": "64260-000",
@@ -21,32 +39,32 @@
     "Connections": [
         {
             "ID": 388027,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 380,
-            "PowerKW": 21.1,
+            "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 1,
-            "Comments": "Tomada 3P+N+T vermelha, trifasica, 32A"
+            "Comments": "Wallbox"
         },
         {
             "ID": 388028,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 220,
-            "PowerKW": 3.5,
-            "CurrentTypeID": 10,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
             "Quantity": 1,
-            "Comments": "Tomada 2P+N azul, mono, 16A"
+            "Comments": "Wallbox"
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-17T09:40:00Z",
+    "DateLastStatusUpdate": "2023-08-06T17:13:00Z",
     "DateCreated": "2023-02-16T23:26:00Z",
     "SubmissionStatusTypeID": 200
 }

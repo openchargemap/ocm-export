@@ -49,17 +49,17 @@
             "DateCreated": "2016-05-05T15:05:00Z"
         }
     ],
-    "DateLastVerified": "2022-09-14T05:00:00Z",
+    "DateLastVerified": "2023-07-30T09:06:00Z",
     "ID": 51588,
     "UUID": "3C355E6C-3406-4156-A2D5-EC01411D8675",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "9564",
     "UsageTypeID": 4,
     "UsageCost": "€0.51/kWh",
     "AddressInfo": {
         "ID": 51934,
-        "Title": "Arezzo Supercharger",
+        "Title": "Arezzo Supercharger - aperto a veicoli NON TESLA",
         "AddressLine1": "Raccordo Arezzo-Battifolle",
         "AddressLine2": "c/o Arezzo Park Hotel",
         "Town": "Arezzo",
@@ -68,25 +68,32 @@
         "CountryID": 112,
         "Latitude": 43.4366070154136,
         "Longitude": 11.7784982268845,
-        "RelatedURL": "http://www.teslamotors.com/",
+        "RelatedURL": "https://www.tesla.com/it_IT/findus?v=2&bounds=45.2496102178213%2C17.05300749999999%2C41.56804341238368%2C6.506132499999988&zoom=8&filters=party&location=arezzosupercharger",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 63973,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 400,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 16
+        },
+        {
+            "ID": 471108,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 24
+            "Quantity": 8
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 24,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-14T05:00:00Z",
+    "DateLastStatusUpdate": "2023-07-30T09:06:00Z",
     "DateCreated": "2015-08-01T15:38:00Z",
     "SubmissionStatusTypeID": 200
 }

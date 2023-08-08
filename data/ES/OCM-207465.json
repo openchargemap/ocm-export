@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2022-10-11T14:28:00Z",
+    "DateLastVerified": "2023-07-20T10:13:00Z",
     "ID": 207465,
     "UUID": "F20EF505-BFBB-447F-B419-34B39C9BDE3D",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 5,
+    "OperatorID": 91,
+    "UsageTypeID": 4,
     "UsageCost": "0,40€/kWh",
     "AddressInfo": {
         "ID": 207845,
-        "Title": "Àrea Eurotrack ",
-        "AddressLine1": "Àrea Eurotrack",
+        "Title": "Área Eurotrack ",
+        "AddressLine1": "Área Eurotrack",
         "Town": "Granyanella",
         "StateOrProvince": "Catalonia",
         "Postcode": "25218",
         "CountryID": 210,
-        "Latitude": 41.666593430999285,
-        "Longitude": 1.2110061269579546,
-        "ContactTelephone1": "973532515",
-        "ContactTelephone2": "eurotrak@eurotrak.cat",
+        "Latitude": 41.6663032472413,
+        "Longitude": 1.2101914162898026,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,18 +26,22 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 375,
+            "Voltage": 920,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Circutor Raption150C Charger (375A). The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW."
         },
         {
             "ID": 345416,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Two CCS/Chademo/AC Circutor Raption50 Chargers"
         },
         {
             "ID": 345417,
@@ -47,11 +51,20 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 469022,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-11T14:28:00Z",
+    "DateLastStatusUpdate": "2023-07-20T10:13:00Z",
     "DateCreated": "2022-10-11T14:27:00Z",
     "SubmissionStatusTypeID": 200
 }

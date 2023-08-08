@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2020-01-20T18:38:00Z",
+    "DateLastVerified": "2023-07-24T13:50:00Z",
     "ID": 147899,
     "UUID": "705F57F5-A71D-4003-BB1B-CBCFCE35400D",
     "DataProviderID": 1,
@@ -8,7 +8,7 @@
     "UsageCost": "R5.88/kWh (estimated)",
     "AddressInfo": {
         "ID": 148251,
-        "Title": "Engen 1-stop Riversdale (where the Wimpy is)",
+        "Title": "Engen 1-stop Riversdale",
         "AddressLine1": "N2 / Mulder Street ",
         "AddressLine2": "Riversdale",
         "Town": "Garden Route District Municipality",
@@ -23,16 +23,28 @@
             "ID": 205304,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 200,
-            "Voltage": 400,
+            "LevelID": 3,
+            "Amps": 120,
+            "Voltage": 500,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 469578,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-20T18:38:00Z",
+    "DateLastStatusUpdate": "2023-07-24T13:50:00Z",
     "DateCreated": "2020-01-19T07:28:00Z",
     "SubmissionStatusTypeID": 200
 }
