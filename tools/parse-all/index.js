@@ -36,6 +36,9 @@ pipeline.on('data', (poi) => {
         if (err) throw err;
     });
 
+    // remove unused elements that will cause a diff on export
+    delete poi.IsRecentlyVerified;
+    delete poi.DataQualityLevel;
 
     // for user comments and media items, trim the user details so that reputation points etc don't get included in the change set
     if (poi.UserComments) {
