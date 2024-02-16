@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2022-02-09T19:51:00Z",
+    "DateLastVerified": "2024-01-22T06:41:00Z",
     "ID": 191426,
     "UUID": "F3A35085-2A1D-45B1-9B46-434703CC6040",
     "DataProviderID": 1,
     "OperatorID": 3400,
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
     "UsageCost": "1-90 kW $0.27/min; 1-150 kW $0.57/min",
     "AddressInfo": {
         "ID": 191785,
-        "Title": "Ottawa East",
+        "Title": "Electrify Canada - Ottawa East (Canadian Tire)",
         "AddressLine1": "330 Coventry Road",
         "Town": "Ottawa",
         "StateOrProvince": "ON",
@@ -16,18 +16,11 @@
         "CountryID": 44,
         "Latitude": 45.420735349663204,
         "Longitude": -75.65188161348146,
+        "ContactTelephone1": "1-833-231-3226",
+        "RelatedURL": "https://www.electrify-canada.ca",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 310822,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 100,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
         {
             "ID": 310823,
             "ConnectionTypeID": 2,
@@ -44,21 +37,22 @@
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 3
+            "Quantity": 5
         },
         {
             "ID": 310825,
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app and membership discount available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-09T19:51:00Z",
+    "DateLastStatusUpdate": "2024-01-22T06:41:00Z",
     "DateCreated": "2022-02-09T14:54:00Z",
     "SubmissionStatusTypeID": 200
 }

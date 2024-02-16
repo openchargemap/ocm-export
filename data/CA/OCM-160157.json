@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2022-02-09T20:08:00Z",
+    "DateLastVerified": "2024-01-22T06:37:00Z",
     "ID": 160157,
     "UUID": "3C0ABE24-A848-44FF-8B1D-F5801E99C687",
     "DataProviderID": 1,
     "OperatorID": 3400,
-    "UsageTypeID": 4,
-    "UsageCost": "1-90 kW $0.27/min; 1-150 kW $0.57/min",
+    "UsageTypeID": 5,
+    "UsageCost": "1-90 kW $0.27/min; 1-350 kW $0.57/min",
     "AddressInfo": {
         "ID": 160514,
-        "Title": "Stoney Creek",
+        "Title": "Electrify Canada - Stoney Creek (Canadian Tire)",
         "AddressLine1": "686 Queenston Rd",
         "Town": "Hamilton",
         "StateOrProvince": "ON",
@@ -16,18 +16,17 @@
         "CountryID": 44,
         "Latitude": 43.22902549118925,
         "Longitude": -79.7738782969808,
-        "ContactTelephone1": "",
+        "ContactTelephone1": "1-833-231-3226",
         "AccessComments": "",
-        "RelatedURL": "",
+        "RelatedURL": "https://www.electrify-canada.ca",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 230411,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -35,10 +34,11 @@
         {
             "ID": 230412,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 3
+            "Quantity": 5
         },
         {
             "ID": 310909,
@@ -50,11 +50,11 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 6,
-    "GeneralComments": "",
+    "NumberOfPoints": 4,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app and membership discount available.",
     "DatePlanned": "2020-09-01T00:00:00Z",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-09T20:08:00Z",
+    "DateLastStatusUpdate": "2024-01-22T06:37:00Z",
     "DateCreated": "2020-06-26T03:06:00Z",
     "SubmissionStatusTypeID": 100
 }

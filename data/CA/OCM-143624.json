@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-12T09:15:00Z",
+    "DateLastVerified": "2024-02-10T10:00:00Z",
     "ID": 143624,
     "UUID": "99376103-DCA0-4140-92DD-67327C4EE0E0",
-    "DataProviderID": 2,
-    "DataProvidersReference": "129523",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "DCFC $20.00/hr, L2 $1.50/hr",
     "AddressInfo": {
         "ID": 143976,
         "Title": "FLO - Canadian Tire - Etobicoke",
@@ -16,44 +16,47 @@
         "CountryID": 44,
         "Latitude": 43.617111,
         "Longitude": -79.544867,
-        "ContactTelephone1": "888-356-8911",
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://flo.ca/",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 199986,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 199987,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 199988,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 513812,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 12,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 3,
+    "GeneralComments": "Mobile app (FLO EV Charging) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:15:00Z",
+    "DateLastStatusUpdate": "2024-02-10T10:00:00Z",
     "DateCreated": "2019-12-24T09:21:00Z",
     "SubmissionStatusTypeID": 100
 }

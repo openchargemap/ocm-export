@@ -17,25 +17,25 @@
             "DateCreated": "2021-04-18T19:43:00Z"
         }
     ],
-    "DateLastVerified": "2021-04-18T19:43:00Z",
+    "DateLastVerified": "2024-01-27T13:58:00Z",
     "ID": 174929,
     "UUID": "04F7FD4F-732F-423B-A2FB-65664CD169F7",
     "DataProviderID": 1,
     "OperatorID": 3400,
-    "UsageTypeID": 1,
-    "UsageCost": "Pass (Free): (1-90 kW) $0.27/minute, (1-350 kW) $0.57/minute Pass+ ($4.00 Monthly): (1-90 kW) $0.21/minute, (1-350 kW) $0.44/minute",
+    "UsageTypeID": 5,
+    "UsageCost": "Credit Card or Pass (Free): (1-90 kW) $0.27/minute, (1-350 kW) $0.57/minute Pass+ ($4.00 Monthly): (1-90 kW) $0.21/minute, (1-350 kW) $0.44/minute",
     "AddressInfo": {
         "ID": 175288,
-        "Title": "Garibaldi Village Mall - Electrify Canada",
-        "AddressLine1": "40270 Glenalder Pl",
+        "Title": "Electrify Canada - Garibaldi Village",
+        "AddressLine1": "40270 Glenalder Place",
         "Town": "Squamish",
         "StateOrProvince": "BC",
         "Postcode": "V8B 0G2",
         "CountryID": 44,
         "Latitude": 49.738726,
         "Longitude": -123.133804,
-        "ContactTelephone1": "833-231-3226",
-        "RelatedURL": "https://www.electrify-canada.ca/pricing",
+        "ContactTelephone1": "1-833-231-3226",
+        "RelatedURL": "https://www.electrify-canada.ca",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -44,22 +44,42 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 2
         },
         {
             "ID": 271071,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 512520,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 512521,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 80,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app and membership discount available (Pass+).",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-18T19:43:00Z",
+    "DateLastStatusUpdate": "2024-01-27T13:58:00Z",
     "DateCreated": "2021-04-18T19:05:00Z",
     "SubmissionStatusTypeID": 200
 }

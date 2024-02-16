@@ -17,12 +17,12 @@
             "DateCreated": "2022-11-26T20:18:00Z"
         }
     ],
-    "DateLastVerified": "2022-11-26T21:06:00Z",
+    "DateLastVerified": "2024-01-23T19:36:00Z",
     "ID": 210098,
     "UUID": "89A9330F-0BE0-4596-914A-46EEEACB7FDE",
     "DataProviderID": 1,
     "OperatorID": 23,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "UsageCost": "limited free charging",
     "AddressInfo": {
         "ID": 210478,
@@ -32,8 +32,8 @@
         "StateOrProvince": "BC",
         "Postcode": "V1K1R1",
         "CountryID": 44,
-        "Latitude": 50.124076009064055,
-        "Longitude": -120.76181365642833,
+        "Latitude": 50.12399157921135,
+        "Longitude": -120.7617220474171,
         "AccessComments": "These 2 chargers can split the 150KW at same time sharing 1 x  CCS and  1x CHAdeMO on each station but the power is shared so total output will drop proportionally.",
         "DistanceUnit": 0
     },
@@ -43,8 +43,9 @@
             "ConnectionTypeID": 32,
             "Reference": "Parkland.ca",
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 150,
+            "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Need Chevron Journie App to use"
         },
@@ -52,15 +53,16 @@
             "ID": 349769,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 100,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "load Journie app on Iphone or Android",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-11-26T21:06:00Z",
+    "DateLastStatusUpdate": "2024-01-23T19:36:00Z",
     "DateCreated": "2022-11-26T20:15:00Z",
     "SubmissionStatusTypeID": 200
 }

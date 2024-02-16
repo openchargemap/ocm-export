@@ -1,21 +1,23 @@
 {
-    "DateLastVerified": "2021-04-28T08:35:00Z",
+    "DateLastVerified": "2024-01-22T07:04:00Z",
     "ID": 175101,
     "UUID": "9BB385A4-73D3-4158-866D-71E1235350BB",
     "DataProviderID": 1,
     "OperatorID": 3375,
-    "UsageTypeID": 4,
-    "UsageCost": "$0.33 per minute",
+    "UsageTypeID": 5,
+    "UsageCost": "$0.50/min",
     "AddressInfo": {
         "ID": 175460,
-        "Title": "Petro Canada",
+        "Title": "Petro-Canada",
         "AddressLine1": "3535 Highway 89",
         "Town": "Cookstown",
         "StateOrProvince": "ON",
         "Postcode": "L0L 1L0",
         "CountryID": 44,
-        "Latitude": 44.19859281192623,
-        "Longitude": -79.66004877245541,
+        "Latitude": 44.19856939349236,
+        "Longitude": -79.65924310879811,
+        "ContactTelephone1": "1-800-668-0220",
+        "RelatedURL": "https://www.petro-canada.ca/en/personal/fuel/canadas-electric-highway",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,20 +28,22 @@
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 271360,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 100,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-28T08:35:00Z",
+    "DateLastStatusUpdate": "2024-01-22T07:04:00Z",
     "DateCreated": "2021-04-26T15:06:00Z",
     "SubmissionStatusTypeID": 200
 }

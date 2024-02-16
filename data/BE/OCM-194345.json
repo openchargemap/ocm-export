@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2022-07-31T13:59:00Z",
+    "MediaItems": [
+        {
+            "ID": 40365,
+            "ChargePointID": 194345,
+            "ItemURL": "https://media.openchargemap.io/images/BE/OCM194345/OCM-194345.orig.2023111911325105.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/BE/OCM194345/OCM-194345.thmb.2023111911325105.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47628,
+                "Username": "Kurt"
+            },
+            "DateCreated": "2023-11-19T11:33:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-19T11:34:00Z",
     "ID": 194345,
     "UUID": "4FCAFBAA-D6B0-4A3A-9B53-224D6B873B32",
     "DataProviderID": 1,
     "OperatorID": 103,
     "UsageTypeID": 1,
-    "UsageCost": "0",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 194704,
         "Title": "Nivelles Total Energies",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Wallonia",
         "Postcode": "1400",
         "CountryID": 26,
-        "Latitude": 50.61478895278995,
-        "Longitude": 4.300127130765759,
+        "Latitude": 50.61505986144789,
+        "Longitude": 4.301309444104845,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -34,11 +52,18 @@
             "LevelID": 3,
             "PowerKW": 100,
             "CurrentTypeID": 30
+        },
+        {
+            "ID": 487211,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-31T13:59:00Z",
+    "DateLastStatusUpdate": "2023-11-19T11:34:00Z",
     "DateCreated": "2022-07-28T13:56:00Z",
     "SubmissionStatusTypeID": 200
 }

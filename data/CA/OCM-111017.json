@@ -1,24 +1,25 @@
 {
-    "DateLastVerified": "2023-07-12T09:16:00Z",
+    "DateLastVerified": "2024-01-21T14:14:00Z",
     "ID": 111017,
     "UUID": "E4B00910-B8CA-4943-9617-A234DDE644DF",
-    "DataProviderID": 2,
-    "DataProvidersReference": "88684",
+    "DataProviderID": 1,
     "OperatorID": 3372,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "$12.00/hr + $3.95",
     "AddressInfo": {
         "ID": 111363,
-        "Title": "Transit: 18242 Listowel",
+        "Title": "EV Connect - Scotiabank Listowel",
         "AddressLine1": "190 Main Street East",
         "Town": "Listowel",
         "StateOrProvince": "ON",
         "Postcode": "N4W 2B6",
         "CountryID": 44,
-        "Latitude": 43.730962,
-        "Longitude": -80.952263,
-        "ContactTelephone1": "866-816-7584",
+        "Latitude": 43.73087866409776,
+        "Longitude": -80.95243465451802,
+        "ContactTelephone1": "1-866-816-7584",
+        "ContactTelephone2": "1-877-297-8050",
         "AccessComments": "",
-        "RelatedURL": "http://evconnect.com/",
+        "RelatedURL": "https://www.evconnect.ca",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,7 +30,7 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 156356,
@@ -38,11 +39,13 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "Payment with a credit card directly at the charger or with a smartphone.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:16:00Z",
+    "DateLastStatusUpdate": "2024-01-21T14:14:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2022-02-09T19:51:00Z",
+    "DateLastVerified": "2024-01-22T06:33:00Z",
     "ID": 191430,
     "UUID": "50EBC90F-F50B-40A5-9689-B9318E44E4D9",
     "DataProviderID": 1,
     "OperatorID": 3400,
-    "UsageTypeID": 1,
-    "UsageCost": "1-90 kW $0.27/min; 1-150 kW $0.57/min",
+    "UsageTypeID": 5,
+    "UsageCost": "1-90 kW $0.27/min; 1-350 kW $0.57/min",
     "AddressInfo": {
         "ID": 191789,
-        "Title": "Tilbury",
+        "Title": "Electrify Canada - Tilbury (Canadian Tire)",
         "AddressLine1": "37 Mill Street East",
         "Town": "Tilbury",
         "StateOrProvince": "ON",
@@ -16,6 +16,8 @@
         "CountryID": 44,
         "Latitude": 42.26465662327067,
         "Longitude": -82.42572036186004,
+        "ContactTelephone1": "1-833-231-3226",
+        "RelatedURL": "https://www.electrify-canada.ca",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,26 +32,27 @@
         },
         {
             "ID": 310838,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 310839,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
-        },
-        {
-            "ID": 310839,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app and membership discount available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-09T19:51:00Z",
+    "DateLastStatusUpdate": "2024-01-22T06:33:00Z",
     "DateCreated": "2022-02-09T15:18:00Z",
     "SubmissionStatusTypeID": 200
 }

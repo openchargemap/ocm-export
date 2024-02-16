@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-06-21T07:04:00Z",
+    "DateLastVerified": "2023-10-19T16:37:00Z",
     "ID": 202101,
     "UUID": "7E693766-0179-461F-818F-5B3E18CF2A85",
     "DataProviderID": 1,
     "OperatorID": 3554,
     "UsageTypeID": 4,
+    "UsageCost": "$0.60 per kWh high power DC, $0.35 per kWh low power AC.",
     "AddressInfo": {
         "ID": 202468,
         "Title": "Halls Creek (WA EV Network)",
@@ -12,8 +13,8 @@
         "Town": "Halls Creek",
         "StateOrProvince": "Western Australia",
         "CountryID": 18,
-        "Latitude": -18.22530249867677,
-        "Longitude": 127.66787686356565,
+        "Latitude": -18.224880864839363,
+        "Longitude": 127.66769723564244,
         "RelatedURL": "https://www.hallscreek.wa.gov.au/repository/libraries/id:21ai12hft1cxby8qvwzx/hierarchy/OCM%202022/Unconfirmed%20Minutes%20-%20OCM%20-%2016%20June%202022.pdf",
         "DistanceUnit": 0
     },
@@ -21,16 +22,27 @@
         {
             "ID": 337772,
             "ConnectionTypeID": 33,
+            "Reference": "1695",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 484240,
+            "ConnectionTypeID": 25,
+            "Reference": "1695",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-06-21T07:04:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-10-19T16:37:00Z",
     "DateCreated": "2022-09-07T07:20:00Z",
     "SubmissionStatusTypeID": 200
 }

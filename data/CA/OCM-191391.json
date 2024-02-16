@@ -1,39 +1,31 @@
 {
-    "DateLastVerified": "2022-02-09T13:05:00Z",
+    "DateLastVerified": "2024-01-22T06:40:00Z",
     "ID": 191391,
     "UUID": "CA90184D-E622-46A5-A544-0BEC7603636C",
     "DataProviderID": 1,
     "OperatorID": 3400,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
     "UsageCost": "1-90 kW $0.27/min; 1-150 kW $0.57/min",
     "AddressInfo": {
         "ID": 191750,
-        "Title": "Brockville",
+        "Title": "Electrify Canada - Brockville (Canadian Tire)",
         "AddressLine1": "2360 Parkedale Avenue",
         "Town": "Brockville",
         "StateOrProvince": "ON",
         "Postcode": "K6V 7J5",
         "CountryID": 44,
-        "Latitude": 44.606232,
-        "Longitude": -75.699153,
+        "Latitude": 44.60531808818868,
+        "Longitude": -75.69863745963347,
+        "ContactTelephone1": "1-833-231-3226",
+        "RelatedURL": "https://www.electrify-canada.ca",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 310742,
-            "ConnectionTypeID": 32,
-            "Reference": "Station 800023-01",
-            "StatusTypeID": 100,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 310743,
             "ConnectionTypeID": 2,
-            "Reference": "Station 800023-01",
-            "StatusTypeID": 100,
+            "Reference": "",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -42,27 +34,17 @@
         {
             "ID": 310744,
             "ConnectionTypeID": 32,
-            "Reference": "Station 800023-02",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 310745,
-            "ConnectionTypeID": 32,
-            "Reference": "Station 800023-03",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 5
         },
         {
             "ID": 310746,
             "ConnectionTypeID": 32,
-            "Reference": "Station 800023-04",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
@@ -71,8 +53,9 @@
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app and membership discount available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-09T13:05:00Z",
+    "DateLastStatusUpdate": "2024-01-22T06:40:00Z",
     "DateCreated": "2022-02-07T21:24:00Z",
     "SubmissionStatusTypeID": 200
 }

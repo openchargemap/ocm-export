@@ -1,5 +1,39 @@
 {
-    "DateLastVerified": "2023-07-04T14:52:00Z",
+    "MediaItems": [
+        {
+            "ID": 39764,
+            "ChargePointID": 131201,
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM131201/OCM-131201.orig.2023092814240659.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM131201/OCM-131201.thmb.2023092814240659.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 48629,
+                "Username": "Jimbob77"
+            },
+            "DateCreated": "2023-09-28T14:24:00Z"
+        },
+        {
+            "ID": 39763,
+            "ChargePointID": 131201,
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM131201/OCM-131201.orig.2023092814221723.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM131201/OCM-131201.thmb.2023092814221723.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 48629,
+                "Username": "Jimbob77"
+            },
+            "DateCreated": "2023-09-28T14:22:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-09-28T21:52:00Z",
     "ID": 131201,
     "UUID": "EF57DCE4-D1E8-405E-8DBA-625E3813EAFA",
     "DataProviderID": 1,
@@ -8,15 +42,16 @@
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 131547,
-        "Title": "Forest Hill Chase",
+        "Title": "Forest Hill Chase Shopping Centre",
         "AddressLine1": "Pacific Way",
         "Town": "Forest Hill",
-        "StateOrProvince": "VIC",
+        "StateOrProvince": "Victoria",
         "Postcode": "3131",
         "CountryID": 18,
-        "Latitude": -37.835077652641935,
-        "Longitude": 145.16119365225552,
-        "AccessComments": "Available 24x7. Enter from Pacific Way Green level",
+        "Latitude": -37.835025723717706,
+        "Longitude": 145.1632775004582,
+        "ContactTelephone1": "1300518038",
+        "AccessComments": "NW corner of Coles. Enter via Pacific Way (west of shopping centre) and turn left into GREEN ground level covered carpark. Make another left turn inside the carpark and you’re there.   Need own cable and Chargefox RFID card!",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,15 +62,16 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 11,
+            "Voltage": 400,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "BYO Type-2 cable",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T14:52:00Z",
+    "DateLastStatusUpdate": "2023-09-28T21:52:00Z",
     "DateCreated": "2019-08-30T06:35:00Z",
     "SubmissionStatusTypeID": 200
 }

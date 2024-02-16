@@ -1,9 +1,9 @@
 {
-    "DateLastVerified": "2023-07-12T09:13:00Z",
+    "DateLastVerified": "2024-01-02T09:33:00Z",
     "ID": 110857,
     "UUID": "31027229-822C-48DE-894F-79DA9B403673",
-    "DataProviderID": 2,
-    "DataProvidersReference": "85149",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 111203,
@@ -13,17 +13,17 @@
         "StateOrProvince": "ON",
         "Postcode": "L8N 2Z7",
         "CountryID": 44,
-        "Latitude": 43.376783,
-        "Longitude": -80.00409,
+        "Latitude": 43.37677610857122,
+        "Longitude": -80.00410341104106,
         "ContactTelephone1": "905-690-2200",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 156164,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -33,6 +33,7 @@
         {
             "ID": 156165,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -40,9 +41,10 @@
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "GeneralComments": "Does not appear to be operational ",
     "DatePlanned": "2023-11-15T00:00:00Z",
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2023-07-12T09:13:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2024-01-02T09:33:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

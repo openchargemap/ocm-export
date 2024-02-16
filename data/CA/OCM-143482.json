@@ -1,44 +1,33 @@
 {
-    "DateLastVerified": "2022-02-15T14:50:00Z",
+    "DateLastVerified": "2024-01-14T15:35:00Z",
     "ID": 143482,
     "UUID": "29D793D5-AC86-4694-BFB8-788AB1EF8EEB",
     "DataProviderID": 1,
     "OperatorID": 89,
     "UsageTypeID": 4,
-    "UsageCost": "$20.00 (CAD) per hour",
+    "UsageCost": "DCFC $20.00/hr, L2 $1.50/hr",
     "AddressInfo": {
         "ID": 143834,
         "Title": "FLO - Canadian Tire - Niagara",
-        "AddressLine1": "7624 Regional Rd 57",
+        "AddressLine1": "7624 Regional Road 57",
         "Town": "Niagara Falls",
         "StateOrProvince": "ON",
         "Postcode": "L2H 1A2",
         "CountryID": 44,
         "Latitude": 43.1141,
         "Longitude": -79.125047,
-        "ContactTelephone1": "888-356-8911",
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://flo.ca/",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 199807,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
         {
             "ID": 199808,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
@@ -48,16 +37,23 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 511128,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-15T14:50:00Z",
+    "DateLastStatusUpdate": "2024-01-14T15:35:00Z",
     "DateCreated": "2019-12-24T09:21:00Z",
     "SubmissionStatusTypeID": 100
 }

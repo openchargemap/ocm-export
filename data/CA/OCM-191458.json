@@ -1,33 +1,26 @@
 {
-    "DateLastVerified": "2022-02-09T18:57:00Z",
+    "DateLastVerified": "2024-01-22T06:43:00Z",
     "ID": 191458,
     "UUID": "F457BD4A-1925-4C58-BAC2-027BDE48A83D",
     "DataProviderID": 1,
     "OperatorID": 3400,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
     "UsageCost": "1-90 kW $0.27/min; 1-150 kW $0.57/min",
     "AddressInfo": {
         "ID": 191817,
-        "Title": "Repentigny",
+        "Title": "Electrify Canada - Repentigny",
         "AddressLine1": "115 Boulevard Brien",
         "Town": "Repentigny",
         "StateOrProvince": "QC",
-        "Postcode": "J6A8J3",
+        "Postcode": "J6A 8J3",
         "CountryID": 44,
         "Latitude": 45.745241714461,
         "Longitude": -73.45607205351928,
+        "ContactTelephone1": "1-833-231-3226",
+        "RelatedURL": "https://www.electrify-canada.ca",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 310882,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 310883,
             "ConnectionTypeID": 2,
@@ -44,30 +37,22 @@
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 310885,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 5
         },
         {
             "ID": 310886,
             "ConnectionTypeID": 32,
-            "StatusTypeID": 100,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app and membership discount available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-09T18:57:00Z",
+    "DateLastStatusUpdate": "2024-01-22T06:43:00Z",
     "DateCreated": "2022-02-09T16:35:00Z",
     "SubmissionStatusTypeID": 200
 }

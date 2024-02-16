@@ -1,21 +1,23 @@
 {
-    "DateLastVerified": "2022-04-07T09:55:00Z",
+    "DateLastVerified": "2024-02-10T15:04:00Z",
     "ID": 192467,
     "UUID": "536C25E5-B2C4-407E-BC90-2ED86A082C65",
     "DataProviderID": 1,
     "OperatorID": 3416,
     "UsageTypeID": 4,
-    "UsageCost": "$18.00/hour",
+    "UsageCost": "$0.62/kWh",
     "AddressInfo": {
         "ID": 192826,
-        "Title": "Ivy - Tilbury North OnRoute",
-        "AddressLine1": "59 Highway 401",
+        "Title": "Ivy - ONRoute Tilbury North",
+        "AddressLine1": "58 Highway 401 Westbound",
         "Town": "Tilbury",
         "StateOrProvince": "ON",
         "Postcode": "N0P 2L0",
         "CountryID": 44,
         "Latitude": 42.27679644606903,
         "Longitude": -82.40076958775444,
+        "ContactTelephone1": "1-800-301-1950",
+        "RelatedURL": "https://ivycharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,7 +26,7 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 200,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
@@ -33,14 +35,24 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 200,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 506356,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "Guest payment with QR code. Mobile app (Ivy Charging Network 2.0) and RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-07T09:55:00Z",
+    "DateLastStatusUpdate": "2024-02-10T15:04:00Z",
     "DateCreated": "2022-04-05T18:08:00Z",
     "SubmissionStatusTypeID": 200
 }

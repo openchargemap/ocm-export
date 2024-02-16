@@ -1,47 +1,51 @@
 {
-    "DateLastVerified": "2023-07-12T09:36:00Z",
+    "DateLastVerified": "2023-12-30T17:59:00Z",
     "ID": 111814,
     "UUID": "C8C4DB47-66EA-4929-BADD-6A230ABEFD3B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "88063",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 3372,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 112160,
-        "Title": "Scotiabank",
-        "AddressLine1": "1 Pine St S",
+        "Title": "EV Connect - Scotiabank",
+        "AddressLine1": "1 Pine Street South",
         "Town": "Timmins",
         "StateOrProvince": "ON",
-        "Postcode": "P4N 2J5",
+        "Postcode": "P4N 2J9",
         "CountryID": 44,
         "Latitude": 48.475881,
         "Longitude": -81.328829,
-        "ContactTelephone1": "705-268-8030",
+        "ContactTelephone1": "1-877-297-8050",
+        "ContactTelephone2": "1-866-816-7584",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "",
+        "RelatedURL": "https://www.evconnect.ca",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 157316,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 157317,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:36:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2023-12-30T17:59:00Z",
     "DateCreated": "2018-10-18T23:37:00Z",
     "SubmissionStatusTypeID": 100
 }

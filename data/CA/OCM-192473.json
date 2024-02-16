@@ -1,22 +1,24 @@
 {
-    "DateLastVerified": "2022-11-06T15:18:00Z",
+    "DateLastVerified": "2024-02-10T15:11:00Z",
     "ID": 192473,
     "UUID": "BBAC4109-5C19-4754-9146-78B3C4A013A6",
     "DataProviderID": 1,
     "OperatorID": 3416,
     "UsageTypeID": 4,
-    "UsageCost": "$18.00/hour",
+    "UsageCost": "$23.73/hr",
     "AddressInfo": {
         "ID": 192832,
-        "Title": "Ivy St. Catherines",
+        "Title": "Ivy - St. Catharines Buick GMC",
         "AddressLine1": "333 Lake Street",
         "Town": "St. Catharines",
-        "StateOrProvince": "Niagara Region",
-        "Postcode": "L2N 1G8",
+        "StateOrProvince": "ON",
+        "Postcode": "L2R 7R8",
         "CountryID": 44,
         "Latitude": 43.18072477947183,
         "Longitude": -79.25221469062808,
-        "AccessComments": "In the parking lot of John Bear Buick GMC car dealership",
+        "ContactTelephone1": "1-800-301-1950",
+        "AccessComments": "John Bear Buick GMC dealership.",
+        "RelatedURL": "https://ivycharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,16 +27,7 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 312724,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
@@ -43,7 +36,7 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -52,14 +45,15 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 3
         }
     ],
     "NumberOfPoints": 3,
+    "GeneralComments": "Guest payment with QR code. Mobile app (Ivy Charging Network 2.0) and RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-11-06T15:18:00Z",
+    "DateLastStatusUpdate": "2024-02-10T15:11:00Z",
     "DateCreated": "2022-04-06T13:30:00Z",
     "SubmissionStatusTypeID": 200
 }

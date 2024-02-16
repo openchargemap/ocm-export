@@ -1,10 +1,29 @@
 {
-    "DateLastVerified": "2023-06-21T07:06:00Z",
+    "MediaItems": [
+        {
+            "ID": 39228,
+            "ChargePointID": 202087,
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM202087/OCM-202087.orig.2023082005511403.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM202087/OCM-202087.thmb.2023082005511403.jpg",
+            "Comment": "Coming soon",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 31813,
+                "Username": "EVADER"
+            },
+            "DateCreated": "2023-08-20T05:51:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-10-24T22:24:00Z",
     "ID": 202087,
     "UUID": "F69E18B3-5CEA-49B2-91FB-22A1F6272343",
     "DataProviderID": 1,
     "OperatorID": 3554,
     "UsageTypeID": 4,
+    "UsageCost": "Fast DC charging $0.60 per kWh, slow AC charging $0.35 per kWh (at all times).",
     "AddressInfo": {
         "ID": 202454,
         "Title": "Southern Cross (WA EV Network)",
@@ -22,16 +41,27 @@
         {
             "ID": 337752,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "7330",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 472696,
+            "ConnectionTypeID": 25,
+            "Reference": "1542",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-06-21T07:06:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-10-24T22:24:00Z",
     "DateCreated": "2022-09-07T06:20:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 28897,
+            "ChargePointID": 190267,
+            "CommentTypeID": 50,
+            "UserName": "Wild Rice",
+            "Comment": "Fully functional.",
+            "Rating": 2,
+            "DateCreated": "2023-08-20T13:28:31.41Z",
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 28449,
             "ChargePointID": 190267,
             "CommentTypeID": 10,
@@ -17,6 +32,22 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 39236,
+            "ChargePointID": 190267,
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM190267/OCM-190267.orig.2023082013294800.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM190267/OCM-190267.thmb.2023082013294800.jpg",
+            "Comment": "Very poor layout.",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2023-08-20T13:30:00Z"
+        },
         {
             "ID": 38661,
             "ChargePointID": 190267,
@@ -98,17 +129,17 @@
             "DateCreated": "2021-11-29T05:48:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-13T11:57:00Z",
+    "DateLastVerified": "2023-10-09T01:48:00Z",
     "ID": 190267,
     "UUID": "9C347DB0-C59B-47E8-8D1A-F3A659BAD7CE",
     "DataProviderID": 1,
     "OperatorID": 23,
     "UsageTypeID": 4,
-    "UsageCost": "$0.51 per kWh",
+    "UsageCost": "$0.59 per kWh",
     "AddressInfo": {
         "ID": 190626,
         "Title": "Lancelin Supercharger",
-        "AddressLine1": "Gingin Road",
+        "AddressLine1": "Rock way",
         "Town": "Lancelin",
         "StateOrProvince": "Western Australia",
         "Postcode": "6044",
@@ -120,8 +151,8 @@
     "Connections": [
         {
             "ID": 308367,
-            "ConnectionTypeID": 27,
-            "StatusTypeID": 150,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
@@ -130,8 +161,8 @@
         }
     ],
     "NumberOfPoints": 3,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-07-13T11:57:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-10-09T01:48:00Z",
     "DateCreated": "2021-11-27T10:29:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2022-04-07T09:55:00Z",
+    "DateLastVerified": "2024-02-10T14:49:00Z",
     "ID": 192464,
     "UUID": "0D3AD240-3A42-4778-86FA-364A52E1A564",
     "DataProviderID": 1,
     "OperatorID": 3416,
     "UsageTypeID": 4,
-    "UsageCost": "$18.00/hour",
+    "UsageCost": "$0.62/kWh",
     "AddressInfo": {
         "ID": 192823,
-        "Title": "Ivy - Innisfil OnRoute",
+        "Title": "Ivy - ONroute Innisfil",
         "AddressLine1": "6400 Highway 400",
         "Town": "Innisfil",
         "StateOrProvince": "ON",
@@ -16,6 +16,8 @@
         "CountryID": 44,
         "Latitude": 44.24615797373096,
         "Longitude": -79.6704068502911,
+        "ContactTelephone1": "1-800-301-1950",
+        "RelatedURL": "https://ivycharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,7 +26,7 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 200,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 4
         },
@@ -33,14 +35,24 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 200,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 2
+        },
+        {
+            "ID": 503132,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "Guest payment with QR code. Mobile app (Ivy Charging Network 2.0) and RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-07T09:55:00Z",
+    "DateLastStatusUpdate": "2024-02-10T14:49:00Z",
     "DateCreated": "2022-04-05T17:52:00Z",
     "SubmissionStatusTypeID": 200
 }

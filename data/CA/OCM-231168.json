@@ -1,59 +1,62 @@
 {
-    "DateLastVerified": "2023-07-12T09:15:00Z",
+    "DateLastVerified": "2024-02-13T02:45:00Z",
     "ID": 231168,
     "UUID": "DC8824B2-5E0E-4E17-8872-C90EE6424031",
-    "DataProviderID": 2,
-    "DataProvidersReference": "250812",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$15.00/hr (DCFC)",
     "AddressInfo": {
         "ID": 231551,
-        "Title": "2 Church St",
-        "AddressLine1": "2 Church St",
+        "Title": "FLO - CP43-1W - 2 Church St",
+        "AddressLine1": "2 Church Street",
         "Town": "Toronto",
         "StateOrProvince": "ON",
         "Postcode": "M5E 1Z3",
         "CountryID": 44,
-        "Latitude": 43.64645,
-        "Longitude": -79.37304,
-        "ContactTelephone1": "888-356-8911",
+        "Latitude": 43.64635884251035,
+        "Longitude": -79.37329797453185,
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://flo.ca/",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 382907,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 24,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 382908,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 3,
+            "Comments": ""
         },
         {
             "ID": 382909,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 3,
+            "Comments": ""
+        },
+        {
+            "ID": 513579,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 6.2,
+            "CurrentTypeID": 10,
+            "Quantity": 16
         }
     ],
+    "NumberOfPoints": 19,
+    "GeneralComments": "Mobile app (FLO EV Charging) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:15:00Z",
+    "DateLastStatusUpdate": "2024-02-13T02:45:00Z",
     "DateCreated": "2023-02-13T05:30:00Z",
     "SubmissionStatusTypeID": 100
 }

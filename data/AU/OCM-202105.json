@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-06-21T07:07:00Z",
+    "DateLastVerified": "2023-12-06T11:45:00Z",
     "ID": 202105,
     "UUID": "26869A9F-5CB9-40AA-9E5B-9E363F6D4771",
     "DataProviderID": 1,
     "OperatorID": 3554,
     "UsageTypeID": 4,
+    "UsageCost": "$0.60 per kWh fast DC, $0.35 per kWh slow AC.",
     "AddressInfo": {
         "ID": 202472,
         "Title": "Norseman (WA EV Network)",
@@ -13,8 +14,8 @@
         "StateOrProvince": "Western Australia",
         "Postcode": "6443",
         "CountryID": 18,
-        "Latitude": -32.19586967370738,
-        "Longitude": 121.78078409319232,
+        "Latitude": -32.19598191392299,
+        "Longitude": 121.78059471864492,
         "RelatedURL": "https://www.dundas.wa.gov.au/council-meetings/ordinary-council-meeting/ordinary-council-meeting/121/documents/unconfirmed-minutes-22nd-february-2022.pdf",
         "DistanceUnit": 0
     },
@@ -22,16 +23,27 @@
         {
             "ID": 337778,
             "ConnectionTypeID": 33,
+            "Reference": "6297",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 2
+        },
+        {
+            "ID": 473046,
+            "ConnectionTypeID": 25,
+            "Reference": "1676",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-06-21T07:07:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-12-06T11:45:00Z",
     "DateCreated": "2022-09-07T07:29:00Z",
     "SubmissionStatusTypeID": 200
 }

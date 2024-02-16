@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-05-20T18:14:00Z",
+    "DateLastVerified": "2024-02-10T15:30:00Z",
     "ID": 193134,
     "UUID": "484C472E-358C-4FDE-8269-659723CB0B7E",
     "DataProviderID": 1,
     "OperatorID": 3416,
     "UsageTypeID": 4,
-    "UsageCost": "$18.00 / hour",
+    "UsageCost": "$0.62/kWh",
     "AddressInfo": {
         "ID": 193493,
         "Title": "Ivy - ONroute Morrisburg",
@@ -14,8 +14,11 @@
         "StateOrProvince": "ON",
         "Postcode": "K0C 1X0",
         "CountryID": 44,
-        "Latitude": 44.944900996774464,
-        "Longitude": -75.1285319323336,
+        "Latitude": 44.944930186745324,
+        "Longitude": -75.12835009983087,
+        "ContactTelephone1": "1-800-301-1950",
+        "ContactTelephone2": "1-888-550-5155",
+        "RelatedURL": "https://ivycharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,22 +27,22 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 314070,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 314071,
-            "ConnectionTypeID": 32,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -53,12 +56,13 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 3,
+    "GeneralComments": "Guest payment with QR code. Mobile app (Ivy Charging Network 2.0) and RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-05-20T18:14:00Z",
+    "DateLastStatusUpdate": "2024-02-10T15:30:00Z",
     "DateCreated": "2022-05-19T13:10:00Z",
     "SubmissionStatusTypeID": 200
 }

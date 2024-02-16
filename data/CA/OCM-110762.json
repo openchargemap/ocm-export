@@ -14,38 +14,30 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "DateLastVerified": "2022-03-08T00:53:00Z",
+    "DateLastVerified": "2024-01-22T07:02:00Z",
     "ID": 110762,
     "UUID": "B587DEE0-5F71-42E7-AEEF-A970D1D755F1",
     "DataProviderID": 1,
     "OperatorID": 3375,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "$0.50/min",
     "AddressInfo": {
         "ID": 111108,
         "Title": "Petro-Canada",
         "AddressLine1": "3305 Dorchester Rd",
         "Town": "Dorchester",
         "StateOrProvince": "ON",
-        "Postcode": "N0L 1G0",
+        "Postcode": "N0I 1G0",
         "CountryID": 44,
         "Latitude": 42.9560372464476,
         "Longitude": -81.0604156447623,
-        "ContactTelephone1": "519-268-2929",
+        "ContactTelephone1": "1-800-668-0220",
+        "ContactTelephone2": "1-519-268-2929",
         "AccessComments": "24 hours daily",
+        "RelatedURL": "https://www.petro-canada.ca/en/personal/fuel/canadas-electric-highway",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 156049,
-            "ConnectionTypeID": 1,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
         {
             "ID": 183092,
             "ConnectionTypeID": 2,
@@ -60,13 +52,14 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 200,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-08T00:53:00Z",
+    "DateLastStatusUpdate": "2024-01-22T07:02:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 200
 }

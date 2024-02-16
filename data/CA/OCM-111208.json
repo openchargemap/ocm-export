@@ -1,48 +1,53 @@
 {
-    "DateLastVerified": "2023-07-12T09:20:00Z",
+    "DateLastVerified": "2023-12-30T16:58:00Z",
     "ID": 111208,
     "UUID": "CC518014-81A1-421B-A5B6-6F46E9B4DD96",
-    "DataProviderID": 2,
-    "DataProvidersReference": "94473",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 3372,
+    "UsageTypeID": 5,
+    "UsageCost": "$9.60/hr + $3.95",
     "AddressInfo": {
         "ID": 111554,
-        "Title": "Scotiabank",
-        "AddressLine1": "857 2nd Ave E",
+        "Title": "EV Connect - Scotiabank Owen Sound",
+        "AddressLine1": "857 2nd Avenue East",
         "Town": "Owen Sound",
         "StateOrProvince": "ON",
         "Postcode": "N4K 2H2",
         "CountryID": 44,
         "Latitude": 44.565289,
         "Longitude": -80.941981,
-        "ContactTelephone1": "519-376-8480",
+        "ContactTelephone1": "1-866-816-7584",
+        "ContactTelephone2": "1-877-297-8050",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "",
+        "RelatedURL": "https://www.evconnect.ca",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 156589,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 156590,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 1,
     "DatePlanned": "2022-09-01T00:00:00Z",
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2023-07-12T09:20:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-12-30T16:58:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

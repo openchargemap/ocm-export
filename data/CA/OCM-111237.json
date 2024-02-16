@@ -1,48 +1,52 @@
 {
-    "DateLastVerified": "2023-07-12T09:21:00Z",
+    "DateLastVerified": "2023-12-30T17:29:00Z",
     "ID": 111237,
     "UUID": "9EF10778-82B4-44CB-9D8A-2547D8ADC826",
-    "DataProviderID": 2,
-    "DataProvidersReference": "94475",
+    "DataProviderID": 1,
     "OperatorID": 3372,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "$10.20/hr + $3.95",
     "AddressInfo": {
         "ID": 111583,
-        "Title": "Transit: 40782 Penetanguishene",
+        "Title": "EV Connect - Scotiabank Penetanguishene",
         "AddressLine1": "135 Main Street",
         "Town": "Penetanguishene",
         "StateOrProvince": "ON",
         "Postcode": "L9M 1L5",
         "CountryID": 44,
-        "Latitude": 44.766964,
-        "Longitude": -79.931511,
-        "ContactTelephone1": "866-816-7584",
+        "Latitude": 44.76681501771961,
+        "Longitude": -79.93174580173566,
+        "ContactTelephone1": "1-866-816-7584",
+        "ContactTelephone2": "1-877-297-8050",
         "AccessComments": "",
-        "RelatedURL": "http://evconnect.com/",
+        "RelatedURL": "https://www.evconnect.ca",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 156624,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 156625,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:21:00Z",
+    "DateLastStatusUpdate": "2023-12-30T17:29:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

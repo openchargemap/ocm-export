@@ -1,68 +1,51 @@
 {
-    "DateLastVerified": "2022-02-09T13:04:00Z",
+    "DateLastVerified": "2024-02-10T14:55:00Z",
     "ID": 191386,
     "UUID": "B45DBCCE-CC7D-43AE-902A-372074CBC1A8",
     "DataProviderID": 1,
     "OperatorID": 3416,
     "UsageTypeID": 4,
-    "UsageCost": "$18.00 / hour",
+    "UsageCost": "$23.73/hr",
     "AddressInfo": {
         "ID": 191745,
-        "Title": "Ivy Timmins",
+        "Title": "Ivy - Timmins Canadian Tire",
         "AddressLine1": "2207 Riverside Drive",
         "Town": "Timmins",
         "StateOrProvince": "ON",
         "Postcode": "P4R 1N4",
         "CountryID": 44,
-        "Latitude": 48.472105,
-        "Longitude": -81.405149,
+        "Latitude": 48.47210500000034,
+        "Longitude": -81.40514899999943,
+        "ContactTelephone1": "1-800-301-1950",
+        "RelatedURL": "https://ivycharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 310720,
             "ConnectionTypeID": 2,
-            "Reference": "ID 33150",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 310721,
             "ConnectionTypeID": 32,
-            "Reference": "ID 33150",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 310722,
-            "ConnectionTypeID": 2,
-            "Reference": "ID 33169",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 310723,
-            "ConnectionTypeID": 32,
-            "Reference": "ID 33169",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "Guest payment with QR code. Mobile app (Ivy Charging Network 2.0) and RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-09T13:04:00Z",
+    "DateLastStatusUpdate": "2024-02-10T14:55:00Z",
     "DateCreated": "2022-02-07T18:50:00Z",
     "SubmissionStatusTypeID": 200
 }

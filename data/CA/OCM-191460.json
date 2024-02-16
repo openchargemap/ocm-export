@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2022-02-09T18:56:00Z",
+    "DateLastVerified": "2024-01-22T06:43:00Z",
     "ID": 191460,
     "UUID": "E0C71D34-9E48-459F-9950-D14DCC4AECE2",
     "DataProviderID": 1,
     "OperatorID": 3400,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
     "UsageCost": "1-90 kW $0.27/min; 1-150 kW $0.57/min",
     "AddressInfo": {
         "ID": 191819,
-        "Title": "Trois-Rivieres",
+        "Title": "Electrify Canada - Trois-Rivieres",
         "AddressLine1": "3525 Boulevard Des Forges",
         "Town": "Trois-Rivières",
         "StateOrProvince": "QC",
@@ -16,18 +16,11 @@
         "CountryID": 44,
         "Latitude": 46.35176845252741,
         "Longitude": -72.58071837455196,
+        "ContactTelephone1": "1-833-231-3226",
+        "RelatedURL": "https://www.electrify-canada.ca",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 310892,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 310893,
             "ConnectionTypeID": 2,
@@ -44,16 +37,7 @@
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 310895,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 5
         },
         {
             "ID": 310896,
@@ -62,12 +46,13 @@
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app and membership discount available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-09T18:56:00Z",
+    "DateLastStatusUpdate": "2024-01-22T06:43:00Z",
     "DateCreated": "2022-02-09T16:39:00Z",
     "SubmissionStatusTypeID": 200
 }

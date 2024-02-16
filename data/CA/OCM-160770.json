@@ -1,9 +1,10 @@
 {
-    "DateLastVerified": "2023-07-12T09:40:00Z",
+    "DateLastVerified": "2023-12-04T04:37:00Z",
     "ID": 160770,
     "UUID": "02540E93-3C12-4CF0-939C-94BBDBC81042",
     "DataProviderID": 2,
     "DataProvidersReference": "156697",
+    "OperatorID": 89,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 161127,
@@ -17,12 +18,23 @@
         "Longitude": -113.38955,
         "ContactTelephone1": "877-505-2674",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "",
+        "RelatedURL": "https://flo.ca/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 231374,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 231375,
             "ConnectionTypeID": 2,
             "LevelID": 3,
             "PowerKW": 50,
@@ -31,7 +43,7 @@
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
-            "ID": 231375,
+            "ID": 491806,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "PowerKW": 50,
@@ -41,7 +53,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:40:00Z",
+    "DateLastStatusUpdate": "2023-12-04T04:37:00Z",
     "DateCreated": "2020-06-26T03:12:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,59 +1,62 @@
 {
-    "DateLastVerified": "2023-07-12T09:17:00Z",
+    "DateLastVerified": "2024-02-10T13:40:00Z",
     "ID": 231381,
     "UUID": "20C27DA7-C411-4FDA-8EB0-2CEFADD11F47",
-    "DataProviderID": 2,
-    "DataProvidersReference": "129553",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "DCFC $20.00/hr, L2 $1.50/hr",
     "AddressInfo": {
         "ID": 231764,
         "Title": "FLO - Cadillac Fairview - Fairview Mall",
-        "AddressLine1": "1800 Sheppard Ave E",
+        "AddressLine1": "1800 Sheppard Ave East",
         "Town": "North York",
         "StateOrProvince": "ON",
         "Postcode": "M2J 5A7",
         "CountryID": 44,
         "Latitude": 43.777867,
         "Longitude": -79.3463,
-        "ContactTelephone1": "888-356-8911",
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://flo.ca/",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 383134,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 383135,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 383136,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 513878,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 6.2,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 3,
+    "GeneralComments": "Mobile app (FLO EV Charging) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:17:00Z",
+    "DateLastStatusUpdate": "2024-02-10T13:40:00Z",
     "DateCreated": "2023-02-13T05:31:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,59 +1,60 @@
 {
-    "DateLastVerified": "2023-07-12T09:39:00Z",
+    "DateLastVerified": "2024-01-22T07:12:00Z",
     "ID": 160727,
     "UUID": "BC1ED635-7950-43DC-944E-9FD946E925E8",
-    "DataProviderID": 2,
-    "DataProvidersReference": "157894",
+    "DataProviderID": 1,
     "OperatorID": 3375,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "$0.50/min",
     "AddressInfo": {
         "ID": 161084,
-        "Title": "Petro-Canada EV Fast Charger",
-        "AddressLine1": "924 5th St S",
+        "Title": "Petro-Canada",
+        "AddressLine1": "924 5th Street South",
         "Town": "Kenora",
         "StateOrProvince": "ON",
         "Postcode": "P9N 1L8",
         "CountryID": 44,
-        "Latitude": 49.760283,
-        "Longitude": -94.476554,
-        "ContactTelephone1": "800-668-0220",
+        "Latitude": 49.76045085918423,
+        "Longitude": -94.47668433022078,
+        "ContactTelephone1": "1-800-668-0220",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.petro-canada.ca/en/personal/fuel/canadas-electric-highway/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 231294,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 231295,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 231296,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 506423,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:39:00Z",
+    "DateLastStatusUpdate": "2024-01-22T07:12:00Z",
     "DateCreated": "2020-06-26T03:12:00Z",
     "SubmissionStatusTypeID": 100
 }

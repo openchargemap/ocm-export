@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2023-07-12T09:29:00Z",
+    "DateLastVerified": "2023-12-04T04:29:00Z",
     "ID": 111498,
     "UUID": "9F953E81-61E2-4370-9846-1FFFA521B8C6",
     "DataProviderID": 2,
     "DataProvidersReference": "83879",
-    "UsageTypeID": 7,
+    "UsageTypeID": 2,
     "AddressInfo": {
         "ID": 111844,
         "Title": "A. Chalut Auto",
@@ -16,7 +16,7 @@
         "Latitude": 46.046335,
         "Longitude": -73.427764,
         "ContactTelephone1": "450-756-1638",
-        "AccessComments": "Dealership business hours; for client use only\r\nPublic - Call ahead",
+        "AccessComments": "For service and employee use only",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
@@ -29,12 +29,21 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
+            "Quantity": 10,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 491478,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:29:00Z",
+    "DateLastStatusUpdate": "2023-12-04T04:29:00Z",
     "DateCreated": "2018-10-18T23:37:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -17,25 +17,26 @@
             "DateCreated": "2022-07-30T15:55:00Z"
         }
     ],
-    "DateLastVerified": "2022-08-01T20:21:00Z",
+    "DateLastVerified": "2024-02-10T15:24:00Z",
     "ID": 194404,
     "UUID": "4C8CE296-7305-4DD2-9E4F-0E3C48CA6DD9",
     "DataProviderID": 1,
     "OperatorID": 3416,
     "UsageTypeID": 4,
-    "UsageCost": "$18.00/hour",
+    "UsageCost": "$0.62/kWh",
     "AddressInfo": {
         "ID": 194763,
-        "Title": "Ivy - Trenton North ONroute",
+        "Title": "Ivy - ONroute Trenton North",
         "AddressLine1": "17278 Highway 401 Westbound",
-        "Town": "Trenton",
+        "Town": "Quinte West",
         "StateOrProvince": "ON",
-        "Postcode": "K0K1K0",
+        "Postcode": "K0K 1H0",
         "CountryID": 44,
         "Latitude": 44.111242,
         "Longitude": -77.658636,
-        "ContactTelephone1": "1-888-550-5155",
-        "RelatedURL": "https://ivycharge.com/",
+        "ContactTelephone1": "1-800-301-1950",
+        "ContactTelephone2": "1-888-550-5155",
+        "RelatedURL": "https://ivycharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -44,13 +45,13 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 316789,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -59,28 +60,29 @@
         },
         {
             "ID": 316790,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 75,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "One of two 150kW stations working right now."
-        },
-        {
-            "ID": 316791,
-            "ConnectionTypeID": 27,
-            "StatusTypeID": 75,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "One of two stations working right now."
+            "Comments": ""
+        },
+        {
+            "ID": 316791,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2022-08-01T20:21:00Z",
+    "GeneralComments": "Guest payment with QR code. Mobile app (Ivy Charging Network 2.0) and RFID card available for members. No credit card reader at the charger.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-10T15:24:00Z",
     "DateCreated": "2022-07-30T01:28:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-12T09:03:00Z",
+    "DateLastVerified": "2024-02-10T15:07:00Z",
     "ID": 228924,
     "UUID": "F1BFD98D-A00C-4646-9046-4F653857E3BF",
-    "DataProviderID": 2,
-    "DataProvidersReference": "220731",
+    "DataProviderID": 1,
     "OperatorID": 3416,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.62/kWh",
     "AddressInfo": {
         "ID": 229307,
         "Title": "Ivy - ONroute Tilbury South",
@@ -16,33 +16,35 @@
         "CountryID": 44,
         "Latitude": 42.2745662110518,
         "Longitude": -82.4002132986624,
-        "ContactTelephone1": "888-550-5155",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
+        "ContactTelephone1": "1-800-301-1950",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "https://ivycharge.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 380528,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 380529,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 506340,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2
         }
     ],
+    "GeneralComments": "Guest payment with QR code. Mobile app (Ivy Charging Network 2.0) and RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:03:00Z",
+    "DateLastStatusUpdate": "2024-02-10T15:07:00Z",
     "DateCreated": "2023-02-13T05:25:00Z",
     "SubmissionStatusTypeID": 100
 }

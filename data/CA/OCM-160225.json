@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2020-08-24T06:10:00Z",
+    "DateLastVerified": "2024-01-22T06:39:00Z",
     "ID": 160225,
     "UUID": "64BACB70-56B4-45DB-8DD8-3FF5316EAA51",
     "DataProviderID": 1,
     "OperatorID": 3400,
-    "UsageTypeID": 1,
-    "UsageCost": "1-90kw 0.27$/min  90-150kw 0.77$/min >150kw 1.07$/min ",
+    "UsageTypeID": 5,
+    "UsageCost": "1-90 kW $0.27/min; 1-350 kW $0.57/min",
     "AddressInfo": {
         "ID": 160582,
-        "Title": "Oshawa Mid",
+        "Title": "Electrify Canada - Oshawa Mid (Canadian Tire)",
         "AddressLine1": "441 Gibb St",
         "Town": "Oshawa",
         "StateOrProvince": "ON",
@@ -16,7 +16,7 @@
         "CountryID": 44,
         "Latitude": 43.886326,
         "Longitude": -78.877,
-        "ContactTelephone1": "833-231-3226",
+        "ContactTelephone1": "1-833-231-3226",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrify-canada.ca/",
         "DistanceUnit": 0
@@ -26,8 +26,6 @@
             "ID": 230518,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -36,56 +34,9 @@
             "ID": 230519,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 235005,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 235006,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 235007,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 235008,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 235009,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 5
         },
         {
             "ID": 235010,
@@ -94,11 +45,13 @@
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app and membership discount available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-24T06:10:00Z",
+    "DateLastStatusUpdate": "2024-01-22T06:39:00Z",
     "DateCreated": "2020-06-26T03:07:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,33 +1,26 @@
 {
-    "DateLastVerified": "2022-02-09T19:54:00Z",
+    "DateLastVerified": "2024-01-22T06:38:00Z",
     "ID": 191427,
     "UUID": "92AB0487-71ED-44FF-AE57-E7BBDA55D0BF",
     "DataProviderID": 1,
     "OperatorID": 3400,
-    "UsageTypeID": 4,
-    "UsageCost": "1-90 kW $0.27/min; 1-150 kW $0.57/min",
+    "UsageTypeID": 5,
+    "UsageCost": "1-90 kW $0.27/min; 1-350 kW $0.57/min",
     "AddressInfo": {
         "ID": 191786,
-        "Title": "Barrie South (Canadian Tire)",
-        "AddressLine1": "75 Mapleview Dr W",
+        "Title": "Electrify Canada - Barrie South (Canadian Tire)",
+        "AddressLine1": "75 Mapleview Drive West",
         "Town": "Barrie",
         "StateOrProvince": "ON",
         "Postcode": "L4N 9H7",
         "CountryID": 44,
-        "Latitude": 44.333268708186154,
-        "Longitude": -79.69199744001315,
+        "Latitude": 44.33298522196324,
+        "Longitude": -79.69152621572731,
+        "ContactTelephone1": "1-833-231-3226",
+        "RelatedURL": "https://www.electrify-canada.ca",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 310826,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 100,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 310827,
             "ConnectionTypeID": 2,
@@ -44,7 +37,7 @@
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 5
         },
         {
             "ID": 310829,
@@ -56,9 +49,10 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app and membership discount available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-02-09T19:54:00Z",
+    "DateLastStatusUpdate": "2024-01-22T06:38:00Z",
     "DateCreated": "2022-02-09T14:59:00Z",
     "SubmissionStatusTypeID": 200
 }

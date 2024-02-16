@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-04-07T10:03:00Z",
+    "DateLastVerified": "2024-02-10T15:08:00Z",
     "ID": 191732,
     "UUID": "9584B019-7936-41A3-8247-108290729E62",
     "DataProviderID": 1,
     "OperatorID": 3416,
     "UsageTypeID": 4,
-    "UsageCost": "$18.00 / hour",
+    "UsageCost": "$0.62/kWh",
     "AddressInfo": {
         "ID": 192091,
         "Title": "Ivy - ONRoute West Lorne",
@@ -14,8 +14,10 @@
         "StateOrProvince": "ON",
         "Postcode": "N0L 1J0",
         "CountryID": 44,
-        "Latitude": 42.649600951402135,
-        "Longitude": -81.55662483272931,
+        "Latitude": 42.649829795612845,
+        "Longitude": -81.55617422242784,
+        "ContactTelephone1": "1-800-301-1950",
+        "RelatedURL": "https://ivycharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,21 +26,12 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 200,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 311389,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 200,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 311390,
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
@@ -47,18 +40,28 @@
             "Quantity": 1
         },
         {
-            "ID": 311391,
+            "ID": 311390,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 311391,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 3,
+    "GeneralComments": "Guest payment with QR code. Mobile app (Ivy Charging Network 2.0) and RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-07T10:03:00Z",
+    "DateLastStatusUpdate": "2024-02-10T15:08:00Z",
     "DateCreated": "2022-02-23T16:56:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -17,12 +17,12 @@
             "DateCreated": "2020-03-19T23:22:00Z"
         }
     ],
-    "DateLastVerified": "2021-11-17T22:57:00Z",
+    "DateLastVerified": "2024-01-23T15:32:00Z",
     "ID": 154831,
     "UUID": "E1948080-BA4A-4265-9B53-6A8A8182CB06",
     "DataProviderID": 1,
     "OperatorID": 3400,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "UsageCost": "$0.27/min 1-90kw, $0.57/min 1-150kw, $0.40/min idle fee.",
     "AddressInfo": {
         "ID": 155184,
@@ -32,8 +32,8 @@
         "StateOrProvince": "British Columbia",
         "Postcode": "V1K 1R9",
         "CountryID": 44,
-        "Latitude": 50.12215,
-        "Longitude": -120.761719,
+        "Latitude": 50.122363245266456,
+        "Longitude": -120.76084997469582,
         "ContactTelephone1": "833-231-3226",
         "AccessComments": "Accepts credit cards for non-members.",
         "RelatedURL": "http://www.electrify-canada.ca/",
@@ -43,17 +43,35 @@
         {
             "ID": 217886,
             "ConnectionTypeID": 32,
-            "StatusTypeID": 75,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 4,
+            "Quantity": 1,
             "Comments": "www.electrify-canada.ca"
+        },
+        {
+            "ID": 512527,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 512528,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-17T22:57:00Z",
+    "DateLastStatusUpdate": "2024-01-23T15:32:00Z",
     "DateCreated": "2020-03-19T23:21:00Z",
     "SubmissionStatusTypeID": 200
 }
