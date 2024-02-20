@@ -1,16 +1,34 @@
 {
-    "DateLastVerified": "2022-09-25T22:25:00Z",
+    "MediaItems": [
+        {
+            "ID": 40700,
+            "ChargePointID": 136807,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM136807/OCM-136807.orig.2023120418124674.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM136807/OCM-136807.thmb.2023120418124674.jpg",
+            "Comment": "labelled as 'Rapid' but only AC charging up to 22kW",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "DateCreated": "2023-12-04T18:13:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-12-04T18:21:00Z",
     "ID": 136807,
     "UUID": "1AC0F0C3-8E59-421A-8D59-850C46831281",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
-    "UsageCost": "66p per kW ",
+    "OperatorID": 3587,
+    "UsageTypeID": 4,
+    "UsageCost": "£0.66/kWh. Parking fees apply",
     "AddressInfo": {
         "ID": 137153,
-        "Title": "Media City MSCP",
-        "AddressLine1": "Media City",
-        "AddressLine2": "Prestwood Rd",
+        "Title": "Media City UK MSCP",
+        "AddressLine1": "Media City UK",
+        "AddressLine2": "Prestwood Road",
         "Town": "Salford",
         "Postcode": "M50 2QE",
         "CountryID": 1,
@@ -24,7 +42,7 @@
         {
             "ID": 191414,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "GB*DRI*E1001*10418*001",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -36,7 +54,7 @@
         {
             "ID": 191415,
             "ConnectionTypeID": 25,
-            "Reference": "2",
+            "Reference": "GB*DRI*E1001*10418*002",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -48,6 +66,7 @@
         {
             "ID": 341169,
             "ConnectionTypeID": 25,
+            "Reference": "GB*DRI*E1001*10418*003",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -57,16 +76,90 @@
         {
             "ID": 341170,
             "ConnectionTypeID": 25,
+            "Reference": "GB*DRI*E1001*10418*004",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 498962,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*DRI*E1001*10418*005",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 498963,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*DRI*E1001*10418*006",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 498964,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*DRI*E1001*10418*007",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 498965,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*DRI*E1001*10418*008",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 498966,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*DRI*E1001*10418*009",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 498967,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*DRI*E1001*10418*010",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "https://www.evyve.co.uk/ AC  22Kw 4 Posts ( 8 sockets) Octopus juice card Works here",
+    "NumberOfPoints": 20,
+    "GeneralComments": "https://www.evyve.co.uk/ AC  22Kw 10 Posts ( 20 sockets) Octopus juice card Works here",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-25T22:25:00Z",
+    "DateLastStatusUpdate": "2023-12-04T18:21:00Z",
     "MetadataValues": [
         {
             "ID": 6659,
@@ -75,5 +168,5 @@
         }
     ],
     "DateCreated": "2019-12-24T05:23:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

@@ -1,18 +1,21 @@
 {
-    "DateLastVerified": "2022-08-23T10:37:00Z",
+    "DateLastVerified": "2024-01-24T11:34:00Z",
     "ID": 199695,
     "UUID": "EA7869A8-C98C-4496-BA12-A3C03A6CD6FA",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS50P50602003",
+    "DataProviderID": 1,
+    "OperatorID": 3755,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 200054,
         "Title": "TOURLAVILLE - Mairie",
-        "AddressLine1": "677 rue du Moulin Guibert TOURLAVILLE 50110 CHERBOURG-EN-COTENTIN",
+        "AddressLine1": "Rue du Moulin Guibert",
+        "AddressLine2": "Tourlaville",
+        "Town": "Cherbourg",
+        "Postcode": "50110",
         "CountryID": 80,
         "Latitude": 49.639744,
         "Longitude": -1.579452,
-        "AccessComments": "",
+        "RelatedURL": "https://www.e-charge50.fr/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -21,21 +24,26 @@
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
+            "PowerKW": 16,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 333294,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "Prise T2-EF<br>Service accessible<br>- aux abonnÃ©s disposant d'un badge de mobilitÃ© Ã©lectrique<br>- aux non abonnÃ©s disposant d'une carte bancaire, via le site www.e-charge50.fr<br>Informations disponibles sur le site www.e-charge50.fr'",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Prise T2-EF\r\nService accessible\r\n- aux abonnés disposant d'un badge de mobilité électrique<br>- aux non abonnés disposant d'une carte bancaire, via le site www.e-charge50.fr<br>Informations disponibles sur le site www.e-charge50.fr'",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:37:00Z",
+    "DateLastStatusUpdate": "2024-01-24T11:34:00Z",
     "DateCreated": "2022-08-23T10:37:00Z",
     "SubmissionStatusTypeID": 100
 }

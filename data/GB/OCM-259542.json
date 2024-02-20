@@ -1,10 +1,29 @@
 {
-    "DateLastVerified": "2023-04-03T17:30:00Z",
+    "MediaItems": [
+        {
+            "ID": 40850,
+            "ChargePointID": 259542,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM259542/OCM-259542.orig.2023122410344170.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM259542/OCM-259542.thmb.2023122410344170.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "DateCreated": "2023-12-24T10:35:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-12-24T10:35:00Z",
     "ID": 259542,
     "UUID": "39E1448E-C6A5-4DBF-97F3-70D287B2AFC7",
     "DataProviderID": 1,
     "OperatorID": 3341,
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 259926,
         "Title": "Grove Place Car Park",
@@ -21,27 +40,32 @@
         {
             "ID": 435479,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "SEC50370",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 435480,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "SEC50370",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 435481,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "SEC50371",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30
@@ -49,7 +73,8 @@
         {
             "ID": 435482,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "SEC50371",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -58,29 +83,31 @@
         {
             "ID": 435483,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 150,
+            "Reference": "SEC50371",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 435484,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 150,
+            "Reference": "SEC50370",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-04-03T17:30:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-12-24T10:35:00Z",
     "DateCreated": "2023-04-03T17:30:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2019-05-13T11:44:00Z",
+    "DateLastVerified": "2023-10-26T05:23:00Z",
     "ID": 60457,
     "UUID": "46457860-94D1-4747-96E0-A9369060F6B0",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-80422,PG-90757",
-    "UsageTypeID": 2,
+    "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 60803,
@@ -21,20 +21,35 @@
     },
     "Connections": [
         {
-            "ID": 76587,
+            "ID": 484596,
             "ConnectionTypeID": 25,
+            "Reference": "PG-90757",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 3
+            "Quantity": 1,
+            "Comments": "Ivan-Greg"
+        },
+        {
+            "ID": 484597,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-80422",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Abby-Bria"
         }
     ],
     "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T11:44:00Z",
+    "DateLastStatusUpdate": "2023-10-26T05:23:00Z",
     "DateCreated": "2016-01-26T09:59:00Z",
     "SubmissionStatusTypeID": 200
 }

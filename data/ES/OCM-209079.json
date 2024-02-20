@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-10-22T14:01:00Z",
+    "DateLastVerified": "2024-01-28T15:04:00Z",
     "ID": 209079,
     "UUID": "2B320F33-5123-4A25-89C2-3B5F090BEEAC",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "",
+    "OperatorID": 3276,
+    "UsageTypeID": 4,
+    "UsageCost": "0,64€/kWh DC - 0,40€/kWh AC",
     "AddressInfo": {
         "ID": 209459,
         "Title": "Decathlon La Laguna",
@@ -23,14 +23,26 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 3
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 14
+        },
+        {
+            "ID": 499242,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 900,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Blueberry150 Charger. The DC CCS/Chademo charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Charging power limited to 120kW for 400V cars"
         }
     ],
-    "NumberOfPoints": 3,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-22T14:01:00Z",
+    "NumberOfPoints": 16,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-01-28T15:04:00Z",
     "DateCreated": "2022-10-22T14:01:00Z",
     "SubmissionStatusTypeID": 200
 }

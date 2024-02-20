@@ -1,23 +1,21 @@
 {
-    "DateLastVerified": "2023-07-12T08:48:00Z",
+    "DateLastVerified": "2024-02-04T17:25:00Z",
     "ID": 246091,
     "UUID": "51F9C0E3-30C2-466D-B41E-06B0FE10FB73",
-    "DataProviderID": 2,
-    "DataProvidersReference": "184915",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 246475,
         "Title": "Simon - Quaker Bridge Mall (Lawrenceville, NJ)",
-        "AddressLine1": "150 QUAKERBRIDGE MALL",
-        "Town": "LAWRENCEVILLE",
+        "AddressLine1": "150 Quakerbridge Mall",
+        "Town": "Lawrenceville",
         "StateOrProvince": "NJ",
         "Postcode": "08648",
         "CountryID": 2,
         "Latitude": 40.28869,
         "Longitude": -74.68061,
         "ContactTelephone1": "833-632-2778",
-        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
         "DistanceUnit": 0
     },
@@ -25,24 +23,25 @@
         {
             "ID": 412337,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 1
         },
         {
             "ID": 412338,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 7
         }
     ],
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:48:00Z",
+    "DateLastStatusUpdate": "2024-02-04T17:25:00Z",
     "DateCreated": "2023-03-07T05:30:00Z",
     "SubmissionStatusTypeID": 100
 }

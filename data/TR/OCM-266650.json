@@ -1,6 +1,36 @@
 {
     "UserComments": [
         {
+            "ID": 29010,
+            "ChargePointID": 266650,
+            "CommentTypeID": 10,
+            "UserName": "YUSUF",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2023-09-20T09:36:06.42Z",
+            "User": {
+                "ID": 48508,
+                "Username": "YUSUF"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 29003,
+            "ChargePointID": 266650,
+            "CommentTypeID": 10,
+            "UserName": "Tora Sarj",
+            "Comment": "işime yaradı",
+            "Rating": 5,
+            "DateCreated": "2023-09-18T11:55:37.417Z",
+            "User": {
+                "ID": 46831,
+                "Username": "Tora Sarj"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 28802,
             "ChargePointID": 266650,
             "CommentTypeID": 10,
@@ -16,23 +46,42 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2023-07-25T21:41:00Z",
+    "MediaItems": [
+        {
+            "ID": 39195,
+            "ChargePointID": 266650,
+            "ItemURL": "https://media.openchargemap.io/images/TR/OCM266650/OCM-266650.orig.2023081813343925.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/TR/OCM266650/OCM-266650.thmb.2023081813343925.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47926,
+                "Username": "Tora Teknik"
+            },
+            "DateCreated": "2023-08-18T13:35:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-10-10T19:49:00Z",
     "ID": 266650,
     "UUID": "E2616108-F389-4F9B-A31C-02CF9F3A65BE",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3717,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 267034,
-        "Title": "1468. Sokak",
-        "AddressLine1": "1468. Sokak",
+        "Title": "Tora Şarj - Merkez",
+        "AddressLine1": "15 Temmuz Mahallesi 1468. Sokak",
         "AddressLine2": "15 Temmuz Mahallesi",
         "Town": "Bağcılar",
         "Postcode": "34212",
         "CountryID": 229,
-        "Latitude": 41.039524439649455,
-        "Longitude": 28.815218425494663,
+        "Latitude": 41.03960606361855,
+        "Longitude": 28.8148399872415,
         "ContactTelephone1": "0850 808 86 72",
+        "RelatedURL": "https://torasarj.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -46,12 +95,30 @@
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 483790,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 483791,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "It works good",
+    "GeneralComments": "toraşarj mobil ve bilgi için https://torasarj.com adresini ziyaret edebilirsiniz",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-25T21:41:00Z",
+    "DateLastStatusUpdate": "2023-10-10T19:49:00Z",
     "DateCreated": "2023-06-09T14:00:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-20T09:34:00Z",
+    "DateLastVerified": "2023-10-18T16:26:00Z",
     "ID": 272863,
     "UUID": "8235CADC-28AD-46EB-9022-DBAC496E9D44",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": "0,47€/kWh DC - 0,35€/kWh AC",
+    "UsageCost": "0,54€/kWh DC >50kW - 0,47€/kWh DC - 0,35€/kWh AC",
     "AddressInfo": {
         "ID": 273247,
         "Title": "E.S. Repsol Alberique",
@@ -18,12 +18,15 @@
     "Connections": [
         {
             "ID": 469013,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger. The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW.(max power is limited for 400V cars)"
         },
         {
             "ID": 469014,
@@ -42,11 +45,20 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 477198,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-20T09:34:00Z",
+    "DateLastStatusUpdate": "2023-10-18T16:26:00Z",
     "DateCreated": "2023-07-20T09:34:00Z",
     "SubmissionStatusTypeID": 200
 }

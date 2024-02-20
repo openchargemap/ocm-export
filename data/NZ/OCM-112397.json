@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-30T21:30:00Z",
+    "DateLastVerified": "2023-09-21T06:36:00Z",
     "ID": 112397,
     "UUID": "7B709E35-9A1B-43E2-A092-B527845A444B",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.80/kWh",
+    "UsageCost": "$0.85/kWh",
     "AddressInfo": {
         "ID": 112743,
         "Title": "PAK'nSAVE Kapiti",
@@ -14,23 +14,25 @@
         "StateOrProvince": "Wellington",
         "Postcode": "5032",
         "CountryID": 161,
-        "Latitude": -40.917043,
-        "Longitude": 175.002449,
+        "Latitude": -40.91712409753712,
+        "Longitude": 175.00258843161225,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 158094,
             "ConnectionTypeID": 33,
+            "Reference": "PARA3-A ; PARA4-A",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 158095,
             "ConnectionTypeID": 2,
+            "Reference": "PARA3-B ; PARA4-B",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -38,9 +40,10 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-30T21:30:00Z",
+    "DateLastStatusUpdate": "2023-09-21T06:36:00Z",
     "DateCreated": "2018-10-29T07:38:00Z",
     "SubmissionStatusTypeID": 200
 }

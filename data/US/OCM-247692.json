@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:11:00Z",
+    "DateLastVerified": "2023-12-02T21:12:00Z",
     "ID": 247692,
     "UUID": "E0521BEE-A5F0-4730-916D-C09432B6CBF8",
-    "DataProviderID": 2,
-    "DataProvidersReference": "222797",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 248076,
-        "Title": "Destiny Mall - Tesla Supercharger",
+        "Title": "Syracuse, NY - Destiny USA Drive",
         "AddressLine1": "9090 Destiny USA Drive",
         "Town": "Syracuse",
         "StateOrProvince": "NY",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 43.06725,
         "Longitude": -76.174972,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Destiny Mall",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 414104,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:11:00Z",
+    "DateLastStatusUpdate": "2023-12-02T21:12:00Z",
     "DateCreated": "2023-03-07T05:45:00Z",
     "SubmissionStatusTypeID": 100
 }

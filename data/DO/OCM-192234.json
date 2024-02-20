@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-03T12:45:00Z",
+    "DateLastVerified": "2023-09-17T11:34:00Z",
     "ID": 192234,
     "UUID": "6CA95CAA-9E48-4D78-AA87-9B3EF82A09CB",
     "DataProviderID": 1,
@@ -8,7 +8,7 @@
     "UsageCost": "573.48 + itbis / hr",
     "AddressInfo": {
         "ID": 192593,
-        "Title": "Peaje El Coral II (removido)",
+        "Title": "Peaje El Coral II",
         "AddressLine1": "Autopista del Coral",
         "Town": "Higüey",
         "StateOrProvince": "La Altagracia",
@@ -21,14 +21,26 @@
     "Connections": [
         {
             "ID": 456178,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 476115,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-03T12:45:00Z",
+    "DateLastStatusUpdate": "2023-09-17T11:34:00Z",
     "DateCreated": "2022-03-26T12:46:00Z",
     "SubmissionStatusTypeID": 200
 }

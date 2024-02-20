@@ -1,11 +1,27 @@
 {
-    "DateLastVerified": "2019-04-06T05:04:00Z",
+    "UserComments": [
+        {
+            "ID": 29121,
+            "ChargePointID": 124637,
+            "CommentTypeID": 10,
+            "UserName": "Lanny",
+            "Comment": "Screen is blank. Does not respond to app nor to ChargePoint Apple Wallet. ",
+            "DateCreated": "2023-10-18T17:42:30.973Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-10-18T17:44:00Z",
     "ID": 124637,
     "UUID": "1935EA64-2C39-4BBE-B54D-4C4978B3E171",
-    "DataProviderID": 2,
-    "DataProvidersReference": "53097",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 124983,
         "Title": "MTA",
@@ -14,8 +30,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21075",
         "CountryID": 2,
-        "Latitude": 39.1816117,
-        "Longitude": -76.7468373,
+        "Latitude": 39.18138396980308,
+        "Longitude": -76.74635564700853,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -26,14 +42,16 @@
             "ID": 174766,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:04:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2023-10-18T17:44:00Z",
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100
 }

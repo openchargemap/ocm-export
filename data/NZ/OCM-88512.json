@@ -49,29 +49,33 @@
             "DateCreated": "2017-05-31T16:14:00Z"
         }
     ],
-    "DateLastVerified": "2017-05-31T17:55:00Z",
+    "DateLastVerified": "2024-01-12T02:11:00Z",
     "ID": 88512,
     "UUID": "1F67FC1F-AC73-4BB7-8DBD-06BA47E8646B",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.25/kWh + $0.25/min",
+    "UsageCost": "$0.80/kWh",
     "AddressInfo": {
         "ID": 88858,
-        "Title": "McDonald's",
+        "Title": "McDonald's Raumanga",
         "AddressLine1": "130 Tauroa Street",
-        "Town": "Raumanga, Whangarei",
+        "AddressLine2": "Raumanga",
+        "Town": "Whangarei",
+        "StateOrProvince": "Northland",
         "Postcode": "0110",
         "CountryID": 161,
         "Latitude": -35.7508878780315,
         "Longitude": 174.308381911605,
-        "ContactTelephone1": "(080) 022-4274",
+        "ContactTelephone1": "",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 125552,
             "ConnectionTypeID": 2,
+            "Reference": "WRDC4-A",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -81,6 +85,7 @@
         {
             "ID": 125553,
             "ConnectionTypeID": 33,
+            "Reference": "WRDC4-B",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -89,9 +94,9 @@
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "24/7\r\nMcDonald's Raumanga",
+    "GeneralComments": "24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-31T17:55:00Z",
+    "DateLastStatusUpdate": "2024-01-12T02:11:00Z",
     "DateCreated": "2017-05-31T16:14:00Z",
     "SubmissionStatusTypeID": 200
 }

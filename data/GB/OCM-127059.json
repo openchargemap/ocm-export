@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2019-06-22T05:29:00Z",
+    "DateLastVerified": "2023-10-11T05:21:00Z",
     "ID": 127059,
     "UUID": "4E600483-517C-484B-AAD0-1BBD4046515A",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-82134",
     "UsageTypeID": 4,
-    "UsageCost": "£2.00/hour for 1 hour,then £1.50/hour",
+    "UsageCost": "then £1.50/hour,£2.00/hour for 1 hour",
     "AddressInfo": {
         "ID": 127405,
         "Title": "Northumberland Retail Park",
@@ -21,21 +21,23 @@
     },
     "Connections": [
         {
-            "ID": 177936,
+            "ID": 483479,
             "ConnectionTypeID": 25,
+            "Reference": "PG-82134",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Tara-Emma"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the Aldi Northumberland Park - Electric Center at Robertson Construction, Northumberland Park, Newcastle upon Tyne",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-06-22T05:29:00Z",
+    "DateLastStatusUpdate": "2023-10-11T05:21:00Z",
     "DateCreated": "2019-05-27T05:29:00Z",
     "SubmissionStatusTypeID": 200
 }

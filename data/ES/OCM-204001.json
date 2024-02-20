@@ -1,37 +1,58 @@
 {
-    "DateLastVerified": "2022-09-23T15:14:00Z",
+    "MediaItems": [
+        {
+            "ID": 41447,
+            "ChargePointID": 204001,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM204001/OCM-204001.orig.2024021211193059.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM204001/OCM-204001.thmb.2024021211193059.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-02-12T11:20:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-12T11:25:00Z",
     "ID": 204001,
     "UUID": "50893146-B80F-4BE3-BC8B-7607D7CB95DF",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
-    "UsageCost": "",
+    "OperatorID": 2247,
+    "UsageTypeID": 4,
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 204368,
-        "Title": "Ayunt. Eliana",
+        "Title": "Ayunt. Eliana: Auditorio (Iberdrola)",
         "AddressLine1": "Calle Molino",
         "Town": "L'Eliana",
         "StateOrProvince": "Comunitat Valenciana",
         "Postcode": "46183",
         "CountryID": 210,
-        "Latitude": 39.5661823771039,
-        "Longitude": -0.5337734993763661,
+        "Latitude": 39.56621473531064,
+        "Longitude": -0.534010167641668,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 340946,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID120 Charger. The DC/Chademo charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-23T15:14:00Z",
+    "DateLastStatusUpdate": "2024-02-12T11:25:00Z",
     "DateCreated": "2022-09-23T15:14:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T07:58:00Z",
+    "DateLastVerified": "2023-12-23T17:51:00Z",
     "ID": 218203,
     "UUID": "FD5AA6C4-9A21-4B95-B7DC-7DCE48E754C1",
-    "DataProviderID": 2,
-    "DataProvidersReference": "194076",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 218583,
-        "Title": "Wawa - Tesla Supercharger",
+        "Title": "Jacksonville, FL - Phillips Hwy Supercharger",
         "AddressLine1": "5735 Philips Highway",
         "Town": "Jacksonville",
         "StateOrProvince": "FL",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 30.265705,
         "Longitude": -81.6166,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Wawa",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 368498,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:58:00Z",
+    "DateLastStatusUpdate": "2023-12-23T17:51:00Z",
     "DateCreated": "2023-02-13T04:55:00Z",
     "SubmissionStatusTypeID": 100
 }

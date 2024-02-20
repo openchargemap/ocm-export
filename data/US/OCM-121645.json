@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2019-04-06T04:01:00Z",
+    "DateLastVerified": "2023-12-05T16:40:00Z",
     "ID": 121645,
     "UUID": "8C27F78A-DAC9-4A3C-8A8E-DAF081E6C23F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "121154",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "MA",
         "Postcode": "02184",
         "CountryID": 2,
-        "Latitude": 42.222525,
-        "Longitude": -71.021892,
+        "Latitude": 42.22241376767309,
+        "Longitude": -71.02220313534136,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -23,37 +22,42 @@
     },
     "Connections": [
         {
-            "ID": 171431,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
             "ID": 171432,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 171433,
             "ConnectionTypeID": 32,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 499289,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 499290,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T04:01:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-12-05T16:40:00Z",
     "DateCreated": "2019-04-06T04:01:00Z",
     "SubmissionStatusTypeID": 100
 }

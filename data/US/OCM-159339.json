@@ -1,11 +1,10 @@
 {
-    "DateLastVerified": "2020-06-26T03:00:00Z",
+    "DateLastVerified": "2023-10-23T01:35:00Z",
     "ID": 159339,
     "UUID": "A5DA716D-282F-4131-BCB1-554C86E8F1DF",
-    "DataProviderID": 2,
-    "DataProvidersReference": "154674",
+    "DataProviderID": 1,
     "OperatorID": 59,
-    "UsageTypeID": 2,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 159696,
         "Title": "Baltimore Gas & Electric - Annapolis Neck Community Library",
@@ -14,11 +13,11 @@
         "StateOrProvince": "MD",
         "Postcode": "21403",
         "CountryID": 2,
-        "Latitude": 38.947486,
-        "Longitude": -76.492984,
-        "ContactTelephone1": "410-222-1770",
+        "Latitude": 38.94738977050176,
+        "Longitude": -76.49277151901163,
+        "ContactTelephone1": "",
         "AccessComments": "",
-        "RelatedURL": "http://greenlots.com/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,17 +25,33 @@
             "ID": 229491,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 4
+        },
+        {
+            "ID": 484338,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 50,
+            "Quantity": 2
+        },
+        {
+            "ID": 484339,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 50,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "GeneralComments": ".",
     "DatePlanned": "2020-06-01T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2020-06-26T03:00:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-10-23T01:35:00Z",
     "DateCreated": "2020-06-26T03:00:00Z",
     "SubmissionStatusTypeID": 100
 }

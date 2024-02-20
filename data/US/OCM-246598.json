@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:55:00Z",
+    "DateLastVerified": "2023-11-11T17:51:00Z",
     "ID": 246598,
     "UUID": "F2D7F259-EA71-4D71-A582-2E1BC05A44F1",
-    "DataProviderID": 2,
-    "DataProvidersReference": "149331",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 246982,
-        "Title": "Milford Travel Plaza - Tesla Supercharger",
+        "Title": "Milford, CT - I-95 N",
         "AddressLine1": "1 Connecticut Turnpike",
         "Town": "Milford",
         "StateOrProvince": "CT",
-        "Postcode": "06460",
+        "Postcode": "06460-6461",
         "CountryID": 2,
         "Latitude": 41.245823,
         "Longitude": -73.009059,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Milford Travel Plaza",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 412891,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "2 Superchargers, available 24/7, up to 150kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:55:00Z",
+    "DateLastStatusUpdate": "2023-11-11T17:51:00Z",
     "DateCreated": "2023-03-07T05:35:00Z",
     "SubmissionStatusTypeID": 100
 }

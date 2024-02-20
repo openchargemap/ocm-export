@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:49:00Z",
+    "DateLastVerified": "2023-12-20T22:54:00Z",
     "ID": 226346,
     "UUID": "2C1E7D59-066F-49EC-AD46-57BBA9F48A17",
-    "DataProviderID": 2,
-    "DataProvidersReference": "212752",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 226729,
-        "Title": "Wawa - Tesla Supercharger",
+        "Title": "Old Bridge, NJ Supercharger",
         "AddressLine1": "1453 Route 18 South",
         "Town": "Old Bridge",
         "StateOrProvince": "NJ",
@@ -16,8 +15,8 @@
         "CountryID": 2,
         "Latitude": 40.39117461,
         "Longitude": -74.34011285,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Wawa",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 377704,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:49:00Z",
+    "DateLastStatusUpdate": "2023-12-20T22:54:00Z",
     "DateCreated": "2023-02-13T05:18:00Z",
     "SubmissionStatusTypeID": 100
 }

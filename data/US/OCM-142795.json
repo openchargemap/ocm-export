@@ -1,21 +1,53 @@
 {
-    "DateLastVerified": "2023-07-12T08:58:00Z",
+    "UserComments": [
+        {
+            "ID": 29490,
+            "ChargePointID": 142795,
+            "CommentTypeID": 10,
+            "UserName": "Consonant",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2024-02-04T22:10:53.11Z",
+            "User": {
+                "ID": 49945,
+                "Username": "Consonant"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 29405,
+            "ChargePointID": 142795,
+            "CommentTypeID": 10,
+            "UserName": "Consonant",
+            "Comment": "",
+            "Rating": 4,
+            "DateCreated": "2024-01-06T18:32:12.387Z",
+            "User": {
+                "ID": 49945,
+                "Username": "Consonant"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-02-04T22:11:00Z",
     "ID": 142795,
     "UUID": "E43F2189-D9F8-4389-A8EC-D024A0C9C054",
-    "DataProviderID": 2,
-    "DataProvidersReference": "94517",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "$0.26/kWh, then $2.00/hr 30mins after charge",
     "AddressInfo": {
         "ID": 143147,
-        "Title": "GLASTONBURYEV MAIN ST",
+        "Title": "Town of Glastonbury - Main St",
         "AddressLine1": "2327-2333 Main St",
         "Town": "Glastonbury",
         "StateOrProvince": "CT",
         "Postcode": "06033",
         "CountryID": 2,
-        "Latitude": 41.711717,
-        "Longitude": -72.608674,
+        "Latitude": 41.71152441748163,
+        "Longitude": -72.60852126600034,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,6 +57,7 @@
         {
             "ID": 199013,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
@@ -34,8 +67,9 @@
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:58:00Z",
+    "DateLastStatusUpdate": "2024-02-04T22:11:00Z",
     "DateCreated": "2019-12-24T09:19:00Z",
     "SubmissionStatusTypeID": 100
 }

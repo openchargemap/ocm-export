@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-12T03:22:00Z",
+    "DateLastVerified": "2024-02-20T07:35:00Z",
     "ID": 242630,
     "UUID": "78572EE0-E8CB-422E-8CF8-E6D1992933F0",
     "DataProviderID": 19,
@@ -9,7 +9,7 @@
         "Title": "Recharge McDonald´s Rygge",
         "AddressLine1": "Østre Haugens vei ",
         "Town": "RYGGE",
-        "StateOrProvince": "Viken",
+        "StateOrProvince": "Østfold",
         "Postcode": "1580",
         "CountryID": 168,
         "Latitude": 59.3873223,
@@ -20,29 +20,63 @@
     "Connections": [
         {
             "ID": 402503,
-            "ConnectionTypeID": 33,
-            "Reference": "5",
+            "ConnectionTypeID": 2,
+            "Reference": "1",
             "LevelID": 3,
-            "PowerKW": 350,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
         {
             "ID": 402504,
             "ConnectionTypeID": 33,
-            "Reference": "6",
+            "Reference": "2",
             "LevelID": 3,
             "Comments": "Mode 4"
         },
         {
             "ID": 402505,
+            "ConnectionTypeID": 2,
+            "Reference": "3",
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 402506,
+            "ConnectionTypeID": 33,
+            "Reference": "4",
+            "LevelID": 3,
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 494965,
+            "ConnectionTypeID": 33,
+            "Reference": "5",
+            "LevelID": 3,
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 494966,
+            "ConnectionTypeID": 33,
+            "Reference": "6",
+            "LevelID": 3,
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 494967,
             "ConnectionTypeID": 33,
             "Reference": "7",
             "LevelID": 3,
             "Comments": "Mode 4"
         },
         {
-            "ID": 402506,
+            "ID": 494968,
             "ConnectionTypeID": 33,
             "Reference": "8",
             "LevelID": 3,
@@ -50,7 +84,7 @@
         }
     ],
     "NumberOfPoints": 8,
-    "DateLastStatusUpdate": "2023-07-12T03:22:00Z",
+    "DateLastStatusUpdate": "2024-02-20T07:35:00Z",
     "DateCreated": "2023-03-07T03:56:00Z",
     "SubmissionStatusTypeID": 100
 }

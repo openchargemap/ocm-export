@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:31:00Z",
+    "DateLastVerified": "2023-11-19T02:51:00Z",
     "ID": 110363,
     "UUID": "CEF80DB3-F804-4C5C-A18D-BCDA560E002C",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102008",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 110709,
-        "Title": "The Veranda - Tesla Supercharger",
+        "Title": "Concord, CA",
         "AddressLine1": "2001 Diamond Blvd.",
         "Town": "Concord",
         "StateOrProvince": "CA",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 37.970182,
         "Longitude": -122.058569,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at The Veranda",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 155608,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 19,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 19,
+    "GeneralComments": "19 Superchargers, available 24/7, up to 150kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:31:00Z",
+    "DateLastStatusUpdate": "2023-11-19T02:51:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

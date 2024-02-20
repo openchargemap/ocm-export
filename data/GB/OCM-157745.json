@@ -1,9 +1,26 @@
 {
-    "DateLastVerified": "2023-05-04T08:38:00Z",
+    "MediaItems": [
+        {
+            "ID": 41459,
+            "ChargePointID": 157745,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM157745/OCM-157745.orig.2024021323400562.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM157745/OCM-157745.thmb.2024021323400562.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50513,
+                "Username": "Daveemtb"
+            },
+            "DateCreated": "2024-02-13T23:40:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-14T12:15:00Z",
     "ID": 157745,
     "UUID": "20E81B2A-59A4-4D06-8B8F-99B57EBD7A40",
-    "DataProviderID": 18,
-    "DataProvidersReference": "4df742b875ff5fb9ae1ae6cd66185a50",
+    "DataProviderID": 1,
     "OperatorID": 32,
     "UsageTypeID": 4,
     "AddressInfo": {
@@ -13,9 +30,9 @@
         "Town": "Portsmouth",
         "Postcode": "PO1 3GW",
         "CountryID": 1,
-        "Latitude": 50.799931,
-        "Longitude": -1.1034,
-        "AccessComments": "",
+        "Latitude": 50.80016273211908,
+        "Longitude": -1.1041308881086707,
+        "AccessComments": "Parking is chargeable",
         "RelatedURL": "https://www.bpchargemaster.com",
         "DistanceUnit": 0
     },
@@ -23,27 +40,28 @@
         {
             "ID": 227271,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "12834",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "power unkown"
         },
         {
             "ID": 227272,
             "ConnectionTypeID": 25,
-            "Reference": "2",
+            "Reference": "12835",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
-    "DateLastStatusUpdate": "2023-05-04T08:38:00Z",
+    "GeneralComments": "Parking charges: £2.60 2Hrs/ £5 4Hrs/ £7 6 Hrs/ £9 8Hrs/ £14 24Hrs. Sat nav postcode PO1 3GW",
+    "DateLastStatusUpdate": "2024-02-14T12:15:00Z",
     "MetadataValues": [
         {
             "ID": 7278,

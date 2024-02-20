@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-07-12T03:17:00Z",
+    "DateLastVerified": "2023-08-20T19:47:00Z",
     "ID": 156586,
     "UUID": "ABC3F94B-957A-4E01-AB34-73976B96C2FA",
-    "DataProviderID": 19,
-    "DataProvidersReference": "6505",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 156940,
-        "Title": "Brännborn Center",
+        "Title": "Brännborns Center - Mer",
         "AddressLine1": "Kristianstadsgatan 18",
         "Town": "ÄNGELHOLM",
         "StateOrProvince": "SKÅNE",
@@ -19,56 +19,6 @@
     },
     "Connections": [
         {
-            "ID": 220679,
-            "ConnectionTypeID": 25,
-            "Reference": "1",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 220680,
-            "ConnectionTypeID": 25,
-            "Reference": "2",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 220681,
-            "ConnectionTypeID": 25,
-            "Reference": "3",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 220682,
-            "ConnectionTypeID": 25,
-            "Reference": "4",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 220683,
-            "ConnectionTypeID": 25,
-            "Reference": "5",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
-        },
-        {
             "ID": 220684,
             "ConnectionTypeID": 25,
             "Reference": "6",
@@ -76,11 +26,20 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 6
+        },
+        {
+            "ID": 472880,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 150,
+            "Quantity": 6
         }
     ],
     "NumberOfPoints": 6,
-    "DateLastStatusUpdate": "2023-07-12T03:17:00Z",
+    "DateLastStatusUpdate": "2023-08-20T19:47:00Z",
     "DateCreated": "2020-05-26T08:21:00Z",
     "SubmissionStatusTypeID": 100
 }

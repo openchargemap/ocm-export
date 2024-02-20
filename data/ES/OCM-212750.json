@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-01-23T11:48:00Z",
+    "MediaItems": [
+        {
+            "ID": 40363,
+            "ChargePointID": 212750,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM212750/OCM-212750.orig.2023111910505992.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM212750/OCM-212750.thmb.2023111910505992.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-19T10:51:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-19T10:51:00Z",
     "ID": 212750,
     "UUID": "E85777E5-38F9-42A4-9DB0-58CB831D093E",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "UsageTypeID": 4,
-    "UsageCost": "0,79€/kWh (or subscription rate)",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 213130,
         "Title": "Tesla Supercharger Badalona",
@@ -25,12 +43,14 @@
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 16,
+            "Comments": "V3"
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 16,
+    "GeneralComments": "16 V3 Superchargers 250kW (CCS). Max total power of the station 1,5MW",
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-01-23T11:48:00Z",
+    "DateLastStatusUpdate": "2023-11-19T10:51:00Z",
     "DateCreated": "2023-01-23T11:48:00Z",
     "SubmissionStatusTypeID": 200
 }

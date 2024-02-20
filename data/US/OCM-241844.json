@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:21:00Z",
+    "DateLastVerified": "2024-02-15T03:22:00Z",
     "ID": 241844,
     "UUID": "7AE20AD2-9111-4057-BF8F-1D78A7FBE6B5",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102305",
+    "DataProviderID": 1,
     "OperatorID": 3534,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 242228,
-        "Title": "Hampton Inn Gallup - Tesla Supercharger",
+        "Title": "Gallup, NM Supercharger",
         "AddressLine1": "111 Twin Buttes Rd",
         "Town": "Gallup",
         "StateOrProvince": "NM",
-        "Postcode": "87301",
+        "Postcode": "87301-5631",
         "CountryID": 2,
         "Latitude": 35.505278,
         "Longitude": -108.828094,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Best Western Gallup West",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,27 @@
         {
             "ID": 397949,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
+        },
+        {
+            "ID": 487936,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "4 Superchargers up to 250kW, Available 24/7; 4 Superchargers up to 150kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:21:00Z",
+    "DateLastStatusUpdate": "2024-02-15T03:22:00Z",
     "DateCreated": "2023-03-07T03:41:00Z",
     "SubmissionStatusTypeID": 100
 }

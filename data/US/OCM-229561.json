@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:06:00Z",
+    "DateLastVerified": "2024-02-11T03:02:00Z",
     "ID": 229561,
     "UUID": "D23F3A42-140E-4067-BFF4-F813C492959F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "203042",
-    "OperatorID": 3534,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 229944,
-        "Title": "Woodman's Food Market - Tesla Supercharger",
+        "Title": "Kenosha, WI Supercharger",
         "AddressLine1": "7145 120th Avenue",
         "Town": "Kenosha",
         "StateOrProvince": "WI",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 42.569082,
         "Longitude": -87.947574,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Woodman's Food Market",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 381197,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:06:00Z",
+    "DateLastStatusUpdate": "2024-02-11T03:02:00Z",
     "DateCreated": "2023-02-13T05:26:00Z",
     "SubmissionStatusTypeID": 100
 }

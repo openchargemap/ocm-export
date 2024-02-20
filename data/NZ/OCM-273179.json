@@ -1,20 +1,21 @@
 {
-    "DateLastVerified": "2023-08-04T11:07:00Z",
+    "DateLastVerified": "2023-11-05T06:30:00Z",
     "ID": 273179,
     "UUID": "31AE6F6C-558A-4790-915C-7EAFAC01A2E6",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
+    "OperatorID": 229,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.70/kWh",
     "AddressInfo": {
         "ID": 273563,
-        "Title": "Blenheim Park Terrace",
-        "AddressLine1": "Park Terrace",
+        "Title": "Blenheim Charging Hub - Park Terrace",
+        "AddressLine1": "opposite 2B Park Terrace",
         "Town": "Blenheim",
         "StateOrProvince": "Marlborough",
         "Postcode": "7201",
         "CountryID": 161,
-        "Latitude": -41.51292549121428,
-        "Longitude": 173.95999679942287,
+        "Latitude": -41.51285297777347,
+        "Longitude": 173.95995588795722,
         "RelatedURL": "https://www.marlboroughlines.co.nz/ev-charging-station",
         "DistanceUnit": 0
     },
@@ -22,25 +23,48 @@
         {
             "ID": 470728,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "MLBN1",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 3
+            "Quantity": 2
         },
         {
             "ID": 470729,
+            "ConnectionTypeID": 33,
+            "Reference": "MLBN2-A",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 485919,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "MLBN2-B",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 3
+            "Quantity": 1
+        },
+        {
+            "ID": 485920,
+            "ConnectionTypeID": 33,
+            "Reference": "MLBN3",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 6,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-08-04T11:07:00Z",
+    "GeneralComments": "",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-11-05T06:30:00Z",
     "DateCreated": "2023-07-27T09:45:00Z",
     "SubmissionStatusTypeID": 200
 }

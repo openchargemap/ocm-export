@@ -1,9 +1,10 @@
 {
-    "DateLastVerified": "2023-07-12T08:30:00Z",
+    "DateLastVerified": "2024-02-20T10:02:00Z",
     "ID": 124151,
     "UUID": "63CFFAA5-6EDB-457A-A1EC-0A7B6C2A0639",
     "DataProviderID": 2,
     "DataProvidersReference": "68849",
+    "OperatorID": 3389,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 124497,
@@ -15,19 +16,21 @@
         "CountryID": 2,
         "Latitude": 37.779904,
         "Longitude": -79.439043,
-        "ContactTelephone1": "540-463-2223",
+        "ContactTelephone1": "855-699-9191",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "",
+        "RelatedURL": "http://evgateway.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 174212,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
@@ -41,7 +44,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:30:00Z",
+    "DateLastStatusUpdate": "2024-02-20T10:02:00Z",
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,11 +1,27 @@
 {
-    "DateLastVerified": "2023-07-12T08:37:00Z",
+    "UserComments": [
+        {
+            "ID": 29135,
+            "ChargePointID": 224366,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "Both stations, ID 162885 & 162995 have no power and are offline. Reported the issue to Shell Recharge via their app.",
+            "DateCreated": "2023-10-20T18:17:44.98Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-10-20T18:19:00Z",
     "ID": 224366,
     "UUID": "63E64082-5D8A-4E65-AEB8-955C8E6E757C",
-    "DataProviderID": 2,
-    "DataProvidersReference": "238894",
+    "DataProviderID": 1,
     "OperatorID": 59,
     "UsageTypeID": 1,
+    "UsageCost": "$0.17/kWh + 6% MD sales & use tax",
     "AddressInfo": {
         "ID": 224749,
         "Title": "Pepco - Bladensburg Town Hall",
@@ -14,8 +30,8 @@
         "StateOrProvince": "MD",
         "Postcode": "20710",
         "CountryID": 2,
-        "Latitude": 38.94255,
-        "Longitude": -76.932819,
+        "Latitude": 38.942466554072666,
+        "Longitude": -76.93252663988618,
         "ContactTelephone1": "855-900-7584",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://shellrecharge.com/en-us/solutions",
@@ -26,16 +42,16 @@
             "ID": 375458,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:37:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2023-10-20T18:19:00Z",
     "DateCreated": "2023-02-13T05:12:00Z",
     "SubmissionStatusTypeID": 100
 }

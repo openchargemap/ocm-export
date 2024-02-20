@@ -33,43 +33,50 @@
             "DateCreated": "2023-08-03T19:10:00Z"
         }
     ],
-    "DateLastVerified": "2023-08-03T19:11:00Z",
+    "DateLastVerified": "2023-08-15T18:05:00Z",
     "ID": 198839,
     "UUID": "CA10DAA4-4D1F-467E-B2DA-EF5827F3A182",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*V75*PPX16*28",
+    "DataProviderID": 1,
+    "OperatorID": 1235,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 199198,
-        "Title": "Paris | Boulevard Delessert 23",
-        "AddressLine1": "23 Boulevard Delessert 75016 Paris",
+        "Title": "23 Boulevard Delessert",
+        "AddressLine1": "23 Boulevard Delessert",
+        "AddressLine2": "",
+        "StateOrProvince": "Paris",
+        "Postcode": "75016",
         "CountryID": 80,
-        "Latitude": 48.85857,
-        "Longitude": 2.2851212,
+        "Latitude": 48.85859600188656,
+        "Longitude": 2.2851592880267586,
         "AccessComments": "",
+        "RelatedURL": "https://belib.paris/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 331829,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 331830,
+            "ID": 472307,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 7,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 10,
+            "Quantity": 7
+        },
+        {
+            "ID": 472308,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 1,
+            "PowerKW": 2,
+            "CurrentTypeID": 10,
+            "Quantity": 7
         }
     ],
-    "GeneralComments": "Paiement autre - badge RFID Belib ou autre, application Belib, QRCode sur chaque PDC, site internet Belib|Plus d'information - https://belib.paris.fr",
+    "NumberOfPoints": 7,
+    "GeneralComments": "Paiement autre - badge RFID Belib ou autre, application Belib, QRCode sur chaque PDC, site internet Belib|Plus d'information - https://belib.paris/",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-08-03T19:11:00Z",
+    "DateLastStatusUpdate": "2023-08-15T18:05:00Z",
     "DateCreated": "2022-08-23T10:36:00Z",
     "SubmissionStatusTypeID": 100
 }

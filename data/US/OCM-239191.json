@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T07:54:00Z",
+    "DateLastVerified": "2023-12-29T17:47:00Z",
     "ID": 239191,
     "UUID": "2C3EB747-50E0-4D10-8F03-7113A80DFA9D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "154205",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 239575,
-        "Title": "Wawa - Tesla Supercharger",
+        "Title": "Deerfield Beach, FL Supercharger",
         "AddressLine1": "20 SW 12th Avenue",
         "Town": "Deerfield Beach",
         "StateOrProvince": "FL",
@@ -17,7 +16,7 @@
         "Latitude": 26.317576,
         "Longitude": -80.119389,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 395032,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:54:00Z",
+    "DateLastStatusUpdate": "2023-12-29T17:47:00Z",
     "DateCreated": "2023-03-07T03:24:00Z",
     "SubmissionStatusTypeID": 100
 }

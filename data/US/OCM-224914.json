@@ -1,9 +1,24 @@
 {
-    "DateLastVerified": "2023-07-12T08:41:00Z",
+    "UserComments": [
+        {
+            "ID": 29473,
+            "ChargePointID": 224914,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "Right charger (Station ID 153026) displayed code “Err 15” when attempting to charge. Called customer support and they said that they are aware of an issue with this station and have a ticket started for it. Left charger (ID 153018) initiated successfully. ",
+            "DateCreated": "2024-01-30T20:20:48.743Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-01-30T20:21:00Z",
     "ID": 224914,
     "UUID": "0D9621D4-0479-417D-8640-F930A44FDFAF",
-    "DataProviderID": 2,
-    "DataProvidersReference": "163651",
+    "DataProviderID": 1,
     "OperatorID": 59,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +29,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21723",
         "CountryID": 2,
-        "Latitude": 39.304585,
-        "Longitude": -77.020761,
+        "Latitude": 39.30597158452201,
+        "Longitude": -77.02141189956302,
         "ContactTelephone1": "855-900-7584",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://shellrecharge.com/en-us/solutions",
@@ -26,9 +41,9 @@
             "ID": 376091,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
@@ -39,7 +54,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
@@ -48,12 +63,12 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:41:00Z",
+    "DateLastStatusUpdate": "2024-01-30T20:21:00Z",
     "DateCreated": "2023-02-13T05:14:00Z",
     "SubmissionStatusTypeID": 100
 }

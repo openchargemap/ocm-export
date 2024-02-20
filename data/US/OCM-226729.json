@@ -1,22 +1,22 @@
 {
-    "DateLastVerified": "2023-07-12T08:51:00Z",
+    "DateLastVerified": "2024-02-20T10:19:00Z",
     "ID": 226729,
     "UUID": "80BDD1DF-BA61-43A4-B639-3BE71011D540",
     "DataProviderID": 2,
     "DataProvidersReference": "224437",
     "OperatorID": 3526,
-    "UsageTypeID": 2,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 227112,
         "Title": "BMW of Murray",
-        "AddressLine1": "4674 S Brown St",
-        "Town": "Murry",
+        "AddressLine1": "4674 S. Brown Street",
+        "Town": "Murray",
         "StateOrProvince": "UT",
         "Postcode": "84107",
         "CountryID": 2,
         "Latitude": 40.669845,
         "Longitude": -111.887245,
-        "ContactTelephone1": "",
+        "ContactTelephone1": "833-387-2643",
         "AccessComments": "",
         "RelatedURL": "https://www.evrange.com",
         "DistanceUnit": 0
@@ -30,12 +30,22 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 3,
+            "Quantity": 5,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 479648,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:51:00Z",
+    "DatePlanned": "2023-09-14T00:00:00Z",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2024-02-20T10:19:00Z",
     "DateCreated": "2023-02-13T05:19:00Z",
     "SubmissionStatusTypeID": 100
 }

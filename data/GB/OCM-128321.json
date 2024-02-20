@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2021-01-26T06:17:00Z",
+    "DateLastVerified": "2023-10-27T05:22:00Z",
     "ID": 128321,
     "UUID": "2AD18950-8741-46A0-ADDE-C880D5015AE2",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-82889,PG-84559,PG-84560",
     "UsageTypeID": 4,
-    "UsageCost": "£0.12/kWh",
+    "UsageCost": "£0.32/kWh",
     "AddressInfo": {
         "ID": 128667,
         "Title": "Braywick Leisure Centre",
@@ -21,21 +21,49 @@
     },
     "Connections": [
         {
-            "ID": 179619,
+            "ID": 484928,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84559",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 6
+            "Quantity": 2,
+            "Comments": "Emil-Zena"
+        },
+        {
+            "ID": 484929,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-82889",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Matt-Theo"
+        },
+        {
+            "ID": 484930,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-84560",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Hope-Alma"
         }
     ],
     "NumberOfPoints": 6,
     "GeneralComments": "This is an open charge unit installed at the Braywick Leisure Centre site at Braywick Park, Braywick Road, Maidenhead",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-26T06:17:00Z",
+    "DateLastStatusUpdate": "2023-10-27T05:22:00Z",
     "DateCreated": "2019-06-22T05:28:00Z",
     "SubmissionStatusTypeID": 200
 }

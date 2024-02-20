@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-12T09:42:00Z",
+    "DateLastVerified": "2023-09-27T09:08:00Z",
     "ID": 234820,
     "UUID": "AB809615-568B-4916-8363-169CEEC6FC9F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "237633",
+    "DataProviderID": 1,
     "OperatorID": 3534,
     "UsageTypeID": 1,
+    "UsageCost": "$0.50/kWh",
     "AddressInfo": {
         "ID": 235204,
         "Title": "Shell - Tesla Supercharger",
@@ -26,14 +26,24 @@
             "ID": 386997,
             "ConnectionTypeID": 27,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 477155,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8,
+            "Comments": "Magic Dock CCS1"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:42:00Z",
+    "DateLastStatusUpdate": "2023-09-27T09:08:00Z",
     "DateCreated": "2023-02-13T05:42:00Z",
     "SubmissionStatusTypeID": 100
 }

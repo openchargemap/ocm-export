@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-12T03:27:00Z",
+    "DateLastVerified": "2024-02-20T07:42:00Z",
     "ID": 216110,
     "UUID": "5D1C038D-8607-4ECD-B247-CE111789419D",
     "DataProviderID": 19,
@@ -20,24 +20,20 @@
     "Connections": [
         {
             "ID": 364557,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 3,
-            "Amps": 32,
+            "Amps": 375,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Comments": "Mode 3"
+            "Comments": "Mode 4"
         },
         {
             "ID": 364558,
             "ConnectionTypeID": 33,
             "Reference": "2",
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
         {
@@ -53,13 +49,18 @@
         },
         {
             "ID": 364560,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
             "Reference": "4",
-            "Comments": "Mode 4"
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Comments": "Mode 3"
         },
         {
             "ID": 364561,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "Reference": "5",
             "LevelID": 3,
             "Amps": 100,
@@ -70,8 +71,13 @@
         },
         {
             "ID": 364562,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
             "Reference": "6",
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
         {
@@ -99,7 +105,7 @@
         }
     ],
     "NumberOfPoints": 9,
-    "DateLastStatusUpdate": "2023-07-12T03:27:00Z",
+    "DateLastStatusUpdate": "2024-02-20T07:42:00Z",
     "DateCreated": "2023-02-09T09:50:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,13 +1,32 @@
 {
-    "DateLastVerified": "2022-09-06T21:34:00Z",
+    "MediaItems": [
+        {
+            "ID": 40828,
+            "ChargePointID": 71022,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM71022/OCM-71022.orig.2023122118253226.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM71022/OCM-71022.thmb.2023122118253226.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-12-21T18:26:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-04T18:16:00Z",
     "ID": 71022,
     "UUID": "C8D8E4BC-E2CC-4C21-9720-8595DFD183A2",
     "DataProviderID": 1,
-    "OperatorID": 91,
+    "OperatorID": 3324,
     "UsageTypeID": 4,
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 71368,
-        "Title": "IBIL Virgen de Begoña",
+        "Title": "Virgen de Begoña (Zunder)",
         "AddressLine1": "Virgen de Begoña Kalea, 38",
         "Town": "Bilbao",
         "StateOrProvince": "Bilbao",
@@ -16,46 +35,27 @@
         "Latitude": 43.2587902,
         "Longitude": -2.914083900000037,
         "ContactEmail": "ibil@ibil.es",
-        "RelatedURL": "http://www.ibil.com",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 101766,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 101767,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
+            "Amps": 300,
+            "Voltage": 920,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 336748,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC150 CCS/Chademo charger."
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "IBIL card",
+    "GeneralComments": "Station power currently limited to 50kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-06T21:34:00Z",
+    "DateLastStatusUpdate": "2024-02-04T18:16:00Z",
     "DateCreated": "2016-08-22T18:38:00Z",
     "SubmissionStatusTypeID": 200
 }

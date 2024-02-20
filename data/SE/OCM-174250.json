@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-07-12T03:21:00Z",
+    "DateLastVerified": "2023-10-04T17:24:00Z",
     "ID": 174250,
     "UUID": "397105B1-2BD2-4136-8E24-9C4F51E5AC64",
-    "DataProviderID": 19,
-    "DataProvidersReference": "7394",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 174609,
-        "Title": "OKQ8 Skärholmen",
+        "Title": "OKQ8 Skärholmen - E.ON",
         "AddressLine1": "Ekholmsvägen 7-15 ",
         "Town": "SKÄRHOLMEN",
         "StateOrProvince": "STOCKHOLM",
@@ -20,35 +20,26 @@
     "Connections": [
         {
             "ID": 269549,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 3,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 269550,
-            "ConnectionTypeID": 25,
-            "Reference": "2",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "Mode 3"
         },
         {
             "ID": 269551,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 2,
             "Reference": "3",
             "LevelID": 3,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "Mode 3"
         },
         {
@@ -58,13 +49,14 @@
             "LevelID": 3,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 43,
             "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "Mode 3"
         }
     ],
-    "NumberOfPoints": 4,
-    "DateLastStatusUpdate": "2023-07-12T03:21:00Z",
+    "NumberOfPoints": 3,
+    "DateLastStatusUpdate": "2023-10-04T17:24:00Z",
     "DateCreated": "2021-03-24T05:11:00Z",
     "SubmissionStatusTypeID": 100
 }

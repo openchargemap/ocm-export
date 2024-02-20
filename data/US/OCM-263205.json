@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T09:02:00Z",
+    "DateLastVerified": "2023-11-29T02:07:00Z",
     "ID": 263205,
     "UUID": "D285B196-02C6-457D-A1E1-FB1535FEBA24",
-    "DataProviderID": 2,
-    "DataProvidersReference": "257665",
-    "OperatorID": 3534,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 263589,
-        "Title": "Sturbridge Plaza - Tesla Supercharger",
-        "AddressLine1": "196 Main St",
+        "Title": "Sturbridge, MA",
+        "AddressLine1": "196 Main Street",
         "Town": "Sturbridge",
         "StateOrProvince": "MA",
         "Postcode": "01566",
         "CountryID": 2,
-        "Latitude": 42.09864,
-        "Longitude": -72.072215,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
+        "Latitude": 42.0985316,
+        "Longitude": -72.07247674,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Sturbridge Plaza",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 446018,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:02:00Z",
+    "DateLastStatusUpdate": "2023-11-29T02:07:00Z",
     "DateCreated": "2023-05-01T05:57:00Z",
     "SubmissionStatusTypeID": 100
 }

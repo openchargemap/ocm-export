@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:27:00Z",
+    "DateLastVerified": "2023-12-13T01:27:00Z",
     "ID": 222852,
     "UUID": "0CD839A6-7528-45C6-AD50-20C3F5CDE3CC",
-    "DataProviderID": 2,
-    "DataProvidersReference": "198004",
+    "DataProviderID": 1,
     "OperatorID": 3534,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 223235,
-        "Title": "Huckâ€™s Service Plaza - Tesla Supercharger",
+        "Title": "Huck’s Service Plaza - Tesla Supercharger",
         "AddressLine1": "675 Western Kentucky Parkway",
         "Town": "Beaver Dam",
         "StateOrProvince": "KY",
@@ -17,7 +16,7 @@
         "Latitude": 37.376649,
         "Longitude": -86.82644,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,26 @@
         {
             "ID": 373719,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 504643,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:27:00Z",
+    "DateLastStatusUpdate": "2023-12-13T01:27:00Z",
     "DateCreated": "2023-02-13T05:08:00Z",
     "SubmissionStatusTypeID": 100
 }

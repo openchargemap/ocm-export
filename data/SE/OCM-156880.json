@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-07-12T03:22:00Z",
+    "DateLastVerified": "2023-10-04T16:58:00Z",
     "ID": 156880,
     "UUID": "647AA238-52CE-4B11-95BB-73803732CC39",
-    "DataProviderID": 19,
-    "DataProvidersReference": "5726",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 157234,
-        "Title": "Narvavägen 35C",
+        "Title": "Laddgata Narvavägen - E.ON",
         "AddressLine1": "Narvavägen 35C",
         "Town": "STOCKHOLM",
         "StateOrProvince": "STOCKHOLM",
@@ -19,26 +19,6 @@
     },
     "Connections": [
         {
-            "ID": 222809,
-            "ConnectionTypeID": 25,
-            "Reference": "4",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 222810,
-            "ConnectionTypeID": 25,
-            "Reference": "5",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30
-        },
-        {
             "ID": 222811,
             "ConnectionTypeID": 25,
             "Reference": "6",
@@ -46,7 +26,8 @@
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 6
         },
         {
             "ID": 222812,
@@ -56,7 +37,8 @@
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 222813,
@@ -66,7 +48,8 @@
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 222814,
@@ -76,11 +59,12 @@
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 9,
-    "DateLastStatusUpdate": "2023-07-12T03:22:00Z",
+    "DateLastStatusUpdate": "2023-10-04T16:58:00Z",
     "DateCreated": "2020-05-26T08:22:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:19:00Z",
+    "DateLastVerified": "2023-12-24T01:21:00Z",
     "ID": 221445,
     "UUID": "EEF651CC-1F34-47B7-AE08-E5675141BEAC",
-    "DataProviderID": 2,
-    "DataProvidersReference": "197423",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 221828,
-        "Title": "Kimball Crossing - Tesla Supercharger",
+        "Title": "Kimball, TN Supercharger",
         "AddressLine1": "300 Kimball Crossing Drive",
         "Town": "Kimball",
         "StateOrProvince": "TN",
@@ -17,7 +16,7 @@
         "Latitude": 35.03978,
         "Longitude": -85.68505,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "Located at Kimball Crossing",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 372105,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 12
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:19:00Z",
+    "DateLastStatusUpdate": "2023-12-24T01:21:00Z",
     "DateCreated": "2023-02-13T05:04:00Z",
     "SubmissionStatusTypeID": 100
 }

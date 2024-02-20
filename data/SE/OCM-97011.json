@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2022-11-14T13:59:00Z",
+    "DateLastVerified": "2024-01-20T20:51:00Z",
     "ID": 97011,
     "UUID": "5335F4CE-21BF-4702-B380-EC85B5343988",
     "DataProviderID": 1,
     "DataProvidersReference": "4421",
-    "OperatorID": 1,
+    "OperatorID": 198,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 97357,
         "Title": "McDonalds Linköping Tornby - Recharge",
@@ -23,22 +24,12 @@
             "ID": 137524,
             "ConnectionTypeID": 33,
             "Reference": "3",
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
-            "Quantity": 1,
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 137525,
-            "ConnectionTypeID": 2,
-            "Reference": "4",
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "Quantity": 1,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
             "Comments": "Mode 4"
         },
         {
@@ -46,12 +37,14 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "PowerKW": 13,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
-    "DateLastStatusUpdate": "2022-11-14T13:59:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-01-20T20:51:00Z",
     "DateCreated": "2018-01-04T08:28:00Z",
     "SubmissionStatusTypeID": 100
 }

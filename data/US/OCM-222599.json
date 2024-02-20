@@ -1,9 +1,59 @@
 {
-    "DateLastVerified": "2023-07-12T08:26:00Z",
+    "UserComments": [
+        {
+            "ID": 28888,
+            "ChargePointID": 222599,
+            "CommentTypeID": 10,
+            "UserName": "Calif_Ioniq5",
+            "Comment": "Started with the 50 kW unit (which delivered 50 kW) but then noticed other two units labled as 125 kW shared. Moved to one of those and peaked out at 123 kW. It did seem to taper down after a while but since my car was then on the slow part of its charging curve I am not sure if that was the charger or my car.",
+            "Rating": 4,
+            "DateCreated": "2023-08-18T20:17:34.203Z",
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 39162,
+            "ChargePointID": 222599,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM222599/OCM-222599.orig.2023081516122592.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM222599/OCM-222599.thmb.2023081516122592.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2023-08-15T16:13:00Z"
+        },
+        {
+            "ID": 39161,
+            "ChargePointID": 222599,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM222599/OCM-222599.orig.2023081516115368.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM222599/OCM-222599.thmb.2023081516115368.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2023-08-15T16:12:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-08T13:40:00Z",
     "ID": 222599,
     "UUID": "4D81A275-7A77-421E-9981-B9A9D79102BE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "170151",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -25,24 +75,45 @@
         {
             "ID": 373424,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 3,
+            "Comments": ""
         },
         {
             "ID": 373425,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 472303,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 125,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "The two 125 kW units use a shared power supply so if both are in use neither will get the full 125 kW."
+        },
+        {
+            "ID": 472304,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 6.5,
+            "CurrentTypeID": 10,
+            "Quantity": 10
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:26:00Z",
+    "DateLastStatusUpdate": "2024-02-08T13:40:00Z",
     "DateCreated": "2023-02-13T05:07:00Z",
     "SubmissionStatusTypeID": 100
 }

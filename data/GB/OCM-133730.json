@@ -33,14 +33,14 @@
             "DateCreated": "2023-02-26T12:05:00Z"
         }
     ],
-    "DateLastVerified": "2023-02-26T12:06:00Z",
+    "DateLastVerified": "2023-11-26T18:17:00Z",
     "ID": 133730,
     "UUID": "E004EF1D-B032-45FF-9506-9471FCF2B07C",
     "DataProviderID": 1,
     "OperatorID": 25,
     "OperatorsReference": "southwark-elmwoodroad",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.059/minute; min £1.18; other tariffs available",
+    "UsageTypeID": 1,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 134076,
         "Title": "Elmwood Road",
@@ -50,16 +50,18 @@
         "CountryID": 1,
         "Latitude": 51.456095,
         "Longitude": -0.09145,
+        "ContactTelephone1": "02030568989",
+        "AccessComments": "Dedicated area for \"electric vehicles only\"",
+        "RelatedURL": "https://www.sourcelondon.net/map/GB*BPL*P000584",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 187158,
             "ConnectionTypeID": 25,
+            "Reference": "001355",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
@@ -67,20 +69,19 @@
         {
             "ID": 187159,
             "ConnectionTypeID": 1,
+            "Reference": "001355",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Voltage": 230,
-            "PowerKW": 4,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
         },
         {
             "ID": 187160,
             "ConnectionTypeID": 25,
+            "Reference": "001356",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
@@ -88,17 +89,77 @@
         {
             "ID": 187161,
             "ConnectionTypeID": 1,
+            "Reference": "001356",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Voltage": 230,
-            "PowerKW": 4,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 487782,
+            "ConnectionTypeID": 25,
+            "Reference": "001357",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 487783,
+            "ConnectionTypeID": 1,
+            "Reference": "001357",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 487784,
+            "ConnectionTypeID": 25,
+            "Reference": "001358",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 487785,
+            "ConnectionTypeID": 1,
+            "Reference": "001358",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 487786,
+            "ConnectionTypeID": 25,
+            "Reference": "001359",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 487787,
+            "ConnectionTypeID": 1,
+            "Reference": "001359",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-26T12:06:00Z",
+    "DateLastStatusUpdate": "2023-11-26T18:17:00Z",
     "DateCreated": "2019-10-25T05:39:00Z",
     "SubmissionStatusTypeID": 200
 }

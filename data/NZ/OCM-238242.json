@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-08-06T07:07:00Z",
+    "DateLastVerified": "2023-10-01T09:14:00Z",
     "ID": 238242,
     "UUID": "ADD56146-9BC4-42C6-A645-DD34BCF6D9A1",
     "DataProviderID": 1,
@@ -11,6 +11,7 @@
         "Title": "BP Connect Tirau",
         "AddressLine1": "56 Main Road",
         "Town": "Tirau",
+        "StateOrProvince": "Waikato",
         "Postcode": "3410",
         "CountryID": 161,
         "Latitude": -37.97700968661671,
@@ -21,6 +22,7 @@
         {
             "ID": 391879,
             "ConnectionTypeID": 33,
+            "Reference": "BPNC2009",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 75,
@@ -30,16 +32,26 @@
         {
             "ID": 391880,
             "ConnectionTypeID": 2,
+            "Reference": "BPNC2009",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 75,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 481500,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-08-06T07:07:00Z",
+    "NumberOfPoints": 10,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2023-10-01T09:14:00Z",
     "DateCreated": "2023-03-03T08:46:00Z",
     "SubmissionStatusTypeID": 200
 }

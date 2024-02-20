@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-10T17:03:00Z",
+    "DateLastVerified": "2023-12-04T16:55:00Z",
     "ID": 203340,
     "UUID": "DA7EC512-1A07-4823-9F0E-76105B15227D",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "free",
+    "OperatorID": 91,
+    "UsageTypeID": 4,
+    "UsageCost": "0,47€/kWh",
     "AddressInfo": {
         "ID": 203707,
         "Title": "PETRONOR Puentenansa",
@@ -21,17 +21,35 @@
     "Connections": [
         {
             "ID": 339804,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 3.5,
-            "CurrentTypeID": 10,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 485131,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 485132,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-07-10T17:03:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-12-04T16:55:00Z",
     "DateCreated": "2022-09-17T10:22:00Z",
     "SubmissionStatusTypeID": 200
 }

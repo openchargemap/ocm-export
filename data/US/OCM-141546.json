@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2023-07-12T08:38:00Z",
+    "DateLastVerified": "2023-11-27T10:38:00Z",
     "ID": 141546,
     "UUID": "F1A83DAA-4978-4DB7-A957-ECE42D8E260D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "143393",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "$0.17/kWh",
     "AddressInfo": {
         "ID": 141898,
-        "Title": "MC FLEET WHEATON MCPL 1",
+        "Title": "MC FLEET WHEATON MCPL",
         "AddressLine1": "11701 Georgia Ave",
         "Town": "Silver Spring",
         "StateOrProvince": "MD",
@@ -25,17 +25,25 @@
         {
             "ID": 197494,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 6.6,
             "CurrentTypeID": 10,
             "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 487828,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 5,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:38:00Z",
+    "DateLastStatusUpdate": "2023-11-27T10:38:00Z",
     "DateCreated": "2019-12-24T09:15:00Z",
     "SubmissionStatusTypeID": 100
 }

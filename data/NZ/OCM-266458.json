@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-06-08T03:24:00Z",
+    "DateLastVerified": "2023-09-15T09:42:00Z",
     "ID": 266458,
     "UUID": "DE841576-2D80-40B1-87C5-CADF40312E60",
     "DataProviderID": 1,
     "OperatorID": 3593,
     "UsageTypeID": 4,
+    "UsageCost": "$0.70/kWh",
     "AddressInfo": {
         "ID": 266842,
         "Title": "BP Connect Fendalton",
@@ -21,8 +22,11 @@
         {
             "ID": 453513,
             "ConnectionTypeID": 33,
+            "Reference": "BPNC564",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
             "PowerKW": 75,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -30,16 +34,19 @@
         {
             "ID": 453514,
             "ConnectionTypeID": 2,
+            "Reference": "BPNC564",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 63,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-08T03:24:00Z",
+    "DateLastStatusUpdate": "2023-09-15T09:42:00Z",
     "DateCreated": "2023-06-03T08:33:00Z",
     "SubmissionStatusTypeID": 200
 }

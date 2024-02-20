@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:46:00Z",
+    "DateLastVerified": "2023-11-28T19:38:00Z",
     "ID": 269605,
     "UUID": "DDF19A13-5CA8-46B0-88D0-31FA7CB87865",
-    "DataProviderID": 2,
-    "DataProvidersReference": "261457",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 269989,
-        "Title": "Meijer - Tesla Supercharger",
-        "AddressLine1": "1661 Hilliard Rome Rd",
+        "Title": "Columbus, OH - Hilliard Rome Road",
+        "AddressLine1": "1661 Hilliard Rome Road",
         "Town": "Columbus",
         "StateOrProvince": "OH",
         "Postcode": "43228",
         "CountryID": 2,
-        "Latitude": 39.9831,
-        "Longitude": -83.1529,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
+        "Latitude": 39.982981,
+        "Longitude": -83.15303,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Meijer",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 459220,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:46:00Z",
+    "DateLastStatusUpdate": "2023-11-28T19:38:00Z",
     "DateCreated": "2023-07-04T07:12:00Z",
     "SubmissionStatusTypeID": 100
 }

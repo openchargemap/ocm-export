@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:30:00Z",
+    "DateLastVerified": "2023-11-15T08:55:00Z",
     "ID": 244493,
     "UUID": "9CCD1A29-5C2C-4191-A463-DF14A2A482EA",
-    "DataProviderID": 2,
-    "DataProvidersReference": "202621",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 244877,
-        "Title": "Gateway Center - Tesla Supercharger",
+        "Title": "San Ramon, CA - San Ramon Valley Boulevard",
         "AddressLine1": "21001 San Ramon Valley Boulevard",
         "Town": "San Ramon",
         "StateOrProvince": "CA",
         "Postcode": "94583",
         "CountryID": 2,
-        "Latitude": 37.723074,
-        "Longitude": -121.944218,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "Latitude": 37.723146,
+        "Longitude": -121.944336,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Gateway Center",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 410542,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 16,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 16,
+    "GeneralComments": "16 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:30:00Z",
+    "DateLastStatusUpdate": "2023-11-15T08:55:00Z",
     "DateCreated": "2023-03-07T05:17:00Z",
     "SubmissionStatusTypeID": 100
 }

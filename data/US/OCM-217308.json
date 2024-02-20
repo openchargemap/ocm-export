@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T07:54:00Z",
+    "DateLastVerified": "2023-12-23T18:53:00Z",
     "ID": 217308,
     "UUID": "699C723E-F353-4340-BB92-3AC2AEFB2CE2",
-    "DataProviderID": 2,
-    "DataProvidersReference": "195794",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 217688,
-        "Title": "Tarpon Bay Plaza - Tesla Supercharger",
+        "Title": "Naples, FL - Tarpon Bay Boulevard Supercharger",
         "AddressLine1": "2433 Tarpon Bay Boulevard",
         "Town": "Naples",
         "StateOrProvince": "FL",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 26.271621,
         "Longitude": -81.73912,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Tarpon Bay Plaza",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 367515,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:54:00Z",
+    "DateLastStatusUpdate": "2023-12-23T18:53:00Z",
     "DateCreated": "2023-02-13T04:52:00Z",
     "SubmissionStatusTypeID": 100
 }

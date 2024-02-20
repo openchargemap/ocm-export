@@ -1,23 +1,22 @@
 {
-    "DateLastVerified": "2023-07-12T08:11:00Z",
+    "DateLastVerified": "2023-12-21T13:33:00Z",
     "ID": 220294,
     "UUID": "C1A0E9C5-BBB5-40AA-96BB-899A9EB6EAAE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "253770",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 220677,
-        "Title": "Cayce, SC - Tesla Supercharger",
-        "AddressLine1": "3026 Charleston Hwy",
+        "Title": "Cayce, SC Supercharger",
+        "AddressLine1": "3040 Charleston Hwy",
         "Town": "Cayce",
         "StateOrProvince": "SC",
         "Postcode": "29172",
         "CountryID": 2,
-        "Latitude": 33.928112,
-        "Longitude": -81.078255,
+        "Latitude": 33.928145,
+        "Longitude": -81.07838,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "Located at Cayce Crossing",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 370809,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 12
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:11:00Z",
+    "DateLastStatusUpdate": "2023-12-21T13:33:00Z",
     "DateCreated": "2023-02-13T05:00:00Z",
     "SubmissionStatusTypeID": 100
 }

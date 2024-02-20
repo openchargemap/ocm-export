@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2017-11-04T14:04:00Z",
+    "DateLastVerified": "2024-02-13T23:29:00Z",
     "ID": 8591,
     "UUID": "BB41794F-5347-472B-AA50-59A64209A140",
-    "DataProviderID": 15,
-    "DataProvidersReference": "2312",
-    "OperatorID": 31,
+    "DataProviderID": 1,
+    "OperatorID": 15,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 8488,
         "Title": "1855 Main Street",
@@ -21,20 +21,26 @@
     },
     "Connections": [
         {
-            "ID": 6015,
-            "ConnectionTypeID": 1,
-            "Reference": "J1772",
-            "LevelID": 2,
-            "Quantity": 1
+            "ID": 514563,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
-            "ID": 6328,
-            "ConnectionTypeID": 0,
-            "Reference": "SPI"
+            "ID": 514564,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 12
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2017-11-04T14:04:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-13T23:29:00Z",
     "DateCreated": "2011-11-11T12:06:00Z",
     "SubmissionStatusTypeID": 100
 }

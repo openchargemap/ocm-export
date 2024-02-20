@@ -1,0 +1,77 @@
+{
+    "DateLastVerified": "2023-10-09T05:24:00Z",
+    "ID": 278707,
+    "UUID": "6871CCB5-0E90-42F2-9405-0ADD98852685",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-89662,PG-89690,veefil-12200211",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.44/kWh,£0.62/kWh",
+    "AddressInfo": {
+        "ID": 279094,
+        "Title": "Roys Wroxham LTD",
+        "AddressLine1": "Stalham Road",
+        "Town": "Hoveton",
+        "Postcode": "NR12 8DB",
+        "CountryID": 1,
+        "Latitude": 52.7125348,
+        "Longitude": 1.41022857,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 482318,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-89662",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Buck-Boyd"
+        },
+        {
+            "ID": 482319,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-89690",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Duke-Elle"
+        },
+        {
+            "ID": 482320,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200211",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Ejaz-Andy"
+        },
+        {
+            "ID": 482321,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200211",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Ejaz-Andy"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at Roys Wroxham site at Hoveton",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-10-09T05:24:00Z",
+    "DateCreated": "2023-10-08T05:21:00Z",
+    "SubmissionStatusTypeID": 200
+}

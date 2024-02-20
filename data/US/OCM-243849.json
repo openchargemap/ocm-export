@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:26:00Z",
+    "DateLastVerified": "2024-02-11T03:35:00Z",
     "ID": 243849,
     "UUID": "968B9DF0-5A91-42C0-8D5F-FE4F4EA1873F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102091",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 244233,
-        "Title": "Trinidad Fuel Stop - Tesla Supercharger",
+        "Title": "Trinidad, CO Supercharger",
         "AddressLine1": "9960 Santa Fe Trail",
         "Town": "Trinidad",
         "StateOrProvince": "CO",
-        "Postcode": "81082",
+        "Postcode": "81082-3968",
         "CountryID": 2,
         "Latitude": 37.134167,
         "Longitude": -104.519352,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Trinidad Fuel Stop",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,27 @@
         {
             "ID": 409847,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 9,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 3,
+            "Comments": ""
+        },
+        {
+            "ID": 488784,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
+    "NumberOfPoints": 9,
+    "GeneralComments": "3 Superchargers up to 250kW, Available 24/7; 6 Superchargers up to 150kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:26:00Z",
+    "DateLastStatusUpdate": "2024-02-11T03:35:00Z",
     "DateCreated": "2023-03-07T05:15:00Z",
     "SubmissionStatusTypeID": 100
 }

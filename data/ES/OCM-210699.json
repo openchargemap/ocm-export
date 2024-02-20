@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-12-15T19:54:00Z",
+    "DateLastVerified": "2024-01-27T19:34:00Z",
     "ID": 210699,
     "UUID": "4B8D8BD8-9C54-4CCF-9EF6-74BFA931C1F3",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh ",
+    "UsageCost": "0,45€/kWh DC -0,39€/kWh AC",
     "AddressInfo": {
         "ID": 211079,
         "Title": "Avenida Primero de Mayo ",
@@ -26,12 +26,30 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 2
+        },
+        {
+            "ID": 483336,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 483337,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-12-15T19:54:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-01-27T19:34:00Z",
     "DateCreated": "2022-12-15T19:54:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2022-07-23T18:53:00Z",
+    "DateLastVerified": "2023-10-04T17:09:00Z",
     "ID": 45863,
     "UUID": "355C8D24-6CE9-44C7-BADC-7317B9EDE9C2",
     "DataProviderID": 1,
     "OperatorID": 1,
     "AddressInfo": {
         "ID": 46209,
-        "Title": "Vattenfall Snabbladdning",
+        "Title": "Tyresö Centrum - InCharge",
         "AddressLine1": "Dalvägen 9",
         "Town": "TYRESÖ",
         "StateOrProvince": "STOCKHOLM",
@@ -20,25 +20,36 @@
     "Connections": [
         {
             "ID": 56526,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 500,
-            "PowerKW": 100,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 2,
             "Comments": "Mode 3"
         },
         {
             "ID": 59344,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "CurrentTypeID": 30
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 482023,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 5,
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2022-07-23T18:53:00Z",
+    "DateLastStatusUpdate": "2023-10-04T17:09:00Z",
     "DateCreated": "2015-05-03T00:54:00Z",
     "SubmissionStatusTypeID": 100
 }

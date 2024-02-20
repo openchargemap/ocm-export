@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:52:00Z",
+    "DateLastVerified": "2023-11-09T19:32:00Z",
     "ID": 246302,
     "UUID": "B15D1AAE-B0BE-4548-8738-E9F1C489BDEA",
-    "DataProviderID": 2,
-    "DataProvidersReference": "202618",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 246686,
-        "Title": "Marketplace at 18th - Tesla Supercharger",
+        "Title": "Salt Lake City, UT - S 300 W",
         "AddressLine1": "1850 South 300 West",
         "Town": "Salt Lake City",
         "StateOrProvince": "UT",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 40.730085,
         "Longitude": -111.901759,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Marketplace at 18th",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 412566,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:52:00Z",
+    "DateLastStatusUpdate": "2023-11-09T19:32:00Z",
     "DateCreated": "2023-03-07T05:32:00Z",
     "SubmissionStatusTypeID": 100
 }

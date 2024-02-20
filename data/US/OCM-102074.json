@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2020-07-08T05:30:00Z",
+    "DateLastVerified": "2024-01-30T04:36:00Z",
     "ID": 102074,
     "UUID": "9F3BBE58-DD73-4444-8DDE-BBEA4CC15A8F",
     "DataProviderID": 1,
@@ -9,7 +9,7 @@
     "UsageCost": "$0.26/kWh; other tariffs for older cars",
     "AddressInfo": {
         "ID": 102420,
-        "Title": "Santa Clarita, Ca Supercharger",
+        "Title": "Santa Clarita, CA Supercharger",
         "AddressLine1": "24061 Newhall Ranch Road",
         "Town": "Valencia",
         "StateOrProvince": "CA",
@@ -17,23 +17,35 @@
         "CountryID": 2,
         "Latitude": 34.430977,
         "Longitude": -118.554099,
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Bridgeport Marketplace",
+        "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 144057,
+            "ID": 513008,
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 32
+            "Quantity": 8
+        },
+        {
+            "ID": 513009,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 24
         }
     ],
     "NumberOfPoints": 32,
-    "GeneralComments": "Charging24 Superchargers, available 24/7, up to 120kW",
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7; 24 Superchargers up to 150kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-07-08T05:30:00Z",
+    "DateLastStatusUpdate": "2024-01-30T04:36:00Z",
     "DateCreated": "2018-04-16T05:07:00Z",
     "SubmissionStatusTypeID": 200
 }

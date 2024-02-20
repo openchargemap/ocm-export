@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2018-03-13T13:49:00Z",
+    "DateLastVerified": "2023-12-02T21:37:00Z",
     "ID": 97508,
     "UUID": "46D16112-A74C-40E3-ADB8-1D49AC7B7ED7",
     "DataProviderID": 1,
@@ -9,31 +9,43 @@
     "UsageCost": "$0.21/kWh; other tariffs for older cars",
     "AddressInfo": {
         "ID": 97854,
-        "Title": "Richmond, Va Supercharger",
+        "Title": "Richmond, VA",
         "AddressLine1": "4441 S Laburnum Ave",
         "Town": "Richmond",
         "StateOrProvince": "VA",
-        "Postcode": "23231-0000",
+        "Postcode": "23231",
         "CountryID": 2,
         "Latitude": 37.52979,
         "Longitude": -77.353906,
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at White Oak Village",
+        "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 138415,
+            "ID": 488992,
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 20
+            "Quantity": 16
+        },
+        {
+            "ID": 488993,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 72,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 20,
-    "GeneralComments": "Charging12 Superchargers, available 24/7, up to 120kW",
+    "NumberOfPoints": 18,
+    "GeneralComments": "16 Superchargers, available 24/7, up to 150kW, 2 Superchargers, available 24/7, up to 72kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-03-13T13:49:00Z",
+    "DateLastStatusUpdate": "2023-12-02T21:37:00Z",
     "DateCreated": "2018-01-21T15:37:00Z",
     "SubmissionStatusTypeID": 200
 }

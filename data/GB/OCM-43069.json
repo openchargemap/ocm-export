@@ -1,41 +1,52 @@
 {
-    "DateLastVerified": "2016-03-09T16:19:00Z",
+    "DateLastVerified": "2024-01-15T14:54:00Z",
     "ID": 43069,
     "UUID": "199EE09D-9297-4A65-BADD-333721C6A107",
     "DataProviderID": 1,
-    "OperatorID": 104,
+    "OperatorID": 3473,
     "OperatorsReference": "Essent EM-GB-00000012-01-00007",
     "UsageTypeID": 1,
-    "UsageCost": "Free. Parking fees apply.",
+    "UsageCost": "£0.35/kWh",
     "AddressInfo": {
         "ID": 43415,
-        "Title": "Europa Link",
+        "Title": "Sheffield Business Centre",
         "AddressLine1": "Europa Court",
         "Town": "Rotherham",
         "Postcode": "S9 1XZ",
         "CountryID": 1,
-        "Latitude": 53.395741,
-        "Longitude": -1.381976,
-        "AccessComments": "Parking fees apply. Pay in reception",
-        "RelatedURL": "http://www.evinmotion.co.uk/available-chargers.php",
+        "Latitude": 53.395496943114665,
+        "Longitude": -1.3820535973329697,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 52133,
             "ConnectionTypeID": 25,
+            "Reference": "UKEV17724-1",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 511278,
+            "ConnectionTypeID": 25,
+            "Reference": "UKEV17724-2",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-03-09T16:19:00Z",
+    "DateLastStatusUpdate": "2024-01-15T14:54:00Z",
     "DateCreated": "2015-03-25T02:49:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2019-03-14T23:14:00Z",
+    "DateLastVerified": "2023-11-06T13:28:00Z",
     "ID": 118012,
     "UUID": "3B97C62A-BE2D-451E-B6C4-C9CC95A4D3A1",
     "DataProviderID": 1,
@@ -9,7 +9,7 @@
     "UsageCost": "$0.24/min >=60kW; $0.12/min <60kW; other tariffs for older cars",
     "AddressInfo": {
         "ID": 118358,
-        "Title": "Parsippany, NJ Supercharger",
+        "Title": "Parsippany, NJ",
         "AddressLine1": "350 New Road",
         "Town": "Parsippany",
         "StateOrProvince": "NJ",
@@ -17,6 +17,8 @@
         "CountryID": 2,
         "Latitude": 40.849718,
         "Longitude": -74.351359,
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at the Wawa",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +27,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 486399,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 8
         }
     ],
-    "NumberOfPoints": 8,
-    "GeneralComments": "Charging8 Superchargers, available 24/7, up to 120kW",
+    "NumberOfPoints": 12,
+    "GeneralComments": "4 Superchargers, available 24/7, up to 250kW, 8 Superchargers, available 24/7, up to 150kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-03-14T23:14:00Z",
+    "DateLastStatusUpdate": "2023-11-06T13:28:00Z",
     "DateCreated": "2019-03-14T23:14:00Z",
     "SubmissionStatusTypeID": 200
 }

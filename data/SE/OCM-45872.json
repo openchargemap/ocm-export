@@ -1,12 +1,13 @@
 {
-    "DateLastVerified": "2020-05-26T08:22:00Z",
+    "DateLastVerified": "2023-10-04T17:22:00Z",
     "ID": 45872,
     "UUID": "1B599866-FDCD-4D03-92AF-5A7E2D80FED2",
     "DataProviderID": 1,
     "DataProvidersReference": "2054",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 46218,
-        "Title": "Fortum McD Lindvreten",
+        "Title": "McDonalds Lindvreten - Recharge",
         "AddressLine1": "Kungens kurvaleden 1",
         "Town": "KUNGENS KURVA",
         "StateOrProvince": "STOCKHOLM",
@@ -20,37 +21,48 @@
     "Connections": [
         {
             "ID": 56535,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "4",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 3"
         },
         {
             "ID": 84443,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "5",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 3"
         },
         {
             "ID": 88163,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "3",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
+            "Quantity": 1,
             "Comments": "Mode 3"
+        },
+        {
+            "ID": 482070,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 5,
-    "DateLastStatusUpdate": "2020-05-26T08:22:00Z",
+    "DateLastStatusUpdate": "2023-10-04T17:22:00Z",
     "DateCreated": "2015-05-03T00:54:00Z",
     "SubmissionStatusTypeID": 100
 }

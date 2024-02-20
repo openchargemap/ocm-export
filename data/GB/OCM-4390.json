@@ -47,14 +47,14 @@
             "DateCreated": "2018-06-18T21:15:00Z"
         }
     ],
-    "DateLastVerified": "2019-05-13T16:37:00Z",
+    "DateLastVerified": "2023-10-31T06:41:00Z",
     "ID": 4390,
     "UUID": "895E7506-918C-41E5-8384-CF4413B172A8",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-91553,PG-91623,PG-91683",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "1",
     "AddressInfo": {
         "ID": 4377,
         "Title": "76 Upper Ground",
@@ -70,43 +70,49 @@
     },
     "Connections": [
         {
-            "ID": 20002,
-            "ConnectionTypeID": 3,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 13,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
             "ID": 176689,
             "ConnectionTypeID": 25,
+            "Reference": "PG-91623",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 230,
             "PowerKW": 7,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Nick-Jeff"
         },
         {
-            "ID": 176880,
+            "ID": 483547,
             "ConnectionTypeID": 25,
+            "Reference": "PG-91683",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Thor-Pete"
+        },
+        {
+            "ID": 483548,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-91553",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Doug-Jeff"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Need to register with Source London.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T16:37:00Z",
+    "DateLastStatusUpdate": "2023-10-31T06:41:00Z",
     "DateCreated": "2011-05-17T17:23:00Z",
     "SubmissionStatusTypeID": 200
 }

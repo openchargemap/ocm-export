@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:57:00Z",
+    "DateLastVerified": "2024-02-15T04:15:00Z",
     "ID": 246682,
     "UUID": "7656BBFC-84CD-4F99-8DF8-1E22F8F27495",
-    "DataProviderID": 2,
-    "DataProvidersReference": "153791",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 247066,
-        "Title": "Dunkin' Donuts - Tesla Supercharger",
+        "Title": "Meriden, CT Supercharger",
         "AddressLine1": "903 East Main Street",
         "Town": "Meriden",
         "StateOrProvince": "CT",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 41.527343,
         "Longitude": -72.773491,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Dunkin' Donuts",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 412987,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:57:00Z",
+    "DateLastStatusUpdate": "2024-02-15T04:15:00Z",
     "DateCreated": "2023-03-07T05:36:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-12T03:26:00Z",
+    "DateLastVerified": "2024-02-20T07:40:00Z",
     "ID": 243195,
     "UUID": "927C0BAC-3F8E-4AED-ABDA-38A956340674",
     "DataProviderID": 19,
@@ -20,30 +20,33 @@
     "Connections": [
         {
             "ID": 406972,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 3"
+            "Comments": "Mode 4"
         },
         {
             "ID": 406973,
             "ConnectionTypeID": 33,
             "Reference": "2",
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
         {
             "ID": 406974,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 25,
             "Reference": "3",
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Comments": "Mode 3"
+        },
+        {
+            "ID": 406975,
+            "ConnectionTypeID": 33,
+            "Reference": "4",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -52,19 +55,8 @@
             "Comments": "Mode 4"
         },
         {
-            "ID": 406975,
-            "ConnectionTypeID": 25,
-            "Reference": "4",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 3"
-        },
-        {
             "ID": 406976,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
             "Reference": "5",
             "LevelID": 3,
             "Amps": 100,
@@ -75,25 +67,15 @@
         },
         {
             "ID": 406977,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "Reference": "6",
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
         {
             "ID": 406978,
             "ConnectionTypeID": 33,
             "Reference": "7",
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 406979,
-            "ConnectionTypeID": 33,
-            "Reference": "8",
             "LevelID": 3,
             "Amps": 375,
             "Voltage": 400,
@@ -102,9 +84,9 @@
             "Comments": "Mode 4"
         },
         {
-            "ID": 406980,
+            "ID": 406979,
             "ConnectionTypeID": 2,
-            "Reference": "9",
+            "Reference": "8",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -113,19 +95,31 @@
             "Comments": "Mode 4"
         },
         {
-            "ID": 406981,
+            "ID": 406980,
             "ConnectionTypeID": 33,
-            "Reference": "10",
+            "Reference": "9",
+            "LevelID": 3,
             "Comments": "Mode 4"
         },
         {
-            "ID": 406982,
+            "ID": 406981,
             "ConnectionTypeID": 33,
-            "Reference": "11",
+            "Reference": "10",
             "LevelID": 3,
             "Amps": 375,
             "Voltage": 400,
             "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 406982,
+            "ConnectionTypeID": 2,
+            "Reference": "11",
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
@@ -152,8 +146,8 @@
             "Comments": "Mode 4"
         }
     ],
-    "NumberOfPoints": 13,
-    "DateLastStatusUpdate": "2023-07-12T03:26:00Z",
+    "NumberOfPoints": 11,
+    "DateLastStatusUpdate": "2024-02-20T07:40:00Z",
     "DateCreated": "2023-03-07T04:00:00Z",
     "SubmissionStatusTypeID": 100
 }

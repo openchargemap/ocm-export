@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T09:23:00Z",
+    "DateLastVerified": "2023-12-01T23:09:00Z",
     "ID": 248750,
     "UUID": "7263E9FF-2E2D-4183-9D18-DE0BC5B6FB9E",
-    "DataProviderID": 2,
-    "DataProvidersReference": "233046",
+    "DataProviderID": 1,
     "OperatorID": 3534,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 249134,
-        "Title": "Cub Foods - Tesla Supercharger",
-        "AddressLine1": "216 7th St W",
+        "Title": "Monticello, MN",
+        "AddressLine1": "216 7th Street West",
         "Town": "Monticello",
         "StateOrProvince": "MN",
         "Postcode": "55362",
         "CountryID": 2,
-        "Latitude": 45.3008,
-        "Longitude": -93.7995,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 Hours Daily\r\nPublic - Credit card at all times",
+        "Latitude": 45.300804,
+        "Longitude": -93.799559,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Cub Foods",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,27 @@
         {
             "ID": 415333,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 488837,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:23:00Z",
+    "DateLastStatusUpdate": "2023-12-01T23:09:00Z",
     "DateCreated": "2023-03-07T05:53:00Z",
     "SubmissionStatusTypeID": 100
 }

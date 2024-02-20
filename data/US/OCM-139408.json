@@ -1,11 +1,10 @@
 {
-    "DateLastVerified": "2020-06-26T02:56:00Z",
+    "DateLastVerified": "2024-02-13T13:32:00Z",
     "ID": 139408,
     "UUID": "16C01200-0CFD-4F92-814B-731B0E904EA8",
-    "DataProviderID": 2,
-    "DataProvidersReference": "93037",
+    "DataProviderID": 1,
     "OperatorID": 15,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 139760,
         "Title": "Whole Foods Market",
@@ -23,38 +22,35 @@
     },
     "Connections": [
         {
-            "ID": 194756,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
             "ID": 194757,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 6
         },
         {
             "ID": 194758,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4
+        },
+        {
+            "ID": 514483,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T02:56:00Z",
+    "DateLastStatusUpdate": "2024-02-13T13:32:00Z",
     "DateCreated": "2019-12-24T09:10:00Z",
     "SubmissionStatusTypeID": 100
 }

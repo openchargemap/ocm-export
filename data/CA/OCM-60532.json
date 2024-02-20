@@ -17,6 +17,22 @@
     ],
     "MediaItems": [
         {
+            "ID": 41104,
+            "ChargePointID": 60532,
+            "ItemURL": "https://media.openchargemap.io/images/CA/OCM60532/OCM-60532.orig.2024010609524579.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/CA/OCM60532/OCM-60532.thmb.2024010609524579.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49824,
+                "Username": "Marcus24"
+            },
+            "DateCreated": "2024-01-06T09:53:00Z"
+        },
+        {
             "ID": 4821,
             "ChargePointID": 60532,
             "ItemURL": "https://media.openchargemap.io/images/CA/OCM60532/OCM-60532.orig.2016013020475349.jpg",
@@ -33,60 +49,52 @@
             "DateCreated": "2016-01-30T20:48:00Z"
         }
     ],
-    "DateLastVerified": "2022-03-08T00:53:00Z",
+    "DateLastVerified": "2024-01-22T07:02:00Z",
     "ID": 60532,
     "UUID": "679A750A-940A-48C0-948C-E012A150CB5F",
     "DataProviderID": 1,
     "OperatorID": 3375,
-    "UsageTypeID": 1,
-    "UsageCost": "$0.33 per minute",
+    "UsageTypeID": 5,
+    "UsageCost": "$0.50/min",
     "AddressInfo": {
         "ID": 60878,
         "Title": "Petro-Canada",
         "AddressLine1": "235 Steeles Ave E",
         "Town": "Milton",
         "StateOrProvince": "Ontario",
-        "Postcode": "L9T2T1",
+        "Postcode": "L9T 1Y2",
         "CountryID": 44,
         "Latitude": 43.5220593903017,
         "Longitude": -79.8939047691843,
-        "ContactTelephone1": "(905) 878-5829",
-        "RelatedURL": "",
+        "ContactTelephone1": "1-800-668-0220",
+        "ContactTelephone2": "",
+        "RelatedURL": "https://www.petro-canada.ca/en/personal/fuel/canadas-electric-highway",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 76689,
-            "ConnectionTypeID": 1,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 80,
-            "Voltage": 210,
-            "PowerKW": 9,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
             "ID": 176052,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 176053,
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 200,
+            "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "",
+    "NumberOfPoints": 4,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-08T00:53:00Z",
+    "DateLastStatusUpdate": "2024-01-22T07:02:00Z",
     "DateCreated": "2016-01-30T20:36:00Z",
     "SubmissionStatusTypeID": 200
 }

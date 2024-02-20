@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:08:00Z",
+    "DateLastVerified": "2023-12-05T21:39:00Z",
     "ID": 247509,
     "UUID": "E57A0C3A-3632-4C59-823F-FB075533426E",
-    "DataProviderID": 2,
-    "DataProvidersReference": "254328",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 247893,
-        "Title": "EVolve NY Tully",
+        "Title": "EVolve NY Preble",
         "AddressLine1": "7073 Route 281",
         "Town": "Tully",
         "StateOrProvince": "NY",
@@ -25,6 +24,7 @@
         {
             "ID": 413901,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -34,15 +34,26 @@
         {
             "ID": 413902,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 499437,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:08:00Z",
+    "DateLastStatusUpdate": "2023-12-05T21:39:00Z",
     "DateCreated": "2023-03-07T05:43:00Z",
     "SubmissionStatusTypeID": 100
 }

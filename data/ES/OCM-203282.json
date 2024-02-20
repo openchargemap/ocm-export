@@ -1,37 +1,40 @@
 {
-    "DateLastVerified": "2023-07-07T05:56:00Z",
+    "DateLastVerified": "2024-02-04T18:13:00Z",
     "ID": 203282,
     "UUID": "1E221D1B-4FE3-4E40-BCDE-CD9B3642C00A",
     "DataProviderID": 1,
-    "OperatorID": 3276,
+    "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,42€/kWh (0,05€/min parked without charging)",
+    "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 203649,
-        "Title": "Univ. Oviedo Aulario Viesques",
+        "Title": "Univ. Oviedo Aulario Sur (Zunder)",
         "AddressLine1": "Calle Wifredo Ricart",
         "Town": "Gijón/Xixón",
         "StateOrProvince": "Principality of Asturias",
         "Postcode": "33394",
         "CountryID": 210,
-        "Latitude": 43.5228972592607,
-        "Longitude": -5.621945957002026,
+        "Latitude": 43.52352945827525,
+        "Longitude": -5.6236609843180645,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 339728,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "Four Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (200 kW)."
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-07T05:56:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-02-04T18:13:00Z",
     "DateCreated": "2022-09-16T13:35:00Z",
     "SubmissionStatusTypeID": 200
 }

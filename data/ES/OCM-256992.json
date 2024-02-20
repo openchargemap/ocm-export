@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 41286,
+            "ChargePointID": 256992,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM256992/OCM-256992.orig.2024012610472608.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM256992/OCM-256992.thmb.2024012610472608.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-01-26T10:48:00Z"
+        },
+        {
             "ID": 36990,
             "ChargePointID": 256992,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM256992/OCM-256992.orig.2023031521145131.jpg",
@@ -17,7 +33,7 @@
             "DateCreated": "2023-03-15T21:15:00Z"
         }
     ],
-    "DateLastVerified": "2023-04-02T09:11:00Z",
+    "DateLastVerified": "2024-02-04T18:03:00Z",
     "ID": 256992,
     "UUID": "D3556FBB-7743-4826-811B-3DD03925B5C7",
     "DataProviderID": 1,
@@ -26,14 +42,15 @@
     "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 257376,
-        "Title": "Electrocash Maltravieso - Cáceres",
+        "Title": "Maltravieso - Cáceres (Zunder)",
         "AddressLine1": "Calle Cueva del Castillo",
         "AddressLine2": "Maltravieso",
-        "StateOrProvince": "Extremadura",
+        "StateOrProvince": "Cáceres",
         "Postcode": "10002",
         "CountryID": 210,
-        "Latitude": 39.4566007903945,
-        "Longitude": -6.369284963322912,
+        "Latitude": 39.454100968117984,
+        "Longitude": -6.3777957083646015,
+        "ContactTelephone1": "+34979300500",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -44,15 +61,16 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 200,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 4,
-            "Comments": "Four Kempower CCS Satellite chargers  (peak 400A) that dynamically share the total power of the cabinet (600 kW). Charging power limited for 400V cars"
+            "Comments": "Four Kempower CCS Satellite chargers  (peak 400A) that dynamically share the total power of the cabinet (600 kW)"
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-04-02T09:11:00Z",
+    "GeneralComments": "Open only during business hours: 07h to 24h",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-04T18:03:00Z",
     "DateCreated": "2023-03-15T21:15:00Z",
     "SubmissionStatusTypeID": 200
 }

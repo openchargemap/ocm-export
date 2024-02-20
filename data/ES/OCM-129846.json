@@ -1,14 +1,48 @@
 {
-    "DateLastVerified": "2022-12-15T20:11:00Z",
+    "MediaItems": [
+        {
+            "ID": 40825,
+            "ChargePointID": 129846,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM129846/OCM-129846.orig.2023122117503478.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM129846/OCM-129846.thmb.2023122117503478.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-12-21T17:51:00Z"
+        },
+        {
+            "ID": 40808,
+            "ChargePointID": 129846,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM129846/OCM-129846.orig.2023121919470987.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM129846/OCM-129846.thmb.2023121919470987.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-12-19T19:47:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-04T18:16:00Z",
     "ID": 129846,
     "UUID": "F34B32A4-4D07-410D-A7FB-9D8F4C999101",
     "DataProviderID": 1,
-    "OperatorID": 2247,
+    "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh ",
+    "UsageCost": "0,55€/kWh ",
     "AddressInfo": {
         "ID": 130192,
-        "Title": "Paseo Uribitarte 3",
+        "Title": "Paseo Uribitarte 3 (Zunder)",
         "AddressLine1": "Paseo Uribitarte, 3",
         "Town": "Bilbao",
         "StateOrProvince": "Bizkaia",
@@ -16,27 +50,21 @@
         "CountryID": 210,
         "Latitude": 43.26480551103785,
         "Longitude": -2.9270156157117526,
-        "ContactTelephone1": "+34900224522",
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 181796,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
         {
             "ID": 181797,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Hypercharger HYC150 CCS/Chademo charger."
         },
         {
             "ID": 181798,
@@ -46,12 +74,21 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 506449,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Need to register in the \"Iberdrola Public Charging\" app, all extra information can be found on-site. The charger can be reserved up to 30 minutes in advance with the app for free, with 1€ penalty if you don't start to charge in those 30 minutes.",
+    "GeneralComments": "Station power currently limited to 50kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-15T20:11:00Z",
+    "DateLastStatusUpdate": "2024-02-04T18:16:00Z",
     "DateCreated": "2019-07-28T21:10:00Z",
     "SubmissionStatusTypeID": 200
 }

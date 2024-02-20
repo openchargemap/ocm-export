@@ -1,9 +1,25 @@
 {
-    "DateLastVerified": "2019-04-06T05:03:00Z",
+    "UserComments": [
+        {
+            "ID": 29412,
+            "ChargePointID": 123554,
+            "CommentTypeID": 10,
+            "UserName": "PAL",
+            "Comment": "great Mexican restaurant nearby",
+            "Rating": 5,
+            "DateCreated": "2024-01-09T17:38:36.003Z",
+            "User": {
+                "ID": 50128,
+                "Username": "PAL"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-01-09T17:39:00Z",
     "ID": 123554,
     "UUID": "F1054813-656E-4052-B177-94F669B2E7F0",
-    "DataProviderID": 2,
-    "DataProvidersReference": "105254",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -25,25 +41,33 @@
         {
             "ID": 173556,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 173557,
             "ConnectionTypeID": 32,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 505068,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:03:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-01-09T17:39:00Z",
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100
 }

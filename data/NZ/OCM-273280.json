@@ -1,9 +1,44 @@
 {
-    "DateLastVerified": "2023-08-02T06:39:00Z",
+    "MediaItems": [
+        {
+            "ID": 39403,
+            "ChargePointID": 273280,
+            "ItemURL": "https://media.openchargemap.io/images/NZ/OCM273280/OCM-273280.orig.2023083005294731.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/NZ/OCM273280/OCM-273280.thmb.2023083005294731.jpg",
+            "Comment": "Not long now",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46639,
+                "Username": "lcmortensen"
+            },
+            "DateCreated": "2023-08-30T05:30:00Z"
+        },
+        {
+            "ID": 39082,
+            "ChargePointID": 273280,
+            "ItemURL": "https://media.openchargemap.io/images/NZ/OCM273280/OCM-273280.orig.2023081122575124.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/NZ/OCM273280/OCM-273280.thmb.2023081122575124.jpg",
+            "Comment": "Groundworks underway",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46639,
+                "Username": "lcmortensen"
+            },
+            "DateCreated": "2023-08-11T22:58:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-09-02T02:53:00Z",
     "ID": 273280,
     "UUID": "45A1C1A7-6F1E-482D-82A6-BE9748A4B88E",
     "DataProviderID": 1,
     "OperatorID": 3545,
+    "OperatorsReference": "ZEL-1042",
     "UsageTypeID": 4,
     "UsageCost": "$0.69/kWh",
     "AddressInfo": {
@@ -14,16 +49,20 @@
         "StateOrProvince": "Marlborough",
         "Postcode": "7220",
         "CountryID": 161,
-        "Latitude": -41.29234824389181,
-        "Longitude": 174.00651620676365,
+        "Latitude": -41.29234220147113,
+        "Longitude": 174.00657942673826,
+        "AccessComments": "Next to Z sign.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 471278,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "ZEL-1042",
+            "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
             "PowerKW": 75,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -31,16 +70,19 @@
         {
             "ID": 471279,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "Reference": "ZEL-1042",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 62.6,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-08-02T06:39:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-09-02T02:53:00Z",
     "DateCreated": "2023-08-02T06:28:00Z",
     "SubmissionStatusTypeID": 200
 }

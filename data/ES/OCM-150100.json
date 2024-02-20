@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 39900,
+            "ChargePointID": 150100,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM150100/OCM-150100.orig.2023101511470540.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM150100/OCM-150100.thmb.2023101511470540.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-10-15T11:47:00Z"
+        },
+        {
             "ID": 21599,
             "ChargePointID": 150100,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM150100/OCM-150100.orig.2020031608073410.jpg",
@@ -33,16 +49,16 @@
             "DateCreated": "2020-03-16T08:07:00Z"
         }
     ],
-    "DateLastVerified": "2023-02-21T17:43:00Z",
+    "DateLastVerified": "2024-02-04T17:38:00Z",
     "ID": 150100,
     "UUID": "391CC8B0-4336-415F-B827-8447D34BB4CF",
     "DataProviderID": 1,
     "OperatorID": 3324,
-    "UsageTypeID": 1,
-    "UsageCost": "0,39€/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": " 0,55€/kWh DC >80kW  - 0,42€/kWh DC 50kW",
     "AddressInfo": {
         "ID": 150453,
-        "Title": "Zunder - Hotel Meleiros",
+        "Title": "Hotel Meleiros (Zunder)",
         "AddressLine1": "Carr. nacional 525, km 84, 300",
         "Town": "Zamora",
         "StateOrProvince": "Zamora",
@@ -56,15 +72,15 @@
     "Connections": [
         {
             "ID": 208406,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 500,
-            "PowerKW": 50,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Tritium DC50 Charger"
+            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited to 200kW for 400V cars"
         },
         {
             "ID": 208407,
@@ -75,23 +91,24 @@
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "2 Tritium DC50 Chargers"
         },
         {
-            "ID": 208408,
-            "ConnectionTypeID": 25,
+            "ID": 474485,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "2 Tritium DC50 Chargers"
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Station equipped with a boost battery. Power limited when charger battery is low of charge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-21T17:43:00Z",
+    "DateLastStatusUpdate": "2024-02-04T17:38:00Z",
     "DateCreated": "2020-03-13T23:35:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,15 +1,14 @@
 {
-    "DateLastVerified": "2023-07-12T07:58:00Z",
+    "DateLastVerified": "2023-12-19T00:51:00Z",
     "ID": 218211,
     "UUID": "09395F4B-8162-4C0A-85FC-D017D2821938",
-    "DataProviderID": 2,
-    "DataProvidersReference": "220685",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 218591,
-        "Title": "Wawa - Tesla Supercharger",
-        "AddressLine1": "6787 Wilson Boulevard",
+        "Title": "Jacksonville, FL - Wilson Boulevard Supercharger",
+        "AddressLine1": "6787 Wilson Blvd",
         "Town": "Jacksonville",
         "StateOrProvince": "FL",
         "Postcode": "32210",
@@ -17,7 +16,7 @@
         "Latitude": 30.27113,
         "Longitude": -81.7558,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "Located at Wawa",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 368506,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:58:00Z",
+    "DateLastStatusUpdate": "2023-12-19T00:51:00Z",
     "DateCreated": "2023-02-13T04:55:00Z",
     "SubmissionStatusTypeID": 100
 }

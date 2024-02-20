@@ -1,21 +1,20 @@
 {
-    "DateLastVerified": "2023-07-12T09:29:00Z",
+    "DateLastVerified": "2023-11-20T13:49:00Z",
     "ID": 263619,
     "UUID": "03F6E026-14BA-4BA4-BE35-0221B06C8F75",
-    "DataProviderID": 2,
-    "DataProvidersReference": "259472",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 264003,
-        "Title": "VOLVO CAR USA HERMISTON DC2",
+        "Title": "Starbucks, Hermiston OR",
         "AddressLine1": "1215 N 1st St",
         "Town": "Hermiston",
         "StateOrProvince": "OR",
         "Postcode": "97838",
         "CountryID": 2,
-        "Latitude": 45.849179,
-        "Longitude": -119.29072,
+        "Latitude": 45.849192,
+        "Longitude": -119.290661,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,10 +24,11 @@
         {
             "ID": 446505,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 4,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
@@ -39,10 +39,20 @@
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 487329,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 125,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:29:00Z",
+    "DateLastStatusUpdate": "2023-11-20T13:49:00Z",
     "DateCreated": "2023-05-01T06:17:00Z",
     "SubmissionStatusTypeID": 100
 }

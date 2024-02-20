@@ -1,50 +1,53 @@
 {
-    "DateLastVerified": "2023-07-12T09:36:00Z",
+    "DateLastVerified": "2024-01-01T09:31:00Z",
     "ID": 234030,
     "UUID": "9793A051-2B86-402F-BDE9-85A35AD76F36",
-    "DataProviderID": 2,
-    "DataProvidersReference": "250614",
+    "DataProviderID": 1,
     "OperatorID": 3372,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$18.00/hr (DCFC), $2.00/hr (L2)",
     "AddressInfo": {
         "ID": 234414,
-        "Title": "Timmins Garage Inc",
-        "AddressLine1": "1395 Riverside Dr",
+        "Title": "EV Connect - Timmins Garage Inc.",
+        "AddressLine1": "1395 Riverside Drive",
         "Town": "Timmins",
         "StateOrProvince": "ON",
         "Postcode": "P4R 1A6",
         "CountryID": 44,
         "Latitude": 48.471919,
         "Longitude": -81.377736,
-        "ContactTelephone1": "866-816-7584",
+        "ContactTelephone1": "1-866-816-7584",
+        "ContactTelephone2": "1-877-297-8050",
         "AccessComments": "",
-        "RelatedURL": "http://evconnect.com/",
+        "RelatedURL": "https://www.evconnect.ca",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 386086,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 386087,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 3,
+            "Comments": ""
+        },
+        {
+            "ID": 506960,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 20,
+            "CurrentTypeID": 10,
             "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "GM dealership, but the chargers are accessible to all cars. DCFC chargers are of a new type and it is not clear if they have the credit card reader. AC chargers: 2 EV Connect and 3 FLO (see the separate FLO marker on the map).",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:36:00Z",
+    "DateLastStatusUpdate": "2024-01-01T09:31:00Z",
     "DateCreated": "2023-02-13T05:40:00Z",
     "SubmissionStatusTypeID": 100
 }

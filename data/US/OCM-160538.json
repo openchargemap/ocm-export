@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:32:00Z",
+    "DateLastVerified": "2023-11-06T13:30:00Z",
     "ID": 160538,
     "UUID": "716974E7-B512-4594-80C9-724A8F6964BE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "163530",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 160895,
-        "Title": "Prairie Hills Mall - Tesla Supercharger",
+        "Title": "Dickinson, ND",
         "AddressLine1": "1681 3rd Avenue West",
         "Town": "Dickinson",
         "StateOrProvince": "ND",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 46.90119,
         "Longitude": -102.790731,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at the Prairie Hills Mall",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,17 @@
         {
             "ID": 230993,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:32:00Z",
+    "DateLastStatusUpdate": "2023-11-06T13:30:00Z",
     "DateCreated": "2020-06-26T03:10:00Z",
     "SubmissionStatusTypeID": 100
 }

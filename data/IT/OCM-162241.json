@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 29389,
+            "ChargePointID": 162241,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Situata nella stazione di servizio, dove troviamo anche un bar. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnina-emotion-fast-camer-parabita-le-sp-361-km-21-t35406.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-emotion-fast-camer-parabita-le-sp-361-km-21-t35406.html",
+            "DateCreated": "2024-01-03T14:23:39.403Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 23076,
             "ChargePointID": 162241,
             "CommentTypeID": 1000,
@@ -16,18 +31,98 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2020-08-14T18:34:00Z",
+    "MediaItems": [
+        {
+            "ID": 41033,
+            "ChargePointID": 162241,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM162241/OCM-162241.orig.2024010314234836.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM162241/OCM-162241.thmb.2024010314234836.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-01-03T14:24:00Z"
+        },
+        {
+            "ID": 41034,
+            "ChargePointID": 162241,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM162241/OCM-162241.orig.2024010314235431.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM162241/OCM-162241.thmb.2024010314235431.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-01-03T14:24:00Z"
+        },
+        {
+            "ID": 41035,
+            "ChargePointID": 162241,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM162241/OCM-162241.orig.2024010314235965.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM162241/OCM-162241.thmb.2024010314235965.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-01-03T14:24:00Z"
+        },
+        {
+            "ID": 41036,
+            "ChargePointID": 162241,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM162241/OCM-162241.orig.2024010314240498.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM162241/OCM-162241.thmb.2024010314240498.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-01-03T14:24:00Z"
+        },
+        {
+            "ID": 41037,
+            "ChargePointID": 162241,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM162241/OCM-162241.orig.2024010314241059.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM162241/OCM-162241.thmb.2024010314241059.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-01-03T14:24:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-01-03T14:24:00Z",
     "ID": 162241,
     "UUID": "AA7B6966-733D-4307-9744-37AEEE9115BE",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 1,
-    "UsageCost": "0,35",
     "AddressInfo": {
         "ID": 162598,
-        "Title": "Stazione di Servizio CAMER Petroleum Europa",
-        "AddressLine1": "Via Provinciale Gallipoli",
-        "AddressLine2": "Rischiazzi",
+        "Title": "Emotion Camer",
+        "AddressLine1": "SP 361 km 21",
         "Town": "Parabita",
         "StateOrProvince": "Lecce",
         "Postcode": "73052",
@@ -43,6 +138,7 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 0,
             "LevelID": 3,
+            "PowerKW": 90,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -51,6 +147,7 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 0,
             "LevelID": 3,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -58,14 +155,15 @@
             "ID": 233496,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 0,
-            "LevelID": 3,
+            "LevelID": 2,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-14T18:34:00Z",
+    "DateLastStatusUpdate": "2024-01-03T14:24:00Z",
     "DateCreated": "2020-08-03T11:06:00Z",
     "SubmissionStatusTypeID": 200
 }

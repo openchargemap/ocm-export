@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:22:00Z",
+    "DateLastVerified": "2024-02-10T01:04:00Z",
     "ID": 232254,
     "UUID": "9D4EB380-2900-4841-A2FE-8500B6B0DE99",
-    "DataProviderID": 2,
-    "DataProvidersReference": "224997",
-    "OperatorID": 3534,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 232637,
-        "Title": "Jack's Fresh Market - Tesla Supercharger",
+        "Title": "Marinette, WI Supercharger",
         "AddressLine1": "2301 Roosevelt Road",
         "Town": "Marinette",
         "StateOrProvince": "WI",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 45.080024,
         "Longitude": -87.662487,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Jack's Fresh Market",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 384078,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:22:00Z",
+    "DateLastStatusUpdate": "2024-02-10T01:04:00Z",
     "DateCreated": "2023-02-13T05:33:00Z",
     "SubmissionStatusTypeID": 100
 }

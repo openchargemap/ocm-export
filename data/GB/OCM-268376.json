@@ -1,11 +1,45 @@
 {
-    "DateLastVerified": "2023-08-07T05:28:00Z",
+    "MediaItems": [
+        {
+            "ID": 39172,
+            "ChargePointID": 268376,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM268376/OCM-268376.orig.2023081608415771.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM268376/OCM-268376.thmb.2023081608415771.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47841,
+                "Username": "gw8ogi"
+            },
+            "DateCreated": "2023-08-16T08:42:00Z"
+        },
+        {
+            "ID": 39171,
+            "ChargePointID": 268376,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM268376/OCM-268376.orig.2023081608410291.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM268376/OCM-268376.thmb.2023081608410291.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47841,
+                "Username": "gw8ogi"
+            },
+            "DateCreated": "2023-08-16T08:41:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-10-11T09:23:00Z",
     "ID": 268376,
     "UUID": "A95C484F-3BB4-4637-BE2B-0E23DF7C28CC",
     "DataProviderID": 1,
-    "OperatorID": 3430,
-    "OperatorsReference": "",
-    "UsageTypeID": 4,
+    "OperatorID": 3673,
+    "UsageTypeID": 5,
+    "UsageCost": "£0.55/kWh",
     "AddressInfo": {
         "ID": 268760,
         "Title": "EG Kinmel Park West",
@@ -13,49 +47,87 @@
         "Town": "Rhyl",
         "Postcode": "LL18 5XE",
         "CountryID": 1,
-        "Latitude": 53.267886,
-        "Longitude": -3.518771,
-        "AccessComments": "",
-        "RelatedURL": "https://www.gridserve.com",
+        "Latitude": 53.2675730174141,
+        "Longitude": -3.5187687939947,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 457639,
             "ConnectionTypeID": 2,
-            "Reference": "2",
-            "StatusTypeID": 0,
+            "Reference": "EVP-KinmelW-A-2",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 457640,
-            "ConnectionTypeID": 1036,
-            "Reference": "1",
-            "StatusTypeID": 0,
-            "LevelID": 3,
-            "Amps": 63,
+            "ConnectionTypeID": 25,
+            "Reference": "EVP-KinmelW-A-3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 457641,
-            "ConnectionTypeID": 1036,
-            "Reference": "3",
-            "StatusTypeID": 0,
+            "ConnectionTypeID": 33,
+            "Reference": "EVP-KinmelW-A-1",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 483964,
+            "ConnectionTypeID": 33,
+            "Reference": "EVP-KinmelW-B-1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 483965,
+            "ConnectionTypeID": 2,
+            "Reference": "EVP-KinmelW-B-2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 483966,
+            "ConnectionTypeID": 25,
+            "Reference": "EVP-KinmelW-B-3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2023-08-07T05:28:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-10-11T09:23:00Z",
     "MetadataValues": [
         {
             "ID": 29404,
@@ -64,5 +136,5 @@
         }
     ],
     "DateCreated": "2023-07-04T05:45:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2022-07-06T07:38:00Z",
+    "DateLastVerified": "2023-11-25T06:29:00Z",
     "ID": 117902,
     "UUID": "A5DC404E-6E78-4892-BF4E-0CF9D7D966F9",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "25 c/kWh + 25 c/min",
+    "UsageCost": "$0.80/kWh (DC), $0.40/kWh (AC)",
     "AddressInfo": {
         "ID": 118248,
         "Title": "Ashburton West Street Car Park",
         "AddressLine1": "109 West Street",
-        "AddressLine2": "Netherby",
-        "Town": "Ashburton District",
-        "StateOrProvince": "Ashburton District",
+        "AddressLine2": "",
+        "Town": "Ashburton",
+        "StateOrProvince": "Canterbury",
         "Postcode": "7700",
         "CountryID": 161,
-        "Latitude": -43.905189862422,
-        "Longitude": 171.745304683696,
-        "ContactTelephone1": "+64 800 430 460",
+        "Latitude": -43.90535619972809,
+        "Longitude": 171.74539999656793,
+        "ContactTelephone1": "",
         "AccessComments": "In the West Street Car Park off the main road opposite McDonald's.",
         "DistanceUnit": 0
     },
@@ -25,6 +25,7 @@
         {
             "ID": 166873,
             "ConnectionTypeID": 2,
+            "Reference": "ASBN1-DC",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -34,6 +35,7 @@
         {
             "ID": 166874,
             "ConnectionTypeID": 33,
+            "Reference": "ASBN1-DC",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -43,6 +45,7 @@
         {
             "ID": 315713,
             "ConnectionTypeID": 25,
+            "Reference": "ASBN1-AC",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -54,7 +57,7 @@
     "NumberOfPoints": 2,
     "GeneralComments": "Two cars will be able to charge at the same time, if one is AC charging and the other is DC charging. Bring your own cable for 22kWh but there is still a charge for power. Provided by EA Networks.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-06T07:38:00Z",
+    "DateLastStatusUpdate": "2023-11-25T06:29:00Z",
     "DateCreated": "2019-03-08T20:15:00Z",
     "SubmissionStatusTypeID": 200
 }

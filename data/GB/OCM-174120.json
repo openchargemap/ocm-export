@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-07-27T05:19:00Z",
+    "DateLastVerified": "2024-02-19T06:37:00Z",
     "ID": 174120,
     "UUID": "8AD45D2A-AC67-4899-AE79-EC614935FE48",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "129",
+    "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.69/kWh,AC: £0.49/kWh",
+    "UsageCost": "DC: £0.79/kWh,AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 174479,
         "Title": "Moto Cherwell Valley Services",
@@ -91,18 +91,6 @@
             "Quantity": 1
         },
         {
-            "ID": 434578,
-            "ConnectionTypeID": 25,
-            "Reference": "GB*GRD*ETACW2243920T0586*1",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
             "ID": 434579,
             "ConnectionTypeID": 25,
             "Reference": "GB*GRD*ETACW2243920T0551*1",
@@ -110,12 +98,24 @@
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
-            "ID": 470425,
+            "ID": 509774,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*ETACW2242122T7910*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 515633,
             "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS10763*1",
             "StatusTypeID": 50,
@@ -125,17 +125,7 @@
             "Quantity": 1
         },
         {
-            "ID": 470664,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10764*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 100,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 470665,
+            "ID": 515634,
             "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS10765*1",
             "StatusTypeID": 50,
@@ -143,11 +133,41 @@
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 515866,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10764*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 515867,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10765*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 516275,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10763*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 11,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-27T05:19:00Z",
+    "DateLastStatusUpdate": "2024-02-19T06:37:00Z",
     "DateCreated": "2021-03-16T06:12:00Z",
     "SubmissionStatusTypeID": 200
 }

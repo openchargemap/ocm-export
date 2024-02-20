@@ -1,23 +1,22 @@
 {
-    "DateLastVerified": "2023-07-12T07:59:00Z",
+    "DateLastVerified": "2023-12-19T00:53:00Z",
     "ID": 218344,
     "UUID": "D41974F7-0F2C-470F-B2AD-144BFF3E95BB",
-    "DataProviderID": 2,
-    "DataProvidersReference": "237659",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 218724,
-        "Title": "Fast Track - Tesla Supercharger",
-        "AddressLine1": "5200 S Jefferson",
+        "Title": "Lamont, FL Supercharger",
+        "AddressLine1": "5200 South Jefferson Street",
         "Town": "Lamont",
         "StateOrProvince": "FL",
         "Postcode": "32336",
         "CountryID": 2,
-        "Latitude": 30.472366,
-        "Longitude": -83.892265,
+        "Latitude": 30.47235,
+        "Longitude": -83.89226,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "Located at Mobil",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 368649,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:59:00Z",
+    "DateLastStatusUpdate": "2023-12-19T00:53:00Z",
     "DateCreated": "2023-02-13T04:55:00Z",
     "SubmissionStatusTypeID": 100
 }

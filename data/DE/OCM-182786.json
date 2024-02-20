@@ -1,9 +1,60 @@
 {
-    "DateLastVerified": "2021-07-09T03:23:00Z",
+    "MediaItems": [
+        {
+            "ID": 40235,
+            "ChargePointID": 182786,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM182786/OCM-182786.orig.2023111514233142.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM182786/OCM-182786.thmb.2023111514233142.jpg",
+            "Comment": "Payment with credit card possible",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49313,
+                "Username": "Chargerman"
+            },
+            "DateCreated": "2023-11-15T14:24:00Z"
+        },
+        {
+            "ID": 40234,
+            "ChargePointID": 182786,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM182786/OCM-182786.orig.2023111514224873.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM182786/OCM-182786.thmb.2023111514224873.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49313,
+                "Username": "Chargerman"
+            },
+            "DateCreated": "2023-11-15T14:23:00Z"
+        },
+        {
+            "ID": 40233,
+            "ChargePointID": 182786,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM182786/OCM-182786.orig.2023111514221680.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM182786/OCM-182786.thmb.2023111514221680.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49313,
+                "Username": "Chargerman"
+            },
+            "DateCreated": "2023-11-15T14:22:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-16T03:07:00Z",
     "ID": 182786,
     "UUID": "853227FA-BD29-445E-A09D-CE3A2BEC6A6B",
-    "DataProviderID": 29,
-    "DataProvidersReference": "6058,3816",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 183145,
         "Title": "Bierweg 6",
@@ -13,44 +64,36 @@
         "CountryID": 87,
         "Latitude": 51.3991678,
         "Longitude": 12.1912274,
+        "ContactTelephone1": "0800 1353511",
+        "ContactTelephone2": "+49 40 63698098",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 288947,
+            "ID": 486963,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
             "PowerKW": 300,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 6
         },
         {
-            "ID": 288948,
-            "ConnectionTypeID": 33,
+            "ID": 486964,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 300,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 288949,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 300,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 288950,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 300,
-            "CurrentTypeID": 30
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-09T03:23:00Z",
+    "DateLastStatusUpdate": "2023-11-16T03:07:00Z",
     "MetadataValues": [
         {
             "ID": 15079,

@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T07:55:00Z",
+    "DateLastVerified": "2023-12-23T02:53:00Z",
     "ID": 239309,
     "UUID": "F4789D46-9F2B-4376-AF0C-4A9A795C72E4",
-    "DataProviderID": 2,
-    "DataProvidersReference": "212787",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 239693,
-        "Title": "Wawa - Tesla Supercharger",
+        "Title": "Plant City, FL Supercharger",
         "AddressLine1": "2705 Thonotosassa Road",
         "Town": "Plant City",
         "StateOrProvince": "FL",
         "Postcode": "33563",
         "CountryID": 2,
-        "Latitude": 28.02606,
-        "Longitude": -82.15171,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "Latitude": 28.026059668527992,
+        "Longitude": -82.1517073178133,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Wawa",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 395162,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:55:00Z",
+    "DateLastStatusUpdate": "2023-12-23T02:53:00Z",
     "DateCreated": "2023-03-07T03:25:00Z",
     "SubmissionStatusTypeID": 100
 }

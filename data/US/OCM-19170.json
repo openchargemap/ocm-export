@@ -39,7 +39,7 @@
             "DateCreated": "2018-07-22T20:18:00Z"
         }
     ],
-    "DateLastVerified": "2020-11-21T06:58:00Z",
+    "DateLastVerified": "2023-12-05T15:04:00Z",
     "ID": 19170,
     "UUID": "56F6587F-F806-4E09-B322-C35355AE4441",
     "DataProviderID": 1,
@@ -49,17 +49,18 @@
     "UsageCost": "$0.20/min >=60kW; $0.10/min <60kW; other tariffs for older cars",
     "AddressInfo": {
         "ID": 19515,
-        "Title": "Waco Supercharger",
-        "AddressLine1": "701 Interstate 35",
+        "Title": "Waco, TX",
+        "AddressLine1": "701 N I-35",
         "Town": "Bellmead",
-        "StateOrProvince": "Texas",
-        "Postcode": "76705",
+        "StateOrProvince": "TX",
+        "Postcode": "76705-2894",
         "CountryID": 2,
         "Latitude": 31.582287,
         "Longitude": -97.109152,
-        "ContactTelephone1": "877-798-3752 ",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
         "ContactEmail": "supercharger@teslamotors.com",
-        "AccessComments": "From I-35N: Take Exit 338A toward US-84/TX-31;  Merge onto N interstate 35 Frontage Rd;  Turn right into the Collin Street Bakery parking lot;  Supercharger will be ahead. / From I-35S: Take Exit 337 toward US-77/Harrison Ave;  Slight right to stay on Harrison Ave; Turn left onto I-35 Srv Rd;  Turn left onto N interstate 35 Frontage Rd; Turn right into the Collin Street Bakery parking lot; Supercharger will be ahead.",
+        "AccessComments": "Located at Collin Street Bakery",
         "RelatedURL": "http://www.teslamotors.com/supercharger",
         "DistanceUnit": 0
     },
@@ -69,17 +70,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 225,
-            "Voltage": 300,
-            "PowerKW": 120,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 22
+            "Quantity": 12
+        },
+        {
+            "ID": 486907,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 10
         }
     ],
     "NumberOfPoints": 22,
-    "GeneralComments": "24 hrs/day. Free to those with unlimited lifetime free supercharging (except for idling fee).",
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW, 10 Superchargers, available 24/7, up to 150kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-11-21T06:58:00Z",
+    "DateLastStatusUpdate": "2023-12-05T15:04:00Z",
     "DateCreated": "2013-09-13T00:04:00Z",
     "SubmissionStatusTypeID": 200
 }

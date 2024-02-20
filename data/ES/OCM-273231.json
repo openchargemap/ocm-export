@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 41216,
+            "ChargePointID": 273231,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM273231/OCM-273231.orig.2024011909355884.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM273231/OCM-273231.thmb.2024011909355884.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-01-19T09:36:00Z"
+        },
+        {
             "ID": 38896,
             "ChargePointID": 273231,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM273231/OCM-273231.orig.2023072916150919.jpg",
@@ -17,22 +33,22 @@
             "DateCreated": "2023-07-29T16:15:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-29T16:16:00Z",
+    "DateLastVerified": "2024-02-04T18:08:00Z",
     "ID": 273231,
     "UUID": "F1040CCA-A1E5-4D3A-98B2-864DD37D6B3B",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,58€/kWh DC ",
+    "UsageCost": "0,55€/kWh DC ",
     "AddressInfo": {
         "ID": 273615,
-        "Title": "Outeiro de Rei II (Zunder)",
+        "Title": "Outeiro de Rei (Zunder)",
         "AddressLine1": "LU-115",
         "StateOrProvince": "Galicia",
         "Postcode": "27150",
         "CountryID": 210,
-        "Latitude": 43.10749446411475,
-        "Longitude": -7.604893268205842,
+        "Latitude": 43.10729871034056,
+        "Longitude": -7.604862043068465,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -41,9 +57,9 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 400,
+            "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 200,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 4,
             "Comments": "Four Kempower CCS Satellite chargers  (peak 400A) that dynamically share the total power of the cabinet (600 kW). Charging power limited for 400V cars"
@@ -55,15 +71,15 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 200,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 4,
             "Comments": "Four Kempower CCS Satellite chargers  (peak 400A) that dynamically share the total power of the cabinet (600 kW). Charging power limited for 400V cars"
         }
     ],
     "NumberOfPoints": 8,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-07-29T16:16:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-04T18:08:00Z",
     "DateCreated": "2023-07-29T16:08:00Z",
     "SubmissionStatusTypeID": 200
 }

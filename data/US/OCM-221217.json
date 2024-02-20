@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:17:00Z",
+    "DateLastVerified": "2023-12-21T13:30:00Z",
     "ID": 221217,
     "UUID": "DAE5638F-A822-41F0-BE21-924240AFA7C3",
-    "DataProviderID": 2,
-    "DataProvidersReference": "194062",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 221600,
-        "Title": "Carolina Travel Center - Tesla Supercharger",
+        "Title": "Fair Play, SC Supercharger",
         "AddressLine1": "272 Herring Road",
         "Town": "Fair Play",
         "StateOrProvince": "SC",
@@ -17,7 +16,7 @@
         "Latitude": 34.50495,
         "Longitude": -82.96567,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "Located at Carolina Travel Center",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 371854,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 12
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:17:00Z",
+    "DateLastStatusUpdate": "2023-12-21T13:30:00Z",
     "DateCreated": "2023-02-13T05:03:00Z",
     "SubmissionStatusTypeID": 100
 }

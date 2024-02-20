@@ -17,13 +17,13 @@
             "DateCreated": "2022-08-28T07:15:00Z"
         }
     ],
-    "DateLastVerified": "2023-02-24T20:07:00Z",
+    "DateLastVerified": "2023-09-01T11:45:00Z",
     "ID": 130826,
     "UUID": "5406BDA7-1F34-477F-AC3E-8206383FF055",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": "0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "0,56€/kWh DC 100kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 131172,
         "Title": "Hotel Restaurante Torremar",
@@ -41,12 +41,15 @@
     "Connections": [
         {
             "ID": 183160,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 250,
+            "Voltage": 920,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Delta Slim100 Charger. Max power of the charger for both combined outlets 100 kW "
         },
         {
             "ID": 183161,
@@ -55,24 +58,40 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 183162,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 474895,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 474896,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "App Wenea",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-24T20:07:00Z",
+    "DateLastStatusUpdate": "2023-09-01T11:45:00Z",
     "DateCreated": "2019-08-18T09:26:00Z",
     "SubmissionStatusTypeID": 200
 }

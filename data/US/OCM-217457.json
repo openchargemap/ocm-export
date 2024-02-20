@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T07:54:00Z",
+    "DateLastVerified": "2023-12-23T19:02:00Z",
     "ID": 217457,
     "UUID": "78344FA2-5AC6-4C77-9843-13D5536128FF",
-    "DataProviderID": 2,
-    "DataProvidersReference": "207275",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 217837,
-        "Title": "Wawa - Tesla Supercharger",
+        "Title": "Stuart, FL Supercharger",
         "AddressLine1": "2401 South Kanner Highway",
         "Town": "Stuart",
         "StateOrProvince": "FL",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 27.175496,
         "Longitude": -80.252562,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Wawa",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 367680,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:54:00Z",
+    "DateLastStatusUpdate": "2023-12-23T19:02:00Z",
     "DateCreated": "2023-02-13T04:53:00Z",
     "SubmissionStatusTypeID": 100
 }

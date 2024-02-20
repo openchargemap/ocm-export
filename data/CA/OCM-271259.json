@@ -1,38 +1,49 @@
 {
-    "DateLastVerified": "2023-07-12T09:15:00Z",
+    "DateLastVerified": "2024-01-14T16:33:00Z",
     "ID": 271259,
     "UUID": "F8A5EEEF-4EC0-4F6B-BB96-CB4E27A6BBCD",
-    "DataProviderID": 2,
-    "DataProvidersReference": "298651",
+    "DataProviderID": 1,
+    "OperatorID": 3488,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 271643,
-        "Title": "Loblaws Bayview Village - Toronto",
+        "Title": "Jule - Loblaws",
         "AddressLine1": "2877 Bayview Ave",
         "Town": "Toronto",
         "StateOrProvince": "ON",
         "Postcode": "M2K 2S3",
         "CountryID": 44,
-        "Latitude": 43.63212,
-        "Longitude": -79.35674,
-        "ContactTelephone1": "855-567-5853",
-        "AccessComments": "24 hours daily; Parking lot access 7am-2am\r\nPublic - Credit card at all times",
-        "RelatedURL": "",
+        "Latitude": 43.76824855862819,
+        "Longitude": -79.38746618033099,
+        "ContactTelephone1": "1-855-567-5853",
+        "AccessComments": "24 hours daily; Parking lot access 7am-2am\r\n",
+        "RelatedURL": "https://www.julepower.com/resources/ev-driver#map",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 461650,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 506368,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
+    "GeneralComments": "Payment with a credit card directly at the charger (no mobile app available).",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:15:00Z",
+    "DateLastStatusUpdate": "2024-01-14T16:33:00Z",
     "DateCreated": "2023-07-10T04:33:00Z",
     "SubmissionStatusTypeID": 100
 }

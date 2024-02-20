@@ -1,11 +1,41 @@
 {
-    "DateLastVerified": "2023-07-12T08:40:00Z",
+    "UserComments": [
+        {
+            "ID": 29485,
+            "ChargePointID": 224837,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "Both DC fast chargers are inoperable. Station ID 153019 shows as available on the Shell Recharge app but will not initiate. Called customer service and they tried to remote start without success. They said they’d create a ticket. Station ID 153034, closest to the building, is not listed in the app and customer service confirmed that it is currently out of service. ",
+            "DateCreated": "2024-02-04T00:04:55.23Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 25,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 29120,
+            "ChargePointID": 224837,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "Station ID 153034 (fast charger closest to building) displays “Err 130” - Called Shell Recharge and they said it is faulted and that they are already aware of the issue.",
+            "DateCreated": "2023-10-18T16:45:12.633Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-02-04T00:05:00Z",
     "ID": 224837,
     "UUID": "9D1109EA-0EFA-4B3F-BB63-2F8788942EC3",
-    "DataProviderID": 2,
-    "DataProvidersReference": "171265",
+    "DataProviderID": 1,
     "OperatorID": 59,
     "UsageTypeID": 1,
+    "UsageCost": "$0.18/kWh L2, $0.34/kWh DCFC",
     "AddressInfo": {
         "ID": 225220,
         "Title": "BGE-Arbutus",
@@ -14,8 +44,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21227",
         "CountryID": 2,
-        "Latitude": 39.241386,
-        "Longitude": -76.710112,
+        "Latitude": 39.241584033211666,
+        "Longitude": -76.71093841378041,
         "ContactTelephone1": "855-900-7584",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://shellrecharge.com/en-us/solutions",
@@ -25,10 +55,11 @@
         {
             "ID": 375996,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 4,
             "Comments": "kW power is an estimate based on the connection type"
@@ -39,21 +70,22 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 375998,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 75,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:40:00Z",
+    "DateLastStatusUpdate": "2024-02-04T00:05:00Z",
     "DateCreated": "2023-02-13T05:13:00Z",
     "SubmissionStatusTypeID": 100
 }

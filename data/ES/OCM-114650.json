@@ -17,6 +17,38 @@
     ],
     "MediaItems": [
         {
+            "ID": 41376,
+            "ChargePointID": 114650,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM114650/OCM-114650.orig.2024020417273148.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM114650/OCM-114650.thmb.2024020417273148.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-02-04T17:28:00Z"
+        },
+        {
+            "ID": 40174,
+            "ChargePointID": 114650,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM114650/OCM-114650.orig.2023111019103285.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM114650/OCM-114650.thmb.2023111019103285.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-10T19:11:00Z"
+        },
+        {
             "ID": 36042,
             "ChargePointID": 114650,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM114650/OCM-114650.orig.2022122416444220.jpg",
@@ -47,31 +79,15 @@
                 "Username": "lmjgarcia"
             },
             "DateCreated": "2022-12-22T09:47:00Z"
-        },
-        {
-            "ID": 33409,
-            "ChargePointID": 114650,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM114650/OCM-114650.orig.2022083007131911.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM114650/OCM-114650.thmb.2022083007131911.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 40036,
-                "Username": "lmjgarcia"
-            },
-            "DateCreated": "2022-08-30T07:13:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-20T19:10:00Z",
+    "DateLastVerified": "2024-02-04T17:28:00Z",
     "ID": 114650,
     "UUID": "2042B48E-BE00-411C-BB3F-2509291740A2",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,58€/kWh >60kW - 0,45€/kWh DC50kW/AC",
+    "UsageCost": "0,58€/kWh ",
     "AddressInfo": {
         "ID": 114996,
         "Title": "Complejo Tudanca - Zunder",
@@ -80,8 +96,8 @@
         "StateOrProvince": "Castilla y León",
         "Postcode": "09470",
         "CountryID": 210,
-        "Latitude": 41.623453928015294,
-        "Longitude": -3.6875013489607227,
+        "Latitude": 41.62345325104914,
+        "Longitude": -3.6872829552050064,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -102,65 +118,30 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Efacec QC45 Charger"
-        },
-        {
-            "ID": 313748,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Efacec QC45 Charger"
-        },
-        {
-            "ID": 313749,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2,
-            "Comments": "Efacec QC45 Charger"
+            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited to 200kW for 400V cars"
         },
         {
             "ID": 454222,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 400,
+            "Amps": 500,
             "Voltage": 920,
-            "PowerKW": 160,
+            "PowerKW": 360,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "Siemens Charger. Shares the power with the Chademo outlet. (max power limited to 160kW for 400V cars)"
-        },
-        {
-            "ID": 454223,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 400,
-            "PowerKW": 80,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "Siemens Charger. "
+            "Quantity": 2,
+            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited to 200kW for 400V cars"
         }
     ],
     "NumberOfPoints": 8,
+    "GeneralComments": "Station equipped with a boost battery. Max Power limited when charger battery is low of charge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-20T19:10:00Z",
+    "DateLastStatusUpdate": "2024-02-04T17:28:00Z",
     "DateCreated": "2019-01-12T20:42:00Z",
     "SubmissionStatusTypeID": 200
 }

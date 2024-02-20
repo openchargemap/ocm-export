@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2019-04-05T09:46:00Z",
+    "DateLastVerified": "2023-11-20T16:17:00Z",
     "ID": 121541,
     "UUID": "FEAFDC49-871E-46D1-8C0A-EF35CD252119",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "34063",
     "UsageTypeID": 4,
-    "UsageCost": "$0.23/kWh; other tariffs for older cars",
+    "UsageCost": "$0.35/kWh",
     "AddressInfo": {
         "ID": 121887,
-        "Title": "Annapolis, MD Supercharger",
+        "Title": "Annapolis, MD",
         "AddressLine1": "1906 Towne Centre Boulevard",
         "Town": "Annapolis",
         "StateOrProvince": "MD",
@@ -17,6 +17,8 @@
         "CountryID": 2,
         "Latitude": 38.980062,
         "Longitude": -76.540338,
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Annapolis Towne Centre",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +27,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 487348,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 8
         }
     ],
-    "NumberOfPoints": 8,
-    "GeneralComments": "Charging8 Superchargers, available 24/7, up to 120kW",
+    "NumberOfPoints": 16,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW, 8 Superchargers, available 24/7, up to 150kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-04-05T09:46:00Z",
+    "DateLastStatusUpdate": "2023-11-20T16:17:00Z",
     "DateCreated": "2019-04-05T09:46:00Z",
     "SubmissionStatusTypeID": 200
 }

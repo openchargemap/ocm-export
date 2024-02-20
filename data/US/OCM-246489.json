@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:54:00Z",
+    "DateLastVerified": "2024-02-05T01:20:00Z",
     "ID": 246489,
     "UUID": "F2B9926C-A517-4660-9FE0-7AC1F1B4C286",
-    "DataProviderID": 2,
-    "DataProvidersReference": "195782",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 246873,
-        "Title": "Wawa - Tesla Supercharger",
+        "Title": "Lodi, NJ Supercharger",
         "AddressLine1": "150 Essex St",
         "Town": "Lodi",
         "StateOrProvince": "NJ",
@@ -16,8 +15,8 @@
         "CountryID": 2,
         "Latitude": 40.89150205,
         "Longitude": -74.07254084,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Wawa",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 412769,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:54:00Z",
+    "DateLastStatusUpdate": "2024-02-05T01:20:00Z",
     "DateCreated": "2023-03-07T05:33:00Z",
     "SubmissionStatusTypeID": 100
 }

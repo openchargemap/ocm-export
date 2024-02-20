@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-12T09:07:00Z",
+    "DateLastVerified": "2024-02-10T15:07:00Z",
     "ID": 247437,
     "UUID": "D6540153-28F9-4939-9E2F-6A1892F4CEA0",
-    "DataProviderID": 2,
-    "DataProvidersReference": "207860",
+    "DataProviderID": 1,
     "OperatorID": 3416,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.62/kWh",
     "AddressInfo": {
         "ID": 247821,
         "Title": "Ivy - ONroute Dutton",
@@ -16,8 +16,8 @@
         "CountryID": 44,
         "Latitude": 42.6444009466186,
         "Longitude": -81.5604757694113,
-        "ContactTelephone1": "888-550-5155",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
+        "ContactTelephone1": "1-800-301-1950",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "https://ivycharge.com/",
         "DistanceUnit": 0
     },
@@ -25,24 +25,36 @@
         {
             "ID": 413825,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 413826,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 506355,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 1
         }
     ],
+    "GeneralComments": "Guest payment with QR code. Mobile app (Ivy Charging Network 2.0) and RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:07:00Z",
+    "DateLastStatusUpdate": "2024-02-10T15:07:00Z",
     "DateCreated": "2023-03-07T05:42:00Z",
     "SubmissionStatusTypeID": 100
 }

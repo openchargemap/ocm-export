@@ -49,7 +49,7 @@
             "DateCreated": "2017-05-03T22:53:00Z"
         }
     ],
-    "DateLastVerified": "2019-04-06T04:03:00Z",
+    "DateLastVerified": "2024-02-20T10:17:00Z",
     "ID": 28285,
     "UUID": "21147E5E-7F54-4450-9FCE-44B9E0891377",
     "DataProviderID": 2,
@@ -63,26 +63,39 @@
         "StateOrProvince": "PA",
         "Postcode": "15017",
         "CountryID": 2,
-        "Latitude": 40.316757,
-        "Longitude": -80.121907,
+        "Latitude": 40.316832,
+        "Longitude": -80.121711,
         "ContactTelephone1": "412-220-1900",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "24 hours daily; Drivers must bring their own J1772 cordset for Level 1 charging",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 31081,
+            "ConnectionTypeID": 0,
+            "LevelID": 1,
+            "Amps": 16,
+            "Voltage": 120,
+            "PowerKW": 1.9,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 525837,
             "ConnectionTypeID": 1,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T04:03:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-20T10:17:00Z",
     "DateCreated": "2014-11-28T03:38:00Z",
     "SubmissionStatusTypeID": 100
 }

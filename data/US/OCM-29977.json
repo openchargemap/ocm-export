@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 29308,
+            "ChargePointID": 29977,
+            "CommentTypeID": 10,
+            "UserName": "Nick_T",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2023-12-03T05:33:44.01Z",
+            "User": {
+                "ID": 49615,
+                "Username": "Nick_T"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 8016,
             "ChargePointID": 29977,
             "CommentTypeID": 10,
@@ -27,12 +42,31 @@
             "CheckinStatusTypeID": 100
         }
     ],
-    "DateLastVerified": "2017-11-04T14:05:00Z",
+    "MediaItems": [
+        {
+            "ID": 40679,
+            "ChargePointID": 29977,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM29977/OCM-29977.orig.2023120219392751.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM29977/OCM-29977.thmb.2023120219392751.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "Nick_T"
+            },
+            "DateCreated": "2023-12-02T19:40:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-12-04T18:28:00Z",
     "ID": 29977,
     "UUID": "9530E0AD-DE54-43CA-9731-25529E8F068D",
-    "DataProviderID": 15,
-    "DataProvidersReference": "35338",
-    "OperatorID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 5,
+    "UsageTypeID": 1,
+    "UsageCost": "$0.35/kWh",
     "AddressInfo": {
         "ID": 30323,
         "Title": "699 Peace Portal Drive",
@@ -55,8 +89,9 @@
             "LevelID": 2
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2017-11-04T14:05:00Z",
+    "DateLastStatusUpdate": "2023-12-04T18:28:00Z",
     "DateCreated": "2014-11-29T05:39:00Z",
     "SubmissionStatusTypeID": 100
 }

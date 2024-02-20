@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:00:00Z",
+    "DateLastVerified": "2024-02-06T00:48:00Z",
     "ID": 218556,
     "UUID": "9A5AA3E8-2977-4FF7-AC68-9D5DB0472683",
-    "DataProviderID": 2,
-    "DataProvidersReference": "200958",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 218936,
-        "Title": "Parker's Kitchen - Tesla Supercharger",
+        "Title": "Pooler, GA Supercharger",
         "AddressLine1": "2111 Pooler Parkway",
         "Town": "Pooler",
         "StateOrProvince": "GA",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 32.079624,
         "Longitude": -81.281243,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Parker's Kitchen",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 368881,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:00:00Z",
+    "DateLastStatusUpdate": "2024-02-06T00:48:00Z",
     "DateCreated": "2023-02-13T04:56:00Z",
     "SubmissionStatusTypeID": 100
 }

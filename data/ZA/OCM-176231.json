@@ -1,38 +1,52 @@
 {
-    "DateLastVerified": "2021-07-02T10:28:00Z",
+    "DateLastVerified": "2023-12-26T18:58:00Z",
     "ID": 176231,
     "UUID": "E7330329-4FA4-416D-A92A-7EE17D674097",
     "DataProviderID": 1,
-    "OperatorID": 173,
+    "OperatorID": 3386,
     "UsageTypeID": 4,
+    "UsageCost": "R 7.35/kWh (this is an estimated value)",
     "AddressInfo": {
         "ID": 176590,
-        "Title": "Auric Auto (BMW)",
-        "AddressLine1": "Main Road",
+        "Title": "DC at BMW Constantia",
+        "AddressLine1": "215 Main Road, Claremont",
         "Town": "Cape Town",
         "StateOrProvince": "Western Cape",
         "Postcode": "7708",
         "CountryID": 208,
-        "Latitude": -33.983674633263604,
-        "Longitude": 18.465762581222293,
+        "Latitude": -33.98361083878989,
+        "Longitude": 18.4657690011486,
+        "ContactTelephone1": "+27101093344",
+        "AccessComments": "Mon - Fri: 08:00 - 17:30\r\nSat: 09:00 - 13:00\r\n\r\nCharging Hours: Only within trading hours",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 273884,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 250,
+            "Voltage": 1000,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 507109,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-02T10:28:00Z",
+    "DateLastStatusUpdate": "2023-12-26T18:58:00Z",
     "DateCreated": "2021-07-01T17:37:00Z",
     "SubmissionStatusTypeID": 200
 }

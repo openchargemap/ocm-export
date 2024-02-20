@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T07:56:00Z",
+    "DateLastVerified": "2023-12-23T18:33:00Z",
     "ID": 217746,
     "UUID": "2CBD414F-937B-4E00-9770-72A770B69481",
-    "DataProviderID": 2,
-    "DataProvidersReference": "200525",
+    "DataProviderID": 1,
     "OperatorID": 3534,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 218126,
-        "Title": "Okahumpka Service Plaza - Tesla Supercharger",
+        "Title": "Okahumpka, FL - Florida Turnpike Service Plaza Supercharger",
         "AddressLine1": "299 Florida-91",
         "Town": "Wildwood",
         "StateOrProvince": "FL",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 28.787206,
         "Longitude": -81.982388,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Okahumpka Service Plaza",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 368007,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:56:00Z",
+    "DateLastStatusUpdate": "2023-12-23T18:33:00Z",
     "DateCreated": "2023-02-13T04:54:00Z",
     "SubmissionStatusTypeID": 100
 }

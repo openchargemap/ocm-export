@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:31:00Z",
+    "DateLastVerified": "2024-02-05T03:13:00Z",
     "ID": 233391,
     "UUID": "2A113BC7-667E-4EB9-9356-C1AC6117BFF9",
-    "DataProviderID": 2,
-    "DataProvidersReference": "186877",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 233774,
-        "Title": "Bob's Burgers & Brew - Tesla Supercharger",
+        "Title": "Yakima, WA Supercharger",
         "AddressLine1": "121 North Fair Avenue",
         "Town": "Yakima",
         "StateOrProvince": "WA",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 46.609653,
         "Longitude": -120.491932,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Bob's Burgers & Brew",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 385335,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:31:00Z",
+    "DateLastStatusUpdate": "2024-02-05T03:13:00Z",
     "DateCreated": "2023-02-13T05:38:00Z",
     "SubmissionStatusTypeID": 100
 }

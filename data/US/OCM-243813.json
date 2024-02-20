@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:26:00Z",
+    "DateLastVerified": "2024-02-14T17:20:00Z",
     "ID": 243813,
     "UUID": "F23009BA-5976-49C7-A8A0-0D2AC38F888D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102250",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 244197,
-        "Title": "El Bracero - Tesla Supercharger",
-        "AddressLine1": "2612 E Malone Ave.",
+        "Title": "Miner, MO Supercharger",
+        "AddressLine1": "2612 E Malone Ave",
         "Town": "Miner",
         "StateOrProvince": "MO",
         "Postcode": "63801",
         "CountryID": 2,
         "Latitude": 36.893583,
         "Longitude": -89.533986,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at El Bracero",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 409806,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 150kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:26:00Z",
+    "DateLastStatusUpdate": "2024-02-14T17:20:00Z",
     "DateCreated": "2023-03-07T05:14:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-25T14:21:00Z",
+    "DateLastVerified": "2024-02-01T15:09:00Z",
     "ID": 204115,
     "UUID": "7900B13F-8E43-4B4F-9A90-B2DA1B45E460",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 6,
-    "UsageCost": "0,35€/kWh AC ",
+    "UsageCost": "0,45€/kWh DC - 0,39€/kWh AC + parking fee",
     "AddressInfo": {
         "ID": 204482,
         "Title": "Hotel Silken Puerta Valencia",
@@ -27,11 +27,23 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 513117,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump60 DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-25T14:21:00Z",
+    "DateLastStatusUpdate": "2024-02-01T15:09:00Z",
     "DateCreated": "2022-09-25T14:42:00Z",
     "SubmissionStatusTypeID": 200
 }

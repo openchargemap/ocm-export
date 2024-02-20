@@ -16,12 +16,12 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2019-11-29T12:28:00Z",
+    "DateLastVerified": "2023-12-20T01:17:00Z",
     "ID": 134892,
     "UUID": "038B22D1-9788-470D-870A-4114333E8763",
     "DataProviderID": 1,
     "OperatorID": 3318,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "UsageCost": "<=75kW : $1.00 + $0.21/minute; $0.40/minute idle fee",
     "AddressInfo": {
         "ID": 135238,
@@ -43,22 +43,32 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 9
+            "Quantity": 2
         },
         {
             "ID": 188737,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 506469,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-11-29T12:28:00Z",
+    "DateLastStatusUpdate": "2023-12-20T01:17:00Z",
     "DateCreated": "2019-11-29T01:03:00Z",
     "SubmissionStatusTypeID": 200
 }

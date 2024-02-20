@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2022-10-05T15:55:00Z",
+    "DateLastVerified": "2023-10-17T20:08:00Z",
     "ID": 205356,
     "UUID": "90549652-F3B5-4BD5-8F8F-8343C6DB9A53",
     "DataProviderID": 1,
@@ -7,14 +7,14 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 205723,
-        "Title": "Circle K Mölndal Söderleden",
-        "AddressLine1": "Jolengatan 1",
-        "Town": "Mölndal",
-        "StateOrProvince": "Västra Götalands län",
-        "Postcode": "43147",
+        "Title": "Circle K Göteborg Frölunda Torg",
+        "AddressLine1": "Näsetvägen 1, Västra Frölunda",
+        "AddressLine2": "",
+        "Town": "Västra Frölunda",
+        "Postcode": "421 44",
         "CountryID": 216,
-        "Latitude": 57.646294710045225,
-        "Longitude": 11.985024333619549,
+        "Latitude": 57.64874178780545,
+        "Longitude": 11.915856538310834,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,13 +23,21 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 150,
+            "PowerKW": 300,
+            "Quantity": 4
+        },
+        {
+            "ID": 484180,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 60,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-05T15:55:00Z",
+    "DateLastStatusUpdate": "2023-10-17T20:08:00Z",
     "DateCreated": "2022-10-04T19:26:00Z",
     "SubmissionStatusTypeID": 200
 }

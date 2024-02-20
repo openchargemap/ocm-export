@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:59:00Z",
+    "DateLastVerified": "2023-12-02T21:21:00Z",
     "ID": 246788,
     "UUID": "47B26B60-AB33-4BBC-A447-B4DC8BEE7B0A",
-    "DataProviderID": 2,
-    "DataProvidersReference": "196518",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 247172,
-        "Title": "New Paltz Plaza Shopping Mall - Tesla Supercharger",
+        "Title": "New Paltz, NY",
         "AddressLine1": "271 Main Street Plaza Diner",
         "Town": "New Paltz",
         "StateOrProvince": "NY",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 41.743818,
         "Longitude": -74.070079,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at New Paltz Plaza Shopping Mall",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 413107,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:59:00Z",
+    "DateLastStatusUpdate": "2023-12-02T21:21:00Z",
     "DateCreated": "2023-03-07T05:37:00Z",
     "SubmissionStatusTypeID": 100
 }

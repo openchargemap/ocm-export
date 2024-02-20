@@ -1,12 +1,46 @@
 {
-    "DateLastVerified": "2016-03-03T12:34:00Z",
+    "MediaItems": [
+        {
+            "ID": 40619,
+            "ChargePointID": 31781,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM31781/OCM-31781.orig.2023112513534549.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM31781/OCM-31781.thmb.2023112513534549.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49313,
+                "Username": "Chargerman"
+            },
+            "DateCreated": "2023-11-25T13:54:00Z"
+        },
+        {
+            "ID": 40618,
+            "ChargePointID": 31781,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM31781/OCM-31781.orig.2023112513525258.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM31781/OCM-31781.thmb.2023112513525258.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49313,
+                "Username": "Chargerman"
+            },
+            "DateCreated": "2023-11-25T13:53:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-25T14:00:00Z",
     "ID": 31781,
     "UUID": "6940F0B8-4E31-4675-B7D7-3CA809919C31",
-    "DataProviderID": 26,
-    "DataProvidersReference": "30260",
+    "DataProviderID": 1,
     "OperatorID": 86,
     "OperatorsReference": "EnWB Probststraße",
-    "UsageCost": "0.00 afhankelijk van pas",
+    "UsageTypeID": 4,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 32127,
         "Title": "Probststraße 37",
@@ -14,25 +48,30 @@
         "Town": "Stuttgart",
         "Postcode": "70567",
         "CountryID": 87,
-        "Latitude": 48.73142,
-        "Longitude": 9.14852,
-        "ContactTelephone1": "0800 3629-000",
+        "Latitude": 48.73117472467365,
+        "Longitude": 9.148613123524001,
+        "ContactTelephone1": "+49 800 300 605 017",
         "ContactEmail": "-",
-        "RelatedURL": "http://www.enbw.com/",
+        "RelatedURL": "http://eze.network",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 35292,
             "ConnectionTypeID": 25,
+            "Reference": "eze.network",
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 5,
-            "CurrentTypeID": 10
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-03-03T12:34:00Z",
+    "DateLastStatusUpdate": "2023-11-25T14:00:00Z",
     "DateCreated": "2015-01-09T06:03:00Z",
     "SubmissionStatusTypeID": 100
 }

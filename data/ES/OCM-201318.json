@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2022-11-02T19:51:00Z",
+    "MediaItems": [
+        {
+            "ID": 40324,
+            "ChargePointID": 201318,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201318/OCM-201318.orig.2023111819310462.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201318/OCM-201318.thmb.2023111819310462.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-18T19:31:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-18T19:31:00Z",
     "ID": 201318,
     "UUID": "284A9310-2708-44F7-BABA-A6F6D909C909",
     "DataProviderID": 1,
@@ -20,17 +38,19 @@
     "Connections": [
         {
             "ID": 335817,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "V2 (CCS+Tesla S/X connector)"
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "2 V2 superchargers 150kW (CCS+Tesla S/X connector). Each two A/B chargers share 150kW of the power cabinet",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-11-02T19:51:00Z",
+    "DateLastStatusUpdate": "2023-11-18T19:31:00Z",
     "DateCreated": "2022-08-26T20:35:00Z",
     "SubmissionStatusTypeID": 200
 }

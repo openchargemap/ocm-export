@@ -1,33 +1,54 @@
 {
-    "DateLastVerified": "2023-07-03T12:44:00Z",
+    "DateLastVerified": "2023-08-09T00:03:00Z",
     "ID": 213186,
     "UUID": "5C8265E0-C9FF-49A3-B864-D3446D4ECAEB",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 1,
-    "UsageCost": "573 plus tax la hora",
+    "UsageCost": "gratis hasta nuevo aviso",
     "AddressInfo": {
         "ID": 213566,
-        "Title": "Santiago (mal ubicado)",
-        "AddressLine1": "Centro Ciudad Santiago",
-        "StateOrProvince": "santiago",
-        "Postcode": "51000",
+        "Title": "Solectric Ave. Kennedy",
+        "AddressLine1": "Santo Domingo",
+        "StateOrProvince": "",
+        "Postcode": "",
         "CountryID": 68,
-        "Latitude": 18.806434139692584,
-        "Longitude": -69.3326276508048,
+        "Latitude": 18.480656,
+        "Longitude": -69.957256,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 456177,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 63,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 471712,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 90,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 471713,
+            "ConnectionTypeID": 1040,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 90,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-03T12:44:00Z",
+    "DateLastStatusUpdate": "2023-08-09T00:03:00Z",
     "DateCreated": "2023-02-04T06:44:00Z",
     "SubmissionStatusTypeID": 200
 }

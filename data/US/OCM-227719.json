@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2023-07-12T08:57:00Z",
+    "DateLastVerified": "2024-02-20T10:24:00Z",
     "ID": 227719,
     "UUID": "FD3D49C4-2B8E-4769-B850-E0A05F306BE5",
     "DataProviderID": 2,
     "DataProvidersReference": "229469",
-    "OperatorID": 3426,
+    "OperatorID": 9,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 228102,
@@ -14,29 +14,36 @@
         "StateOrProvince": "OH",
         "Postcode": "44870",
         "CountryID": 2,
-        "Latitude": 41.435106,
-        "Longitude": -82.66345,
+        "Latitude": 41.435019,
+        "Longitude": -82.663404,
         "ContactTelephone1": "888-998-2546",
-        "AccessComments": "",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.blinkcharging.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 379209,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 479851,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "DatePlanned": "2023-03-02T00:00:00Z",
+    "DatePlanned": "2023-11-16T00:00:00Z",
     "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2023-07-12T08:57:00Z",
+    "DateLastStatusUpdate": "2024-02-20T10:24:00Z",
     "DateCreated": "2023-02-13T05:21:00Z",
     "SubmissionStatusTypeID": 100
 }

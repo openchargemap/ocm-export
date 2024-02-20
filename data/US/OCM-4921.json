@@ -15,7 +15,7 @@
             "CheckinStatusTypeID": 25
         }
     ],
-    "DateLastVerified": "2019-04-01T03:34:00Z",
+    "DateLastVerified": "2024-02-20T09:32:00Z",
     "ID": 4921,
     "UUID": "BECE5412-2A6F-4445-B564-185A52B1AA9B",
     "DataProviderID": 2,
@@ -29,10 +29,10 @@
         "StateOrProvince": "FL",
         "Postcode": "33483",
         "CountryID": 2,
-        "Latitude": 26.435016,
-        "Longitude": -80.072333,
+        "Latitude": 26.4351,
+        "Longitude": -80.07297,
         "ContactTelephone1": "561-278-6216",
-        "AccessComments": "Dealership business hours",
+        "AccessComments": "Dealership business hours\r\nPublic - Call ahead",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
@@ -43,24 +43,24 @@
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 20941,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "DateLastConfirmed": "2011-05-31T00:00:00Z",
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2019-04-01T03:34:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-20T09:32:00Z",
     "DateCreated": "2011-07-04T18:02:00Z",
     "SubmissionStatusTypeID": 100
 }

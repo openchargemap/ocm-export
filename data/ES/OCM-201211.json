@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-02-16T18:58:00Z",
+    "MediaItems": [
+        {
+            "ID": 40284,
+            "ChargePointID": 201211,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201211/OCM-201211.orig.2023111812065978.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201211/OCM-201211.thmb.2023111812065978.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-18T12:07:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-18T12:07:00Z",
     "ID": 201211,
     "UUID": "33F681B1-1EEC-4FE4-A32B-595FFB3DEE5A",
     "DataProviderID": 1,
@@ -7,7 +25,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 201570,
-        "Title": "Tesla Supercharger Fuenlabrada",
+        "Title": "Tesla Supercharger Fuenlabrada (Service Center)",
         "AddressLine1": "Calle del Almendro",
         "Town": "Fuenlabrada",
         "StateOrProvince": "Community of Madrid",
@@ -25,12 +43,14 @@
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 8,
+            "Comments": "V3"
         }
     ],
     "NumberOfPoints": 8,
+    "GeneralComments": "Service Center with 8 V3 Superchargers 250kW (CCS). Max total power of the station 750kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-16T18:58:00Z",
+    "DateLastStatusUpdate": "2023-11-18T12:07:00Z",
     "DateCreated": "2022-08-23T14:34:00Z",
     "SubmissionStatusTypeID": 200
 }

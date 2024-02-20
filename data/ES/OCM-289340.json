@@ -1,0 +1,52 @@
+{
+    "DateLastVerified": "2024-01-06T08:40:00Z",
+    "ID": 289340,
+    "UUID": "818B8EFE-B6BE-4DFA-AC0C-9F796B94C7C5",
+    "DataProviderID": 1,
+    "OperatorID": 207,
+    "UsageTypeID": 4,
+    "UsageCost": "0,65€/kWh >150kW - 0,55€/kWh >60kW",
+    "AddressInfo": {
+        "ID": 289727,
+        "Title": "Rest. Casablanca (Montalbo)",
+        "AddressLine1": "N-IIIa",
+        "StateOrProvince": "Castilla-La Mancha",
+        "Postcode": "16440",
+        "CountryID": 210,
+        "Latitude": 39.88180423702062,
+        "Longitude": -2.665552771080428,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 508557,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "XCharge C9LQ350 DC charger allows charging one vehicle at 350kW, or two simultaneous charges splitting the total power. First CCS2 connector (500A) up to 350kW, second CCS connector (200A) up to 120kW. (max power is limitedto 200kW for 400V cars)"
+        },
+        {
+            "ID": 508558,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+        }
+    ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "Four 350 kW chargers with double CCS outlet. Power is split between both outlets",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-01-06T08:40:00Z",
+    "DateCreated": "2024-01-06T08:29:00Z",
+    "SubmissionStatusTypeID": 200
+}

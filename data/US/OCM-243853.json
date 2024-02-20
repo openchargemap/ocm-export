@@ -1,10 +1,62 @@
 {
-    "DateLastVerified": "2023-07-12T08:26:00Z",
+    "UserComments": [
+        {
+            "ID": 28873,
+            "ChargePointID": 243853,
+            "CommentTypeID": 10,
+            "UserName": "Calif_Ioniq5",
+            "Comment": "Hotel staff friendly. I used the Tesla destination charger with a TeslaTap Mini. I guess I should have tried the CSS1 chargers too.",
+            "Rating": 5,
+            "DateCreated": "2023-08-15T13:43:40.033Z",
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 39160,
+            "ChargePointID": 243853,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM243853/OCM-243853.orig.2023081513394109.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM243853/OCM-243853.thmb.2023081513394109.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2023-08-15T13:40:00Z"
+        },
+        {
+            "ID": 39159,
+            "ChargePointID": 243853,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM243853/OCM-243853.orig.2023081513391743.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM243853/OCM-243853.thmb.2023081513391743.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2023-08-15T13:39:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-12-02T14:18:00Z",
     "ID": 243853,
     "UUID": "F6E930FA-157E-4D36-94ED-E10B0BDBCB4B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "212743",
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 6,
+    "UsageCost": "Tesla are complementary. Unknown for CCS1 chargers.",
     "AddressInfo": {
         "ID": 244237,
         "Title": "Best Western Plus-Settlers Point",
@@ -13,28 +65,39 @@
         "StateOrProvince": "UT",
         "Postcode": "84780",
         "CountryID": 2,
-        "Latitude": 37.1433310009845,
-        "Longitude": -113.486908311112,
+        "Latitude": 37.143176997160225,
+        "Longitude": -113.4868186643435,
         "ContactTelephone1": "435-986-7788",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
+        "AccessComments": "24 hours daily - For hotel guests",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 409851,
-            "ConnectionTypeID": 30,
+            "ConnectionTypeID": 27,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Amps": 48,
+            "Voltage": 208,
+            "PowerKW": 9.9,
             "CurrentTypeID": 10,
-            "Quantity": 8,
+            "Quantity": 4,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 472251,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 48,
+            "Voltage": 208,
+            "PowerKW": 9.9,
+            "Quantity": 2,
+            "Comments": "Units are labeld \"Sun Country Highway\". Apparently need hotel staff to enable."
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:26:00Z",
+    "DateLastStatusUpdate": "2023-12-02T14:18:00Z",
     "DateCreated": "2023-03-07T05:15:00Z",
     "SubmissionStatusTypeID": 100
 }

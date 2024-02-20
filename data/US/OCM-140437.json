@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:23:00Z",
+    "DateLastVerified": "2024-02-15T03:57:00Z",
     "ID": 140437,
     "UUID": "34900C61-E4B8-4998-B751-92FB4414A869",
-    "DataProviderID": 2,
-    "DataProvidersReference": "150215",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 140789,
-        "Title": "Willowbrook Commons - Tesla Supercharger",
+        "Title": "Nashville, TN Supercharger",
         "AddressLine1": "61 East Thompson Lane",
         "Town": "Nashville",
         "StateOrProvince": "TN",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 36.110515,
         "Longitude": -86.723904,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Willowbrook Commons",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 196069,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 24,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 24,
+    "GeneralComments": "24 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:23:00Z",
+    "DateLastStatusUpdate": "2024-02-15T03:57:00Z",
     "DateCreated": "2019-12-24T09:13:00Z",
     "SubmissionStatusTypeID": 100
 }

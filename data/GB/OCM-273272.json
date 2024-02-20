@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-08-03T05:37:00Z",
+    "DateLastVerified": "2024-02-19T06:35:00Z",
     "ID": 273272,
     "UUID": "747FF557-E3CD-44A1-AB58-E9EA16AFA218",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "185",
+    "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.69/kWh",
+    "UsageCost": "DC: £0.79/kWh",
     "AddressInfo": {
         "ID": 273656,
         "Title": "Abbey Retail Park St Ives",
@@ -21,26 +21,6 @@
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 471195,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10781*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 100,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 471197,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10782*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 471198,
             "ConnectionTypeID": 33,
@@ -75,26 +55,46 @@
             "ID": 471201,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10786*1",
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 471330,
+            "ID": 515399,
             "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10781*1",
+            "Reference": "GB*GRD*EGS10782*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 515981,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10782*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 516268,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10781*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-08-03T05:37:00Z",
+    "DateLastStatusUpdate": "2024-02-19T06:35:00Z",
     "DateCreated": "2023-08-01T07:11:00Z",
     "SubmissionStatusTypeID": 200
 }

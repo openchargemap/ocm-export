@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:56:00Z",
+    "DateLastVerified": "2023-11-09T19:30:00Z",
     "ID": 227662,
     "UUID": "289776E5-1B5E-413B-85F4-875298521ECD",
-    "DataProviderID": 2,
-    "DataProvidersReference": "220698",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 228045,
-        "Title": "Mystic, CT - Tesla Supercharger",
+        "Title": "Mystic, CT",
         "AddressLine1": "12 Coogan Boulevard",
         "Town": "Mystic",
         "StateOrProvince": "CT",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 41.37231917,
         "Longitude": -71.95668323,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 379150,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:56:00Z",
+    "DateLastStatusUpdate": "2023-11-09T19:30:00Z",
     "DateCreated": "2023-02-13T05:21:00Z",
     "SubmissionStatusTypeID": 100
 }

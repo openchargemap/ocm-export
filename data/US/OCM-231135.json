@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2023-07-12T09:15:00Z",
+    "DateLastVerified": "2023-10-31T11:44:00Z",
     "ID": 231135,
     "UUID": "48175998-CDC3-4A1E-89B1-A8273F30DAE3",
-    "DataProviderID": 2,
-    "DataProvidersReference": "207126",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "VT",
         "Postcode": "05751",
         "CountryID": 2,
-        "Latitude": 43.63694,
-        "Longitude": -72.795146,
+        "Latitude": 43.637064235986486,
+        "Longitude": -72.79506016969424,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -26,16 +25,32 @@
             "ID": 382872,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 6.5,
             "CurrentTypeID": 10,
-            "Quantity": 2,
+            "Quantity": 4,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 485657,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 62,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 485658,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 62,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:15:00Z",
+    "DateLastStatusUpdate": "2023-10-31T11:44:00Z",
     "DateCreated": "2023-02-13T05:30:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2018-03-30T05:49:00Z",
+    "DateLastVerified": "2023-11-11T20:56:00Z",
     "ID": 101532,
     "UUID": "5A433A24-81E2-4074-A532-D47D7AACB32B",
     "DataProviderID": 1,
@@ -9,13 +9,16 @@
     "UsageCost": "$0.22/min >=60kW; $0.11/min <60kW; other tariffs for older cars",
     "AddressInfo": {
         "ID": 101878,
-        "Title": "Phoenix, Az - East Camelback Road Supercharger",
+        "Title": "Phoenix, AZ - East Camelback Road",
         "AddressLine1": "2502 East Camelback Road",
         "Town": "Phoenix",
+        "StateOrProvince": "AZ",
         "Postcode": "85016-4254",
         "CountryID": 2,
         "Latitude": 33.511837,
         "Longitude": -112.026803,
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Biltmore Fashion Park",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,15 +27,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 486703,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 72,
             "CurrentTypeID": 30,
             "Quantity": 12
         }
     ],
-    "NumberOfPoints": 12,
-    "GeneralComments": "Charging12 Superchargers, available 24/7, up to 72kW",
+    "NumberOfPoints": 16,
+    "GeneralComments": "4 Superchargers, available 24/7, up to 150kW, 12 Superchargers, available 24/7, up to 72kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-03-30T05:49:00Z",
+    "DateLastStatusUpdate": "2023-11-11T20:56:00Z",
     "DateCreated": "2018-03-30T05:49:00Z",
     "SubmissionStatusTypeID": 200
 }

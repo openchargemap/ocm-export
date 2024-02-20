@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-07-12T03:20:00Z",
+    "DateLastVerified": "2023-10-05T04:56:00Z",
     "ID": 156784,
     "UUID": "FB6219B0-C75F-4D91-869B-FE0883D9C53F",
-    "DataProviderID": 19,
-    "DataProvidersReference": "6509",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 157138,
-        "Title": "Toveks Bil Lidköping",
+        "Title": "Toveks Bil Lidköping - Virta",
         "AddressLine1": "Wennerbergsvägen 33",
         "Town": "LIDKÖPING",
         "StateOrProvince": "VÄSTRA GÖTALAND",
@@ -25,8 +25,9 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 221857,
@@ -36,17 +37,8 @@
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 221858,
-            "ConnectionTypeID": 25,
-            "Reference": "3",
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 400,
-            "PowerKW": 11,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 221859,
@@ -55,12 +47,13 @@
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 400,
-            "PowerKW": 11,
-            "CurrentTypeID": 20
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 4,
-    "DateLastStatusUpdate": "2023-07-12T03:20:00Z",
+    "DateLastStatusUpdate": "2023-10-05T04:56:00Z",
     "DateCreated": "2020-05-26T08:22:00Z",
     "SubmissionStatusTypeID": 100
 }

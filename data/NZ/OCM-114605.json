@@ -1,16 +1,17 @@
 {
-    "DateLastVerified": "2019-01-11T08:25:00Z",
+    "DateLastVerified": "2023-11-14T06:43:00Z",
     "ID": 114605,
     "UUID": "4DECC59A-C255-45A7-8B03-ED48861DDE20",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.25/kWh + $0.25/min",
+    "UsageCost": "$0.80/kWh",
     "AddressInfo": {
         "ID": 114951,
-        "Title": "Pak'n Save Kaitaia",
+        "Title": "Pak'nSave Kaitaia",
         "AddressLine1": "111 North Road",
         "Town": "Kaitaia",
+        "StateOrProvince": "Northland",
         "Postcode": "0482",
         "CountryID": 161,
         "Latitude": -35.099016,
@@ -21,6 +22,7 @@
         {
             "ID": 161314,
             "ConnectionTypeID": 33,
+            "Reference": "KTPS1-B",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -30,6 +32,7 @@
         {
             "ID": 161315,
             "ConnectionTypeID": 2,
+            "Reference": "KTPS1-A",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -37,9 +40,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-01-11T08:25:00Z",
+    "DateLastStatusUpdate": "2023-11-14T06:43:00Z",
     "DateCreated": "2019-01-11T08:25:00Z",
     "SubmissionStatusTypeID": 200
 }

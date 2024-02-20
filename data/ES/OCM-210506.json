@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-23T12:03:00Z",
+    "DateLastVerified": "2024-01-23T15:45:00Z",
     "ID": 210506,
     "UUID": "F2947A8F-EFB1-463C-ABF5-C43577793937",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh DC ",
+    "UsageCost": "0,54€/kWh DC ",
     "AddressInfo": {
         "ID": 210886,
         "Title": "Burger King Manresa",
@@ -24,23 +24,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 350635,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-23T12:03:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-01-23T15:45:00Z",
     "DateCreated": "2022-12-11T18:01:00Z",
     "SubmissionStatusTypeID": 200
 }

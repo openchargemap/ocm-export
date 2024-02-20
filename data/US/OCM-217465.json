@@ -1,11 +1,10 @@
 {
-    "DateLastVerified": "2023-07-12T07:54:00Z",
+    "DateLastVerified": "2024-01-06T03:04:00Z",
     "ID": 217465,
     "UUID": "15A8B74B-144C-47C4-8F55-7ACDAE272039",
-    "DataProviderID": 2,
-    "DataProvidersReference": "185209",
+    "DataProviderID": 1,
     "OperatorID": 3697,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 217845,
         "Title": "7Charge - Sarasota",
@@ -25,8 +24,9 @@
         {
             "ID": 367692,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 90,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
@@ -34,15 +34,16 @@
         {
             "ID": 367693,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 3,
+            "Comments": "Capabie of 90 pr 180 kW depending on if only one or both of the charging ports are in use"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:54:00Z",
+    "DateLastStatusUpdate": "2024-01-06T03:04:00Z",
     "DateCreated": "2023-02-13T04:53:00Z",
     "SubmissionStatusTypeID": 100
 }

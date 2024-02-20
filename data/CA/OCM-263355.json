@@ -1,59 +1,60 @@
 {
-    "DateLastVerified": "2023-07-12T09:14:00Z",
+    "DateLastVerified": "2024-02-20T11:02:00Z",
     "ID": 263355,
     "UUID": "597C401E-BF9E-43CE-A653-9A3E679B66E1",
-    "DataProviderID": 2,
-    "DataProvidersReference": "256989",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "DCFC $21.00/hr, L2 free",
     "AddressInfo": {
         "ID": 263739,
-        "Title": "905 Woodlawn Rd W",
-        "AddressLine1": "905 Woodlawn Rd W",
+        "Title": "FLO - Barry Cullen Cadillac",
+        "AddressLine1": "905 Woodlawn Road West",
         "Town": "Guelph",
         "StateOrProvince": "ON",
         "Postcode": "N1K 1B7",
         "CountryID": 44,
-        "Latitude": 43.53608,
-        "Longitude": -80.3175,
-        "ContactTelephone1": "888-356-8911",
+        "Latitude": 43.536445,
+        "Longitude": -80.317973,
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://flo.ca/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 446185,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 5,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
-            "ID": 446186,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
-            "ID": 446187,
+            "ID": 527298,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2
+        },
+        {
+            "ID": 527299,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 527300,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 17,
+            "CurrentTypeID": 10,
+            "Quantity": 5
         }
     ],
+    "NumberOfPoints": 7,
+    "GeneralComments": "Mobile app (FLO EV Charging) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:14:00Z",
+    "DateLastStatusUpdate": "2024-02-20T11:02:00Z",
     "DateCreated": "2023-05-01T06:06:00Z",
     "SubmissionStatusTypeID": 100
 }

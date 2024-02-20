@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-06-16T19:16:00Z",
+    "MediaItems": [
+        {
+            "ID": 40474,
+            "ChargePointID": 266828,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM266828/OCM-266828.orig.2023111919094280.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM266828/OCM-266828.thmb.2023111919094280.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-19T19:10:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-30T15:39:00Z",
     "ID": 266828,
     "UUID": "C400A1D9-E75D-4500-99B4-134F4EF8C969",
     "DataProviderID": 1,
@@ -28,7 +46,8 @@
             "Voltage": 1000,
             "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 3
+            "Quantity": 3,
+            "Comments": "Four Kempower CCS/Chademo Satellite chargers that dynamically share the total power of the cabinet (200 kW). Charging power limited for 400V cars"
         },
         {
             "ID": 454423,
@@ -47,20 +66,11 @@
             "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 6
-        },
-        {
-            "ID": 454425,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 3
         }
     ],
     "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-16T19:16:00Z",
+    "DateLastStatusUpdate": "2023-11-30T15:39:00Z",
     "DateCreated": "2023-06-16T19:14:00Z",
     "SubmissionStatusTypeID": 200
 }

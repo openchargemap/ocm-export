@@ -1,11 +1,45 @@
 {
-    "DateLastVerified": "2020-06-26T03:08:00Z",
+    "UserComments": [
+        {
+            "ID": 28887,
+            "ChargePointID": 143835,
+            "CommentTypeID": 10,
+            "UserName": "fdlbt",
+            "Comment": "Charge failed to start using the EVgo app, but started by swiping EVgo card on reader.  There are public restrooms inside Hannaford.",
+            "Rating": 4,
+            "DateCreated": "2023-08-18T18:51:58.957Z",
+            "User": {
+                "ID": 28261,
+                "Username": "fdlbt"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 39201,
+            "ChargePointID": 143835,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM143835/OCM-143835.orig.2023081818484488.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM143835/OCM-143835.thmb.2023081818484488.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 28261,
+                "Username": "fdlbt"
+            },
+            "DateCreated": "2023-08-18T18:49:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-10-19T13:22:00Z",
     "ID": 143835,
     "UUID": "EF6C3738-D16A-4C71-A1D4-434080C3BB89",
-    "DataProviderID": 2,
-    "DataProvidersReference": "93214",
+    "DataProviderID": 1,
     "OperatorID": 15,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 144187,
         "Title": "Hannaford Supermarket",
@@ -26,9 +60,7 @@
             "ID": 200241,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -36,15 +68,13 @@
             "ID": 200242,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:08:00Z",
+    "DateLastStatusUpdate": "2023-10-19T13:22:00Z",
     "DateCreated": "2019-12-24T09:22:00Z",
     "SubmissionStatusTypeID": 100
 }

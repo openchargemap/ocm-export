@@ -1,15 +1,33 @@
 {
-    "DateLastVerified": "2022-10-26T13:45:00Z",
+    "MediaItems": [
+        {
+            "ID": 40314,
+            "ChargePointID": 163795,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM163795/OCM-163795.orig.2023111819123748.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM163795/OCM-163795.thmb.2023111819123748.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-18T19:13:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-16T09:09:00Z",
     "ID": 163795,
     "UUID": "61D855A7-71E7-4269-A50B-7CB860644E8E",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "20281",
     "UsageTypeID": 4,
     "UsageCost": "",
     "AddressInfo": {
         "ID": 164152,
-        "Title": "Lleida Tesla Supercharger",
+        "Title": "Lérida Tesla Supercharger",
         "AddressLine1": "S N la Variant",
         "Town": "Torrefarera",
         "Postcode": "25123",
@@ -21,18 +39,21 @@
     "Connections": [
         {
             "ID": 235392,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "Amps": 675,
+            "Voltage": 400,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 6
+            "Quantity": 8,
+            "Comments": "V4"
         }
     ],
-    "NumberOfPoints": 6,
-    "GeneralComments": "Charging6 superchargers, available 24/7, up to 150kW",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-26T13:45:00Z",
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 V4 Superchargers 250kW (CCS). Max total power of the station 750kW",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2024-02-16T09:09:00Z",
     "DateCreated": "2020-08-24T17:51:00Z",
     "SubmissionStatusTypeID": 200
 }

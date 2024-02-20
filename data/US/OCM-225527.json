@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2023-03-07T05:27:00Z",
+    "DateLastVerified": "2024-02-05T13:09:00Z",
     "ID": 225527,
     "UUID": "328F33A2-EBE1-4F46-8EE2-86318B69E950",
-    "DataProviderID": 2,
-    "DataProvidersReference": "237308",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -25,17 +24,25 @@
         {
             "ID": 376792,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4
+        },
+        {
+            "ID": 513377,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
     "DatePlanned": "2023-01-25T00:00:00Z",
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2023-03-07T05:27:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-05T13:09:00Z",
     "DateCreated": "2023-02-13T05:16:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,15 +1,14 @@
 {
-    "DateLastVerified": "2023-07-12T08:14:00Z",
+    "DateLastVerified": "2023-12-21T11:55:00Z",
     "ID": 220675,
     "UUID": "0F8BF050-B878-4FC0-94E8-5D704803F42A",
-    "DataProviderID": 2,
-    "DataProvidersReference": "224999",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 221058,
-        "Title": "Columbia, SC - Harbison Boulevard - Tesla Supercharger",
-        "AddressLine1": "320 Harbison Boulevard",
+        "Title": "Columbia, SC - Harbison Boulevard Supercharger",
+        "AddressLine1": "320 Harbison Blvd",
         "Town": "Columbia",
         "StateOrProvince": "SC",
         "Postcode": "29212",
@@ -17,7 +16,6 @@
         "Latitude": 34.07284293,
         "Longitude": -81.15562001,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +23,17 @@
         {
             "ID": 371241,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 16,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 16
         }
     ],
+    "NumberOfPoints": 16,
+    "GeneralComments": "16 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:14:00Z",
+    "DateLastStatusUpdate": "2023-12-21T11:55:00Z",
     "DateCreated": "2023-02-13T05:01:00Z",
     "SubmissionStatusTypeID": 100
 }

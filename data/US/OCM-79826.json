@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2018-03-13T13:12:00Z",
+    "DateLastVerified": "2023-12-07T15:14:00Z",
     "ID": 79826,
     "UUID": "B5C6C726-8C80-4100-AEE2-3A15E9D28176",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "29013",
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "UsageCost": "$0.26/kWh; other tariffs for older cars",
     "AddressInfo": {
         "ID": 80172,
@@ -25,15 +25,33 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 36
+        },
+        {
+            "ID": 489037,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 8
+        },
+        {
+            "ID": 489038,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 72,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 8,
     "GeneralComments": "8 Superchargers, available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-03-13T13:12:00Z",
+    "DateLastStatusUpdate": "2023-12-07T15:14:00Z",
     "DateCreated": "2017-01-30T13:24:00Z",
     "SubmissionStatusTypeID": 200
 }

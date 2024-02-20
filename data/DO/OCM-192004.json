@@ -50,13 +50,13 @@
             "DateCreated": "2022-03-12T14:02:00Z"
         }
     ],
-    "DateLastVerified": "2022-03-29T11:48:00Z",
+    "DateLastVerified": "2023-12-05T21:15:00Z",
     "ID": 192004,
     "UUID": "E9F44DF9-9560-41E0-8FFE-E6ECA29625E8",
     "DataProviderID": 1,
     "OperatorID": 3500,
     "UsageTypeID": 4,
-    "UsageCost": "127.44 plus tax/ hora en 7 kw --- 572 plus tax/hora en 50kw",
+    "UsageCost": "GBT 400, CCS1 y CHADEMO 573.48: más itbis",
     "AddressInfo": {
         "ID": 192363,
         "Title": "Agora Mall",
@@ -72,12 +72,13 @@
     "Connections": [
         {
             "ID": 311878,
-            "ConnectionTypeID": 1,
+            "ConnectionTypeID": 1040,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "Voltage": 240,
-            "PowerKW": 6.7,
-            "Quantity": 4
+            "PowerKW": 28,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 312219,
@@ -101,7 +102,7 @@
     "NumberOfPoints": 1,
     "GeneralComments": "Evergo ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-29T11:48:00Z",
+    "DateLastStatusUpdate": "2023-12-05T21:15:00Z",
     "DateCreated": "2022-03-12T13:37:00Z",
     "SubmissionStatusTypeID": 200
 }

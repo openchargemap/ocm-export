@@ -1,14 +1,32 @@
 {
-    "DateLastVerified": "2023-05-13T10:48:00Z",
+    "MediaItems": [
+        {
+            "ID": 40101,
+            "ChargePointID": 212353,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM212353/OCM-212353.orig.2023110217024616.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM212353/OCM-212353.thmb.2023110217024616.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-02T17:03:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-12T07:28:00Z",
     "ID": 212353,
     "UUID": "240FC0AD-8833-4DE6-9BD3-6B033F0AA374",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh DC>100kW  0,39€/kWh DC - 0,29€/kWh AC",
+    "UsageCost": "0,54€/kWh DC>100kW  0,47€/kWh DC - 0,35€/kWh AC",
     "AddressInfo": {
         "ID": 212733,
-        "Title": "Repsol Sol Junquera",
+        "Title": "E.S. Repsol Sol La Junquera (Dir. Sur)",
         "AddressLine1": "Avinguda del Canigó",
         "StateOrProvince": "Catalunya",
         "Postcode": "17709",
@@ -25,15 +43,26 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 920,
-            "PowerKW": 120,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
+            "Quantity": 1,
+            "Comments": "Ingeteam RAPID120 Charger. The CCS/Chademo charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW"
+        },
+        {
+            "ID": 485935,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-13T10:48:00Z",
+    "DateLastStatusUpdate": "2023-11-12T07:28:00Z",
     "DateCreated": "2023-01-14T09:44:00Z",
     "SubmissionStatusTypeID": 200
 }

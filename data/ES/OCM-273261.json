@@ -1,35 +1,38 @@
 {
-    "DateLastVerified": "2023-07-31T15:36:00Z",
+    "DateLastVerified": "2024-01-27T19:08:00Z",
     "ID": 273261,
     "UUID": "ABADB61E-F545-4DDE-B0DE-49AD402E4A52",
     "DataProviderID": 1,
     "OperatorID": 3704,
     "UsageTypeID": 4,
-    "UsageCost": "0,35€/kWh",
+    "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 273645,
-        "Title": "Parking Edificio Nexus  Sabon ",
+        "Title": "Edificio Nexus  Sabon (Exterior)",
         "AddressLine1": "Arteixo",
         "Town": "La Coruña",
         "CountryID": 210,
-        "Latitude": 43.317366136591374,
-        "Longitude": -8.500404919729135,
+        "Latitude": 43.31730986547959,
+        "Longitude": -8.500060003484577,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 471158,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Wallbox Supernova 60 Charger. The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-31T15:36:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-01-27T19:08:00Z",
     "DateCreated": "2023-07-31T15:32:00Z",
     "SubmissionStatusTypeID": 200
 }

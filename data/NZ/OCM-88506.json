@@ -65,29 +65,31 @@
             "DateCreated": "2017-05-31T15:48:00Z"
         }
     ],
-    "DateLastVerified": "2017-05-31T18:01:00Z",
+    "DateLastVerified": "2023-09-17T08:20:00Z",
     "ID": 88506,
     "UUID": "AF9DD47E-18EA-499B-8707-E5FBCA29EA6C",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.25/kWh + $0.25/min",
+    "UsageCost": "$0.80/kWh",
     "AddressInfo": {
         "ID": 88852,
         "Title": "Victoria Square Cambridge",
-        "AddressLine1": "79 Queen Street",
-        "Town": "Leamington, Cambridge",
+        "AddressLine1": "73 Queen Street",
+        "Town": "Cambridge",
+        "StateOrProvince": "Waikato",
         "Postcode": "3434",
         "CountryID": 161,
         "Latitude": -37.8917579006763,
         "Longitude": 175.466926647048,
-        "ContactTelephone1": "(080) 022-4274",
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 125540,
             "ConnectionTypeID": 2,
+            "Reference": "CADC2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -97,6 +99,7 @@
         {
             "ID": 125541,
             "ConnectionTypeID": 33,
+            "Reference": "CADC2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -104,10 +107,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "24/7\r\nNorth side of Victoria Square park",
+    "NumberOfPoints": 1,
+    "GeneralComments": "North side of Victoria Square park",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-31T18:01:00Z",
+    "DateLastStatusUpdate": "2023-09-17T08:20:00Z",
     "DateCreated": "2017-05-31T15:48:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:58:00Z",
+    "DateLastVerified": "2024-02-14T17:56:00Z",
     "ID": 246731,
     "UUID": "FCB3A1A2-9EF3-47ED-BEDF-BC1C2EBD4E18",
-    "DataProviderID": 2,
-    "DataProvidersReference": "221783",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 247115,
-        "Title": "Hy-Vee Grocery Store - Tesla Supercharger",
-        "AddressLine1": "1103  North Dodge Street",
+        "Title": "Iowa City, IA Supercharger",
+        "AddressLine1": "1103 North Dodge Street",
         "Town": "Iowa City",
         "StateOrProvince": "IA",
         "Postcode": "52245",
         "CountryID": 2,
         "Latitude": 41.67578,
         "Longitude": -91.52078,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Hy-Vee Grocery Store",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 413044,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:58:00Z",
+    "DateLastStatusUpdate": "2024-02-14T17:56:00Z",
     "DateCreated": "2023-03-07T05:36:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,5 +1,39 @@
 {
-    "DateLastVerified": "2022-09-17T16:58:00Z",
+    "MediaItems": [
+        {
+            "ID": 40866,
+            "ChargePointID": 203410,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM203410/OCM-203410.orig.2023122613203314.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM203410/OCM-203410.thmb.2023122613203314.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49313,
+                "Username": "Chargerman"
+            },
+            "DateCreated": "2023-12-26T13:21:00Z"
+        },
+        {
+            "ID": 40867,
+            "ChargePointID": 203410,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM203410/OCM-203410.orig.2023122613205248.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM203410/OCM-203410.thmb.2023122613205248.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49313,
+                "Username": "Chargerman"
+            },
+            "DateCreated": "2023-12-26T13:21:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-01-02T09:33:00Z",
     "ID": 203410,
     "UUID": "3DFB6DED-9175-4230-BDD4-78B4CBEEF6D7",
     "DataProviderID": 1,
@@ -14,24 +48,26 @@
         "StateOrProvince": "Cantabria",
         "Postcode": "39002",
         "CountryID": 210,
-        "Latitude": 43.4589547993545,
-        "Longitude": -3.810840409787943,
+        "Latitude": 43.45861996488969,
+        "Longitude": -3.8113970421170507,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 339882,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 75,
             "LevelID": 2,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "only one charger is working"
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "The first 15 minutes are free of charge. The following 30 minutes cost 0.0302€/minute. From minute 31 then 0.0377€/minute. The maximum daily rate is 22.70€. You can get the card to activate the service at the small ticket office.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-17T16:58:00Z",
+    "DateLastStatusUpdate": "2024-01-02T09:33:00Z",
     "DateCreated": "2022-09-17T16:58:00Z",
     "SubmissionStatusTypeID": 200
 }

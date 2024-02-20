@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-01-23T11:11:00Z",
+    "MediaItems": [
+        {
+            "ID": 40333,
+            "ChargePointID": 163470,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM163470/OCM-163470.orig.2023111819485216.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM163470/OCM-163470.thmb.2023111819485216.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-18T19:49:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-18T19:49:00Z",
     "ID": 163470,
     "UUID": "4CEDBAAF-35F4-4DCD-A168-958F2D25EF04",
     "DataProviderID": 1,
@@ -21,18 +39,19 @@
     "Connections": [
         {
             "ID": 235067,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 8,
+            "Comments": "V2 (CCS+Tesla S/X connector)"
         }
     ],
     "NumberOfPoints": 8,
-    "GeneralComments": "Charging 8 Superchargers, available 24/7, up to 150kW",
+    "GeneralComments": "8 V2 superchargers 150kW (CCS+Tesla S/X connector). Each two A/B chargers share 150kW of the power cabinet",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-23T11:11:00Z",
+    "DateLastStatusUpdate": "2023-11-18T19:49:00Z",
     "DateCreated": "2020-08-24T11:10:00Z",
     "SubmissionStatusTypeID": 200
 }

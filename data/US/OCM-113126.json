@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2019-04-06T05:05:00Z",
+    "DateLastVerified": "2023-12-03T14:43:00Z",
     "ID": 113126,
     "UUID": "A526A0E2-0085-49DD-A00D-F2B1322004DF",
-    "DataProviderID": 2,
-    "DataProvidersReference": "104882",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "NE",
         "Postcode": "68850",
         "CountryID": 2,
-        "Latitude": 40.745952,
-        "Longitude": -99.741556,
+        "Latitude": 40.745932034587696,
+        "Longitude": -99.74143619195165,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -25,25 +24,34 @@
         {
             "ID": 159296,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 159297,
             "ConnectionTypeID": 32,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 472557,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:05:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-12-03T14:43:00Z",
     "DateCreated": "2018-11-28T02:04:00Z",
     "SubmissionStatusTypeID": 100
 }

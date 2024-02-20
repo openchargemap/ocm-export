@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-12T08:05:00Z",
+    "DateLastVerified": "2024-02-20T09:42:00Z",
     "ID": 262210,
     "UUID": "DC1729FD-2121-4933-8666-96F7D1296DF0",
     "DataProviderID": 2,
@@ -14,8 +14,8 @@
         "StateOrProvince": "AZ",
         "Postcode": "85014",
         "CountryID": 2,
-        "Latitude": 33.510128,
-        "Longitude": -112.056766,
+        "Latitude": 33.509503,
+        "Longitude": -112.057077,
         "ContactTelephone1": "866-816-7584",
         "AccessComments": "",
         "RelatedURL": "http://evconnect.com/",
@@ -24,18 +24,25 @@
     "Connections": [
         {
             "ID": 444888,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 477924,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:05:00Z",
+    "DateLastStatusUpdate": "2024-02-20T09:42:00Z",
     "DateCreated": "2023-05-01T05:16:00Z",
     "SubmissionStatusTypeID": 100
 }

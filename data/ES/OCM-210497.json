@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-12-11T17:31:00Z",
+    "DateLastVerified": "2023-12-02T15:35:00Z",
     "ID": 210497,
     "UUID": "135726D2-6266-47AF-8D41-78160BB14233",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,30€/kWh",
+    "UsageCost": "0,45€/kWh Dc - 0,39€/kWh AC",
     "AddressInfo": {
         "ID": 210877,
         "Title": "C.C. Les Gavarres",
@@ -25,12 +25,30 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 2
+        },
+        {
+            "ID": 488890,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 488891,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-12-11T17:31:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-12-02T15:35:00Z",
     "DateCreated": "2022-12-11T17:31:00Z",
     "SubmissionStatusTypeID": 200
 }

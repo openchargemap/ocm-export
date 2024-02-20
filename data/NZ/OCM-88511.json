@@ -33,7 +33,7 @@
             "DateCreated": "2017-05-31T16:11:00Z"
         }
     ],
-    "DateLastVerified": "2022-11-05T02:53:00Z",
+    "DateLastVerified": "2023-12-14T06:27:00Z",
     "ID": 88511,
     "UUID": "DC7AA90E-13E4-4537-875D-2E457A9FAA96",
     "DataProviderID": 1,
@@ -45,39 +45,71 @@
         "Title": "Z Turangi",
         "AddressLine1": "1 Pihanga Road",
         "Town": "Turangi ",
+        "StateOrProvince": "Waikato",
         "Postcode": "3334",
         "CountryID": 161,
-        "Latitude": -38.99003366986814,
-        "Longitude": 175.81018551794364,
-        "ContactTelephone1": "+64 800 224 274",
-        "AccessComments": "Open 24/7",
-        "RelatedURL": "https://www.z.co.nz/products-and-services/at-the-station/ev-charging",
+        "Latitude": -38.990781125749315,
+        "Longitude": 175.80987910478154,
+        "ContactTelephone1": "",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 125550,
             "ConnectionTypeID": 2,
+            "Reference": "ZEL-1005",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 63,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 125551,
             "ConnectionTypeID": 33,
+            "Reference": "ZEL-1005",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 481498,
+            "ConnectionTypeID": 33,
+            "Reference": "ZEL-1074",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 505232,
+            "ConnectionTypeID": 33,
+            "Reference": "ZEL-1075",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 505233,
+            "ConnectionTypeID": 33,
+            "Reference": "ZEL-1076",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": " Download the Z EV Charging mobile app to use",
+    "NumberOfPoints": 6,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-11-05T02:53:00Z",
+    "DateLastStatusUpdate": "2023-12-14T06:27:00Z",
     "DateCreated": "2017-05-31T16:10:00Z",
     "SubmissionStatusTypeID": 200
 }

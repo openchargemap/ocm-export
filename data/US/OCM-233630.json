@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:32:00Z",
+    "DateLastVerified": "2024-02-10T00:57:00Z",
     "ID": 233630,
     "UUID": "B242B511-97AD-4AC9-B063-36916E505A02",
-    "DataProviderID": 2,
-    "DataProvidersReference": "187166",
-    "OperatorID": 3534,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 234013,
-        "Title": "Celebration Center - Tesla Supercharger",
+        "Title": "Federal Way, WA Supercharger",
         "AddressLine1": "32015 Pacific Highway South",
         "Town": "Federal Way",
         "StateOrProvince": "WA",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 47.314888,
         "Longitude": -122.31487,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Celebration Center",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 385616,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 11,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 11,
+    "GeneralComments": "11 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:32:00Z",
+    "DateLastStatusUpdate": "2024-02-10T00:57:00Z",
     "DateCreated": "2023-02-13T05:39:00Z",
     "SubmissionStatusTypeID": 100
 }

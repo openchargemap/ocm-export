@@ -16,17 +16,35 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2023-08-03T13:32:00Z",
+    "MediaItems": [
+        {
+            "ID": 40315,
+            "ChargePointID": 48855,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM48855/OCM-48855.orig.2023111819144000.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM48855/OCM-48855.thmb.2023111819144000.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-18T19:15:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-18T19:15:00Z",
     "ID": 48855,
     "UUID": "A30A6CA7-8538-435B-8F6E-BDE1F61F1805",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "29019",
     "UsageTypeID": 1,
     "UsageCost": "",
     "AddressInfo": {
         "ID": 49201,
-        "Title": "Girona Tesla Supercharger",
+        "Title": "Gerona Tesla Supercharger",
         "AddressLine1": "Hotel Ibis Girona",
         "AddressLine2": "Carrer de Francesc Ferrer i Gironès",
         "Town": "Girona",
@@ -46,12 +64,14 @@
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "V2 (CCS+Tesla S/X connector)"
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "4 V2 superchargers 150kW (CCS+Tesla S/X connector). Each two A/B chargers share 150kW of the power cabinet",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-08-03T13:32:00Z",
+    "DateLastStatusUpdate": "2023-11-18T19:15:00Z",
     "DateCreated": "2015-07-03T17:30:00Z",
     "SubmissionStatusTypeID": 200
 }

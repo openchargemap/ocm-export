@@ -1,13 +1,14 @@
 {
-    "DateLastVerified": "2023-07-12T08:13:00Z",
+    "DateLastVerified": "2024-02-20T09:48:00Z",
     "ID": 241217,
     "UUID": "14D70B10-9D1F-47E4-A38A-327235C153AE",
     "DataProviderID": 2,
     "DataProvidersReference": "205639",
+    "OperatorID": 3618,
     "UsageTypeID": 2,
     "AddressInfo": {
         "ID": 241601,
-        "Title": "Los Angeles County - Internal Services Department Alameda Fleet Services",
+        "Title": "LA County ISD Alameda Garage",
         "AddressLine1": "1055 N Alameda St",
         "Town": "Los Angeles",
         "StateOrProvince": "CA",
@@ -16,8 +17,8 @@
         "Latitude": 34.061528,
         "Longitude": -118.236723,
         "ContactTelephone1": "",
-        "AccessComments": "",
-        "RelatedURL": "",
+        "AccessComments": "Fleet and Employee Use Only",
+        "RelatedURL": "https://www.powerflex.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,12 +30,30 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 3,
+            "Quantity": 40,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 524990,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 524991,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:13:00Z",
+    "DateLastStatusUpdate": "2024-02-20T09:48:00Z",
     "DateCreated": "2023-03-07T03:36:00Z",
     "SubmissionStatusTypeID": 100
 }

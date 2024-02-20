@@ -1,12 +1,13 @@
 {
-    "DateLastVerified": "2020-05-26T08:25:00Z",
+    "DateLastVerified": "2024-01-06T18:42:00Z",
     "ID": 30987,
     "UUID": "A5679EB7-21CD-40C6-979D-C2E0DF4F54B2",
     "DataProviderID": 1,
     "DataProvidersReference": "2160",
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 31333,
-        "Title": "Svenstavik snabbladdstation",
+        "Title": "Svenstavik (Fyrfasen Energi) - eways",
         "AddressLine1": "Mellanvägen 10",
         "Town": "SVENSTAVIK",
         "StateOrProvince": "JÄMTLAND",
@@ -20,47 +21,40 @@
     "Connections": [
         {
             "ID": 34216,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 87352,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "2",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
+            "Quantity": 2,
             "Comments": "Mode 3"
         },
         {
             "ID": 89338,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 2,
             "Reference": "4",
             "LevelID": 2,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 225823,
-            "ConnectionTypeID": 0,
-            "Reference": "5",
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
+            "Quantity": 1,
             "Comments": "Mode 4"
         }
     ],
-    "NumberOfPoints": 5,
-    "DateLastStatusUpdate": "2020-05-26T08:25:00Z",
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2024-01-06T18:42:00Z",
     "DateCreated": "2014-12-09T09:01:00Z",
     "SubmissionStatusTypeID": 100
 }

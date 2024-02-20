@@ -1,0 +1,81 @@
+{
+    "DateLastVerified": "2023-12-13T06:33:00Z",
+    "ID": 287692,
+    "UUID": "1CFF29FE-263B-4999-BEE1-901DC2B46DDF",
+    "DataProviderID": 1,
+    "OperatorID": 24,
+    "OperatorsReference": "GB*GRD*EGS10876*1,GB*GRD*EGS10876*2,GB*GRD*EGS10877*1,GB*GRD*EGS10877*2,GB*GRD*EGS10877*3",
+    "UsageTypeID": 5,
+    "UsageCost": "DC: £0.79/kWh",
+    "AddressInfo": {
+        "ID": 288079,
+        "Title": "Hu-Roadchef Strensham Southbound",
+        "AddressLine1": "Junction 8 M5",
+        "Town": "Worcester",
+        "Postcode": "WR8 0BZ",
+        "CountryID": 1,
+        "Latitude": 52.057379,
+        "Longitude": -2.140795,
+        "RelatedURL": "https://electrichighway.gridserve.com/null",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 503347,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10876*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 503348,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10876*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 503349,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10877*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 503350,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10877*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 503351,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10877*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-12-13T06:33:00Z",
+    "DateCreated": "2023-12-09T06:44:00Z",
+    "SubmissionStatusTypeID": 200
+}

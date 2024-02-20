@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T09:20:00Z",
+    "DateLastVerified": "2024-02-15T03:30:00Z",
     "ID": 231892,
     "UUID": "23F66568-3CAA-4462-B7BE-E1E2E1FADD73",
-    "DataProviderID": 2,
-    "DataProvidersReference": "188999",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 232275,
-        "Title": "Finney Crossing - Tesla Supercharger",
+        "Title": "Williston, VT Supercharger",
         "AddressLine1": "31 Market Street",
         "Town": "Williston",
         "StateOrProvince": "VT",
         "Postcode": "05495",
         "CountryID": 2,
-        "Latitude": 44.449692,
-        "Longitude": -73.108969,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "Latitude": 44.449689510862896,
+        "Longitude": -73.10898992105598,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Finney Crossing",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 383686,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:20:00Z",
+    "DateLastStatusUpdate": "2024-02-15T03:30:00Z",
     "DateCreated": "2023-02-13T05:32:00Z",
     "SubmissionStatusTypeID": 100
 }

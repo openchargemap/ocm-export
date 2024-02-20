@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-12T08:53:00Z",
+    "DateLastVerified": "2024-02-05T09:43:00Z",
     "ID": 227149,
     "UUID": "10C1FA66-300D-4BE6-AE06-9DBDE5AB88E2",
-    "DataProviderID": 2,
-    "DataProvidersReference": "253626",
-    "OperatorID": 3460,
+    "DataProviderID": 1,
+    "OperatorID": 50,
     "UsageTypeID": 1,
+    "UsageCost": "the first 30 minutes are free which should give an average Tesla about 90 miles of range, please be courteous and let others grab their half an hour as well",
     "AddressInfo": {
         "ID": 227532,
         "Title": "Lodi Commons",
@@ -17,7 +17,8 @@
         "Latitude": 40.874570183,
         "Longitude": -74.086904506,
         "ContactTelephone1": "888-264-2208",
-        "AccessComments": "Mon 5:00am - 10:59pm; Tue 5:00am - 10:59pm; Wed 5:00am - 10:59pm; Thu 5:00am - 10:59pm; Fri 5:00am - 10:59pm; Sat 5:00am - 10:59pm; Sun 5:00am - 10:59pm",
+        "ContactTelephone2": "",
+        "AccessComments": "Mon 6:00am - 11:59pm; Tue 6:00am - 11:59pm; Wed 6:00am - 11:59pm; Thu 6:00am - 11:59pm; Fri 6:00am - 11:59pm; Sat 6:00am - 11:59pm; Sun 6:00am - 11:59pm",
         "RelatedURL": "https://voltacharging.com/",
         "DistanceUnit": 0
     },
@@ -32,10 +33,20 @@
             "CurrentTypeID": 10,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 513353,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Always use the Volta app to check the operational status of the charger at discharging location or any other, Volta DC fast chargers are prone to outages.   if you're an Uber or Lyft driver join our WhatsApp group https://goo.su/5dUebW. the first 30 minutes of 50 KW is free, that should equal about 90 miles of range, please be courteous and let others get their half an hour"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:53:00Z",
+    "DateLastStatusUpdate": "2024-02-05T09:43:00Z",
     "DateCreated": "2023-02-13T05:20:00Z",
     "SubmissionStatusTypeID": 100
 }

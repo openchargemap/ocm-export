@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-12T08:37:00Z",
+    "DateLastVerified": "2024-02-20T10:08:00Z",
     "ID": 269433,
     "UUID": "71B6557A-056E-47CA-B7F5-D6C8A6A95062",
     "DataProviderID": 2,
@@ -8,7 +8,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 269817,
-        "Title": "Center of Excellence (For Canada Testing Purposes Only)",
+        "Title": "Center of Excellence (For Testing Purposes Only)",
         "AddressLine1": "196 Rue Principale",
         "Town": "Saint-Prime",
         "StateOrProvince": "QC",
@@ -24,6 +24,15 @@
     "Connections": [
         {
             "ID": 459019,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 490223,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "PowerKW": 50,
@@ -33,7 +42,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:37:00Z",
+    "DateLastStatusUpdate": "2024-02-20T10:08:00Z",
     "DateCreated": "2023-07-04T07:06:00Z",
     "SubmissionStatusTypeID": 100
 }

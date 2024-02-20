@@ -80,7 +80,7 @@
             "DateCreated": "2018-09-18T09:48:00Z"
         }
     ],
-    "DateLastVerified": "2019-06-12T14:16:00Z",
+    "DateLastVerified": "2024-02-05T09:40:00Z",
     "ID": 77581,
     "UUID": "DEAC8148-9B78-4F16-B564-E20F101FFE40",
     "DataProviderID": 1,
@@ -96,8 +96,9 @@
         "StateOrProvince": "Upravna Enota Ljubljana",
         "Postcode": "1000",
         "CountryID": 205,
-        "Latitude": 46.0291468,
-        "Longitude": 14.481741,
+        "Latitude": 46.029152980010565,
+        "Longitude": 14.481529167312345,
+        "RelatedURL": "https://onecharge.eu/#/portal/locations",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -129,12 +130,34 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 513347,
+            "ConnectionTypeID": 33,
+            "Reference": "",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 400,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "2x150kW or 1x300kW"
+        },
+        {
+            "ID": 513348,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "PETROL,SMATRICS RFID",
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2019-06-12T14:16:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-05T09:40:00Z",
     "DateCreated": "2017-01-19T15:06:00Z",
     "SubmissionStatusTypeID": 200
 }

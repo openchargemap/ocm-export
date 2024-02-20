@@ -1,0 +1,77 @@
+{
+    "DateLastVerified": "2024-02-19T06:19:00Z",
+    "ID": 278661,
+    "UUID": "3ACDE7D4-7397-462D-B649-4E2FE660F687",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-70577,PG-89168,veefil-12100561",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.62/kWh,£0.49/kWh",
+    "AddressInfo": {
+        "ID": 279048,
+        "Title": "Tesco Extra-Kings Lynn",
+        "AddressLine1": "Hardwick Road",
+        "Town": "Kings Lynn",
+        "Postcode": "PE30 4NA",
+        "CountryID": 1,
+        "Latitude": 52.738525,
+        "Longitude": 0.410913,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 482102,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70577",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Amos-Luis"
+        },
+        {
+            "ID": 482103,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-89168",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Clay-Orla"
+        },
+        {
+            "ID": 482104,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12100561",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Mazy-Andy"
+        },
+        {
+            "ID": 482105,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12100561",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Mazy-Andy"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at the Tesco Extra super store at Hardwick Road, King's Lynn",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-19T06:19:00Z",
+    "DateCreated": "2023-10-05T05:22:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:58:00Z",
+    "DateLastVerified": "2024-02-14T04:41:00Z",
     "ID": 228070,
     "UUID": "72BD1EC6-F218-49B1-BE6E-1546D8109A09",
-    "DataProviderID": 2,
-    "DataProvidersReference": "190506",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 228453,
-        "Title": "Knute Rockne Travel Plaza - Tesla Supercharger",
+        "Title": "Rolling Prairie, IN - S Knute Rockne Plaza Supercharger",
         "AddressLine1": "3 South Knute Rockne",
         "Town": "Rolling Prairie",
         "StateOrProvince": "IN",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 41.70511571,
         "Longitude": -86.62151527,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Knute Rockne Travel Plaza",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 379594,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:58:00Z",
+    "DateLastStatusUpdate": "2024-02-14T04:41:00Z",
     "DateCreated": "2023-02-13T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

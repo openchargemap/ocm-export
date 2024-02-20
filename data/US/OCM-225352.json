@@ -1,23 +1,22 @@
 {
-    "DateLastVerified": "2023-07-12T08:43:00Z",
+    "DateLastVerified": "2024-02-05T00:54:00Z",
     "ID": 225352,
     "UUID": "618CEFBB-0AF7-4311-929B-076E1BFE3F30",
-    "DataProviderID": 2,
-    "DataProvidersReference": "187280",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 225735,
-        "Title": "Clara Barton Travel Plaza - Tesla Supercharger",
-        "AddressLine1": "N Stumpy Rd",
+        "Title": "Pedricktown, NJ - Clara Barton Supercharger",
+        "AddressLine1": "N Stumpy Road",
         "Town": "Pedricktown",
         "StateOrProvince": "NJ",
         "Postcode": "08067",
         "CountryID": 2,
         "Latitude": 39.697722,
         "Longitude": -75.397722,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Clara Barton Travel Plaza",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 376597,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:43:00Z",
+    "DateLastStatusUpdate": "2024-02-05T00:54:00Z",
     "DateCreated": "2023-02-13T05:15:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,15 +1,14 @@
 {
-    "DateLastVerified": "2023-07-12T08:25:00Z",
+    "DateLastVerified": "2024-02-07T15:43:00Z",
     "ID": 140542,
     "UUID": "3861A1B4-0AEB-4E52-8AC7-B924283893BF",
-    "DataProviderID": 2,
-    "DataProvidersReference": "122837",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 140894,
         "Title": "Sam's Club 6518 (Bristol, VA)",
-        "AddressLine1": "13249 Lee Highway",
+        "AddressLine1": "21483 Market Center",
         "Town": "Bristol",
         "StateOrProvince": "VA",
         "Postcode": "24202",
@@ -25,6 +24,7 @@
         {
             "ID": 196193,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -34,15 +34,25 @@
         {
             "ID": 196194,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 504510,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:25:00Z",
+    "DateLastStatusUpdate": "2024-02-07T15:43:00Z",
     "DateCreated": "2019-12-24T09:13:00Z",
     "SubmissionStatusTypeID": 100
 }

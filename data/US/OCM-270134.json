@@ -1,10 +1,9 @@
 {
-    "DateLastVerified": "2023-07-12T09:13:00Z",
+    "DateLastVerified": "2023-09-30T12:55:00Z",
     "ID": 270134,
     "UUID": "10224FB3-D199-49FC-8492-D09C783EE9B5",
-    "DataProviderID": 2,
-    "DataProvidersReference": "262372",
-    "OperatorID": 3426,
+    "DataProviderID": 1,
+    "OperatorID": 9,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 270518,
@@ -14,35 +13,46 @@
         "StateOrProvince": "VT",
         "Postcode": "5149",
         "CountryID": 2,
-        "Latitude": 43.395752,
-        "Longitude": -72.698004,
+        "Latitude": 43.39575225411219,
+        "Longitude": -72.69800482456698,
         "ContactTelephone1": "888-998-2546",
-        "AccessComments": "",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.blinkcharging.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 459802,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 459803,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 62,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 480340,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:13:00Z",
+    "DateLastStatusUpdate": "2023-09-30T12:55:00Z",
     "DateCreated": "2023-07-04T07:32:00Z",
     "SubmissionStatusTypeID": 100
 }

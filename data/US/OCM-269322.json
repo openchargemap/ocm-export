@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-12T08:31:00Z",
+    "DateLastVerified": "2024-02-20T10:02:00Z",
     "ID": 269322,
     "UUID": "90ECF6B1-333E-4A80-8C90-76AA948A1870",
     "DataProviderID": 2,
@@ -17,13 +17,24 @@
         "Latitude": 37.884714004,
         "Longitude": -122.297712764,
         "ContactTelephone1": "888-264-2208",
-        "AccessComments": "Mon 5:00am - 10:59pm; Tue 5:00am - 10:59pm; Wed 5:00am - 10:59pm; Thu 5:00am - 10:59pm; Fri 5:00am - 10:59pm; Sat 5:00am - 10:59pm; Sun 5:00am - 10:59pm",
+        "AccessComments": "Mon 6:00am - 11:59pm; Tue 6:00am - 11:59pm; Wed 6:00am - 11:59pm; Thu 6:00am - 11:59pm; Fri 6:00am - 11:59pm; Sat 6:00am - 11:59pm; Sun 6:00am - 11:59pm",
         "RelatedURL": "https://voltacharging.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 458891,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 478751,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "PowerKW": 50,
@@ -33,7 +44,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:31:00Z",
+    "DateLastStatusUpdate": "2024-02-20T10:02:00Z",
     "DateCreated": "2023-07-04T07:01:00Z",
     "SubmissionStatusTypeID": 100
 }

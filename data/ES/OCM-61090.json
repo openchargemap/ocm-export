@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2016-02-13T00:23:00Z",
+    "DateLastVerified": "2024-01-28T15:37:00Z",
     "ID": 61090,
     "UUID": "E3092703-A2F8-48BC-A82C-C17886BB967D",
-    "DataProviderID": 27,
-    "DataProvidersReference": "116",
+    "DataProviderID": 1,
+    "OperatorID": 2247,
     "UsageTypeID": 1,
+    "UsageCost": "0,43€/kWh",
     "AddressInfo": {
         "ID": 61436,
         "Title": "Feria de Muestras",
@@ -15,7 +16,7 @@
         "CountryID": 210,
         "Latitude": 41.6555,
         "Longitude": -4.737709,
-        "ContactTelephone1": "010",
+        "ContactTelephone1": "",
         "ContactEmail": "vehiculoelectrico@ava.es",
         "RelatedURL": "http://www.cidaut.es/eren/",
         "DistanceUnit": 0
@@ -23,16 +24,25 @@
     "Connections": [
         {
             "ID": 77664,
-            "ConnectionTypeID": 28
+            "ConnectionTypeID": 28,
+            "LevelID": 1,
+            "PowerKW": 2.3,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 77665,
-            "ConnectionTypeID": 25
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Tarjeta ayuntamiento de Valladolid",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2016-02-13T00:23:00Z",
+    "NumberOfPoints": 1,
+    "GeneralComments": "",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-01-28T15:37:00Z",
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200
 }

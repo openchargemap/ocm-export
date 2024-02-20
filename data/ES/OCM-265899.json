@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-05-23T19:00:00Z",
+    "DateLastVerified": "2023-12-07T13:46:00Z",
     "ID": 265899,
     "UUID": "76874F58-6EC5-41AE-B9AC-71D3044F473C",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,35€/kWh",
+    "UsageCost": "0,55€/kWh DC - 0,35€/kWh AC",
     "AddressInfo": {
         "ID": 266283,
         "Title": "Port Ginesta Sitges",
@@ -20,7 +20,19 @@
     },
     "Connections": [
         {
-            "ID": 452341,
+            "ID": 503090,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 900,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+        },
+        {
+            "ID": 503097,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -29,9 +41,9 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-23T19:00:00Z",
+    "DateLastStatusUpdate": "2023-12-07T13:46:00Z",
     "DateCreated": "2023-05-23T19:00:00Z",
     "SubmissionStatusTypeID": 200
 }

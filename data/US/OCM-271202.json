@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:37:00Z",
+    "DateLastVerified": "2023-11-27T01:46:00Z",
     "ID": 271202,
     "UUID": "F0D11468-DAAE-4342-99E2-2E94E136D2F7",
-    "DataProviderID": 2,
-    "DataProvidersReference": "302206",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 271586,
-        "Title": "Tysons Corner Center - Tesla Supercharger",
-        "AddressLine1": "1911 Chain Bridge Rd",
-        "Town": "McLean",
+        "Title": "Tysons, VA",
+        "AddressLine1": "1961 Chain Bridge Rd",
+        "Town": "Tysons",
         "StateOrProvince": "VA",
         "Postcode": "22102",
         "CountryID": 2,
         "Latitude": 38.915375,
         "Longitude": -77.225194,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only\r\nPublic - Credit card at all times",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Tyson's Corner Center",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 461582,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 20,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 20,
+    "GeneralComments": "20 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:37:00Z",
+    "DateLastStatusUpdate": "2023-11-27T01:46:00Z",
     "DateCreated": "2023-07-10T04:04:00Z",
     "SubmissionStatusTypeID": 100
 }

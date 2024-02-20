@@ -1,20 +1,54 @@
 {
-    "DateLastVerified": "2023-07-30T17:00:00Z",
+    "MediaItems": [
+        {
+            "ID": 39062,
+            "ChargePointID": 130926,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM130926/OCM-130926.orig.2023080914523218.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM130926/OCM-130926.thmb.2023080914523218.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-08-09T14:53:00Z"
+        },
+        {
+            "ID": 39061,
+            "ChargePointID": 130926,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM130926/OCM-130926.orig.2023080914521184.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM130926/OCM-130926.thmb.2023080914521184.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-08-09T14:52:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-13T08:30:00Z",
     "ID": 130926,
     "UUID": "6C5A803F-58C2-4683-A92E-B54C663CBEF4",
     "DataProviderID": 1,
     "OperatorID": 3550,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh ",
+    "UsageCost": "0,60€/kWh ",
     "AddressInfo": {
         "ID": 131272,
-        "Title": "GALP Posada de Llanes",
+        "Title": "E.S. GALP La Vega (Dir. Oviedo)",
         "AddressLine1": "Estación de Servicio GALP",
         "Town": "Posada de Llanes",
         "StateOrProvince": "Asturias",
         "CountryID": 210,
-        "Latitude": 43.4326224954971,
-        "Longitude": -4.85817418504917,
+        "Latitude": 43.432590591450946,
+        "Longitude": -4.858155726108265,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,8 +57,8 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 920,
+            "Amps": 250,
+            "Voltage": 1000,
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2,
@@ -32,9 +66,9 @@
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Galp / PowerDot",
+    "GeneralComments": "Galp / PowerDot (Currently limited to 50kW)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-30T17:00:00Z",
+    "DateLastStatusUpdate": "2023-11-13T08:30:00Z",
     "DateCreated": "2019-08-25T21:04:00Z",
     "SubmissionStatusTypeID": 200
 }

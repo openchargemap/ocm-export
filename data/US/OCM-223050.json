@@ -1,15 +1,14 @@
 {
-    "DateLastVerified": "2023-07-12T08:29:00Z",
+    "DateLastVerified": "2023-12-19T01:30:00Z",
     "ID": 223050,
     "UUID": "D333A6A8-B0F9-4303-9518-A2CE9F676CF0",
-    "DataProviderID": 2,
-    "DataProvidersReference": "212744",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 223433,
-        "Title": "Royal Farms - Tesla Supercharger",
-        "AddressLine1": "4317  Lankford Highway",
+        "Title": "Exmore, VA Supercharger",
+        "AddressLine1": "4317 Lankford Highway",
         "Town": "Exmore",
         "StateOrProvince": "VA",
         "Postcode": "23350",
@@ -17,7 +16,7 @@
         "Latitude": 37.51609,
         "Longitude": -75.83175,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "Located at Royal Farms",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 373938,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4
         }
     ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "4 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:29:00Z",
+    "DateLastStatusUpdate": "2023-12-19T01:30:00Z",
     "DateCreated": "2023-02-13T05:08:00Z",
     "SubmissionStatusTypeID": 100
 }

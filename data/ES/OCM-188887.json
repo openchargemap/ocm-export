@@ -1,22 +1,40 @@
 {
-    "DateLastVerified": "2023-07-07T05:33:00Z",
+    "MediaItems": [
+        {
+            "ID": 41257,
+            "ChargePointID": 188887,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM188887/OCM-188887.orig.2024012308424951.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM188887/OCM-188887.thmb.2024012308424951.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27834,
+                "Username": "CR123"
+            },
+            "DateCreated": "2024-01-23T08:43:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-16T21:19:00Z",
     "ID": 188887,
     "UUID": "3F5CAFFD-9CD5-481F-A3F7-C803A8C5BBF5",
     "DataProviderID": 1,
-    "OperatorID": 3276,
+    "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,54€/kWh DC/AC43kW - 0,42€/kWh AC 22kW - (0,10€/min parked without  charging)",
+    "UsageCost": "0,55€/kWh ",
     "AddressInfo": {
         "ID": 189246,
-        "Title": "Univ. Oviedo EPI",
+        "Title": "Univ. Oviedo EPI Gijón (Zunder)",
         "AddressLine1": "Escuela de Ingenieros",
         "AddressLine2": "La Guía",
         "Town": "Gijón",
         "StateOrProvince": "Asturias",
         "Postcode": "33204",
         "CountryID": 210,
-        "Latitude": 43.52442906611316,
-        "Longitude": -5.636723026069831,
+        "Latitude": 43.52444772423661,
+        "Longitude": -5.636489569340711,
         "ContactTelephone1": "",
         "RelatedURL": "https://www.edpenergia.es/",
         "DistanceUnit": 0
@@ -27,41 +45,29 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 305238,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 305239,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC150  Charger. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW."
         },
         {
             "ID": 337392,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 8,
+            "Comments": "Eigth Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (200 kW)."
         }
     ],
-    "NumberOfPoints": 3,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-07T05:33:00Z",
+    "NumberOfPoints": 10,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-02-16T21:19:00Z",
     "DateCreated": "2021-08-23T08:01:00Z",
     "SubmissionStatusTypeID": 200
 }

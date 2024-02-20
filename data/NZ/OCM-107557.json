@@ -1,16 +1,17 @@
 {
-    "DateLastVerified": "2018-08-01T20:14:00Z",
+    "DateLastVerified": "2023-11-14T06:45:00Z",
     "ID": 107557,
     "UUID": "10CBCE06-F784-4D49-9D8F-701B354A8E78",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.25/kWh + $0.25/min",
+    "UsageCost": "$0.80/kWh",
     "AddressInfo": {
         "ID": 107903,
         "Title": "New World Levin",
         "AddressLine1": "Bath Street",
         "Town": "Levin",
+        "StateOrProvince": "Manawatu-Whanganui",
         "Postcode": "5510",
         "CountryID": 161,
         "Latitude": -40.623455,
@@ -20,7 +21,8 @@
     "Connections": [
         {
             "ID": 151773,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
+            "Reference": "LVNW1-B",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -29,7 +31,8 @@
         },
         {
             "ID": 151774,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
+            "Reference": "LVNW1-A",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -37,9 +40,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-08-01T20:14:00Z",
+    "DateLastStatusUpdate": "2023-11-14T06:45:00Z",
     "DateCreated": "2018-08-01T14:02:00Z",
     "SubmissionStatusTypeID": 200
 }

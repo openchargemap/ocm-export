@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2020-06-26T03:03:00Z",
+    "DateLastVerified": "2024-02-04T17:20:00Z",
     "ID": 142320,
     "UUID": "99FEE391-4446-4C6B-983A-5432F12D20E8",
-    "DataProviderID": 2,
-    "DataProvidersReference": "123447",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -17,7 +16,6 @@
         "Latitude": 40.561843,
         "Longitude": -74.55387,
         "ContactTelephone1": "833-632-2778",
-        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
         "DistanceUnit": 0
     },
@@ -25,36 +23,34 @@
         {
             "ID": 198433,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
         },
         {
             "ID": 198434,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 198435,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 5
         }
     ],
+    "NumberOfPoints": 7,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:03:00Z",
+    "DateLastStatusUpdate": "2024-02-04T17:20:00Z",
     "DateCreated": "2019-12-24T09:17:00Z",
     "SubmissionStatusTypeID": 100
 }

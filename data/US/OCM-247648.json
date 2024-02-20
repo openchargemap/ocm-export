@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:10:00Z",
+    "DateLastVerified": "2024-02-10T00:33:00Z",
     "ID": 247648,
     "UUID": "DFDDF024-6B75-464F-877E-0A26029B9E8D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102233",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 248032,
-        "Title": "The Blue Water Convention Center - Tesla Supercharger",
+        "Title": "Port Huron, MI Supercharger",
         "AddressLine1": "500 Thomas Edison Parkway",
         "Town": "Port Huron",
         "StateOrProvince": "MI",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 42.998817,
         "Longitude": -82.428935,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at The Blue Water Convention Center",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 414056,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 150kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:10:00Z",
+    "DateLastStatusUpdate": "2024-02-10T00:33:00Z",
     "DateCreated": "2023-03-07T05:44:00Z",
     "SubmissionStatusTypeID": 100
 }

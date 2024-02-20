@@ -1,5 +1,21 @@
 {
-    "DateLastVerified": "2023-07-12T08:41:00Z",
+    "UserComments": [
+        {
+            "ID": 29119,
+            "ChargePointID": 224913,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "Station ID 52232A has a blank screen. Was able to initiate charge via app. Reported issue to Shell Recharge via their app.",
+            "DateCreated": "2023-10-18T15:56:21.017Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-02-20T10:11:00Z",
     "ID": 224913,
     "UUID": "CA16AB16-1F2E-47EC-B464-9F9EA2C1FE11",
     "DataProviderID": 2,
@@ -24,11 +40,13 @@
     "Connections": [
         {
             "ID": 376088,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
@@ -51,7 +69,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:41:00Z",
+    "DateLastStatusUpdate": "2024-02-20T10:11:00Z",
     "DateCreated": "2023-02-13T05:14:00Z",
     "SubmissionStatusTypeID": 100
 }

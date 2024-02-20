@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-08-07T05:28:00Z",
+    "DateLastVerified": "2023-10-11T08:42:00Z",
     "ID": 268320,
     "UUID": "E9CC18C9-497F-457A-A46D-220BA33B84B6",
     "DataProviderID": 1,
-    "OperatorID": 3430,
+    "OperatorID": 3673,
     "OperatorsReference": "",
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 268704,
         "Title": "EG Capel St Mary Starbucks",
@@ -16,46 +16,51 @@
         "Latitude": 52.00335,
         "Longitude": 1.059199,
         "AccessComments": "",
-        "RelatedURL": "https://www.gridserve.com",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 457511,
             "ConnectionTypeID": 2,
-            "Reference": "2",
-            "StatusTypeID": 0,
+            "Reference": "EVP-CaplSbux-A-3",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 457512,
-            "ConnectionTypeID": 1036,
-            "Reference": "1",
-            "StatusTypeID": 0,
-            "LevelID": 3,
-            "Amps": 63,
+            "ConnectionTypeID": 25,
+            "Reference": "EVP-CaplSbux-A-1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 457513,
-            "ConnectionTypeID": 1036,
-            "Reference": "3",
-            "StatusTypeID": 0,
+            "ConnectionTypeID": 33,
+            "Reference": "EVP-CaplSbux-A-2",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2023-08-07T05:28:00Z",
+    "NumberOfPoints": 1,
+    "GeneralComments": "Branded as 'evpoint'",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-10-11T08:42:00Z",
     "MetadataValues": [
         {
             "ID": 29348,

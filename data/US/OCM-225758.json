@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:46:00Z",
+    "DateLastVerified": "2023-11-15T08:56:00Z",
     "ID": 225758,
     "UUID": "30B1C4FB-63C2-4F17-B35C-DD18C26F7F5B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "194084",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 226141,
-        "Title": "Richard Stockton Service Area - Tesla Supercharger",
+        "Title": "Mount Laurel, NJ - James Fenimore",
         "AddressLine1": "1400 NJ Turnpike",
         "Town": "Mount Laurel Township",
         "StateOrProvince": "NJ",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 39.980716,
         "Longitude": -74.887083,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Richard Stockton Service Area",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 377051,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:46:00Z",
+    "DateLastStatusUpdate": "2023-11-15T08:56:00Z",
     "DateCreated": "2023-02-13T05:16:00Z",
     "SubmissionStatusTypeID": 100
 }

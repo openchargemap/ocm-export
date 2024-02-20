@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2023-07-12T09:36:00Z",
+    "DateLastVerified": "2024-01-30T14:12:00Z",
     "ID": 234027,
     "UUID": "7692E2FC-C7CD-45D2-9F4A-703071728FEE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "241177",
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 3756,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 234411,
         "Title": "Chevron - On The Run",
@@ -17,15 +17,16 @@
         "Longitude": -123.319035533299,
         "ContactTelephone1": "877-906-6644",
         "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
-        "RelatedURL": "",
+        "RelatedURL": "https://www.ontherunstores.com/ev-charging#locations",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 386082,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
@@ -33,15 +34,16 @@
         {
             "ID": 386083,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:36:00Z",
+    "DateLastStatusUpdate": "2024-01-30T14:12:00Z",
     "DateCreated": "2023-02-13T05:40:00Z",
     "SubmissionStatusTypeID": 100
 }

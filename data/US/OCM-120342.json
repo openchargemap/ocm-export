@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2020-06-26T02:54:00Z",
+    "DateLastVerified": "2024-01-06T09:15:00Z",
     "ID": 120342,
     "UUID": "907DF7AA-6F77-4DFD-A93F-F9A3D2D3EA78",
-    "DataProviderID": 2,
-    "DataProvidersReference": "86758",
-    "OperatorID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 3372,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 120688,
-        "Title": "HERRIN-GEAR BMW",
+        "Title": "BMW of Jackson",
         "AddressLine1": "1685 High St",
         "Town": "Jackson",
         "StateOrProvince": "MS",
@@ -25,15 +24,25 @@
         {
             "ID": 169679,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 15,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 6
+        },
+        {
+            "ID": 507496,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T02:54:00Z",
+    "GeneralComments": "Two dual-chargers can charge up to 4 EV's",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-01-06T09:15:00Z",
     "DateCreated": "2019-04-01T04:59:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

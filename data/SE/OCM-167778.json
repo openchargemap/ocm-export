@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2020-09-14T17:02:00Z",
+    "DateLastVerified": "2023-10-01T10:40:00Z",
     "ID": 167778,
     "UUID": "6524FDF4-4EC5-4E5F-A1FE-AA210DC9595D",
     "DataProviderID": 1,
@@ -7,9 +7,10 @@
     "UsageTypeID": 0,
     "AddressInfo": {
         "ID": 168137,
-        "Title": "Importgatan",
+        "Title": "Söderbergs bil Norrköping - Virta",
         "AddressLine1": "Importgatan",
         "AddressLine2": "Oxelbergen",
+        "Town": "Norrköping ",
         "StateOrProvince": "Östergötland County",
         "Postcode": "602 44",
         "CountryID": 216,
@@ -20,37 +21,25 @@
     },
     "Connections": [
         {
-            "ID": 254734,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22
-        },
-        {
             "ID": 254735,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22
+            "PowerKW": 22,
+            "Quantity": 2
         },
         {
             "ID": 254736,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 50
-        },
-        {
-            "ID": 254737,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 50
+            "PowerKW": 100,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-14T17:02:00Z",
+    "DateLastStatusUpdate": "2023-10-01T10:40:00Z",
     "DateCreated": "2020-09-12T17:19:00Z",
     "SubmissionStatusTypeID": 200
 }

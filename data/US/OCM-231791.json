@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T09:19:00Z",
+    "DateLastVerified": "2024-02-10T01:25:00Z",
     "ID": 231791,
     "UUID": "A8626CDB-2A08-4828-B05A-5F3293688EF0",
-    "DataProviderID": 2,
-    "DataProvidersReference": "238583",
-    "OperatorID": 3534,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 232174,
-        "Title": "Meijer - Tesla Supercharger",
+        "Title": "Appleton, WI Supercharger",
         "AddressLine1": "3801 N Richmond St",
         "Town": "Appleton",
         "StateOrProvince": "WI",
         "Postcode": "54913",
         "CountryID": 2,
-        "Latitude": 44.301045,
-        "Longitude": -88.416975,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
+        "Latitude": 44.301038,
+        "Longitude": -88.416861,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Meijer",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 383577,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:19:00Z",
+    "DateLastStatusUpdate": "2024-02-10T01:25:00Z",
     "DateCreated": "2023-02-13T05:32:00Z",
     "SubmissionStatusTypeID": 100
 }

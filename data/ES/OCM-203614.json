@@ -1,20 +1,39 @@
 {
-    "DateLastVerified": "2022-09-18T14:48:00Z",
+    "MediaItems": [
+        {
+            "ID": 40776,
+            "ChargePointID": 203614,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM203614/OCM-203614.orig.2023121519300977.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM203614/OCM-203614.thmb.2023121519300977.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-12-15T19:30:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-12-15T19:31:00Z",
     "ID": 203614,
     "UUID": "EECE4371-50A3-49AB-9956-83B56F082DF1",
     "DataProviderID": 1,
-    "OperatorID": 91,
+    "OperatorID": 3324,
     "UsageTypeID": 4,
+    "UsageCost": "0,42€/kWh",
     "AddressInfo": {
         "ID": 203981,
-        "Title": "Calle de Pedro Joaquín Soler",
+        "Title": "Calle de Pedro Joaquín Soler (Zunder)",
         "AddressLine1": "Calle de Pedro Joaquín Soler",
         "Town": "Zaragoza",
         "StateOrProvince": "Aragon",
         "Postcode": "50001",
         "CountryID": 210,
-        "Latitude": 41.652417190782245,
-        "Longitude": -0.8768906902439539,
+        "Latitude": 41.65201951325491,
+        "Longitude": -0.8769472449742466,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,14 +42,17 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-18T14:48:00Z",
+    "DateLastStatusUpdate": "2023-12-15T19:31:00Z",
     "DateCreated": "2022-09-18T14:48:00Z",
     "SubmissionStatusTypeID": 200
 }

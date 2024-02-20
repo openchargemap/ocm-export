@@ -1,21 +1,21 @@
 {
-    "DateLastVerified": "2020-04-20T19:02:00Z",
+    "DateLastVerified": "2024-02-11T03:43:00Z",
     "ID": 155587,
     "UUID": "63F55A3F-0893-49D8-8F12-08FAD00FBA52",
     "DataProviderID": 1,
-    "OperatorID": 3389,
+    "OperatorID": 3733,
     "UsageTypeID": 1,
     "UsageCost": "$1.00 to Connect, $0.21 per minute",
     "AddressInfo": {
         "ID": 155941,
         "Title": "Walmart - Francis Energy",
-        "AddressLine1": "410 South Dewey Avenue",
+        "AddressLine1": "300 South Dewey Avenue",
         "Town": "Wagoner",
         "StateOrProvince": "OK",
         "Postcode": "74467",
         "CountryID": 2,
-        "Latitude": 35.95794220460451,
-        "Longitude": -95.39747739169337,
+        "Latitude": 35.95794220460441,
+        "Longitude": -95.3974773916936,
         "AccessComments": "Use EVGateway App to manage charging",
         "RelatedURL": "https://francis.energy/",
         "DistanceUnit": 0
@@ -26,8 +26,6 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 350,
-            "Voltage": 950,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 4,
@@ -38,18 +36,34 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 500,
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 4,
             "Comments": " BTCPower EVDSP-350-5-120-0-2-C-4-0"
+        },
+        {
+            "ID": 513929,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 513930,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "200kW HPC Chargers Provided by Francis Energy",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-04-20T19:02:00Z",
+    "DateLastStatusUpdate": "2024-02-11T03:43:00Z",
     "DateCreated": "2020-04-19T15:51:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:19:00Z",
+    "DateLastVerified": "2024-02-15T03:53:00Z",
     "ID": 221442,
     "UUID": "BF830949-DBCB-420F-B4E2-4F4BB9CA4A78",
-    "DataProviderID": 2,
-    "DataProvidersReference": "227388",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 221825,
-        "Title": "Hamilton Place Mall - Tesla Supercharger",
+        "Title": "Chattanooga, TN - Hamilton Place Boulevard Supercharger",
         "AddressLine1": "2100 Hamilton Place Boulevard",
         "Town": "Chattanooga",
         "StateOrProvince": "TN",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 35.036512,
         "Longitude": -85.159957,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Hamilton Place Mall",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 372102,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:19:00Z",
+    "DateLastStatusUpdate": "2024-02-15T03:53:00Z",
     "DateCreated": "2023-02-13T05:04:00Z",
     "SubmissionStatusTypeID": 100
 }

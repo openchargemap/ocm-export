@@ -1,6 +1,63 @@
 {
     "UserComments": [
         {
+            "ID": 29432,
+            "ChargePointID": 115205,
+            "CommentTypeID": 10,
+            "UserName": "S.R. ",
+            "Comment": "",
+            "DateCreated": "2024-01-15T11:20:32.673Z",
+            "User": {
+                "ID": 46669,
+                "Username": "S.R. "
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 29298,
+            "ChargePointID": 115205,
+            "CommentTypeID": 10,
+            "UserName": "S.R. ",
+            "Comment": "",
+            "DateCreated": "2023-11-27T21:56:16.887Z",
+            "User": {
+                "ID": 46669,
+                "Username": "S.R. "
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 29151,
+            "ChargePointID": 115205,
+            "CommentTypeID": 10,
+            "UserName": "S.R. ",
+            "Comment": "7kW DC CCS",
+            "DateCreated": "2023-10-23T10:49:32.877Z",
+            "User": {
+                "ID": 46669,
+                "Username": "S.R. "
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 28862,
+            "ChargePointID": 115205,
+            "CommentTypeID": 50,
+            "UserName": "S.R. ",
+            "Comment": "CCS and Chademo have now been downgraded from 50kW to 7Kw. Equipment sticker have been updated, and edit submitted to Openchargemap. ",
+            "Rating": 2,
+            "DateCreated": "2023-08-13T11:27:59.997Z",
+            "User": {
+                "ID": 46669,
+                "Username": "S.R. "
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 28828,
             "ChargePointID": 115205,
             "CommentTypeID": 10,
@@ -71,13 +128,63 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2023-08-03T12:14:00Z",
+    "MediaItems": [
+        {
+            "ID": 39123,
+            "ChargePointID": 115205,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM115205/OCM-115205.orig.2023081311283297.jpeg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM115205/OCM-115205.thmb.2023081311283297.jpeg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46669,
+                "Username": "S.R. "
+            },
+            "DateCreated": "2023-08-13T11:29:00Z"
+        },
+        {
+            "ID": 39124,
+            "ChargePointID": 115205,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM115205/OCM-115205.orig.2023081311284883.jpeg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM115205/OCM-115205.thmb.2023081311284883.jpeg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46669,
+                "Username": "S.R. "
+            },
+            "DateCreated": "2023-08-13T11:29:00Z"
+        },
+        {
+            "ID": 39122,
+            "ChargePointID": 115205,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM115205/OCM-115205.orig.2023081311282060.jpeg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM115205/OCM-115205.thmb.2023081311282060.jpeg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46669,
+                "Username": "S.R. "
+            },
+            "DateCreated": "2023-08-13T11:28:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-01-15T11:21:00Z",
     "ID": 115205,
     "UUID": "1EEA03C1-2E9B-4A23-BD70-C9B2C0C1DE43",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 5,
-    "UsageCost": "Check with operator",
+    "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 115551,
         "Title": "Elm Street Car Park",
@@ -95,7 +202,7 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 7,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -104,7 +211,7 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 7,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -118,10 +225,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "Swarco E.Connect charger",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-08-03T12:14:00Z",
+    "DateLastStatusUpdate": "2024-01-15T11:21:00Z",
     "DateCreated": "2019-02-07T16:40:00Z",
     "SubmissionStatusTypeID": 200
 }

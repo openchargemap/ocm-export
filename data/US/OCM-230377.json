@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:11:00Z",
+    "DateLastVerified": "2024-02-10T01:27:00Z",
     "ID": 230377,
     "UUID": "05F99B96-325A-4703-9011-E7AFD1DAA927",
-    "DataProviderID": 2,
-    "DataProvidersReference": "196261",
-    "OperatorID": 3534,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 230760,
-        "Title": "Hy-Vee - Tesla Supercharger",
+        "Title": "Madison, WI - Whitney Way Supercharger",
         "AddressLine1": "675 S Whitney Way",
         "Town": "Madison",
         "StateOrProvince": "WI",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 43.05017794,
         "Longitude": -89.4725107,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Hy-Vee",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 382068,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:11:00Z",
+    "DateLastStatusUpdate": "2024-02-10T01:27:00Z",
     "DateCreated": "2023-02-13T05:28:00Z",
     "SubmissionStatusTypeID": 100
 }

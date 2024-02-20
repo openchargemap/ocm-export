@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:53:00Z",
+    "DateLastVerified": "2024-02-14T15:56:00Z",
     "ID": 246482,
     "UUID": "8F499A8B-8D79-4DDD-A517-CE3993FBBD28",
-    "DataProviderID": 2,
-    "DataProvidersReference": "216369",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 246866,
-        "Title": "Starbucks - Tesla Supercharger",
+        "Title": "Manorville, NY Supercharger",
         "AddressLine1": "485 County Road 111",
         "Town": "Manorville",
         "StateOrProvince": "NY",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 40.871646,
         "Longitude": -72.798975,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Starbucks",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 412762,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:53:00Z",
+    "DateLastStatusUpdate": "2024-02-14T15:56:00Z",
     "DateCreated": "2023-03-07T05:33:00Z",
     "SubmissionStatusTypeID": 100
 }

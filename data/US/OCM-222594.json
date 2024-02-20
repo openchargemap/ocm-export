@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:26:00Z",
+    "DateLastVerified": "2023-11-12T12:22:00Z",
     "ID": 222594,
     "UUID": "93887FC2-01A1-4E8C-A420-03CFEE8D325C",
-    "DataProviderID": 2,
-    "DataProvidersReference": "189354",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 222977,
-        "Title": "Kum & Go #0702 - Tesla Supercharger",
+        "Title": "Joplin, MO - South Main Street",
         "AddressLine1": "5002 S. Main Street",
         "Town": "Joplin",
         "StateOrProvince": "MO",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 37.033479,
         "Longitude": -94.515612,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Kum & Go #0702",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 373418,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:26:00Z",
+    "DateLastStatusUpdate": "2023-11-12T12:22:00Z",
     "DateCreated": "2023-02-13T05:07:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2019-05-13T14:49:00Z",
+    "DateLastVerified": "2023-10-10T05:26:00Z",
     "ID": 126210,
     "UUID": "2BE81F93-DB72-4626-B89B-084F8B2B6C7F",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-81198",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.48/kWh",
     "AddressInfo": {
         "ID": 126556,
         "Title": "Cross Hill Car Park",
@@ -15,27 +15,29 @@
         "StateOrProvince": "East Yorkshire",
         "Postcode": "YO25 6RQ",
         "CountryID": 1,
-        "Latitude": 54.004828,
-        "Longitude": -0.44048,
+        "Latitude": 54.0048800145938,
+        "Longitude": -0.440708068765446,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 176890,
+            "ID": 483221,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81198",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Gary-Tony"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the Cross Hill Car Park in Cross Hill, Driffield",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-13T14:49:00Z",
+    "DateLastStatusUpdate": "2023-10-10T05:26:00Z",
     "DateCreated": "2019-05-13T14:49:00Z",
     "SubmissionStatusTypeID": 200
 }

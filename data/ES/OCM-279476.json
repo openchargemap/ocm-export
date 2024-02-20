@@ -1,0 +1,55 @@
+{
+    "DateLastVerified": "2024-01-27T08:07:00Z",
+    "ID": 279476,
+    "UUID": "9B4F09D7-821E-4513-A103-06BF2F476BEA",
+    "DataProviderID": 1,
+    "OperatorID": 3550,
+    "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh DC -  0,40€/kWh AC",
+    "AddressInfo": {
+        "ID": 279863,
+        "Title": "Conforama Santander",
+        "AddressLine1": "Santander",
+        "CountryID": 210,
+        "Latitude": 43.44022977568679,
+        "Longitude": -3.8408143965651504,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 485141,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Two Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW). Charging power limited for 400V cars"
+        },
+        {
+            "ID": 485142,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 485143,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 3,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-01-27T08:07:00Z",
+    "DateCreated": "2023-10-27T14:47:00Z",
+    "SubmissionStatusTypeID": 200
+}

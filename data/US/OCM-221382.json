@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:18:00Z",
+    "DateLastVerified": "2023-11-16T03:13:00Z",
     "ID": 221382,
     "UUID": "2C87C016-6192-497A-8778-6EA364303148",
-    "DataProviderID": 2,
-    "DataProvidersReference": "237646",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 221765,
-        "Title": "Food 4 Less - Tesla Supercharger",
-        "AddressLine1": "502 E Virginia Way",
+        "Title": "Barstow, CA - East Virginia Way",
+        "AddressLine1": "502 East Virginia Way",
         "Town": "Barstow",
         "StateOrProvince": "CA",
         "Postcode": "92311",
         "CountryID": 2,
-        "Latitude": 34.8864348,
-        "Longitude": -117.0198947,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
+        "Latitude": 34.886438,
+        "Longitude": -117.019894,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877 798 3752",
+        "AccessComments": "Located at Virgina Way Center",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,27 @@
         {
             "ID": 372030,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 486966,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 72,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 10,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW, 2 Superchargers, available 24/7, up to 72kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:18:00Z",
+    "DateLastStatusUpdate": "2023-11-16T03:13:00Z",
     "DateCreated": "2023-02-13T05:04:00Z",
     "SubmissionStatusTypeID": 100
 }

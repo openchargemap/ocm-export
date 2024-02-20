@@ -1,0 +1,64 @@
+{
+    "DateLastVerified": "2024-02-16T14:07:00Z",
+    "ID": 291208,
+    "UUID": "5753B9FA-278B-47F7-A5E6-86DA89B2B3D5",
+    "DataProviderID": 1,
+    "OperatorID": 2247,
+    "UsageTypeID": 4,
+    "UsageCost": "0,69€/kWh >200kW - 0,54€/kWh 80-200kW",
+    "AddressInfo": {
+        "ID": 291595,
+        "Title": "Rest. Doménech (Alberique)",
+        "AddressLine1": "CV-541",
+        "Town": "Alberic",
+        "StateOrProvince": "Comunitat Valenciana",
+        "Postcode": "46292",
+        "CountryID": 210,
+        "Latitude": 39.11950975869436,
+        "Longitude": -0.5360057399158791,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 515521,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Power electronics NBc360 Charger (max power limited to 200kW for 400V cars)"
+        },
+        {
+            "ID": 515522,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
+            "Comments": "Power electronics NB240 Charger"
+        },
+        {
+            "ID": 515523,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Power electronics NB240 Charger"
+        }
+    ],
+    "NumberOfPoints": 8,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-02-16T14:07:00Z",
+    "DateCreated": "2024-02-16T14:04:00Z",
+    "SubmissionStatusTypeID": 200
+}

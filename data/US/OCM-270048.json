@@ -1,21 +1,20 @@
 {
-    "DateLastVerified": "2023-07-12T09:07:00Z",
+    "DateLastVerified": "2023-12-05T21:55:00Z",
     "ID": 270048,
     "UUID": "30E8BBA2-61FA-4B40-820B-58701248D463",
-    "DataProviderID": 2,
-    "DataProvidersReference": "279337",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 270432,
-        "Title": "Evolve NY - Quackenbush (Albany, NY)",
-        "AddressLine1": "45 Montgomery St",
+        "Title": "Evolve NY Quackenbush",
+        "AddressLine1": "25 Orange Street",
         "Town": "Albany",
         "StateOrProvince": "NY",
         "Postcode": "12207",
         "CountryID": 2,
-        "Latitude": 42.65358,
-        "Longitude": -73.74707,
+        "Latitude": 42.65321,
+        "Longitude": -73.74811,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -25,24 +24,36 @@
         {
             "ID": 459701,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 459702,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 499454,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:07:00Z",
+    "DateLastStatusUpdate": "2023-12-05T21:55:00Z",
     "DateCreated": "2023-07-04T07:28:00Z",
     "SubmissionStatusTypeID": 100
 }

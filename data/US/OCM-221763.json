@@ -1,15 +1,14 @@
 {
-    "DateLastVerified": "2023-07-12T08:21:00Z",
+    "DateLastVerified": "2023-12-19T01:26:00Z",
     "ID": 221763,
     "UUID": "63868AB0-C42D-48C4-9822-5B9E3D8F9E41",
-    "DataProviderID": 2,
-    "DataProvidersReference": "220688",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 222146,
-        "Title": "Sheetz - Tesla Supercharger",
-        "AddressLine1": "701 Moye Boulevard",
+        "Title": "Greenville, NC Supercharger",
+        "AddressLine1": "701 Moye Blvd",
         "Town": "Greenville",
         "StateOrProvince": "NC",
         "Postcode": "27834",
@@ -17,7 +16,7 @@
         "Latitude": 35.605201,
         "Longitude": -77.400015,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "Located at Sheetz",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 372465,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:21:00Z",
+    "DateLastStatusUpdate": "2023-12-19T01:26:00Z",
     "DateCreated": "2023-02-13T05:05:00Z",
     "SubmissionStatusTypeID": 100
 }

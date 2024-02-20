@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2023-07-12T08:19:00Z",
+    "DateLastVerified": "2024-01-11T21:35:00Z",
     "ID": 241730,
     "UUID": "B3943CD6-260F-48D9-9C08-691F7DDDB09A",
-    "DataProviderID": 2,
-    "DataProvidersReference": "121818",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -25,6 +24,7 @@
         {
             "ID": 397817,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -34,15 +34,25 @@
         {
             "ID": 397818,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 510343,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:19:00Z",
+    "DateLastStatusUpdate": "2024-01-11T21:35:00Z",
     "DateCreated": "2023-03-07T03:40:00Z",
     "SubmissionStatusTypeID": 100
 }

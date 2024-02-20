@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:40:00Z",
+    "DateLastVerified": "2023-12-02T22:01:00Z",
     "ID": 245493,
     "UUID": "55CA3FAB-3C21-4DD4-AAE3-6E06BBD1E5A6",
-    "DataProviderID": 2,
-    "DataProvidersReference": "227707",
-    "OperatorID": 3534,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 245877,
-        "Title": "Raley's - Tesla Supercharger",
-        "AddressLine1": "1315 N State St",
+        "Title": "Ukiah, CA - North State Street",
+        "AddressLine1": "1315 North State Street",
         "Town": "Ukiah",
         "StateOrProvince": "CA",
         "Postcode": "95482",
         "CountryID": 2,
-        "Latitude": 39.168351,
-        "Longitude": -123.210046,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
+        "Latitude": 39.167837,
+        "Longitude": -123.210146,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Raley's",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 411650,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:40:00Z",
+    "DateLastStatusUpdate": "2023-12-02T22:01:00Z",
     "DateCreated": "2023-03-07T05:24:00Z",
     "SubmissionStatusTypeID": 100
 }

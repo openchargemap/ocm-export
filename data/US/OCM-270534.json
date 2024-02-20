@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T09:35:00Z",
+    "DateLastVerified": "2023-11-27T02:02:00Z",
     "ID": 270534,
     "UUID": "03175ADC-BF6E-4861-A9A3-5F38F0C67561",
-    "DataProviderID": 2,
-    "DataProvidersReference": "262476",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 270918,
-        "Title": "Burlington Crossings - Tesla Supercharger",
-        "AddressLine1": "2001 Marketplace Dr",
+        "Title": "Burlington, WA - Marketplace Drive",
+        "AddressLine1": "1829 Marketplace Dr",
         "Town": "Burlington",
         "StateOrProvince": "WA",
         "Postcode": "98233",
         "CountryID": 2,
         "Latitude": 48.451193,
         "Longitude": -122.33983,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only\r\nPublic - Credit card at all times",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Burlington Crossings",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 460256,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 16,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 16,
+    "GeneralComments": "16 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:35:00Z",
+    "DateLastStatusUpdate": "2023-11-27T02:02:00Z",
     "DateCreated": "2023-07-04T07:49:00Z",
     "SubmissionStatusTypeID": 100
 }

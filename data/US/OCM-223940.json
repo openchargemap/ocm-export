@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:34:00Z",
+    "DateLastVerified": "2024-02-14T18:23:00Z",
     "ID": 223940,
     "UUID": "0BBD505D-365B-4BFE-A2BC-6E51D1C96512",
-    "DataProviderID": 2,
-    "DataProvidersReference": "224155",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 224323,
-        "Title": "Bar K - Tesla Supercharger",
+        "Title": "Saint Louis, MO Supercharger",
         "AddressLine1": "4565 McRee Avenue",
         "Town": "St. Louis",
         "StateOrProvince": "MO",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 38.620145,
         "Longitude": -90.260552,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Bar K",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 374966,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:34:00Z",
+    "DateLastStatusUpdate": "2024-02-14T18:23:00Z",
     "DateCreated": "2023-02-13T05:11:00Z",
     "SubmissionStatusTypeID": 100
 }

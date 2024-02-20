@@ -1,10 +1,9 @@
 {
-    "DateLastVerified": "2023-04-03T15:03:00Z",
+    "DateLastVerified": "2023-11-17T17:53:00Z",
     "ID": 168526,
     "UUID": "426625ED-87AC-403D-B5C0-04B07625C854",
     "DataProviderID": 1,
     "OperatorID": 32,
-    "OperatorsReference": "",
     "UsageTypeID": 5,
     "UsageCost": "£0.79/kWh; other tariffs available",
     "AddressInfo": {
@@ -26,7 +25,8 @@
         {
             "ID": 255959,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "Reference": "24714",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -35,7 +35,8 @@
         {
             "ID": 255960,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "Reference": "24714",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -44,8 +45,11 @@
         {
             "ID": 255961,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "Reference": "24714",
+            "StatusTypeID": 100,
             "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
@@ -53,7 +57,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-03T15:03:00Z",
+    "DateLastStatusUpdate": "2023-11-17T17:53:00Z",
     "DateCreated": "2020-09-30T18:30:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:58:00Z",
+    "DateLastVerified": "2024-02-19T15:33:00Z",
     "ID": 246733,
     "UUID": "377CD0BF-F64D-4082-A801-06833CF42141",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102141",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 247117,
-        "Title": "Hy-Vee - Tesla Supercharger",
-        "AddressLine1": "1914 8th Street",
+        "Title": "Coralville, IA Supercharger",
+        "AddressLine1": "1915 8th Street",
         "Town": "Coralville",
         "StateOrProvince": "IA",
-        "Postcode": "52241",
+        "Postcode": "52241-1612",
         "CountryID": 2,
         "Latitude": 41.680372,
         "Longitude": -91.591467,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Hy-Vee",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 413046,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 150kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:58:00Z",
+    "DateLastStatusUpdate": "2024-02-19T15:33:00Z",
     "DateCreated": "2023-03-07T05:36:00Z",
     "SubmissionStatusTypeID": 100
 }

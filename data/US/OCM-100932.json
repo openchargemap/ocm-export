@@ -1,5 +1,22 @@
 {
-    "DateLastVerified": "2018-03-13T14:01:00Z",
+    "UserComments": [
+        {
+            "ID": 29285,
+            "ChargePointID": 100932,
+            "CommentTypeID": 10,
+            "UserName": "HelloEV",
+            "Comment": "",
+            "Rating": 4,
+            "DateCreated": "2023-11-20T12:34:12.813Z",
+            "User": {
+                "ID": 48039,
+                "Username": "HelloEV"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-12-02T21:47:00Z",
     "ID": 100932,
     "UUID": "FDDB3132-AE53-4E54-8956-58887F4CB694",
     "DataProviderID": 1,
@@ -9,14 +26,16 @@
     "UsageCost": "$0.24/min >=60kW; $0.12/min <60kW; other tariffs for older cars",
     "AddressInfo": {
         "ID": 101278,
-        "Title": "Woodbridge Township, NJ Supercharger",
+        "Title": "Woodbridge Township, NJ",
         "AddressLine1": "440 King Georges Road",
         "Town": "Woodbridge",
         "StateOrProvince": "NJ",
-        "Postcode": "08857-0000",
+        "Postcode": "08857",
         "CountryID": 2,
         "Latitude": 40.535859,
         "Longitude": -74.297322,
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Wawa",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +44,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 485353,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8
         }
     ],
-    "NumberOfPoints": 8,
-    "GeneralComments": "Charging8 Superchargers, available 24/7, up to 120kW",
+    "NumberOfPoints": 16,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW, 8 Superchargers, available 24/7, up to 150kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-03-13T14:01:00Z",
+    "DateLastStatusUpdate": "2023-12-02T21:47:00Z",
     "DateCreated": "2018-03-13T06:51:00Z",
     "SubmissionStatusTypeID": 200
 }

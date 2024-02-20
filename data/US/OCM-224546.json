@@ -1,9 +1,24 @@
 {
-    "DateLastVerified": "2023-07-12T08:38:00Z",
+    "UserComments": [
+        {
+            "ID": 29144,
+            "ChargePointID": 224546,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "The fast charger, Station ID 54146 displays “Error Code: TOWER _SAFETY_FAILED” called the number on the screen for Customer Assistance and they said that the charger is faulted and requires a technician to be sent out. ",
+            "DateCreated": "2023-10-23T01:25:14.45Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-10-23T01:25:00Z",
     "ID": 224546,
     "UUID": "88F0E529-2199-4449-B2B8-F66261AD2CE5",
-    "DataProviderID": 2,
-    "DataProvidersReference": "193583",
+    "DataProviderID": 1,
     "OperatorID": 59,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +29,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21032",
         "CountryID": 2,
-        "Latitude": 39.025902,
-        "Longitude": -76.607371,
+        "Latitude": 39.02490351074019,
+        "Longitude": -76.6083298593566,
         "ContactTelephone1": "855-900-7584",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://shellrecharge.com/en-us/solutions",
@@ -26,9 +41,9 @@
             "ID": 375672,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
@@ -45,15 +60,16 @@
         {
             "ID": 375674,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 30,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:38:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2023-10-23T01:25:00Z",
     "DateCreated": "2023-02-13T05:12:00Z",
     "SubmissionStatusTypeID": 100
 }

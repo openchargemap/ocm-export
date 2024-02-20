@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2023-07-12T07:59:00Z",
+    "DateLastVerified": "2023-11-04T19:33:00Z",
     "ID": 268709,
     "UUID": "61DA02BE-6306-4409-BC9C-ABF2F94D0D8C",
-    "DataProviderID": 2,
-    "DataProvidersReference": "262628",
+    "DataProviderID": 1,
     "OperatorID": 15,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "TX",
         "Postcode": "78660",
         "CountryID": 2,
-        "Latitude": 30.46639,
-        "Longitude": -97.59718,
+        "Latitude": 30.466493205557043,
+        "Longitude": -97.59719429672953,
         "ContactTelephone1": "877-455-3833",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.evgo.com/",
@@ -35,14 +34,26 @@
             "ID": 458217,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 486294,
+            "ConnectionTypeID": 32,
+            "LevelID": 2,
+            "PowerKW": 350
+        },
+        {
+            "ID": 486295,
+            "ConnectionTypeID": 32,
+            "LevelID": 2,
+            "PowerKW": 100
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:59:00Z",
+    "DateLastStatusUpdate": "2023-11-04T19:33:00Z",
     "DateCreated": "2023-07-04T06:38:00Z",
     "SubmissionStatusTypeID": 100
 }

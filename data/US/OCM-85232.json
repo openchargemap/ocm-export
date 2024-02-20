@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2017-03-30T12:37:00Z",
+    "DateLastVerified": "2023-11-21T21:16:00Z",
     "ID": 85232,
     "UUID": "F48F11A0-8448-487C-9CE3-798C790CDE08",
     "DataProviderID": 1,
     "OperatorID": 15,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "UsageCost": "$9.95 flat fee",
     "AddressInfo": {
         "ID": 85578,
@@ -14,8 +14,8 @@
         "StateOrProvince": "NH",
         "Postcode": "03060",
         "CountryID": 2,
-        "Latitude": 42.7016049,
-        "Longitude": -71.4367899,
+        "Latitude": 42.6996337233179,
+        "Longitude": -71.43671481270627,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,23 +24,32 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 121023,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 487460,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 6.6,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-03-30T12:37:00Z",
+    "DateLastStatusUpdate": "2023-11-21T21:16:00Z",
     "DateCreated": "2017-03-30T02:15:00Z",
     "SubmissionStatusTypeID": 200
 }

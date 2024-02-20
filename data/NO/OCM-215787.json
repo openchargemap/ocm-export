@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-12T03:25:00Z",
+    "DateLastVerified": "2024-02-20T07:40:00Z",
     "ID": 215787,
     "UUID": "E0667AE0-6045-4F5D-885F-B90382469B54",
     "DataProviderID": 19,
@@ -9,7 +9,7 @@
         "Title": "Geilo",
         "AddressLine1": "Skurdalsvegen 1",
         "Town": "GEILO",
-        "StateOrProvince": "Viken",
+        "StateOrProvince": "Buskerud",
         "Postcode": "3580",
         "CountryID": 168,
         "Latitude": 60.5324208,
@@ -51,32 +51,22 @@
         },
         {
             "ID": 363199,
-            "ConnectionTypeID": 2,
-            "Reference": "13",
+            "ConnectionTypeID": 33,
+            "Reference": "5",
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
         {
             "ID": 363200,
             "ConnectionTypeID": 33,
-            "Reference": "14",
+            "Reference": "6",
             "LevelID": 3,
             "Comments": "Mode 4"
         },
         {
             "ID": 363201,
-            "ConnectionTypeID": 33,
-            "Reference": "15",
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 363202,
             "ConnectionTypeID": 2,
-            "Reference": "16",
+            "Reference": "7",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -85,16 +75,27 @@
             "Comments": "Mode 4"
         },
         {
+            "ID": 363202,
+            "ConnectionTypeID": 25,
+            "Reference": "8",
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Comments": "Mode 3"
+        },
+        {
             "ID": 363203,
             "ConnectionTypeID": 33,
-            "Reference": "9",
+            "Reference": "13",
             "LevelID": 3,
             "Comments": "Mode 4"
         },
         {
             "ID": 363204,
             "ConnectionTypeID": 2,
-            "Reference": "10",
+            "Reference": "14",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
@@ -105,21 +106,24 @@
         {
             "ID": 363205,
             "ConnectionTypeID": 33,
-            "Reference": "11",
+            "Reference": "15",
             "LevelID": 3,
             "Comments": "Mode 4"
         },
         {
             "ID": 363206,
             "ConnectionTypeID": 33,
-            "Reference": "12",
+            "Reference": "16",
             "LevelID": 3,
             "Comments": "Mode 4"
         },
         {
             "ID": 363207,
             "ConnectionTypeID": 33,
-            "Reference": "17",
+            "Reference": "23",
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
         {
@@ -130,19 +134,20 @@
         },
         {
             "ID": 363209,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "Reference": "19",
+            "LevelID": 3,
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 363210,
+            "ConnectionTypeID": 2,
+            "Reference": "20",
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 363210,
-            "ConnectionTypeID": 33,
-            "Reference": "20",
             "Comments": "Mode 4"
         },
         {
@@ -156,13 +161,11 @@
             "ConnectionTypeID": 33,
             "Reference": "22",
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
             "Comments": "Mode 4"
         }
     ],
-    "NumberOfPoints": 22,
-    "DateLastStatusUpdate": "2023-07-12T03:25:00Z",
+    "NumberOfPoints": 23,
+    "DateLastStatusUpdate": "2024-02-20T07:40:00Z",
     "DateCreated": "2023-02-09T09:50:00Z",
     "SubmissionStatusTypeID": 100
 }

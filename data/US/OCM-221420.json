@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:19:00Z",
+    "DateLastVerified": "2024-02-13T18:11:00Z",
     "ID": 221420,
     "UUID": "63653A2E-C8CC-487B-A048-27EB7AB12A36",
-    "DataProviderID": 2,
-    "DataProvidersReference": "195695",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 221803,
-        "Title": "Outlets at Tejon - Tesla Supercharger",
+        "Title": "Tejon Ranch, CA – Outlets at Tejon Pkwy Supercharger",
         "AddressLine1": "5701 Outlets at Tejon Parkway",
         "Town": "Arvin",
         "StateOrProvince": "CA",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 34.985735,
         "Longitude": -118.943854,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Outlets at Tejon",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 372074,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 56,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 76,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 76,
+    "GeneralComments": "76 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:19:00Z",
+    "DateLastStatusUpdate": "2024-02-13T18:11:00Z",
     "DateCreated": "2023-02-13T05:04:00Z",
     "SubmissionStatusTypeID": 100
 }

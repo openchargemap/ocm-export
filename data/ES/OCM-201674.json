@@ -1,13 +1,32 @@
 {
-    "DateLastVerified": "2022-09-04T09:47:00Z",
+    "MediaItems": [
+        {
+            "ID": 40829,
+            "ChargePointID": 201674,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201674/OCM-201674.orig.2023122118304556.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201674/OCM-201674.thmb.2023122118304556.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-12-21T18:31:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-04T18:16:00Z",
     "ID": 201674,
     "UUID": "6D3ED067-5CC2-4F22-BD40-241D30D8E8C3",
     "DataProviderID": 1,
-    "OperatorID": 91,
+    "OperatorID": 3324,
     "UsageTypeID": 4,
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 202038,
-        "Title": "Repsol Bombero etxaniz",
+        "Title": "Bombero Etxaniz (Zunder)",
         "AddressLine1": "Silken Indautxu",
         "Town": "Bilbao",
         "StateOrProvince": "Basque Country",
@@ -23,34 +42,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 336685,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 336686,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC150 CCS/Chademo charger."
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Station power currently limited to 50kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-04T09:47:00Z",
+    "DateLastStatusUpdate": "2024-02-04T18:16:00Z",
     "DateCreated": "2022-09-04T09:24:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,21 +1,39 @@
 {
-    "DateLastVerified": "2023-07-07T05:57:00Z",
+    "MediaItems": [
+        {
+            "ID": 41498,
+            "ChargePointID": 125017,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM125017/OCM-125017.orig.2024021621202443.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM125017/OCM-125017.thmb.2024021621202443.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-02-16T21:20:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-16T21:56:00Z",
     "ID": 125017,
     "UUID": "86FE2129-8539-41D9-BE01-62C3FCC66BF0",
     "DataProviderID": 1,
-    "OperatorID": 3276,
+    "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,54€/kWh DC/AC43kW - 0,42€/kWh AC 22kW - (0,10€/min parked without charging)",
+    "UsageCost": "0,55€/kWh ",
     "AddressInfo": {
         "ID": 125363,
-        "Title": "Univ. Oviedo Aparcamiento Campus Universitario ",
+        "Title": "Univ. Oviedo Edificio Investigación Mieres  (Zunder)",
         "AddressLine1": "Calle Gonzalo Gutierrez Quiros",
         "Town": "Mieres",
         "StateOrProvince": "Asturias",
         "Postcode": "33600",
         "CountryID": 210,
-        "Latitude": 43.241072,
-        "Longitude": -5.776135,
+        "Latitude": 43.243201313877904,
+        "Longitude": -5.7758541966408075,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,43 +42,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 175221,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 175222,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 337389,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC150  Charger. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW."
         }
     ],
-    "NumberOfPoints": 4,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-07T05:57:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-02-16T21:56:00Z",
     "DateCreated": "2019-04-07T16:27:00Z",
     "SubmissionStatusTypeID": 200
 }

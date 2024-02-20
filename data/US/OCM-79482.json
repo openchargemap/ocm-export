@@ -1,22 +1,25 @@
 {
-    "DateLastVerified": "2020-12-03T07:04:00Z",
+    "DateLastVerified": "2024-02-14T05:01:00Z",
     "ID": 79482,
     "UUID": "B0685B73-8B6E-41DB-BF2E-1579641B1C7E",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "7687",
     "UsageTypeID": 4,
-    "UsageCost": "$0.24/min >=60kW; $0.12/min <60kW; other tariffs for older cars",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 79828,
-        "Title": "Winnemucca Supercharger",
-        "AddressLine1": "1985 W Winnemucca Blvd.",
+        "Title": "Winnemucca, NV Supercharger",
+        "AddressLine1": "1985 W Winnemucca Blvd",
         "Town": "Winnemucca",
         "StateOrProvince": "NV",
-        "Postcode": "89446",
+        "Postcode": "89445-3649",
         "CountryID": 2,
         "Latitude": 40.958869,
         "Longitude": -117.746501,
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Pete's Gambling Hall",
+        "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,15 +29,24 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "Voltage": 400,
-            "PowerKW": 120,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 6
+            "Quantity": 4
+        },
+        {
+            "ID": 486351,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 6,
-    "GeneralComments": "4 Superchargers, available 24/7",
+    "NumberOfPoints": 8,
+    "GeneralComments": "4 Superchargers up to 250kW, Available 24/7; 4 Superchargers up to 150kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-03T07:04:00Z",
+    "DateLastStatusUpdate": "2024-02-14T05:01:00Z",
     "DateCreated": "2017-01-29T17:23:00Z",
     "SubmissionStatusTypeID": 200
 }

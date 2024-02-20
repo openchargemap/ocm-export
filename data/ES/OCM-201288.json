@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-01-23T11:51:00Z",
+    "MediaItems": [
+        {
+            "ID": 40318,
+            "ChargePointID": 201288,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201288/OCM-201288.orig.2023111819191402.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201288/OCM-201288.thmb.2023111819191402.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-18T19:19:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-18T19:19:00Z",
     "ID": 201288,
     "UUID": "20862A06-67C9-4CC9-A69F-634F9DEBFCB5",
     "DataProviderID": 1,
@@ -7,7 +25,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 201651,
-        "Title": "Tesla Supercharher Diagonal",
+        "Title": "Tesla Supercharger Diagonal",
         "AddressLine1": "571 Avinguda Diagonal",
         "Town": "Barcelona",
         "StateOrProvince": "Catalonia",
@@ -25,12 +43,14 @@
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "V2 (CCS+Tesla S/X connector)"
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "4 V2 superchargers 150kW (CCS+Tesla S/X connector). Each two A/B chargers share 150kW of the power cabinet",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-23T11:51:00Z",
+    "DateLastStatusUpdate": "2023-11-18T19:19:00Z",
     "DateCreated": "2022-08-26T09:27:00Z",
     "SubmissionStatusTypeID": 200
 }

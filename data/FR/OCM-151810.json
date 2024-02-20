@@ -1,18 +1,38 @@
 {
-    "DateLastVerified": "2020-08-27T05:12:00Z",
+    "MediaItems": [
+        {
+            "ID": 39069,
+            "ChargePointID": 151810,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM151810/OCM-151810.orig.2023081108085247.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM151810/OCM-151810.thmb.2023081108085247.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47625,
+                "Username": "laurent-38"
+            },
+            "DateCreated": "2023-08-11T08:09:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-08-15T06:51:00Z",
     "ID": 151810,
     "UUID": "9A68B27A-8BCA-40C6-BB58-90BEFF75E040",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*S38*P38530*A",
+    "DataProviderID": 1,
     "OperatorID": 3408,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 152163,
         "Title": "VAULX MILIEU_Parking Gymnase Rue des Ecoles",
-        "AddressLine1": "Parking Gymnase Rue des Ecoles 38090 VAULX MILIEU",
+        "AddressLine1": "Rue des écoles",
+        "Town": "Vaulx-Milieu",
+        "StateOrProvince": "",
+        "Postcode": "38090",
         "CountryID": 80,
-        "Latitude": 45.6146611,
-        "Longitude": 5.183872,
+        "Latitude": 45.61461233350897,
+        "Longitude": 5.183851327335219,
         "AccessComments": "24/24 7/7 jours",
         "DistanceUnit": 0
     },
@@ -22,37 +42,24 @@
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 212203,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 244656,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 244657,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:12:00Z",
+    "DateLastStatusUpdate": "2023-08-15T06:51:00Z",
     "DateCreated": "2020-03-15T10:53:00Z",
     "SubmissionStatusTypeID": 100
 }

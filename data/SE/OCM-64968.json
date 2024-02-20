@@ -1,11 +1,12 @@
 {
-    "DateLastVerified": "2019-08-11T15:18:00Z",
+    "DateLastVerified": "2023-10-01T10:09:00Z",
     "ID": 64968,
     "UUID": "48FEE467-5642-43C4-ABFA-660ADC60ED9B",
     "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 65314,
-        "Title": "CLEVER Rosersberg / Preem",
+        "Title": "Preem Rosersberg - Mer",
         "AddressLine1": "Norrsundavägen 202",
         "Town": "ROSERSBERG",
         "StateOrProvince": "STOCKHOLM",
@@ -26,6 +27,7 @@
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
@@ -37,23 +39,33 @@
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 88342,
             "ConnectionTypeID": 25,
             "Reference": "3",
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
-            "PowerKW": 25,
+            "PowerKW": 43,
             "CurrentTypeID": 20,
+            "Quantity": 1,
             "Comments": "Mode 3"
+        },
+        {
+            "ID": 481506,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 150,
+            "Quantity": 8
         }
     ],
     "NumberOfPoints": 3,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2019-08-11T15:18:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-10-01T10:09:00Z",
     "DateCreated": "2016-04-01T07:49:00Z",
     "SubmissionStatusTypeID": 100
 }

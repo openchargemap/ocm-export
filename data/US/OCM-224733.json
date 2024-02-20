@@ -1,9 +1,24 @@
 {
-    "DateLastVerified": "2023-07-12T08:40:00Z",
+    "UserComments": [
+        {
+            "ID": 29149,
+            "ChargePointID": 224733,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "The fast charger, Station ID 43397, is offline and displays a message: “In Maintenance.” The Level 2 on the far right, 52225A, is offline and displays a message to “Please Contact Customer Support.” I notified Shell Recharge of both issues via the app.",
+            "DateCreated": "2023-10-23T02:03:11.14Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-10-23T02:03:00Z",
     "ID": 224733,
     "UUID": "BBA2355B-B3C2-4A8D-9633-7DF20DD836B3",
-    "DataProviderID": 2,
-    "DataProvidersReference": "205719",
+    "DataProviderID": 1,
     "OperatorID": 59,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +29,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21076",
         "CountryID": 2,
-        "Latitude": 39.160448,
-        "Longitude": -76.67952,
+        "Latitude": 39.15951101827142,
+        "Longitude": -76.67925659352136,
         "ContactTelephone1": "855-900-7584",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://shellrecharge.com/en-us/solutions",
@@ -26,9 +41,9 @@
             "ID": 375877,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
@@ -52,8 +67,9 @@
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "NumberOfPoints": 7,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:40:00Z",
+    "DateLastStatusUpdate": "2023-10-23T02:03:00Z",
     "DateCreated": "2023-02-13T05:13:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-08-04T21:55:00Z",
+    "DateLastVerified": "2023-10-29T08:58:00Z",
     "ID": 194253,
     "UUID": "D32A89B6-37C1-4138-B33A-CE687807C886",
     "DataProviderID": 1,
@@ -15,36 +15,40 @@
         "StateOrProvince": "Waikato",
         "Postcode": "3493",
         "CountryID": 161,
-        "Latitude": -37.8668428987154,
-        "Longitude": 175.45674031300632,
-        "RelatedURL": "https://www.z.co.nz/products-and-services/at-the-station/ev-charging",
+        "Latitude": -37.867049371618236,
+        "Longitude": 175.45656502290836,
+        "AccessComments": "Behind the shop",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 316433,
             "ConnectionTypeID": 33,
+            "Reference": "ZEL-1026",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 180,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 3,
-            "Comments": "speed reduced to 90kw if more than 1 car connected"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 316434,
             "ConnectionTypeID": 2,
+            "Reference": "ZEL-1026",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": ""
         }
     ],
-    "NumberOfPoints": 4,
-    "GeneralComments": " two ABB Terra 184kW rapid DC Chargers",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-08-04T21:55:00Z",
+    "NumberOfPoints": 3,
+    "GeneralComments": "",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-10-29T08:58:00Z",
     "DateCreated": "2022-07-22T08:17:00Z",
     "SubmissionStatusTypeID": 200
 }

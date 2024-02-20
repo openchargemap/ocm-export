@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2023-07-12T08:05:00Z",
+    "DateLastVerified": "2023-12-29T13:50:00Z",
     "ID": 240157,
     "UUID": "AA14A0E7-DEF5-474A-AD34-34F1595F6C80",
-    "DataProviderID": 2,
-    "DataProvidersReference": "187697",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "GA",
         "Postcode": "30813",
         "CountryID": 2,
-        "Latitude": 33.48084,
-        "Longitude": -82.1967,
+        "Latitude": 33.4807986136793,
+        "Longitude": -82.19691456850887,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -25,6 +24,7 @@
         {
             "ID": 396086,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -34,15 +34,25 @@
         {
             "ID": 396087,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 507160,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:05:00Z",
+    "DateLastStatusUpdate": "2023-12-29T13:50:00Z",
     "DateCreated": "2023-03-07T03:31:00Z",
     "SubmissionStatusTypeID": 100
 }

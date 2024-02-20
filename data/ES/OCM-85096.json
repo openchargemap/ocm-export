@@ -49,45 +49,38 @@
             "DateCreated": "2023-08-06T12:50:00Z"
         }
     ],
-    "DateLastVerified": "2023-08-06T21:54:00Z",
+    "DateLastVerified": "2023-08-08T08:21:00Z",
     "ID": 85096,
     "UUID": "60917F5C-5ACB-4306-9C9A-4540DF02B2C6",
     "DataProviderID": 1,
     "OperatorID": 45,
     "OperatorsReference": "25894",
     "UsageTypeID": 6,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 85442,
         "Title": "Parador de Cordoba",
         "AddressLine1": "37 Avenida de la Arruzafa",
         "Town": "Cordoba",
+        "StateOrProvince": "Cordoba",
         "Postcode": "14012",
         "CountryID": 210,
-        "Latitude": 37.906313,
-        "Longitude": -4.800545,
+        "Latitude": 37.90580508520745,
+        "Longitude": -4.800781032388443,
         "ContactTelephone1": "+34 957 275 900",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 120854,
-            "ConnectionTypeID": 30,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 400,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
             "ID": 340382,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 23,
+            "Voltage": 400,
             "PowerKW": 16,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 340383,
@@ -97,12 +90,23 @@
             "PowerKW": 2.3,
             "CurrentTypeID": 10,
             "Quantity": 2
+        },
+        {
+            "ID": 471681,
+            "ConnectionTypeID": 17,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
-    "GeneralComments": "1 Tesla Connector, up to 11kW.Available for patrons only. Please see front desk.",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Available for patrons only. Please see front desk.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-08-06T21:54:00Z",
+    "DateLastStatusUpdate": "2023-08-08T08:21:00Z",
     "DateCreated": "2017-03-25T06:28:00Z",
     "SubmissionStatusTypeID": 200
 }

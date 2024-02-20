@@ -1,12 +1,30 @@
 {
-    "DateLastVerified": "2021-01-16T06:13:00Z",
+    "MediaItems": [
+        {
+            "ID": 40199,
+            "ChargePointID": 85616,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM85616/OCM-85616.orig.2023111205325813.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM85616/OCM-85616.thmb.2023111205325813.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27693,
+                "Username": "dparr59"
+            },
+            "DateCreated": "2023-11-12T05:33:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-12T05:33:00Z",
     "ID": 85616,
     "UUID": "155E2595-1775-4175-9464-7E581ED5E721",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1294",
     "UsageTypeID": 5,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 85962,
         "Title": "Rivington Services Southbound",
@@ -17,6 +35,7 @@
         "CountryID": 1,
         "Latitude": 53.601339,
         "Longitude": -2.572909,
+        "RelatedURL": "http://Fuuse",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -33,20 +52,29 @@
         },
         {
             "ID": 121724,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
-            "LevelID": 3,
+            "LevelID": 2,
             "Amps": 63,
             "Voltage": 400,
-            "PowerKW": 43,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 486744,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Access via Ecotricity Electric Highway app only",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-16T06:13:00Z",
+    "DateLastStatusUpdate": "2023-11-12T05:33:00Z",
     "DateCreated": "2017-04-09T17:41:00Z",
     "SubmissionStatusTypeID": 200
 }

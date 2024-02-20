@@ -1,10 +1,60 @@
 {
-    "DateLastVerified": "2023-08-01T22:15:00Z",
+    "UserComments": [
+        {
+            "ID": 29013,
+            "ChargePointID": 259836,
+            "CommentTypeID": 10,
+            "UserName": "gw8ogi",
+            "Comment": "Car park locked this morning, but a good charge on chademo this evening",
+            "DateCreated": "2023-09-20T16:18:21.663Z",
+            "User": {
+                "ID": 47841,
+                "Username": "gw8ogi"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 39226,
+            "ChargePointID": 259836,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM259836/OCM-259836.orig.2023081919192554.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM259836/OCM-259836.thmb.2023081919192554.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47841,
+                "Username": "gw8ogi"
+            },
+            "DateCreated": "2023-08-19T19:20:00Z"
+        },
+        {
+            "ID": 39225,
+            "ChargePointID": 259836,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM259836/OCM-259836.orig.2023081919191273.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM259836/OCM-259836.thmb.2023081919191273.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47841,
+                "Username": "gw8ogi"
+            },
+            "DateCreated": "2023-08-19T19:19:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-12T15:55:00Z",
     "ID": 259836,
     "UUID": "50645818-B526-4ECE-8F36-5C6EBFF63495",
     "DataProviderID": 1,
     "OperatorID": 203,
-    "OperatorsReference": "GB*OSP*EOSP00040*1,GB*OSP*EOSP00040*2,GB*OSP*EOSP00040*3",
+    "OperatorsReference": "GB*OSP*EOSP20748*1,GB*OSP*EOSP20748*2,GB*OSP*EOSP20749*1,GB*OSP*EOSP20749*2",
     "UsageTypeID": 5,
     "UsageCost": "£0.79/kWh",
     "AddressInfo": {
@@ -16,45 +66,54 @@
         "CountryID": 1,
         "Latitude": 53.189868,
         "Longitude": -3.0518362,
+        "AccessComments": "Not accessible when pub is closed and barrier is across car park entrance.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 451289,
+            "ID": 514149,
             "ConnectionTypeID": 33,
-            "Reference": "GB*OSP*EOSP00040*1",
-            "StatusTypeID": 0,
+            "Reference": "GB*OSP*EOSP20749*1",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 451290,
+            "ID": 514150,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP20748*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 514151,
             "ConnectionTypeID": 2,
-            "Reference": "GB*OSP*EOSP00040*2",
-            "StatusTypeID": 0,
+            "Reference": "GB*OSP*EOSP20748*2",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 468095,
-            "ConnectionTypeID": 25,
-            "Reference": "GB*OSP*EOSP00040*3",
-            "StatusTypeID": 0,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
+            "ID": 514152,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP20749*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-08-01T22:15:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2024-02-12T15:55:00Z",
     "DateCreated": "2023-04-13T11:16:00Z",
     "SubmissionStatusTypeID": 200
 }

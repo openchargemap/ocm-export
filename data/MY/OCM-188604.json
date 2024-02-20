@@ -1,44 +1,76 @@
 {
-    "DateLastVerified": "2021-08-04T09:43:00Z",
+    "UserComments": [
+        {
+            "ID": 29377,
+            "ChargePointID": 188604,
+            "CommentTypeID": 100,
+            "UserName": "Afza",
+            "Comment": "CPO change to Gentari (Dynamic 180 kW DC). No more chargEV 22 kW. ",
+            "Rating": 5,
+            "DateCreated": "2023-12-31T03:45:26.52Z",
+            "User": {
+                "ID": 48326,
+                "Username": "Afza"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 40959,
+            "ChargePointID": 188604,
+            "ItemURL": "https://media.openchargemap.io/images/MY/OCM188604/OCM-188604.orig.2023123103433778.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/MY/OCM188604/OCM-188604.thmb.2023123103433778.jpg",
+            "Comment": "2 bayi Gentari Dynamic 180 kW DC ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 48326,
+                "Username": "Afza"
+            },
+            "DateCreated": "2023-12-31T03:44:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-01-02T09:26:00Z",
     "ID": 188604,
     "UUID": "34102984-8EB0-43C5-A6EA-F9D7F9314254",
     "DataProviderID": 1,
-    "OperatorID": 3338,
-    "UsageTypeID": 4,
-    "UsageCost": "Yearly Subscription",
+    "OperatorID": 3517,
+    "UsageTypeID": 1,
+    "UsageCost": "RM 1.50/kW",
     "AddressInfo": {
         "ID": 188963,
         "Title": "Petronas R&R Sungai Perak Northbound",
-        "AddressLine1": "Kawasan Rehat Sungai Perak",
-        "Town": "Jerlun",
+        "AddressLine1": "Stesen Petronas ",
+        "AddressLine2": "R&R Sungai Perak Northbound",
+        "Town": "Kuala Kangsar",
         "StateOrProvince": "Perak",
         "CountryID": 137,
-        "Latitude": 4.7130502292909995,
-        "Longitude": 100.9449831255638,
-        "ContactTelephone1": "+60 11 2337 3387",
-        "ContactTelephone2": "+60 10 213 0387",
-        "RelatedURL": "https://chargev.my/",
+        "Latitude": 4.713001352884035,
+        "Longitude": 100.94498047940567,
+        "ContactTelephone1": "+601110952675",
+        "ContactEmail": "support@jomcharge.com",
+        "RelatedURL": "https://www.jomcharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 304639,
-            "ConnectionTypeID": 25,
-            "Reference": "ChargEV",
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 415,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1,
-            "Comments": "Use ChargEV RFID card or ChargEV ElectreeFi app"
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "RM240/year, FREE to charge",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Gentari Dynamic 180 kW DC.\r\nPayment using JomCharge / chargEV / Setel app.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-08-04T09:43:00Z",
+    "DateLastStatusUpdate": "2024-01-02T09:26:00Z",
     "DateCreated": "2021-08-04T02:04:00Z",
     "SubmissionStatusTypeID": 200
 }

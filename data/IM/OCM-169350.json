@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2020-10-23T05:16:00Z",
+    "DateLastVerified": "2024-01-04T15:43:00Z",
     "ID": 169350,
     "UUID": "993CC73E-4D6B-4EA0-A907-B9D4B8133546",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-84482",
     "UsageTypeID": 4,
-    "UsageCost": "£0.19/kWh",
+    "UsageCost": "£0.33/kWh",
     "AddressInfo": {
         "ID": 169709,
         "Title": "Market Place",
@@ -20,21 +20,23 @@
     },
     "Connections": [
         {
-            "ID": 257668,
+            "ID": 483505,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "Reference": "PG-84482",
+            "StatusTypeID": 0,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Fern-Cole"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the Market Place, Peel",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-10-23T05:16:00Z",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2024-01-04T15:43:00Z",
     "DateCreated": "2020-10-15T21:33:00Z",
     "SubmissionStatusTypeID": 200
 }

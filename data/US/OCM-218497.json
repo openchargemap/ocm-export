@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:00:00Z",
+    "DateLastVerified": "2023-12-23T17:54:00Z",
     "ID": 218497,
     "UUID": "CAFE9B34-F573-4E85-8BE6-D7E3A3E82269",
-    "DataProviderID": 2,
-    "DataProvidersReference": "237641",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 218877,
-        "Title": "Circle K - Tesla Supercharger",
+        "Title": "Ashburn, GA Supercharger",
         "AddressLine1": "823 E Washington Ave",
         "Town": "Ashburn",
         "StateOrProvince": "GA",
         "Postcode": "31714",
         "CountryID": 2,
-        "Latitude": 31.712344,
-        "Longitude": -83.638266,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
+        "Latitude": 31.712366885831358,
+        "Longitude": -83.63826980927419,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Circle K",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 368817,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 16,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 16,
+    "GeneralComments": "16 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:00:00Z",
+    "DateLastStatusUpdate": "2023-12-23T17:54:00Z",
     "DateCreated": "2023-02-13T04:55:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2023-07-12T07:52:00Z",
+    "DateLastVerified": "2024-01-10T19:59:00Z",
     "ID": 268578,
     "UUID": "C917C1D1-B380-4875-8798-6FABB0B7079F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "298654",
+    "DataProviderID": 1,
     "OperatorID": 15,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -11,11 +10,11 @@
         "Title": "Wawa Palm Springs #5227",
         "AddressLine1": "3288 S. Military Trail Country City",
         "Town": "Palm Springs",
-        "StateOrProvince": "",
+        "StateOrProvince": "FL",
         "Postcode": "33461",
         "CountryID": 2,
-        "Latitude": 22.62901,
-        "Longitude": -80.111831,
+        "Latitude": 26.629001,
+        "Longitude": -80.111798,
         "ContactTelephone1": "877-455-3833",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.evgo.com/",
@@ -25,24 +24,35 @@
         {
             "ID": 458073,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 458074,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 509989,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:52:00Z",
+    "DateLastStatusUpdate": "2024-01-10T19:59:00Z",
     "DateCreated": "2023-07-04T06:32:00Z",
     "SubmissionStatusTypeID": 100
 }

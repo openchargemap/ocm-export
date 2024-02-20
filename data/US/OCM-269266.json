@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:28:00Z",
+    "DateLastVerified": "2024-02-06T13:56:00Z",
     "ID": 269266,
     "UUID": "305157C8-0F18-43A1-BED7-5A6344654941",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102045",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 269650,
-        "Title": "Computer History Museum - Tesla Supercharger",
-        "AddressLine1": "1401 N. Shoreline Blvd.",
+        "Title": "Mountain View, CA Supercharger",
+        "AddressLine1": "1401 N Shoreline Blvd",
         "Town": "Mountain View",
         "StateOrProvince": "CA",
-        "Postcode": "94043",
+        "Postcode": "94043-1311",
         "CountryID": 2,
         "Latitude": 37.415328,
         "Longitude": -122.076575,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Computer History Museum",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 458830,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers up to 150kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:28:00Z",
+    "DateLastStatusUpdate": "2024-02-06T13:56:00Z",
     "DateCreated": "2023-07-04T06:59:00Z",
     "SubmissionStatusTypeID": 100
 }

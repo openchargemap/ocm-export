@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:01:00Z",
+    "DateLastVerified": "2023-11-21T13:12:00Z",
     "ID": 228458,
     "UUID": "36B14FB5-373B-445E-808B-C05985C9B46A",
-    "DataProviderID": 2,
-    "DataProvidersReference": "237869",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 228841,
-        "Title": "Evolve NY- Hancock",
+        "Title": "Evolve NY Hancock",
         "AddressLine1": "661 W. Main Street",
         "Town": "Hancock",
         "StateOrProvince": "NY",
@@ -25,24 +24,35 @@
         {
             "ID": 380023,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 380024,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 487419,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:01:00Z",
+    "DateLastStatusUpdate": "2023-11-21T13:12:00Z",
     "DateCreated": "2023-02-13T05:24:00Z",
     "SubmissionStatusTypeID": 100
 }

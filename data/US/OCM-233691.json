@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-03-20T15:08:00Z",
+    "DateLastVerified": "2024-02-18T23:41:00Z",
     "ID": 233691,
     "UUID": "9A26BDFA-9E31-4959-8CE6-BA1850D996CD",
     "DataProviderID": 1,
@@ -8,7 +8,7 @@
     "AddressInfo": {
         "ID": 234074,
         "Title": "Kroger Fred Meyer 655 (Port Orchard, WA)",
-        "AddressLine1": "1900 SE Sedgwick Rd",
+        "AddressLine1": "1900 SE Sedgwick Road",
         "Town": "Port Orchard",
         "StateOrProvince": "WA",
         "Postcode": "98366",
@@ -16,7 +16,6 @@
         "Latitude": 47.50453,
         "Longitude": -122.62941,
         "ContactTelephone1": "833-632-2778",
-        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
         "DistanceUnit": 0
     },
@@ -24,6 +23,7 @@
         {
             "ID": 385688,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -32,6 +32,7 @@
         {
             "ID": 385689,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
@@ -44,20 +45,12 @@
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 431234,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-20T15:08:00Z",
+    "DateLastStatusUpdate": "2024-02-18T23:41:00Z",
     "DateCreated": "2023-02-13T05:39:00Z",
-    "SubmissionStatusTypeID": 100
+    "SubmissionStatusTypeID": 200
 }

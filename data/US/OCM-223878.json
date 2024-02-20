@@ -1,23 +1,22 @@
 {
-    "DateLastVerified": "2023-07-12T08:34:00Z",
+    "DateLastVerified": "2023-11-29T22:21:00Z",
     "ID": 223878,
     "UUID": "992F34E2-A637-4423-8C8E-BB3EC86B4237",
-    "DataProviderID": 2,
-    "DataProvidersReference": "250740",
+    "DataProviderID": 1,
     "OperatorID": 3534,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 224261,
-        "Title": "Hyatt Place Moab - Tesla Supercharger",
+        "Title": "Hyatt Place - Tesla Supercharger",
         "AddressLine1": "890 N Main St",
         "Town": "Moab",
         "StateOrProvince": "UT",
         "Postcode": "84532",
         "CountryID": 2,
-        "Latitude": 38.585988,
-        "Longitude": -109.5566,
+        "Latitude": 38.586045,
+        "Longitude": -109.556846,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,26 @@
         {
             "ID": 374895,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 488288,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:34:00Z",
+    "DateLastStatusUpdate": "2023-11-29T22:21:00Z",
     "DateCreated": "2023-02-13T05:10:00Z",
     "SubmissionStatusTypeID": 100
 }

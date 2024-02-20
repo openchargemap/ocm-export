@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2023-07-12T08:30:00Z",
+    "DateLastVerified": "2023-12-18T18:51:00Z",
     "ID": 223287,
     "UUID": "8366095F-839E-4F33-8F12-422E77C578FC",
-    "DataProviderID": 2,
-    "DataProvidersReference": "212746",
+    "DataProviderID": 1,
     "OperatorID": 3534,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -17,7 +16,7 @@
         "Latitude": 37.74437,
         "Longitude": -88.96229,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,26 @@
         {
             "ID": 374209,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
+        },
+        {
+            "ID": 504641,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW. This Supercharger is open to Tesla vehicles and Non-Tesla vehicles with CCS compatibility",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:30:00Z",
+    "DateLastStatusUpdate": "2023-12-18T18:51:00Z",
     "DateCreated": "2023-02-13T05:09:00Z",
     "SubmissionStatusTypeID": 100
 }

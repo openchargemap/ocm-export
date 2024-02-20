@@ -43,32 +43,14 @@
             "CheckinStatusTypeID": 15
         }
     ],
-    "MediaItems": [
-        {
-            "ID": 8022,
-            "ChargePointID": 55008,
-            "ItemURL": "https://media.openchargemap.io/images/GB/OCM55008/OCM-55008.orig.2016081214141075.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM55008/OCM-55008.thmb.2016081214141075.jpg",
-            "Comment": "Lunch at the Harvester. ",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 3404,
-                "Username": "John Riley"
-            },
-            "DateCreated": "2016-08-12T14:14:00Z"
-        }
-    ],
-    "DateLastVerified": "2023-01-25T22:18:00Z",
+    "DateLastVerified": "2024-02-19T06:22:00Z",
     "ID": 55008,
     "UUID": "60301942-7E55-418D-9515-810FE3F03142",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "1291",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.30/kWh; £0.15/kWh for Ecotricity energy customers",
+    "UsageTypeID": 5,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 55354,
         "Title": "Eurogarages Kettering",
@@ -86,7 +68,8 @@
         {
             "ID": 69502,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 100,
+            "Reference": "EVP-Kettring-A-3",
+            "StatusTypeID": 0,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
@@ -96,19 +79,21 @@
         },
         {
             "ID": 69503,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 75,
-            "LevelID": 3,
-            "Amps": 63,
+            "ConnectionTypeID": 25,
+            "Reference": "EVP-Kettring-A-1",
+            "StatusTypeID": 0,
+            "LevelID": 2,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 43,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
             "ID": 69504,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 100,
+            "Reference": "EVP-Kettring-A-2",
+            "StatusTypeID": 0,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
@@ -118,8 +103,9 @@
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2023-01-25T22:18:00Z",
+    "GeneralComments": "Branded as 'evpoint'",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-19T06:22:00Z",
     "DateCreated": "2015-10-11T21:39:00Z",
     "SubmissionStatusTypeID": 200
 }

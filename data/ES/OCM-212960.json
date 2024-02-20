@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-01-27T11:45:00Z",
+    "MediaItems": [
+        {
+            "ID": 39090,
+            "ChargePointID": 212960,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM212960/OCM-212960.orig.2023081207040725.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM212960/OCM-212960.thmb.2023081207040725.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-08-12T07:04:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-02T15:41:00Z",
     "ID": 212960,
     "UUID": "BBC2565C-51CC-449B-91AF-9B1AFB3CBAD9",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": "0,56€/kWh >80kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "0,59€/kWh >80kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 213340,
         "Title": "Rest. Santa Ana (Wenea)",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Castilla-La Mancha",
         "Postcode": "55710",
         "CountryID": 210,
-        "Latitude": 39.52201059635078,
-        "Longitude": -3.5233367351912364,
+        "Latitude": 39.52244814702587,
+        "Longitude": -3.5234255276076283,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,9 +42,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 250,
+            "Voltage": 1000,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "XCharger NZS 210 (Peak 250A). Max power for two simultaneous charges 210 kW. Charger with a 233 kWh boost battery. Power limited to 50kW when charger battery is low of charge. (max power limited to 100kW for 400V cars)"
         },
         {
             "ID": 354706,
@@ -35,7 +56,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 354707,
@@ -44,12 +65,21 @@
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 472090,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-01-27T11:45:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-02T15:41:00Z",
     "DateCreated": "2023-01-27T11:45:00Z",
     "SubmissionStatusTypeID": 200
 }

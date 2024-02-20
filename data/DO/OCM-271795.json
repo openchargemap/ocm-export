@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-11T12:02:00Z",
+    "DateLastVerified": "2024-01-28T21:18:00Z",
     "ID": 271795,
     "UUID": "99E5620C-1152-4E2E-8ED7-B7443C4F4A45",
     "DataProviderID": 1,
@@ -8,48 +8,66 @@
     "UsageCost": "tarifa dinámica",
     "AddressInfo": {
         "ID": 272179,
-        "Title": "CEPM Bávaro (225 kw)",
+        "Title": "Electrolinera",
         "AddressLine1": "Bulevar Turístico del Este",
         "Town": "Friusa",
         "StateOrProvince": "La Altagracia",
         "Postcode": "23301",
         "CountryID": 68,
-        "Latitude": 18.664072835866065,
-        "Longitude": -68.43222741551094,
+        "Latitude": 18.66365944,
+        "Longitude": -68.43040867,
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 462353,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 225,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 462354,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 462355,
             "ConnectionTypeID": 1040,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 506076,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 225,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 24
+        },
+        {
+            "ID": 506077,
+            "ConnectionTypeID": 1040,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 225,
+            "CurrentTypeID": 30,
+            "Quantity": 12
+        },
+        {
+            "ID": 506078,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 12
+        },
+        {
+            "ID": 506757,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-11T12:02:00Z",
+    "DateLastStatusUpdate": "2024-01-28T21:18:00Z",
     "DateCreated": "2023-07-11T12:01:00Z",
     "SubmissionStatusTypeID": 200
 }

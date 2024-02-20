@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2022-10-28T08:57:00Z",
+    "DateLastVerified": "2024-02-04T18:16:00Z",
     "ID": 129848,
     "UUID": "CFB8F6CE-6106-4638-9B18-27852DB85467",
     "DataProviderID": 1,
-    "OperatorID": 2247,
+    "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh ",
+    "UsageCost": "0,55€/kWh ",
     "AddressInfo": {
         "ID": 130194,
-        "Title": "Lehendakari Leizaola 5",
+        "Title": "Lehendakari Leizaola 5 (Zunder)",
         "AddressLine1": "Euskadi, 1",
         "Town": "Bilbao",
         "StateOrProvince": "Bizkaia",
@@ -16,43 +16,27 @@
         "CountryID": 210,
         "Latitude": 43.2671539227433,
         "Longitude": -2.93952000483159,
-        "ContactTelephone1": "+34900224522",
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 181802,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 181803,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 181804,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC150 CCS/Chademo charger."
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "Station power currently limited to 50kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-28T08:57:00Z",
+    "DateLastStatusUpdate": "2024-02-04T18:16:00Z",
     "DateCreated": "2019-07-28T21:37:00Z",
     "SubmissionStatusTypeID": 200
 }

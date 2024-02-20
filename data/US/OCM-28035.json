@@ -15,26 +15,27 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "DateLastVerified": "2018-03-13T13:46:00Z",
+    "DateLastVerified": "2024-02-11T03:57:00Z",
     "ID": 28035,
     "UUID": "3A2C3354-1221-4879-BCF6-305EF9148CD6",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "6422",
     "UsageTypeID": 4,
-    "UsageCost": "$0.22/kWh; other tariffs for older cars",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 28381,
-        "Title": "Arby's - Tesla",
-        "AddressLine1": "2221 6th St",
+        "Title": "Limon, CO Supercharger",
+        "AddressLine1": "2221 6th St.",
         "Town": "Limon",
         "StateOrProvince": "CO",
         "Postcode": "80828",
         "CountryID": 2,
         "Latitude": 39.2690109,
         "Longitude": -103.7088202,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Arby's",
         "RelatedURL": "http://www.teslamotors.com/supercharger",
         "DistanceUnit": 0
     },
@@ -44,16 +45,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 120,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 6
+        },
+        {
+            "ID": 488787,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 14,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7; 6 Superchargers up to 150kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-03-13T13:46:00Z",
+    "DateLastStatusUpdate": "2024-02-11T03:57:00Z",
     "DateCreated": "2014-11-28T03:38:00Z",
     "SubmissionStatusTypeID": 100
 }

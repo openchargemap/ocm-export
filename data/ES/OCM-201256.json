@@ -32,6 +32,22 @@
     ],
     "MediaItems": [
         {
+            "ID": 39554,
+            "ChargePointID": 201256,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201256/OCM-201256.orig.2023091118572001.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201256/OCM-201256.thmb.2023091118572001.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-09-11T18:57:00Z"
+        },
+        {
             "ID": 33185,
             "ChargePointID": 201256,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM201256/OCM-201256.orig.2022082517441445.jpg",
@@ -48,7 +64,7 @@
             "DateCreated": "2022-08-25T17:44:00Z"
         }
     ],
-    "DateLastVerified": "2023-03-19T13:07:00Z",
+    "DateLastVerified": "2024-02-04T17:31:00Z",
     "ID": 201256,
     "UUID": "9E9770EF-4590-4CAD-A796-4A0A46D44ABD",
     "DataProviderID": 1,
@@ -57,7 +73,7 @@
     "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 201615,
-        "Title": "Rey Don Sancho - Zunder Zamora",
+        "Title": "Hotel Rey Don Sancho Zamora (Zunder)",
         "AddressLine1": "CEPSA",
         "Town": "Zamora",
         "StateOrProvince": "Castile and León",
@@ -73,18 +89,30 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
+            "Amps": 500,
             "Voltage": 920,
-            "PowerKW": 90,
+            "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 90kW, or two simultaneous charges at 45kW"
+            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited to 200kW for 400V cars"
+        },
+        {
+            "ID": 472044,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited to 200kW for 400V cars"
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "Funcionando",
+    "NumberOfPoints": 4,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-19T13:07:00Z",
+    "DateLastStatusUpdate": "2024-02-04T17:31:00Z",
     "DateCreated": "2022-08-25T17:43:00Z",
     "SubmissionStatusTypeID": 200
 }

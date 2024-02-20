@@ -47,7 +47,7 @@
             "DateCreated": "2018-07-22T18:12:00Z"
         }
     ],
-    "DateLastVerified": "2021-02-28T16:48:00Z",
+    "DateLastVerified": "2023-12-16T01:24:00Z",
     "ID": 28304,
     "UUID": "4AEB43DF-5750-477C-B258-1C640A2C39E7",
     "DataProviderID": 1,
@@ -63,8 +63,8 @@
         "StateOrProvince": "IN",
         "Postcode": "47905",
         "CountryID": 2,
-        "Latitude": 40.4169274,
-        "Longitude": -86.8130712,
+        "Latitude": 40.41607999264255,
+        "Longitude": -86.81409038806237,
         "ContactTelephone1": "877-798-3752",
         "AccessComments": "24 hours daily; for Tesla use only",
         "RelatedURL": "http://www.teslamotors.com/supercharger",
@@ -76,16 +76,23 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 120,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 16
+        },
+        {
+            "ID": 505917,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 8
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 24,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-02-28T16:48:00Z",
+    "DateLastStatusUpdate": "2023-12-16T01:24:00Z",
     "DateCreated": "2014-11-28T03:38:00Z",
     "SubmissionStatusTypeID": 100
 }

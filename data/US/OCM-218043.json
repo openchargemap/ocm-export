@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T07:57:00Z",
+    "DateLastVerified": "2023-12-23T18:03:00Z",
     "ID": 218043,
     "UUID": "0493C602-1D43-471A-8D82-D30791523487",
-    "DataProviderID": 2,
-    "DataProvidersReference": "238579",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 218423,
-        "Title": "Buc-ee's - Tesla Supercharger",
-        "AddressLine1": "200 World Commerce Pkwy",
-        "Town": "St. Augustine",
+        "Title": "St. Augustine, FL - World Commerce Pkwy Supercharger",
+        "AddressLine1": "200 World Commerce Parkway",
+        "Town": "Saint Augustine",
         "StateOrProvince": "FL",
         "Postcode": "32092",
         "CountryID": 2,
-        "Latitude": 29.9841197728377,
-        "Longitude": -81.4652088515605,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
+        "Latitude": 29.984497,
+        "Longitude": -81.464207,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Buc-ee's",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 368328,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:57:00Z",
+    "DateLastStatusUpdate": "2023-12-23T18:03:00Z",
     "DateCreated": "2023-02-13T04:54:00Z",
     "SubmissionStatusTypeID": 100
 }

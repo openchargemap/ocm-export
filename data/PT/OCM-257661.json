@@ -1,25 +1,27 @@
 {
-    "DateLastVerified": "2023-03-20T06:20:00Z",
+    "DateLastVerified": "2024-01-02T09:44:00Z",
     "ID": 257661,
     "UUID": "0813DEEE-A0AD-490C-AB72-2A9B412B0224",
-    "DataProviderID": 7,
-    "DataProvidersReference": "ALQ-00006",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 258045,
-        "Title": "EN1 (Variante Álvaro Pedro) nº 2",
+        "Title": "Lidl Alenquer",
         "AddressLine1": "EN1 (Variante Álvaro Pedro) nº 2",
         "Town": "Alenquer",
         "Postcode": "2580-351",
         "CountryID": 180,
-        "Latitude": 39.040245,
-        "Longitude": -8.988891,
+        "Latitude": 39.0404984230847,
+        "Longitude": -8.987611790265333,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 430054,
             "ConnectionTypeID": 25,
-            "Reference": "ALQ-00006-03-01",
+            "Reference": "ALQ-00016-03",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
             "Voltage": 400,
@@ -30,7 +32,8 @@
         {
             "ID": 430055,
             "ConnectionTypeID": 2,
-            "Reference": "ALQ-00006-01-01",
+            "Reference": "ALQ-00016-01",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 500,
@@ -41,7 +44,8 @@
         {
             "ID": 430056,
             "ConnectionTypeID": 33,
-            "Reference": "ALQ-00006-02-01",
+            "Reference": "ALQ-00016-02",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 500,
@@ -51,7 +55,7 @@
         }
     ],
     "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-03-20T06:20:00Z",
+    "DateLastStatusUpdate": "2024-01-02T09:44:00Z",
     "DateCreated": "2023-03-20T06:20:00Z",
     "SubmissionStatusTypeID": 200
 }

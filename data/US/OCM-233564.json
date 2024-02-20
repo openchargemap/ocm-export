@@ -1,23 +1,22 @@
 {
-    "DateLastVerified": "2023-07-12T09:32:00Z",
+    "DateLastVerified": "2024-01-30T16:37:00Z",
     "ID": 233564,
     "UUID": "B74D6989-A309-4DDE-91F5-8E8D77F110DE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "241149",
+    "DataProviderID": 1,
     "OperatorID": 3534,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 233947,
-        "Title": "Shell - Tesla Supercharger",
-        "AddressLine1": "16010 Rd 1 NW",
+        "Title": "Quincy, WA Supercharger",
+        "AddressLine1": "16010 Road 1 Northwest",
         "Town": "Quincy",
         "StateOrProvince": "WA",
         "Postcode": "98848",
         "CountryID": 2,
-        "Latitude": 47.103877,
-        "Longitude": -119.833007,
+        "Latitude": 47.103405,
+        "Longitude": -119.83392,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "Located at Shell Gas Station",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,26 @@
         {
             "ID": 385540,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
+        },
+        {
+            "ID": 485664,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7. This Supercharger is open to Tesla vehicles and Non-Tesla vehicles with CCS compatibility",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:32:00Z",
+    "DateLastStatusUpdate": "2024-01-30T16:37:00Z",
     "DateCreated": "2023-02-13T05:38:00Z",
     "SubmissionStatusTypeID": 100
 }

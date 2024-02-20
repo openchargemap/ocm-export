@@ -1,59 +1,61 @@
 {
-    "DateLastVerified": "2023-07-12T09:09:00Z",
+    "DateLastVerified": "2024-01-14T13:14:00Z",
     "ID": 247587,
     "UUID": "D0850748-68BC-4DA1-A9C5-D98FB033C584",
-    "DataProviderID": 2,
-    "DataProvidersReference": "204690",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "DCFC $20.00/hr, L2 $1.50/hr",
     "AddressInfo": {
         "ID": 247971,
-        "Title": "Fort Erie",
-        "AddressLine1": "240 Garrison Rd",
+        "Title": "FLO - Canadian Tire | 033 | Fort Erie",
+        "AddressLine1": "240 Garrison Road",
         "Town": "Fort Erie",
         "StateOrProvince": "ON",
         "Postcode": "L2A 1M7",
         "CountryID": 44,
-        "Latitude": 42.90471,
-        "Longitude": -78.9241,
-        "ContactTelephone1": "888-356-8911",
+        "Latitude": 42.90407770634488,
+        "Longitude": -78.92416512977367,
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://flo.ca/",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 413988,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 413989,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 413990,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 511110,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 6.2,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:09:00Z",
+    "DateLastStatusUpdate": "2024-01-14T13:14:00Z",
     "DateCreated": "2023-03-07T05:44:00Z",
     "SubmissionStatusTypeID": 100
 }

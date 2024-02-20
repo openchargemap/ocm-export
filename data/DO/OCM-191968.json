@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-05-17T10:54:00Z",
+    "DateLastVerified": "2023-11-14T03:22:00Z",
     "ID": 191968,
     "UUID": "81F9CFC5-FFB6-496C-B248-BB1A22B4A441",
     "DataProviderID": 1,
@@ -16,20 +16,10 @@
         "CountryID": 68,
         "Latitude": 19.46090184280122,
         "Longitude": -70.68422580712615,
+        "RelatedURL": "http:// evergo.com.do",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 311825,
-            "ConnectionTypeID": 2,
-            "Reference": "Evergo",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Voltage": 240,
-            "PowerKW": 50,
-            "Quantity": 1,
-            "Comments": "Cargador #0012 Evergo"
-        },
         {
             "ID": 311826,
             "ConnectionTypeID": 1,
@@ -58,12 +48,28 @@
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 486881,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 486882,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Cargadores Evergo",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-17T10:54:00Z",
+    "DateLastStatusUpdate": "2023-11-14T03:22:00Z",
     "DateCreated": "2022-03-10T22:56:00Z",
     "SubmissionStatusTypeID": 200
 }

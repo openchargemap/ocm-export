@@ -1,37 +1,43 @@
 {
-    "DateLastVerified": "2018-10-11T13:53:00Z",
+    "DateLastVerified": "2023-10-05T09:48:00Z",
     "ID": 109192,
     "UUID": "3864E475-13D0-42F4-B360-DDF01297F6E8",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 45,
     "OperatorsReference": "44990",
-    "UsageTypeID": 4,
+    "UsageTypeID": 6,
     "AddressInfo": {
         "ID": 109538,
         "Title": "Black Boy Inn",
-        "AddressLine1": "Black Boy Inn",
+        "AddressLine1": "Northgate Street",
+        "Town": "Caernarfon",
         "Postcode": "LL55 1RW",
         "CountryID": 1,
         "Latitude": 53.141267,
         "Longitude": -4.275942,
         "ContactTelephone1": " +44 128 667 3604",
+        "AccessComments": "Here at the Black Boy Inn, we do our best to be ecologically minded and forward-thinking. As such, we have 4 car charging spaces available in our car park. Chargers are available for residents only.  Just download the App and then you can enter the payment method to charge.",
+        "RelatedURL": "https://www.black-boy-inn.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 154310,
-            "ConnectionTypeID": 30,
+            "ID": 482180,
+            "ConnectionTypeID": 25,
+            "Reference": "Blk Chargers ",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 6,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Amps": 32,
+            "Voltage": 415,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4,
+            "Comments": "Download app prior to arrival ( charge asssist app ) "
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 6kW.Available for customers. Please see front desk.",
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-10-11T13:53:00Z",
+    "DateLastStatusUpdate": "2023-10-05T09:48:00Z",
     "DateCreated": "2018-10-11T13:53:00Z",
     "SubmissionStatusTypeID": 200
 }

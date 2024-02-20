@@ -1,11 +1,78 @@
 {
-    "DateLastVerified": "2023-07-12T09:38:00Z",
+    "UserComments": [
+        {
+            "ID": 29300,
+            "ChargePointID": 250210,
+            "CommentTypeID": 50,
+            "UserName": "D-EV",
+            "Comment": "8 chargepoint stations that say cross roads/station 6.1 kw AC. note that you must pay for parking but whole foods only validates parking if you use the green stations not the blue stations. car said 30amps. parking at the blue painted pay station was $10 for 2 hours and it spits out a receipt with a red border which whole foods will not validate.",
+            "Rating": 3,
+            "DateCreated": "2023-11-28T02:48:03.727Z",
+            "User": {
+                "ID": 24710,
+                "Username": "D-EV"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 40647,
+            "ChargePointID": 250210,
+            "ItemURL": "https://media.openchargemap.io/images/CA/OCM250210/OCM-250210.orig.2023112803354581.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/CA/OCM250210/OCM-250210.thmb.2023112803354581.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24710,
+                "Username": "D-EV"
+            },
+            "DateCreated": "2023-11-28T03:36:00Z"
+        },
+        {
+            "ID": 40645,
+            "ChargePointID": 250210,
+            "ItemURL": "https://media.openchargemap.io/images/CA/OCM250210/OCM-250210.orig.2023112803334312.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/CA/OCM250210/OCM-250210.thmb.2023112803334312.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24710,
+                "Username": "D-EV"
+            },
+            "DateCreated": "2023-11-28T03:34:00Z"
+        },
+        {
+            "ID": 40646,
+            "ChargePointID": 250210,
+            "ItemURL": "https://media.openchargemap.io/images/CA/OCM250210/OCM-250210.orig.2023112803340546.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/CA/OCM250210/OCM-250210.thmb.2023112803340546.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24710,
+                "Username": "D-EV"
+            },
+            "DateCreated": "2023-11-28T03:34:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-28T12:40:00Z",
     "ID": 250210,
     "UUID": "6EF6BBDE-EAAA-43E7-9F41-B34DA75A261E",
-    "DataProviderID": 2,
-    "DataProvidersReference": "118689",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 250594,
         "Title": "CROSS ROADS STATION2-2019",
@@ -25,17 +92,19 @@
         {
             "ID": 417117,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 30,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 6.6,
             "CurrentTypeID": 10,
-            "Quantity": 2,
+            "Quantity": 8,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "GeneralComments": "P1 Paid parking lot, while foods and london drugs. You might be able to get 2 hrs parking free if you validate in whole foods. Requires some minimum purchase at whole foods and you need to use correct pay station.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:38:00Z",
+    "DateLastStatusUpdate": "2023-11-28T12:40:00Z",
     "DateCreated": "2023-03-07T06:03:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -65,16 +65,18 @@
             "DateCreated": "2017-05-16T09:50:00Z"
         }
     ],
-    "DateLastVerified": "2022-07-16T10:16:00Z",
+    "DateLastVerified": "2023-09-05T10:05:00Z",
     "ID": 87752,
     "UUID": "9A41039A-471A-4517-AE20-E03A4C4DACD3",
     "DataProviderID": 1,
     "OperatorID": 45,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 88098,
         "Title": "Hutt City Council - Mayor's & HCC Fleet Car Park",
-        "AddressLine1": "23 Laings Rd",
-        "Town": "Hutt Central",
+        "AddressLine1": "23 Laings Road",
+        "AddressLine2": "Hutt Central",
+        "Town": "Lower Hutt",
         "StateOrProvince": "Wellington",
         "Postcode": "5010",
         "CountryID": 161,
@@ -85,18 +87,28 @@
     },
     "Connections": [
         {
-            "ID": 124375,
-            "ConnectionTypeID": 1,
+            "ID": 475263,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 5
+        },
+        {
+            "ID": 475264,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 6,
     "GeneralComments": "5pm - 8am weekdays, all weekends\r\nKindly provided by Hutt City Council. Free parking and charging.However, only available outside business hours of 8am-5pm Monday to Friday. Ideal for use if the Dowse charge park is being used.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-16T10:16:00Z",
+    "DateLastStatusUpdate": "2023-09-05T10:05:00Z",
     "DateCreated": "2017-05-16T09:50:00Z",
     "SubmissionStatusTypeID": 200
 }

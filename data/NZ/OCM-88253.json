@@ -17,35 +17,36 @@
             "DateCreated": "2017-05-25T07:04:00Z"
         }
     ],
-    "DateLastVerified": "2022-07-05T07:50:00Z",
+    "DateLastVerified": "2024-01-03T09:39:00Z",
     "ID": 88253,
     "UUID": "80DD51B5-E889-4CB4-AEE9-9457A3A4F15F",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.25/kWh + $0.25/min",
+    "UsageCost": "$0.80/kWh",
     "AddressInfo": {
         "ID": 88599,
         "Title": "New Plymouth (New World)",
         "AddressLine1": "78 Courtenay Street",
         "Town": "New Plymouth",
+        "StateOrProvince": "Taranaki",
         "Postcode": "4310",
         "CountryID": 161,
-        "Latitude": -39.05793309662775,
-        "Longitude": 174.07733952509227,
-        "ContactTelephone1": "(080) 022-4274",
+        "Latitude": -39.05798883298587,
+        "Longitude": 174.07739428089604,
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 125185,
             "ConnectionTypeID": 2,
-            "Reference": "NPCD2",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 125186,
@@ -56,12 +57,21 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 507481,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 5,
     "GeneralComments": "Open 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-05T07:50:00Z",
+    "DateLastStatusUpdate": "2024-01-03T09:39:00Z",
     "DateCreated": "2017-05-25T07:03:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2023-07-12T08:44:00Z",
+    "DateLastVerified": "2024-02-20T10:14:00Z",
     "ID": 269569,
     "UUID": "01800DB7-04A1-4795-B63D-1DFD7FEC92FD",
     "DataProviderID": 2,
     "DataProvidersReference": "259660",
-    "OperatorID": 39,
+    "OperatorID": 9,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 269953,
@@ -12,13 +12,13 @@
         "AddressLine1": "1555 Stanley Ave",
         "Town": "Dayton",
         "StateOrProvince": "OH",
-        "Postcode": "45004",
+        "Postcode": "45404",
         "CountryID": 2,
-        "Latitude": 39.786449,
+        "Latitude": 39.7864494,
         "Longitude": -84.193258,
         "ContactTelephone1": "800-663-5633",
-        "AccessComments": "",
-        "RelatedURL": "https://semaconnect.com/",
+        "AccessComments": "24 hours daily",
+        "RelatedURL": "http://www.blinkcharging.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,12 +30,21 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 3,
+            "Quantity": 2,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 479375,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:44:00Z",
+    "DateLastStatusUpdate": "2024-02-20T10:14:00Z",
     "DateCreated": "2023-07-04T07:11:00Z",
     "SubmissionStatusTypeID": 100
 }

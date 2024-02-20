@@ -1,11 +1,61 @@
 {
-    "DateLastVerified": "2022-09-26T18:10:00Z",
+    "MediaItems": [
+        {
+            "ID": 41343,
+            "ChargePointID": 202843,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM202843/OCM-202843.orig.2024020214090664.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM202843/OCM-202843.thmb.2024020214090664.jpg",
+            "Comment": "Ya estan activados los puntos ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40444,
+                "Username": "OscarHedeVa"
+            },
+            "DateCreated": "2024-02-02T14:09:00Z"
+        },
+        {
+            "ID": 40807,
+            "ChargePointID": 202843,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM202843/OCM-202843.orig.2023121919045879.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM202843/OCM-202843.thmb.2023121919045879.jpg",
+            "Comment": "Especificaciones PdR",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40444,
+                "Username": "OscarHedeVa"
+            },
+            "DateCreated": "2023-12-19T19:05:00Z"
+        },
+        {
+            "ID": 40806,
+            "ChargePointID": 202843,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM202843/OCM-202843.orig.2023121919032691.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM202843/OCM-202843.thmb.2023121919032691.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40444,
+                "Username": "OscarHedeVa"
+            },
+            "DateCreated": "2023-12-19T19:04:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-05T09:43:00Z",
     "ID": 202843,
     "UUID": "A77DF857-8E69-4D7F-A0CA-179ED34EF067",
     "DataProviderID": 1,
     "OperatorID": 3499,
-    "UsageTypeID": 1,
-    "UsageCost": "",
+    "UsageTypeID": 4,
+    "UsageCost": "0,25€/kWh",
     "AddressInfo": {
         "ID": 203210,
         "Title": "Mercadona Salamanca  Presbítero Pelayo",
@@ -16,22 +66,26 @@
         "CountryID": 210,
         "Latitude": 40.971767117823845,
         "Longitude": -5.634502007846777,
+        "AccessComments": "Los puntos estas a la derecha de la rampa según subes.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 339106,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 2,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Apps Waylet(Repsol).",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-26T18:10:00Z",
+    "DateLastStatusUpdate": "2024-02-05T09:43:00Z",
     "DateCreated": "2022-09-13T07:54:00Z",
     "SubmissionStatusTypeID": 200
 }

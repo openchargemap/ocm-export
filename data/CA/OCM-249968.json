@@ -1,59 +1,58 @@
 {
-    "DateLastVerified": "2023-07-12T09:36:00Z",
+    "DateLastVerified": "2024-01-22T07:08:00Z",
     "ID": 249968,
     "UUID": "E1E1F0D6-D451-42CF-8042-216ABCC516FD",
-    "DataProviderID": 2,
-    "DataProvidersReference": "157895",
+    "DataProviderID": 1,
     "OperatorID": 3375,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "$0.50/min",
     "AddressInfo": {
         "ID": 250352,
-        "Title": "Petro-Canada EV Fast Charger",
-        "AddressLine1": "4 Hemlo Dr",
+        "Title": "Petro-Canada",
+        "AddressLine1": "4 Hemlo Drive",
         "Town": "Marathon",
         "StateOrProvince": "ON",
         "Postcode": "P0T 2E0",
         "CountryID": 44,
         "Latitude": 48.72071,
         "Longitude": -86.371444,
-        "ContactTelephone1": "800-668-0220",
+        "ContactTelephone1": "1-800-668-0220",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.petro-canada.ca/en/personal/fuel/canadas-electric-highway/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 416815,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 416816,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 416817,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 506429,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:36:00Z",
+    "DateLastStatusUpdate": "2024-01-22T07:08:00Z",
     "DateCreated": "2023-03-07T06:02:00Z",
     "SubmissionStatusTypeID": 100
 }

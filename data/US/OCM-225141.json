@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:42:00Z",
+    "DateLastVerified": "2023-12-20T22:45:00Z",
     "ID": 225141,
     "UUID": "28971A40-52FB-44A5-8778-709EBBBD0836",
-    "DataProviderID": 2,
-    "DataProvidersReference": "220696",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 225524,
-        "Title": "Elwood, NJ - Tesla Supercharger",
+        "Title": "Elwood, NJ Supercharger",
         "AddressLine1": "Milepost 21.3 on the Atlantic City Expressway",
         "Town": "Elwood",
         "StateOrProvince": "NJ",
@@ -16,8 +15,7 @@
         "CountryID": 2,
         "Latitude": 39.5515659,
         "Longitude": -74.7351861,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone2": "877-798-3752",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +23,17 @@
         {
             "ID": 376362,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:42:00Z",
+    "DateLastStatusUpdate": "2023-12-20T22:45:00Z",
     "DateCreated": "2023-02-13T05:14:00Z",
     "SubmissionStatusTypeID": 100
 }

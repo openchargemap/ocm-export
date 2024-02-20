@@ -320,14 +320,14 @@
             "DateCreated": "2022-07-17T20:29:00Z"
         }
     ],
-    "DateLastVerified": "2022-07-24T18:20:00Z",
+    "DateLastVerified": "2023-10-10T05:24:00Z",
     "ID": 149969,
     "UUID": "064F6F56-7689-44AA-87F6-DA238C3D9501",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-70157,PG-83882",
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "£0.44/kWh",
     "AddressInfo": {
         "ID": 150322,
         "Title": "Tesco Superstore-Colchester Hythe",
@@ -335,27 +335,42 @@
         "Town": "Colchester",
         "Postcode": "CO1 2TE",
         "CountryID": 1,
-        "Latitude": 51.88482910327215,
-        "Longitude": 0.9308201813150845,
+        "Latitude": 51.8848291032722,
+        "Longitude": 0.930820181315084,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 208214,
+            "ID": 483414,
             "ConnectionTypeID": 25,
+            "Reference": "PG-83882",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Theo-Fern"
+        },
+        {
+            "ID": 483415,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70157",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Dirk-Bryn"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the Tesco Superstore at Greenstead Road, Colchester",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-24T18:20:00Z",
+    "DateLastStatusUpdate": "2023-10-10T05:24:00Z",
     "DateCreated": "2020-03-09T23:45:00Z",
     "SubmissionStatusTypeID": 200
 }

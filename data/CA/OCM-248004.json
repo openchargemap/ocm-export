@@ -1,24 +1,25 @@
 {
-    "DateLastVerified": "2023-07-12T09:15:00Z",
+    "DateLastVerified": "2024-02-10T15:19:00Z",
     "ID": 248004,
     "UUID": "F62D167E-2BE3-4F58-859D-BDFDEFF4AE2C",
-    "DataProviderID": 2,
-    "DataProvidersReference": "206681",
+    "DataProviderID": 1,
     "OperatorID": 3416,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
+    "UsageCost": "$23.73/hr",
     "AddressInfo": {
         "ID": 248388,
-        "Title": "Ivy - Mississauga",
-        "AddressLine1": "5970 Mavis Rd",
+        "Title": "Ivy - Mississauga Heartland Canadian Tire",
+        "AddressLine1": "5970 Mavis Road",
         "Town": "Mississauga",
         "StateOrProvince": "ON",
         "Postcode": "L5V 2P5",
         "CountryID": 44,
-        "Latitude": 43.6115705680281,
-        "Longitude": -79.6956265982644,
-        "ContactTelephone1": "888-550-5155",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
-        "RelatedURL": "https://ivycharge.com/",
+        "Latitude": 43.61033283510923,
+        "Longitude": -79.69481829143454,
+        "ContactTelephone1": "1-800-301-1950",
+        "ContactTelephone2": "1-888-550-5155",
+        "AccessComments": "24 hours daily",
+        "RelatedURL": "https://ivycharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,8 +29,8 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 414452,
@@ -37,12 +38,14 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Guest payment with QR code. Mobile app (Ivy Charging Network 2.0) and RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:15:00Z",
+    "DateLastStatusUpdate": "2024-02-10T15:19:00Z",
     "DateCreated": "2023-03-07T05:48:00Z",
     "SubmissionStatusTypeID": 100
 }

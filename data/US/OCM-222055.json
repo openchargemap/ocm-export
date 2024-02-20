@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:23:00Z",
+    "DateLastVerified": "2023-12-19T00:21:00Z",
     "ID": 222055,
     "UUID": "3C6D78C0-4A19-4010-BFE6-1DB0E70A1637",
-    "DataProviderID": 2,
-    "DataProvidersReference": "214072",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 222438,
-        "Title": "Sheetz - Tesla Supercharger",
+        "Title": "Kernersville, NC Supercharger",
         "AddressLine1": "1551 Glenn Center Drive",
         "Town": "Kernersville",
         "StateOrProvince": "NC",
@@ -17,7 +16,7 @@
         "Latitude": 36.069806,
         "Longitude": -80.111938,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "Located at Sheetz",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 372800,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:23:00Z",
+    "DateLastStatusUpdate": "2023-12-19T00:21:00Z",
     "DateCreated": "2023-02-13T05:06:00Z",
     "SubmissionStatusTypeID": 100
 }

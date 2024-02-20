@@ -1,15 +1,14 @@
 {
-    "DateLastVerified": "2023-07-12T08:17:00Z",
+    "DateLastVerified": "2023-12-24T01:27:00Z",
     "ID": 110225,
     "UUID": "98AAC662-586C-4DCB-A8BC-B5FBCCBE7A7B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102259",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 110571,
-        "Title": "The Mall at Barnes Crossing - Tesla Supercharger",
-        "AddressLine1": "1001 Barnes Crossing Rd",
+        "Title": "Tupelo, MS Supercharger",
+        "AddressLine1": "1001 Barnes Crossing Road",
         "Town": "Tupelo",
         "StateOrProvince": "MS",
         "Postcode": "38804",
@@ -17,7 +16,7 @@
         "Latitude": 34.311537,
         "Longitude": -88.700841,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "Located at The Mall at Barnes Crossing",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 155461,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 150kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:17:00Z",
+    "DateLastStatusUpdate": "2023-12-24T01:27:00Z",
     "DateCreated": "2018-10-18T23:35:00Z",
     "SubmissionStatusTypeID": 100
 }

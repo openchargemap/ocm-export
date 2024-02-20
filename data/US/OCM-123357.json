@@ -1,15 +1,14 @@
 {
-    "DateLastVerified": "2019-04-06T05:03:00Z",
+    "DateLastVerified": "2024-02-07T16:20:00Z",
     "ID": 123357,
     "UUID": "EBC0D43B-DCD1-41B5-9148-66F1C6420C26",
-    "DataProviderID": 2,
-    "DataProvidersReference": "103944",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 123703,
         "Title": "Willowbrook Commons",
-        "AddressLine1": "61 East Thompson Lane",
+        "AddressLine1": "63 E Thompson Ln #100",
         "Town": "Nashville",
         "StateOrProvince": "TN",
         "Postcode": "37211",
@@ -25,25 +24,33 @@
         {
             "ID": 173323,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 173324,
             "ConnectionTypeID": 32,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 510331,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T05:03:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-07T16:20:00Z",
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100
 }

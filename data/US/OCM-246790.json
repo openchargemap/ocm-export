@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:59:00Z",
+    "DateLastVerified": "2023-12-02T21:17:00Z",
     "ID": 246790,
     "UUID": "ECBCDE58-E3F2-4A34-8DE4-E4F6E671968E",
-    "DataProviderID": 2,
-    "DataProvidersReference": "220202",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 247174,
-        "Title": "Burr Ridge Village Center - Tesla Supercharger",
+        "Title": "Burr Ridge, IL",
         "AddressLine1": "515 Village Center Drive",
         "Town": "Burr Ridge",
         "StateOrProvince": "IL",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 41.7522431,
         "Longitude": -87.9139903,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Burr Ridge Village Center",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 413109,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 16,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 16,
+    "GeneralComments": "16 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:59:00Z",
+    "DateLastStatusUpdate": "2023-12-02T21:17:00Z",
     "DateCreated": "2023-03-07T05:37:00Z",
     "SubmissionStatusTypeID": 100
 }

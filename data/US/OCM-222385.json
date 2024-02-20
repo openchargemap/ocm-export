@@ -1,21 +1,20 @@
 {
-    "DateLastVerified": "2023-07-12T08:25:00Z",
+    "DateLastVerified": "2024-02-16T13:34:00Z",
     "ID": 222385,
     "UUID": "30F78037-6B98-4F2B-86AC-AC4E2C160022",
-    "DataProviderID": 2,
-    "DataProvidersReference": "223586",
+    "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 222768,
         "Title": "City of Pacific Grove",
-        "AddressLine1": "223 16th St",
+        "AddressLine1": "207 17th St",
         "Town": "Pacific Grove",
         "StateOrProvince": "CA",
         "Postcode": "93950",
         "CountryID": 2,
-        "Latitude": 36.619821,
-        "Longitude": -121.918749,
+        "Latitude": 36.62076734351959,
+        "Longitude": -121.9189117097032,
         "ContactTelephone1": "831-648-5722",
         "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,26 +24,35 @@
         {
             "ID": 373173,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 6.5,
             "CurrentTypeID": 10,
-            "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 373174,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 515518,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:25:00Z",
+    "DateLastStatusUpdate": "2024-02-16T13:34:00Z",
     "DateCreated": "2023-02-13T05:07:00Z",
     "SubmissionStatusTypeID": 100
 }

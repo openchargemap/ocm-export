@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:09:00Z",
+    "DateLastVerified": "2023-12-02T22:18:00Z",
     "ID": 240703,
     "UUID": "2C059144-C1CB-43B6-9DFA-317A63DCA754",
-    "DataProviderID": 2,
-    "DataProvidersReference": "183565",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 241087,
-        "Title": "Del Amo Fashion Center - Tesla Supercharger",
+        "Title": "Torrance, CA",
         "AddressLine1": "3490 Fashion Way",
         "Town": "Torrance",
         "StateOrProvince": "CA",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 33.834316,
         "Longitude": -118.34842,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Del Amo Fashion Center",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 396680,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 20,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 20,
+    "GeneralComments": "20 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:09:00Z",
+    "DateLastStatusUpdate": "2023-12-02T22:18:00Z",
     "DateCreated": "2023-03-07T03:34:00Z",
     "SubmissionStatusTypeID": 100
 }

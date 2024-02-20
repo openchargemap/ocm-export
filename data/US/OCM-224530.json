@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:38:00Z",
+    "DateLastVerified": "2024-02-15T03:36:00Z",
     "ID": 224530,
     "UUID": "6DD0FB9B-FE83-4C7D-9498-5712CD1EC070",
-    "DataProviderID": 2,
-    "DataProvidersReference": "224152",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 224913,
-        "Title": "Lawrence Service Area - Tesla Supercharger",
+        "Title": "Lawrence, KS Supercharger",
         "AddressLine1": "209 Kansas Turnpike",
         "Town": "Tonganoxie",
         "StateOrProvince": "KS",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 39.018568,
         "Longitude": -95.137443,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Lawrence Service Area",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 375655,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:38:00Z",
+    "DateLastStatusUpdate": "2024-02-15T03:36:00Z",
     "DateCreated": "2023-02-13T05:12:00Z",
     "SubmissionStatusTypeID": 100
 }

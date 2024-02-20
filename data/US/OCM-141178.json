@@ -1,11 +1,10 @@
 {
-    "DateLastVerified": "2020-06-26T03:00:00Z",
+    "DateLastVerified": "2023-11-19T19:10:00Z",
     "ID": 141178,
     "UUID": "8893B324-D464-4B4A-9743-8878C12B912D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "122597",
+    "DataProviderID": 1,
     "OperatorID": 15,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 141530,
         "Title": "Southside Park",
@@ -25,26 +24,43 @@
         {
             "ID": 197034,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 3
         },
         {
             "ID": 197035,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 175,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 3
+        },
+        {
+            "ID": 487250,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 487251,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         }
     ],
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:00:00Z",
+    "DateLastStatusUpdate": "2023-11-19T19:10:00Z",
     "DateCreated": "2019-12-24T09:14:00Z",
     "SubmissionStatusTypeID": 100
 }

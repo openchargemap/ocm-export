@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2018-03-13T13:13:00Z",
+    "DateLastVerified": "2023-11-06T13:31:00Z",
     "ID": 98064,
     "UUID": "8347A256-F595-462B-A53E-BA40233DEECD",
     "DataProviderID": 1,
@@ -9,7 +9,7 @@
     "UsageCost": "$0.26/kWh; other tariffs for older cars",
     "AddressInfo": {
         "ID": 98410,
-        "Title": "Kettleman City, Ca Supercharger",
+        "Title": "Kettleman City, CA",
         "AddressLine1": "27675 Bernard Drive",
         "Town": "Kettleman City",
         "StateOrProvince": "CA",
@@ -17,6 +17,8 @@
         "CountryID": 2,
         "Latitude": 35.987304,
         "Longitude": -119.961818,
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located off of Bernard Drive",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +27,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 40
+            "Quantity": 16
+        },
+        {
+            "ID": 486418,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 24
         }
     ],
     "NumberOfPoints": 40,
-    "GeneralComments": "Charging40 Superchargers, available 24/7, up to 120kW",
+    "GeneralComments": "16 Superchargers, available 24/7, up to 250kW, 24 Superchargers, available 24/7, up to 150kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-03-13T13:13:00Z",
+    "DateLastStatusUpdate": "2023-11-06T13:31:00Z",
     "DateCreated": "2018-01-21T17:43:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-02-18T14:22:00Z",
+    "DateLastVerified": "2023-11-03T10:26:00Z",
     "ID": 191257,
     "UUID": "698E44A0-C815-43CA-8DFC-6A07ECA01087",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh DC - 0,29€/kWh AC",
+    "UsageCost": "0,54€/kWh DC>50kW - 0,39€/kWh DC - 0,29€/kWh AC",
     "AddressInfo": {
         "ID": 191616,
         "Title": "Repsol Hipódromo",
@@ -24,21 +24,49 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The CCS/Chademo charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited for 400V cars"
         },
         {
             "ID": 310423,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 400,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Ingeteam RAPID180 Charger"
+        },
+        {
+            "ID": 310424,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 310424,
+            "ID": 486055,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 486056,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
@@ -49,9 +77,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-18T14:22:00Z",
+    "DateLastStatusUpdate": "2023-11-03T10:26:00Z",
     "DateCreated": "2022-02-01T15:40:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2020-07-07T05:29:00Z",
+    "DateLastVerified": "2023-12-20T04:07:00Z",
     "ID": 161228,
     "UUID": "E407C9FC-A779-4235-9033-2F88098AF794",
     "DataProviderID": 1,
@@ -9,14 +9,18 @@
     "UsageCost": "$0.24/min >=60kW; $0.12/min <60kW; other tariffs for older cars",
     "AddressInfo": {
         "ID": 161585,
-        "Title": "Tinton Falls Supercharger",
-        "AddressLine1": "1 Premium Outlets BLVD",
+        "Title": "Tinton Falls, NJ Supercharger",
+        "AddressLine1": "1 Premium Outlets Blvd",
         "Town": "Tinton Falls",
         "StateOrProvince": "NJ",
-        "Postcode": "7753",
+        "Postcode": "07753-7469",
         "CountryID": 2,
         "Latitude": 40.226408,
         "Longitude": -74.093572,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Jersey Shore Premium Outlets",
+        "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +29,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 474490,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8
         }
     ],
-    "NumberOfPoints": 8,
-    "GeneralComments": "8 superchargers, available 24/7, up to 150kW",
+    "NumberOfPoints": 16,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW; 8 superchargers, available 24/7, up to 150kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-07-07T05:29:00Z",
+    "DateLastStatusUpdate": "2023-12-20T04:07:00Z",
     "DateCreated": "2020-07-07T05:29:00Z",
     "SubmissionStatusTypeID": 200
 }

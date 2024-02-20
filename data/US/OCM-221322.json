@@ -1,15 +1,14 @@
 {
-    "DateLastVerified": "2023-07-12T08:18:00Z",
+    "DateLastVerified": "2023-12-24T01:33:00Z",
     "ID": 221322,
     "UUID": "45937C5E-B124-4B3B-8042-BCE39D1514BB",
-    "DataProviderID": 2,
-    "DataProvidersReference": "211905",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 221705,
-        "Title": "VGO - Tesla Supercharger",
-        "AddressLine1": "2401  River Road",
+        "Title": "Piedmont, SC Supercharger",
+        "AddressLine1": "2401 River Road",
         "Town": "Piedmont",
         "StateOrProvince": "SC",
         "Postcode": "29673",
@@ -17,7 +16,7 @@
         "Latitude": 34.75711,
         "Longitude": -82.47419,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "Located at VGO",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 371967,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:18:00Z",
+    "DateLastStatusUpdate": "2023-12-24T01:33:00Z",
     "DateCreated": "2023-02-13T05:03:00Z",
     "SubmissionStatusTypeID": 100
 }

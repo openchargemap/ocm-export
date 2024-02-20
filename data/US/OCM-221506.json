@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:19:00Z",
+    "DateLastVerified": "2024-02-15T03:25:00Z",
     "ID": 221506,
     "UUID": "ABE91B6D-9B09-4610-B0C4-0F703E2D2D43",
-    "DataProviderID": 2,
-    "DataProvidersReference": "212753",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 221889,
-        "Title": "ABQ Uptown Mall - Tesla Supercharger",
+        "Title": "Albuquerque, NM - Louisiana Boulevard Northeast Supercharger",
         "AddressLine1": "2200 Louisiana Boulevard Northeast",
         "Town": "Albuquerque",
         "StateOrProvince": "NM",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 35.104286,
         "Longitude": -106.565888,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at ABQ Uptown Mall",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 372175,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 16,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 16,
+    "GeneralComments": "16 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:19:00Z",
+    "DateLastStatusUpdate": "2024-02-15T03:25:00Z",
     "DateCreated": "2023-02-13T05:04:00Z",
     "SubmissionStatusTypeID": 100
 }

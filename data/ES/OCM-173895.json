@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2023-05-18T17:44:00Z",
+    "DateLastVerified": "2023-12-14T14:52:00Z",
     "ID": 173895,
     "UUID": "A5DFAD79-4CFA-4BDC-A2CB-22E874229D8B",
     "DataProviderID": 1,
-    "OperatorID": 3377,
-    "UsageTypeID": 5,
-    "UsageCost": "0.5€/kWh",
+    "OperatorID": 91,
+    "UsageTypeID": 4,
+    "UsageCost": "0,54€/kWh DC>100kW  0,47€/kWh DC - 0,35€/kWh AC",
     "AddressInfo": {
         "ID": 174254,
-        "Title": "Febrer Gasolineras. E.E.S.S.",
+        "Title": "Repsol Febrer Gasolineras",
         "AddressLine1": "Camí de Son Rapinya, 30",
         "Town": "Palma",
         "StateOrProvince": "Balearic Islands",
@@ -21,43 +21,22 @@
     },
     "Connections": [
         {
-            "ID": 267513,
-            "ConnectionTypeID": 2,
-            "Reference": "",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 267514,
+            "ID": 499189,
             "ConnectionTypeID": 33,
-            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 72,
-            "PowerKW": 50,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 267515,
-            "ConnectionTypeID": 1036,
-            "Reference": "",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger. The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW.(max power is limited to 150kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "App EVcharge",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-18T17:44:00Z",
+    "DateLastStatusUpdate": "2023-12-14T14:52:00Z",
     "DateCreated": "2021-03-05T10:31:00Z",
     "SubmissionStatusTypeID": 200
 }

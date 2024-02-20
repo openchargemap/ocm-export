@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-10T02:39:00Z",
+    "DateLastVerified": "2023-11-25T06:35:00Z",
     "ID": 270942,
     "UUID": "B533B025-F76C-4DB7-96B6-C78EB9F94B46",
     "DataProviderID": 1,
@@ -14,14 +14,15 @@
         "StateOrProvince": "Manawatū-Whanganui",
         "Postcode": "4825",
         "CountryID": 161,
-        "Latitude": -39.479101679345284,
-        "Longitude": 175.66966743524563,
+        "Latitude": -39.47922722971993,
+        "Longitude": 175.66951405457564,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 461167,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
+            "Reference": "ZEL-1010",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 75,
@@ -30,17 +31,58 @@
         },
         {
             "ID": 461168,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
+            "Reference": "ZEL-1010",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 75,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 475538,
+            "ConnectionTypeID": 33,
+            "Reference": "ZEL-1030",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 475539,
+            "ConnectionTypeID": 33,
+            "Reference": "ZEL-1031",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 485332,
+            "ConnectionTypeID": 33,
+            "Reference": "ZEL-1032",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 487678,
+            "ConnectionTypeID": 33,
+            "Reference": "ZEL-1033",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-10T02:39:00Z",
+    "DateLastStatusUpdate": "2023-11-25T06:35:00Z",
     "DateCreated": "2023-07-07T09:27:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,27 +1,59 @@
 {
+    "UserComments": [
+        {
+            "ID": 29325,
+            "ChargePointID": 210823,
+            "CommentTypeID": 50,
+            "UserName": "Javibu",
+            "Comment": "no operational, by fire.",
+            "DateCreated": "2023-12-09T19:29:04.91Z",
+            "User": {
+                "ID": 49710,
+                "Username": "Javibu"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
         {
-            "ID": 37251,
+            "ID": 39355,
             "ChargePointID": 210823,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM210823/OCM-210823.orig.2023041309140965.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM210823/OCM-210823.thmb.2023041309140965.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM210823/OCM-210823.orig.2023082612070821.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM210823/OCM-210823.thmb.2023082612070821.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
             "IsFeaturedItem": false,
             "IsExternalResource": false,
             "User": {
-                "ID": 40036,
-                "Username": "lmjgarcia"
+                "ID": 39939,
+                "Username": "amovilar"
             },
-            "DateCreated": "2023-04-13T09:14:00Z"
+            "DateCreated": "2023-08-26T12:07:00Z"
+        },
+        {
+            "ID": 39354,
+            "ChargePointID": 210823,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM210823/OCM-210823.orig.2023082612052406.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM210823/OCM-210823.thmb.2023082612052406.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 39939,
+                "Username": "amovilar"
+            },
+            "DateCreated": "2023-08-26T12:06:00Z"
         }
     ],
-    "DateLastVerified": "2023-05-31T19:22:00Z",
+    "DateLastVerified": "2024-02-16T13:40:00Z",
     "ID": 210823,
     "UUID": "B7014ADF-C586-4711-A0B3-55385EF72A36",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 211203,
@@ -42,7 +74,8 @@
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 8,
+            "Comments": "V3"
         },
         {
             "ID": 453247,
@@ -51,12 +84,14 @@
             "LevelID": 2,
             "PowerKW": 11,
             "CurrentTypeID": 20,
-            "Quantity": 16
+            "Quantity": 16,
+            "Comments": "limited to 6A"
         }
     ],
     "NumberOfPoints": 24,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-05-31T19:22:00Z",
+    "GeneralComments": "8 V3 Superchargers 250kW (CCS). Max total power of the station 750kW",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-16T13:40:00Z",
     "DateCreated": "2022-12-18T20:26:00Z",
     "SubmissionStatusTypeID": 200
 }

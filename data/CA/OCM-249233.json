@@ -1,11 +1,27 @@
 {
-    "DateLastVerified": "2023-07-12T09:28:00Z",
+    "UserComments": [
+        {
+            "ID": 28941,
+            "ChargePointID": 249233,
+            "CommentTypeID": 1000,
+            "UserName": "Shawn",
+            "Comment": "This charger has been incorrectly listed as / phase AC, in should be listed as DC, and this is preventing it from being selected in ABRP (abetterrouteplanner.com)",
+            "DateCreated": "2023-08-31T17:03:57.553Z",
+            "User": {
+                "ID": 48217,
+                "Username": "Shawn"
+            },
+            "CheckinStatusTypeID": 130,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-09-04T16:14:00Z",
     "ID": 249233,
     "UUID": "65F3404A-C5B7-4A3E-8399-C9C8B28FD32D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "233328",
+    "DataProviderID": 1,
     "OperatorID": 90,
     "UsageTypeID": 1,
+    "UsageCost": "$15.73/h to $36.87h",
     "AddressInfo": {
         "ID": 249617,
         "Title": "BRCC - Ville de Montebello",
@@ -14,8 +30,8 @@
         "StateOrProvince": "QC",
         "Postcode": "J0V 1L0",
         "CountryID": 44,
-        "Latitude": 45.649953,
-        "Longitude": -74.94287,
+        "Latitude": 45.64963060283242,
+        "Longitude": -74.94195403076496,
         "ContactTelephone1": "855-999-8378",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://lecircuitelectrique.com/",
@@ -29,7 +45,7 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 415910,
@@ -38,11 +54,29 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 475186,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 475187,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:28:00Z",
+    "DateLastStatusUpdate": "2023-09-04T16:14:00Z",
     "DateCreated": "2023-03-07T05:57:00Z",
     "SubmissionStatusTypeID": 100
 }

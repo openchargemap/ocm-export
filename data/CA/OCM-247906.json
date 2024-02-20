@@ -1,48 +1,60 @@
 {
-    "DateLastVerified": "2023-07-12T09:13:00Z",
+    "DateLastVerified": "2024-02-10T15:12:00Z",
     "ID": 247906,
     "UUID": "12F54D9A-92E8-4C7A-88C4-545C9F54DFA4",
-    "DataProviderID": 2,
-    "DataProvidersReference": "207856",
+    "DataProviderID": 1,
     "OperatorID": 3416,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.62 / kWh",
     "AddressInfo": {
         "ID": 248290,
         "Title": "Ivy - ONroute Cambridge North",
-        "AddressLine1": "290 Highway 401",
+        "AddressLine1": "290 Highway 401 Westbound",
         "Town": "Cambridge",
         "StateOrProvince": "ON",
         "Postcode": "N3C 2V6",
         "CountryID": 44,
         "Latitude": 43.4352562090151,
         "Longitude": -80.2458446219059,
-        "ContactTelephone1": "888-550-5155",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
-        "RelatedURL": "https://ivycharge.com/",
+        "ContactTelephone1": "1-800-301-1950",
+        "ContactTelephone2": "1-888-550-5155",
+        "AccessComments": "24 hours daily",
+        "RelatedURL": "https://ivycharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 414336,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
-            "ID": 414337,
-            "ConnectionTypeID": 32,
+            "ID": 506343,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2
+        },
+        {
+            "ID": 506344,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
+    "GeneralComments": "Guest payment with QR code. Mobile app (Ivy Charging Network 2.0) and RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:13:00Z",
+    "DateLastStatusUpdate": "2024-02-10T15:12:00Z",
     "DateCreated": "2023-03-07T05:47:00Z",
     "SubmissionStatusTypeID": 100
 }

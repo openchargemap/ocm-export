@@ -1,20 +1,20 @@
 {
-    "DateLastVerified": "2023-05-22T18:44:00Z",
+    "DateLastVerified": "2024-01-20T23:23:00Z",
     "ID": 265842,
     "UUID": "BE3F0EB4-1944-4B8D-9B61-399CF9E132E9",
     "DataProviderID": 1,
     "OperatorID": 207,
-    "UsageTypeID": 6,
-    "UsageCost": "0,35€/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "0,55€/kWh DC - 0,39€/kWh AC",
     "AddressInfo": {
         "ID": 266226,
-        "Title": "Hotel Cortijo de Santa Cruz",
+        "Title": "Hotel Rest. Cortijo de Santa Cruz",
         "AddressLine1": "Carretera de Santa Amalia a Ciudad Real",
         "Town": "Villanueva de la Serena",
         "StateOrProvince": "Extremadura",
         "CountryID": 210,
-        "Latitude": 39.02765351285197,
-        "Longitude": -5.76150006033518,
+        "Latitude": 39.027709574331055,
+        "Longitude": -5.760984428974439,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,11 +26,35 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 487243,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW."
+        },
+        {
+            "ID": 487244,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW."
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-22T18:44:00Z",
+    "DateLastStatusUpdate": "2024-01-20T23:23:00Z",
     "DateCreated": "2023-05-22T18:06:00Z",
     "SubmissionStatusTypeID": 200
 }

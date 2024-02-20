@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:17:00Z",
+    "DateLastVerified": "2023-11-27T01:50:00Z",
     "ID": 271170,
     "UUID": "153BBA76-9955-4093-B55C-B03919A3625F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "302204",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 271554,
-        "Title": "Denny's - Tesla Supercharger",
+        "Title": "Ventura, CA",
         "AddressLine1": "4095 Telegraph Rd",
         "Town": "Ventura",
         "StateOrProvince": "CA",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 34.275162,
         "Longitude": -119.239734,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only\r\nPublic - Credit card at all times",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Denny's",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 461548,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:17:00Z",
+    "DateLastStatusUpdate": "2023-11-27T01:50:00Z",
     "DateCreated": "2023-07-10T03:49:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:22:00Z",
+    "DateLastVerified": "2023-12-02T22:13:00Z",
     "ID": 241956,
     "UUID": "1F8AE68B-0581-4D79-AA89-5FA0C92E7323",
-    "DataProviderID": 2,
-    "DataProvidersReference": "196259",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 242340,
-        "Title": "Brookview Town Centre - Tesla Supercharger",
-        "AddressLine1": "250  Brookview Centre Way",
+        "Title": "Knoxville, TN - Brookview Centre Way",
+        "AddressLine1": "250 Brookview Centre Way",
         "Town": "Knoxville",
         "StateOrProvince": "TN",
         "Postcode": "37919",
         "CountryID": 2,
         "Latitude": 35.93583,
         "Longitude": -84.00416,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Brookview Town Centre",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 398075,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:22:00Z",
+    "DateLastStatusUpdate": "2023-12-02T22:13:00Z",
     "DateCreated": "2023-03-07T03:42:00Z",
     "SubmissionStatusTypeID": 100
 }

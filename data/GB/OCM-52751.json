@@ -1,6 +1,34 @@
 {
     "UserComments": [
         {
+            "ID": 29466,
+            "ChargePointID": 52751,
+            "CommentTypeID": 10,
+            "UserName": "S.R. ",
+            "Comment": "Charged successfully, no payment required. One out of the two bays was occupied by ICE car. ",
+            "DateCreated": "2024-01-26T08:51:09.397Z",
+            "User": {
+                "ID": 46669,
+                "Username": "S.R. "
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 28908,
+            "ChargePointID": 52751,
+            "CommentTypeID": 10,
+            "UserName": "S.R. ",
+            "Comment": "Chargers says to start charge on BP App / via RFID.\r\n\r\nCharged successfully without doing either. Charger is no longer listed on BP website but clearly still working for no charge. Edits submitted. ",
+            "DateCreated": "2023-08-22T13:09:56.383Z",
+            "User": {
+                "ID": 46669,
+                "Username": "S.R. "
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 28642,
             "ChargePointID": 52751,
             "CommentTypeID": 10,
@@ -63,23 +91,23 @@
             "DateCreated": "2016-08-08T09:18:00Z"
         }
     ],
-    "DateLastVerified": "2023-06-13T20:18:00Z",
+    "DateLastVerified": "2024-01-26T08:51:00Z",
     "ID": 52751,
     "UUID": "14150704-FBFA-4CB8-8DF7-B1E8FF653C4C",
     "DataProviderID": 1,
     "OperatorID": 32,
     "OperatorsReference": "2579",
-    "UsageTypeID": 4,
-    "UsageCost": "Inclusive; for Polar Plus subscription members only. Parking fees apply.",
+    "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 53097,
-        "Title": "Ipswich Railway Station",
+        "Title": "Ipswich Railway Station Car Park",
         "AddressLine1": "Burrell Road",
         "Town": "Ipswich",
         "Postcode": "IP2 8AL",
         "CountryID": 1,
-        "Latitude": 52.050148,
-        "Longitude": 1.146216,
+        "Latitude": 52.05021557048812,
+        "Longitude": 1.146331008462539,
         "AccessComments": "Basement level car park, on left after ramp",
         "RelatedURL": "http://www.nationalrail.co.uk/stations_destinations/IPS.aspx",
         "DistanceUnit": 0
@@ -92,14 +120,15 @@
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 11,
+            "PowerKW": 7,
             "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "Charger has sticker that still says to use BP App / RFID, but no longer listed on BP Pulse and works for free. Is now only 7 kW. ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-13T20:18:00Z",
+    "DateLastStatusUpdate": "2024-01-26T08:51:00Z",
     "DateCreated": "2015-09-10T06:49:00Z",
     "SubmissionStatusTypeID": 200
 }

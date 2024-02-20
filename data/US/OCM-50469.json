@@ -1,11 +1,27 @@
 {
-    "DateLastVerified": "2023-07-12T08:40:00Z",
+    "UserComments": [
+        {
+            "ID": 29164,
+            "ChargePointID": 50469,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "Screen is blank. Does not respond to app nor to ChargePoint card. Reported the issue to ChargePoint via their app. ",
+            "DateCreated": "2023-10-25T16:34:28.417Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 25,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-10-25T16:34:00Z",
     "ID": 50469,
     "UUID": "8670C09B-5B25-4CD0-94D1-9AA8FA78F67E",
-    "DataProviderID": 2,
-    "DataProvidersReference": "68244",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 50815,
         "Title": "MTA LTR CROMWELL",
@@ -14,8 +30,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21061",
         "CountryID": 2,
-        "Latitude": 39.172022,
-        "Longitude": -76.633261,
+        "Latitude": 39.1722792134627,
+        "Longitude": -76.63416732123383,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -26,16 +42,16 @@
             "ID": 62176,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:40:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2023-10-25T16:34:00Z",
     "DateCreated": "2015-07-22T08:58:00Z",
     "SubmissionStatusTypeID": 100
 }

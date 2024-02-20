@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:06:00Z",
+    "DateLastVerified": "2023-12-19T01:47:00Z",
     "ID": 219603,
     "UUID": "68EA8D53-9A5D-428E-909E-C106FA8589AF",
-    "DataProviderID": 2,
-    "DataProvidersReference": "201316",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 219986,
-        "Title": "Spinx - Tesla Supercharger",
+        "Title": "Orangeburg, SC Supercharger",
         "AddressLine1": "3615 Saint Matthews Road",
         "Town": "Orangeburg",
         "StateOrProvince": "SC",
@@ -17,7 +16,7 @@
         "Latitude": 33.55229,
         "Longitude": -80.82793,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "Located at Spinx",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 370012,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:06:00Z",
+    "DateLastStatusUpdate": "2023-12-19T01:47:00Z",
     "DateCreated": "2023-02-13T04:58:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-12T03:22:00Z",
+    "DateLastVerified": "2024-02-20T07:36:00Z",
     "ID": 261669,
     "UUID": "835ED425-006B-4683-BC6C-87D830F316E2",
     "DataProviderID": 19,
@@ -9,7 +9,7 @@
         "Title": "Recharge Spar Sundbyfoss",
         "AddressLine1": "Kaarbyveien 41",
         "Town": "SUNDBYFOSS",
-        "StateOrProvince": "Vestfold og Telemark",
+        "StateOrProvince": "Vestfold",
         "Postcode": "3092",
         "CountryID": 168,
         "Latitude": 59.512915,
@@ -22,13 +22,18 @@
             "ID": 443381,
             "ConnectionTypeID": 33,
             "Reference": "1",
+            "LevelID": 3,
             "Comments": "Mode 4"
         },
         {
             "ID": 443382,
-            "ConnectionTypeID": 33,
-            "Reference": "4",
+            "ConnectionTypeID": 2,
+            "Reference": "2",
             "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Comments": "Mode 4"
         },
         {
@@ -36,10 +41,33 @@
             "ConnectionTypeID": 33,
             "Reference": "3",
             "Comments": "Mode 4"
+        },
+        {
+            "ID": 523007,
+            "ConnectionTypeID": 33,
+            "Reference": "4",
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 523008,
+            "ConnectionTypeID": 2,
+            "Reference": "5",
+            "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Comments": "Mode 4"
+        },
+        {
+            "ID": 523009,
+            "ConnectionTypeID": 33,
+            "Reference": "6",
+            "Comments": "Mode 4"
         }
     ],
     "NumberOfPoints": 6,
-    "DateLastStatusUpdate": "2023-07-12T03:22:00Z",
+    "DateLastStatusUpdate": "2024-02-20T07:36:00Z",
     "DateCreated": "2023-05-01T04:21:00Z",
     "SubmissionStatusTypeID": 100
 }

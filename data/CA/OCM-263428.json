@@ -1,24 +1,25 @@
 {
-    "DateLastVerified": "2023-07-12T09:18:00Z",
+    "DateLastVerified": "2024-02-20T11:23:00Z",
     "ID": 263428,
     "UUID": "7B0114D9-595A-44E0-A13D-3DB731225213",
-    "DataProviderID": 2,
-    "DataProvidersReference": "256236",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$19.80/hr",
     "AddressInfo": {
         "ID": 263812,
-        "Title": "Tesla - 17953 - Cobourg ON",
-        "AddressLine1": "1125 Elgin St W",
+        "Title": "FLO - Tesla - 17953 - Cobourg ON",
+        "AddressLine1": "1125 Elgin Street West",
         "Town": "Cobourg",
         "StateOrProvince": "ON",
         "Postcode": "K9A 5T9",
         "CountryID": 44,
-        "Latitude": 43.9687794,
-        "Longitude": -78.2033473,
-        "ContactTelephone1": "888-356-8911",
+        "Latitude": 43.96910327707488,
+        "Longitude": -78.20346826197839,
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://flo.ca/",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,8 +29,8 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 3,
+            "Comments": ""
         },
         {
             "ID": 446277,
@@ -37,12 +38,14 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 3,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 3,
+    "GeneralComments": "Mobile app (FLO EV Charging) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:18:00Z",
+    "DateLastStatusUpdate": "2024-02-20T11:23:00Z",
     "DateCreated": "2023-05-01T06:09:00Z",
     "SubmissionStatusTypeID": 100
 }

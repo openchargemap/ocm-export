@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-04-05T16:47:00Z",
+    "MediaItems": [
+        {
+            "ID": 40368,
+            "ChargePointID": 259606,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM259606/OCM-259606.orig.2023111912111040.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM259606/OCM-259606.thmb.2023111912111040.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-19T12:11:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-19T12:12:00Z",
     "ID": 259606,
     "UUID": "FF648CD3-B620-4E65-A37E-33D205E4C79A",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,55€/kWh DC - 0,39€/kWh AC",
+    "UsageCost": "0,73€/kWh DC ",
     "AddressInfo": {
         "ID": 259990,
         "Title": "Garaje Dalmau Audi (Zunder)",
@@ -13,8 +31,8 @@
         "StateOrProvince": "Catalunya",
         "Postcode": "25194",
         "CountryID": 210,
-        "Latitude": 41.60583134205061,
-        "Longitude": 0.6124931823989073,
+        "Latitude": 41.6059824418906,
+        "Longitude": 0.6126355211667942,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +43,27 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 920,
-            "PowerKW": 180,
+            "PowerKW": 90,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Ingeteam RAPID180 Charger (375A peak) shares the total power with the Chademo connector. The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited to 150kW for 400V cars"
+            "Quantity": 1,
+            "Comments": "ABB Terra94 Charger"
+        },
+        {
+            "ID": 487215,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "Zunde app",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-05T16:47:00Z",
+    "DateLastStatusUpdate": "2023-11-19T12:12:00Z",
     "DateCreated": "2023-04-05T16:45:00Z",
     "SubmissionStatusTypeID": 200
 }

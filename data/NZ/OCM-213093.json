@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-02-02T04:58:00Z",
+    "DateLastVerified": "2023-09-17T08:23:00Z",
     "ID": 213093,
     "UUID": "5AF54F37-EB4E-449B-9EA2-FE3ABD967C25",
     "DataProviderID": 1,
     "OperatorID": 3593,
     "UsageTypeID": 4,
-    "UsageCost": "$0.70 kWh",
+    "UsageCost": "$0.70/kWh",
     "AddressInfo": {
         "ID": 213473,
         "Title": "BP Connect Cambridge",
@@ -17,14 +17,15 @@
         "CountryID": 161,
         "Latitude": -37.890676200070125,
         "Longitude": 175.46771956660598,
-        "ContactTelephone1": "+64 800 002 788",
-        "AccessComments": "Open 24/7",
+        "ContactTelephone1": "",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 354964,
             "ConnectionTypeID": 33,
+            "Reference": "BPNC9419",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 75,
@@ -34,16 +35,17 @@
         {
             "ID": 354965,
             "ConnectionTypeID": 2,
+            "Reference": "BPNC9419",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 75,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-02T04:58:00Z",
+    "DateLastStatusUpdate": "2023-09-17T08:23:00Z",
     "DateCreated": "2023-02-02T04:58:00Z",
     "SubmissionStatusTypeID": 200
 }

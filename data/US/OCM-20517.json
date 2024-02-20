@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2018-03-13T13:39:00Z",
+    "DateLastVerified": "2023-11-28T15:07:00Z",
     "ID": 20517,
     "UUID": "2971BBD5-3EE8-41D9-8FD0-23C7DE659E99",
     "DataProviderID": 1,
@@ -9,17 +9,18 @@
     "UsageCost": "$0.26/kWh; other tariffs for older cars",
     "AddressInfo": {
         "ID": 20862,
-        "Title": "Corning Supercharger",
-        "AddressLine1": "950 Hwy 99 W ",
+        "Title": "Corning, CA",
+        "AddressLine1": "950 Hwy 99 W",
         "Town": "Corning",
-        "StateOrProvince": "California",
-        "Postcode": "96021",
+        "StateOrProvince": "CA",
+        "Postcode": "96021-2706",
         "CountryID": 2,
         "Latitude": 39.92646,
         "Longitude": -122.1984,
-        "ContactTelephone1": "(877) 798-3752",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
         "ContactEmail": "supercharger@teslamotors.com",
-        "AccessComments": "From I-5N:  Take the Corning Rd exit toward Corning,  Keep right at the fork, follow signs for Tourist Info/Country Rd,  Merge onto Corning Rd,  Turn right onto Hwy 99 W,  Turn right into large driveway before Rabobank,  Supercharger will be on the left.  /  From I-5S:  Take the Corning Rd exit toward Corning,  Turn left onto Corning Rd,  Turn right onto Hwy 99 W,  Turn right into the large driveway before Rabobank,  Supercharger will be on the left.",
+        "AccessComments": "Located at Rabobank Corning",
         "RelatedURL": "http://www.teslamotors.com/supercharger",
         "DistanceUnit": 0
     },
@@ -29,17 +30,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 400,
-            "PowerKW": 120,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 6
+        },
+        {
+            "ID": 486909,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 72,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 6,
-    "GeneralComments": "24 hrs/day",
+    "NumberOfPoints": 8,
+    "GeneralComments": "6 Superchargers, available 24/7, up to 150kW, 2 Superchargers, available 24/7, up to 72kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-03-13T13:39:00Z",
+    "DateLastStatusUpdate": "2023-11-28T15:07:00Z",
     "DateCreated": "2013-11-23T04:58:00Z",
     "SubmissionStatusTypeID": 200
 }

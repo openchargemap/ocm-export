@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2020-05-07T05:41:00Z",
+    "DateLastVerified": "2023-10-26T05:25:00Z",
     "ID": 155239,
     "UUID": "159318FB-8EF6-4126-A610-B943DAA25EEC",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-84143",
+    "OperatorsReference": "PG-84143,PG-87872",
     "UsageTypeID": 4,
-    "UsageCost": "£0.22/kWh",
+    "UsageCost": "£0.50/kWh",
     "AddressInfo": {
         "ID": 155593,
         "Title": "Cofton Country Holidays-Cottages",
@@ -20,21 +20,36 @@
     },
     "Connections": [
         {
-            "ID": 218531,
+            "ID": 483499,
             "ConnectionTypeID": 25,
+            "Reference": "PG-84143",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Arne-Nash"
+        },
+        {
+            "ID": 483500,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-87872",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Zane-Enzo"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "This is an open charge unit installed at the Cofton Country Holidays - Cottages site at Starcross, Exeter",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-05-07T05:41:00Z",
+    "DateLastStatusUpdate": "2023-10-26T05:25:00Z",
     "DateCreated": "2020-04-02T05:39:00Z",
     "SubmissionStatusTypeID": 200
 }

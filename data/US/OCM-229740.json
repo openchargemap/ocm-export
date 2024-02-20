@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T09:07:00Z",
+    "DateLastVerified": "2024-02-11T03:00:00Z",
     "ID": 229740,
     "UUID": "791EA29F-1C1D-45AE-97AD-EEA3F13BB003",
-    "DataProviderID": 2,
-    "DataProvidersReference": "237618",
-    "OperatorID": 3534,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 230123,
-        "Title": "Meijer - Tesla Supercharger",
-        "AddressLine1": "6200 S Pennsylvania Ave",
+        "Title": "Lansing, MI - South Pennsylvania Avenue Supercharger",
+        "AddressLine1": "6200 South Pennsylvania Avenue",
         "Town": "Lansing",
         "StateOrProvince": "MI",
         "Postcode": "48911",
         "CountryID": 2,
-        "Latitude": 42.66705,
-        "Longitude": -84.54091,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
+        "Latitude": 42.667063,
+        "Longitude": -84.540184,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Meijer",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 381384,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:07:00Z",
+    "DateLastStatusUpdate": "2024-02-11T03:00:00Z",
     "DateCreated": "2023-02-13T05:27:00Z",
     "SubmissionStatusTypeID": 100
 }

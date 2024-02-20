@@ -1,21 +1,38 @@
 {
-    "DateLastVerified": "2023-07-12T08:46:00Z",
+    "MediaItems": [
+        {
+            "ID": 39474,
+            "ChargePointID": 142050,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM142050/OCM-142050.orig.2023090222105293.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM142050/OCM-142050.thmb.2023090222105293.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2023-09-02T22:11:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-01T01:59:00Z",
     "ID": 142050,
     "UUID": "C5F0F2A3-28FE-40EE-AD64-18B6F3151557",
-    "DataProviderID": 2,
-    "DataProvidersReference": "136268",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 142402,
         "Title": "Walmart 2426 - Columbus, OH",
-        "AddressLine1": "5200 West Point Plaza",
+        "AddressLine1": "5200 Westpointe Plaza Drive",
         "Town": "Columbus",
         "StateOrProvince": "OH",
         "Postcode": "43228",
         "CountryID": 2,
-        "Latitude": 39.98232,
-        "Longitude": -83.14674,
+        "Latitude": 39.982216715321414,
+        "Longitude": -83.14663274632494,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -25,24 +42,42 @@
         {
             "ID": 198110,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": "Shared with one CCS stall"
         },
         {
             "ID": 198111,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 6,
+            "Comments": ""
+        },
+        {
+            "ID": 474994,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:46:00Z",
+    "DateLastStatusUpdate": "2024-02-01T01:59:00Z",
     "DateCreated": "2019-12-24T09:16:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,14 +1,32 @@
 {
-    "DateLastVerified": "2023-01-29T16:19:00Z",
+    "MediaItems": [
+        {
+            "ID": 40082,
+            "ChargePointID": 213032,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM213032/OCM-213032.orig.2023110107240259.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM213032/OCM-213032.thmb.2023110107240259.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-01T07:24:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-01T07:24:00Z",
     "ID": 213032,
     "UUID": "63FFE2BF-5140-4790-9912-DA6882F2C454",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": " 0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": " 0,56€/kWh 100 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 213412,
-        "Title": "Plenoil Sevilla",
+        "Title": "Centro Comercial Palmetillo",
         "AddressLine2": "Distrito Este-Alcosa-Torreblanca",
         "StateOrProvince": "Andalucía",
         "Postcode": "41020",
@@ -23,27 +41,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 250,
+            "Voltage": 900,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 354833,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 354834,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Delta Slim Charger 100. Max power of the charger for both combined outlets 100 kW. "
         },
         {
             "ID": 354835,
@@ -52,12 +55,12 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 3
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-01-29T16:19:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-11-01T07:24:00Z",
     "DateCreated": "2023-01-29T16:19:00Z",
     "SubmissionStatusTypeID": 200
 }

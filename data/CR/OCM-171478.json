@@ -1,4 +1,21 @@
 {
+    "UserComments": [
+        {
+            "ID": 29406,
+            "ChargePointID": 171478,
+            "CommentTypeID": 10,
+            "UserName": "thevelcrostrip",
+            "Comment": "Audi etron is currently charging ",
+            "Rating": 5,
+            "DateCreated": "2024-01-07T20:47:58.69Z",
+            "User": {
+                "ID": 44353,
+                "Username": "thevelcrostrip"
+            },
+            "CheckinStatusTypeID": 100,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
         {
             "ID": 26106,
@@ -17,13 +34,13 @@
             "DateCreated": "2021-01-05T02:49:00Z"
         }
     ],
-    "DateLastVerified": "2023-01-18T18:11:00Z",
+    "DateLastVerified": "2024-01-09T18:22:00Z",
     "ID": 171478,
     "UUID": "33E9DB75-CF88-4873-BA6C-815BB52BD31E",
     "DataProviderID": 1,
     "OperatorID": 3404,
-    "UsageTypeID": 1,
-    "UsageCost": "150 colones por minuto",
+    "UsageTypeID": 4,
+    "UsageCost": "137 colones por minuto",
     "AddressInfo": {
         "ID": 171837,
         "Title": "Plaza Herradura",
@@ -32,8 +49,8 @@
         "StateOrProvince": "Puntarenas",
         "Postcode": "61101",
         "CountryID": 58,
-        "Latitude": 9.66101,
-        "Longitude": -84.63914,
+        "Latitude": 9.661281873472888,
+        "Longitude": -84.63973828414441,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -42,7 +59,7 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 125,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -60,7 +77,9 @@
             "ConnectionTypeID": 1040,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
@@ -68,7 +87,7 @@
     "NumberOfPoints": 2,
     "GeneralComments": "2 puntos de carga simultáneos de 60kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-18T18:11:00Z",
+    "DateLastStatusUpdate": "2024-01-09T18:22:00Z",
     "DateCreated": "2021-01-02T21:57:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,9 +1,38 @@
 {
-    "DateLastVerified": "2023-07-12T08:38:00Z",
+    "UserComments": [
+        {
+            "ID": 29503,
+            "ChargePointID": 224467,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "Station ID 53376A is offline in the Shell Recharge app. When attempting to charge via the app, a message appeared: “Error Unable to use the EVSE, it is in an unknown state.” Credit card method to start a charge also failed. Tried twice and both times the message appeared: “Payment Error Your payment failed. Please retry. For assistance call 1-855-900-7584” Reported the issue to Shell Recharge customer support via email. ",
+            "DateCreated": "2024-02-08T16:39:59.163Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 29147,
+            "ChargePointID": 224467,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "The fast charger on the right, Station ID 53378A displays \"Error Code: CHARGER _DOOR_OPEN\" Contacted Customer Assistance at the number on the label and they said that the charger is offline and it already has an open ticket.",
+            "DateCreated": "2023-10-23T01:55:15.037Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-02-08T16:40:00Z",
     "ID": 224467,
     "UUID": "7141B62C-A483-4E88-8336-02D77C978AE7",
-    "DataProviderID": 2,
-    "DataProvidersReference": "220915",
+    "DataProviderID": 1,
     "OperatorID": 59,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +43,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21401",
         "CountryID": 2,
-        "Latitude": 38.982177,
-        "Longitude": -76.563363,
+        "Latitude": 38.98258234465183,
+        "Longitude": -76.56265406056565,
         "ContactTelephone1": "855-900-7584",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://shellrecharge.com/en-us/solutions",
@@ -26,9 +55,9 @@
             "ID": 375583,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
@@ -39,7 +68,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
@@ -48,12 +77,12 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:38:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2024-02-08T16:40:00Z",
     "DateCreated": "2023-02-13T05:12:00Z",
     "SubmissionStatusTypeID": 100
 }

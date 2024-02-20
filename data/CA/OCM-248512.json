@@ -1,48 +1,61 @@
 {
-    "DateLastVerified": "2023-07-12T09:19:00Z",
+    "DateLastVerified": "2024-02-10T15:27:00Z",
     "ID": 248512,
     "UUID": "F90DE9EC-B833-40D7-9DA9-C33897F38275",
-    "DataProviderID": 2,
-    "DataProvidersReference": "207858",
+    "DataProviderID": 1,
     "OperatorID": 3416,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.62/kWh",
     "AddressInfo": {
         "ID": 248896,
         "Title": "Ivy - ONroute Odessa",
-        "AddressLine1": "3745 Hwy 401",
+        "AddressLine1": "3745 Highway 401 Eastbound",
         "Town": "Odessa",
         "StateOrProvince": "ON",
         "Postcode": "K0H 2H0",
         "CountryID": 44,
-        "Latitude": 44.2836656977955,
-        "Longitude": -76.6577772639411,
-        "ContactTelephone1": "888-550-5155",
+        "Latitude": 44.28279534603681,
+        "Longitude": -76.65633912232511,
+        "ContactTelephone1": "1-800-301-1950",
+        "ContactTelephone2": "1-888-550-5155",
         "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
-        "RelatedURL": "https://ivycharge.com/",
+        "RelatedURL": "https://ivycharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 415031,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 415032,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": ""
+        },
+        {
+            "ID": 508742,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2
+        },
+        {
+            "ID": 508743,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "Guest payment with QR code. Mobile app (Ivy Charging Network 2.0) and RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:19:00Z",
+    "DateLastStatusUpdate": "2024-02-10T15:27:00Z",
     "DateCreated": "2023-03-07T05:51:00Z",
     "SubmissionStatusTypeID": 100
 }

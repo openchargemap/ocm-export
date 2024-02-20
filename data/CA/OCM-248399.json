@@ -1,38 +1,28 @@
 {
-    "DateLastVerified": "2023-07-12T09:18:00Z",
+    "DateLastVerified": "2024-01-08T09:51:00Z",
     "ID": 248399,
     "UUID": "69DFC488-539F-46CA-9D31-74F2985AFE3B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "201650",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "DCFC $10.00/hr, L2 $2.00/hr",
     "AddressInfo": {
         "ID": 248783,
-        "Title": "Courthouse - Orangeville",
+        "Title": "FLO - Courthouse - Orangeville",
         "AddressLine1": "44 Elizabeth Street",
         "Town": "Orangeville",
         "StateOrProvince": "ON",
         "Postcode": "L9W 1E5",
         "CountryID": 44,
-        "Latitude": 43.919636,
-        "Longitude": -80.103688,
-        "ContactTelephone1": "888-356-8911",
+        "Latitude": 43.919632136397524,
+        "Longitude": -80.10340368635671,
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://flo.ca/",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 414898,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
         {
             "ID": 414899,
             "ConnectionTypeID": 2,
@@ -40,7 +30,7 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 414900,
@@ -49,11 +39,21 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 509306,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 6.2,
+            "CurrentTypeID": 10,
+            "Quantity": 4
         }
     ],
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:18:00Z",
+    "DateLastStatusUpdate": "2024-01-08T09:51:00Z",
     "DateCreated": "2023-03-07T05:50:00Z",
     "SubmissionStatusTypeID": 100
 }

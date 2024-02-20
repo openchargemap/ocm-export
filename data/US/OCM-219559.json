@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:06:00Z",
+    "DateLastVerified": "2024-01-09T14:24:00Z",
     "ID": 219559,
     "UUID": "89E01E7B-D0CD-4A71-BE0A-7C8FA89C84DE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "220683",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 219942,
-        "Title": "Tesla Service Center - Tesla Supercharger",
+        "Title": "Lubbock, TX Supercharger",
         "AddressLine1": "6544 82nd Street",
         "Town": "Lubbock",
         "StateOrProvince": "TX",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 33.520932,
         "Longitude": -101.961629,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Tesla Service Center",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,17 @@
         {
             "ID": 369965,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4
         }
     ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "4 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:06:00Z",
+    "DateLastStatusUpdate": "2024-01-09T14:24:00Z",
     "DateCreated": "2023-02-13T04:58:00Z",
     "SubmissionStatusTypeID": 100
 }

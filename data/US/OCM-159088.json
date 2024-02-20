@@ -1,11 +1,10 @@
 {
-    "DateLastVerified": "2023-07-12T08:24:00Z",
+    "DateLastVerified": "2024-02-11T14:47:00Z",
     "ID": 159088,
     "UUID": "C3D344D1-42B8-4C94-BBA4-6D5D1CDC2046",
-    "DataProviderID": 2,
-    "DataProvidersReference": "156537",
-    "OperatorID": 3399,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 3733,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 159445,
         "Title": "Fine Airport Parking",
@@ -14,10 +13,10 @@
         "StateOrProvince": "OK",
         "Postcode": "74115",
         "CountryID": 2,
-        "Latitude": 36.183488,
-        "Longitude": -95.888083,
-        "ContactTelephone1": "",
-        "AccessComments": "24 hours daily; Also accepts payment through Francis Energy App\r\nPublic - Credit card at all times",
+        "Latitude": 36.1842,
+        "Longitude": -95.88777,
+        "ContactTelephone1": "1-800-489-1588",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "https://francisenergy.com",
         "DistanceUnit": 0
     },
@@ -26,11 +25,9 @@
             "ID": 229163,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 9.6,
             "CurrentTypeID": 10,
-            "Quantity": 12,
+            "Quantity": 20,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
@@ -39,7 +36,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
@@ -48,12 +45,30 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 513964,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 513965,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:24:00Z",
+    "DateLastStatusUpdate": "2024-02-11T14:47:00Z",
     "DateCreated": "2020-06-26T02:58:00Z",
     "SubmissionStatusTypeID": 100
 }

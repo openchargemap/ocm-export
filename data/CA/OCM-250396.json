@@ -1,11 +1,10 @@
 {
-    "DateLastVerified": "2023-07-12T09:39:00Z",
+    "DateLastVerified": "2024-01-24T13:37:00Z",
     "ID": 250396,
     "UUID": "6625C665-8713-4D0F-B6DE-CEF52681CAA0",
-    "DataProviderID": 2,
-    "DataProvidersReference": "185979",
+    "DataProviderID": 1,
     "OperatorID": 3493,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 250780,
         "Title": "Swtch Energy",
@@ -26,16 +25,23 @@
             "ID": 417344,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 6.6,
             "CurrentTypeID": 10,
-            "Quantity": 2,
+            "Quantity": 4,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 481099,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:39:00Z",
+    "DateLastStatusUpdate": "2024-01-24T13:37:00Z",
     "DateCreated": "2023-03-07T06:04:00Z",
     "SubmissionStatusTypeID": 100
 }

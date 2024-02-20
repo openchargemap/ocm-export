@@ -15,34 +15,52 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2022-04-16T11:12:00Z",
+    "MediaItems": [
+        {
+            "ID": 41441,
+            "ChargePointID": 161174,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM161174/OCM-161174.orig.2024021113211932.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM161174/OCM-161174.thmb.2024021113211932.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50513,
+                "Username": "Daveemtb"
+            },
+            "DateCreated": "2024-02-11T13:21:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-12T02:50:00Z",
     "ID": 161174,
     "UUID": "E4F27993-328E-488C-9EAF-0713ABC1D324",
     "DataProviderID": 1,
-    "OperatorID": 32,
+    "OperatorID": 3492,
     "OperatorsReference": "21028",
     "UsageTypeID": 4,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 161531,
-        "Title": "Brown Street",
+        "Title": "Brown Street (West) Car Park",
         "AddressLine1": "Brown Street",
         "Town": "Salisbury",
         "StateOrProvince": "England",
         "Postcode": "SP1 2DQ",
         "CountryID": 1,
-        "Latitude": 51.06755369640709,
-        "Longitude": -1.7924958299233822,
+        "Latitude": 51.06739553106078,
+        "Longitude": -1.7929140297214587,
+        "RelatedURL": "https://driver.uk.mer.eco/findCharger?51.0672911,-1.7924050,20z,WIC%20Brown%20Street%20(MER-UK-KM0078),5952st",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 231896,
             "ConnectionTypeID": 33,
-            "Reference": "21028",
-            "StatusTypeID": 100,
+            "Reference": "MER-UK-KM0078 (right)",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -50,29 +68,18 @@
         {
             "ID": 231926,
             "ConnectionTypeID": 2,
-            "Reference": "21028",
-            "StatusTypeID": 100,
+            "Reference": "MER-UK-KM0078 (left)",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
-        },
-        {
-            "ID": 231927,
-            "ConnectionTypeID": 1036,
-            "Reference": "21028",
-            "StatusTypeID": 100,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-04-16T11:12:00Z",
+    "GeneralComments": "Branded Kempower",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-12T02:50:00Z",
     "DateCreated": "2020-07-05T20:26:00Z",
     "SubmissionStatusTypeID": 200
 }

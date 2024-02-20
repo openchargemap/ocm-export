@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:20:00Z",
+    "DateLastVerified": "2024-02-14T16:04:00Z",
     "ID": 232009,
     "UUID": "6287B7C6-8385-4F51-AE49-839B12BA6040",
-    "DataProviderID": 2,
-    "DataProvidersReference": "231695",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 232392,
-        "Title": "Stewart's Shops - Tesla Supercharger",
+        "Title": "Potsdam, NY Supercharger",
         "AddressLine1": "26 Maple Street",
         "Town": "Potsdam",
         "StateOrProvince": "NY",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 44.666973,
         "Longitude": -74.990216,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Stewart's Shops",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 383810,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "4 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:20:00Z",
+    "DateLastStatusUpdate": "2024-02-14T16:04:00Z",
     "DateCreated": "2023-02-13T05:33:00Z",
     "SubmissionStatusTypeID": 100
 }

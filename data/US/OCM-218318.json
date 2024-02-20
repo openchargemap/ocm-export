@@ -1,23 +1,22 @@
 {
-    "DateLastVerified": "2023-07-12T07:59:00Z",
+    "DateLastVerified": "2023-12-24T01:23:00Z",
     "ID": 218318,
     "UUID": "867C74B5-C06E-48F2-88C2-E2D97F25E0D3",
-    "DataProviderID": 2,
-    "DataProvidersReference": "253276",
-    "OperatorID": 3534,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 218698,
-        "Title": "Albertsons - Tesla Supercharger",
-        "AddressLine1": "9650 Airline Hwy",
+        "Title": "Baton Rouge, LA - Airline Highway Supercharger",
+        "AddressLine1": "9650 Airline Highway",
         "Town": "Baton Rouge",
         "StateOrProvince": "LA",
-        "Postcode": "70809",
+        "Postcode": "70815",
         "CountryID": 2,
-        "Latitude": 30.431507,
-        "Longitude": -91.082803,
+        "Latitude": 30.432827,
+        "Longitude": -91.081953,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
+        "AccessComments": "Located at Hammond Aire Plaza",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 368623,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 11,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 11
         }
     ],
+    "NumberOfPoints": 11,
+    "GeneralComments": "11 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:59:00Z",
+    "DateLastStatusUpdate": "2023-12-24T01:23:00Z",
     "DateCreated": "2023-02-13T04:55:00Z",
     "SubmissionStatusTypeID": 100
 }

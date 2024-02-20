@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2023-07-12T08:31:00Z",
+    "DateLastVerified": "2023-08-14T12:54:00Z",
     "ID": 223357,
     "UUID": "DF631611-2CAB-4C0B-8975-8EB5512CBB1C",
-    "DataProviderID": 2,
-    "DataProvidersReference": "228688",
+    "DataProviderID": 1,
     "OperatorID": 15,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,10 +13,10 @@
         "StateOrProvince": "CA",
         "Postcode": "94609",
         "CountryID": 2,
-        "Latitude": 37.83743,
-        "Longitude": -122.2619,
+        "Latitude": 37.83755777390118,
+        "Longitude": -122.2614257388036,
         "ContactTelephone1": "877-455-3833",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "Store hours only.",
         "RelatedURL": "https://www.evgo.com/",
         "DistanceUnit": 0
     },
@@ -26,23 +25,26 @@
             "ID": 374293,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": "kW power is an estimate based on EvGo Website"
         },
         {
             "ID": 374294,
             "ConnectionTypeID": 32,
+            "Reference": "Bernice",
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Misu and Bernice.  Enter from garage at rear of store.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:31:00Z",
+    "DateLastStatusUpdate": "2023-08-14T12:54:00Z",
     "DateCreated": "2023-02-13T05:09:00Z",
     "SubmissionStatusTypeID": 100
 }

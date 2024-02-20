@@ -1,9 +1,38 @@
 {
-    "DateLastVerified": "2023-07-12T08:38:00Z",
+    "UserComments": [
+        {
+            "ID": 29509,
+            "ChargePointID": 245330,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "Station ID 52444A is offline and both ports display a message: “NETWORK DOWN Please Contact Customer Support.” Electric vehicles are parked in both charging spaces and not connected. Reported the issue to Shell Recharge customer support via email.",
+            "DateCreated": "2024-02-08T21:57:23.62Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 140,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 29145,
+            "ChargePointID": 245330,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "None of the stations including the fast charger show up on the app. If scanning the QR code on each station with the Shell Recharge app, the following message appears: Error Charge station not found. Was able to initiate a charge with a Shell Recharge RFID card that I had. ",
+            "DateCreated": "2023-10-23T01:47:05.91Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-02-08T21:57:00Z",
     "ID": 245330,
     "UUID": "CC21CA8E-86CE-4969-ABC7-728FFB1C1E5B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "250518",
+    "DataProviderID": 1,
     "OperatorID": 59,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +43,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21401",
         "CountryID": 2,
-        "Latitude": 38.979374,
-        "Longitude": -76.496327,
+        "Latitude": 38.97873071931025,
+        "Longitude": -76.4964932121008,
         "ContactTelephone1": "855-900-7584",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://shellrecharge.com/en-us/solutions",
@@ -26,9 +55,9 @@
             "ID": 411469,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
@@ -52,8 +81,9 @@
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "NumberOfPoints": 7,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:38:00Z",
+    "DateLastStatusUpdate": "2024-02-08T21:57:00Z",
     "DateCreated": "2023-03-07T05:23:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,12 +1,61 @@
 {
-    "DateLastVerified": "2022-10-02T18:30:00Z",
+    "UserComments": [
+        {
+            "ID": 29097,
+            "ChargePointID": 148637,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "despite being removed from both Charge your Car and BP Pulse network maps, this chargepoint is at least sort of working. The display temporarily flashed up a comms error, so it may well be failing-useful, at least until it's transaction memory is full.",
+            "Rating": 3,
+            "DateCreated": "2023-10-10T19:46:53.28Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 210,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 29092,
+            "ChargePointID": 148637,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "one connector was faulty, but the other one worked as intended.",
+            "DateCreated": "2023-10-10T13:07:03.853Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 39843,
+            "ChargePointID": 148637,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM148637/OCM-148637.orig.2023101013080702.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM148637/OCM-148637.thmb.2023101013080702.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "DateCreated": "2023-10-10T13:08:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-10-10T19:47:00Z",
     "ID": 148637,
     "UUID": "E163944D-76DB-49A5-96E0-ABBCBB7533C5",
     "DataProviderID": 1,
     "OperatorID": 20,
     "OperatorsReference": "60483",
     "UsageTypeID": 4,
-    "UsageCost": "£1.00/charge admin fee",
+    "UsageCost": "£1.00/charge admin fee. Parking fees apply.",
     "AddressInfo": {
         "ID": 148989,
         "Title": "Regent Arcade",
@@ -22,7 +71,7 @@
             "ID": 206388,
             "ConnectionTypeID": 25,
             "Reference": "60483",
-            "StatusTypeID": 100,
+            "StatusTypeID": 75,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
@@ -32,8 +81,8 @@
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-10-02T18:30:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2023-10-10T19:47:00Z",
     "DateCreated": "2020-02-08T06:15:00Z",
     "SubmissionStatusTypeID": 200
 }

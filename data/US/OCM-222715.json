@@ -1,10 +1,9 @@
 {
-    "DateLastVerified": "2023-05-01T05:31:00Z",
+    "DateLastVerified": "2024-02-20T09:59:00Z",
     "ID": 222715,
     "UUID": "D5EE6FD4-CD01-4D65-9FED-0E3D63D53E51",
     "DataProviderID": 2,
     "DataProvidersReference": "222840",
-    "OperatorID": 3372,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 223098,
@@ -14,11 +13,11 @@
         "StateOrProvince": "CA",
         "Postcode": "95341",
         "CountryID": 2,
-        "Latitude": 37.275114,
-        "Longitude": -120.433123,
+        "Latitude": 37.275024,
+        "Longitude": -120.433018,
         "ContactTelephone1": "866-816-7584",
         "AccessComments": "",
-        "RelatedURL": "http://evconnect.com/",
+        "RelatedURL": "https://www.bp.com/en_us/united-states/home/what-we-do/customers-and-products/bp-pulse/bp-pulse-products.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,25 +25,23 @@
             "ID": 373563,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 373564,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-01T05:31:00Z",
+    "DateLastStatusUpdate": "2024-02-20T09:59:00Z",
     "DateCreated": "2023-02-13T05:07:00Z",
     "SubmissionStatusTypeID": 100
 }

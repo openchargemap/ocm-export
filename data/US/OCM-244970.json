@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:34:00Z",
+    "DateLastVerified": "2023-12-20T22:49:00Z",
     "ID": 244970,
     "UUID": "ECD864A4-67C4-4CC8-A1C8-564A32DD9788",
-    "DataProviderID": 2,
-    "DataProvidersReference": "213147",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 245354,
-        "Title": "JBG - Tesla Supercharger",
+        "Title": "Woodbridge, VA - Potomac Town Place Supercharger",
         "AddressLine1": "15201 Potomac Town Place",
         "Town": "Woodbridge",
         "StateOrProvince": "VA",
@@ -17,7 +16,6 @@
         "Latitude": 38.62924,
         "Longitude": -77.28939,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +23,17 @@
         {
             "ID": 411075,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 12
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:34:00Z",
+    "DateLastStatusUpdate": "2023-12-20T22:49:00Z",
     "DateCreated": "2023-03-07T05:20:00Z",
     "SubmissionStatusTypeID": 100
 }

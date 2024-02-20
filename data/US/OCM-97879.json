@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-05-05T17:16:00Z",
+    "DateLastVerified": "2023-12-08T09:11:00Z",
     "ID": 97879,
     "UUID": "4BC01C03-9D70-4CFD-82C6-8F7B334375F7",
     "DataProviderID": 1,
-    "OperatorID": 3534,
+    "OperatorID": 3619,
     "OperatorsReference": "38505",
     "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "UsageCost": "$0.31/kWh",
     "AddressInfo": {
         "ID": 98225,
         "Title": "Jiminy Peak Mountain Resort",
@@ -18,35 +18,25 @@
         "Latitude": 42.556086923394645,
         "Longitude": -73.29263314373554,
         "ContactTelephone1": "(413) 738-5500",
-        "AccessComments": "Located in upper lot behind the Country Store. No fob or special access needed to use.",
+        "AccessComments": "Located in upper lot behind the Country Store.",
         "RelatedURL": "https://www.jiminypeak.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 138787,
-            "ConnectionTypeID": 30,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 16,
-            "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
             "ID": 449533,
             "ConnectionTypeID": 1,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 6.7,
+            "PowerKW": 11.5,
             "CurrentTypeID": 10,
-            "Quantity": 2,
-            "Comments": "Located to the right of the Tesla chargers"
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla connectors, up to 16kW; 2 J1772 connectors, up to 7 kW.",
+    "NumberOfPoints": 4,
+    "GeneralComments": "4 J1772 connectors, up to 11.5 kW. AmpUp network.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-05T17:16:00Z",
+    "DateLastStatusUpdate": "2023-12-08T09:11:00Z",
     "DateCreated": "2018-01-21T16:53:00Z",
     "SubmissionStatusTypeID": 200
 }

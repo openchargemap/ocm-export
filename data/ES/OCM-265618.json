@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-05-15T16:04:00Z",
+    "DateLastVerified": "2024-02-09T10:16:00Z",
     "ID": 265618,
     "UUID": "9380F9B5-4227-4166-A96F-22FC8D395FA9",
     "DataProviderID": 1,
     "OperatorID": 3377,
     "UsageTypeID": 4,
-    "UsageCost": "0,35€/kWh",
+    "UsageCost": "0,35€/kWh + parking fee",
     "AddressInfo": {
         "ID": 266002,
         "Title": "Parking Hospital Infanta Leonor",
@@ -29,12 +29,24 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 16
+        },
+        {
+            "ID": 513739,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
         }
     ],
-    "NumberOfPoints": 16,
+    "NumberOfPoints": 18,
     "GeneralComments": "App EVcharge. Remo Mobility",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-15T16:04:00Z",
+    "DateLastStatusUpdate": "2024-02-09T10:16:00Z",
     "DateCreated": "2023-05-15T16:03:00Z",
     "SubmissionStatusTypeID": 200
 }

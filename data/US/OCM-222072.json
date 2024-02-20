@@ -1,23 +1,22 @@
 {
-    "DateLastVerified": "2023-07-12T08:23:00Z",
+    "DateLastVerified": "2023-12-18T23:37:00Z",
     "ID": 222072,
     "UUID": "498EF7E1-BF63-4F09-90FD-07A489AADFE8",
-    "DataProviderID": 2,
-    "DataProvidersReference": "237627",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 222455,
-        "Title": "Walmart - Tesla Supercharger",
-        "AddressLine1": "276 Harvey St",
+        "Title": "Winston-Salem, NC Supercharger",
+        "AddressLine1": "240 Harvey St",
         "Town": "Winston-Salem",
         "StateOrProvince": "NC",
         "Postcode": "27103",
         "CountryID": 2,
-        "Latitude": 36.085664,
-        "Longitude": -80.293363,
+        "Latitude": 36.084399,
+        "Longitude": -80.295303,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "Located at Hanes Towne Village Shopping Center",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 372818,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 12
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:23:00Z",
+    "DateLastStatusUpdate": "2023-12-18T23:37:00Z",
     "DateCreated": "2023-02-13T05:06:00Z",
     "SubmissionStatusTypeID": 100
 }

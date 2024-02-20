@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:50:00Z",
+    "DateLastVerified": "2023-11-06T13:28:00Z",
     "ID": 226495,
     "UUID": "63E66120-4B95-4C6A-A527-C5DA0A288508",
-    "DataProviderID": 2,
-    "DataProvidersReference": "238208",
-    "OperatorID": 3534,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 226878,
-        "Title": "Wawa - Tesla Supercharger",
-        "AddressLine1": "580 US-1",
+        "Title": "Edison, NJ - U.S. Route 1",
+        "AddressLine1": "580 U.S. Route 1",
         "Town": "Edison",
         "StateOrProvince": "NJ",
         "Postcode": "08817",
         "CountryID": 2,
-        "Latitude": 40.5062,
-        "Longitude": -74.3936,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
+        "Latitude": 40.506264,
+        "Longitude": -74.393652,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877 798 3752",
+        "AccessComments": "Located at the Wawa",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 377866,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:50:00Z",
+    "DateLastStatusUpdate": "2023-11-06T13:28:00Z",
     "DateCreated": "2023-02-13T05:18:00Z",
     "SubmissionStatusTypeID": 100
 }

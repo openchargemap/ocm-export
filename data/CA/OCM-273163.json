@@ -1,44 +1,50 @@
 {
-    "DateLastVerified": "2023-07-26T21:14:00Z",
+    "DateLastVerified": "2023-12-31T05:18:00Z",
     "ID": 273163,
     "UUID": "EED4F382-2449-4A2F-BF82-3BEB3077A109",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 5,
-    "UsageCost": "$0.40/kWh",
+    "OperatorID": 3741,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.46/kWh",
     "AddressInfo": {
         "ID": 273547,
-        "Title": "Tobermory Community Centre",
+        "Title": "ChargerQuest - Tobermory Community Centre",
         "AddressLine1": "7420 Highway 6",
         "Town": "Tobermory",
-        "StateOrProvince": "Bruce County",
+        "StateOrProvince": "ON",
         "Postcode": "N0H 2R0",
         "CountryID": 44,
-        "Latitude": 45.25271425230645,
-        "Longitude": -81.66344173888388,
-        "ContactTelephone1": "519-870-5152",
+        "Latitude": 45.25257074674087,
+        "Longitude": -81.66355975256228,
+        "ContactTelephone1": "1-888-310-6630",
         "ContactEmail": "info@chargerquest.com",
-        "RelatedURL": "https://chargerquest.com/",
+        "RelatedURL": "https://chargerquest.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 470643,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 6
         },
         {
             "ID": 470644,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 6
         }
     ],
     "NumberOfPoints": 6,
-    "GeneralComments": "Operated by ChargerQuest. Charger status visible on their App. CCS and CHAdeMO",
+    "GeneralComments": "No credit card reader. Smartphone required for payment using QR code.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-26T21:14:00Z",
+    "DateLastStatusUpdate": "2023-12-31T05:18:00Z",
     "DateCreated": "2023-07-26T16:20:00Z",
     "SubmissionStatusTypeID": 200
 }

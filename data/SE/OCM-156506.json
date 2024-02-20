@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-12T03:17:00Z",
+    "DateLastVerified": "2024-02-20T07:27:00Z",
     "ID": 156506,
     "UUID": "2CF35CAE-6A2C-4C56-B706-1464CACBBA1E",
     "DataProviderID": 19,
@@ -20,6 +20,17 @@
     "Connections": [
         {
             "ID": 220330,
+            "ConnectionTypeID": 25,
+            "Reference": "3",
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Comments": "Mode 3"
+        },
+        {
+            "ID": 220331,
             "ConnectionTypeID": 2,
             "Reference": "2",
             "LevelID": 3,
@@ -30,7 +41,7 @@
             "Comments": "Mode 4"
         },
         {
-            "ID": 220331,
+            "ID": 220332,
             "ConnectionTypeID": 33,
             "Reference": "4",
             "LevelID": 3,
@@ -39,21 +50,10 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Comments": "Mode 4"
-        },
-        {
-            "ID": 220332,
-            "ConnectionTypeID": 25,
-            "Reference": "3",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 3"
         }
     ],
     "NumberOfPoints": 4,
-    "DateLastStatusUpdate": "2023-07-12T03:17:00Z",
+    "DateLastStatusUpdate": "2024-02-20T07:27:00Z",
     "DateCreated": "2020-05-26T08:21:00Z",
     "SubmissionStatusTypeID": 100
 }

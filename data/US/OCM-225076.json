@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:42:00Z",
+    "DateLastVerified": "2023-11-28T19:55:00Z",
     "ID": 225076,
     "UUID": "F530D73B-7217-4E5A-B565-2B7843A132DE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "187960",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 225459,
-        "Title": "Wawa - Tesla Supercharger",
+        "Title": "Middletown, DE",
         "AddressLine1": "5018 Summit Bridge Road",
         "Town": "Middletown",
         "StateOrProvince": "DE",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 39.479708,
         "Longitude": -75.720734,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Wawa",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 376285,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:42:00Z",
+    "DateLastStatusUpdate": "2023-11-28T19:55:00Z",
     "DateCreated": "2023-02-13T05:14:00Z",
     "SubmissionStatusTypeID": 100
 }

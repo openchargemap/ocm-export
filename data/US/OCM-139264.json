@@ -1,11 +1,10 @@
 {
-    "DateLastVerified": "2020-06-26T02:56:00Z",
+    "DateLastVerified": "2024-02-12T15:12:00Z",
     "ID": 139264,
     "UUID": "30129A1B-E290-4E54-8E9F-08A00E393D5E",
-    "DataProviderID": 2,
-    "DataProvidersReference": "93512",
+    "DataProviderID": 1,
     "OperatorID": 15,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 139616,
         "Title": "Rancho Las Palmas Shopping Center",
@@ -14,8 +13,8 @@
         "StateOrProvince": "CA",
         "Postcode": "92270",
         "CountryID": 2,
-        "Latitude": 33.738376,
-        "Longitude": -116.407444,
+        "Latitude": 33.736703126469166,
+        "Longitude": -116.40752983861155,
         "ContactTelephone1": "877-455-3833",
         "AccessComments": "24 hours daily\r\nPublic - Card key at all times",
         "RelatedURL": "https://www.evgo.com/",
@@ -25,26 +24,33 @@
         {
             "ID": 194562,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 10
         },
         {
             "ID": 194563,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 6
+        },
+        {
+            "ID": 514070,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T02:56:00Z",
+    "DateLastStatusUpdate": "2024-02-12T15:12:00Z",
     "DateCreated": "2019-12-24T09:10:00Z",
     "SubmissionStatusTypeID": 100
 }

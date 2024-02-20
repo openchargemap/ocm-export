@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-25T15:52:00Z",
+    "DateLastVerified": "2023-12-19T20:16:00Z",
     "ID": 273105,
     "UUID": "B3B241F6-C4BE-452E-A9EC-3BE74945C277",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 6,
-    "UsageCost": "0,35€/kWh",
+    "UsageCost": "0,45€/kWh DC - 0,39€/kWh AC ",
     "AddressInfo": {
         "ID": 273489,
         "Title": "Hotel Silken Indautxo",
@@ -14,8 +14,8 @@
         "StateOrProvince": "Euskadi",
         "Postcode": "48010",
         "CountryID": 210,
-        "Latitude": 43.258576638147815,
-        "Longitude": -2.9395173685014697,
+        "Latitude": 43.2586118640634,
+        "Longitude": -2.9395691747045873,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,11 +27,23 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 506452,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump60 DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-25T15:52:00Z",
+    "DateLastStatusUpdate": "2023-12-19T20:16:00Z",
     "DateCreated": "2023-07-25T15:52:00Z",
     "SubmissionStatusTypeID": 200
 }

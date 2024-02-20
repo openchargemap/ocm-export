@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-07-05T03:13:00Z",
+    "DateLastVerified": "2023-08-12T11:07:00Z",
     "ID": 193874,
     "UUID": "BBB6903E-6407-47DE-B1C5-93B4B28FFA8C",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "DC: $0.60/kWh + $0.40/m, AC: $0.25/kWh + $0.25/m, $1/m overstay fee",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 194233,
         "Title": "Grey Lynn (Giltrap Audi)",
@@ -23,24 +23,24 @@
         {
             "ID": 315664,
             "ConnectionTypeID": 2,
-            "Reference": "GLTP1-DC ,  GLTP2",
+            "Reference": "GLTP1-DC",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "$0.60/kWh + $0.40/m"
+            "Quantity": 1,
+            "Comments": "$0.80/kWh"
         },
         {
             "ID": 315665,
             "ConnectionTypeID": 33,
-            "Reference": "GLTP1DC , GLTP2",
+            "Reference": "GLTP3-A ; GLTP3-B",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 175,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "$0.60/kWh + $0.40/m"
+            "Comments": "$0.85/kWh"
         },
         {
             "ID": 315666,
@@ -51,13 +51,24 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1,
-            "Comments": "$0.25/kWh + $0.25/m, $1/m overstay fee"
+            "Comments": "$0.40/kWh"
+        },
+        {
+            "ID": 472096,
+            "ConnectionTypeID": 33,
+            "Reference": "GLTP1-DC",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "$0.80/kWh"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "Unplug within 5m of stopping charge, or vehicle has been fully charged to avoid $1/m idle fee.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-05T03:13:00Z",
+    "DateLastStatusUpdate": "2023-08-12T11:07:00Z",
     "DateCreated": "2022-07-05T03:13:00Z",
     "SubmissionStatusTypeID": 200
 }

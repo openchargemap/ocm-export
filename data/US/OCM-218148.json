@@ -1,23 +1,21 @@
 {
-    "DateLastVerified": "2023-07-12T07:58:00Z",
+    "DateLastVerified": "2023-12-18T19:57:00Z",
     "ID": 218148,
     "UUID": "4057AD3C-C25C-4B51-8D9F-7785055981C3",
-    "DataProviderID": 2,
-    "DataProvidersReference": "237658",
+    "DataProviderID": 1,
     "OperatorID": 3534,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 218528,
         "Title": "Metropark Square - Tesla Supercharger",
-        "AddressLine1": "8811 Metropark Dr",
+        "AddressLine1": "8888  Metropark Drive",
         "Town": "Shenandoah",
         "StateOrProvince": "TX",
         "Postcode": "77385",
         "CountryID": 2,
-        "Latitude": 30.195158,
-        "Longitude": -95.45341,
+        "Latitude": 30.194973,
+        "Longitude": -95.45245,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +23,17 @@
         {
             "ID": 368441,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:58:00Z",
+    "DateLastStatusUpdate": "2023-12-18T19:57:00Z",
     "DateCreated": "2023-02-13T04:55:00Z",
     "SubmissionStatusTypeID": 100
 }

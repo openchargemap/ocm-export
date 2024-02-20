@@ -1,21 +1,24 @@
 {
-    "DateLastVerified": "2020-06-01T18:31:00Z",
+    "DateLastVerified": "2023-11-11T20:57:00Z",
     "ID": 157350,
     "UUID": "3D21656E-27DC-4A5F-9672-1024473A711A",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "52647",
     "UsageTypeID": 4,
     "UsageCost": "$0.23/kWh; other tariffs for older cars",
     "AddressInfo": {
         "ID": 157704,
-        "Title": "Easton, MD Supercharger",
+        "Title": "Easton, MD",
         "AddressLine1": "7655 Ocean Gateway",
         "Town": "Easton",
         "StateOrProvince": "MD",
+        "Postcode": "21601",
         "CountryID": 2,
         "Latitude": 38.759287,
         "Longitude": -76.061623,
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Royal Farms",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,15 +27,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 486704,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8
         }
     ],
     "NumberOfPoints": 8,
-    "GeneralComments": "Charging8 Superchargers, available 24/7, up to 250kW",
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-01T18:31:00Z",
+    "DateLastStatusUpdate": "2023-11-11T20:57:00Z",
     "DateCreated": "2020-06-01T18:31:00Z",
     "SubmissionStatusTypeID": 200
 }

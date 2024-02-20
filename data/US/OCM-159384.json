@@ -1,11 +1,26 @@
 {
-    "DateLastVerified": "2023-07-12T08:39:00Z",
+    "UserComments": [
+        {
+            "ID": 29148,
+            "ChargePointID": 159384,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "The fast charger on the left, Station ID 43358 has no power. Reported the issue via the Shell Recharge app. ",
+            "DateCreated": "2023-10-23T02:00:49.987Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-10-23T02:01:00Z",
     "ID": 159384,
     "UUID": "5EFDB7FB-A452-4AE3-85E5-8A8CAEC51686",
-    "DataProviderID": 2,
-    "DataProvidersReference": "154681",
+    "DataProviderID": 1,
     "OperatorID": 59,
-    "UsageTypeID": 2,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 159741,
         "Title": "Baltimore Gas & Electric - North Arundel Aquatic Center",
@@ -14,8 +29,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21061",
         "CountryID": 2,
-        "Latitude": 39.136174,
-        "Longitude": -76.634297,
+        "Latitude": 39.13752429877215,
+        "Longitude": -76.63689371976865,
         "ContactTelephone1": "410-222-0090",
         "AccessComments": "",
         "RelatedURL": "https://shellrecharge.com/en-us/solutions",
@@ -26,11 +41,11 @@
             "ID": 229543,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 1,
+            "Quantity": 4,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
@@ -39,7 +54,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
@@ -48,14 +63,15 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "NumberOfPoints": 6,
+    "GeneralComments": "",
     "DatePlanned": "2022-06-01T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-07-12T08:39:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2023-10-23T02:01:00Z",
     "DateCreated": "2020-06-26T03:01:00Z",
     "SubmissionStatusTypeID": 100
 }

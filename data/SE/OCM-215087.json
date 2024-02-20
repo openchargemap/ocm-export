@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-07-12T03:20:00Z",
+    "DateLastVerified": "2023-08-21T19:20:00Z",
     "ID": 215087,
     "UUID": "38A0868F-6DFB-411E-AFEC-2DDB6EF64B9D",
-    "DataProviderID": 19,
-    "DataProvidersReference": "12111",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 215467,
-        "Title": "Stenbärsvägen 6",
+        "Title": "Söderbergs Bil Nyköping - Virta",
         "AddressLine1": "Stenbärsvägen 6",
         "Town": "NYKÖPING",
         "StateOrProvince": "SÖDERMANLAND",
@@ -27,22 +27,28 @@
             "Voltage": 400,
             "PowerKW": 150,
             "CurrentTypeID": 30,
+            "Quantity": 2,
             "Comments": "Mode 4"
         },
         {
-            "ID": 359052,
+            "ID": 473282,
             "ConnectionTypeID": 33,
-            "Reference": "2",
-            "LevelID": 3,
-            "Amps": 375,
-            "Voltage": 400,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 4"
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 100,
+            "Quantity": 2
+        },
+        {
+            "ID": 473283,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "DateLastStatusUpdate": "2023-07-12T03:20:00Z",
+    "DateLastStatusUpdate": "2023-08-21T19:20:00Z",
     "DateCreated": "2023-02-09T09:47:00Z",
     "SubmissionStatusTypeID": 100
 }

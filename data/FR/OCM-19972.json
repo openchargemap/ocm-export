@@ -1,10 +1,76 @@
 {
-    "DateLastVerified": "2013-10-23T13:25:00Z",
+    "MediaItems": [
+        {
+            "ID": 41430,
+            "ChargePointID": 19972,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM19972/OCM-19972.orig.2024021012511142.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM19972/OCM-19972.thmb.2024021012511142.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50321,
+                "Username": "Weiss"
+            },
+            "DateCreated": "2024-02-10T12:51:00Z"
+        },
+        {
+            "ID": 41429,
+            "ChargePointID": 19972,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM19972/OCM-19972.orig.2024021012474552.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM19972/OCM-19972.thmb.2024021012474552.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50321,
+                "Username": "Weiss"
+            },
+            "DateCreated": "2024-02-10T12:48:00Z"
+        },
+        {
+            "ID": 41428,
+            "ChargePointID": 19972,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM19972/OCM-19972.orig.2024021012340435.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM19972/OCM-19972.thmb.2024021012340435.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50321,
+                "Username": "Weiss"
+            },
+            "DateCreated": "2024-02-10T12:34:00Z"
+        },
+        {
+            "ID": 41427,
+            "ChargePointID": 19972,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM19972/OCM-19972.orig.2024021012311031.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM19972/OCM-19972.thmb.2024021012311031.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50321,
+                "Username": "Weiss"
+            },
+            "DateCreated": "2024-02-10T12:31:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-02-10T12:51:00Z",
     "ID": 19972,
     "UUID": "15FAE229-3DBD-4CD0-956B-F9C7224810F1",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 0,
+    "OperatorID": 3379,
+    "UsageTypeID": 1,
     "UsageCost": "",
     "AddressInfo": {
         "ID": 20317,
@@ -15,8 +81,8 @@
         "StateOrProvince": "Tourlaville",
         "Postcode": "50110",
         "CountryID": 80,
-        "Latitude": 49.6329,
-        "Longitude": -1.5909,
+        "Latitude": 49.6322467982348,
+        "Longitude": -1.5926595092878415,
         "ContactTelephone1": "+33 2 33 23 65 65",
         "ContactTelephone2": "",
         "ContactEmail": "",
@@ -24,10 +90,48 @@
         "RelatedURL": "http://e-leclerc.com‎",
         "DistanceUnit": 0
     },
-    "Connections": [],
+    "Connections": [
+        {
+            "ID": 512512,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 512513,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 512514,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 34
+        },
+        {
+            "ID": 512515,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3,
+            "CurrentTypeID": 10,
+            "Quantity": 8
+        }
+    ],
+    "NumberOfPoints": 50,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2013-10-23T13:25:00Z",
+    "DateLastStatusUpdate": "2024-02-10T12:51:00Z",
     "DateCreated": "2013-10-23T07:43:00Z",
     "SubmissionStatusTypeID": 200
 }

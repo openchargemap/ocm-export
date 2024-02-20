@@ -1,39 +1,52 @@
 {
-    "DateLastVerified": "2023-07-12T09:01:00Z",
+    "DateLastVerified": "2024-02-14T16:56:00Z",
     "ID": 228491,
     "UUID": "978B89D1-137A-4AE3-9699-88FAA6207C99",
-    "DataProviderID": 2,
-    "DataProvidersReference": "214079",
+    "DataProviderID": 1,
     "OperatorID": 3534,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "Charging Fees for Non-Tesla Owner: $0.52/kWh",
     "AddressInfo": {
         "ID": 228874,
-        "Title": "Hannaford Supermarket - Tesla Supercharger",
+        "Title": "Red Hook, NY Supercharger",
         "AddressLine1": "35 Hannaford Drive",
         "Town": "Red Hook",
         "StateOrProvince": "NY",
         "Postcode": "12571",
         "CountryID": 2,
-        "Latitude": 41.979442,
-        "Longitude": -73.882161,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "Latitude": 41.979518051048785,
+        "Longitude": -73.8820170555759,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Hannaford Supermarket",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 380062,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 514876,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:01:00Z",
+    "DateLastStatusUpdate": "2024-02-14T16:56:00Z",
     "DateCreated": "2023-02-13T05:24:00Z",
     "SubmissionStatusTypeID": 100
 }

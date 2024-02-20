@@ -1,12 +1,30 @@
 {
-    "DateLastVerified": "2017-10-28T05:15:00Z",
+    "MediaItems": [
+        {
+            "ID": 40198,
+            "ChargePointID": 70632,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM70632/OCM-70632.orig.2023111205142773.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM70632/OCM-70632.thmb.2023111205142773.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27693,
+                "Username": "dparr59"
+            },
+            "DateCreated": "2023-11-12T05:15:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-12T05:15:00Z",
     "ID": 70632,
     "UUID": "C27CED5E-3026-4864-B7DB-1319D95ADEB8",
     "DataProviderID": 1,
-    "OperatorID": 20,
+    "OperatorID": 9,
     "OperatorsReference": "31169,31170",
     "UsageTypeID": 4,
-    "UsageCost": "£1.00/charge admin fee",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 70978,
         "Title": "North Road Car Park",
@@ -17,24 +35,43 @@
         "CountryID": 1,
         "Latitude": 54.55448933,
         "Longitude": -0.8865894454,
+        "RelatedURL": "http://Blink Charging ",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 101124,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 100,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 7,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 486739,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 486740,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2017-10-28T05:15:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-11-12T05:15:00Z",
     "DateCreated": "2016-07-31T11:05:00Z",
     "SubmissionStatusTypeID": 200
 }

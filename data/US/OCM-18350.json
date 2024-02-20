@@ -49,7 +49,7 @@
             "DateCreated": "2015-04-13T02:25:00Z"
         }
     ],
-    "DateLastVerified": "2018-03-13T14:00:00Z",
+    "DateLastVerified": "2023-11-28T05:24:00Z",
     "ID": 18350,
     "UUID": "D5589FDE-AE62-49A5-B31E-A5CBE4C8665B",
     "DataProviderID": 1,
@@ -59,16 +59,17 @@
     "UsageCost": "$0.25/kWh; other tariffs for older cars",
     "AddressInfo": {
         "ID": 18695,
-        "Title": "Burlington Supercharger",
-        "AddressLine1": "9384 Old Highway 99",
-        "Town": "North Burlington",
-        "StateOrProvince": "Washington State",
-        "Postcode": "98233",
+        "Title": "Burlington, WA",
+        "AddressLine1": "9384 Old Highway 99 North",
+        "Town": "Burlington",
+        "StateOrProvince": "WA",
+        "Postcode": "98233-6815",
         "CountryID": 2,
         "Latitude": 48.509771,
         "Longitude": -122.338627,
+        "ContactTelephone2": "(877) 798-3752",
         "ContactEmail": "supercharger@teslamotors.com",
-        "AccessComments": "From I-5 N  :  Take exit 232 for Cook Rd toward Sedro-Woolley;     Turn right onto Cook Rd;     Take the 1st left onto Burlington Alger Rd;     Turn left into second driveway toward Fairfield Inn;     Supercharger will be on the left.     /   From I-5S :      Take exit 232 for Cook Rd toward Sedro-Woolley;     Turn left onto Cook Rd;     Take the 2nd left onto Burlington Alger Rd;     Turn left into second driveway toward Fairfield Inn;     Supercharger will be on the left.",
+        "AccessComments": "Located at Fairfield Inn & Suites Burlington",
         "RelatedURL": "http://www.teslamotors.com/supercharger",
         "DistanceUnit": 0
     },
@@ -78,17 +79,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 225,
-            "Voltage": 400,
-            "PowerKW": 120,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 8
+        },
+        {
+            "ID": 486956,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 72,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 8,
-    "GeneralComments": "24 hrs/day",
+    "NumberOfPoints": 10,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 150kW, 2 Superchargers, available 24/7, up to 72kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-03-13T14:00:00Z",
+    "DateLastStatusUpdate": "2023-11-28T05:24:00Z",
     "DateCreated": "2013-07-18T23:06:00Z",
     "SubmissionStatusTypeID": 200
 }

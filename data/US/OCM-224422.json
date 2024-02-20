@@ -1,11 +1,27 @@
 {
-    "DateLastVerified": "2023-07-12T08:38:00Z",
+    "UserComments": [
+        {
+            "ID": 29132,
+            "ChargePointID": 224422,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "Left station is down. Both ports on the other station are in use. I reported the issue to Shell Recharge via phone. They said that there is an open case with this station and that they have been in communication with the station owner and that there are \"steps that need to be taken that have not been completed.\"  I’ve emailed the Town Manager of Riverdale Park to urge the Town to engage with Pepco to get this charging station restored to full functionality. There apparently is an agreement between the Town of Riverdale Park and Pepco which outlines the responsibilities of Pepco to maintain the charging station in an operable condition. As per the License Agreement, Pepco is \"responsible for the continual maintenance of the charging station facilities and related equipment in a safe and operable condition.\"",
+            "DateCreated": "2023-10-20T13:10:19.697Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-10-20T13:12:00Z",
     "ID": 224422,
     "UUID": "56EE325B-7B05-4A61-93DB-F49A9484CAAE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "192695",
+    "DataProviderID": 1,
     "OperatorID": 59,
     "UsageTypeID": 1,
+    "UsageCost": "$0.17/kWh plus MD sales & use tax",
     "AddressInfo": {
         "ID": 224805,
         "Title": "Pepco - Riverdale Park",
@@ -14,8 +30,8 @@
         "StateOrProvince": "MD",
         "Postcode": "20737",
         "CountryID": 2,
-        "Latitude": 38.962624,
-        "Longitude": -76.935336,
+        "Latitude": 38.96318815534403,
+        "Longitude": -76.93520634696311,
         "ContactTelephone1": "855-900-7584",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://shellrecharge.com/en-us/solutions",
@@ -25,17 +41,19 @@
         {
             "ID": 375524,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 75,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 4,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:38:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2023-10-20T13:12:00Z",
     "DateCreated": "2023-02-13T05:12:00Z",
     "SubmissionStatusTypeID": 100
 }

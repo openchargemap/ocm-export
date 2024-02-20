@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 29533,
+            "ChargePointID": 53053,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "La colonnina è stata sostituita per l'ennesima volta ed ora è dotata di 2 prese tipo 2 da 12 kW. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/post428711.html#p428711",
+            "RelatedURL": "https://www.forumelettrico.it/forum/post428711.html#p428711",
+            "DateCreated": "2024-02-17T10:59:45.227Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 25464,
             "ChargePointID": 53053,
             "CommentTypeID": 10,
@@ -30,6 +45,38 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 41504,
+            "ChargePointID": 53053,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM53053/OCM-53053.orig.2024021710595701.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM53053/OCM-53053.thmb.2024021710595701.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-02-17T11:00:00Z"
+        },
+        {
+            "ID": 41505,
+            "ChargePointID": 53053,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM53053/OCM-53053.orig.2024021711000442.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM53053/OCM-53053.thmb.2024021711000442.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-02-17T11:00:00Z"
+        },
         {
             "ID": 30926,
             "ChargePointID": 53053,
@@ -111,17 +158,16 @@
             "DateCreated": "2019-05-22T17:46:00Z"
         }
     ],
-    "DateLastVerified": "2022-03-03T09:57:00Z",
+    "DateLastVerified": "2024-02-17T11:00:00Z",
     "ID": 53053,
     "UUID": "D7848848-A68C-46C3-9B2A-F0ABE3995C28",
     "DataProviderID": 1,
-    "OperatorID": 80,
+    "OperatorID": 3440,
     "UsageTypeID": 4,
-    "UsageCost": "0,40 €/kW",
     "AddressInfo": {
         "ID": 53399,
-        "Title": "Eneldrive Ecovillaggio Montale",
-        "AddressLine1": "Km 168, via Vandelli",
+        "Title": "Hera Ecovillaggio Montale",
+        "AddressLine1": "Via Enrico Caruso 7",
         "Town": "Montale ",
         "StateOrProvince": "MO",
         "Postcode": "41051",
@@ -129,7 +175,7 @@
         "Latitude": 44.5698771611397,
         "Longitude": 10.9074683997283,
         "AccessComments": "http://www.ecovillaggiomontale.it/",
-        "RelatedURL": "http://eneldrive.it",
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-in-via-vandelli-montale-mo-t39.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -138,27 +184,15 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 12,
             "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 66121,
-            "ConnectionTypeID": 36,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 13,
-            "Voltage": 240,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-03T09:57:00Z",
+    "DateLastStatusUpdate": "2024-02-17T11:00:00Z",
     "DateCreated": "2015-09-17T15:41:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,23 +1,22 @@
 {
-    "DateLastVerified": "2023-07-12T08:57:00Z",
+    "DateLastVerified": "2024-02-05T01:23:00Z",
     "ID": 227832,
     "UUID": "19866BA0-B5D2-40EF-9088-28397ECEE470",
-    "DataProviderID": 2,
-    "DataProvidersReference": "222335",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 228215,
-        "Title": "Cumberland Farms - Tesla Supercharger",
-        "AddressLine1": "1175 Main St",
+        "Title": "Richmond, RI Supercharger",
+        "AddressLine1": "1175 Main Street",
         "Town": "Richmond",
         "StateOrProvince": "RI",
         "Postcode": "02898",
         "CountryID": 2,
         "Latitude": 41.51392,
         "Longitude": -71.6982,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Cumberland Farms",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 379330,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:57:00Z",
+    "DateLastStatusUpdate": "2024-02-05T01:23:00Z",
     "DateCreated": "2023-02-13T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

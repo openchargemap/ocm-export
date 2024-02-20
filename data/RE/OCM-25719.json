@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2014-11-12T18:48:00Z",
+    "DateLastVerified": "2023-08-15T06:50:00Z",
     "ID": 25719,
     "UUID": "C66892D1-D711-4F83-93B3-65D1772C9A35",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3379,
     "UsageTypeID": 1,
-    "UsageCost": "0",
+    "UsageCost": "Le prix dépend de l'énergie délivrée et du temps de branchement 0,38 € par kWh entamé puis 0,15 € par minute une fois la charge terminée La tarification continue tant que le véhicule reste branché",
     "AddressInfo": {
         "ID": 26065,
-        "Title": "Centre Commercial Carrefour Sainte-Clotilde",
-        "AddressLine1": "Rue des Marais",
+        "Title": "Centre Commercial Carrefour Sainte-Suzannz",
+        "AddressLine1": "26 Avenue Mahatma Gandhi ",
         "Town": "Sainte-Suzanne",
         "Postcode": "97441",
         "CountryID": 183,
@@ -18,10 +18,19 @@
         "AccessComments": "Dans le parking du centre commercial, proche de l'entrée principale",
         "DistanceUnit": 0
     },
-    "Connections": [],
-    "NumberOfPoints": 2,
+    "Connections": [
+        {
+            "ID": 472272,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "Quantity": 4
+        }
+    ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2014-11-12T18:48:00Z",
+    "DateLastStatusUpdate": "2023-08-15T06:50:00Z",
     "DateCreated": "2014-11-12T17:36:00Z",
     "SubmissionStatusTypeID": 200
 }

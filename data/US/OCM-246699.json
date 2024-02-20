@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:58:00Z",
+    "DateLastVerified": "2024-02-14T04:47:00Z",
     "ID": 246699,
     "UUID": "11FFB9D3-D8E7-4B6B-8772-7061AD1C4A2E",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102144",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 247083,
-        "Title": "Hy-Vee - Tesla Supercharger",
+        "Title": "West Des Moines, IA Supercharger",
         "AddressLine1": "1725 Jordan Creek Parkway",
         "Town": "West Des Moines",
         "StateOrProvince": "IA",
-        "Postcode": "50266",
+        "Postcode": "50266-5876",
         "CountryID": 2,
         "Latitude": 41.599019,
         "Longitude": -93.806336,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Hy-Vee",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 413006,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 150kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:58:00Z",
+    "DateLastStatusUpdate": "2024-02-14T04:47:00Z",
     "DateCreated": "2023-03-07T05:36:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -15,17 +15,17 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2022-04-13T02:58:00Z",
+    "DateLastVerified": "2024-02-09T13:34:00Z",
     "ID": 155584,
     "UUID": "308985F3-2B58-4733-8815-F389C13ECE2E",
     "DataProviderID": 1,
-    "OperatorID": 3389,
+    "OperatorID": 3733,
     "UsageTypeID": 1,
     "UsageCost": "$1.00 to Connect, $0.21 per minute",
     "AddressInfo": {
         "ID": 155938,
-        "Title": "Northridge Shopping Center - Francis Energy",
-        "AddressLine1": "McDonald's",
+        "Title": "Northridge Shopping Center Mconalds",
+        "AddressLine1": "1906 US-64, Guymon",
         "Town": "Guymon",
         "StateOrProvince": "OK",
         "Postcode": "73942",
@@ -42,8 +42,6 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 350,
-            "Voltage": 950,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 2,
@@ -51,21 +49,37 @@
         },
         {
             "ID": 219025,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 500,
-            "PowerKW": 100,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "BTCPower EVDSP-350-5-120-0-2-C-4-0"
+        },
+        {
+            "ID": 513755,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 513756,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "200kW HPC Chargers Provided by Francis Energy",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-04-13T02:58:00Z",
+    "DateLastStatusUpdate": "2024-02-09T13:34:00Z",
     "DateCreated": "2020-04-19T14:28:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -32,7 +32,7 @@
             "DateCreated": "2019-10-06T18:54:00Z"
         }
     ],
-    "DateLastVerified": "2019-10-07T09:54:00Z",
+    "DateLastVerified": "2023-12-09T06:39:00Z",
     "ID": 126131,
     "UUID": "41ACBB20-9396-4EE3-9C0B-46CD4305DE4F",
     "DataProviderID": 1,
@@ -43,7 +43,7 @@
     "AddressInfo": {
         "ID": 126477,
         "Title": "Maurice Wilkes Building",
-        "AddressLine1": "St John’s Innovation Park",
+        "AddressLine1": "St JohnÃ¢ÂÂs Innovation Park",
         "Town": "Cambridge",
         "Postcode": "CB4 0DS",
         "CountryID": 1,
@@ -54,21 +54,36 @@
     },
     "Connections": [
         {
-            "ID": 176777,
+            "ID": 483232,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "Reference": "PG-82032",
+            "StatusTypeID": 0,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Neil-Alan"
+        },
+        {
+            "ID": 483233,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-82033",
+            "StatusTypeID": 0,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Jeff-Gail"
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "This is an open charge unit installed at the Maurice Wilkes Building at St John’s Innovation Park, Cambridge",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-10-07T09:54:00Z",
+    "GeneralComments": "This is an open charge unit installed at the Maurice Wilkes Building at St JohnÃ¢ÂÂs Innovation Park, Cambridge",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2023-12-09T06:39:00Z",
     "DateCreated": "2019-05-13T11:59:00Z",
     "SubmissionStatusTypeID": 200
 }

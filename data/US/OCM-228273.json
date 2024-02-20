@@ -1,23 +1,22 @@
 {
-    "DateLastVerified": "2023-07-12T09:00:00Z",
+    "DateLastVerified": "2024-02-05T01:23:00Z",
     "ID": 228273,
     "UUID": "F77FE553-9B9F-40CD-AEFE-A7602FBDF19B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "238588",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 228656,
-        "Title": "Neon Marketplace - Tesla Supercharger",
+        "Title": "Providence, RI Supercharger",
         "AddressLine1": "288 Kinsley Ave",
         "Town": "Providence",
         "StateOrProvince": "RI",
         "Postcode": "02903",
         "CountryID": 2,
-        "Latitude": 41.8282681959303,
-        "Longitude": -71.4266139903426,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
+        "Latitude": 41.82834459,
+        "Longitude": -71.42689858,
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Neon Marketplace",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 379818,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:00:00Z",
+    "DateLastStatusUpdate": "2024-02-05T01:23:00Z",
     "DateCreated": "2023-02-13T05:23:00Z",
     "SubmissionStatusTypeID": 100
 }

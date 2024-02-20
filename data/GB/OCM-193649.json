@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-06-29T08:26:00Z",
+    "DateLastVerified": "2023-08-29T09:24:00Z",
     "ID": 193649,
     "UUID": "246AF752-827D-4A18-B675-1B0813501A21",
     "DataProviderID": 1,
     "OperatorID": 3341,
     "UsageTypeID": 1,
-    "UsageCost": "0.25",
+    "UsageCost": "£0.35 + £0.55/kWh",
     "AddressInfo": {
         "ID": 194008,
         "Title": "Kings' Avenue",
@@ -22,31 +22,69 @@
         {
             "ID": 315165,
             "ConnectionTypeID": 2,
+            "Reference": "SEC50282",
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 51,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 315166,
             "ConnectionTypeID": 33,
+            "Reference": "SEC50282",
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 51,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 315167,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "SEC50282",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "Quantity": 3
+            "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 474481,
+            "ConnectionTypeID": 33,
+            "Reference": "SEC50281",
+            "LevelID": 3,
+            "PowerKW": 51,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 474482,
+            "ConnectionTypeID": 2,
+            "Reference": "SEC50281",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 51,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 474483,
+            "ConnectionTypeID": 1036,
+            "Reference": "SEC50281",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 63,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-06-29T08:26:00Z",
+    "DateLastStatusUpdate": "2023-08-29T09:24:00Z",
     "DateCreated": "2022-06-28T19:23:00Z",
     "SubmissionStatusTypeID": 200
 }

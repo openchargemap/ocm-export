@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2016-03-03T12:28:00Z",
+    "DateLastVerified": "2024-02-20T08:19:00Z",
     "ID": 62580,
     "UUID": "3D37EF9A-96CE-4967-8F89-BD74DA514BF0",
-    "DataProviderID": 26,
-    "DataProvidersReference": "22464",
+    "DataProviderID": 1,
     "OperatorID": 162,
     "OperatorsReference": "㈱日産サティオ岡山　R-JＯＹ東岡山店",
-    "UsageCost": "0.00 onbekend",
+    "UsageTypeID": 1,
+    "UsageCost": "eMP提携",
     "AddressInfo": {
         "ID": 62926,
         "Title": "250",
@@ -22,14 +22,18 @@
         {
             "ID": 79501,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "Amps": 200,
+            "Voltage": 450,
+            "PowerKW": 90,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-03-03T12:28:00Z",
+    "DateLastStatusUpdate": "2024-02-20T08:19:00Z",
     "DateCreated": "2016-03-03T12:28:00Z",
     "SubmissionStatusTypeID": 100
 }

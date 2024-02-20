@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T07:56:00Z",
+    "DateLastVerified": "2023-12-23T18:35:00Z",
     "ID": 217724,
     "UUID": "14537A34-83CC-4744-9BBE-63A2E04F60F8",
-    "DataProviderID": 2,
-    "DataProvidersReference": "186332",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 218104,
-        "Title": "Wawa - Tesla Supercharger",
+        "Title": "Winter Park, FL Supercharger",
         "AddressLine1": "901 North Orlando Avenue",
         "Town": "Winter Park",
         "StateOrProvince": "FL",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 28.605053,
         "Longitude": -81.366319,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Wawa",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 367982,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:56:00Z",
+    "DateLastStatusUpdate": "2023-12-23T18:35:00Z",
     "DateCreated": "2023-02-13T04:54:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2021-03-17T06:21:00Z",
+    "DateLastVerified": "2023-10-09T17:03:00Z",
     "ID": 149300,
     "UUID": "D807B67F-82A9-483A-87B2-9DCB6DFDFE87",
     "DataProviderID": 1,
     "OperatorID": 3,
     "OperatorsReference": "PG-81486,PG-81599",
     "UsageTypeID": 4,
-    "UsageCost": "£0.25/kWh",
+    "UsageCost": "£0.48/kWh",
     "AddressInfo": {
         "ID": 149653,
         "Title": "Western Approach (public Car Park)",
@@ -20,21 +20,36 @@
     },
     "Connections": [
         {
-            "ID": 207310,
+            "ID": 483226,
             "ConnectionTypeID": 25,
+            "Reference": "PG-81486",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Otis-Gabe"
+        },
+        {
+            "ID": 483227,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-81599",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Carl-John"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This unit is located at the Western Approach car park. Open 0600 to 0000",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-03-17T06:21:00Z",
+    "DateLastStatusUpdate": "2023-10-09T17:03:00Z",
     "DateCreated": "2020-02-22T11:08:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:06:00Z",
+    "DateLastVerified": "2024-01-30T13:58:00Z",
     "ID": 219613,
     "UUID": "E2C6A0E2-0B3D-4BEA-A57F-630998C071F6",
-    "DataProviderID": 2,
-    "DataProvidersReference": "236864",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 219996,
-        "Title": "Kaleidoscope - Tesla Supercharger",
+        "Title": "Mission Viejo, CA - Crown Valley Parkway Supercharger",
         "AddressLine1": "27741 Crown Valley Parkway",
         "Town": "Mission Viejo",
         "StateOrProvince": "CA",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 33.5607959,
         "Longitude": -117.671768,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Kaleidoscope",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 370024,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 72,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 72kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:06:00Z",
+    "DateLastStatusUpdate": "2024-01-30T13:58:00Z",
     "DateCreated": "2023-02-13T04:58:00Z",
     "SubmissionStatusTypeID": 100
 }

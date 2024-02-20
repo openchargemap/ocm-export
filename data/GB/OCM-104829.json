@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-05-12T10:44:00Z",
+    "DateLastVerified": "2023-09-27T16:20:00Z",
     "ID": 104829,
     "UUID": "AD0E6257-94E0-4B9A-AD9B-BF4FDDBEF8FB",
     "DataProviderID": 1,
     "OperatorID": 3295,
     "OperatorsReference": "UKEV0718,UKEV0719",
-    "UsageTypeID": 5,
-    "UsageCost": "",
+    "UsageTypeID": 1,
+    "UsageCost": "£0.50 + £0.12/kWh",
     "AddressInfo": {
         "ID": 105175,
         "Title": "Ulster University Magee Campus",
@@ -23,18 +23,31 @@
         {
             "ID": 147879,
             "ConnectionTypeID": 25,
+            "Reference": "GBEV0104A",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 477185,
+            "ConnectionTypeID": 25,
+            "Reference": "GBEV0104B",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-12T10:44:00Z",
+    "DateLastStatusUpdate": "2023-09-27T16:20:00Z",
     "DateCreated": "2018-05-23T21:14:00Z",
     "SubmissionStatusTypeID": 200
 }

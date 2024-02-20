@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-07-09T12:14:00Z",
+    "MediaItems": [
+        {
+            "ID": 40526,
+            "ChargePointID": 271097,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM271097/OCM-271097.orig.2023112014520227.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM271097/OCM-271097.thmb.2023112014520227.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-20T14:52:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-20T14:56:00Z",
     "ID": 271097,
     "UUID": "CB821963-1EC9-496C-9859-5E1AE7CD6414",
     "DataProviderID": 1,
@@ -24,12 +42,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 1000,
-            "PowerKW": 150,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+            "Comments": "XCharge Juicepump60 DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
         },
         {
             "ID": 461453,
@@ -42,8 +60,8 @@
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-07-09T12:14:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-11-20T14:56:00Z",
     "DateCreated": "2023-07-09T12:14:00Z",
     "SubmissionStatusTypeID": 200
 }

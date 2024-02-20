@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-07-12T03:22:00Z",
+    "DateLastVerified": "2023-10-02T17:21:00Z",
     "ID": 215254,
     "UUID": "114DF313-9EE4-495A-BAA2-5BB597CFCBFF",
-    "DataProviderID": 19,
-    "DataProvidersReference": "7792",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 215634,
-        "Title": "Vattenfall - Torshamnsgatan 44",
+        "Title": "Torshamnsgatan 44 - InCharge",
         "AddressLine1": "Vattenfall - Torshamnsgatan 44",
         "Town": "KISTA",
         "StateOrProvince": "STOCKHOLM",
@@ -19,17 +19,6 @@
     },
     "Connections": [
         {
-            "ID": 360217,
-            "ConnectionTypeID": 25,
-            "Reference": "1",
-            "LevelID": 3,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 3"
-        },
-        {
             "ID": 360218,
             "ConnectionTypeID": 33,
             "Reference": "2",
@@ -38,6 +27,7 @@
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
@@ -49,6 +39,7 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 30,
+            "Quantity": 2,
             "Comments": "Mode 3"
         },
         {
@@ -60,11 +51,12 @@
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "Mode 4"
         }
     ],
     "NumberOfPoints": 4,
-    "DateLastStatusUpdate": "2023-07-12T03:22:00Z",
+    "DateLastStatusUpdate": "2023-10-02T17:21:00Z",
     "DateCreated": "2023-02-09T09:47:00Z",
     "SubmissionStatusTypeID": 100
 }

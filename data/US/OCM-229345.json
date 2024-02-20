@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:05:00Z",
+    "DateLastVerified": "2024-02-11T03:08:00Z",
     "ID": 229345,
     "UUID": "4D27AEA7-2978-4E56-BF1D-1370A9B8EE8F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "225836",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 229728,
-        "Title": "Meijer - Tesla Supercharger",
+        "Title": "Detroit, MI Supercharger",
         "AddressLine1": "1301 8 Mile Rd",
         "Town": "Detroit",
         "StateOrProvince": "MI",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 42.44533,
         "Longitude": -83.1179,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Meijer",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 380965,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:05:00Z",
+    "DateLastStatusUpdate": "2024-02-11T03:08:00Z",
     "DateCreated": "2023-02-13T05:26:00Z",
     "SubmissionStatusTypeID": 100
 }

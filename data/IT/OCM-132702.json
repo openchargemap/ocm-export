@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 39545,
+            "ChargePointID": 132702,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM132702/OCM-132702.orig.2023091005525117.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM132702/OCM-132702.thmb.2023091005525117.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 12251,
+                "Username": "Settimo recharge"
+            },
+            "DateCreated": "2023-09-10T05:53:00Z"
+        },
+        {
             "ID": 28128,
             "ChargePointID": 132702,
             "ItemURL": "https://media.openchargemap.io/images/IT/OCM132702/OCM-132702.orig.2021061307434125.jpg",
@@ -17,13 +33,13 @@
             "DateCreated": "2021-06-13T07:44:00Z"
         }
     ],
-    "DateLastVerified": "2021-06-13T07:44:00Z",
+    "DateLastVerified": "2023-09-11T08:18:00Z",
     "ID": 132702,
     "UUID": "B57BAD47-40AC-4CF7-A730-8BE12F7012FE",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 4,
-    "UsageCost": "0.38",
+    "UsageCost": "0.58 €/kWh",
     "AddressInfo": {
         "ID": 133048,
         "Title": "Redimec Group",
@@ -45,14 +61,39 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Voltage": 400,
+            "Amps": 32,
+            "Voltage": 360,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "costo 0.58 euro a kWh"
+        },
+        {
+            "ID": 475676,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 220,
+            "PowerKW": 7.5,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "costo 0.25 euro a kWh in pure solar"
+        },
+        {
+            "ID": 475677,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.5,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "costo 0.48 euro kWh"
         }
     ],
     "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-13T07:44:00Z",
+    "DateLastStatusUpdate": "2023-09-11T08:18:00Z",
     "DateCreated": "2019-10-05T15:46:00Z",
     "SubmissionStatusTypeID": 200
 }

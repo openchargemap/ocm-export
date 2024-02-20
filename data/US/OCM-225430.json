@@ -1,21 +1,20 @@
 {
-    "DateLastVerified": "2023-07-12T08:44:00Z",
+    "DateLastVerified": "2024-02-05T13:32:00Z",
     "ID": 225430,
     "UUID": "933A9D36-4DB6-4699-8A5C-0C450E8CB6D4",
-    "DataProviderID": 2,
-    "DataProvidersReference": "228755",
+    "DataProviderID": 1,
     "OperatorID": 15,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 225813,
         "Title": "King Soopers Aurora #52",
-        "AddressLine1": "15109 E Colfax Ave",
+        "AddressLine1": "15201 E Colfax Ave",
         "Town": "Aurora",
         "StateOrProvince": "CO",
         "Postcode": "80011",
         "CountryID": 2,
-        "Latitude": 39.7403081,
-        "Longitude": -104.8125205,
+        "Latitude": 39.7403036,
+        "Longitude": -104.812581,
         "ContactTelephone1": "877-455-3833",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.evgo.com/",
@@ -25,24 +24,35 @@
         {
             "ID": 376685,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 376686,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 513405,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:44:00Z",
+    "DateLastStatusUpdate": "2024-02-05T13:32:00Z",
     "DateCreated": "2023-02-13T05:15:00Z",
     "SubmissionStatusTypeID": 100
 }

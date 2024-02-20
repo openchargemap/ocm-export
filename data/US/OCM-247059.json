@@ -1,23 +1,21 @@
 {
-    "DateLastVerified": "2023-07-12T09:03:00Z",
+    "DateLastVerified": "2023-12-29T17:23:00Z",
     "ID": 247059,
     "UUID": "3319F3DA-DACE-4704-9890-4FE9FD3A894D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102221",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 247443,
-        "Title": "Meijer - Tesla Supercharger",
+        "Title": "Ann Arbor, MI Supercharger",
         "AddressLine1": "3145 Ann Arbor-Saline Road",
         "Town": "Ann Arbor",
         "StateOrProvince": "MI",
-        "Postcode": "48103",
+        "Postcode": "48103-9711",
         "CountryID": 2,
         "Latitude": 42.241125,
         "Longitude": -83.766522,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +23,17 @@
         {
             "ID": 413415,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 150kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:03:00Z",
+    "DateLastStatusUpdate": "2023-12-29T17:23:00Z",
     "DateCreated": "2023-03-07T05:39:00Z",
     "SubmissionStatusTypeID": 100
 }

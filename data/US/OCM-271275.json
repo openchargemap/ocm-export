@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2023-07-12T09:25:00Z",
+    "DateLastVerified": "2023-11-20T19:36:00Z",
     "ID": 271275,
     "UUID": "D4E1AF99-5615-49AB-AAB1-78E8EC2CBDDD",
-    "DataProviderID": 2,
-    "DataProvidersReference": "302096",
+    "DataProviderID": 1,
     "OperatorID": 15,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "OR",
         "Postcode": "97202",
         "CountryID": 2,
-        "Latitude": 45.49787,
-        "Longitude": -122.620401,
+        "Latitude": 45.497992,
+        "Longitude": -122.6204,
         "ContactTelephone1": "877-455-3833",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.evgo.com/",
@@ -25,24 +24,35 @@
         {
             "ID": 461667,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 461668,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 487361,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:25:00Z",
+    "DateLastStatusUpdate": "2023-11-20T19:36:00Z",
     "DateCreated": "2023-07-10T04:40:00Z",
     "SubmissionStatusTypeID": 100
 }

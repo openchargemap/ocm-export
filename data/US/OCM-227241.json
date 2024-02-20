@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:54:00Z",
+    "DateLastVerified": "2023-12-06T00:36:00Z",
     "ID": 227241,
     "UUID": "0A6D5F79-1B9D-41D1-B5F7-29EDC7B40EDA",
-    "DataProviderID": 2,
-    "DataProvidersReference": "236699",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 227624,
-        "Title": "Evolve NY - Bridgehampton",
+        "Title": "Evolve NY Bridgehampton",
         "AddressLine1": "99 School Street",
         "Town": "Bridgehampton",
         "StateOrProvince": "NY",
@@ -25,6 +24,7 @@
         {
             "ID": 378690,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -34,15 +34,26 @@
         {
             "ID": 378691,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 499532,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:54:00Z",
+    "DateLastStatusUpdate": "2023-12-06T00:36:00Z",
     "DateCreated": "2023-02-13T05:20:00Z",
     "SubmissionStatusTypeID": 100
 }

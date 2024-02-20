@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:43:00Z",
+    "DateLastVerified": "2024-02-14T17:59:00Z",
     "ID": 225320,
     "UUID": "57508E75-1090-4C5D-B9CA-18A2CF8E6E07",
-    "DataProviderID": 2,
-    "DataProvidersReference": "220695",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 225703,
-        "Title": "Meijer - Tesla Supercharger",
+        "Title": "Indianapolis, IN - East Southport Road Supercharger",
         "AddressLine1": "5325 E Southport Rd",
         "Town": "Indianapolis",
         "StateOrProvince": "IN",
         "Postcode": "46237",
         "CountryID": 2,
-        "Latitude": 39.66506123,
-        "Longitude": -86.0761198,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "Latitude": 39.66506564849553,
+        "Longitude": -86.07612967044693,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Meijer",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 376564,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:43:00Z",
+    "DateLastStatusUpdate": "2024-02-14T17:59:00Z",
     "DateCreated": "2023-02-13T05:15:00Z",
     "SubmissionStatusTypeID": 100
 }

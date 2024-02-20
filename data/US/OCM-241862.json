@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:21:00Z",
+    "DateLastVerified": "2023-12-02T22:15:00Z",
     "ID": 241862,
     "UUID": "E40F8A57-FC39-4331-B551-8FDFAE5F1F7B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "195780",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 242246,
-        "Title": "Smithfield's Chicken 'N Bar-B-Q - Tesla Supercharger",
+        "Title": "Garner, NC",
         "AddressLine1": "5180 NC-42",
         "Town": "Garner",
         "StateOrProvince": "NC",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 35.608412,
         "Longitude": -78.563071,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Smithfield's Chicken 'N Bar-B-Q",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 397971,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:21:00Z",
+    "DateLastStatusUpdate": "2023-12-02T22:15:00Z",
     "DateCreated": "2023-03-07T03:42:00Z",
     "SubmissionStatusTypeID": 100
 }

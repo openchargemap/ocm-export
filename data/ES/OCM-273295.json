@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-08-02T10:11:00Z",
+    "MediaItems": [
+        {
+            "ID": 40502,
+            "ChargePointID": 273295,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM273295/OCM-273295.orig.2023112007380867.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM273295/OCM-273295.thmb.2023112007380867.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-20T07:38:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-20T07:42:00Z",
     "ID": 273295,
     "UUID": "046464D4-FD16-47D8-A714-DB58EE0E96F7",
     "DataProviderID": 1,
     "OperatorID": 3671,
     "UsageTypeID": 4,
-    "UsageCost": "",
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 273679,
         "Title": "Golf Maioris",
@@ -26,11 +44,34 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 483972,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 483973,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 400,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-08-02T10:11:00Z",
+    "DateLastStatusUpdate": "2023-11-20T07:42:00Z",
     "DateCreated": "2023-08-02T10:11:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,12 @@
 {
-    "DateLastVerified": "2023-08-07T05:28:00Z",
+    "DateLastVerified": "2023-08-16T16:26:00Z",
     "ID": 268372,
     "UUID": "ECA704A0-3D18-4FF1-90EC-E65F475DD5C8",
     "DataProviderID": 1,
-    "OperatorID": 3430,
+    "OperatorID": 3673,
     "OperatorsReference": "",
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
+    "UsageCost": "£0.55/kWh",
     "AddressInfo": {
         "ID": 268756,
         "Title": "EG Bangor",
@@ -16,46 +17,50 @@
         "Latitude": 53.20389,
         "Longitude": -4.10562,
         "AccessComments": "",
-        "RelatedURL": "https://www.gridserve.com",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 457627,
             "ConnectionTypeID": 2,
-            "Reference": "2",
-            "StatusTypeID": 0,
+            "Reference": "EVP-Bangor-A-2",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 457628,
-            "ConnectionTypeID": 1036,
-            "Reference": "1",
-            "StatusTypeID": 0,
-            "LevelID": 3,
-            "Amps": 63,
+            "ConnectionTypeID": 25,
+            "Reference": "EVP-Bangor-A-3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 43,
+            "PowerKW": 22,
             "CurrentTypeID": 20
         },
         {
             "ID": 457629,
-            "ConnectionTypeID": 1036,
-            "Reference": "3",
-            "StatusTypeID": 0,
+            "ConnectionTypeID": 33,
+            "Reference": "EVP-Bangor-A-1",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2023-08-07T05:28:00Z",
+    "NumberOfPoints": 1,
+    "GeneralComments": "Previous Ecotricity Electric Highway charge point removed and replaced with unit on Fuuse network with evPoint branding",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-08-16T16:26:00Z",
     "MetadataValues": [
         {
             "ID": 29400,

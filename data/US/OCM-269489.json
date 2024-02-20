@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:41:00Z",
+    "DateLastVerified": "2023-11-28T20:05:00Z",
     "ID": 269489,
     "UUID": "DD5D1E92-9440-4A30-8BD1-1DB2BC17B54B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "296730",
-    "OperatorID": 3534,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 269873,
-        "Title": "Wawa - Tesla Supercharger",
+        "Title": "Baltimore, MD",
         "AddressLine1": "4901 Boston St",
         "Town": "Baltimore",
         "StateOrProvince": "MD",
         "Postcode": "21224",
         "CountryID": 2,
-        "Latitude": 39.276357,
-        "Longitude": -76.553927,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only\r\nPublic - Credit card at all times",
+        "Latitude": 39.27713,
+        "Longitude": -76.55358,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Wawa",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 459082,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:41:00Z",
+    "DateLastStatusUpdate": "2023-11-28T20:05:00Z",
     "DateCreated": "2023-07-04T07:08:00Z",
     "SubmissionStatusTypeID": 100
 }

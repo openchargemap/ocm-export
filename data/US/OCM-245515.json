@@ -1,11 +1,27 @@
 {
-    "DateLastVerified": "2023-07-12T08:40:00Z",
+    "UserComments": [
+        {
+            "ID": 29489,
+            "ChargePointID": 245515,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "DCFC Station ID 43350 screen has BIOS text on it. Would not initiate via app nor RFID card. Called Shell Recharge customer support and they couldn’t reach it via the network. They said they will create a trouble ticket for the issue.",
+            "DateCreated": "2024-02-04T21:11:11.347Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 25,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-02-04T21:11:00Z",
     "ID": 245515,
     "UUID": "363806C7-82D4-40CC-941B-3D997BDCD63B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "163621",
+    "DataProviderID": 1,
     "OperatorID": 59,
     "UsageTypeID": 1,
+    "UsageCost": "Level 2: $0.17/kWh + 6% MD sales tax. DCFC:  $0.32/kWh + 6% MD sales tax",
     "AddressInfo": {
         "ID": 245899,
         "Title": "BGE - Ascend One",
@@ -14,8 +30,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21045",
         "CountryID": 2,
-        "Latitude": 39.192752,
-        "Longitude": -76.817224,
+        "Latitude": 39.193054042934335,
+        "Longitude": -76.8178956285912,
         "ContactTelephone1": "855-900-7584",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://shellrecharge.com/en-us/solutions",
@@ -25,10 +41,11 @@
         {
             "ID": 411675,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
@@ -36,24 +53,27 @@
         {
             "ID": 411676,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 411677,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:40:00Z",
+    "DateLastStatusUpdate": "2024-02-04T21:11:00Z",
     "DateCreated": "2023-03-07T05:24:00Z",
     "SubmissionStatusTypeID": 100
 }

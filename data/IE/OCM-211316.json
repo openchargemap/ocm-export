@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-04-21T10:11:00Z",
+    "DateLastVerified": "2024-01-24T16:38:00Z",
     "ID": 211316,
     "UUID": "EEE21005-A3A6-4E9F-BE17-21C49AD1F0EE",
     "DataProviderID": 1,
@@ -12,10 +12,11 @@
         "AddressLine1": "M9 Exit 7",
         "AddressLine2": "R912",
         "Town": "Paulstown",
-        "Postcode": "R95 R2X6",
+        "StateOrProvince": "Co. Kilkenny",
+        "Postcode": "",
         "CountryID": 3,
-        "Latitude": 52.68019534943346,
-        "Longitude": -7.035768694844478,
+        "Latitude": 52.67972762688984,
+        "Longitude": -7.034713275588103,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -31,7 +32,7 @@
         {
             "ID": 352426,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 3,
             "PowerKW": 60,
             "CurrentTypeID": 30,
@@ -40,16 +41,34 @@
         {
             "ID": 437942,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 3,
             "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 512647,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 512648,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-21T10:11:00Z",
+    "DateLastStatusUpdate": "2024-01-24T16:38:00Z",
     "DateCreated": "2023-01-11T17:06:00Z",
     "SubmissionStatusTypeID": 200
 }

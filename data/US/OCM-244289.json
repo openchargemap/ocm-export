@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2023-05-01T05:32:00Z",
+    "DateLastVerified": "2024-02-20T10:00:00Z",
     "ID": 244289,
     "UUID": "A2B507FE-CC86-4CE3-A9DA-188B2B1A4341",
     "DataProviderID": 2,
     "DataProvidersReference": "170128",
-    "OperatorID": 39,
+    "OperatorID": 9,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 244673,
@@ -14,11 +14,11 @@
         "StateOrProvince": "CA",
         "Postcode": "94063",
         "CountryID": 2,
-        "Latitude": 37.488057,
-        "Longitude": -122.22316,
+        "Latitude": 37.4880575,
+        "Longitude": -122.2231609,
         "ContactTelephone1": "800-663-5633",
-        "AccessComments": "",
-        "RelatedURL": "https://semaconnect.com/",
+        "AccessComments": "24 hours daily",
+        "RelatedURL": "http://www.blinkcharging.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,11 +30,13 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 26
+            "Quantity": 5,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-01T05:32:00Z",
+    "DatePlanned": "2024-01-12T00:00:00Z",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2024-02-20T10:00:00Z",
     "DateCreated": "2023-03-07T05:16:00Z",
     "SubmissionStatusTypeID": 100
 }

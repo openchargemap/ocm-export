@@ -58,7 +58,8 @@
                 "ID": 4792,
                 "Username": "Robert Jones"
             },
-            "CheckinStatusTypeID": 10
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": true
         }
     ],
     "MediaItems": [
@@ -79,7 +80,7 @@
             "DateCreated": "2016-04-12T16:20:00Z"
         }
     ],
-    "DateLastVerified": "2021-08-13T06:37:00Z",
+    "DateLastVerified": "2023-09-18T01:30:00Z",
     "ID": 43638,
     "UUID": "AF040336-FC09-4AE7-B1DA-54E494CDE2F8",
     "DataProviderID": 1,
@@ -87,17 +88,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 43984,
-        "Title": "National Trust Car Park Llanbedrog ",
+        "Title": "Glyn Y Weddw",
         "AddressLine1": "Glyn Y Weddw",
         "AddressLine2": "Llanbedrog",
-        "Town": "Pwllheli ",
-        "StateOrProvince": "Gwynedd",
+        "StateOrProvince": "Cymru / Wales",
         "Postcode": "LL53 7TT",
         "CountryID": 1,
         "Latitude": 52.854821,
         "Longitude": -4.481781,
-        "ContactTelephone1": "01690713317  ",
-        "RelatedURL": "http://www.nationaltrust.org.uk/llyn-peninsula/visitor-information/article-1355783259251/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -111,11 +109,17 @@
             "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
+        },
+        {
+            "ID": 476192,
+            "ConnectionTypeID": 0,
+            "StatusTypeID": 50,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-08-13T06:37:00Z",
+    "DateLastStatusUpdate": "2023-09-18T01:30:00Z",
     "DateCreated": "2015-03-26T08:45:00Z",
     "SubmissionStatusTypeID": 200
 }

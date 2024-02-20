@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2023-07-12T08:50:00Z",
+    "DateLastVerified": "2023-11-28T14:59:00Z",
     "ID": 226619,
     "UUID": "59620DB2-AC67-4F16-801B-6ACB50A597C1",
-    "DataProviderID": 2,
-    "DataProvidersReference": "207736",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -28,22 +27,34 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 378005,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 125,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 488081,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 62,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "These chargers are poorly maintained",
     "DatePlanned": "2022-11-15T00:00:00Z",
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2023-07-12T08:50:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2023-11-28T14:59:00Z",
     "DateCreated": "2023-02-13T05:19:00Z",
     "SubmissionStatusTypeID": 100
 }

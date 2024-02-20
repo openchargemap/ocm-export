@@ -1,5 +1,72 @@
 {
-    "DateLastVerified": "2022-04-10T09:01:00Z",
+    "UserComments": [
+        {
+            "ID": 29166,
+            "ChargePointID": 192502,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Una fast multistandard e due quick situate davanti alla spiaggia di Balai. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/enel-x-porto-torres-spiaggia-di-balai-t24471.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/enel-x-porto-torres-spiaggia-di-balai-t24471.html",
+            "DateCreated": "2023-10-27T05:47:10.183Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 40024,
+            "ChargePointID": 192502,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM192502/OCM-192502.orig.2023102705472894.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM192502/OCM-192502.thmb.2023102705472894.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-10-27T05:48:00Z"
+        },
+        {
+            "ID": 40022,
+            "ChargePointID": 192502,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM192502/OCM-192502.orig.2023102705471931.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM192502/OCM-192502.thmb.2023102705471931.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-10-27T05:47:00Z"
+        },
+        {
+            "ID": 40023,
+            "ChargePointID": 192502,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM192502/OCM-192502.orig.2023102705472387.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM192502/OCM-192502.thmb.2023102705472387.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2023-10-27T05:47:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-10-27T05:48:00Z",
     "ID": 192502,
     "UUID": "D0C71454-8B49-40A5-829F-ED6378B9464A",
     "DataProviderID": 1,
@@ -7,7 +74,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 192861,
-        "Title": "Spiaggia Balai ",
+        "Title": "Enel X Way  Balai",
         "AddressLine1": "SP 81",
         "Town": "Posthudorra/Porto Torres",
         "StateOrProvince": "Sardinia",
@@ -15,6 +82,7 @@
         "CountryID": 112,
         "Latitude": 40.837756598048855,
         "Longitude": 8.416890882913208,
+        "RelatedURL": "https://www.forumelettrico.it/forum/enel-x-porto-torres-spiaggia-di-balai-t24471.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,7 +92,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 312787,
@@ -32,7 +101,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 312788,
@@ -42,7 +112,8 @@
             "Amps": 63,
             "Voltage": 400,
             "PowerKW": 43,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 312789,
@@ -54,9 +125,9 @@
             "Quantity": 4
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2022-04-10T09:01:00Z",
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-10-27T05:48:00Z",
     "DateCreated": "2022-04-10T09:01:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-07-16T22:56:00Z",
+    "DateLastVerified": "2023-08-11T03:19:00Z",
     "ID": 272691,
     "UUID": "13658544-8A00-40B8-80E5-B17FAC7F7FD0",
     "DataProviderID": 1,
     "OperatorID": 3528,
     "UsageTypeID": 4,
+    "UsageCost": "$0.25/kWh + $0.15/min (DC); Free (AC)",
     "AddressInfo": {
         "ID": 273075,
         "Title": "Wainuiomata Library",
@@ -22,33 +23,37 @@
         {
             "ID": 468612,
             "ConnectionTypeID": 33,
+            "Reference": "1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 75,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 468613,
             "ConnectionTypeID": 33,
+            "Reference": "2, 3, 4",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 25,
+            "PowerKW": 24,
             "CurrentTypeID": 30,
             "Quantity": 3
         },
         {
             "ID": 468614,
             "ConnectionTypeID": 2,
+            "Reference": "2, 3, 4",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 25,
+            "PowerKW": 24,
             "CurrentTypeID": 30,
             "Quantity": 3
         },
         {
             "ID": 468615,
             "ConnectionTypeID": 25,
+            "Reference": "5",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -56,20 +61,11 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 4
-        },
-        {
-            "ID": 468616,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 75,
-            "CurrentTypeID": 30,
-            "Quantity": 1
         }
     ],
     "NumberOfPoints": 9,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-16T22:56:00Z",
+    "DateLastStatusUpdate": "2023-08-11T03:19:00Z",
     "DateCreated": "2023-07-16T22:56:00Z",
     "SubmissionStatusTypeID": 200
 }

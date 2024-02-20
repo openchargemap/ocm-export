@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-04-03T12:23:00Z",
+    "DateLastVerified": "2023-12-17T06:20:00Z",
     "ID": 193658,
     "UUID": "6AE4A140-29AF-47F1-A6A8-A98487F77281",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70477,PG-86879,veefil-12100351",
+    "OperatorsReference": "PG-406801,PG-70477,veefil-12100351",
     "UsageTypeID": 4,
-    "UsageCost": "£0.44/kWh,£0.49/kWh,£0.62/kWh. Parking conditions apply",
+    "UsageCost": "£0.44/kWh. Parking conditions apply",
     "AddressInfo": {
         "ID": 194017,
         "Title": "Tesco Extra-Elgin",
@@ -20,19 +20,6 @@
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 315185,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-86879",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2,
-            "Comments": "Isla-Cleo"
-        },
         {
             "ID": 322623,
             "ConnectionTypeID": 33,
@@ -67,11 +54,24 @@
             "CurrentTypeID": 10,
             "Quantity": 2,
             "Comments": "Noah-Ford"
+        },
+        {
+            "ID": 506085,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-406801",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Drew-Ella"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-03T12:23:00Z",
+    "DateLastStatusUpdate": "2023-12-17T06:20:00Z",
     "DateCreated": "2022-06-29T08:30:00Z",
     "SubmissionStatusTypeID": 200
 }

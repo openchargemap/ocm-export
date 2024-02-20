@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-02-10T09:09:00Z",
+    "MediaItems": [
+        {
+            "ID": 40489,
+            "ChargePointID": 216792,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM216792/OCM-216792.orig.2023111919375266.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM216792/OCM-216792.thmb.2023111919375266.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-19T19:38:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-19T19:38:00Z",
     "ID": 216792,
     "UUID": "FA5AA2AD-CEA9-4755-BE48-52FA245219B0",
     "DataProviderID": 1,
@@ -13,24 +31,60 @@
         "StateOrProvince": "Catalunya",
         "Postcode": "17181",
         "CountryID": 210,
-        "Latitude": 41.90735207506668,
-        "Longitude": 2.7733896281549164,
+        "Latitude": 41.90674616666152,
+        "Longitude": 2.7734286729084374,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 366876,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Blueberry150 Charger. The DC CCS/Chademo charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Charging power limited to 120kW for 400V cars"
+        },
+        {
+            "ID": 485947,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Blueberry150 Charger. "
+        },
+        {
+            "ID": 485948,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Blueberry150 Charger. "
+        },
+        {
+            "ID": 486072,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-02-10T09:09:00Z",
+    "NumberOfPoints": 7,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-11-19T19:38:00Z",
     "DateCreated": "2023-02-10T09:09:00Z",
     "SubmissionStatusTypeID": 200
 }

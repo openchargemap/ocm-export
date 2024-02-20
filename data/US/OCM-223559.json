@@ -1,15 +1,14 @@
 {
-    "DateLastVerified": "2023-07-12T08:32:00Z",
+    "DateLastVerified": "2023-12-13T17:34:00Z",
     "ID": 223559,
     "UUID": "1FA54372-560F-4EBB-A85C-1DBB151B46A8",
-    "DataProviderID": 2,
-    "DataProvidersReference": "197720",
+    "DataProviderID": 1,
     "OperatorID": 3534,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 223942,
         "Title": "Mach 1 - Tesla Supercharger",
-        "AddressLine1": "19920 Ruffian Way",
+        "AddressLine1": "19920  Ruffian Way",
         "Town": "Haubstadt",
         "StateOrProvince": "IN",
         "Postcode": "47639",
@@ -17,7 +16,7 @@
         "Latitude": 38.1597346,
         "Longitude": -87.55195,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,26 @@
         {
             "ID": 374529,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 504647,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:32:00Z",
+    "DateLastStatusUpdate": "2023-12-13T17:34:00Z",
     "DateCreated": "2023-02-13T05:10:00Z",
     "SubmissionStatusTypeID": 100
 }

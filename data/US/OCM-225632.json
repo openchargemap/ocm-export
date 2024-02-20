@@ -1,9 +1,26 @@
 {
-    "DateLastVerified": "2023-07-12T08:45:00Z",
+    "MediaItems": [
+        {
+            "ID": 39475,
+            "ChargePointID": 225632,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM225632/OCM-225632.orig.2023090222160166.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM225632/OCM-225632.thmb.2023090222160166.jpg",
+            "Comment": "2 - 100kW Delta units and one 350kW Delta with shared power",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2023-09-02T22:16:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-09-02T22:23:00Z",
     "ID": 225632,
     "UUID": "2C99BEF9-916F-4356-B8CA-60406DDE3A2A",
-    "DataProviderID": 2,
-    "DataProvidersReference": "228309",
+    "DataProviderID": 1,
     "OperatorID": 15,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -25,24 +42,43 @@
         {
             "ID": 376913,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 376914,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 474997,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "One stall 2 connectors, power shared"
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:45:00Z",
+    "DateLastStatusUpdate": "2023-09-02T22:23:00Z",
     "DateCreated": "2023-02-13T05:16:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2021-01-01T09:25:00Z",
+    "DateLastVerified": "2023-12-26T19:04:00Z",
     "ID": 171323,
     "UUID": "D1907A7F-2C88-4640-ABA7-1A9CB8AB26C3",
     "DataProviderID": 1,
@@ -8,15 +8,17 @@
     "UsageCost": "R0 for BMW ChargeNow card holders",
     "AddressInfo": {
         "ID": 171682,
-        "Title": "SMG Cape Town",
+        "Title": "BMW Century CIty DC",
         "AddressLine1": "1 Century Way",
         "AddressLine2": "Century City",
         "Town": "Milnerton, Cape Town",
         "StateOrProvince": "WC",
+        "Postcode": "7441",
         "CountryID": 208,
         "Latitude": -33.89314726070135,
         "Longitude": 18.505223096986583,
-        "AccessComments": "Outside SMG Cape Town - the BMW dealer",
+        "ContactTelephone1": "+27101093344",
+        "AccessComments": "Enter via the boomgate to the dealership parking lot. -",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,21 +27,27 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Amps": 250,
+            "Voltage": 1000,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 261863,
-            "ConnectionTypeID": 2
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Free charging for those with a BMW Chargenow card.\r\nMay become available to Gridcars users at some point",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-01T09:25:00Z",
+    "DateLastStatusUpdate": "2023-12-26T19:04:00Z",
     "DateCreated": "2020-12-30T13:40:00Z",
     "SubmissionStatusTypeID": 200
 }

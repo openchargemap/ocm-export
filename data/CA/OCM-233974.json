@@ -1,48 +1,60 @@
 {
-    "DateLastVerified": "2023-07-12T09:35:00Z",
+    "DateLastVerified": "2023-12-31T01:02:00Z",
     "ID": 233974,
     "UUID": "5A3522F2-54A3-47A5-898F-83E9E2A35981",
-    "DataProviderID": 2,
-    "DataProvidersReference": "253817",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "DCFC $25.00/hr, L2 $2.00/hr",
     "AddressInfo": {
         "ID": 234358,
-        "Title": "Badanai Motors Inc Thunder Bay - DC",
-        "AddressLine1": "399 Memorial Ave",
+        "Title": "FLO - Badanai Motors Inc Thunder Bay - DC",
+        "AddressLine1": "399 Memorial Avenue",
         "Town": "Thunder Bay",
         "StateOrProvince": "ON",
         "Postcode": "P7B 3Y4",
         "CountryID": 44,
         "Latitude": 48.4245171062232,
         "Longitude": -89.2350135528449,
-        "ContactTelephone1": "888-356-8911",
-        "AccessComments": "24 hours daily",
-        "RelatedURL": "https://flo.ca/",
+        "ContactTelephone1": "1-855-543-8356",
+        "AccessComments": "GM dealership. Access might be restricted.",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 386022,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 386023,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 507242,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 17,
+            "CurrentTypeID": 10,
+            "Quantity": 7
         }
     ],
+    "GeneralComments": "No credit card reader at the charger, payment with smartphone or RFID card only.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:35:00Z",
+    "DateLastStatusUpdate": "2023-12-31T01:02:00Z",
     "DateCreated": "2023-02-13T05:40:00Z",
     "SubmissionStatusTypeID": 100
 }

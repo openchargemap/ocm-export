@@ -1,23 +1,22 @@
 {
-    "DateLastVerified": "2023-07-12T08:35:00Z",
+    "DateLastVerified": "2023-12-18T23:39:00Z",
     "ID": 269392,
     "UUID": "6FE577DE-3223-412D-AE38-4697E744B465",
-    "DataProviderID": 2,
-    "DataProvidersReference": "301710",
-    "OperatorID": 3534,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 269776,
-        "Title": "Royal Farms - Tesla Supercharger",
+        "Title": "Rehoboth Beach, DE - Coastal Highway Supercharger",
         "AddressLine1": "19791 Coastal Hwy",
         "Town": "Rehoboth Beach",
         "StateOrProvince": "DE",
         "Postcode": "19971",
         "CountryID": 2,
-        "Latitude": 38.716616,
-        "Longitude": -75.109997,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only\r\nPublic - Credit card at all times",
+        "Latitude": 38.716557,
+        "Longitude": -75.10979,
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Royal Farms",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 458975,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 12
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:35:00Z",
+    "DateLastStatusUpdate": "2023-12-18T23:39:00Z",
     "DateCreated": "2023-07-04T07:04:00Z",
     "SubmissionStatusTypeID": 100
 }

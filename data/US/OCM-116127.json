@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-04-25T13:19:00Z",
+    "DateLastVerified": "2024-02-18T15:45:00Z",
     "ID": 116127,
     "UUID": "B4682482-9B47-4B84-88E7-E6D5F7E9AC07",
     "DataProviderID": 1,
@@ -8,7 +8,7 @@
     "AddressInfo": {
         "ID": 116473,
         "Title": "Walmart 2947 Vancouver",
-        "AddressLine1": "9000 NE HIGHWAY 99",
+        "AddressLine1": "8908 NE Hwy 99, Vancouver",
         "Town": "Vancouver",
         "StateOrProvince": "WA",
         "Postcode": "98665",
@@ -24,14 +24,16 @@
         {
             "ID": 163190,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 10,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 163191,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
             "CurrentTypeID": 30,
@@ -56,7 +58,8 @@
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2023-04-25T13:19:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-18T15:45:00Z",
     "DateCreated": "2019-02-11T07:13:00Z",
     "SubmissionStatusTypeID": 100
 }

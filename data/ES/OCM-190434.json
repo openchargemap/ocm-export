@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2022-09-24T19:53:00Z",
+    "MediaItems": [
+        {
+            "ID": 40311,
+            "ChargePointID": 190434,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM190434/OCM-190434.orig.2023111819060212.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM190434/OCM-190434.thmb.2023111819060212.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-18T19:06:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-18T19:06:00Z",
     "ID": 190434,
     "UUID": "0E0EB361-E1AA-4C16-837E-A307C6322DB6",
     "DataProviderID": 1,
@@ -7,16 +25,16 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 190793,
-        "Title": "Supercharger Tesla Hotel Rey Sancho Ramírez Barbastro",
+        "Title": "Tesla Supercharger Hotel Rey Sancho Ramírez Barbastro",
         "AddressLine1": "Hotel Rey Sancho Ramírez",
         "AddressLine2": "Carretera nacional 240 km, 162,700",
         "Town": "Barbastro",
         "StateOrProvince": "Huesca",
         "Postcode": "22300",
         "CountryID": 210,
-        "Latitude": 42.033931761157504,
-        "Longitude": 0.10550193560925436,
-        "ContactTelephone1": "974 31 00 50",
+        "Latitude": 42.03311425505714,
+        "Longitude": 0.10418896181852233,
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,12 +45,14 @@
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "V3"
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "4 V3 Superchargers 250kW (CCS). Max total power of the station 375kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-24T19:53:00Z",
+    "DateLastStatusUpdate": "2023-11-18T19:06:00Z",
     "DateCreated": "2021-12-07T13:16:00Z",
     "SubmissionStatusTypeID": 200
 }

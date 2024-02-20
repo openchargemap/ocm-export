@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2021-12-12T16:09:00Z",
+    "DateLastVerified": "2023-10-25T08:06:00Z",
     "ID": 131899,
     "UUID": "AD51395D-ACD4-416D-883A-EC83DF30B6BA",
     "DataProviderID": 1,
@@ -21,7 +21,7 @@
         {
             "ID": 184572,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -30,18 +30,36 @@
         {
             "ID": 184573,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 30,
+            "StatusTypeID": 200,
             "LevelID": 3,
             "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 484482,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 484483,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "The CCS charge cable has been disabled by the site owner. CHAdeMO remains available at the CircleK charger. Please use the Ionity chargers for CCS charging. ",
+    "NumberOfPoints": 2,
+    "GeneralComments": " ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-12T16:09:00Z",
+    "DateLastStatusUpdate": "2023-10-25T08:06:00Z",
     "DateCreated": "2019-09-14T22:00:00Z",
     "SubmissionStatusTypeID": 200
 }

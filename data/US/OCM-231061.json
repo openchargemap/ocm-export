@@ -1,10 +1,9 @@
 {
-    "DateLastVerified": "2023-07-12T09:15:00Z",
+    "DateLastVerified": "2024-01-26T00:42:00Z",
     "ID": 231061,
     "UUID": "78BE430A-EC00-4775-B912-064894AD6C3C",
-    "DataProviderID": 2,
-    "DataProvidersReference": "206458",
-    "OperatorID": 3426,
+    "DataProviderID": 1,
+    "OperatorID": 9,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 231444,
@@ -14,35 +13,35 @@
         "StateOrProvince": "ID",
         "Postcode": "83687",
         "CountryID": 2,
-        "Latitude": 43.601511,
-        "Longitude": -116.511448,
+        "Latitude": 43.6015112045,
+        "Longitude": -116.511448601,
         "ContactTelephone1": "888-998-2546",
-        "AccessComments": "",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.blinkcharging.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 382791,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 414432,
             "ConnectionTypeID": 32,
             "LevelID": 3,
+            "PowerKW": 42,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 512721,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:15:00Z",
+    "DateLastStatusUpdate": "2024-01-26T00:42:00Z",
     "DateCreated": "2023-02-13T05:30:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2021-07-12T07:50:00Z",
+    "DateLastVerified": "2023-12-21T18:52:00Z",
     "ID": 140387,
     "UUID": "15C0F61C-3764-404B-A954-47D1A5486A45",
     "DataProviderID": 1,
@@ -8,7 +8,7 @@
     "AddressInfo": {
         "ID": 140739,
         "Title": "West Elmsley Drive",
-        "AddressLine1": "West Elmsley Drive",
+        "AddressLine1": "121 W. Elmsley Street",
         "Town": "Greensboro",
         "StateOrProvince": "NC",
         "Postcode": "27406",
@@ -21,26 +21,33 @@
         {
             "ID": 196004,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 196005,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 506733,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-12T07:50:00Z",
+    "DateLastStatusUpdate": "2023-12-21T18:52:00Z",
     "DateCreated": "2019-12-24T09:12:00Z",
     "SubmissionStatusTypeID": 100
 }

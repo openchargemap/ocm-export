@@ -1,20 +1,37 @@
 {
-    "DateLastVerified": "2023-03-07T04:00:00Z",
+    "UserComments": [
+        {
+            "ID": 28979,
+            "ChargePointID": 238732,
+            "CommentTypeID": 10,
+            "UserName": "Panagiotis ",
+            "DateCreated": "2023-09-08T15:34:35.553Z",
+            "User": {
+                "ID": 48350,
+                "Username": "Panagiotis "
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-09-09T19:58:00Z",
     "ID": 238732,
     "UUID": "5179FE34-CF80-481D-8D02-8FBCDDE201FE",
-    "DataProviderID": 19,
-    "DataProvidersReference": "13330",
+    "DataProviderID": 1,
+    "OperatorID": 136,
+    "UsageTypeID": 1,
+    "UsageCost": "0.25€/kWh ",
     "AddressInfo": {
         "ID": 239116,
-        "Title": "Säästöpankki Kalanti-Pyhäranta",
-        "AddressLine1": "Sepänkatu 3",
-        "Town": "Uusikaupunki Keskus",
-        "StateOrProvince": "Varsinais-Suomi",
+        "Title": "Sepänkatu",
+        "AddressLine1": "Sepänkatu",
+        "AddressLine2": "Sorvakko",
+        "Town": "Southwest Finland",
+        "StateOrProvince": "Southwest Finland",
         "Postcode": "23500",
         "CountryID": 79,
-        "Latitude": 60.800253,
-        "Longitude": 21.413842,
-        "AccessComments": "",
+        "Latitude": 60.80001417682104,
+        "Longitude": 21.413590290850152,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,13 +42,14 @@
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 400,
-            "PowerKW": 11,
+            "PowerKW": 17,
             "CurrentTypeID": 20,
             "Comments": "Mode 3"
         }
     ],
-    "NumberOfPoints": 1,
-    "DateLastStatusUpdate": "2023-03-07T04:00:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-09-09T19:58:00Z",
     "DateCreated": "2023-03-07T01:52:00Z",
     "SubmissionStatusTypeID": 100
 }

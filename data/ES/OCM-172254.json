@@ -17,13 +17,13 @@
             "DateCreated": "2022-08-28T14:13:00Z"
         }
     ],
-    "DateLastVerified": "2022-10-28T07:32:00Z",
+    "DateLastVerified": "2023-09-01T11:53:00Z",
     "ID": 172254,
     "UUID": "79ABA797-C6A5-4D74-A6BC-EA5EA01C31B3",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": "0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "0,56€/kWh DC 150kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 172613,
         "Title": "Wenea ES Exoil Manises",
@@ -40,35 +40,65 @@
     "Connections": [
         {
             "ID": 263348,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 920,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 150 kW "
+        },
+        {
+            "ID": 263349,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 263349,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 263350,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 474897,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 474898,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 474899,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-28T07:32:00Z",
+    "DateLastStatusUpdate": "2023-09-01T11:53:00Z",
     "DateCreated": "2021-01-26T15:33:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2022-12-16T20:06:00Z",
+    "MediaItems": [
+        {
+            "ID": 40297,
+            "ChargePointID": 149465,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM149465/OCM-149465.orig.2023111818353869.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM149465/OCM-149465.thmb.2023111818353869.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-18T18:36:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-18T18:36:00Z",
     "ID": 149465,
     "UUID": "A62B552D-E5EE-4955-9ABC-C701681CF50B",
     "DataProviderID": 1,
     "OperatorID": 3534,
     "OperatorsReference": "43484",
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "UsageCost": "",
     "AddressInfo": {
         "ID": 149818,
@@ -25,18 +43,20 @@
     "Connections": [
         {
             "ID": 207521,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "Voltage": 400,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 12
+            "Quantity": 12,
+            "Comments": "V3"
         }
     ],
     "NumberOfPoints": 12,
+    "GeneralComments": "12 V3 Superchargers 250kW (CCS). Max total power of the station 1,1MW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-16T20:06:00Z",
+    "DateLastStatusUpdate": "2023-11-18T18:36:00Z",
     "DateCreated": "2020-02-26T21:48:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2023-05-01T06:08:00Z",
+    "DateLastVerified": "2024-02-20T10:41:00Z",
     "ID": 231426,
     "UUID": "5C43139B-DD26-45A0-AC06-8CFD7F66BA74",
     "DataProviderID": 2,
     "DataProvidersReference": "253460",
-    "OperatorID": 3426,
+    "OperatorID": 9,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 231809,
@@ -14,10 +14,10 @@
         "StateOrProvince": "MI",
         "Postcode": "48617",
         "CountryID": 2,
-        "Latitude": 43.824784,
-        "Longitude": -84.767783,
+        "Latitude": 43.82478443043585,
+        "Longitude": -84.76778351283608,
         "ContactTelephone1": "888-998-2546",
-        "AccessComments": "",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.blinkcharging.com/",
         "DistanceUnit": 0
     },
@@ -26,25 +26,24 @@
             "ID": 383186,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 414817,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-01T06:08:00Z",
+    "DatePlanned": "2023-12-10T00:00:00Z",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2024-02-20T10:41:00Z",
     "DateCreated": "2023-02-13T05:31:00Z",
     "SubmissionStatusTypeID": 100
 }

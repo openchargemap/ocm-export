@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:54:00Z",
+    "DateLastVerified": "2023-11-06T13:30:00Z",
     "ID": 227277,
     "UUID": "6FFE0071-59D1-4B61-8821-CBC0140C3F7D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "213148",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 227660,
-        "Title": "Osborne Lot - Tesla Supercharger",
+        "Title": "East Hampton, NY",
         "AddressLine1": "8 Osborne Lane",
         "Town": "East Hampton",
         "StateOrProvince": "NY",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 40.965512,
         "Longitude": -72.189662,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at the Osborne Lot",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 378730,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:54:00Z",
+    "DateLastStatusUpdate": "2023-11-06T13:30:00Z",
     "DateCreated": "2023-02-13T05:20:00Z",
     "SubmissionStatusTypeID": 100
 }

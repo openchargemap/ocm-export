@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-07-22T08:24:00Z",
+    "MediaItems": [
+        {
+            "ID": 39998,
+            "ChargePointID": 208453,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM208453/OCM-208453.orig.2023102418041927.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM208453/OCM-208453.thmb.2023102418041927.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-10-24T18:04:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-10-24T18:04:00Z",
     "ID": 208453,
     "UUID": "CB726E33-6D3D-4661-A85A-7740C1127900",
     "DataProviderID": 1,
@@ -8,7 +26,7 @@
     "UsageCost": "",
     "AddressInfo": {
         "ID": 208833,
-        "Title": "Son Quint",
+        "Title": "Golf Son Quint",
         "AddressLine1": "Camí de Son Rapinya",
         "Town": "Palma",
         "StateOrProvince": "Balearic Islands",
@@ -24,14 +42,26 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 4
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 484472,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge 150 DC (CCS/Chademo) charger allows charging one vehicle at 90kW, or two simultaneous charges at 45kW. Max Amperage 200A, charging power limited to 80kW for 400V cars"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-22T08:24:00Z",
+    "DateLastStatusUpdate": "2023-10-24T18:04:00Z",
     "DateCreated": "2022-10-17T08:48:00Z",
     "SubmissionStatusTypeID": 200
 }

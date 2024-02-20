@@ -1,5 +1,21 @@
 {
-    "DateLastVerified": "2023-07-12T08:41:00Z",
+    "UserComments": [
+        {
+            "ID": 29167,
+            "ChargePointID": 269500,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "Fast Charger Station ID 54159 is faulted and the screen is dark. Reported the issue to Shell Recharge Support via email.",
+            "DateCreated": "2023-10-27T13:40:06.81Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-02-20T10:11:00Z",
     "ID": 269500,
     "UUID": "5ECC3919-D606-4B42-85F5-C42000685D41",
     "DataProviderID": 2,
@@ -30,12 +46,30 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
+            "Quantity": 4,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 525669,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 525670,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:41:00Z",
+    "DateLastStatusUpdate": "2024-02-20T10:11:00Z",
     "DateCreated": "2023-07-04T07:08:00Z",
     "SubmissionStatusTypeID": 100
 }

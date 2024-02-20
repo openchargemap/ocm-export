@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2023-07-12T08:48:00Z",
+    "DateLastVerified": "2023-11-30T16:21:00Z",
     "ID": 246064,
     "UUID": "3F517D51-FC82-4ADE-AE51-6C6B37D0C6F7",
-    "DataProviderID": 2,
-    "DataProvidersReference": "200539",
+    "DataProviderID": 1,
     "OperatorID": 3534,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -17,7 +16,7 @@
         "Latitude": 40.20291197,
         "Longitude": -76.01592767,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 412302,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:48:00Z",
+    "DateLastStatusUpdate": "2023-11-30T16:21:00Z",
     "DateCreated": "2023-03-07T05:29:00Z",
     "SubmissionStatusTypeID": 100
 }

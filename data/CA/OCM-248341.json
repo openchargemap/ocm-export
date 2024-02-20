@@ -1,48 +1,60 @@
 {
-    "DateLastVerified": "2023-07-12T09:17:00Z",
+    "DateLastVerified": "2024-01-21T13:46:00Z",
     "ID": 248341,
     "UUID": "362BEE49-B010-4B91-8ABD-CFE83C3A6742",
-    "DataProviderID": 2,
-    "DataProvidersReference": "253441",
+    "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$16.00/hr",
     "AddressInfo": {
         "ID": 248725,
-        "Title": "CCC1 EVCO ARTHUR L3",
-        "AddressLine1": "158 Domville St",
+        "Title": "ChargePoint - CCC1 EVCO ARTHUR L3",
+        "AddressLine1": "158 Domville Street",
         "Town": "Arthur",
         "StateOrProvince": "ON",
         "Postcode": "N0G 1A0",
         "CountryID": 44,
-        "Latitude": 43.83667,
-        "Longitude": -80.533699,
-        "ContactTelephone1": "888-758-4389",
+        "Latitude": 43.836306271457204,
+        "Longitude": -80.53368827129029,
+        "ContactTelephone1": "1-888-758-4389",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "http://www.chargepoint.com/",
+        "RelatedURL": "https://www.chargepoint.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 414826,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 414827,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 506953,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 6.6,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:17:00Z",
+    "DateLastStatusUpdate": "2024-01-21T13:46:00Z",
     "DateCreated": "2023-03-07T05:49:00Z",
     "SubmissionStatusTypeID": 100
 }

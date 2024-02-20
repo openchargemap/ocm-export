@@ -1,59 +1,62 @@
 {
-    "DateLastVerified": "2023-07-12T09:15:00Z",
+    "DateLastVerified": "2024-02-10T11:12:00Z",
     "ID": 248038,
     "UUID": "DC5626E2-4D31-4451-84A6-6E79B0A4E465",
-    "DataProviderID": 2,
-    "DataProvidersReference": "250783",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "DCFC $20.00/hr, L2 $3.00/hr ($2.00/hr 19:00-07:00)",
     "AddressInfo": {
         "ID": 248422,
-        "Title": "AURA Lake Shore BLVD",
-        "AddressLine1": "500 Lake Shore BLVD W",
+        "Title": "FLO - AURA Lake Shore BLVD",
+        "AddressLine1": "500 Lakeshore Blvd West",
         "Town": "Toronto",
         "StateOrProvince": "ON",
         "Postcode": "M5V 1A5",
         "CountryID": 44,
         "Latitude": 43.637285990567,
         "Longitude": -79.3987138318285,
-        "ContactTelephone1": "888-356-8911",
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://flo.ca/",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 414491,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 9,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 414492,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 414493,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 513565,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 6.2,
+            "CurrentTypeID": 10,
+            "Quantity": 9
         }
     ],
+    "NumberOfPoints": 11,
+    "GeneralComments": "Mobile app (FLO EV Charging) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:15:00Z",
+    "DateLastStatusUpdate": "2024-02-10T11:12:00Z",
     "DateCreated": "2023-03-07T05:48:00Z",
     "SubmissionStatusTypeID": 100
 }

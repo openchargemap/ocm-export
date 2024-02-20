@@ -10,7 +10,7 @@
             "DateCreated": "2013-04-24T19:26:52.647Z"
         }
     ],
-    "DateLastVerified": "2019-04-06T04:02:00Z",
+    "DateLastVerified": "2024-02-20T09:55:00Z",
     "ID": 14322,
     "UUID": "A6249043-F214-48EA-A613-86D4F7DEC193",
     "DataProviderID": 2,
@@ -24,10 +24,10 @@
         "StateOrProvince": "NC",
         "Postcode": "28602",
         "CountryID": 2,
-        "Latitude": 35.710136,
-        "Longitude": -81.321182,
+        "Latitude": 35.71014,
+        "Longitude": -81.32118,
         "ContactTelephone1": "828-324-5040",
-        "AccessComments": "Dealership business hours",
+        "AccessComments": "Dealership business hours\r\nPublic - Call ahead",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
@@ -38,23 +38,32 @@
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 16551,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 525210,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-04-06T04:02:00Z",
+    "DateLastStatusUpdate": "2024-02-20T09:55:00Z",
     "DateCreated": "2012-12-06T16:49:00Z",
     "SubmissionStatusTypeID": 100
 }

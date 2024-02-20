@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:52:00Z",
+    "DateLastVerified": "2024-02-14T16:06:00Z",
     "ID": 226879,
     "UUID": "FA5E30E1-D18E-437A-BF21-09FCBA0D70BA",
-    "DataProviderID": 2,
-    "DataProvidersReference": "201668",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 227262,
-        "Title": "Carle Place Commons - Tesla Supercharger",
+        "Title": "Carle Place, NY Supercharger",
         "AddressLine1": "117 Old Country Road",
         "Town": "Carle Place",
         "StateOrProvince": "NY",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 40.744734,
         "Longitude": -73.616176,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Carle Place Commons",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 378290,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:52:00Z",
+    "DateLastStatusUpdate": "2024-02-14T16:06:00Z",
     "DateCreated": "2023-02-13T05:19:00Z",
     "SubmissionStatusTypeID": 100
 }

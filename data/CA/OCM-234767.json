@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-07-12T09:41:00Z",
+    "DateLastVerified": "2024-02-20T10:59:00Z",
     "ID": 234767,
     "UUID": "4A9B2407-84F0-443E-AD3C-FDCB55C51BD2",
     "DataProviderID": 2,
@@ -8,7 +8,7 @@
     "AddressInfo": {
         "ID": 235151,
         "Title": "Grande Prairie Airport",
-        "AddressLine1": "10814 Airport Dr",
+        "AddressLine1": "10610 Airport Dr",
         "Town": "Grande Prairie",
         "StateOrProvince": "AB",
         "Postcode": "T8V 7Z5",
@@ -23,6 +23,17 @@
     "Connections": [
         {
             "ID": 386928,
+            "ConnectionTypeID": 11,
+            "LevelID": 1,
+            "Amps": 16,
+            "Voltage": 120,
+            "PowerKW": 1.9,
+            "CurrentTypeID": 10,
+            "Quantity": 4,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 491865,
             "ConnectionTypeID": 1,
             "LevelID": 2,
             "Amps": 16,
@@ -34,7 +45,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:41:00Z",
+    "DateLastStatusUpdate": "2024-02-20T10:59:00Z",
     "DateCreated": "2023-02-13T05:42:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2019-06-05T12:01:00Z",
+    "MediaItems": [
+        {
+            "ID": 39964,
+            "ChargePointID": 98068,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM98068/OCM-98068.orig.2023102021280701.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM98068/OCM-98068.thmb.2023102021280701.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "DateCreated": "2023-10-20T21:28:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-10-20T21:28:00Z",
     "ID": 98068,
     "UUID": "B050A788-0F25-4F6F-8E96-FF6FEBD62F7A",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "38501",
-    "UsageTypeID": 4,
+    "UsageTypeID": 6,
     "AddressInfo": {
         "ID": 98414,
         "Title": "Hampton Inn & Suites Columbia/South MD",
@@ -14,8 +32,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21046",
         "CountryID": 2,
-        "Latitude": 39.17575,
-        "Longitude": -76.846303,
+        "Latitude": 39.17573508456536,
+        "Longitude": -76.84582209383534,
         "ContactTelephone1": "(410) 381-3001",
         "DistanceUnit": 0
     },
@@ -28,12 +46,21 @@
             "PowerKW": 16,
             "CurrentTypeID": 20,
             "Quantity": 4
+        },
+        {
+            "ID": 484144,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "4 Tesla Connectors, up to 16kW.Available for customers. Please see front desk.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-06-05T12:01:00Z",
+    "DateLastStatusUpdate": "2023-10-20T21:28:00Z",
     "DateCreated": "2018-01-21T17:43:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-02-26T19:08:00Z",
+    "DateLastVerified": "2023-12-07T12:16:00Z",
     "ID": 235646,
     "UUID": "5E73988A-F14D-4222-95EB-5FB3AB4446A6",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": " 0,45€/kWh ",
+    "UsageCost": " 0,54€/kWh ",
     "AddressInfo": {
         "ID": 236030,
         "Title": "McDonald's  Ronda Norte",
@@ -24,23 +24,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 388747,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-02-26T19:08:00Z",
+    "GeneralComments": "Power currently limited",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-12-07T12:16:00Z",
     "DateCreated": "2023-02-26T19:08:00Z",
     "SubmissionStatusTypeID": 200
 }

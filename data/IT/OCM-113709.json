@@ -1,21 +1,58 @@
 {
-    "DateLastVerified": "2019-01-01T14:17:00Z",
+    "MediaItems": [
+        {
+            "ID": 41272,
+            "ChargePointID": 113709,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM113709/OCM-113709.orig.2024012417432802.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM113709/OCM-113709.thmb.2024012417432802.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 19496,
+                "Username": "ECOGY"
+            },
+            "DateCreated": "2024-01-24T17:44:00Z"
+        },
+        {
+            "ID": 41271,
+            "ChargePointID": 113709,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM113709/OCM-113709.orig.2024012417422948.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM113709/OCM-113709.thmb.2024012417422948.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 19496,
+                "Username": "ECOGY"
+            },
+            "DateCreated": "2024-01-24T17:43:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-01-24T17:44:00Z",
     "ID": 113709,
     "UUID": "6C7D1688-1E6F-444F-A7AD-6D08774AD9FA",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 0,
-    "UsageCost": "Free",
+    "UsageTypeID": 6,
+    "UsageCost": "Consumption-based by kWh",
     "AddressInfo": {
         "ID": 114055,
         "Title": "Garni Val de Costa ",
         "AddressLine1": "Via Cuch 1",
         "Town": "Alba di Canazei ",
         "StateOrProvince": "TN",
-        "Postcode": "38033",
+        "Postcode": "38032",
         "CountryID": 112,
         "Latitude": 46.4614429493894,
         "Longitude": 11.7827228704118,
+        "ContactTelephone1": "+39 0462 600 089",
+        "AccessComments": "The charging station is in the parking lot",
+        "RelatedURL": "http://www.garnivaldecosta.it",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,16 +61,17 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
+            "Amps": 16,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "RFID card available at office",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-01-01T14:17:00Z",
+    "DateLastStatusUpdate": "2024-01-24T17:44:00Z",
     "DateCreated": "2018-12-31T20:30:00Z",
     "SubmissionStatusTypeID": 200
 }

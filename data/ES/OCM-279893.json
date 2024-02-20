@@ -1,0 +1,49 @@
+{
+    "DateLastVerified": "2023-11-12T07:40:00Z",
+    "ID": 279893,
+    "UUID": "505598D4-C0A3-4B89-B443-9DC68ED2F0AA",
+    "DataProviderID": 1,
+    "OperatorID": 3550,
+    "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh Dc - 0,40€/kWh AC",
+    "AddressInfo": {
+        "ID": 280280,
+        "Title": "E.S. Galp Verín",
+        "AddressLine1": "N-532",
+        "Town": "Verín",
+        "StateOrProvince": "Galicia",
+        "Postcode": "32699",
+        "CountryID": 210,
+        "Latitude": 41.82492966954305,
+        "Longitude": -7.425334361393084,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 486752,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Two Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (100 kW). Charging power limited for 400V cars"
+        },
+        {
+            "ID": 486753,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-11-12T07:40:00Z",
+    "DateCreated": "2023-11-12T07:38:00Z",
+    "SubmissionStatusTypeID": 200
+}

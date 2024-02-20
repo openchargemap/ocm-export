@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 28876,
+            "ChargePointID": 61121,
+            "CommentTypeID": 50,
+            "UserName": "Andyw1977",
+            "Comment": "New chargers are now online. Orbis app is required to initiate the charge. There are 5 x 22 kw chargers and 1 3 kw charger currently available. If you have problems starting your charge, speak to the car park attendants and they will help you out. ",
+            "Rating": 4,
+            "DateCreated": "2023-08-16T11:51:27.77Z",
+            "User": {
+                "ID": 42154,
+                "Username": "Andyw1977"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 28011,
             "ChargePointID": 61121,
             "CommentTypeID": 50,
@@ -16,13 +31,13 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2023-01-10T22:05:00Z",
+    "DateLastVerified": "2023-10-19T09:44:00Z",
     "ID": 61121,
     "UUID": "AFFEAF4B-1150-4B97-BC7F-C5A5F1E9C6B1",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 1,
-    "UsageCost": "Free / gratis",
+    "UsageCost": "€0.39",
     "AddressInfo": {
         "ID": 61467,
         "Title": "Museo de la Evolución Humana",
@@ -31,37 +46,38 @@
         "StateOrProvince": "BURGOS",
         "Postcode": "09001",
         "CountryID": 210,
-        "Latitude": 42.338577,
-        "Longitude": -3.696724,
+        "Latitude": 42.33853909238772,
+        "Longitude": -3.697046254955353,
         "ContactTelephone1": "947.255124",
         "RelatedURL": "http://www.aytoburgos.es",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 77744,
-            "ConnectionTypeID": 28,
+            "ID": 472378,
+            "ConnectionTypeID": 25,
+            "Reference": "Orbis",
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 8,
+            "Comments": ""
         },
         {
-            "ID": 77746,
-            "ConnectionTypeID": 28,
+            "ID": 472379,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "PowerKW": 22,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "PowerKW": 3,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "No card required. Plug in and charge. Car parking charges apply.",
+    "NumberOfPoints": 6,
+    "GeneralComments": "Orbis App required. Contact staff in car park if you have problems initiating charge.Car parking charges apply.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-10T22:05:00Z",
+    "DateLastStatusUpdate": "2023-10-19T09:44:00Z",
     "DateCreated": "2016-02-13T00:24:00Z",
     "SubmissionStatusTypeID": 200
 }

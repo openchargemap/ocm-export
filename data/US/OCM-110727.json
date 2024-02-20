@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T09:08:00Z",
+    "DateLastVerified": "2024-02-11T03:12:00Z",
     "ID": 110727,
     "UUID": "059D820A-264F-44B4-A930-03646B07B926",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102222",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 111073,
-        "Title": "Meijer - Tesla Supercharger",
+        "Title": "Auburn Hills, MI Supercharger",
         "AddressLine1": "800 Brown Road",
         "Town": "Auburn Hills",
         "StateOrProvince": "MI",
-        "Postcode": "48326",
+        "Postcode": "48326-1309",
         "CountryID": 2,
         "Latitude": 42.706861,
         "Longitude": -83.289364,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Meijer",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 156007,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 150kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:08:00Z",
+    "DateLastStatusUpdate": "2024-02-11T03:12:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

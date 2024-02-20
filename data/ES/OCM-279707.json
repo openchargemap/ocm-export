@@ -1,0 +1,49 @@
+{
+    "DateLastVerified": "2023-11-05T17:01:00Z",
+    "ID": 279707,
+    "UUID": "90BE753A-436E-4A44-B93B-5D6F4696EA7D",
+    "DataProviderID": 1,
+    "OperatorID": 3550,
+    "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh",
+    "AddressInfo": {
+        "ID": 280094,
+        "Title": "E.S. Cepsa",
+        "AddressLine1": "Avenida de la Ingeniería",
+        "AddressLine2": "Distrito Norte",
+        "StateOrProvince": "Andalucía",
+        "Postcode": "41015",
+        "CountryID": 210,
+        "Latitude": 37.42789772760497,
+        "Longitude": -5.970968477810317,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 486373,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Two Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (200 kW)."
+        },
+        {
+            "ID": 486374,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-11-05T17:01:00Z",
+    "DateCreated": "2023-11-05T17:01:00Z",
+    "SubmissionStatusTypeID": 200
+}

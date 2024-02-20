@@ -1,11 +1,42 @@
 {
-    "DateLastVerified": "2023-07-12T09:01:00Z",
+    "UserComments": [
+        {
+            "ID": 29243,
+            "ChargePointID": 142966,
+            "CommentTypeID": 10,
+            "UserName": "Programmin",
+            "Comment": "Did not work - credit card decline and asks to set up app.",
+            "Rating": 1,
+            "DateCreated": "2023-11-11T23:27:27.173Z",
+            "User": {
+                "ID": 42341,
+                "Username": "Programmin"
+            },
+            "CheckinStatusTypeID": 30,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 28931,
+            "ChargePointID": 142966,
+            "CommentTypeID": 10,
+            "UserName": "iOne",
+            "Comment": "As of August 2023, Free to charge",
+            "DateCreated": "2023-08-27T07:05:42.547Z",
+            "User": {
+                "ID": 47889,
+                "Username": "iOne"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-11-11T23:27:00Z",
     "ID": 142966,
     "UUID": "B488C80E-94AC-4665-A3DC-DE00BAA57FAC",
-    "DataProviderID": 2,
-    "DataProvidersReference": "147224",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 143318,
         "Title": "MTA-EVCHARGER-1 MTASHLANDEV1",
@@ -14,8 +45,8 @@
         "StateOrProvince": "OR",
         "Postcode": "97520",
         "CountryID": 2,
-        "Latitude": 42.08118,
-        "Longitude": -122.70559,
+        "Latitude": 42.08110850434812,
+        "Longitude": -122.70591902349216,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -34,8 +65,10 @@
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:01:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Credit card errors",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2023-11-11T23:27:00Z",
     "DateCreated": "2019-12-24T09:19:00Z",
     "SubmissionStatusTypeID": 100
 }

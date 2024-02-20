@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-05-08T04:03:00Z",
+    "DateLastVerified": "2023-08-20T19:15:00Z",
     "ID": 261594,
     "UUID": "FD5CA585-A5CE-401D-8A57-4EB537B63DA9",
-    "DataProviderID": 19,
-    "DataProvidersReference": "14487",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 261978,
-        "Title": "Vattenfall - Nordby Shoppingcenter -",
+        "Title": "Nordby Shoppingcenter - InCharge",
         "AddressLine1": "Vattenfall - Nordby Shoppingcenter - ",
         "Town": "STRÖMSTAD",
         "StateOrProvince": "VÄSTRA GÖTALAND",
@@ -19,17 +19,6 @@
     },
     "Connections": [
         {
-            "ID": 442588,
-            "ConnectionTypeID": 25,
-            "Reference": "1",
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 400,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
-            "Comments": "Mode 3"
-        },
-        {
             "ID": 442589,
             "ConnectionTypeID": 25,
             "Reference": "2",
@@ -38,6 +27,7 @@
             "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
+            "Quantity": 1,
             "Comments": "Mode 3"
         },
         {
@@ -49,6 +39,7 @@
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 2,
             "Comments": "Mode 4"
         },
         {
@@ -60,6 +51,7 @@
             "Voltage": 400,
             "PowerKW": 11,
             "CurrentTypeID": 20,
+            "Quantity": 2,
             "Comments": "Mode 3"
         },
         {
@@ -71,11 +63,12 @@
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 2,
             "Comments": "Mode 4"
         }
     ],
     "NumberOfPoints": 5,
-    "DateLastStatusUpdate": "2023-05-08T04:03:00Z",
+    "DateLastStatusUpdate": "2023-08-20T19:15:00Z",
     "DateCreated": "2023-05-01T04:19:00Z",
     "SubmissionStatusTypeID": 100
 }

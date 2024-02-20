@@ -1,20 +1,21 @@
 {
-    "DateLastVerified": "2022-09-25T21:24:00Z",
+    "DateLastVerified": "2023-10-18T01:57:00Z",
     "ID": 159387,
     "UUID": "B58541CA-23C5-45A7-9CED-8630AAEB5A68",
     "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "$0.25/kWh + $0.17/min",
     "AddressInfo": {
         "ID": 159744,
-        "Title": "HIGHS",
+        "Title": "High's Store - Jessup",
         "AddressLine1": "2861 Jessup Rd",
         "Town": "Jessup",
         "StateOrProvince": "MD",
         "Postcode": "20794",
         "CountryID": 2,
-        "Latitude": 39.142555,
-        "Longitude": -76.762934,
+        "Latitude": 39.141997108612884,
+        "Longitude": -76.76283085170382,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -24,26 +25,24 @@
         {
             "ID": 229550,
             "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "LevelID": 1,
+            "Voltage": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 229551,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-25T21:24:00Z",
+    "DateLastStatusUpdate": "2023-10-18T01:57:00Z",
     "DateCreated": "2020-06-26T03:01:00Z",
     "SubmissionStatusTypeID": 100
 }

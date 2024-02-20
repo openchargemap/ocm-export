@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:46:00Z",
+    "DateLastVerified": "2024-02-14T17:09:00Z",
     "ID": 225794,
     "UUID": "B831D7B5-54CC-467F-B737-7CBFA84F8644",
-    "DataProviderID": 2,
-    "DataProvidersReference": "190502",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 226177,
-        "Title": "North Somerset Travel Plaza - Tesla Supercharger",
+        "Title": "Somerset, PA - Service Plaza, Westbound Supercharger",
         "AddressLine1": "179 North Plaza Access Road",
         "Town": "Somerset",
         "StateOrProvince": "PA",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 39.9996061,
         "Longitude": -79.04355685,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at North Somerset Travel Plaza",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 377093,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:46:00Z",
+    "DateLastStatusUpdate": "2024-02-14T17:09:00Z",
     "DateCreated": "2023-02-13T05:16:00Z",
     "SubmissionStatusTypeID": 100
 }

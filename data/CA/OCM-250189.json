@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2023-07-12T09:38:00Z",
+    "DateLastVerified": "2024-01-24T01:40:00Z",
     "ID": 250189,
     "UUID": "2F22B28E-1AAA-4DE7-9DF9-FA1A3A83D0E6",
-    "DataProviderID": 2,
-    "DataProvidersReference": "157694",
-    "UsageTypeID": 2,
+    "DataProviderID": 1,
+    "OperatorID": 89,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 250573,
         "Title": "Canadian Tire Corp",
@@ -24,26 +24,37 @@
         {
             "ID": 417092,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 3,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 417093,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 3,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 512616,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "GeneralComments": "",
     "DatePlanned": "2022-09-01T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-07-12T09:38:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-01-24T01:40:00Z",
     "DateCreated": "2023-03-07T06:03:00Z",
     "SubmissionStatusTypeID": 100
 }

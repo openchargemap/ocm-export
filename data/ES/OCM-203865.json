@@ -1,20 +1,21 @@
 {
-    "DateLastVerified": "2022-09-22T18:01:00Z",
+    "DateLastVerified": "2023-11-28T09:12:00Z",
     "ID": 203865,
     "UUID": "D1517C4A-E56A-4542-ABC0-2F0C4717FD58",
     "DataProviderID": 1,
-    "OperatorID": 3558,
-    "UsageTypeID": 6,
+    "OperatorID": 103,
+    "UsageTypeID": 4,
+    "UsageCost": "0,39€/kWh",
     "AddressInfo": {
         "ID": 204232,
-        "Title": "Nissan Cuenca",
+        "Title": "Nissan Cuenca (Allego)",
         "AddressLine1": "Avenida de los Alfares",
         "AddressLine2": "Barrio de San Antón",
         "StateOrProvince": "Castilla-La Mancha",
         "Postcode": "16002",
         "CountryID": 210,
-        "Latitude": 40.0768420071866,
-        "Longitude": -2.1523872282938328,
+        "Latitude": 40.07682750631753,
+        "Longitude": -2.1526634271594958,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,14 +24,23 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 24,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 475848,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 24,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-22T18:01:00Z",
+    "DateLastStatusUpdate": "2023-11-28T09:12:00Z",
     "DateCreated": "2022-09-22T18:01:00Z",
     "SubmissionStatusTypeID": 200
 }

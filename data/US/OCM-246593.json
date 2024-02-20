@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:55:00Z",
+    "DateLastVerified": "2023-11-16T04:02:00Z",
     "ID": 246593,
     "UUID": "2013DAF0-DD9F-42A5-A819-6F66B1773E1D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "154207",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 246977,
-        "Title": "Sheetz - Tesla Supercharger",
+        "Title": "Williamsport, PA",
         "AddressLine1": "105 Maynard Street",
         "Town": "Williamsport",
         "StateOrProvince": "PA",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 41.232412,
         "Longitude": -77.020248,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Sheetz",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 412886,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:55:00Z",
+    "DateLastStatusUpdate": "2023-11-16T04:02:00Z",
     "DateCreated": "2023-03-07T05:34:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,11 +1,46 @@
 {
-    "DateLastVerified": "2023-07-12T09:18:00Z",
+    "UserComments": [
+        {
+            "ID": 29269,
+            "ChargePointID": 270227,
+            "CommentTypeID": 10,
+            "UserName": "Programmin",
+            "Comment": "all 6 currently in use and slowed to 29kw charging.",
+            "Rating": 5,
+            "DateCreated": "2023-11-19T00:31:20.733Z",
+            "User": {
+                "ID": 42341,
+                "Username": "Programmin"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 40620,
+            "ChargePointID": 270227,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM270227/OCM-270227.orig.2023112604201552.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM270227/OCM-270227.thmb.2023112604201552.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 42341,
+                "Username": "Programmin"
+            },
+            "DateCreated": "2023-11-26T04:20:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-26T04:20:00Z",
     "ID": 270227,
     "UUID": "1EF90284-F01D-440F-B2B7-111174B55AA3",
-    "DataProviderID": 2,
-    "DataProvidersReference": "262402",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "$0.48/kWh",
     "AddressInfo": {
         "ID": 270611,
         "Title": "Kroger Fred Meyer 417 (Eugene, OR)",
@@ -25,15 +60,17 @@
         {
             "ID": 459903,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 6,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:18:00Z",
+    "DateLastStatusUpdate": "2023-11-26T04:20:00Z",
     "DateCreated": "2023-07-04T07:36:00Z",
     "SubmissionStatusTypeID": 100
 }

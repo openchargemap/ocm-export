@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:00:00Z",
+    "DateLastVerified": "2023-11-27T01:57:00Z",
     "ID": 271130,
     "UUID": "08D05C79-5FB3-4108-8B05-F83C7429B170",
-    "DataProviderID": 2,
-    "DataProvidersReference": "302202",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 271514,
-        "Title": "Whataburger - Tesla Supercharger",
+        "Title": "Fairfield, TX",
         "AddressLine1": "1015 W Commerce St",
         "Town": "Fairfield",
         "StateOrProvince": "TX",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 31.7253371658793,
         "Longitude": -96.1782627134032,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only\r\nPublic - Credit card at all times",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at TA Express Fairfield",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 461500,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 15,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 15,
+    "GeneralComments": "15 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:00:00Z",
+    "DateLastStatusUpdate": "2023-11-27T01:57:00Z",
     "DateCreated": "2023-07-10T03:36:00Z",
     "SubmissionStatusTypeID": 100
 }

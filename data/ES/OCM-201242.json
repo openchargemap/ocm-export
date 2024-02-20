@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 40411,
+            "ChargePointID": 201242,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201242/OCM-201242.orig.2023111916044416.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201242/OCM-201242.thmb.2023111916044416.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-19T16:05:00Z"
+        },
+        {
             "ID": 33364,
             "ChargePointID": 201242,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM201242/OCM-201242.orig.2022082814180677.jpg",
@@ -17,7 +33,7 @@
             "DateCreated": "2022-08-28T14:18:00Z"
         }
     ],
-    "DateLastVerified": "2023-05-31T19:14:00Z",
+    "DateLastVerified": "2024-01-19T08:02:00Z",
     "ID": 201242,
     "UUID": "9492502B-21E8-44C7-BF3D-A5D0D6A3B353",
     "DataProviderID": 1,
@@ -42,12 +58,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
+            "Amps": 300,
             "Voltage": 920,
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "XCharge 150 DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW. Maximum amperage 200A (max power is limited to 80 kW for 400V cars)"
+            "Comments": "XCharge C6EU 150 DC CCS charger (peak 400A). The charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW."
         },
         {
             "ID": 335635,
@@ -80,7 +96,7 @@
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-31T19:14:00Z",
+    "DateLastStatusUpdate": "2024-01-19T08:02:00Z",
     "DateCreated": "2022-08-25T08:27:00Z",
     "SubmissionStatusTypeID": 200
 }

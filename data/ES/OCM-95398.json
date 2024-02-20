@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 39824,
+            "ChargePointID": 95398,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM95398/OCM-95398.orig.2023100813040750.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM95398/OCM-95398.thmb.2023100813040750.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-10-08T13:04:00Z"
+        },
+        {
             "ID": 38012,
             "ChargePointID": 95398,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM95398/OCM-95398.orig.2023060418534021.jpg",
@@ -17,7 +33,7 @@
             "DateCreated": "2023-06-04T18:54:00Z"
         }
     ],
-    "DateLastVerified": "2023-06-04T18:54:00Z",
+    "DateLastVerified": "2023-12-28T20:06:00Z",
     "ID": 95398,
     "UUID": "06DBDFB9-5E69-4DDE-A35A-A1F6BA4A48C3",
     "DataProviderID": 1,
@@ -39,17 +55,31 @@
     "Connections": [
         {
             "ID": 135144,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 8,
+            "Comments": "V2 (CCS+Tesla S/X connector)"
+        },
+        {
+            "ID": 482363,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 675,
+            "Voltage": 900,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "V4"
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 12,
+    "GeneralComments": "8 V2 superchargers 150kW (CCS+Tesla S/X connector). Each two A/B chargers share 150kW of the power cabinet. + 4 V4 250kW CCS chargers ( Max total power of the V4 station 375kW)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-04T18:54:00Z",
+    "DateLastStatusUpdate": "2023-12-28T20:06:00Z",
     "DateCreated": "2017-11-09T14:40:00Z",
     "SubmissionStatusTypeID": 200
 }

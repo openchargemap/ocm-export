@@ -1,11 +1,27 @@
 {
-    "DateLastVerified": "2023-07-12T08:37:00Z",
+    "UserComments": [
+        {
+            "ID": 29506,
+            "ChargePointID": 224363,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "The screens are damaged on Station ID 52371B and 52373B. Reported the issue to Shell Recharge customer support via email. ",
+            "DateCreated": "2024-02-08T19:29:06.72Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-02-08T19:29:00Z",
     "ID": 224363,
     "UUID": "3A7B2F64-C5A4-46A7-B1B7-9AB27806CDBD",
-    "DataProviderID": 2,
-    "DataProvidersReference": "235379",
+    "DataProviderID": 1,
     "OperatorID": 59,
     "UsageTypeID": 1,
+    "UsageCost": "$0.17/kWh + 6% MD sales & use tax",
     "AddressInfo": {
         "ID": 224746,
         "Title": "BGE-Pal Park",
@@ -14,8 +30,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21403",
         "CountryID": 2,
-        "Latitude": 38.942471,
-        "Longitude": -76.48455,
+        "Latitude": 38.944101072829454,
+        "Longitude": -76.48340900016015,
         "ContactTelephone1": "855-900-7584",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://shellrecharge.com/en-us/solutions",
@@ -26,16 +42,17 @@
             "ID": 375454,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:37:00Z",
+    "DateLastStatusUpdate": "2024-02-08T19:29:00Z",
     "DateCreated": "2023-02-13T05:12:00Z",
     "SubmissionStatusTypeID": 100
 }

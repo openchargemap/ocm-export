@@ -1,10 +1,9 @@
 {
-    "DateLastVerified": "2017-11-04T14:05:00Z",
+    "DateLastVerified": "2023-11-27T18:50:00Z",
     "ID": 11676,
     "UUID": "9867897F-70D1-43BF-820E-19A3D40742DA",
-    "DataProviderID": 15,
-    "DataProvidersReference": "18860",
-    "OperatorID": 26,
+    "DataProviderID": 1,
+    "OperatorID": 3542,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 11573,
@@ -25,19 +24,44 @@
             "ID": 9012,
             "ConnectionTypeID": 1,
             "Reference": "J1772",
-            "LevelID": 2
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.6,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         },
         {
             "ID": 9173,
             "ConnectionTypeID": 2,
             "Reference": "CHADEMO",
+            "StatusTypeID": 50,
             "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 485798,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 175,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 487920,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2017-11-04T14:05:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-11-27T18:50:00Z",
     "DateCreated": "2012-06-06T14:38:00Z",
     "SubmissionStatusTypeID": 100
 }

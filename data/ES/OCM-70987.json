@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-08-03T13:26:00Z",
+    "MediaItems": [
+        {
+            "ID": 40321,
+            "ChargePointID": 70987,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM70987/OCM-70987.orig.2023111819234206.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM70987/OCM-70987.thmb.2023111819234206.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-18T19:24:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-12-28T20:05:00Z",
     "ID": 70987,
     "UUID": "1DE52ADE-56EF-43EC-8559-9B3E4DB66959",
     "DataProviderID": 1,
@@ -27,7 +45,8 @@
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 8,
+            "Comments": "V3"
         },
         {
             "ID": 471404,
@@ -36,12 +55,14 @@
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 8,
+            "Comments": "V2 (CCS+Tesla S/X connector)"
         }
     ],
     "NumberOfPoints": 8,
+    "GeneralComments": "8 V2 superchargers 150kW (CCS+Tesla S/X connector). Each two A/B chargers share 150kW of the power cabinet + 8 V3 Superchargers 250kW (CCS). Max total power of the V3 station 750kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-08-03T13:26:00Z",
+    "DateLastStatusUpdate": "2023-12-28T20:05:00Z",
     "DateCreated": "2016-08-22T11:48:00Z",
     "SubmissionStatusTypeID": 200
 }

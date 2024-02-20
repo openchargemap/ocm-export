@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2020-02-29T06:54:00Z",
+    "DateLastVerified": "2024-02-14T18:29:00Z",
     "ID": 149568,
     "UUID": "B2704349-D099-4B83-B973-C9B93B846FFA",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "53062",
-    "UsageTypeID": 4,
-    "UsageCost": "$0.21/kWh; other tariffs for older cars",
+    "UsageTypeID": 1,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 149921,
         "Title": "Alexandria, MN Supercharger",
@@ -17,6 +17,8 @@
         "CountryID": 2,
         "Latitude": 45.850448,
         "Longitude": -95.389237,
+        "ContactTelephone2": "(877) 798-3752",
+        "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +27,24 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 498873,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8
         }
     ],
     "NumberOfPoints": 8,
-    "GeneralComments": "Charging8 Superchargers, available 24/7, up to 250kW",
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-02-29T06:54:00Z",
+    "DateLastStatusUpdate": "2024-02-14T18:29:00Z",
     "DateCreated": "2020-02-29T06:54:00Z",
     "SubmissionStatusTypeID": 200
 }

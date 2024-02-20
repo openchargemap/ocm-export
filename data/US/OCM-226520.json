@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:50:00Z",
+    "DateLastVerified": "2024-02-14T18:19:00Z",
     "ID": 226520,
     "UUID": "8C53B758-C481-450B-A637-A0114CE98DE5",
-    "DataProviderID": 2,
-    "DataProvidersReference": "186180",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 226903,
-        "Title": "Draper Crossing - Tesla Supercharger",
+        "Title": "Draper, UT Supercharger",
         "AddressLine1": "62-64 East 12300 South",
         "Town": "Draper",
         "StateOrProvince": "UT",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 40.526372,
         "Longitude": -111.88603,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Draper Crossing",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 377895,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:50:00Z",
+    "DateLastStatusUpdate": "2024-02-14T18:19:00Z",
     "DateCreated": "2023-02-13T05:18:00Z",
     "SubmissionStatusTypeID": 100
 }

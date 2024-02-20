@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:16:00Z",
+    "DateLastVerified": "2023-12-21T11:50:00Z",
     "ID": 221041,
     "UUID": "E455CAB6-0B93-4BDD-8AE3-7EDA8274B123",
-    "DataProviderID": 2,
-    "DataProvidersReference": "207550",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 221424,
-        "Title": "Smithfield's Chicken 'N Bar-B-Q - Tesla Supercharger",
+        "Title": "Leland, NC Supercharger",
         "AddressLine1": "2020 Olde Regent Way",
         "Town": "Leland",
         "StateOrProvince": "NC",
@@ -17,7 +16,7 @@
         "Latitude": 34.217293,
         "Longitude": -78.018642,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "Located at Smithfield's Chicken 'N Bar-B-Q",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 371663,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 12
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:16:00Z",
+    "DateLastStatusUpdate": "2023-12-21T11:50:00Z",
     "DateCreated": "2023-02-13T05:03:00Z",
     "SubmissionStatusTypeID": 100
 }

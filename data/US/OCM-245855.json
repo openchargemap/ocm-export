@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:45:00Z",
+    "DateLastVerified": "2023-11-06T13:32:00Z",
     "ID": 245855,
     "UUID": "474C0983-D220-4587-B8D8-3B1AAAE86D3D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "102356",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 246239,
-        "Title": "Derby Square Shopping Center - Tesla Supercharger",
+        "Title": "Grove City, OH",
         "AddressLine1": "2221 Stringtown Rd",
         "Town": "Grove City",
         "StateOrProvince": "OH",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 39.877253,
         "Longitude": -83.063448,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at the Derby Square Shopping Center",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 412065,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 150kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:45:00Z",
+    "DateLastStatusUpdate": "2023-11-06T13:32:00Z",
     "DateCreated": "2023-03-07T05:27:00Z",
     "SubmissionStatusTypeID": 100
 }

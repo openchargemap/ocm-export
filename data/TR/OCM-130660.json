@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-03-22T14:39:00Z",
+    "MediaItems": [
+        {
+            "ID": 39947,
+            "ChargePointID": 130660,
+            "ItemURL": "https://media.openchargemap.io/images/TR/OCM130660/OCM-130660.orig.2023101918405365.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/TR/OCM130660/OCM-130660.thmb.2023101918405365.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 20996,
+                "Username": "ske"
+            },
+            "DateCreated": "2023-10-19T18:41:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-10-19T18:43:00Z",
     "ID": 130660,
     "UUID": "0D829524-80C3-4CF1-A81C-BD5D2CF16B6B",
     "DataProviderID": 1,
@@ -7,51 +25,18 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 131006,
-        "Title": "EŞARJ - Cadde Plus AVM",
+        "Title": "120 Kwh - EŞARJ - Cadde Plus AVM",
         "AddressLine1": "Sakarya Mah. 2001 Sok. No: 119",
         "Town": "İzmir",
         "StateOrProvince": "Çeşme",
         "Postcode": "35930",
         "CountryID": 229,
-        "Latitude": 38.328209524369015,
-        "Longitude": 26.313320486167186,
-        "RelatedURL": "http://esarj.com/harita?s=TR-IZM-013",
+        "Latitude": 38.3283736846727,
+        "Longitude": 26.312393230419616,
+        "RelatedURL": "http://esarj.com/harita?s=TR-IZM-042",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 182911,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 500,
-            "PowerKW": 45,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 182912,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 120,
-            "Voltage": 500,
-            "PowerKW": 45,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 182913,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
         {
             "ID": 388442,
             "ConnectionTypeID": 33,
@@ -63,11 +48,33 @@
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "located next to car wash"
+        },
+        {
+            "ID": 484241,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "located near the park behind the building"
+        },
+        {
+            "ID": 484242,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "located near the park behind the building"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-22T14:39:00Z",
+    "DateLastStatusUpdate": "2023-10-19T18:43:00Z",
     "DateCreated": "2019-08-08T18:33:00Z",
     "SubmissionStatusTypeID": 200
 }

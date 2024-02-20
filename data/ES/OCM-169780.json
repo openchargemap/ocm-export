@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2022-11-18T19:09:00Z",
+    "MediaItems": [
+        {
+            "ID": 40291,
+            "ChargePointID": 169780,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM169780/OCM-169780.orig.2023111818184831.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM169780/OCM-169780.thmb.2023111818184831.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-18T18:19:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-18T18:19:00Z",
     "ID": 169780,
     "UUID": "25681172-7BE0-4183-B3C4-CEE1BB89FE9E",
     "DataProviderID": 1,
@@ -21,12 +39,13 @@
     "Connections": [
         {
             "ID": 258695,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "V2 (CCS+Tesla S/X connector)"
         },
         {
             "ID": 349560,
@@ -35,13 +54,14 @@
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 10
+            "Quantity": 10,
+            "Comments": "V3"
         }
     ],
     "NumberOfPoints": 14,
-    "GeneralComments": "Charging 4 superchargers 150kW + 10 superchargers 250 kW",
+    "GeneralComments": "4 V2 superchargers 150kW (CCS+Tesla S/X connector). Each two A/B chargers share 150kW of the power cabinet  + 10 V3 superchargers 250 kW (CCS) Max total power of the station 1,1MW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-11-18T19:09:00Z",
+    "DateLastStatusUpdate": "2023-11-18T18:19:00Z",
     "DateCreated": "2020-11-10T09:43:00Z",
     "SubmissionStatusTypeID": 200
 }

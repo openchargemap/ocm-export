@@ -1,6 +1,38 @@
 {
     "MediaItems": [
         {
+            "ID": 41241,
+            "ChargePointID": 133397,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM133397/OCM-133397.orig.2024012122542489.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM133397/OCM-133397.thmb.2024012122542489.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50201,
+                "Username": "Luis"
+            },
+            "DateCreated": "2024-01-21T22:55:00Z"
+        },
+        {
+            "ID": 40214,
+            "ChargePointID": 133397,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM133397/OCM-133397.orig.2023111219345904.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM133397/OCM-133397.thmb.2023111219345904.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-12T19:35:00Z"
+        },
+        {
             "ID": 36022,
             "ChargePointID": 133397,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM133397/OCM-133397.orig.2022122209435174.jpg",
@@ -15,42 +47,26 @@
                 "Username": "lmjgarcia"
             },
             "DateCreated": "2022-12-22T09:44:00Z"
-        },
-        {
-            "ID": 33061,
-            "ChargePointID": 133397,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM133397/OCM-133397.orig.2022082315054306.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM133397/OCM-133397.thmb.2022082315054306.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 40036,
-                "Username": "lmjgarcia"
-            },
-            "DateCreated": "2022-08-23T15:06:00Z"
         }
     ],
-    "DateLastVerified": "2023-06-14T09:00:00Z",
+    "DateLastVerified": "2024-02-08T17:48:00Z",
     "ID": 133397,
     "UUID": "C7D21262-0B3F-4381-AE78-7396B84882C8",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,55€/kWh DC>80kW - 0.39€/kWh DC50kW/AC",
+    "UsageCost": "0,55€/kWh DC>80kW",
     "AddressInfo": {
         "ID": 133743,
-        "Title": "Zunder Villalpando",
+        "Title": "Rest. El Raso Villalpando (Zunder)",
         "AddressLine1": "Complejo El Raso. Area de descanso Vuelta Dese Leon.",
         "AddressLine2": "Autovia A6, Km 231. Camino de los Gallegos.",
         "Town": "Villalpando",
         "StateOrProvince": "Zamora",
         "Postcode": "49630",
         "CountryID": 210,
-        "Latitude": 41.826131491955664,
-        "Longitude": -5.378832223528065,
+        "Latitude": 41.82600622612705,
+        "Longitude": -5.378826121184545,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -71,42 +87,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Efacec QC45 Charger"
-        },
-        {
-            "ID": 186743,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Efacec QC45 Charger"
-        },
-        {
-            "ID": 349941,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2,
-            "Comments": "Efacec QC45 Charger"
+            "Comments": "ngeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited to 150kW for 400V cars"
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "App. Zunder",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-14T09:00:00Z",
+    "GeneralComments": "Station equipped with a boost battery. Power limited when charger battery is low of charge",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2024-02-08T17:48:00Z",
     "DateCreated": "2019-10-17T20:05:00Z",
     "SubmissionStatusTypeID": 200
 }

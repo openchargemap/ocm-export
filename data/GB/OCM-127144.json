@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2019-07-16T08:25:00Z",
+    "DateLastVerified": "2023-10-10T05:27:00Z",
     "ID": 127144,
     "UUID": "C6CD685C-EE4B-4754-816B-DF560CA59CD6",
     "DataProviderID": 1,
@@ -9,7 +9,7 @@
     "UsageCost": "£0.27/kWh",
     "AddressInfo": {
         "ID": 127490,
-        "Title": "Hafan Y MÔR Holiday Park",
+        "Title": "Hafan Y MÃR Holiday Park",
         "AddressLine1": "Pwllheli",
         "Town": "Gwynedd",
         "Postcode": "LL53 6HX",
@@ -20,21 +20,36 @@
     },
     "Connections": [
         {
-            "ID": 178040,
+            "ID": 483492,
             "ConnectionTypeID": 25,
+            "Reference": "PG-82688",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Huey-Lily"
+        },
+        {
+            "ID": 483493,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-82690",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "Shia-Lily"
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "This is an open charge unit installed at the Hafan y Môr Holiday Park at Pwllheli, Gwynedd",
+    "GeneralComments": "This is an open charge unit installed at the Hafan y MÃ´r Holiday Park at Pwllheli, Gwynedd",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-07-16T08:25:00Z",
+    "DateLastStatusUpdate": "2023-10-10T05:27:00Z",
     "DateCreated": "2019-05-29T05:30:00Z",
     "SubmissionStatusTypeID": 200
 }

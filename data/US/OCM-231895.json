@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T09:20:00Z",
+    "DateLastVerified": "2024-02-15T03:29:00Z",
     "ID": 231895,
     "UUID": "DDC76F93-F48E-4DF5-B421-46DEB9B8DA58",
-    "DataProviderID": 2,
-    "DataProvidersReference": "233040",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 232278,
-        "Title": "Green Mountain Mall - Tesla Supercharger",
+        "Title": "St. Johnsbury, VT Supercharger",
         "AddressLine1": "2000 Memorial Drive",
         "Town": "St Johnsbury",
         "StateOrProvince": "VT",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 44.460768,
         "Longitude": -72.0146882,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Green Mountain Mall",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 383689,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers up to 250kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T09:20:00Z",
+    "DateLastStatusUpdate": "2024-02-15T03:29:00Z",
     "DateCreated": "2023-02-13T05:32:00Z",
     "SubmissionStatusTypeID": 100
 }

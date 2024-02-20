@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:24:00Z",
+    "DateLastVerified": "2023-11-20T16:20:00Z",
     "ID": 222309,
     "UUID": "A82B7EDB-0665-408F-AE5E-6711F9263F00",
-    "DataProviderID": 2,
-    "DataProvidersReference": "196521",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 222692,
-        "Title": "Oasis - Tesla Supercharger",
+        "Title": "Halifax, NC",
         "AddressLine1": "10401 NC-903",
         "Town": "Halifax",
         "StateOrProvince": "NC",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 36.366073,
         "Longitude": -77.674312,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Oasis",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 373091,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 20,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 20,
+    "GeneralComments": "20 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:24:00Z",
+    "DateLastStatusUpdate": "2023-11-20T16:20:00Z",
     "DateCreated": "2023-02-13T05:06:00Z",
     "SubmissionStatusTypeID": 100
 }

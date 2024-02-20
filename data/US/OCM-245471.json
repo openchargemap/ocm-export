@@ -1,11 +1,27 @@
 {
-    "DateLastVerified": "2023-07-12T08:39:00Z",
+    "UserComments": [
+        {
+            "ID": 29155,
+            "ChargePointID": 245471,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "Station ID 52332A, on the right, is offline and displays a message “NETWORK DOWN Please Contact Customer Support.” I notified Shell Recharge of the issue via email. Ticket #00654639",
+            "DateCreated": "2023-10-23T17:59:57.897Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2023-10-23T19:04:00Z",
     "ID": 245471,
     "UUID": "06E06C70-3F29-4C88-BDEB-273B95707D9A",
-    "DataProviderID": 2,
-    "DataProvidersReference": "193471",
+    "DataProviderID": 1,
     "OperatorID": 59,
     "UsageTypeID": 1,
+    "UsageCost": "$0.18 per kWh",
     "AddressInfo": {
         "ID": 245855,
         "Title": "BGE-HCLS Savage Branch",
@@ -14,8 +30,8 @@
         "StateOrProvince": "MD",
         "Postcode": "20723",
         "CountryID": 2,
-        "Latitude": 39.132625,
-        "Longitude": -76.836328,
+        "Latitude": 39.13303412061569,
+        "Longitude": -76.83603489359464,
         "ContactTelephone1": "855-900-7584",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://shellrecharge.com/en-us/solutions",
@@ -26,16 +42,16 @@
             "ID": 411625,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 4,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:39:00Z",
+    "DateLastStatusUpdate": "2023-10-23T19:04:00Z",
     "DateCreated": "2023-03-07T05:24:00Z",
     "SubmissionStatusTypeID": 100
 }

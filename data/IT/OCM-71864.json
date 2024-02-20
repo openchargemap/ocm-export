@@ -1,10 +1,45 @@
 {
-    "DateLastVerified": "2016-09-19T15:36:00Z",
+    "MediaItems": [
+        {
+            "ID": 40767,
+            "ChargePointID": 71864,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM71864/OCM-71864.orig.2023121415543697.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM71864/OCM-71864.thmb.2023121415543697.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 19496,
+                "Username": "ECOGY"
+            },
+            "DateCreated": "2023-12-14T15:55:00Z"
+        },
+        {
+            "ID": 40768,
+            "ChargePointID": 71864,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM71864/OCM-71864.orig.2023121415545842.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM71864/OCM-71864.thmb.2023121415545842.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 19496,
+                "Username": "ECOGY"
+            },
+            "DateCreated": "2023-12-14T15:55:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-01-11T10:34:00Z",
     "ID": 71864,
     "UUID": "DED9CC41-F432-41A7-87C5-234D87ED7738",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 6,
+    "UsageCost": "Consumption-based by kWh",
     "AddressInfo": {
         "ID": 72210,
         "Title": " Berghotel",
@@ -13,8 +48,8 @@
         "StateOrProvince": "BZ",
         "Postcode": "39030",
         "CountryID": 112,
-        "Latitude": 46.692028303523486,
-        "Longitude": 12.367195042382848,
+        "Latitude": 46.69164534947137,
+        "Longitude": 12.367581552829307,
         "ContactTelephone1": "0039 0474 710386",
         "ContactEmail": "info@berghotel.com",
         "RelatedURL": "http://www.berghotel.com",
@@ -31,12 +66,23 @@
             "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 505363,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Tesla Destination Charger",
+    "GeneralComments": "RFID card available at office",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-09-19T15:36:00Z",
+    "DateLastStatusUpdate": "2024-01-11T10:34:00Z",
     "DateCreated": "2016-09-19T15:36:00Z",
     "SubmissionStatusTypeID": 200
 }

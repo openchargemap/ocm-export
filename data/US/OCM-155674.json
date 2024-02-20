@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2020-04-21T17:41:00Z",
+    "DateLastVerified": "2024-02-11T13:47:00Z",
     "ID": 155674,
     "UUID": "6C6DCDB1-5917-49E9-BC84-FDE0C0F103D2",
     "DataProviderID": 1,
-    "OperatorID": 3389,
+    "OperatorID": 3733,
     "UsageTypeID": 1,
     "UsageCost": "$1.00 to Connect, $0.21 per minute",
     "AddressInfo": {
         "ID": 156028,
         "Title": "Western Farmers Electric Cooperative - Francis Energy",
-        "AddressLine1": "2900 S Telephone Rd",
+        "AddressLine1": "3000 S Telephone Rd",
         "Town": "Moore",
         "StateOrProvince": "OK",
         "Postcode": "73160",
@@ -26,8 +26,6 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 100,
             "LevelID": 3,
-            "Amps": 350,
-            "Voltage": 950,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 2,
@@ -38,18 +36,25 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 100,
             "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 500,
             "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2,
+            "Quantity": 4,
             "Comments": "BTCPower EVDSP-350-5-120-0-2-C-4-0"
+        },
+        {
+            "ID": 513941,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "200kW HPC Chargers Provided by Francis Energy",
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2020-04-21T17:41:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-11T13:47:00Z",
     "DateCreated": "2020-04-21T03:53:00Z",
     "SubmissionStatusTypeID": 200
 }

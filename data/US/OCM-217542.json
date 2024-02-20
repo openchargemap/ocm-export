@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T07:55:00Z",
+    "DateLastVerified": "2023-12-23T19:13:00Z",
     "ID": 217542,
     "UUID": "F1C34211-3271-4E54-9063-4133170D3B1D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "214069",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 217922,
-        "Title": "Wawa - Tesla Supercharger",
-        "AddressLine1": "401  North Dale Mabry Highway",
+        "Title": "Tampa, FL - North Dale Mabry Highway Supercharger",
+        "AddressLine1": "401 North Dale Mabry Highway",
         "Town": "Tampa",
         "StateOrProvince": "FL",
         "Postcode": "33609",
         "CountryID": 2,
         "Latitude": 27.949314,
         "Longitude": -82.504671,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Wawa",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 367784,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:55:00Z",
+    "DateLastStatusUpdate": "2023-12-23T19:13:00Z",
     "DateCreated": "2023-02-13T04:53:00Z",
     "SubmissionStatusTypeID": 100
 }

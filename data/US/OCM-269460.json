@@ -1,11 +1,45 @@
 {
-    "DateLastVerified": "2023-07-12T08:39:00Z",
+    "UserComments": [
+        {
+            "ID": 29137,
+            "ChargePointID": 269460,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "Unit 735 is faulted. Displays Error code 1005. Reported the issue to blink. ",
+            "DateCreated": "2023-10-20T20:18:29.407Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 39962,
+            "ChargePointID": 269460,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM269460/OCM-269460.orig.2023102021252714.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM269460/OCM-269460.thmb.2023102021252714.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "DateCreated": "2023-10-20T21:26:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-10-20T21:26:00Z",
     "ID": 269460,
     "UUID": "7DEE03EA-9042-41F1-A75D-A250BBA3C180",
-    "DataProviderID": 2,
-    "DataProvidersReference": "250412",
-    "OperatorID": 3426,
+    "DataProviderID": 1,
+    "OperatorID": 9,
     "UsageTypeID": 1,
+    "UsageCost": "$0.39/kWh members, $0.49/kWh nonmembers",
     "AddressInfo": {
         "ID": 269844,
         "Title": "Public Parking Lot",
@@ -14,10 +48,10 @@
         "StateOrProvince": "MD",
         "Postcode": "20707",
         "CountryID": 2,
-        "Latitude": 39.104169,
-        "Longitude": -76.844478,
+        "Latitude": 39.104004344769294,
+        "Longitude": -76.84443145861877,
         "ContactTelephone1": "888-998-2546",
-        "AccessComments": "",
+        "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.blinkcharging.com/",
         "DistanceUnit": 0
     },
@@ -26,16 +60,17 @@
             "ID": 459049,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 80,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 19,
             "CurrentTypeID": 10,
             "Quantity": 4,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:39:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2023-10-20T21:26:00Z",
     "DateCreated": "2023-07-04T07:07:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:55:00Z",
+    "DateLastVerified": "2024-02-14T16:23:00Z",
     "ID": 142606,
     "UUID": "111C75FD-12F3-4DBB-BFFA-41C4107A9904",
-    "DataProviderID": 2,
-    "DataProvidersReference": "149365",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 142958,
-        "Title": "Palisades Shopping Center - Tesla Supercharger",
+        "Title": "West Nyack, NY Supercharger",
         "AddressLine1": "1000 Palisades Center Drive",
         "Town": "West Nyack",
         "StateOrProvince": "NY",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 41.094668,
         "Longitude": -73.955364,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "(877) 798-3752",
+        "AccessComments": "Located at Palisades Shopping Center",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 198777,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 20,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 20,
+    "GeneralComments": "20 Superchargers up to 150kW, Available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:55:00Z",
+    "DateLastStatusUpdate": "2024-02-14T16:23:00Z",
     "DateCreated": "2019-12-24T09:18:00Z",
     "SubmissionStatusTypeID": 100
 }

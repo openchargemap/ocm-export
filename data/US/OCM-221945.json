@@ -1,23 +1,23 @@
 {
-    "DateLastVerified": "2023-07-12T08:22:00Z",
+    "DateLastVerified": "2023-12-22T01:25:00Z",
     "ID": 221945,
     "UUID": "C2D01C4E-3BAE-4C8F-B356-87951F63F710",
-    "DataProviderID": 2,
-    "DataProvidersReference": "252513",
-    "OperatorID": 3534,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 23,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 222328,
-        "Title": "Sheetz - Tesla Supercharger",
+        "Title": "Mocksville, NC Supercharger",
         "AddressLine1": "1449 Yadkinville Rd",
         "Town": "Mocksville",
         "StateOrProvince": "NC",
         "Postcode": "27028",
         "CountryID": 2,
-        "Latitude": 35.9185322938876,
-        "Longitude": -80.5857071592497,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
+        "Latitude": 35.918545,
+        "Longitude": -80.5857031,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Sheetz",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 372676,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:22:00Z",
+    "DateLastStatusUpdate": "2023-12-22T01:25:00Z",
     "DateCreated": "2023-02-13T05:05:00Z",
     "SubmissionStatusTypeID": 100
 }

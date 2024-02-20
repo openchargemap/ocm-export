@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2022-09-24T19:35:00Z",
+    "MediaItems": [
+        {
+            "ID": 40292,
+            "ChargePointID": 201273,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201273/OCM-201273.orig.2023111818210276.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201273/OCM-201273.thmb.2023111818210276.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2023-11-18T18:21:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-11-18T18:21:00Z",
     "ID": 201273,
     "UUID": "324759E1-1CBB-4A2C-A8E3-A9A5CB2E0C3B",
     "DataProviderID": 1,
@@ -13,8 +31,8 @@
         "StateOrProvince": "Principality of Asturias",
         "Postcode": "33429",
         "CountryID": 210,
-        "Latitude": 43.38898477244726,
-        "Longitude": -5.80494459229044,
+        "Latitude": 43.389063908851426,
+        "Longitude": -5.803766029651655,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,12 +43,14 @@
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 10
+            "Quantity": 10,
+            "Comments": "V3"
         }
     ],
     "NumberOfPoints": 10,
+    "GeneralComments": "10 V3 Superchargers 250kW (CCS). Max total power of the station 1,1MW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-24T19:35:00Z",
+    "DateLastStatusUpdate": "2023-11-18T18:21:00Z",
     "DateCreated": "2022-08-25T21:17:00Z",
     "SubmissionStatusTypeID": 200
 }

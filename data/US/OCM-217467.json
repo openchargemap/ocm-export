@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T07:54:00Z",
+    "DateLastVerified": "2023-12-23T02:18:00Z",
     "ID": 217467,
     "UUID": "A418079E-D27E-4F43-8BF6-17BA1072E496",
-    "DataProviderID": 2,
-    "DataProvidersReference": "221098",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 217847,
-        "Title": "Wawa - Tesla Supercharger",
+        "Title": "Sarasota, FL - Clark Road Supercharger",
         "AddressLine1": "5321 Clark Road",
         "Town": "Sarasota",
         "StateOrProvince": "FL",
@@ -17,7 +16,7 @@
         "Latitude": 27.2703,
         "Longitude": -82.46288,
         "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "AccessComments": "Located at Wawa",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +24,17 @@
         {
             "ID": 367695,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "8 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T07:54:00Z",
+    "DateLastStatusUpdate": "2023-12-23T02:18:00Z",
     "DateCreated": "2023-02-13T04:53:00Z",
     "SubmissionStatusTypeID": 100
 }

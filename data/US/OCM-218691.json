@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:01:00Z",
+    "DateLastVerified": "2023-12-23T17:58:00Z",
     "ID": 218691,
     "UUID": "DD2E437B-AE46-4360-82D6-A19C74337846",
-    "DataProviderID": 2,
-    "DataProvidersReference": "227378",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 219071,
-        "Title": "Buc-ee's - Tesla Supercharger",
+        "Title": "Fort Valley, GA Supercharger",
         "AddressLine1": "7001 Russell Parkway",
         "Town": "Fort Valley",
         "StateOrProvince": "GA",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 32.583048,
         "Longitude": -83.740659,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Buc-ee's",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 369030,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 16,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 16,
+    "GeneralComments": "16 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:01:00Z",
+    "DateLastStatusUpdate": "2023-12-23T17:58:00Z",
     "DateCreated": "2023-02-13T04:56:00Z",
     "SubmissionStatusTypeID": 100
 }

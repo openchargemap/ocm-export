@@ -48,11 +48,11 @@
             "DateCreated": "2019-08-11T12:43:00Z"
         }
     ],
-    "DateLastVerified": "2022-11-18T19:21:00Z",
+    "DateLastVerified": "2023-10-12T10:35:00Z",
     "ID": 71020,
     "UUID": "B4C077C6-249D-48B3-838E-688A83BA6570",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "19234",
     "UsageTypeID": 4,
     "UsageCost": "",
@@ -72,12 +72,13 @@
     "Connections": [
         {
             "ID": 101763,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "V2 (CCS+Tesla S/X connector)"
         },
         {
             "ID": 349562,
@@ -86,12 +87,14 @@
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "V3"
         }
     ],
     "NumberOfPoints": 8,
+    "GeneralComments": "4 V2 superchargers 150kW (CCS+Tesla S/X connector). Each two A/B chargers share 150kW of the power cabinet+ 4 V3 superchargers 250 kW (CCS)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-11-18T19:21:00Z",
+    "DateLastStatusUpdate": "2023-10-12T10:35:00Z",
     "DateCreated": "2016-08-22T18:30:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,45 @@
 {
-    "DateLastVerified": "2023-08-07T05:27:00Z",
+    "MediaItems": [
+        {
+            "ID": 39761,
+            "ChargePointID": 268360,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM268360/OCM-268360.orig.2023092808582452.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM268360/OCM-268360.thmb.2023092808582452.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47841,
+                "Username": "gw8ogi"
+            },
+            "DateCreated": "2023-09-28T08:59:00Z"
+        },
+        {
+            "ID": 39762,
+            "ChargePointID": 268360,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM268360/OCM-268360.orig.2023092808584234.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM268360/OCM-268360.thmb.2023092808584234.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47841,
+                "Username": "gw8ogi"
+            },
+            "DateCreated": "2023-09-28T08:59:00Z"
+        }
+    ],
+    "DateLastVerified": "2023-10-11T09:16:00Z",
     "ID": 268360,
     "UUID": "61921067-E2EC-4E0A-9DDF-FA4A1B5C1B23",
     "DataProviderID": 1,
-    "OperatorID": 3430,
-    "OperatorsReference": "",
-    "UsageTypeID": 4,
+    "OperatorID": 3673,
+    "UsageTypeID": 5,
+    "UsageCost": "£0.55/kWh",
     "AddressInfo": {
         "ID": 268744,
         "Title": "EG Oswestry",
@@ -15,16 +49,15 @@
         "CountryID": 1,
         "Latitude": 52.849054,
         "Longitude": -3.028198,
-        "AccessComments": "",
-        "RelatedURL": "https://www.gridserve.com",
+        "AccessComments": "Branded as 'evpoint'",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 457594,
             "ConnectionTypeID": 2,
-            "Reference": "2",
-            "StatusTypeID": 0,
+            "Reference": "EVP-Oswestry-A-3",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
@@ -33,29 +66,32 @@
         },
         {
             "ID": 457595,
-            "ConnectionTypeID": 1036,
-            "Reference": "1",
-            "StatusTypeID": 0,
-            "LevelID": 3,
-            "Amps": 63,
+            "ConnectionTypeID": 25,
+            "Reference": "EVP-Oswestry-A-1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 457596,
-            "ConnectionTypeID": 1036,
-            "Reference": "3",
-            "StatusTypeID": 0,
+            "ConnectionTypeID": 33,
+            "Reference": "EVP-Oswestry-A-2",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2023-08-07T05:27:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2023-10-11T09:16:00Z",
     "MetadataValues": [
         {
             "ID": 29388,

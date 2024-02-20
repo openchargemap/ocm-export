@@ -1,0 +1,68 @@
+{
+    "DateLastVerified": "2024-02-15T10:22:00Z",
+    "ID": 290145,
+    "UUID": "11BD8DF6-C9F4-4F4D-858E-0B720BCB41CE",
+    "DataProviderID": 1,
+    "OperatorID": 3755,
+    "UsageTypeID": 4,
+    "UsageCost": "from 2 to 16 €cent per minute https://www.e-charge50.fr/terms/prices",
+    "AddressInfo": {
+        "ID": 290532,
+        "Title": "e-Charge 50 - Port de Saint-Vaast-la-Hougue",
+        "AddressLine1": "Rue Amiral Alphonse Vautier",
+        "Town": "Saint-Vaast-la-Hougue",
+        "Postcode": "50110",
+        "CountryID": 80,
+        "Latitude": 49.58966049547041,
+        "Longitude": -1.2636240702346413,
+        "RelatedURL": "https://www.e-charge50.fr/",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 512501,
+            "ConnectionTypeID": 25,
+            "Reference": "CU-SDEM-SVA2-50550-1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 512502,
+            "ConnectionTypeID": 28,
+            "Reference": "CU-SDEM-SVA2-50550-1",
+            "StatusTypeID": 50,
+            "Voltage": 219,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 512503,
+            "ConnectionTypeID": 25,
+            "Reference": "CU-SDEM-SVA2-50550-2",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 512504,
+            "ConnectionTypeID": 28,
+            "Reference": "CU-SDEM-SVA2-50550-2",
+            "StatusTypeID": 50,
+            "Voltage": 220,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-15T10:22:00Z",
+    "DateCreated": "2024-01-23T09:51:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-07-12T08:08:00Z",
+    "DateLastVerified": "2023-12-23T17:46:00Z",
     "ID": 219906,
     "UUID": "C343754F-2D64-47C8-8F6B-D889333C224F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "190470",
-    "OperatorID": 3534,
+    "DataProviderID": 1,
+    "OperatorID": 23,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 220289,
-        "Title": "Target - Tesla Supercharger",
+        "Title": "Douglasville, GA Supercharger",
         "AddressLine1": "2950 Chapel Hill Road",
         "Town": "Douglasville",
         "StateOrProvince": "GA",
@@ -16,8 +15,9 @@
         "CountryID": 2,
         "Latitude": 33.726886,
         "Longitude": -84.73577,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "877-798-3752",
+        "AccessComments": "Located at Target",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
@@ -25,15 +25,18 @@
         {
             "ID": 370355,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "12 Superchargers, available 24/7, up to 250kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T08:08:00Z",
+    "DateLastStatusUpdate": "2023-12-23T17:46:00Z",
     "DateCreated": "2023-02-13T04:59:00Z",
     "SubmissionStatusTypeID": 100
 }
