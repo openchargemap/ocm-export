@@ -1,0 +1,90 @@
+{
+    "DateLastVerified": "2024-11-16T06:22:00Z",
+    "ID": 303305,
+    "UUID": "B41FD796-04FB-476A-B254-8D75D3AF2FEF",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-86438,PG-86453,t54_hu1_4520_016",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh",
+    "AddressInfo": {
+        "ID": 303692,
+        "Title": "Lidl-Richmond Road",
+        "AddressLine1": "383-393 Richmond Road",
+        "Town": "Richmond",
+        "Postcode": "TW1 2EF",
+        "CountryID": 1,
+        "Latitude": 51.455762,
+        "Longitude": -0.310703,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 570681,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86438",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Yoko-Juan"
+        },
+        {
+            "ID": 570682,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-86453",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Bess-Teri"
+        },
+        {
+            "ID": 570683,
+            "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4520_016",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Amos-Glen"
+        },
+        {
+            "ID": 570684,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4520_016",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Amos-Glen"
+        },
+        {
+            "ID": 570685,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4520_016",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Amos-Glen"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is an open charge unit installed at the Lidl super store at Richmond Road, Richmond",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-16T06:22:00Z",
+    "DateCreated": "2024-08-22T05:24:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,9 +1,27 @@
 {
-    "DateLastVerified": "2023-12-05T20:56:00Z",
+    "MediaItems": [
+        {
+            "ID": 44399,
+            "ChargePointID": 104473,
+            "ItemURL": "https://media.openchargemap.io/images/IE/OCM104473/OCM-104473.orig.2024120909445628.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IE/OCM104473/OCM-104473.thmb.2024120909445628.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 15963,
+                "Username": "thommcg"
+            },
+            "DateCreated": "2024-12-09T09:45:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-12-09T09:45:00Z",
     "ID": 104473,
     "UUID": "589B817D-1189-423D-BE74-AB107D81B310",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "43217",
     "UsageTypeID": 4,
     "AddressInfo": {
@@ -24,7 +42,7 @@
         {
             "ID": 307824,
             "ConnectionTypeID": 27,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
@@ -33,17 +51,26 @@
         {
             "ID": 499413,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 585399,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "Available for customers. Please see front desk.",
+    "NumberOfPoints": 4,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-05T20:56:00Z",
+    "DateLastStatusUpdate": "2024-12-09T09:45:00Z",
     "DateCreated": "2018-05-20T05:42:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-09T22:05:00Z",
+    "DateLastVerified": "2024-08-25T12:37:00Z",
     "ID": 271112,
     "UUID": "3F9B4270-E54E-4775-81FC-41C269AE6966",
     "DataProviderID": 1,
     "OperatorID": 3583,
     "UsageTypeID": 4,
-    "UsageCost": "0,29€/kWh",
+    "UsageCost": "7.4kW: 0.32€. 60kW: 0.40€.",
     "AddressInfo": {
         "ID": 271496,
         "Title": "Tanatorio Cangas de Onís",
@@ -14,13 +14,25 @@
         "StateOrProvince": "Asturias / Asturies",
         "Postcode": "33589",
         "CountryID": 210,
-        "Latitude": 43.35028683606751,
-        "Longitude": -5.112519554073714,
+        "Latitude": 43.350132,
+        "Longitude": -5.1120723,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 461478,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Wallbox Supernova 60 Charger. The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW"
+        },
+        {
+            "ID": 567870,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -29,9 +41,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-09T22:05:00Z",
+    "DateLastStatusUpdate": "2024-08-25T12:37:00Z",
     "DateCreated": "2023-07-09T22:05:00Z",
     "SubmissionStatusTypeID": 200
 }

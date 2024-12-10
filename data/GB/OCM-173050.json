@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2024-02-19T06:18:00Z",
+    "DateLastVerified": "2024-06-07T15:38:00Z",
     "ID": 173050,
     "UUID": "826C6733-7A11-4BB3-8E49-B9F83A3FDF14",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-70242,PG-84501",
+    "OperatorsReference": "PG-70650,PG-84501",
     "UsageTypeID": 4,
     "UsageCost": "£0.44/kWh",
     "AddressInfo": {
@@ -21,19 +21,6 @@
     },
     "Connections": [
         {
-            "ID": 264778,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-70242",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2,
-            "Comments": "Kyle-Zara"
-        },
-        {
             "ID": 320431,
             "ConnectionTypeID": 25,
             "Reference": "PG-84501",
@@ -45,12 +32,25 @@
             "CurrentTypeID": 10,
             "Quantity": 2,
             "Comments": "Stan-Tate"
+        },
+        {
+            "ID": 553066,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-70650",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Skye-Olaf"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Tesco super store at Old Market Road, Stalham, Norwich",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-19T06:18:00Z",
+    "DateLastStatusUpdate": "2024-06-07T15:38:00Z",
     "DateCreated": "2021-03-02T21:01:00Z",
     "SubmissionStatusTypeID": 200
 }

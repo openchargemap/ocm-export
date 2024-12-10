@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2024-02-20T10:00:00Z",
+    "DateLastVerified": "2024-11-06T10:39:00Z",
     "ID": 294078,
     "UUID": "15A42185-947B-4018-868A-02C7B9B56328",
-    "DataProviderID": 2,
-    "DataProvidersReference": "326092",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "$0.44 kWh",
     "AddressInfo": {
         "ID": 294465,
         "Title": "ChargeNet - Taco Bell",
@@ -17,7 +18,7 @@
         "Longitude": -122.004554116741,
         "ContactTelephone1": "844-247-4638",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "",
+        "RelatedURL": "https://chargenetstations.com/locations/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,23 +26,24 @@
             "ID": 525364,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 75,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 525365,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 75,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:00:00Z",
+    "DateLastStatusUpdate": "2024-11-06T10:39:00Z",
     "DateCreated": "2024-02-20T10:00:00Z",
     "SubmissionStatusTypeID": 100
 }

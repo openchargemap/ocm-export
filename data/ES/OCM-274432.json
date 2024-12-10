@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2024-02-09T21:23:00Z",
+    "DateLastVerified": "2024-12-07T19:20:00Z",
     "ID": 274432,
     "UUID": "195B6209-568D-4692-828E-0772C3C1ABFF",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh",
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 274816,
-        "Title": "Univ. Oviedo Del Milán (Zunder)",
+        "Title": "Univ. Oviedo. Campus del Milán (Zunder)",
         "AddressLine1": "Calle Francisco Rodríguez García",
         "AddressLine2": "El Milán",
         "StateOrProvince": "Asturias / Asturies",
@@ -21,17 +21,20 @@
     "Connections": [
         {
             "ID": 475781,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Two Kempower CCS Satellite chargers  that dynamically share the total power of the cabinet (200 kW)."
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-09T21:23:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-12-07T19:20:00Z",
     "DateCreated": "2023-09-11T20:56:00Z",
     "SubmissionStatusTypeID": 200
 }

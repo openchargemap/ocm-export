@@ -1,11 +1,10 @@
 {
-    "DateLastVerified": "2020-06-26T02:59:00Z",
+    "DateLastVerified": "2024-03-05T19:22:00Z",
     "ID": 141035,
     "UUID": "EB90C978-A4D5-4E31-93D2-5BE3F2234FFF",
-    "DataProviderID": 2,
-    "DataProvidersReference": "121623",
+    "DataProviderID": 1,
     "OperatorID": 15,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 141387,
         "Title": "Sprouts",
@@ -25,26 +24,33 @@
         {
             "ID": 196840,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 6
         },
         {
             "ID": 196841,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4
+        },
+        {
+            "ID": 528577,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T02:59:00Z",
+    "DateLastStatusUpdate": "2024-03-05T19:22:00Z",
     "DateCreated": "2019-12-24T09:14:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2024-02-10T14:33:00Z",
+    "DateLastVerified": "2024-10-12T10:11:00Z",
     "ID": 270259,
     "UUID": "2F51B054-AEA4-4AA6-8501-C7F8E3164C27",
     "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$15.00/hr",
     "AddressInfo": {
         "ID": 270643,
         "Title": "FLO - Oakview Woods & RecPlex YMCA",
@@ -13,17 +14,19 @@
         "StateOrProvince": "ON",
         "Postcode": "L9Z 1Z8",
         "CountryID": 44,
-        "Latitude": 44.4796625,
-        "Longitude": -80.06872,
-        "ContactTelephone1": "888-356-8911",
-        "AccessComments": "24 hours daily",
-        "RelatedURL": "https://flo.ca/",
+        "Latitude": 44.47815854622135,
+        "Longitude": -80.07069903396133,
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
+        "AccessComments": "Available 24/7",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 459943,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -33,6 +36,7 @@
         {
             "ID": 459944,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -40,9 +44,10 @@
             "Comments": ""
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2024-02-10T14:33:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Mobile app (FLO EV Charging) required for payment. RFID card available for members. No credit card reader at the charger.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-10-12T10:11:00Z",
     "DateCreated": "2023-07-04T07:37:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2024-01-27T15:58:00Z",
+    "DateLastVerified": "2024-09-24T05:54:00Z",
     "ID": 283703,
     "UUID": "66CD3872-7691-467E-B7E8-94FD8A782574",
     "DataProviderID": 1,
     "OperatorID": 3534,
     "UsageTypeID": 4,
-    "UsageCost": "Tesla $0.59/kWh, non-Tesla $0.80/kWh",
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app.",
     "AddressInfo": {
         "ID": 284090,
-        "Title": "Tesla/CCS Supercharger (Macleod Trail SE)",
+        "Title": "Tesla/CCS Supercharger - Macleod Trail SE",
         "AddressLine1": "317 11 Avenue SE",
         "Town": "Calgary",
         "StateOrProvince": "AB",
@@ -18,7 +18,7 @@
         "Longitude": -114.05736545046346,
         "ContactTelephone1": "1-877-798-3752",
         "AccessComments": "",
-        "RelatedURL": "https://www.tesla.com/en_ca/support/non-tesla-supercharging",
+        "RelatedURL": "https://www.tesla.com/support/supercharging-other-evs",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -39,13 +39,14 @@
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 12
+            "Quantity": 12,
+            "Comments": "Magic Dock CCS1"
         }
     ],
     "NumberOfPoints": 12,
-    "GeneralComments": "All stalls have Magic Dock adapter which allows CCS charging (and can only be released using Tesla mobile app).",
+    "GeneralComments": "Supercharger open to all CCS1 EVs (Magic Dock adapter installed at all stalls). Tesla account and mobile app (Tesla) required for payment (pay-per-use). No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-01-27T15:58:00Z",
+    "DateLastStatusUpdate": "2024-09-24T05:54:00Z",
     "DateCreated": "2023-12-04T04:37:00Z",
     "SubmissionStatusTypeID": 100
 }

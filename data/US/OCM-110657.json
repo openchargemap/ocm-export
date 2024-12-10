@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2020-06-26T03:05:00Z",
+    "DateLastVerified": "2024-08-13T07:37:00Z",
     "ID": 110657,
     "UUID": "2EB1B6F9-7CA8-48B8-AF0D-4AB34BB6D794",
-    "DataProviderID": 2,
-    "DataProvidersReference": "98874",
-    "OperatorID": 15,
-    "UsageTypeID": 4,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "$0.35/kWh",
     "AddressInfo": {
         "ID": 111003,
-        "Title": "Charlton Service Plaza Eastbound",
+        "Title": "Autel - Charlton Service Plaza Eastbound",
         "AddressLine1": "Mile Marker 80 Eastbound",
         "Town": "Charlton",
         "StateOrProvince": "MA",
@@ -16,34 +16,26 @@
         "CountryID": 2,
         "Latitude": 42.140107,
         "Longitude": -72.024713,
-        "ContactTelephone1": "877-455-3833",
-        "AccessComments": "24 hours daily\r\nPublic - Card key at all times",
-        "RelatedURL": "https://www.evgo.com/",
+        "AccessComments": "24 hours daily",
+        "RelatedURL": "https://autel.com/us/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 155929,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 155930,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2020-06-26T03:05:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-08-13T07:37:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

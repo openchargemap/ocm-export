@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2022-10-05T10:41:00Z",
+    "DateLastVerified": "2024-09-29T19:12:00Z",
     "ID": 205397,
     "UUID": "08239AA4-328E-4C0B-9DD0-2A1C1B759169",
     "DataProviderID": 1,
     "OperatorID": 3499,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "0,25€/kWh",
     "AddressInfo": {
         "ID": 205764,
         "Title": "Mercadona Peñarroya-Pueblonuevo",
@@ -13,8 +14,8 @@
         "StateOrProvince": "Andalusia",
         "Postcode": "",
         "CountryID": 210,
-        "Latitude": 38.29896721002075,
-        "Longitude": -5.269115640721566,
+        "Latitude": 38.29814206340737,
+        "Longitude": -5.2688796067676265,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,13 +24,15 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 3.7,
-            "Quantity": 2
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
+    "GeneralComments": "app Iberdrola. 90' free parking, then at 0,07€/min",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-05T10:41:00Z",
+    "DateLastStatusUpdate": "2024-09-29T19:12:00Z",
     "DateCreated": "2022-10-05T10:41:00Z",
     "SubmissionStatusTypeID": 200
 }

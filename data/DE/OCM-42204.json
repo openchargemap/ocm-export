@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2015-03-01T14:22:00Z",
+    "DateLastVerified": "2024-08-22T18:27:00Z",
     "ID": 42204,
     "UUID": "C42A473E-6D43-43C8-9C9C-2251F0F016A5",
     "DataProviderID": 1,
     "OperatorID": 159,
     "UsageTypeID": 7,
-    "UsageCost": "0,30€/kWh",
+    "UsageCost": "variable",
     "AddressInfo": {
         "ID": 42550,
         "Title": "Stadtwerke Wittenberg",
@@ -18,48 +18,27 @@
         "Latitude": 51.8683005651827,
         "Longitude": 12.6334049776901,
         "ContactTelephone1": "03491 4700",
-        "AccessComments": "Ein durchgehend geöffneter Parkplatz bei den Fahrradständern, aber telefonische Anmeldung nötig. Stromkosten 0,30€/kWh.",
+        "AccessComments": "Ein durchgehend zugänglicher Parkplatz ist von der Straße aus erreichbar. Ein weiterer Stellplatz zu Geschäftszeiten bei den Fahrradständern, aber telefonische Anmeldung nötig.",
         "RelatedURL": "http://stadtwerke.wittenberg.de/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 50715,
-            "ConnectionTypeID": 17,
+            "ID": 570893,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 230,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
-            "ID": 50716,
-            "ConnectionTypeID": 17,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 400,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
-            "ID": 50717,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Only one parking lot available"
         }
     ],
-    "NumberOfPoints": 5,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2015-03-01T14:22:00Z",
+    "DateLastStatusUpdate": "2024-08-22T18:27:00Z",
     "DateCreated": "2015-02-26T10:16:00Z",
     "SubmissionStatusTypeID": 200
 }

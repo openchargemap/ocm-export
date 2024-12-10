@@ -15,16 +15,16 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2023-07-12T02:17:00Z",
+    "DateLastVerified": "2024-05-16T00:33:00Z",
     "ID": 191978,
     "UUID": "AE03A192-100D-45FF-92C2-4147ED2F034F",
     "DataProviderID": 1,
     "OperatorID": 3500,
     "UsageTypeID": 1,
-    "UsageCost": "573 plus tax/ hora",
+    "UsageCost": "573.48 plus tax/ hora",
     "AddressInfo": {
         "ID": 192337,
-        "Title": "Parada Miguelina (Removido Temporalmente)",
+        "Title": "Parada Miguelina",
         "AddressLine1": "Miguelina",
         "Town": "Bonao",
         "StateOrProvince": "Monseñor Nouel",
@@ -37,15 +37,36 @@
     "Connections": [
         {
             "ID": 462398,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 32,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 542118,
+            "ConnectionTypeID": 1040,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 548387,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "Cargador nivel 3, cargador lento cortesia Miguelina ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-12T02:17:00Z",
+    "DateLastStatusUpdate": "2024-05-16T00:33:00Z",
     "DateCreated": "2022-03-10T23:51:00Z",
     "SubmissionStatusTypeID": 200
 }

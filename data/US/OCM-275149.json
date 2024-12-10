@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2024-02-20T09:34:00Z",
+    "DateLastVerified": "2024-05-04T15:11:00Z",
     "ID": 275149,
     "UUID": "21320E65-1A42-488C-8E3B-3865B3B179F7",
-    "DataProviderID": 2,
-    "DataProvidersReference": "218408",
-    "UsageTypeID": 2,
+    "DataProviderID": 1,
+    "OperatorID": 59,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 275536,
         "Title": "Shell",
@@ -24,26 +24,37 @@
         {
             "ID": 477461,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 477462,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 360,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 543439,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "GeneralComments": "",
     "DatePlanned": "2024-01-01T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-20T09:34:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-05-04T15:11:00Z",
     "DateCreated": "2023-09-28T04:09:00Z",
     "SubmissionStatusTypeID": 100
 }

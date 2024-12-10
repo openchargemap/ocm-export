@@ -1,19 +1,19 @@
 {
-    "DateLastVerified": "2024-01-27T08:50:00Z",
+    "DateLastVerified": "2024-10-02T08:21:00Z",
     "ID": 289605,
     "UUID": "E8DEB530-DB72-4DC7-B1F9-8D0F6E5D1638",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0.39€/kWh",
+    "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 289992,
         "Title": "E.S. BonÁrea Épila",
         "AddressLine1": "Épila",
         "StateOrProvince": "Aragón",
         "CountryID": 210,
-        "Latitude": 41.554070395591054,
-        "Longitude": -1.208001261487908,
+        "Latitude": 41.553471276082945,
+        "Longitude": -1.20758137670623,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,16 +22,27 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 920,
-            "PowerKW": 150,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 570577,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-27T08:50:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-10-02T08:21:00Z",
     "DateCreated": "2024-01-10T20:23:00Z",
     "SubmissionStatusTypeID": 200
 }

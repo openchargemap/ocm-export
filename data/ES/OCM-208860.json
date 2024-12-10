@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2022-10-21T13:22:00Z",
+    "MediaItems": [
+        {
+            "ID": 44394,
+            "ChargePointID": 208860,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM208860/OCM-208860.orig.2024120814214195.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM208860/OCM-208860.thmb.2024120814214195.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-12-08T14:22:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-12-08T14:22:00Z",
     "ID": 208860,
     "UUID": "C58E6F4F-9E62-4602-8BFD-C5643A18D46B",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3556,
     "UsageTypeID": 4,
-    "UsageCost": "",
+    "UsageCost": "0,48€/kWh",
     "AddressInfo": {
         "ID": 209240,
         "Title": "BP EL TARO",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Canary Islands",
         "Postcode": "",
         "CountryID": 210,
-        "Latitude": 27.83883790858583,
-        "Longitude": -15.456913765601143,
+        "Latitude": 27.838177455045226,
+        "Longitude": -15.4568234492761,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -45,12 +63,36 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 585480,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW of power. Charging power limited for 400V cars"
+        },
+        {
+            "ID": 585481,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak)."
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "Tarjeta de Canarias Te Recarga.",
+    "NumberOfPoints": 6,
+    "GeneralComments": "Station powered by solar panels and a storage battery. Max power can be limited when the station battery is low of charge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-21T13:22:00Z",
+    "DateLastStatusUpdate": "2024-12-08T14:22:00Z",
     "DateCreated": "2022-10-21T13:22:00Z",
     "SubmissionStatusTypeID": 200
 }

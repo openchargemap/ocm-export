@@ -1,5 +1,103 @@
 {
-    "DateLastVerified": "2023-09-23T17:08:00Z",
+    "UserComments": [
+        {
+            "ID": 30098,
+            "ChargePointID": 238420,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "4 colonnine HPC da 300 kW ed una fast multistandard, presso l'area di servizio situata fra il casello di Melegnano e quello di Basso Lodigiano in direzione sud. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/free-to-x-a1-ads-autogrill-somaglia-ovest-t20742.html",
+            "DateCreated": "2024-10-22T13:37:44.707Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 140,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 43897,
+            "ChargePointID": 238420,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM238420/OCM-238420.orig.2024102213383570.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM238420/OCM-238420.thmb.2024102213383570.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-10-22T13:39:00Z"
+        },
+        {
+            "ID": 43898,
+            "ChargePointID": 238420,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM238420/OCM-238420.orig.2024102213384868.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM238420/OCM-238420.thmb.2024102213384868.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-10-22T13:39:00Z"
+        },
+        {
+            "ID": 43894,
+            "ChargePointID": 238420,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM238420/OCM-238420.orig.2024102213375871.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM238420/OCM-238420.thmb.2024102213375871.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-10-22T13:38:00Z"
+        },
+        {
+            "ID": 43895,
+            "ChargePointID": 238420,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM238420/OCM-238420.orig.2024102213381408.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM238420/OCM-238420.thmb.2024102213381408.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-10-22T13:38:00Z"
+        },
+        {
+            "ID": 43896,
+            "ChargePointID": 238420,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM238420/OCM-238420.orig.2024102213382334.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM238420/OCM-238420.thmb.2024102213382334.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-10-22T13:38:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-22T13:39:00Z",
     "ID": 238420,
     "UUID": "A5F4389D-21F4-45E4-A229-D087842926EE",
     "DataProviderID": 1,
@@ -7,13 +105,15 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 238804,
-        "Title": "Free to X Somaglia Ovest",
-        "AddressLine1": "A1",
-        "StateOrProvince": "Lombardia",
+        "Title": "Free To X AdS Somaglia Ovest",
+        "AddressLine1": "A1 km 43 (verso Napoli)",
+        "Town": "Somaglia",
+        "StateOrProvince": "LO",
         "Postcode": "26864",
         "CountryID": 112,
         "Latitude": 45.142267958952004,
         "Longitude": 9.633639134541227,
+        "RelatedURL": "https://www.forumelettrico.it/forum/free-to-x-a1-ads-autogrill-somaglia-ovest-t20742.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,7 +124,7 @@
             "LevelID": 3,
             "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 5
+            "Quantity": 4
         },
         {
             "ID": 392224,
@@ -43,11 +143,19 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 578168,
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-09-23T17:08:00Z",
+    "DateLastStatusUpdate": "2024-10-22T13:39:00Z",
     "DateCreated": "2023-03-05T09:20:00Z",
     "SubmissionStatusTypeID": 200
 }

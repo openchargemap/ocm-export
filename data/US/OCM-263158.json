@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2024-02-20T10:25:00Z",
+    "DateLastVerified": "2024-08-22T18:28:00Z",
     "ID": 263158,
     "UUID": "7AE74819-B00F-4BC4-B0AC-CDCFD5CA986C",
-    "DataProviderID": 2,
-    "DataProvidersReference": "259019",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,35 +13,45 @@
         "StateOrProvince": "MA",
         "Postcode": "02601",
         "CountryID": 2,
-        "Latitude": 41.66449,
-        "Longitude": -70.29492,
+        "Latitude": 41.66442687645002,
+        "Longitude": -70.29470881743077,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://www.electrifyamerica.com/",
+        "RelatedURL": "https://www.electrifyamerica.com/locate-charger/ma/hyannis/769-iyannough-rd/110040/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 445962,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 1
         },
         {
             "ID": 445963,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4
+        },
+        {
+            "ID": 528961,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:25:00Z",
+    "DateLastStatusUpdate": "2024-08-22T18:28:00Z",
     "DateCreated": "2023-05-01T05:54:00Z",
     "SubmissionStatusTypeID": 100
 }

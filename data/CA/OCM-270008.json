@@ -1,39 +1,43 @@
 {
-    "DateLastVerified": "2024-02-20T10:32:00Z",
+    "DateLastVerified": "2024-10-12T12:13:00Z",
     "ID": 270008,
     "UUID": "1AAA5B1C-1896-46CE-9550-2567F9F2DF10",
-    "DataProviderID": 2,
-    "DataProvidersReference": "296788",
+    "DataProviderID": 1,
     "OperatorID": 3372,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.35/kWh + $3.95",
     "AddressInfo": {
         "ID": 270392,
-        "Title": "Heuvelmans",
-        "AddressLine1": "755 Grand Ave W",
+        "Title": "EV Connect - Heuvelmans",
+        "AddressLine1": "755 Grand Ave West",
         "Town": "Chatham",
         "StateOrProvince": "ON",
         "Postcode": "N7L 4L3",
         "CountryID": 44,
         "Latitude": 42.395508,
         "Longitude": -82.213926,
-        "ContactTelephone1": "866-816-7584",
+        "ContactTelephone1": "1-877-297-8050",
+        "ContactTelephone2": "1-866-816-7584",
         "AccessComments": "",
-        "RelatedURL": "http://evconnect.com/",
+        "RelatedURL": "https://www.evconnect.ca",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 459660,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "Mobile app (EV Connect Canada) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:32:00Z",
+    "DateLastStatusUpdate": "2024-10-12T12:13:00Z",
     "DateCreated": "2023-07-04T07:27:00Z",
     "SubmissionStatusTypeID": 100
 }

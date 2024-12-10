@@ -1,0 +1,52 @@
+{
+    "DateLastVerified": "2024-12-08T15:25:00Z",
+    "ID": 305039,
+    "UUID": "F46FAA95-EA2A-4FE4-B772-2444B456931F",
+    "DataProviderID": 1,
+    "OperatorID": 3761,
+    "UsageTypeID": 4,
+    "UsageCost": "DCFC 30 kW $15.00/hr, 180 kW $30.00/hr",
+    "AddressInfo": {
+        "ID": 305428,
+        "Title": "Lakeland - Burks Falls Municipal Parking",
+        "AddressLine1": "167 Ontario Street",
+        "Town": "Burks Falls",
+        "StateOrProvince": "ON",
+        "Postcode": "P0A 1C0",
+        "CountryID": 44,
+        "Latitude": 45.61846498913201,
+        "Longitude": -79.40825748823565,
+        "ContactTelephone1": "1-888-646-0123",
+        "ContactTelephone2": "",
+        "RelatedURL": "https://lakelandevcharging.ca",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 577339,
+            "ConnectionTypeID": 32,
+            "Reference": "B1012 - B1013",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 577340,
+            "ConnectionTypeID": 32,
+            "Reference": "B1014",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 30,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 3,
+    "GeneralComments": "Guest payment with QR code (https://charge.lakelandevcharging.ca). Mobile app (Lakeland EV Charging) and RFID card available with membership. No credit card reader at the charger.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-12-08T15:25:00Z",
+    "DateCreated": "2024-10-12T07:41:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -47,6 +47,70 @@
     ],
     "MediaItems": [
         {
+            "ID": 43498,
+            "ChargePointID": 193304,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM193304/OCM-193304.orig.2024090212561490.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM193304/OCM-193304.thmb.2024090212561490.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-09-02T12:56:00Z"
+        },
+        {
+            "ID": 43200,
+            "ChargePointID": 193304,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM193304/OCM-193304.orig.2024081019524848.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM193304/OCM-193304.thmb.2024081019524848.jpg",
+            "Comment": "8 Plazas de carga, bajo techo. Se puede pagar tarjeta o app (Place toPlug)",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 38409,
+                "Username": "josemara"
+            },
+            "DateCreated": "2024-08-10T19:53:00Z"
+        },
+        {
+            "ID": 43102,
+            "ChargePointID": 193304,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM193304/OCM-193304.orig.2024072912492171.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM193304/OCM-193304.thmb.2024072912492171.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-07-29T12:49:00Z"
+        },
+        {
+            "ID": 42583,
+            "ChargePointID": 193304,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM193304/OCM-193304.orig.2024061912121928.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM193304/OCM-193304.thmb.2024061912121928.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-06-19T12:12:00Z"
+        },
+        {
             "ID": 39459,
             "ChargePointID": 193304,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM193304/OCM-193304.orig.2023090214205086.jpg",
@@ -127,13 +191,13 @@
             "DateCreated": "2022-07-23T16:54:00Z"
         }
     ],
-    "DateLastVerified": "2023-12-19T14:57:00Z",
+    "DateLastVerified": "2024-09-02T12:56:00Z",
     "ID": 193304,
     "UUID": "3563D900-7ED5-4C01-A371-0532DF677DF5",
     "DataProviderID": 1,
     "OperatorID": 3556,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh",
+    "UsageCost": "0,39€/kWh (app Place to Plug) o 0,42€/kWh (debit/credit card) - [1€/min from 10' after the end of the charging session ]",
     "AddressInfo": {
         "ID": 193663,
         "Title": "Hotel Restaurante Moya",
@@ -142,11 +206,12 @@
         "StateOrProvince": "Castile-La Mancha",
         "Postcode": "16730",
         "CountryID": 210,
-        "Latitude": 39.60291373858939,
-        "Longitude": -2.2798367165381137,
+        "Latitude": 39.60295990006034,
+        "Longitude": -2.279823972607801,
         "ContactTelephone1": "969292915",
-        "ContactTelephone2": "969292915",
+        "ContactTelephone2": "",
         "ContactEmail": "hotel@comercialmoya.es",
+        "AccessComments": "Si tiene algun problema pase a cafetería que los camareros/as le ayudaran.",
         "RelatedURL": "https://www.hotelrestaurantemoya.com/",
         "DistanceUnit": 0
     },
@@ -161,13 +226,25 @@
             "PowerKW": 240,
             "CurrentTypeID": 30,
             "Quantity": 4,
-            "Comments": "Power electronics NB240 Charger (500A peak) with satellite that can charge up to four vehicles simultaneously. Total power of the charger 240 kW is split between all four outlets (max power limited to 200kW for 400V cars).  4 puestos de recarga ultrarápida a 240 kWh de potencia total que se reparte de la siguiente manera. 1 EV: max. 240 kWh. 2 EV: max. 120 kWh cada EV 3 EV: 1 a 120 kWh y los otros 2 a 60 KWh 4 EV: 60 kWh para cada vehículo. "
+            "Comments": "Power Electronics NB240 Charger (400A peak) with satellite that can charge up to four vehicles simultaneously. Total power of the charger 240 kW is split between all four outlets (max power limited to 200kW for 400V cars).  4 puestos de recarga ultrarápida a 240 kWh de potencia total que se reparte de la siguiente manera. 1 EV: max. 240 kWh. 2 EV: max. 120 kWh cada EV 3 EV: 1 a 120 kWh y los otros 2 a 60 KWh 4 EV: 60 kWh para cada vehículo. "
+        },
+        {
+            "ID": 566104,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 240,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "Power Electronics NB240 Charger (400A peak) with satellite that can charge up to four vehicles simultaneously. Total power of the charger 240 kW is split between all four outlets (max power limited for 400V cars)"
         }
     ],
-    "NumberOfPoints": 4,
-    "GeneralComments": "2 estaciones con 4 servicios de recarga ultrarápida a 240 kWh de potencia total que se reparte de la siguiente manera.\r\n1 EV: max. 240 kWh.\r\n2 EV: max. 120 kWh cada EV\r\n3 EV: 1 a 120 kWh y los otros 2 a 60 KWh\r\n4 EV: 60 kWh para cada vehículo.\r\nSituadas a la derecha de las escaleras principales, debajo del parking techado.\r\nSe encuentra en la Autovía A-3 salida 168, en el Área de Servicio Moya de Honrubia.\r\nDispone de servicio de cafetería 24h, restaurante, carnes a la brasa, tienda y hotel.",
+    "NumberOfPoints": 8,
+    "GeneralComments": "Payment with credit card or app Place-to-Plug.  Dispone de servicio de cafetería 24h, restaurante, carnes a la brasa, tienda y hotel.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-19T14:57:00Z",
+    "DateLastStatusUpdate": "2024-09-02T12:56:00Z",
     "DateCreated": "2022-05-29T19:50:00Z",
     "SubmissionStatusTypeID": 200
 }

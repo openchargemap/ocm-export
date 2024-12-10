@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2017-11-04T14:04:00Z",
+    "DateLastVerified": "2024-05-09T11:41:00Z",
     "ID": 8674,
     "UUID": "059EE0C1-117B-4ADE-903E-66F440DE4726",
-    "DataProviderID": 15,
-    "DataProvidersReference": "8446",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 8571,
-        "Title": "329 Miller Ave",
+        "Title": "Miller Avenue Garage",
         "AddressLine1": "329 Miller Ave",
         "Town": "South San Francisco",
         "StateOrProvince": "California",
@@ -22,22 +21,27 @@
     },
     "Connections": [
         {
-            "ID": 6095,
-            "ConnectionTypeID": 1,
-            "Reference": "J1772",
-            "LevelID": 2
+            "ID": 546293,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         },
         {
-            "ID": 6662,
-            "ConnectionTypeID": 9,
-            "Reference": "NEMA5",
-            "LevelID": 1,
-            "Quantity": 1
+            "ID": 546294,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-11-04T14:04:00Z",
+    "DateLastStatusUpdate": "2024-05-09T11:41:00Z",
     "DateCreated": "2011-11-11T12:07:00Z",
     "SubmissionStatusTypeID": 100
 }

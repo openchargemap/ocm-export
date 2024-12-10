@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2022-09-11T08:30:00Z",
+    "DateLastVerified": "2024-09-14T19:33:00Z",
     "ID": 60634,
     "UUID": "6D61613E-0E03-462E-8A8B-33A42338A811",
     "DataProviderID": 1,
     "OperatorID": 3377,
     "UsageTypeID": 1,
+    "UsageCost": "0,30€/kWh",
     "AddressInfo": {
         "ID": 60980,
         "Title": "EdRR El Prat de Llobregat (AMB) (DC50kW AC44kW) ",
@@ -24,35 +25,28 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 76859,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 30
+            "Amps": 400,
+            "Voltage": 900,
+            "PowerKW": 90,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Wallbox Supernova 150 Charger. The DC charger allows charging one vehicle at 90kW, or two simultaneous charges at 45kW"
         },
         {
             "ID": 76860,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 100,
+            "LevelID": 2,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 30
+            "PowerKW": 20,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "GeneralComments": "http://www.amb.cat/web/mobilitat/planificacio/vehicle-electric/actuacions-metropolitanes",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-11T08:30:00Z",
+    "DateLastStatusUpdate": "2024-09-14T19:33:00Z",
     "MetadataValues": [
         {
             "ID": 2892,

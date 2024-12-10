@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2024-02-20T09:55:00Z",
+    "DateLastVerified": "2024-05-13T12:17:00Z",
     "ID": 221854,
     "UUID": "8039EED9-E280-404D-90A7-F0ED2670FAE2",
-    "DataProviderID": 2,
-    "DataProvidersReference": "223354",
+    "DataProviderID": 1,
     "OperatorID": 3389,
     "UsageTypeID": 5,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "CA",
         "Postcode": "93562",
         "CountryID": 2,
-        "Latitude": 35.7564,
-        "Longitude": -117.381218,
+        "Latitude": 35.75607282865541,
+        "Longitude": -117.38170147895876,
         "ContactTelephone1": "760-372-5420",
         "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
         "RelatedURL": "http://evgateway.com/",
@@ -25,15 +24,25 @@
         {
             "ID": 372573,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 25,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 547591,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T09:55:00Z",
+    "DateLastStatusUpdate": "2024-05-13T12:17:00Z",
     "DateCreated": "2023-02-13T05:05:00Z",
     "SubmissionStatusTypeID": 100
 }

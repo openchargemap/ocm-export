@@ -1,6 +1,38 @@
 {
     "MediaItems": [
         {
+            "ID": 43112,
+            "ChargePointID": 210564,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM210564/OCM-210564.orig.2024072918240458.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM210564/OCM-210564.thmb.2024072918240458.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-07-29T18:24:00Z"
+        },
+        {
+            "ID": 43101,
+            "ChargePointID": 210564,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM210564/OCM-210564.orig.2024072912463834.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM210564/OCM-210564.thmb.2024072912463834.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-07-29T12:47:00Z"
+        },
+        {
             "ID": 37195,
             "ChargePointID": 210564,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM210564/OCM-210564.orig.2023040613244151.jpg",
@@ -33,13 +65,13 @@
             "DateCreated": "2023-04-06T13:25:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-02T08:53:00Z",
+    "DateLastVerified": "2024-07-29T18:24:00Z",
     "ID": 210564,
     "UUID": "68D6A751-291F-4190-B143-EF93B4A42131",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": "0,56€/kWh >80kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "0,59€/kWh DC - 0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 210944,
         "Title": "Rest. El Marino I (Wenea)",
@@ -58,10 +90,10 @@
             "LevelID": 3,
             "Amps": 400,
             "Voltage": 920,
-            "PowerKW": 100,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 50 kW "
+            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 200 kW "
         },
         {
             "ID": 350748,
@@ -80,10 +112,10 @@
             "LevelID": 3,
             "Amps": 500,
             "Voltage": 920,
-            "PowerKW": 100,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 50 kW "
+            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 200 kW "
         },
         {
             "ID": 354892,
@@ -106,9 +138,9 @@
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "Max power of the station currently limited to 50kW ",
+    "GeneralComments": "Station equipped with a 840kWh boost battery. Max Power limited when charger battery is low of charge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-02T08:53:00Z",
+    "DateLastStatusUpdate": "2024-07-29T18:24:00Z",
     "DateCreated": "2022-12-12T13:42:00Z",
     "SubmissionStatusTypeID": 200
 }

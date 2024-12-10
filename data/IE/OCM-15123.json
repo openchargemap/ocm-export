@@ -1,38 +1,47 @@
 {
-    "DateLastVerified": "2016-05-23T15:21:00Z",
+    "DateLastVerified": "2024-09-23T12:33:00Z",
     "ID": 15123,
     "UUID": "EDCEFE1A-24A7-453D-ACCA-5B38B74D8A34",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 1241,
     "OperatorsReference": "Ferrycarrig Hotel",
-    "UsageTypeID": 7,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 15469,
-        "Title": "Ferrycarrig Hotel",
+        "Title": "Ferrycarrig Hotel (Reception)",
         "AddressLine1": "Ferrycarrig",
         "Town": "Wexford",
-        "StateOrProvince": "County Wexford",
+        "StateOrProvince": "Co. Wexford",
         "CountryID": 3,
-        "Latitude": 52.35413,
-        "Longitude": -6.506075,
+        "Latitude": 52.354521595573345,
+        "Longitude": -6.506058128998234,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 91983,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
             "Quantity": 1
+        },
+        {
+            "ID": 575935,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 3
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-05-23T15:21:00Z",
+    "DateLastStatusUpdate": "2024-09-23T12:33:00Z",
     "DateCreated": "2012-12-11T15:08:00Z",
     "SubmissionStatusTypeID": 100
 }

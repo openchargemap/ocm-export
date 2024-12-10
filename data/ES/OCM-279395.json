@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2023-10-23T20:30:00Z",
+    "DateLastVerified": "2024-04-07T13:05:00Z",
     "ID": 279395,
     "UUID": "75A49886-9A25-4D89-AEE4-9CBF28FD0C58",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh",
+    "UsageCost": "0,54€/kWh DC - 0,39€/kWh AC",
     "AddressInfo": {
         "ID": 279782,
-        "Title": "Estación ski Boi Taull",
+        "Title": "Estación Ski Boi Taull",
         "AddressLine1": "Camí de les Pistes",
         "StateOrProvince": "Catalunya",
         "Postcode": "25528",
@@ -28,11 +28,23 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 10
+        },
+        {
+            "ID": 537439,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         }
     ],
-    "NumberOfPoints": 10,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-10-23T20:30:00Z",
+    "NumberOfPoints": 12,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-04-07T13:05:00Z",
     "DateCreated": "2023-10-23T20:29:00Z",
     "SubmissionStatusTypeID": 200
 }

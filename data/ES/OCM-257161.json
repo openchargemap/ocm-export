@@ -1,10 +1,10 @@
 {
     "MediaItems": [
         {
-            "ID": 40953,
+            "ID": 43509,
             "ChargePointID": 257161,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM257161/OCM-257161.orig.2023123014312993.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM257161/OCM-257161.thmb.2023123014312993.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM257161/OCM-257161.orig.2024090318230807.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM257161/OCM-257161.thmb.2024090318230807.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -14,26 +14,10 @@
                 "ID": 40036,
                 "Username": "lmjgarcia"
             },
-            "DateCreated": "2023-12-30T14:32:00Z"
-        },
-        {
-            "ID": 37098,
-            "ChargePointID": 257161,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM257161/OCM-257161.orig.2023032616050504.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM257161/OCM-257161.thmb.2023032616050504.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 40036,
-                "Username": "lmjgarcia"
-            },
-            "DateCreated": "2023-03-26T16:05:00Z"
+            "DateCreated": "2024-09-03T18:23:00Z"
         }
     ],
-    "DateLastVerified": "2024-01-13T19:04:00Z",
+    "DateLastVerified": "2024-09-03T18:26:00Z",
     "ID": 257161,
     "UUID": "21036EA7-8518-4940-83E1-B2B56EE94705",
     "DataProviderID": 1,
@@ -58,12 +42,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
+            "Amps": 500,
             "Voltage": 920,
-            "PowerKW": 180,
+            "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited to 150kW for 400V cars"
+            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
         },
         {
             "ID": 507210,
@@ -75,7 +59,7 @@
             "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited to 200kW for 400V cars"
+            "Comments": "ABB Terra360 charger. "
         },
         {
             "ID": 507211,
@@ -92,7 +76,7 @@
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-01-13T19:04:00Z",
+    "DateLastStatusUpdate": "2024-09-03T18:26:00Z",
     "DateCreated": "2023-03-17T18:59:00Z",
     "SubmissionStatusTypeID": 200
 }

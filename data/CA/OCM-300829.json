@@ -1,0 +1,57 @@
+{
+    "DateLastVerified": "2024-11-12T08:03:00Z",
+    "ID": 300829,
+    "UUID": "7BAADCBC-F4C5-42DA-A44E-9F9001E32808",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.50/kWh",
+    "AddressInfo": {
+        "ID": 301216,
+        "Title": "Hwisel - Hampton Inn",
+        "AddressLine1": "40 McPherson Drive",
+        "Town": "Napanee",
+        "StateOrProvince": "ON",
+        "Postcode": "K7R 3K6",
+        "CountryID": 44,
+        "Latitude": 44.2609754,
+        "Longitude": -76.9712435,
+        "ContactTelephone1": "+1 800-775-5759",
+        "AccessComments": "",
+        "RelatedURL": "https://hwisel.com",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 560593,
+            "ConnectionTypeID": 1,
+            "Reference": "",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 48,
+            "Voltage": 240,
+            "PowerKW": 11.5,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 560594,
+            "ConnectionTypeID": 32,
+            "Reference": "",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 480,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Rated capacity 100kW for single charging. 50kW for simultaneous charging."
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "Membership account and mobile app (Hwisel EV) or RFID card required for payment. No credit card reader at the charger.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-12T08:03:00Z",
+    "DateCreated": "2024-07-10T17:54:00Z",
+    "SubmissionStatusTypeID": 200
+}

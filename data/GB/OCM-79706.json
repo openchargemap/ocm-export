@@ -1,9 +1,9 @@
 {
-    "DateLastVerified": "2019-03-22T18:57:00Z",
+    "DateLastVerified": "2024-07-10T13:27:00Z",
     "ID": 79706,
     "UUID": "E8FBE604-95E1-4600-B9EA-6900ED57F168",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "6846",
     "UsageTypeID": 4,
     "UsageCost": "£0.24/kWh;other tariffs for older cars",
@@ -16,12 +16,32 @@
         "CountryID": 1,
         "Latitude": 51.5266939,
         "Longitude": -2.5998056,
+        "ContactTelephone2": "0845 528 0442",
+        "AccessComments": "When mall is closed, out of hours acccess is only via entrance on Lysander Road. ",
+        "RelatedURL": "http://www.teslamotors.com/en_EU/supercharger",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 114350,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 30,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 559714,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 250,
+            "Quantity": 12
+        },
+        {
+            "ID": 559715,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 120,
@@ -29,10 +49,10 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "2 Superchargers, available 24/7",
+    "NumberOfPoints": 14,
+    "GeneralComments": "14 Superchargers, available 24/7",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-03-22T18:57:00Z",
+    "DateLastStatusUpdate": "2024-07-10T13:27:00Z",
     "DateCreated": "2017-01-30T12:14:00Z",
     "SubmissionStatusTypeID": 200
 }

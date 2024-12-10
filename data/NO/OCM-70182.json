@@ -1,9 +1,9 @@
 {
-    "DateLastVerified": "2020-08-24T06:10:00Z",
+    "DateLastVerified": "2024-08-22T18:30:00Z",
     "ID": 70182,
     "UUID": "3F523AD5-2052-45E6-84C0-4089804DDE55",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "7048",
     "UsageTypeID": 1,
     "UsageCost": "NKR 1.70/kWh; andre tariffer for eldre biler",
@@ -23,19 +23,26 @@
     "Connections": [
         {
             "ID": 100171,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 0,
             "LevelID": 3,
-            "Amps": 270,
-            "Voltage": 480,
-            "PowerKW": 135,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 16
+        },
+        {
+            "ID": 571061,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 12,
+    "NumberOfPoints": 18,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-24T06:10:00Z",
+    "DateLastStatusUpdate": "2024-08-22T18:30:00Z",
     "DateCreated": "2016-07-12T19:12:00Z",
     "SubmissionStatusTypeID": 200
 }

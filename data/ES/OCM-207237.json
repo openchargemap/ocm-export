@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-10-28T17:55:00Z",
+    "DateLastVerified": "2024-05-17T19:25:00Z",
     "ID": 207237,
     "UUID": "7AD8E76A-5601-454D-9B84-53FACB7ED3D7",
     "DataProviderID": 1,
@@ -25,7 +25,9 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Two Circuitor Raption50 Chargers"
         },
         {
             "ID": 345054,
@@ -33,7 +35,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 345055,
@@ -41,13 +44,37 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 548879,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 900,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Starcharge Titan150. The DC charger shares the total power (150 KW) with the Chademo connector. (max power is limited to 80kW for 400V cars)"
+        },
+        {
+            "ID": 548880,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 6,
     "GeneralComments": "Accessible only during business hours (access fee 2,35€)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-10-28T17:55:00Z",
+    "DateLastStatusUpdate": "2024-05-17T19:25:00Z",
     "DateCreated": "2022-10-09T18:09:00Z",
     "SubmissionStatusTypeID": 200
 }

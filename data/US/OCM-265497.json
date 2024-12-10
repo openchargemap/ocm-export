@@ -1,11 +1,109 @@
 {
-    "DateLastVerified": "2023-06-11T17:37:00Z",
+    "MediaItems": [
+        {
+            "ID": 41743,
+            "ChargePointID": 265497,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM265497/OCM-265497.orig.2024032117123272.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM265497/OCM-265497.thmb.2024032117123272.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46347,
+                "Username": "TobeyAutoGroup"
+            },
+            "DateCreated": "2024-03-21T17:13:00Z"
+        },
+        {
+            "ID": 41744,
+            "ChargePointID": 265497,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM265497/OCM-265497.orig.2024032117124192.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM265497/OCM-265497.thmb.2024032117124192.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46347,
+                "Username": "TobeyAutoGroup"
+            },
+            "DateCreated": "2024-03-21T17:13:00Z"
+        },
+        {
+            "ID": 41745,
+            "ChargePointID": 265497,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM265497/OCM-265497.orig.2024032117125280.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM265497/OCM-265497.thmb.2024032117125280.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46347,
+                "Username": "TobeyAutoGroup"
+            },
+            "DateCreated": "2024-03-21T17:13:00Z"
+        },
+        {
+            "ID": 41746,
+            "ChargePointID": 265497,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM265497/OCM-265497.orig.2024032117130301.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM265497/OCM-265497.thmb.2024032117130301.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46347,
+                "Username": "TobeyAutoGroup"
+            },
+            "DateCreated": "2024-03-21T17:13:00Z"
+        },
+        {
+            "ID": 41741,
+            "ChargePointID": 265497,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM265497/OCM-265497.orig.2024032117120862.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM265497/OCM-265497.thmb.2024032117120862.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46347,
+                "Username": "TobeyAutoGroup"
+            },
+            "DateCreated": "2024-03-21T17:12:00Z"
+        },
+        {
+            "ID": 41742,
+            "ChargePointID": 265497,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM265497/OCM-265497.orig.2024032117122182.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM265497/OCM-265497.thmb.2024032117122182.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46347,
+                "Username": "TobeyAutoGroup"
+            },
+            "DateCreated": "2024-03-21T17:12:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-03-22T08:48:00Z",
     "ID": 265497,
     "UUID": "B2AAD2EE-C941-48A8-85FE-43F1AC0A91A8",
     "DataProviderID": 1,
     "OperatorID": 80,
     "UsageTypeID": 5,
-    "UsageCost": "$0.34 / kWh",
+    "UsageCost": "$0.29/kWh (level 2) & $0.39/kWh (DCFC)",
     "AddressInfo": {
         "ID": 265881,
         "Title": "Key Chrysler - Tobey Auto Group",
@@ -14,10 +112,10 @@
         "StateOrProvince": "OH",
         "Postcode": "45385",
         "CountryID": 2,
-        "Latitude": 39.711347108778654,
-        "Longitude": -83.93864976599232,
+        "Latitude": 39.71146297672385,
+        "Longitude": -83.93631187676732,
+        "ContactTelephone1": " (980) 689-0440",
         "AccessComments": "Charge session limited to 4 hours",
-        "RelatedURL": "http://KeyChrysler.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -31,12 +129,30 @@
             "PowerKW": 7.6,
             "CurrentTypeID": 10,
             "Quantity": 1
+        },
+        {
+            "ID": 534073,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 19.2,
+            "CurrentTypeID": 10,
+            "Quantity": 8
+        },
+        {
+            "ID": 534074,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Download the IOS/Android \"Enel X Way\" app. Create an account and add a payment method. Unlock the unit by scanning QR code or selecting in the app's map",
+    "GeneralComments": "DCFC $0.39/kWh ***** send a text to (980) 689-0440 (provide customer name & email) to get the DCFC unlocked and be sent an invoice until card reader operational (unit needs to be unlocked to be used) *****  Level 2 $0.29/kWh (use Enel X Way app)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-11T17:37:00Z",
+    "DateLastStatusUpdate": "2024-03-22T08:48:00Z",
     "DateCreated": "2023-05-12T13:07:00Z",
     "SubmissionStatusTypeID": 200
 }

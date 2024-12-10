@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2019-04-06T04:01:00Z",
+    "DateLastVerified": "2024-05-18T14:53:00Z",
     "ID": 121587,
     "UUID": "118A5802-794C-4D3F-B0A9-78E59274C7EA",
-    "DataProviderID": 2,
-    "DataProvidersReference": "121196",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "CA",
         "Postcode": "90640",
         "CountryID": 2,
-        "Latitude": 34.031184,
-        "Longitude": -118.124151,
+        "Latitude": 34.03108849037642,
+        "Longitude": -118.12403199114323,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -23,37 +22,35 @@
     },
     "Connections": [
         {
-            "ID": 171333,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
             "ID": 171334,
             "ConnectionTypeID": 2,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 171335,
             "ConnectionTypeID": 32,
-            "LevelID": 2,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 10,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 549096,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2019-04-06T04:01:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-05-18T14:53:00Z",
     "DateCreated": "2019-04-06T04:01:00Z",
     "SubmissionStatusTypeID": 100
 }

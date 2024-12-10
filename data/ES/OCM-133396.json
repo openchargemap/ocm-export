@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-02-28T19:16:00Z",
+    "DateLastVerified": "2024-10-24T09:16:00Z",
     "ID": 133396,
     "UUID": "F0067E8E-3944-4771-8F42-92AC53890B96",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0.45€/kWh",
+    "UsageCost": "0.54€/kWh",
     "AddressInfo": {
         "ID": 133742,
         "Title": "E.S. Castillo Benavente",
@@ -14,45 +14,30 @@
         "StateOrProvince": "Zamora",
         "Postcode": "49600",
         "CountryID": 210,
-        "Latitude": 42.00294799213893,
-        "Longitude": -5.660802382536474,
+        "Latitude": 42.00325604405202,
+        "Longitude": -5.660262809722468,
         "ContactTelephone1": "900 92 92 93",
         "RelatedURL": "https://www.iberdrola.es/servicios/vehiculo-electrico/punto-recarga",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 186738,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 186739,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 186740,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. "
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "App. Iberdrola",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-28T19:16:00Z",
+    "DateLastStatusUpdate": "2024-10-24T09:16:00Z",
     "DateCreated": "2019-10-17T19:45:00Z",
     "SubmissionStatusTypeID": 200
 }

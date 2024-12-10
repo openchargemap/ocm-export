@@ -32,6 +32,38 @@
     ],
     "MediaItems": [
         {
+            "ID": 43074,
+            "ChargePointID": 274567,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM274567/OCM-274567.orig.2024072809293971.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM274567/OCM-274567.thmb.2024072809293971.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 48466,
+                "Username": "GSS POWER "
+            },
+            "DateCreated": "2024-07-28T09:30:00Z"
+        },
+        {
+            "ID": 43071,
+            "ChargePointID": 274567,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM274567/OCM-274567.orig.2024072809223306.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM274567/OCM-274567.thmb.2024072809223306.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 48466,
+                "Username": "GSS POWER "
+            },
+            "DateCreated": "2024-07-28T09:23:00Z"
+        },
+        {
             "ID": 40637,
             "ChargePointID": 274567,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM274567/OCM-274567.orig.2023112712175277.jpg",
@@ -64,13 +96,13 @@
             "DateCreated": "2023-09-18T06:53:00Z"
         }
     ],
-    "DateLastVerified": "2024-02-18T21:48:00Z",
+    "DateLastVerified": "2024-12-03T07:36:00Z",
     "ID": 274567,
     "UUID": "8D3C976A-4C2D-4608-A454-34122862BC17",
     "DataProviderID": 1,
     "OperatorID": 3732,
-    "UsageTypeID": 1,
-    "UsageCost": "0,55€/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh",
     "AddressInfo": {
         "ID": 274951,
         "Title": "GSS POWER Novelda",
@@ -79,9 +111,10 @@
         "StateOrProvince": "ALICANTE",
         "Postcode": "03660",
         "CountryID": 210,
-        "Latitude": 38.39028104982259,
-        "Longitude": -0.7515991652823004,
-        "AccessComments": "EL CARGADOR TIENE TPV PARA PAGA CON TARJETA",
+        "Latitude": 38.390209629417,
+        "Longitude": -0.751513068578,
+        "ContactTelephone1": "+34931190242",
+        "AccessComments": "",
         "RelatedURL": "https://gsspowersl.com",
         "DistanceUnit": 0
     },
@@ -89,32 +122,21 @@
         {
             "ID": 476169,
             "ConnectionTypeID": 33,
+            "Reference": "Electromaps",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
+            "Amps": 250,
             "Voltage": 920,
             "PowerKW": 160,
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Max power for two simultaneous charges 200 kW. Charger with a 190kWh boost battery. Power limited to 50kW when charger battery is low of charge"
-        },
-        {
-            "ID": 476170,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 920,
-            "PowerKW": 160,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": ""
         }
     ],
-    "NumberOfPoints": 4,
-    "GeneralComments": "App Electromaps/Credit Card",
+    "NumberOfPoints": 2,
+    "GeneralComments": "EL CARGADOR TIENE TPV PARA PAGA CON TARJETA",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-18T21:48:00Z",
+    "DateLastStatusUpdate": "2024-12-03T07:36:00Z",
     "DateCreated": "2023-09-17T19:32:00Z",
     "SubmissionStatusTypeID": 200
 }

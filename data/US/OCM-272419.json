@@ -1,9 +1,26 @@
 {
-    "DateLastVerified": "2024-02-20T10:46:00Z",
+    "MediaItems": [
+        {
+            "ID": 43365,
+            "ChargePointID": 272419,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM272419/OCM-272419.orig.2024082217573024.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM272419/OCM-272419.thmb.2024082217573024.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2024-08-22T17:58:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-08-22T17:58:00Z",
     "ID": 272419,
     "UUID": "4715ABFE-3B7A-4E68-BD99-EEA2313ABB6D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "302352",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +31,8 @@
         "StateOrProvince": "MI",
         "Postcode": "49707",
         "CountryID": 2,
-        "Latitude": 45.061886,
-        "Longitude": -83.45287,
+        "Latitude": 45.06146373735015,
+        "Longitude": -83.4528860928754,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -26,23 +43,24 @@
             "ID": 466547,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 466548,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 125,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:46:00Z",
+    "DateLastStatusUpdate": "2024-08-22T17:58:00Z",
     "DateCreated": "2023-07-12T07:04:00Z",
     "SubmissionStatusTypeID": 100
 }

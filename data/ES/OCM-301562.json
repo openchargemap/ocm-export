@@ -1,0 +1,58 @@
+{
+    "DateLastVerified": "2024-07-22T13:04:00Z",
+    "ID": 301562,
+    "UUID": "3D6CA322-A0B1-48E0-BDDE-A4CABB65149F",
+    "DataProviderID": 1,
+    "OperatorID": 3550,
+    "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh DC - 0,43€/kWh AC",
+    "AddressInfo": {
+        "ID": 301949,
+        "Title": "C.C. Mazarrón Park",
+        "AddressLine1": "Carretera de Mazarrón",
+        "AddressLine2": "Puerto de Mazarrón",
+        "Town": "Mazarrón",
+        "Postcode": "30860",
+        "CountryID": 210,
+        "Latitude": 37.57216352509057,
+        "Longitude": -1.2703016602681885,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 564083,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 950,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 5,
+            "Comments": "Six Kempower CCS/Chademo Satellite chargers that dynamically share the total power of the cabinet (200 kW). "
+        },
+        {
+            "ID": 564084,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 564085,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 4
+        }
+    ],
+    "NumberOfPoints": 10,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-07-22T13:04:00Z",
+    "DateCreated": "2024-07-22T13:04:00Z",
+    "SubmissionStatusTypeID": 200
+}

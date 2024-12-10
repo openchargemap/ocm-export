@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-09-30T18:42:00Z",
+    "DateLastVerified": "2024-07-24T14:38:00Z",
     "ID": 204664,
     "UUID": "61B3B4BF-74B0-4A71-B471-9EEE8DF10ED9",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "",
+    "UsageCost": "0,49€/kWh DC - 0,39€/kWh AC ",
     "AddressInfo": {
         "ID": 205031,
         "Title": "Parking Severo Ochoa",
@@ -26,12 +26,24 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 8
+        },
+        {
+            "ID": 564823,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump60 DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW."
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-30T18:42:00Z",
+    "DateLastStatusUpdate": "2024-07-24T14:38:00Z",
     "DateCreated": "2022-09-30T18:42:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2024-02-04T18:10:00Z",
+    "MediaItems": [
+        {
+            "ID": 42690,
+            "ChargePointID": 274427,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM274427/OCM-274427.orig.2024062716121858.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM274427/OCM-274427.thmb.2024062716121858.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-06-27T16:12:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-16T17:35:00Z",
     "ID": 274427,
     "UUID": "40879EA2-EA7E-4334-9DA4-E4133E6C35DF",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh",
+    "UsageCost": "0,55€/kWh DC 100kW - 0,42€/kWh DC 25kW",
     "AddressInfo": {
         "ID": 274811,
         "Title": "Univ. Oviedo Edificio Derecho (Zunder)",
@@ -14,24 +32,39 @@
         "StateOrProvince": "Asturias / Asturies",
         "Postcode": "33006",
         "CountryID": 210,
-        "Latitude": 43.35413942726129,
-        "Longitude": -5.872530460268649,
+        "Latitude": 43.3550279,
+        "Longitude": -5.8733318,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 475776,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 4
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Four Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW). "
+        },
+        {
+            "ID": 558793,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Kempower CCS Satellite chargers"
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-04T18:10:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-10-16T17:35:00Z",
     "DateCreated": "2023-09-11T20:44:00Z",
     "SubmissionStatusTypeID": 200
 }

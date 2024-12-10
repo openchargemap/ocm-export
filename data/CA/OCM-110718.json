@@ -14,16 +14,16 @@
             }
         }
     ],
-    "DateLastVerified": "2024-02-20T10:33:00Z",
+    "DateLastVerified": "2024-06-02T06:52:00Z",
     "ID": 110718,
     "UUID": "7E91689B-B2B1-41DF-96D8-61BEB0928158",
-    "DataProviderID": 2,
-    "DataProvidersReference": "88072",
+    "DataProviderID": 1,
     "OperatorID": 3372,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "$9.60/hr + $3.95",
     "AddressInfo": {
         "ID": 111064,
-        "Title": "Scotiabank Wallaceburg",
+        "Title": "EV Connect - Scotiabank Wallaceburg",
         "AddressLine1": "541 James Street",
         "Town": "Wallaceburg",
         "StateOrProvince": "ON",
@@ -31,9 +31,10 @@
         "CountryID": 44,
         "Latitude": 42.593662,
         "Longitude": -82.384914,
-        "ContactTelephone1": "866-816-7584",
+        "ContactTelephone1": "1-877-297-8050",
+        "ContactTelephone2": "1-866-816-7584",
         "AccessComments": "",
-        "RelatedURL": "http://evconnect.com/",
+        "RelatedURL": "https://www.evconnect.ca",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -44,7 +45,7 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 155998,
@@ -53,12 +54,14 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app available (EV Connect Canada).",
     "DatePlanned": "2023-12-06T00:00:00Z",
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2024-02-20T10:33:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-06-02T06:52:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

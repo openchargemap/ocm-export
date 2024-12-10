@@ -1,12 +1,61 @@
 {
-    "DateLastVerified": "2019-03-08T06:26:00Z",
+    "UserComments": [
+        {
+            "ID": 29760,
+            "ChargePointID": 77386,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "your charging cable might reach through the hedge to the pub car park behind charge points if not a hotel resident (parking in pub car park is max 4hrs)",
+            "DateCreated": "2024-05-26T09:39:25.68Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 29759,
+            "ChargePointID": 77386,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "needed bespoke app from Greenflux, but could pay by Google pay",
+            "Rating": 2,
+            "DateCreated": "2024-05-26T09:35:53.323Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 42439,
+            "ChargePointID": 77386,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM77386/OCM-77386.orig.2024052609394562.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM77386/OCM-77386.thmb.2024052609394562.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "DateCreated": "2024-05-26T09:40:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-05-26T09:40:00Z",
     "ID": 77386,
     "UUID": "AF6893A4-B508-4845-8EE6-A2E1FD5D89F5",
     "DataProviderID": 1,
-    "OperatorID": 32,
+    "OperatorID": 63,
     "OperatorsReference": "3785",
-    "UsageTypeID": 4,
-    "UsageCost": "Inclusive; for Polar Plus subscription members only",
+    "UsageTypeID": 6,
+    "UsageCost": "£0.57/kWh",
     "AddressInfo": {
         "ID": 77732,
         "Title": "Hotel Ibis Preston",
@@ -18,24 +67,39 @@
         "CountryID": 1,
         "Latitude": 53.8002469952983,
         "Longitude": -2.71443225078736,
+        "AccessComments": "in Ibis hotel car park, residents need to register car parking with reception",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 111509,
             "ConnectionTypeID": 25,
+            "Reference": "DRAX00225",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 548479,
+            "ConnectionTypeID": 25,
+            "Reference": "DRAX00232",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
+    "GeneralComments": "activate using bespoke Charge Assist app.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-03-08T06:26:00Z",
+    "DateLastStatusUpdate": "2024-05-26T09:40:00Z",
     "DateCreated": "2017-01-14T08:31:00Z",
     "SubmissionStatusTypeID": 200
 }

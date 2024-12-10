@@ -1,29 +1,30 @@
 {
-    "DateLastVerified": "2020-12-30T21:19:00Z",
+    "DateLastVerified": "2024-07-02T11:39:00Z",
     "ID": 167016,
     "UUID": "49CE76F4-5AD8-4398-9675-7372439DC961",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3357,
     "UsageTypeID": 5,
-    "UsageCost": "ESB: Membership is £4 per month, 25p per kWh. Requires EV Plug In app. Contactless available",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 167375,
         "Title": "Carlisle Lane Parking/Charging",
         "AddressLine1": "195 Carlisle Lane, Lambeth",
         "Town": "London",
+        "StateOrProvince": "England",
         "Postcode": "SE17LH",
         "CountryID": 1,
         "Latitude": 51.497106,
         "Longitude": -0.115396,
         "AccessComments": "",
-        "RelatedURL": "http://www.esb-evsolutions.co.uk/",
+        "RelatedURL": "https://www.esbenergy.co.uk/ev",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 252876,
             "ConnectionTypeID": 2,
-            "Reference": "CHAdeMO",
+            "Reference": "UT07J5",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -35,7 +36,7 @@
         {
             "ID": 252877,
             "ConnectionTypeID": 33,
-            "Reference": "CCS",
+            "Reference": "UT07J5",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -47,7 +48,7 @@
         {
             "ID": 252878,
             "ConnectionTypeID": 1036,
-            "Reference": "AC43",
+            "Reference": "UT07J5",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
@@ -57,8 +58,9 @@
             "Quantity": 1
         }
     ],
+    "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-30T21:19:00Z",
+    "DateLastStatusUpdate": "2024-07-02T11:39:00Z",
     "MetadataValues": [
         {
             "ID": 7773,

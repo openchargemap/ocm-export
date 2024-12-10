@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2024-02-20T07:30:00Z",
+    "DateLastVerified": "2024-10-26T16:47:00Z",
     "ID": 283865,
     "UUID": "7F9E28CF-829D-432A-838B-B791EE677F12",
-    "DataProviderID": 19,
-    "DataProvidersReference": "18088",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 284252,
-        "Title": "Skrea Strand - Falkenberg",
+        "Title": "ICA Supermarket Skrea Strand - Eviny",
         "AddressLine1": "Ljungholmsvägen 20",
         "Town": "FALKENBERG",
         "StateOrProvince": "HALLAND",
@@ -22,6 +22,9 @@
             "ID": 492528,
             "ConnectionTypeID": 33,
             "Reference": "1",
+            "LevelID": 2,
+            "PowerKW": 200,
+            "Quantity": 2,
             "Comments": "Mode 4"
         },
         {
@@ -31,26 +34,19 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "Mode 4"
         },
         {
             "ID": 492530,
             "ConnectionTypeID": 33,
             "Reference": "3",
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 492531,
-            "ConnectionTypeID": 25,
-            "Reference": "4",
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Comments": "Mode 3"
+            "PowerKW": 180,
+            "Quantity": 2,
+            "Comments": "Mode 4"
         },
         {
             "ID": 492532,
@@ -61,23 +57,12 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
+            "Quantity": 2,
             "Comments": "Mode 3"
-        },
-        {
-            "ID": 492533,
-            "ConnectionTypeID": 33,
-            "Reference": "6",
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 492534,
-            "ConnectionTypeID": 33,
-            "Reference": "7",
-            "Comments": "Mode 4"
         }
     ],
     "NumberOfPoints": 7,
-    "DateLastStatusUpdate": "2024-02-20T07:30:00Z",
+    "DateLastStatusUpdate": "2024-10-26T16:47:00Z",
     "DateCreated": "2023-12-04T05:39:00Z",
     "SubmissionStatusTypeID": 100
 }

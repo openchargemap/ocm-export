@@ -1,0 +1,56 @@
+{
+    "DateLastVerified": "2024-08-31T15:52:00Z",
+    "ID": 299940,
+    "UUID": "F1A2FA18-4748-4746-972A-C1FDCA23AEF6",
+    "DataProviderID": 1,
+    "OperatorID": 3583,
+    "UsageTypeID": 4,
+    "UsageCost": "Hasta 22kW: 0.32€. 120kW: 0.43€",
+    "AddressInfo": {
+        "ID": 300327,
+        "Title": "Tanatorio Los Arenales",
+        "AddressLine1": "Caserio La Granda",
+        "Postcode": "33196",
+        "CountryID": 210,
+        "Latitude": 43.3462484,
+        "Longitude": -5.8353099,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 555170,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 900,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Power electronics NB120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
+        },
+        {
+            "ID": 555171,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 555172,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-08-31T15:52:00Z",
+    "DateCreated": "2024-06-13T07:32:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2023-05-04T08:52:00Z",
+    "DateLastVerified": "2024-03-25T14:00:00Z",
     "ID": 214665,
     "UUID": "27FAA7A8-7691-4636-A393-5D6965D7CE30",
-    "DataProviderID": 18,
-    "DataProvidersReference": "7193ce9211a6b574531724f5154d9fec",
+    "DataProviderID": 1,
     "OperatorID": 150,
     "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 215045,
-        "Title": "PremierInn",
+        "Title": "Premier Inn",
         "AddressLine1": "Derby Road, A518/A50",
         "Town": "Uttoxeter",
         "Postcode": "ST14 5AA",
@@ -16,45 +16,50 @@
         "Latitude": 52.907009,
         "Longitude": -1.854827,
         "AccessComments": "",
-        "RelatedURL": "https://www.equans.co.uk/ev-solutions",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 357279,
             "ConnectionTypeID": 2,
-            "Reference": "1",
+            "Reference": "GP14507",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 357280,
             "ConnectionTypeID": 25,
-            "Reference": "3",
+            "Reference": "GP14507",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 357281,
             "ConnectionTypeID": 1036,
-            "Reference": "2",
+            "Reference": "GP14507",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2023-05-04T08:52:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-03-25T14:00:00Z",
     "MetadataValues": [
         {
             "ID": 22491,

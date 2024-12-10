@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-02-20T10:59:00Z",
+    "DateLastVerified": "2024-09-24T06:20:00Z",
     "ID": 295696,
     "UUID": "88F9F431-53AC-45CF-B070-2AEC712ADDF4",
-    "DataProviderID": 2,
-    "DataProvidersReference": "322308",
+    "DataProviderID": 1,
     "OperatorID": 3534,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app.",
     "AddressInfo": {
         "ID": 296083,
         "Title": "Pet Vulu - Tesla Supercharger",
@@ -16,24 +16,26 @@
         "CountryID": 44,
         "Latitude": 51.4744652373286,
         "Longitude": -109.143552343697,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only\r\nPublic - Credit card at all times",
-        "RelatedURL": "https://www.tesla.com/supercharger",
+        "ContactTelephone1": "1-877-798-3752",
+        "AccessComments": "Available 24/7",
+        "RelatedURL": "https://www.tesla.com/NACS",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 527256,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 6,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "GeneralComments": "Supercharger open to non-Tesla EVs covered by NACS agreement. NACS adapter required for EVs with CCS1 charging port. Tesla account and mobile app (Tesla) required for payment (pay-per-use). Plug & Charge payment option available for some EVs (Ford, Rivian). No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:59:00Z",
+    "DateLastStatusUpdate": "2024-09-24T06:20:00Z",
     "DateCreated": "2024-02-20T10:59:00Z",
     "SubmissionStatusTypeID": 100
 }

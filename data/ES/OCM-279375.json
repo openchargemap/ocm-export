@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-12-05T14:38:00Z",
+    "DateLastVerified": "2024-11-22T10:40:00Z",
     "ID": 279375,
     "UUID": "0930163F-7AAA-46EB-AB69-20423A6C5153",
     "DataProviderID": 1,
     "OperatorID": 3276,
     "UsageTypeID": 4,
-    "UsageCost": "0,54€/kWh DC - 0,42€/kWh AC ",
+    "UsageCost": "0,48€/kWh DC/AC43kW - 0,38€/kWh AC - (0,14€/min DC / 0,03€/min AC parked without charging)",
     "AddressInfo": {
         "ID": 279762,
         "Title": "Decathlon Tudela",
@@ -31,31 +31,19 @@
         {
             "ID": 484415,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 920,
-            "PowerKW": 150,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Blueberry150 Charger. The DC CCS/Chademo charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Charging power limited to 120kW for 400V cars"
-        },
-        {
-            "ID": 499231,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
-            "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 920,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Blueberry150 Charger. "
+            "Comments": "XCharge 60 DC CCS charger. The charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW."
         }
     ],
-    "NumberOfPoints": 10,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-05T14:38:00Z",
+    "NumberOfPoints": 8,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2024-11-22T10:40:00Z",
     "DateCreated": "2023-10-23T18:44:00Z",
     "SubmissionStatusTypeID": 200
 }

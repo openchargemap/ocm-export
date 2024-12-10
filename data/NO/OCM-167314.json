@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2020-09-06T05:26:00Z",
+    "DateLastVerified": "2024-03-30T04:58:00Z",
     "ID": 167314,
     "UUID": "3F85F0D0-F106-4796-87D5-627D1AC04C6E",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "54513",
     "UsageTypeID": 4,
-    "UsageCost": "NKR 1.70/kWh; andre tariffer for eldre biler",
+    "UsageCost": "Cost for Teslas: Check Tesla-app, price varies. Cost for Non-Teslas: 12:00am - 4:00pm kr.4,30/kWh, 4:00pm - 8:00pm kr.4,75/kWh, 8:00pm - 12:00am kr.4,30/kWh. Idle fees (up to) kr.10/min",
     "AddressInfo": {
         "ID": 167673,
         "Title": "Aksdal South Supercharger",
@@ -16,23 +16,34 @@
         "CountryID": 168,
         "Latitude": 59.421206,
         "Longitude": 5.4435,
+        "ContactTelephone1": "+4723960285",
+        "ContactTelephone2": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 253380,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 16
+        },
+        {
+            "ID": 534804,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 16,
-    "GeneralComments": "Charging16 superchargers, available 24/7, up to 250kW",
+    "GeneralComments": "18 superchargers (16x 250kW, 2x 150kW) available for both non-Teslas and Teslas 24/7.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-06T05:26:00Z",
+    "DateLastStatusUpdate": "2024-03-30T04:58:00Z",
     "DateCreated": "2020-09-06T05:26:00Z",
     "SubmissionStatusTypeID": 200
 }

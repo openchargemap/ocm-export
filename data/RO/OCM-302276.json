@@ -1,0 +1,61 @@
+{
+    "DateLastVerified": "2024-08-05T08:24:00Z",
+    "ID": 302276,
+    "UUID": "78C11028-0E7C-4EE0-8C12-92C8A9F94941",
+    "DataProviderID": 1,
+    "OperatorID": 3479,
+    "UsageTypeID": 1,
+    "UsageCost": "DC price 2.2 lei / kWh; AC price 1.8 lei / kWh",
+    "AddressInfo": {
+        "ID": 302663,
+        "Title": "FSR Uzinei/Campului",
+        "AddressLine1": "Strada Uzinei nr. 4",
+        "Town": "Rasnov",
+        "StateOrProvince": "Brasov",
+        "Postcode": "505400",
+        "CountryID": 184,
+        "Latitude": 45.589701369124896,
+        "Longitude": 25.456285049021005,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 566779,
+            "ConnectionTypeID": 33,
+            "Reference": "Siemens / Monta",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "2 chargers, 4 CCS cables"
+        },
+        {
+            "ID": 566780,
+            "ConnectionTypeID": 33,
+            "Reference": "Siemens / Monta",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "1 charger, 2 CCS cables"
+        },
+        {
+            "ID": 566781,
+            "ConnectionTypeID": 25,
+            "Reference": "ABB / Monta",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "2 x 22 kW ABB chargers"
+        }
+    ],
+    "NumberOfPoints": 8,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-08-05T08:24:00Z",
+    "DateCreated": "2024-08-02T08:21:00Z",
+    "SubmissionStatusTypeID": 200
+}

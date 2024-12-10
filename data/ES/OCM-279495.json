@@ -1,21 +1,55 @@
 {
-    "DateLastVerified": "2023-10-28T17:54:00Z",
+    "MediaItems": [
+        {
+            "ID": 42450,
+            "ChargePointID": 279495,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM279495/OCM-279495.orig.2024052808284532.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM279495/OCM-279495.thmb.2024052808284532.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-05-28T08:29:00Z"
+        },
+        {
+            "ID": 41914,
+            "ChargePointID": 279495,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM279495/OCM-279495.orig.2024040610081614.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM279495/OCM-279495.thmb.2024040610081614.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-04-06T10:08:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-19T17:37:00Z",
     "ID": 279495,
     "UUID": "F95E0EFB-F569-43ED-9276-3F09F15514DC",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,42€/kWh ",
+    "UsageCost": "0,42€/kWh DC 60kW - 0,55€/kWh DC 300kW",
     "AddressInfo": {
         "ID": 279882,
-        "Title": "Centro Transportes Madrid",
+        "Title": "Centro Transportes Madrid (Zunder)",
         "AddressLine1": "Calle Eje 6",
         "AddressLine2": "Villa de Vallecas",
         "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28018",
         "CountryID": 210,
-        "Latitude": 40.36580005987835,
-        "Longitude": -3.6549476197108106,
+        "Latitude": 40.36581789942423,
+        "Longitude": -3.6548307795923165,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,13 +63,25 @@
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 6,
-            "Comments": "3 HelloNext H2-60 Chargers. The CCS/Chademo charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW"
+            "Comments": "Three FLOOX/HelloNext H2-60 Chargers. The CCS charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW"
+        },
+        {
+            "ID": 543588,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 400,
+            "CurrentTypeID": 30,
+            "Quantity": 8,
+            "Comments": "Four Hypercharger HYC400 Chargers. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. Max 500A, charging power limited to 200kW for 400V cars"
         }
     ],
-    "NumberOfPoints": 6,
-    "GeneralComments": "Accessible only during business hours (access fee 2,35€)",
+    "NumberOfPoints": 14,
+    "GeneralComments": "CTM Chargers managed by Zunder. Accessible only during business hours ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-10-28T17:54:00Z",
+    "DateLastStatusUpdate": "2024-10-19T17:37:00Z",
     "DateCreated": "2023-10-28T17:52:00Z",
     "SubmissionStatusTypeID": 200
 }

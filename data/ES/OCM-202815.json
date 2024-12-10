@@ -1,15 +1,33 @@
 {
-    "DateLastVerified": "2023-01-16T17:45:00Z",
+    "MediaItems": [
+        {
+            "ID": 44097,
+            "ChargePointID": 202815,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM202815/OCM-202815.orig.2024111414443141.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM202815/OCM-202815.thmb.2024111414443141.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 55071,
+                "Username": "Andrea"
+            },
+            "DateCreated": "2024-11-14T14:45:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-15T13:02:00Z",
     "ID": 202815,
     "UUID": "25D0A058-B63A-405F-BF4D-3A5E2A92252B",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 6,
-    "UsageCost": "0,20€/kWh",
+    "UsageCost": "0,15 - 0,40€/kWh",
     "AddressInfo": {
         "ID": 203182,
         "Title": "Bodega Emina Medina",
-        "AddressLine1": "Medina del Campo",
+        "AddressLine1": "Carretera Medina del Campo - Olmedo km 1,5 ",
         "Town": "Medina del Campo",
         "StateOrProvince": "Castile and León",
         "Postcode": "47400",
@@ -24,6 +42,8 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
@@ -31,7 +51,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-16T17:45:00Z",
+    "DateLastStatusUpdate": "2024-11-15T13:02:00Z",
     "DateCreated": "2022-09-13T06:51:00Z",
     "SubmissionStatusTypeID": 200
 }

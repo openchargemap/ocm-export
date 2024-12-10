@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-01-27T08:59:00Z",
+    "DateLastVerified": "2024-11-23T11:39:00Z",
     "ID": 235205,
     "UUID": "F14A321E-1807-4AB1-B081-3152DCEEC401",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": " 0,54€/kWh ",
+    "UsageCost": " 0,47€/kWh ",
     "AddressInfo": {
         "ID": 235589,
         "Title": "E.S. Repsol Batan Madrid",
@@ -14,8 +14,8 @@
         "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28024",
         "CountryID": 210,
-        "Latitude": 40.40164650975791,
-        "Longitude": -3.761715862250412,
+        "Latitude": 40.40168959347051,
+        "Longitude": -3.761420518563824,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,17 +24,37 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 920,
-            "PowerKW": 180,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Ingeteam RAPID180 Charger. The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW"
+            "Quantity": 1,
+            "Comments": "Starcharge Titan60 charger"
+        },
+        {
+            "ID": 582680,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 582681,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 1,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-27T08:59:00Z",
+    "DateLastStatusUpdate": "2024-11-23T11:39:00Z",
     "DateCreated": "2023-02-16T18:04:00Z",
     "SubmissionStatusTypeID": 200
 }

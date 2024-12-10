@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2024-02-19T06:35:00Z",
+    "DateLastVerified": "2024-12-05T06:21:00Z",
     "ID": 273272,
     "UUID": "747FF557-E3CD-44A1-AB58-E9EA16AFA218",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "",
+    "OperatorsReference": "185",
     "UsageTypeID": 5,
     "UsageCost": "DC: £0.79/kWh",
     "AddressInfo": {
@@ -17,7 +17,7 @@
         "CountryID": 1,
         "Latitude": 52.33059,
         "Longitude": -0.060514,
-        "RelatedURL": "https://electrichighway.gridserve.com/stives",
+        "RelatedURL": "https://electrichighway.gridserve.com/?location=stives",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -62,7 +62,17 @@
             "Quantity": 1
         },
         {
-            "ID": 515399,
+            "ID": 584708,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10782*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585208,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10782*1",
             "StatusTypeID": 50,
@@ -72,29 +82,19 @@
             "Quantity": 1
         },
         {
-            "ID": 515981,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10782*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 100,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 516268,
-            "ConnectionTypeID": 2,
+            "ID": 585209,
+            "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10781*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 100,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-19T06:35:00Z",
+    "DateLastStatusUpdate": "2024-12-05T06:21:00Z",
     "DateCreated": "2023-08-01T07:11:00Z",
     "SubmissionStatusTypeID": 200
 }

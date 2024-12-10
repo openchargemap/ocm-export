@@ -1,9 +1,27 @@
 {
-    "DateLastVerified": "2024-01-24T21:12:00Z",
+    "MediaItems": [
+        {
+            "ID": 42445,
+            "ChargePointID": 290239,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM290239/OCM-290239.orig.2024052712544530.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM290239/OCM-290239.thmb.2024052712544530.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-05-27T12:55:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-05-27T12:55:00Z",
     "ID": 290239,
     "UUID": "CFC914B1-BE6E-4DBE-AC3D-BDE774F5AB13",
     "DataProviderID": 1,
-    "OperatorID": 3556,
+    "OperatorID": 3786,
     "UsageTypeID": 4,
     "UsageCost": "0,45€/kWh DC - 0,39€/kWh AC",
     "AddressInfo": {
@@ -24,10 +42,10 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 920,
-            "PowerKW": 120,
+            "PowerKW": 90,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Power electronics NB120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
+            "Quantity": 1,
+            "Comments": "Power electronics NB120 Charger. "
         },
         {
             "ID": 512692,
@@ -40,8 +58,9 @@
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "app Umbrella Emobility / app PlacetoPlug",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-01-24T21:12:00Z",
+    "DateLastStatusUpdate": "2024-05-27T12:55:00Z",
     "DateCreated": "2024-01-24T21:10:00Z",
     "SubmissionStatusTypeID": 200
 }

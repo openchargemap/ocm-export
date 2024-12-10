@@ -1,26 +1,61 @@
 {
-    "DateLastVerified": "2023-03-20T06:20:00Z",
+    "MediaItems": [
+        {
+            "ID": 43340,
+            "ChargePointID": 257676,
+            "ItemURL": "https://media.openchargemap.io/images/PT/OCM257676/OCM-257676.orig.2024082113485957.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/PT/OCM257676/OCM-257676.thmb.2024082113485957.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53674,
+                "Username": "lezurdis"
+            },
+            "DateCreated": "2024-08-21T13:49:00Z"
+        },
+        {
+            "ID": 43339,
+            "ChargePointID": 257676,
+            "ItemURL": "https://media.openchargemap.io/images/PT/OCM257676/OCM-257676.orig.2024082113473791.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/PT/OCM257676/OCM-257676.thmb.2024082113473791.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53674,
+                "Username": "lezurdis"
+            },
+            "DateCreated": "2024-08-21T13:48:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-08-22T18:26:00Z",
     "ID": 257676,
     "UUID": "C4DBBEEC-E882-4B13-BF05-435B1D318233",
-    "DataProviderID": 7,
-    "DataProvidersReference": "LNH-90001",
+    "DataProviderID": 1,
     "OperatorID": 3557,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 258060,
-        "Title": "Av. Maestro Manuel Maria Baltazar",
+        "Title": "LNH-90001 - Av. Maestro Manuel Maria Baltazar",
         "AddressLine1": "Av. Maestro Manuel Maria Baltazar",
         "Town": "Lourinhã",
         "Postcode": "2530-921",
         "CountryID": 180,
-        "Latitude": 39.243954,
-        "Longitude": -9.311671,
+        "Latitude": 39.2439252,
+        "Longitude": -9.3116936,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 430090,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "Reference": "LNH-90001-02-01",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -30,8 +65,9 @@
         },
         {
             "ID": 430091,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "Reference": "LNH-90001-01-01",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -41,7 +77,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-20T06:20:00Z",
+    "DateLastStatusUpdate": "2024-08-22T18:26:00Z",
     "DateCreated": "2023-03-20T06:20:00Z",
     "SubmissionStatusTypeID": 200
 }

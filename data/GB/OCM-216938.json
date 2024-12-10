@@ -15,7 +15,7 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2024-02-19T06:37:00Z",
+    "DateLastVerified": "2024-12-05T06:35:00Z",
     "ID": 216938,
     "UUID": "886EA3BC-2BC9-45B0-8E0F-A278EF232CFC",
     "DataProviderID": 1,
@@ -34,20 +34,10 @@
         "CountryID": 1,
         "Latitude": 51.59658,
         "Longitude": -1.768294,
-        "RelatedURL": "https://electrichighway.gridserve.com/Dobbies-Swindon",
+        "RelatedURL": "https://electrichighway.gridserve.com/?location=Dobbies-Swindon",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 433091,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10778*2",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 80,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 433097,
             "ConnectionTypeID": 2,
@@ -56,18 +46,6 @@
             "LevelID": 3,
             "PowerKW": 80,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 434361,
-            "ConnectionTypeID": 25,
-            "Reference": "GB*GRD*EGS10778*3",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
@@ -83,32 +61,12 @@
             "Quantity": 1
         },
         {
-            "ID": 470567,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10778*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 180,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 470568,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10776*2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 180,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 470569,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10780*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -173,9 +131,31 @@
             "Quantity": 1
         },
         {
-            "ID": 515986,
+            "ID": 575029,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10778*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 575030,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS10778*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 575031,
             "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10779*1",
+            "Reference": "GB*GRD*EGS10780*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
@@ -183,7 +163,17 @@
             "Quantity": 1
         },
         {
-            "ID": 516274,
+            "ID": 575032,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10778*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585082,
             "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS10779*1",
             "StatusTypeID": 50,
@@ -191,11 +181,21 @@
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 585320,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10779*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 7,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-19T06:37:00Z",
+    "DateLastStatusUpdate": "2024-12-05T06:35:00Z",
     "DateCreated": "2023-02-11T22:55:00Z",
     "SubmissionStatusTypeID": 200
 }

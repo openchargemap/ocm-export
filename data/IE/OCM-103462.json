@@ -1,18 +1,19 @@
 {
-    "DateLastVerified": "2018-10-03T17:38:00Z",
+    "DateLastVerified": "2024-12-06T16:21:00Z",
     "ID": 103462,
     "UUID": "65C00ADF-CC18-40B5-B981-2E87511B9960",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 1241,
     "OperatorsReference": "42487",
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 103808,
-        "Title": "The Pottery",
-        "AddressLine1": "Pottery Road",
+        "Title": "Physique Consultants",
+        "AddressLine1": "The Pottery",
+        "AddressLine2": "Pottery Rd",
         "Town": "Dun Laoghaire Industrial Estate",
-        "StateOrProvince": "Dublin",
-        "Postcode": "A96KW29",
+        "StateOrProvince": "Co. Dublin",
+        "Postcode": "",
         "CountryID": 3,
         "Latitude": 53.275383,
         "Longitude": -6.157821,
@@ -22,20 +23,30 @@
     "Connections": [
         {
             "ID": 146126,
-            "ConnectionTypeID": 30,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 585408,
+            "ConnectionTypeID": 25,
+            "Reference": "IE*EGO0553",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 22kW.Available to the public. Self park.",
+    "NumberOfPoints": 1,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-10-03T17:38:00Z",
+    "DateLastStatusUpdate": "2024-12-06T16:21:00Z",
     "DateCreated": "2018-05-03T06:16:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-10-08T13:55:00Z",
+    "DateLastVerified": "2024-09-11T18:33:00Z",
     "ID": 207048,
     "UUID": "1414D0F5-BD9E-4902-9F2C-FE30C8691EC9",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 1,
-    "UsageCost": "",
+    "UsageCost": "0,35€/kWh",
     "AddressInfo": {
         "ID": 207428,
         "Title": "Hipermercat Esclat",
@@ -24,7 +24,9 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 400,
+            "PowerKW": 80,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -33,9 +35,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 900,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         },
         {
             "ID": 344790,
@@ -44,12 +49,12 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 8
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-08T13:55:00Z",
+    "DateLastStatusUpdate": "2024-09-11T18:33:00Z",
     "DateCreated": "2022-10-08T13:55:00Z",
     "SubmissionStatusTypeID": 200
 }

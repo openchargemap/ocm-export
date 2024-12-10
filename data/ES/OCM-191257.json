@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-11-03T10:26:00Z",
+    "MediaItems": [
+        {
+            "ID": 44312,
+            "ChargePointID": 191257,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM191257/OCM-191257.orig.2024112311503835.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM191257/OCM-191257.thmb.2024112311503835.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-11-23T11:51:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-23T11:52:00Z",
     "ID": 191257,
     "UUID": "698E44A0-C815-43CA-8DFC-6A07ECA01087",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": "0,54€/kWh DC>50kW - 0,39€/kWh DC - 0,29€/kWh AC",
+    "UsageCost": "0,54€/kWh DC>50kW - 0,47€/kWh ",
     "AddressInfo": {
         "ID": 191616,
         "Title": "Repsol Hipódromo",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28040",
         "CountryID": 210,
-        "Latitude": 40.46110161460584,
-        "Longitude": -3.7579419086376618,
+        "Latitude": 40.46088635592821,
+        "Longitude": -3.7574964710546794,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,10 +44,10 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 920,
-            "PowerKW": 180,
+            "PowerKW": 80,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Ingeteam RAPID180 Charger (375A peak). The CCS/Chademo charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited for 400V cars"
+            "Comments": "ABB Terra184 Charger. The CCS/Chademo charger allows charging one vehicle at 80kW, or two simultaneous charges at 40kW. Charging power limited for 400V cars"
         },
         {
             "ID": 310423,
@@ -41,7 +59,7 @@
             "PowerKW": 80,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Ingeteam RAPID180 Charger"
+            "Comments": "ABB Terra184 Charger."
         },
         {
             "ID": 310424,
@@ -78,8 +96,9 @@
         }
     ],
     "NumberOfPoints": 3,
+    "GeneralComments": "Max power currently limited to 40kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-03T10:26:00Z",
+    "DateLastStatusUpdate": "2024-11-23T11:52:00Z",
     "DateCreated": "2022-02-01T15:40:00Z",
     "SubmissionStatusTypeID": 200
 }

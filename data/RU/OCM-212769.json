@@ -1,6 +1,38 @@
 {
     "MediaItems": [
         {
+            "ID": 42100,
+            "ChargePointID": 212769,
+            "ItemURL": "https://media.openchargemap.io/images/RU/OCM212769/OCM-212769.orig.2024042609453990.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/RU/OCM212769/OCM-212769.thmb.2024042609453990.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37649,
+                "Username": "Green Drive"
+            },
+            "DateCreated": "2024-04-26T09:46:00Z"
+        },
+        {
+            "ID": 42099,
+            "ChargePointID": 212769,
+            "ItemURL": "https://media.openchargemap.io/images/RU/OCM212769/OCM-212769.orig.2024042609411970.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/RU/OCM212769/OCM-212769.thmb.2024042609411970.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 37649,
+                "Username": "Green Drive"
+            },
+            "DateCreated": "2024-04-26T09:41:00Z"
+        },
+        {
             "ID": 36385,
             "ChargePointID": 212769,
             "ItemURL": "https://media.openchargemap.io/images/RU/OCM212769/OCM-212769.orig.2023012506370316.jpg",
@@ -17,7 +49,7 @@
             "DateCreated": "2023-01-25T06:37:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-10T11:25:00Z",
+    "DateLastVerified": "2024-04-26T12:03:00Z",
     "ID": 212769,
     "UUID": "2033B208-2934-4967-BBA5-207EC617F172",
     "DataProviderID": 1,
@@ -26,30 +58,46 @@
     "UsageCost": "20 р/кВт*ч",
     "AddressInfo": {
         "ID": 213149,
-        "Title": "Green Drive Отель Роза Ветров",
-        "AddressLine1": "г. Геленджик, с. Архипо-Осиповка, ул. Пограничная, 17А",
+        "Title": "GREEN DRIVE Курорт \"Орбита\"",
+        "AddressLine1": "Краснодарский край, Туапсинский район, с. Ольгинка, ул. Приморская, 18А",
         "CountryID": 185,
-        "Latitude": 44.36114567455465,
-        "Longitude": 38.53300144898492,
-        "ContactTelephone1": "",
-        "ContactTelephone2": "",
-        "RelatedURL": "",
+        "Latitude": 44.198071,
+        "Longitude": 38.88532,
+        "ContactTelephone1": "8(800) 775-8187",
+        "RelatedURL": "https://green-drive.net/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 354319,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1040,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 542367,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 542368,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
+    "GeneralComments": "Доступ круглосуточный\r\nВъезд через КПП",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-10T11:25:00Z",
+    "DateLastStatusUpdate": "2024-04-26T12:03:00Z",
     "DateCreated": "2023-01-25T06:36:00Z",
     "SubmissionStatusTypeID": 200
 }

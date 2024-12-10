@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2020-01-02T17:36:00Z",
+    "DateLastVerified": "2024-09-14T19:14:00Z",
     "ID": 118644,
     "UUID": "066A7B18-A911-4B0B-A767-D1BCF8939BFD",
     "DataProviderID": 1,
@@ -7,14 +7,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 118990,
-        "Title": "Ronda de Santa Eulàlia",
+        "Title": "AMB - Ronda de Santa Eulàlia",
         "AddressLine1": "Ronda de Santa Eulàlia",
         "Town": "Pallejà",
         "StateOrProvince": "Baix Llobregat",
         "Postcode": "08780",
         "CountryID": 210,
-        "Latitude": 41.419177959003974,
-        "Longitude": 2.001252668392567,
+        "Latitude": 41.41915533390181,
+        "Longitude": 2.001043392702229,
         "ContactTelephone1": "93 475 15 47",
         "AccessComments": "AMB",
         "RelatedURL": "http://www.amb.cat/electrolineres",
@@ -26,33 +26,27 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 400,
+            "Voltage": 900,
+            "PowerKW": 90,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 167785,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Wallbox Supernova 150 Charger. The DC charger allows charging one vehicle at 90kW, or two simultaneous charges at 45kW"
         },
         {
             "ID": 167786,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 44,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "It can be charged just one vehicle at a time despite existing  3 connections.",
+    "NumberOfPoints": 4,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-02T17:36:00Z",
+    "DateLastStatusUpdate": "2024-09-14T19:14:00Z",
     "DateCreated": "2019-03-27T12:00:00Z",
     "SubmissionStatusTypeID": 200
 }

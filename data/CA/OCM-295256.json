@@ -1,48 +1,52 @@
 {
-    "DateLastVerified": "2024-02-20T10:45:00Z",
+    "DateLastVerified": "2024-04-04T08:59:00Z",
     "ID": 295256,
     "UUID": "7309BAEF-2CBE-4862-B88D-956EB6BDD512",
-    "DataProviderID": 2,
-    "DataProvidersReference": "327739",
+    "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.45/kWh",
     "AddressInfo": {
         "ID": 295643,
-        "Title": "MACEWEN PRESCOTT PL2",
-        "AddressLine1": "965 Edward St N",
+        "Title": "ChargePoint - MACEWEN PRESCOTT PL",
+        "AddressLine1": "965 Edward Street North",
         "Town": "Prescott",
         "StateOrProvince": "ON",
         "Postcode": "K0E 1T0",
         "CountryID": 44,
-        "Latitude": 44.718176,
-        "Longitude": -75.521609,
-        "ContactTelephone1": "888-758-4389",
+        "Latitude": 44.71812412144462,
+        "Longitude": -75.52127167454385,
+        "ContactTelephone1": "1-888-758-4389",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "http://www.chargepoint.com/",
+        "RelatedURL": "https://www.chargepoint.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 526744,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 526745,
-            "ConnectionTypeID": 32,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Mobile app (ChargePoint) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:45:00Z",
+    "DateLastStatusUpdate": "2024-04-04T08:59:00Z",
     "DateCreated": "2024-02-20T10:45:00Z",
     "SubmissionStatusTypeID": 100
 }

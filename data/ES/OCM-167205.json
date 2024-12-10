@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 29574,
+            "ChargePointID": 167205,
+            "CommentTypeID": 10,
+            "UserName": "Raule_19",
+            "Comment": "ahora de pago con precio medio bueno",
+            "DateCreated": "2024-03-08T09:34:55.923Z",
+            "User": {
+                "ID": 19690,
+                "Username": "Raule_19"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 24030,
             "ChargePointID": 167205,
             "CommentTypeID": 10,
@@ -45,6 +59,22 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 41661,
+            "ChargePointID": 167205,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM167205/OCM-167205.orig.2024030809353359.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM167205/OCM-167205.thmb.2024030809353359.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 19690,
+                "Username": "Raule_19"
+            },
+            "DateCreated": "2024-03-08T09:36:00Z"
+        },
         {
             "ID": 24547,
             "ChargePointID": 167205,
@@ -94,13 +124,13 @@
             "DateCreated": "2020-08-31T09:55:00Z"
         }
     ],
-    "DateLastVerified": "2023-02-12T08:09:00Z",
+    "DateLastVerified": "2024-05-05T15:06:00Z",
     "ID": 167205,
     "UUID": "4ABBF2F3-06A8-4175-9B40-3120B627F1C3",
     "DataProviderID": 1,
-    "OperatorID": 3499,
-    "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "OperatorID": 91,
+    "UsageTypeID": 4,
+    "UsageCost": "0.25€/kWh",
     "AddressInfo": {
         "ID": 167564,
         "Title": "Mercadona Castellar del Vallès",
@@ -109,8 +139,8 @@
         "StateOrProvince": "Barcelona",
         "Postcode": "08211",
         "CountryID": 210,
-        "Latitude": 41.60401727347431,
-        "Longitude": 2.0870026638185664,
+        "Latitude": 41.603455286735226,
+        "Longitude": 2.0867235106837256,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -119,15 +149,17 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 5
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 6
         }
     ],
-    "NumberOfPoints": 5,
-    "GeneralComments": "carga super lenta a 1 fase",
+    "NumberOfPoints": 6,
+    "GeneralComments": "app Waylet(Repsol). 90' free parking, then at 0,07€/min",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-12T08:09:00Z",
+    "DateLastStatusUpdate": "2024-05-05T15:06:00Z",
     "DateCreated": "2020-08-29T13:16:00Z",
     "SubmissionStatusTypeID": 200
 }

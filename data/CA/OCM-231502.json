@@ -1,48 +1,51 @@
 {
-    "DateLastVerified": "2024-02-20T10:42:00Z",
+    "DateLastVerified": "2024-10-05T18:37:00Z",
     "ID": 231502,
     "UUID": "D32845F4-6C2D-4310-95CC-AA3F6AEB4120",
-    "DataProviderID": 2,
-    "DataProvidersReference": "232601",
+    "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "DCFC $0.50/kWh",
     "AddressInfo": {
         "ID": 231885,
-        "Title": "KING EV STATION NOBLETON ARENA1",
-        "AddressLine1": "15 Old King Rd",
+        "Title": "ChargePoint - KING EV STATION NOBLETON ARENA",
+        "AddressLine1": "15 Old King Road",
         "Town": "Nobleton",
         "StateOrProvince": "ON",
         "Postcode": "L0G 1N0",
         "CountryID": 44,
         "Latitude": 43.900892,
         "Longitude": -79.651004,
-        "ContactTelephone1": "888-758-4389",
+        "ContactTelephone1": "1-888-758-4389",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "http://www.chargepoint.com/",
+        "RelatedURL": "https://www.chargepoint.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 383266,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
-            "ID": 383267,
-            "ConnectionTypeID": 32,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "ID": 577174,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 6.6,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 3,
+    "GeneralComments": "Mobile app (ChargePoint) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:42:00Z",
+    "DateLastStatusUpdate": "2024-10-05T18:37:00Z",
     "DateCreated": "2023-02-13T05:31:00Z",
     "SubmissionStatusTypeID": 100
 }

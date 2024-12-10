@@ -1,0 +1,48 @@
+{
+    "DateLastVerified": "2024-11-15T20:46:00Z",
+    "ID": 306120,
+    "UUID": "6813A42A-68E3-416D-B2F6-C87C2F8BAEE4",
+    "DataProviderID": 1,
+    "OperatorID": 3550,
+    "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh DC - 0,43€/kWh AC",
+    "AddressInfo": {
+        "ID": 306509,
+        "Title": "Hotel IBIS Alcorcón",
+        "AddressLine1": "Travesía de Móstoles",
+        "StateOrProvince": "Comunidad de Madrid",
+        "Postcode": "28922",
+        "CountryID": 210,
+        "Latitude": 40.33435627974745,
+        "Longitude": -3.8542958430195995,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 580438,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 250,
+            "Voltage": 950,
+            "PowerKW": 65,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Two Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW). Charging power limited for 400V cars"
+        },
+        {
+            "ID": 580439,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-15T20:46:00Z",
+    "DateCreated": "2024-11-15T20:45:00Z",
+    "SubmissionStatusTypeID": 200
+}

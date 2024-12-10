@@ -1,13 +1,14 @@
 {
-    "DateLastVerified": "2024-02-20T10:44:00Z",
+    "DateLastVerified": "2024-03-13T09:19:00Z",
     "ID": 231990,
     "UUID": "46B0E690-4578-4798-8C17-0802C5C17E6C",
-    "DataProviderID": 2,
-    "DataProvidersReference": "211631",
-    "UsageTypeID": 2,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "$ .37 / KWH",
     "AddressInfo": {
         "ID": 232373,
-        "Title": "Nova Scotia Power Inc",
+        "Title": "Building Trades Advancment College",
         "AddressLine1": "25 Lakeside Park Drive",
         "Town": "Lakeside",
         "StateOrProvince": "NS",
@@ -15,9 +16,9 @@
         "CountryID": 44,
         "Latitude": 44.64148595438285,
         "Longitude": -63.68707071705004,
-        "ContactTelephone1": "",
+        "ContactTelephone1": " 1.833.221.2822",
         "AccessComments": "",
-        "RelatedURL": "",
+        "RelatedURL": "https://www.btacns.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -31,12 +32,24 @@
             "CurrentTypeID": 10,
             "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 531211,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 400,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "This Dual handle CCS1 is capable of a maximum of 120KW on an Autel Cabinet. They power share if both are in use."
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "GeneralComments": "Now open to the public",
     "DatePlanned": "2024-12-01T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-20T10:44:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-03-13T09:19:00Z",
     "DateCreated": "2023-02-13T05:33:00Z",
     "SubmissionStatusTypeID": 100
 }

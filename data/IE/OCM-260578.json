@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-04-25T09:58:00Z",
+    "DateLastVerified": "2024-12-05T20:47:00Z",
     "ID": 260578,
     "UUID": "4AE6FB71-3296-4E5F-BD45-9292BE029720",
     "DataProviderID": 1,
@@ -9,16 +9,19 @@
         "ID": 260962,
         "Title": "Lidl Clonmel",
         "AddressLine1": "Saint Oliver Plunkett Terrace",
-        "Postcode": "E91 N512",
+        "Town": "Clonmel",
+        "StateOrProvince": "Co. Tipperary",
+        "Postcode": "",
         "CountryID": 3,
-        "Latitude": 52.35568812190613,
-        "Longitude": -7.706595458160336,
+        "Latitude": 52.35516895352242,
+        "Longitude": -7.7077482525158985,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 438592,
             "ConnectionTypeID": 33,
+            "Reference": "IE*EGO0561",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -28,6 +31,7 @@
         {
             "ID": 438593,
             "ConnectionTypeID": 2,
+            "Reference": "IE*EGO0561",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -36,17 +40,18 @@
         },
         {
             "ID": 438594,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "IE*EGO0561",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-25T09:58:00Z",
+    "DateLastStatusUpdate": "2024-12-05T20:47:00Z",
     "DateCreated": "2023-04-25T09:58:00Z",
     "SubmissionStatusTypeID": 200
 }

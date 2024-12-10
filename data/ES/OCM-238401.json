@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-05-28T14:17:00Z",
+    "DateLastVerified": "2024-03-02T14:04:00Z",
     "ID": 238401,
     "UUID": "F18FD096-A421-4C6D-8D1D-A1059A21D13E",
     "DataProviderID": 1,
     "OperatorID": 3459,
     "UsageTypeID": 4,
-    "UsageCost": "0,28€/kWh",
+    "UsageCost": " 0,54€/kWh DC - 0,36€/kWh AC",
     "AddressInfo": {
         "ID": 238785,
         "Title": "C.C. Urbil",
@@ -25,7 +25,7 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 16
         },
         {
             "ID": 452792,
@@ -34,15 +34,40 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 920,
-            "PowerKW": 50,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Ingeteam RAPID120 CCS/Chademo Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
+        },
+        {
+            "ID": 527874,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Ingeteam RAPID120 Charger.CCS/Chademo"
+        },
+        {
+            "ID": 527875,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Ingeteam RAPID120 Charger.The DC charger allows two simultaneous charges at 50kW."
+            "Comments": "Ingeteam RAPID120 CCS Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 20,
+    "GeneralComments": "DC chargers currently limited to 50kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-28T14:17:00Z",
+    "DateLastStatusUpdate": "2024-03-02T14:04:00Z",
     "DateCreated": "2023-03-04T20:11:00Z",
     "SubmissionStatusTypeID": 200
 }

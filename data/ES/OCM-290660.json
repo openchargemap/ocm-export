@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-02-05T16:03:00Z",
+    "DateLastVerified": "2024-09-14T15:15:00Z",
     "ID": 290660,
     "UUID": "0FEF1091-35BF-42D4-A6EF-FA71B37F5BEC",
     "DataProviderID": 1,
@@ -8,13 +8,13 @@
     "UsageCost": " 0,45€/kWh DC",
     "AddressInfo": {
         "ID": 291047,
-        "Title": "Bar Manolo Trebujena (Wenea)",
+        "Title": "Bar Manolo Trebujena ",
         "AddressLine1": "Calle del Cerro",
         "StateOrProvince": "Andalucía",
         "Postcode": "11560",
         "CountryID": 210,
-        "Latitude": 36.86830131327591,
-        "Longitude": -6.176420194208816,
+        "Latitude": 36.85960416149575,
+        "Longitude": -6.1825687391452675,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,12 +27,22 @@
             "Voltage": 400,
             "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Wallbox Supernova 60 Charger. The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW"
+        },
+        {
+            "ID": 573228,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-05T16:03:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-09-14T15:15:00Z",
     "DateCreated": "2024-02-05T16:03:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2024-01-28T13:02:00Z",
+    "DateLastVerified": "2024-09-13T13:00:00Z",
     "ID": 149396,
     "UUID": "4DB809E3-A2D4-4246-88EE-214330733450",
     "DataProviderID": 1,
-    "OperatorID": 3371,
+    "OperatorID": 3571,
     "UsageTypeID": 1,
-    "UsageCost": "0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "0.50€/kWh >60kW - 0,39€/kWh DC - 0,32€/kWh AC",
     "AddressInfo": {
         "ID": 149749,
-        "Title": "Exoil Pista de Silla - Wenea",
+        "Title": "Exoil Pista de Silla ",
         "AddressLine1": "Camino de Castellar, Camí pont de pedra, 3",
         "Town": "Valencia",
         "StateOrProvince": "Valencia",
@@ -25,16 +25,18 @@
             "ID": 207427,
             "ConnectionTypeID": 33,
             "StatusTypeID": 100,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 207428,
             "ConnectionTypeID": 2,
             "StatusTypeID": 100,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
@@ -49,7 +51,7 @@
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-28T13:02:00Z",
+    "DateLastStatusUpdate": "2024-09-13T13:00:00Z",
     "DateCreated": "2020-02-24T18:54:00Z",
     "SubmissionStatusTypeID": 200
 }

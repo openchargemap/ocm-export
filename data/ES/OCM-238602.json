@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-03-06T18:40:00Z",
+    "DateLastVerified": "2024-07-28T10:14:00Z",
     "ID": 238602,
     "UUID": "6FA94A39-ACC6-4E5C-91C8-4D3B00610549",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh",
+    "UsageCost": "0,59€/kWh >60kW   0,49€/kWh DC - 0,39€/kWh AC ",
     "AddressInfo": {
         "ID": 238986,
         "Title": "Rest. El Cruce",
@@ -26,11 +26,23 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 565922,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 950,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Starcharge Titan150. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-06T18:40:00Z",
+    "DateLastStatusUpdate": "2024-07-28T10:14:00Z",
     "DateCreated": "2023-03-06T18:40:00Z",
     "SubmissionStatusTypeID": 200
 }

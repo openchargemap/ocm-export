@@ -1,9 +1,43 @@
 {
-    "DateLastVerified": "2022-08-23T10:37:00Z",
+    "MediaItems": [
+        {
+            "ID": 43752,
+            "ChargePointID": 199435,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM199435/OCM-199435.orig.2024100312483781.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM199435/OCM-199435.thmb.2024100312483781.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50321,
+                "Username": "Weiss"
+            },
+            "DateCreated": "2024-10-03T12:49:00Z"
+        },
+        {
+            "ID": 43751,
+            "ChargePointID": 199435,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM199435/OCM-199435.orig.2024100312475779.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM199435/OCM-199435.thmb.2024100312475779.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50321,
+                "Username": "Weiss"
+            },
+            "DateCreated": "2024-10-03T12:48:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-04T08:46:00Z",
     "ID": 199435,
     "UUID": "81635B58-7D10-4469-816B-354781F750EF",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS14PCKEU2AXBPX",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 199794,
@@ -21,8 +55,9 @@
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
+            "PowerKW": 3.6,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 332865,
@@ -30,12 +65,14 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "Autre paiements : compte prépayé.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:37:00Z",
+    "DateLastStatusUpdate": "2024-10-04T08:46:00Z",
     "DateCreated": "2022-08-23T10:37:00Z",
     "SubmissionStatusTypeID": 100
 }

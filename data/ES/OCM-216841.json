@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-02-10T12:58:00Z",
+    "DateLastVerified": "2024-11-06T11:19:00Z",
     "ID": 216841,
     "UUID": "6E83EF9D-C7B5-4E2B-B1C6-3862C30A031A",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh AC",
+    "UsageCost": "0,59€/kWh DC - 0,39€/kWh AC",
     "AddressInfo": {
         "ID": 217221,
         "Title": "Splau parking (2ª Planta)",
@@ -27,11 +27,23 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 579228,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 950,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Starcharge Titan150. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-10T12:58:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-11-06T11:19:00Z",
     "DateCreated": "2023-02-10T12:58:00Z",
     "SubmissionStatusTypeID": 200
 }

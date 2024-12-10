@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-10-03T09:21:00Z",
+    "DateLastVerified": "2024-12-08T19:47:00Z",
     "ID": 60913,
     "UUID": "2AF16A1D-81E7-4528-BF02-80BC13AF8702",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "Free ",
+    "OperatorID": 3508,
+    "UsageTypeID": 4,
+    "UsageCost": "0,58€/kWh DC 100kW - 0,48€/kWh DC - 0,41€/kWh AC",
     "AddressInfo": {
         "ID": 61259,
         "Title": "C.C. Bahía Sur",
@@ -21,12 +21,15 @@
     "Connections": [
         {
             "ID": 77275,
-            "ConnectionTypeID": 28,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 220,
-            "PowerKW": 3.6,
-            "CurrentTypeID": 10
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
         },
         {
             "ID": 342400,
@@ -35,13 +38,44 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 14
+        },
+        {
+            "ID": 585511,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 585512,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 585513,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 3
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "You have to phone, wait for security people and they will put power on",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-03T09:21:00Z",
+    "NumberOfPoints": 22,
+    "GeneralComments": "",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-12-08T19:47:00Z",
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200
 }

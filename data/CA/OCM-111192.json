@@ -1,29 +1,32 @@
 {
-    "DateLastVerified": "2024-02-12T06:57:00Z",
+    "DateLastVerified": "2024-10-12T09:57:00Z",
     "ID": 111192,
     "UUID": "860B266D-42EB-4898-89D0-6C4B2DFC55F8",
     "DataProviderID": 1,
-    "OperatorID": 59,
-    "UsageTypeID": 4,
+    "OperatorID": 89,
+    "UsageTypeID": 5,
+    "UsageCost": "$15.00/hr",
     "AddressInfo": {
         "ID": 111538,
-        "Title": "Shell Recharge - Stayner",
-        "AddressLine1": "212 Huron Street",
+        "Title": "FLO - Stayner Station Park",
+        "AddressLine1": "220 Huron Street",
         "Town": "Stayner",
         "StateOrProvince": "ON",
         "Postcode": "L0M 1S0",
         "CountryID": 44,
-        "Latitude": 44.419607,
-        "Longitude": -80.087289,
-        "ContactTelephone1": "1-855-900-7584",
-        "AccessComments": "24 hours daily",
-        "RelatedURL": "https://www.shell.ca/en_ca/drivers/electric-vehicle-charging.html",
+        "Latitude": 44.41960700000121,
+        "Longitude": -80.08728900000153,
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
+        "AccessComments": "Available 24/7",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 156569,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -33,6 +36,7 @@
         {
             "ID": 156570,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -40,10 +44,10 @@
             "Comments": ""
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Pre-paid account and mobile app (Shell Recharge) required for payment. RFID card available for members. No credit card reader at the charger.",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2024-02-12T06:57:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Payment with a credit card directly at the charger (new unit). Optional mobile app (FLO EV Charging) and RFID card available.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-10-12T09:57:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

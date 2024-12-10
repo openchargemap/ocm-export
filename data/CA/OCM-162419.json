@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2021-01-04T13:40:00Z",
+    "DateLastVerified": "2024-09-28T08:10:00Z",
     "ID": 162419,
     "UUID": "25F987EC-ECE5-4E52-B15A-9F65508B3099",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "43665",
     "UsageTypeID": 4,
-    "UsageCost": "$0.44/min >=60kW; $0.22/min <60kW; other tariffs for older cars",
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app.",
     "AddressInfo": {
         "ID": 162776,
-        "Title": "Peterborough, on - Lansdowne Street West Supercharger",
+        "Title": "Tesla/NACS Supercharger - Peterborough",
         "AddressLine1": "645 Lansdowne Street West",
         "Town": "Peterborough",
         "StateOrProvince": "ON",
@@ -17,6 +17,9 @@
         "CountryID": 44,
         "Latitude": 44.283163,
         "Longitude": -78.333186,
+        "ContactTelephone1": "1-877-798-3752",
+        "AccessComments": "Available 24/7",
+        "RelatedURL": "https://www.tesla.com/NACS",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +28,15 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 12
         }
     ],
-    "NumberOfPoints": 8,
-    "GeneralComments": "Charging8 Superchargers, available 24/7, up to 250kW",
+    "NumberOfPoints": 12,
+    "GeneralComments": "Supercharger open to non-Tesla EVs covered by NACS agreement. NACS adapter required for EVs with CCS1 charging port. Tesla account and mobile app (Tesla) required for payment (pay-per-use). No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-04T13:40:00Z",
+    "DateLastStatusUpdate": "2024-09-28T08:10:00Z",
     "DateCreated": "2020-08-08T05:34:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -16,12 +16,31 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2022-11-21T23:24:00Z",
+    "MediaItems": [
+        {
+            "ID": 44272,
+            "ChargePointID": 202352,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM202352/OCM-202352.orig.2024112118202919.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM202352/OCM-202352.thmb.2024112118202919.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-11-21T18:21:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-21T18:21:00Z",
     "ID": 202352,
     "UUID": "6ED47D1E-041D-4829-B6A4-CD8A27689666",
     "DataProviderID": 1,
-    "OperatorID": 3279,
-    "UsageTypeID": 1,
+    "OperatorID": 3786,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh DC - 0,39€/kWh AC",
     "AddressInfo": {
         "ID": 202719,
         "Title": "Supermercado Mas y Mas Chiva",
@@ -30,8 +49,8 @@
         "StateOrProvince": "Valencian Community",
         "Postcode": "",
         "CountryID": 210,
-        "Latitude": 39.469346160691856,
-        "Longitude": -0.7073846996122484,
+        "Latitude": 39.4694285275811,
+        "Longitude": -0.7079142543758508,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -41,16 +60,28 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 547561,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 900,
+            "PowerKW": 90,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Power Electronics NB120 Charger"
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "charge max 4.7kwh",
+    "GeneralComments": "app im2 Umbrella Emobility / app PlacetoPlug",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-11-21T23:24:00Z",
+    "DateLastStatusUpdate": "2024-11-21T18:21:00Z",
     "DateCreated": "2022-09-10T10:43:00Z",
     "SubmissionStatusTypeID": 200
 }

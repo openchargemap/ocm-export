@@ -1,39 +1,42 @@
 {
-    "DateLastVerified": "2024-02-20T10:42:00Z",
+    "DateLastVerified": "2024-09-28T08:01:00Z",
     "ID": 295174,
     "UUID": "9B0ED9C6-F03D-444E-9361-A98CA15CD901",
-    "DataProviderID": 2,
-    "DataProvidersReference": "323279",
+    "DataProviderID": 1,
     "OperatorID": 3534,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app.",
     "AddressInfo": {
         "ID": 295561,
-        "Title": "Chipotle - Tesla Supercharger",
-        "AddressLine1": "2901 Major MacKenzie Dr W C",
+        "Title": "Tesla/NACS Supercharger - Vaughan",
+        "AddressLine1": "2911 Major MacKenzie Drive West",
         "Town": "Vaughan",
         "StateOrProvince": "ON",
         "Postcode": "L6A 3N9",
         "CountryID": 44,
         "Latitude": 43.850328,
         "Longitude": -79.533229,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily; for Tesla use only\r\nPublic - Credit card at all times",
-        "RelatedURL": "https://www.tesla.com/supercharger",
+        "ContactTelephone1": "1-877-798-3752",
+        "AccessComments": "Available 24/7",
+        "RelatedURL": "https://www.tesla.com/NACS",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 526641,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 16,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 16,
+    "GeneralComments": "Supercharger open to non-Tesla EVs covered by NACS agreement. NACS adapter required for EVs with CCS1 charging port. Tesla account and mobile app (Tesla) required for payment (pay-per-use). No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:42:00Z",
+    "DateLastStatusUpdate": "2024-09-28T08:01:00Z",
     "DateCreated": "2024-02-20T10:42:00Z",
     "SubmissionStatusTypeID": 100
 }

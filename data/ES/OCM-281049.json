@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-12-01T20:03:00Z",
+    "DateLastVerified": "2024-10-01T08:25:00Z",
     "ID": 281049,
     "UUID": "56E7C9AE-71E6-4373-9FFA-1395AA1955E9",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh",
+    "UsageCost": "0,54€/kWh DC - 0,39€/kWh AC",
     "AddressInfo": {
         "ID": 281436,
         "Title": "Parking Estación Autobuses",
@@ -14,8 +14,8 @@
         "StateOrProvince": "Comunitat Valenciana",
         "Postcode": "46009",
         "CountryID": 210,
-        "Latitude": 39.48163458958203,
-        "Longitude": -0.38795828056260007,
+        "Latitude": 39.48136960305652,
+        "Longitude": -0.38911699447723436,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,14 +24,26 @@
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 6
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
+        },
+        {
+            "ID": 576968,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID120 Charger. The DC/Chademo charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         }
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-01T20:03:00Z",
+    "DateLastStatusUpdate": "2024-10-01T08:25:00Z",
     "DateCreated": "2023-12-01T20:02:00Z",
     "SubmissionStatusTypeID": 200
 }

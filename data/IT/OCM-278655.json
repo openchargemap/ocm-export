@@ -1,14 +1,112 @@
 {
-    "DateLastVerified": "2023-10-06T12:53:00Z",
+    "UserComments": [
+        {
+            "ID": 29801,
+            "ChargePointID": 278655,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Oltre al supermercato, dotato di bagni accessibili anche senza passare dalle casse, in pochi minuti a piedi troviamo almeno un paio di bar e servizi di vario tipo. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnine-enel-x-way-fast-conad-porto-torres-ss-viale-delle-vigne-t37881.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-enel-x-way-fast-conad-porto-torres-ss-viale-delle-vigne-t37881.html",
+            "DateCreated": "2024-06-19T13:20:59.013Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 42591,
+            "ChargePointID": 278655,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM278655/OCM-278655.orig.2024061913213480.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM278655/OCM-278655.thmb.2024061913213480.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-06-19T13:22:00Z"
+        },
+        {
+            "ID": 42587,
+            "ChargePointID": 278655,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM278655/OCM-278655.orig.2024061913210879.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM278655/OCM-278655.thmb.2024061913210879.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-06-19T13:21:00Z"
+        },
+        {
+            "ID": 42588,
+            "ChargePointID": 278655,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM278655/OCM-278655.orig.2024061913211445.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM278655/OCM-278655.thmb.2024061913211445.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-06-19T13:21:00Z"
+        },
+        {
+            "ID": 42589,
+            "ChargePointID": 278655,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM278655/OCM-278655.orig.2024061913212104.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM278655/OCM-278655.thmb.2024061913212104.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-06-19T13:21:00Z"
+        },
+        {
+            "ID": 42590,
+            "ChargePointID": 278655,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM278655/OCM-278655.orig.2024061913212667.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM278655/OCM-278655.thmb.2024061913212667.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-06-19T13:21:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-06-19T13:22:00Z",
     "ID": 278655,
     "UUID": "2960CAEE-2E14-4F4B-88DB-EFC9A8AD116D",
     "DataProviderID": 1,
     "OperatorID": 80,
     "UsageTypeID": 1,
-    "UsageCost": "0.57",
     "AddressInfo": {
         "ID": 279042,
-        "Title": "PORTO TORRES",
+        "Title": "Enel X Way Conad",
         "AddressLine1": "VIALE DELLE VIGNE",
         "Town": "Posthudorra/Porto Torres",
         "StateOrProvince": "Sardigna/Sardegna",
@@ -16,6 +114,7 @@
         "CountryID": 112,
         "Latitude": 40.824452366812096,
         "Longitude": 8.412303014124035,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-enel-x-way-fast-conad-porto-torres-ss-viale-delle-vigne-t37881.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,29 +128,41 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 482176,
             "ConnectionTypeID": 2,
             "Reference": "T*ELX*E21XP22T3KKJAK00032*2",
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 482224,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 556440,
+            "ConnectionTypeID": 1036,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-10-06T12:53:00Z",
+    "DateLastStatusUpdate": "2024-06-19T13:22:00Z",
     "DateCreated": "2023-10-04T19:25:00Z",
     "SubmissionStatusTypeID": 200
 }

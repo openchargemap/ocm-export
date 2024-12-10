@@ -48,13 +48,13 @@
             "DateCreated": "2018-02-20T05:33:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-13T06:22:00Z",
+    "DateLastVerified": "2024-08-25T01:06:00Z",
     "ID": 100220,
     "UUID": "873DE7B3-4C66-48E6-9087-692C578F94EF",
     "DataProviderID": 1,
     "OperatorID": 3339,
     "UsageTypeID": 1,
-    "UsageCost": "AC 22kW - Free first hour then $0.20/kWh from 6am to 6pm Monday to Friday and then $0.10/kWh at all other times (minimum fee of $1 applies after first hour) - DC fast charging $0.30/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 100566,
         "Title": "City of Adelaide EV Hub",
@@ -71,15 +71,6 @@
     },
     "Connections": [
         {
-            "ID": 141578,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
             "ID": 141579,
             "ConnectionTypeID": 25,
             "Reference": "3",
@@ -91,28 +82,19 @@
             "Quantity": 2
         },
         {
-            "ID": 141581,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 264170,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 125,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "One DC unit is Chademo/CCS1, the other is Chademo/CCS2.  \r\nAC units are BYO cable - Type 2 socket\r\n\r\nOperated by the City of Adelaide on the Chargefox app",
+    "GeneralComments": "2 x CCS2.  AC units are BYO cable - Type 2 socket. Operated by the City of Adelaide on the Chargefox app",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-13T06:22:00Z",
+    "DateLastStatusUpdate": "2024-08-25T01:06:00Z",
     "DateCreated": "2018-02-18T01:10:00Z",
     "SubmissionStatusTypeID": 200
 }

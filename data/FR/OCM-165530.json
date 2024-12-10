@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2020-08-27T05:10:00Z",
+    "DateLastVerified": "2024-02-21T10:21:00Z",
     "ID": 165530,
     "UUID": "DBF86B2E-1BF5-4983-A62B-195EBFA99D59",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*M13*P13091*001",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 5,
+    "UsageCost": "1,50 €  / heure entre 22h et 7h.  6€/heure enyte 7h et 22h.",
     "AddressInfo": {
         "ID": 165889,
         "Title": "SAINT-CANNAT - Avenue Jean Moulin",
@@ -13,17 +14,10 @@
         "Latitude": 43.623065,
         "Longitude": 5.299185,
         "AccessComments": "24h/24 7j/7",
+        "RelatedURL": "https://charge.evzen.com",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 239913,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
         {
             "ID": 239914,
             "ConnectionTypeID": 1036,
@@ -31,14 +25,6 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20
-        },
-        {
-            "ID": 239915,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
         },
         {
             "ID": 239916,
@@ -49,9 +35,9 @@
             "CurrentTypeID": 20
         }
     ],
-    "GeneralComments": "Recharge par badge et avec une application smartphone",
+    "GeneralComments": "Recharge par badge ou avec une application smartphone ou CB",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:10:00Z",
+    "DateLastStatusUpdate": "2024-02-21T10:21:00Z",
     "DateCreated": "2020-08-27T05:10:00Z",
     "SubmissionStatusTypeID": 100
 }

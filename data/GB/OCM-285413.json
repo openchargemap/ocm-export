@@ -1,11 +1,12 @@
 {
-    "DateLastVerified": "2024-02-19T06:41:00Z",
+    "DateLastVerified": "2024-12-04T06:18:00Z",
     "ID": 285413,
     "UUID": "B7C36249-0F9E-4F58-AF6F-E32E24796442",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "",
-    "UsageTypeID": 1,
+    "OperatorsReference": "t53_it1_3717_004,veefil-12200452",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.62/kWh",
     "AddressInfo": {
         "ID": 285800,
         "Title": "Tesco Extra - Crawley",
@@ -21,30 +22,66 @@
     },
     "Connections": [
         {
-            "ID": 516298,
+            "ID": 568003,
             "ConnectionTypeID": 25,
-            "Reference": "0",
+            "Reference": "t53_it1_3717_004",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Bill-Tara"
         },
         {
-            "ID": 516299,
-            "ConnectionTypeID": 25,
-            "Reference": "1",
-            "StatusTypeID": 0,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10
+            "ID": 568004,
+            "ConnectionTypeID": 33,
+            "Reference": "t53_it1_3717_004",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Bill-Tara"
+        },
+        {
+            "ID": 568005,
+            "ConnectionTypeID": 2,
+            "Reference": "t53_it1_3717_004",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Bill-Tara"
+        },
+        {
+            "ID": 584979,
+            "ConnectionTypeID": 33,
+            "Reference": "veefil-12200452",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Mery-Arah"
+        },
+        {
+            "ID": 584980,
+            "ConnectionTypeID": 2,
+            "Reference": "veefil-12200452",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Mery-Arah"
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2024-02-19T06:41:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-12-04T06:18:00Z",
     "MetadataValues": [
         {
             "ID": 29658,

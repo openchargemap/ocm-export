@@ -1,20 +1,20 @@
 {
-    "DateLastVerified": "2023-10-11T07:54:00Z",
+    "DateLastVerified": "2024-11-22T10:52:00Z",
     "ID": 265241,
     "UUID": "713883E5-B172-4BC2-A2F7-7FEC294E34C9",
     "DataProviderID": 1,
-    "OperatorID": 3371,
+    "OperatorID": 3276,
     "UsageTypeID": 4,
-    "UsageCost": "0,56€/kWh 150kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "0,58€/kWh DC >60kW (0,40€/min parked without charging)",
     "AddressInfo": {
         "ID": 265625,
-        "Title": "KIA Hipergar (Wenea)",
+        "Title": "KIA Camponaraya ",
         "AddressLine1": "Carretera Madrid a A Coruña",
         "StateOrProvince": "Castilla y León",
         "Postcode": "24410",
         "CountryID": 210,
-        "Latitude": 42.565443557727804,
-        "Longitude": -6.666592258168862,
+        "Latitude": 42.56534174576797,
+        "Longitude": -6.666865231639406,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,35 +23,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 250,
+            "Voltage": 950,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": ""
-        },
-        {
-            "ID": 449638,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 449639,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "XCharge NZS 210 (Peak 250A). Max combined power for two simultaneous charges 210 kW. Charger with a 233 kWh boost battery. Power limited to 68kW when charger battery is low of charge. (max power limited to 100kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-10-11T07:54:00Z",
+    "DateLastStatusUpdate": "2024-11-22T10:52:00Z",
     "DateCreated": "2023-05-07T14:19:00Z",
     "SubmissionStatusTypeID": 200
 }

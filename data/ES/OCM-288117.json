@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-12-11T07:56:00Z",
+    "MediaItems": [
+        {
+            "ID": 42039,
+            "ChargePointID": 288117,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM288117/OCM-288117.orig.2024042010172196.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM288117/OCM-288117.thmb.2024042010172196.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-04-20T10:17:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-04-25T16:02:00Z",
     "ID": 288117,
     "UUID": "A4877FA9-A59B-4DCB-892C-20E80FA265B7",
     "DataProviderID": 1,
@@ -24,9 +42,9 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 500,
-            "Voltage": 920,
-            "PowerKW": 150,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "Hypercharger HYC150 CCS/Chademo charger."
@@ -36,27 +54,28 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
+            "Amps": 125,
             "Voltage": 400,
-            "PowerKW": 80,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "Hypercharger HYC150 CCS/Chademo charger."
         },
         {
             "ID": 504492,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Hypercharger HYC150 CCS/Chademo charger."
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Power currently limited to 50kW",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-11T07:56:00Z",
+    "DateLastStatusUpdate": "2024-04-25T16:02:00Z",
     "DateCreated": "2023-12-11T07:50:00Z",
     "SubmissionStatusTypeID": 200
 }

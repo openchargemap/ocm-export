@@ -1,23 +1,41 @@
 {
-    "DateLastVerified": "2021-11-15T15:04:00Z",
+    "MediaItems": [
+        {
+            "ID": 43842,
+            "ChargePointID": 19102,
+            "ItemURL": "https://media.openchargemap.io/images/IE/OCM19102/OCM-19102.orig.2024101617523794.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IE/OCM19102/OCM-19102.thmb.2024101617523794.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 15963,
+                "Username": "thommcg"
+            },
+            "DateCreated": "2024-10-16T17:53:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-16T17:53:00Z",
     "ID": 19102,
     "UUID": "1F523511-4A60-44D6-A58A-3B5D688B4606",
     "DataProviderID": 1,
-    "OperatorID": 7,
-    "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "OperatorID": 3449,
+    "UsageTypeID": 4,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 19447,
-        "Title": " Dungarvan Nissan",
+        "Title": "Circle K / Dungarvan MotorMall",
         "AddressLine1": "Youghal Road",
         "AddressLine2": "",
         "Town": "Dungarvan",
-        "StateOrProvince": "Waterford",
+        "StateOrProvince": "Co. Waterford",
         "Postcode": "",
         "CountryID": 3,
         "Latitude": 52.0840332941622,
         "Longitude": -7.634018815174841,
-        "ContactTelephone1": "058 44888",
+        "ContactTelephone1": "",
         "ContactTelephone2": "",
         "ContactEmail": "efitzgerald@nissan.ie",
         "AccessComments": "",
@@ -28,19 +46,28 @@
         {
             "ID": 19343,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 230,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 575479,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-15T15:04:00Z",
+    "DateLastStatusUpdate": "2024-10-16T17:53:00Z",
     "DateCreated": "2013-09-11T10:25:00Z",
     "SubmissionStatusTypeID": 200
 }

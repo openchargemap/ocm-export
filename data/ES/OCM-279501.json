@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-02-09T21:48:00Z",
+    "DateLastVerified": "2024-11-24T19:30:00Z",
     "ID": 279501,
     "UUID": "60BC9FAA-CA43-4BE7-9173-686F5EF8D1FE",
     "DataProviderID": 1,
@@ -13,8 +13,8 @@
         "StateOrProvince": "Asturias / Asturies",
         "Postcode": "33429",
         "CountryID": 210,
-        "Latitude": 43.387666679746104,
-        "Longitude": -5.80593744589487,
+        "Latitude": 43.38753838884793,
+        "Longitude": -5.806979960841289,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -39,8 +39,8 @@
             "Voltage": 920,
             "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Ingeteam RAPID120 Charger. "
+            "Quantity": 1,
+            "Comments": "Ingeteam RAPID120 CCS/Chademo Charger. "
         },
         {
             "ID": 513778,
@@ -49,13 +49,24 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 12
+            "Quantity": 16
+        },
+        {
+            "ID": 572995,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 400,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 16,
+    "NumberOfPoints": 20,
     "GeneralComments": "Underground parking",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-09T21:48:00Z",
+    "DateLastStatusUpdate": "2024-11-24T19:30:00Z",
     "DateCreated": "2023-10-28T18:55:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,9 +1,9 @@
 {
-    "DateLastVerified": "2021-11-09T19:07:00Z",
+    "DateLastVerified": "2024-09-23T08:05:00Z",
     "ID": 106217,
     "UUID": "4D7C6C92-BFCD-4C9B-8CD8-8D14D1977D7E",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3667,
     "OperatorsReference": "44335",
     "UsageTypeID": 4,
     "AddressInfo": {
@@ -15,24 +15,33 @@
         "CountryID": 3,
         "Latitude": 54.218566,
         "Longitude": -9.976864,
-        "ContactTelephone1": "+353 972 0600",
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 149553,
             "ConnectionTypeID": 30,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "PowerKW": 5,
             "CurrentTypeID": 10,
             "Quantity": 2
+        },
+        {
+            "ID": 576257,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 3
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 5kW.Available to the public. Self park.",
+    "NumberOfPoints": 3,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-09T19:07:00Z",
+    "DateLastStatusUpdate": "2024-09-23T08:05:00Z",
     "DateCreated": "2018-06-17T05:35:00Z",
     "SubmissionStatusTypeID": 200
 }

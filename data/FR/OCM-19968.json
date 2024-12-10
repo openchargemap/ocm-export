@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2013-10-23T13:11:00Z",
+    "DateLastVerified": "2024-03-06T17:53:00Z",
     "ID": 19968,
     "UUID": "43C56808-9FEC-4B4B-869B-AE02703D4933",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 0,
-    "UsageCost": "",
+    "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 20313,
         "Title": "Place du Château - Valognes",
@@ -15,19 +15,41 @@
         "StateOrProvince": "Valognes",
         "Postcode": "50700",
         "CountryID": 80,
-        "Latitude": 49.50938,
-        "Longitude": -1.47173,
-        "ContactTelephone1": "",
+        "Latitude": 49.50903526696487,
+        "Longitude": -1.472290005992562,
+        "ContactTelephone1": "(+33)233958200",
         "ContactTelephone2": "",
         "ContactEmail": "",
         "AccessComments": "Ouvert à tous",
-        "RelatedURL": "",
+        "RelatedURL": "https://www.valognes.fr/vivre-a-valognes/stationnement/",
         "DistanceUnit": 0
     },
-    "Connections": [],
-    "GeneralComments": "",
+    "Connections": [
+        {
+            "ID": 528017,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 528018,
+            "ConnectionTypeID": 23,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 220,
+            "PowerKW": 3.5,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "Owned by the city hall of Valognes",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2013-10-23T13:11:00Z",
+    "DateLastStatusUpdate": "2024-03-06T17:53:00Z",
     "DateCreated": "2013-10-23T07:43:00Z",
     "SubmissionStatusTypeID": 200
 }

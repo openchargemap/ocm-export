@@ -16,13 +16,13 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2024-02-10T12:20:00Z",
+    "DateLastVerified": "2024-04-16T12:11:00Z",
     "ID": 145964,
     "UUID": "19B87CFB-3326-4546-A839-AEB45F89236F",
     "DataProviderID": 1,
     "OperatorID": 3733,
     "UsageTypeID": 1,
-    "UsageCost": "$1.00 + $0.21/min",
+    "UsageCost": "$0.52/kwh",
     "AddressInfo": {
         "ID": 146316,
         "Title": "Downtown Woodward",
@@ -42,28 +42,28 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 350,
             "Voltage": 950,
             "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "200kwh nameplate stations are derated to < 50kwh"
         },
         {
             "ID": 202971,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
             "Voltage": 500,
-            "PowerKW": 100,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "100kwh nameplate rating derated to <50kwh"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "Four Stations--Each with CCS/CHAdeMO",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-10T12:20:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2024-04-16T12:11:00Z",
     "DateCreated": "2019-12-30T20:54:00Z",
     "SubmissionStatusTypeID": 200
 }

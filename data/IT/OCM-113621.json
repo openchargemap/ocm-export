@@ -1,5 +1,71 @@
 {
-    "DateLastVerified": "2018-12-24T14:45:00Z",
+    "MediaItems": [
+        {
+            "ID": 41799,
+            "ChargePointID": 113621,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM113621/OCM-113621.orig.2024032712322774.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM113621/OCM-113621.thmb.2024032712322774.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27925,
+                "Username": "MauroneRelax"
+            },
+            "DateCreated": "2024-03-27T12:33:00Z"
+        },
+        {
+            "ID": 41800,
+            "ChargePointID": 113621,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM113621/OCM-113621.orig.2024032712325135.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM113621/OCM-113621.thmb.2024032712325135.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27925,
+                "Username": "MauroneRelax"
+            },
+            "DateCreated": "2024-03-27T12:33:00Z"
+        },
+        {
+            "ID": 41801,
+            "ChargePointID": 113621,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM113621/OCM-113621.orig.2024032712331056.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM113621/OCM-113621.thmb.2024032712331056.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27925,
+                "Username": "MauroneRelax"
+            },
+            "DateCreated": "2024-03-27T12:33:00Z"
+        },
+        {
+            "ID": 41798,
+            "ChargePointID": 113621,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM113621/OCM-113621.orig.2024032712320294.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM113621/OCM-113621.thmb.2024032712320294.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 27925,
+                "Username": "MauroneRelax"
+            },
+            "DateCreated": "2024-03-27T12:32:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-03-27T12:36:00Z",
     "ID": 113621,
     "UUID": "DABFF803-20E0-4A12-B9B0-A14B68F0A4D5",
     "DataProviderID": 1,
@@ -8,7 +74,7 @@
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 113967,
-        "Title": "Distributore Total ",
+        "Title": "Distributore Tamoil Detas AC 2x 22 kW (EvTrip)",
         "AddressLine1": "Via Bonfadina 61",
         "Town": "Cazzago San Martino ",
         "StateOrProvince": "BS",
@@ -16,12 +82,14 @@
         "CountryID": 112,
         "Latitude": 45.56877,
         "Longitude": 10.03219,
+        "RelatedURL": "http://www.evchargers.it",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 160131,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
+            "Reference": "SCC Cazzago",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -31,9 +99,10 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Visibile da app EvTrip (app riferimento Detas)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-12-24T14:45:00Z",
+    "DateLastStatusUpdate": "2024-03-27T12:36:00Z",
     "DateCreated": "2018-12-24T11:28:00Z",
     "SubmissionStatusTypeID": 200
 }

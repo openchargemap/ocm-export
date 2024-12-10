@@ -1,21 +1,20 @@
 {
-    "DateLastVerified": "2023-07-04T09:25:00Z",
+    "DateLastVerified": "2024-08-13T07:37:00Z",
     "ID": 270001,
     "UUID": "2991BAD7-DDC2-4ABA-8AEE-4D7AB886553D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "261527",
+    "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 1,
+    "UsageTypeID": 2,
     "AddressInfo": {
         "ID": 270385,
-        "Title": "MASSPORT TNC 5",
-        "AddressLine1": "226 Porter St",
+        "Title": "MassPort TNC Lot (Ride App Staging Lot)",
+        "AddressLine1": "1 Harborside Drive",
         "Town": "Boston",
         "StateOrProvince": "MA",
         "Postcode": "02128",
         "CountryID": 2,
-        "Latitude": 42.370779,
-        "Longitude": -71.028975,
+        "Latitude": 42.370577837123896,
+        "Longitude": -71.02975579413048,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,26 +24,37 @@
         {
             "ID": 459652,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 6
         },
         {
             "ID": 459653,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 6
+        },
+        {
+            "ID": 529005,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 200,
+            "PowerKW": 6.48,
+            "CurrentTypeID": 10,
+            "Quantity": 4
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "Restricted to TNC/Ride App drivers staging for a pickup.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T09:25:00Z",
+    "DateLastStatusUpdate": "2024-08-13T07:37:00Z",
     "DateCreated": "2023-07-04T07:26:00Z",
     "SubmissionStatusTypeID": 100
 }

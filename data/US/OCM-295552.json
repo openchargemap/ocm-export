@@ -1,9 +1,26 @@
 {
-    "DateLastVerified": "2024-02-20T10:53:00Z",
+    "MediaItems": [
+        {
+            "ID": 42242,
+            "ChargePointID": 295552,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM295552/OCM-295552.orig.2024050912373256.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM295552/OCM-295552.thmb.2024050912373256.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 42995,
+                "Username": "AndyK"
+            },
+            "DateCreated": "2024-05-09T12:38:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-05-09T12:41:00Z",
     "ID": 295552,
     "UUID": "E20536D1-C12F-419C-B461-209AC4F40761",
-    "DataProviderID": 2,
-    "DataProvidersReference": "121703",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +31,8 @@
         "StateOrProvince": "WA",
         "Postcode": "99037",
         "CountryID": 2,
-        "Latitude": 47.66698,
-        "Longitude": -117.19179,
+        "Latitude": 47.66565814337062,
+        "Longitude": -117.19014776857122,
         "ContactTelephone1": "833-632-2778",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.electrifyamerica.com/",
@@ -25,24 +42,35 @@
         {
             "ID": 527092,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 527093,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 546307,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:53:00Z",
+    "DateLastStatusUpdate": "2024-05-09T12:41:00Z",
     "DateCreated": "2024-02-20T10:53:00Z",
     "SubmissionStatusTypeID": 100
 }

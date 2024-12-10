@@ -44,6 +44,22 @@
     ],
     "MediaItems": [
         {
+            "ID": 43549,
+            "ChargePointID": 22651,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM22651/OCM-22651.orig.2024090821454509.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM22651/OCM-22651.thmb.2024090821454509.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36388,
+                "Username": "Celso Azevedo"
+            },
+            "DateCreated": "2024-09-08T21:46:00Z"
+        },
+        {
             "ID": 8230,
             "ChargePointID": 22651,
             "ItemURL": "https://media.openchargemap.io/images/GB/OCM22651/OCM-22651.orig.2016090120311829.jpg",
@@ -60,31 +76,33 @@
             "DateCreated": "2016-09-01T20:32:00Z"
         }
     ],
-    "DateLastVerified": "2018-11-02T08:47:00Z",
+    "DateLastVerified": "2024-09-08T21:46:00Z",
     "ID": 22651,
     "UUID": "08047CA0-BC40-499C-A6B2-3CE1234D94B0",
     "DataProviderID": 1,
     "OperatorID": 150,
     "OperatorsReference": "Car Park Opposite Sainsbury",
-    "UsageTypeID": 4,
-    "UsageCost": "Â£1.00 + Â£0.30/kWh,Â£0.50 + Â£0.30/kWh",
+    "UsageTypeID": 1,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 22996,
-        "Title": "London Road, Southend on Sea",
+        "Title": "London Road, Oppostite to Sainsbury's",
         "AddressLine1": "London Road",
         "Town": "Southend on Sea",
         "StateOrProvince": "Essex",
         "Postcode": "SS1 1PL",
         "CountryID": 1,
-        "Latitude": 51.540115,
-        "Longitude": 0.709128,
-        "AccessComments": "In EV only bays, outside Evolve Gym. Opposite Sainsburys supermarket.",
+        "Latitude": 51.54014197565578,
+        "Longitude": 0.7091867040289396,
+        "AccessComments": "In EV only bays. Opposite Sainsbury's supermarket.",
+        "RelatedURL": "https://www.geniepoint.co.uk/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 24332,
             "ConnectionTypeID": 2,
+            "Reference": "GP10822",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -94,6 +112,7 @@
         {
             "ID": 145744,
             "ConnectionTypeID": 33,
+            "Reference": "GP10822",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -103,6 +122,7 @@
         {
             "ID": 146016,
             "ConnectionTypeID": 25,
+            "Reference": "GP10822",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -110,12 +130,22 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 574726,
+            "ConnectionTypeID": 25,
+            "Reference": "GP10032",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "Replacement charge point. Now on Chargepoint Genie.",
+    "NumberOfPoints": 5,
+    "GeneralComments": "",
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2018-11-02T08:47:00Z",
+    "DateLastStatusUpdate": "2024-09-08T21:46:00Z",
     "MetadataValues": [
         {
             "ID": 638,

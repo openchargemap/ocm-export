@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-02-04T18:11:00Z",
+    "DateLastVerified": "2024-12-07T19:27:00Z",
     "ID": 274429,
     "UUID": "A0EC3D21-31FA-4673-88AE-169F89B1618E",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh",
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 274813,
         "Title": "Univ. Oviedo Medicina (Zunder)",
@@ -14,24 +14,27 @@
         "StateOrProvince": "Asturias / Asturies",
         "Postcode": "33006",
         "CountryID": 210,
-        "Latitude": 43.35581963496628,
-        "Longitude": -5.870442945194952,
+        "Latitude": 43.35596824136874,
+        "Longitude": -5.869883197239801,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 475778,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Two Kempower CCS Satellite chargers  that dynamically share the total power of the cabinet (200 kW)."
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-04T18:11:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-12-07T19:27:00Z",
     "DateCreated": "2023-09-11T20:47:00Z",
     "SubmissionStatusTypeID": 200
 }

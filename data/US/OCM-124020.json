@@ -1,10 +1,9 @@
 {
-    "DateLastVerified": "2019-12-24T09:14:00Z",
+    "DateLastVerified": "2024-06-04T14:15:00Z",
     "ID": 124020,
     "UUID": "BD9F08D4-E4D4-44D4-9491-59AC2ADA092A",
-    "DataProviderID": 2,
-    "DataProvidersReference": "69051",
-    "OperatorID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 15,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 124366,
@@ -14,8 +13,8 @@
         "StateOrProvince": "CA",
         "Postcode": "94030",
         "CountryID": 2,
-        "Latitude": 37.600576,
-        "Longitude": -122.392399,
+        "Latitude": 37.60116443942439,
+        "Longitude": -122.39282937735743,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -23,17 +22,35 @@
     },
     "Connections": [
         {
-            "ID": 174062,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 4
+            "ID": 552805,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 552806,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 552807,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2019-12-24T09:14:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-06-04T14:15:00Z",
     "DateCreated": "2019-04-06T05:03:00Z",
     "SubmissionStatusTypeID": 100
 }

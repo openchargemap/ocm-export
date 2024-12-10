@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-11-28T14:59:00Z",
+    "DateLastVerified": "2024-07-09T12:38:00Z",
     "ID": 226619,
     "UUID": "59620DB2-AC67-4F16-801B-6ACB50A597C1",
     "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "0.20",
     "AddressInfo": {
         "ID": 227002,
         "Title": "COR EV CHARGERS SUNDIAL BR 2",
@@ -24,11 +25,11 @@
         {
             "ID": 378004,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4
         },
         {
             "ID": 378005,
@@ -37,8 +38,7 @@
             "LevelID": 3,
             "PowerKW": 125,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2
         },
         {
             "ID": 488081,
@@ -50,11 +50,11 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "These chargers are poorly maintained",
+    "NumberOfPoints": 4,
+    "GeneralComments": "2 of 4 are working. They share voltage so it varies between 30kW and 60kW",
     "DatePlanned": "2022-11-15T00:00:00Z",
     "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2023-11-28T14:59:00Z",
+    "DateLastStatusUpdate": "2024-07-09T12:38:00Z",
     "DateCreated": "2023-02-13T05:19:00Z",
     "SubmissionStatusTypeID": 100
 }

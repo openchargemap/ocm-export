@@ -1,5 +1,104 @@
 {
-    "DateLastVerified": "2023-09-19T18:07:00Z",
+    "UserComments": [
+        {
+            "ID": 29594,
+            "ChargePointID": 193040,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Nessun problema nel connettore di sinistra della colonnina di sinistra con app Recharge Around di Repower ed ho interrotto avvicinandomi all'auto e premendo il pulsante sulla presa auto. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/colonnine-free-to-x-high-power-ads-san-martino-est-san-martino-pr-a1-km-644-verso-milano-t36542.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-free-to-x-high-power-ads-san-martino-est-san-martino-pr-a1-km-644-verso-milano-t36542.html",
+            "DateCreated": "2024-03-17T16:59:37.877Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 41714,
+            "ChargePointID": 193040,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM193040/OCM-193040.orig.2024031717002649.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM193040/OCM-193040.thmb.2024031717002649.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-03-17T17:01:00Z"
+        },
+        {
+            "ID": 41710,
+            "ChargePointID": 193040,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM193040/OCM-193040.orig.2024031716594754.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM193040/OCM-193040.thmb.2024031716594754.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-03-17T17:00:00Z"
+        },
+        {
+            "ID": 41711,
+            "ChargePointID": 193040,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM193040/OCM-193040.orig.2024031716595697.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM193040/OCM-193040.thmb.2024031716595697.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-03-17T17:00:00Z"
+        },
+        {
+            "ID": 41712,
+            "ChargePointID": 193040,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM193040/OCM-193040.orig.2024031717000612.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM193040/OCM-193040.thmb.2024031717000612.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-03-17T17:00:00Z"
+        },
+        {
+            "ID": 41713,
+            "ChargePointID": 193040,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM193040/OCM-193040.orig.2024031717001284.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM193040/OCM-193040.thmb.2024031717001284.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-03-17T17:00:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-03-17T17:01:00Z",
     "ID": 193040,
     "UUID": "F9BF8631-BB36-43C3-9707-1B8D5D0D7F19",
     "DataProviderID": 1,
@@ -7,7 +106,7 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 193399,
-        "Title": "Free to X San Martino Est",
+        "Title": "Free To X ADS San Martino Est",
         "AddressLine1": "AdS San Martino Est",
         "Town": "Parma",
         "StateOrProvince": "Emilia-Romagna",
@@ -15,6 +114,7 @@
         "CountryID": 112,
         "Latitude": 44.82751007450452,
         "Longitude": 10.379352372322614,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-free-to-x-high-power-ads-san-martino-est-san-martino-pr-a1-km-644-verso-milano-t36542.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,12 +125,36 @@
             "LevelID": 3,
             "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 4
+        },
+        {
+            "ID": 532836,
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 532837,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 532838,
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-09-19T18:07:00Z",
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-03-17T17:01:00Z",
     "DateCreated": "2022-05-12T19:36:00Z",
     "SubmissionStatusTypeID": 200
 }

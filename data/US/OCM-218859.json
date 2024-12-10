@@ -1,20 +1,21 @@
 {
-    "DateLastVerified": "2024-02-20T09:39:00Z",
+    "DateLastVerified": "2024-10-17T18:04:00Z",
     "ID": 218859,
     "UUID": "ED275B95-2A14-4DAD-BD5A-258FE6689D68",
-    "DataProviderID": 2,
-    "DataProvidersReference": "218356",
-    "UsageTypeID": 2,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": ".49/kwh + .5/Session",
     "AddressInfo": {
         "ID": 219242,
-        "Title": "B&G Warehouse Services",
+        "Title": "Deep Ellum DC",
         "AddressLine1": "496 S Good Latimer Expy",
         "Town": "Dallas",
         "StateOrProvince": "TX",
         "Postcode": "75226",
         "CountryID": 2,
-        "Latitude": 32.78096,
-        "Longitude": -96.78565,
+        "Latitude": 32.78092275657032,
+        "Longitude": -96.78559929744586,
         "ContactTelephone1": "",
         "AccessComments": "24 hours daily",
         "RelatedURL": "",
@@ -23,27 +24,45 @@
     "Connections": [
         {
             "ID": 369211,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 369212,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 160,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 577951,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 577952,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "GeneralComments": "Operational",
     "DatePlanned": "2024-01-01T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-20T09:39:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-10-17T18:04:00Z",
     "DateCreated": "2023-02-13T04:56:00Z",
     "SubmissionStatusTypeID": 100
 }

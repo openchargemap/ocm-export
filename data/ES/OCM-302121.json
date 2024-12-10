@@ -1,0 +1,49 @@
+{
+    "DateLastVerified": "2024-07-28T17:06:00Z",
+    "ID": 302121,
+    "UUID": "F2284661-9175-45F0-92AC-0CC085E9DB4F",
+    "DataProviderID": 1,
+    "OperatorID": 3550,
+    "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh DC - 0,43€/kWh AC",
+    "AddressInfo": {
+        "ID": 302508,
+        "Title": "C.C. Arrecife",
+        "AddressLine1": "Calle Domingo Ramírez Ferrera",
+        "AddressLine2": "La Vega",
+        "Town": "Arrecife",
+        "Postcode": "35507",
+        "CountryID": 210,
+        "Latitude": 28.965591735583672,
+        "Longitude": -13.553174091291396,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 566024,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 950,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 3,
+            "Comments": "Four Kempower CCS/Chademo Satellite chargers that dynamically share the total power of the cabinet (200 kW). Charging power limited for 400V cars."
+        },
+        {
+            "ID": 566025,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 4,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-07-28T17:06:00Z",
+    "DateCreated": "2024-07-28T17:06:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,13 +1,13 @@
 {
-    "DateLastVerified": "2024-02-20T10:01:00Z",
+    "DateLastVerified": "2024-12-02T19:32:00Z",
     "ID": 294093,
     "UUID": "23CC969A-F905-44B6-AC26-700B5E8A48E0",
-    "DataProviderID": 2,
-    "DataProvidersReference": "257832",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 294480,
-        "Title": "Taco Bell",
+        "Title": "ChargeNet Taco Bell",
         "AddressLine1": "465 El Camino Real",
         "Town": "South San Francisco",
         "StateOrProvince": "CA",
@@ -17,7 +17,7 @@
         "Longitude": -122.42894,
         "ContactTelephone1": "650-583-3473",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "",
+        "RelatedURL": "https://chargenetstations.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -36,23 +36,27 @@
             "ID": 525382,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 125,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 525383,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "PowerKW": 75,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "The J1772 L2 chargers are ClipperCreek units located at the left side when entering the driveway. Its the parking stalls behind the drive through menu board.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:01:00Z",
+    "DateLastStatusUpdate": "2024-12-02T19:32:00Z",
     "DateCreated": "2024-02-20T10:01:00Z",
     "SubmissionStatusTypeID": 100
 }

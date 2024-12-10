@@ -17,7 +17,7 @@
             "DateCreated": "2023-11-19T18:04:00Z"
         }
     ],
-    "DateLastVerified": "2023-11-19T18:04:00Z",
+    "DateLastVerified": "2024-09-13T11:23:00Z",
     "ID": 146087,
     "UUID": "88F1E27B-0E3E-4F2B-BEBD-0E017A1031A5",
     "DataProviderID": 1,
@@ -26,7 +26,7 @@
     "UsageCost": "0,42€/kWh 50 kW - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 146439,
-        "Title": "Avenida de las Letras",
+        "Title": "PCYTEX Cáceres",
         "AddressLine1": "Avenida de las Letras",
         "AddressLine2": "Campus Universitario",
         "Town": "Cáceres",
@@ -41,34 +41,28 @@
         {
             "ID": 202981,
             "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 202982,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Ingeteam Rapid60. Power is split between both outlets. The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
         },
         {
             "ID": 202983,
             "ConnectionTypeID": 25,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
+            "LevelID": 2,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "App. Wenea",
+    "NumberOfPoints": 4,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-19T18:04:00Z",
+    "DateLastStatusUpdate": "2024-09-13T11:23:00Z",
     "DateCreated": "2019-12-31T13:16:00Z",
     "SubmissionStatusTypeID": 200
 }

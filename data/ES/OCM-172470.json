@@ -17,13 +17,13 @@
             "DateCreated": "2022-08-28T08:05:00Z"
         }
     ],
-    "DateLastVerified": "2024-02-04T18:29:00Z",
+    "DateLastVerified": "2024-09-01T09:29:00Z",
     "ID": 172470,
     "UUID": "F961E80E-1343-40A7-8215-F84FB7B8F13C",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0.45 €/kWh",
+    "UsageCost": "0.55 €/kWh DC",
     "AddressInfo": {
         "ID": 172829,
         "Title": "Manzanares (Zunder)",
@@ -32,8 +32,8 @@
         "StateOrProvince": "Castile-La Mancha",
         "Postcode": "13200",
         "CountryID": 210,
-        "Latitude": 39.006450327551875,
-        "Longitude": -3.3836378937072595,
+        "Latitude": 39.00617156002136,
+        "Longitude": -3.3838610879097644,
         "AccessComments": "app easycharger",
         "DistanceUnit": 0
     },
@@ -43,19 +43,24 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "ABB Terra54 Charger"
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited to 150kW for 400V cars"
         },
         {
             "ID": 263716,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "ABB Terra54"
         },
         {
             "ID": 263717,
@@ -65,11 +70,22 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 573377,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-04T18:29:00Z",
+    "DateLastStatusUpdate": "2024-09-01T09:29:00Z",
     "DateCreated": "2021-02-04T16:26:00Z",
     "SubmissionStatusTypeID": 200
 }

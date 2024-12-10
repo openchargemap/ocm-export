@@ -1,49 +1,40 @@
 {
-    "DateLastVerified": "2024-02-20T10:59:00Z",
+    "DateLastVerified": "2024-02-23T10:12:00Z",
     "ID": 250589,
     "UUID": "0EEEB175-C67B-4374-BB49-46207730B108",
-    "DataProviderID": 2,
-    "DataProvidersReference": "255046",
-    "UsageTypeID": 2,
+    "DataProviderID": 1,
+    "OperatorID": 3756,
+    "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 250973,
-        "Title": "Parkland Corp",
-        "AddressLine1": "243 CARSON AVE",
-        "Town": "QUESNEL",
-        "StateOrProvince": "BC",
+        "Title": "On The Run - Convenience Store",
+        "AddressLine1": "Carson Avenue",
+        "AddressLine2": "West Quesnel",
+        "StateOrProvince": "British Columbia",
         "Postcode": "V2J 2B2",
         "CountryID": 44,
         "Latitude": 52.9759,
         "Longitude": -122.496,
-        "ContactTelephone1": "",
-        "AccessComments": "",
-        "RelatedURL": "",
+        "ContactTelephone1": "+1 250-991-5192",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 417602,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
-            "ID": 417603,
+            "ID": 527474,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "NumberOfPoints": 4,
+    "GeneralComments": "Simultaneous ultra-fast EV charging (max CCS 150 kW). These chargers use an internal battery to ease the burden on the electrical gird and allow us to place more chargers in more locations to serve EV drivers. Max charging speeds may vary. Charging your vehicle may take longer when Power Conservation Mode appears on the charger screen after high usage.",
     "DatePlanned": "2023-06-15T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-20T10:59:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-23T10:12:00Z",
     "DateCreated": "2023-03-07T06:05:00Z",
     "SubmissionStatusTypeID": 100
 }

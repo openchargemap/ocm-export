@@ -1,4 +1,20 @@
 {
+    "UserComments": [
+        {
+            "ID": 29937,
+            "ChargePointID": 88659,
+            "CommentTypeID": 10,
+            "UserName": "thommcg",
+            "Comment": "Now replaced with additional ChargePoint units",
+            "DateCreated": "2024-08-18T10:34:47.577Z",
+            "User": {
+                "ID": 15963,
+                "Username": "thommcg"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
         {
             "ID": 12805,
@@ -33,13 +49,13 @@
             "DateCreated": "2017-06-07T09:47:00Z"
         }
     ],
-    "DateLastVerified": "2017-06-07T18:39:00Z",
+    "DateLastVerified": "2024-08-18T10:35:00Z",
     "ID": 88659,
     "UUID": "CBC99190-FD06-47E2-A942-5B0C21157B5C",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "OperatorID": 5,
+    "UsageTypeID": 4,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 89005,
         "Title": "Kildare Village Shopping Outlet",
@@ -48,30 +64,39 @@
         "StateOrProvince": "County Kildare",
         "Postcode": "R51 R265",
         "CountryID": 3,
-        "Latitude": 53.1550600254905,
-        "Longitude": -6.91879903425444,
+        "Latitude": 53.1548254590208,
+        "Longitude": -6.91825036915742,
         "ContactTelephone1": "+353 (0)45 520501",
         "ContactEmail": "KVTIC@valueretail.com",
-        "AccessComments": "Free Access to Public. 2 x Standing Car Points installed capable of charging 4 cars at once. \r\nInstalled 20/05/2017.",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 125752,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 4
+        },
+        {
+            "ID": 570183,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 8
         }
     ],
-    "NumberOfPoints": 4,
-    "GeneralComments": "New Electric/Plug-in Hybrid Charging Points in the North Car Park. \r\n4 Charging Bays provided with 32Amp 3 Phase 22kW IEC 62196 Type-2 Charging Ports",
+    "NumberOfPoints": 8,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-06-07T18:39:00Z",
+    "DateLastStatusUpdate": "2024-08-18T10:35:00Z",
     "DateCreated": "2017-06-07T09:44:00Z",
     "SubmissionStatusTypeID": 200
 }

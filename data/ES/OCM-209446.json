@@ -1,21 +1,40 @@
 {
-    "DateLastVerified": "2022-10-30T22:54:00Z",
+    "MediaItems": [
+        {
+            "ID": 44095,
+            "ChargePointID": 209446,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM209446/OCM-209446.orig.2024111414333815.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM209446/OCM-209446.thmb.2024111414333815.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 55071,
+                "Username": "Andrea"
+            },
+            "DateCreated": "2024-11-14T14:34:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-15T13:02:00Z",
     "ID": 209446,
     "UUID": "05E78989-2B55-4964-81BE-4A5EEF0D85B9",
     "DataProviderID": 1,
     "OperatorID": 2247,
-    "UsageTypeID": 4,
-    "UsageCost": "0,20€/kWh",
+    "UsageTypeID": 6,
+    "UsageCost": "0,15 - 0,40 €/kWh",
     "AddressInfo": {
         "ID": 209826,
-        "Title": "Bodega Ermina",
-        "AddressLine1": "VP-3001",
-        "AddressLine2": "San Bernardo",
+        "Title": "La Espadaña",
+        "AddressLine1": "Carretera San Bernardo s/n",
+        "AddressLine2": "",
+        "Town": "Valbuena de Duero",
         "StateOrProvince": "Castilla y León",
         "Postcode": "47359",
         "CountryID": 210,
-        "Latitude": 41.640385707671754,
-        "Longitude": -4.258909961857512,
+        "Latitude": 41.64037417357008,
+        "Longitude": -4.258318730645641,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,6 +43,8 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
@@ -31,7 +52,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-30T22:54:00Z",
+    "DateLastStatusUpdate": "2024-11-15T13:02:00Z",
     "DateCreated": "2022-10-28T14:54:00Z",
     "SubmissionStatusTypeID": 200
 }

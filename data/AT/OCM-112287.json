@@ -1,10 +1,28 @@
 {
-    "DateLastVerified": "2018-10-23T12:21:00Z",
+    "MediaItems": [
+        {
+            "ID": 44287,
+            "ChargePointID": 112287,
+            "ItemURL": "https://media.openchargemap.io/images/AT/OCM112287/OCM-112287.orig.2024112200180387.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AT/OCM112287/OCM-112287.thmb.2024112200180387.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 55184,
+                "Username": "MSeitl"
+            },
+            "DateCreated": "2024-11-22T00:18:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-22T14:53:00Z",
     "ID": 112287,
     "UUID": "E536C622-4CEE-4787-8C7C-BA07409617D8",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 6,
+    "UsageTypeID": 1,
     "UsageCost": "Freiwillige Spende",
     "AddressInfo": {
         "ID": 112633,
@@ -14,8 +32,8 @@
         "StateOrProvince": "NOE",
         "Postcode": "3542",
         "CountryID": 19,
-        "Latitude": 48.56189758631447,
-        "Longitude": 15.484526123278783,
+        "Latitude": 48.561865634513566,
+        "Longitude": 15.484464434430919,
         "AccessComments": "Am Parkplatz der AllesEDV GmbH",
         "RelatedURL": "https://www.allesedv.at",
         "DistanceUnit": 0
@@ -28,7 +46,8 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Blaue ABB Ladesäule"
         },
         {
             "ID": 157904,
@@ -39,12 +58,24 @@
             "Voltage": 400,
             "PowerKW": 11.1,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Drehstromdose unter Balkon"
+        },
+        {
+            "ID": 582586,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Voltage": 500,
+            "PowerKW": 20,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Blaue ABB Ladesäule"
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-10-23T12:21:00Z",
+    "DateLastStatusUpdate": "2024-11-22T14:53:00Z",
     "DateCreated": "2018-10-23T09:12:00Z",
     "SubmissionStatusTypeID": 200
 }

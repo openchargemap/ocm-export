@@ -1,5 +1,104 @@
 {
-    "DateLastVerified": "2024-02-07T12:08:00Z",
+    "UserComments": [
+        {
+            "ID": 29881,
+            "ChargePointID": 193036,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "La prima stazione di ricarica che si trova dopo Bologna in direzione Firenze, in un'area di servizio abbastanza trafficata. Leggi la recensione completa qui > https://www.forumelettrico.it/forum/colonnine-free-to-x-high-power-ads-cantagallo-ovest-a1-verso-firenze-t31482.html",
+            "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-free-to-x-high-power-ads-cantagallo-ovest-a1-verso-firenze-t31482.html",
+            "DateCreated": "2024-07-26T17:21:33.673Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 43052,
+            "ChargePointID": 193036,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM193036/OCM-193036.orig.2024072617214310.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM193036/OCM-193036.thmb.2024072617214310.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-07-26T17:22:00Z"
+        },
+        {
+            "ID": 43053,
+            "ChargePointID": 193036,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM193036/OCM-193036.orig.2024072617214878.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM193036/OCM-193036.thmb.2024072617214878.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-07-26T17:22:00Z"
+        },
+        {
+            "ID": 43054,
+            "ChargePointID": 193036,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM193036/OCM-193036.orig.2024072617215426.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM193036/OCM-193036.thmb.2024072617215426.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-07-26T17:22:00Z"
+        },
+        {
+            "ID": 43055,
+            "ChargePointID": 193036,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM193036/OCM-193036.orig.2024072617215995.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM193036/OCM-193036.thmb.2024072617215995.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-07-26T17:22:00Z"
+        },
+        {
+            "ID": 43056,
+            "ChargePointID": 193036,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM193036/OCM-193036.orig.2024072617220556.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM193036/OCM-193036.thmb.2024072617220556.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-07-26T17:22:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-07-26T17:22:00Z",
     "ID": 193036,
     "UUID": "1D4F4FB1-FA88-4AF3-96EF-3A3C25C0EA46",
     "DataProviderID": 1,
@@ -7,14 +106,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 193395,
-        "Title": "Free to X Cantagallo Ovest",
-        "AddressLine1": "AdS Cantagallo Ovest",
+        "Title": "Free To X AdS Cantagallo Ovest",
+        "AddressLine1": "A1 km 200 (verso Napoli)",
         "Town": "Casalecchio di Reno",
-        "StateOrProvince": "Emilia-Romagna",
-        "Postcode": "4000330",
+        "StateOrProvince": "BO",
         "CountryID": 112,
         "Latitude": 44.456118120794116,
         "Longitude": 11.279563235431283,
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnine-free-to-x-high-power-ads-cantagallo-ovest-a1-verso-firenze-t31482.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -44,11 +143,19 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 565260,
+            "ConnectionTypeID": 25,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-07T12:08:00Z",
+    "DateLastStatusUpdate": "2024-07-26T17:22:00Z",
     "DateCreated": "2022-05-12T19:30:00Z",
     "SubmissionStatusTypeID": 200
 }

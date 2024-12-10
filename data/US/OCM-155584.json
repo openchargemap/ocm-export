@@ -15,13 +15,13 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2024-02-09T13:34:00Z",
+    "DateLastVerified": "2024-03-06T17:53:00Z",
     "ID": 155584,
     "UUID": "308985F3-2B58-4733-8815-F389C13ECE2E",
     "DataProviderID": 1,
     "OperatorID": 3733,
     "UsageTypeID": 1,
-    "UsageCost": "$1.00 to Connect, $0.21 per minute",
+    "UsageCost": "$0.52/kWh",
     "AddressInfo": {
         "ID": 155938,
         "Title": "Northridge Shopping Center Mconalds",
@@ -30,45 +30,50 @@
         "StateOrProvince": "OK",
         "Postcode": "73942",
         "CountryID": 2,
-        "Latitude": 36.69848551257307,
-        "Longitude": -101.4843993720566,
-        "AccessComments": "Use EVGateway App to manage charging",
-        "RelatedURL": "https://francis.energy/",
+        "Latitude": 36.6985088325937,
+        "Longitude": -101.48336697477663,
+        "ContactTelephone1": "1-800-489-1588",
+        "ContactTelephone2": "1-800-206-4258",
+        "AccessComments": "Use Francis Energy App/RFID to start charge",
+        "RelatedURL": "https://francisenergy.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 219024,
             "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
+            "Reference": "NGS03",
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "BTCPower EVDSP-350-5-120-0-2-C-4-0"
+            "Comments": "BTCPower EVDSP-350-5-120-0-2-C-4-0, 200kwh appears down or always de rated."
         },
         {
             "ID": 219025,
             "ConnectionTypeID": 32,
+            "Reference": "NGS02",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "BTCPower EVDSP-350-5-120-0-2-C-4-0"
+            "Quantity": 2
         },
         {
             "ID": 513755,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "200kwh units appears down or always de rated."
         },
         {
             "ID": 513756,
             "ConnectionTypeID": 2,
+            "Reference": "NGS02",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -76,10 +81,9 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "",
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-09T13:34:00Z",
+    "DateLastStatusUpdate": "2024-03-06T17:53:00Z",
     "DateCreated": "2020-04-19T14:28:00Z",
     "SubmissionStatusTypeID": 200
 }

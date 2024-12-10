@@ -1,9 +1,25 @@
 {
-    "DateLastVerified": "2024-02-20T10:05:00Z",
+    "UserComments": [
+        {
+            "ID": 30135,
+            "ChargePointID": 223886,
+            "CommentTypeID": 1000,
+            "UserName": "Alex",
+            "Comment": "One of the two 350kw charges is not functioning",
+            "Rating": 4,
+            "DateCreated": "2024-11-16T01:39:33.317Z",
+            "User": {
+                "ID": 55089,
+                "Username": "Alex"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-11-16T01:40:00Z",
     "ID": 223886,
     "UUID": "7258FF7A-C77C-4FBF-85B7-2B1D29BE4998",
-    "DataProviderID": 2,
-    "DataProvidersReference": "228704",
+    "DataProviderID": 1,
     "OperatorID": 15,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -25,24 +41,44 @@
         {
             "ID": 374903,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
         },
         {
             "ID": 374904,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 536885,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 536886,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:05:00Z",
+    "DateLastStatusUpdate": "2024-11-16T01:40:00Z",
     "DateCreated": "2023-02-13T05:10:00Z",
     "SubmissionStatusTypeID": 100
 }

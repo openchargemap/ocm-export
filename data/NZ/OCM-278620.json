@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-10-07T07:28:00Z",
+    "DateLastVerified": "2024-08-28T05:05:00Z",
     "ID": 278620,
     "UUID": "77B56BB8-BEC4-4BA9-A9D9-E576B78961F7",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
+    "UsageCost": "$0.85 kW/h",
     "AddressInfo": {
         "ID": 279007,
         "Title": "Chargenet Tauriko",
@@ -14,35 +15,36 @@
         "StateOrProvince": "Bay of Plenty",
         "Postcode": "3110",
         "CountryID": 161,
-        "Latitude": -37.73793067897728,
-        "Longitude": 176.10481939569934,
+        "Latitude": -37.7379876503083,
+        "Longitude": 176.10480445362015,
+        "AccessComments": "Open 24/7",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 481850,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 7,
-            "Comments": "five 150kW DC fast chargers able to charge up to ten vehicles at once"
+            "Quantity": 10,
+            "Comments": "five DC fast chargers able to charge up to ten vehicles at once"
         },
         {
             "ID": 481851,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 63,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 3
+            "Quantity": 5
         }
     ],
     "NumberOfPoints": 10,
     "GeneralComments": "installed capacity of 750kW, the charging hub will be able to charge up to 10 vehicles at one time, with a separate area for charging cars towing trailers, campervans and small electric trucks. Stage one of the charging hub is expected to be complete by the end of 2024, and will see the installation of five 150kW chargers, which can simultaneously add 300km of range within 20 minutes*",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-10-07T07:28:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-08-28T05:05:00Z",
     "DateCreated": "2023-10-04T05:24:00Z",
     "SubmissionStatusTypeID": 200
 }

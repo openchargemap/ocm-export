@@ -1,10 +1,27 @@
 {
-    "DateLastVerified": "2019-10-05T14:16:00Z",
+    "UserComments": [
+        {
+            "ID": 29781,
+            "ChargePointID": 132693,
+            "CommentTypeID": 1000,
+            "UserName": "MauroneRelax",
+            "Comment": "The official App Smoov and other sees it in roaming in the wrong address on the app: you can find it in Castenedolo (Bs) in a Tamoil station, because they have very similar id and the position on the map has been corrupted",
+            "DateCreated": "2024-06-08T12:30:34.473Z",
+            "User": {
+                "ID": 27925,
+                "Username": "MauroneRelax"
+            },
+            "CheckinStatusTypeID": 130,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-06-08T12:35:00Z",
     "ID": 132693,
     "UUID": "77D9BCA5-EE28-44B0-ACF2-FB1FE43B0920",
     "DataProviderID": 1,
     "OperatorID": 3266,
     "UsageTypeID": 4,
+    "UsageCost": "0.84 €/kWh",
     "AddressInfo": {
         "ID": 133039,
         "Title": "Concessionario Nissan Rotalnord Auto",
@@ -41,22 +58,12 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
-        },
-        {
-            "ID": 185765,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "Wrong position in map, shown in a Tamoil station at Castenedolo (Bs) because a digit mismatch in the id of another station.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-10-05T14:16:00Z",
+    "DateLastStatusUpdate": "2024-06-08T12:35:00Z",
     "DateCreated": "2019-10-05T14:16:00Z",
     "SubmissionStatusTypeID": 200
 }

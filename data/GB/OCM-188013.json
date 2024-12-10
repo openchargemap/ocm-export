@@ -1,11 +1,45 @@
 {
-    "DateLastVerified": "2023-05-04T08:52:00Z",
+    "UserComments": [
+        {
+            "ID": 29609,
+            "ChargePointID": 188013,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "",
+            "DateCreated": "2024-03-24T10:19:11.507Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 41777,
+            "ChargePointID": 188013,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM188013/OCM-188013.orig.2024032410185846.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM188013/OCM-188013.thmb.2024032410185846.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "DateCreated": "2024-03-24T10:19:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-03-24T10:19:00Z",
     "ID": 188013,
     "UUID": "E4109F3A-449D-4507-8943-14B644EC9CB1",
-    "DataProviderID": 18,
-    "DataProvidersReference": "05862ab74fbae5ff560bdfe09e89ca83",
+    "DataProviderID": 1,
     "OperatorID": 150,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
+    "UsageCost": "£0.48/kWh",
     "AddressInfo": {
         "ID": 188372,
         "Title": "Stearmans Yard - Wells next to the Sea",
@@ -16,34 +50,50 @@
         "Latitude": 52.957271,
         "Longitude": 0.849557,
         "AccessComments": "",
-        "RelatedURL": "https://www.equans.co.uk/ev-solutions",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 303380,
             "ConnectionTypeID": 25,
-            "Reference": "1",
+            "Reference": "GP11254",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         },
         {
             "ID": 303381,
             "ConnectionTypeID": 25,
-            "Reference": "2",
-            "StatusTypeID": 50,
+            "Reference": "GP11243",
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 531733,
+            "ConnectionTypeID": 25,
+            "Reference": "GP11259",
+            "StatusTypeID": 75,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2023-05-04T08:52:00Z",
+    "NumberOfPoints": 6,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2024-03-24T10:19:00Z",
     "MetadataValues": [
         {
             "ID": 20253,

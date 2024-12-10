@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-01-27T08:39:00Z",
+    "MediaItems": [
+        {
+            "ID": 41958,
+            "ChargePointID": 279706,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM279706/OCM-279706.orig.2024041107083204.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM279706/OCM-279706.thmb.2024041107083204.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-04-11T07:09:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-04-22T13:15:00Z",
     "ID": 279706,
     "UUID": "518B9C4D-9120-4568-A7D0-5E5EEA3566EA",
     "DataProviderID": 1,
@@ -8,13 +26,13 @@
     "UsageCost": "0,54€/kWh ",
     "AddressInfo": {
         "ID": 280093,
-        "Title": "E.S. Repsol",
+        "Title": "E.S. Repsol Los Ríos",
         "AddressLine1": "Autovía del Sur",
         "StateOrProvince": "Andalucía",
         "Postcode": "23211",
         "CountryID": 210,
-        "Latitude": 38.193259516805625,
-        "Longitude": -3.6721146513259555,
+        "Latitude": 38.19299196628239,
+        "Longitude": -3.672478496869303,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,17 +41,29 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
+            "Amps": 500,
             "Voltage": 920,
-            "PowerKW": 180,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Ingeteam RAPID180 Charger. The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW.(max power is limited to 150kW for 400V cars)"
+            "Quantity": 4,
+            "Comments": "Four ABB Terra HP175 CCS/Chademo Chargers"
+        },
+        {
+            "ID": 538484,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 400,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "ABB Terra HP175 CCS/Chademo Charger"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-27T08:39:00Z",
+    "DateLastStatusUpdate": "2024-04-22T13:15:00Z",
     "DateCreated": "2023-11-05T16:53:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-01-27T08:11:00Z",
+    "DateLastVerified": "2024-11-02T17:54:00Z",
     "ID": 278571,
     "UUID": "19A8C4D0-D6DB-4E99-B6AF-D35C14F8F037",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "",
+    "UsageCost": "0,55€/kWh DC- 0,39€/kWh AC",
     "AddressInfo": {
         "ID": 278958,
         "Title": "Hotel Bedunia",
@@ -24,16 +24,38 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 350,
+            "Amps": 200,
             "Voltage": 920,
             "PowerKW": 150,
             "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+        },
+        {
+            "ID": 578738,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 950,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+        },
+        {
+            "ID": 578739,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-27T08:11:00Z",
+    "NumberOfPoints": 6,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-02T17:54:00Z",
     "DateCreated": "2023-10-02T08:10:00Z",
     "SubmissionStatusTypeID": 200
 }

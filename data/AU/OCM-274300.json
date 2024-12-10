@@ -1,26 +1,27 @@
 {
-    "DateLastVerified": "2023-09-07T09:30:00Z",
+    "DateLastVerified": "2024-07-03T11:41:00Z",
     "ID": 274300,
     "UUID": "00DE088E-71D6-4456-975E-C502184BED94",
     "DataProviderID": 1,
     "OperatorID": 3626,
     "UsageTypeID": 1,
-    "UsageCost": "DC Charging $0.60 per kWh at all times.",
+    "UsageCost": "Fast DC charging $0.60 per kWh at all times. Slow AC charging $0.35 per kWh at all times.",
     "AddressInfo": {
         "ID": 274684,
         "Title": "Ravensthorpe (WA EV Network)",
-        "AddressLine1": "Dunn Street",
+        "AddressLine1": "28 Dunn Street",
         "Town": "Ravensthorpe ",
         "StateOrProvince": "Western Australia ",
         "CountryID": 18,
-        "Latitude": -33.58074371719907,
-        "Longitude": 120.04624160596336,
+        "Latitude": -33.58080346048715,
+        "Longitude": 120.04577841886328,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 475475,
             "ConnectionTypeID": 33,
+            "Reference": "5741",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -29,17 +30,18 @@
         },
         {
             "ID": 475476,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
+            "Reference": "1535",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "PowerKW": 22,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-09-07T09:30:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2024-07-03T11:41:00Z",
     "DateCreated": "2023-09-07T09:30:00Z",
     "SubmissionStatusTypeID": 200
 }

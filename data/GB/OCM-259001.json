@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2023-11-30T09:52:00Z",
+    "DateLastVerified": "2024-11-30T06:22:00Z",
     "ID": 259001,
     "UUID": "22D6E248-4958-4643-86EA-7230A461C39E",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "GB*GRD*EGS10670*1,GB*GRD*EGS10670*2",
+    "OperatorsReference": "8",
     "UsageTypeID": 5,
     "UsageCost": "DC: £0.79/kWh",
     "AddressInfo": {
@@ -15,7 +15,7 @@
         "CountryID": 1,
         "Latitude": 51.6755,
         "Longitude": -1.496513,
-        "RelatedURL": "https://electrichighway.gridserve.com/mollies-buckland",
+        "RelatedURL": "https://electrichighway.gridserve.com/?location=mollies-buckland",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,7 +25,7 @@
             "Reference": "GB*GRD*EGS10670*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 100,
+            "PowerKW": 75,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -38,11 +38,71 @@
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 584426,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS11172*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 584427,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS11174*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 584428,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS11172*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 584429,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS11174*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 584430,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS11173*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 584431,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS11173*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-30T09:52:00Z",
+    "DateLastStatusUpdate": "2024-11-30T06:22:00Z",
     "DateCreated": "2023-03-26T19:38:00Z",
     "SubmissionStatusTypeID": 200
 }

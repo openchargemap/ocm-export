@@ -1,48 +1,53 @@
 {
-    "DateLastVerified": "2024-02-20T10:42:00Z",
+    "DateLastVerified": "2024-11-16T10:04:00Z",
     "ID": 111114,
     "UUID": "089D83E5-BD31-4D38-9C19-5CD43F6977C7",
-    "DataProviderID": 2,
-    "DataProvidersReference": "88680",
+    "DataProviderID": 1,
     "OperatorID": 3372,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "$9.60/hr + $3.95",
     "AddressInfo": {
         "ID": 111460,
-        "Title": "Scotiabank King City",
+        "Title": "EV Connect - Scotiabank King City",
         "AddressLine1": "1700 King Road",
         "Town": "King City",
         "StateOrProvince": "ON",
-        "Postcode": "L0G",
+        "Postcode": "L7B 0N1",
         "CountryID": 44,
         "Latitude": 43.933895,
         "Longitude": -79.506624,
-        "ContactTelephone1": "866-816-7584",
+        "ContactTelephone1": "1-877-297-8050",
+        "ContactTelephone2": "1-866-816-7584",
         "AccessComments": "",
-        "RelatedURL": "http://evconnect.com/",
+        "RelatedURL": "https://www.evconnect.ca",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 156474,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 156475,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:42:00Z",
+    "NumberOfPoints": 1,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app (EV Connect Canada) and RFID card available.",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2024-11-16T10:04:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

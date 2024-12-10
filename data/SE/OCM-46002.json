@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-01-26T17:37:00Z",
+    "DateLastVerified": "2024-08-22T18:29:00Z",
     "ID": 46002,
     "UUID": "0D362AB0-2E93-4A0A-BC4A-06F6E8B2176D",
     "DataProviderID": 1,
     "DataProvidersReference": "2446",
-    "OperatorID": 1,
+    "OperatorID": 3534,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 46348,
         "Title": "Sollentuna Supercharger - Tesla",
@@ -13,8 +14,8 @@
         "Town": "Sollentuna kommun",
         "Postcode": "192 79",
         "CountryID": 216,
-        "Latitude": 59.49593,
-        "Longitude": 17.92454,
+        "Latitude": 59.496498,
+        "Longitude": 17.924318,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -39,10 +40,29 @@
             "PowerKW": 150,
             "Quantity": 6,
             "Comments": "Mode 4"
+        },
+        {
+            "ID": 571032,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8
+        },
+        {
+            "ID": 571033,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
-    "NumberOfPoints": 6,
-    "DateLastStatusUpdate": "2023-01-26T17:37:00Z",
+    "NumberOfPoints": 14,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-08-22T18:29:00Z",
     "DateCreated": "2015-05-03T00:54:00Z",
     "SubmissionStatusTypeID": 100
 }

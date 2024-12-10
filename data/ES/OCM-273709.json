@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-12-13T19:06:00Z",
+    "MediaItems": [
+        {
+            "ID": 44216,
+            "ChargePointID": 273709,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM273709/OCM-273709.orig.2024112109325646.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM273709/OCM-273709.thmb.2024112109325646.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-11-21T09:33:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-21T09:33:00Z",
     "ID": 273709,
     "UUID": "A38C2BC1-5F4B-4CF0-B4CC-C2CFBB84DDDB",
     "DataProviderID": 1,
     "OperatorID": 3583,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh DC - 0,29€/kWh AC",
+    "UsageCost": "Hasta 22kW: 0.32€. 30kW: 0.37€. 60kW: 0.40€. 120kW: 0.43€. A partir de 150kW: 0.45€",
     "AddressInfo": {
         "ID": 274093,
         "Title": "Rest.  Casa Cortina",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Asturias / Asturies",
         "Postcode": "33300",
         "CountryID": 210,
-        "Latitude": 43.466790932358805,
-        "Longitude": -5.443967600292012,
+        "Latitude": 43.4675128,
+        "Longitude": -5.4440872,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -38,12 +56,21 @@
             "LevelID": 2,
             "PowerKW": 7.4,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 567601,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-13T19:06:00Z",
+    "DateLastStatusUpdate": "2024-11-21T09:33:00Z",
     "DateCreated": "2023-08-21T20:40:00Z",
     "SubmissionStatusTypeID": 200
 }

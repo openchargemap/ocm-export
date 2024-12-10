@@ -1,13 +1,14 @@
 {
-    "DateLastVerified": "2024-02-20T10:46:00Z",
+    "DateLastVerified": "2024-07-09T16:58:00Z",
     "ID": 295275,
     "UUID": "14DBD95F-31E3-4FD7-A0E2-A1EAF8D32A5B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "327663",
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "0.22/kwh",
     "AddressInfo": {
         "ID": 295662,
-        "Title": "CWH-Station 1",
+        "Title": "Cornwall Hospital",
         "AddressLine1": "840 McConnell Ave",
         "Town": "Cornwall",
         "StateOrProvince": "ON",
@@ -22,19 +23,21 @@
     },
     "Connections": [
         {
-            "ID": 526769,
+            "ID": 559908,
             "ConnectionTypeID": 1,
+            "Reference": "Hwisel.com",
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Amps": 48,
+            "Voltage": 240,
+            "PowerKW": 11.5,
             "CurrentTypeID": 10,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 8,
+            "Comments": "Parking P7 & Parking P2"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:46:00Z",
+    "DateLastStatusUpdate": "2024-07-09T16:58:00Z",
     "DateCreated": "2024-02-20T10:46:00Z",
     "SubmissionStatusTypeID": 100
 }

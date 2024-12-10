@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-05-15T14:41:00Z",
+    "DateLastVerified": "2024-10-22T19:39:00Z",
     "ID": 265602,
     "UUID": "3D265F4C-1F70-4F5E-8725-4CC65327D1E3",
     "DataProviderID": 1,
     "OperatorID": 3672,
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
+    "UsageCost": "£0.64/kWh",
     "AddressInfo": {
         "ID": 265986,
         "Title": "Tebay Services Southbound",
@@ -13,51 +14,36 @@
         "StateOrProvince": "England",
         "Postcode": "CA10 3SB",
         "CountryID": 1,
-        "Latitude": 54.45316268098142,
-        "Longitude": -2.6063351853547374,
+        "Latitude": 54.45353425606976,
+        "Longitude": -2.606063332821577,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 451775,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
-            "LevelID": 3,
-            "PowerKW": 300,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 451776,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
-            "LevelID": 3,
-            "PowerKW": 300,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 451777,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "SEC21315",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 300,
+            "PowerKW": 104,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 451778,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "SEC21316",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 300,
+            "PowerKW": 104,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-05-15T14:41:00Z",
+    "GeneralComments": "Managed by SWARCO e-Connect. Can be activated from the Evolt network app and Electroverse.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-10-22T19:39:00Z",
     "DateCreated": "2023-05-15T14:41:00Z",
     "SubmissionStatusTypeID": 200
 }

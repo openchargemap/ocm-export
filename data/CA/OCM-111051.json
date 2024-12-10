@@ -1,49 +1,54 @@
 {
-    "DateLastVerified": "2023-12-04T04:21:00Z",
+    "DateLastVerified": "2024-06-02T08:04:00Z",
     "ID": 111051,
     "UUID": "E975F534-BA66-4386-8E63-5CB206D43C5A",
-    "DataProviderID": 2,
-    "DataProvidersReference": "87662",
+    "DataProviderID": 1,
     "OperatorID": 3372,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "$12.00/hr + $3.95",
     "AddressInfo": {
         "ID": 111397,
-        "Title": "Scotiabank Toronto - Sheppard Ave East",
+        "Title": "EV Connect - Scotiabank Scarborough - Sheppard Ave East",
         "AddressLine1": "4220 Sheppard Ave East",
-        "Town": "Toronto",
+        "Town": "Scarborough",
         "StateOrProvince": "ON",
         "Postcode": "M1S 1T5",
         "CountryID": 44,
         "Latitude": 43.786042,
         "Longitude": -79.277752,
-        "ContactTelephone1": "866-816-7584",
+        "ContactTelephone1": "1-877-297-8050",
+        "ContactTelephone2": "1-866-816-7584",
         "AccessComments": "",
-        "RelatedURL": "http://evconnect.com/",
+        "RelatedURL": "https://www.evconnect.ca",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 156397,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 156398,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app available (EV Connect Canada).",
     "DatePlanned": "2023-10-16T00:00:00Z",
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2023-12-04T04:21:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-06-02T08:04:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,39 +1,43 @@
 {
-    "DateLastVerified": "2024-02-20T10:28:00Z",
+    "DateLastVerified": "2024-03-30T08:57:00Z",
     "ID": 246980,
     "UUID": "BE7D8CBE-770E-431D-995A-738F60A30756",
-    "DataProviderID": 2,
-    "DataProvidersReference": "253459",
+    "DataProviderID": 1,
     "OperatorID": 3372,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$16.00/hr",
     "AddressInfo": {
         "ID": 247364,
-        "Title": "Leamington CBG",
-        "AddressLine1": "108 Erie St North",
+        "Title": "EV Connect - Leamington CBG",
+        "AddressLine1": "108 Erie Street North",
         "Town": "LEAMINGTON",
         "StateOrProvince": "ON",
         "Postcode": "N8H 0A9",
         "CountryID": 44,
         "Latitude": 42.056942,
         "Longitude": -82.599164,
-        "ContactTelephone1": "866-816-7584",
+        "ContactTelephone1": "1-877-297-8050",
+        "ContactTelephone2": "1-866-816-7584",
         "AccessComments": "",
-        "RelatedURL": "http://evconnect.com/",
+        "RelatedURL": "https://www.evconnect.ca",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 413324,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "Single charger at GM dealership. Mobile app (EV Connect Canada) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:28:00Z",
+    "DateLastStatusUpdate": "2024-03-30T08:57:00Z",
     "DateCreated": "2023-03-07T05:39:00Z",
     "SubmissionStatusTypeID": 100
 }

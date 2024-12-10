@@ -34,22 +34,24 @@
             "DateCreated": "2023-01-02T01:16:00Z"
         }
     ],
-    "DateLastVerified": "2023-09-07T07:14:00Z",
+    "DateLastVerified": "2024-06-21T16:35:00Z",
     "ID": 62253,
     "UUID": "AA32306D-9B9B-4173-807B-FD95F26EC31D",
     "DataProviderID": 1,
+    "OperatorID": 3534,
     "UsageTypeID": 1,
     "UsageCost": "0",
     "AddressInfo": {
         "ID": 62599,
-        "Title": "Crater Lake National Park",
-        "AddressLine1": "659 Mazama Dr",
-        "Town": "Crater Lake",
-        "StateOrProvince": "OR",
+        "Title": "Munson Valley Road",
+        "AddressLine1": "Munson Valley Road",
+        "AddressLine2": "Mazama Village",
+        "Town": "Klamath County",
+        "StateOrProvince": "Klamath County",
         "Postcode": "97604",
         "CountryID": 2,
-        "Latitude": 42.867491667815756,
-        "Longitude": -122.16876443710447,
+        "Latitude": 42.867513884934766,
+        "Longitude": -122.16850232798714,
         "ContactTelephone1": "541-594-2255  541-594-3002",
         "AccessComments": "24 hours daily",
         "DistanceUnit": 0
@@ -62,7 +64,18 @@
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 6,
+            "PowerKW": 9,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 556894,
+            "ConnectionTypeID": 30,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 48,
+            "Voltage": 230,
+            "PowerKW": 9,
             "CurrentTypeID": 10,
             "Quantity": 1
         }
@@ -70,7 +83,7 @@
     "NumberOfPoints": 1,
     "GeneralComments": "1 Tesla, 1 j1772 connector.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-09-07T07:14:00Z",
+    "DateLastStatusUpdate": "2024-06-21T16:35:00Z",
     "DateCreated": "2016-03-03T11:38:00Z",
     "SubmissionStatusTypeID": 100
 }

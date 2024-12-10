@@ -15,12 +15,95 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2023-10-30T10:45:00Z",
+    "MediaItems": [
+        {
+            "ID": 43473,
+            "ChargePointID": 202103,
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM202103/OCM-202103.orig.2024090103400565.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM202103/OCM-202103.thmb.2024090103400565.jpg",
+            "Comment": "Not a lot appears to be happening at this time. ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2024-09-01T03:40:00Z"
+        },
+        {
+            "ID": 42967,
+            "ChargePointID": 202103,
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM202103/OCM-202103.orig.2024072015472187.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM202103/OCM-202103.thmb.2024072015472187.jpg",
+            "Comment": "Overview. ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2024-07-20T15:47:00Z"
+        },
+        {
+            "ID": 42966,
+            "ChargePointID": 202103,
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM202103/OCM-202103.orig.2024072015455788.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM202103/OCM-202103.thmb.2024072015455788.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2024-07-20T15:46:00Z"
+        },
+        {
+            "ID": 42965,
+            "ChargePointID": 202103,
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM202103/OCM-202103.orig.2024072015445926.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM202103/OCM-202103.thmb.2024072015445926.jpg",
+            "Comment": "Drive through. ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2024-07-20T15:45:00Z"
+        },
+        {
+            "ID": 42958,
+            "ChargePointID": 202103,
+            "ItemURL": "https://media.openchargemap.io/images/AU/OCM202103/OCM-202103.orig.2024072015074867.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AU/OCM202103/OCM-202103.thmb.2024072015074867.jpg",
+            "Comment": "Work in progress. ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2024-07-20T15:08:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-23T09:40:00Z",
     "ID": 202103,
     "UUID": "37C6C9A0-D8C1-4CCE-8EDB-C6CBC581C455",
     "DataProviderID": 1,
     "OperatorID": 3554,
     "UsageTypeID": 4,
+    "UsageCost": "$0.60 per kWh for fast DC charger, $0.35 per kWh for slow AC charger.",
     "AddressInfo": {
         "ID": 202470,
         "Title": "Northam (WA EV Network)",
@@ -29,16 +112,17 @@
         "StateOrProvince": "Western Australia",
         "Postcode": "6401",
         "CountryID": 18,
-        "Latitude": -31.651939007895038,
-        "Longitude": 116.67166702973918,
-        "RelatedURL": "https://www.northam.wa.gov.au/council-meetings/ordinary-meeting/ordinary-council-meeting-17-november-2021/439",
+        "Latitude": -31.652188287787432,
+        "Longitude": 116.67192230862833,
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 337776,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "8348",
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
@@ -47,16 +131,17 @@
         {
             "ID": 472697,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "5726"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-10-30T10:45:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-10-23T09:40:00Z",
     "DateCreated": "2022-09-07T07:23:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,13 +1,13 @@
 {
-    "DateLastVerified": "2024-02-20T10:03:00Z",
+    "DateLastVerified": "2024-06-05T15:23:00Z",
     "ID": 223400,
     "UUID": "8757A629-8CB1-4310-BEF6-3A1B2B8971B4",
-    "DataProviderID": 2,
-    "DataProvidersReference": "232978",
+    "DataProviderID": 1,
+    "OperatorID": 3788,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 223783,
-        "Title": "7092 - Stockton, CA (2459 E Mariposa Road)",
+        "Title": "ARCO",
         "AddressLine1": "2459 E Mariposa Rd",
         "Town": "Stockton",
         "StateOrProvince": "CA",
@@ -24,24 +24,35 @@
         {
             "ID": 374345,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 374346,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 552913,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:03:00Z",
+    "DateLastStatusUpdate": "2024-06-05T15:23:00Z",
     "DateCreated": "2023-02-13T05:09:00Z",
     "SubmissionStatusTypeID": 100
 }

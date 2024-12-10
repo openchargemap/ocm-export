@@ -1,5 +1,37 @@
 {
-    "DateLastVerified": "2023-10-21T09:39:00Z",
+    "UserComments": [
+        {
+            "ID": 30089,
+            "ChargePointID": 246631,
+            "CommentTypeID": 10,
+            "UserName": "Programmin",
+            "Comment": "There is *still* only one working fast charger here. L2 charger worked alright here and both were in use this evening.",
+            "Rating": 3,
+            "DateCreated": "2024-10-21T05:22:20.723Z",
+            "User": {
+                "ID": 42341,
+                "Username": "Programmin"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 29662,
+            "ChargePointID": 246631,
+            "CommentTypeID": 10,
+            "UserName": "Programmin",
+            "Comment": "Good fast charging station, charged uninterrupted for an hour. In walking distance of many places. Only one ccs station operational though.",
+            "Rating": 4,
+            "DateCreated": "2024-04-14T03:14:00.56Z",
+            "User": {
+                "ID": 42341,
+                "Username": "Programmin"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-10-21T05:22:00Z",
     "ID": 246631,
     "UUID": "D03F1747-0D86-434F-96F4-602F701101AB",
     "DataProviderID": 1,
@@ -7,7 +39,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 247015,
-        "Title": "DC CORRIDOR MT SHASTA L2",
+        "Title": "O'Reilly Auto Parts",
         "AddressLine1": "134 Morgan Way",
         "Town": "Mount Shasta",
         "StateOrProvince": "CA",
@@ -24,20 +56,38 @@
         {
             "ID": 412930,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 6.6,
             "CurrentTypeID": 10,
             "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 484315,
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 60,
+            "LevelID": 3,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 552888,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 552889,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
@@ -45,7 +95,7 @@
     "GeneralComments": "Only one fast charger shows available",
     "DatePlanned": "2023-05-31T00:00:00Z",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-10-21T09:39:00Z",
+    "DateLastStatusUpdate": "2024-10-21T05:22:00Z",
     "DateCreated": "2023-03-07T05:35:00Z",
     "SubmissionStatusTypeID": 100
 }

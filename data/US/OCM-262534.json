@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2024-02-20T09:55:00Z",
+    "DateLastVerified": "2024-04-11T12:12:00Z",
     "ID": 262534,
     "UUID": "5D36501B-CE9F-4AF8-842E-CDE9EC191FBF",
-    "DataProviderID": 2,
-    "DataProvidersReference": "256637",
-    "UsageTypeID": 7,
+    "DataProviderID": 1,
+    "OperatorID": 3372,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 262918,
         "Title": "Central Chevrolet",
@@ -23,18 +23,25 @@
     "Connections": [
         {
             "ID": 445251,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 538520,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T09:55:00Z",
+    "DateLastStatusUpdate": "2024-04-11T12:12:00Z",
     "DateCreated": "2023-05-01T05:28:00Z",
     "SubmissionStatusTypeID": 100
 }

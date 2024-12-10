@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2022-09-13T22:16:00Z",
+    "DateLastVerified": "2024-11-15T16:56:00Z",
     "ID": 202972,
     "UUID": "E2ED934E-8BE3-4FBA-B5AC-80F9FB06076B",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
+    "UsageCost": "0,47€/kWh",
     "AddressInfo": {
         "ID": 203339,
         "Title": "Calle de José Luis Velasco",
@@ -13,24 +14,36 @@
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28250",
         "CountryID": 210,
-        "Latitude": 40.5785327050601,
-        "Longitude": -3.952668145975622,
+        "Latitude": 40.578296198941445,
+        "Longitude": -3.952435709935912,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 339307,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam Rapid60 charger.The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
+        },
+        {
+            "ID": 580408,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-13T22:16:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-11-15T16:56:00Z",
     "DateCreated": "2022-09-13T22:16:00Z",
     "SubmissionStatusTypeID": 200
 }

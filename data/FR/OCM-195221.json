@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-08-13T21:08:00Z",
+    "DateLastVerified": "2024-03-05T09:38:00Z",
     "ID": 195221,
     "UUID": "A645D92E-072B-4411-A61F-29C6F9FA13A9",
     "DataProviderID": 1,
     "OperatorID": 38,
     "UsageTypeID": 1,
-    "UsageCost": "0",
+    "UsageCost": "0,31€/kWh DC",
     "AddressInfo": {
         "ID": 195580,
         "Title": "Lidl Rue de Behobie",
@@ -38,11 +38,23 @@
             "PowerKW": 3,
             "CurrentTypeID": 10,
             "Quantity": 2
+        },
+        {
+            "ID": 528022,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra124 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW . Max 200A, charging power limited to 80kW for 400V cars"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-13T21:08:00Z",
+    "DateLastStatusUpdate": "2024-03-05T09:38:00Z",
     "DateCreated": "2022-08-13T14:31:00Z",
     "SubmissionStatusTypeID": 200
 }

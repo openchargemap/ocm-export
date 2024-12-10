@@ -17,12 +17,12 @@
             "DateCreated": "2023-01-18T15:37:00Z"
         }
     ],
-    "DateLastVerified": "2024-02-19T06:23:00Z",
+    "DateLastVerified": "2024-12-05T06:40:00Z",
     "ID": 212484,
     "UUID": "C8743C72-32C3-45EC-A868-EC3712359377",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "180",
+    "OperatorsReference": "",
     "UsageTypeID": 5,
     "UsageCost": "DC: £0.79/kWh",
     "AddressInfo": {
@@ -36,7 +36,7 @@
         "CountryID": 1,
         "Latitude": 51.1771454290478,
         "Longitude": -1.76038439417871,
-        "RelatedURL": "https://electrichighway.gridserve.com/solstice-park-services",
+        "RelatedURL": "https://electrichighway.gridserve.com/?location=solstice-park-services",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -83,17 +83,47 @@
             "Quantity": 1
         },
         {
-            "ID": 515455,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10772*1",
+            "ID": 583624,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10766*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 100,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 515728,
+            "ID": 584537,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10773*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 584608,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10771*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 584663,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10772*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585350,
             "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS10771*1",
             "StatusTypeID": 50,
@@ -103,7 +133,27 @@
             "Quantity": 1
         },
         {
-            "ID": 515729,
+            "ID": 585351,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10773*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585352,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10772*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585353,
             "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS10766*1",
             "StatusTypeID": 50,
@@ -115,7 +165,7 @@
     ],
     "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-19T06:23:00Z",
+    "DateLastStatusUpdate": "2024-12-05T06:40:00Z",
     "DateCreated": "2023-01-18T15:37:00Z",
     "SubmissionStatusTypeID": 200
 }

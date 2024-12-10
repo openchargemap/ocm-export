@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-23T08:35:00Z",
+    "DateLastVerified": "2024-10-11T09:53:00Z",
     "ID": 204643,
     "UUID": "153960A6-2398-463B-B167-43542735A81F",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": " 0,54€/kWh ",
+    "UsageCost": " 0,45€/kWh ",
     "AddressInfo": {
         "ID": 205010,
         "Title": "Audi Granada",
@@ -24,28 +24,37 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 375,
-            "Voltage": 920,
-            "PowerKW": 120,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
+            "Comments": ""
         },
         {
             "ID": 388110,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
+            "Amps": 125,
             "Voltage": 500,
-            "PowerKW": 80,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 577328,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-23T08:35:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2024-10-11T09:53:00Z",
     "DateCreated": "2022-09-30T14:54:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-01-01T22:05:00Z",
+    "DateLastVerified": "2024-06-09T03:49:00Z",
     "ID": 107541,
     "UUID": "F7F1C33F-8670-4251-AACD-FF1D6D063D85",
     "DataProviderID": 1,
@@ -16,14 +16,14 @@
         "Latitude": -37.393178,
         "Longitude": 175.839009,
         "ContactTelephone1": "+64 800 224 274",
-        "AccessComments": "Charger is located in South West corner of New World carpark, facing Kenny Street. Can charge 2 cars at once, 50kW shared across CSS and chademo plugs",
+        "AccessComments": "Charger is located in South West corner of New World carpark, facing Kenny Street. Each charger can charge 2 cars at once, 75kW shared across CSS and chademo plugs",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 151739,
             "ConnectionTypeID": 2,
-            "Reference": "WAIH1",
+            "Reference": "WHNW1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -33,17 +33,37 @@
         {
             "ID": 151740,
             "ConnectionTypeID": 33,
-            "Reference": "WAIH1",
+            "Reference": "WHNW1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 553677,
+            "ConnectionTypeID": 2,
+            "Reference": "WHNW2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 553678,
+            "ConnectionTypeID": 33,
+            "Reference": "WHNW2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 75,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-01-01T22:05:00Z",
+    "DateLastStatusUpdate": "2024-06-09T03:49:00Z",
     "DateCreated": "2018-08-01T11:37:00Z",
     "SubmissionStatusTypeID": 200
 }

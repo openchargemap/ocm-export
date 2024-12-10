@@ -1,5 +1,54 @@
 {
+    "UserComments": [
+        {
+            "ID": 30101,
+            "ChargePointID": 288691,
+            "CommentTypeID": 10,
+            "UserName": "haldorff",
+            "Comment": "Used to be Wenea, clearly rebranded charger ( just changed the stickers) and now operated at Total Energy. A pity you need a new app (again) Wenea should have informed users of this charger. Furthermore the Total energy app does not provide an indication when charging stopped, and at a penalty fee this is just plainly not funny. Are we supposed to stay in the car? ",
+            "Rating": 4,
+            "DateCreated": "2024-10-24T21:53:08.917Z",
+            "User": {
+                "ID": 46612,
+                "Username": "haldorff"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
+        {
+            "ID": 43914,
+            "ChargePointID": 288691,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM288691/OCM-288691.orig.2024102517562842.png",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM288691/OCM-288691.thmb.2024102517562842.png",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46612,
+                "Username": "haldorff"
+            },
+            "DateCreated": "2024-10-25T17:57:00Z"
+        },
+        {
+            "ID": 43913,
+            "ChargePointID": 288691,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM288691/OCM-288691.orig.2024102421535303.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM288691/OCM-288691.thmb.2024102421535303.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 46612,
+                "Username": "haldorff"
+            },
+            "DateCreated": "2024-10-24T21:54:00Z"
+        },
         {
             "ID": 40817,
             "ChargePointID": 288691,
@@ -17,13 +66,13 @@
             "DateCreated": "2023-12-21T07:26:00Z"
         }
     ],
-    "DateLastVerified": "2023-12-21T07:28:00Z",
+    "DateLastVerified": "2024-10-28T14:04:00Z",
     "ID": 288691,
     "UUID": "9D22D285-056E-4010-A74C-D0E4F05354B2",
     "DataProviderID": 1,
-    "OperatorID": 3371,
+    "OperatorID": 3571,
     "UsageTypeID": 4,
-    "UsageCost": " 0,56€/kWh",
+    "UsageCost": " 0,50€/kWh",
     "AddressInfo": {
         "ID": 289078,
         "Title": "Rest. Loma del Valle",
@@ -31,14 +80,15 @@
         "StateOrProvince": "Andalucía",
         "Postcode": "18650",
         "CountryID": 210,
-        "Latitude": 36.986884234799874,
-        "Longitude": -3.605245721148407,
+        "Latitude": 36.986829553261956,
+        "Longitude": -3.6053181018623945,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 506662,
             "ConnectionTypeID": 33,
+            "Reference": "ES-TCB*E000611 / 000614",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 400,
@@ -47,11 +97,33 @@
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 100 kW "
+        },
+        {
+            "ID": 578590,
+            "ConnectionTypeID": 2,
+            "Reference": "ES*TCB-E000613",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "0.39eur/kwh + 0,1eur penalty fee"
+        },
+        {
+            "ID": 578591,
+            "ConnectionTypeID": 25,
+            "Reference": "E*TCB*E000612",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Be careful not to smash your door when parking. This charger used to be operated by WENEA",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-21T07:28:00Z",
+    "DateLastStatusUpdate": "2024-10-28T14:04:00Z",
     "DateCreated": "2023-12-21T07:25:00Z",
     "SubmissionStatusTypeID": 200
 }

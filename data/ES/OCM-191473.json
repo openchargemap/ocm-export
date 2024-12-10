@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2022-10-08T18:26:00Z",
+    "DateLastVerified": "2024-11-26T16:05:00Z",
     "ID": 191473,
     "UUID": "A5C96BF6-A24F-4160-8DAD-6BE6FDA22F0F",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
+    "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 191832,
         "Title": "Carrefour Alcobendas",
@@ -13,21 +14,22 @@
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28108",
         "CountryID": 210,
-        "Latitude": 40.527576327834595,
-        "Longitude": -3.650856434272896,
+        "Latitude": 40.52601980685017,
+        "Longitude": -3.6509949672469304,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 310942,
-            "ConnectionTypeID": 28,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 1,
-            "Amps": 10,
-            "Voltage": 230,
-            "PowerKW": 2.3,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra184 Charger. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Max 300A, charging power limited to 120kW for 400V cars"
         },
         {
             "ID": 310943,
@@ -39,11 +41,23 @@
             "PowerKW": 7.4,
             "CurrentTypeID": 10,
             "Quantity": 2
+        },
+        {
+            "ID": 583679,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra184 Charger. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Max 300A, charging power limited to 120kW for 400V cars"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-08T18:26:00Z",
+    "DateLastStatusUpdate": "2024-11-26T16:05:00Z",
     "DateCreated": "2022-02-10T14:51:00Z",
     "SubmissionStatusTypeID": 200
 }

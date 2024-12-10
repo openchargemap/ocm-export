@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2020-01-27T15:22:00Z",
+    "DateLastVerified": "2024-03-24T20:49:00Z",
     "ID": 148143,
     "UUID": "15ABE012-29CF-43C8-934E-B36E79B8A460",
     "DataProviderID": 1,
     "OperatorID": 3375,
-    "UsageTypeID": 1,
-    "UsageCost": "0.33 per minute",
+    "UsageTypeID": 5,
+    "UsageCost": "$0.50/min",
     "AddressInfo": {
         "ID": 148495,
         "Title": "Petro Canada - Regina",
@@ -16,8 +16,8 @@
         "CountryID": 44,
         "Latitude": 50.446713052849816,
         "Longitude": -104.54091974024527,
-        "ContactTelephone1": "800-668-0220",
-        "RelatedURL": "http://www.petro-canada.ca\\ev",
+        "ContactTelephone1": "1-800-668-0220",
+        "RelatedURL": "https://www.petro-canada.ca/en/personal/fuel/canadas-electric-highway",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -35,14 +35,15 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 200,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "Payment with a credit card directly at the charger. Optional mobile app available (Petro-Canada EV).",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-27T15:22:00Z",
+    "DateLastStatusUpdate": "2024-03-24T20:49:00Z",
     "DateCreated": "2020-01-26T18:22:00Z",
     "SubmissionStatusTypeID": 200
 }

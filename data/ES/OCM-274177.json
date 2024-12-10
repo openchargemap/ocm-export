@@ -1,21 +1,55 @@
 {
-    "DateLastVerified": "2024-01-27T08:55:00Z",
+    "MediaItems": [
+        {
+            "ID": 43173,
+            "ChargePointID": 274177,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM274177/OCM-274177.orig.2024080718132602.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM274177/OCM-274177.thmb.2024080718132602.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 16790,
+                "Username": "Mikel Ortega"
+            },
+            "DateCreated": "2024-08-07T18:14:00Z"
+        },
+        {
+            "ID": 41802,
+            "ChargePointID": 274177,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM274177/OCM-274177.orig.2024032716264514.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM274177/OCM-274177.thmb.2024032716264514.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-03-27T16:27:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-09T13:45:00Z",
     "ID": 274177,
     "UUID": "0AC7D051-EEE7-4312-B16D-4A10E1671262",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,55€/kWh DC ",
+    "UsageCost": "0,55€/kWh DC  - 0,42€/kwh DC <50 kW",
     "AddressInfo": {
         "ID": 274561,
-        "Title": "Avenida de la Industria (Zunder)",
+        "Title": "Calle Río Marín (Zunder)",
         "AddressLine1": "Avenida de la Industria",
         "AddressLine2": "Santa Isabel",
         "StateOrProvince": "Aragón",
         "Postcode": "50059",
         "CountryID": 210,
-        "Latitude": 41.671263079805584,
-        "Longitude": -0.8372507881548472,
+        "Latitude": 41.66983666477802,
+        "Longitude": -0.8449127903884914,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,15 +60,26 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 100,
+            "PowerKW": 170,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "Four Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (100 kW).  "
+            "Quantity": 2,
+            "Comments": "Four Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW). Two of the dispensers are limited to 25 kW"
+        },
+        {
+            "ID": 534280,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-27T08:55:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-10-09T13:45:00Z",
     "DateCreated": "2023-09-03T11:27:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-03-18T16:54:00Z",
+    "DateLastVerified": "2024-09-10T06:24:00Z",
     "ID": 189687,
     "UUID": "4F69E66A-5420-4133-A7E3-DA5E0B1E1FF0",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 5,
+    "UsageCost": "0,40€/kWh DC - 0,30€/kWh AC  (1hour free parking)",
     "AddressInfo": {
         "ID": 190046,
         "Title": "Parking Santa Clara",
@@ -23,12 +24,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
+            "Amps": 200,
             "Voltage": 920,
             "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "ABB Terra124 Charger (CCS/Chademo)"
+            "Comments": "Two ABB Terra124 Chargers (CCS/Chademo). Charging power limited to 80kW for 400V cars"
         },
         {
             "ID": 306875,
@@ -36,7 +37,7 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
-            "PowerKW": 100,
+            "PowerKW": 80,
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "ABB Terra124 Charger "
@@ -52,8 +53,9 @@
         }
     ],
     "NumberOfPoints": 6,
+    "GeneralComments": "Payment with credit card",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-18T16:54:00Z",
+    "DateLastStatusUpdate": "2024-09-10T06:24:00Z",
     "DateCreated": "2021-10-25T18:58:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -32,7 +32,7 @@
             "DateCreated": "2017-07-02T16:22:00Z"
         }
     ],
-    "DateLastVerified": "2020-09-19T05:35:00Z",
+    "DateLastVerified": "2024-09-26T08:29:00Z",
     "ID": 84957,
     "UUID": "08EF77FA-5390-49C4-A5BA-4DAA9935CD7B",
     "DataProviderID": 1,
@@ -48,26 +48,54 @@
         "CountryID": 217,
         "Latitude": 47.356228,
         "Longitude": 8.523306,
-        "ContactTelephone1": "+43 4420 49999",
+        "ContactTelephone1": "",
+        "RelatedURL": "https://sihlcity.ch/de/centerservices/e-tankstellen/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 120701,
-            "ConnectionTypeID": 30,
+            "ID": 576628,
+            "ConnectionTypeID": 1036,
+            "Reference": "Easee",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 400,
+            "PowerKW": 11,
+            "Quantity": 7
+        },
+        {
+            "ID": 576629,
+            "ConnectionTypeID": 33,
+            "Reference": "ABB DC Wallbox",
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 22,
-            "CurrentTypeID": 20,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 576630,
+            "ConnectionTypeID": 2,
+            "Reference": "ABB DC Wallbox",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 576631,
+            "ConnectionTypeID": 1036,
+            "Reference": "Tesla Wall Charger",
+            "StatusTypeID": 30,
+            "LevelID": 2,
+            "PowerKW": 22,
             "Quantity": 3
         }
     ],
-    "NumberOfPoints": 5,
-    "GeneralComments": "2 Tesla Connectors, up to 11kW.Available for patrons only. Self park. 3 connectors for non Tesla EV.",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-09-19T05:35:00Z",
+    "NumberOfPoints": 12,
+    "GeneralComments": "Open 24 hours. Parking Level 4",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2024-09-26T08:29:00Z",
     "DateCreated": "2017-03-22T06:37:00Z",
     "SubmissionStatusTypeID": 200
 }

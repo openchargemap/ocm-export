@@ -1,13 +1,13 @@
 {
-    "DateLastVerified": "2024-02-20T10:42:00Z",
+    "DateLastVerified": "2024-05-09T15:00:00Z",
     "ID": 295191,
     "UUID": "1723BEC1-BE1A-4342-BEB3-B1CA4D27EB80",
-    "DataProviderID": 2,
-    "DataProvidersReference": "319564",
+    "DataProviderID": 1,
+    "OperatorID": 80,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 295578,
-        "Title": "Driggs Community Center",
+        "Title": "Fall River Cooperative Headquarters",
         "AddressLine1": "1150 N 3400 E",
         "Town": "Ashton",
         "StateOrProvince": "ID",
@@ -24,15 +24,25 @@
         {
             "ID": 526661,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 175,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 1,
+            "Comments": ""
+        },
+        {
+            "ID": 546319,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:42:00Z",
+    "DateLastStatusUpdate": "2024-05-09T15:00:00Z",
     "DateCreated": "2024-02-20T10:42:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2024-02-20T10:10:00Z",
+    "MediaItems": [
+        {
+            "ID": 42605,
+            "ChargePointID": 141668,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM141668/OCM-141668.orig.2024062112275434.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM141668/OCM-141668.thmb.2024062112275434.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "DateCreated": "2024-06-21T12:28:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-06-21T12:28:00Z",
     "ID": 141668,
     "UUID": "393F715D-B09B-4B18-9A8A-A1F99A136A3F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "88413",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "$0.20/kWh",
     "AddressInfo": {
         "ID": 142020,
         "Title": "COLUMBIA ASSOC STATION2",
@@ -14,8 +32,8 @@
         "StateOrProvince": "MD",
         "Postcode": "21044",
         "CountryID": 2,
-        "Latitude": 39.222125,
-        "Longitude": -76.887838,
+        "Latitude": 39.22250733266836,
+        "Longitude": -76.88778336497182,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,17 +43,20 @@
         {
             "ID": 197647,
             "ConnectionTypeID": 1,
+            "Reference": "Columbia Association",
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7.2,
             "CurrentTypeID": 10,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:10:00Z",
+    "DateLastStatusUpdate": "2024-06-21T12:28:00Z",
     "DateCreated": "2019-12-24T09:16:00Z",
     "SubmissionStatusTypeID": 100
 }

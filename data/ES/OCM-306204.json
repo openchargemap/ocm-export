@@ -1,0 +1,91 @@
+{
+    "MediaItems": [
+        {
+            "ID": 44294,
+            "ChargePointID": 306204,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM306204/OCM-306204.orig.2024112219423110.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM306204/OCM-306204.thmb.2024112219423110.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-11-22T19:43:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-22T19:43:00Z",
+    "ID": 306204,
+    "UUID": "4610D07C-2F86-434B-9BD3-38035344B8CD",
+    "DataProviderID": 1,
+    "OperatorID": 3324,
+    "UsageTypeID": 1,
+    "UsageCost": "0,55€/kWh DC - 0,40€/kWh AC",
+    "AddressInfo": {
+        "ID": 306593,
+        "Title": "Obramat Alcalá de Guadaíra (Zunder)",
+        "AddressLine1": "Calle Justicia",
+        "Town": "Alcalá de Guadaíra",
+        "StateOrProvince": "Andalucía",
+        "Postcode": "41500",
+        "CountryID": 210,
+        "Latitude": 37.35046795868692,
+        "Longitude": -5.859479118692292,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 580860,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
+        },
+        {
+            "ID": 580861,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra360 charger. "
+        },
+        {
+            "ID": 580862,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Two Kempower CCS Satellite chargers  that dynamically share the total power of the cabinet (200 kW). Charging power limited to 120kW for 400V cars"
+        },
+        {
+            "ID": 580863,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 22
+        }
+    ],
+    "NumberOfPoints": 8,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-22T19:43:00Z",
+    "DateCreated": "2024-11-17T18:03:00Z",
+    "SubmissionStatusTypeID": 200
+}

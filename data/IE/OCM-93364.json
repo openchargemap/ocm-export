@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2018-10-03T16:26:00Z",
+    "DateLastVerified": "2024-10-10T07:49:00Z",
     "ID": 93364,
     "UUID": "E9EC2132-238A-4E2B-8987-4A25F89E1A3D",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 45,
     "OperatorsReference": "35852",
-    "UsageTypeID": 4,
+    "UsageTypeID": 6,
     "AddressInfo": {
         "ID": 93710,
         "Title": "Sneem Hotel",
@@ -15,26 +15,33 @@
         "CountryID": 3,
         "Latitude": 51.833795,
         "Longitude": -9.898579,
-        "ContactTelephone1": "+353 64 667 5100",
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 132241,
-            "ConnectionTypeID": 30,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 576702,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "1 Tesla Connector, up to 7kW.Available for customers. Please call ahead.",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-10-03T16:26:00Z",
+    "DateLastStatusUpdate": "2024-10-10T07:49:00Z",
     "DateCreated": "2017-09-27T19:22:00Z",
     "SubmissionStatusTypeID": 200
 }

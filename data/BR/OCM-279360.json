@@ -1,22 +1,22 @@
 {
-    "DateLastVerified": "2023-10-26T14:09:00Z",
+    "DateLastVerified": "2024-12-05T09:58:00Z",
     "ID": 279360,
     "UUID": "283BC837-013C-4BD8-A13F-FD5F29B93D6A",
     "DataProviderID": 1,
     "OperatorID": 3726,
-    "UsageTypeID": 5,
-    "UsageCost": "R$ 2,00 por kWh",
+    "UsageTypeID": 1,
+    "UsageCost": "R$ 2,40 por kWh",
     "AddressInfo": {
         "ID": 279747,
-        "Title": "Centro Comercial Flávio Carneiro",
+        "Title": "BR Super Carga - Centro Comercial Flávio Carneiro",
         "AddressLine1": "Avenida Santos Dumont, 2849",
         "AddressLine2": "Aldeota",
         "Town": "Fortaleza",
         "StateOrProvince": "Ceará",
         "Postcode": "60150-162",
         "CountryID": 36,
-        "Latitude": -3.7360016743275537,
-        "Longitude": -38.49837436289596,
+        "Latitude": -3.736001674325678,
+        "Longitude": -38.49837436289499,
         "ContactTelephone1": "+55 (85) 99902-8343",
         "AccessComments": "Horário de funcionamento: 24/7",
         "DistanceUnit": 0
@@ -27,15 +27,36 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 80,
             "PowerKW": 40,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": ""
+        },
+        {
+            "ID": 557438,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 576997,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 250,
+            "Voltage": 900,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-10-26T14:09:00Z",
+    "DateLastStatusUpdate": "2024-12-05T09:58:00Z",
     "DateCreated": "2023-10-23T14:05:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,54 +1,58 @@
 {
-    "DateLastVerified": "2019-10-21T12:32:00Z",
+    "MediaItems": [
+        {
+            "ID": 42276,
+            "ChargePointID": 133402,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM133402/OCM-133402.orig.2024051318375138.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM133402/OCM-133402.thmb.2024051318375138.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-05-13T18:38:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-12-09T19:06:00Z",
     "ID": 133402,
     "UUID": "8626BAAE-A363-41AD-8D89-ADF8A590597C",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
+    "OperatorID": 3324,
+    "UsageTypeID": 4,
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 133748,
-        "Title": "E. S. Esser",
+        "Title": "E.S. Esser Pineda de Mar (Zunder)",
         "AddressLine1": "carrer de Carles I, 8",
         "Town": "Pineda de Mar",
         "StateOrProvince": "Barcelona",
         "Postcode": "08397",
         "CountryID": 210,
-        "Latitude": 41.6240952172768,
-        "Longitude": 2.67446323319189,
+        "Latitude": 41.62413016144049,
+        "Longitude": 2.674806634790002,
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 186754,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 186755,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 186756,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-10-21T12:32:00Z",
+    "DateLastStatusUpdate": "2024-12-09T19:06:00Z",
     "DateCreated": "2019-10-17T20:52:00Z",
     "SubmissionStatusTypeID": 200
 }

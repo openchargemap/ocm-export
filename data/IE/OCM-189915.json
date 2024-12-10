@@ -1,20 +1,20 @@
 {
-    "DateLastVerified": "2021-12-14T14:21:00Z",
+    "DateLastVerified": "2024-09-29T00:42:00Z",
     "ID": 189915,
     "UUID": "C5A7F5C6-6127-46F1-AE85-C8878D575E0E",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 4,
+    "OperatorID": 3479,
+    "UsageTypeID": 6,
     "AddressInfo": {
         "ID": 190274,
-        "Title": "Limerick Colbert Rail Station",
+        "Title": "Colbert Rail Station",
         "AddressLine1": "Presentation Court",
         "Town": "Limerick",
         "StateOrProvince": "",
         "Postcode": "",
         "CountryID": 3,
-        "Latitude": 52.65943807270884,
-        "Longitude": -8.623734703630646,
+        "Latitude": 52.65920879312807,
+        "Longitude": -8.62346071596346,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,6 +22,8 @@
             "ID": 307472,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
@@ -29,6 +31,8 @@
             "ID": 307473,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
@@ -36,14 +40,16 @@
             "ID": 307474,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "Taxi / PSV use only. Entry added 8th Nov 2021. Update to Operational once confirmed that the site is working.",
+    "GeneralComments": "Taxi / PSV use only.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-14T14:21:00Z",
+    "DateLastStatusUpdate": "2024-09-29T00:42:00Z",
     "DateCreated": "2021-11-09T20:48:00Z",
     "SubmissionStatusTypeID": 200
 }

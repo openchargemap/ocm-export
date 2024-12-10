@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2019-12-24T09:15:00Z",
+    "MediaItems": [
+        {
+            "ID": 43548,
+            "ChargePointID": 110398,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM110398/OCM-110398.orig.2024090821391683.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM110398/OCM-110398.thmb.2024090821391683.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 54024,
+                "Username": "packfan909"
+            },
+            "DateCreated": "2024-09-08T21:39:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-09-09T10:11:00Z",
     "ID": 110398,
     "UUID": "5B31CB86-B315-4E01-B19C-B0CAC18212DC",
-    "DataProviderID": 2,
-    "DataProvidersReference": "98851",
-    "OperatorID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 3372,
     "UsageTypeID": 1,
+    "UsageCost": "$0.64/kWh",
     "AddressInfo": {
         "ID": 110744,
         "Title": "ROSEVILLE 76",
@@ -14,26 +32,32 @@
         "StateOrProvince": "CA",
         "Postcode": "95661",
         "CountryID": 2,
-        "Latitude": 38.7617239,
-        "Longitude": -121.2553823,
-        "ContactTelephone1": "888-758-4389",
+        "Latitude": 38.76095425186932,
+        "Longitude": -121.2552786581935,
         "AccessComments": "24 hours daily",
-        "RelatedURL": "http://www.chargepoint.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 155648,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
+            "ID": 574872,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 6
+        },
+        {
+            "ID": 574873,
+            "ConnectionTypeID": 0,
+            "StatusTypeID": 100,
+            "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2019-12-24T09:15:00Z",
+    "NumberOfPoints": 8,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2024-09-09T10:11:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

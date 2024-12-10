@@ -1,34 +1,21 @@
 {
-    "DateLastVerified": "2024-02-20T07:36:00Z",
+    "DateLastVerified": "2024-10-26T11:00:00Z",
     "ID": 242686,
     "UUID": "899D4DB5-CC31-485D-8E1B-F13209CC0B98",
-    "DataProviderID": 19,
-    "DataProvidersReference": "4939",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 243070,
-        "Title": "Biginn Laddregion Mälardalen",
-        "AddressLine1": "Ringvägen 74",
-        "Town": "KÖPING",
-        "StateOrProvince": "VÄSTMANLAND",
-        "Postcode": "73133",
+        "Title": "Ringvägen 76 - Allego",
+        "AddressLine1": "Ringvägen",
+        "Town": "Köping",
+        "Postcode": "731 01",
         "CountryID": 216,
         "Latitude": 59.52123,
         "Longitude": 15.97362,
-        "AccessComments": "Parkeringen vid MAX.",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 402837,
-            "ConnectionTypeID": 2,
-            "Reference": "1",
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Comments": "Mode 4"
-        },
         {
             "ID": 402838,
             "ConnectionTypeID": 33,
@@ -36,42 +23,10 @@
             "LevelID": 3,
             "Amps": 100,
             "Voltage": 500,
-            "PowerKW": 50,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
+            "Quantity": 4,
             "Comments": "Mode 4"
-        },
-        {
-            "ID": 402839,
-            "ConnectionTypeID": 25,
-            "Reference": "3",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 402840,
-            "ConnectionTypeID": 25,
-            "Reference": "4",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 402841,
-            "ConnectionTypeID": 25,
-            "Reference": "5",
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Comments": "Mode 3"
         },
         {
             "ID": 402842,
@@ -82,11 +37,20 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
+            "Quantity": 8,
             "Comments": "Mode 3"
+        },
+        {
+            "ID": 578414,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 150,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 6,
-    "DateLastStatusUpdate": "2024-02-20T07:36:00Z",
+    "DateLastStatusUpdate": "2024-10-26T11:00:00Z",
     "DateCreated": "2023-03-07T03:57:00Z",
     "SubmissionStatusTypeID": 100
 }

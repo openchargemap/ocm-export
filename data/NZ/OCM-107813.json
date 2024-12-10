@@ -1,34 +1,25 @@
 {
-    "DateLastVerified": "2023-06-04T11:31:00Z",
+    "DateLastVerified": "2024-03-16T02:39:00Z",
     "ID": 107813,
     "UUID": "FEF1607A-088B-4975-B670-B70AB0561D05",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.80/kWh (DC), $0.40/kWh (AC)",
+    "UsageCost": "$0.85/kWh",
     "AddressInfo": {
         "ID": 108159,
         "Title": "Raeward Fresh",
         "AddressLine1": "800 Harewood Road",
         "AddressLine2": "Harewood",
         "Town": "Christchurch",
+        "StateOrProvince": "Canterbury",
         "Postcode": "8051",
         "CountryID": 161,
-        "Latitude": -43.47799730295173,
-        "Longitude": 172.55625730096165,
+        "Latitude": -43.47772718955898,
+        "Longitude": 172.55628269682904,
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 152233,
-            "ConnectionTypeID": 2,
-            "Reference": "HARE1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
         {
             "ID": 152234,
             "ConnectionTypeID": 33,
@@ -40,29 +31,59 @@
             "Quantity": 1
         },
         {
-            "ID": 453395,
-            "ConnectionTypeID": 25,
-            "Reference": "HARE2-A",
+            "ID": 529679,
+            "ConnectionTypeID": 2,
+            "Reference": "HARE1",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 453396,
-            "ConnectionTypeID": 25,
-            "Reference": "HARE2-B",
+            "ID": 529680,
+            "ConnectionTypeID": 33,
+            "Reference": "HARE3",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 529681,
+            "ConnectionTypeID": 2,
+            "Reference": "HARE3",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 529682,
+            "ConnectionTypeID": 33,
+            "Reference": "HARE4",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 529683,
+            "ConnectionTypeID": 2,
+            "Reference": "HARE4",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 7,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-04T11:31:00Z",
+    "DateLastStatusUpdate": "2024-03-16T02:39:00Z",
     "DateCreated": "2018-08-10T13:00:00Z",
     "SubmissionStatusTypeID": 200
 }

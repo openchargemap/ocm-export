@@ -1,39 +1,41 @@
 {
-    "DateLastVerified": "2024-02-20T10:28:00Z",
+    "DateLastVerified": "2024-04-29T08:20:00Z",
     "ID": 271243,
     "UUID": "1590130C-D326-4C49-9CA7-D607C07330D8",
-    "DataProviderID": 2,
-    "DataProvidersReference": "302273",
+    "DataProviderID": 1,
     "OperatorID": 3372,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$5.00/hr",
     "AddressInfo": {
         "ID": 271627,
-        "Title": "Pelee Island Winery",
+        "Title": "EV Connect - Pelee Island Winery",
         "AddressLine1": "455 Seacliff Drive",
         "Town": "Kingsville",
         "StateOrProvince": "ON",
         "Postcode": "N9Y 2K5",
         "CountryID": 44,
-        "Latitude": 42.036753,
-        "Longitude": -82.72125,
-        "ContactTelephone1": "866-816-7584",
-        "AccessComments": "",
-        "RelatedURL": "http://evconnect.com/",
+        "Latitude": 42.03685751045796,
+        "Longitude": -82.72122837355693,
+        "ContactTelephone1": "1-866-816-7584",
+        "ContactTelephone2": "1-877-297-8050",
+        "RelatedURL": "https://www.evconnect.ca",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 461629,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4
         }
     ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "Mobile app (EV Connect Canada) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:28:00Z",
+    "DateLastStatusUpdate": "2024-04-29T08:20:00Z",
     "DateCreated": "2023-07-10T04:22:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,0 +1,81 @@
+{
+    "MediaItems": [
+        {
+            "ID": 43757,
+            "ChargePointID": 300650,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM300650/OCM-300650.orig.2024100406233939.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM300650/OCM-300650.thmb.2024100406233939.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 54075,
+                "Username": "DMM"
+            },
+            "DateCreated": "2024-10-04T06:24:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-24T19:52:00Z",
+    "ID": 300650,
+    "UUID": "2DC1DF32-19E4-4E8E-B29E-57C7B2DE1084",
+    "DataProviderID": 1,
+    "OperatorID": 2247,
+    "UsageTypeID": 4,
+    "UsageCost": "0,69€/kWh >200kW - 0,54€/kWh 80-200kW ",
+    "AddressInfo": {
+        "ID": 301037,
+        "Title": "CLUN Os Irmandiños (Iberdrola-Porsche)",
+        "AddressLine1": "Estrada Irún - Santiago",
+        "Town": "A Devesa",
+        "StateOrProvince": "Galicia",
+        "Postcode": "27796",
+        "CountryID": 210,
+        "Latitude": 43.54564747135328,
+        "Longitude": -7.156232255144658,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 559706,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 950,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
+            "Comments": "Power electronics NB180 Charger "
+        },
+        {
+            "ID": 559707,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 950,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Power electronics NBc360 Charger (max power limited to 200kW for 400V cars)"
+        },
+        {
+            "ID": 559708,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 8,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-11-24T19:52:00Z",
+    "DateCreated": "2024-07-07T19:37:00Z",
+    "SubmissionStatusTypeID": 200
+}

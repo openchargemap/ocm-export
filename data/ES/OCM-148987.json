@@ -17,16 +17,16 @@
             "DateCreated": "2022-08-28T14:39:00Z"
         }
     ],
-    "DateLastVerified": "2022-10-28T07:27:00Z",
+    "DateLastVerified": "2024-09-13T09:52:00Z",
     "ID": 148987,
     "UUID": "4E590533-BE0F-420C-9694-33575B3FD301",
     "DataProviderID": 1,
-    "OperatorID": 3371,
-    "UsageTypeID": 1,
-    "UsageCost": "0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "OperatorID": 3571,
+    "UsageTypeID": 4,
+    "UsageCost": "0.50€/kWh >60kW - 0,39€/kWh DC - 0,32€/kWh AC",
     "AddressInfo": {
         "ID": 149340,
-        "Title": "RESTAURANTE LA ZARZUELA (Wenea)",
+        "Title": "Rest. La Zarzuela",
         "AddressLine1": "Carretera Extremadura N-v, KM 150, 45567 Lagartera, Toledo, España",
         "Town": "Lagartera",
         "StateOrProvince": "Oropesa",
@@ -34,8 +34,8 @@
         "CountryID": 210,
         "Latitude": 39.91266331557438,
         "Longitude": -5.202514830878272,
-        "ContactTelephone1": "Wenea",
-        "ContactTelephone2": "915060600",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "",
         "AccessComments": "Operados por Wenea, es necesario descargarse la aplicacion",
         "RelatedURL": "https://www.wenea.com",
         "DistanceUnit": 0
@@ -46,9 +46,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 900,
+            "PowerKW": 220,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "PowerElectronics NB240 charger (500A peak). Power is split between both outlets. The DC charger allows charging one vehicle at 220kW, or two simultaneous charges at 110kW. "
         },
         {
             "ID": 206952,
@@ -57,7 +60,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 206953,
@@ -68,12 +71,21 @@
             "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 575838,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-28T07:27:00Z",
+    "DateLastStatusUpdate": "2024-09-13T09:52:00Z",
     "DateCreated": "2020-02-14T20:00:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2024-02-20T10:58:00Z",
+    "DateLastVerified": "2024-02-25T15:14:00Z",
     "ID": 295685,
     "UUID": "7EF55900-E3E9-4B61-8E75-3A9D5AEBB732",
-    "DataProviderID": 2,
-    "DataProvidersReference": "326877",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$21.00/hr",
     "AddressInfo": {
         "ID": 296072,
-        "Title": "Red Lake Community Centre",
+        "Title": "FLO - Red Lake Community Centre",
         "AddressLine1": "10 Hammell Road",
         "Town": "Red Lake",
         "StateOrProvince": "ON",
@@ -16,9 +16,10 @@
         "CountryID": 44,
         "Latitude": 51.015708,
         "Longitude": -93.823582,
-        "ContactTelephone1": "888-356-8911",
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://flo.ca/",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,7 +30,7 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 527242,
@@ -38,11 +39,13 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "Mobile app (FLO EV Charging) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:58:00Z",
+    "DateLastStatusUpdate": "2024-02-25T15:14:00Z",
     "DateCreated": "2024-02-20T10:58:00Z",
     "SubmissionStatusTypeID": 100
 }

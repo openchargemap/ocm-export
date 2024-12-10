@@ -18,6 +18,22 @@
     ],
     "MediaItems": [
         {
+            "ID": 42268,
+            "ChargePointID": 97183,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM97183/OCM-97183.orig.2024051214491755.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM97183/OCM-97183.thmb.2024051214491755.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-05-12T14:49:00Z"
+        },
+        {
             "ID": 20691,
             "ChargePointID": 97183,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM97183/OCM-97183.orig.2019122221532952.jpg",
@@ -322,12 +338,13 @@
             "DateCreated": "2018-01-09T22:59:00Z"
         }
     ],
-    "DateLastVerified": "2022-03-13T05:00:00Z",
+    "DateLastVerified": "2024-08-24T20:17:00Z",
     "ID": 97183,
     "UUID": "D397F4BF-A672-49AF-9D29-4412158C7092",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 97529,
         "Title": "Estación de Servicio El Portazgo Zoilo Ríos Zaragoza",
@@ -375,12 +392,24 @@
             "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 1
+        },
+        {
+            "ID": 547310,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "Amps": 250,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "ABB Terra HP175 Charger"
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Charger was changed in november 2019. Pasar por la tienda para iniciar y terminar la carga.",
+    "NumberOfPoints": 4,
+    "GeneralComments": "Charger was changed in november 2019. Pasar por la tienda para iniciar y terminar la carga. Apps Electromaps, EVCharge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-13T05:00:00Z",
+    "DateLastStatusUpdate": "2024-08-24T20:17:00Z",
     "DateCreated": "2018-01-09T22:58:00Z",
     "SubmissionStatusTypeID": 200
 }

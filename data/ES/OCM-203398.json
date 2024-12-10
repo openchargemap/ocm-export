@@ -1,11 +1,94 @@
 {
-    "DateLastVerified": "2022-09-26T18:35:00Z",
+    "UserComments": [
+        {
+            "ID": 29751,
+            "ChargePointID": 203398,
+            "CommentTypeID": 10,
+            "UserName": "Chargerman",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2024-05-20T21:08:32.217Z",
+            "User": {
+                "ID": 49313,
+                "Username": "Chargerman"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 42748,
+            "ChargePointID": 203398,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM203398/OCM-203398.orig.2024070218082031.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM203398/OCM-203398.thmb.2024070218082031.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49313,
+                "Username": "Chargerman"
+            },
+            "DateCreated": "2024-07-02T18:08:00Z"
+        },
+        {
+            "ID": 42384,
+            "ChargePointID": 203398,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM203398/OCM-203398.orig.2024052021064756.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM203398/OCM-203398.thmb.2024052021064756.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49313,
+                "Username": "Chargerman"
+            },
+            "DateCreated": "2024-05-20T21:07:00Z"
+        },
+        {
+            "ID": 42385,
+            "ChargePointID": 203398,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM203398/OCM-203398.orig.2024052021070481.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM203398/OCM-203398.thmb.2024052021070481.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49313,
+                "Username": "Chargerman"
+            },
+            "DateCreated": "2024-05-20T21:07:00Z"
+        },
+        {
+            "ID": 42386,
+            "ChargePointID": 203398,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM203398/OCM-203398.orig.2024052021072128.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM203398/OCM-203398.thmb.2024052021072128.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49313,
+                "Username": "Chargerman"
+            },
+            "DateCreated": "2024-05-20T21:07:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-07-02T18:08:00Z",
     "ID": 203398,
     "UUID": "0DEAADA9-D92F-4F71-99AA-AAD061CF8C5B",
     "DataProviderID": 1,
     "OperatorID": 3499,
     "UsageTypeID": 1,
-    "UsageCost": "Free for clients",
+    "UsageCost": "25cent/kWh",
     "AddressInfo": {
         "ID": 203765,
         "Title": "Mercadona el Astillero",
@@ -24,14 +107,24 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 550022,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "One charger ia outside and one charger is in the first floor",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-26T18:35:00Z",
+    "DateLastStatusUpdate": "2024-07-02T18:08:00Z",
     "DateCreated": "2022-09-17T16:34:00Z",
     "SubmissionStatusTypeID": 200
 }

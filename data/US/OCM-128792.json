@@ -1,17 +1,17 @@
 {
-    "DateLastVerified": "2019-07-02T04:54:00Z",
+    "DateLastVerified": "2024-08-13T07:37:00Z",
     "ID": 128792,
     "UUID": "BEF31BCB-4D1A-4BAE-B215-5B732303257F",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 5,
     "UsageTypeID": 1,
     "UsageCost": "$.15/hour + $.18/kWh + parking meter",
     "AddressInfo": {
         "ID": 129138,
-        "Title": "City Hall,",
-        "AddressLine1": "Dorthy Dottie Doyle Way",
-        "Town": "cambridge",
-        "StateOrProvince": "massachusetts",
+        "Title": "Cambridge City Hall",
+        "AddressLine1": "795 Massachusetts Avenue",
+        "Town": "Cambridge",
+        "StateOrProvince": "Massachusetts",
         "Postcode": "02139",
         "CountryID": 2,
         "Latitude": 42.3670378126521,
@@ -28,12 +28,16 @@
             "ConnectionTypeID": 1,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.2
+            "Amps": 32,
+            "Voltage": 200,
+            "PowerKW": 6.4,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-07-02T04:54:00Z",
+    "DateLastStatusUpdate": "2024-08-13T07:37:00Z",
     "DateCreated": "2019-06-27T18:13:00Z",
     "SubmissionStatusTypeID": 200
 }

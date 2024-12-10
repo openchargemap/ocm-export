@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-02-19T06:23:00Z",
+    "DateLastVerified": "2024-12-05T06:21:00Z",
     "ID": 260573,
     "UUID": "D0921CCC-A61A-4495-B72B-68ED03CB97B4",
     "DataProviderID": 1,
@@ -16,7 +16,7 @@
         "CountryID": 1,
         "Latitude": 54.298444,
         "Longitude": -1.565937,
-        "RelatedURL": "https://electrichighway.gridserve.com/Leeming-Bar-Service",
+        "RelatedURL": "https://electrichighway.gridserve.com/?location=Leeming-Bar-Service",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -51,17 +51,27 @@
             "Quantity": 1
         },
         {
-            "ID": 515464,
-            "ConnectionTypeID": 33,
+            "ID": 585044,
+            "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS10640*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 515880,
+            "ID": 585045,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10641*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585205,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10642*1",
             "StatusTypeID": 50,
@@ -71,7 +81,17 @@
             "Quantity": 1
         },
         {
-            "ID": 516178,
+            "ID": 585206,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10640*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585207,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10641*1",
             "StatusTypeID": 50,
@@ -83,7 +103,7 @@
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-19T06:23:00Z",
+    "DateLastStatusUpdate": "2024-12-05T06:21:00Z",
     "DateCreated": "2023-04-25T09:23:00Z",
     "SubmissionStatusTypeID": 200
 }

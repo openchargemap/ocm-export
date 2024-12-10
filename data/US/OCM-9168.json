@@ -1,40 +1,41 @@
 {
-    "DateLastVerified": "2017-11-04T14:04:00Z",
+    "DateLastVerified": "2024-07-08T08:59:00Z",
     "ID": 9168,
     "UUID": "9435A5FD-C318-4A92-9125-E059DCF7D001",
-    "DataProviderID": 15,
-    "DataProvidersReference": "12784",
+    "DataProviderID": 1,
     "OperatorID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 9065,
-        "Title": "Alewife Station Access Rd",
+        "Title": "Alewife Station",
         "AddressLine1": "Alewife Station Access Rd",
         "Town": "Cambridge",
         "StateOrProvince": "Massachusetts",
         "Postcode": "2138",
         "CountryID": 2,
-        "Latitude": 42.39562225,
-        "Longitude": -71.14254761,
+        "Latitude": 42.39536546095755,
+        "Longitude": -71.14194716326074,
         "ContactTelephone1": "",
-        "RelatedURL": "http://carstations.com/12784",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 6849,
             "ConnectionTypeID": 1,
-            "Reference": "J1772",
-            "LevelID": 2
-        },
-        {
-            "ID": 7422,
-            "ConnectionTypeID": 9,
-            "Reference": "NEMA5",
-            "Quantity": 1
+            "Reference": "",
+            "StatusTypeID": 75,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 208,
+            "PowerKW": 6.6,
+            "CurrentTypeID": 10,
+            "Quantity": 6
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2017-11-04T14:04:00Z",
+    "NumberOfPoints": 6,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2024-07-08T08:59:00Z",
     "DateCreated": "2012-01-23T15:11:00Z",
     "SubmissionStatusTypeID": 100
 }

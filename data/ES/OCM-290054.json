@@ -1,5 +1,55 @@
 {
-    "DateLastVerified": "2024-01-19T19:28:00Z",
+    "MediaItems": [
+        {
+            "ID": 42764,
+            "ChargePointID": 290054,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM290054/OCM-290054.orig.2024070317430958.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM290054/OCM-290054.thmb.2024070317430958.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-07-03T17:43:00Z"
+        },
+        {
+            "ID": 42691,
+            "ChargePointID": 290054,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM290054/OCM-290054.orig.2024062809272433.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM290054/OCM-290054.thmb.2024062809272433.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-06-28T09:27:00Z"
+        },
+        {
+            "ID": 42482,
+            "ChargePointID": 290054,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM290054/OCM-290054.orig.2024060810505724.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM290054/OCM-290054.thmb.2024060810505724.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-06-08T10:51:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-28T22:38:00Z",
     "ID": 290054,
     "UUID": "945D4F07-74C0-49FC-9FCD-2C34D630A11D",
     "DataProviderID": 1,
@@ -20,51 +70,31 @@
         {
             "ID": 512337,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 75,
             "LevelID": 3,
             "Amps": 500,
             "Voltage": 920,
-            "PowerKW": 360,
+            "PowerKW": 400,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 512338,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 500,
-            "Voltage": 920,
-            "PowerKW": 360,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 512339,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 500,
-            "Voltage": 920,
-            "PowerKW": 360,
-            "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 16,
+            "Comments": "8 Hypercharger HYC400 Chargers. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. Max 600A Peak, charging power limited to 240kW for 400V cars"
         },
         {
             "ID": 512340,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 500,
-            "Voltage": 920,
-            "PowerKW": 360,
-            "CurrentTypeID": 30,
-            "Quantity": 2
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 20,
+    "GeneralComments": "Station equipped with a boost battery. Max Power limited when charger battery is low of charge",
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-19T19:28:00Z",
+    "DateLastStatusUpdate": "2024-11-28T22:38:00Z",
     "DateCreated": "2024-01-19T19:28:00Z",
     "SubmissionStatusTypeID": 200
 }

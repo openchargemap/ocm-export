@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-11-25T14:04:00Z",
+    "DateLastVerified": "2024-09-13T17:30:00Z",
     "ID": 280385,
     "UUID": "EC6E228A-F482-4CCD-BD69-2D6D885E0751",
     "DataProviderID": 1,
@@ -14,8 +14,8 @@
         "StateOrProvince": "Galicia",
         "Postcode": "36350",
         "CountryID": 210,
-        "Latitude": 42.1326793386352,
-        "Longitude": -8.798627651135803,
+        "Latitude": 42.13249844483704,
+        "Longitude": -8.79759020411052,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -50,22 +50,25 @@
             "LevelID": 2,
             "PowerKW": 7.4,
             "CurrentTypeID": 10,
-            "Quantity": 14
+            "Quantity": 15
         },
         {
-            "ID": 487728,
+            "ID": 573008,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 150,
             "LevelID": 3,
-            "PowerKW": 75,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Wallbox Supernova 150 Charger. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW  "
         }
     ],
     "NumberOfPoints": 19,
     "GeneralComments": "Apps Electromaps / Chargemap",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-25T14:04:00Z",
+    "DateLastStatusUpdate": "2024-09-13T17:30:00Z",
     "DateCreated": "2023-11-25T13:20:00Z",
     "SubmissionStatusTypeID": 200
 }

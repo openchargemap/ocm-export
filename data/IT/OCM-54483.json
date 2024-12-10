@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 29983,
+            "ChargePointID": 54483,
+            "CommentTypeID": 10,
+            "UserName": "ForumElettrico.it",
+            "Comment": "Nessun problema con app Wroom sulla CCS Combo 2 ed ho interrotto avvicinandomi all'auto e premendo il pulsante sulla presa auto. Leggi la recensione completa qui: https://www.forumelettrico.it/forum/post458895.html#p458895\r\n",
+            "RelatedURL": "https://www.forumelettrico.it/forum/post458895.html#p458895",
+            "DateCreated": "2024-09-04T16:55:05.517Z",
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 22853,
             "ChargePointID": 54483,
             "CommentTypeID": 10,
@@ -32,6 +47,22 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 43512,
+            "ChargePointID": 54483,
+            "ItemURL": "https://media.openchargemap.io/images/IT/OCM54483/OCM-54483.orig.2024090416551492.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IT/OCM54483/OCM-54483.thmb.2024090416551492.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 11749,
+                "Username": "ForumElettrico.it"
+            },
+            "DateCreated": "2024-09-04T16:55:00Z"
+        },
         {
             "ID": 22879,
             "ChargePointID": 54483,
@@ -129,16 +160,15 @@
             "DateCreated": "2020-03-07T13:57:00Z"
         }
     ],
-    "DateLastVerified": "2020-07-04T09:41:00Z",
+    "DateLastVerified": "2024-09-04T16:55:00Z",
     "ID": 54483,
     "UUID": "A6466B86-820F-4F46-91DB-3F6D533EA001",
     "DataProviderID": 1,
     "OperatorID": 80,
     "UsageTypeID": 4,
-    "UsageCost": "0,40 €/kW",
     "AddressInfo": {
         "ID": 54829,
-        "Title": " Golden Car Srl - Via Dè Carracci Parking | EnelX",
+        "Title": "Enel X Way EmilianAuto",
         "AddressLine1": "Via de' Carracci, 8p",
         "Town": "Bologna",
         "StateOrProvince": "BO",
@@ -146,7 +176,7 @@
         "CountryID": 112,
         "Latitude": 44.5087365652413,
         "Longitude": 11.3318344903125,
-        "RelatedURL": "https://www.enelx.com/it/it/mobilita-elettrica",
+        "RelatedURL": "https://www.forumelettrico.it/forum/colonnina-evad-fast-emilianauto-bologna-bo-via-de-carracci-8-t9732.html",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -157,59 +187,29 @@
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 68731,
-            "ConnectionTypeID": 36,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 240,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
-            "ID": 166320,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 120,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 166321,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 120,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 166322,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 64,
-            "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 574132,
+            "ConnectionTypeID": 33,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
+        },
+        {
+            "ID": 574133,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 1,
     "GeneralComments": "Lun-Ven 08:30-12:30/14:30-19 e Sab 9-12:30/15-18:30 Dom chiuso",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-07-04T09:41:00Z",
+    "DateLastStatusUpdate": "2024-09-04T16:55:00Z",
     "DateCreated": "2015-10-04T14:48:00Z",
     "SubmissionStatusTypeID": 200
 }

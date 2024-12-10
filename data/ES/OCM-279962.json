@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-11-13T17:30:00Z",
+    "MediaItems": [
+        {
+            "ID": 41660,
+            "ChargePointID": 279962,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM279962/OCM-279962.orig.2024030720263032.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM279962/OCM-279962.thmb.2024030720263032.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-03-07T20:27:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-24T09:38:00Z",
     "ID": 279962,
     "UUID": "C81CC372-7C16-4D3A-A348-A4A256F6660C",
     "DataProviderID": 1,
     "OperatorID": 3371,
     "UsageTypeID": 4,
-    "UsageCost": "0,38€/kWh ",
+    "UsageCost": "0,59€/kWh  DC - 0,38€/kWh AC + parking fee",
     "AddressInfo": {
         "ID": 280349,
         "Title": "La Finca Grand Café",
@@ -14,8 +32,8 @@
         "Town": "Pozuelo de Alarcón",
         "StateOrProvince": "Comunidad de Madrid",
         "CountryID": 210,
-        "Latitude": 40.4050617249255,
-        "Longitude": -3.7978380111651973,
+        "Latitude": 40.404781237500885,
+        "Longitude": -3.797692673140517,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,12 +44,25 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 10
+            "Quantity": 12
+        },
+        {
+            "ID": 529345,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 220,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
+            "Comments": "Six Kempower CCS chargers that dynamically share the total power of the cabinet (400 kW).(max power limited  to 120kW for 400V cars)"
         }
     ],
-    "NumberOfPoints": 10,
+    "NumberOfPoints": 24,
+    "GeneralComments": "parking level -2",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-13T17:30:00Z",
+    "DateLastStatusUpdate": "2024-10-24T09:38:00Z",
     "DateCreated": "2023-11-13T17:21:00Z",
     "SubmissionStatusTypeID": 200
 }

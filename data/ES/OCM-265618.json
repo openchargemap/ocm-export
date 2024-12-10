@@ -1,11 +1,45 @@
 {
-    "DateLastVerified": "2024-02-09T10:16:00Z",
+    "MediaItems": [
+        {
+            "ID": 42940,
+            "ChargePointID": 265618,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM265618/OCM-265618.orig.2024071720571288.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM265618/OCM-265618.thmb.2024071720571288.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-07-17T20:57:00Z"
+        },
+        {
+            "ID": 42939,
+            "ChargePointID": 265618,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM265618/OCM-265618.orig.2024071720532201.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM265618/OCM-265618.thmb.2024071720532201.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-07-17T20:53:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-07-19T05:31:00Z",
     "ID": 265618,
     "UUID": "9380F9B5-4227-4166-A96F-22FC8D395FA9",
     "DataProviderID": 1,
-    "OperatorID": 3377,
+    "OperatorID": 3798,
     "UsageTypeID": 4,
-    "UsageCost": "0,35€/kWh + parking fee",
+    "UsageCost": "0,45€/kWh DC - 0,35€/kWh AC + parking fee",
     "AddressInfo": {
         "ID": 266002,
         "Title": "Parking Hospital Infanta Leonor",
@@ -26,7 +60,7 @@
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
+            "PowerKW": 28,
             "CurrentTypeID": 20,
             "Quantity": 16
         },
@@ -40,13 +74,25 @@
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
+            "Comments": "Wallbox Supernova 60 Charger. The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW"
+        },
+        {
+            "ID": 562738,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Wallbox Supernova 60 Charger. "
         }
     ],
-    "NumberOfPoints": 18,
+    "NumberOfPoints": 32,
     "GeneralComments": "App EVcharge. Remo Mobility",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-09T10:16:00Z",
+    "DateLastStatusUpdate": "2024-07-19T05:31:00Z",
     "DateCreated": "2023-05-15T16:03:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,20 +1,21 @@
 {
-    "DateLastVerified": "2023-10-09T02:47:00Z",
+    "DateLastVerified": "2024-10-28T14:04:00Z",
     "ID": 274899,
     "UUID": "3B8CC188-8F3B-44FD-AE6F-D07856AB9AF5",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 5,
-    "UsageCost": "0.5 RON",
+    "UsageCost": "0.99 lei/kWh",
     "AddressInfo": {
         "ID": 275286,
-        "Title": "ABB Charging Station",
-        "AddressLine1": "Strada Dispensarului",
+        "Title": "Ledmax",
+        "AddressLine1": "DN1A",
         "Town": "Blejoi",
         "Postcode": "107071",
         "CountryID": 184,
         "Latitude": 44.9720232,
         "Longitude": 26.0215557,
+        "RelatedURL": "https://evconnect.ro",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,17 +24,25 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 450,
-            "Voltage": 400,
-            "PowerKW": 180,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "4 x 180kW stalls with two connectors per stall "
+            "Quantity": 6,
+            "Comments": ""
+        },
+        {
+            "ID": 578588,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 12,
+    "GeneralComments": "Available in EV Connect Romania app",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-10-09T02:47:00Z",
+    "DateLastStatusUpdate": "2024-10-28T14:04:00Z",
     "DateCreated": "2023-09-27T22:08:00Z",
     "SubmissionStatusTypeID": 200
 }

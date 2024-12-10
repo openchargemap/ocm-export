@@ -1,9 +1,10 @@
 {
-    "DateLastVerified": "2024-02-20T07:44:00Z",
+    "DateLastVerified": "2024-08-22T18:30:00Z",
     "ID": 216551,
     "UUID": "A4343241-0EB0-4C33-B3C6-A9862AF6599F",
-    "DataProviderID": 19,
-    "DataProvidersReference": "9734",
+    "DataProviderID": 1,
+    "OperatorID": 3534,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 216931,
         "Title": "Övertårneå Tätort Supercharger",
@@ -12,8 +13,8 @@
         "StateOrProvince": "NORRBOTTEN",
         "Postcode": "95731",
         "CountryID": 216,
-        "Latitude": 66.38340294919864,
-        "Longitude": 23.655171527709122,
+        "Latitude": 66.383212,
+        "Longitude": 23.655042,
         "AccessComments": "",
         "DistanceUnit": 0
     },
@@ -21,36 +22,17 @@
         {
             "ID": 366266,
             "ConnectionTypeID": 33,
-            "Reference": "1",
+            "Reference": "",
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 375,
-            "Voltage": 400,
-            "PowerKW": 150,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 366267,
-            "ConnectionTypeID": 33,
-            "Reference": "2",
-            "LevelID": 3,
-            "Amps": 375,
-            "Voltage": 400,
-            "PowerKW": 150,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 366268,
-            "ConnectionTypeID": 33,
-            "Reference": "3",
-            "LevelID": 3,
-            "Amps": 375,
-            "Voltage": 400,
-            "PowerKW": 150,
-            "CurrentTypeID": 30
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         }
     ],
     "NumberOfPoints": 3,
-    "DateLastStatusUpdate": "2024-02-20T07:44:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-08-22T18:30:00Z",
     "DateCreated": "2023-02-09T09:52:00Z",
     "SubmissionStatusTypeID": 100
 }

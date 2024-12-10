@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-10-23T10:53:00Z",
+    "DateLastVerified": "2024-11-08T09:51:00Z",
     "ID": 209122,
     "UUID": "1743C455-602A-423E-9850-8E8366D55D75",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 5,
-    "UsageCost": "",
+    "OperatorID": 207,
+    "UsageTypeID": 4,
+    "UsageCost": " 0,42€/kWh DC - 0,33€/kWh AC ",
     "AddressInfo": {
         "ID": 209502,
         "Title": "Parking San Sebastián",
@@ -23,14 +23,26 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 10
+        },
+        {
+            "ID": 579482,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump60 DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW."
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 12,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-23T10:53:00Z",
+    "DateLastStatusUpdate": "2024-11-08T09:51:00Z",
     "DateCreated": "2022-10-23T10:53:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-02-11T12:15:00Z",
+    "DateLastVerified": "2024-09-01T14:45:00Z",
     "ID": 201918,
     "UUID": "A4A279CE-27B2-4942-8731-F039D4BEB6F3",
     "DataProviderID": 1,
-    "OperatorID": 3276,
+    "OperatorID": 3571,
     "UsageTypeID": 4,
-    "UsageCost": "0,54€/kWh (0,10€/min parked without charging)",
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 202285,
         "Title": "Aeropuerto de Asturias",
@@ -14,8 +14,9 @@
         "StateOrProvince": "Principality of Asturias",
         "Postcode": "33457",
         "CountryID": 210,
-        "Latitude": 43.55867448932787,
-        "Longitude": -6.031744320245139,
+        "Latitude": 43.558754,
+        "Longitude": -6.033046,
+        "AccessComments": "Inside the airport parking",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,7 +25,7 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -33,25 +34,15 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 337344,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 1,
+    "GeneralComments": "Max 1h",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-11T12:15:00Z",
+    "DateLastStatusUpdate": "2024-09-01T14:45:00Z",
     "DateCreated": "2022-09-05T14:30:00Z",
     "SubmissionStatusTypeID": 200
 }

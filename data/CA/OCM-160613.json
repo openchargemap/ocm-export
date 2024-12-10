@@ -1,13 +1,14 @@
 {
-    "DateLastVerified": "2024-02-05T07:54:00Z",
+    "DateLastVerified": "2024-09-28T07:19:00Z",
     "ID": 160613,
     "UUID": "576D35B4-3772-4E13-86BB-9922F0BEEC6E",
     "DataProviderID": 1,
-    "OperatorID": 23,
-    "UsageTypeID": 1,
+    "OperatorID": 3534,
+    "UsageTypeID": 4,
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app.",
     "AddressInfo": {
         "ID": 160970,
-        "Title": "Canadian Tire - Tesla Supercharger",
+        "Title": "Tesla/NACS Supercharger - Thunder Bay",
         "AddressLine1": "1221 Arthur Street West",
         "Town": "Thunder Bay",
         "StateOrProvince": "ON",
@@ -15,24 +16,27 @@
         "CountryID": 44,
         "Latitude": 48.381055,
         "Longitude": -89.312274,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
-        "RelatedURL": "https://www.tesla.com/supercharger",
+        "ContactTelephone1": "1-877-798-3752",
+        "AccessComments": "Available 24/7",
+        "RelatedURL": "https://www.tesla.com/NACS",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 231098,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 6,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 6,
+    "GeneralComments": "Supercharger open to non-Tesla EVs covered by NACS agreement. NACS adapter required for EVs with CCS1 charging port. Tesla account and mobile app (Tesla) required for payment (pay-per-use). No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-05T07:54:00Z",
+    "DateLastStatusUpdate": "2024-09-28T07:19:00Z",
     "DateCreated": "2020-06-26T03:11:00Z",
     "SubmissionStatusTypeID": 100
 }

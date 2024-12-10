@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-02-20T10:39:00Z",
+    "DateLastVerified": "2024-03-06T17:53:00Z",
     "ID": 271257,
     "UUID": "B0A1608C-D9C2-488B-873D-0C1484737FA5",
-    "DataProviderID": 2,
-    "DataProvidersReference": "302191",
+    "DataProviderID": 1,
     "OperatorID": 3372,
     "UsageTypeID": 1,
+    "UsageCost": "$0.55/kWh",
     "AddressInfo": {
         "ID": 271641,
         "Title": "Dubois Museum",
@@ -26,14 +26,16 @@
             "ID": 461646,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": "Highly inconsistent, check before relying"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:39:00Z",
+    "StatusTypeID": 30,
+    "DateLastStatusUpdate": "2024-03-06T17:53:00Z",
     "DateCreated": "2023-07-10T04:32:00Z",
     "SubmissionStatusTypeID": 100
 }

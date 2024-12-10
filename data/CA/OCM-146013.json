@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2021-01-04T13:34:00Z",
+    "DateLastVerified": "2024-04-29T09:36:00Z",
     "ID": 146013,
     "UUID": "E7802C1E-7F60-4E08-A449-6356F20F284D",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "52539",
     "UsageTypeID": 4,
-    "UsageCost": "$0.44/min >=60kW; $0.22/min <60kW; other tariffs for older cars",
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app.",
     "AddressInfo": {
         "ID": 146365,
-        "Title": "Regina, SK Supercharger",
+        "Title": "Tesla/NACS Supercharger - Regina",
         "AddressLine1": "2325 Prince of Wales Drive",
         "Town": "Regina",
         "StateOrProvince": "SK",
@@ -17,6 +17,8 @@
         "CountryID": 44,
         "Latitude": 50.442534,
         "Longitude": -104.532003,
+        "ContactTelephone1": "1-877-798-3752",
+        "RelatedURL": "https://www.tesla.com/NACS",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +27,15 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8
         }
     ],
     "NumberOfPoints": 8,
-    "GeneralComments": "Charging8 Superchargers, available 24/7, up to 250kW",
+    "GeneralComments": "Supercharger open to non-Tesla EVs covered by NACS agreement ( https://www.tesla.com/NACS ). EVs with CCS1 charging port need an adapter provided by vehicle manufacturer. Tesla account and mobile app (Tesla) required for payment (pay-per-use). Plug & Charge payment option available for some EVs (Ford, Rivian). No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-04T13:34:00Z",
+    "DateLastStatusUpdate": "2024-04-29T09:36:00Z",
     "DateCreated": "2019-12-30T21:25:00Z",
     "SubmissionStatusTypeID": 200
 }

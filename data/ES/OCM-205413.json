@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-10-05T11:22:00Z",
+    "DateLastVerified": "2024-10-19T18:34:00Z",
     "ID": 205413,
     "UUID": "1ABED31C-DF9B-4710-9987-28368A350703",
     "DataProviderID": 1,
     "OperatorID": 3499,
-    "UsageTypeID": 1,
-    "UsageCost": "Free.  Limited to 1 hour. Accessible during business hours",
+    "UsageTypeID": 4,
+    "UsageCost": "0,25€/kWh",
     "AddressInfo": {
         "ID": 205780,
         "Title": "Mercadona Las Arenas",
@@ -14,8 +14,8 @@
         "StateOrProvince": "Extremadura",
         "Postcode": "10910",
         "CountryID": 210,
-        "Latitude": 39.453158910613325,
-        "Longitude": -6.479080658618841,
+        "Latitude": 39.45297717915014,
+        "Longitude": -6.479111687026716,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,15 +24,17 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "PowerKW": 11,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 6
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 6,
+    "GeneralComments": "app Waylet(Repsol). 90' free parking, then at 0,07€/min",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-05T11:22:00Z",
+    "DateLastStatusUpdate": "2024-10-19T18:34:00Z",
     "DateCreated": "2022-10-05T11:22:00Z",
     "SubmissionStatusTypeID": 200
 }

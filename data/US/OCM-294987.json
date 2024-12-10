@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2024-02-20T10:35:00Z",
+    "DateLastVerified": "2024-04-01T13:48:00Z",
     "ID": 294987,
     "UUID": "BB9C74DA-7656-4684-9EBE-11CE567F2D62",
-    "DataProviderID": 2,
-    "DataProvidersReference": "328639",
+    "DataProviderID": 1,
     "OperatorID": 9,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "WI",
         "Postcode": "53536",
         "CountryID": 2,
-        "Latitude": 42.789,
-        "Longitude": -89.29859,
+        "Latitude": 42.78896890812098,
+        "Longitude": -89.29830512314078,
         "ContactTelephone1": "888-998-2546",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.blinkcharging.com/",
@@ -25,17 +24,25 @@
         {
             "ID": 526423,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 19.2,
             "CurrentTypeID": 10,
-            "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 6,
+            "Comments": ""
+        },
+        {
+            "ID": 535960,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 285,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:35:00Z",
+    "DateLastStatusUpdate": "2024-04-01T13:48:00Z",
     "DateCreated": "2024-02-20T10:35:00Z",
     "SubmissionStatusTypeID": 100
 }

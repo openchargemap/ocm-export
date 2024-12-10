@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-02-08T19:25:00Z",
+    "DateLastVerified": "2024-11-16T19:09:00Z",
     "ID": 213753,
     "UUID": "607EA3DB-6032-4495-A395-C96E7BBB5DAC",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 5,
-    "UsageCost": "",
+    "OperatorID": 3557,
+    "UsageTypeID": 4,
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 214133,
         "Title": "Galp Palafolls",
@@ -20,17 +20,20 @@
     "Connections": [
         {
             "ID": 356031,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 950,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "HelloNext H2-120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-02-08T19:25:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-16T19:09:00Z",
     "DateCreated": "2023-02-08T19:25:00Z",
     "SubmissionStatusTypeID": 200
 }

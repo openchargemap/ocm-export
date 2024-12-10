@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2024-02-20T09:36:00Z",
+    "DateLastVerified": "2024-03-22T00:31:00Z",
     "ID": 293428,
     "UUID": "A17AC44C-FD18-4CC8-9F67-C193C78B8606",
-    "DataProviderID": 2,
-    "DataProvidersReference": "185204",
+    "DataProviderID": 1,
     "OperatorID": 15,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "FL",
         "Postcode": "32221",
         "CountryID": 2,
-        "Latitude": 30.29380883970582,
-        "Longitude": -81.77954070436857,
+        "Latitude": 30.29360366431164,
+        "Longitude": -81.78108583315415,
         "ContactTelephone1": "904-671-7720",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.evgo.com/",
@@ -25,24 +24,43 @@
         {
             "ID": 524630,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 6,
+            "Comments": ""
         },
         {
             "ID": 524631,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
+        },
+        {
+            "ID": 534069,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 534070,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T09:36:00Z",
+    "DateLastStatusUpdate": "2024-03-22T00:31:00Z",
     "DateCreated": "2024-02-20T09:36:00Z",
     "SubmissionStatusTypeID": 100
 }

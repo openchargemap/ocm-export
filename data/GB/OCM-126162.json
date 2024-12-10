@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-09-20T05:20:00Z",
+    "DateLastVerified": "2024-11-21T12:00:00Z",
     "ID": 126162,
     "UUID": "074A11C6-CA0D-4C2E-A674-7AF4CEBB6548",
     "DataProviderID": 1,
     "OperatorID": 3,
-    "OperatorsReference": "PG-405289,PG-405290,PG-82078,PG-83116",
+    "OperatorsReference": "PG-405289,PG-405290,PG-409030,PG-83116",
     "UsageTypeID": 4,
-    "UsageCost": "£0.28/kWh",
+    "UsageCost": "£0.35/kWh",
     "AddressInfo": {
         "ID": 126508,
         "Title": "Cloth Halls",
@@ -20,19 +20,6 @@
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 324886,
-            "ConnectionTypeID": 25,
-            "Reference": "PG-82078",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2,
-            "Comments": "Dora-Abby"
-        },
         {
             "ID": 324887,
             "ConnectionTypeID": 25,
@@ -71,12 +58,25 @@
             "CurrentTypeID": 10,
             "Quantity": 2,
             "Comments": "Carl-Dale"
+        },
+        {
+            "ID": 554044,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-409030",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Jody-John"
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "This is an open charge unit installed at the Cloth Halls site at Spinning Acres Lane, Headingley, Leeds",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-09-20T05:20:00Z",
+    "DateLastStatusUpdate": "2024-11-21T12:00:00Z",
     "DateCreated": "2019-05-13T13:17:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,40 +1,58 @@
 {
-    "DateLastVerified": "2023-09-06T20:46:00Z",
+    "DateLastVerified": "2024-10-07T19:02:00Z",
     "ID": 205412,
     "UUID": "5346107E-11A1-400D-93B0-C0DFED43AD5C",
     "DataProviderID": 1,
-    "OperatorID": 3401,
-    "UsageTypeID": 1,
-    "UsageCost": "free",
+    "OperatorID": 91,
+    "UsageTypeID": 4,
+    "UsageCost": "0,47€/kWh ",
     "AddressInfo": {
         "ID": 205779,
-        "Title": "Ayunt. Valencia de Alcántara (DipCa)",
-        "AddressLine1": "Carretera de Trujillo a Portugal por Valencia de Alcántara",
+        "Title": "Repsol Valencia de Alcántara ",
+        "AddressLine1": "Valencia de Alcántara",
         "Town": "Valencia de Alcántara",
         "StateOrProvince": "Extremadura",
         "Postcode": "10500",
         "CountryID": 210,
-        "Latitude": 39.40938932852279,
-        "Longitude": -7.246441802820755,
-        "ContactTelephone1": "+34670052259",
-        "ContactTelephone2": "info@senergyps.com",
+        "Latitude": 39.409224777942825,
+        "Longitude": -7.2418696274747845,
+        "ContactTelephone1": "",
+        "ContactTelephone2": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 342888,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 577217,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 577218,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 11,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "Diputación de Cáceres",
+    "NumberOfPoints": 1,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-09-06T20:46:00Z",
+    "DateLastStatusUpdate": "2024-10-07T19:02:00Z",
     "DateCreated": "2022-10-05T11:15:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-03-19T13:03:00Z",
+    "MediaItems": [
+        {
+            "ID": 43742,
+            "ChargePointID": 256766,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM256766/OCM-256766.orig.2024100117545485.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM256766/OCM-256766.thmb.2024100117545485.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-10-01T17:55:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-30T21:24:00Z",
     "ID": 256766,
     "UUID": "7D210D8E-57DC-4E99-A3B8-A3555C8A4A33",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,54€/kWh",
+    "UsageCost": "0,54-0,69€/kWh",
     "AddressInfo": {
         "ID": 257150,
         "Title": "Disfrimur  - Calle Río Ebro",
@@ -23,30 +41,54 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
+            "Amps": 500,
             "Voltage": 920,
-            "PowerKW": 180,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited to 150kW for 400V cars"
+            "Quantity": 6,
+            "Comments": "3 Hypercharger HYC300 DC chargers that allows charging one vehicle at 300kW, or two simultaneous charges at 150kW. (max power is limited for 400V cars)"
         },
         {
-            "ID": 427891,
+            "ID": 576986,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 920,
-            "PowerKW": 180,
+            "Amps": 500,
+            "Voltage": 900,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 3,
+            "Comments": "3 PowerElectronics dispensers "
+        },
+        {
+            "ID": 576987,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 400,
+            "PowerKW": 80,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited to 150kW for 400V cars"
+            "Comments": "Hypercharger HYC300 DC charger"
+        },
+        {
+            "ID": 577019,
+            "ConnectionTypeID": 0,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 1500,
+            "Voltage": 1000,
+            "PowerKW": 1000,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "PowerElectronics MCS charger"
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 7,
     "GeneralComments": "Accessible only in business hours ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-19T13:03:00Z",
+    "DateLastStatusUpdate": "2024-11-30T21:24:00Z",
     "DateCreated": "2023-03-13T08:02:00Z",
     "SubmissionStatusTypeID": 200
 }

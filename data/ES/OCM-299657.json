@@ -1,0 +1,68 @@
+{
+    "MediaItems": [
+        {
+            "ID": 42465,
+            "ChargePointID": 299657,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM299657/OCM-299657.orig.2024060106071882.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM299657/OCM-299657.thmb.2024060106071882.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-06-01T06:07:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-06-25T09:29:00Z",
+    "ID": 299657,
+    "UUID": "56250DE0-F73B-4007-84FF-47AE1B81934B",
+    "DataProviderID": 1,
+    "OperatorID": 3324,
+    "UsageTypeID": 4,
+    "UsageCost": "0,55€/kWh DC ",
+    "AddressInfo": {
+        "ID": 300044,
+        "Title": "Daimiel (Zunder)",
+        "AddressLine1": "Calle del Poniente",
+        "Town": "Daimiel",
+        "StateOrProvince": "Castilla-La Mancha",
+        "Postcode": "13250",
+        "CountryID": 210,
+        "Latitude": 39.047554961014015,
+        "Longitude": -3.5894366614187163,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 552630,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 16,
+            "Comments": "Eight ABB Terra360 chargers. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
+        },
+        {
+            "ID": 552631,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
+        }
+    ],
+    "NumberOfPoints": 20,
+    "GeneralComments": "Station equipped with a boost battery. Max Power limited when charger battery is low of charge",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2024-06-25T09:29:00Z",
+    "DateCreated": "2024-06-01T06:04:00Z",
+    "SubmissionStatusTypeID": 200
+}

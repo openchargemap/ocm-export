@@ -1,10 +1,62 @@
 {
-    "DateLastVerified": "2022-10-09T14:19:00Z",
+    "UserComments": [
+        {
+            "ID": 30050,
+            "ChargePointID": 192760,
+            "CommentTypeID": 10,
+            "UserName": "Juancar",
+            "Comment": "Si estan encendidos, se carga a 7 kw",
+            "Rating": 4,
+            "DateCreated": "2024-10-05T12:55:23.83Z",
+            "User": {
+                "ID": 53225,
+                "Username": "Juancar"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 43763,
+            "ChargePointID": 192760,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM192760/OCM-192760.orig.2024100512534207.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM192760/OCM-192760.thmb.2024100512534207.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53225,
+                "Username": "Juancar"
+            },
+            "DateCreated": "2024-10-05T12:54:00Z"
+        },
+        {
+            "ID": 41731,
+            "ChargePointID": 192760,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM192760/OCM-192760.orig.2024032006570961.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM192760/OCM-192760.thmb.2024032006570961.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-03-20T06:57:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-05T12:55:00Z",
     "ID": 192760,
     "UUID": "7CBA11C9-2C15-4B54-99E9-DB1CAA07978A",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 1,
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 193119,
         "Title": " Centro Comercial Oasiz",
@@ -13,8 +65,8 @@
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28850",
         "CountryID": 210,
-        "Latitude": 40.47074695861371,
-        "Longitude": -3.443700313726263,
+        "Latitude": 40.470511058297575,
+        "Longitude": -3.4433427868936235,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,14 +77,14 @@
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 7,
+            "PowerKW": 7.4,
             "CurrentTypeID": 10,
-            "Quantity": 26
+            "Quantity": 60
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-09T14:19:00Z",
+    "NumberOfPoints": 60,
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2024-10-05T12:55:00Z",
     "DateCreated": "2022-04-27T15:16:00Z",
     "SubmissionStatusTypeID": 200
 }

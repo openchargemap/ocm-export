@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-10-11T14:07:00Z",
+    "DateLastVerified": "2024-10-08T14:30:00Z",
     "ID": 274619,
     "UUID": "0BB1289A-CB58-4012-94CF-57B5E215FE68",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,42€/kWh",
+    "UsageCost": " 0,55€/kWh DC - 0,42€/kwh DC <50 kW",
     "AddressInfo": {
         "ID": 275003,
         "Title": "BM Portal de Elorriaga (Zunder)",
@@ -26,15 +26,26 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 100,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "Four Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (100 kW)."
+            "Quantity": 2,
+            "Comments": "Four Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW). Two of the dispensers are limited to 25 kW"
+        },
+        {
+            "ID": 573824,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-10-11T14:07:00Z",
+    "DateLastStatusUpdate": "2024-10-08T14:30:00Z",
     "DateCreated": "2023-09-19T18:02:00Z",
     "SubmissionStatusTypeID": 200
 }

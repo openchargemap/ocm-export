@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2019-06-03T09:48:00Z",
+    "DateLastVerified": "2024-10-01T23:25:00Z",
     "ID": 25752,
     "UUID": "21EB511D-A580-4364-8175-D7ABD84CA966",
     "DataProviderID": 1,
@@ -12,10 +12,10 @@
         "Title": " Tesco Whitegates",
         "AddressLine1": "Dublin Road",
         "Town": "Wicklow",
-        "StateOrProvince": "County Wicklow",
+        "StateOrProvince": "Co. Wicklow",
         "CountryID": 3,
-        "Latitude": 52.9830541189533,
-        "Longitude": -6.05058964544208,
+        "Latitude": 52.98332022528146,
+        "Longitude": -6.051463223260981,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -44,18 +44,27 @@
         {
             "ID": 28118,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "Voltage": 230,
             "PowerKW": 43,
             "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 576295,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "efacec QC45",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-06-03T09:48:00Z",
+    "DateLastStatusUpdate": "2024-10-01T23:25:00Z",
     "DateCreated": "2014-11-19T16:15:00Z",
     "SubmissionStatusTypeID": 200
 }

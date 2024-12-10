@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2024-02-12T15:51:00Z",
+    "DateLastVerified": "2024-08-29T15:09:00Z",
     "ID": 259958,
     "UUID": "F8C129EC-0347-4CE0-B289-06A74415DD33",
     "DataProviderID": 1,
     "OperatorID": 203,
-    "OperatorsReference": "GB*OSP*EOSP00236*1,GB*OSP*EOSP00236*2,GB*OSP*EOSP00236*3",
+    "OperatorsReference": "",
     "UsageTypeID": 5,
     "UsageCost": "£0.79/kWh",
     "AddressInfo": {
@@ -24,7 +24,7 @@
             "ID": 436625,
             "ConnectionTypeID": 2,
             "Reference": "GB*OSP*EOSP00236*2",
-            "StatusTypeID": 100,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -51,11 +51,51 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 559951,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP10522*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 559952,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*OSP*EOSP10523*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 559953,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP10522*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 559954,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*OSP*EOSP10523*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2024-02-12T15:51:00Z",
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-08-29T15:09:00Z",
     "DateCreated": "2023-04-13T11:18:00Z",
     "SubmissionStatusTypeID": 200
 }

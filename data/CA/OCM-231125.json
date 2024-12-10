@@ -1,38 +1,42 @@
 {
-    "DateLastVerified": "2024-02-05T08:03:00Z",
+    "DateLastVerified": "2024-11-03T12:06:00Z",
     "ID": 231125,
     "UUID": "3F5392FC-8610-4E5F-9D63-DC956BCDFA77",
     "DataProviderID": 1,
-    "OperatorID": 23,
-    "UsageTypeID": 1,
+    "OperatorID": 3534,
+    "UsageTypeID": 4,
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app. Parking $10.00/hr.",
     "AddressInfo": {
         "ID": 231508,
-        "Title": "Hotel X - Tesla Supercharger",
+        "Title": "Tesla/NACS Supercharger - Hotel X Toronto",
         "AddressLine1": "111 Princes' Boulevard",
         "Town": "Toronto",
         "StateOrProvince": "ON",
         "Postcode": "M6K 3C3",
         "CountryID": 44,
-        "Latitude": 43.632655,
-        "Longitude": -79.411641,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
-        "RelatedURL": "https://www.tesla.com/supercharger",
+        "Latitude": 43.633434,
+        "Longitude": -79.411626,
+        "ContactTelephone1": "1-877-798-3752",
+        "AccessComments": "Available 24/7",
+        "RelatedURL": "https://www.tesla.com/NACS",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 382861,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "Supercharger open to non-Tesla EVs covered by NACS agreement. NACS adapter required for EVs with CCS1 charging port. Tesla account and mobile app (Tesla) required for payment (pay-per-use). No credit card reader at the charger. Supercharger is located in underground garage (#135-151).",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-05T08:03:00Z",
+    "DateLastStatusUpdate": "2024-11-03T12:06:00Z",
     "DateCreated": "2023-02-13T05:30:00Z",
     "SubmissionStatusTypeID": 100
 }

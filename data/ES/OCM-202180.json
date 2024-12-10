@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-10-25T13:16:00Z",
+    "DateLastVerified": "2024-11-06T11:23:00Z",
     "ID": 202180,
     "UUID": "C76F11A4-486E-41EC-B32F-ADBA6558B887",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,55€/kWh ",
     "AddressInfo": {
         "ID": 202547,
         "Title": "ES Petromiralles",
@@ -24,32 +24,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 900,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 337976,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 337977,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Starcharge Titan150. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-25T13:16:00Z",
+    "DateLastStatusUpdate": "2024-11-06T11:23:00Z",
     "DateCreated": "2022-09-07T13:42:00Z",
     "SubmissionStatusTypeID": 200
 }

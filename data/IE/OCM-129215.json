@@ -1,17 +1,34 @@
 {
-    "DateLastVerified": "2022-07-14T14:38:00Z",
+    "UserComments": [
+        {
+            "ID": 29897,
+            "ChargePointID": 129215,
+            "CommentTypeID": 10,
+            "UserName": "thommcg",
+            "Comment": "Replaced by ChargePoint",
+            "DateCreated": "2024-07-31T11:15:08.347Z",
+            "User": {
+                "ID": 15963,
+                "Username": "thommcg"
+            },
+            "CheckinStatusTypeID": 160,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-09-27T18:56:00Z",
     "ID": 129215,
     "UUID": "B6CBB62E-E5BD-41D2-8919-B3542A36D993",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 5,
     "OperatorsReference": "51116",
-    "UsageTypeID": 6,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 129561,
         "Title": "Kelly's Resort Hotel",
         "AddressLine1": "Doogans Warren",
         "Town": "Rosslare",
-        "Postcode": "Y35 Y83V",
+        "StateOrProvince": "Co. Wexford",
+        "Postcode": "",
         "CountryID": 3,
         "Latitude": 52.27556,
         "Longitude": -6.388634,
@@ -22,7 +39,7 @@
         {
             "ID": 180863,
             "ConnectionTypeID": 30,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "PowerKW": 7,
             "CurrentTypeID": 20,
@@ -31,7 +48,7 @@
         {
             "ID": 308830,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "PowerKW": 7,
             "CurrentTypeID": 10,
@@ -40,17 +57,26 @@
         {
             "ID": 316208,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "PowerKW": 3,
             "CurrentTypeID": 10,
             "Quantity": 1
+        },
+        {
+            "ID": 566397,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 8
         }
     ],
     "NumberOfPoints": 8,
-    "GeneralComments": "4 Tesla Connectors, 3 Type-2, up to 7kW.Available for customers.",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-14T14:38:00Z",
+    "DateLastStatusUpdate": "2024-09-27T18:56:00Z",
     "DateCreated": "2019-07-15T16:20:00Z",
     "SubmissionStatusTypeID": 200
 }

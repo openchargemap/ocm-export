@@ -1,27 +1,46 @@
 {
-    "DateLastVerified": "2023-03-20T06:20:00Z",
+    "MediaItems": [
+        {
+            "ID": 43376,
+            "ChargePointID": 257674,
+            "ItemURL": "https://media.openchargemap.io/images/PT/OCM257674/OCM-257674.orig.2024082312034698.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/PT/OCM257674/OCM-257674.thmb.2024082312034698.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53674,
+                "Username": "lezurdis"
+            },
+            "DateCreated": "2024-08-23T12:04:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-08-27T15:04:00Z",
     "ID": 257674,
     "UUID": "563972DC-699C-49CA-8C2E-3C72FEFD304F",
-    "DataProviderID": 7,
-    "DataProvidersReference": "LNH-00005",
+    "DataProviderID": 1,
+    "OperatorID": 21,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 258058,
-        "Title": "R. Eng. Adelino Amaro da Costa,",
+        "Title": "LNH-00012 - R. Eng. Adelino Amaro da Costa,",
         "AddressLine1": "R. Eng. Adelino Amaro da Costa,",
         "Town": "Lourinhã",
         "Postcode": "2530-104",
         "CountryID": 180,
-        "Latitude": 39.239295,
-        "Longitude": -9.309598,
+        "Latitude": 39.2393457,
+        "Longitude": -9.3096846,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 430086,
-            "ConnectionTypeID": 1036,
-            "Reference": "LNH-00005-02-01",
+            "ConnectionTypeID": 25,
+            "Reference": "LNH-00012-02-01",
             "LevelID": 2,
-            "Amps": 32,
+            "Amps": 30,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
@@ -29,18 +48,19 @@
         },
         {
             "ID": 430087,
-            "ConnectionTypeID": 1036,
-            "Reference": "LNH-00005-01-01",
+            "ConnectionTypeID": 25,
+            "Reference": "LNH-00012-01-01",
             "LevelID": 2,
-            "Amps": 32,
+            "Amps": 30,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-20T06:20:00Z",
+    "DateLastStatusUpdate": "2024-08-27T15:04:00Z",
     "DateCreated": "2023-03-20T06:20:00Z",
     "SubmissionStatusTypeID": 200
 }

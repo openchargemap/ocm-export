@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 44005,
+            "ChargePointID": 260368,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM260368/OCM-260368.orig.2024110821203201.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM260368/OCM-260368.thmb.2024110821203201.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-11-08T21:21:00Z"
+        },
+        {
             "ID": 39737,
             "ChargePointID": 260368,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM260368/OCM-260368.orig.2023092618391437.jpg",
@@ -33,12 +49,12 @@
             "DateCreated": "2023-04-28T11:50:00Z"
         }
     ],
-    "DateLastVerified": "2023-09-27T09:07:00Z",
+    "DateLastVerified": "2024-11-08T21:21:00Z",
     "ID": 260368,
     "UUID": "38DCCA33-2372-48C7-B300-EDDC0C522ED8",
     "DataProviderID": 1,
     "OperatorID": 3324,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 260752,
@@ -64,7 +80,7 @@
             "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited to 200kW for 400V cars"
+            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
         },
         {
             "ID": 438008,
@@ -81,7 +97,7 @@
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-09-27T09:07:00Z",
+    "DateLastStatusUpdate": "2024-11-08T21:21:00Z",
     "DateCreated": "2023-04-22T11:31:00Z",
     "SubmissionStatusTypeID": 200
 }

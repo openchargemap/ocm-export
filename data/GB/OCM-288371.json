@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-12-15T17:00:00Z",
+    "DateLastVerified": "2024-09-09T14:00:00Z",
     "ID": 288371,
     "UUID": "0B973A52-414C-4276-B8D5-84544281CE83",
     "DataProviderID": 1,
-    "OperatorID": 3502,
-    "UsageTypeID": 1,
+    "OperatorID": 5,
+    "UsageTypeID": 5,
+    "UsageCost": "£0.65/kWh",
     "AddressInfo": {
         "ID": 288758,
         "Title": "EV Point, Baynards Green",
@@ -21,16 +22,51 @@
         {
             "ID": 505921,
             "ConnectionTypeID": 33,
+            "Reference": "GB*CPI*E6770545*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "EG GROUP / BAYNARDS GREEN2"
+        },
+        {
+            "ID": 574893,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*CPI*E6770545*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "EG GROUP / BAYNARDS GREEN2"
+        },
+        {
+            "ID": 574894,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*CPI*E6770525*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "EG GROUP / BAYNARDS GREEN1"
+        },
+        {
+            "ID": 574895,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*CPI*E6770525*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "EG GROUP / BAYNARDS GREEN1"
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-15T17:00:00Z",
+    "DateLastStatusUpdate": "2024-09-09T14:00:00Z",
     "DateCreated": "2023-12-15T17:00:00Z",
     "SubmissionStatusTypeID": 200
 }

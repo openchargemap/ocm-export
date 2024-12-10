@@ -1,9 +1,26 @@
 {
-    "DateLastVerified": "2024-02-20T10:44:00Z",
+    "MediaItems": [
+        {
+            "ID": 43366,
+            "ChargePointID": 283190,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM283190/OCM-283190.orig.2024082217585843.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM283190/OCM-283190.thmb.2024082217585843.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2024-08-22T17:59:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-08-27T20:17:00Z",
     "ID": 283190,
     "UUID": "C6DEBD20-08A9-4E28-A5A2-DD9BCDA612D9",
-    "DataProviderID": 2,
-    "DataProvidersReference": "314477",
+    "DataProviderID": 1,
     "OperatorID": 3696,
     "UsageTypeID": 5,
     "AddressInfo": {
@@ -25,15 +42,19 @@
         {
             "ID": 491236,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 130,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": "Limited by 150kVA transformer power."
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:44:00Z",
+    "DateLastStatusUpdate": "2024-08-27T20:17:00Z",
     "DateCreated": "2023-12-04T04:23:00Z",
     "SubmissionStatusTypeID": 100
 }

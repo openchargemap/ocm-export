@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-02-13T10:13:00Z",
+    "DateLastVerified": "2024-04-03T12:41:00Z",
     "ID": 190969,
     "UUID": "2A2A0A84-ABCD-4A98-ACD2-1F4073513491",
     "DataProviderID": 1,
     "OperatorID": 3492,
     "UsageTypeID": 1,
-    "UsageCost": "£0.30/kWh",
+    "UsageCost": "£0.45/kWh",
     "AddressInfo": {
         "ID": 191328,
         "Title": "Lambourn High Street Car Park",
@@ -23,20 +23,32 @@
         {
             "ID": 309780,
             "ConnectionTypeID": 25,
-            "Reference": "MER-UK-AD00233",
+            "Reference": "GB*MER*E000921*01",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 536589,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*MER*E000921*02",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "app or web portal to start charge.",
+    "GeneralComments": "app or web portal to start charge, or roaming RFID",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-13T10:13:00Z",
+    "DateLastStatusUpdate": "2024-04-03T12:41:00Z",
     "DateCreated": "2022-01-07T13:33:00Z",
     "SubmissionStatusTypeID": 200
 }

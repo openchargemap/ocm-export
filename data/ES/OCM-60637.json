@@ -29,16 +29,16 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "DateLastVerified": "2022-12-12T20:48:00Z",
+    "DateLastVerified": "2024-09-10T21:33:00Z",
     "ID": 60637,
     "UUID": "5BBD395C-6E47-4B2C-9FC3-2A908425EC6A",
     "DataProviderID": 1,
     "OperatorID": 3305,
     "UsageTypeID": 1,
-    "UsageCost": "free",
+    "UsageCost": "0,36€/kWh",
     "AddressInfo": {
         "ID": 60983,
-        "Title": "EdRR Cornellà de Llobregat (AMB) (DC50kW AC44kW) ",
+        "Title": "EdRR Cornellà de Llobregat (AMB) ",
         "AddressLine1": "Carrer de Baltasar Oriol i Mercer-Avinguda de la Porta Diagonal",
         "Town": "CORNELLÀ DE LLOBREGAT ",
         "StateOrProvince": "Barcelona ",
@@ -46,7 +46,7 @@
         "CountryID": 210,
         "Latitude": 41.35283784788072,
         "Longitude": 2.0886261617590662,
-        "AccessComments": "24h. No necessita tarjeta / No card needed",
+        "AccessComments": "24h. ",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -55,35 +55,29 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 76864,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 30
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW"
         },
         {
             "ID": 76865,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 30
+            "PowerKW": 22,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 3,
     "GeneralComments": "http://www.amb.cat/web/mobilitat/planificacio/vehicle-electric/actuacions-metropolitanes",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-12T20:48:00Z",
+    "DateLastStatusUpdate": "2024-09-10T21:33:00Z",
     "MetadataValues": [
         {
             "ID": 2895,

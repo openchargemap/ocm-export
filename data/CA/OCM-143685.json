@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-02-20T10:42:00Z",
+    "DateLastVerified": "2024-11-18T08:41:00Z",
     "ID": 143685,
     "UUID": "4CFDA2B0-8D12-472C-A019-188CC7906400",
-    "DataProviderID": 2,
-    "DataProvidersReference": "129562",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "$0.55/kWh",
     "AddressInfo": {
         "ID": 144037,
         "Title": "FLO - Canadian Tire - Pickering",
@@ -16,44 +16,28 @@
         "CountryID": 44,
         "Latitude": 43.842953,
         "Longitude": -79.069323,
-        "ContactTelephone1": "888-356-8911",
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://flo.ca/",
+        "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 200063,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
-            "ID": 200064,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 200065,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 160,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Payment with a credit card directly at the charger (FLO Ultra). Optional mobile app (FLO EV Charging) and RFID card available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:42:00Z",
+    "DateLastStatusUpdate": "2024-11-18T08:41:00Z",
     "DateCreated": "2019-12-24T09:21:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 42632,
+            "ChargePointID": 190434,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM190434/OCM-190434.orig.2024062216170228.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM190434/OCM-190434.thmb.2024062216170228.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-06-22T16:17:00Z"
+        },
+        {
             "ID": 40311,
             "ChargePointID": 190434,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM190434/OCM-190434.orig.2023111819060212.jpg",
@@ -17,7 +33,7 @@
             "DateCreated": "2023-11-18T19:06:00Z"
         }
     ],
-    "DateLastVerified": "2023-11-18T19:06:00Z",
+    "DateLastVerified": "2024-06-22T16:17:00Z",
     "ID": 190434,
     "UUID": "0E0EB361-E1AA-4C16-837E-A307C6322DB6",
     "DataProviderID": 1,
@@ -47,12 +63,24 @@
             "CurrentTypeID": 30,
             "Quantity": 4,
             "Comments": "V3"
+        },
+        {
+            "ID": 545266,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 675,
+            "Voltage": 400,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "V4"
         }
     ],
-    "NumberOfPoints": 4,
-    "GeneralComments": "4 V3 Superchargers 250kW (CCS). Max total power of the station 375kW",
+    "NumberOfPoints": 8,
+    "GeneralComments": "4 V3+4V4 Superchargers 250kW (CCS). Max total power of the station 750kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-18T19:06:00Z",
+    "DateLastStatusUpdate": "2024-06-22T16:17:00Z",
     "DateCreated": "2021-12-07T13:16:00Z",
     "SubmissionStatusTypeID": 200
 }

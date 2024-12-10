@@ -1,18 +1,36 @@
 {
-    "DateLastVerified": "2022-10-28T14:21:00Z",
+    "MediaItems": [
+        {
+            "ID": 44099,
+            "ChargePointID": 203098,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM203098/OCM-203098.orig.2024111414512602.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM203098/OCM-203098.thmb.2024111414512602.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 55071,
+                "Username": "Andrea"
+            },
+            "DateCreated": "2024-11-14T14:52:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-15T13:02:00Z",
     "ID": 203098,
     "UUID": "B33F6E57-9060-45DB-8A7F-F1074CCB19D2",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 6,
-    "UsageCost": "0,20€/kWh",
+    "UsageCost": "0,15 - 0,40 €/kWh",
     "AddressInfo": {
         "ID": 203465,
         "Title": "Bodega Valdelosfrailes",
-        "AddressLine1": "Cubillas de Santa Marta",
+        "AddressLine1": "Carretera Cubillas s/n",
         "Town": "Cubillas de Santa Marta",
         "StateOrProvince": "Castile and León",
-        "Postcode": "",
+        "Postcode": "47290",
         "CountryID": 210,
         "Latitude": 41.82074930921064,
         "Longitude": -4.597649349979633,
@@ -24,14 +42,16 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-28T14:21:00Z",
+    "DateLastStatusUpdate": "2024-11-15T13:02:00Z",
     "DateCreated": "2022-09-14T17:06:00Z",
     "SubmissionStatusTypeID": 200
 }

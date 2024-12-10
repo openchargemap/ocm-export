@@ -1,11 +1,10 @@
 {
-    "DateLastVerified": "2017-03-30T12:39:00Z",
+    "DateLastVerified": "2024-09-02T10:02:00Z",
     "ID": 85237,
     "UUID": "29CF9603-E533-4DBB-B4AD-E593F29434A6",
     "DataProviderID": 1,
     "OperatorID": 15,
     "UsageTypeID": 1,
-    "UsageCost": "$9.95 flat fee",
     "AddressInfo": {
         "ID": 85583,
         "Title": "The Shops at Chestnut Hill",
@@ -14,8 +13,9 @@
         "StateOrProvince": "MA",
         "Postcode": "02467",
         "CountryID": 2,
-        "Latitude": 42.321901922931,
-        "Longitude": -71.1736178398132,
+        "Latitude": 42.322051831774075,
+        "Longitude": -71.17662744096901,
+        "RelatedURL": "https://www.evgo.com/find-a-charger/?location=58220",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,23 +24,49 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 121033,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 573681,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 36,
+            "Voltage": 208,
+            "PowerKW": 7.28,
+            "CurrentTypeID": 10,
             "Quantity": 1
+        },
+        {
+            "ID": 573682,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-03-30T12:39:00Z",
+    "DateLastStatusUpdate": "2024-09-02T10:02:00Z",
     "DateCreated": "2017-03-30T02:15:00Z",
     "SubmissionStatusTypeID": 200
 }

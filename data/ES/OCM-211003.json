@@ -1,14 +1,32 @@
 {
-    "DateLastVerified": "2022-12-29T16:00:00Z",
+    "MediaItems": [
+        {
+            "ID": 44192,
+            "ChargePointID": 211003,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM211003/OCM-211003.orig.2024112108353793.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM211003/OCM-211003.thmb.2024112108353793.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-11-21T08:36:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-21T08:36:00Z",
     "ID": 211003,
     "UUID": "80373C96-5C1E-4BA5-9387-9F1D69BC32F7",
     "DataProviderID": 1,
     "OperatorID": 3583,
     "UsageTypeID": 4,
-    "UsageCost": "0,29€/kWh AC",
+    "UsageCost": "0,37€/kWh DC - 0,32€/kWh AC",
     "AddressInfo": {
         "ID": 211383,
-        "Title": "Condum Catellón Paseo Morella",
+        "Title": "Consum Catellón Paseo Morella",
         "AddressLine1": "Paseo Morella",
         "StateOrProvince": "Comunitat Valenciana",
         "Postcode": "12006",
@@ -19,18 +37,27 @@
     },
     "Connections": [
         {
-            "ID": 351740,
+            "ID": 568320,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 30,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 568321,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-29T16:00:00Z",
+    "DateLastStatusUpdate": "2024-11-21T08:36:00Z",
     "DateCreated": "2022-12-29T16:00:00Z",
     "SubmissionStatusTypeID": 200
 }

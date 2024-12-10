@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-05-05T13:10:00Z",
+    "DateLastVerified": "2024-07-08T08:59:00Z",
     "ID": 41936,
     "UUID": "C3BB269F-D212-4D85-AD9A-3ED160681BD2",
     "DataProviderID": 1,
     "OperatorID": 150,
     "OperatorsReference": "APT_SSE71",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.50 + £0.30/kWh",
+    "UsageTypeID": 1,
+    "UsageCost": "£0.72/kWh min fee £2.40",
     "AddressInfo": {
         "ID": 42282,
         "Title": "Ventnor Botanical Gardens Car Park",
@@ -17,29 +17,47 @@
         "CountryID": 1,
         "Latitude": 50.589546,
         "Longitude": -1.22824,
-        "ContactTelephone1": "+44 20 3598 4087",
+        "ContactTelephone1": "",
         "AccessComments": "Ventnor Botanical Gardens Car Park - off A3055",
-        "RelatedURL": "http://www.chargepointgenie.com",
+        "RelatedURL": "http://www.voltshare.co.uk",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 50303,
-            "ConnectionTypeID": 25,
-            "Reference": "APT_SSE71",
-            "StatusTypeID": 100,
+            "ID": 559743,
+            "ConnectionTypeID": 33,
+            "Reference": "0005206",
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 559744,
+            "ConnectionTypeID": 33,
+            "Reference": "0005207",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 559745,
+            "ConnectionTypeID": 33,
+            "Reference": "0005208",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "SSE unit ID APT_SSE71",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-05-05T13:10:00Z",
+    "NumberOfPoints": 3,
+    "GeneralComments": "Pricing set by Ventnor Botanical Garden. Parking is free for garden customers + Shop/Cafe users but you must enter your number plate into a portal at till points otherwise parking is paid for.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-07-08T08:59:00Z",
     "MetadataValues": [
         {
             "ID": 1331,

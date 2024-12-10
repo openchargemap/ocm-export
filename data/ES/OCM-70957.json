@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-10-20T18:31:00Z",
+    "DateLastVerified": "2024-11-08T08:41:00Z",
     "ID": 70957,
     "UUID": "05E07EF5-9188-4AB9-ABC1-5C1921D70AB4",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "OperatorID": 207,
+    "UsageTypeID": 4,
+    "UsageCost": " 0,42€/kWh DC - 0,33€/kWh AC ",
     "AddressInfo": {
         "ID": 71303,
         "Title": "CC Las Rotondas",
@@ -26,24 +26,39 @@
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 7.4,
+            "PowerKW": 3,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 22
         },
         {
-            "ID": 101669,
-            "ConnectionTypeID": 28,
+            "ID": 579465,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 1,
-            "PowerKW": 2.3,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump60 DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
+        },
+        {
+            "ID": 579466,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump60 DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "RFID card from Canarias Te Recarga or ask for activation.",
+    "NumberOfPoints": 26,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-20T18:31:00Z",
+    "DateLastStatusUpdate": "2024-11-08T08:41:00Z",
     "DateCreated": "2016-08-21T18:51:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,54 @@
 {
+    "UserComments": [
+        {
+            "ID": 30147,
+            "ChargePointID": 171028,
+            "CommentTypeID": 10,
+            "UserName": "Jegesjeles",
+            "Comment": "As of 10/01/2024, a new owner, new operator and a new charging station with a capacity of 103 kW await EV drivers at this great location. The restaurant and motel are excellent.",
+            "Rating": 5,
+            "DateCreated": "2024-11-24T21:10:06.957Z",
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
+        {
+            "ID": 44337,
+            "ChargePointID": 171028,
+            "ItemURL": "https://media.openchargemap.io/images/HU/OCM171028/OCM-171028.orig.2024112421064426.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/HU/OCM171028/OCM-171028.thmb.2024112421064426.jpg",
+            "Comment": "TEA. new operator, new 103 kW charging station ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "DateCreated": "2024-11-24T21:07:00Z"
+        },
+        {
+            "ID": 44336,
+            "ChargePointID": 171028,
+            "ItemURL": "https://media.openchargemap.io/images/HU/OCM171028/OCM-171028.orig.2024112420594722.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/HU/OCM171028/OCM-171028.thmb.2024112420594722.jpg",
+            "Comment": "New operator, new charging station. ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "DateCreated": "2024-11-24T21:00:00Z"
+        },
         {
             "ID": 29523,
             "ChargePointID": 171028,
@@ -17,27 +66,27 @@
             "DateCreated": "2021-10-15T06:28:00Z"
         }
     ],
-    "DateLastVerified": "2021-10-17T15:12:00Z",
+    "DateLastVerified": "2024-11-24T21:10:00Z",
     "ID": 171028,
     "UUID": "295EFA35-82DF-44A2-B229-503ACB93CECE",
     "DataProviderID": 1,
-    "OperatorID": 3424,
+    "OperatorID": 3462,
     "UsageTypeID": 1,
-    "UsageCost": "109 Ft/kWh",
+    "UsageCost": "179 Ft/kWh",
     "AddressInfo": {
         "ID": 171387,
-        "Title": "EVDirect Mosonmagyaróvár M1 Kisdeszka Étterem",
+        "Title": "TEA. Mosonmagyaróvár M1 Kisdeszka Étterem",
         "AddressLine1": "Kölcsey Ferenc u. 4.",
         "Town": "Mosonmagyaróvár",
         "Postcode": "9400",
         "CountryID": 104,
         "Latitude": 47.856024493575234,
         "Longitude": 17.26489882095217,
-        "ContactTelephone1": "+36202560445",
-        "ContactTelephone2": "+36202882545",
+        "ContactTelephone1": "+36 1 300 9464",
+        "ContactTelephone2": "+36 30 737 4303",
         "ContactEmail": "info@evdirect.hu",
         "AccessComments": "Motel Net.T Parking Lot",
-        "RelatedURL": "http://evdirect.hu",
+        "RelatedURL": "https://teapont.hu",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -46,22 +95,24 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 185,
-            "Voltage": 470,
-            "PowerKW": 75,
+            "Amps": 252,
+            "Voltage": 500,
+            "PowerKW": 103,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "info@teapont.hu"
         },
         {
             "ID": 261319,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 123,
-            "Voltage": 470,
-            "PowerKW": 75,
+            "Amps": 252,
+            "Voltage": 500,
+            "PowerKW": 103,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "info@teapont.hu"
         },
         {
             "ID": 261320,
@@ -72,12 +123,14 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "info@teapont.hu"
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "New operator, new 103 kW DC charger, info@teapont.hu",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-10-17T15:12:00Z",
+    "DateLastStatusUpdate": "2024-11-24T21:10:00Z",
     "DateCreated": "2020-12-17T09:23:00Z",
     "SubmissionStatusTypeID": 200
 }

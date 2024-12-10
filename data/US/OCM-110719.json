@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2023-03-07T05:42:00Z",
+    "DateLastVerified": "2024-08-13T07:36:00Z",
     "ID": 110719,
     "UUID": "6AC64783-4357-441B-B3FD-815DA8F1D174",
-    "DataProviderID": 2,
-    "DataProvidersReference": "99547",
+    "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 1,
+    "UsageTypeID": 6,
     "AddressInfo": {
         "ID": 111065,
-        "Title": "FRANKLIN COUNTY FCSO2",
+        "Title": "Franklin County Sheriff's Office",
         "AddressLine1": "160 Elm St",
         "Town": "Greenfield",
         "StateOrProvince": "MA",
@@ -25,16 +24,29 @@
         {
             "ID": 155999,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Amps": 32,
+            "Voltage": 208,
+            "PowerKW": 6.48,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 568348,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 208,
+            "PowerKW": 6.48,
             "CurrentTypeID": 10,
             "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-07T05:42:00Z",
+    "DateLastStatusUpdate": "2024-08-13T07:36:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

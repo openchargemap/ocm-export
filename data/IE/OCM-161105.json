@@ -1,16 +1,18 @@
 {
-    "DateLastVerified": "2021-11-08T10:42:00Z",
+    "DateLastVerified": "2024-09-09T19:35:00Z",
     "ID": 161105,
     "UUID": "1977EC40-8DEB-4D73-BC29-B3E393CE255E",
     "DataProviderID": 1,
-    "OperatorID": 3402,
+    "OperatorID": 3449,
     "UsageTypeID": 4,
-    "UsageCost": "0.5 EUR / KWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 161462,
-        "Title": "Sligo Institute of Technology, Main carpark",
-        "AddressLine1": "Sligo Institute of Technology",
-        "Town": "The Borough District of Sligo",
+        "Title": "M Block Car Park",
+        "AddressLine1": "ATU Sligo",
+        "Town": "Sligo",
+        "StateOrProvince": "Co. Sligo",
+        "Postcode": "",
         "CountryID": 3,
         "Latitude": 54.27917795073023,
         "Longitude": -8.463800449958313,
@@ -20,17 +22,26 @@
         {
             "ID": 231804,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "PowerKW": 11,
             "CurrentTypeID": 10,
             "Quantity": 2,
             "Comments": "Operator: GoCharge.ie"
+        },
+        {
+            "ID": 574904,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-08T10:42:00Z",
+    "DateLastStatusUpdate": "2024-09-09T19:35:00Z",
     "DateCreated": "2020-07-03T14:07:00Z",
     "SubmissionStatusTypeID": 200
 }

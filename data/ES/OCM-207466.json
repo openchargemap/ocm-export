@@ -1,21 +1,21 @@
 {
-    "DateLastVerified": "2022-10-11T14:30:00Z",
+    "DateLastVerified": "2024-11-23T13:39:00Z",
     "ID": 207466,
     "UUID": "7C4541AE-0A13-483B-96D5-1C5B5D8F6BA3",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "",
+    "UsageCost": "0,60€/kWh",
     "AddressInfo": {
         "ID": 207846,
-        "Title": "Eurotrak",
+        "Title": "Eurotrak (Endesa)",
         "AddressLine1": "Eurotrak",
         "Town": "Tàrrega",
         "StateOrProvince": "Catalonia",
         "Postcode": "25218",
         "CountryID": 210,
-        "Latitude": 41.666114979067714,
-        "Longitude": 1.2101504546330943,
+        "Latitude": 41.66611577613668,
+        "Longitude": 1.2100743474700266,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,11 +27,23 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 575311,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
+            "Comments": "Thre Hypercharger HYC300  Charagers. Max power of the charger for both combined outlets 300 kW. Power limited to 200kW for 400V cars"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-11T14:30:00Z",
+    "DateLastStatusUpdate": "2024-11-23T13:39:00Z",
     "DateCreated": "2022-10-11T14:30:00Z",
     "SubmissionStatusTypeID": 200
 }

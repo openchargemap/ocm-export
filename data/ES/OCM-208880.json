@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-10-21T13:46:00Z",
+    "DateLastVerified": "2024-08-02T15:05:00Z",
     "ID": 208880,
     "UUID": "55CEF784-5C7B-4806-8EED-D70E30C483CF",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
-    "UsageCost": "",
+    "OperatorID": 2247,
+    "UsageTypeID": 4,
+    "UsageCost": "0,54€/kWh 80-200kW - 0,45€/kWh DC50k - 0,39€/kWWh  AC",
     "AddressInfo": {
         "ID": 209260,
         "Title": "Parking Alcampo",
@@ -21,18 +21,48 @@
     "Connections": [
         {
             "ID": 347535,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 28
+        },
+        {
+            "ID": 566811,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 375,
+            "Voltage": 950,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Circutor Raption150C Charger (375A). The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. "
+        },
+        {
+            "ID": 566812,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 566813,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Cabildo De Gran Canaria",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-21T13:46:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-08-02T15:05:00Z",
     "DateCreated": "2022-10-21T13:46:00Z",
     "SubmissionStatusTypeID": 200
 }

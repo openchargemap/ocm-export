@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2024-02-20T10:10:00Z",
+    "DateLastVerified": "2024-05-08T14:07:00Z",
     "ID": 224861,
     "UUID": "A0E54547-3BC3-4EC0-AEA7-5BFA9ED5E919",
-    "DataProviderID": 2,
-    "DataProvidersReference": "218523",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 225244,
         "Title": "HION NETWORK LIMON DC2",
-        "AddressLine1": "250 Main St",
+        "AddressLine1": "Coyote Motel East",
+        "AddressLine2": "250 Main Street",
         "Town": "Limon",
         "StateOrProvince": "CO",
         "Postcode": "80828",
@@ -25,24 +25,35 @@
         {
             "ID": 376026,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
         },
         {
             "ID": 376027,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 546116,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 125,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:10:00Z",
+    "DateLastStatusUpdate": "2024-05-08T14:07:00Z",
     "DateCreated": "2023-02-13T05:13:00Z",
     "SubmissionStatusTypeID": 100
 }

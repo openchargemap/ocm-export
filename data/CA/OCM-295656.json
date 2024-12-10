@@ -1,24 +1,24 @@
 {
-    "DateLastVerified": "2024-02-20T10:57:00Z",
+    "DateLastVerified": "2024-03-02T15:19:00Z",
     "ID": 295656,
     "UUID": "9619D737-D7EC-4836-8BD8-4D67472CB7EE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "325345",
+    "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$15.00/hr + $5.00",
     "AddressInfo": {
         "ID": 296043,
-        "Title": "DGM SHOP DGM CP 250 #1",
-        "AddressLine1": "489 Government St",
+        "Title": "ChargePoint - DGM SHOP DGM CP 250 #1",
+        "AddressLine1": "489 Government Street",
         "Town": "Dryden",
         "StateOrProvince": "ON",
         "Postcode": "P8N 2P6",
         "CountryID": 44,
-        "Latitude": 49.786782,
-        "Longitude": -92.824227,
-        "ContactTelephone1": "888-758-4389",
+        "Latitude": 49.7869828042366,
+        "Longitude": -92.82489739192889,
+        "ContactTelephone1": "1-888-758-4389",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "http://www.chargepoint.com/",
+        "RelatedURL": "https://www.chargepoint.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,23 +26,25 @@
             "ID": 527207,
             "ConnectionTypeID": 2,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 527208,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "Mobile app (ChargePoint) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:57:00Z",
+    "DateLastStatusUpdate": "2024-03-02T15:19:00Z",
     "DateCreated": "2024-02-20T10:57:00Z",
     "SubmissionStatusTypeID": 100
 }

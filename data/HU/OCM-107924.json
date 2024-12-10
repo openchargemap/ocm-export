@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2018-08-19T12:58:00Z",
+    "MediaItems": [
+        {
+            "ID": 43031,
+            "ChargePointID": 107924,
+            "ItemURL": "https://media.openchargemap.io/images/HU/OCM107924/OCM-107924.orig.2024072521192668.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/HU/OCM107924/OCM-107924.thmb.2024072521192668.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53228,
+                "Username": "iszucs896"
+            },
+            "DateCreated": "2024-07-25T21:20:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-03T17:51:00Z",
     "ID": 107924,
     "UUID": "3B0C4F1B-7448-48AC-AD69-9F17AAF04ACC",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3801,
     "UsageTypeID": 1,
-    "UsageCost": "free",
+    "UsageCost": "170 HUF/kWh + 4 HUF/min",
     "AddressInfo": {
         "ID": 108270,
         "Title": "Debrecen, Főnix Csarnok parkolója",
@@ -14,15 +32,16 @@
         "StateOrProvince": "Hajdú-Bihar megye",
         "Postcode": "4028",
         "CountryID": 104,
-        "Latitude": 47.54623046447452,
-        "Longitude": 21.641174056188902,
+        "Latitude": 47.546637278237,
+        "Longitude": 21.64216455906552,
+        "RelatedURL": "https://dvparking.hu/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 152414,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -31,9 +50,9 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2018-08-19T12:58:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-03T17:51:00Z",
     "DateCreated": "2018-08-19T12:58:00Z",
     "SubmissionStatusTypeID": 200
 }

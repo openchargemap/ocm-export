@@ -1,9 +1,10 @@
 {
-    "DateLastVerified": "2024-02-20T07:39:00Z",
+    "DateLastVerified": "2024-05-02T08:13:00Z",
     "ID": 261750,
     "UUID": "577FAA0E-4408-4617-9F71-1205F39616E2",
-    "DataProviderID": 19,
-    "DataProvidersReference": "14136",
+    "DataProviderID": 1,
+    "OperatorID": 198,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 262134,
         "Title": "Recharge Helsinki Outlet",
@@ -15,60 +16,46 @@
         "Latitude": 60.2743502,
         "Longitude": 25.0810869,
         "AccessComments": "",
+        "RelatedURL": "https://www.helsinkioutlet.fi/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 443866,
             "ConnectionTypeID": 33,
-            "Reference": "9",
-            "Comments": "Mode 4"
+            "Reference": "",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Voltage": 400,
+            "PowerKW": 225,
+            "CurrentTypeID": 30,
+            "Quantity": 8,
+            "Comments": "450 kW total max / shared"
         },
         {
-            "ID": 443867,
+            "ID": 543580,
             "ConnectionTypeID": 33,
-            "Reference": "10",
-            "Comments": "Mode 4"
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "Alpitronic"
         },
         {
-            "ID": 443868,
-            "ConnectionTypeID": 33,
-            "Reference": "11",
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 443869,
-            "ConnectionTypeID": 33,
-            "Reference": "12",
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 443870,
-            "ConnectionTypeID": 33,
-            "Reference": "13",
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 443871,
-            "ConnectionTypeID": 33,
-            "Reference": "14",
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 443872,
-            "ConnectionTypeID": 33,
-            "Reference": "7",
-            "Comments": "Mode 4"
-        },
-        {
-            "ID": 443873,
-            "ConnectionTypeID": 33,
-            "Reference": "8",
-            "Comments": "Mode 4"
+            "ID": 543581,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 14,
-    "DateLastStatusUpdate": "2024-02-20T07:39:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-05-02T08:13:00Z",
     "DateCreated": "2023-05-01T04:23:00Z",
     "SubmissionStatusTypeID": 100
 }

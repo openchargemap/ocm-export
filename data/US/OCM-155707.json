@@ -16,13 +16,13 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2024-02-09T15:01:00Z",
+    "DateLastVerified": "2024-04-16T14:43:00Z",
     "ID": 155707,
     "UUID": "C46D45D3-11E7-48CE-A833-31D7D0CABD7E",
     "DataProviderID": 1,
     "OperatorID": 3733,
     "UsageTypeID": 1,
-    "UsageCost": "$1.00/session+$0.21/minute",
+    "UsageCost": "$0.52/kWh for DCFC, $0.39/kWh for Level 2",
     "AddressInfo": {
         "ID": 156061,
         "Title": "Northwestern Electric Co-op - Francis Energy",
@@ -33,14 +33,15 @@
         "CountryID": 2,
         "Latitude": 36.41690541504336,
         "Longitude": -99.384626502927,
-        "AccessComments": "Use EVGateway app to manage charging",
-        "RelatedURL": "https://francis.energy/",
+        "AccessComments": "Use Francsis App app to manage charging",
+        "RelatedURL": "http:// https://francisenergy.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 219253,
             "ConnectionTypeID": 32,
+            "Reference": "NWE03",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -51,33 +52,40 @@
         {
             "ID": 219254,
             "ConnectionTypeID": 2,
+            "Reference": "NWE03",
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "BTCPower 50kW"
         },
         {
             "ID": 219255,
             "ConnectionTypeID": 1,
+            "Reference": "NWE02",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 9.6,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "$0.39 kWh rate"
         },
         {
             "ID": 513757,
             "ConnectionTypeID": 32,
+            "Reference": "NWE01",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": ""
         },
         {
             "ID": 513758,
             "ConnectionTypeID": 2,
+            "Reference": "NWE01",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 60,
@@ -88,7 +96,7 @@
     "NumberOfPoints": 2,
     "GeneralComments": "DC Fast Chargers and Level 2 by Francis Energy",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-09T15:01:00Z",
+    "DateLastStatusUpdate": "2024-04-16T14:43:00Z",
     "DateCreated": "2020-04-21T18:53:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,13 +1,14 @@
 {
-    "DateLastVerified": "2023-11-21T14:56:00Z",
+    "DateLastVerified": "2024-04-22T16:37:00Z",
     "ID": 280205,
     "UUID": "825EFEBA-58B6-4D41-8B74-EF996F5CD9C9",
     "DataProviderID": 1,
     "OperatorID": 3339,
     "UsageTypeID": 4,
+    "UsageCost": "$0.60 per kWh",
     "AddressInfo": {
         "ID": 280592,
-        "Title": "Joondalup Fast Charger",
+        "Title": "NRMA - Joondalup",
         "AddressLine1": "Sundew Rise",
         "Town": "Joondalup",
         "StateOrProvince": "Western Australia",
@@ -21,14 +22,27 @@
         {
             "ID": 487424,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "Reference": "7235",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 541180,
+            "ConnectionTypeID": 2,
+            "Reference": "7235",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-11-21T14:56:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-04-22T16:37:00Z",
     "DateCreated": "2023-11-21T14:56:00Z",
     "SubmissionStatusTypeID": 200
 }

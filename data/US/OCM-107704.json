@@ -127,7 +127,7 @@
             "DateCreated": "2018-08-08T02:08:00Z"
         }
     ],
-    "DateLastVerified": "2018-12-10T23:07:00Z",
+    "DateLastVerified": "2024-02-29T14:19:00Z",
     "ID": 107704,
     "UUID": "41E9A820-3537-4BFD-A023-DF1EEB15B43F",
     "DataProviderID": 1,
@@ -135,10 +135,11 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 108050,
-        "Title": "Electrify America Breaux Bridge",
+        "Title": "Walmart ",
         "AddressLine1": "1932 rees st",
         "Town": "Breaux Bridge",
-        "StateOrProvince": "la",
+        "StateOrProvince": "LA",
+        "Postcode": "70517",
         "CountryID": 2,
         "Latitude": 30.2929092636175,
         "Longitude": -91.9122508000512,
@@ -150,23 +151,34 @@
         {
             "ID": 152060,
             "ConnectionTypeID": 32,
-            "StatusTypeID": 150,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 150,
-            "Quantity": 11
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 152061,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 527755,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 12,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2018-12-10T23:07:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-29T14:19:00Z",
     "DateCreated": "2018-08-08T02:06:00Z",
     "SubmissionStatusTypeID": 200
 }

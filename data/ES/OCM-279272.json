@@ -1,23 +1,39 @@
 {
     "MediaItems": [
         {
-            "ID": 39948,
+            "ID": 43234,
             "ChargePointID": 279272,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM279272/OCM-279272.orig.2023101918443461.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM279272/OCM-279272.thmb.2023101918443461.jpg",
-            "Comment": "",
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM279272/OCM-279272.orig.2024081511402644.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM279272/OCM-279272.thmb.2024081511402644.jpg",
+            "Comment": "Survey on 2024-08-05 : not functional yet",
             "IsEnabled": true,
             "IsVideo": false,
             "IsFeaturedItem": false,
             "IsExternalResource": false,
             "User": {
-                "ID": 40036,
-                "Username": "lmjgarcia"
+                "ID": 53674,
+                "Username": "lezurdis"
             },
-            "DateCreated": "2023-10-19T18:45:00Z"
+            "DateCreated": "2024-08-15T11:41:00Z"
+        },
+        {
+            "ID": 43233,
+            "ChargePointID": 279272,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM279272/OCM-279272.orig.2024081511385523.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM279272/OCM-279272.thmb.2024081511385523.jpg",
+            "Comment": "Survey on 2028-08-05 : not functional yet",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53674,
+                "Username": "lezurdis"
+            },
+            "DateCreated": "2024-08-15T11:39:00Z"
         }
     ],
-    "DateLastVerified": "2024-01-27T08:20:00Z",
+    "DateLastVerified": "2024-11-08T22:36:00Z",
     "ID": 279272,
     "UUID": "6750FE33-86C8-4AAD-96C1-616932FC4AFA",
     "DataProviderID": 1,
@@ -46,7 +62,7 @@
             "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "ABB Terra360 Charger. The DC charger allows charging one vehicle at 360kW, or two simultaneous charges at 180kW. Max 500A, charging power limited to 200kW for 400V cars"
+            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
         },
         {
             "ID": 484244,
@@ -63,8 +79,8 @@
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "Station equipped with a boost battery. Max Power limited when charger battery is low of charge",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-27T08:20:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-08T22:36:00Z",
     "DateCreated": "2023-10-19T18:44:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,21 +1,21 @@
 {
-    "DateLastVerified": "2024-01-27T09:05:00Z",
+    "DateLastVerified": "2024-09-13T13:00:00Z",
     "ID": 210578,
     "UUID": "A6CCD14A-2F63-4635-89BB-D48F96E18A7E",
     "DataProviderID": 1,
-    "OperatorID": 3371,
+    "OperatorID": 3571,
     "UsageTypeID": 4,
-    "UsageCost": "0,56€/kWh 150kW - 0,42€/kWh 50 kW - 0,38€/kWh AC",
+    "UsageCost": "0.50€/kWh >60kW - 0,39€/kWh DC - 0,32€/kWh AC",
     "AddressInfo": {
         "ID": 210958,
-        "Title": "WeTaxi",
+        "Title": "WeTaxi ",
         "AddressLine1": "Calle de Albasanz",
         "AddressLine2": "San Blas - Canillejas",
         "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28037",
         "CountryID": 210,
-        "Latitude": 40.43640684303631,
-        "Longitude": -3.630141096405737,
+        "Latitude": 40.43645128008521,
+        "Longitude": -3.6301249741761126,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,10 +26,10 @@
             "LevelID": 3,
             "Amps": 400,
             "Voltage": 920,
-            "PowerKW": 100,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 100 kW "
+            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 150 kW "
         },
         {
             "ID": 350789,
@@ -48,11 +48,20 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 552974,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-27T09:05:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-09-13T13:00:00Z",
     "DateCreated": "2022-12-12T15:01:00Z",
     "SubmissionStatusTypeID": 200
 }

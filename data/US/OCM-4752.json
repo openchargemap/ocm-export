@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2024-02-20T10:54:00Z",
+    "DateLastVerified": "2024-06-03T12:41:00Z",
     "ID": 4752,
     "UUID": "52B88F55-6295-40A0-A34E-A3E65A6888B5",
-    "DataProviderID": 2,
-    "DataProvidersReference": "39795",
-    "UsageTypeID": 7,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 2,
     "AddressInfo": {
         "ID": 4695,
         "Title": "Wendle Nissan",
@@ -24,24 +24,37 @@
         {
             "ID": 15809,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 1,
+            "Quantity": 3,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
-            "ID": 20784,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
+            "ID": 550686,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 550687,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "DateLastConfirmed": "2011-05-31T00:00:00Z",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:54:00Z",
+    "DateLastStatusUpdate": "2024-06-03T12:41:00Z",
     "DateCreated": "2011-07-04T18:02:00Z",
     "SubmissionStatusTypeID": 100
 }

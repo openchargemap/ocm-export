@@ -1,9 +1,9 @@
 {
-    "DateLastVerified": "2024-01-27T08:58:00Z",
+    "DateLastVerified": "2024-11-15T17:39:00Z",
     "ID": 266794,
     "UUID": "0C6CB5D8-61D5-4947-A9A9-26DBEEE9D64D",
     "DataProviderID": 1,
-    "OperatorID": 3715,
+    "OperatorID": 2247,
     "OperatorsReference": "",
     "UsageTypeID": 4,
     "UsageCost": "0.59€/kWh",
@@ -15,8 +15,8 @@
         "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28231",
         "CountryID": 210,
-        "Latitude": 40.4900528262339,
-        "Longitude": -3.87393511636935,
+        "Latitude": 40.489904124622825,
+        "Longitude": -3.8741374661039174,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,18 +25,30 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 350,
+            "Amps": 375,
             "Voltage": 920,
             "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "VW Elli Flexpole charger. Max power for two simultaneous charges 250 kW. Charger with a 190kWh boost battery. Power limited to 50kW when charger battery is low of charge"
+        },
+        {
+            "ID": 540851,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 375,
+            "Voltage": 920,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "VW Elli Flexpole charger. "
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "payment with credit card",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-27T08:58:00Z",
+    "NumberOfPoints": 4,
+    "GeneralComments": "payment with credit card or app Iberdrola, previously BP Pulse (ES)",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-15T17:39:00Z",
     "DateCreated": "2023-06-15T12:59:00Z",
     "SubmissionStatusTypeID": 200
 }

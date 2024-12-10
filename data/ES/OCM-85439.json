@@ -33,13 +33,13 @@
             "DateCreated": "2020-11-13T12:02:00Z"
         }
     ],
-    "DateLastVerified": "2022-10-21T22:12:00Z",
+    "DateLastVerified": "2024-09-15T19:41:00Z",
     "ID": 85439,
     "UUID": "AFDF7768-033E-415C-8E0B-CE474ED219F4",
     "DataProviderID": 1,
     "OperatorID": 3305,
     "UsageTypeID": 4,
-    "UsageCost": "free",
+    "UsageCost": "0,30€/kWh",
     "AddressInfo": {
         "ID": 85785,
         "Title": "Electrolinera 05 AMB - Montigalà - Badalona",
@@ -58,29 +58,34 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Wallbox Supernova 60 Charger. The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW"
         },
         {
             "ID": 121506,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30
         },
         {
             "ID": 121507,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-21T22:12:00Z",
+    "DateLastStatusUpdate": "2024-09-15T19:41:00Z",
     "DateCreated": "2017-04-04T13:58:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2024-02-20T10:44:00Z",
+    "DateLastVerified": "2024-11-24T02:53:00Z",
     "ID": 248599,
     "UUID": "0D3DC5F8-B146-4FB6-9159-14B375EF3BCB",
-    "DataProviderID": 2,
-    "DataProvidersReference": "175737",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -34,15 +33,19 @@
         {
             "ID": 415137,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 75,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": "Only works with 400V class vehicles"
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:44:00Z",
+    "DateLastStatusUpdate": "2024-11-24T02:53:00Z",
     "DateCreated": "2023-03-07T05:51:00Z",
     "SubmissionStatusTypeID": 100
 }

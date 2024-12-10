@@ -1,0 +1,57 @@
+{
+    "DateLastVerified": "2024-07-19T06:58:00Z",
+    "ID": 297414,
+    "UUID": "812475FF-1FD3-4A85-8D18-B787D35CF8D2",
+    "DataProviderID": 1,
+    "OperatorID": 3550,
+    "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh DC - 0,43€/kWh AC",
+    "AddressInfo": {
+        "ID": 297801,
+        "Title": "C.C. Parc Central",
+        "AddressLine1": "Carrer Cardenal Vidal i Barraquer",
+        "StateOrProvince": "Catalunya",
+        "Postcode": "43005",
+        "CountryID": 210,
+        "Latitude": 41.1165798728633,
+        "Longitude": 1.2382701553547122,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 538076,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 950,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 5,
+            "Comments": "Six Kempower CCS/Chademo Satellite chargers that dynamically share the total power of the cabinet (200 kW). "
+        },
+        {
+            "ID": 538077,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 538078,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 8
+        }
+    ],
+    "NumberOfPoints": 14,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-07-19T06:58:00Z",
+    "DateCreated": "2024-04-09T18:45:00Z",
+    "SubmissionStatusTypeID": 200
+}

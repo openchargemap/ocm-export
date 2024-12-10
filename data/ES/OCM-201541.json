@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2022-10-27T19:12:00Z",
+    "MediaItems": [
+        {
+            "ID": 43928,
+            "ChargePointID": 201541,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201541/OCM-201541.orig.2024102709033423.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201541/OCM-201541.thmb.2024102709033423.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-10-27T09:04:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-27T09:04:00Z",
     "ID": 201541,
     "UUID": "42ABD017-3606-4538-8A36-2256BCC0D5CC",
     "DataProviderID": 1,
@@ -8,7 +26,7 @@
     "UsageCost": "free",
     "AddressInfo": {
         "ID": 201905,
-        "Title": "Cruce Príncipe de Asturias",
+        "Title": "Atunt. Murcia. Don Juan de Borbón, Cruce Príncipe de Asturias",
         "AddressLine1": "Cruce Príncipe de Asturias",
         "Town": "Murcia",
         "StateOrProvince": "Region of Murcia",
@@ -23,16 +41,18 @@
             "ID": 336350,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 336351,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -46,8 +66,8 @@
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-27T19:12:00Z",
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2024-10-27T09:04:00Z",
     "DateCreated": "2022-09-02T14:22:00Z",
     "SubmissionStatusTypeID": 200
 }

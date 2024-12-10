@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2016-03-03T12:35:00Z",
+    "DateLastVerified": "2024-03-25T18:38:00Z",
     "ID": 32478,
     "UUID": "4CC56CB3-71F5-45B3-8190-320A683BC4F2",
-    "DataProviderID": 26,
-    "DataProvidersReference": "33830",
+    "DataProviderID": 1,
     "OperatorID": 73,
     "OperatorsReference": "EV-Box EVB-P1228145",
+    "UsageTypeID": 1,
     "UsageCost": "0.00 jaarabonnement",
     "AddressInfo": {
         "ID": 32824,
@@ -16,21 +16,27 @@
         "CountryID": 26,
         "Latitude": 51.11465,
         "Longitude": 4.11243,
+        "ContactTelephone1": "052578292",
         "RelatedURL": "http://www.ev-box.nl",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 35989,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1,
+            "Reference": "HUISJOZEF",
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 5,
-            "CurrentTypeID": 10
+            "Amps": 32,
+            "Voltage": 240,
+            "PowerKW": 11,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-03-03T12:35:00Z",
+    "DateLastStatusUpdate": "2024-03-25T18:38:00Z",
     "DateCreated": "2015-01-09T06:03:00Z",
     "SubmissionStatusTypeID": 100
 }

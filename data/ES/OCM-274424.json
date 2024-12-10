@@ -17,13 +17,13 @@
             "DateCreated": "2024-01-23T09:31:00Z"
         }
     ],
-    "DateLastVerified": "2024-02-04T18:12:00Z",
+    "DateLastVerified": "2024-08-05T17:56:00Z",
     "ID": 274424,
     "UUID": "454A0385-4368-40E1-B90C-E6CB22954BB6",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh",
+    "UsageCost": "0,55€/kWh DC 100kW - 0,45€/kWh DC 25kW",
     "AddressInfo": {
         "ID": 274808,
         "Title": "Univ. Oviedo Marina Civil Gijón (Zunder)",
@@ -32,8 +32,8 @@
         "StateOrProvince": "Asturias / Asturies",
         "Postcode": "33394",
         "CountryID": 210,
-        "Latitude": 43.525598664599954,
-        "Longitude": -5.62914662098396,
+        "Latitude": 43.5259745,
+        "Longitude": -5.6276368,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -44,15 +44,27 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "Four Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (200 kW)."
+            "Quantity": 2,
+            "Comments": "Four Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW)."
+        },
+        {
+            "ID": 559448,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Kempower CCS Satellite chargers"
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-04T18:12:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-08-05T17:56:00Z",
     "DateCreated": "2023-09-11T20:32:00Z",
     "SubmissionStatusTypeID": 200
 }

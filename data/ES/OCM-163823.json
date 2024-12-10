@@ -17,7 +17,7 @@
             "DateCreated": "2022-08-23T13:28:00Z"
         }
     ],
-    "DateLastVerified": "2023-10-12T06:30:00Z",
+    "DateLastVerified": "2024-10-23T16:30:00Z",
     "ID": 163823,
     "UUID": "36A37A47-0110-4629-8DDD-F7BCFE6FE644",
     "DataProviderID": 1,
@@ -38,20 +38,22 @@
     },
     "Connections": [
         {
-            "ID": 235420,
+            "ID": 577198,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "Amps": 675,
+            "Voltage": 400,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "V2 (CCS+Tesla S/X connector)"
+            "Comments": "v4"
         }
     ],
     "NumberOfPoints": 8,
-    "GeneralComments": "8 V2 superchargers 150kW (CCS+Tesla S/X connector). Each two A/B chargers share 150kW of the power cabinet",
+    "GeneralComments": "8 V4 Superchargers 250kW (CCS). Max total power of the station 750kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-10-12T06:30:00Z",
+    "DateLastStatusUpdate": "2024-10-23T16:30:00Z",
     "DateCreated": "2020-08-24T19:13:00Z",
     "SubmissionStatusTypeID": 200
 }

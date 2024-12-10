@@ -15,13 +15,13 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2024-02-16T20:28:00Z",
+    "DateLastVerified": "2024-11-22T09:41:00Z",
     "ID": 235242,
     "UUID": "8A8A4D9A-AD48-4E1D-8631-A6B58D6F0B02",
     "DataProviderID": 1,
     "OperatorID": 3276,
     "UsageTypeID": 4,
-    "UsageCost": "0,48€/kWh DC - 0,42€/kWh AC",
+    "UsageCost": "0,48€/kWh DC - 0,38€/kWh AC   (+0,03€/min parked without charging)",
     "AddressInfo": {
         "ID": 235626,
         "Title": "La Gavia CC",
@@ -42,24 +42,33 @@
             "LevelID": 2,
             "PowerKW": 7.4,
             "CurrentTypeID": 10,
-            "Quantity": 18
+            "Quantity": 9
         },
         {
             "ID": 513213,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 920,
-            "PowerKW": 100,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "XCharge C6EU 150 DC CCS charger (peak 400A). The charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW."
+            "Comments": "XCharge 60 DC charger. The charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW."
+        },
+        {
+            "ID": 582560,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 9
         }
     ],
     "NumberOfPoints": 20,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-16T20:28:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-22T09:41:00Z",
     "DateCreated": "2023-02-16T19:13:00Z",
     "SubmissionStatusTypeID": 200
 }

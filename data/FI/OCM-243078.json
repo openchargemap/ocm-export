@@ -1,9 +1,10 @@
 {
-    "DateLastVerified": "2024-02-20T07:39:00Z",
+    "DateLastVerified": "2024-05-02T08:13:00Z",
     "ID": 243078,
     "UUID": "D8DEACC3-9EDF-4976-97DD-8C25512F2C10",
-    "DataProviderID": 19,
-    "DataProvidersReference": "11906",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 243462,
         "Title": "Recharge Kauppakeskus Jumbo P2",
@@ -15,6 +16,7 @@
         "Latitude": 60.2922039,
         "Longitude": 24.9636412,
         "AccessComments": "",
+        "RelatedURL": "https://jumbo.fi/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -237,10 +239,33 @@
             "PowerKW": 11,
             "CurrentTypeID": 20,
             "Comments": "Mode 3"
+        },
+        {
+            "ID": 543570,
+            "ConnectionTypeID": 33,
+            "Reference": "",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Voltage": 400,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 12,
+            "Comments": "K-lataus, 1080kW max"
+        },
+        {
+            "ID": 543571,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 12,
+            "Comments": "ABC-lataus, 800kW max"
         }
     ],
-    "NumberOfPoints": 20,
-    "DateLastStatusUpdate": "2024-02-20T07:39:00Z",
+    "NumberOfPoints": 36,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-05-02T08:13:00Z",
     "DateCreated": "2023-03-07T03:59:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,6 +1,54 @@
 {
     "MediaItems": [
         {
+            "ID": 43133,
+            "ChargePointID": 279198,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM279198/OCM-279198.orig.2024080213233093.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM279198/OCM-279198.thmb.2024080213233093.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-08-02T13:24:00Z"
+        },
+        {
+            "ID": 42474,
+            "ChargePointID": 279198,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM279198/OCM-279198.orig.2024060313415313.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM279198/OCM-279198.thmb.2024060313415313.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-06-03T13:42:00Z"
+        },
+        {
+            "ID": 42473,
+            "ChargePointID": 279198,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM279198/OCM-279198.orig.2024060313402447.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM279198/OCM-279198.thmb.2024060313402447.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-06-03T13:40:00Z"
+        },
+        {
             "ID": 39905,
             "ChargePointID": 279198,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM279198/OCM-279198.orig.2023101517103707.jpg",
@@ -17,13 +65,13 @@
             "DateCreated": "2023-10-15T17:11:00Z"
         }
     ],
-    "DateLastVerified": "2024-02-04T18:00:00Z",
+    "DateLastVerified": "2024-08-02T13:24:00Z",
     "ID": 279198,
     "UUID": "804FE97B-FA20-4427-BF96-01D0196C66B4",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,55€/kWh ",
+    "UsageCost": "0,55€/kWh  DC - 0,45€/kWh AC",
     "AddressInfo": {
         "ID": 279585,
         "Title": "C.C. Bálamo-Alcampo (Zunder)",
@@ -43,15 +91,25 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 100,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 4,
             "Comments": "Four Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (200 kW). "
+        },
+        {
+            "ID": 552734,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 4,
+            "Comments": "underground parking"
         }
     ],
-    "NumberOfPoints": 4,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-04T18:00:00Z",
+    "NumberOfPoints": 8,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-08-02T13:24:00Z",
     "DateCreated": "2023-10-15T17:09:00Z",
     "SubmissionStatusTypeID": 200
 }

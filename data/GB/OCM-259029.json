@@ -1,10 +1,27 @@
 {
-    "DateLastVerified": "2024-02-19T06:24:00Z",
+    "UserComments": [
+        {
+            "ID": 29791,
+            "ChargePointID": 259029,
+            "CommentTypeID": 10,
+            "UserName": "Simon Hewison",
+            "Comment": "Worked flawlessly",
+            "Rating": 4,
+            "DateCreated": "2024-06-17T09:31:28.12Z",
+            "User": {
+                "ID": 4575,
+                "Username": "Simon Hewison"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-12-05T06:30:00Z",
     "ID": 259029,
     "UUID": "490CC0EA-8CC2-4C16-B3E9-6D2D9E11BEDF",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "66",
+    "OperatorsReference": "",
     "UsageTypeID": 5,
     "UsageCost": "DC: £0.79/kWh,AC: £0.49/kWh",
     "AddressInfo": {
@@ -16,7 +33,7 @@
         "CountryID": 1,
         "Latitude": 51.083599,
         "Longitude": -0.199856,
-        "RelatedURL": "https://electrichighway.gridserve.com/pease-pottage-services",
+        "RelatedURL": "https://electrichighway.gridserve.com/?location=pease-pottage-services",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -123,17 +140,7 @@
             "Quantity": 1
         },
         {
-            "ID": 484716,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10943*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 484717,
+            "ID": 575158,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10946*1",
             "StatusTypeID": 50,
@@ -143,7 +150,17 @@
             "Quantity": 1
         },
         {
-            "ID": 515287,
+            "ID": 575161,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10943*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 583059,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10488*1",
             "StatusTypeID": 50,
@@ -153,27 +170,7 @@
             "Quantity": 1
         },
         {
-            "ID": 515288,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10942*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 515911,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10941*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 515912,
+            "ID": 584040,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10487*1",
             "StatusTypeID": 50,
@@ -183,7 +180,27 @@
             "Quantity": 1
         },
         {
-            "ID": 515913,
+            "ID": 584043,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10942*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 584422,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10941*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 584423,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10486*1",
             "StatusTypeID": 50,
@@ -191,11 +208,61 @@
             "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 585288,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10486*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585289,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10941*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585290,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10488*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585291,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10487*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585292,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10942*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 15,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-19T06:24:00Z",
+    "DateLastStatusUpdate": "2024-12-05T06:30:00Z",
     "DateCreated": "2023-03-26T20:00:00Z",
     "SubmissionStatusTypeID": 200
 }

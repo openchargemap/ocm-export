@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-07-09T08:50:00Z",
+    "DateLastVerified": "2024-05-17T18:36:00Z",
     "ID": 115123,
     "UUID": "F3197AE7-BA4C-4527-9C20-F25C679FF99E",
     "DataProviderID": 1,
     "OperatorID": 3552,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh ",
+    "UsageCost": "0,50€/kWh DC >60kW  - 0,39€/kWh ",
     "AddressInfo": {
         "ID": 115469,
         "Title": "Gasolwin Textil",
@@ -21,14 +21,15 @@
     "Connections": [
         {
             "ID": 162017,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 120,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 900,
+            "PowerKW": 90,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Starcharge Titan120. The DC charger shares the total power (90 KW) with the Chademo connector. (max power is limited to 80kW for 400V cars)"
         },
         {
             "ID": 162018,
@@ -37,25 +38,35 @@
             "LevelID": 3,
             "Amps": 120,
             "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 30,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "ABB Terra54 Charger"
         },
         {
             "ID": 162019,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 3,
+            "LevelID": 2,
             "Amps": 63,
             "Voltage": 400,
-            "PowerKW": 43,
+            "PowerKW": 30,
             "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 548862,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 30,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-09T08:50:00Z",
+    "DateLastStatusUpdate": "2024-05-17T18:36:00Z",
     "DateCreated": "2019-01-30T16:02:00Z",
     "SubmissionStatusTypeID": 200
 }

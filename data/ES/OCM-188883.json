@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-02-11T12:05:00Z",
+    "DateLastVerified": "2024-11-24T19:34:00Z",
     "ID": 188883,
     "UUID": "E8CEFE22-E44B-4F1C-94E1-B0D34E43D49A",
     "DataProviderID": 1,
     "OperatorID": 3276,
     "UsageTypeID": 4,
-    "UsageCost": "0,54€/kWh DC/AC43kW - 0,42€/kWh AC 7,4kW - (0,10€/min parked without charging)",
+    "UsageCost": "0,60€/kWh DC- 0,38€/kWh AC - (0,14€/min DC / 0,03€/min AC parked without charging)",
     "AddressInfo": {
         "ID": 189242,
         "Title": "GALP. Casintra logistics and transport company  ",
@@ -27,41 +27,26 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 45,
+            "Amps": 250,
+            "Voltage": 950,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 305226,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 45,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 305227,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "XCharge NZS 210 (Peak 250A). Max combined power for two simultaneous charges 210 kW. Charger with a 233 kWh boost battery. Power limited to 68kW when charger battery is low of charge. (max power limited to 100kW for 400V cars)"
         },
         {
             "ID": 339771,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-11T12:05:00Z",
+    "DateLastStatusUpdate": "2024-11-24T19:34:00Z",
     "DateCreated": "2021-08-23T07:36:00Z",
     "SubmissionStatusTypeID": 200
 }

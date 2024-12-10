@@ -1,45 +1,39 @@
 {
-    "DateLastVerified": "2024-01-28T15:59:00Z",
+    "DateLastVerified": "2024-08-31T12:37:00Z",
     "ID": 235121,
     "UUID": "F7B99D52-BECF-4605-8B91-77B10A6A45F6",
     "DataProviderID": 1,
-    "OperatorID": 2247,
+    "OperatorID": 3459,
     "UsageTypeID": 4,
-    "UsageCost": "0,25€/kWh",
+    "UsageCost": "0,54€/kWh",
     "AddressInfo": {
         "ID": 235505,
-        "Title": "Garbanzal",
+        "Title": "Acciona - Ayto San Martín De Valdeiglesias - Crta Toledo",
         "AddressLine1": "Avenida Carretera de Toledo",
         "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28680",
         "CountryID": 210,
-        "Latitude": 40.360457311958584,
-        "Longitude": -4.402993078833674,
+        "Latitude": 40.36023531271283,
+        "Longitude": -4.402934269792439,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 387751,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
-            "ID": 387752,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 950,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge 150 DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW. "
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-28T15:59:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-08-31T12:37:00Z",
     "DateCreated": "2023-02-15T19:32:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2021-01-04T13:42:00Z",
+    "DateLastVerified": "2024-09-28T07:28:00Z",
     "ID": 146050,
     "UUID": "CD9A5D5D-9EDF-43B1-B572-C6CCF0AA01B9",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "52546",
     "UsageTypeID": 4,
-    "UsageCost": "$0.44/min >=60kW; $0.22/min <60kW; other tariffs for older cars",
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app.",
     "AddressInfo": {
         "ID": 146402,
-        "Title": "Dryden, on Supercharger",
+        "Title": "Tesla/NACS Supercharger - Dryden",
         "AddressLine1": "640 Government Street",
         "Town": "Dryden",
         "StateOrProvince": "ON",
@@ -17,6 +17,9 @@
         "CountryID": 44,
         "Latitude": 49.785605,
         "Longitude": -92.809966,
+        "ContactTelephone1": "1-877-798-3752",
+        "AccessComments": "Available 24/7",
+        "RelatedURL": "https://www.tesla.com/NACS",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +28,15 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 6
         }
     ],
     "NumberOfPoints": 6,
-    "GeneralComments": "Charging6 Superchargers, available 24/7, up to 250kW",
+    "GeneralComments": "Supercharger open to non-Tesla EVs covered by NACS agreement. NACS adapter required for EVs with CCS1 charging port. Tesla account and mobile app (Tesla) required for payment (pay-per-use). No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-04T13:42:00Z",
+    "DateLastStatusUpdate": "2024-09-28T07:28:00Z",
     "DateCreated": "2019-12-30T21:31:00Z",
     "SubmissionStatusTypeID": 200
 }

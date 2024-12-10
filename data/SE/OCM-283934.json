@@ -1,18 +1,18 @@
 {
-    "DateLastVerified": "2024-01-09T18:21:00Z",
+    "DateLastVerified": "2024-10-28T18:43:00Z",
     "ID": 283934,
     "UUID": "6318529A-FF82-4D0B-861B-49074EBC4CE5",
     "DataProviderID": 1,
+    "OperatorID": 1,
     "AddressInfo": {
         "ID": 284321,
-        "Title": "Vist Kyrkväg 1",
-        "AddressLine1": "Vist Kyrkväg 1 ",
-        "Town": "ULRICEHAMN",
-        "StateOrProvince": "VÄSTRA GÖTALAND",
-        "Postcode": "52337",
+        "Title": "ICA Maxi Ulricehamn - Eviny",
+        "AddressLine1": "Falköpingsvägen",
+        "Town": "Ulricehamn",
+        "Postcode": "523 24",
         "CountryID": 216,
-        "Latitude": 57.81291676180652,
-        "Longitude": 13.418458664080504,
+        "Latitude": 57.81266666819661,
+        "Longitude": 13.42014137446165,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -21,29 +21,32 @@
             "ConnectionTypeID": 33,
             "Reference": "1",
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         },
         {
             "ID": 493049,
             "ConnectionTypeID": 33,
             "Reference": "2",
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         },
         {
             "ID": 493050,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
             "Reference": "3",
             "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 8,
     "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2024-01-09T18:21:00Z",
+    "DateLastStatusUpdate": "2024-10-28T18:43:00Z",
     "DateCreated": "2023-12-04T05:40:00Z",
     "SubmissionStatusTypeID": 100
 }

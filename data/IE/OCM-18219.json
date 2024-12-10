@@ -1,16 +1,16 @@
 {
-    "DateLastVerified": "2016-12-11T15:36:00Z",
+    "DateLastVerified": "2024-12-06T10:13:00Z",
     "ID": 18219,
     "UUID": "85F91F46-ECB2-41B8-9C3F-E4452AACA3F1",
     "DataProviderID": 1,
-    "OperatorID": 23,
-    "UsageTypeID": 7,
+    "OperatorID": 1241,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 18564,
-        "Title": "3 Castle Avenue, Clontarf Co.",
-        "AddressLine1": "3 Castle Avenue",
-        "Town": "Dublin",
-        "StateOrProvince": "Clontarf Co.",
+        "Title": "Clontarf Castle",
+        "AddressLine1": "Castle Avenue",
+        "Town": "Clontarf",
+        "StateOrProvince": "Dublin 3",
         "CountryID": 3,
         "Latitude": 53.36445,
         "Longitude": -6.20634,
@@ -21,19 +21,39 @@
     "Connections": [
         {
             "ID": 18440,
-            "ConnectionTypeID": 1,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 7,
+            "PowerKW": 3.7,
             "CurrentTypeID": 10,
             "Quantity": 1
+        },
+        {
+            "ID": 575608,
+            "ConnectionTypeID": 25,
+            "Reference": "IE*EGO0854",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
+        },
+        {
+            "ID": 575609,
+            "ConnectionTypeID": 33,
+            "Reference": "IE*EGO0868",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 47,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-12-11T15:36:00Z",
+    "DateLastStatusUpdate": "2024-12-06T10:13:00Z",
     "DateCreated": "2013-07-11T03:52:00Z",
     "SubmissionStatusTypeID": 200
 }

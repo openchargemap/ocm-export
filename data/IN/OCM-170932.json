@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2020-12-13T18:39:00Z",
+    "DateLastVerified": "2024-07-09T12:38:00Z",
     "ID": 170932,
     "UUID": "B8CCE3C5-0F72-4722-8B69-D90CCA364D6B",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 4,
+    "OperatorID": 3777,
+    "UsageTypeID": 5,
+    "UsageCost": "Rs.18/-",
     "AddressInfo": {
         "ID": 171291,
         "Title": "IITM Research Park",
@@ -15,6 +16,7 @@
         "CountryID": 106,
         "Latitude": 12.9908,
         "Longitude": 80.2424,
+        "RelatedURL": "https://reluxelectric.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,11 +25,27 @@
             "ConnectionTypeID": 16,
             "StatusTypeID": 50,
             "Quantity": 1
+        },
+        {
+            "ID": 559903,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 559904,
+            "ConnectionTypeID": 0,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 30,
+            "PowerKW": 37,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-12-13T18:39:00Z",
+    "DateLastStatusUpdate": "2024-07-09T12:38:00Z",
     "DateCreated": "2020-12-12T07:01:00Z",
     "SubmissionStatusTypeID": 200
 }

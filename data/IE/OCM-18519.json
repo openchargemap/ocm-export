@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2016-06-01T11:33:00Z",
+    "DateLastVerified": "2024-09-18T09:21:00Z",
     "ID": 18519,
     "UUID": "36626042-3293-40D1-9BD3-3F4EB89074DA",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 3810,
     "OperatorsReference": "Celtic Ross Hotel",
-    "UsageTypeID": 7,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 18864,
         "Title": "Celtic Ross Hotel",
@@ -13,26 +13,35 @@
         "Town": "Cork",
         "StateOrProvince": "County Cork",
         "CountryID": 3,
-        "Latitude": 51.5757,
-        "Longitude": -9.02851,
+        "Latitude": 51.576271385173186,
+        "Longitude": -9.028894032058332,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 26668,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
             "Quantity": 1
+        },
+        {
+            "ID": 576119,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-06-01T11:33:00Z",
+    "DateLastStatusUpdate": "2024-09-18T09:21:00Z",
     "DateCreated": "2013-08-02T02:59:00Z",
     "SubmissionStatusTypeID": 200
 }

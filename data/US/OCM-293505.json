@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2024-02-20T09:38:00Z",
+    "DateLastVerified": "2024-03-31T15:24:00Z",
     "ID": 293505,
     "UUID": "2E5BFD65-0FC0-4220-93F2-6D6AB08DA9AD",
-    "DataProviderID": 2,
-    "DataProvidersReference": "302342",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "MS",
         "Postcode": "39157",
         "CountryID": 2,
-        "Latitude": 32.441033,
-        "Longitude": -90.143515,
+        "Latitude": 32.43870365167917,
+        "Longitude": -90.14299815256153,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,24 +24,35 @@
         {
             "ID": 524716,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 524717,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 125,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 535598,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 6.5,
+            "CurrentTypeID": 10,
+            "Quantity": 4
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T09:38:00Z",
+    "DateLastStatusUpdate": "2024-03-31T15:24:00Z",
     "DateCreated": "2024-02-20T09:38:00Z",
     "SubmissionStatusTypeID": 100
 }

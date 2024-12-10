@@ -1,10 +1,45 @@
 {
-    "DateLastVerified": "2024-02-20T10:23:00Z",
+    "MediaItems": [
+        {
+            "ID": 42919,
+            "ChargePointID": 89658,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM89658/OCM-89658.orig.2024071416380775.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM89658/OCM-89658.thmb.2024071416380775.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53209,
+                "Username": "ayosick"
+            },
+            "DateCreated": "2024-07-14T16:38:00Z"
+        },
+        {
+            "ID": 42918,
+            "ChargePointID": 89658,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM89658/OCM-89658.orig.2024071416344602.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM89658/OCM-89658.thmb.2024071416344602.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53209,
+                "Username": "ayosick"
+            },
+            "DateCreated": "2024-07-14T16:35:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-28T09:30:00Z",
     "ID": 89658,
     "UUID": "40BE89F5-86FB-45CE-A108-D5106314F3F9",
-    "DataProviderID": 2,
-    "DataProvidersReference": "81170",
-    "UsageTypeID": 7,
+    "DataProviderID": 1,
+    "OperatorID": 59,
+    "UsageTypeID": 1,
+    "UsageCost": "$0.51/kWh",
     "AddressInfo": {
         "ID": 90004,
         "Title": "Reineke Ford Lincoln",
@@ -17,24 +52,23 @@
         "Longitude": -83.651199,
         "ContactTelephone1": "888-378-3480",
         "AccessComments": "Dealership business hours\r\nPublic - Call ahead",
-        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 127084,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "ID": 559718,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Voltage": 800,
+            "PowerKW": 240,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
+    "GeneralComments": "Use the Shell app (not shell recharge) or a credit card on site.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:23:00Z",
+    "DateLastStatusUpdate": "2024-11-28T09:30:00Z",
     "DateCreated": "2017-06-22T08:16:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,13 +1,14 @@
 {
-    "DateLastVerified": "2022-10-09T11:05:00Z",
+    "DateLastVerified": "2024-11-15T17:24:00Z",
     "ID": 207145,
     "UUID": "FCC4F5BA-A0F4-48E8-95DF-FB32B570D264",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 207525,
-        "Title": "COSTCO LAS ROZAS DE MADRID",
+        "Title": "COSTCO Las Rozas",
         "AddressLine1": "Ctra.A6-ITV",
         "Town": "Las Rozas de Madrid",
         "StateOrProvince": "Community of Madrid",
@@ -26,11 +27,24 @@
             "PowerKW": 7.4,
             "CurrentTypeID": 10,
             "Quantity": 14
+        },
+        {
+            "ID": 533697,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited to 150kW for 400V cars"
         }
     ],
-    "NumberOfPoints": 14,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-09T11:05:00Z",
+    "NumberOfPoints": 16,
+    "GeneralComments": "Max power limited to 2kW for AC. DC chargers dont work",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2024-11-15T17:24:00Z",
     "DateCreated": "2022-10-09T11:05:00Z",
     "SubmissionStatusTypeID": 200
 }

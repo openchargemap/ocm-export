@@ -1,27 +1,54 @@
 {
-    "DateLastVerified": "2016-10-17T12:29:00Z",
+    "DateLastVerified": "2024-06-15T09:46:00Z",
     "ID": 72483,
     "UUID": "BB89B256-6B44-42B0-B4E4-7A0A34B9D860",
     "DataProviderID": 1,
-    "OperatorID": 80,
+    "OperatorID": 3489,
     "UsageTypeID": 4,
-    "UsageCost": "0,40 €/kW",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 72829,
-        "Title": "Centro Commerciale Adriatico2",
+        "Title": "ELECTRA Via Prati Guori 29",
         "AddressLine1": "Via Prati Guori, 29",
         "Town": "Portogruaro ",
         "StateOrProvince": "VE",
         "Postcode": "30026",
         "CountryID": 112,
-        "Latitude": 45.791975935251216,
-        "Longitude": 12.81505985463447,
-        "RelatedURL": "http://eneldrive.it",
+        "Latitude": 45.79168647020842,
+        "Longitude": 12.81535702219827,
+        "RelatedURL": "https://nextcharge.app/map?station=OCPI-281-IT*ELC*EUYUH",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 103884,
+            "ID": 555635,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 555636,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 555637,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 555638,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -29,23 +56,12 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 103885,
-            "ConnectionTypeID": 36,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 13,
-            "Voltage": 240,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-10-17T12:29:00Z",
+    "DateLastStatusUpdate": "2024-06-15T09:46:00Z",
     "DateCreated": "2016-10-17T12:28:00Z",
     "SubmissionStatusTypeID": 200
 }

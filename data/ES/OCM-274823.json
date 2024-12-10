@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-09-26T08:58:00Z",
+    "DateLastVerified": "2024-11-14T09:54:00Z",
     "ID": 274823,
     "UUID": "16FF2985-6BBD-4F55-A009-056E5896712F",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 2247,
     "UsageTypeID": 1,
-    "UsageCost": "",
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 275210,
         "Title": "Ayunt. La Llosa de Camacho",
@@ -13,24 +13,26 @@
         "StateOrProvince": "Comunitat Valenciana",
         "Postcode": "03723",
         "CountryID": 210,
-        "Latitude": 38.77217422682398,
-        "Longitude": -0.007084336939669811,
+        "Latitude": 38.77214283084618,
+        "Longitude": -0.007101048290905965,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 477072,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "Reference": "140561",
+            "StatusTypeID": 100,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "This charger used to be operational. Iberdrola have commented, saying that they are waiting for permission from the local town hall to re-commence its operation. "
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-09-26T08:58:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-14T09:54:00Z",
     "DateCreated": "2023-09-26T08:58:00Z",
     "SubmissionStatusTypeID": 200
 }

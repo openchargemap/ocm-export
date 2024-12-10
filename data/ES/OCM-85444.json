@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-09-11T08:29:00Z",
+    "DateLastVerified": "2024-09-14T12:03:00Z",
     "ID": 85444,
     "UUID": "0F0CAA23-92BC-4B0F-8491-29906AAB5EF8",
     "DataProviderID": 1,
     "OperatorID": 3377,
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "0,30€/kWh",
     "AddressInfo": {
         "ID": 85790,
         "Title": "Electrolinera AMB 04 - carrer del Progrés - Gavà",
@@ -21,34 +21,30 @@
     "Connections": [
         {
             "ID": 121516,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
             "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Wallbox Supernova 60 Charger. The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW"
         },
         {
             "ID": 121517,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
-        },
-        {
-            "ID": 121518,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "CurrentTypeID": 30,
-            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "30 min maximum for cars, 2h max for motorbikes",
+    "NumberOfPoints": 4,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-11T08:29:00Z",
+    "DateLastStatusUpdate": "2024-09-14T12:03:00Z",
     "DateCreated": "2017-04-04T14:27:00Z",
     "SubmissionStatusTypeID": 200
 }

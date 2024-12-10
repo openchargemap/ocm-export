@@ -33,12 +33,13 @@
             "DateCreated": "2021-08-31T20:44:00Z"
         }
     ],
-    "DateLastVerified": "2021-08-31T20:44:00Z",
+    "DateLastVerified": "2024-07-25T10:16:00Z",
     "ID": 175673,
     "UUID": "6DD2B76E-2807-46CB-A237-F7C9EDED60A0",
     "DataProviderID": 1,
     "OperatorID": 3447,
     "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 176032,
         "Title": "Aire de Service Borjine",
@@ -46,8 +47,8 @@
         "Town": "El Borjine",
         "StateOrProvince": "Sousse",
         "CountryID": 228,
-        "Latitude": 35.56788815221829,
-        "Longitude": 10.612501870307824,
+        "Latitude": 35.568043061409355,
+        "Longitude": 10.612785025111123,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -57,15 +58,27 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 230,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 564392,
+            "ConnectionTypeID": 33,
+            "Reference": "total energie tunisie",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 124,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-08-31T20:44:00Z",
+    "DateLastStatusUpdate": "2024-07-25T10:16:00Z",
     "DateCreated": "2021-06-06T14:22:00Z",
     "SubmissionStatusTypeID": 200
 }

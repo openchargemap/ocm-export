@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 41833,
+            "ChargePointID": 97268,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM97268/OCM-97268.orig.2024032820441377.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM97268/OCM-97268.thmb.2024032820441377.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-03-28T20:44:00Z"
+        },
+        {
             "ID": 37998,
             "ChargePointID": 97268,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM97268/OCM-97268.orig.2023060319102443.jpg",
@@ -17,7 +33,7 @@
             "DateCreated": "2023-06-03T19:10:00Z"
         }
     ],
-    "DateLastVerified": "2023-10-28T11:47:00Z",
+    "DateLastVerified": "2024-12-05T08:09:00Z",
     "ID": 97268,
     "UUID": "E2091847-C37E-42A0-A748-515A849AB77A",
     "DataProviderID": 1,
@@ -32,28 +48,30 @@
         "StateOrProvince": "Zaragoza",
         "Postcode": "50012",
         "CountryID": 210,
-        "Latitude": 41.62564553757221,
-        "Longitude": -1.0096130036259012,
+        "Latitude": 41.62594234576852,
+        "Longitude": -1.009543149059425,
         "AccessComments": "Open 24/7.",
         "RelatedURL": "https://www.tesla.com/supercharger",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 138134,
+            "ID": 527946,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "Amps": 675,
+            "Voltage": 400,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 10,
-            "Comments": "V2 (CCS+Tesla S/X connector)"
+            "Quantity": 20,
+            "Comments": "V4"
         }
     ],
-    "NumberOfPoints": 10,
-    "GeneralComments": "Parking with access control,  free of charge validating ticket at gas station. 10 V2 superchargers 150kW (CCS+Tesla S/X connector). Each two A/B chargers share 150kW of the power cabinet",
+    "NumberOfPoints": 20,
+    "GeneralComments": "Parking with access control,  free of charge validating ticket at gas station.  20 V4 Superchargers 250kW (CCS). Max total power of the V4 station 1,85MW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-10-28T11:47:00Z",
+    "DateLastStatusUpdate": "2024-12-05T08:09:00Z",
     "DateCreated": "2018-01-15T15:26:00Z",
     "SubmissionStatusTypeID": 200
 }

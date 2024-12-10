@@ -1,9 +1,75 @@
 {
-    "DateLastVerified": "2020-03-05T08:35:00Z",
+    "MediaItems": [
+        {
+            "ID": 41623,
+            "ChargePointID": 149706,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM149706/OCM-149706.orig.2024030314314313.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM149706/OCM-149706.thmb.2024030314314313.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50513,
+                "Username": "Daveemtb"
+            },
+            "DateCreated": "2024-03-03T14:32:00Z"
+        },
+        {
+            "ID": 41624,
+            "ChargePointID": 149706,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM149706/OCM-149706.orig.2024030314320560.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM149706/OCM-149706.thmb.2024030314320560.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50513,
+                "Username": "Daveemtb"
+            },
+            "DateCreated": "2024-03-03T14:32:00Z"
+        },
+        {
+            "ID": 41625,
+            "ChargePointID": 149706,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM149706/OCM-149706.orig.2024030314321747.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM149706/OCM-149706.thmb.2024030314321747.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50513,
+                "Username": "Daveemtb"
+            },
+            "DateCreated": "2024-03-03T14:32:00Z"
+        },
+        {
+            "ID": 41622,
+            "ChargePointID": 149706,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM149706/OCM-149706.orig.2024030314311709.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM149706/OCM-149706.thmb.2024030314311709.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50513,
+                "Username": "Daveemtb"
+            },
+            "DateCreated": "2024-03-03T14:31:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-03-06T17:54:00Z",
     "ID": 149706,
     "UUID": "A3710DB8-1FB7-490C-9765-5D2B9AFEA731",
     "DataProviderID": 1,
-    "OperatorID": 108,
+    "OperatorID": 3492,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 150059,
@@ -12,27 +78,55 @@
         "Town": "Fordingbridge",
         "StateOrProvince": "Hampshire",
         "CountryID": 1,
-        "Latitude": 50.927313005799846,
-        "Longitude": -1.7926711188231366,
+        "Latitude": 50.9272912396639,
+        "Longitude": -1.7926780943469112,
+        "RelatedURL": "http://uk.mer.eco",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 207841,
             "ConnectionTypeID": 25,
+            "Reference": "MER-UK-AC00012_1",
             "StatusTypeID": 75,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 6,
-            "Comments": "free to use "
+            "Quantity": 1,
+            "Comments": "EVSE ID GB*MER*E000059*01"
+        },
+        {
+            "ID": 528019,
+            "ConnectionTypeID": 2,
+            "Reference": "MER-UK-RTM0040-1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 30,
+            "Quantity": 1,
+            "Comments": "EVSE ID GB*MER*E005662*01"
+        },
+        {
+            "ID": 528020,
+            "ConnectionTypeID": 33,
+            "Reference": "MER-UK-RTM0040-02",
+            "StatusTypeID": 50,
+            "Quantity": 1,
+            "Comments": "EVSE ID GB*MER*E005662*02"
+        },
+        {
+            "ID": 528021,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 60,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 5,
     "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2020-03-05T08:35:00Z",
+    "DateLastStatusUpdate": "2024-03-06T17:54:00Z",
     "DateCreated": "2020-03-03T10:44:00Z",
     "SubmissionStatusTypeID": 200
 }

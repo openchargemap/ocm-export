@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-06-06T12:13:00Z",
+    "DateLastVerified": "2024-09-23T11:04:00Z",
     "ID": 14895,
     "UUID": "43BECD2C-9619-4CEB-B37B-7908BE10D7CC",
     "DataProviderID": 1,
@@ -10,8 +10,10 @@
     "AddressInfo": {
         "ID": 15241,
         "Title": "Maxol Service Station",
-        "AddressLine1": "Maxol Service Station, Arklow Road, Gorey",
-        "Town": "Wexford",
+        "AddressLine1": "Maxol Service Station",
+        "AddressLine2": "Arklow Road",
+        "Town": "Gorey",
+        "StateOrProvince": "Co. Wexford",
         "CountryID": 3,
         "Latitude": 52.67806,
         "Longitude": -6.289287,
@@ -42,16 +44,25 @@
         {
             "ID": 310026,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 3,
             "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 576290,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-06T12:13:00Z",
+    "DateLastStatusUpdate": "2024-09-23T11:04:00Z",
     "DateCreated": "2012-12-11T15:08:00Z",
     "SubmissionStatusTypeID": 200
 }

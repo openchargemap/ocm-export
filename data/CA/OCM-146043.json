@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2024-01-27T15:56:00Z",
+    "DateLastVerified": "2024-09-24T05:56:00Z",
     "ID": 146043,
     "UUID": "27C7D8E9-043D-49C5-93C9-F86E7D431AE2",
     "DataProviderID": 1,
     "OperatorID": 3534,
     "OperatorsReference": "52530",
     "UsageTypeID": 4,
-    "UsageCost": "Tesla $0.59/kWh, non-Tesla $0.79/kWh",
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app.",
     "AddressInfo": {
         "ID": 146395,
-        "Title": "Tesla/CCS Supercharger",
+        "Title": "Tesla/CCS Supercharger - Deep River",
         "AddressLine1": "33277 Hwy 17",
         "Town": "Deep River",
         "StateOrProvince": "ON",
@@ -18,7 +18,7 @@
         "Latitude": 46.099683,
         "Longitude": -77.499963,
         "ContactTelephone1": "1-877-798-3752",
-        "RelatedURL": "https://www.tesla.com/en_ca/support/non-tesla-supercharging",
+        "RelatedURL": "https://www.tesla.com/support/supercharging-other-evs",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -38,13 +38,14 @@
             "LevelID": 3,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 6
+            "Quantity": 6,
+            "Comments": "Magic Dock CCS1"
         }
     ],
     "NumberOfPoints": 6,
-    "GeneralComments": "All stalls have Magic Dock adapter which allows CCS charging (and can only be released using Tesla app).",
+    "GeneralComments": "Supercharger open to all CCS1 EVs (Magic Dock adapter installed at all stalls). Tesla account and mobile app (Tesla) required for payment (pay-per-use). No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-01-27T15:56:00Z",
+    "DateLastStatusUpdate": "2024-09-24T05:56:00Z",
     "DateCreated": "2019-12-30T21:29:00Z",
     "SubmissionStatusTypeID": 200
 }

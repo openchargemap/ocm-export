@@ -1,11 +1,46 @@
 {
-    "DateLastVerified": "2024-01-27T08:35:00Z",
+    "UserComments": [
+        {
+            "ID": 30039,
+            "ChargePointID": 273898,
+            "CommentTypeID": 50,
+            "UserName": "haldorff",
+            "Comment": "I have tried to charge 3 times, but all 3 times the charger went into fault mode, needed to call the helpdesk for remote reset of the equipment. I spent alltogether 1.5 hour getting the thing to charge with numerous calls to the operator hotline, but no luck. Other cars did manage to charge though. Identification in the app did not work using GPS, but did identify with QR code.  After 3 times the registered creditcard was blocked, because retry triggers 0.01 cent reservation, and ccard companies do not like that. Terrible experience. Do not count on this one if you make long travels.",
+            "Rating": 2,
+            "DateCreated": "2024-09-28T16:14:44.97Z",
+            "User": {
+                "ID": 46612,
+                "Username": "haldorff"
+            },
+            "CheckinStatusTypeID": 25,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 41699,
+            "ChargePointID": 273898,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM273898/OCM-273898.orig.2024031612283430.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM273898/OCM-273898.thmb.2024031612283430.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-03-16T12:29:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-09-28T16:15:00Z",
     "ID": 273898,
     "UUID": "ED4B6E96-E818-4CE9-9D1C-44B17EDB30E4",
     "DataProviderID": 1,
-    "OperatorID": 3715,
+    "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0.59€/kWh",
+    "UsageCost": "0,45€/kWh (APP BP Pulse) - 0,59€/kWh (Credit Card)",
     "AddressInfo": {
         "ID": 274282,
         "Title": "BP Pulse Chauchina ",
@@ -13,8 +48,8 @@
         "StateOrProvince": "Andalucía",
         "Postcode": "18330",
         "CountryID": 210,
-        "Latitude": 37.19133294599253,
-        "Longitude": -3.7772874466477617,
+        "Latitude": 37.191461098338806,
+        "Longitude": -3.777690096516835,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -32,9 +67,9 @@
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Payment with credit card",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-27T08:35:00Z",
+    "GeneralComments": "Payment with credit card, previously BP Pulse (ES)",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-09-28T16:15:00Z",
     "DateCreated": "2023-08-23T20:05:00Z",
     "SubmissionStatusTypeID": 200
 }

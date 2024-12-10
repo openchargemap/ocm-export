@@ -17,13 +17,13 @@
             "DateCreated": "2023-08-09T09:21:00Z"
         }
     ],
-    "DateLastVerified": "2024-02-04T17:54:00Z",
+    "DateLastVerified": "2024-10-08T14:26:00Z",
     "ID": 273421,
     "UUID": "2D9B14B3-FFF5-4349-A42D-AB87E324F6D7",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,42€/kWh DC ",
+    "UsageCost": " 0,55€/kWh DC - 0,42€/kwh DC <50 kW",
     "AddressInfo": {
         "ID": 273805,
         "Title": "Calle Sansomendi (Zunder)",
@@ -44,15 +44,24 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 100,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "Four Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (100 kW)."
+            "Quantity": 2,
+            "Comments": "Four Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW). Two of the dispensers are limited to 25 kW"
+        },
+        {
+            "ID": 577226,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-04T17:54:00Z",
+    "DateLastStatusUpdate": "2024-10-08T14:26:00Z",
     "DateCreated": "2023-08-09T07:03:00Z",
     "SubmissionStatusTypeID": 200
 }

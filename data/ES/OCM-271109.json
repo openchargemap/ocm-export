@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-07-09T20:05:00Z",
+    "MediaItems": [
+        {
+            "ID": 44239,
+            "ChargePointID": 271109,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM271109/OCM-271109.orig.2024112110361989.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM271109/OCM-271109.thmb.2024112110361989.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-11-21T10:36:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-21T10:36:00Z",
     "ID": 271109,
     "UUID": "21A8F46A-4D50-4259-AAF7-972DC441E16E",
     "DataProviderID": 1,
     "OperatorID": 3583,
     "UsageTypeID": 6,
-    "UsageCost": "0,29€/kWh",
+    "UsageCost": "0,37€/kWh DC - 0,32€/kWh AC",
     "AddressInfo": {
         "ID": 271493,
         "Title": "Parking Edificio Solaris",
@@ -20,7 +38,25 @@
     },
     "Connections": [
         {
-            "ID": 461473,
+            "ID": 568324,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 30,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 568325,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 5
+        },
+        {
+            "ID": 582043,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
@@ -29,9 +65,9 @@
             "Quantity": 8
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 14,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-09T20:05:00Z",
+    "DateLastStatusUpdate": "2024-11-21T10:36:00Z",
     "DateCreated": "2023-07-09T20:05:00Z",
     "SubmissionStatusTypeID": 200
 }

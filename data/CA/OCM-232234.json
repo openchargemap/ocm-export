@@ -1,13 +1,14 @@
 {
-    "DateLastVerified": "2024-02-05T08:01:00Z",
+    "DateLastVerified": "2024-09-28T08:10:00Z",
     "ID": 232234,
     "UUID": "3DC79174-B5FF-430A-9996-CA670918FCD0",
     "DataProviderID": 1,
-    "OperatorID": 23,
-    "UsageTypeID": 1,
+    "OperatorID": 3534,
+    "UsageTypeID": 4,
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app.",
     "AddressInfo": {
         "ID": 232617,
-        "Title": "SmartCentres Bracebridge - Tesla Supercharger",
+        "Title": "Tesla/NACS Supercharger - Bracebridge",
         "AddressLine1": "40 Depot Drive",
         "Town": "Bracebridge",
         "StateOrProvince": "ON",
@@ -15,24 +16,27 @@
         "CountryID": 44,
         "Latitude": 45.048758,
         "Longitude": -79.290863,
-        "ContactTelephone1": "877-798-3752",
-        "AccessComments": "24 hours daily",
-        "RelatedURL": "https://www.tesla.com/supercharger",
+        "ContactTelephone1": "1-877-798-3752",
+        "AccessComments": "Available 24/7",
+        "RelatedURL": "https://www.tesla.com/NACS",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 384057,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
+    "GeneralComments": "Supercharger open to non-Tesla EVs covered by NACS agreement. NACS adapter required for EVs with CCS1 charging port. Tesla account and mobile app (Tesla) required for payment (pay-per-use). No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-05T08:01:00Z",
+    "DateLastStatusUpdate": "2024-09-28T08:10:00Z",
     "DateCreated": "2023-02-13T05:33:00Z",
     "SubmissionStatusTypeID": 100
 }

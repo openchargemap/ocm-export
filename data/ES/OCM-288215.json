@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-12-13T08:01:00Z",
+    "MediaItems": [
+        {
+            "ID": 43912,
+            "ChargePointID": 288215,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM288215/OCM-288215.orig.2024102414512341.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM288215/OCM-288215.thmb.2024102414512341.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-10-24T14:51:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-24T14:51:00Z",
     "ID": 288215,
     "UUID": "6C81D698-5974-4040-958F-7543A3D651D2",
     "DataProviderID": 1,
@@ -22,14 +40,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 675,
+            "Voltage": 400,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 8,
+            "Comments": "V4"
         }
     ],
     "NumberOfPoints": 8,
+    "GeneralComments": "8 V4 Superchargers 250kW (CCS). Max total power of the station 750kW",
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-12-13T08:01:00Z",
+    "DateLastStatusUpdate": "2024-10-24T14:51:00Z",
     "DateCreated": "2023-12-13T08:01:00Z",
     "SubmissionStatusTypeID": 200
 }

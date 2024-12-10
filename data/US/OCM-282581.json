@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2024-02-20T10:20:00Z",
+    "DateLastVerified": "2024-03-10T12:46:00Z",
     "ID": 282581,
     "UUID": "CD31BA85-EA55-4D99-B0DC-E4FB93913385",
-    "DataProviderID": 2,
-    "DataProvidersReference": "316713",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "NY",
         "Postcode": "11368",
         "CountryID": 2,
-        "Latitude": 40.76033,
-        "Longitude": -73.855286,
+        "Latitude": 40.760411406690714,
+        "Longitude": -73.85614450455589,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,25 +24,36 @@
         {
             "ID": 490565,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 5,
+            "Comments": ""
         },
         {
             "ID": 490566,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 125,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
+        },
+        {
+            "ID": 530115,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "DatePlanned": "2024-02-16T00:00:00Z",
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2024-02-20T10:20:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-03-10T12:46:00Z",
     "DateCreated": "2023-12-04T04:01:00Z",
     "SubmissionStatusTypeID": 100
 }

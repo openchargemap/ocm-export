@@ -1,14 +1,32 @@
 {
-    "DateLastVerified": "2021-09-22T20:59:00Z",
+    "MediaItems": [
+        {
+            "ID": 43364,
+            "ChargePointID": 189370,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM189370/OCM-189370.orig.2024082217563987.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM189370/OCM-189370.thmb.2024082217563987.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2024-08-22T17:57:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-08-27T20:15:00Z",
     "ID": 189370,
     "UUID": "3DAB3E31-F28E-4738-B3EE-2040060AE878",
     "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 189729,
         "Title": "City of Rogers City (parking lot)",
-        "AddressLine1": "North 4th Street",
+        "AddressLine1": "200 W Erie St",
         "Town": "Rogers City",
         "StateOrProvince": "Michigan",
         "Postcode": "49779",
@@ -23,7 +41,9 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 62.5,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 125,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
@@ -32,14 +52,14 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-09-22T20:59:00Z",
+    "DateLastStatusUpdate": "2024-08-27T20:15:00Z",
     "DateCreated": "2021-09-22T17:01:00Z",
     "SubmissionStatusTypeID": 200
 }

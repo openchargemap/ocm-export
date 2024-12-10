@@ -1,9 +1,11 @@
 {
-    "DateLastVerified": "2019-12-15T06:07:00Z",
+    "DateLastVerified": "2024-10-12T10:43:00Z",
     "ID": 3573,
     "UUID": "3331379E-A015-40E3-9D2E-16DF043B519C",
     "DataProviderID": 1,
+    "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "first hour free, $3 each additional hour",
     "AddressInfo": {
         "ID": 3574,
         "Title": "Woodland Gateway Shopping Center",
@@ -12,19 +14,47 @@
         "StateOrProvince": "CA",
         "Postcode": "95776",
         "CountryID": 2,
-        "Latitude": 38.668736,
-        "Longitude": -121.728678,
+        "Latitude": 38.671590712401155,
+        "Longitude": -121.72390221603247,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 88,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 208,
+            "PowerKW": 6.6,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 577382,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 208,
+            "PowerKW": 6.6,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 577383,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 208,
+            "PowerKW": 6.6,
+            "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "DateLastStatusUpdate": "2019-12-15T06:07:00Z",
+    "NumberOfPoints": 4,
+    "DateLastStatusUpdate": "2024-10-12T10:43:00Z",
     "DateCreated": "2010-02-28T00:00:00Z",
     "SubmissionStatusTypeID": 200
 }

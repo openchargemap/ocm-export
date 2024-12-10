@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2020-02-27T06:15:00Z",
+    "DateLastVerified": "2024-02-26T17:12:00Z",
     "ID": 149454,
     "UUID": "871236D5-E24F-407D-B397-3F2003070F42",
     "DataProviderID": 1,
-    "OperatorID": 20,
+    "OperatorID": 32,
     "OperatorsReference": "80641,80733,80734",
     "UsageTypeID": 4,
-    "UsageCost": "There is a tariff in place on this chargepoint;Â£0.14 Per kWh with £0.50 minimum charge and £2.00 fixed rate overstay fee",
+    "UsageCost": "£0.40/kWh",
     "AddressInfo": {
         "ID": 149807,
         "Title": "Zen Internet, Sandbrook Park",
@@ -23,18 +23,31 @@
         {
             "ID": 207498,
             "ConnectionTypeID": 25,
+            "Reference": "10378",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 6
+            "Quantity": 2
+        },
+        {
+            "ID": 527701,
+            "ConnectionTypeID": 25,
+            "Reference": "10380",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-02-27T06:15:00Z",
+    "DateLastStatusUpdate": "2024-02-26T17:12:00Z",
     "DateCreated": "2020-02-26T06:15:00Z",
     "SubmissionStatusTypeID": 200
 }

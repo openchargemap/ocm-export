@@ -1,27 +1,46 @@
 {
-    "DateLastVerified": "2022-09-19T12:40:00Z",
+    "MediaItems": [
+        {
+            "ID": 42943,
+            "ChargePointID": 188609,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM188609/OCM-188609.orig.2024071906491007.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM188609/OCM-188609.thmb.2024071906491007.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-07-19T06:49:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-07-19T06:49:00Z",
     "ID": 188609,
     "UUID": "C66CAA04-1562-4F2F-B116-2E41A8C6B64B",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3785,
     "UsageTypeID": 4,
+    "UsageCost": "0,49€/kWh",
     "AddressInfo": {
         "ID": 188968,
-        "Title": "Vilalta",
+        "Title": "E.S. Vilalta",
         "AddressLine1": "Camí de Cambrils, 340 ",
         "Town": "Tarragona",
         "Postcode": "43480",
         "CountryID": 210,
-        "Latitude": 41.103282,
-        "Longitude": 1.129699,
-        "RelatedURL": "http://evcharge.es",
+        "Latitude": 41.102862604230296,
+        "Longitude": 1.129822379761805,
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 304651,
             "ConnectionTypeID": 33,
-            "Reference": "Etecnic",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -33,7 +52,7 @@
         {
             "ID": 304652,
             "ConnectionTypeID": 2,
-            "Reference": "etecnic",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
@@ -45,7 +64,7 @@
         {
             "ID": 304653,
             "ConnectionTypeID": 1036,
-            "Reference": "etecnic",
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 63,
@@ -57,7 +76,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-19T12:40:00Z",
+    "DateLastStatusUpdate": "2024-07-19T06:49:00Z",
     "DateCreated": "2021-08-04T10:18:00Z",
     "SubmissionStatusTypeID": 200
 }

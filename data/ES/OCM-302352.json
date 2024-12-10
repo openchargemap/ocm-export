@@ -1,0 +1,58 @@
+{
+    "DateLastVerified": "2024-08-02T22:04:00Z",
+    "ID": 302352,
+    "UUID": "451035DA-7EF1-488D-9542-F2140478897D",
+    "DataProviderID": 1,
+    "OperatorID": 3550,
+    "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh DC - 0,43€/kWh AC",
+    "AddressInfo": {
+        "ID": 302739,
+        "Title": "C.C. Parque Santiago",
+        "AddressLine1": "Avenida Las Americas",
+        "AddressLine2": "Playa de las Américas",
+        "Town": "Los Cristianos",
+        "Postcode": "38650",
+        "CountryID": 210,
+        "Latitude": 28.055367167749154,
+        "Longitude": -16.7321787581609,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 566909,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 950,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 3,
+            "Comments": "Four Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW). Charging power limited for 400V cars. "
+        },
+        {
+            "ID": 566910,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 566911,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
+        }
+    ],
+    "NumberOfPoints": 8,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-08-02T22:04:00Z",
+    "DateCreated": "2024-08-02T22:04:00Z",
+    "SubmissionStatusTypeID": 200
+}

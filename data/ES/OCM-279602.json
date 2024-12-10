@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2024-02-19T09:39:00Z",
+    "MediaItems": [
+        {
+            "ID": 41917,
+            "ChargePointID": 279602,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM279602/OCM-279602.orig.2024040610202614.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM279602/OCM-279602.thmb.2024040610202614.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-04-06T10:21:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-17T15:46:00Z",
     "ID": 279602,
     "UUID": "CB423503-C6B2-4E4F-8FD2-F6F189543028",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": "0,54€/kWh DC>100kW  0,47€/kWh DC - 0,35€/kWh AC",
+    "UsageCost": "0,54€/kWh DC",
     "AddressInfo": {
         "ID": 279989,
         "Title": "Repsol",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28018",
         "CountryID": 210,
-        "Latitude": 40.36630272597321,
-        "Longitude": -3.655432002552402,
+        "Latitude": 40.36622644753845,
+        "Longitude": -3.655313578762957,
         "AccessComments": "In front of the convenience store, at the end of the row of pumps",
         "DistanceUnit": 0
     },
@@ -27,10 +45,10 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 920,
-            "PowerKW": 180,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Ingeteam RAPID180 Charger (375A peak), shares the total power with the Chademo connector. The charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited  for 400V cars"
+            "Comments": "Ingeteam RAPID180 Charger (375A peak), shares the total power with the Chademo connector. The charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW. "
         },
         {
             "ID": 486058,
@@ -47,7 +65,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-19T09:39:00Z",
+    "DateLastStatusUpdate": "2024-10-17T15:46:00Z",
     "DateCreated": "2023-11-03T10:34:00Z",
     "SubmissionStatusTypeID": 200
 }

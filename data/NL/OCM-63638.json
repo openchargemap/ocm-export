@@ -1,11 +1,28 @@
 {
-    "DateLastVerified": "2016-06-04T02:50:00Z",
+    "UserComments": [
+        {
+            "ID": 29840,
+            "ChargePointID": 63638,
+            "CommentTypeID": 50,
+            "UserName": "wtfcantuspellit@gmail.com",
+            "Comment": "Used Shell Recharge registrered in DK",
+            "Rating": 5,
+            "DateCreated": "2024-07-07T12:22:10.753Z",
+            "User": {
+                "ID": 53087,
+                "Username": "wtfcantuspellit@gmail.com"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-07-09T12:38:00Z",
     "ID": 63638,
     "UUID": "D79DB42A-B3C8-4304-B52A-A93C826AE613",
-    "DataProviderID": 26,
-    "DataProvidersReference": "76982",
-    "OperatorID": 73,
+    "DataProviderID": 1,
+    "OperatorID": 3746,
     "OperatorsReference": "EV-Box EVB-P1423155",
+    "UsageTypeID": 6,
     "UsageCost": "0.00 jaarabonnement",
     "AddressInfo": {
         "ID": 63984,
@@ -14,30 +31,39 @@
         "Town": "Apeldoorn",
         "Postcode": "7351 BP",
         "CountryID": 159,
-        "Latitude": 52.1287,
-        "Longitude": 5.90087,
-        "RelatedURL": "http://www.ev-box.nl",
+        "Latitude": 52.12863794547286,
+        "Longitude": 5.9010095699276235,
+        "AccessComments": "Shell Recharge works if you are foreigner visiting. You can only sign up with the native operator (JustPlugin) if you have a billing adress in Netherlands, Belgium, Germany or Switzerland.",
+        "RelatedURL": "https://justplugin.nl/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 81220,
+            "ID": 559726,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 240,
             "PowerKW": 11,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 20,
+            "Quantity": 2
         },
         {
-            "ID": 81221,
+            "ID": 559727,
             "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 240,
             "PowerKW": 11,
-            "CurrentTypeID": 10
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-06-04T02:50:00Z",
+    "DateLastStatusUpdate": "2024-07-09T12:38:00Z",
     "DateCreated": "2016-03-03T12:31:00Z",
     "SubmissionStatusTypeID": 100
 }

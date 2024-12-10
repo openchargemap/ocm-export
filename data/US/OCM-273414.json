@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-08-24T08:47:00Z",
+    "DateLastVerified": "2024-05-23T07:56:00Z",
     "ID": 273414,
     "UUID": "BBFFCE7E-4DE3-422D-8AB4-79F3071BD231",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3372,
     "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "UsageCost": "0.50/kWh",
     "AddressInfo": {
         "ID": 273798,
         "Title": "Eric Von Schledorn Chevrolet",
@@ -16,7 +16,7 @@
         "CountryID": 2,
         "Latitude": 43.38342765248615,
         "Longitude": -87.9264336088121,
-        "AccessComments": "Southwest corner of building",
+        "AccessComments": "On the southwest corner of the building is (1) Level 2 charger, (1) CCS charger. On the east side of building is (1) CCS charger",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,19 +28,31 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "ABB unit"
+            "Comments": "EV Connect On the Southwest corner of the building"
         },
         {
             "ID": 471703,
             "ConnectionTypeID": 1,
             "StatusTypeID": 50,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "FREE On the Southwest corner of the building"
+        },
+        {
+            "ID": 550673,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "EV Connect On the east side of the building"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 3,
+    "GeneralComments": "(2) 50kW CCS (1) J-1772",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-08-24T08:47:00Z",
+    "DateLastStatusUpdate": "2024-05-23T07:56:00Z",
     "DateCreated": "2023-08-08T16:41:00Z",
     "SubmissionStatusTypeID": 200
 }

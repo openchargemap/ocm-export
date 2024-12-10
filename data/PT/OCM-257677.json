@@ -1,25 +1,61 @@
 {
-    "DateLastVerified": "2023-03-20T06:20:00Z",
+    "MediaItems": [
+        {
+            "ID": 43348,
+            "ChargePointID": 257677,
+            "ItemURL": "https://media.openchargemap.io/images/PT/OCM257677/OCM-257677.orig.2024082120205719.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/PT/OCM257677/OCM-257677.thmb.2024082120205719.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53674,
+                "Username": "lezurdis"
+            },
+            "DateCreated": "2024-08-21T20:21:00Z"
+        },
+        {
+            "ID": 43347,
+            "ChargePointID": 257677,
+            "ItemURL": "https://media.openchargemap.io/images/PT/OCM257677/OCM-257677.orig.2024082120200940.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/PT/OCM257677/OCM-257677.thmb.2024082120200940.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53674,
+                "Username": "lezurdis"
+            },
+            "DateCreated": "2024-08-21T20:20:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-08-27T15:04:00Z",
     "ID": 257677,
     "UUID": "17AD397E-23DB-498F-A94A-0EB3D0BABE74",
-    "DataProviderID": 7,
-    "DataProvidersReference": "LNH-00004",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 258061,
-        "Title": "Av. António José de Almeida 19-15",
+        "Title": "LNH-00011 - Av. António José de Almeida 19-15",
         "AddressLine1": "Av. António José de Almeida 19-15",
         "Town": "Lourinhã",
         "Postcode": "2530-128",
         "CountryID": 180,
-        "Latitude": 39.244284,
-        "Longitude": -9.313484,
+        "Latitude": 39.2442757,
+        "Longitude": -9.313535,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 430092,
-            "ConnectionTypeID": 1036,
-            "Reference": "LNH-00004-01-01",
+            "ConnectionTypeID": 25,
+            "Reference": "LNH-00011-01-01",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -29,8 +65,9 @@
         },
         {
             "ID": 430093,
-            "ConnectionTypeID": 1036,
-            "Reference": "LNH-00004-02-01",
+            "ConnectionTypeID": 25,
+            "Reference": "LNH-00011-02-01",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -39,8 +76,8 @@
             "Quantity": 1
         }
     ],
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2023-03-20T06:20:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-08-27T15:04:00Z",
     "DateCreated": "2023-03-20T06:20:00Z",
     "SubmissionStatusTypeID": 200
 }

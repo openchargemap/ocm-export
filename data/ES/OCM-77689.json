@@ -1,9 +1,9 @@
 {
-    "DateLastVerified": "2017-01-22T18:10:00Z",
+    "DateLastVerified": "2024-09-14T19:20:00Z",
     "ID": 77689,
     "UUID": "3670EEAC-C86B-4072-8EDE-C446054C29E2",
     "DataProviderID": 1,
-    "OperatorID": 206,
+    "OperatorID": 3305,
     "UsageTypeID": 4,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -23,37 +23,16 @@
     },
     "Connections": [
         {
-            "ID": 112240,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 112241,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 400,
+            "Voltage": 900,
+            "PowerKW": 90,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 112242,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 150,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Wallbox Supernova 150 Charger. The DC charger allows charging one vehicle at 90kW, or two simultaneous charges at 45kW"
         },
         {
             "ID": 112243,
@@ -78,9 +57,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2017-01-22T18:10:00Z",
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-09-14T19:20:00Z",
     "DateCreated": "2017-01-22T18:10:00Z",
     "SubmissionStatusTypeID": 200
 }

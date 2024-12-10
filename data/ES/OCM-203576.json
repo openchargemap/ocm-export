@@ -1,37 +1,52 @@
 {
-    "DateLastVerified": "2022-09-18T13:11:00Z",
+    "DateLastVerified": "2024-11-04T10:41:00Z",
     "ID": 203576,
     "UUID": "B7001E5A-1CAE-4079-A998-D14C0EDAE314",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "",
+    "OperatorID": 207,
+    "UsageTypeID": 4,
+    "UsageCost": "0,59€/kWh DC - 0,39€/kWh AC",
     "AddressInfo": {
         "ID": 203943,
-        "Title": "Gasol Price Almunia",
+        "Title": "Gasol Price Almunia (Endesa)",
         "AddressLine1": "A-121 ; Magallon-Fuendejalon-Ricla-La Almunia",
         "Town": "La Almunia de Doña Godina",
         "StateOrProvince": "Aragon",
         "Postcode": "50270",
         "CountryID": 210,
-        "Latitude": 41.48854570094855,
-        "Longitude": -1.379852492470718,
+        "Latitude": 41.48827996926039,
+        "Longitude": -1.3798575034944633,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 340120,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 4
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC300 DC charger allows charging one vehicle at 300kW, or two simultaneous charges at 150kW. (max power is limited for 400V cars)"
+        },
+        {
+            "ID": 578835,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW."
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-18T13:11:00Z",
+    "DateLastStatusUpdate": "2024-11-04T10:41:00Z",
     "DateCreated": "2022-09-18T13:11:00Z",
     "SubmissionStatusTypeID": 200
 }

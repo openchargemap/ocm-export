@@ -1,13 +1,14 @@
 {
-    "DateLastVerified": "2024-02-20T10:59:00Z",
+    "DateLastVerified": "2024-02-22T11:08:00Z",
     "ID": 250630,
     "UUID": "0817197C-AE0D-478C-A15A-4D71CCD683C3",
-    "DataProviderID": 2,
-    "DataProvidersReference": "255045",
-    "UsageTypeID": 2,
+    "DataProviderID": 1,
+    "OperatorID": 3756,
+    "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 251014,
-        "Title": "Parkland Corp",
+        "Title": "On The Run - Convenience Store",
         "AddressLine1": "5150 DOMANO BLVD",
         "Town": "PRINCE GEORGE",
         "StateOrProvince": "BC",
@@ -15,35 +16,29 @@
         "CountryID": 44,
         "Latitude": 53.8683,
         "Longitude": -122.7774,
-        "ContactTelephone1": "",
+        "ContactTelephone1": "+1 250-964-7588",
         "AccessComments": "",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 417654,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 417655,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 125,
+            "Voltage": 240,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "GeneralComments": "Simultaneous ultra-fast EV charging (max CCS 150 kW). These chargers use an internal battery to ease the burden on the electrical gird and allow us to place more chargers in more locations to serve EV drivers. Max charging speeds may vary. Charging your vehicle may take longer when Power Conservation Mode appears on the charger screen after high usage.",
     "DatePlanned": "2023-06-15T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-20T10:59:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-02-22T11:08:00Z",
     "DateCreated": "2023-03-07T06:06:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,11 +1,10 @@
 {
-    "DateLastVerified": "2024-02-20T10:37:00Z",
+    "DateLastVerified": "2024-02-29T23:31:00Z",
     "ID": 230613,
     "UUID": "B6920733-CD5C-4998-954D-E6DD573AA669",
-    "DataProviderID": 2,
-    "DataProvidersReference": "181698",
-    "OperatorID": 5,
-    "UsageTypeID": 1,
+    "DataProviderID": 1,
+    "OperatorID": 3696,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 230996,
         "Title": "VILLAGE MARKET STATION 1",
@@ -14,11 +13,11 @@
         "StateOrProvince": "MI",
         "Postcode": "48811",
         "CountryID": 2,
-        "Latitude": 43.178303,
-        "Longitude": -84.862408,
-        "ContactTelephone1": "888-758-4389",
+        "Latitude": 43.17801764197256,
+        "Longitude": -84.86203945976821,
+        "ContactTelephone1": "313 262 6722",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "http://www.chargepoint.com/",
+        "RelatedURL": "https://www.redecharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,12 +29,21 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 2,
+            "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 527818,
+            "ConnectionTypeID": 0,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 160,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:37:00Z",
+    "DateLastStatusUpdate": "2024-02-29T23:31:00Z",
     "DateCreated": "2023-02-13T05:29:00Z",
     "SubmissionStatusTypeID": 100
 }

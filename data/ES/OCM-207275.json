@@ -1,20 +1,21 @@
 {
-    "DateLastVerified": "2022-10-09T19:33:00Z",
+    "DateLastVerified": "2024-09-23T18:41:00Z",
     "ID": 207275,
     "UUID": "4CCE6F65-C835-4496-924F-43B88A05704A",
     "DataProviderID": 1,
     "OperatorID": 3499,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "0,25€/kWh",
     "AddressInfo": {
         "ID": 207655,
-        "Title": "MERCADONA Leganés",
+        "Title": "MERCADONA Hospital Leganés",
         "AddressLine1": "M-409 (Leganés - Fuenlabrada)",
         "Town": "Leganés",
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28911",
         "CountryID": 210,
-        "Latitude": 40.31877120666596,
-        "Longitude": -3.7678472984282507,
+        "Latitude": 40.31836092466071,
+        "Longitude": -3.767481637388528,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,13 +24,15 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 3.7,
-            "Quantity": 2
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 6
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 6,
+    "GeneralComments": "app Waylet(Repsol). 90' free parking, then at 0,07€/min",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-09T19:33:00Z",
+    "DateLastStatusUpdate": "2024-09-23T18:41:00Z",
     "DateCreated": "2022-10-09T19:33:00Z",
     "SubmissionStatusTypeID": 200
 }

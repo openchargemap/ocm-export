@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-11-28T13:16:00Z",
+    "DateLastVerified": "2024-11-22T10:12:00Z",
     "ID": 191417,
     "UUID": "1AFB308E-79DD-4AD0-A20B-530E8EB39E4A",
     "DataProviderID": 1,
     "OperatorID": 103,
     "UsageTypeID": 4,
-    "UsageCost": "0,43€/kWh",
+    "UsageCost": "0,43€/kWh AC",
     "AddressInfo": {
         "ID": 191776,
         "Title": "Hospital  Infanta Sofía",
@@ -14,8 +14,8 @@
         "StateOrProvince": "Community of Madrid",
         "Postcode": "28050",
         "CountryID": 210,
-        "Latitude": 40.5580203920959,
-        "Longitude": -3.6100552377023405,
+        "Latitude": 40.55656840537253,
+        "Longitude": -3.610635224480575,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,12 +29,23 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 36
+        },
+        {
+            "ID": 582562,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 36,
+    "NumberOfPoints": 40,
     "GeneralComments": "Parking Hospital",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-28T13:16:00Z",
+    "DateLastStatusUpdate": "2024-11-22T10:12:00Z",
     "DateCreated": "2022-02-09T12:33:00Z",
     "SubmissionStatusTypeID": 200
 }

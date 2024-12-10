@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2024-02-20T10:05:00Z",
+    "DateLastVerified": "2024-10-12T10:43:00Z",
     "ID": 244999,
     "UUID": "05F2A0D2-E15E-442C-AA67-B214A66E5B60",
-    "DataProviderID": 2,
-    "DataProvidersReference": "69945",
+    "DataProviderID": 1,
+    "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "$0.49/kWh",
     "AddressInfo": {
         "ID": 245383,
         "Title": "City of Woodland - Woodland Public Library",
@@ -24,17 +25,18 @@
         {
             "ID": 411106,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Amps": 32,
+            "Voltage": 208,
+            "PowerKW": 6.6,
             "CurrentTypeID": 10,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": "3.3kW to 6.6kW shared"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:05:00Z",
+    "DateLastStatusUpdate": "2024-10-12T10:43:00Z",
     "DateCreated": "2023-03-07T05:21:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,12 +1,12 @@
 {
-    "DateLastVerified": "2023-04-03T16:59:00Z",
+    "DateLastVerified": "2024-12-07T16:31:00Z",
     "ID": 70018,
     "UUID": "68C0EC7F-8F7F-4A38-BB67-E52508DC6683",
     "DataProviderID": 1,
-    "OperatorID": 32,
+    "OperatorID": 3341,
     "OperatorsReference": "2609",
     "UsageTypeID": 4,
-    "UsageCost": "£0.59/kWh; other tariffs available. Parking fees apply",
+    "UsageCost": " £0.44/kWh.Parking fees apply",
     "AddressInfo": {
         "ID": 70364,
         "Title": "Kennet Centre Multi-Storey Car Park",
@@ -17,25 +17,64 @@
         "CountryID": 1,
         "Latitude": 51.4000195,
         "Longitude": -1.32406230000004,
-        "AccessComments": "1st floor, at top of ramp. One bay for general public,  one reserved for Co wheels car club",
+        "AccessComments": "One bay for West Berkshire fleet vehicles,  one reserved for Co wheels car club, two bays for general public",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 98896,
             "ConnectionTypeID": 25,
+            "Reference": "GB*SSM*ESEC22977*1",
+            "StatusTypeID": 150,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 583683,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*SSM*ESEC22977*2",
+            "StatusTypeID": 150,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 583688,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*SSM*ESEC22978*1",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1,
+            "Comments": "for West Berkshire Council fleet vehicles only"
+        },
+        {
+            "ID": 583689,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*SSM*ESEC22978*2",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "for West Berkshire Council fleet vehicles only"
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-03T16:59:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2024-12-07T16:31:00Z",
     "DateCreated": "2016-07-01T21:15:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-02-18T06:35:00Z",
+    "DateLastVerified": "2024-12-05T06:32:00Z",
     "ID": 259020,
     "UUID": "61A0DD50-FED7-45CA-AEF8-C6C48459D091",
     "DataProviderID": 1,
@@ -17,7 +17,7 @@
         "CountryID": 1,
         "Latitude": 52.308134,
         "Longitude": -1.121376,
-        "RelatedURL": "https://electrichighway.gridserve.com/watford-gap-southbound-services",
+        "RelatedURL": "https://electrichighway.gridserve.com/?location=watford-gap-southbound-services",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -65,18 +65,6 @@
             "ID": 434633,
             "ConnectionTypeID": 25,
             "Reference": "GB*GRD*ETACW2243920T0560*1",
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 434634,
-            "ConnectionTypeID": 25,
-            "Reference": "GB*GRD*ETACW2243920T0562*1",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -136,16 +124,6 @@
             "Quantity": 1
         },
         {
-            "ID": 468308,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10826*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 468309,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10833*1",
@@ -186,7 +164,39 @@
             "Quantity": 1
         },
         {
-            "ID": 515007,
+            "ID": 575125,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10826*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 575128,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*ETACW2241422T1979*1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 584595,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10823*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585073,
             "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS10823*1",
             "StatusTypeID": 50,
@@ -196,19 +206,19 @@
             "Quantity": 1
         },
         {
-            "ID": 515973,
-            "ConnectionTypeID": 2,
+            "ID": 585317,
+            "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10824*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 100,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 16,
+    "NumberOfPoints": 17,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-18T06:35:00Z",
+    "DateLastStatusUpdate": "2024-12-05T06:32:00Z",
     "DateCreated": "2023-03-26T19:55:00Z",
     "SubmissionStatusTypeID": 200
 }

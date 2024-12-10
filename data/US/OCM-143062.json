@@ -1,50 +1,40 @@
 {
-    "DateLastVerified": "2020-06-26T03:05:00Z",
+    "DateLastVerified": "2024-08-27T15:02:00Z",
     "ID": 143062,
     "UUID": "8548350F-8513-494B-B613-A39E93F84C26",
-    "DataProviderID": 2,
-    "DataProvidersReference": "93722",
-    "OperatorID": 15,
-    "UsageTypeID": 4,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "$0.35/kWh",
     "AddressInfo": {
         "ID": 143414,
-        "Title": "Natick Service Plaza Eastbound",
+        "Title": "Autel - Natick Service Plaza Eastbound",
         "AddressLine1": "I-90 E Mile Marker 118.4",
         "Town": "Natick",
         "StateOrProvince": "MA",
         "Postcode": "01760",
         "CountryID": 2,
-        "Latitude": 42.311758,
-        "Longitude": -71.364245,
-        "ContactTelephone1": "877-455-3833",
-        "AccessComments": "24 hours daily\r\nPublic - Card key at all times",
-        "RelatedURL": "https://www.evgo.com/",
+        "Latitude": 42.31162730293016,
+        "Longitude": -71.36449348887464,
+        "ContactTelephone1": "844-765-0150",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 199319,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 199320,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
+            "Amps": 150,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-26T03:05:00Z",
+    "DateLastStatusUpdate": "2024-08-27T15:02:00Z",
     "DateCreated": "2019-12-24T09:20:00Z",
     "SubmissionStatusTypeID": 100
 }

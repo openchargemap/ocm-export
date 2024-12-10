@@ -17,13 +17,13 @@
             "DateCreated": "2023-08-04T08:17:00Z"
         }
     ],
-    "DateLastVerified": "2023-10-11T14:05:00Z",
+    "DateLastVerified": "2024-10-08T14:28:00Z",
     "ID": 273313,
     "UUID": "E89ED1C0-2E79-4063-9885-80A82F9CDB5F",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,42€/kWh DC ",
+    "UsageCost": "0,55-0,42€/kWh DC ",
     "AddressInfo": {
         "ID": 273697,
         "Title": "Centro Salud Calle Sierra de Aralar (Zunder)",
@@ -44,15 +44,24 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 100,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "Four Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (100 kW)."
+            "Quantity": 2,
+            "Comments": "Four Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW). Two of the dispensers are limited to 25 kW"
+        },
+        {
+            "ID": 577228,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-10-11T14:05:00Z",
+    "DateLastStatusUpdate": "2024-10-08T14:28:00Z",
     "DateCreated": "2023-08-03T19:54:00Z",
     "SubmissionStatusTypeID": 200
 }

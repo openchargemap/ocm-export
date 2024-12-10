@@ -1,27 +1,25 @@
 {
-    "DateLastVerified": "2019-01-01T14:19:00Z",
+    "DateLastVerified": "2024-10-07T17:26:00Z",
     "ID": 113703,
     "UUID": "D9A9208C-6CC1-4EA0-BF84-16A06122EDC3",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 3,
-    "UsageCost": "Free, but you have to pay a little fee for wireless and reading room",
+    "UsageCost": "euro 0,30/kWh",
     "AddressInfo": {
         "ID": 114049,
         "Title": "CSC",
         "AddressLine1": "Via Stoppani 14",
-        "AddressLine2": "",
         "Town": "Albese con Cassano",
         "StateOrProvince": "CO",
         "Postcode": "22032",
         "CountryID": 112,
-        "Latitude": 45.79211471623543,
-        "Longitude": 9.17304630959734,
+        "Latitude": 45.79169564259527,
+        "Longitude": 9.172687156868847,
         "ContactTelephone1": "+39.031266469",
-        "ContactTelephone2": "",
+        "ContactTelephone2": "+39.3280799661",
         "ContactEmail": "info@contabilizzazionecalore.it",
-        "AccessComments": "Go to reception",
-        "RelatedURL": "http://www.contabilozzazionecalore.it",
+        "RelatedURL": "http://www.contabilizzazionecalore.it",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -32,7 +30,7 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 3
         },
         {
             "ID": 160258,
@@ -55,12 +53,22 @@
             "StatusTypeID": 50,
             "Voltage": 16,
             "Quantity": 1
+        },
+        {
+            "ID": 577215,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 80,
+            "PowerKW": 30,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "",
+    "NumberOfPoints": 4,
+    "GeneralComments": "Ring the bell. Open from monday to friday 8:00-18:00",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-01-01T14:19:00Z",
+    "DateLastStatusUpdate": "2024-10-07T17:26:00Z",
     "DateCreated": "2015-05-23T10:15:00Z",
     "SubmissionStatusTypeID": 200
 }

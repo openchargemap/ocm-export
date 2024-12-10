@@ -1,25 +1,60 @@
 {
-    "DateLastVerified": "2023-03-20T06:20:00Z",
+    "MediaItems": [
+        {
+            "ID": 43325,
+            "ChargePointID": 257679,
+            "ItemURL": "https://media.openchargemap.io/images/PT/OCM257679/OCM-257679.orig.2024081915004267.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/PT/OCM257679/OCM-257679.thmb.2024081915004267.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53674,
+                "Username": "lezurdis"
+            },
+            "DateCreated": "2024-08-19T15:01:00Z"
+        },
+        {
+            "ID": 43326,
+            "ChargePointID": 257679,
+            "ItemURL": "https://media.openchargemap.io/images/PT/OCM257679/OCM-257679.orig.2024081915011919.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/PT/OCM257679/OCM-257679.thmb.2024081915011919.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53674,
+                "Username": "lezurdis"
+            },
+            "DateCreated": "2024-08-19T15:01:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-08-22T18:27:00Z",
     "ID": 257679,
     "UUID": "038A64D6-8C4A-439E-9319-5A2C78E6FCC0",
-    "DataProviderID": 7,
-    "DataProvidersReference": "LNH-00003",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 258063,
-        "Title": "Av. António José de Almeida (EN 247), nº 49",
+        "Title": "LNH-00010 Lidl",
         "AddressLine1": "Av. António José de Almeida (EN 247), nº 49",
         "Town": "Lourinhã",
         "Postcode": "2530-113",
         "CountryID": 180,
-        "Latitude": 39.250278,
-        "Longitude": -9.313333,
+        "Latitude": 39.250279,
+        "Longitude": -9.3131466,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 430096,
             "ConnectionTypeID": 33,
-            "Reference": "LNH-00003-02-01",
+            "Reference": "LNH-00010-02-01",
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 500,
@@ -29,8 +64,8 @@
         },
         {
             "ID": 430097,
-            "ConnectionTypeID": 25,
-            "Reference": "LNH-00003-01-01",
+            "ConnectionTypeID": 1036,
+            "Reference": "LNH-00010-01-01",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 500,
@@ -41,7 +76,7 @@
         {
             "ID": 430098,
             "ConnectionTypeID": 2,
-            "Reference": "LNH-00003-03-01",
+            "Reference": "LNH-00010-03-01",
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 500,
@@ -51,7 +86,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-20T06:20:00Z",
+    "DateLastStatusUpdate": "2024-08-22T18:27:00Z",
     "DateCreated": "2023-03-20T06:20:00Z",
     "SubmissionStatusTypeID": 200
 }

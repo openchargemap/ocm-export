@@ -1,0 +1,49 @@
+{
+    "DateLastVerified": "2024-11-17T12:02:00Z",
+    "ID": 306192,
+    "UUID": "82BD8CFE-CC4B-4594-A1F6-B32A0B67BF40",
+    "DataProviderID": 1,
+    "OperatorID": 3550,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh DC - 0,43€/kWh AC",
+    "AddressInfo": {
+        "ID": 306581,
+        "Title": "Tagliatella Alzira",
+        "AddressLine1": "Carrer Albalat",
+        "Town": "Alzira",
+        "StateOrProvince": "Comunitat Valenciana",
+        "Postcode": "46600",
+        "CountryID": 210,
+        "Latitude": 39.16286877643782,
+        "Longitude": -0.431855649868794,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 580845,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 950,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Two Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW). Charging power limited for 400V cars"
+        },
+        {
+            "ID": 580846,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 3,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-11-17T12:02:00Z",
+    "DateCreated": "2024-11-17T12:02:00Z",
+    "SubmissionStatusTypeID": 200
+}

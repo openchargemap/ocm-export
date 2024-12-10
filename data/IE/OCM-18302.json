@@ -1,17 +1,18 @@
 {
-    "DateLastVerified": "2016-06-01T11:33:00Z",
+    "DateLastVerified": "2024-09-24T22:45:00Z",
     "ID": 18302,
     "UUID": "B8D721FD-1A3B-4A2F-A297-1045EAC59ACF",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 1241,
     "OperatorsReference": "Clarion Hotel",
-    "UsageTypeID": 7,
-    "UsageCost": "Free",
+    "UsageTypeID": 4,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 18647,
-        "Title": "Clarion Hotel",
-        "AddressLine1": "Clarion Hotel, Liffey Valley, Dublin 22",
-        "Town": "Dublin",
+        "Title": "Clayton Hotel Liffey Valley",
+        "AddressLine1": "Liffey Valley",
+        "Town": "",
+        "StateOrProvince": "Dublin 20",
         "CountryID": 3,
         "Latitude": 53.3556,
         "Longitude": -6.40177,
@@ -21,18 +22,27 @@
         {
             "ID": 32993,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
             "Quantity": 1
+        },
+        {
+            "ID": 576488,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-06-01T11:33:00Z",
+    "DateLastStatusUpdate": "2024-09-24T22:45:00Z",
     "DateCreated": "2013-07-17T05:28:00Z",
     "SubmissionStatusTypeID": 200
 }

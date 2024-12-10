@@ -1,5 +1,71 @@
 {
-    "DateLastVerified": "2024-02-03T21:12:00Z",
+    "MediaItems": [
+        {
+            "ID": 44031,
+            "ChargePointID": 290525,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM290525/OCM-290525.orig.2024110922491715.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM290525/OCM-290525.thmb.2024110922491715.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-11-09T22:49:00Z"
+        },
+        {
+            "ID": 41659,
+            "ChargePointID": 290525,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM290525/OCM-290525.orig.2024030717454118.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM290525/OCM-290525.thmb.2024030717454118.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-03-07T17:46:00Z"
+        },
+        {
+            "ID": 41657,
+            "ChargePointID": 290525,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM290525/OCM-290525.orig.2024030717444139.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM290525/OCM-290525.thmb.2024030717444139.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-03-07T17:45:00Z"
+        },
+        {
+            "ID": 41658,
+            "ChargePointID": 290525,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM290525/OCM-290525.orig.2024030717451882.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM290525/OCM-290525.thmb.2024030717451882.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-03-07T17:45:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-09T22:52:00Z",
     "ID": 290525,
     "UUID": "6AE0031F-61CA-46BC-A427-D7EABD9D7B55",
     "DataProviderID": 1,
@@ -13,8 +79,8 @@
         "StateOrProvince": "Comunitat Valenciana",
         "Postcode": "03016",
         "CountryID": 210,
-        "Latitude": 38.36662283406034,
-        "Longitude": -0.46910444788332484,
+        "Latitude": 38.36771359041816,
+        "Longitude": -0.46916830800643083,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,11 +89,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
+            "Amps": 375,
             "Voltage": 920,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Circutor Raption150C Charger (375A). The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. "
         },
         {
             "ID": 513215,
@@ -36,7 +103,8 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": "Circutor Raption50 Charger"
         },
         {
             "ID": 513216,
@@ -45,21 +113,22 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Circutor Raption50 Charger"
         },
         {
             "ID": 513217,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "PowerKW": 11,
             "CurrentTypeID": 20,
-            "Quantity": 24
+            "Quantity": 26
         }
     ],
     "NumberOfPoints": 32,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-03T21:12:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-09T22:52:00Z",
     "DateCreated": "2024-02-03T21:11:00Z",
     "SubmissionStatusTypeID": 200
 }

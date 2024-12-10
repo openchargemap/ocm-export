@@ -1,13 +1,14 @@
 {
-    "DateLastVerified": "2024-02-05T08:05:00Z",
+    "DateLastVerified": "2024-09-28T08:11:00Z",
     "ID": 263440,
     "UUID": "F6DFE27B-F20F-48F0-A5FB-421A82521113",
     "DataProviderID": 1,
-    "OperatorID": 23,
-    "UsageTypeID": 1,
+    "OperatorID": 3534,
+    "UsageTypeID": 4,
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app.",
     "AddressInfo": {
         "ID": 263824,
-        "Title": "Trenton, ON - Tesla Supercharger",
+        "Title": "Tesla/NACS Supercharger - Trenton",
         "AddressLine1": "33 Monogram Pl",
         "Town": "Trenton",
         "StateOrProvince": "ON",
@@ -15,24 +16,27 @@
         "CountryID": 44,
         "Latitude": 44.130278,
         "Longitude": -77.579975,
-        "ContactTelephone1": "877-798-3752",
+        "ContactTelephone1": "1-877-798-3752",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://www.tesla.com/supercharger",
+        "RelatedURL": "https://www.tesla.com/NACS",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 446294,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 12,
+    "GeneralComments": "Supercharger open to non-Tesla EVs covered by NACS agreement. NACS adapter required for EVs with CCS1 charging port. Tesla account and mobile app (Tesla) required for payment (pay-per-use). No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-05T08:05:00Z",
+    "DateLastStatusUpdate": "2024-09-28T08:11:00Z",
     "DateCreated": "2023-05-01T06:09:00Z",
     "SubmissionStatusTypeID": 100
 }

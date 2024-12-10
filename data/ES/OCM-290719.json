@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 44381,
+            "ChargePointID": 290719,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM290719/OCM-290719.orig.2024120417141775.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM290719/OCM-290719.thmb.2024120417141775.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-12-04T17:14:00Z"
+        },
+        {
             "ID": 41417,
             "ChargePointID": 290719,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM290719/OCM-290719.orig.2024020920533494.jpg",
@@ -17,7 +33,7 @@
             "DateCreated": "2024-02-09T20:54:00Z"
         }
     ],
-    "DateLastVerified": "2024-02-14T22:16:00Z",
+    "DateLastVerified": "2024-12-04T17:15:00Z",
     "ID": 290719,
     "UUID": "3E588FF9-6DE5-49F8-8CB0-2D79FD242CB6",
     "DataProviderID": 1,
@@ -31,8 +47,8 @@
         "StateOrProvince": "Asturias / Asturies",
         "Postcode": "33429",
         "CountryID": 210,
-        "Latitude": 43.39104696625455,
-        "Longitude": -5.801434591269185,
+        "Latitude": 43.391195,
+        "Longitude": -5.801666,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -43,10 +59,10 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 920,
-            "PowerKW": 50,
+            "PowerKW": 25,
             "CurrentTypeID": 30,
             "Quantity": 24,
-            "Comments": "12 Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinets (3x200 kW)."
+            "Comments": "24 Kempower CCS Satellite chargers that dynamically share the total power of the cabinets (3x200 kW)."
         },
         {
             "ID": 514896,
@@ -55,16 +71,16 @@
             "LevelID": 3,
             "Amps": 500,
             "Voltage": 1000,
-            "PowerKW": 300,
+            "PowerKW": 400,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "Six Hypercharger HYC300  Chargers. The DC charger allows charging one vehicle at 300kW, or two simultaneous charges at 150kW. Max 500A, charging power limited to 200kW for 400V cars"
+            "Comments": "Six Hypercharger HYC400  Chargers. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. Max 500A, charging power limited to 200kW for 400V cars"
         }
     ],
     "NumberOfPoints": 36,
     "GeneralComments": "Station equipped with a boost battery. Power limited when charger battery is low of charge",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-14T22:16:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-12-04T17:15:00Z",
     "DateCreated": "2024-02-07T17:33:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 29737,
+            "ChargePointID": 75253,
+            "CommentTypeID": 10,
+            "UserName": "Pink Duck",
+            "Comment": "Reopened after upgrade to 16 V4 superchargers (now CCS only).",
+            "Rating": 5,
+            "DateCreated": "2024-05-15T10:08:57.057Z",
+            "User": {
+                "ID": 19665,
+                "Username": "Pink Duck"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 20582,
             "ChargePointID": 75253,
             "CommentTypeID": 10,
@@ -14,6 +29,22 @@
         }
     ],
     "MediaItems": [
+        {
+            "ID": 42289,
+            "ChargePointID": 75253,
+            "ItemURL": "https://media.openchargemap.io/images/GB/OCM75253/OCM-75253.orig.2024051510072495.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM75253/OCM-75253.thmb.2024051510072495.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 19665,
+                "Username": "Pink Duck"
+            },
+            "DateCreated": "2024-05-15T10:08:00Z"
+        },
         {
             "ID": 17328,
             "ChargePointID": 75253,
@@ -31,7 +62,7 @@
             "DateCreated": "2018-12-31T20:56:00Z"
         }
     ],
-    "DateLastVerified": "2023-06-27T10:47:00Z",
+    "DateLastVerified": "2024-05-15T20:01:00Z",
     "ID": 75253,
     "UUID": "C94F69FF-FAA0-4E20-BB1A-D6FA1F3B8208",
     "DataProviderID": 1,
@@ -48,8 +79,8 @@
         "StateOrProvince": "Suffolk",
         "Postcode": "IP24 3TP",
         "CountryID": 1,
-        "Latitude": 52.3864340032538,
-        "Longitude": 0.664575154596383,
+        "Latitude": 52.38649185289799,
+        "Longitude": 0.6647846785921274,
         "ContactTelephone1": "+44 800 756 9960",
         "ContactTelephone2": "+44 162 845 0660",
         "RelatedURL": "https://www.tesla.com/en_GB/findus/location/supercharger/thetfordsupercharger",
@@ -61,17 +92,17 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 312,
-            "Voltage": 400,
-            "PowerKW": 120,
+            "Amps": 640,
+            "Voltage": 1000,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 16
         }
     ],
-    "NumberOfPoints": 8,
-    "GeneralComments": "8 Tesla Superchargers, available 24/7, up to 120 kW (shared between paired bays). Accessible through read-right edge of Elveden Inn car park.",
+    "NumberOfPoints": 16,
+    "GeneralComments": "16 Tesla V4 Superchargers, available 24/7, up to 250 kW each. Accessible through rear-right edge of Elveden Inn car park.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-27T10:47:00Z",
+    "DateLastStatusUpdate": "2024-05-15T20:01:00Z",
     "DateCreated": "2016-12-14T16:03:00Z",
     "SubmissionStatusTypeID": 200
 }

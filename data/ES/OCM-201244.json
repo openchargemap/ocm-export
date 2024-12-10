@@ -17,7 +17,7 @@
             "DateCreated": "2023-04-13T10:01:00Z"
         }
     ],
-    "DateLastVerified": "2024-01-13T19:05:00Z",
+    "DateLastVerified": "2024-11-28T21:09:00Z",
     "ID": 201244,
     "UUID": "62389D76-C1C5-40B1-AA49-BA7407DFF672",
     "DataProviderID": 1,
@@ -32,8 +32,8 @@
         "StateOrProvince": "Castile and León",
         "Postcode": "37008",
         "CountryID": 210,
-        "Latitude": 40.95511444775204,
-        "Longitude": -5.692780831055217,
+        "Latitude": 40.95503856333522,
+        "Longitude": -5.692767485293018,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -42,35 +42,29 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 400,
+            "Amps": 300,
             "Voltage": 1000,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 200 kW "
+            "Comments": "PowerElectronics NB240 charger (500A peak). Power is split between both outlets. The DC charger allows charging one vehicle at 200kW, or two simultaneous charges at 100kW."
         },
         {
             "ID": 335640,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 335641,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "PowerElectronics NB240 charger (500A peak). Power is split between both outlets. The DC charger allows charging one vehicle at 200kW, or two simultaneous charges at 100kW."
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-01-13T19:05:00Z",
+    "DateLastStatusUpdate": "2024-11-28T21:09:00Z",
     "DateCreated": "2022-08-25T08:35:00Z",
     "SubmissionStatusTypeID": 200
 }

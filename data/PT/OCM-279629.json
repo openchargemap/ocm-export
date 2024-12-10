@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-11-04T07:17:00Z",
+    "MediaItems": [
+        {
+            "ID": 42481,
+            "ChargePointID": 279629,
+            "ItemURL": "https://media.openchargemap.io/images/PT/OCM279629/OCM-279629.orig.2024060611063933.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/PT/OCM279629/OCM-279629.thmb.2024060611063933.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-06-06T11:07:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-31T22:27:00Z",
     "ID": 279629,
     "UUID": "1B7C5D32-EEA7-4023-B663-C23E125DBAAF",
     "DataProviderID": 1,
@@ -12,8 +30,8 @@
         "AddressLine1": "Via de Cintura Externa da Guarda",
         "Postcode": "6300-865",
         "CountryID": 180,
-        "Latitude": 40.55133158374397,
-        "Longitude": -7.249026270259833,
+        "Latitude": 40.552016397331016,
+        "Longitude": -7.249010058271949,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,12 +44,36 @@
             "Voltage": 920,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 6
+            "Quantity": 4
+        },
+        {
+            "ID": 552959,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 400,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC400 Charger. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. Max 600A Peak, charging power limited to 240kW for 400V cars"
+        },
+        {
+            "ID": 552960,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 400,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC400 Charger. "
         }
     ],
-    "NumberOfPoints": 6,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-11-04T07:17:00Z",
+    "NumberOfPoints": 8,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-10-31T22:27:00Z",
     "DateCreated": "2023-11-04T07:17:00Z",
     "SubmissionStatusTypeID": 200
 }

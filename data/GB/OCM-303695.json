@@ -1,0 +1,64 @@
+{
+    "DateLastVerified": "2024-09-05T05:17:00Z",
+    "ID": 303695,
+    "UUID": "44178DC2-89AB-4B33-A8DD-F9585C7737DC",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "t53_hu1_0518_006",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.65/kWh",
+    "AddressInfo": {
+        "ID": 304084,
+        "Title": "Lidl-Knaresborough",
+        "AddressLine1": "78 Chain Lane",
+        "Town": "Knaresborough",
+        "StateOrProvince": "North Yorkshire",
+        "Postcode": "HG5 0DH",
+        "CountryID": 1,
+        "Latitude": 54.006825,
+        "Longitude": -1.454281,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 573017,
+            "ConnectionTypeID": 1036,
+            "Reference": "t53_hu1_0518_006",
+            "StatusTypeID": 0,
+            "LevelID": 3,
+            "Voltage": 400,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Eddy-Rose"
+        },
+        {
+            "ID": 573018,
+            "ConnectionTypeID": 2,
+            "Reference": "t53_hu1_0518_006",
+            "StatusTypeID": 0,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Eddy-Rose"
+        },
+        {
+            "ID": 573019,
+            "ConnectionTypeID": 33,
+            "Reference": "t53_hu1_0518_006",
+            "StatusTypeID": 0,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Eddy-Rose"
+        }
+    ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "This is a POD Point rapid charge unit installed at the Lidl superstore in Chain Lane, Knaresborough",
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2024-09-05T05:17:00Z",
+    "DateCreated": "2024-08-31T05:16:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -17,11 +17,11 @@
             "DateCreated": "2016-07-12T10:31:00Z"
         }
     ],
-    "DateLastVerified": "2020-08-21T07:28:00Z",
+    "DateLastVerified": "2024-08-02T20:14:00Z",
     "ID": 19036,
     "UUID": "EBCB591F-808F-492F-AC8E-792A84761388",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "6430",
     "UsageTypeID": 1,
     "UsageCost": "NKR 1.70/kWh; andre tariffer for eldre biler",
@@ -32,8 +32,8 @@
         "Town": "Lyngdal",
         "Postcode": "4580",
         "CountryID": 168,
-        "Latitude": 58.15652,
-        "Longitude": 7.10296,
+        "Latitude": 58.15701033621093,
+        "Longitude": 7.105663923851353,
         "ContactTelephone1": "80011093",
         "RelatedURL": "http://www.teslamotors.com/supercharger/lyngdal",
         "DistanceUnit": 0
@@ -41,19 +41,26 @@
     "Connections": [
         {
             "ID": 22541,
-            "ConnectionTypeID": 27,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 0,
             "LevelID": 3,
-            "Amps": 270,
-            "Voltage": 480,
-            "PowerKW": 135,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 23
+        },
+        {
+            "ID": 566843,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 20
         }
     ],
-    "NumberOfPoints": 20,
+    "NumberOfPoints": 43,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-21T07:28:00Z",
+    "DateLastStatusUpdate": "2024-08-02T20:14:00Z",
     "DateCreated": "2013-09-10T03:33:00Z",
     "SubmissionStatusTypeID": 200
 }

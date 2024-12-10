@@ -1,18 +1,17 @@
 {
-    "DateLastVerified": "2024-02-20T10:24:00Z",
+    "DateLastVerified": "2024-11-25T18:45:00Z",
     "ID": 227735,
     "UUID": "B0F85B89-A0F6-4176-B70E-70044BE1C1A0",
-    "DataProviderID": 2,
-    "DataProvidersReference": "165635",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 228118,
-        "Title": "RI OER HOPKINTON DCFC2",
-        "AddressLine1": "0 Nooseneck Hill Rd.",
-        "Town": "Hopkinton",
+        "Title": "Ashaway Park & Ride",
+        "AddressLine1": "400 Main St",
+        "Town": "Ashaway",
         "StateOrProvince": "RI",
-        "Postcode": "02804",
+        "Postcode": "02833",
         "CountryID": 2,
         "Latitude": 41.450382,
         "Longitude": -71.78584,
@@ -25,24 +24,51 @@
         {
             "ID": 379226,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 100,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 379227,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 125,
+            "Voltage": 1000,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 529623,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 6.5,
+            "CurrentTypeID": 10,
+            "Quantity": 6
+        },
+        {
+            "ID": 583429,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 1000,
+            "PowerKW": 320,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
+    "GeneralComments": "NEVI Site",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:24:00Z",
+    "DateLastStatusUpdate": "2024-11-25T18:45:00Z",
     "DateCreated": "2023-02-13T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

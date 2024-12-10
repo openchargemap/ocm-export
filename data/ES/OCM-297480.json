@@ -1,0 +1,66 @@
+{
+    "DateLastVerified": "2024-07-24T14:58:00Z",
+    "ID": 297480,
+    "UUID": "DEE10CA2-52C4-4DDE-A083-DDAF0BDE04FE",
+    "DataProviderID": 1,
+    "OperatorID": 3550,
+    "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh DC - 0,43€/kWh AC",
+    "AddressInfo": {
+        "ID": 297867,
+        "Title": "C.C. Málaga Plaza",
+        "AddressLine1": "Calle Armengual de la Mota",
+        "StateOrProvince": "Andalucía",
+        "Postcode": "29007",
+        "CountryID": 210,
+        "Latitude": 36.71830683863459,
+        "Longitude": -4.428724178894527,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 538478,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 950,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 5,
+            "Comments": "Six Kempower CCS/Chademo Satellite chargers that dynamically share the total power of the cabinet (200 kW). "
+        },
+        {
+            "ID": 538479,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 538480,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 10
+        },
+        {
+            "ID": 538481,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 8,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-07-24T14:58:00Z",
+    "DateCreated": "2024-04-11T06:56:00Z",
+    "SubmissionStatusTypeID": 200
+}

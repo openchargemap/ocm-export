@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-03-04T20:14:00Z",
+    "DateLastVerified": "2024-05-06T18:03:00Z",
     "ID": 160827,
     "UUID": "554C324D-686E-4718-A291-300028F621A5",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,55€/kWh >150kW - 0,49€/kWh >60kW - 0,45€/kWh DC - 0,39€/kWh AC ",
     "AddressInfo": {
         "ID": 161184,
         "Title": "E.S. Bardenas",
@@ -14,8 +14,8 @@
         "Town": "Tudela",
         "StateOrProvince": "Navarra",
         "CountryID": 210,
-        "Latitude": 42.076247575527475,
-        "Longitude": -1.6427705872404204,
+        "Latitude": 42.07595419254679,
+        "Longitude": -1.6431024949816901,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -43,11 +43,35 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 542115,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC300 DC charger allows charging one vehicle at 300kW, or two simultaneous charges at 150kW. (max power is limited for 400V cars)"
+        },
+        {
+            "ID": 542116,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC300 DC charger allows charging one vehicle at 300kW, or two simultaneous charges at 150kW. (max power is limited for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-04T20:14:00Z",
+    "DateLastStatusUpdate": "2024-05-06T18:03:00Z",
     "DateCreated": "2020-06-28T16:05:00Z",
     "SubmissionStatusTypeID": 200
 }

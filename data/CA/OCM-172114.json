@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2021-01-16T06:47:00Z",
+    "DateLastVerified": "2024-09-28T08:12:00Z",
     "ID": 172114,
     "UUID": "9CF3326E-C5DA-4DB8-BAB5-D84B701D29A0",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "55718",
     "UsageTypeID": 4,
-    "UsageCost": "$0.44/min >=60kW; $0.22/min <60kW; other tariffs for older cars",
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app.",
     "AddressInfo": {
         "ID": 172473,
-        "Title": "Bancroft, on Supercharger",
+        "Title": "Tesla/NACS Supercharger - Bancroft",
         "AddressLine1": "341 Hastings Street North",
         "Town": "Bancroft",
         "StateOrProvince": "ON",
@@ -17,6 +17,8 @@
         "CountryID": 44,
         "Latitude": 45.084215,
         "Longitude": -77.861457,
+        "ContactTelephone1": "1-877-798-3752",
+        "RelatedURL": "https://www.tesla.com/NACS",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +27,15 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 8
         }
     ],
     "NumberOfPoints": 8,
-    "GeneralComments": "Charging8 Superchargers, available 24/7, up to 250kW",
+    "GeneralComments": "Supercharger open to non-Tesla EVs covered by NACS agreement. NACS adapter required for EVs with CCS1 charging port. Tesla account and mobile app (Tesla) required for payment (pay-per-use). No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-16T06:47:00Z",
+    "DateLastStatusUpdate": "2024-09-28T08:12:00Z",
     "DateCreated": "2021-01-16T06:47:00Z",
     "SubmissionStatusTypeID": 200
 }

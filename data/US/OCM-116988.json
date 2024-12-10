@@ -119,7 +119,7 @@
             "DateCreated": "2019-02-15T19:13:00Z"
         }
     ],
-    "DateLastVerified": "2020-08-31T03:45:00Z",
+    "DateLastVerified": "2024-03-08T14:12:00Z",
     "ID": 116988,
     "UUID": "E73E2662-C3BC-44DE-A667-E66BD713F9FF",
     "DataProviderID": 1,
@@ -134,8 +134,8 @@
         "StateOrProvince": "NY",
         "Postcode": "14225",
         "CountryID": 2,
-        "Latitude": 42.910451248479,
-        "Longitude": -78.7435400717008,
+        "Latitude": 42.90945866167552,
+        "Longitude": -78.74467341375403,
         "AccessComments": "Two 350kw CCS. Two 150kw CCS.  One 50kw CHAdeMO.",
         "DistanceUnit": 0
     },
@@ -145,26 +145,32 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Quantity": 2
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         },
         {
             "ID": 165603,
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Quantity": 2
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 165604,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-31T03:45:00Z",
+    "DateLastStatusUpdate": "2024-03-08T14:12:00Z",
     "DateCreated": "2019-02-15T19:12:00Z",
     "SubmissionStatusTypeID": 200
 }

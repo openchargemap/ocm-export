@@ -17,13 +17,13 @@
             "DateCreated": "2022-08-28T19:15:00Z"
         }
     ],
-    "DateLastVerified": "2022-10-25T07:40:00Z",
+    "DateLastVerified": "2024-12-07T11:07:00Z",
     "ID": 201362,
     "UUID": "6002E73D-1557-4C33-9D9A-EE054B88782C",
     "DataProviderID": 1,
-    "OperatorID": 3371,
+    "OperatorID": 3571,
     "UsageTypeID": 4,
-    "UsageCost": "0,42€/kWh DC 50kW - 0,38€/kWh AC",
+    "UsageCost": "0,56-0,49€/kWh DC - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 201726,
         "Title": "Hotel Los Olivos",
@@ -42,9 +42,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 400,
+            "Voltage": 900,
+            "PowerKW": 140,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Delta UFC200 Charger. Max power of the charger for both combined outlets 140 kW "
         },
         {
             "ID": 335914,
@@ -57,17 +60,35 @@
         },
         {
             "ID": 335915,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 585432,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 585433,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-25T07:40:00Z",
+    "DateLastStatusUpdate": "2024-12-07T11:07:00Z",
     "DateCreated": "2022-08-28T14:30:00Z",
     "SubmissionStatusTypeID": 200
 }

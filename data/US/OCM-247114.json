@@ -1,50 +1,41 @@
 {
-    "DateLastVerified": "2023-05-01T05:58:00Z",
+    "DateLastVerified": "2024-08-22T18:28:00Z",
     "ID": 247114,
     "UUID": "503946D2-97A6-4872-BD09-A1BF192978A0",
-    "DataProviderID": 2,
-    "DataProvidersReference": "228738",
-    "OperatorID": 15,
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "$0.35/kWh",
     "AddressInfo": {
         "ID": 247498,
-        "Title": "Lee Service Plaza",
+        "Title": "Autel - Lee Service Plaza Westbound",
         "AddressLine1": "Lee Westbound Massachusetts Turnpike",
         "Town": "Lee",
         "StateOrProvince": "MA",
         "Postcode": "01238",
         "CountryID": 2,
-        "Latitude": 42.298432,
-        "Longitude": -73.274941,
-        "ContactTelephone1": "877-455-3833",
+        "Latitude": 42.29811535903974,
+        "Longitude": -73.27501941359537,
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://www.evgo.com/",
+        "RelatedURL": "https://autel.com/us/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 413483,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 413484,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
+            "Amps": 150,
             "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-01T05:58:00Z",
+    "DateLastStatusUpdate": "2024-08-22T18:28:00Z",
     "DateCreated": "2023-03-07T05:40:00Z",
     "SubmissionStatusTypeID": 100
 }

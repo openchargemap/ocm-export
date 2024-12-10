@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-03-25T08:27:00Z",
+    "DateLastVerified": "2024-07-15T23:37:00Z",
     "ID": 192174,
     "UUID": "0AC9FA7C-94EB-496A-92B9-92DF39EF3424",
     "DataProviderID": 1,
     "OperatorID": 3500,
-    "UsageTypeID": 4,
-    "UsageCost": "127.44 + itbis / hr",
+    "UsageTypeID": 1,
+    "UsageCost": "573.48 + itbis / hr",
     "AddressInfo": {
         "ID": 192533,
         "Title": "Texaco Las Palmeras",
@@ -20,18 +20,27 @@
     },
     "Connections": [
         {
-            "ID": 312194,
-            "ConnectionTypeID": 1,
+            "ID": 557272,
+            "ConnectionTypeID": 32,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7,
-            "CurrentTypeID": 10,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 557273,
+            "ConnectionTypeID": 1040,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-03-25T08:27:00Z",
+    "DateLastStatusUpdate": "2024-07-15T23:37:00Z",
     "DateCreated": "2022-03-24T13:17:00Z",
     "SubmissionStatusTypeID": 200
 }

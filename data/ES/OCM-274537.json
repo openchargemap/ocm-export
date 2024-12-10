@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2024-01-27T14:50:00Z",
+    "MediaItems": [
+        {
+            "ID": 43820,
+            "ChargePointID": 274537,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM274537/OCM-274537.orig.2024101114182775.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM274537/OCM-274537.thmb.2024101114182775.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-10-11T14:19:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-10-11T14:21:00Z",
     "ID": 274537,
     "UUID": "F7F89C48-00FD-4E09-9313-06743B40A94D",
     "DataProviderID": 1,
-    "OperatorID": 3371,
+    "OperatorID": 3571,
     "UsageTypeID": 4,
-    "UsageCost": "0,56€/kWh ",
+    "UsageCost": "0.59€/kWh",
     "AddressInfo": {
         "ID": 274921,
         "Title": "Hotel Rest. Tancat de Codorniu",
@@ -25,15 +43,15 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 100,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Freewire Boost charger. Max power for two simultaneous charges 200 kW. Charger with a 160kWh boost battery. Power limited to 50kW when charger battery is low of charge"
+            "Comments": "PowerElectronics NB240 charger (500A peak). Power is split between both outlets. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-27T14:50:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-10-11T14:21:00Z",
     "DateCreated": "2023-09-17T14:19:00Z",
     "SubmissionStatusTypeID": 200
 }

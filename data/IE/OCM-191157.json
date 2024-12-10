@@ -1,10 +1,26 @@
 {
-    "DateLastVerified": "2022-01-22T10:18:00Z",
+    "UserComments": [
+        {
+            "ID": 29938,
+            "ChargePointID": 191157,
+            "CommentTypeID": 10,
+            "UserName": "thommcg",
+            "Comment": "Replaced with ChargePoint units",
+            "DateCreated": "2024-08-18T11:13:24.253Z",
+            "User": {
+                "ID": 15963,
+                "Username": "thommcg"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2024-08-18T11:13:00Z",
     "ID": 191157,
     "UUID": "0BB8C813-371D-4A3B-8F14-05FA64A56E13",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 1,
+    "OperatorID": 5,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 191516,
         "Title": "Kildare Village (New Carpark)",
@@ -21,16 +37,25 @@
         {
             "ID": 310184,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "PowerKW": 7.4,
             "CurrentTypeID": 10,
+            "Quantity": 14
+        },
+        {
+            "ID": 570184,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 14
         }
     ],
     "NumberOfPoints": 14,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-01-22T10:18:00Z",
+    "DateLastStatusUpdate": "2024-08-18T11:13:00Z",
     "DateCreated": "2022-01-22T10:18:00Z",
     "SubmissionStatusTypeID": 200
 }

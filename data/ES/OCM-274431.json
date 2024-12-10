@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-02-04T18:10:00Z",
+    "DateLastVerified": "2024-12-07T19:19:00Z",
     "ID": 274431,
     "UUID": "CF89950D-3A3F-426A-B88D-645E64891901",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh",
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 274815,
         "Title": "Univ. Oviedo Edificio Economía (Zunder)",
@@ -21,17 +21,20 @@
     "Connections": [
         {
             "ID": 475780,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Two Kempower CCS Satellite chargers  that dynamically share the total power of the cabinet (200 kW)."
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-04T18:10:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-12-07T19:19:00Z",
     "DateCreated": "2023-09-11T20:51:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-02-19T06:23:00Z",
+    "DateLastVerified": "2024-11-28T06:23:00Z",
     "ID": 259030,
     "UUID": "CBFE8AFE-D5A8-40C1-8D8B-5FD19F269599",
     "DataProviderID": 1,
@@ -16,7 +16,7 @@
         "CountryID": 1,
         "Latitude": 51.340732,
         "Longitude": 0.608235,
-        "RelatedURL": "https://electrichighway.gridserve.com/medway-westbound",
+        "RelatedURL": "https://electrichighway.gridserve.com/?location=medway-eastbound",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -65,29 +65,9 @@
             "Quantity": 1
         },
         {
-            "ID": 514314,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS11012*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 514315,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS11015*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 514316,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS11010*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
@@ -125,7 +105,17 @@
             "Quantity": 1
         },
         {
-            "ID": 514322,
+            "ID": 533443,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS11252*2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 575096,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS11013*1",
             "StatusTypeID": 50,
@@ -135,7 +125,17 @@
             "Quantity": 1
         },
         {
-            "ID": 514323,
+            "ID": 575097,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS11252*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 575098,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS11011*1",
             "StatusTypeID": 50,
@@ -145,7 +145,49 @@
             "Quantity": 1
         },
         {
-            "ID": 516023,
+            "ID": 575099,
+            "ConnectionTypeID": 25,
+            "Reference": "GB*GRD*EGS11252*3",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 575100,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS11012*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 575101,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS11010*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 583629,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS11018*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 584003,
             "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS11019*1",
             "StatusTypeID": 50,
@@ -155,9 +197,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 13,
+    "NumberOfPoints": 14,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-19T06:23:00Z",
+    "DateLastStatusUpdate": "2024-11-28T06:23:00Z",
     "DateCreated": "2023-03-26T20:00:00Z",
     "SubmissionStatusTypeID": 200
 }

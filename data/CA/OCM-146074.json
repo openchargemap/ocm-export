@@ -1,22 +1,24 @@
 {
-    "DateLastVerified": "2021-01-04T13:37:00Z",
+    "DateLastVerified": "2024-04-29T09:37:00Z",
     "ID": 146074,
     "UUID": "9A0B77F9-A617-422F-9BF1-5DC12B70A959",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "52537",
     "UsageTypeID": 4,
-    "UsageCost": "$0.44/min >=60kW; $0.22/min <60kW; other tariffs for older cars",
+    "UsageCost": "Average $0.60/kWh (Tesla), $0.90/kWh (non-Tesla). Rates are frequently adjusted based on demand. For up-to-date information see Tesla mobile app.",
     "AddressInfo": {
         "ID": 146426,
-        "Title": "Moose Jaw, SK Supercharger",
+        "Title": "Tesla/NACS Supercharger - Moose Jaw",
         "AddressLine1": "1251 Main Street N #7",
         "Town": "Moose Jaw",
         "StateOrProvince": "SK",
         "Postcode": "S6H 6M3",
         "CountryID": 44,
-        "Latitude": 50.404331,
-        "Longitude": -105.534081,
+        "Latitude": 50.40509401366555,
+        "Longitude": -105.5342519781148,
+        "ContactTelephone1": "1-877-798-3752",
+        "RelatedURL": "https://www.tesla.com/NACS",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,15 +27,15 @@
             "ConnectionTypeID": 27,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 6
         }
     ],
     "NumberOfPoints": 6,
-    "GeneralComments": "Charging6 Superchargers, available 24/7, up to 250kW",
+    "GeneralComments": "Supercharger open to non-Tesla EVs covered by NACS agreement ( https://www.tesla.com/NACS ). EVs with CCS1 charging port need an adapter provided by vehicle manufacturer. Tesla account and mobile app (Tesla) required for payment (pay-per-use). Plug & Charge payment option available for some EVs (Ford, Rivian). No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-01-04T13:37:00Z",
+    "DateLastStatusUpdate": "2024-04-29T09:37:00Z",
     "DateCreated": "2019-12-30T21:34:00Z",
     "SubmissionStatusTypeID": 200
 }

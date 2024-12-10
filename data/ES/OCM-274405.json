@@ -1,20 +1,38 @@
 {
-    "DateLastVerified": "2024-01-28T10:57:00Z",
+    "MediaItems": [
+        {
+            "ID": 44117,
+            "ChargePointID": 274405,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM274405/OCM-274405.orig.2024111516193408.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM274405/OCM-274405.thmb.2024111516193408.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-11-15T16:20:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-11-15T16:22:00Z",
     "ID": 274405,
     "UUID": "D0203003-A01F-4710-B477-B6ABB6386919",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 55,
     "UsageTypeID": 5,
-    "UsageCost": "",
+    "UsageCost": "0,65€/kWh",
     "AddressInfo": {
         "ID": 274789,
-        "Title": "E.S. MAcOil, La Paradilla",
+        "Title": "E.S. MAcOil, La Paradilla (eTotem)",
         "AddressLine1": "M-505",
         "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28210",
         "CountryID": 210,
-        "Latitude": 40.56032785542013,
-        "Longitude": -4.244233151406377,
+        "Latitude": 40.56035289913524,
+        "Longitude": -4.244126586963148,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,35 +41,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 500,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 750,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "eTotem e-Twin50 Charger"
-        },
-        {
-            "ID": 475685,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 475686,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "eTotem e-Twin100 Charger. Max current 150A (60kW for 400V cars).  The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW"
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "ETotem",
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-28T10:57:00Z",
+    "DateLastStatusUpdate": "2024-11-15T16:22:00Z",
     "DateCreated": "2023-09-11T13:59:00Z",
     "SubmissionStatusTypeID": 200
 }

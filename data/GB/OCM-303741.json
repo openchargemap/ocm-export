@@ -1,0 +1,91 @@
+{
+    "DateLastVerified": "2024-11-16T06:18:00Z",
+    "ID": 303741,
+    "UUID": "2FD7F684-1B00-4992-B67B-5B0E914D2D5A",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-400026,PG-400039,t54_hu1_4221_004",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh,£0.65/kWh",
+    "AddressInfo": {
+        "ID": 304130,
+        "Title": "Lidl-Alperton",
+        "AddressLine1": "Minavil House",
+        "Town": "Ealing Road",
+        "StateOrProvince": "Wembley",
+        "Postcode": "HA0 4EL",
+        "CountryID": 1,
+        "Latitude": 51.54000211,
+        "Longitude": -0.29951221,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 573431,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-400026",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Sven-Will"
+        },
+        {
+            "ID": 573432,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-400039",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Theo-Dawn"
+        },
+        {
+            "ID": 573433,
+            "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4221_004",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Inri-Joye"
+        },
+        {
+            "ID": 573434,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4221_004",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Inri-Joye"
+        },
+        {
+            "ID": 573435,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4221_004",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Inri-Joye"
+        }
+    ],
+    "NumberOfPoints": 3,
+    "GeneralComments": "This is a Pod point Rapid unit installed at Lidl site at Minavil House, Ealing Road, Wembley",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-16T06:18:00Z",
+    "DateCreated": "2024-09-02T05:18:00Z",
+    "SubmissionStatusTypeID": 200
+}

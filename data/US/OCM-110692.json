@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 29668,
+            "ChargePointID": 110692,
+            "CommentTypeID": 10,
+            "UserName": "Programmin",
+            "Comment": "works",
+            "Rating": 4,
+            "DateCreated": "2024-04-17T03:46:14.97Z",
+            "User": {
+                "ID": 42341,
+                "Username": "Programmin"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 29472,
             "ChargePointID": 110692,
             "CommentTypeID": 10,
@@ -63,10 +78,11 @@
             "DateCreated": "2023-10-14T22:35:00Z"
         }
     ],
-    "DateLastVerified": "2024-01-29T03:10:00Z",
+    "DateLastVerified": "2024-04-17T03:46:00Z",
     "ID": 110692,
     "UUID": "AFD500A8-DCEB-4F14-BC17-C8465623A034",
     "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "UsageCost": "0",
     "AddressInfo": {
@@ -93,13 +109,14 @@
             "Voltage": 230,
             "PowerKW": 6,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 3,
+            "Comments": "Two of these are chargepoint, pay to charge. $2/hr."
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Right in front of the fitness center.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-01-29T03:10:00Z",
+    "DateLastStatusUpdate": "2024-04-17T03:46:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

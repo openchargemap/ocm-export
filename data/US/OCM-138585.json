@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2024-02-20T09:38:00Z",
+    "MediaItems": [
+        {
+            "ID": 41607,
+            "ChargePointID": 138585,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM138585/OCM-138585.orig.2024030101054712.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM138585/OCM-138585.thmb.2024030101054712.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2024-03-01T01:06:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-03-01T01:06:00Z",
     "ID": 138585,
     "UUID": "15CA0987-7FE6-4D75-A36D-1F12D8CBE0C4",
-    "DataProviderID": 2,
-    "DataProvidersReference": "95039",
+    "DataProviderID": 1,
     "OperatorID": 9,
     "UsageTypeID": 1,
+    "UsageCost": "$0.39/kWh for Blink members",
     "AddressInfo": {
         "ID": 138934,
         "Title": "Arizona Inn",
@@ -14,8 +32,8 @@
         "StateOrProvince": "AZ",
         "Postcode": "85719",
         "CountryID": 2,
-        "Latitude": 32.242606,
-        "Longitude": -110.939512,
+        "Latitude": 32.24154429541382,
+        "Longitude": -110.94087455672877,
         "ContactTelephone1": "888-998-2546",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.blinkcharging.com/",
@@ -28,14 +46,15 @@
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 6.7,
             "CurrentTypeID": 10,
-            "Quantity": 3,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": "kW power based on display and actual charging rate"
         }
     ],
+    "GeneralComments": "Street signs say for guests of Arizona Inn only but receptionist said anyone can charge there.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T09:38:00Z",
+    "DateLastStatusUpdate": "2024-03-01T01:06:00Z",
     "DateCreated": "2019-12-24T09:09:00Z",
     "SubmissionStatusTypeID": 100
 }

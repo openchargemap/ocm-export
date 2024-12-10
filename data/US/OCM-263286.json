@@ -1,15 +1,14 @@
 {
-    "DateLastVerified": "2024-02-20T10:35:00Z",
+    "DateLastVerified": "2024-03-09T13:47:00Z",
     "ID": 263286,
     "UUID": "CA299D1F-1625-492D-B537-E4E46041E092",
-    "DataProviderID": 2,
-    "DataProvidersReference": "256135",
+    "DataProviderID": 1,
     "OperatorID": 15,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 263670,
         "Title": "Crosstown Plaza",
-        "AddressLine1": "2330 Watt St",
+        "AddressLine1": "2332 Watt St",
         "Town": "Schenectady",
         "StateOrProvince": "NY",
         "Postcode": "12304",
@@ -25,24 +24,44 @@
         {
             "ID": 446106,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 446107,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
+        },
+        {
+            "ID": 529909,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 529910,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:35:00Z",
+    "DateLastStatusUpdate": "2024-03-09T13:47:00Z",
     "DateCreated": "2023-05-01T06:02:00Z",
     "SubmissionStatusTypeID": 100
 }

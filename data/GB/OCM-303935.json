@@ -1,0 +1,77 @@
+{
+    "DateLastVerified": "2024-11-16T06:22:00Z",
+    "ID": 303935,
+    "UUID": "ED7BC4EB-916C-4E0D-B95D-0A927E9FE1B1",
+    "DataProviderID": 1,
+    "OperatorID": 3,
+    "OperatorsReference": "PG-88042,t54_hu1_4321_007",
+    "UsageTypeID": 4,
+    "UsageCost": "£0.40/kWh,£0.65/kWh",
+    "AddressInfo": {
+        "ID": 304324,
+        "Title": "Lidl-Blairgowrie",
+        "AddressLine1": "Perth Road",
+        "Town": "Blairgowrie",
+        "Postcode": "PH10 6FW",
+        "CountryID": 1,
+        "Latitude": 56.578622,
+        "Longitude": -3.3465251,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 574949,
+            "ConnectionTypeID": 25,
+            "Reference": "PG-88042",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "Emil-Teri"
+        },
+        {
+            "ID": 574950,
+            "ConnectionTypeID": 25,
+            "Reference": "t54_hu1_4321_007",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Yuto-Bain"
+        },
+        {
+            "ID": 574951,
+            "ConnectionTypeID": 33,
+            "Reference": "t54_hu1_4321_007",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Yuto-Bain"
+        },
+        {
+            "ID": 574952,
+            "ConnectionTypeID": 2,
+            "Reference": "t54_hu1_4321_007",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Yuto-Bain"
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "This is a Pod Point charger installed at the Lidl super store at Perth Road, Blairgowrie",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-16T06:22:00Z",
+    "DateCreated": "2024-09-10T05:20:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,24 +1,20 @@
 {
-    "DateLastVerified": "2024-02-20T09:39:00Z",
+    "DateLastVerified": "2024-11-26T10:41:00Z",
     "ID": 281581,
     "UUID": "DB3E0AD4-F243-406F-8E3B-C601FFBA607A",
-    "DataProviderID": 2,
-    "DataProvidersReference": "310673",
+    "DataProviderID": 1,
     "OperatorID": 3526,
-    "UsageTypeID": 2,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 281968,
-        "Title": "City of Calexico",
-        "AddressLine1": "1081 Imperial Ave",
+        "Title": "Calexico City Hall",
+        "AddressLine1": "485 E 5th Street",
         "Town": "Calexico",
-        "StateOrProvince": "CA",
+        "StateOrProvince": "California",
         "Postcode": "92231",
         "CountryID": 2,
-        "Latitude": 32.678097,
-        "Longitude": -115.498659,
-        "ContactTelephone1": "833-387-2643",
-        "AccessComments": "",
-        "RelatedURL": "https://www.evrange.com",
+        "Latitude": 32.671377251119395,
+        "Longitude": -115.49499238627271,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,16 +22,43 @@
             "ID": 489447,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 583664,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 583665,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 583666,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
+    "GeneralComments": "",
     "DatePlanned": "2023-10-13T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-20T09:39:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-11-26T10:41:00Z",
     "DateCreated": "2023-12-04T03:19:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2024-02-20T09:58:00Z",
+    "DateLastVerified": "2024-04-10T15:14:00Z",
     "ID": 222536,
     "UUID": "5B48C2A9-6BF8-4BD6-ABB6-DD4544173D51",
-    "DataProviderID": 2,
-    "DataProvidersReference": "236392",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "MO",
         "Postcode": "63801",
         "CountryID": 2,
-        "Latitude": 36.866986,
-        "Longitude": -89.580018,
+        "Latitude": 36.866997992036154,
+        "Longitude": -89.5800168424142,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -25,17 +24,25 @@
         {
             "ID": 373348,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 19.2,
             "CurrentTypeID": 10,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
+        },
+        {
+            "ID": 538372,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T09:58:00Z",
+    "DateLastStatusUpdate": "2024-04-10T15:14:00Z",
     "DateCreated": "2023-02-13T05:07:00Z",
     "SubmissionStatusTypeID": 100
 }
