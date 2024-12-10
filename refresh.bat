@@ -8,3 +8,7 @@ curl "https://api-01.openchargemap.io/v3/poi?client=ocm-data-export&maxresults=3
 curl "https://api-01.openchargemap.io/v3/referencedata?client=ocm-data-export" --output ./tmp/referencedata.json
 
 node ./tools/parse-all/index.js
+
+ REM git add --all    
+ REM git commit -m "Update data"
+ REM git push
