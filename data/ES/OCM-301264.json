@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2024-07-17T15:21:00Z",
+    "DateLastVerified": "2025-01-31T13:34:00Z",
     "ID": 301264,
     "UUID": "D786F3E8-F20F-407C-BEEC-255231AAA05C",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3809,
     "UsageTypeID": 4,
     "UsageCost": "0,27€/kWh + parking fee",
     "AddressInfo": {
         "ID": 301651,
-        "Title": "Ayunt. Onda Montí",
+        "Title": "Ayunt. Onda. Plaza de Montí",
         "AddressLine1": "Plaza de Montí",
         "AddressLine2": "Urbanización Nueva Onda",
         "Town": "Onda",
@@ -22,17 +22,20 @@
     "Connections": [
         {
             "ID": 562716,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 8
+            "Quantity": 4,
+            "Comments": "Four Dual Type2 chargers: cable (16A) and socket (32A). "
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-17T15:21:00Z",
+    "DateLastStatusUpdate": "2025-01-31T13:34:00Z",
     "DateCreated": "2024-07-17T15:20:00Z",
     "SubmissionStatusTypeID": 200
 }

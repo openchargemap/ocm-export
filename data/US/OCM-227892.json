@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-02-20T10:25:00Z",
+    "DateLastVerified": "2025-06-24T07:45:00Z",
     "ID": 227892,
     "UUID": "A933E847-4E63-40D7-BBCB-EA232218FFF9",
     "DataProviderID": 2,
@@ -18,12 +18,21 @@
         "Longitude": -71.656906,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "http://www.chargepoint.com/",
+        "RelatedURL": "https://www.chargepoint.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 379397,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 770799,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "PowerKW": 50,
@@ -33,7 +42,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:25:00Z",
+    "DateLastStatusUpdate": "2025-06-24T07:45:00Z",
     "DateCreated": "2023-02-13T05:22:00Z",
     "SubmissionStatusTypeID": 100
 }

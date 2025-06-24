@@ -1,5 +1,39 @@
 {
-    "DateLastVerified": "2021-11-05T09:04:00Z",
+    "MediaItems": [
+        {
+            "ID": 45262,
+            "ChargePointID": 189802,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM189802/OCM-189802.orig.2025031315224991.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM189802/OCM-189802.thmb.2025031315224991.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-03-13T15:23:00Z"
+        },
+        {
+            "ID": 45263,
+            "ChargePointID": 189802,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM189802/OCM-189802.orig.2025031315230270.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM189802/OCM-189802.thmb.2025031315230270.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-03-13T15:23:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-03-17T13:41:00Z",
     "ID": 189802,
     "UUID": "3E9BD8BA-79F7-4EAC-841A-B0511E7B4E1B",
     "DataProviderID": 1,
@@ -7,7 +41,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 190161,
-        "Title": "Comfort Charge - Dresden/Trattendorfer Str.",
+        "Title": "Trattendorfer Straße 5",
         "AddressLine1": "Trattendorfer Straße 5",
         "Town": "Dresden",
         "StateOrProvince": "Saxony",
@@ -24,15 +58,17 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 307103,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 307104,
@@ -40,7 +76,8 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 307105,
@@ -48,12 +85,13 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-05T09:04:00Z",
+    "DateLastStatusUpdate": "2025-03-17T13:41:00Z",
     "DateCreated": "2021-11-04T14:58:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,10 @@
 {
-    "DateLastVerified": "2024-02-20T10:32:00Z",
+    "DateLastVerified": "2025-02-01T21:15:00Z",
     "ID": 270017,
     "UUID": "3E0F84BC-65F8-4042-B29C-618207A0A84D",
-    "DataProviderID": 2,
-    "DataProvidersReference": "262364",
+    "DataProviderID": 1,
     "OperatorID": 3696,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 270401,
         "Title": "BP Lathrup Village",
@@ -23,26 +22,21 @@
     },
     "Connections": [
         {
-            "ID": 459669,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 459670,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 240,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:32:00Z",
+    "DateLastStatusUpdate": "2025-02-01T21:15:00Z",
     "DateCreated": "2023-07-04T07:27:00Z",
     "SubmissionStatusTypeID": 100
 }

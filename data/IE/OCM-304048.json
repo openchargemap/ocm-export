@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-11-13T17:59:00Z",
+    "MediaItems": [
+        {
+            "ID": 44494,
+            "ChargePointID": 304048,
+            "ItemURL": "https://media.openchargemap.io/images/IE/OCM304048/OCM-304048.orig.2024122317470490.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IE/OCM304048/OCM-304048.thmb.2024122317470490.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 15963,
+                "Username": "thommcg"
+            },
+            "DateCreated": "2024-12-23T17:47:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-12-23T17:47:00Z",
     "ID": 304048,
     "UUID": "83A7D606-9806-4E09-AD34-79E294BFB65B",
     "DataProviderID": 1,
@@ -13,14 +31,15 @@
         "StateOrProvince": "Co. Cork",
         "Postcode": "",
         "CountryID": 3,
-        "Latitude": 52.34712390389407,
-        "Longitude": -8.675561105738865,
+        "Latitude": 52.34736640053208,
+        "Longitude": -8.675023316436608,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 575830,
             "ConnectionTypeID": 33,
+            "Reference": "CD4MG",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
@@ -30,6 +49,7 @@
         {
             "ID": 575831,
             "ConnectionTypeID": 2,
+            "Reference": "C5G8S",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -37,8 +57,9 @@
             "Quantity": 1
         },
         {
-            "ID": 575832,
+            "ID": 586156,
             "ConnectionTypeID": 33,
+            "Reference": "C5G8S",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -46,9 +67,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-11-13T17:59:00Z",
+    "DateLastStatusUpdate": "2024-12-23T17:47:00Z",
     "DateCreated": "2024-09-13T07:19:00Z",
     "SubmissionStatusTypeID": 200
 }

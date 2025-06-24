@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-12-29T19:03:00Z",
+    "MediaItems": [
+        {
+            "ID": 44454,
+            "ChargePointID": 288375,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM288375/OCM-288375.orig.2024121716061641.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM288375/OCM-288375.thmb.2024121716061641.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-12-17T16:06:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-12-17T18:16:00Z",
     "ID": 288375,
     "UUID": "2B88BD70-EC79-45C5-A266-19A25D04AEE8",
     "DataProviderID": 1,
@@ -28,13 +46,37 @@
             "Voltage": 920,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 6,
+            "Quantity": 4,
             "Comments": "Charging power limited to 200kW for 400V cars"
+        },
+        {
+            "ID": 586011,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 400,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Alpitronic Hypercharger HYC400 DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. (max power limited to 200kW for 400V cars)"
+        },
+        {
+            "ID": 586012,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 400,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Alpitronic Hypercharger HYC400 DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. (max power limited to 200kW for 400V cars)"
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 8,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-12-29T19:03:00Z",
+    "DateLastStatusUpdate": "2024-12-17T18:16:00Z",
     "DateCreated": "2023-12-15T19:10:00Z",
     "SubmissionStatusTypeID": 200
 }

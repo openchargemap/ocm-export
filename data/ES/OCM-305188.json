@@ -1,11 +1,45 @@
 {
-    "DateLastVerified": "2024-10-14T07:24:00Z",
+    "MediaItems": [
+        {
+            "ID": 46864,
+            "ChargePointID": 305188,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM305188/OCM-305188.orig.2025061912572489.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM305188/OCM-305188.thmb.2025061912572489.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-06-19T12:58:00Z"
+        },
+        {
+            "ID": 46863,
+            "ChargePointID": 305188,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM305188/OCM-305188.orig.2025061912281423.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM305188/OCM-305188.thmb.2025061912281423.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-06-19T12:28:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-06-19T17:41:00Z",
     "ID": 305188,
     "UUID": "180875D9-4F3C-4089-940A-1EA9F4E51FF9",
     "DataProviderID": 1,
     "OperatorID": 3588,
     "UsageTypeID": 4,
-    "UsageCost": "0.52€/kWh DC - 0.47€/kWh AC",
+    "UsageCost": "0.67€/kWh ",
     "AddressInfo": {
         "ID": 305577,
         "Title": "Rest. San Fermín (Atlante)",
@@ -22,16 +56,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 400,
-            "Voltage": 900,
-            "PowerKW": 150,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 8,
+            "Comments": "4  Alpitronic Hypercharger HYC300 Chargers. The DC charger allows charging one vehicle at 300kW, or two simultaneous charges at 150kW"
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-10-14T07:24:00Z",
+    "NumberOfPoints": 8,
+    "GeneralComments": "Station equipped with a boost battery. Max Power limited when charger battery is low of charge",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-06-19T17:41:00Z",
     "DateCreated": "2024-10-14T07:24:00Z",
     "SubmissionStatusTypeID": 200
 }

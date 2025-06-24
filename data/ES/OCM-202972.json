@@ -1,5 +1,39 @@
 {
-    "DateLastVerified": "2024-11-15T16:56:00Z",
+    "MediaItems": [
+        {
+            "ID": 45074,
+            "ChargePointID": 202972,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM202972/OCM-202972.orig.2025020915504937.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM202972/OCM-202972.thmb.2025020915504937.jpg",
+            "Comment": "EVSE Techical Data",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53640,
+                "Username": "Enrique"
+            },
+            "DateCreated": "2025-02-09T15:51:00Z"
+        },
+        {
+            "ID": 45073,
+            "ChargePointID": 202972,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM202972/OCM-202972.orig.2025020915495876.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM202972/OCM-202972.thmb.2025020915495876.jpg",
+            "Comment": "Updated EVSE just turned on",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53640,
+                "Username": "Enrique"
+            },
+            "DateCreated": "2025-02-09T15:50:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-05-24T05:50:00Z",
     "ID": 202972,
     "UUID": "E2ED934E-8BE3-4FBA-B5AC-80F9FB06076B",
     "DataProviderID": 1,
@@ -8,7 +42,7 @@
     "UsageCost": "0,47€/kWh",
     "AddressInfo": {
         "ID": 203339,
-        "Title": "Calle de José Luis Velasco",
+        "Title": "Ayunt. Torrelodones. Calle de José Luis Velasco",
         "AddressLine1": "Calle de José Luis Velasco",
         "Town": "Torrelodones",
         "StateOrProvince": "Community of Madrid",
@@ -25,7 +59,7 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 150,
-            "Voltage": 400,
+            "Voltage": 1000,
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 2,
@@ -36,14 +70,16 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-11-15T16:56:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-05-24T05:50:00Z",
     "DateCreated": "2022-09-13T22:16:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,39 @@
 {
-    "DateLastVerified": "2021-11-24T15:55:00Z",
+    "MediaItems": [
+        {
+            "ID": 45632,
+            "ChargePointID": 185355,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM185355/OCM-185355.orig.2025041507505683.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM185355/OCM-185355.thmb.2025041507505683.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-15T07:51:00Z"
+        },
+        {
+            "ID": 45631,
+            "ChargePointID": 185355,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM185355/OCM-185355.orig.2025041507484447.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM185355/OCM-185355.thmb.2025041507484447.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-15T07:49:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-04-28T11:02:00Z",
     "ID": 185355,
     "UUID": "150F1C53-EE0F-4350-85FA-40145A6E130C",
     "DataProviderID": 1,
@@ -7,9 +41,10 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 185714,
-        "Title": "Comfort Charge - Heide",
+        "Title": "Comfortcharge Ladestation",
         "AddressLine1": "Am Kleinbahnhof 26-30",
         "Town": "Heide",
+        "StateOrProvince": "Schleswig-Holstein",
         "Postcode": "25746",
         "CountryID": 87,
         "Latitude": 54.19892,
@@ -23,15 +58,17 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 294742,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 75,
-            "CurrentTypeID": 30
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 294743,
@@ -39,7 +76,8 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 294744,
@@ -47,12 +85,13 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-24T15:55:00Z",
+    "DateLastStatusUpdate": "2025-04-28T11:02:00Z",
     "MetadataValues": [
         {
             "ID": 17646,

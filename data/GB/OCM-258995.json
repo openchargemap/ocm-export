@@ -1,22 +1,24 @@
 {
-    "DateLastVerified": "2024-11-29T06:22:00Z",
+    "DateLastVerified": "2025-04-28T10:59:00Z",
     "ID": 258995,
     "UUID": "FD2551CC-C7CC-4BF6-A790-DF49C1C1DAD5",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "42",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.79/kWh,AC: £0.49/kWh",
+    "UsageCost": "DC (contactless): £0.85/kWh, DC (GRIDSERVE app): £0.79/kWh, AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 259379,
         "Title": "Moto Chieveley Services",
-        "AddressLine1": "Moto Chieveley Services",
-        "Town": "Chieveley",
+        "AddressLine1": "13 Oxford Road",
+        "Town": "Thatcham",
+        "StateOrProvince": "Berkshire",
         "Postcode": "RG18 9XX",
         "CountryID": 1,
-        "Latitude": 51.448921,
-        "Longitude": -1.31031,
-        "RelatedURL": "https://electrichighway.gridserve.com/?location=chieveley-services",
+        "Latitude": 51.44975,
+        "Longitude": -1.31095,
+        "ContactTelephone1": "+44 800 240 4242",
+        "RelatedURL": "https://gridserve.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,6 +28,8 @@
             "Reference": "GB*GRD*EGS10046*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -36,6 +40,8 @@
             "Reference": "GB*GRD*EGS10046*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -46,6 +52,8 @@
             "Reference": "GB*GRD*EGS10048*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -56,6 +64,8 @@
             "Reference": "GB*GRD*EGS10048*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -67,7 +77,7 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 240,
             "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 1
@@ -78,6 +88,8 @@
             "Reference": "GB*GRD*EGS10914*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -88,6 +100,8 @@
             "Reference": "GB*GRD*EGS10571*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -98,6 +112,8 @@
             "Reference": "GB*GRD*EGS10916*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -108,6 +124,8 @@
             "Reference": "GB*GRD*EGS10569*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -118,6 +136,8 @@
             "Reference": "GB*GRD*EGS10568*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -128,42 +148,62 @@
             "Reference": "GB*GRD*EGS10918*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 583647,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10572*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 583649,
-            "ConnectionTypeID": 33,
+            "ID": 593237,
+            "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS10570*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 584004,
+            "ID": 593792,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10917*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 593794,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10915*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 594265,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10915*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 350,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 584005,
+            "ID": 594266,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10913*1",
             "StatusTypeID": 50,
@@ -173,9 +213,9 @@
             "Quantity": 1
         },
         {
-            "ID": 584006,
+            "ID": 594267,
             "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10573*1",
+            "Reference": "GB*GRD*EGS10572*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
@@ -183,19 +223,58 @@
             "Quantity": 1
         },
         {
-            "ID": 584007,
+            "ID": 594268,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10570*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 594269,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10917*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 601141,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10572*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 601142,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10913*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 16,
+    "NumberOfPoints": 21,
+    "GeneralComments": "The GRIDSERVE charging station at Chieveley services provides rapid charging located on the M4. Moto Chieveley is perfect for fast, reliable and convenient EV charging near Newbury.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-11-29T06:22:00Z",
+    "DateLastStatusUpdate": "2025-04-28T10:59:00Z",
     "DateCreated": "2023-03-26T19:33:00Z",
     "SubmissionStatusTypeID": 200
 }

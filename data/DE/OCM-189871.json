@@ -1,5 +1,55 @@
 {
-    "DateLastVerified": "2021-11-09T03:58:00Z",
+    "MediaItems": [
+        {
+            "ID": 45660,
+            "ChargePointID": 189871,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM189871/OCM-189871.orig.2025041510175283.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM189871/OCM-189871.thmb.2025041510175283.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-15T10:18:00Z"
+        },
+        {
+            "ID": 45661,
+            "ChargePointID": 189871,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM189871/OCM-189871.orig.2025041510180524.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM189871/OCM-189871.thmb.2025041510180524.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-15T10:18:00Z"
+        },
+        {
+            "ID": 45662,
+            "ChargePointID": 189871,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM189871/OCM-189871.orig.2025041510181790.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM189871/OCM-189871.thmb.2025041510181790.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-15T10:18:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-04-28T10:59:00Z",
     "ID": 189871,
     "UUID": "AAFFEDB7-6657-4698-9979-C029198DDB48",
     "DataProviderID": 1,
@@ -7,7 +57,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 190230,
-        "Title": "Comfort Charge - Radeberg",
+        "Title": "Comfortcharge Ladestation",
         "AddressLine1": "Dresdener Straße 40",
         "Town": "Radeberg",
         "StateOrProvince": "Saxony",
@@ -23,8 +73,9 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30
+            "PowerKW": 65,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 307317,
@@ -32,7 +83,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 307318,
@@ -40,7 +92,8 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 307319,
@@ -48,12 +101,13 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-09T03:58:00Z",
+    "DateLastStatusUpdate": "2025-04-28T10:59:00Z",
     "DateCreated": "2021-11-08T09:21:00Z",
     "SubmissionStatusTypeID": 200
 }

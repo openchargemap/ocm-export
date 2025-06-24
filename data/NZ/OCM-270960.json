@@ -1,11 +1,61 @@
 {
-    "DateLastVerified": "2023-08-25T04:34:00Z",
+    "MediaItems": [
+        {
+            "ID": 45168,
+            "ChargePointID": 270960,
+            "ItemURL": "https://media.openchargemap.io/images/NZ/OCM270960/OCM-270960.orig.2025022823215012.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/NZ/OCM270960/OCM-270960.thmb.2025022823215012.jpg",
+            "Comment": "A couple of cars charging early on Saturday morning",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 55738,
+                "Username": "billybuckwheat"
+            },
+            "DateCreated": "2025-02-28T23:22:00Z"
+        },
+        {
+            "ID": 45167,
+            "ChargePointID": 270960,
+            "ItemURL": "https://media.openchargemap.io/images/NZ/OCM270960/OCM-270960.orig.2025022823211717.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/NZ/OCM270960/OCM-270960.thmb.2025022823211717.jpg",
+            "Comment": "New 200 kwH charger",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 55738,
+                "Username": "billybuckwheat"
+            },
+            "DateCreated": "2025-02-28T23:21:00Z"
+        },
+        {
+            "ID": 45135,
+            "ChargePointID": 270960,
+            "ItemURL": "https://media.openchargemap.io/images/NZ/OCM270960/OCM-270960.orig.2025022120152478.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/NZ/OCM270960/OCM-270960.thmb.2025022120152478.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 55738,
+                "Username": "billybuckwheat"
+            },
+            "DateCreated": "2025-02-21T20:16:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-02-28T23:22:00Z",
     "ID": 270960,
     "UUID": "B528B7E6-021B-44E0-8A21-1291BE95E31C",
     "DataProviderID": 1,
     "OperatorID": 229,
     "UsageTypeID": 4,
-    "UsageCost": "$0.80/kWh",
+    "UsageCost": "$0.85/kWh",
     "AddressInfo": {
         "ID": 271344,
         "Title": "New World Durham Street",
@@ -17,18 +67,21 @@
         "CountryID": 161,
         "Latitude": -43.53976075607964,
         "Longitude": 172.63338149490784,
+        "AccessComments": "In the parking lot at the New World supermarket on the Moorhouse Avenue side",
+        "RelatedURL": "https://charge.net.nz",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 461213,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "Reference": "DURH2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 25,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Upgraded to 200kW in February, 2025"
         },
         {
             "ID": 461214,
@@ -36,9 +89,10 @@
             "Reference": "DURH2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 25,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Upgraded to 200kW in February, 2025"
         },
         {
             "ID": 461215,
@@ -46,9 +100,10 @@
             "Reference": "DURH3-A",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 63,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Only one CHAdeMO connector available after site upgrade in February, 2025"
         },
         {
             "ID": 461216,
@@ -56,14 +111,16 @@
             "Reference": "DURH3-B",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 75,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Upgraded to 200kW in February, 2025"
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "Chargers upgraded in February, 2025",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-08-25T04:34:00Z",
+    "DateLastStatusUpdate": "2025-02-28T23:22:00Z",
     "DateCreated": "2023-07-08T01:20:00Z",
     "SubmissionStatusTypeID": 200
 }

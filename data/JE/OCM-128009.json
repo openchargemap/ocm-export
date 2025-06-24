@@ -1,29 +1,32 @@
 {
-    "DateLastVerified": "2020-06-03T05:13:00Z",
+    "DateLastVerified": "2025-01-06T17:11:00Z",
     "ID": 128009,
     "UUID": "12193BCC-D7AB-4808-AD09-54871E4BA411",
     "DataProviderID": 1,
-    "OperatorID": 20,
+    "OperatorID": 3288,
     "OperatorsReference": "80885",
     "UsageTypeID": 4,
-    "UsageCost": "25p per kWh, with a minimum charge of £2;Overstay charge of £5 if charging session goes over 1 hour",
+    "UsageCost": "07:00-23:59: 24p / kWh,  00:00-06:59: 12p / kWh",
     "AddressInfo": {
         "ID": 128355,
-        "Title": "Evolve Rapid At the Powerhouse",
-        "AddressLine1": "Jersey Electric",
-        "Town": "Queens Road",
-        "StateOrProvince": "St Helier",
+        "Title": "The Powerhouse - rapid chargers",
+        "AddressLine1": "JEC - The Powerhouse",
+        "AddressLine2": "Queens Road",
+        "Town": "St Helier",
+        "StateOrProvince": "",
         "Postcode": "JE4 8NY",
         "CountryID": 115,
         "Latitude": 49.1999675766926,
         "Longitude": -2.11373877546316,
+        "ContactTelephone1": "+44 1534 505238",
+        "RelatedURL": "https://www.evolve.je/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 179132,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 30,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -32,7 +35,7 @@
         {
             "ID": 179133,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 30,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -41,16 +44,26 @@
         {
             "ID": 179134,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 587006,
+            "ConnectionTypeID": 33,
+            "Reference": "219867, 219868",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-06-03T05:13:00Z",
+    "DateLastStatusUpdate": "2025-01-06T17:11:00Z",
     "DateCreated": "2019-06-12T14:41:00Z",
     "SubmissionStatusTypeID": 200
 }

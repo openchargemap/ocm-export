@@ -1,18 +1,36 @@
 {
-    "DateLastVerified": "2023-03-20T06:20:00Z",
+    "UserComments": [
+        {
+            "ID": 30467,
+            "ChargePointID": 257290,
+            "CommentTypeID": 10,
+            "UserName": "Elio",
+            "Comment": "Very good charger located in the parking of a Pingo Doce Supermarket (which has a coffee place/canteen too). I successfully charged a Renault Zoe at 22kW with the Type II connector while other cars successfully charged using the CCS.  I could activate it with both the miio and the Atlante app.",
+            "Rating": 5,
+            "DateCreated": "2025-04-30T20:17:29.03Z",
+            "User": {
+                "ID": 34336,
+                "Username": "Elio"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2025-05-03T20:19:00Z",
     "ID": 257290,
     "UUID": "FE211B18-0505-43B3-BC1B-94A0B2DD3610",
-    "DataProviderID": 7,
-    "DataProvidersReference": "FAR-00035",
+    "DataProviderID": 1,
+    "OperatorID": 3588,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 257674,
-        "Title": "N125 10,",
+        "Title": "Pingo Doce",
         "AddressLine1": "N125 10,",
         "Town": "Faro",
         "Postcode": "8005-146",
         "CountryID": 180,
-        "Latitude": 37.0276289,
-        "Longitude": -7.9679667,
+        "Latitude": 37.02753117777735,
+        "Longitude": -7.968308661979506,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -40,18 +58,18 @@
         },
         {
             "ID": 429244,
-            "ConnectionTypeID": 25,
-            "Reference": "FAR-00035-01-01",
+            "ConnectionTypeID": 1036,
+            "Reference": "FAR-00039",
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 400,
-            "PowerKW": 11,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-20T06:20:00Z",
+    "DateLastStatusUpdate": "2025-05-03T20:19:00Z",
     "DateCreated": "2023-03-20T06:20:00Z",
     "SubmissionStatusTypeID": 200
 }

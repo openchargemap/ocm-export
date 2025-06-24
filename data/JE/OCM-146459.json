@@ -1,38 +1,43 @@
 {
-    "DateLastVerified": "2020-01-10T09:56:00Z",
+    "DateLastVerified": "2025-01-06T17:10:00Z",
     "ID": 146459,
     "UUID": "90D753B2-B87D-40C6-9E3A-6B399485B440",
     "DataProviderID": 1,
-    "OperatorID": 20,
+    "OperatorID": 3288,
     "OperatorsReference": "CM12775",
-    "UsageTypeID": 4,
-    "UsageCost": "07:00-23:59 £0.21/kWh min £2.00;00:00-06:59 £0.11/kWh min £2.00",
+    "UsageTypeID": 1,
+    "UsageCost": "07:00-23:59: 24p / kWh,  00:00-06:59: 12p / kWh",
     "AddressInfo": {
         "ID": 146811,
-        "Title": "Evolve 1 Co-Op en Route, St Peters",
-        "AddressLine1": "Evolve 1 Co",
+        "Title": "Co-op En Route - St Peter",
+        "AddressLine1": "Co-op En Route",
+        "AddressLine2": "La Route de Beaumont",
+        "Town": "St Peter",
         "Postcode": "JE3 7AG",
         "CountryID": 115,
         "Latitude": 49.2106,
         "Longitude": -2.1789,
+        "ContactTelephone1": "+44 1534 505238",
+        "RelatedURL": "https://www.evolve.je/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 203628,
             "ConnectionTypeID": 25,
+            "Reference": "156670, 156671, 156672, 156673",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-10T09:56:00Z",
+    "DateLastStatusUpdate": "2025-01-06T17:10:00Z",
     "DateCreated": "2020-01-10T09:56:00Z",
     "SubmissionStatusTypeID": 200
 }

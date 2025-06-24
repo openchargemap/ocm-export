@@ -1,5 +1,55 @@
 {
-    "DateLastVerified": "2021-12-17T13:57:00Z",
+    "MediaItems": [
+        {
+            "ID": 45612,
+            "ChargePointID": 180147,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM180147/OCM-180147.orig.2025041408042825.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM180147/OCM-180147.thmb.2025041408042825.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-14T08:05:00Z"
+        },
+        {
+            "ID": 45613,
+            "ChargePointID": 180147,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM180147/OCM-180147.orig.2025041408044127.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM180147/OCM-180147.thmb.2025041408044127.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-14T08:05:00Z"
+        },
+        {
+            "ID": 45611,
+            "ChargePointID": 180147,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM180147/OCM-180147.orig.2025041408040754.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM180147/OCM-180147.thmb.2025041408040754.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-14T08:04:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-04-14T08:05:00Z",
     "ID": 180147,
     "UUID": "55C19AFA-C138-433F-9C19-B3131E87A9CA",
     "DataProviderID": 1,
@@ -7,8 +57,8 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 180506,
-        "Title": "Comfort Charge - Freiberg",
-        "AddressLine1": "Franz-Kögler-Ring 18h",
+        "Title": "Comfortcharge Ladestation",
+        "AddressLine1": "Franz-Kögler-Ring 18H",
         "Town": "Freiberg",
         "Postcode": "09599",
         "CountryID": 87,
@@ -23,15 +73,17 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 282872,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 75,
-            "CurrentTypeID": 30
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 298435,
@@ -39,12 +91,13 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-17T13:57:00Z",
+    "DateLastStatusUpdate": "2025-04-14T08:05:00Z",
     "MetadataValues": [
         {
             "ID": 12441,

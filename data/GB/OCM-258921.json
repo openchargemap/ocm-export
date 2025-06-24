@@ -1,21 +1,24 @@
 {
-    "DateLastVerified": "2023-11-30T09:53:00Z",
+    "DateLastVerified": "2025-04-28T10:59:00Z",
     "ID": 258921,
     "UUID": "316469E0-7D57-4D7C-9F95-C3EF9486ABF9",
     "DataProviderID": 1,
-    "OperatorID": 24,
+    "OperatorID": 3430,
     "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.79/kWh",
+    "UsageCost": "DC (contactless): £0.85/kWh, DC (GRIDSERVE app): £0.79/kWh, AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 259305,
         "Title": "Welcome Break Michaelwood Northbound Services",
-        "AddressLine1": "Welcome Break Michaelwood Northbound Services",
+        "AddressLine1": "M5\tMotorway Northbound, Jct 11A/12",
+        "Town": "Lower Wick",
+        "StateOrProvince": "Dursley",
         "Postcode": "GL11 6DD",
         "CountryID": 1,
         "Latitude": 51.656476,
         "Longitude": -2.431358,
-        "RelatedURL": "https://electrichighway.gridserve.com/michaelwood-northbound-services",
+        "ContactTelephone1": "+44 800 240 4242",
+        "RelatedURL": "http://gridserve.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,6 +28,8 @@
             "Reference": "GB*GRD*EGS10218*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -35,6 +40,8 @@
             "Reference": "GB*GRD*EGS10218*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -45,6 +52,8 @@
             "Reference": "GB*GRD*EGS10219*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -55,6 +64,8 @@
             "Reference": "GB*GRD*EGS10219*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -66,7 +77,7 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 230,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
@@ -78,7 +89,7 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 230,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
@@ -86,7 +97,7 @@
     ],
     "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-30T09:53:00Z",
+    "DateLastStatusUpdate": "2025-04-28T10:59:00Z",
     "DateCreated": "2023-03-26T14:51:00Z",
     "SubmissionStatusTypeID": 200
 }

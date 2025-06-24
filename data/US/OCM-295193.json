@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-02-20T10:43:00Z",
+    "DateLastVerified": "2025-06-24T08:02:00Z",
     "ID": 295193,
     "UUID": "FC8CB482-A49A-4045-8EE8-3947B0B0D605",
     "DataProviderID": 2,
@@ -8,17 +8,17 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 295580,
-        "Title": "Kendall Ford of Eugene",
+        "Title": "Kendall Ford",
         "AddressLine1": "344 Goodpasture Island Road",
         "Town": "Eugene",
         "StateOrProvince": "OR",
         "Postcode": "97401",
         "CountryID": 2,
-        "Latitude": 44.072761,
-        "Longitude": -123.107241,
+        "Latitude": 44.07377778684261,
+        "Longitude": -123.1068175034481,
         "ContactTelephone1": "888-998-2546",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "http://www.blinkcharging.com/",
+        "RelatedURL": "https://blinkcharging.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,12 +30,21 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 2,
+            "Quantity": 4,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 771234,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:43:00Z",
+    "DateLastStatusUpdate": "2025-06-24T08:02:00Z",
     "DateCreated": "2024-02-20T10:43:00Z",
     "SubmissionStatusTypeID": 100
 }

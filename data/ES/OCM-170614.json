@@ -18,6 +18,22 @@
     ],
     "MediaItems": [
         {
+            "ID": 46115,
+            "ChargePointID": 170614,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM170614/OCM-170614.orig.2025051310291502.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM170614/OCM-170614.thmb.2025051310291502.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-05-13T10:29:00Z"
+        },
+        {
             "ID": 25760,
             "ChargePointID": 170614,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM170614/OCM-170614.orig.2020120909071984.jpg",
@@ -34,16 +50,16 @@
             "DateCreated": "2020-12-09T09:07:00Z"
         }
     ],
-    "DateLastVerified": "2023-05-28T14:19:00Z",
+    "DateLastVerified": "2025-05-13T10:29:00Z",
     "ID": 170614,
     "UUID": "1E10D62B-342E-4C23-AC2E-36087EBF06FB",
     "DataProviderID": 1,
     "OperatorID": 3459,
-    "UsageTypeID": 1,
-    "UsageCost": "0.41€/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "0.43€/kWh",
     "AddressInfo": {
         "ID": 170973,
-        "Title": "Calle las Barracas",
+        "Title": "Hotel Bersoca (Acciona)",
         "AddressLine1": "Calle las Barracas",
         "Town": "Benicasim/Benicàssim",
         "StateOrProvince": "Valencian Community",
@@ -63,17 +79,21 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 900,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Power electronics NB120 Charger"
+            "Comments": "Power Electronics NB60 Charger"
         },
         {
             "ID": 260478,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -88,9 +108,9 @@
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "",
+    "GeneralComments": "Behind a closed gate, go to the app to get access code",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-28T14:19:00Z",
+    "DateLastStatusUpdate": "2025-05-13T10:29:00Z",
     "DateCreated": "2020-12-03T12:49:00Z",
     "SubmissionStatusTypeID": 200
 }

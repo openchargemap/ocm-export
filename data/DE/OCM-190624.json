@@ -1,5 +1,39 @@
 {
-    "DateLastVerified": "2021-12-17T09:16:00Z",
+    "MediaItems": [
+        {
+            "ID": 45674,
+            "ChargePointID": 190624,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190624/OCM-190624.orig.2025041511564856.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190624/OCM-190624.thmb.2025041511564856.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-15T11:57:00Z"
+        },
+        {
+            "ID": 45675,
+            "ChargePointID": 190624,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190624/OCM-190624.orig.2025041511570065.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190624/OCM-190624.thmb.2025041511570065.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-15T11:57:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-04-28T11:06:00Z",
     "ID": 190624,
     "UUID": "603DD7D2-A83C-4862-A6B4-531707E7862C",
     "DataProviderID": 1,
@@ -7,7 +41,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 190983,
-        "Title": "Comfort Charge - Hamburg/Langenfelder Straße",
+        "Title": "Comfortcharge Ladestation",
         "AddressLine1": "Langenfelder Straße 122",
         "Town": "Hamburg",
         "StateOrProvince": "Hamburg",
@@ -24,15 +58,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 100,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 309070,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 309071,
@@ -40,7 +67,8 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 309072,
@@ -49,12 +77,21 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 601197,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 49,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 5,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-17T09:16:00Z",
+    "DateLastStatusUpdate": "2025-04-28T11:06:00Z",
     "DateCreated": "2021-12-15T09:31:00Z",
     "SubmissionStatusTypeID": 200
 }

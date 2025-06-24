@@ -16,14 +16,14 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2024-02-13T06:45:00Z",
+    "DateLastVerified": "2025-04-28T10:59:00Z",
     "ID": 95023,
     "UUID": "DDECEAE9-9B4C-4239-97B7-56A024AD82AF",
     "DataProviderID": 1,
-    "OperatorID": 24,
+    "OperatorID": 3430,
     "OperatorsReference": "GB*GRD*EGS10230*1,GB*GRD*EGS10230*2,GB*GRD*ETACW2241121T1286*1,GB*GRD*ETACW2243920T0431*1",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.79/kWh,AC: £0.49/kWh",
+    "UsageCost": "DC (contactless): £0.85/kWh, DC (GRIDSERVE app): £0.79/kWh, AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 95369,
         "Title": "Roadchef Sutton Scotney Services Northbound",
@@ -33,9 +33,10 @@
         "StateOrProvince": "Hampshire",
         "Postcode": "SO21 3JY",
         "CountryID": 1,
-        "Latitude": 51.1564625510961,
-        "Longitude": -1.34637813757332,
-        "RelatedURL": "https://electrichighway.gridserve.com/sutton-scotney-northbound-services",
+        "Latitude": 51.156913,
+        "Longitude": -1.346844,
+        "ContactTelephone1": "08002404242",
+        "RelatedURL": "http://gridserve.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -45,6 +46,8 @@
             "Reference": "GB*GRD*EGS10230*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
             "PowerKW": 40,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -55,6 +58,8 @@
             "Reference": "GB*GRD*EGS10230*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 40,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -66,7 +71,7 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 240,
             "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 1
@@ -78,15 +83,15 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 240,
             "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-13T06:45:00Z",
+    "DateLastStatusUpdate": "2025-04-28T10:59:00Z",
     "DateCreated": "2017-11-01T09:10:00Z",
     "SubmissionStatusTypeID": 200
 }

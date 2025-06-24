@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-09-09T08:05:00Z",
+    "DateLastVerified": "2025-05-13T19:09:00Z",
     "ID": 296092,
     "UUID": "D3975DDC-8868-4D17-ACF7-4BDB5941CCBD",
     "DataProviderID": 1,
@@ -14,8 +14,8 @@
         "StateOrProvince": "Co. Westmeath",
         "Postcode": "",
         "CountryID": 3,
-        "Latitude": 53.5194638402663,
-        "Longitude": -7.28916014214596,
+        "Latitude": 53.51947934734363,
+        "Longitude": -7.289921804689868,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -33,14 +33,27 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 100,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 586605,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "Quantity": 4
+        },
+        {
+            "ID": 586606,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 150,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-09-09T08:05:00Z",
+    "DateLastStatusUpdate": "2025-05-13T19:09:00Z",
     "DateCreated": "2024-03-05T10:04:00Z",
     "SubmissionStatusTypeID": 200
 }

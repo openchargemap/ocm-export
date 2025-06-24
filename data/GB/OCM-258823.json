@@ -1,21 +1,25 @@
 {
-    "DateLastVerified": "2024-11-15T06:17:00Z",
+    "DateLastVerified": "2025-04-28T10:59:00Z",
     "ID": 258823,
     "UUID": "44254090-5BE4-4FC1-8658-DBD1762964CD",
     "DataProviderID": 1,
-    "OperatorID": 24,
+    "OperatorID": 3430,
     "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.79/kWh",
+    "UsageCost": "DC (contactless): £0.85/kWh, DC (GRIDSERVE app): £0.79/kWh",
     "AddressInfo": {
         "ID": 259207,
         "Title": "Welcome Break Abington Services",
-        "AddressLine1": "Welcome Break Abington Services",
+        "AddressLine1": "M74 Motorway",
+        "AddressLine2": "Jct 13, Biggar",
+        "Town": "Abington",
+        "StateOrProvince": "South Lanarkshire",
         "Postcode": "ML12 6RG",
         "CountryID": 1,
         "Latitude": 55.507667,
         "Longitude": -3.695574,
-        "RelatedURL": "https://electrichighway.gridserve.com/?location=abington-services",
+        "ContactTelephone1": "+44 800 240 4242",
+        "RelatedURL": "https://gridserve.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,6 +29,8 @@
             "Reference": "GB*GRD*EGS10118*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 45,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -35,6 +41,8 @@
             "Reference": "GB*GRD*EGS10118*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -45,6 +53,8 @@
             "Reference": "GB*GRD*EGS10238*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 45,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -55,6 +65,8 @@
             "Reference": "GB*GRD*EGS10238*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -66,7 +78,7 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 230,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
@@ -78,15 +90,16 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 230,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "The GRIDSERVE charging station at Abingdon services provides rapid charging located on the M74. Welcome Break Abingdon is perfect for fast, reliable and convenient EV charging near Abingdon.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-11-15T06:17:00Z",
+    "DateLastStatusUpdate": "2025-04-28T10:59:00Z",
     "DateCreated": "2023-03-26T14:50:00Z",
     "SubmissionStatusTypeID": 200
 }

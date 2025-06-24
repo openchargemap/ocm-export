@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-11-29T20:13:00Z",
+    "MediaItems": [
+        {
+            "ID": 46745,
+            "ChargePointID": 306637,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM306637/OCM-306637.orig.2025061115264812.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM306637/OCM-306637.thmb.2025061115264812.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-06-11T15:27:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-06-11T15:27:00Z",
     "ID": 306637,
     "UUID": "D4D18744-D189-4B12-A718-A4DB6E27FFF7",
     "DataProviderID": 1,
@@ -25,15 +43,26 @@
             "LevelID": 3,
             "Amps": 375,
             "Voltage": 920,
-            "PowerKW": 150,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "W Elli Flexpole charger. Max power for two simultaneous charges 250 kW. Charger with a 190kWh boost battery. Power limited to 50kW when charger battery is low of charge"
+            "Comments": "Hypercharger HYC300 DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW. (max power is limited for 400V cars)"
+        },
+        {
+            "ID": 586945,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-11-29T20:13:00Z",
+    "DateLastStatusUpdate": "2025-06-11T15:27:00Z",
     "DateCreated": "2024-11-29T20:12:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 30574,
+            "ChargePointID": 46743,
+            "CommentTypeID": 10,
+            "UserName": "Celso Azevedo",
+            "Comment": "Changed from BP » Charge London » Total Energies. Can use Electroverse/Shell Recharge/Zapmap to pay.",
+            "DateCreated": "2025-06-14T18:44:21.44Z",
+            "User": {
+                "ID": 36388,
+                "Username": "Celso Azevedo"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 8066,
             "ChargePointID": 46743,
             "CommentTypeID": 10,
@@ -31,6 +45,54 @@
     ],
     "MediaItems": [
         {
+            "ID": 46831,
+            "ChargePointID": 46743,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM46743/OCM-46743.orig.2025061418353137.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM46743/OCM-46743.thmb.2025061418353137.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36388,
+                "Username": "Celso Azevedo"
+            },
+            "DateCreated": "2025-06-14T18:36:00Z"
+        },
+        {
+            "ID": 46832,
+            "ChargePointID": 46743,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM46743/OCM-46743.orig.2025061418353919.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM46743/OCM-46743.thmb.2025061418353919.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36388,
+                "Username": "Celso Azevedo"
+            },
+            "DateCreated": "2025-06-14T18:36:00Z"
+        },
+        {
+            "ID": 46830,
+            "ChargePointID": 46743,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM46743/OCM-46743.orig.2025061418352221.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM46743/OCM-46743.thmb.2025061418352221.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36388,
+                "Username": "Celso Azevedo"
+            },
+            "DateCreated": "2025-06-14T18:35:00Z"
+        },
+        {
             "ID": 3501,
             "ChargePointID": 46743,
             "ItemURL": "https://media.openchargemap.io/images/GB/OCM46743/OCM-46743.orig.2015111514394994.jpeg",
@@ -47,14 +109,14 @@
             "DateCreated": "2015-11-15T14:40:00Z"
         }
     ],
-    "DateLastVerified": "2023-04-03T16:57:00Z",
+    "DateLastVerified": "2025-06-14T18:44:00Z",
     "ID": 46743,
     "UUID": "9A86746E-20E6-4790-882A-FE201F3F070A",
     "DataProviderID": 1,
-    "OperatorID": 32,
+    "OperatorID": 25,
     "OperatorsReference": "1274",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.59/kWh; other tariffs available",
+    "UsageTypeID": 5,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 47089,
         "Title": "Southampton Street",
@@ -70,32 +132,30 @@
     },
     "Connections": [
         {
-            "ID": 57420,
+            "ID": 604366,
             "ConnectionTypeID": 25,
+            "Reference": "002504",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 4,
-            "CurrentTypeID": 10,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
-            "ID": 57421,
-            "ConnectionTypeID": 3,
+            "ID": 604367,
+            "ConnectionTypeID": 25,
+            "Reference": "002505",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 13,
-            "Voltage": 230,
-            "PowerKW": 3,
-            "CurrentTypeID": 10,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Chargemaster post.  One bay, two outlets, and charge post at far end of bay from other bays.",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-03T16:57:00Z",
+    "DateLastStatusUpdate": "2025-06-14T18:44:00Z",
     "DateCreated": "2015-05-05T12:09:00Z",
     "SubmissionStatusTypeID": 200
 }

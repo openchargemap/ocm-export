@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2024-02-20T09:40:00Z",
+    "DateLastVerified": "2025-03-29T03:34:00Z",
     "ID": 219110,
     "UUID": "FD47EDB4-3CFA-41B7-879E-305B52DED584",
-    "DataProviderID": 2,
-    "DataProvidersReference": "227651",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "Level 2 Free, Level 3 $0.46/kWh Idle Fee $24/hr 15mins after charged.",
     "AddressInfo": {
         "ID": 219493,
-        "Title": "SANDERSVILLE DOWNTOWN 2",
+        "Title": "SANDERSVILLE DOWNTOWN",
         "AddressLine1": "131 S Harris St",
         "Town": "Sandersville",
         "StateOrProvince": "GA",
@@ -25,17 +25,33 @@
         {
             "ID": 369476,
             "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Amps": 28,
+            "Voltage": 240,
+            "PowerKW": 6.6,
             "CurrentTypeID": 10,
-            "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
+        },
+        {
+            "ID": 600111,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 600112,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T09:40:00Z",
+    "DateLastStatusUpdate": "2025-03-29T03:34:00Z",
     "DateCreated": "2023-02-13T04:57:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,13 +1,13 @@
 {
-    "DateLastVerified": "2024-10-26T12:55:00Z",
+    "DateLastVerified": "2025-02-01T12:35:00Z",
     "ID": 305686,
     "UUID": "7F136932-B6CD-496F-8E86-AC48D1A6119A",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3720,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 306075,
-        "Title": "Q8 Area di servizio Colceresa Nord",
+        "Title": "EWIVA Area di servizio Colceresa Nord",
         "AddressLine1": "Area di servizio Colceresa Nord",
         "Town": "Colceresa",
         "StateOrProvince": "Veneto",
@@ -15,6 +15,7 @@
         "CountryID": 112,
         "Latitude": 45.71230097468964,
         "Longitude": 11.631426280594496,
+        "RelatedURL": "https://nextcharge.app/map?lang=it&station=OCPI-130-23BZ0919B_190cud17zrq",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,11 +27,22 @@
             "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 4
+        },
+        {
+            "ID": 591592,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-10-26T12:55:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-02-01T12:35:00Z",
     "DateCreated": "2024-10-26T12:55:00Z",
     "SubmissionStatusTypeID": 200
 }

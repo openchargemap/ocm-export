@@ -1,29 +1,40 @@
 {
-    "DateLastVerified": "2024-02-20T09:48:00Z",
+    "DateLastVerified": "2025-06-24T07:09:00Z",
     "ID": 241239,
     "UUID": "129570F8-ABBB-43D1-9E76-5F76F20DD992",
     "DataProviderID": 2,
     "DataProvidersReference": "253285",
     "OperatorID": 3542,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 241623,
-        "Title": "Cal State Los Angeles - Parking Structure B",
+        "Title": "CSULA Parking Structure B",
         "AddressLine1": "5151 State University Dr",
         "Town": "Los Angeles",
         "StateOrProvince": "CA",
         "Postcode": "90032",
         "CountryID": 2,
-        "Latitude": 34.0645448462593,
-        "Longitude": -118.17035756963,
-        "ContactTelephone1": "866-300-3827",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
-        "RelatedURL": "https://evcs.com",
+        "Latitude": 34.065661,
+        "Longitude": -118.170189,
+        "ContactTelephone1": "1-866-300-3827",
+        "AccessComments": "",
+        "RelatedURL": "https://www.evcs.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 397262,
+            "ConnectionTypeID": 30,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 397263,
             "ConnectionTypeID": 2,
             "LevelID": 3,
             "PowerKW": 50,
@@ -32,8 +43,17 @@
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
-            "ID": 397263,
+            "ID": 770480,
             "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 770481,
+            "ConnectionTypeID": 27,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -42,7 +62,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T09:48:00Z",
+    "DateLastStatusUpdate": "2025-06-24T07:09:00Z",
     "DateCreated": "2023-03-07T03:37:00Z",
     "SubmissionStatusTypeID": 100
 }

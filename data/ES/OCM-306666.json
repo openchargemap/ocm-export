@@ -15,16 +15,34 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2024-12-08T01:49:00Z",
+    "MediaItems": [
+        {
+            "ID": 46015,
+            "ChargePointID": 306666,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM306666/OCM-306666.orig.2025051220075626.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM306666/OCM-306666.thmb.2025051220075626.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-05-12T20:08:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-05-12T20:08:00Z",
     "ID": 306666,
     "UUID": "4D95B032-3FD5-4EC2-8870-6028AF54D5D8",
     "DataProviderID": 1,
     "OperatorID": 3459,
-    "UsageTypeID": 1,
-    "UsageCost": "0.086",
+    "UsageTypeID": 4,
+    "UsageCost": "0,48€/kwh",
     "AddressInfo": {
         "ID": 307055,
-        "Title": "Ayuntamiento ",
+        "Title": "Ayunt. el Perdigón ",
         "AddressLine1": "Travesía Ayuntamiento ",
         "AddressLine2": "18",
         "Town": "El Perdigón",
@@ -40,14 +58,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 1000,
             "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Ingeteam Rapid60 charger.The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-12-08T01:49:00Z",
+    "DateLastStatusUpdate": "2025-05-12T20:08:00Z",
     "DateCreated": "2024-12-01T17:02:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,9 +1,75 @@
 {
-    "DateLastVerified": "2014-09-25T13:05:00Z",
+    "MediaItems": [
+        {
+            "ID": 44437,
+            "ChargePointID": 23215,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM23215/OCM-23215.orig.2024121516463317.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM23215/OCM-23215.thmb.2024121516463317.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50321,
+                "Username": "Weiss"
+            },
+            "DateCreated": "2024-12-15T16:47:00Z"
+        },
+        {
+            "ID": 44436,
+            "ChargePointID": 23215,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM23215/OCM-23215.orig.2024121516444905.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM23215/OCM-23215.thmb.2024121516444905.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50321,
+                "Username": "Weiss"
+            },
+            "DateCreated": "2024-12-15T16:45:00Z"
+        },
+        {
+            "ID": 44435,
+            "ChargePointID": 23215,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM23215/OCM-23215.orig.2024121516435516.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM23215/OCM-23215.thmb.2024121516435516.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50321,
+                "Username": "Weiss"
+            },
+            "DateCreated": "2024-12-15T16:44:00Z"
+        },
+        {
+            "ID": 44434,
+            "ChargePointID": 23215,
+            "ItemURL": "https://media.openchargemap.io/images/FR/OCM23215/OCM-23215.orig.2024121516385198.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/FR/OCM23215/OCM-23215.thmb.2024121516385198.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 50321,
+                "Username": "Weiss"
+            },
+            "DateCreated": "2024-12-15T16:39:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-12-16T11:14:00Z",
     "ID": 23215,
     "UUID": "4231E9EF-7702-4431-94C0-9FDFCBC77067",
     "DataProviderID": 1,
-    "OperatorID": 62,
+    "OperatorID": 213,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 23560,
@@ -13,31 +79,32 @@
         "StateOrProvince": "Cherbourg",
         "Postcode": "50470",
         "CountryID": 80,
-        "Latitude": 49.6022138352063,
-        "Longitude": -1.60055574053774,
+        "Latitude": 49.60327127992818,
+        "Longitude": -1.6012298616892906,
         "ContactTelephone1": "02.33.88.13.13",
-        "RelatedURL": "http://www.auchan.fr/magasins/cherbourg/55/informations-pratiques/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 25016,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 25017,
             "ConnectionTypeID": 25,
-            "LevelID": 3,
+            "LevelID": 2,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 585942,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2014-09-25T13:05:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-12-16T11:14:00Z",
     "DateCreated": "2014-05-02T11:15:00Z",
     "SubmissionStatusTypeID": 200
 }

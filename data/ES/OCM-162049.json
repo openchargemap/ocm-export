@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-10-02T09:16:00Z",
+    "MediaItems": [
+        {
+            "ID": 46884,
+            "ChargePointID": 162049,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM162049/OCM-162049.orig.2025062107073526.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM162049/OCM-162049.thmb.2025062107073526.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-06-21T07:08:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-06-22T10:58:00Z",
     "ID": 162049,
     "UUID": "B4DB115B-F9A8-4DA3-9EE5-A465BDC08CB0",
     "DataProviderID": 1,
@@ -28,34 +46,35 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 100,
             "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 920,
-            "PowerKW": 150,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "Circutor Raption150 Charger. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+            "Quantity": 2,
+            "Comments": "Alpitronic Hypercharger HYC300 DC  charger that allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         },
         {
             "ID": 233232,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
             "CurrentTypeID": 30,
-            "Quantity": 3
+            "Quantity": 2
         },
         {
             "ID": 233233,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Alpitronic Hypercharger HYC300 DC  charger that allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         },
         {
             "ID": 233234,
@@ -68,8 +87,8 @@
         }
     ],
     "NumberOfPoints": 5,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2024-10-02T09:16:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-06-22T10:58:00Z",
     "DateCreated": "2020-08-01T00:26:00Z",
     "SubmissionStatusTypeID": 200
 }

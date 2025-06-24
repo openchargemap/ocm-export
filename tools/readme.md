@@ -1,8 +1,14 @@
 Refresh process:
 
-- Fetch poi.json (takes about 3mins, greater than 106MB): 
+- Fetch poi.json using paginated API requests (replaces single large curl request): 
 
-`curl "https://api-01.openchargemap.io/v3/poi?client=ocm-data-export&maxresults=200000&compact=true&verbose=false&includecomments=true" --output ./tmp/poi.json`
+`node ./tools/fetch-poi-data.js`
+
+This script:
+- Uses pagination with `greaterthanid` parameter to fetch data in batches of 1000 POIs
+- Automatically continues until no more results are returned
+- Saves all POIs to `./tmp/poi.json`
+- Includes the same parameters as the original curl command: `compact=true&verbose=false&includecomments=true&excludecomputed=true`
 
 - Fetch core reference data (operators, charger type etc):
 `curl "https://api-01.openchargemap.io/v3/referencedata?client=ocm-data-export" --output ./tmp/referencedata.json`

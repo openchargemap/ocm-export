@@ -49,7 +49,7 @@
             "DateCreated": "2022-10-28T06:52:00Z"
         }
     ],
-    "DateLastVerified": "2024-10-09T12:50:00Z",
+    "DateLastVerified": "2025-06-07T17:44:00Z",
     "ID": 201270,
     "UUID": "6388C4EA-2473-46CA-BC46-E8E861D84246",
     "DataProviderID": 1,
@@ -76,28 +76,40 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 130,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Ingeteam RAPID180 Charger. The DC charger allows charging one vehicle at 130kW, or two simultaneous charges at 65kW"
+            "Comments": "Ingeteam RAPID180 Charger. The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW"
         },
         {
             "ID": 471073,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 500,
             "Voltage": 920,
             "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
+            "Comments": "ABB sTerra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
+        },
+        {
+            "ID": 603497,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB sTerra360 charger. "
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 6,
     "GeneralComments": "Station equipped with a boost battery. Power limited when charger battery is low of charge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-10-09T12:50:00Z",
+    "DateLastStatusUpdate": "2025-06-07T17:44:00Z",
     "DateCreated": "2022-08-25T21:04:00Z",
     "SubmissionStatusTypeID": 200
 }

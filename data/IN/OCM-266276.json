@@ -1,6 +1,38 @@
 {
     "UserComments": [
         {
+            "ID": 30471,
+            "ChargePointID": 266276,
+            "CommentTypeID": 10,
+            "UserName": "Aguide",
+            "Comment": "Really Good Charging Station",
+            "Rating": 4,
+            "RelatedURL": "string",
+            "DateCreated": "2025-05-06T17:17:42.487Z",
+            "User": {
+                "ID": 53750,
+                "Username": "Aguide"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 30470,
+            "ChargePointID": 266276,
+            "CommentTypeID": 10,
+            "UserName": "Aguide",
+            "Comment": "Really Good Charging Station",
+            "Rating": 4,
+            "RelatedURL": "string",
+            "DateCreated": "2025-05-06T17:10:01.793Z",
+            "User": {
+                "ID": 53750,
+                "Username": "Aguide"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 30067,
             "ChargePointID": 266276,
             "CommentTypeID": 10,
@@ -77,13 +109,13 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2024-10-14T19:03:00Z",
+    "DateLastVerified": "2025-06-12T11:35:00Z",
     "ID": 266276,
     "UUID": "91C93036-4CEB-48D5-AA1F-DF98737CC98B",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3780,
     "UsageTypeID": 4,
-    "UsageCost": "Rs 20.5/kWh",
+    "UsageCost": "Rs 27.41/kWh",
     "AddressInfo": {
         "ID": 266660,
         "Title": "KSEB Charging Station",
@@ -105,11 +137,20 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 604028,
+            "ConnectionTypeID": 1040,
+            "StatusTypeID": 50,
+            "PowerKW": 15,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Variable rate based on time of the day",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-10-14T19:03:00Z",
+    "DateLastStatusUpdate": "2025-06-12T11:35:00Z",
     "DateCreated": "2023-05-30T20:27:00Z",
     "SubmissionStatusTypeID": 200
 }

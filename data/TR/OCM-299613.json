@@ -1,13 +1,14 @@
 {
-    "DateLastVerified": "2024-05-30T09:47:00Z",
+    "DateLastVerified": "2025-06-24T05:05:00Z",
     "ID": 299613,
     "UUID": "DA765FBE-22AF-4779-A619-A552B3D8A35F",
     "DataProviderID": 34,
     "DataProvidersReference": "59",
     "OperatorID": 3784,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 300000,
-        "Title": "Mall of İstanbul 2",
+        "Title": "Mall of İstanbul",
         "AddressLine1": "Ziya Gökalp, Süleyman Demirel Blv No:7, 344",
         "Town": "Istanbul",
         "Postcode": "34000",
@@ -19,23 +20,55 @@
     "Connections": [
         {
             "ID": 552513,
+            "ConnectionTypeID": 33,
+            "Reference": "214",
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 552514,
+            "ConnectionTypeID": 33,
+            "Reference": "215",
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 599511,
             "ConnectionTypeID": 1036,
-            "Reference": "84",
+            "Reference": "218",
             "StatusTypeID": 50,
             "CurrentTypeID": 20,
             "Quantity": 1
         },
         {
-            "ID": 552514,
+            "ID": 599512,
             "ConnectionTypeID": 1036,
-            "Reference": "85",
+            "Reference": "217",
+            "StatusTypeID": 50,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 599513,
+            "ConnectionTypeID": 1036,
+            "Reference": "219",
+            "StatusTypeID": 50,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 599514,
+            "ConnectionTypeID": 1036,
+            "Reference": "220",
             "StatusTypeID": 50,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-05-30T09:47:00Z",
+    "DateLastStatusUpdate": "2025-06-24T05:05:00Z",
     "DateCreated": "2024-05-30T09:31:00Z",
     "SubmissionStatusTypeID": 200
 }

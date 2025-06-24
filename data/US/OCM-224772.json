@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 30341,
+            "ChargePointID": 224772,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "just 2 of 6 chargers are operational. Charger 1 CCS Charger ID E1186 is Unavailable. Charger 2, station ID E1188/E1189 appears to be working. Charger 3 E1190/E1191 displayed “Under Maintenance” on the screen. Charger 4, station ID E1192/E1193 shows as UNDER REPAIR in the app and didn’t recognize account via RFID card. Charger 5, E1194/E1195 is in use. Charger 6, station ID E1196/E1197, shows as UNDER REPAIR in the app and didn’t recognize account via RFID card.",
+            "DateCreated": "2025-03-17T10:44:09.663Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 200,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 29152,
             "ChargePointID": 224772,
             "CommentTypeID": 1000,
@@ -15,11 +29,11 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2023-10-23T13:39:00Z",
+    "DateLastVerified": "2025-05-19T09:42:00Z",
     "ID": 224772,
     "UUID": "099A3E3C-CD46-4A89-BF04-475775CB3B73",
     "DataProviderID": 1,
-    "OperatorID": 59,
+    "OperatorID": 3493,
     "UsageTypeID": 1,
     "UsageCost": "$0.32/kWh + 6% MD sales & use tax",
     "AddressInfo": {
@@ -32,15 +46,16 @@
         "CountryID": 2,
         "Latitude": 39.19043665488394,
         "Longitude": -76.67096326655891,
-        "ContactTelephone1": "855-900-7584",
+        "ContactTelephone1": "8447982438",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://shellrecharge.com/en-us/solutions",
+        "RelatedURL": "https://swtchenergy.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 375921,
             "ConnectionTypeID": 2,
+            "Reference": "BGE",
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -50,6 +65,7 @@
         {
             "ID": 375922,
             "ConnectionTypeID": 32,
+            "Reference": "BGE",
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
@@ -59,7 +75,7 @@
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-10-23T13:39:00Z",
+    "DateLastStatusUpdate": "2025-05-19T09:42:00Z",
     "DateCreated": "2023-02-13T05:13:00Z",
     "SubmissionStatusTypeID": 100
 }

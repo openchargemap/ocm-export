@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-11-04T10:05:00Z",
+    "DateLastVerified": "2025-01-04T22:38:00Z",
     "ID": 202143,
     "UUID": "EE8D5917-FFF3-472D-9237-2540AF587508",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,55€/kWh DC - 0,35€/kWh AC",
     "AddressInfo": {
         "ID": 202510,
         "Title": "EUROFUEL",
@@ -24,32 +24,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 950,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 337874,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 337875,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-11-04T10:05:00Z",
+    "DateLastStatusUpdate": "2025-01-04T22:38:00Z",
     "DateCreated": "2022-09-07T11:42:00Z",
     "SubmissionStatusTypeID": 200
 }

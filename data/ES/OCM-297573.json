@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-10-04T19:43:00Z",
+    "MediaItems": [
+        {
+            "ID": 46140,
+            "ChargePointID": 297573,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM297573/OCM-297573.orig.2025051320535015.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM297573/OCM-297573.thmb.2025051320535015.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-05-13T20:54:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-05-13T20:54:00Z",
     "ID": 297573,
     "UUID": "11FE717C-3EFC-45AF-A324-7C5A67F50AE0",
     "DataProviderID": 1,
@@ -24,16 +42,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
+            "Amps": 200,
             "Voltage": 920,
             "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "XCharge 150 DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW. "
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-10-04T19:43:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-05-13T20:54:00Z",
     "DateCreated": "2024-04-15T18:55:00Z",
     "SubmissionStatusTypeID": 200
 }

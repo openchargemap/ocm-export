@@ -1,5 +1,70 @@
 {
+    "UserComments": [
+        {
+            "ID": 30196,
+            "ChargePointID": 108319,
+            "CommentTypeID": 10,
+            "UserName": "Jegesjeles",
+            "Comment": "Új 50 kW teljesítményű DC elektromos autó töltőállomást helyeztek üzembe 2024 decemberében. Az új nagyteljesítményű töltő készüléken megtalálhatóak a CHAdeMO és CCS szabványú csatlakozók is. Töltést indítani lehetséges webes felületen keresztül a https://map.gyorstoltok.hu oldalról, QR kóddal és készpénzes fizetésre is van lehetőség a helyszínen a személyzet által. A new 50 kW DC electric car charging station was put into operation in December 2024. The new high-performance charger also features CHAdeMO and CCS standard connectors. Charging can be started via a web interface at https://map.gyorstoltok.hu, with a QR code and cash payment is also possible on site by staff.",
+            "Rating": 5,
+            "DateCreated": "2024-12-27T19:27:41.193Z",
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
+        {
+            "ID": 44576,
+            "ChargePointID": 108319,
+            "ItemURL": "https://media.openchargemap.io/images/HU/OCM108319/OCM-108319.orig.2024122719241724.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/HU/OCM108319/OCM-108319.thmb.2024122719241724.jpg",
+            "Comment": "perfect charging stations",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "DateCreated": "2024-12-27T19:24:00Z"
+        },
+        {
+            "ID": 44575,
+            "ChargePointID": 108319,
+            "ItemURL": "https://media.openchargemap.io/images/HU/OCM108319/OCM-108319.orig.2024122719204155.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/HU/OCM108319/OCM-108319.thmb.2024122719204155.jpg",
+            "Comment": "the new charging stations ",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "DateCreated": "2024-12-27T19:21:00Z"
+        },
+        {
+            "ID": 44574,
+            "ChargePointID": 108319,
+            "ItemURL": "https://media.openchargemap.io/images/HU/OCM108319/OCM-108319.orig.2024122719194234.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/HU/OCM108319/OCM-108319.thmb.2024122719194234.jpg",
+            "Comment": "a new DC charging station",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 22874,
+                "Username": "Jegesjeles"
+            },
+            "DateCreated": "2024-12-27T19:20:00Z"
+        },
         {
             "ID": 24996,
             "ChargePointID": 108319,
@@ -33,16 +98,16 @@
             "DateCreated": "2020-10-08T13:07:00Z"
         }
     ],
-    "DateLastVerified": "2023-04-06T18:11:00Z",
+    "DateLastVerified": "2024-12-27T19:28:00Z",
     "ID": 108319,
     "UUID": "C9374841-21F9-4296-A3FA-95B730E6BEB5",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 1,
-    "UsageCost": "A",
+    "UsageCost": "EUR 0.30,-/kWh for DC charging. EUR 0.27,-/kWh for AC charging",
     "AddressInfo": {
         "ID": 108665,
-        "Title": "Sebi Zöld- Áram Töltőállomás",
+        "Title": "Sebi Zöldáram DC electric charger ",
         "AddressLine1": "Szluha György utca 7.",
         "Town": "Szekszárd",
         "StateOrProvince": "Tolna megye",
@@ -50,8 +115,8 @@
         "CountryID": 104,
         "Latitude": 46.355179,
         "Longitude": 18.704952,
-        "ContactTelephone1": "+36305509858",
-        "RelatedURL": "http://www.teapont.hu",
+        "ContactTelephone1": "+36303070501",
+        "RelatedURL": "https://sebizoldaram.hu/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -76,12 +141,38 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 586552,
+            "ConnectionTypeID": 33,
+            "Reference": "SEBI ",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 120,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Open for all users 0-24h"
+        },
+        {
+            "ID": 586553,
+            "ConnectionTypeID": 2,
+            "Reference": "SEBI ",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 120,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Open for all users 0-24h"
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "Start charging with QR code  HELPDESK: help@teapont.hu +36305509858  WEB: www.teapont.hu",
+    "NumberOfPoints": 4,
+    "GeneralComments": "Start charging with https://map.gyorstoltok.hu or with QR code  HELPDESK: +36303070501 ; sebiferi56@gmail.com",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-06T18:11:00Z",
+    "DateLastStatusUpdate": "2024-12-27T19:28:00Z",
     "DateCreated": "2018-09-21T16:40:00Z",
     "SubmissionStatusTypeID": 200
 }

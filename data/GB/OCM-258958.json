@@ -1,22 +1,24 @@
 {
-    "DateLastVerified": "2023-11-30T09:50:00Z",
+    "DateLastVerified": "2025-05-06T09:44:00Z",
     "ID": 258958,
     "UUID": "B476C3EE-CC93-423A-8CEF-E2C0945FDBFA",
     "DataProviderID": 1,
-    "OperatorID": 24,
+    "OperatorID": 3430,
     "OperatorsReference": "GB*GRD*EGS10039*1,GB*GRD*EGS10039*2",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.79/kWh",
+    "UsageCost": "Contactless: £0.85/kWh, GRIDSERVE app: £0.79/kWh",
     "AddressInfo": {
         "ID": 259342,
-        "Title": "Moto Bridgwater Services",
-        "AddressLine1": "Taunton Road",
-        "Town": "Sedgemoor",
+        "Title": "MOTO Bridgwater Services",
+        "AddressLine1": "Huntworth Business Park M5",
+        "Town": "Bridgwater",
+        "StateOrProvince": "Somerset",
         "Postcode": "TA6 6TS",
         "CountryID": 1,
         "Latitude": 51.105418,
         "Longitude": -2.995967,
-        "RelatedURL": "https://electrichighway.gridserve.com/bridgwater-services",
+        "ContactTelephone1": "+44 800 240 4242",
+        "RelatedURL": "https://gridserve.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,6 +28,8 @@
             "Reference": "GB*GRD*EGS10039*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -36,14 +40,17 @@
             "Reference": "GB*GRD*EGS10039*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "The GRIDSERVE charging station at Bridgwater services provides rapid charging located on the M5. Moto Bridgwater is perfect for fast, reliable and convenient EV charging near Taunton, Somerset.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-30T09:50:00Z",
+    "DateLastStatusUpdate": "2025-05-06T09:44:00Z",
     "DateCreated": "2023-03-26T14:57:00Z",
     "SubmissionStatusTypeID": 200
 }

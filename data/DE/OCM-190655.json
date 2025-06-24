@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2021-12-17T09:15:00Z",
+    "MediaItems": [
+        {
+            "ID": 45233,
+            "ChargePointID": 190655,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM190655/OCM-190655.orig.2025031314311529.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM190655/OCM-190655.thmb.2025031314311529.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-03-13T14:31:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-03-29T03:34:00Z",
     "ID": 190655,
     "UUID": "3A351BC8-0C68-4700-B5E3-40615C52A150",
     "DataProviderID": 1,
@@ -7,9 +25,9 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 191014,
-        "Title": "Comfort Charge - Schwarzenberg (Erzgebirge)",
+        "Title": "Comfortcharge Ladestation",
         "AddressLine1": "Schneeberger Straße 11",
-        "Town": "Schwarzenberg/Erzgeb.",
+        "Town": "Schwarzenberg",
         "StateOrProvince": "Saxony",
         "Postcode": "08340",
         "CountryID": 87,
@@ -23,16 +41,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
-            "CurrentTypeID": 30
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 309170,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 309171,
@@ -40,7 +60,8 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 309172,
@@ -52,9 +73,9 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-17T09:15:00Z",
+    "DateLastStatusUpdate": "2025-03-29T03:34:00Z",
     "DateCreated": "2021-12-16T11:24:00Z",
     "SubmissionStatusTypeID": 200
 }

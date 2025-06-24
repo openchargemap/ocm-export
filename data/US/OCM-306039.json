@@ -1,34 +1,65 @@
 {
-    "DateLastVerified": "2024-12-08T01:54:00Z",
+    "DateLastVerified": "2025-06-16T04:22:00Z",
     "ID": 306039,
     "UUID": "28575EFC-D6DF-49E9-8C43-F20FB85F11DD",
     "DataProviderID": 1,
     "OperatorID": 3789,
     "UsageTypeID": 1,
+    "UsageCost": "$0.55 / kWh",
     "AddressInfo": {
         "ID": 306428,
-        "Title": "76",
+        "Title": "Skycharger - 76 - Williams, CA",
         "AddressLine1": "495 4th Street ",
         "Town": "Williams",
         "StateOrProvince": "CA",
         "Postcode": "95987",
         "CountryID": 2,
-        "Latitude": 39.156454750017616,
-        "Longitude": -122.14616678498162,
+        "Latitude": 39.156587859263425,
+        "Longitude": -122.14637599388102,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 579798,
             "ConnectionTypeID": 32,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 602994,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 602995,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 602996,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-12-08T01:54:00Z",
+    "NumberOfPoints": 8,
+    "GeneralComments": "4 post, 8 charging bays",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-06-16T04:22:00Z",
     "DateCreated": "2024-11-12T03:56:00Z",
     "SubmissionStatusTypeID": 200
 }

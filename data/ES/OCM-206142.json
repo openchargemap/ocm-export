@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-11-07T13:59:00Z",
+    "DateLastVerified": "2025-05-09T18:55:00Z",
     "ID": 206142,
     "UUID": "28B264C0-C487-422A-B8CC-FC3CEDB0DA16",
     "DataProviderID": 1,
     "OperatorID": 3559,
     "UsageTypeID": 5,
-    "UsageCost": "0,35€/kWh + parking fee",
+    "UsageCost": "0,39€/kWh + parking fee",
     "AddressInfo": {
         "ID": 206522,
         "Title": "Parking - Passeig Nou",
@@ -21,17 +21,29 @@
     "Connections": [
         {
             "ID": 343943,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 3
+            "Quantity": 10
+        },
+        {
+            "ID": 602044,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 900,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "EKOEnergetyca AXON SAT-400 CCS Satellite chargers (peak 500A) that dynamically share the total power of the cabinet AXON SIDE 360kW."
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 14,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-11-07T13:59:00Z",
+    "DateLastStatusUpdate": "2025-05-09T18:55:00Z",
     "DateCreated": "2022-10-07T18:21:00Z",
     "SubmissionStatusTypeID": 200
 }

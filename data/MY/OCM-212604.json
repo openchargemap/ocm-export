@@ -19,6 +19,22 @@
     ],
     "MediaItems": [
         {
+            "ID": 44812,
+            "ChargePointID": 212604,
+            "ItemURL": "https://media.openchargemap.io/images/MY/OCM212604/OCM-212604.orig.2025010609511701.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/MY/OCM212604/OCM-212604.thmb.2025010609511701.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44302,
+                "Username": "Azrin"
+            },
+            "DateCreated": "2025-01-06T09:51:00Z"
+        },
+        {
             "ID": 36334,
             "ChargePointID": 212604,
             "ItemURL": "https://media.openchargemap.io/images/MY/OCM212604/OCM-212604.orig.2023012105504635.jpg",
@@ -35,7 +51,7 @@
             "DateCreated": "2023-01-21T05:51:00Z"
         }
     ],
-    "DateLastVerified": "2023-01-21T10:48:00Z",
+    "DateLastVerified": "2025-01-06T09:51:00Z",
     "ID": 212604,
     "UUID": "AB6AD12A-55AD-4832-8AA8-5FB1C398AACA",
     "DataProviderID": 1,
@@ -50,8 +66,8 @@
         "StateOrProvince": "Selangor",
         "Postcode": "63000",
         "CountryID": 137,
-        "Latitude": 2.909065272970338,
-        "Longitude": 101.65706023188386,
+        "Latitude": 2.909098501107678,
+        "Longitude": 101.65706353519931,
         "ContactEmail": "hello@go-tou.com.my",
         "AccessComments": "1. It's located in the parking bay area.\r\n2. Lookout for the GO TO-U Signage.\r\n3. It's a shaded parking space.",
         "RelatedURL": "https://go-tou.com/my",
@@ -63,7 +79,7 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Connector 1&2 : 60kW\r\n- Uses split energy function; i.e. reserving one connector will reserve both connectors."
@@ -73,16 +89,15 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 30,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "GO TO-U Network Charging Stations:\r\nConnector 3&4 : 30kW\r\n- Power is split 30kW for each connector"
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "GO TO-U Network Charging Stations:\r\nConnector 1&2 : 60kW\r\n- Uses split energy function; i.e. reserving one connector will reserve both connectors.\r\n\r\nConnector 3&4 : 30kW\r\n- Power is split 30kW for each connector\r\n\r\nBy Rekascape's entrance, there is also a GO TO-U EV Lifestyle Hub where users can have a seat, relax and enjoy coffee/tea/snacks from our vending machines. \r\n(Open 8AM - 5PM on Weekdays ONLY)\r\n\r\nIf you'd like to chat, you can drop by our office next to the GO TO-U EV Lifestyle Hub.",
+    "GeneralComments": "GO TO-U Network Charging Stations:\r\nConnector 1&2 : 120kW\r\nConnector 3&4 : 120kW\r\n- balanced charging - will split 60kW per nozzle if 2 cars are charging at the same time.\r\n\r\nBy Rekascape's entrance, there is also a GO TO-U EV Lifestyle Hub where users can have a seat, relax and enjoy coffee/tea/snacks from our vending machines. \r\n(Open 8AM - 5PM on Weekdays ONLY)\r\n\r\nIf you'd like to chat, you can drop by our office next to the GO TO-U EV Lifestyle Hub.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-21T10:48:00Z",
+    "DateLastStatusUpdate": "2025-01-06T09:51:00Z",
     "DateCreated": "2023-01-21T05:50:00Z",
     "SubmissionStatusTypeID": 200
 }

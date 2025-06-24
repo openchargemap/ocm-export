@@ -1,0 +1,15 @@
+{
+  "name": "ocm-export",
+  "version": "1.0.0",
+  "description": "OpenChargeMap data export tool with paginated API fetching",
+  "main": "tools/fetch-poi-data.js",
+  "scripts": {
+    "fetch-poi": "node tools/fetch-poi-data.js",
+    "parse-all": "node tools/parse-all/index.js",
+    "refresh": "refresh.bat"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}

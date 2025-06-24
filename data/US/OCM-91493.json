@@ -1,23 +1,24 @@
 {
-    "DateLastVerified": "2024-02-20T10:34:00Z",
+    "DateLastVerified": "2025-06-24T07:54:00Z",
     "ID": 91493,
     "UUID": "681A463D-383B-4DDF-97B5-6F7F720EB5F2",
     "DataProviderID": 2,
     "DataProvidersReference": "85956",
+    "OperatorID": 3696,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 91839,
-        "Title": "Graff Chevrolet",
-        "AddressLine1": "1748 W Grand River Rd",
-        "Town": "Okemos",
+        "Title": "Graff Chevrolet Okemos MI",
+        "AddressLine1": "1748 W Grand River Ave",
+        "Town": "Meridian Charter Township",
         "StateOrProvince": "MI",
         "Postcode": "48864",
         "CountryID": 2,
-        "Latitude": 42.71918,
-        "Longitude": -84.412226,
-        "ContactTelephone1": "517-507-4920",
-        "AccessComments": "7:30am-8pm M & Th, 7:30am-6pm T-W & F, 9am-3pm Sat",
-        "RelatedURL": "",
+        "Latitude": 42.71917613922,
+        "Longitude": -84.41220057212,
+        "ContactTelephone1": "1-313-262-6722",
+        "AccessComments": "",
+        "RelatedURL": "https://www.redecharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,11 +30,20 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 133604,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 771089,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "PowerKW": 50,
@@ -43,7 +53,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:34:00Z",
+    "DateLastStatusUpdate": "2025-06-24T07:54:00Z",
     "DateCreated": "2017-08-03T12:25:00Z",
     "SubmissionStatusTypeID": 100
 }

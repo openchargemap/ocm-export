@@ -1,0 +1,79 @@
+{
+    "MediaItems": [
+        {
+            "ID": 45339,
+            "ChargePointID": 311269,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM311269/OCM-311269.orig.2025031720000700.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM311269/OCM-311269.thmb.2025031720000700.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-03-17T20:00:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-05-07T19:19:00Z",
+    "ID": 311269,
+    "UUID": "23EB148F-E10E-4BC9-B752-0B724D266678",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "DC 180kW: 0,45€/kWh - AC/DC 50kW: 0,33€/kWh",
+    "AddressInfo": {
+        "ID": 311658,
+        "Title": "Medina Pomar (Anduriz)",
+        "AddressLine1": "Avda. Burgos",
+        "Town": "Medina Pomar",
+        "StateOrProvince": "Burgos",
+        "CountryID": 210,
+        "Latitude": 42.92977129936685,
+        "Longitude": -3.4831081105578505,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 599818,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited for 400V cars"
+        },
+        {
+            "ID": 599819,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 1000,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam Rapid60 charger.The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW."
+        },
+        {
+            "ID": 599821,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "app Anduriz Energía",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-05-07T19:19:00Z",
+    "DateCreated": "2025-03-17T19:46:00Z",
+    "SubmissionStatusTypeID": 200
+}

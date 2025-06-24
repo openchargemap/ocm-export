@@ -1,5 +1,55 @@
 {
-    "DateLastVerified": "2021-11-22T10:22:00Z",
+    "MediaItems": [
+        {
+            "ID": 45614,
+            "ChargePointID": 190126,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190126/OCM-190126.orig.2025041409324397.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190126/OCM-190126.thmb.2025041409324397.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-14T09:33:00Z"
+        },
+        {
+            "ID": 45615,
+            "ChargePointID": 190126,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190126/OCM-190126.orig.2025041409325895.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190126/OCM-190126.thmb.2025041409325895.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-14T09:33:00Z"
+        },
+        {
+            "ID": 45616,
+            "ChargePointID": 190126,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190126/OCM-190126.orig.2025041409331448.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190126/OCM-190126.thmb.2025041409331448.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-14T09:33:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-04-28T11:06:00Z",
     "ID": 190126,
     "UUID": "121D5CCA-FEDF-497C-BDBE-CC3B9DDB0D50",
     "DataProviderID": 1,
@@ -7,7 +57,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 190485,
-        "Title": "Comfort Charge - Hamburg/Schmachthäger Straße",
+        "Title": "Comfortcharge Ladestation",
         "AddressLine1": "Schmachthäger Straße 8",
         "Town": "Hamburg",
         "StateOrProvince": "Hamburg",
@@ -24,15 +74,17 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 3
         },
         {
             "ID": 308068,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 308069,
@@ -40,7 +92,8 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         },
         {
             "ID": 308070,
@@ -48,12 +101,21 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 601198,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-22T10:22:00Z",
+    "DateLastStatusUpdate": "2025-04-28T11:06:00Z",
     "DateCreated": "2021-11-22T09:47:00Z",
     "SubmissionStatusTypeID": 200
 }

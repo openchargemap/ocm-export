@@ -1,24 +1,24 @@
 {
-    "DateLastVerified": "2024-02-20T10:29:00Z",
+    "DateLastVerified": "2025-06-24T07:48:00Z",
     "ID": 282816,
     "UUID": "2AD39142-4C41-4D5F-8DAC-D98BDF46A52C",
     "DataProviderID": 2,
     "DataProvidersReference": "312003",
     "OperatorID": 3696,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 283203,
-        "Title": "DeNooyer Ford",
+        "Title": "DeNooyer Ford Vicksburg MI",
         "AddressLine1": "13485 Portage Rd",
         "Town": "Vicksburg",
         "StateOrProvince": "MI",
         "Postcode": "49097",
         "CountryID": 2,
-        "Latitude": 42.120229216464,
-        "Longitude": -85.5683388052682,
-        "ContactTelephone1": "313-262-6722",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
-        "RelatedURL": "https://www.redecharge.com/",
+        "Latitude": 42.120697245055,
+        "Longitude": -85.5683633348,
+        "ContactTelephone1": "1-313-262-6722",
+        "AccessComments": "",
+        "RelatedURL": "https://www.redecharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,12 +30,21 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 2,
+            "Quantity": 4,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 770855,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:29:00Z",
+    "DateLastStatusUpdate": "2025-06-24T07:48:00Z",
     "DateCreated": "2023-12-04T04:09:00Z",
     "SubmissionStatusTypeID": 100
 }

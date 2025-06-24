@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2023-02-07T20:08:00Z",
+    "DateLastVerified": "2025-04-29T16:46:00Z",
     "ID": 213519,
     "UUID": "3FEEEE80-984D-48FF-A610-1BC529ACAA60",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 6,
+    "OperatorID": 3583,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 213899,
         "Title": "Hotel Herbeira",
@@ -13,24 +13,27 @@
         "StateOrProvince": "Galicia",
         "Postcode": "15555",
         "CountryID": 210,
-        "Latitude": 43.64937352786811,
-        "Longitude": -8.044548216073736,
+        "Latitude": 43.64900510267154,
+        "Longitude": -8.044480557906695,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 355652,
-            "ConnectionTypeID": 28,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 900,
+            "PowerKW": 90,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Power electronics NB120 Charger. The DC charger allows charging one vehicle at 90kW, or two simultaneous charges at 45kW"
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-07T20:08:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2025-04-29T16:46:00Z",
     "DateCreated": "2023-02-07T20:08:00Z",
     "SubmissionStatusTypeID": 200
 }

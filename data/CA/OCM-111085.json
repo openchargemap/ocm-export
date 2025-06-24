@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2024-02-20T10:42:00Z",
+    "DateLastVerified": "2025-06-24T08:01:00Z",
     "ID": 111085,
     "UUID": "DBD5D413-1F65-433C-BC31-562525BCD135",
     "DataProviderID": 2,
     "DataProvidersReference": "83552",
-    "UsageTypeID": 2,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 111431,
         "Title": "Bolton GM",
@@ -16,7 +16,7 @@
         "Latitude": 43.855769,
         "Longitude": -79.706739,
         "ContactTelephone1": "",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "24 hours daily; for client use only",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
@@ -31,10 +31,28 @@
             "CurrentTypeID": 10,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 771225,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 771226,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:42:00Z",
+    "DateLastStatusUpdate": "2025-06-24T08:01:00Z",
     "DateCreated": "2018-10-18T23:36:00Z",
     "SubmissionStatusTypeID": 100
 }

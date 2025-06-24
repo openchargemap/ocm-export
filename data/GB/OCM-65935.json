@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-03-11T16:49:00Z",
+    "DateLastVerified": "2025-03-03T16:41:00Z",
     "ID": 65935,
     "UUID": "267F30A7-98CE-4AE8-8062-6F680A9DA6EC",
     "DataProviderID": 1,
@@ -8,32 +8,42 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 66281,
-        "Title": "DRD Car Park, Henry St",
-        "AddressLine1": "Gilmore Street",
+        "Title": "DRD Car Park",
+        "AddressLine1": "Henry St / Gilmore St",
         "Town": "Ballymena",
         "StateOrProvince": "County Antrim",
         "Postcode": "BT42 3AH",
         "CountryID": 1,
-        "Latitude": 54.86008300000137,
-        "Longitude": -6.277401000000509,
+        "Latitude": 54.86033602538211,
+        "Longitude": -6.27679321316549,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 91159,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 592951,
+            "ConnectionTypeID": 33,
+            "Reference": "NR0AAQ",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-03-11T16:49:00Z",
+    "DateLastStatusUpdate": "2025-03-03T16:41:00Z",
     "DateCreated": "2016-05-05T19:01:00Z",
     "SubmissionStatusTypeID": 200
 }

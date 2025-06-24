@@ -1,29 +1,40 @@
 {
-    "DateLastVerified": "2024-02-20T10:36:00Z",
+    "DateLastVerified": "2025-06-24T07:56:00Z",
     "ID": 283004,
     "UUID": "2F2BEE3D-2353-451D-965E-A260B69BE149",
     "DataProviderID": 2,
     "DataProvidersReference": "314483",
     "OperatorID": 3696,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 283391,
-        "Title": "Hank Graff Chevrolet Davison",
+        "Title": "Graff Chevrolet Davison MI",
         "AddressLine1": "800 N State Rd",
         "Town": "Davison",
         "StateOrProvince": "MI",
         "Postcode": "48423",
         "CountryID": 2,
-        "Latitude": 43.0375658674246,
-        "Longitude": -83.5175465808432,
-        "ContactTelephone1": "313-262-6722",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
-        "RelatedURL": "https://www.redecharge.com/",
+        "Latitude": 43.037655109114,
+        "Longitude": -83.5173524051,
+        "ContactTelephone1": "1-313-262-6722",
+        "AccessComments": "",
+        "RelatedURL": "https://www.redecharge.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 491026,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 491027,
             "ConnectionTypeID": 2,
             "LevelID": 3,
             "PowerKW": 50,
@@ -32,7 +43,7 @@
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
-            "ID": 491027,
+            "ID": 771140,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "PowerKW": 50,
@@ -42,7 +53,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:36:00Z",
+    "DateLastStatusUpdate": "2025-06-24T07:56:00Z",
     "DateCreated": "2023-12-04T04:16:00Z",
     "SubmissionStatusTypeID": 100
 }

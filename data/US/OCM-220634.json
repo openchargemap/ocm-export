@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-02-20T09:48:00Z",
+    "DateLastVerified": "2025-06-24T07:09:00Z",
     "ID": 220634,
     "UUID": "359A1D0A-5DEB-4822-A593-0DC6BFBB621A",
     "DataProviderID": 2,
@@ -8,17 +8,17 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 221017,
-        "Title": "Keck Hospital Parking Structure",
-        "AddressLine1": "1510 N San Pablo St",
+        "Title": "KH Structure",
+        "AddressLine1": "1510 North San Pablo St",
         "Town": "Los Angeles",
         "StateOrProvince": "CA",
         "Postcode": "90033",
         "CountryID": 2,
-        "Latitude": 34.06222,
-        "Longitude": -118.203005,
-        "ContactTelephone1": "866-949-9606",
+        "Latitude": 34.0627048,
+        "Longitude": -118.2034906,
+        "ContactTelephone1": "949-945-2000",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "http://evgateway.com/",
+        "RelatedURL": "https://evgateway.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -35,16 +35,25 @@
         },
         {
             "ID": 371188,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 770478,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 8,
+            "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T09:48:00Z",
+    "DateLastStatusUpdate": "2025-06-24T07:09:00Z",
     "DateCreated": "2023-02-13T05:01:00Z",
     "SubmissionStatusTypeID": 100
 }

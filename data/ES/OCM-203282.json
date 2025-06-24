@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-06-27T16:29:00Z",
+    "DateLastVerified": "2025-04-29T14:00:00Z",
     "ID": 203282,
     "UUID": "1E221D1B-4FE3-4E40-BCDE-CD9B3642C00A",
     "DataProviderID": 1,
@@ -26,15 +26,27 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Four Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW)."
+        },
+        {
+            "ID": 601265,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 1000,
             "PowerKW": 25,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "Four Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (100 kW)."
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-06-27T16:29:00Z",
+    "GeneralComments": "To access the precint, call the intercom",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-04-29T14:00:00Z",
     "DateCreated": "2022-09-16T13:35:00Z",
     "SubmissionStatusTypeID": 200
 }

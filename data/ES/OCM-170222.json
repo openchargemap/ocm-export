@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2024-07-19T08:15:00Z",
+    "DateLastVerified": "2025-01-05T10:33:00Z",
     "ID": 170222,
     "UUID": "3CDE28E6-EC47-4464-95D2-FCD54B5CD403",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,55€/kWh DC - 0,35€/kWh AC",
     "AddressInfo": {
         "ID": 170581,
-        "Title": "EndesaX Petromiralles",
+        "Title": "E.S.  Petromiralles",
         "AddressLine1": "petromiralles",
         "Town": "Vilafranca del Penedès",
         "StateOrProvince": "Barcelona",
@@ -24,33 +24,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 900,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 259530,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 259531,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Endesa X",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-19T08:15:00Z",
+    "DateLastStatusUpdate": "2025-01-05T10:33:00Z",
     "DateCreated": "2020-11-20T18:00:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 45748,
+            "ChargePointID": 201206,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201206/OCM-201206.orig.2025042110411346.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201206/OCM-201206.thmb.2025042110411346.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-04-21T10:41:00Z"
+        },
+        {
             "ID": 41855,
             "ChargePointID": 201206,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM201206/OCM-201206.orig.2024040216332812.jpg",
@@ -17,13 +33,13 @@
             "DateCreated": "2024-04-02T16:34:00Z"
         }
     ],
-    "DateLastVerified": "2024-04-02T17:53:00Z",
+    "DateLastVerified": "2025-04-21T17:48:00Z",
     "ID": 201206,
     "UUID": "BEB69883-E29C-4AAA-A5AC-682BE3A99059",
     "DataProviderID": 1,
     "OperatorID": 3559,
     "UsageTypeID": 5,
-    "UsageCost": "0,39€/kWh. Parking: 1,50€/hour",
+    "UsageCost": "0,55€/kWh DC - 0,39€/kWh AC. Parking: 1,50€/hour",
     "AddressInfo": {
         "ID": 201565,
         "Title": "Parking Plaza de Santa Teresa",
@@ -45,12 +61,24 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 7
+        },
+        {
+            "ID": 600815,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 900,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "EKOEnergetyca AXON SAT-400 CCS Satellite chargers (peak 500A) that dynamically share the total power of the cabinet AXON SIDE 360kW."
         }
     ],
-    "NumberOfPoints": 7,
+    "NumberOfPoints": 11,
     "GeneralComments": "Floor -1",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-04-02T17:53:00Z",
+    "DateLastStatusUpdate": "2025-04-21T17:48:00Z",
     "DateCreated": "2022-08-23T14:17:00Z",
     "SubmissionStatusTypeID": 200
 }

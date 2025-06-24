@@ -1,40 +1,58 @@
 {
-    "DateLastVerified": "2017-01-30T17:51:00Z",
+    "MediaItems": [
+        {
+            "ID": 45912,
+            "ChargePointID": 79903,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM79903/OCM-79903.orig.2025050218572772.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/CA/OCM79903/OCM-79903.thmb.2025050218572772.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 58307,
+                "Username": "HJaro"
+            },
+            "DateCreated": "2025-05-02T18:58:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-05-05T19:04:00Z",
     "ID": 79903,
     "UUID": "275AE947-F7E4-402D-8B39-2A7F9492D2AE",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "9856",
-    "UsageTypeID": 6,
+    "UsageTypeID": 5,
     "UsageCost": "Free",
     "AddressInfo": {
         "ID": 80249,
         "Title": "Hotel Must",
-        "AddressLine1": "Route de l'Aéroport",
+        "AddressLine1": "1345, route de l’Aéroport  L’Ancienne-Lorette QC ",
         "Town": "L'Ancienne-Lorette",
         "StateOrProvince": "QC",
-        "Postcode": "G2E 2J1",
+        "Postcode": " G2G 1G5",
         "CountryID": 44,
-        "Latitude": 46.789932,
-        "Longitude": -71.355428,
-        "ContactTelephone1": "(800) 567-5276",
+        "Latitude": 46.789857163424585,
+        "Longitude": -71.35562947972274,
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 114552,
-            "ConnectionTypeID": 30,
+            "ID": 601830,
+            "ConnectionTypeID": 1,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 16,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "PowerKW": 32,
+            "CurrentTypeID": 10,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "1 Tesla Connector, up to 16kW.Available for patrons only. Please see front desk.",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-01-30T17:51:00Z",
+    "DateLastStatusUpdate": "2025-05-05T19:04:00Z",
     "DateCreated": "2017-01-30T17:51:00Z",
     "SubmissionStatusTypeID": 200
 }

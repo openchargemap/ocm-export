@@ -1,21 +1,24 @@
 {
-    "DateLastVerified": "2023-11-30T09:52:00Z",
+    "DateLastVerified": "2025-05-02T00:27:00Z",
     "ID": 258805,
     "UUID": "086B38D0-48D7-4464-9C0E-E47EEDFF2EAF",
     "DataProviderID": 1,
-    "OperatorID": 24,
+    "OperatorID": 3430,
     "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.79/kWh",
+    "UsageCost": "£0.85/kWh",
     "AddressInfo": {
         "ID": 259189,
         "Title": "Welcome Break Telford Services",
-        "AddressLine1": "Welcome Break Telford Services",
+        "AddressLine1": "A464 Priorslee Road",
+        "Town": "Shifnal",
+        "StateOrProvince": "Shropshire",
         "Postcode": "TF11 8TG",
         "CountryID": 1,
         "Latitude": 52.677348,
         "Longitude": -2.399412,
-        "RelatedURL": "https://electrichighway.gridserve.com/telford-services",
+        "ContactTelephone1": "+44 800 240 4242",
+        "RelatedURL": "https://gridserve.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,6 +28,8 @@
             "Reference": "GB*GRD*EGS10318*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 40,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -35,6 +40,8 @@
             "Reference": "GB*GRD*EGS10318*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
             "PowerKW": 40,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -45,6 +52,8 @@
             "Reference": "GB*GRD*EGS10319*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 40,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -55,6 +64,8 @@
             "Reference": "GB*GRD*EGS10319*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
             "PowerKW": 40,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -66,7 +77,7 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 230,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
@@ -78,15 +89,16 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 230,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 2,
+    "GeneralComments": "The GRIDSERVE charging station at Telford services provides rapid charging located on the M54. Welcome Break Telford is perfect for fast, reliable and convenient EV charging near Telford, Shropshire.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-30T09:52:00Z",
+    "DateLastStatusUpdate": "2025-05-02T00:27:00Z",
     "DateCreated": "2023-03-26T14:49:00Z",
     "SubmissionStatusTypeID": 200
 }

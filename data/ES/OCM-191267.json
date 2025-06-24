@@ -17,13 +17,13 @@
             "DateCreated": "2023-01-05T12:43:00Z"
         }
     ],
-    "DateLastVerified": "2023-01-05T12:43:00Z",
+    "DateLastVerified": "2025-04-21T20:29:00Z",
     "ID": 191267,
     "UUID": "E981CD12-EC00-44A2-B45F-A9F41E804954",
     "DataProviderID": 1,
     "OperatorID": 3559,
     "UsageTypeID": 5,
-    "UsageCost": "0,35€/kWh + parking fee",
+    "UsageCost": "0,55€/kWh DC- 0,39€/kWh AC + parking fee",
     "AddressInfo": {
         "ID": 191626,
         "Title": "Parking - Hospital La Concepción",
@@ -39,20 +39,31 @@
     "Connections": [
         {
             "ID": 310438,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 3
+            "Quantity": 9
+        },
+        {
+            "ID": 592625,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 900,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 13,
     "GeneralComments": "parking level -1",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-05T12:43:00Z",
+    "DateLastStatusUpdate": "2025-04-21T20:29:00Z",
     "DateCreated": "2022-02-01T17:23:00Z",
     "SubmissionStatusTypeID": 200
 }

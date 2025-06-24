@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 46012,
+            "ChargePointID": 298171,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM298171/OCM-298171.orig.2025051220005539.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM298171/OCM-298171.thmb.2025051220005539.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-05-12T20:01:00Z"
+        },
+        {
             "ID": 42192,
             "ChargePointID": 298171,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM298171/OCM-298171.orig.2024050310401437.jpg",
@@ -17,15 +33,16 @@
             "DateCreated": "2024-05-03T10:40:00Z"
         }
     ],
-    "DateLastVerified": "2024-05-10T08:24:00Z",
+    "DateLastVerified": "2025-05-12T20:01:00Z",
     "ID": 298171,
     "UUID": "3186B202-4D85-47D7-9F70-F08DA9B85B7C",
     "DataProviderID": 1,
     "OperatorID": 3459,
     "UsageTypeID": 4,
+    "UsageCost": "0,54€/kWh",
     "AddressInfo": {
         "ID": 298558,
-        "Title": "Avenida de Urraca I de León",
+        "Title": "Ayunt. de Cañizal",
         "AddressLine1": "Avenida de Urraca I de León",
         "Town": "Cañizal",
         "StateOrProvince": "Castilla y León",
@@ -38,14 +55,19 @@
         {
             "ID": 543918,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 75,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Power electronics NB120 Charger. Max power limited to 75kW for both outlets."
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-05-10T08:24:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-05-12T20:01:00Z",
     "DateCreated": "2024-05-03T10:36:00Z",
     "SubmissionStatusTypeID": 200
 }

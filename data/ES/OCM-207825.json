@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-05-10T19:12:00Z",
+    "DateLastVerified": "2024-12-25T22:35:00Z",
     "ID": 207825,
     "UUID": "C3C28BCE-D51C-4C33-973A-DE6D3ADB7FB0",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,55€/kWh ",
     "AddressInfo": {
         "ID": 208205,
         "Title": "PETROMIRALLES",
@@ -14,8 +14,8 @@
         "StateOrProvince": "Catalonia",
         "Postcode": "08040",
         "CountryID": 210,
-        "Latitude": 41.328498358556004,
-        "Longitude": 2.156047846689148,
+        "Latitude": 41.32834280092763,
+        "Longitude": 2.1563249466019556,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,32 +24,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 345927,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 345928,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2024-05-10T19:12:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-12-25T22:35:00Z",
     "DateCreated": "2022-10-12T19:34:00Z",
     "SubmissionStatusTypeID": 200
 }

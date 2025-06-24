@@ -1,38 +1,59 @@
 {
-    "DateLastVerified": "2024-09-01T17:35:00Z",
+    "MediaItems": [
+        {
+            "ID": 46455,
+            "ChargePointID": 213653,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM213653/OCM-213653.orig.2025053014183881.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM213653/OCM-213653.thmb.2025053014183881.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 24819,
+                "Username": "Wild Rice"
+            },
+            "DateCreated": "2025-05-30T14:19:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-05-30T16:08:00Z",
     "ID": 213653,
     "UUID": "A8928BC0-14AB-4708-B3B9-6AED1B35C419",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 1,
-    "UsageCost": "$0.50 per kWh",
+    "UsageCost": "$0.85 per kWh",
     "AddressInfo": {
         "ID": 214033,
-        "Title": "TOCEVA Racing Biofill",
-        "AddressLine1": "Garling Street",
+        "Title": "O'Conner eLumina",
+        "AddressLine1": "103 Garling Street",
         "AddressLine2": "O'connor",
+        "Town": "O'Connor",
         "StateOrProvince": "Western Australia",
-        "Postcode": "6183",
+        "Postcode": "6163",
         "CountryID": 18,
-        "Latitude": -32.057442507764414,
-        "Longitude": 115.80080093030847,
-        "AccessComments": "08:00 - 17:00 weekdays",
+        "Latitude": -32.05769635660518,
+        "Longitude": 115.80085112663926,
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 355889,
             "ConnectionTypeID": 33,
+            "Reference": "4435",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 80,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Please be advised the charger relies on a 150kWh battery and at times of high use it reduces charge rates and when this battery is depleted charging will stop.",
     "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2024-09-01T17:35:00Z",
+    "DateLastStatusUpdate": "2025-05-30T16:08:00Z",
     "DateCreated": "2023-02-08T15:46:00Z",
     "SubmissionStatusTypeID": 200
 }

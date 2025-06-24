@@ -66,12 +66,13 @@
             "DateCreated": "2021-04-19T14:39:00Z"
         }
     ],
-    "DateLastVerified": "2021-04-19T14:39:00Z",
+    "DateLastVerified": "2025-06-04T16:51:00Z",
     "ID": 174936,
     "UUID": "944C081A-F497-4B1C-B644-06400175AF4E",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 6,
+    "UsageCost": "Consumption-based by kWh",
     "AddressInfo": {
         "ID": 175295,
         "Title": "Hotel Mioni Pezzato",
@@ -81,20 +82,58 @@
         "CountryID": 112,
         "Latitude": 45.349185,
         "Longitude": 11.777651,
-        "RelatedURL": "https://www.forumelettrico.it/forum/hotel-terme-mioni-pezzato-montegrotto-pd-t11073.html",
+        "ContactTelephone1": " +39 049 866-8377",
+        "AccessComments": "RFID card available at office",
+        "RelatedURL": "https://www.hotelmionipezzato.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 271079,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
+            "Reference": "RFID card available at office",
             "LevelID": 2,
-            "PowerKW": 3
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11
+        },
+        {
+            "ID": 603428,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 603429,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 603430,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-04-19T14:39:00Z",
+    "DateLastStatusUpdate": "2025-06-04T16:51:00Z",
     "DateCreated": "2021-04-19T14:38:00Z",
     "SubmissionStatusTypeID": 200
 }

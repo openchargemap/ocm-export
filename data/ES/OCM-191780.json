@@ -49,13 +49,13 @@
             "DateCreated": "2022-11-12T11:37:00Z"
         }
     ],
-    "DateLastVerified": "2024-10-12T13:57:00Z",
+    "DateLastVerified": "2025-04-21T20:33:00Z",
     "ID": 191780,
     "UUID": "19395A31-1F74-453C-8586-DFD94EAA99BC",
     "DataProviderID": 1,
     "OperatorID": 3559,
     "UsageTypeID": 5,
-    "UsageCost": "0,45€/kWh DC, 0,35€/kWh AC + parking fee",
+    "UsageCost": "0,55€/kWh DC- 0,39€/kWh AC + parking fee",
     "AddressInfo": {
         "ID": 192139,
         "Title": "Parking - Plaza de Colón (Telepark)",
@@ -71,11 +71,12 @@
     "Connections": [
         {
             "ID": 311483,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "Quantity": 24
+            "CurrentTypeID": 20,
+            "Quantity": 10
         },
         {
             "ID": 348294,
@@ -88,11 +89,20 @@
             "CurrentTypeID": 30,
             "Quantity": 4,
             "Comments": "Four Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW)."
+        },
+        {
+            "ID": 600828,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 28,
+    "NumberOfPoints": 18,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-10-12T13:57:00Z",
+    "DateLastStatusUpdate": "2025-04-21T20:33:00Z",
     "DateCreated": "2022-02-28T14:28:00Z",
     "SubmissionStatusTypeID": 200
 }

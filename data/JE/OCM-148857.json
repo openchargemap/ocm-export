@@ -1,26 +1,31 @@
 {
-    "DateLastVerified": "2020-02-11T14:21:00Z",
+    "DateLastVerified": "2025-01-06T17:10:00Z",
     "ID": 148857,
     "UUID": "75866D4E-8C3F-41E8-9352-A9DD08CD7DFD",
     "DataProviderID": 1,
-    "OperatorID": 20,
+    "OperatorID": 3288,
     "OperatorsReference": "CM12847",
-    "UsageTypeID": 4,
-    "UsageCost": "07:00-23:59 £0.21/kWh min £2.00;00:00-06:59 £0.11/kWh min £2.00",
+    "UsageTypeID": 1,
+    "UsageCost": "07:00-23:59: 24p / kWh,  00:00-06:59: 12p / kWh",
     "AddressInfo": {
         "ID": 149209,
-        "Title": "Evolve At St Aubin",
-        "AddressLine1": "Evolve At St Aubin",
+        "Title": "St Aubin's village car park",
+        "AddressLine1": "St Aubin's village",
+        "AddressLine2": "La Neuve Route",
+        "Town": "St Brelade",
         "Postcode": "JE3 8AF",
         "CountryID": 115,
         "Latitude": 49.18797,
         "Longitude": -2.16984,
+        "ContactTelephone1": "+44 1534 505238",
+        "RelatedURL": "https://www.evolve.je/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 206711,
             "ConnectionTypeID": 25,
+            "Reference": "171471, 171472",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -28,11 +33,21 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 587003,
+            "ConnectionTypeID": 33,
+            "Reference": "269143, 269144",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-02-11T14:21:00Z",
+    "DateLastStatusUpdate": "2025-01-06T17:10:00Z",
     "DateCreated": "2020-02-11T14:21:00Z",
     "SubmissionStatusTypeID": 200
 }

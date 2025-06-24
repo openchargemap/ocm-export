@@ -1,5 +1,55 @@
 {
-    "DateLastVerified": "2021-11-09T03:59:00Z",
+    "MediaItems": [
+        {
+            "ID": 45778,
+            "ChargePointID": 189866,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM189866/OCM-189866.orig.2025042209032819.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM189866/OCM-189866.thmb.2025042209032819.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-22T09:04:00Z"
+        },
+        {
+            "ID": 45776,
+            "ChargePointID": 189866,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM189866/OCM-189866.orig.2025042209030146.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM189866/OCM-189866.thmb.2025042209030146.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-22T09:03:00Z"
+        },
+        {
+            "ID": 45777,
+            "ChargePointID": 189866,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM189866/OCM-189866.orig.2025042209031431.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM189866/OCM-189866.thmb.2025042209031431.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-22T09:03:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-04-28T10:59:00Z",
     "ID": 189866,
     "UUID": "23B3AE2B-44E7-4551-B380-AD25D6EA031F",
     "DataProviderID": 1,
@@ -7,7 +57,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 190225,
-        "Title": "Comfort Charge - Pirna",
+        "Title": "Comfortcharge Ladestation",
         "AddressLine1": "Prof.-Roßmäßler-Straße 45",
         "Town": "Pirna",
         "StateOrProvince": "Saxony",
@@ -24,15 +74,17 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 100,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 307300,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 307301,
@@ -40,7 +92,8 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 307302,
@@ -48,12 +101,13 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-09T03:59:00Z",
+    "DateLastStatusUpdate": "2025-04-28T10:59:00Z",
     "DateCreated": "2021-11-08T09:02:00Z",
     "SubmissionStatusTypeID": 200
 }

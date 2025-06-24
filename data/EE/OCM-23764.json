@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2014-05-28T20:36:00Z",
+    "DateLastVerified": "2025-03-29T03:34:00Z",
     "ID": 23764,
     "UUID": "401D9F82-2DD1-4765-B017-EE3E1962BC7B",
     "DataProviderID": 1,
     "OperatorID": 76,
     "UsageTypeID": 1,
-    "UsageCost": "5€/up to 60min",
+    "UsageCost": "0.32€/kWh + 0.1€/min after 60 minutes",
     "AddressInfo": {
         "ID": 24109,
-        "Title": "Tallinn-Pirita-2",
-        "AddressLine1": "Merivälja tee",
+        "Title": "Tallinn Merivälja tee 20 (CH10002)",
+        "AddressLine1": "Merivälja tee 20",
         "AddressLine2": "Pirita linnaosa",
         "Town": "Tallinn",
         "StateOrProvince": "Harju maakond",
@@ -19,37 +19,25 @@
         "Longitude": 24.83419998639011,
         "ContactTelephone1": "+372 6511911",
         "ContactEmail": "tugi@elmo.ee",
-        "RelatedURL": "http://www.elmo.ee",
+        "RelatedURL": "https://account.enefitvolt.com/findCharger?59.4674150,24.8343060,20z,Tallinn%20Meriv%C3%A4lja%20tee%2020,298si",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 25768,
-            "ConnectionTypeID": 2,
+            "ID": 600096,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 120,
-            "Voltage": 500,
-            "PowerKW": 50,
+            "PowerKW": 47,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 25769,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "0.1€/min time fee after 60 minutes"
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Opened 24h (automatic). \r\nReal-time condition information (operational/not operational/free) - www.elmo.ee \r\nCan pay with client card, SMS or mobile application. \r\nCharger number 37037",
+    "GeneralComments": "Opened 24h (automatic). ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2014-05-28T20:36:00Z",
+    "DateLastStatusUpdate": "2025-03-29T03:34:00Z",
     "DateCreated": "2014-05-28T20:36:00Z",
     "SubmissionStatusTypeID": 200
 }

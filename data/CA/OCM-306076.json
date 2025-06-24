@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-11-16T09:59:00Z",
+    "DateLastVerified": "2025-04-10T08:32:00Z",
     "ID": 306076,
     "UUID": "5A9F5E0D-B43A-4E1F-B0A5-B01B4CA13A60",
     "DataProviderID": 1,
     "OperatorID": 3488,
-    "UsageTypeID": 2,
-    "UsageCost": "$0.50/kWh",
+    "UsageTypeID": 5,
+    "UsageCost": "1-50 kW $0.40/min; 1-100 kW $0.47/min; 1-150 kW $0.55/min",
     "AddressInfo": {
         "ID": 306465,
         "Title": "Jule - Loblaws Etobicoke",
@@ -16,7 +16,7 @@
         "CountryID": 44,
         "Latitude": 43.6443,
         "Longitude": -79.55927,
-        "ContactTelephone1": "1-855-567-5853",
+        "ContactTelephone1": "1-800-507-5000",
         "AccessComments": "Available 24/7",
         "RelatedURL": "https://www.julepower.com/resources/ev-driver#map",
         "DistanceUnit": 0
@@ -24,27 +24,27 @@
     "Connections": [
         {
             "ID": 580284,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 75,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 580285,
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 200,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 7
+            "Quantity": 4
+        },
+        {
+            "ID": 580285,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 8,
     "GeneralComments": "Payment with a credit card directly at the charger (mobile app not required and not available).",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-11-16T09:59:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-04-10T08:32:00Z",
     "DateCreated": "2024-11-15T07:17:00Z",
     "SubmissionStatusTypeID": 200
 }

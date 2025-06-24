@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-07-16T08:30:00Z",
+    "MediaItems": [
+        {
+            "ID": 45162,
+            "ChargePointID": 301159,
+            "ItemURL": "https://media.openchargemap.io/images/IE/OCM301159/OCM-301159.orig.2025022712363754.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IE/OCM301159/OCM-301159.thmb.2025022712363754.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 15963,
+                "Username": "thommcg"
+            },
+            "DateCreated": "2025-02-27T12:37:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-02-27T12:37:00Z",
     "ID": 301159,
     "UUID": "E919169C-3673-407C-BEF5-4609CC113AC9",
     "DataProviderID": 1,
@@ -7,20 +25,21 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 301546,
-        "Title": "Gateway Hotel",
-        "AddressLine1": "Dundalk Inner Relief Road",
+        "Title": "Gateway Hotel (Rear)",
+        "AddressLine1": "Inner Relief Rd",
         "Town": "Dundalk",
         "StateOrProvince": "Co. Louth",
         "Postcode": "",
         "CountryID": 3,
-        "Latitude": 53.98026308171612,
-        "Longitude": -6.389091467551225,
+        "Latitude": 53.98064310887938,
+        "Longitude": -6.3881806130030725,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 562419,
             "ConnectionTypeID": 33,
+            "Reference": "WN333",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 120,
@@ -30,16 +49,17 @@
         {
             "ID": 562420,
             "ConnectionTypeID": 25,
+            "Reference": "WN335; WN336",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 11,
             "CurrentTypeID": 20,
-            "Quantity": 6
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-16T08:30:00Z",
+    "DateLastStatusUpdate": "2025-02-27T12:37:00Z",
     "DateCreated": "2024-07-16T08:30:00Z",
     "SubmissionStatusTypeID": 200
 }

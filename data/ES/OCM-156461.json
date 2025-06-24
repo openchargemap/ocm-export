@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-10-25T12:55:00Z",
+    "DateLastVerified": "2025-01-03T16:34:00Z",
     "ID": 156461,
     "UUID": "4F7DA247-8CB5-49D6-8F83-F62CE7E7CEEE",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 1,
-    "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,55€/kWh DC - 0,45€/kWh AC",
     "AddressInfo": {
         "ID": 156815,
         "Title": "E.S. Petromiralles Tarrega",
@@ -15,8 +15,8 @@
         "StateOrProvince": "Lleida",
         "Postcode": "25300",
         "CountryID": 210,
-        "Latitude": 41.66282191343356,
-        "Longitude": 1.133278794070975,
+        "Latitude": 41.66279777469046,
+        "Longitude": 1.1328853452882868,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,16 +25,19 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         },
         {
             "ID": 220170,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 20,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -45,12 +48,21 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 586761,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 20,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "App JuicePass",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-25T12:55:00Z",
+    "DateLastStatusUpdate": "2025-01-03T16:34:00Z",
     "DateCreated": "2020-05-21T15:59:00Z",
     "SubmissionStatusTypeID": 200
 }

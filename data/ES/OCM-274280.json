@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-05-17T20:04:00Z",
+    "DateLastVerified": "2025-05-05T12:44:00Z",
     "ID": 274280,
     "UUID": "B900BB00-AC3C-4A67-B585-39B15F6B30C1",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
-    "UsageCost": "",
+    "OperatorID": 91,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/KWh + 0,05€/min after 3 hours charging",
     "AddressInfo": {
         "ID": 274664,
         "Title": "Ayunt. Pozuelo de Zarzón (DipCa)",
@@ -23,24 +23,27 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 1000,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Ingeteam Rapid 60 Charger"
         },
         {
             "ID": 475441,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 475442,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -50,8 +53,8 @@
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Diputación de Cáceres",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-05-17T20:04:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-05-05T12:44:00Z",
     "DateCreated": "2023-09-06T19:51:00Z",
     "SubmissionStatusTypeID": 200
 }

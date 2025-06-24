@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2021-11-22T10:22:00Z",
+    "MediaItems": [
+        {
+            "ID": 45610,
+            "ChargePointID": 190129,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190129/OCM-190129.orig.2025041407543822.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190129/OCM-190129.thmb.2025041407543822.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-14T07:55:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-04-28T11:06:00Z",
     "ID": 190129,
     "UUID": "F07513F2-C9EC-42CE-9A42-EF31FEBC5976",
     "DataProviderID": 1,
@@ -7,7 +25,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 190488,
-        "Title": "Comfort Charge - Falkensee",
+        "Title": "Comfortcharge Ladestation",
         "AddressLine1": "Scharenbergstraße 16",
         "Town": "Falkensee",
         "StateOrProvince": "Brandenburg",
@@ -23,24 +41,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 308078,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 308079,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 308080,
@@ -48,12 +60,13 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-22T10:22:00Z",
+    "DateLastStatusUpdate": "2025-04-28T11:06:00Z",
     "DateCreated": "2021-11-22T09:59:00Z",
     "SubmissionStatusTypeID": 200
 }

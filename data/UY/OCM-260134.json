@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-04-17T07:40:00Z",
+    "DateLastVerified": "2025-05-30T03:39:00Z",
     "ID": 260134,
     "UUID": "6590C390-E5D5-4B13-BE88-FB7BC9A753F2",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 4,
+    "UsageCost": "Tarifa UTE",
     "AddressInfo": {
         "ID": 260518,
         "Title": "Punta del Este - Parada 5",
@@ -15,6 +16,8 @@
         "CountryID": 237,
         "Latitude": -34.94201672181768,
         "Longitude": -54.93234317665093,
+        "ContactTelephone1": "1930",
+        "RelatedURL": "https://movilidad.ute.com.uy/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,31 +26,13 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 437526,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 4
         },
         {
             "ID": 437527,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 437528,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -56,8 +41,9 @@
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "24 hs",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-17T07:40:00Z",
+    "DateLastStatusUpdate": "2025-05-30T03:39:00Z",
     "DateCreated": "2023-04-17T06:04:00Z",
     "SubmissionStatusTypeID": 200
 }

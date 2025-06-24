@@ -51,25 +51,26 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "DateLastVerified": "2024-12-05T06:43:00Z",
+    "DateLastVerified": "2025-04-28T11:02:00Z",
     "ID": 30327,
     "UUID": "EC554466-2343-4EC2-B757-34361963C79F",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "",
+    "OperatorsReference": "52",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.79/kWh,AC: £0.49/kWh",
+    "UsageCost": "DC (contactless): £0.85/kWh, DC (GRIDSERVE app): £0.79/kWh, AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 30673,
-        "Title": "Birch Moto M62 (W) Services",
-        "AddressLine1": "Between Junc 18 and 19",
+        "Title": "MOTO Birch Westbound Services",
+        "AddressLine1": "M62 Motorway Westbound, Jct 18/19",
         "Town": "Heywood",
         "StateOrProvince": "Lancashire",
         "Postcode": "OL10 2HQ",
         "CountryID": 1,
         "Latitude": 53.5675541502285,
         "Longitude": -2.22983376152957,
-        "RelatedURL": "https://electrichighway.gridserve.com/?location=birch-westbound-services",
+        "ContactTelephone1": "+44 800 240 4242",
+        "RelatedURL": "https://electrichighway.gridserve.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -190,47 +191,7 @@
             "Quantity": 1
         },
         {
-            "ID": 584008,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10590*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 100,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 584009,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10589*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 100,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 584610,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10591*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 100,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 585356,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10590*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 585357,
+            "ID": 593927,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10591*1",
             "StatusTypeID": 50,
@@ -240,9 +201,29 @@
             "Quantity": 1
         },
         {
-            "ID": 585358,
+            "ID": 594033,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10589*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 594272,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10589*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 594273,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10590*1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 350,
@@ -252,7 +233,7 @@
     ],
     "NumberOfPoints": 11,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-12-05T06:43:00Z",
+    "DateLastStatusUpdate": "2025-04-28T11:02:00Z",
     "DateCreated": "2014-12-05T21:02:00Z",
     "SubmissionStatusTypeID": 200
 }

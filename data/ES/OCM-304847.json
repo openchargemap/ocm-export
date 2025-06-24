@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-10-02T09:34:00Z",
+    "MediaItems": [
+        {
+            "ID": 46592,
+            "ChargePointID": 304847,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM304847/OCM-304847.orig.2025060906455386.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM304847/OCM-304847.thmb.2025060906455386.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-06-09T06:46:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-06-09T06:46:00Z",
     "ID": 304847,
     "UUID": "0822F6D1-B64C-49B9-96B9-DD3C458FD853",
     "DataProviderID": 1,
@@ -24,11 +42,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 900,
-            "PowerKW": 90,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Alpitronic Hypercharger HYC300 DC chargers that allows charging one vehicle at 300kW, or two simultaneous charges at 150kW. "
         },
         {
             "ID": 577036,
@@ -44,7 +63,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-10-02T09:34:00Z",
+    "DateLastStatusUpdate": "2025-06-09T06:46:00Z",
     "DateCreated": "2024-10-02T09:34:00Z",
     "SubmissionStatusTypeID": 200
 }

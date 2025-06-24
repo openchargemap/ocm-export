@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 30283,
+            "ChargePointID": 224749,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "2 of 3 posts have dark screens. ",
+            "DateCreated": "2025-01-31T16:56:28.497Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 29614,
             "ChargePointID": 224749,
             "CommentTypeID": 1000,
@@ -57,11 +71,28 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2024-03-27T05:30:00Z",
+    "MediaItems": [
+        {
+            "ID": 44971,
+            "ChargePointID": 224749,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM224749/OCM-224749.orig.2025013116541002.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM224749/OCM-224749.thmb.2025013116541002.jpg",
+            "Comment": "screen is dark",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "DateCreated": "2025-01-31T16:54:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-01-31T16:56:00Z",
     "ID": 224749,
     "UUID": "766AF426-DC47-4976-AAD8-C0DD609B205F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "233171",
+    "DataProviderID": 1,
     "OperatorID": 59,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -84,16 +115,16 @@
             "ID": 375898,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7.2,
             "CurrentTypeID": 10,
             "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-03-27T05:30:00Z",
+    "DateLastStatusUpdate": "2025-01-31T16:56:00Z",
     "DateCreated": "2023-02-13T05:13:00Z",
     "SubmissionStatusTypeID": 100
 }

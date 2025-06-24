@@ -1,0 +1,109 @@
+{
+    "MediaItems": [
+        {
+            "ID": 44475,
+            "ChargePointID": 307213,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM307213/OCM-307213.orig.2024121908080077.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM307213/OCM-307213.thmb.2024121908080077.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-12-19T08:08:00Z"
+        }
+    ],
+    "DateLastVerified": "2024-12-19T08:31:00Z",
+    "ID": 307213,
+    "UUID": "C4B8A6C9-F97C-469B-8DEA-AC381F8CD955",
+    "DataProviderID": 1,
+    "OperatorID": 91,
+    "UsageTypeID": 4,
+    "UsageCost": "0,54€/kWh DC>100kW  0,47€/kWh DC - 0,35€/kWh AC ",
+    "AddressInfo": {
+        "ID": 307602,
+        "Title": "Repsol Garraf Norte",
+        "AddressLine1": "C32",
+        "CountryID": 210,
+        "Latitude": 41.22070405470521,
+        "Longitude": 1.6761468733351421,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 586118,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 586119,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 586120,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 586121,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
+        },
+        {
+            "ID": 586122,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "ABB Terra184 Charger. The DC charger CCS/Chademo allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. "
+        },
+        {
+            "ID": 586131,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 6,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2024-12-19T08:31:00Z",
+    "DateCreated": "2024-12-19T08:03:00Z",
+    "SubmissionStatusTypeID": 200
+}

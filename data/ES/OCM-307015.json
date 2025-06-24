@@ -1,0 +1,78 @@
+{
+    "DateLastVerified": "2024-12-13T20:47:00Z",
+    "ID": 307015,
+    "UUID": "881BDF30-6DC9-487C-A9F4-368F58265DF9",
+    "DataProviderID": 1,
+    "OperatorID": 3508,
+    "UsageTypeID": 4,
+    "UsageCost": "0,68€/kWh DC 360kW - 0,48€/kWh DC - 0,41€/kWh AC",
+    "AddressInfo": {
+        "ID": 307404,
+        "Title": "P.C. La Serena (Villanueva de la Serena)",
+        "AddressLine1": "Avenida de Antonio Mera Lozano",
+        "Town": "Villanueva de la Serena",
+        "StateOrProvince": "Extremadura",
+        "Postcode": "06700",
+        "CountryID": 210,
+        "Latitude": 38.96910013272591,
+        "Longitude": -5.807822851674587,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 585829,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
+        },
+        {
+            "ID": 585830,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 585831,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 500,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 585832,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 585833,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 10
+        }
+    ],
+    "NumberOfPoints": 16,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-12-13T20:47:00Z",
+    "DateCreated": "2024-12-13T20:47:00Z",
+    "SubmissionStatusTypeID": 200
+}

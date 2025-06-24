@@ -28,14 +28,14 @@
             "CheckinStatusTypeID": 10
         }
     ],
-    "DateLastVerified": "2024-12-05T06:21:00Z",
+    "DateLastVerified": "2025-04-28T10:59:00Z",
     "ID": 31330,
     "UUID": "AC7CE56B-3D50-4ACE-BED7-5F95811A3CBA",
     "DataProviderID": 1,
     "OperatorID": 24,
-    "OperatorsReference": "171",
+    "OperatorsReference": "",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.79/kWh,AC: £0.49/kWh",
+    "UsageCost": "DC (contactless): £0.85/kWh, DC (GRIDSERVE app): £0.79/kWh, AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 31676,
         "Title": "Todhills Moto M6 (S) Services",
@@ -47,7 +47,8 @@
         "CountryID": 1,
         "Latitude": 54.951549,
         "Longitude": -2.978617,
-        "RelatedURL": "https://electrichighway.gridserve.com/?location=todhills-southbound-services",
+        "ContactTelephone1": "+44 800 240 4242",
+        "RelatedURL": "https://electrichighway.gridserve.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -138,7 +139,27 @@
             "Quantity": 1
         },
         {
-            "ID": 584934,
+            "ID": 591425,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10653*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 591821,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10652*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 594384,
             "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS10652*1",
             "StatusTypeID": 50,
@@ -148,7 +169,7 @@
             "Quantity": 1
         },
         {
-            "ID": 585204,
+            "ID": 594385,
             "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS10653*1",
             "StatusTypeID": 50,
@@ -160,7 +181,7 @@
     ],
     "NumberOfPoints": 9,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-12-05T06:21:00Z",
+    "DateLastStatusUpdate": "2025-04-28T10:59:00Z",
     "DateCreated": "2015-01-03T15:25:00Z",
     "SubmissionStatusTypeID": 200
 }

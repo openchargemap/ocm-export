@@ -1,36 +1,98 @@
 {
-    "DateLastVerified": "2022-10-28T15:31:00Z",
+    "MediaItems": [
+        {
+            "ID": 46548,
+            "ChargePointID": 208785,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM208785/OCM-208785.orig.2025060811060509.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM208785/OCM-208785.thmb.2025060811060509.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-06-08T11:06:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-06-08T11:06:00Z",
     "ID": 208785,
     "UUID": "B6E9C531-448F-4E3E-90FF-4EC91FDB2E6C",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "free",
+    "UsageCost": "0,54€/kWh DC>100kW  0,47€/kWh DC - 0,35€/kWh AC",
     "AddressInfo": {
         "ID": 209165,
-        "Title": "Sercotel Ciudad de Burgos",
+        "Title": "Hotel Ciudad de Burgos",
         "AddressLine1": "Autopista del Norte",
         "StateOrProvince": "Castilla y León",
         "Postcode": "09192",
         "CountryID": 210,
-        "Latitude": 42.381213266790155,
-        "Longitude": -3.5839024397450885,
+        "Latitude": 42.38099011587224,
+        "Longitude": -3.584192690439181,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 347398,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 375,
+            "Voltage": 920,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3,
+            "Comments": "Three Circutor Raption150C CCS/Chademo Chargers "
+        },
+        {
+            "ID": 586790,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 3,
+            "Comments": "Circutor Raption150C CCS/Chademo Chargers"
+        },
+        {
+            "ID": 586791,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 3,
+            "Comments": "Three Circutor Raption50 CCS/Chademo Chargers"
+        },
+        {
+            "ID": 586792,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 3,
+            "Comments": "Circutor Raption50 CCS/Chademo Chargers"
+        },
+        {
+            "ID": 586793,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 10
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 10,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-28T15:31:00Z",
+    "DateLastStatusUpdate": "2025-06-08T11:06:00Z",
     "DateCreated": "2022-10-21T06:19:00Z",
     "SubmissionStatusTypeID": 200
 }

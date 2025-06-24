@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2023-11-21T20:54:00Z",
+    "DateLastVerified": "2025-05-01T20:16:00Z",
     "ID": 204066,
     "UUID": "8B1584B5-86B8-4B82-BDB8-09F829B11732",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "",
+    "UsageTypeID": 5,
+    "UsageCost": "0,46€/kWh",
     "AddressInfo": {
         "ID": 204433,
-        "Title": "Carrefour Sedaví",
+        "Title": "Carrefour Alfafar ",
         "AddressLine1": "Avinguda dels Reis Catòlics",
         "Town": "Alfafar",
         "StateOrProvince": "Comunitat Valenciana",
@@ -21,17 +21,42 @@
     "Connections": [
         {
             "ID": 341032,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 12
+        },
+        {
+            "ID": 601499,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 601500,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 601501,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 20,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-21T20:54:00Z",
+    "DateLastStatusUpdate": "2025-05-01T20:16:00Z",
     "DateCreated": "2022-09-25T10:28:00Z",
     "SubmissionStatusTypeID": 200
 }

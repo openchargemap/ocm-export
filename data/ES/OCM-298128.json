@@ -1,37 +1,40 @@
 {
-    "DateLastVerified": "2024-05-02T11:23:00Z",
+    "DateLastVerified": "2025-05-01T08:41:00Z",
     "ID": 298128,
     "UUID": "9E448826-7068-4BF7-A76B-A0872AF45B56",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 6,
-    "UsageCost": "0,39€/kWh",
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 298515,
-        "Title": "CTM (AC)",
+        "Title": "CTM (Privado)",
         "AddressLine1": "Calle 52",
         "AddressLine2": "Villa de Vallecas",
         "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28018",
         "CountryID": 210,
-        "Latitude": 40.36479876847807,
-        "Longitude": -3.654561883118248,
+        "Latitude": 40.36575463878049,
+        "Longitude": -3.655030051368726,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 543587,
-            "ConnectionTypeID": 25,
+            "ID": 592058,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 10
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 400,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC400 Chargers. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. Max 500A, charging power limited to 200kW for 400V cars"
         }
     ],
-    "NumberOfPoints": 10,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-05-02T11:23:00Z",
+    "DateLastStatusUpdate": "2025-05-01T08:41:00Z",
     "DateCreated": "2024-05-02T11:17:00Z",
     "SubmissionStatusTypeID": 200
 }

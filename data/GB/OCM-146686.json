@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 30571,
+            "ChargePointID": 146686,
+            "CommentTypeID": 50,
+            "UserName": "Ezra",
+            "Comment": "Parking charges now apply in this car park. £1/hour or £4 all day (over 3 hours). See https://www.bradford.gov.uk/transport-and-travel/parking/car-parks-in-idle/ ",
+            "DateCreated": "2025-06-13T12:31:10.417Z",
+            "User": {
+                "ID": 52602,
+                "Username": "Ezra"
+            },
+            "CheckinStatusTypeID": 200,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 22038,
             "ChargePointID": 146686,
             "CommentTypeID": 10,
@@ -32,13 +46,13 @@
             "DateCreated": "2020-01-13T20:30:00Z"
         }
     ],
-    "DateLastVerified": "2020-01-13T20:58:00Z",
+    "DateLastVerified": "2025-06-16T12:29:00Z",
     "ID": 146686,
     "UUID": "0D921386-0748-441A-B20A-AA6F5FFF4A2C",
     "DataProviderID": 1,
     "OperatorID": 150,
-    "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.83 / kWh",
     "AddressInfo": {
         "ID": 147038,
         "Title": "The Green Car Park",
@@ -48,30 +62,36 @@
         "StateOrProvince": "England",
         "Postcode": "BD10 9PT",
         "CountryID": 1,
-        "Latitude": 53.835411520320946,
-        "Longitude": -1.730033328565014,
-        "ContactTelephone1": "+44 333 666 0059",
-        "RelatedURL": "https://ev.engie.co.uk",
+        "Latitude": 53.83510610905546,
+        "Longitude": -1.7298996180154518,
+        "ContactTelephone1": "08009994240",
+        "ContactTelephone2": "+44 333 666 0059",
+        "AccessComments": "Parking charges apply in this car park £1/hour or £4/all day. See https://www.bradford.gov.uk/transport-and-travel/parking/car-parks-in-idle/",
+        "RelatedURL": "https://www.geniepoint.co.uk/ds/PublicMap",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 203964,
             "ConnectionTypeID": 2,
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": ""
         },
         {
             "ID": 203965,
             "ConnectionTypeID": 33,
+            "Reference": "ENG0124",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": ""
         },
         {
             "ID": 203966,
@@ -80,13 +100,14 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": ""
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "Engie rapid charger, 50kW DC, AC is a 22 Kw Socket. One bay for general use, one bay for taxis. Both Free to charge. ev.engie.co.uk  £10 overstay fee after 75 mins, then £10 every subsequent 75 mins. completely free to use until 29th October 2021.",
+    "GeneralComments": "Engie rapid charger, 50kW DC, AC is a 22 Kw Socket. One bay for general use, one bay for taxis. £10 overstay fee after after 240 mins, then £10.00 every subsequent 240 mins.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-13T20:58:00Z",
+    "DateLastStatusUpdate": "2025-06-16T12:29:00Z",
     "DateCreated": "2020-01-13T20:30:00Z",
     "SubmissionStatusTypeID": 200
 }

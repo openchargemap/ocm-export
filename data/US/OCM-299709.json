@@ -1,11 +1,43 @@
 {
-    "DateLastVerified": "2024-06-03T04:28:00Z",
+    "UserComments": [
+        {
+            "ID": 30549,
+            "ChargePointID": 299709,
+            "CommentTypeID": 1000,
+            "UserName": "Programmin",
+            "Comment": "Card reader did not connect on one of the stations, the left station.",
+            "Rating": 4,
+            "DateCreated": "2025-06-02T05:48:22.68Z",
+            "User": {
+                "ID": 42341,
+                "Username": "Programmin"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 30309,
+            "ChargePointID": 299709,
+            "CommentTypeID": 10,
+            "UserName": "Programmin",
+            "Comment": "Works tap cc to charge",
+            "Rating": 5,
+            "DateCreated": "2025-02-16T19:21:02.19Z",
+            "User": {
+                "ID": 42341,
+                "Username": "Programmin"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2025-06-02T05:48:00Z",
     "ID": 299709,
     "UUID": "F5B7928A-F1CB-4BF0-80C0-2E5B93F7C13C",
     "DataProviderID": 1,
     "OperatorID": 3788,
     "UsageTypeID": 5,
-    "UsageCost": "0.48/kwh",
+    "UsageCost": "0.48/kWh",
     "AddressInfo": {
         "ID": 300096,
         "Title": "AMPM",
@@ -16,7 +48,7 @@
         "CountryID": 2,
         "Latitude": 44.08473846485691,
         "Longitude": -123.04102665764947,
-        "AccessComments": "Shell Recharge app works to start it.",
+        "AccessComments": "Bp Pulse app or credit/debit card",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -33,14 +65,22 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 41,
-            "Quantity": 2
+            "PowerKW": 63,
+            "Quantity": 1
+        },
+        {
+            "ID": 599787,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 75,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Two dual Chademo/CCS fast charge stations, CCS working well when I visited.",
+    "GeneralComments": "One Chademo/CCS, one dual CCS 150s, operational as of 03/15/25",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-06-03T04:28:00Z",
+    "DateLastStatusUpdate": "2025-06-02T05:48:00Z",
     "DateCreated": "2024-06-03T04:28:00Z",
     "SubmissionStatusTypeID": 200
 }

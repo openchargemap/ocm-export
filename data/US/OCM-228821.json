@@ -1,9 +1,27 @@
 {
-    "DateLastVerified": "2024-02-20T10:29:00Z",
+    "MediaItems": [
+        {
+            "ID": 44943,
+            "ChargePointID": 228821,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM228821/OCM-228821.orig.2025012622121600.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM228821/OCM-228821.thmb.2025012622121600.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2025-01-26T22:12:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-01-26T22:12:00Z",
     "ID": 228821,
     "UUID": "4FF8CBFE-D92F-4D82-BEB3-7DC1F6BB113A",
-    "DataProviderID": 2,
-    "DataProvidersReference": "233038",
+    "DataProviderID": 1,
+    "OperatorID": 3372,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 229204,
@@ -22,26 +40,32 @@
     },
     "Connections": [
         {
-            "ID": 380417,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 380418,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
+        },
+        {
+            "ID": 589482,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 1000,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:29:00Z",
+    "DateLastStatusUpdate": "2025-01-26T22:12:00Z",
     "DateCreated": "2023-02-13T05:25:00Z",
     "SubmissionStatusTypeID": 100
 }

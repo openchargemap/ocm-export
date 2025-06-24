@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-02-20T09:49:00Z",
+    "DateLastVerified": "2025-06-24T07:09:00Z",
     "ID": 241289,
     "UUID": "01BB2813-CBB5-4FEE-AEFB-6EF39D1166FE",
     "DataProviderID": 2,
     "DataProvidersReference": "253286",
     "OperatorID": 3542,
-    "UsageTypeID": 5,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 241673,
         "Title": "LA Fitness Baldwin Park",
@@ -14,11 +14,11 @@
         "StateOrProvince": "CA",
         "Postcode": "91706",
         "CountryID": 2,
-        "Latitude": 34.0694000824774,
-        "Longitude": -117.974659388003,
-        "ContactTelephone1": "866-300-3827",
-        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
-        "RelatedURL": "https://evcs.com",
+        "Latitude": 34.069344,
+        "Longitude": -117.974542,
+        "ContactTelephone1": "1-866-300-3827",
+        "AccessComments": "",
+        "RelatedURL": "https://www.evcs.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,12 +30,30 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 8,
+            "Quantity": 12,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 770484,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 770485,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T09:49:00Z",
+    "DateLastStatusUpdate": "2025-06-24T07:09:00Z",
     "DateCreated": "2023-03-07T03:37:00Z",
     "SubmissionStatusTypeID": 100
 }

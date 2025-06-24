@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-01-22T12:51:00Z",
+    "MediaItems": [
+        {
+            "ID": 46117,
+            "ChargePointID": 212673,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM212673/OCM-212673.orig.2025051310311549.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM212673/OCM-212673.thmb.2025051310311549.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-05-13T10:31:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-05-13T10:33:00Z",
     "ID": 212673,
     "UUID": "44777659-6212-456F-8F06-F3E621E11586",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
-    "UsageCost": "free",
+    "OperatorID": 3459,
+    "UsageTypeID": 4,
+    "UsageCost": "0,43€/kWh",
     "AddressInfo": {
         "ID": 213053,
         "Title": "Ayunt. Quart de Poblet - Biblioteca Pública",
@@ -24,34 +42,35 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": ""
         },
         {
-            "ID": 354122,
+            "ID": 602295,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
+            "LevelID": 1,
+            "PowerKW": 1,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 354123,
-            "ConnectionTypeID": 25,
+            "ID": 602296,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
+            "LevelID": 3,
+            "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-22T12:51:00Z",
+    "DateLastStatusUpdate": "2025-05-13T10:33:00Z",
     "DateCreated": "2023-01-22T12:51:00Z",
     "SubmissionStatusTypeID": 200
 }

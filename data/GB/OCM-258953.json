@@ -1,22 +1,24 @@
 {
-    "DateLastVerified": "2023-11-30T09:51:00Z",
+    "DateLastVerified": "2025-04-28T11:02:00Z",
     "ID": 258953,
     "UUID": "2A0599BE-F32D-462D-AD89-904296703F2C",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "GB*GRD*EGS10370*1,GB*GRD*EGS10370*2,GB*GRD*EGS10370*3",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.79/kWh",
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 259337,
         "Title": "Liverpool John Lennon Airport",
-        "AddressLine1": "Long Stay Disabled Car Park",
+        "AddressLine1": "Car Park",
         "Town": "Liverpool",
+        "StateOrProvince": "Merseyside",
         "Postcode": "L24 1YD",
         "CountryID": 1,
         "Latitude": 53.338364,
         "Longitude": -2.854186,
-        "RelatedURL": "https://electrichighway.gridserve.com/liverpool-john-lennon-airport",
+        "ContactTelephone1": "+44 800 240 4242",
+        "RelatedURL": "https://gridserve.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,6 +28,8 @@
             "Reference": "GB*GRD*EGS10370*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -36,6 +40,8 @@
             "Reference": "GB*GRD*EGS10370*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -47,15 +53,16 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 230,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "The GRIDSERVE charging station at Liverpool John Lennon Airport provides rapid charging located in the airport car park. The hub is perfect for fast, reliable and convenient EV charging in Liverpool.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-30T09:51:00Z",
+    "DateLastStatusUpdate": "2025-04-28T11:02:00Z",
     "DateCreated": "2023-03-26T14:57:00Z",
     "SubmissionStatusTypeID": 200
 }

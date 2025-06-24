@@ -31,6 +31,54 @@
     ],
     "MediaItems": [
         {
+            "ID": 45548,
+            "ChargePointID": 190141,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190141/OCM-190141.orig.2025040811553737.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190141/OCM-190141.thmb.2025040811553737.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-08T11:56:00Z"
+        },
+        {
+            "ID": 45547,
+            "ChargePointID": 190141,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190141/OCM-190141.orig.2025040811552504.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190141/OCM-190141.thmb.2025040811552504.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-08T11:55:00Z"
+        },
+        {
+            "ID": 45503,
+            "ChargePointID": 190141,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190141/OCM-190141.orig.2025040710350401.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM190141/OCM-190141.thmb.2025040710350401.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-04-07T10:35:00Z"
+        },
+        {
             "ID": 37441,
             "ChargePointID": 190141,
             "ItemURL": "https://media.openchargemap.io/images/DE/OCM190141/OCM-190141.orig.2023042310205659.jpg",
@@ -79,7 +127,7 @@
             "DateCreated": "2023-04-23T10:19:00Z"
         }
     ],
-    "DateLastVerified": "2023-04-23T10:21:00Z",
+    "DateLastVerified": "2025-04-28T11:06:00Z",
     "ID": 190141,
     "UUID": "03DC4667-0EC9-48F5-B8F0-6B15D5181D9B",
     "DataProviderID": 1,
@@ -87,7 +135,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 190500,
-        "Title": "Comfort Charge - Erftstadt/Erper Straße",
+        "Title": "Comfortcharge Ladestation",
         "AddressLine1": "Erper Straße 4",
         "Town": "Erftstadt",
         "StateOrProvince": "North Rhine-Westphalia",
@@ -104,15 +152,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 100,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 308123,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 2
         },
         {
             "ID": 308124,
@@ -120,7 +161,8 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 308125,
@@ -128,12 +170,13 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-23T10:21:00Z",
+    "DateLastStatusUpdate": "2025-04-28T11:06:00Z",
     "DateCreated": "2021-11-22T15:46:00Z",
     "SubmissionStatusTypeID": 200
 }

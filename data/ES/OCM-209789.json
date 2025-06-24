@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-11-07T13:22:00Z",
+    "DateLastVerified": "2025-04-21T20:18:00Z",
     "ID": 209789,
     "UUID": "B87BCE10-56F3-4FDD-AC9A-875DCB663F7B",
     "DataProviderID": 1,
     "OperatorID": 3559,
     "UsageTypeID": 5,
-    "UsageCost": "0,35€/kWh + parking fee",
+    "UsageCost": "0,55€/kWh DC - 0,39€/kWh AC + parking fee",
     "AddressInfo": {
         "ID": 210169,
         "Title": "Parking Okendo San Sebastian (Telepark)",
@@ -21,17 +21,29 @@
     "Connections": [
         {
             "ID": 349113,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 9
+            "Quantity": 19
+        },
+        {
+            "ID": 600827,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 900,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "EKOEnergetyca AXON SAT-400 CCS Satellite chargers (peak 500A) that dynamically share the total power of the cabinet AXON SIDE 360kW."
         }
     ],
-    "NumberOfPoints": 9,
+    "NumberOfPoints": 23,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-11-07T13:22:00Z",
+    "DateLastStatusUpdate": "2025-04-21T20:18:00Z",
     "DateCreated": "2022-11-07T13:22:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2024-06-18T19:13:00Z",
+    "MediaItems": [
+        {
+            "ID": 45000,
+            "ChargePointID": 280330,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM280330/OCM-280330.orig.2025020321464170.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM280330/OCM-280330.thmb.2025020321464170.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-02-03T21:47:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-03-15T22:40:00Z",
     "ID": 280330,
     "UUID": "2F751F22-AC88-4DA7-8617-B36B8221F0CA",
     "DataProviderID": 1,
     "OperatorID": 3489,
     "UsageTypeID": 4,
-    "UsageCost": "0,54€/kWh",
+    "UsageCost": "0,49€/kWh",
     "AddressInfo": {
         "ID": 280717,
         "Title": "C.C. Plaza Loranca 2",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28942",
         "CountryID": 210,
-        "Latitude": 40.301418483932736,
-        "Longitude": -3.8316163092582656,
+        "Latitude": 40.30139410008337,
+        "Longitude": -3.831510922230251,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,10 +44,10 @@
             "LevelID": 3,
             "Amps": 500,
             "Voltage": 1000,
-            "PowerKW": 300,
+            "PowerKW": 400,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "Four Hypercharger HYC300 DC chargers that allows charging one vehicle at 300kW, or two simultaneous charges at 150kW. (max power is limited for 400V cars)"
+            "Quantity": 10,
+            "Comments": "Five Hypercharger HYC400 DC chargers that allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. (max power is limited to 200kW for 400V cars)"
         },
         {
             "ID": 549114,
@@ -41,21 +59,13 @@
             "PowerKW": 80,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": " Hypercharger HYC300 DC chargers "
-        },
-        {
-            "ID": 549115,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 4
+            "Comments": " Hypercharger HYC300 DC charger"
         }
     ],
-    "NumberOfPoints": 8,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-06-18T19:13:00Z",
+    "NumberOfPoints": 10,
+    "GeneralComments": "payment with credit card / apps",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-03-15T22:40:00Z",
     "DateCreated": "2023-11-23T18:20:00Z",
     "SubmissionStatusTypeID": 200
 }

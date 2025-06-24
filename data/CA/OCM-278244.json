@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-02-20T10:52:00Z",
+    "DateLastVerified": "2025-06-24T08:13:00Z",
     "ID": 278244,
     "UUID": "524B6CD5-9814-47F9-ABB6-20E5846A26DD",
     "DataProviderID": 2,
@@ -14,26 +14,35 @@
         "StateOrProvince": "QC",
         "Postcode": "G5V 3X7",
         "CountryID": 44,
-        "Latitude": 46.96917,
-        "Longitude": -70.57895,
+        "Latitude": 46.96918248835229,
+        "Longitude": -70.5788754468137,
         "ContactTelephone1": "855-999-8378",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://lecircuitelectrique.com/",
+        "RelatedURL": "https://lecircuitelectrique.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 480889,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 771336,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 4,
+            "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:52:00Z",
+    "DateLastStatusUpdate": "2025-06-24T08:13:00Z",
     "DateCreated": "2023-09-28T05:32:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,10 +1,28 @@
 {
-    "DateLastVerified": "2014-07-09T14:38:00Z",
+    "MediaItems": [
+        {
+            "ID": 45416,
+            "ChargePointID": 24160,
+            "ItemURL": "https://media.openchargemap.io/images/NL/OCM24160/OCM-24160.orig.2025032616260031.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/NL/OCM24160/OCM-24160.thmb.2025032616260031.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57484,
+                "Username": "Nils de Bruin"
+            },
+            "DateCreated": "2025-03-26T16:26:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-03-31T03:14:00Z",
     "ID": 24160,
     "UUID": "6E21AA15-B8DC-4791-84FB-CE6FE1AF7209",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 0,
+    "OperatorID": 108,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 24505,
         "Title": "Kiplaan",
@@ -14,14 +32,33 @@
         "StateOrProvince": "Stadsgewest Haaglanden",
         "Postcode": "2566SM",
         "CountryID": 159,
-        "Latitude": 52.0785507,
-        "Longitude": 4.25092110000003,
+        "Latitude": 52.07874034626201,
+        "Longitude": 4.251171909319083,
         "DistanceUnit": 0
     },
-    "Connections": [],
-    "NumberOfPoints": 1,
+    "Connections": [
+        {
+            "ID": 600147,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 600148,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2014-07-09T14:38:00Z",
+    "DateLastStatusUpdate": "2025-03-31T03:14:00Z",
     "DateCreated": "2014-07-09T14:21:00Z",
     "SubmissionStatusTypeID": 200
 }

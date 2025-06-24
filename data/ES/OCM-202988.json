@@ -17,13 +17,13 @@
             "DateCreated": "2023-06-14T06:36:00Z"
         }
     ],
-    "DateLastVerified": "2023-06-14T06:36:00Z",
+    "DateLastVerified": "2025-02-10T14:56:00Z",
     "ID": 202988,
     "UUID": "3AAD8AAB-0000-41AE-903A-6FD5CAB1B453",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,35€/kWh DC & AC",
     "AddressInfo": {
         "ID": 203355,
         "Title": "Motor Gómez",
@@ -34,6 +34,9 @@
         "CountryID": 210,
         "Latitude": 40.630240885616274,
         "Longitude": -3.9980345878940398,
+        "ContactTelephone1": "800 760 255",
+        "ContactTelephone2": "+34 937 06 15 25",
+        "RelatedURL": "https://www.endesaxway.com/es/es/nuestra-oferta/estaciones-de-recarga-publicas",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -51,23 +54,24 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 42,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "limited to 42kW in App but it actually didn't deliver over 30"
         },
         {
             "ID": 339330,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 42,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-14T06:36:00Z",
+    "DateLastStatusUpdate": "2025-02-10T14:56:00Z",
     "DateCreated": "2022-09-14T06:23:00Z",
     "SubmissionStatusTypeID": 200
 }

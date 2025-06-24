@@ -1,21 +1,22 @@
 {
-    "DateLastVerified": "2024-12-04T06:23:00Z",
+    "DateLastVerified": "2025-04-28T11:02:00Z",
     "ID": 258821,
     "UUID": "29D76000-5982-4A8B-B1BF-8371C4063987",
     "DataProviderID": 1,
     "OperatorID": 24,
     "OperatorsReference": "11",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.79/kWh,AC: £0.49/kWh",
+    "UsageCost": "DC (contactless): £0.85/kWh, DC (GRIDSERVE app): £0.79/kWh, AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 259205,
         "Title": "Moto Kinross Services",
-        "AddressLine1": "Moto Kinross Services",
+        "AddressLine1": "Motorway, Jct 6, Perthshire",
         "Postcode": "KY13 0NQ",
         "CountryID": 1,
         "Latitude": 56.20945,
         "Longitude": -3.43958,
-        "RelatedURL": "https://electrichighway.gridserve.com/?location=kinross-services",
+        "ContactTelephone1": "+44 800 240 4242",
+        "RelatedURL": "https://electrichighway.gridserve.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -94,39 +95,39 @@
             "Quantity": 1
         },
         {
-            "ID": 584692,
-            "ConnectionTypeID": 33,
-            "Reference": "GB*GRD*EGS10626*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 350,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 584693,
-            "ConnectionTypeID": 33,
+            "ID": 591664,
+            "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS10625*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 585030,
-            "ConnectionTypeID": 33,
+            "ID": 591666,
+            "ConnectionTypeID": 2,
             "Reference": "GB*GRD*EGS10627*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 350,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 593438,
+            "ConnectionTypeID": 2,
+            "Reference": "GB*GRD*EGS10626*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 9,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-12-04T06:23:00Z",
+    "DateLastStatusUpdate": "2025-04-28T11:02:00Z",
     "DateCreated": "2023-03-26T14:50:00Z",
     "SubmissionStatusTypeID": 200
 }

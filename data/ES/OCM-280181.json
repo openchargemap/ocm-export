@@ -1,6 +1,38 @@
 {
     "MediaItems": [
         {
+            "ID": 44851,
+            "ChargePointID": 280181,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM280181/OCM-280181.orig.2025010715445678.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM280181/OCM-280181.thmb.2025010715445678.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-01-07T15:45:00Z"
+        },
+        {
+            "ID": 44852,
+            "ChargePointID": 280181,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM280181/OCM-280181.orig.2025010715451362.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM280181/OCM-280181.thmb.2025010715451362.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-01-07T15:45:00Z"
+        },
+        {
             "ID": 40579,
             "ChargePointID": 280181,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM280181/OCM-280181.orig.2023112022255167.jpg",
@@ -17,13 +49,13 @@
             "DateCreated": "2023-11-20T22:26:00Z"
         }
     ],
-    "DateLastVerified": "2023-11-20T22:26:00Z",
+    "DateLastVerified": "2025-01-07T15:46:00Z",
     "ID": 280181,
     "UUID": "6BF484DC-5CC5-4DB4-A612-6FF7B2D359A5",
     "DataProviderID": 1,
     "OperatorID": 3583,
     "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh DC - 0,29€/kWh AC",
+    "UsageCost": "0,43€/kWh DC - 0,32€/kWh AC",
     "AddressInfo": {
         "ID": 280568,
         "Title": "C.C. N4",
@@ -47,7 +79,7 @@
             "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Power electronics NB120 Charger (peak 500A). The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
+            "Comments": "Power Electronics NB120 Charger (peak 500A). The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         },
         {
             "ID": 487370,
@@ -66,11 +98,32 @@
             "PowerKW": 30,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 587017,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
+            "Comments": "Three Wallbox Supernova 150 Chargers. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW"
+        },
+        {
+            "ID": 587018,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 150,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 25
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 31,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-20T22:26:00Z",
+    "DateLastStatusUpdate": "2025-01-07T15:46:00Z",
     "DateCreated": "2023-11-20T22:23:00Z",
     "SubmissionStatusTypeID": 200
 }

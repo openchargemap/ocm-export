@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 30321,
+            "ChargePointID": 280178,
+            "CommentTypeID": 10,
+            "UserName": "Lanny",
+            "Comment": "Only 2 of the 4 chargers shows as available in the SWTCH app. Charger 1 is non-functional even with an RFID card. Charger 2, E1051, initiated via the app after a call to SWTCH customer service. Charger 3, E1039, was in use. Charger 4 continues to display 'Under Maintenance' on the screen and is still absent from the SWTCH app.",
+            "DateCreated": "2025-02-28T16:48:48.313Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 29287,
             "ChargePointID": 280178,
             "CommentTypeID": 1000,
@@ -15,11 +29,11 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2023-11-20T19:57:00Z",
+    "DateLastVerified": "2025-05-19T09:46:00Z",
     "ID": 280178,
     "UUID": "82A8A699-D5A2-4D15-B3E8-25D06599096B",
     "DataProviderID": 1,
-    "OperatorID": 59,
+    "OperatorID": 3493,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 280565,
@@ -31,12 +45,15 @@
         "CountryID": 2,
         "Latitude": 39.18720884133896,
         "Longitude": -76.67766823536769,
+        "ContactTelephone1": "8447982438",
+        "RelatedURL": "https://swtchenergy.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 487362,
             "ConnectionTypeID": 32,
+            "Reference": "BGE",
             "StatusTypeID": 75,
             "LevelID": 3,
             "Voltage": 440,
@@ -47,6 +64,7 @@
         {
             "ID": 487363,
             "ConnectionTypeID": 2,
+            "Reference": "BGE",
             "StatusTypeID": 75,
             "LevelID": 3,
             "Voltage": 440,
@@ -57,7 +75,7 @@
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-20T19:57:00Z",
+    "DateLastStatusUpdate": "2025-05-19T09:46:00Z",
     "DateCreated": "2023-11-20T19:56:00Z",
     "SubmissionStatusTypeID": 200
 }

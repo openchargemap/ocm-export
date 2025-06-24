@@ -1,23 +1,24 @@
 {
-    "DateLastVerified": "2024-12-05T06:22:00Z",
+    "DateLastVerified": "2025-04-28T10:59:00Z",
     "ID": 259023,
     "UUID": "51DE512F-170E-449C-A764-6CF3920917A2",
     "DataProviderID": 1,
-    "OperatorID": 24,
+    "OperatorID": 3430,
     "OperatorsReference": "59",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.79/kWh,AC: £0.49/kWh",
+    "UsageCost": "DC (contactless): £0.85/kWh, DC (GRIDSERVE app): £0.79/kWh, AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 259407,
         "Title": "Moto Woolley Edge Northbound Services",
-        "AddressLine1": "Moto Woolley Edge Northbound Services",
+        "AddressLine1": "Motorway Northbound, Jct 38/39, West Bretton",
         "AddressLine2": "Woolley",
         "Town": "Wakefield",
         "Postcode": "WF4 4LQ",
         "CountryID": 1,
         "Latitude": 53.622022,
         "Longitude": -1.550189,
-        "RelatedURL": "https://electrichighway.gridserve.com/?location=woolley-edge-northbound-services",
+        "ContactTelephone1": "+44 800 240 4242",
+        "RelatedURL": "http://gridserve.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,6 +28,8 @@
             "Reference": "GB*GRD*EGS10336*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -37,6 +40,8 @@
             "Reference": "GB*GRD*EGS10336*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -71,6 +76,8 @@
             "Reference": "GB*GRD*EGS11134*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -81,6 +88,8 @@
             "Reference": "GB*GRD*EGS10538*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -91,6 +100,8 @@
             "Reference": "GB*GRD*EGS10537*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -101,6 +112,8 @@
             "Reference": "GB*GRD*EGS11133*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -111,6 +124,8 @@
             "Reference": "GB*GRD*EGS11135*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -121,6 +136,8 @@
             "Reference": "GB*GRD*EGS10539*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -131,6 +148,8 @@
             "Reference": "GB*GRD*EGS11138*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -141,6 +160,8 @@
             "Reference": "GB*GRD*EGS11136*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -151,54 +172,52 @@
             "Reference": "GB*GRD*EGS11137*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 584481,
+            "ID": 593338,
             "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10540*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
-            "ID": 585242,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10540*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 100,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 585243,
-            "ConnectionTypeID": 2,
-            "Reference": "GB*GRD*EGS10542*1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 100,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 585244,
-            "ConnectionTypeID": 2,
+            "ID": 593339,
+            "ConnectionTypeID": 33,
             "Reference": "GB*GRD*EGS10541*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 100,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 593514,
+            "ConnectionTypeID": 33,
+            "Reference": "GB*GRD*EGS10542*1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 15,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-12-05T06:22:00Z",
+    "DateLastStatusUpdate": "2025-04-28T10:59:00Z",
     "DateCreated": "2023-03-26T19:55:00Z",
     "SubmissionStatusTypeID": 200
 }

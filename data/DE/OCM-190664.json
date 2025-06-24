@@ -1,5 +1,55 @@
 {
-    "DateLastVerified": "2021-12-17T09:14:00Z",
+    "MediaItems": [
+        {
+            "ID": 45259,
+            "ChargePointID": 190664,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM190664/OCM-190664.orig.2025031315195860.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM190664/OCM-190664.thmb.2025031315195860.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-03-13T15:20:00Z"
+        },
+        {
+            "ID": 45260,
+            "ChargePointID": 190664,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM190664/OCM-190664.orig.2025031315200866.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM190664/OCM-190664.thmb.2025031315200866.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-03-13T15:20:00Z"
+        },
+        {
+            "ID": 45261,
+            "ChargePointID": 190664,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM190664/OCM-190664.orig.2025031315201956.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM190664/OCM-190664.thmb.2025031315201956.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-03-13T15:20:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-03-29T03:34:00Z",
     "ID": 190664,
     "UUID": "24E60CA1-66A9-446E-BB27-C8B1D1731627",
     "DataProviderID": 1,
@@ -7,7 +57,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 191023,
-        "Title": "Comfort Charge - Dresden/Dorfhainer Straße",
+        "Title": "Comfortcharge Ladestation",
         "AddressLine1": "Dorfhainer Straße 43",
         "Town": "Dresden",
         "StateOrProvince": "Saxony",
@@ -23,16 +73,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 100,
-            "CurrentTypeID": 30
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 309201,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "PowerKW": 62.5,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 309202,
@@ -40,7 +92,8 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         },
         {
             "ID": 309203,
@@ -50,11 +103,20 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 600104,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-17T09:14:00Z",
+    "DateLastStatusUpdate": "2025-03-29T03:34:00Z",
     "DateCreated": "2021-12-16T12:02:00Z",
     "SubmissionStatusTypeID": 200
 }

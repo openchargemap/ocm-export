@@ -1,29 +1,40 @@
 {
-    "DateLastVerified": "2024-02-20T10:59:00Z",
+    "DateLastVerified": "2025-06-24T08:20:00Z",
     "ID": 250593,
     "UUID": "9B125BFD-2708-48A2-8728-C07BFC1CAC36",
     "DataProviderID": 2,
     "DataProvidersReference": "254958",
     "OperatorID": 3385,
-    "UsageTypeID": 2,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 250977,
-        "Title": "BC Hydro",
-        "AddressLine1": "#825 Highway 16",
+        "Title": "BC Hydro - Skidegate",
+        "AddressLine1": "#825 Hwy 16",
         "Town": "Skidegate",
         "StateOrProvince": "BC",
         "Postcode": "V0T 1Y0",
         "CountryID": 44,
-        "Latitude": 53.26237,
-        "Longitude": -131.994481,
-        "ContactTelephone1": "",
-        "AccessComments": "",
-        "RelatedURL": "https://www.bchydro.com/powersmart/electric-vehicles/charging/bc-hydro-ev-network.html",
+        "Latitude": 53.26266051237649,
+        "Longitude": -131.9948012681229,
+        "ContactTelephone1": "1-866-338-3369",
+        "AccessComments": "24 hours daily",
+        "RelatedURL": "https://electricvehicles.bchydro.com/charge/public-charging/our-fast-charging-network",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 417607,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 417608,
             "ConnectionTypeID": 2,
             "LevelID": 3,
             "PowerKW": 50,
@@ -32,7 +43,7 @@
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
-            "ID": 417608,
+            "ID": 771391,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "PowerKW": 50,
@@ -41,10 +52,8 @@
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
-    "DatePlanned": "2023-06-15T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-02-20T10:59:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-06-24T08:20:00Z",
     "DateCreated": "2023-03-07T06:05:00Z",
     "SubmissionStatusTypeID": 100
 }

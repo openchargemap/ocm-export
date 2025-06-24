@@ -1,39 +1,53 @@
 {
-    "DateLastVerified": "2017-10-27T09:40:00Z",
+    "DateLastVerified": "2025-01-06T17:11:00Z",
     "ID": 94793,
     "UUID": "AA02F9F1-D057-474F-9353-54805F36D173",
     "DataProviderID": 1,
     "OperatorID": 3288,
     "UsageTypeID": 4,
-    "UsageCost": "£10/month subscription",
+    "UsageCost": "07:00-23:59: 24p / kWh,  00:00-06:59: 12p / kWh",
     "AddressInfo": {
         "ID": 95139,
-        "Title": "B&Q",
-        "AddressLine1": "Rue des Canons",
-        "Town": "Saint Helier",
+        "Title": "B&Q underground car park",
+        "AddressLine1": "The Powerhouse",
+        "AddressLine2": "Queens Road",
+        "Town": "St Helier",
         "Postcode": "JE2 3PB",
         "CountryID": 115,
-        "Latitude": 49.20084334841022,
-        "Longitude": -2.1142428238342803,
-        "RelatedURL": "https://www.jec.co.uk/media/282474/guide-to-ev-charging-in-jersey.pdf",
+        "Latitude": 49.20077525139092,
+        "Longitude": -2.113774951912859,
+        "ContactTelephone1": "+44 1534 505238",
+        "RelatedURL": "https://www.evolve.je/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 133990,
             "ConnectionTypeID": 25,
+            "Reference": "156652, 156653, 156654, 156655, 156656, 156657",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 7,
+            "PowerKW": 22,
             "CurrentTypeID": 10,
-            "Quantity": 5
+            "Quantity": 6
+        },
+        {
+            "ID": 587007,
+            "ConnectionTypeID": 25,
+            "Reference": "156658, 156659",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Voltage": 230,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 5,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-10-27T09:40:00Z",
+    "DateLastStatusUpdate": "2025-01-06T17:11:00Z",
     "DateCreated": "2017-10-27T09:40:00Z",
     "SubmissionStatusTypeID": 200
 }

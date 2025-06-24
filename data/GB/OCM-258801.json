@@ -1,21 +1,25 @@
 {
-    "DateLastVerified": "2023-11-30T09:57:00Z",
+    "DateLastVerified": "2025-04-29T10:42:00Z",
     "ID": 258801,
     "UUID": "ED3BC438-D049-4FD4-AE25-938E76C0E7BF",
     "DataProviderID": 1,
-    "OperatorID": 24,
+    "OperatorID": 3430,
     "OperatorsReference": "GB*GRD*EGS10386*1,GB*GRD*EGS10386*2,GB*GRD*EGS10386*3,GB*GRD*EGS10387*1,GB*GRD*EGS10387*2",
     "UsageTypeID": 5,
-    "UsageCost": "DC: £0.79/kWh",
+    "UsageCost": "DC (contactless): £0.85/kWh, DC (GRIDSERVE app): £0.79/kWh, AC: £0.49/kWh",
     "AddressInfo": {
         "ID": 259185,
         "Title": "Welcome Break Warwick Northbound Services",
-        "AddressLine1": "Welcome Break Warwick Northbound Services",
+        "AddressLine1": "M40",
+        "AddressLine2": "Banbury Road",
+        "Town": "Warwick",
+        "StateOrProvince": "Warwickshire",
         "Postcode": "CV35 0AA",
         "CountryID": 1,
-        "Latitude": 52.216489,
-        "Longitude": -1.504808,
-        "RelatedURL": "https://electrichighway.gridserve.com/warwick-northbound-services",
+        "Latitude": 52.216453921147234,
+        "Longitude": -1.5052927416228385,
+        "ContactTelephone1": "+44 800 240 4242",
+        "RelatedURL": "https://gridserve.com",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,6 +29,8 @@
             "Reference": "GB*GRD*EGS10386*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -35,6 +41,8 @@
             "Reference": "GB*GRD*EGS10386*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -45,6 +53,8 @@
             "Reference": "GB*GRD*EGS10387*1",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -55,6 +65,8 @@
             "Reference": "GB*GRD*EGS10387*2",
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -66,15 +78,16 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
+            "Voltage": 230,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "The GRIDSERVE charging station at Warwick Northbound servicdes provides rapid charging located on the M40. Welcome Break Warwick is perfect for fast, reliable and convenient EV charging near Warwick.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-30T09:57:00Z",
+    "DateLastStatusUpdate": "2025-04-29T10:42:00Z",
     "DateCreated": "2023-03-26T14:49:00Z",
     "SubmissionStatusTypeID": 200
 }

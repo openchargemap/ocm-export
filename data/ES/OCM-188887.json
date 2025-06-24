@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 46417,
+            "ChargePointID": 188887,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM188887/OCM-188887.orig.2025053007155057.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM188887/OCM-188887.thmb.2025053007155057.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-05-30T07:16:00Z"
+        },
+        {
             "ID": 41257,
             "ChargePointID": 188887,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM188887/OCM-188887.orig.2024012308424951.jpg",
@@ -17,7 +33,7 @@
             "DateCreated": "2024-01-23T08:43:00Z"
         }
     ],
-    "DateLastVerified": "2024-10-09T13:58:00Z",
+    "DateLastVerified": "2025-05-30T07:16:00Z",
     "ID": 188887,
     "UUID": "3F5CAFFD-9CD5-481F-A3F7-C803A8C5BBF5",
     "DataProviderID": 1,
@@ -33,8 +49,8 @@
         "StateOrProvince": "Asturias",
         "Postcode": "33204",
         "CountryID": 210,
-        "Latitude": 43.52444772423661,
-        "Longitude": -5.636489569340711,
+        "Latitude": 43.52517220916732,
+        "Longitude": -5.636547684246267,
         "ContactTelephone1": "",
         "RelatedURL": "https://www.edpenergia.es/",
         "DistanceUnit": 0
@@ -45,12 +61,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 500,
+            "Amps": 600,
             "Voltage": 920,
-            "PowerKW": 150,
+            "PowerKW": 400,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Hypercharger HYC150  Charger. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW."
+            "Comments": "Alpitronic Hypercharger HYC400 Charger. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. Max 600A Peak, charging power limited to 240kW for 400V cars"
         },
         {
             "ID": 337392,
@@ -59,15 +75,16 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 25,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 8,
             "Comments": "Eigth Kempower CCS Satellite chargers that dynamically share the total power of the cabinet (200 kW)."
         }
     ],
     "NumberOfPoints": 10,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-10-09T13:58:00Z",
+    "GeneralComments": "To access the precint, call the intercom",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-05-30T07:16:00Z",
     "DateCreated": "2021-08-23T08:01:00Z",
     "SubmissionStatusTypeID": 200
 }

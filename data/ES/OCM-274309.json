@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-05-20T16:59:00Z",
+    "DateLastVerified": "2024-12-24T17:33:00Z",
     "ID": 274309,
     "UUID": "B796E3A5-3AE9-4CA2-B5BA-ED476E9F7C6A",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
-    "UsageCost": "",
+    "OperatorID": 91,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/KWh + 0,05€/min after 3 hours charging",
     "AddressInfo": {
         "ID": 274693,
         "Title": "Ayunt. Miajadas (DipCa)",
@@ -14,25 +14,34 @@
         "StateOrProvince": "Extremadura",
         "Postcode": "10100",
         "CountryID": 210,
-        "Latitude": 39.15117154646674,
-        "Longitude": -5.908610727941891,
+        "Latitude": 39.15489611205075,
+        "Longitude": -5.9020032903002,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 475492,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 586405,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Diputación de Cáceres",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-05-20T16:59:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2024-12-24T17:33:00Z",
     "DateCreated": "2023-09-07T10:31:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,10 +1,10 @@
 {
     "MediaItems": [
         {
-            "ID": 43497,
+            "ID": 46867,
             "ChargePointID": 207265,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM207265/OCM-207265.orig.2024090211353896.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM207265/OCM-207265.thmb.2024090211353896.jpg",
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207265/OCM-207265.orig.2025061914373754.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207265/OCM-207265.thmb.2025061914373754.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -14,13 +14,13 @@
                 "ID": 40036,
                 "Username": "lmjgarcia"
             },
-            "DateCreated": "2024-09-02T11:36:00Z"
+            "DateCreated": "2025-06-19T14:38:00Z"
         },
         {
-            "ID": 34976,
+            "ID": 46868,
             "ChargePointID": 207265,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM207265/OCM-207265.orig.2022100919113879.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM207265/OCM-207265.thmb.2022100919113879.jpg",
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207265/OCM-207265.orig.2025061914380709.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207265/OCM-207265.thmb.2025061914380709.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -30,10 +30,58 @@
                 "ID": 40036,
                 "Username": "lmjgarcia"
             },
-            "DateCreated": "2022-10-09T19:12:00Z"
+            "DateCreated": "2025-06-19T14:38:00Z"
+        },
+        {
+            "ID": 46869,
+            "ChargePointID": 207265,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207265/OCM-207265.orig.2025061914382055.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207265/OCM-207265.thmb.2025061914382055.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-06-19T14:38:00Z"
+        },
+        {
+            "ID": 46865,
+            "ChargePointID": 207265,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207265/OCM-207265.orig.2025061914362584.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207265/OCM-207265.thmb.2025061914362584.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-06-19T14:37:00Z"
+        },
+        {
+            "ID": 46866,
+            "ChargePointID": 207265,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207265/OCM-207265.orig.2025061914371923.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207265/OCM-207265.thmb.2025061914371923.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-06-19T14:37:00Z"
         }
     ],
-    "DateLastVerified": "2024-11-10T14:52:00Z",
+    "DateLastVerified": "2025-06-20T20:31:00Z",
     "ID": 207265,
     "UUID": "E1FA9634-B01C-4DD6-B452-C95316BE68FC",
     "DataProviderID": 1,
@@ -42,7 +90,7 @@
     "UsageCost": "0,69€/kWh >200kW - 0,54€/kWh 80-200kW - 0,45€/kWh 50kW   - 0,39€/kWh 22kW AC",
     "AddressInfo": {
         "ID": 207645,
-        "Title": "Parking estación de Parque Polvoranca",
+        "Title": "Parking Estación de Parque Polvoranca",
         "AddressLine1": "Calle de Móstoles",
         "Town": "Leganés",
         "StateOrProvince": "Community of Madrid",
@@ -63,7 +111,7 @@
             "PowerKW": 360,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "Charging power limited to 200kW for 400V cars"
+            "Comments": "8 Power electronics NBc500 dispensers coneted to a central NBi 1.4MW power Station (max power limited to 200kW for 400V cars)"
         },
         {
             "ID": 345093,
@@ -72,29 +120,34 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 920,
-            "PowerKW": 180,
+            "PowerKW": 240,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "Charging power limited to 120kW for 400V cars"
+            "Quantity": 7,
+            "Comments": "4 Power electronics NB240 Chargers. DC charger can charge one vehicle at 240kW or two simultaneuos charges at 120kW. Charging power limited to 120kW for 400V cars"
         },
         {
             "ID": 345094,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 900,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 12,
-            "Comments": "Ingeteam RAPID50 Charger"
+            "Quantity": 10,
+            "Comments": "Power electronics NB60 charger"
         },
         {
             "ID": 345095,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 10
+            "Quantity": 4,
+            "Comments": "Power electronics NB60 charger"
         },
         {
             "ID": 345096,
@@ -106,9 +159,9 @@
             "Quantity": 22
         }
     ],
-    "NumberOfPoints": 50,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-11-10T14:52:00Z",
+    "NumberOfPoints": 47,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-06-20T20:31:00Z",
     "DateCreated": "2022-10-09T19:10:00Z",
     "SubmissionStatusTypeID": 200
 }

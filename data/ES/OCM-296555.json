@@ -17,13 +17,13 @@
             "DateCreated": "2024-04-27T13:22:00Z"
         }
     ],
-    "DateLastVerified": "2024-04-27T13:22:00Z",
+    "DateLastVerified": "2025-04-05T07:32:00Z",
     "ID": 296555,
     "UUID": "4C11C7F6-2A22-4EED-8D75-69327399BAD3",
     "DataProviderID": 1,
     "OperatorID": 3371,
-    "UsageTypeID": 6,
-    "UsageCost": "0,38€/kWh",
+    "UsageTypeID": 4,
+    "UsageCost": "0,59€/kWh DC - 0,38€/kWh AC",
     "AddressInfo": {
         "ID": 296942,
         "Title": "Hotel Ibis Budget Madrid Aeropuerto",
@@ -44,11 +44,23 @@
             "PowerKW": 7.4,
             "CurrentTypeID": 10,
             "Quantity": 6
+        },
+        {
+            "ID": 600350,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 900,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "2 PowerElectronics NB240 charger (500A peak). Power is split between both outlets. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW."
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 10,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-04-27T13:22:00Z",
+    "DateLastStatusUpdate": "2025-04-05T07:32:00Z",
     "DateCreated": "2024-03-13T17:56:00Z",
     "SubmissionStatusTypeID": 200
 }

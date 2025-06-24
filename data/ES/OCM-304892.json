@@ -1,10 +1,29 @@
 {
-    "DateLastVerified": "2024-10-03T14:17:00Z",
+    "MediaItems": [
+        {
+            "ID": 46444,
+            "ChargePointID": 304892,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM304892/OCM-304892.orig.2025053012412640.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM304892/OCM-304892.thmb.2025053012412640.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-05-30T12:41:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-06-14T21:29:00Z",
     "ID": 304892,
     "UUID": "9664E6C0-B5B8-46A2-B2A6-1C71340CA18C",
     "DataProviderID": 1,
     "OperatorID": 3534,
     "UsageTypeID": 4,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 305281,
         "Title": "Tesla Supercharger Almazán",
@@ -13,8 +32,8 @@
         "StateOrProvince": "Castilla y León",
         "Postcode": "42020",
         "CountryID": 210,
-        "Latitude": 41.47103684798975,
-        "Longitude": -2.527941865148449,
+        "Latitude": 41.470622064144465,
+        "Longitude": -2.528511731757874,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,13 +46,14 @@
             "Voltage": 900,
             "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 8,
+            "Quantity": 4,
             "Comments": "v4"
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 4,
+    "GeneralComments": "4 V4 Superchargers 250kW (CCS). Max total power of the station 375kW",
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-10-03T14:17:00Z",
+    "DateLastStatusUpdate": "2025-06-14T21:29:00Z",
     "DateCreated": "2024-10-03T14:17:00Z",
     "SubmissionStatusTypeID": 200
 }

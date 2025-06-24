@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-07-09T07:20:00Z",
+    "DateLastVerified": "2025-04-29T12:56:00Z",
     "ID": 300737,
     "UUID": "6EA92083-9D5D-438F-AF24-DC6DB0684FBF",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 5,
-    "UsageCost": "",
+    "UsageTypeID": 4,
+    "UsageCost": "0,47€/kWh",
     "AddressInfo": {
         "ID": 301124,
         "Title": "Petronor Colindres",
@@ -20,17 +20,35 @@
     "Connections": [
         {
             "ID": 559860,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 601258,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 601259,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2024-07-09T07:20:00Z",
+    "NumberOfPoints": 1,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2025-04-29T12:56:00Z",
     "DateCreated": "2024-07-09T07:20:00Z",
     "SubmissionStatusTypeID": 200
 }

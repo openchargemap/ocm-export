@@ -1,10 +1,10 @@
 {
     "MediaItems": [
         {
-            "ID": 35371,
+            "ID": 44519,
             "ChargePointID": 70954,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM70954/OCM-70954.orig.2022111311165554.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM70954/OCM-70954.thmb.2022111311165554.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM70954/OCM-70954.orig.2024122513344104.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM70954/OCM-70954.thmb.2024122513344104.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -14,16 +14,80 @@
                 "ID": 40036,
                 "Username": "lmjgarcia"
             },
-            "DateCreated": "2022-11-13T11:17:00Z"
+            "DateCreated": "2024-12-25T13:35:00Z"
+        },
+        {
+            "ID": 44520,
+            "ChargePointID": 70954,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM70954/OCM-70954.orig.2024122513345313.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM70954/OCM-70954.thmb.2024122513345313.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-12-25T13:35:00Z"
+        },
+        {
+            "ID": 44517,
+            "ChargePointID": 70954,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM70954/OCM-70954.orig.2024122513303772.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM70954/OCM-70954.thmb.2024122513303772.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-12-25T13:31:00Z"
+        },
+        {
+            "ID": 44518,
+            "ChargePointID": 70954,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM70954/OCM-70954.orig.2024122513305145.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM70954/OCM-70954.thmb.2024122513305145.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-12-25T13:31:00Z"
+        },
+        {
+            "ID": 44514,
+            "ChargePointID": 70954,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM70954/OCM-70954.orig.2024122513295666.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM70954/OCM-70954.thmb.2024122513295666.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2024-12-25T13:30:00Z"
         }
     ],
-    "DateLastVerified": "2024-04-18T08:24:00Z",
+    "DateLastVerified": "2025-04-21T20:30:00Z",
     "ID": 70954,
     "UUID": "B70E084F-68AB-4F17-A819-390D186C52F9",
     "DataProviderID": 1,
     "OperatorID": 3559,
     "UsageTypeID": 5,
-    "UsageCost": "0,35€/kWh+parking fee",
+    "UsageCost": "0,55€/kWh DC- 0,39€/kWh AC + parking fee",
     "AddressInfo": {
         "ID": 71300,
         "Title": "Parking Empark Cortes",
@@ -31,27 +95,39 @@
         "StateOrProvince": "Comunidad de Madrid",
         "Postcode": "28014",
         "CountryID": 210,
-        "Latitude": 40.41571663052929,
-        "Longitude": -3.6961698642783176,
+        "Latitude": 40.41562719217214,
+        "Longitude": -3.695468509878083,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 101662,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 10
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 34
+        },
+        {
+            "ID": 586453,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 100,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 1000,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
+            "Comments": "Six EKOEnergetyca AXON SAT-400 CCS Satellite chargers (peak 500A) that dynamically share the total power of the cabinet AXON SIDE 360kW."
         }
     ],
-    "NumberOfPoints": 10,
-    "GeneralComments": "Telpark app is needed. Parking temporaly closed",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2024-04-18T08:24:00Z",
+    "NumberOfPoints": 40,
+    "GeneralComments": "Telpark app ",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-04-21T20:30:00Z",
     "DateCreated": "2016-08-21T18:23:00Z",
     "SubmissionStatusTypeID": 200
 }

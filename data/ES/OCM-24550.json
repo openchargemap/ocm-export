@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-05-05T08:58:00Z",
+    "DateLastVerified": "2025-05-16T14:23:00Z",
     "ID": 24550,
     "UUID": "4B1363D3-A765-4A2C-96EF-3A67218491B4",
     "DataProviderID": 1,
@@ -14,8 +14,8 @@
         "StateOrProvince": "Basque Country",
         "Postcode": "01003",
         "CountryID": 210,
-        "Latitude": 42.8493316546533,
-        "Longitude": -2.6485438814722215,
+        "Latitude": 42.84944908143464,
+        "Longitude": -2.6485173682278287,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -45,11 +45,23 @@
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 602380,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited to 150kW for 400V cars Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW."
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-05-05T08:58:00Z",
+    "DateLastStatusUpdate": "2025-05-16T14:23:00Z",
     "DateCreated": "2014-10-07T10:12:00Z",
     "SubmissionStatusTypeID": 200
 }

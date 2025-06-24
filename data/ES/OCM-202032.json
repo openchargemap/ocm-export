@@ -1,21 +1,21 @@
 {
-    "DateLastVerified": "2024-05-10T10:02:00Z",
+    "DateLastVerified": "2025-01-04T16:52:00Z",
     "ID": 202032,
     "UUID": "A5A3E030-0B9D-4AF6-8DF8-FE48713E9022",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,55kWh",
     "AddressInfo": {
         "ID": 202399,
-        "Title": "Petromilralles",
+        "Title": "E.S. Petromilralles Bera",
         "AddressLine1": "Carretera Pamplona - Behobia",
         "Town": "Bera/Vera de Bidasoa",
         "StateOrProvince": "Comunidad Foral de Navarra",
         "Postcode": "",
         "CountryID": 210,
-        "Latitude": 43.2762211169445,
-        "Longitude": -1.7008669877697002,
+        "Latitude": 43.27653229912377,
+        "Longitude": -1.7009539911325078,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,32 +24,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 900,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 337594,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 337595,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2024-05-10T10:02:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-01-04T16:52:00Z",
     "DateCreated": "2022-09-06T14:29:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-06-26T20:03:00Z",
+    "MediaItems": [
+        {
+            "ID": 46058,
+            "ChargePointID": 300255,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM300255/OCM-300255.orig.2025051221011670.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM300255/OCM-300255.thmb.2025051221011670.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-05-12T21:01:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-06-01T14:05:00Z",
     "ID": 300255,
     "UUID": "C590D99E-F759-404B-B3FE-DCD86BA9E8C6",
     "DataProviderID": 1,
@@ -8,7 +26,7 @@
     "UsageCost": "0,54€/kWh ",
     "AddressInfo": {
         "ID": 300642,
-        "Title": "Calle Santa Bárbara (Centro Salud)",
+        "Title": "Guardo (Centro Salud)",
         "AddressLine1": "Calle Santa Bárbara",
         "Town": "Guardo",
         "StateOrProvince": "Castilla y León",
@@ -24,16 +42,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 375,
+            "Amps": 250,
             "Voltage": 920,
-            "PowerKW": 150,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "XCharge C6EU 150 DC CCS charger. The charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW."
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-06-26T20:03:00Z",
+    "DateLastStatusUpdate": "2025-06-01T14:05:00Z",
     "DateCreated": "2024-06-26T19:52:00Z",
     "SubmissionStatusTypeID": 200
 }

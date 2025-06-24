@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2024-02-20T10:30:00Z",
+    "DateLastVerified": "2025-01-24T02:18:00Z",
     "ID": 294860,
     "UUID": "BF0C9C5F-D884-4CBF-AA3E-408BA91F5E5F",
-    "DataProviderID": 2,
-    "DataProvidersReference": "327934",
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 295247,
         "Title": "XCharge - CITGO Gas Station",
@@ -24,24 +24,31 @@
         {
             "ID": 526288,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
             "ID": 526289,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 1000,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:30:00Z",
+    "DateLastStatusUpdate": "2025-01-24T02:18:00Z",
     "DateCreated": "2024-02-20T10:30:00Z",
     "SubmissionStatusTypeID": 100
 }

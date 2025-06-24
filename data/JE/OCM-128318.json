@@ -1,27 +1,32 @@
 {
-    "DateLastVerified": "2020-03-13T15:31:00Z",
+    "DateLastVerified": "2025-01-06T17:11:00Z",
     "ID": 128318,
     "UUID": "C5D2631C-38FE-4347-B6AB-3A7B9804A904",
     "DataProviderID": 1,
-    "OperatorID": 20,
+    "OperatorID": 3288,
     "OperatorsReference": "80724",
-    "UsageTypeID": 4,
-    "UsageCost": "07:00-23:59 £0.21/kWh min £2.00;00:00-06:59 £0.11/kWh min £2.00. 00:00 to 06:59 = 11p per kWh. Minimum charge of £2",
+    "UsageTypeID": 1,
+    "UsageCost": "07:00-23:59: 24p / kWh,  00:00-06:59: 12p / kWh",
     "AddressInfo": {
         "ID": 128664,
-        "Title": "Evolve At El-Tico",
-        "AddressLine1": "Evolve At el",
+        "Title": "El-Tico",
+        "AddressLine1": "Grand Route des Mielles",
+        "AddressLine2": "St Ouen's Bay",
+        "Town": "St Peter",
         "Postcode": "JE3 7FN",
         "CountryID": 115,
         "Latitude": 49.2045,
         "Longitude": -2.222848,
+        "ContactTelephone1": "+44 1534 505238",
+        "RelatedURL": "https://www.evolve.je/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 179616,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 100,
+            "Reference": "171465, 171466",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
@@ -31,8 +36,8 @@
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2020-03-13T15:31:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-01-06T17:11:00Z",
     "DateCreated": "2019-06-22T05:16:00Z",
     "SubmissionStatusTypeID": 200
 }

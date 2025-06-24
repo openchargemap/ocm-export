@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-09-06T11:02:00Z",
+    "MediaItems": [
+        {
+            "ID": 46104,
+            "ChargePointID": 296651,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM296651/OCM-296651.orig.2025051310172579.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM296651/OCM-296651.thmb.2025051310172579.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-05-13T10:17:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-05-13T10:17:00Z",
     "ID": 296651,
     "UUID": "4585C68A-B654-467A-BF4E-23A39F1D1B23",
     "DataProviderID": 1,
@@ -23,17 +41,35 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 920,
-            "PowerKW": 100,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Ingeteam RAPID120 Charger.The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW. "
+            "Quantity": 1,
+            "Comments": ""
+        },
+        {
+            "ID": 602293,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 602294,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-09-06T11:02:00Z",
+    "DateLastStatusUpdate": "2025-05-13T10:17:00Z",
     "DateCreated": "2024-03-15T07:32:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -112,7 +112,7 @@
             "DateCreated": "2020-02-06T09:23:00Z"
         }
     ],
-    "DateLastVerified": "2024-09-06T10:56:00Z",
+    "DateLastVerified": "2025-04-27T22:08:00Z",
     "ID": 148255,
     "UUID": "605C994A-949B-43E4-AA8A-F78B0E1D0B7B",
     "DataProviderID": 1,
@@ -128,8 +128,8 @@
         "StateOrProvince": "Teruel",
         "Postcode": "44350 ",
         "CountryID": 210,
-        "Latitude": 40.83755896326201,
-        "Longitude": -1.3081470477814037,
+        "Latitude": 40.83750386321276,
+        "Longitude": -1.3081605516629793,
         "ContactTelephone1": "914047905",
         "ContactEmail": "info@cargacoches.com",
         "AccessComments": "App acciona recarga android and iOS",
@@ -146,13 +146,35 @@
             "Voltage": 900,
             "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Power electronics NB120 Charger. The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW"
+            "Quantity": 1,
+            "Comments": "Power electronics NB120 Charger. The CCS/Chademo charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW"
+        },
+        {
+            "ID": 601094,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 400,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 601095,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 900,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-09-06T10:56:00Z",
+    "DateLastStatusUpdate": "2025-04-27T22:08:00Z",
     "DateCreated": "2020-01-28T16:16:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,55 @@
 {
-    "DateLastVerified": "2021-12-17T09:16:00Z",
+    "MediaItems": [
+        {
+            "ID": 45254,
+            "ChargePointID": 190636,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM190636/OCM-190636.orig.2025031315122942.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM190636/OCM-190636.thmb.2025031315122942.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-03-13T15:13:00Z"
+        },
+        {
+            "ID": 45252,
+            "ChargePointID": 190636,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM190636/OCM-190636.orig.2025031315120552.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM190636/OCM-190636.thmb.2025031315120552.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-03-13T15:12:00Z"
+        },
+        {
+            "ID": 45253,
+            "ChargePointID": 190636,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM190636/OCM-190636.orig.2025031315121484.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM190636/OCM-190636.thmb.2025031315121484.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57097,
+                "Username": "L"
+            },
+            "DateCreated": "2025-03-13T15:12:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-03-29T03:34:00Z",
     "ID": 190636,
     "UUID": "6BE5BAD5-5C95-479D-AF2F-D0FDDDCB12AC",
     "DataProviderID": 1,
@@ -7,7 +57,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 190995,
-        "Title": "Comfort Charge - Döbeln",
+        "Title": "Comfortcharge Ladestation",
         "AddressLine1": "Arnd-Gennrich-Straße 4",
         "Town": "Döbeln",
         "StateOrProvince": "Saxony",
@@ -24,15 +74,17 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 309108,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 75,
-            "CurrentTypeID": 30
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 309109,
@@ -40,12 +92,13 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-17T09:16:00Z",
+    "DateLastStatusUpdate": "2025-03-29T03:34:00Z",
     "DateCreated": "2021-12-15T14:41:00Z",
     "SubmissionStatusTypeID": 200
 }
