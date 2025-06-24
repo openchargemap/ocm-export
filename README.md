@@ -14,8 +14,9 @@ To provide a granular view of change history over time per POI
 Create one commit per modified POI, with comment showing name of contributor and editor/approver
 
 ## Refreshing Data
-The export is performed by calling the main API with parameters `maxresults=200000&compact=true&verbose=false&includecomments=true`. The resulting single POI json file is split into files using: `node ./tools/parse-all/index.js`
+The export is performed by calling the main API in pages, with parameters `sortby=id_asc&greaterthanid=N&maxresults=1000&compact=true&verbose=false&includecomments=true`. The resulting single POI json file is split into files using: `node ./tools/parse-all/index.js`
 
+See refresh.bat for refresh process which you could optionally run yourself on your own local install. Data is downloaded to tmp, then parsed and copied into per-country directories as individual json files.
 
 ## Data Licensing Notes
 
