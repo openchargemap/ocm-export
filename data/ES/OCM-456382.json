@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2025-06-24T04:28:00Z",
+    "DateLastVerified": "2025-08-21T09:09:00Z",
     "ID": 456382,
     "UUID": "EBA42255-55BF-437B-A70A-542EFDB19A29",
-    "DataProviderID": 38,
-    "DataProvidersReference": "16382",
+    "DataProviderID": 1,
     "OperatorID": 3632,
     "UsageTypeID": 4,
     "AddressInfo": {
@@ -13,38 +12,28 @@
         "Town": "Palma",
         "Postcode": "07010",
         "CountryID": 210,
-        "Latitude": 39.59456253,
-        "Longitude": 2.64281893,
+        "Latitude": 39.594006894833996,
+        "Longitude": 2.6421664308409447,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 765652,
             "ConnectionTypeID": 33,
-            "Reference": "1",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 500,
-            "PowerKW": 100,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 765653,
-            "ConnectionTypeID": 33,
-            "Reference": "1",
+            "Reference": " ",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 240,
             "Voltage": 500,
             "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T04:28:00Z",
+    "DateLastStatusUpdate": "2025-08-21T09:09:00Z",
     "DateCreated": "2025-06-21T09:42:00Z",
     "SubmissionStatusTypeID": 200
 }

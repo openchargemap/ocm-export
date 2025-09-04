@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-06-25T07:46:00Z",
+    "MediaItems": [
+        {
+            "ID": 47110,
+            "ChargePointID": 299643,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IE/OCM299643/OCM-299643.orig.2025071903283213.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IE/OCM299643/OCM-299643.thmb.2025071903283213.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 15963,
+                "Username": "thommcg"
+            },
+            "DateCreated": "2025-07-19T03:29:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-07-19T03:29:00Z",
     "ID": 299643,
     "UUID": "6CC22387-85E3-40E3-B2D6-9E5FE1BBA628",
     "DataProviderID": 1,
@@ -7,31 +25,29 @@
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 300030,
-        "Title": "Applegreen, St Margret's Road",
+        "Title": "Applegreen St Margaret's",
         "AddressLine1": "Saint Margaret's Rd",
+        "Town": "Swords",
         "StateOrProvince": "Dublin 11",
         "CountryID": 3,
-        "Latitude": 53.41714317904987,
-        "Longitude": -6.307359515128098,
+        "Latitude": 53.417007131042254,
+        "Longitude": -6.306916971194937,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 552606,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "Quantity": 1
-        },
-        {
             "ID": 552607,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "Quantity": 1
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-06-25T07:46:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-07-19T03:29:00Z",
     "DateCreated": "2024-05-31T11:00:00Z",
     "SubmissionStatusTypeID": 200
 }

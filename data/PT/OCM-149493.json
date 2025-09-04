@@ -17,7 +17,7 @@
             "DateCreated": "2023-11-19T07:04:00Z"
         }
     ],
-    "DateLastVerified": "2023-11-19T07:04:00Z",
+    "DateLastVerified": "2025-08-10T07:43:00Z",
     "ID": 149493,
     "UUID": "0CFE0C22-B46E-42FB-ADEA-0845C5A72A1D",
     "DataProviderID": 1,
@@ -40,12 +40,15 @@
     "Connections": [
         {
             "ID": 207563,
-            "ConnectionTypeID": 27,
-            "StatusTypeID": 50,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
             "LevelID": 3,
-            "PowerKW": 150,
+            "Amps": 675,
+            "Voltage": 500,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 10
+            "Quantity": 14,
+            "Comments": "v4"
         },
         {
             "ID": 268856,
@@ -54,13 +57,14 @@
             "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 10
+            "Quantity": 10,
+            "Comments": "v2"
         }
     ],
-    "NumberOfPoints": 10,
+    "NumberOfPoints": 24,
     "GeneralComments": "10 Superchargers, available 24/7, up to 150kW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-19T07:04:00Z",
+    "DateLastStatusUpdate": "2025-08-10T07:43:00Z",
     "DateCreated": "2020-02-27T06:53:00Z",
     "SubmissionStatusTypeID": 200
 }

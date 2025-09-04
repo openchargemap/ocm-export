@@ -49,16 +49,16 @@
             "DateCreated": "2022-09-18T10:11:00Z"
         }
     ],
-    "DateLastVerified": "2022-09-18T10:12:00Z",
+    "DateLastVerified": "2025-08-12T10:34:00Z",
     "ID": 203502,
     "UUID": "27AE8248-0CBF-4850-AB6E-ADFF39F98F02",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 203869,
         "Title": "Aire de Service Shell Grombalia",
-        "AddressLine1": "Aire de Service Grombalia",
+        "AddressLine1": "Direction Tunis",
         "Town": "Essabala",
         "StateOrProvince": "Nabeul",
         "Postcode": "",
@@ -70,7 +70,18 @@
     "Connections": [
         {
             "ID": 340001,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
+            "Reference": "BYD",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 774423,
+            "ConnectionTypeID": 2,
+            "Reference": "BYD",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -80,7 +91,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-18T10:12:00Z",
+    "DateLastStatusUpdate": "2025-08-12T10:34:00Z",
     "DateCreated": "2022-09-18T10:10:00Z",
     "SubmissionStatusTypeID": 200
 }

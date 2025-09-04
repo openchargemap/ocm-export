@@ -1,0 +1,69 @@
+{
+    "MediaItems": [
+        {
+            "ID": 47038,
+            "ChargePointID": 459346,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM459346/OCM-459346.orig.2025070814394506.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM459346/OCM-459346.thmb.2025070814394506.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-07-08T14:40:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-07-29T21:14:00Z",
+    "ID": 459346,
+    "UUID": "7C4C4691-07BD-482F-8B93-E069CCB5D876",
+    "DataProviderID": 1,
+    "OperatorID": 3324,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45-0,55€/kWh",
+    "AddressInfo": {
+        "ID": 459735,
+        "Title": "Venta EL Caldero ",
+        "AddressLine1": "A66",
+        "Town": "Plasencia",
+        "CountryID": 210,
+        "Latitude": 39.883745262741144,
+        "Longitude": -6.276070731016489,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 772417,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
+        },
+        {
+            "ID": 772418,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra184 Charger. The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Max 300A, charging power limited to 120kW for 400V cars"
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "Venta el Caldero owned charging posts operated by Zunder",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-07-29T21:14:00Z",
+    "DateCreated": "2025-07-08T06:51:00Z",
+    "SubmissionStatusTypeID": 200
+}

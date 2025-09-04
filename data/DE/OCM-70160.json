@@ -1,10 +1,27 @@
 {
-    "DateLastVerified": "2016-07-12T06:17:00Z",
+    "UserComments": [
+        {
+            "ID": 30713,
+            "ChargePointID": 70160,
+            "CommentTypeID": 10,
+            "UserName": "Steve",
+            "Comment": "Wurde umgebaut auf 4x DC, sehr zuverlässig (Alpitronic)",
+            "Rating": 5,
+            "DateCreated": "2025-07-31T06:57:37.187Z",
+            "User": {
+                "ID": 60367,
+                "Username": "Steve"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2025-08-03T06:59:00Z",
     "ID": 70160,
     "UUID": "FF7A018C-7C95-427A-A21B-9555629DFEB7",
     "DataProviderID": 1,
-    "OperatorID": 103,
-    "UsageTypeID": 4,
+    "OperatorID": 156,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 70506,
         "Title": "Supermarkt Rewe",
@@ -15,25 +32,25 @@
         "CountryID": 87,
         "Latitude": 52.395872237180356,
         "Longitude": 13.280142215938575,
-        "AccessComments": "Rote Ladesäule an der Einfahrt zum Parkplatz links. 24/7 nutzbar mit The New Motion Ladekarte, PlugSurfing u.a. Karten im Allego Verbund.",
+        "AccessComments": "",
+        "RelatedURL": "https://find.shell.com/de/fuel/13016324-ev-rewe-teltow-mahlower-s/de_DE",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 100100,
-            "ConnectionTypeID": 25,
+            "ID": 774239,
+            "ConnectionTypeID": 33,
+            "Reference": "https://find.shell.com/de/fuel/13016324-ev-rewe-teltow-mahlower-s/de_DE",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 400,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-07-12T06:17:00Z",
+    "DateLastStatusUpdate": "2025-08-03T06:59:00Z",
     "DateCreated": "2016-07-12T06:17:00Z",
     "SubmissionStatusTypeID": 200
 }

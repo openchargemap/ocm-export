@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-07-14T18:19:00Z",
+    "MediaItems": [
+        {
+            "ID": 47042,
+            "ChargePointID": 301056,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM301056/OCM-301056.orig.2025071107233133.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM301056/OCM-301056.thmb.2025071107233133.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-07-11T07:24:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-07-11T07:26:00Z",
     "ID": 301056,
     "UUID": "56D9EAC7-7812-40AC-8735-053E55B3BC49",
     "DataProviderID": 1,
@@ -29,13 +47,13 @@
             "Voltage": 1000,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "Hypercharger HYC150 CCS/Chademo charger."
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC150 DC charger. Charger with two CCS connectors but only a single parking space. Power is split between both outlets."
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-07-14T18:19:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-07-11T07:26:00Z",
     "DateCreated": "2024-07-14T18:19:00Z",
     "SubmissionStatusTypeID": 200
 }

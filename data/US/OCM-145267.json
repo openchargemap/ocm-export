@@ -1,5 +1,22 @@
 {
-    "DateLastVerified": "2024-02-19T13:09:00Z",
+    "UserComments": [
+        {
+            "ID": 30721,
+            "ChargePointID": 145267,
+            "CommentTypeID": 1000,
+            "UserName": "dlu",
+            "Comment": "Equipment obviously damaged on all chargers but Jupiter. Jupiter claims to be working, but repeatedly failed to start session.",
+            "Rating": 1,
+            "DateCreated": "2025-08-03T04:50:16.077Z",
+            "User": {
+                "ID": 60447,
+                "Username": "dlu"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2025-08-06T04:59:00Z",
     "ID": 145267,
     "UUID": "578B856A-DCCD-4EEC-9531-C50A59326B08",
     "DataProviderID": 1,
@@ -7,7 +24,7 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 145619,
-        "Title": "Tacoma Mall",
+        "Title": "Tacoma Mall - Old Navy",
         "AddressLine1": "4502 S Steele St",
         "Town": "Tacoma",
         "StateOrProvince": "WA",
@@ -24,7 +41,7 @@
         {
             "ID": 201896,
             "ConnectionTypeID": 1,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 2,
             "PowerKW": 7.2,
             "CurrentTypeID": 10,
@@ -33,7 +50,7 @@
         {
             "ID": 201897,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -42,15 +59,17 @@
         {
             "ID": 201898,
             "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
+            "StatusTypeID": 75,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 3
+            "Quantity": 3,
+            "Comments": "Jupiter has cable & operational screen. Not able to start session. Other chargers missing cables and/or black screens."
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-19T13:09:00Z",
+    "GeneralComments": "Only one charger with cable intact.",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2025-08-06T04:59:00Z",
     "DateCreated": "2019-12-24T09:24:00Z",
     "SubmissionStatusTypeID": 100
 }

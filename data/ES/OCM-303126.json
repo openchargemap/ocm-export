@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2025-05-07T19:47:00Z",
+    "MediaItems": [
+        {
+            "ID": 47222,
+            "ChargePointID": 303126,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM303126/OCM-303126.orig.2025072811370480.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM303126/OCM-303126.thmb.2025072811370480.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-07-28T11:37:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-07-28T20:36:00Z",
     "ID": 303126,
     "UUID": "478E26AC-42DC-408A-97CD-30A69D7A0938",
     "DataProviderID": 1,
     "OperatorID": 3377,
     "UsageTypeID": 4,
-    "UsageCost": "0,50€/kWh",
+    "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 303513,
         "Title": "Bonete. Avenida de la Libertad",
@@ -26,12 +44,14 @@
             "Voltage": 900,
             "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2025-05-07T19:47:00Z",
+    "GeneralComments": "EFM - SYDIS . App EVcharge",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-07-28T20:36:00Z",
     "DateCreated": "2024-08-16T20:41:00Z",
     "SubmissionStatusTypeID": 200
 }

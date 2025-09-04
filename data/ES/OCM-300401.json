@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-07-02T07:36:00Z",
+    "MediaItems": [
+        {
+            "ID": 47241,
+            "ChargePointID": 300401,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM300401/OCM-300401.orig.2025080212234273.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM300401/OCM-300401.thmb.2025080212234273.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-08-02T12:24:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-08-02T12:24:00Z",
     "ID": 300401,
     "UUID": "F5A38D5F-4E76-4F44-B35C-662BEBC050B9",
     "DataProviderID": 1,
@@ -28,12 +46,13 @@
             "Voltage": 1000,
             "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 8,
+            "Comments": "Four  XCharge DC chargers that allows one charge at 200kW or  charging two simultaneous charges at 100kW. (max power is limited for 400V cars)"
         }
     ],
     "NumberOfPoints": 8,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-07-02T07:36:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-08-02T12:24:00Z",
     "DateCreated": "2024-07-02T07:36:00Z",
     "SubmissionStatusTypeID": 200
 }

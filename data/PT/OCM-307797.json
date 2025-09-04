@@ -1,10 +1,29 @@
 {
-    "DateLastVerified": "2025-01-10T09:21:00Z",
+    "MediaItems": [
+        {
+            "ID": 47053,
+            "ChargePointID": 307797,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/PT/OCM307797/OCM-307797.orig.2025071108104611.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/PT/OCM307797/OCM-307797.thmb.2025071108104611.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-07-11T08:11:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-07-11T08:11:00Z",
     "ID": 307797,
     "UUID": "06AA90B4-F2DA-4262-B3DA-D697BD543C08",
     "DataProviderID": 1,
     "OperatorID": 3584,
     "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh",
     "AddressInfo": {
         "ID": 308186,
         "Title": "Cepsa SANTA COMBA DÃO",
@@ -22,15 +41,16 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 500,
-            "Voltage": 900,
+            "Voltage": 1000,
             "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC300 DC charger allows charging one vehicle at 300kW, or two simultaneous charges at 150kW."
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-01-10T09:21:00Z",
+    "DateLastStatusUpdate": "2025-07-11T08:11:00Z",
     "DateCreated": "2025-01-10T09:21:00Z",
     "SubmissionStatusTypeID": 200
 }

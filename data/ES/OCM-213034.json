@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-01-29T16:29:00Z",
+    "DateLastVerified": "2025-08-27T09:58:00Z",
     "ID": 213034,
     "UUID": "D59DC1B1-5FF4-46C1-924D-67A265058F15",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 5,
-    "UsageCost": "",
+    "OperatorID": 3557,
+    "UsageTypeID": 4,
+    "UsageCost": "0,40€/kWh",
     "AddressInfo": {
         "ID": 213414,
         "Title": "E.S. Montequinto",
@@ -21,17 +21,20 @@
     "Connections": [
         {
             "ID": 354837,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "HelloNext H2-120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-01-29T16:29:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-08-27T09:58:00Z",
     "DateCreated": "2023-01-29T16:29:00Z",
     "SubmissionStatusTypeID": 200
 }

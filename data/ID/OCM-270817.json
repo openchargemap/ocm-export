@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-05-22T01:45:00Z",
+    "DateLastVerified": "2025-08-15T05:53:00Z",
     "ID": 270817,
     "UUID": "8DEA5BBA-DC58-4767-AD22-DCE3EFFBA00C",
     "DataProviderID": 1,
@@ -8,7 +8,7 @@
     "UsageCost": "Rp.2467/kWh",
     "AddressInfo": {
         "ID": 271201,
-        "Title": "SPKLU UID Jawa Tengah",
+        "Title": "SPKLU PLN UID Jawa Tengah & DI Yogyakarta",
         "AddressLine1": "PLN UID Jawa Tengah ",
         "AddressLine2": "Jl. Teuku Umar No.47, Karangrejo, Kec. Gajahmungkur",
         "Town": "Semarang",
@@ -23,6 +23,7 @@
         {
             "ID": 460709,
             "ConnectionTypeID": 1036,
+            "Reference": "Proteksindo",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -32,6 +33,7 @@
         {
             "ID": 460710,
             "ConnectionTypeID": 33,
+            "Reference": "Proteksindo",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 60,
@@ -41,16 +43,27 @@
         {
             "ID": 460711,
             "ConnectionTypeID": 2,
+            "Reference": "Proteksindo",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 774517,
+            "ConnectionTypeID": 33,
+            "Reference": "Teison DC 100 kW",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-05-22T01:45:00Z",
+    "DateLastStatusUpdate": "2025-08-15T05:53:00Z",
     "DateCreated": "2023-07-04T18:47:00Z",
     "SubmissionStatusTypeID": 200
 }

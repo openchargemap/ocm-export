@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-02-08T14:56:00Z",
+    "MediaItems": [
+        {
+            "ID": 47321,
+            "ChargePointID": 213630,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM213630/OCM-213630.orig.2025080906375421.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM213630/OCM-213630.thmb.2025080906375421.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 60591,
+                "Username": "IvanCela"
+            },
+            "DateCreated": "2025-08-09T06:38:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-08-25T07:52:00Z",
     "ID": 213630,
     "UUID": "73B8F443-7675-4658-829E-7A8CD04DBBCA",
     "DataProviderID": 1,
@@ -12,8 +30,8 @@
         "StateOrProvince": "Galicia",
         "Postcode": "36300",
         "CountryID": 210,
-        "Latitude": 42.10148113035689,
-        "Longitude": -8.893683389778687,
+        "Latitude": 42.101376599082954,
+        "Longitude": -8.893271742757861,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,11 +43,31 @@
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
             "Quantity": 1
+        },
+        {
+            "ID": 774852,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 774853,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-08T14:56:00Z",
+    "DateLastStatusUpdate": "2025-08-25T07:52:00Z",
     "DateCreated": "2023-02-08T14:56:00Z",
     "SubmissionStatusTypeID": 200
 }

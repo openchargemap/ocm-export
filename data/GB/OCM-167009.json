@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 47100,
+            "ChargePointID": 167009,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM167009/OCM-167009.orig.2025071714273125.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM167009/OCM-167009.thmb.2025071714273125.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 36388,
+                "Username": "Celso Azevedo"
+            },
+            "DateCreated": "2025-07-17T14:28:00Z"
+        },
+        {
             "ID": 36943,
             "ChargePointID": 167009,
             "ItemURL": "https://media.openchargemap.io/images/GB/OCM167009/OCM-167009.orig.2023031119224585.jpg",
@@ -17,11 +33,11 @@
             "DateCreated": "2023-03-11T19:23:00Z"
         }
     ],
-    "DateLastVerified": "2023-03-11T19:23:00Z",
+    "DateLastVerified": "2025-07-17T14:30:00Z",
     "ID": 167009,
     "UUID": "F40C0635-68E1-40BE-A1D9-3A537EEDA62D",
     "DataProviderID": 1,
-    "OperatorID": 3357,
+    "OperatorID": 3479,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 167368,
@@ -33,45 +49,31 @@
         "Latitude": 51.454782,
         "Longitude": -0.113358,
         "AccessComments": "",
-        "RelatedURL": "https://www.esbenergy.co.uk/ev",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 252856,
+            "ID": 773801,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 160,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 773802,
             "ConnectionTypeID": 2,
-            "Reference": "CHAdeMO",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 252857,
-            "ConnectionTypeID": 1036,
-            "Reference": "CCS",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 252858,
-            "ConnectionTypeID": 1036,
-            "Reference": "AC43",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20
+            "PowerKW": 160,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2023-03-11T19:23:00Z",
+    "NumberOfPoints": 1,
+    "DateLastStatusUpdate": "2025-07-17T14:30:00Z",
     "MetadataValues": [
         {
             "ID": 7766,

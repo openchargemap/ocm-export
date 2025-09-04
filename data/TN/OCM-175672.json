@@ -1,10 +1,28 @@
 {
-    "DateLastVerified": "2023-06-19T08:52:00Z",
+    "UserComments": [
+        {
+            "ID": 30749,
+            "ChargePointID": 175672,
+            "CommentTypeID": 10,
+            "UserName": "GM327",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2025-08-15T15:58:25.717Z",
+            "User": {
+                "ID": 54843,
+                "Username": "GM327"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2025-08-25T07:52:00Z",
     "ID": 175672,
     "UUID": "96E9E507-897F-4BC0-97E6-2F148AF5626A",
     "DataProviderID": 1,
     "OperatorID": 3447,
     "UsageTypeID": 1,
+    "UsageCost": "0",
     "AddressInfo": {
         "ID": 176031,
         "Title": "Aire de Service El Jem",
@@ -32,16 +50,27 @@
             "ID": 454793,
             "ConnectionTypeID": 33,
             "Reference": "Total energies",
-            "StatusTypeID": 0,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 774846,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 124,
+            "Voltage": 400,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-19T08:52:00Z",
+    "DateLastStatusUpdate": "2025-08-25T07:52:00Z",
     "DateCreated": "2021-06-06T14:20:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -17,16 +17,16 @@
             "DateCreated": "2023-04-24T11:29:00Z"
         }
     ],
-    "DateLastVerified": "2023-06-11T17:39:00Z",
+    "DateLastVerified": "2025-07-01T10:14:00Z",
     "ID": 260419,
     "UUID": "5B52AF6B-78C8-460D-BC3C-2042371B9FE1",
     "DataProviderID": 1,
     "OperatorID": 3663,
     "UsageTypeID": 7,
-    "UsageCost": "RM1.20/min for 60kW DC, RM0.40/min for 22kW AC, RM0.20/min for 11kW AC",
+    "UsageCost": "RM1.30/kW for 60kW DC, RM1.40/kW for 240kW DC, RM0.90/kW for 11kW AC",
     "AddressInfo": {
         "ID": 260803,
-        "Title": "EVPower Charging Hub Melaka",
+        "Title": "The Concept Hotel Melaka",
         "AddressLine1": "10 Jalan Gajah Berang",
         "AddressLine2": "Kampung Enam",
         "Town": "Melaka",
@@ -45,6 +45,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 415,
+            "PowerKW": 240,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 771595,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "Amps": 200,
             "Voltage": 415,
             "PowerKW": 60,
@@ -52,21 +63,21 @@
             "Quantity": 2
         },
         {
-            "ID": 438199,
+            "ID": 771596,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
+            "Amps": 16,
             "Voltage": 415,
-            "PowerKW": 22,
+            "PowerKW": 11,
             "CurrentTypeID": 20,
-            "Quantity": 3
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 5,
-    "GeneralComments": "Download \"EVPower MY\" app to start charging. ",
+    "NumberOfPoints": 8,
+    "GeneralComments": "Download \"EVPower MY+\" app to start charging. https://app.evpower.my",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-11T17:39:00Z",
+    "DateLastStatusUpdate": "2025-07-01T10:14:00Z",
     "DateCreated": "2023-04-23T21:43:00Z",
     "SubmissionStatusTypeID": 200
 }

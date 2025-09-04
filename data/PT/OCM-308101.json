@@ -1,10 +1,29 @@
 {
-    "DateLastVerified": "2025-01-19T17:43:00Z",
+    "MediaItems": [
+        {
+            "ID": 47050,
+            "ChargePointID": 308101,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/PT/OCM308101/OCM-308101.orig.2025071108052156.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/PT/OCM308101/OCM-308101.thmb.2025071108052156.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-07-11T08:05:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-07-11T08:05:00Z",
     "ID": 308101,
     "UUID": "324B7670-FDB0-4045-BAA7-D890CEE16B60",
     "DataProviderID": 1,
     "OperatorID": 3584,
     "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh",
     "AddressInfo": {
         "ID": 308490,
         "Title": "ODV*00029 Cepsa Odivelas",
@@ -22,15 +41,16 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 500,
-            "Voltage": 900,
+            "Voltage": 1000,
             "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC300 DC charger allows charging one vehicle at 300kW, or two simultaneous charges at 150kW."
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-01-19T17:43:00Z",
+    "DateLastStatusUpdate": "2025-07-11T08:05:00Z",
     "DateCreated": "2025-01-19T17:43:00Z",
     "SubmissionStatusTypeID": 200
 }

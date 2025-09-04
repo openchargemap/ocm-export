@@ -1,10 +1,73 @@
 {
-    "DateLastVerified": "2024-02-20T10:08:00Z",
+    "UserComments": [
+        {
+            "ID": 30654,
+            "ChargePointID": 224503,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "All four chargers are off. Unable to charge.",
+            "DateCreated": "2025-07-11T13:59:15.66Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 30629,
+            "ChargePointID": 224503,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "no power to the meter. ",
+            "DateCreated": "2025-06-29T14:41:07.213Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 47057,
+            "ChargePointID": 224503,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM224503/OCM-224503.orig.2025071114002009.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM224503/OCM-224503.thmb.2025071114002009.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "DateCreated": "2025-07-11T14:00:00Z"
+        },
+        {
+            "ID": 46968,
+            "ChargePointID": 224503,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM224503/OCM-224503.orig.2025062914364289.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM224503/OCM-224503.thmb.2025062914364289.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "DateCreated": "2025-06-29T14:37:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-07-11T14:00:00Z",
     "ID": 224503,
     "UUID": "B5345852-EFDC-45A2-AEC6-8C69BF81F412",
-    "DataProviderID": 2,
-    "DataProvidersReference": "222428",
-    "OperatorID": 59,
+    "DataProviderID": 1,
+    "OperatorID": 3493,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 224886,
@@ -14,11 +77,11 @@
         "StateOrProvince": "MD",
         "Postcode": "20740",
         "CountryID": 2,
-        "Latitude": 38.999596,
-        "Longitude": -76.936244,
-        "ContactTelephone1": "855-900-7584",
+        "Latitude": 38.99959599999963,
+        "Longitude": -76.93624400000112,
+        "ContactTelephone1": "8447982438",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://shellrecharge.com/en-us/solutions",
+        "RelatedURL": "https://swtchenergy.com/drivers/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,16 +89,17 @@
             "ID": 375623,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 48,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 4,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:08:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 100,
+    "DateLastStatusUpdate": "2025-07-11T14:00:00Z",
     "DateCreated": "2023-02-13T05:12:00Z",
     "SubmissionStatusTypeID": 100
 }

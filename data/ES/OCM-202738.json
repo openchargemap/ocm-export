@@ -1,10 +1,61 @@
 {
-    "DateLastVerified": "2022-09-12T13:48:00Z",
+    "UserComments": [
+        {
+            "ID": 30742,
+            "ChargePointID": 202738,
+            "CommentTypeID": 1000,
+            "UserName": "123UnPasito",
+            "Comment": "Only 1935101 is working. ",
+            "Rating": 3,
+            "DateCreated": "2025-08-14T17:37:29.18Z",
+            "User": {
+                "ID": 59876,
+                "Username": "123UnPasito"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 47268,
+            "ChargePointID": 202738,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202738/OCM-202738.orig.2025080517300695.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202738/OCM-202738.thmb.2025080517300695.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 59876,
+                "Username": "123UnPasito"
+            },
+            "DateCreated": "2025-08-05T17:30:00Z"
+        },
+        {
+            "ID": 47269,
+            "ChargePointID": 202738,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202738/OCM-202738.orig.2025080517301982.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202738/OCM-202738.thmb.2025080517301982.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 59876,
+                "Username": "123UnPasito"
+            },
+            "DateCreated": "2025-08-05T17:30:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-08-14T17:37:00Z",
     "ID": 202738,
     "UUID": "7AEEAC7D-0C75-4288-97F9-B41F063689D1",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 203105,
         "Title": "EuroCamping de Oliva",
@@ -13,24 +64,26 @@
         "StateOrProvince": "Valencian Community",
         "Postcode": "46780",
         "CountryID": 210,
-        "Latitude": 38.90597799357093,
-        "Longitude": -0.06652336835406913,
+        "Latitude": 38.90549802995105,
+        "Longitude": -0.06663027692661672,
+        "RelatedURL": "http://www.evbox.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 338948,
             "ConnectionTypeID": 25,
+            "Reference": "EVBOX",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "PowerKW": 7.3,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-12T13:48:00Z",
+    "DateLastStatusUpdate": "2025-08-14T17:37:00Z",
     "DateCreated": "2022-09-12T13:48:00Z",
     "SubmissionStatusTypeID": 200
 }

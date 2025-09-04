@@ -17,7 +17,7 @@
             "DateCreated": "2022-11-07T23:55:00Z"
         }
     ],
-    "DateLastVerified": "2022-11-08T13:06:00Z",
+    "DateLastVerified": "2025-07-03T02:53:00Z",
     "ID": 158986,
     "UUID": "2382FB41-2A3F-417C-AA2A-3E366B2857E3",
     "DataProviderID": 1,
@@ -31,8 +31,8 @@
         "StateOrProvince": "CA",
         "Postcode": "93243",
         "CountryID": 2,
-        "Latitude": 34.8182906379831,
-        "Longitude": -118.88303845325612,
+        "Latitude": 34.818097409761194,
+        "Longitude": -118.88308070967133,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "http://www.chargepoint.com/",
@@ -52,26 +52,26 @@
         {
             "ID": 229034,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Power based on AFDC"
         },
         {
             "ID": 229035,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 400,
-            "PowerKW": 40,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Power based on ChargePoint app data for this location"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-11-08T13:06:00Z",
+    "DateLastStatusUpdate": "2025-07-03T02:53:00Z",
     "DateCreated": "2020-06-26T02:57:00Z",
     "SubmissionStatusTypeID": 100
 }

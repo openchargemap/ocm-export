@@ -1,11 +1,12 @@
 {
-    "DateLastVerified": "2019-10-12T05:50:00Z",
+    "DateLastVerified": "2025-07-30T01:54:00Z",
     "ID": 133067,
     "UUID": "F9403307-97D8-426C-AF15-B17C4EE49B1D",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "52047",
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 133413,
         "Title": "Elba",
@@ -21,19 +22,50 @@
     },
     "Connections": [
         {
-            "ID": 186348,
-            "ConnectionTypeID": 30,
+            "ID": 774164,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "super chargers tesla"
+        },
+        {
+            "ID": 774165,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "evergo"
+        },
+        {
+            "ID": 774166,
+            "ConnectionTypeID": 1040,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "evergo"
+        },
+        {
+            "ID": 774167,
+            "ConnectionTypeID": 1,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 3,
+            "Comments": "evergo"
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "1 Tesla Connector, up to 11kW.Available to the public. Self park.",
+    "NumberOfPoints": 8,
+    "GeneralComments": "Tesla super chargers and evergo DC and AC chargers",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-10-12T05:50:00Z",
+    "DateLastStatusUpdate": "2025-07-30T01:54:00Z",
     "DateCreated": "2019-10-12T05:50:00Z",
     "SubmissionStatusTypeID": 200
 }

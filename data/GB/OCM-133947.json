@@ -1,30 +1,12 @@
 {
-    "MediaItems": [
-        {
-            "ID": 20163,
-            "ChargePointID": 133947,
-            "ItemURL": "https://media.openchargemap.io/images/GB/OCM133947/OCM-133947.orig.2019103021264351.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/GB/OCM133947/OCM-133947.thmb.2019103021264351.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 4575,
-                "Username": "Simon Hewison"
-            },
-            "DateCreated": "2019-10-30T21:27:00Z"
-        }
-    ],
-    "DateLastVerified": "2023-04-18T10:46:00Z",
+    "DateLastVerified": "2025-08-12T11:37:00Z",
     "ID": 133947,
     "UUID": "A5748D40-E100-414B-9374-C5E5C9298C22",
     "DataProviderID": 1,
-    "OperatorID": 150,
+    "OperatorID": 3471,
     "OperatorsReference": "GP10820",
-    "UsageTypeID": 4,
-    "UsageCost": "£0.98/kWh; £10.00 overstay fee after 95 mins, then £10.00 every subsequent 95 mins",
+    "UsageTypeID": 5,
+    "UsageCost": "£0.79/kWh",
     "AddressInfo": {
         "ID": 134293,
         "Title": "Morrisons Swindon Dorcan",
@@ -39,17 +21,9 @@
     },
     "Connections": [
         {
-            "ID": 187435,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 187436,
             "ConnectionTypeID": 33,
+            "Reference": "MFG8634001",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
@@ -57,20 +31,19 @@
             "Quantity": 1
         },
         {
-            "ID": 187437,
-            "ConnectionTypeID": 1036,
+            "ID": 774424,
+            "ConnectionTypeID": 33,
+            "Reference": "MFG8634001",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 10,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-18T10:46:00Z",
+    "DateLastStatusUpdate": "2025-08-12T11:37:00Z",
     "DateCreated": "2019-10-30T21:25:00Z",
     "SubmissionStatusTypeID": 200
 }

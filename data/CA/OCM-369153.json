@@ -1,14 +1,13 @@
 {
-    "DateLastVerified": "2025-06-24T08:00:00Z",
+    "DateLastVerified": "2025-07-01T05:03:00Z",
     "ID": 369153,
     "UUID": "509A79AF-2C3F-4C15-970F-32412EC8C845",
-    "DataProviderID": 2,
-    "DataProvidersReference": "388055",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 2,
     "AddressInfo": {
         "ID": 369542,
-        "Title": "Fast Charger",
+        "Title": "Restricted Access - FLO - Nissan Canada HQ",
         "AddressLine1": "5290 ORBITOR DR",
         "Town": "MISSISSAUGA",
         "StateOrProvince": "ON",
@@ -17,7 +16,7 @@
         "Latitude": 43.659876,
         "Longitude": -79.608428,
         "ContactTelephone1": "888-356-8911",
-        "AccessComments": "24 hours daily",
+        "AccessComments": "",
         "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
@@ -25,24 +24,28 @@
         {
             "ID": 666603,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 75,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 666604,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 75,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Not available to general public during business hours (0600 - 1700).",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T08:00:00Z",
+    "DateLastStatusUpdate": "2025-07-01T05:03:00Z",
     "DateCreated": "2025-06-20T10:38:00Z",
     "SubmissionStatusTypeID": 100
 }

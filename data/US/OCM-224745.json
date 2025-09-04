@@ -1,6 +1,20 @@
 {
     "UserComments": [
         {
+            "ID": 30627,
+            "ChargePointID": 224745,
+            "CommentTypeID": 1000,
+            "UserName": "Lanny",
+            "Comment": "DCFC is not operable",
+            "DateCreated": "2025-06-29T12:23:55.403Z",
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 29512,
             "ChargePointID": 224745,
             "CommentTypeID": 1000,
@@ -15,12 +29,29 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2024-02-20T10:10:00Z",
+    "MediaItems": [
+        {
+            "ID": 46966,
+            "ChargePointID": 224745,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM224745/OCM-224745.orig.2025062912231294.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM224745/OCM-224745.thmb.2025062912231294.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 20555,
+                "Username": "Lanny"
+            },
+            "DateCreated": "2025-06-29T12:23:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-06-29T12:24:00Z",
     "ID": 224745,
     "UUID": "428BD11C-70B6-4660-93F1-705ED0F0E92A",
-    "DataProviderID": 2,
-    "DataProvidersReference": "168484",
-    "OperatorID": 59,
+    "DataProviderID": 1,
+    "OperatorID": 3493,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 225128,
@@ -32,9 +63,9 @@
         "CountryID": 2,
         "Latitude": 39.163433,
         "Longitude": -76.624182,
-        "ContactTelephone1": "855-900-7584",
+        "ContactTelephone1": "",
         "AccessComments": "24 hours daily",
-        "RelatedURL": "https://shellrecharge.com/en-us/solutions",
+        "RelatedURL": "https://charge.swtchenergy.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -42,9 +73,9 @@
             "ID": 375891,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 30,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7,
             "CurrentTypeID": 10,
             "Quantity": 6,
             "Comments": "kW power is an estimate based on the connection type"
@@ -69,7 +100,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:10:00Z",
+    "DateLastStatusUpdate": "2025-06-29T12:24:00Z",
     "DateCreated": "2023-02-13T05:13:00Z",
     "SubmissionStatusTypeID": 100
 }

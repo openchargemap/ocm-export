@@ -1,13 +1,32 @@
 {
-    "DateLastVerified": "2025-01-24T19:45:00Z",
+    "MediaItems": [
+        {
+            "ID": 47055,
+            "ChargePointID": 308334,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/PT/OCM308334/OCM-308334.orig.2025071108133245.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/PT/OCM308334/OCM-308334.thmb.2025071108133245.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lmjgarcia"
+            },
+            "DateCreated": "2025-07-11T08:14:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-07-11T08:14:00Z",
     "ID": 308334,
     "UUID": "E5C54B49-CF90-4721-81F6-6DC7F25891CE",
     "DataProviderID": 1,
     "OperatorID": 3584,
     "UsageTypeID": 4,
+    "UsageCost": "0,60€/kWh",
     "AddressInfo": {
         "ID": 308723,
-        "Title": "PRD*00020 Cepsa",
+        "Title": "PRD*00020 Cepsa Paredes",
         "AddressLine1": "AVDA DOS BOMBEIROS VOLUNTARIOS ",
         "Town": "Paredes",
         "CountryID": 180,
@@ -22,15 +41,16 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 500,
-            "Voltage": 900,
+            "Voltage": 1000,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Hypercharger HYC150 DC charger"
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-01-24T19:45:00Z",
+    "DateLastStatusUpdate": "2025-07-11T08:14:00Z",
     "DateCreated": "2025-01-24T19:45:00Z",
     "SubmissionStatusTypeID": 200
 }

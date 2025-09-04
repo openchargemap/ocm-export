@@ -1,10 +1,43 @@
 {
-    "DateLastVerified": "2023-05-04T08:51:00Z",
+    "UserComments": [
+        {
+            "ID": 30651,
+            "ChargePointID": 255108,
+            "CommentTypeID": 10,
+            "UserName": "0235",
+            "Comment": "This is now a MFG EV charging point, not a Geaniepoint",
+            "DateCreated": "2025-07-11T10:24:46.903Z",
+            "User": {
+                "ID": 54271,
+                "Username": "0235"
+            },
+            "CheckinStatusTypeID": 210,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 47095,
+            "ChargePointID": 255108,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM255108/OCM-255108.orig.2025071612211310.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/GB/OCM255108/OCM-255108.thmb.2025071612211310.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 54271,
+                "Username": "0235"
+            },
+            "DateCreated": "2025-07-16T12:21:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-07-19T12:24:00Z",
     "ID": 255108,
     "UUID": "B7ADD746-B1EE-42F9-A1A6-79E7A0E3C7B5",
-    "DataProviderID": 18,
-    "DataProvidersReference": "8a2a20908c809715df0b87b2b5b7cc6a",
-    "OperatorID": 150,
+    "DataProviderID": 1,
+    "OperatorID": 3471,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 255492,
@@ -13,48 +46,23 @@
         "Town": "Kettering",
         "Postcode": "NN16 8AN",
         "CountryID": 1,
-        "Latitude": 52.401241,
-        "Longitude": -0.731279,
+        "Latitude": 52.40122456985338,
+        "Longitude": -0.7312911972333325,
         "AccessComments": "",
         "RelatedURL": "https://www.equans.co.uk/ev-solutions",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 423128,
-            "ConnectionTypeID": 25,
-            "Reference": "1",
+            "ID": 773757,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 423129,
-            "ConnectionTypeID": 2,
-            "Reference": "2",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 423130,
-            "ConnectionTypeID": 1036,
-            "Reference": "3",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2023-05-04T08:51:00Z",
+    "DateLastStatusUpdate": "2025-07-19T12:24:00Z",
     "MetadataValues": [
         {
             "ID": 27090,

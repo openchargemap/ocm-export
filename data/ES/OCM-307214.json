@@ -1,18 +1,18 @@
 {
-    "DateLastVerified": "2024-12-19T08:08:00Z",
+    "DateLastVerified": "2025-08-24T13:06:00Z",
     "ID": 307214,
     "UUID": "54E5D5D3-0623-4EB5-89E2-5B3F64723E6E",
     "DataProviderID": 1,
     "OperatorID": 74,
     "UsageTypeID": 4,
-    "UsageCost": "",
+    "UsageCost": "0,59€/kWh",
     "AddressInfo": {
         "ID": 307603,
         "Title": "A.S. Garraf Norte (FastNed)",
         "AddressLine1": "C32",
         "CountryID": 210,
-        "Latitude": 41.22080422672977,
-        "Longitude": 1.6766097801953492,
+        "Latitude": 41.221086498331516,
+        "Longitude": 1.6766605699437775,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,11 +27,22 @@
             "CurrentTypeID": 30,
             "Quantity": 8,
             "Comments": "Four Alpitronic Hypercharger HYC400 Chargers. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. Max 600A Peak, charging power limited to 240kW for 400V cars"
+        },
+        {
+            "ID": 774817,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 8,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-12-19T08:08:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-08-24T13:06:00Z",
     "DateCreated": "2024-12-19T08:08:00Z",
     "SubmissionStatusTypeID": 200
 }

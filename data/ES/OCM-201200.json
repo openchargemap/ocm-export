@@ -1,10 +1,10 @@
 {
     "MediaItems": [
         {
-            "ID": 37863,
+            "ID": 47107,
             "ChargePointID": 201200,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201200/OCM-201200.orig.2023052310091459.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201200/OCM-201200.thmb.2023052310091459.jpg",
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201200/OCM-201200.orig.2025071812515236.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201200/OCM-201200.thmb.2025071812515236.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -14,26 +14,10 @@
                 "ID": 40036,
                 "Username": "lmjgarcia"
             },
-            "DateCreated": "2023-05-23T10:09:00Z"
-        },
-        {
-            "ID": 33134,
-            "ChargePointID": 201200,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201200/OCM-201200.orig.2022082419371890.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201200/OCM-201200.thmb.2022082419371890.jpg",
-            "Comment": "",
-            "IsEnabled": true,
-            "IsVideo": false,
-            "IsFeaturedItem": false,
-            "IsExternalResource": false,
-            "User": {
-                "ID": 40036,
-                "Username": "lmjgarcia"
-            },
-            "DateCreated": "2022-08-24T19:37:00Z"
+            "DateCreated": "2025-07-18T12:52:00Z"
         }
     ],
-    "DateLastVerified": "2024-06-25T09:30:00Z",
+    "DateLastVerified": "2025-07-18T12:54:00Z",
     "ID": 201200,
     "UUID": "DD855624-2CD4-47F0-BFD4-DCCDA9892D18",
     "DataProviderID": 1,
@@ -76,12 +60,24 @@
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
+        },
+        {
+            "ID": 773819,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 6,
     "GeneralComments": "Station equipped with a boost battery. Max Power limited when charger battery is low of charge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-06-25T09:30:00Z",
+    "DateLastStatusUpdate": "2025-07-18T12:54:00Z",
     "DateCreated": "2022-08-23T11:53:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-02-09T19:43:00Z",
+    "DateLastVerified": "2025-07-09T21:03:00Z",
     "ID": 97109,
     "UUID": "1020D957-23F3-48E7-8A01-EECB6FA9C95C",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "Free",
+    "OperatorID": 2247,
+    "UsageTypeID": 4,
+    "UsageCost": "0,54-0,39€/kWh",
     "AddressInfo": {
         "ID": 97455,
         "Title": "Centro Comercial Parque Rioja",
@@ -16,25 +16,56 @@
         "CountryID": 210,
         "Latitude": 42.452789327467144,
         "Longitude": -2.4670511256423424,
-        "ContactTelephone1": "941 20 53 10",
-        "AccessComments": "Cannot reserve. Free parking and free charging. Located at the east door of the mall.",
+        "ContactTelephone1": "",
+        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 137871,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 400,
             "PowerKW": 11,
-            "Quantity": 1
+            "CurrentTypeID": 20,
+            "Quantity": 15
+        },
+        {
+            "ID": 772497,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 375,
+            "Voltage": 400,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Circutor Raption150C Charger (375A). The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. "
+        },
+        {
+            "ID": 772498,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 772499,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-09T19:43:00Z",
+    "NumberOfPoints": 19,
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2025-07-09T21:03:00Z",
     "DateCreated": "2018-01-05T12:27:00Z",
     "SubmissionStatusTypeID": 200
 }

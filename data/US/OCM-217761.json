@@ -1,13 +1,13 @@
 {
-    "DateLastVerified": "2025-06-24T06:55:00Z",
+    "DateLastVerified": "2025-08-11T03:11:00Z",
     "ID": 217761,
     "UUID": "5A43D954-DC46-4416-A8B7-7E346D00F683",
-    "DataProviderID": 2,
-    "DataProvidersReference": "185212",
+    "DataProviderID": 1,
+    "OperatorID": 15,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 218141,
-        "Title": "Pilot Travel Center",
+        "Title": "Pilot Travel Center #4556 Wildwood, FL",
         "AddressLine1": "744 FL-44",
         "Town": "Wildwood",
         "StateOrProvince": "FL",
@@ -33,15 +33,25 @@
         {
             "ID": 368024,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 150,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 774400,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T06:55:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2025-08-11T03:11:00Z",
     "DateCreated": "2023-02-13T04:54:00Z",
     "SubmissionStatusTypeID": 100
 }

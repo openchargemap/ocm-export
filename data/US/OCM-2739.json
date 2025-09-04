@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2025-06-24T08:08:00Z",
+    "DateLastVerified": "2025-08-31T04:50:00Z",
     "ID": 2739,
     "UUID": "32DA0F81-4915-4CB8-9234-9F2488F62FEA",
-    "DataProviderID": 2,
-    "DataProvidersReference": "33378",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": ".48",
     "AddressInfo": {
         "ID": 2740,
         "Title": "Oregon Museum of Science and Industry (OMSI) - South Parking Lot",
@@ -35,10 +36,12 @@
         {
             "ID": 15266,
             "ConnectionTypeID": 1,
+            "Reference": "Blink",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 8,
             "CurrentTypeID": 10,
             "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
@@ -46,13 +49,17 @@
         {
             "ID": 20245,
             "ConnectionTypeID": 1,
+            "Reference": "Blink",
+            "StatusTypeID": 50,
             "LevelID": 2,
+            "PowerKW": 8,
             "Quantity": 1
         }
     ],
+    "GeneralComments": "Blink charging unit. App does not work as usual. Call the phone number and pay with credit number by phone.",
     "DateLastConfirmed": "2011-08-25T00:00:00Z",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T08:08:00Z",
+    "DateLastStatusUpdate": "2025-08-31T04:50:00Z",
     "DateCreated": "2011-04-30T00:00:00Z",
     "SubmissionStatusTypeID": 100
 }

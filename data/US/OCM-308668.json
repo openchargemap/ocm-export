@@ -1,6 +1,38 @@
 {
     "MediaItems": [
         {
+            "ID": 47226,
+            "ChargePointID": 308668,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM308668/OCM-308668.orig.2025072923341427.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM308668/OCM-308668.thmb.2025072923341427.jpg",
+            "Comment": "Paving in, landscaping in progress",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2025-07-29T23:34:00Z"
+        },
+        {
+            "ID": 46987,
+            "ChargePointID": 308668,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM308668/OCM-308668.orig.2025070121431400.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM308668/OCM-308668.thmb.2025070121431400.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40197,
+                "Username": "Calif_Ioniq5"
+            },
+            "DateCreated": "2025-07-01T21:43:00Z"
+        },
+        {
             "ID": 45015,
             "ChargePointID": 308668,
             "ItemURL": "https://media.openchargemap.io/images/US/OCM308668/OCM-308668.orig.2025020619385493.jpg",
@@ -17,7 +49,7 @@
             "DateCreated": "2025-02-06T19:39:00Z"
         }
     ],
-    "DateLastVerified": "2025-02-06T19:39:00Z",
+    "DateLastVerified": "2025-07-29T23:34:00Z",
     "ID": 308668,
     "UUID": "D2E5A96C-9D89-4D84-9919-626D5C7889E1",
     "DataProviderID": 1,
@@ -38,15 +70,18 @@
     "Connections": [
         {
             "ID": 592040,
-            "ConnectionTypeID": 0,
-            "StatusTypeID": 50,
-            "Quantity": 1
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 150,
+            "LevelID": 2,
+            "PowerKW": 360,
+            "Quantity": 14,
+            "Comments": "7 dispensers labeled for 360 kW with two cables each. Positioned such that it looks like each dispenser can charge two cars simultaneously."
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "Spotted under construction",
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2025-02-06T19:39:00Z",
+    "DateLastStatusUpdate": "2025-07-29T23:34:00Z",
     "DateCreated": "2025-02-06T19:38:00Z",
     "SubmissionStatusTypeID": 200
 }

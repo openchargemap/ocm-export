@@ -17,13 +17,13 @@
             "DateCreated": "2025-06-09T18:23:00Z"
         }
     ],
-    "DateLastVerified": "2025-06-09T18:23:00Z",
+    "DateLastVerified": "2025-08-10T19:53:00Z",
     "ID": 201875,
     "UUID": "2DA8129B-EE8B-4B6A-9095-00344C380E14",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh 50kW - 0,39€/kWh 22kW AC",
+    "UsageCost": "0,67€/kWh DC - 0,45€/kWh 50kW - 0,39€/kWh 22kW AC",
     "AddressInfo": {
         "ID": 202239,
         "Title": "Rest. Oleus",
@@ -42,45 +42,29 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 3
+            "Quantity": 6,
+            "Comments": "3 Hypercharger HYC300 CCS/Chademo chargers allows charging one vehicle at 300kW, or two simultaneous charges at 150kW. (max power is limited for 400V cars)"
         },
         {
             "ID": 337244,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
+            "Amps": 150,
+            "Voltage": 1000,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 338522,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 4
-        },
-        {
-            "ID": 350616,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Alpitronic Hypercharger HYC50 DC charger that allows charging one vehicle at 50kW, or two simultaneous charges at 25kW. "
         }
     ],
     "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-09T18:23:00Z",
+    "DateLastStatusUpdate": "2025-08-10T19:53:00Z",
     "DateCreated": "2022-09-05T12:04:00Z",
     "SubmissionStatusTypeID": 200
 }
