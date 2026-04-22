@@ -1,15 +1,16 @@
 {
-    "DateLastVerified": "2025-09-01T07:39:00Z",
+    "DateLastVerified": "2025-12-19T10:23:00Z",
     "ID": 213049,
     "UUID": "BB4240C8-AC6F-4FB8-BD24-DED8302287BC",
     "DataProviderID": 1,
     "OperatorID": 3594,
     "UsageTypeID": 1,
-    "UsageCost": "0,624 €/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 213429,
-        "Title": "A31 Aire de SANDAUCOURT La Trelle",
-        "AddressLine1": "A31",
+        "Title": "e-Vadea - Sandaucourt - A31 La Trelle",
+        "AddressLine1": "A31 - Aire de Sandaucourt La Trelle",
+        "Town": "Sandaucourt",
         "StateOrProvince": "Grand Est",
         "Postcode": "88170",
         "CountryID": 80,
@@ -22,13 +23,42 @@
             "ID": 354863,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 791471,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 791472,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 5
+        },
+        {
+            "ID": 791473,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 5
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-09-01T07:39:00Z",
+    "DateLastStatusUpdate": "2025-12-19T10:23:00Z",
     "DateCreated": "2023-01-30T11:04:00Z",
     "SubmissionStatusTypeID": 200
 }

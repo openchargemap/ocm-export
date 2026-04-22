@@ -1,5 +1,71 @@
 {
-    "DateLastVerified": "2022-12-27T21:15:00Z",
+    "UserComments": [
+        {
+            "ID": 31316,
+            "ChargePointID": 210981,
+            "CommentTypeID": 10,
+            "UserName": "Andrei",
+            "Comment": "charged 20-100% in less than 50 minutes",
+            "Rating": 5,
+            "DateCreated": "2026-01-19T18:30:36.173Z",
+            "User": {
+                "ID": 47470,
+                "Username": "Andrei"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 31315,
+            "ChargePointID": 210981,
+            "CommentTypeID": 10,
+            "UserName": "Andrei",
+            "Comment": "charged successfully at near 180 kW rate",
+            "Rating": 5,
+            "DateCreated": "2026-01-19T11:48:11.457Z",
+            "User": {
+                "ID": 47470,
+                "Username": "Andrei"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 54098,
+            "ChargePointID": 210981,
+            "ItemURL": "https://media.openchargemap.io/images/RO/OCM210981/OCM-210981.orig.2026011911462458.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/RO/OCM210981/OCM-210981.thmb.2026011911462458.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47470,
+                "Username": "Andrei"
+            },
+            "DateCreated": "2026-01-19T11:47:00Z"
+        },
+        {
+            "ID": 54097,
+            "ChargePointID": 210981,
+            "ItemURL": "https://media.openchargemap.io/images/RO/OCM210981/OCM-210981.orig.2026011911460925.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/RO/OCM210981/OCM-210981.thmb.2026011911460925.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 47470,
+                "Username": "Andrei"
+            },
+            "DateCreated": "2026-01-19T11:46:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-22T15:01:00Z",
     "ID": 210981,
     "UUID": "D3B5B4E6-BED5-4E76-BF7D-DAE6928379F0",
     "DataProviderID": 1,
@@ -8,14 +74,16 @@
     "UsageCost": "Please see Plugpoint App",
     "AddressInfo": {
         "ID": 211361,
-        "Title": "Plugpoint 180 KW DC + 150 KW DC + 4 AC",
-        "AddressLine1": "Bulevardul Unirii",
-        "Postcode": "120021",
+        "Title": "PlugPoint Shopping City Buzau",
+        "AddressLine1": "Bulevardul Unirii 232",
+        "Town": "Buzau",
+        "Postcode": "120266",
         "CountryID": 184,
         "Latitude": 45.162825229607904,
         "Longitude": 26.817350916018256,
         "ContactTelephone1": "+40746217031",
-        "AccessComments": "Parking spaces 5C - 5D",
+        "AccessComments": "Parking spaces 5C - 5D for CCS2, Parking spaces 32D, 32E, 4D for Type 2",
+        "RelatedURL": "https://plugpoint.ro",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,23 +96,37 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 4
+            "Quantity": 6
         },
         {
             "ID": 351682,
             "ConnectionTypeID": 33,
+            "Reference": "TP1104 and TP1190",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 250,
+            "Amps": 450,
             "Voltage": 400,
             "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 2
+        },
+        {
+            "ID": 796366,
+            "ConnectionTypeID": 33,
+            "Reference": "TP1103 and TP1195",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 375,
+            "Voltage": 400,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-27T21:15:00Z",
+    "DateLastStatusUpdate": "2026-01-22T15:01:00Z",
     "DateCreated": "2022-12-27T17:08:00Z",
     "SubmissionStatusTypeID": 200
 }

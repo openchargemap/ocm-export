@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2025-06-24T08:01:00Z",
+    "DateLastVerified": "2025-11-11T13:56:00Z",
     "ID": 248373,
     "UUID": "4E12787C-7EBE-4A46-B660-18C1AA361A70",
     "DataProviderID": 2,
@@ -7,7 +7,7 @@
     "UsageTypeID": 2,
     "AddressInfo": {
         "ID": 248757,
-        "Title": "Regional Municipality of Durham",
+        "Title": "Durham Region Transit",
         "AddressLine1": "710 Raleigh Ave",
         "Town": "Oshawa",
         "StateOrProvince": "ON",
@@ -23,20 +23,25 @@
     "Connections": [
         {
             "ID": 414867,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 8,
+            "ConnectionTypeID": 2,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 786385,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
-    "DatePlanned": "2024-10-15T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2025-06-24T08:01:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-11-11T13:56:00Z",
     "DateCreated": "2023-03-07T05:49:00Z",
     "SubmissionStatusTypeID": 100
 }

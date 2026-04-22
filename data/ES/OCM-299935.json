@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2024-06-17T06:56:00Z",
+    "MediaItems": [
+        {
+            "ID": 52285,
+            "ChargePointID": 299935,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM299935/OCM-299935.orig.2025112413231706.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM299935/OCM-299935.thmb.2025112413231706.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-24T13:23:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-24T13:24:00Z",
     "ID": 299935,
     "UUID": "93A60026-915F-4B31-8720-5C343E3FB539",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": " 0,39€/kWh ",
+    "UsageCost": "0,45€/kWh DC  - 0,35€/kWh AC",
     "AddressInfo": {
         "ID": 300322,
         "Title": "Ayunt. Sevilla: Avenida de las Ciencias (Endesa)",
@@ -26,12 +44,34 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 789273,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 789274,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-06-17T06:56:00Z",
+    "DateLastStatusUpdate": "2025-11-24T13:24:00Z",
     "DateCreated": "2024-06-13T06:56:00Z",
     "SubmissionStatusTypeID": 200
 }

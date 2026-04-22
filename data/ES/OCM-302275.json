@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-09-24T19:29:00Z",
+    "MediaItems": [
+        {
+            "ID": 47846,
+            "ChargePointID": 302275,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM302275/OCM-302275.orig.2025090920463628.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM302275/OCM-302275.thmb.2025090920463628.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-09T20:47:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-04-01T16:39:00Z",
     "ID": 302275,
     "UUID": "01B93DF9-1F5D-42CA-928E-9C5572F6D673",
     "DataProviderID": 1,
@@ -28,12 +46,24 @@
             "CurrentTypeID": 30,
             "Quantity": 8,
             "Comments": "V4"
+        },
+        {
+            "ID": 804484,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 675,
+            "Voltage": 400,
+            "PowerKW": 250,
+            "CurrentTypeID": 30,
+            "Quantity": 8,
+            "Comments": "v4"
         }
     ],
-    "NumberOfPoints": 8,
-    "GeneralComments": "8 V4 Superchargers 250kW (CCS). Max total power of the station 750kW",
+    "NumberOfPoints": 16,
+    "GeneralComments": "8+8 V4 Superchargers 250kW (CCS). Max total power of the station 1.5MW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-09-24T19:29:00Z",
+    "DateLastStatusUpdate": "2026-04-01T16:39:00Z",
     "DateCreated": "2024-08-02T07:15:00Z",
     "SubmissionStatusTypeID": 200
 }

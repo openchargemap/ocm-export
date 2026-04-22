@@ -1,23 +1,24 @@
 {
-    "DateLastVerified": "2019-05-02T05:24:00Z",
+    "DateLastVerified": "2026-04-05T12:01:00Z",
     "ID": 60462,
     "UUID": "81B7854A-0A96-48BB-B5CD-4E9216725EE6",
     "DataProviderID": 1,
-    "OperatorID": 3,
+    "OperatorID": 3492,
     "OperatorsReference": "PP-74038",
-    "UsageTypeID": 6,
-    "UsageCost": "Free",
+    "UsageTypeID": 1,
+    "UsageCost": "36p per kW ",
     "AddressInfo": {
         "ID": 60808,
-        "Title": "Energy Coast Utc",
+        "Title": "Energus",
         "AddressLine1": "Blackwood Road",
         "AddressLine2": "Lillyhall",
         "Town": "Workington",
         "StateOrProvince": "Cumbria",
         "Postcode": "CA14 4JW",
         "CountryID": 1,
-        "Latitude": 54.614684,
-        "Longitude": -3.522703,
+        "Latitude": 54.615403127294286,
+        "Longitude": -3.5194256770284937,
+        "RelatedURL": "http://Mer / be.EV",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,12 +31,39 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 807018,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 807019,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 807020,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 0,
-    "DateLastStatusUpdate": "2019-05-02T05:24:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-04-05T12:01:00Z",
     "DateCreated": "2016-01-26T10:23:00Z",
     "SubmissionStatusTypeID": 200
 }

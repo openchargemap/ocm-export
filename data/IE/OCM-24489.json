@@ -1,4 +1,20 @@
 {
+    "UserComments": [
+        {
+            "ID": 31347,
+            "ChargePointID": 24489,
+            "CommentTypeID": 10,
+            "UserName": "thommcg",
+            "Comment": "ESB unit removed.",
+            "DateCreated": "2026-02-02T17:37:34.743Z",
+            "User": {
+                "ID": 15963,
+                "Username": "thommcg"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
         {
             "ID": 40465,
@@ -17,22 +33,22 @@
             "DateCreated": "2023-11-19T18:32:00Z"
         }
     ],
-    "DateLastVerified": "2023-11-19T18:32:00Z",
+    "DateLastVerified": "2026-04-19T17:39:00Z",
     "ID": 24489,
     "UUID": "692C4CB4-AD3B-4D82-925A-0CD7055A045C",
     "DataProviderID": 1,
-    "OperatorID": 22,
+    "OperatorID": 45,
     "OperatorsReference": "C5LWL",
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
     "UsageCost": "",
     "AddressInfo": {
         "ID": 24835,
-        "Title": "Tobin's Service Station",
-        "AddressLine1": "Port Road",
-        "AddressLine2": "Gortlee",
+        "Title": "Tobin's",
+        "AddressLine1": "Port Rd",
+        "AddressLine2": "",
         "Town": "Letterkenny",
-        "StateOrProvince": "County Donegal",
-        "Postcode": "F92 PD92",
+        "StateOrProvince": "Co. Donegal",
+        "Postcode": "",
         "CountryID": 3,
         "Latitude": 54.952297,
         "Longitude": -7.725607,
@@ -42,16 +58,25 @@
         {
             "ID": 476867,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
+            "StatusTypeID": 200,
             "LevelID": 3,
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 798311,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-19T18:32:00Z",
+    "DateLastStatusUpdate": "2026-04-19T17:39:00Z",
     "DateCreated": "2014-09-23T14:37:00Z",
     "SubmissionStatusTypeID": 200
 }

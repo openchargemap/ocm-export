@@ -1,6 +1,21 @@
 {
     "UserComments": [
         {
+            "ID": 31522,
+            "ChargePointID": 71902,
+            "CommentTypeID": 10,
+            "UserName": "Como.Sabina Green.",
+            "Comment": "Charged succesfully,Mennekes sockets operational,wall sockets offline,but both Mennekes sockets online & stable.",
+            "Rating": 3,
+            "DateCreated": "2026-04-15T19:41:55.913Z",
+            "User": {
+                "ID": 61659,
+                "Username": "Como.Sabina Green."
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
             "ID": 17901,
             "ChargePointID": 71902,
             "CommentTypeID": 10,
@@ -80,41 +95,45 @@
             "DateCreated": "2016-11-28T20:54:00Z"
         }
     ],
-    "DateLastVerified": "2017-11-06T16:12:00Z",
+    "DateLastVerified": "2026-04-18T18:37:00Z",
     "ID": 71902,
     "UUID": "19EFC6BB-5FE0-4572-888E-EF50A3406674",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 6,
+    "OperatorID": 190,
+    "UsageTypeID": 4,
+    "UsageCost": "12CZK/KWh,2hrs.max.,fees for exceeding.",
     "AddressInfo": {
         "ID": 72248,
-        "Title": "Billa Mikulov",
+        "Title": "Billa Mikulov AC,PRE Charging Station.",
         "AddressLine1": "Republikánské obrany 916/7",
-        "AddressLine2": "Mikulov na Moravě",
-        "Town": "Mikulov",
-        "StateOrProvince": "okres Břeclav",
+        "AddressLine2": "Mikulov na Moravě.",
+        "Town": "Mikulov.",
+        "StateOrProvince": "okres Břeclav,Jihomoravský kraj.",
         "Postcode": "69201",
         "CountryID": 64,
-        "Latitude": 48.8003524,
-        "Longitude": 16.631514,
+        "Latitude": 48.80055225943548,
+        "Longitude": 16.631569606747917,
+        "AccessComments": "Public parking lot @ Billa,just next to entrance.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 103024,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 150,
+            "Reference": "PRE.",
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "L-N voltage=230V."
         },
         {
             "ID": 103025,
             "ConnectionTypeID": 23,
-            "StatusTypeID": 150,
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
@@ -123,10 +142,10 @@
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Otevřeno 7-21hod (neděle 8-21hod)",
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-11-06T16:12:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Otevřeno/open 07 - 21hod. (neděle/sunday 08 - 21hod.).",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2026-04-18T18:37:00Z",
     "DateCreated": "2016-09-22T11:06:00Z",
     "SubmissionStatusTypeID": 200
 }

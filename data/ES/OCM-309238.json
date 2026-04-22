@@ -1,10 +1,10 @@
 {
     "MediaItems": [
         {
-            "ID": 45346,
+            "ID": 48510,
             "ChargePointID": 309238,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM309238/OCM-309238.orig.2025032006511621.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM309238/OCM-309238.thmb.2025032006511621.jpg",
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM309238/OCM-309238.orig.2025092209451994.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM309238/OCM-309238.thmb.2025092209451994.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -12,12 +12,12 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
-            "DateCreated": "2025-03-20T06:51:00Z"
+            "DateCreated": "2025-09-22T09:45:00Z"
         }
     ],
-    "DateLastVerified": "2025-03-20T06:52:00Z",
+    "DateLastVerified": "2025-10-10T08:41:00Z",
     "ID": 309238,
     "UUID": "283B1150-43B8-41A5-9FB2-F367D9CDE941",
     "DataProviderID": 1,
@@ -46,11 +46,20 @@
             "CurrentTypeID": 30,
             "Quantity": 8,
             "Comments": "Four Alpitronic Hypercharger HYC400 Charger. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. Max 600A Peak, charging power limited to 240kW for 400V cars"
+        },
+        {
+            "ID": 776150,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 8,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2025-03-20T06:52:00Z",
+    "NumberOfPoints": 12,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-10-10T08:41:00Z",
     "DateCreated": "2025-03-05T08:17:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2024-09-10T11:07:00Z",
+    "DateLastVerified": "2026-04-17T08:10:00Z",
     "ID": 281076,
     "UUID": "7B2D6742-D6E6-46BA-A00A-7486DDE51B51",
     "DataProviderID": 1,
-    "OperatorID": 2247,
-    "UsageTypeID": 4,
-    "UsageCost": "0,39€/kWh",
+    "OperatorID": 3559,
+    "UsageTypeID": 5,
+    "UsageCost": "0,39€/kWh + parking fee",
     "AddressInfo": {
         "ID": 281463,
-        "Title": "Parking Eduardo Ibarra",
+        "Title": "Parking Eduardo Ibarra (Telepark)",
         "AddressLine1": "Plaza de Pilar Ponzán Vidal",
         "AddressLine2": "Romareda",
         "StateOrProvince": "Aragón",
@@ -24,14 +24,23 @@
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 816666,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 30,
+            "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-09-10T11:07:00Z",
+    "DateLastStatusUpdate": "2026-04-17T08:10:00Z",
     "DateCreated": "2023-12-02T08:00:00Z",
     "SubmissionStatusTypeID": 200
 }

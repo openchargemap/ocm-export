@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-12-26T22:13:00Z",
+    "MediaItems": [
+        {
+            "ID": 48253,
+            "ChargePointID": 70945,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM70945/OCM-70945.orig.2025091514092014.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM70945/OCM-70945.thmb.2025091514092014.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-15T14:09:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-28T20:39:00Z",
     "ID": 70945,
     "UUID": "BBA12DF2-F59E-486B-92DD-F33D51958438",
     "DataProviderID": 1,
@@ -14,8 +32,8 @@
         "StateOrProvince": "Asturias",
         "Postcode": "33211",
         "CountryID": 210,
-        "Latitude": 43.51813190000001,
-        "Longitude": -5.686699299999987,
+        "Latitude": 43.518111023881005,
+        "Longitude": -5.686886623790571,
         "ContactTelephone1": "+34 985 181 105",
         "RelatedURL": "https://tc.gijon.es/page/13429-recarga-de-vehiculo-electrico",
         "DistanceUnit": 0
@@ -31,19 +49,7 @@
             "PowerKW": 75,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "XCharge C6EU 150 DC CCS charger (peak 400A). The charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW."
-        },
-        {
-            "ID": 101642,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 350,
-            "Voltage": 920,
-            "PowerKW": 75,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "Tritium Charger. The DC charger allows charging one vehicle at 175kW, or two simultaneous charges at 75kW. Maximum amperage 350A. charging power limited to 140kW for 400V cars"
+            "Comments": "XCharge C6EU 150 DC CCS charger. The charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW."
         },
         {
             "ID": 101643,
@@ -76,7 +82,7 @@
     "NumberOfPoints": 4,
     "GeneralComments": "RFID card needed",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-12-26T22:13:00Z",
+    "DateLastStatusUpdate": "2025-10-28T20:39:00Z",
     "DateCreated": "2016-08-19T16:57:00Z",
     "SubmissionStatusTypeID": 200
 }

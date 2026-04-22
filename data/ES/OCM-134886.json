@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-11-04T12:05:00Z",
+    "MediaItems": [
+        {
+            "ID": 50999,
+            "ChargePointID": 134886,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM134886/OCM-134886.orig.2025110520071202.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM134886/OCM-134886.thmb.2025110520071202.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-05T20:07:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-05T20:09:00Z",
     "ID": 134886,
     "UUID": "015D4200-534B-48AD-8174-875FD9D1B1E6",
     "DataProviderID": 1,
@@ -14,8 +32,8 @@
         "StateOrProvince": "Lleida",
         "Postcode": "25289",
         "CountryID": 210,
-        "Latitude": 42.005888365582706,
-        "Longitude": 1.2949722241313566,
+        "Latitude": 42.00599738419481,
+        "Longitude": 1.294846969136529,
         "ContactTelephone1": "0034 973 462 731",
         "ContactEmail": "info@bassella.com",
         "AccessComments": "It is a service area, containing following services:\r\nREPSOL petrol station with mini supermarket and a bar in it\r\nCar Washing area\r\nSecond building containing a fast food restaurant (Pans and Company) and a motorcycle museum. \r\nPicknic Area\r\nHuge parking area",
@@ -24,14 +42,15 @@
     "Connections": [
         {
             "ID": 188720,
-            "ConnectionTypeID": 25,
-            "StatusTypeID": 75,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
+            "Comments": "3 Alpitronic Hypercharger HYC300 DC chargers. Each DC  charger allows charging one vehicle at 300kW, or two simultaneous charges at 150kW. (max power is limited for 400V cars)"
         },
         {
             "ID": 188721,
@@ -57,16 +76,18 @@
         },
         {
             "ID": 188723,
-            "ConnectionTypeID": 30,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "We do have 2 different charging stations: \r\nOne from TESLA with a universal charger and a charger only for Tesla Vehicles. \r\nOne from ENDESA, which is much faster and powerful",
+    "NumberOfPoints": 8,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-11-04T12:05:00Z",
+    "DateLastStatusUpdate": "2025-11-05T20:09:00Z",
     "DateCreated": "2019-11-28T14:00:00Z",
     "SubmissionStatusTypeID": 200
 }

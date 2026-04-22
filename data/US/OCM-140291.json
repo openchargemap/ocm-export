@@ -1,10 +1,27 @@
 {
-    "DateLastVerified": "2025-06-24T07:15:00Z",
+    "UserComments": [
+        {
+            "ID": 31372,
+            "ChargePointID": 140291,
+            "CommentTypeID": 10,
+            "UserName": "gregnx",
+            "Comment": "2 plugs inoperable",
+            "DateCreated": "2026-02-16T00:12:33.047Z",
+            "User": {
+                "ID": 67746,
+                "Username": "gregnx"
+            },
+            "CheckinStatusTypeID": 20,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2026-02-19T00:11:00Z",
     "ID": 140291,
     "UUID": "2C253DF9-0DBD-4EC1-9B54-A3AF6429F20B",
-    "DataProviderID": 2,
-    "DataProvidersReference": "124977",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 140643,
         "Title": "Tesuque Casino",
@@ -13,8 +30,8 @@
         "StateOrProvince": "NM",
         "Postcode": "87506",
         "CountryID": 2,
-        "Latitude": 35.76940584520386,
-        "Longitude": -105.9450607885132,
+        "Latitude": 35.76784935163218,
+        "Longitude": -105.94583873789463,
         "ContactTelephone1": "800-462-2635",
         "AccessComments": "24 hours daily; for customers only",
         "RelatedURL": "",
@@ -27,14 +44,15 @@
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 6,
             "CurrentTypeID": 10,
             "Quantity": 4,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T07:15:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2026-02-19T00:11:00Z",
     "DateCreated": "2019-12-24T09:12:00Z",
     "SubmissionStatusTypeID": 100
 }

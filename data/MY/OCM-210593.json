@@ -1,67 +1,82 @@
 {
-    "DateLastVerified": "2023-11-23T12:09:00Z",
+    "DateLastVerified": "2026-02-10T09:12:00Z",
     "ID": 210593,
     "UUID": "462CD3F9-7871-4752-83D7-D333FB8463D7",
     "DataProviderID": 1,
-    "OperatorID": 3517,
+    "OperatorID": 3921,
     "UsageTypeID": 1,
-    "UsageCost": "RM1.00/kWh",
+    "UsageCost": "DC @ RM1.70/kWh | AC @ RM1.15/kWh",
     "AddressInfo": {
         "ID": 210973,
-        "Title": "Gentari @ Petronas Bandar Baru Ayer Hitam",
+        "Title": "Gentari | Petronas Bandar Baru Ayer Hitam (180kW DC)",
         "AddressLine1": "Jalan Batu Pahat",
         "Town": "Ayer Hitam",
         "StateOrProvince": "Johor",
         "Postcode": "86100",
         "CountryID": 137,
-        "Latitude": 1.9333866278597043,
-        "Longitude": 103.18776565334565,
-        "AccessComments": "750m away from Plaza Tol Ayer Hitam serving North & South bound EVs",
-        "RelatedURL": "http://www.gentari.com",
+        "Latitude": 1.9326955748789914,
+        "Longitude": 103.1878232354129,
+        "AccessComments": "",
+        "RelatedURL": "https://www.gentari.com/go/charging-network/malaysia",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 350826,
             "ConnectionTypeID": 33,
-            "Reference": "Gentari",
+            "Reference": "MBM_GEN_JOM_BBAH_01",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "Activate using JomCharge or SETEL app"
+            "Comments": ""
         },
         {
             "ID": 350827,
             "ConnectionTypeID": 33,
-            "Reference": "Gentari",
+            "Reference": "MBM_GEN_JOM_BBAH_02",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 250,
             "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "Activate using JomCharge or SETEL app"
+            "Quantity": 2,
+            "Comments": ""
         },
         {
-            "ID": 350828,
+            "ID": 799296,
+            "ConnectionTypeID": 33,
+            "Reference": "MBM_GEN_JOM_BBAH_03",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 90,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 799297,
             "ConnectionTypeID": 1036,
-            "Reference": "Gentari",
+            "Reference": "MBM_GEN_JOM_BBAH_04",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 415,
             "PowerKW": 11,
             "CurrentTypeID": 20,
-            "Quantity": 2,
-            "Comments": "Activate using JomCharge or SETEL"
+            "Quantity": 1
+        },
+        {
+            "ID": 799298,
+            "ConnectionTypeID": 1036,
+            "Reference": "MBM_GEN_JOM_BBAH_05",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 7,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-23T12:09:00Z",
+    "DateLastStatusUpdate": "2026-02-10T09:12:00Z",
     "DateCreated": "2022-12-12T17:51:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,0 +1,56 @@
+{
+    "DateLastVerified": "2025-10-07T20:39:00Z",
+    "ID": 461784,
+    "UUID": "A1693723-38CE-4E65-BB52-963403FB83CE",
+    "DataProviderID": 1,
+    "OperatorID": 190,
+    "UsageTypeID": 5,
+    "UsageCost": "Extra fees for exceeding time limit(3hrs.for AC,shorter for DC)+highway fee for PHEVs(25% of full highway fee).",
+    "AddressInfo": {
+        "ID": 462173,
+        "Title": "PRE Highway Charging Station(AC+DC).",
+        "AddressLine1": "OMV.",
+        "AddressLine2": "Km 35.",
+        "Town": "(none)-Highway D11.",
+        "StateOrProvince": "Středočeský kraj.",
+        "CountryID": 64,
+        "Latitude": 50.12152592128058,
+        "Longitude": 15.081777385224086,
+        "AccessComments": "Access only via highway(way to Praha),no highway fee for BEVs & FCEVs,75% discount from full price for PHEVs,vehicles unable to sustain speed @ least 80Kph has banned access to highway,thus also to this charging station.",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 776825,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "L-N voltage mentioned(L-L voltage is 400V). KWh:8CZK for PRE registered users;10CZK for non-registered users;13.5CZK for E.On users. Extra fees for exceeding 3hrs.of continuous charging!!!To avoid restart charging every 3hrs..Hidden socket with side-opening wings-type cover,opens,when U push the cable against into the socket."
+        },
+        {
+            "ID": 776826,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 776827,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Fries & restrooms available.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-10-07T20:39:00Z",
+    "DateCreated": "2025-10-04T20:34:00Z",
+    "SubmissionStatusTypeID": 200
+}

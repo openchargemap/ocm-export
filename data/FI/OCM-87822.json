@@ -1,9 +1,11 @@
 {
-    "DateLastVerified": "2020-05-26T08:24:00Z",
+    "DateLastVerified": "2025-10-31T15:57:00Z",
     "ID": 87822,
     "UUID": "DA42E917-2810-446A-A36B-B0A254E58D7D",
     "DataProviderID": 1,
     "DataProvidersReference": "4089",
+    "OperatorID": 3354,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 88168,
         "Title": "K-Citymarket Kerava",
@@ -12,55 +14,38 @@
         "StateOrProvince": "Uusimaa",
         "Postcode": "04200",
         "CountryID": 79,
-        "Latitude": 60.4002,
-        "Longitude": 25.10131,
+        "Latitude": 60.399674218441874,
+        "Longitude": 25.10043397497884,
         "AccessComments": "Parkkihallissa, lähellä kaupan sisäänkäyntiä",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 124540,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 25,
             "Reference": "1",
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4,
             "Comments": "Mode 3"
         },
         {
             "ID": 124541,
-            "ConnectionTypeID": 0,
-            "Reference": "2",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 124542,
-            "ConnectionTypeID": 0,
-            "Reference": "3",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "Comments": "Mode 3"
-        },
-        {
-            "ID": 124543,
-            "ConnectionTypeID": 0,
-            "Reference": "4",
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "Comments": "Mode 3"
+            "ConnectionTypeID": 33,
+            "Reference": "",
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Mode 4"
         }
     ],
     "NumberOfPoints": 4,
-    "DateLastStatusUpdate": "2020-05-26T08:24:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-10-31T15:57:00Z",
     "DateCreated": "2017-05-16T11:07:00Z",
     "SubmissionStatusTypeID": 100
 }

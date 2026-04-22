@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2025-07-03T07:26:00Z",
+    "DateLastVerified": "2026-04-22T04:03:00Z",
     "ID": 314207,
     "UUID": "D161ACF1-802F-41C0-A450-89B7495B71A4",
     "DataProviderID": 32,
@@ -9,11 +9,11 @@
     "AddressInfo": {
         "ID": 314596,
         "Title": "Eldrive Lithuania Vanduo marse",
-        "AddressLine1": "Žemaitkiemio g.",
-        "Town": "Kauno r. sav.",
+        "AddressLine1": "Žemaitkiemio gatvė",
+        "Town": "Žemaitkiemis",
         "CountryID": 131,
-        "Latitude": 54.991028,
-        "Longitude": 23.861414,
+        "Latitude": 54.991631,
+        "Longitude": 23.861195,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,6 +22,8 @@
             "ConnectionTypeID": 1036,
             "Reference": "654295",
             "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
             "CurrentTypeID": 10,
             "Quantity": 1
         },
@@ -30,12 +32,34 @@
             "ConnectionTypeID": 1036,
             "Reference": "654296",
             "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
             "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 807820,
+            "ConnectionTypeID": 33,
+            "Reference": "657308",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 807821,
+            "ConnectionTypeID": 33,
+            "Reference": "657309",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-07-03T07:26:00Z",
+    "DateLastStatusUpdate": "2026-04-22T04:03:00Z",
     "DateCreated": "2025-06-20T09:01:00Z",
     "SubmissionStatusTypeID": 200
 }

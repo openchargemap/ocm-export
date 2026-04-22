@@ -1,11 +1,45 @@
 {
-    "DateLastVerified": "2024-10-13T18:46:00Z",
+    "UserComments": [
+        {
+            "ID": 31488,
+            "ChargePointID": 305129,
+            "CommentTypeID": 10,
+            "UserName": "Enrique",
+            "Comment": "",
+            "DateCreated": "2026-04-10T22:38:31.25Z",
+            "User": {
+                "ID": 53640,
+                "Username": "Enrique"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 49177,
+            "ChargePointID": 305129,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM305129/OCM-305129.orig.2025100719365192.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM305129/OCM-305129.thmb.2025100719365192.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-07T19:37:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-04-14T17:31:00Z",
     "ID": 305129,
     "UUID": "7F0EC471-05CE-40B9-986B-FC505932AC50",
     "DataProviderID": 1,
     "OperatorID": 3588,
     "UsageTypeID": 4,
-    "UsageCost": "0.52€/kWh DC - 0.47€/kWh AC",
+    "UsageCost": "0.56€/kWh DC ",
     "AddressInfo": {
         "ID": 305518,
         "Title": "Aldi Villalba (Atlante)",
@@ -17,17 +51,21 @@
         "CountryID": 210,
         "Latitude": 40.64095294021266,
         "Longitude": -4.008374800531783,
+        "ContactTelephone1": "+34911233173",
+        "ContactTelephone2": "+34900423533",
+        "RelatedURL": "https://atlante.energy/es/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 577475,
             "ConnectionTypeID": 33,
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 400,
             "Voltage": 900,
-            "PowerKW": 150,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Wallbox Supernova 150 Charger (400A peak). The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW"
@@ -39,15 +77,16 @@
             "LevelID": 3,
             "Amps": 400,
             "Voltage": 900,
-            "PowerKW": 150,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Wallbox Supernova 150 Charger."
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-10-13T18:46:00Z",
+    "GeneralComments": "Operated by Atlante",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-04-14T17:31:00Z",
     "DateCreated": "2024-10-13T18:30:00Z",
     "SubmissionStatusTypeID": 200
 }

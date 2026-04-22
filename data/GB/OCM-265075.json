@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2023-05-04T19:47:00Z",
+    "DateLastVerified": "2026-04-04T08:00:00Z",
     "ID": 265075,
     "UUID": "96A8F86B-E667-48C4-8BDD-1EDA4123E8AA",
     "DataProviderID": 1,
     "OperatorID": 3534,
     "UsageTypeID": 4,
-    "UsageCost": "£0.52/kWh;other tariffs for older cars",
+    "UsageCost": "£0.52/kWh;other tariffs for older cars. AC charging free",
     "AddressInfo": {
         "ID": 265459,
         "Title": "Guildford Supercharger",
@@ -13,8 +13,8 @@
         "Town": "Guildford",
         "Postcode": "GU1 1UP",
         "CountryID": 1,
-        "Latitude": 51.24920182544935,
-        "Longitude": -0.5594503721707156,
+        "Latitude": 51.24928026438528,
+        "Longitude": -0.5596776610324241,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,12 +26,23 @@
             "PowerKW": 250,
             "CurrentTypeID": 30,
             "Quantity": 16
+        },
+        {
+            "ID": 806977,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 16,
-    "GeneralComments": "Activate charging via Tesla App or a Tesla vehicle. Account setup required.",
+    "GeneralComments": "Activate charging via Tesla App or a Tesla vehicle. Account setup required. ",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-05-04T19:47:00Z",
+    "DateLastStatusUpdate": "2026-04-04T08:00:00Z",
     "DateCreated": "2023-05-04T19:47:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,19 +1,21 @@
 {
-    "DateLastVerified": "2020-08-27T05:12:00Z",
+    "DateLastVerified": "2026-03-29T22:46:00Z",
     "ID": 151821,
     "UUID": "06789E6B-B4D4-4E70-A15D-BD2E4BE819BF",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*S38*P38184*A",
+    "DataProviderID": 1,
     "OperatorID": 3408,
     "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 152174,
-        "Title": "GRENAY_Chemin De La Croze",
-        "AddressLine1": "Chemin De La Croze 38540 GRENAY",
+        "Title": "Grenay - Chemin de la Croze",
+        "AddressLine1": "Chemin de la Croze",
+        "Town": "Grenay",
+        "Postcode": "38540",
         "CountryID": 80,
         "Latitude": 45.66785,
         "Longitude": 5.086275,
         "AccessComments": "24/24 7/7 jours",
+        "RelatedURL": "https://abonne.reseau-eborn.fr/fr/p/710205",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,37 +24,23 @@
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 212224,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 244700,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 244701,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-08-27T05:12:00Z",
+    "DateLastStatusUpdate": "2026-03-29T22:46:00Z",
     "DateCreated": "2020-03-15T10:53:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,13 +1,13 @@
 {
-    "DateLastVerified": "2025-06-24T07:41:00Z",
+    "DateLastVerified": "2026-02-21T23:51:00Z",
     "ID": 246480,
     "UUID": "C92D3A6F-C7CE-420B-B2FC-7A3E66361648",
-    "DataProviderID": 2,
-    "DataProvidersReference": "167840",
+    "DataProviderID": 1,
+    "OperatorID": 3831,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 246864,
-        "Title": "Wally’s",
+        "Title": "Ionna Pontiac, IL Rechargery @ Wally's",
         "AddressLine1": "1 Holiday Rd",
         "Town": "Pontiac",
         "StateOrProvince": "IL",
@@ -22,27 +22,29 @@
     },
     "Connections": [
         {
-            "ID": 412759,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 412760,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 400,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 6,
+            "Comments": ""
+        },
+        {
+            "ID": 803853,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 400,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
+    "NumberOfPoints": 10,
     "DatePlanned": "2025-06-01T00:00:00Z",
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2025-06-24T07:41:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-02-21T23:51:00Z",
     "DateCreated": "2023-03-07T05:33:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,34 +1,38 @@
 {
-    "DateLastVerified": "2021-11-21T16:17:00Z",
+    "DateLastVerified": "2025-11-03T18:29:00Z",
     "ID": 79283,
     "UUID": "123BEE57-9AA2-4F00-87C0-45BA7EF3636A",
     "DataProviderID": 1,
-    "OperatorID": 90,
+    "OperatorID": 89,
     "OperatorsReference": "10631",
-    "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageTypeID": 1,
+    "UsageCost": "Depends on the charger",
     "AddressInfo": {
         "ID": 79629,
-        "Title": "Station Roulez Electrique",
+        "Title": "Avenue Électrique de Trois-Rivières",
         "AddressLine1": "519 Rue des Volontaires",
         "Town": "Trois-Rivières",
         "StateOrProvince": "QC",
         "Postcode": "G9A 2E7",
         "CountryID": 44,
-        "Latitude": 46.343075,
-        "Longitude": -72.545348,
+        "Latitude": 46.343017599322565,
+        "Longitude": -72.54507441463846,
         "ContactTelephone1": "(855) 519-3032",
+        "RelatedURL": "http://avenueselectriques.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 113909,
-            "ConnectionTypeID": 30,
+            "ConnectionTypeID": 27,
+            "Reference": "Eddie AVE-026",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 16,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Amps": 48,
+            "PowerKW": 11.5,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Borne Wallbox 48 A"
         },
         {
             "ID": 166892,
@@ -86,32 +90,22 @@
             "Quantity": 1
         },
         {
-            "ID": 308048,
-            "ConnectionTypeID": 2,
+            "ID": 778751,
+            "ConnectionTypeID": 1,
+            "Reference": "Eddie AVE-025",
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 400,
-            "PowerKW": 80,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 308049,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 400,
-            "PowerKW": 80,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "LevelID": 2,
+            "Amps": 32,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Borne Fractal limité à 32 A"
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 16,
     "GeneralComments": "1  - Tesla HPWC 16 kW  Hors réseau \r\n2 - CCS/CHAdeMO 50 kW Circuit Électrique \r\n5 - J1172. Réseau FLO et Hors Réseau. \r\nPour les bornes hors réseau, on laisse une contribution dans les bureaux de Roulez Électrique",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-11-21T16:17:00Z",
+    "DateLastStatusUpdate": "2025-11-03T18:29:00Z",
     "DateCreated": "2017-01-27T07:58:00Z",
     "SubmissionStatusTypeID": 200
 }

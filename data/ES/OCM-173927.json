@@ -18,10 +18,10 @@
     ],
     "MediaItems": [
         {
-            "ID": 33314,
+            "ID": 53601,
             "ChargePointID": 173927,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM173927/OCM-173927.orig.2022082808132428.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM173927/OCM-173927.thmb.2022082808132428.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM173927/OCM-173927.orig.2025122321474219.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM173927/OCM-173927.thmb.2025122321474219.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -29,12 +29,28 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
-            "DateCreated": "2022-08-28T08:13:00Z"
+            "DateCreated": "2025-12-23T21:48:00Z"
+        },
+        {
+            "ID": 53532,
+            "ChargePointID": 173927,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM173927/OCM-173927.orig.2025122008331072.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM173927/OCM-173927.thmb.2025122008331072.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-20T08:33:00Z"
         }
     ],
-    "DateLastVerified": "2024-10-19T17:53:00Z",
+    "DateLastVerified": "2025-12-23T21:48:00Z",
     "ID": 173927,
     "UUID": "FB2BF95C-0F2F-4A7D-8E47-8995465D7EC6",
     "DataProviderID": 1,
@@ -64,7 +80,7 @@
             "PowerKW": 90,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "ABB Terra94 CCS/Chademo Charger. Max 200A, charging power limited to 80kW for 400V cars"
+            "Comments": "2 ABB Terra94 CCS/Chademo Chargers. Max 200A, charging power limited to 80kW for 400V cars"
         },
         {
             "ID": 267643,
@@ -78,18 +94,22 @@
             "Comments": "ABB Terra94 Charger. "
         },
         {
-            "ID": 267644,
-            "ConnectionTypeID": 25,
+            "ID": 791640,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "2 ABB Terra360 chargers. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
         }
     ],
     "NumberOfPoints": 4,
+    "GeneralComments": "Station equipped with a boost battery. Max Power limited when charger battery is low of charge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-10-19T17:53:00Z",
+    "DateLastStatusUpdate": "2025-12-23T21:48:00Z",
     "DateCreated": "2021-03-07T13:30:00Z",
     "SubmissionStatusTypeID": 200
 }

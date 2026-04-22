@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2025-06-24T07:58:00Z",
+    "DateLastVerified": "2025-09-18T03:51:00Z",
     "ID": 143536,
     "UUID": "A5EAB876-F49E-4F04-8C2A-F9DDB0FC88C6",
-    "DataProviderID": 2,
-    "DataProvidersReference": "123647",
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 143888,
         "Title": "Hilltop Chevrolet",
@@ -13,8 +14,8 @@
         "StateOrProvince": "NH",
         "Postcode": "03878",
         "CountryID": 2,
-        "Latitude": 43.265,
-        "Longitude": -70.906,
+        "Latitude": 43.265375005951256,
+        "Longitude": -70.90591416931431,
         "ContactTelephone1": "603-692-1697",
         "AccessComments": "24 hours daily",
         "RelatedURL": "",
@@ -33,17 +34,21 @@
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
-            "ID": 199876,
-            "ConnectionTypeID": 32,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
+            "ID": 775904,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 80,
+            "Voltage": 240,
+            "PowerKW": 19.2,
+            "CurrentTypeID": 10,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": " kW power is an estimate based on the connection type"
         }
     ],
+    "GeneralComments": "Located near service bay entry doors",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T07:58:00Z",
+    "DateLastStatusUpdate": "2025-09-18T03:51:00Z",
     "DateCreated": "2019-12-24T09:21:00Z",
     "SubmissionStatusTypeID": 100
 }

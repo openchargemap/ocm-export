@@ -1,19 +1,37 @@
 {
-    "DateLastVerified": "2025-05-03T11:53:00Z",
+    "MediaItems": [
+        {
+            "ID": 52283,
+            "ChargePointID": 312236,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM312236/OCM-312236.orig.2025112413184120.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM312236/OCM-312236.thmb.2025112413184120.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-24T13:19:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-24T13:45:00Z",
     "ID": 312236,
     "UUID": "46B356F1-6A4E-4CBF-9B49-B0F54574D193",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": " 0,45€/kWh ",
+    "UsageCost": " 0,55€/kWh ",
     "AddressInfo": {
         "ID": 312625,
         "Title": "Ayunt. Sevilla. Av. Las Ciencias (Endesa)",
         "AddressLine1": "Av. Las Ciencias",
         "Town": "Sevilla",
         "CountryID": 210,
-        "Latitude": 37.39819582073642,
-        "Longitude": -5.92433469874203,
+        "Latitude": 37.398661533232854,
+        "Longitude": -5.924369345634858,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,34 +40,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 900,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 601584,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 601585,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2025-05-03T11:53:00Z",
+    "DateLastStatusUpdate": "2025-11-24T13:45:00Z",
     "DateCreated": "2025-05-03T11:53:00Z",
     "SubmissionStatusTypeID": 200
 }

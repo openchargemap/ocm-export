@@ -1,4 +1,21 @@
 {
+    "UserComments": [
+        {
+            "ID": 31356,
+            "ChargePointID": 267032,
+            "CommentTypeID": 10,
+            "UserName": "KiwiAP",
+            "Comment": "Charged successfully on way through to Westport.",
+            "Rating": 5,
+            "DateCreated": "2026-02-06T23:37:52.623Z",
+            "User": {
+                "ID": 57582,
+                "Username": "KiwiAP"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
         {
             "ID": 45463,
@@ -17,12 +34,13 @@
             "DateCreated": "2025-04-01T01:13:00Z"
         }
     ],
-    "DateLastVerified": "2025-04-01T09:08:00Z",
+    "DateLastVerified": "2026-02-06T23:38:00Z",
     "ID": 267032,
     "UUID": "EB065A1B-106D-45FC-BA67-F3252541A31B",
     "DataProviderID": 1,
     "OperatorID": 3528,
     "UsageTypeID": 4,
+    "UsageCost": "$1.15/kWh",
     "AddressInfo": {
         "ID": 267416,
         "Title": "Springs Junction",
@@ -34,6 +52,7 @@
         "CountryID": 161,
         "Latitude": -42.33408665806014,
         "Longitude": 172.18245636918482,
+        "RelatedURL": "https://zero.meridianenergy.co.nz/sj",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -44,7 +63,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 3
+            "Quantity": 2
         },
         {
             "ID": 454890,
@@ -53,12 +72,13 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 4,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2025-04-01T09:08:00Z",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Charging available only between 4am and 11pm, subject to remaining battery capacity. Check Zero's website before your trip to ensure chargers are operational and have enough battery capacity to complete your journey. This site is powered by batteries which are charged overnight outside the normal operating hours.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-02-06T23:38:00Z",
     "DateCreated": "2023-06-19T09:35:00Z",
     "SubmissionStatusTypeID": 200
 }

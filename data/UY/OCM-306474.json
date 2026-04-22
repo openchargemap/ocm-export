@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2024-12-08T01:49:00Z",
+    "DateLastVerified": "2026-01-13T03:27:00Z",
     "ID": 306474,
     "UUID": "0BFDFBFF-EC3A-46E3-ACD3-5ECD96EF1E7A",
     "DataProviderID": 1,
     "OperatorID": 3597,
     "UsageTypeID": 4,
+    "UsageCost": "UTE App",
     "AddressInfo": {
         "ID": 306863,
         "Title": "Estacion Carga UTE",
@@ -14,42 +15,33 @@
         "StateOrProvince": "Montevideo",
         "Postcode": "11600",
         "CountryID": 237,
-        "Latitude": -34.89628198504088,
-        "Longitude": -56.14091507558288,
+        "Latitude": -34.89648710275993,
+        "Longitude": -56.140471818775495,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 583197,
+            "ID": 794553,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 300,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
-        {
-            "ID": 583198,
-            "ConnectionTypeID": 1036,
+            "Reference": "UTE",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "PowerKW": 60,
+            "Quantity": 7
         },
         {
-            "ID": 583199,
-            "ConnectionTypeID": 1040,
+            "ID": 794554,
+            "ConnectionTypeID": 33,
+            "Reference": "UTE",
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 30,
-            "CurrentTypeID": 30,
-            "Quantity": 2
+            "LevelID": 2,
+            "PowerKW": 120,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-12-08T01:49:00Z",
+    "DateLastStatusUpdate": "2026-01-13T03:27:00Z",
     "DateCreated": "2024-11-24T17:31:00Z",
     "SubmissionStatusTypeID": 200
 }

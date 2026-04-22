@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2017-02-02T22:51:00Z",
+    "UserComments": [
+        {
+            "ID": 30987,
+            "ChargePointID": 81582,
+            "CommentTypeID": 10,
+            "UserName": "ev_driver",
+            "Comment": "Only one J1772 port next to two Tesla charging ports. Station is known for having a tendency to be ICE'd.",
+            "Rating": 5,
+            "DateCreated": "2025-10-10T13:24:24.373Z",
+            "User": {
+                "ID": 61929,
+                "Username": "ev_driver"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2025-10-13T13:24:00Z",
     "ID": 81582,
     "UUID": "7E1B4B2E-2261-4221-A456-CEF33665564B",
     "DataProviderID": 1,
     "OperatorID": 23,
     "OperatorsReference": "19199",
     "UsageTypeID": 6,
+    "UsageCost": "Free",
     "AddressInfo": {
         "ID": 81928,
         "Title": "Hyatt Place Pittsburgh South Meadows Racetrack & Casino",
@@ -17,6 +35,7 @@
         "Latitude": 40.217788,
         "Longitude": -80.201721,
         "ContactTelephone1": "(724) 470-9201",
+        "AccessComments": "Front row parking spots to the right of the entrance.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,12 +47,23 @@
             "PowerKW": 16,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 777345,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 40,
+            "Voltage": 240,
+            "PowerKW": 9.6,
+            "Quantity": 1,
+            "Comments": "Clipper Creek"
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "2 Tesla Connectors, up to 16kW.Available for patrons only. Please see front desk.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-02-02T22:51:00Z",
+    "DateLastStatusUpdate": "2025-10-13T13:24:00Z",
     "DateCreated": "2017-02-02T22:51:00Z",
     "SubmissionStatusTypeID": 200
 }

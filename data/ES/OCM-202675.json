@@ -1,10 +1,29 @@
 {
-    "DateLastVerified": "2022-09-26T19:12:00Z",
+    "MediaItems": [
+        {
+            "ID": 49747,
+            "ChargePointID": 202675,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202675/OCM-202675.orig.2025102007315394.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202675/OCM-202675.thmb.2025102007315394.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-20T07:32:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-20T07:32:00Z",
     "ID": 202675,
     "UUID": "093C1A0F-C83A-4FD8-BAA4-55203640A5AF",
     "DataProviderID": 1,
-    "OperatorID": 3558,
-    "UsageTypeID": 6,
+    "OperatorID": 103,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 203042,
         "Title": "Nissan Alzira",
@@ -13,8 +32,8 @@
         "StateOrProvince": "Valencian Community",
         "Postcode": "46600",
         "CountryID": 210,
-        "Latitude": 39.16702317297262,
-        "Longitude": -0.42257468365551176,
+        "Latitude": 39.16632230676137,
+        "Longitude": -0.4235510035334755,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,11 +45,20 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 777668,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-26T19:12:00Z",
+    "DateLastStatusUpdate": "2025-10-20T07:32:00Z",
     "DateCreated": "2022-09-12T08:00:00Z",
     "SubmissionStatusTypeID": 200
 }

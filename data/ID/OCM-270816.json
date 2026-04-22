@@ -1,22 +1,22 @@
 {
-    "DateLastVerified": "2024-05-22T01:44:00Z",
+    "DateLastVerified": "2026-03-08T16:20:00Z",
     "ID": 270816,
     "UUID": "309E2183-AC93-4677-8CD7-6FB0CAC61E05",
     "DataProviderID": 1,
     "OperatorID": 3664,
     "UsageTypeID": 1,
-    "UsageCost": "Rp2467/kWh",
+    "UsageCost": "Rp2467/kWh ++",
     "AddressInfo": {
         "ID": 271200,
-        "Title": "SPKLU UP3 Semarang",
-        "AddressLine1": "PLN UP3 Semarang ",
-        "AddressLine2": "Jl. Pemuda No.93, Sekayu, Kec. Semarang Tengah",
+        "Title": "PLN UP3 Semarang",
+        "AddressLine1": "PLN UP3 Semarang, Jalan Pemuda",
+        "AddressLine2": "",
         "Town": "Semarang",
         "StateOrProvince": "Jawa Tengah",
         "Postcode": "50132",
         "CountryID": 107,
-        "Latitude": -6.9768116,
-        "Longitude": 110.4160735,
+        "Latitude": -6.977508692540553,
+        "Longitude": 110.41612998680114,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,21 +27,30 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 460708,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 200,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 799156,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-05-22T01:44:00Z",
+    "DateLastStatusUpdate": "2026-03-08T16:20:00Z",
     "DateCreated": "2023-07-04T18:45:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-11-12T07:13:00Z",
+    "MediaItems": [
+        {
+            "ID": 51233,
+            "ChargePointID": 279892,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM279892/OCM-279892.orig.2025110820123306.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM279892/OCM-279892.thmb.2025110820123306.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-08T20:13:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-08T20:13:00Z",
     "ID": 279892,
     "UUID": "B6A3E9F7-4068-44E4-AA1E-500D6F217179",
     "DataProviderID": 1,
-    "OperatorID": 3550,
+    "OperatorID": 3584,
     "UsageTypeID": 4,
-    "UsageCost": "0,40€/kWh",
+    "UsageCost": "0,60€/kWh",
     "AddressInfo": {
         "ID": 280279,
         "Title": "E.S. Cepsa Empordá (Dir. Norte)",
@@ -20,17 +38,40 @@
     "Connections": [
         {
             "ID": 486751,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "2 Alpitronic HYC150 CCS/Chademo chargers"
+        },
+        {
+            "ID": 781922,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 781923,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-11-12T07:13:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-11-08T20:13:00Z",
     "DateCreated": "2023-11-12T07:09:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,10 +1,43 @@
 {
-    "DateLastVerified": "2021-07-22T10:33:00Z",
+    "UserComments": [
+        {
+            "ID": 31486,
+            "ChargePointID": 188368,
+            "CommentTypeID": 10,
+            "UserName": "Como.Sabina Green.",
+            "Comment": "Used again,twice this week,always excelent,free full 16A Schuko socket,nearby pubs & coffee shops always allowed me to use toilet for free,i love this place.",
+            "Rating": 5,
+            "DateCreated": "2026-04-10T17:36:39.843Z",
+            "User": {
+                "ID": 61659,
+                "Username": "Como.Sabina Green."
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 30923,
+            "ChargePointID": 188368,
+            "CommentTypeID": 10,
+            "UserName": "Como.Sabina Green.",
+            "Comment": "With a large or wide vehicle U may have troubles with docking,for smaller EVs this is the best charging station in this town.Mennekes is mostly busy,but Schuko socket is free of charge & offers full current-max.for 1-phase sockets=16A,which is very rare for free sockets,I know only about 2 such places in Österreich. Many shops in place,1 of them allows using their toilet for free also for those,who r not their customers. Live long & prosper.",
+            "Rating": 5,
+            "DateCreated": "2025-09-28T16:09:04.823Z",
+            "User": {
+                "ID": 61659,
+                "Username": "Como.Sabina Green."
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2026-04-10T17:37:00Z",
     "ID": 188368,
     "UUID": "841822B3-E745-4D09-9A28-F26EAC88032B",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
+    "UsageCost": "Mennekes:payed;Schuko: Free of charge.",
     "AddressInfo": {
         "ID": 188727,
         "Title": "Oberer Markt",
@@ -13,8 +46,9 @@
         "StateOrProvince": "Lower Austria",
         "Postcode": "2170",
         "CountryID": 19,
-        "Latitude": 48.66843401744191,
-        "Longitude": 16.62776220960052,
+        "Latitude": 48.66856246722497,
+        "Longitude": 16.629135430725796,
+        "AccessComments": "Only 1 full-size parking place(mostly in use by a local vehicle)+1 compact parking place-sufficient for small cars as Citroën C0/Mitsubishi iMiEV/Peugeot iOn,but normally wide car will not fit,I advise to have an extension cord onboard.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,13 +57,30 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
             "PowerKW": 22,
-            "Quantity": 1
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Almost always in use by a local Renault Zoe of a wine-company,probably it has a priority access."
+        },
+        {
+            "ID": 776562,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.9,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Free charging from this socket."
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "Nearby bakery allows using of their toilets for free,even U do not buy anything there,very nice place.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-22T10:33:00Z",
+    "DateLastStatusUpdate": "2026-04-10T17:37:00Z",
     "DateCreated": "2021-07-19T13:51:00Z",
     "SubmissionStatusTypeID": 200
 }

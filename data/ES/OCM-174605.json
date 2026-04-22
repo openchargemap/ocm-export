@@ -1,10 +1,29 @@
 {
-    "DateLastVerified": "2025-05-09T19:02:00Z",
+    "MediaItems": [
+        {
+            "ID": 51220,
+            "ChargePointID": 174605,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM174605/OCM-174605.orig.2025110819342754.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM174605/OCM-174605.thmb.2025110819342754.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-08T19:35:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-08T19:35:00Z",
     "ID": 174605,
     "UUID": "17958790-60D0-4948-9E76-0891A6226D54",
     "DataProviderID": 1,
     "OperatorID": 3377,
     "UsageTypeID": 1,
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 174964,
         "Title": "LAFON EdRR 1 - ETECNIC",
@@ -19,28 +38,6 @@
     },
     "Connections": [
         {
-            "ID": 270518,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 270519,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 270520,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
@@ -49,12 +46,12 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-05-09T19:02:00Z",
+    "DateLastStatusUpdate": "2025-11-08T19:35:00Z",
     "DateCreated": "2021-04-08T10:00:00Z",
     "SubmissionStatusTypeID": 200
 }

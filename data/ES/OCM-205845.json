@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2022-10-06T18:39:00Z",
+    "DateLastVerified": "2025-11-21T17:09:00Z",
     "ID": 205845,
     "UUID": "0EA9526C-348C-4AD0-B783-1C51C2E61D93",
     "DataProviderID": 1,
     "OperatorID": 3499,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "0,25€/kWh",
     "AddressInfo": {
         "ID": 206214,
         "Title": "Mercadona Durango",
@@ -13,8 +14,8 @@
         "StateOrProvince": "Basque Country",
         "Postcode": "48200",
         "CountryID": 210,
-        "Latitude": 43.17993103956593,
-        "Longitude": -2.6484502582347886,
+        "Latitude": 43.179214004956066,
+        "Longitude": -2.6480690379123644,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,13 +24,15 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 3.7,
-            "Quantity": 2
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
+    "GeneralComments": "app Waylet(Repsol). 90' free parking, then at 0,07€/min",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-06T18:39:00Z",
+    "DateLastStatusUpdate": "2025-11-21T17:09:00Z",
     "DateCreated": "2022-10-06T18:39:00Z",
     "SubmissionStatusTypeID": 200
 }

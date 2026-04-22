@@ -1,0 +1,51 @@
+{
+    "DateLastVerified": "2025-11-30T17:55:00Z",
+    "ID": 470445,
+    "UUID": "C8FBC1D5-C7F0-46A7-9CAE-0D3473C53F2B",
+    "DataProviderID": 1,
+    "OperatorID": 3371,
+    "UsageTypeID": 4,
+    "UsageCost": "0,59€/kWh",
+    "AddressInfo": {
+        "ID": 470834,
+        "Title": "CC Valle Real (Wenea)",
+        "AddressLine1": "Calle de Alday",
+        "StateOrProvince": "Cantabria",
+        "Postcode": "39600",
+        "CountryID": 210,
+        "Latitude": 43.42777782007471,
+        "Longitude": -3.8373912328804636,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 790018,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "PowerElectronics NB240 charger (500A peak) + CCS dispenser. Total power (240kW) is split between the four DC outlets. "
+        },
+        {
+            "ID": 790019,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 240,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
+            "Comments": "3 PowerElectronics NB240 chargers (500A peak). Power is split between both outlets. The DC charger allows charging one vehicle at 240kW, or two simultaneous charges at 120kW. (max power limited to 200kW for 400V cars)"
+        }
+    ],
+    "NumberOfPoints": 10,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-11-30T17:55:00Z",
+    "DateCreated": "2025-11-30T17:48:00Z",
+    "SubmissionStatusTypeID": 200
+}

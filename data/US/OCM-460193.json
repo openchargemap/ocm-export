@@ -1,17 +1,17 @@
 {
-    "DateLastVerified": "2025-08-01T07:06:00Z",
+    "DateLastVerified": "2026-01-25T01:51:00Z",
     "ID": 460193,
     "UUID": "9344AFB4-DB23-4EEA-894B-B7428BBE212E",
     "DataProviderID": 1,
     "OperatorID": 3789,
-    "UsageTypeID": 1,
+    "UsageTypeID": 2,
     "AddressInfo": {
         "ID": 460582,
         "Title": "Puget Sound Energy",
         "AddressLine1": "6905 S 228th Street",
         "Town": "Kent",
         "StateOrProvince": "WA",
-        "Postcode": "WA",
+        "Postcode": "98032",
         "CountryID": 2,
         "Latitude": 47.39703195297915,
         "Longitude": -122.24719908823954,
@@ -21,16 +21,25 @@
         {
             "ID": 774208,
             "ConnectionTypeID": 32,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 796827,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2025-08-01T07:06:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-01-25T01:51:00Z",
     "DateCreated": "2025-08-01T07:06:00Z",
     "SubmissionStatusTypeID": 200
 }

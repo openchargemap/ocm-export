@@ -1,9 +1,10 @@
 {
-    "DateLastVerified": "2024-02-20T07:39:00Z",
+    "DateLastVerified": "2025-12-04T23:40:00Z",
     "ID": 284260,
     "UUID": "B2DF348F-754E-494B-A7C8-EE6D43D5E40A",
-    "DataProviderID": 19,
-    "DataProvidersReference": "16764",
+    "DataProviderID": 1,
+    "OperatorID": 136,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 284647,
         "Title": "Rokkiparkki - P2, 3A",
@@ -14,7 +15,7 @@
         "CountryID": 79,
         "Latitude": 60.158785,
         "Longitude": 24.916809,
-        "AccessComments": "",
+        "AccessComments": "paid parking",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -1106,10 +1107,29 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Comments": "Mode 3"
+        },
+        {
+            "ID": 790637,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 790638,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 99,
-    "DateLastStatusUpdate": "2024-02-20T07:39:00Z",
+    "NumberOfPoints": 103,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-12-04T23:40:00Z",
     "DateCreated": "2023-12-04T05:45:00Z",
     "SubmissionStatusTypeID": 100
 }

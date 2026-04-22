@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2025-05-05T07:37:00Z",
+    "MediaItems": [
+        {
+            "ID": 53385,
+            "ChargePointID": 302321,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM302321/OCM-302321.orig.2025121511461785.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM302321/OCM-302321.thmb.2025121511461785.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-15T11:46:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-18T10:01:00Z",
     "ID": 302321,
     "UUID": "DF1EE3F6-CB17-4C78-839A-C302A419AF5B",
     "DataProviderID": 1,
-    "OperatorID": 91,
-    "UsageTypeID": 4,
-    "UsageCost": "0.47€/kWh ",
+    "OperatorID": 45,
+    "UsageTypeID": 5,
+    "UsageCost": "0.39€/kWh ",
     "AddressInfo": {
         "ID": 302708,
         "Title": "Repsol Los Rodeos",
@@ -22,27 +40,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
+            "Amps": 375,
             "Voltage": 920,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 566853,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Circutor Raption150C Charger (375A). The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. "
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-05-05T07:37:00Z",
+    "DateLastStatusUpdate": "2025-12-18T10:01:00Z",
     "DateCreated": "2024-08-02T20:40:00Z",
     "SubmissionStatusTypeID": 200
 }

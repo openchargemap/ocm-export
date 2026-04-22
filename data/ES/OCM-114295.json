@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2019-01-05T23:49:00Z",
+    "MediaItems": [
+        {
+            "ID": 49723,
+            "ChargePointID": 114295,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM114295/OCM-114295.orig.2025101918504284.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM114295/OCM-114295.thmb.2025101918504284.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-19T18:51:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-26T17:45:00Z",
     "ID": 114295,
     "UUID": "F0BFF86A-6542-46B5-BEC9-E6C60BA9CD7E",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 3401,
     "UsageTypeID": 5,
-    "UsageCost": "0.15 €/kWh",
+    "UsageCost": "0,40€/kWh DC - 0.35 €/kWh AC",
     "AddressInfo": {
         "ID": 114641,
         "Title": "Gasolinera Coopelec",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Valencia",
         "Postcode": "46610",
         "CountryID": 210,
-        "Latitude": 39.18115986528907,
-        "Longitude": -0.4765110931152705,
+        "Latitude": 39.18107009996626,
+        "Longitude": -0.47623078978517697,
         "AccessComments": " 6h-22h; S-D (Sat-Sun) 8h-14h, 15h-19h",
         "DistanceUnit": 0
     },
@@ -29,12 +47,51 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 3
+            "Quantity": 2
+        },
+        {
+            "ID": 777652,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 777653,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 777654,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 792690,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 4,
+    "GeneralComments": "app electromaps",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-01-05T23:49:00Z",
+    "DateLastStatusUpdate": "2025-12-26T17:45:00Z",
     "DateCreated": "2019-01-05T17:22:00Z",
     "SubmissionStatusTypeID": 200
 }

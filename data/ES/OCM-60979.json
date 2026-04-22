@@ -1,10 +1,29 @@
 {
-    "DateLastVerified": "2024-07-13T11:07:00Z",
+    "MediaItems": [
+        {
+            "ID": 48542,
+            "ChargePointID": 60979,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM60979/OCM-60979.orig.2025092218094960.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM60979/OCM-60979.thmb.2025092218094960.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-22T18:10:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-02-16T09:25:00Z",
     "ID": 60979,
     "UUID": "5DD57E95-BF82-43CD-99DB-B90C664805CC",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 61325,
         "Title": "Piscina San Roque",
@@ -13,32 +32,24 @@
         "StateOrProvince": "Badajoz",
         "Postcode": "06008",
         "CountryID": 210,
-        "Latitude": 38.87761000266653,
-        "Longitude": -6.948718318966428,
+        "Latitude": 38.878087863619896,
+        "Longitude": -6.948868841683748,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 77405,
-            "ConnectionTypeID": 28,
-            "LevelID": 2,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 1
-        },
-        {
             "ID": 77406,
             "ConnectionTypeID": 25,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "GeneralComments": "Senergygps",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-13T11:07:00Z",
+    "DateLastStatusUpdate": "2026-02-16T09:25:00Z",
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-12-02T20:26:00Z",
+    "MediaItems": [
+        {
+            "ID": 51177,
+            "ChargePointID": 213723,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM213723/OCM-213723.orig.2025110811412335.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM213723/OCM-213723.thmb.2025110811412335.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-08T11:41:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-08T11:42:00Z",
     "ID": 213723,
     "UUID": "B76B474A-B320-4FA6-97AD-B73310D868BE",
     "DataProviderID": 1,
@@ -8,7 +26,7 @@
     "UsageCost": "0,58€/kWh",
     "AddressInfo": {
         "ID": 214103,
-        "Title": "Volkswagen",
+        "Title": "Volkswagen Olot",
         "AddressLine1": "Carrer de França",
         "Town": "Olot",
         "StateOrProvince": "Catalunya",
@@ -27,12 +45,21 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 781856,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 30,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 3,
     "GeneralComments": "app Electromaps",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-02T20:26:00Z",
+    "DateLastStatusUpdate": "2025-11-08T11:42:00Z",
     "DateCreated": "2023-02-08T18:24:00Z",
     "SubmissionStatusTypeID": 200
 }

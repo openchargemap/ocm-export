@@ -1,0 +1,77 @@
+{
+    "MediaItems": [
+        {
+            "ID": 50442,
+            "ChargePointID": 462511,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM462511/OCM-462511.orig.2025102918295386.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM462511/OCM-462511.thmb.2025102918295386.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-29T18:30:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-29T18:31:00Z",
+    "ID": 462511,
+    "UUID": "C6A40F99-6735-4E29-BE59-F9B35F5BB727",
+    "DataProviderID": 1,
+    "OperatorID": 3324,
+    "UsageTypeID": 4,
+    "UsageCost": "0,55€/kWh DC - 0,39€/kWh AC",
+    "AddressInfo": {
+        "ID": 462900,
+        "Title": "Obramat Sabadell (Zunder)",
+        "AddressLine1": "Sabadell",
+        "Town": "Sabadell",
+        "CountryID": 210,
+        "Latitude": 41.51859914279325,
+        "Longitude": 2.099584975929133,
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 777941,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "2 ABB Terra360 chargers. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
+        },
+        {
+            "ID": 777942,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 777943,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 900,
+            "PowerKW": 160,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
+            "Comments": "Six Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (200 kW). Charging power limited for 400V cars"
+        }
+    ],
+    "NumberOfPoints": 12,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-10-29T18:31:00Z",
+    "DateCreated": "2025-10-29T18:29:00Z",
+    "SubmissionStatusTypeID": 200
+}

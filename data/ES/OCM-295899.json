@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-02-25T20:50:00Z",
+    "MediaItems": [
+        {
+            "ID": 49066,
+            "ChargePointID": 295899,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM295899/OCM-295899.orig.2025100517420894.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM295899/OCM-295899.thmb.2025100517420894.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-05T17:42:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-05T17:44:00Z",
     "ID": 295899,
     "UUID": "35AE7672-A2D4-443B-9E67-73E34EC5573F",
     "DataProviderID": 1,
@@ -28,11 +46,23 @@
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "XCharge Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+        },
+        {
+            "ID": 776879,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 900,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 12,
+            "Comments": "XCharge C6EU Juicepump150 DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-25T20:50:00Z",
+    "DateLastStatusUpdate": "2025-10-05T17:44:00Z",
     "DateCreated": "2024-02-25T20:50:00Z",
     "SubmissionStatusTypeID": 200
 }

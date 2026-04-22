@@ -1,22 +1,22 @@
 {
-    "DateLastVerified": "2022-09-20T23:34:00Z",
+    "DateLastVerified": "2025-11-30T11:49:00Z",
     "ID": 148561,
     "UUID": "7C79BBCD-33F4-45FC-9FA5-F7C5BA33DD8F",
     "DataProviderID": 1,
     "OperatorID": 3447,
     "UsageTypeID": 1,
-    "UsageCost": "0,65€/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 148913,
-        "Title": "Total - Sarthe Sarge Le Mans Nord",
-        "AddressLine1": "A11 - Aire de Sarthe Sarge Le Mans Nord",
+        "Title": "TotalEnergies - Sarthe Sargé Le Mans Nord",
+        "AddressLine1": "A11 - Aire de Sarthe Sargé Le Mans Nord",
         "Town": "Sargé-lès-le-Mans",
         "StateOrProvince": "",
         "Postcode": "72190",
         "CountryID": 80,
-        "Latitude": 48.056149526950946,
-        "Longitude": 0.25525054369302325,
-        "RelatedURL": "https://apps.total-ev-charge.com/charge-points/TOTAL-NF080138-001",
+        "Latitude": 48.056996074681365,
+        "Longitude": 0.2545637621304877,
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,7 +27,7 @@
             "LevelID": 3,
             "PowerKW": 175,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 6
         },
         {
             "ID": 316807,
@@ -36,7 +36,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 316808,
@@ -45,21 +45,39 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 5
         },
         {
             "ID": 316809,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 5
+        },
+        {
+            "ID": 789931,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 789932,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 6
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 15,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-20T23:34:00Z",
+    "DateLastStatusUpdate": "2025-11-30T11:49:00Z",
     "DateCreated": "2020-02-06T19:33:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,15 +1,16 @@
 {
-    "DateLastVerified": "2023-07-04T16:43:00Z",
+    "DateLastVerified": "2026-04-17T07:31:00Z",
     "ID": 270780,
     "UUID": "A0B3ABB1-F47E-4087-8625-2B44FA445151",
     "DataProviderID": 1,
     "OperatorID": 3664,
     "UsageTypeID": 1,
-    "UsageCost": "Rp2467/kWh",
+    "UsageCost": "IDR 2467/kWh ++",
     "AddressInfo": {
         "ID": 271164,
-        "Title": "SPKLU UP3 Banten Utara",
-        "AddressLine1": "Jl. Pangeran Diponegoro No.depan, Kotabaru, Kec. Serang",
+        "Title": "PLN UP3 Banten Utara",
+        "AddressLine1": "PLN UP3 Banten Utara , ",
+        "AddressLine2": "Jl Pangeran Diponegoro",
         "Town": "Serang",
         "StateOrProvince": "Banten",
         "Postcode": "42112",
@@ -22,16 +23,27 @@
         {
             "ID": 460634,
             "ConnectionTypeID": 1036,
+            "Reference": "Chargecore",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 7,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 796369,
+            "ConnectionTypeID": 33,
+            "Reference": "Teison DC",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T16:43:00Z",
+    "DateLastStatusUpdate": "2026-04-17T07:31:00Z",
     "DateCreated": "2023-07-04T16:40:00Z",
     "SubmissionStatusTypeID": 200
 }

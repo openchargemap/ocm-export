@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-03-01T16:51:00Z",
+    "MediaItems": [
+        {
+            "ID": 49542,
+            "ChargePointID": 209266,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM209266/OCM-209266.orig.2025101308382936.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM209266/OCM-209266.thmb.2025101308382936.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-13T08:39:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-04-17T08:24:00Z",
     "ID": 209266,
     "UUID": "10B91152-1E7E-4135-B2BF-7AE71519A6D5",
     "DataProviderID": 1,
@@ -8,7 +26,7 @@
     "UsageCost": "0,45€/kWh ",
     "AddressInfo": {
         "ID": 209646,
-        "Title": "Bejis",
+        "Title": "E.S. Bejis",
         "AddressLine1": "CV-236",
         "StateOrProvince": "Comunitat Valenciana",
         "Postcode": "12431",
@@ -23,32 +41,26 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 900,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump60 DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
         },
         {
             "ID": 348153,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
+            "LevelID": 2,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 348154,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-01T16:51:00Z",
+    "DateLastStatusUpdate": "2026-04-17T08:24:00Z",
     "DateCreated": "2022-10-25T13:03:00Z",
     "SubmissionStatusTypeID": 200
 }

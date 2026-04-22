@@ -1,10 +1,107 @@
 {
-    "DateLastVerified": "2021-12-10T21:13:00Z",
+    "UserComments": [
+        {
+            "ID": 31447,
+            "ChargePointID": 175649,
+            "CommentTypeID": 10,
+            "UserName": "N",
+            "Comment": "Could not initiate charging in app but tapping credit card to pay on charger itself worked. ",
+            "Rating": 3,
+            "DateCreated": "2026-03-29T17:48:36.6Z",
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 31446,
+            "ChargePointID": 175649,
+            "CommentTypeID": 1000,
+            "UserName": "N",
+            "Comment": "Could not initiate charging. Clip on CCS connector broken, this may be why.",
+            "Rating": 1,
+            "DateCreated": "2026-03-29T17:39:37.007Z",
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "CheckinStatusTypeID": 25,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 31393,
+            "ChargePointID": 175649,
+            "CommentTypeID": 10,
+            "UserName": "N",
+            "Comment": "$5 session fee + $0.6/min",
+            "Rating": 5,
+            "DateCreated": "2026-02-27T01:15:23.33Z",
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 31040,
+            "ChargePointID": 175649,
+            "CommentTypeID": 10,
+            "UserName": "N",
+            "Comment": "",
+            "Rating": 4,
+            "DateCreated": "2025-10-22T00:45:04.557Z",
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 54725,
+            "ChargePointID": 175649,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM175649/OCM-175649.orig.2026032917515446.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM175649/OCM-175649.thmb.2026032917515446.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "DateCreated": "2026-03-29T17:52:00Z"
+        },
+        {
+            "ID": 54724,
+            "ChargePointID": 175649,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM175649/OCM-175649.orig.2026032917510258.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM175649/OCM-175649.thmb.2026032917510258.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "DateCreated": "2026-03-29T17:51:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-03-29T17:52:00Z",
     "ID": 175649,
     "UUID": "2ABE9BB2-221C-4A2A-9C7A-730EBEF26284",
     "DataProviderID": 1,
     "OperatorID": 3454,
     "UsageTypeID": 1,
+    "UsageCost": "DCFC $5.00 to connect + $0.60/min Level 2 $2.00 per hour",
     "AddressInfo": {
         "ID": 176008,
         "Title": " Trails Travel Center DCFC ",
@@ -24,7 +121,8 @@
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 150,
+            "Voltage": 400,
+            "PowerKW": 80,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -50,7 +148,7 @@
     "NumberOfPoints": 1,
     "GeneralComments": "Station provided by ZEF Energy",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-12-10T21:13:00Z",
+    "DateLastStatusUpdate": "2026-03-29T17:52:00Z",
     "DateCreated": "2021-06-03T15:35:00Z",
     "SubmissionStatusTypeID": 200
 }

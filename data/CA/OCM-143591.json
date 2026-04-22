@@ -1,59 +1,62 @@
 {
-    "DateLastVerified": "2025-06-24T07:59:00Z",
+    "DateLastVerified": "2025-09-06T12:21:00Z",
     "ID": 143591,
     "UUID": "1886D033-8D50-46BD-BEF4-50963A9C906E",
-    "DataProviderID": 2,
-    "DataProvidersReference": "129513",
+    "DataProviderID": 1,
     "OperatorID": 89,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "DCFC $20.00/hr, L2 $1.50/hr",
     "AddressInfo": {
         "ID": 143943,
         "Title": "FLO - Canadian Tire - Milton",
-        "AddressLine1": "20 Market Dr",
+        "AddressLine1": "20 Market Drive",
         "Town": "Milton",
         "StateOrProvince": "ON",
         "Postcode": "L9T 3H5",
         "CountryID": 44,
-        "Latitude": 43.523499,
-        "Longitude": -79.899493,
-        "ContactTelephone1": "888-356-8911",
-        "AccessComments": "24 hours daily",
+        "Latitude": 43.5235,
+        "Longitude": -79.89952,
+        "ContactTelephone1": "1-855-543-8356",
+        "ContactTelephone2": "1-888-356-8911",
+        "AccessComments": "Available 24/7",
         "RelatedURL": "https://www.flo.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 199945,
-            "ConnectionTypeID": 1,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
             "ID": 199946,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 199947,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
+        },
+        {
+            "ID": 775517,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.2,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "Mobile app (FLO EV Charging) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T07:59:00Z",
+    "DateLastStatusUpdate": "2025-09-06T12:21:00Z",
     "DateCreated": "2019-12-24T09:21:00Z",
     "SubmissionStatusTypeID": 100
 }

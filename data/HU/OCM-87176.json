@@ -1,26 +1,77 @@
 {
-    "DateLastVerified": "2017-05-01T13:49:00Z",
+    "MediaItems": [
+        {
+            "ID": 47705,
+            "ChargePointID": 87176,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM87176/OCM-87176.orig.2025090521150466.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM87176/OCM-87176.thmb.2025090521150466.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53228,
+                "Username": "iszucs896"
+            },
+            "DateCreated": "2025-09-05T21:15:00Z"
+        },
+        {
+            "ID": 47706,
+            "ChargePointID": 87176,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM87176/OCM-87176.orig.2025090521151355.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/HU/OCM87176/OCM-87176.thmb.2025090521151355.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 53228,
+                "Username": "iszucs896"
+            },
+            "DateCreated": "2025-09-05T21:15:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-09-05T21:15:00Z",
     "ID": 87176,
     "UUID": "B2AED40F-EFBA-43B0-A2F4-A12C8884E55B",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 6,
+    "OperatorID": 3799,
+    "UsageTypeID": 1,
+    "UsageCost": "278 Ft/kWh",
     "AddressInfo": {
         "ID": 87522,
-        "Title": "Budapest, Intercontinental",
-        "AddressLine1": "Apáczai Csere János utca 14.",
+        "Title": "CURB - Hotel InterContinental Budapest",
+        "AddressLine1": "Apáczai Csere János utca 12-14.",
         "Town": "Budapest",
         "StateOrProvince": "Budapest",
-        "Postcode": "1051",
+        "Postcode": "1052",
         "CountryID": 104,
-        "Latitude": 47.49769999999999,
-        "Longitude": 19.04767000000004,
+        "Latitude": 47.497702,
+        "Longitude": 19.047661,
+        "ContactTelephone1": "+36 30 461 2828",
+        "RelatedURL": "https://ev.curb.hu",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 123575,
-            "ConnectionTypeID": 17,
+            "ConnectionTypeID": 25,
+            "Reference": "https://ev.curb.hu",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": ""
+        },
+        {
+            "ID": 775492,
+            "ConnectionTypeID": 25,
+            "Reference": "https://ev.curb.hu",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
@@ -30,9 +81,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Regisztráció nélkül használható! Telefonoddal olvasd le a csatlakozónál található QR kódot, vagy add meg a csatlakozó azonosítóját az ev.curb.hu weboldalon. / Can be used without registration! Start charging by scanning the connector’s QR code or entering the connector’s ID on the ev.curb.hu website.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-05-01T13:49:00Z",
+    "DateLastStatusUpdate": "2025-09-05T21:15:00Z",
     "DateCreated": "2017-05-01T13:49:00Z",
     "SubmissionStatusTypeID": 200
 }

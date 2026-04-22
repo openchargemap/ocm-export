@@ -1,10 +1,29 @@
 {
-    "DateLastVerified": "2022-10-06T18:50:00Z",
+    "MediaItems": [
+        {
+            "ID": 53635,
+            "ChargePointID": 24538,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM24538/OCM-24538.orig.2025122710483178.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM24538/OCM-24538.thmb.2025122710483178.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 59741,
+                "Username": "a.aranceta"
+            },
+            "DateCreated": "2025-12-27T10:49:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-27T10:49:00Z",
     "ID": 24538,
     "UUID": "9D7E6FFE-34EF-480A-B1F5-D40C3947932E",
     "DataProviderID": 1,
-    "OperatorID": 91,
+    "OperatorID": 2247,
     "UsageTypeID": 4,
+    "UsageCost": "0,54€/kWh DC - 0,39€/kWh AC",
     "AddressInfo": {
         "ID": 24884,
         "Title": "Eroski Eibar",
@@ -15,7 +34,7 @@
         "CountryID": 210,
         "Latitude": 43.18279,
         "Longitude": -2.480759,
-        "ContactTelephone1": "+34 902 540 810",
+        "ContactTelephone1": "",
         "ContactEmail": "ibil@ibil.es",
         "AccessComments": "Parking Exterior. Pedir tarjeta en recepción.",
         "RelatedURL": "http://www.ibil.es",
@@ -24,28 +43,29 @@
     "Connections": [
         {
             "ID": 26786,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 12
         },
         {
             "ID": 26787,
-            "ConnectionTypeID": 28,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 14,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-06T18:50:00Z",
+    "DateLastStatusUpdate": "2025-12-27T10:49:00Z",
     "DateCreated": "2014-10-06T19:09:00Z",
     "SubmissionStatusTypeID": 200
 }

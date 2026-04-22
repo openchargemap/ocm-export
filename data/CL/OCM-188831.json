@@ -15,13 +15,13 @@
             "IsActionedByEditor": false
         }
     ],
-    "DateLastVerified": "2024-10-02T19:01:00Z",
+    "DateLastVerified": "2026-01-02T17:10:00Z",
     "ID": 188831,
     "UUID": "069376F0-7CAB-419C-886C-584C9C022683",
     "DataProviderID": 1,
     "OperatorID": 80,
     "UsageTypeID": 4,
-    "UsageCost": "fre",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 189190,
         "Title": "Enel X Peaje Nueva Angostura",
@@ -39,16 +39,24 @@
     "Connections": [
         {
             "ID": 305104,
-            "ConnectionTypeID": 0,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 50,
+            "PowerKW": 60,
+            "Quantity": 1
+        },
+        {
+            "ID": 793394,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 60,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-10-02T19:01:00Z",
+    "DateLastStatusUpdate": "2026-01-02T17:10:00Z",
     "DateCreated": "2021-08-19T14:40:00Z",
     "SubmissionStatusTypeID": 200
 }

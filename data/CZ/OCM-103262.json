@@ -1,4 +1,36 @@
 {
+    "UserComments": [
+        {
+            "ID": 31523,
+            "ChargePointID": 103262,
+            "CommentTypeID": 10,
+            "UserName": "Como.Sabina Green.",
+            "Comment": "As 2 neighboring charging station r out of order,this 1 is overloaded,while i was charging,1 another PHEV & 1 BEV was waiting for Mennekes socket,i came 1st,but others was waiting for 2+hrs.It would deserve more Mennekes/wall-sockets.",
+            "Rating": 3,
+            "DateCreated": "2026-04-15T20:37:06.347Z",
+            "User": {
+                "ID": 61659,
+                "Username": "Como.Sabina Green."
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 30886,
+            "ChargePointID": 103262,
+            "CommentTypeID": 10,
+            "UserName": "Como.Sabina Green.",
+            "Comment": "toilets available, when Kaufland is open.Charging station may be often busy.",
+            "Rating": 4,
+            "DateCreated": "2025-09-24T23:58:06.847Z",
+            "User": {
+                "ID": 61659,
+                "Username": "Como.Sabina Green."
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
         {
             "ID": 15343,
@@ -17,15 +49,16 @@
             "DateCreated": "2018-04-25T16:11:00Z"
         }
     ],
-    "DateLastVerified": "2018-06-07T13:43:00Z",
+    "DateLastVerified": "2026-04-15T20:37:00Z",
     "ID": 103262,
     "UUID": "D0B730EF-BC22-4CA6-9564-3E19E62EEDF6",
     "DataProviderID": 1,
     "OperatorID": 115,
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
+    "UsageCost": "KWh:8CZK for ČEZ registered users, 10CZK for non-registered users,11.5CZK for roaming users.",
     "AddressInfo": {
         "ID": 103608,
-        "Title": "Kaufland Kuřim",
+        "Title": "Kaufland Kuřim ČEZ Public Charging Station (AC+DC).",
         "AddressLine1": "Blanenská",
         "Town": "Kuřim",
         "StateOrProvince": "okres Brno-venkov",
@@ -33,7 +66,7 @@
         "CountryID": 64,
         "Latitude": 49.309,
         "Longitude": 16.5341,
-        "AccessComments": "Pro zákazníky Kauflandu je Typ2 (Mennekes) zdarma a funkční bez RFID čipu.",
+        "AccessComments": "Unlimited public access.|Už neplatí:Pro zákazníky Kauflandu je Typ2 (Mennekes) zdarma a funkční bez RFID čipu.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -67,9 +100,10 @@
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "2 dedicated parking places on Kaufland's parking lot.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-06-07T13:43:00Z",
+    "DateLastStatusUpdate": "2026-04-15T20:37:00Z",
     "DateCreated": "2018-04-25T16:08:00Z",
     "SubmissionStatusTypeID": 200
 }

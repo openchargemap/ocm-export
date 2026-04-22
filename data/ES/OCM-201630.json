@@ -1,11 +1,45 @@
 {
-    "DateLastVerified": "2024-05-04T07:49:00Z",
+    "MediaItems": [
+        {
+            "ID": 52406,
+            "ChargePointID": 201630,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201630/OCM-201630.orig.2025112518383953.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201630/OCM-201630.thmb.2025112518383953.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-25T18:39:00Z"
+        },
+        {
+            "ID": 52405,
+            "ChargePointID": 201630,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201630/OCM-201630.orig.2025112518361889.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201630/OCM-201630.thmb.2025112518361889.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-25T18:36:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-11T18:37:00Z",
     "ID": 201630,
     "UUID": "25FC97DC-29A2-4269-B91A-1E3A0BC230CB",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": "0,47€/kWh",
+    "UsageCost": "0,48€/kWh",
     "AddressInfo": {
         "ID": 201994,
         "Title": "REPSOL Arturo Soria",
@@ -26,7 +60,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 336560,
@@ -35,7 +69,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 336561,
@@ -46,12 +80,24 @@
             "Voltage": 400,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 794297,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Power electronics NB120 Charger. The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-05-04T07:49:00Z",
+    "DateLastStatusUpdate": "2026-01-11T18:37:00Z",
     "DateCreated": "2022-09-03T14:07:00Z",
     "SubmissionStatusTypeID": 200
 }

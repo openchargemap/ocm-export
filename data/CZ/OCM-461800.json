@@ -1,0 +1,54 @@
+{
+    "DateLastVerified": "2025-10-08T03:14:00Z",
+    "ID": 461800,
+    "UUID": "70841264-5846-4DFE-9323-1746E72FAE20",
+    "DataProviderID": 1,
+    "OperatorID": 115,
+    "UsageTypeID": 5,
+    "UsageCost": "For PHEVs additional cost-highway fee(25% of full price).",
+    "AddressInfo": {
+        "ID": 462189,
+        "Title": "ČEZ Highway Charging Station(AC+DC).",
+        "AddressLine1": "Highway D11.",
+        "Town": "(none)(out of any).",
+        "StateOrProvince": "Středočeský kraj.",
+        "CountryID": 64,
+        "Latitude": 50.11996858479009,
+        "Longitude": 15.082639298852428,
+        "AccessComments": "Access only via highway(way Hradec Králové),thus PHEVs must also pay highway fee(with 75% discount)(free for BEVs & FCEVs).Vehicles unable to sustain speed @ least 80Kph r banned from entering highway,thus also this charging station.",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 776865,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "L-N voltage mentioned(L-L voltage is 400V). KWh:8CZK for ČEZ registered users;10CZK for non-registered users;11.5CZK for E.On users."
+        },
+        {
+            "ID": 776866,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 776867,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-10-08T03:14:00Z",
+    "DateCreated": "2025-10-05T03:13:00Z",
+    "SubmissionStatusTypeID": 200
+}

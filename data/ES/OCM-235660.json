@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-11-30T19:01:00Z",
+    "MediaItems": [
+        {
+            "ID": 49051,
+            "ChargePointID": 235660,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM235660/OCM-235660.orig.2025100516503083.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM235660/OCM-235660.thmb.2025100516503083.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-05T16:51:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-05T16:51:00Z",
     "ID": 235660,
     "UUID": "89B1364B-7FCD-4D5B-9C0B-53CB27459460",
     "DataProviderID": 1,
@@ -8,7 +26,7 @@
     "UsageCost": " 0,45€/kWh ",
     "AddressInfo": {
         "ID": 236044,
-        "Title": "Burger king Jaen",
+        "Title": "Burger King Jaen",
         "AddressLine1": "Calle Fuente del Moralejo",
         "StateOrProvince": "Andalucía",
         "Postcode": "23005",
@@ -23,6 +41,8 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2
@@ -39,7 +59,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-11-30T19:01:00Z",
+    "DateLastStatusUpdate": "2025-10-05T16:51:00Z",
     "DateCreated": "2023-02-26T20:34:00Z",
     "SubmissionStatusTypeID": 200
 }

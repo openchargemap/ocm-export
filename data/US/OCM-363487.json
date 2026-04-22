@@ -1,5 +1,70 @@
 {
+    "UserComments": [
+        {
+            "ID": 30841,
+            "ChargePointID": 363487,
+            "CommentTypeID": 50,
+            "UserName": "doug@watts123.com",
+            "Comment": "2 stall charger with a maximum of 62.5 kwh per stall. Some apps have this incorrectly labeled as 4 stalls and/or 125kwh chargers.",
+            "Rating": 3,
+            "DateCreated": "2025-09-13T17:29:50.533Z",
+            "User": {
+                "ID": 57687,
+                "Username": "doug@watts123.com"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
+        {
+            "ID": 48006,
+            "ChargePointID": 363487,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM363487/OCM-363487.orig.2025091317382307.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM363487/OCM-363487.thmb.2025091317382307.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57687,
+                "Username": "doug@watts123.com"
+            },
+            "DateCreated": "2025-09-13T17:38:00Z"
+        },
+        {
+            "ID": 48005,
+            "ChargePointID": 363487,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM363487/OCM-363487.orig.2025091317372163.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM363487/OCM-363487.thmb.2025091317372163.jpg",
+            "Comment": "Located behind the BP gas station, next to the Tim Horton's drive through entrance.",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57687,
+                "Username": "doug@watts123.com"
+            },
+            "DateCreated": "2025-09-13T17:37:00Z"
+        },
+        {
+            "ID": 48004,
+            "ChargePointID": 363487,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM363487/OCM-363487.orig.2025091317333224.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM363487/OCM-363487.thmb.2025091317333224.jpg",
+            "Comment": "Supports up to 62.5 kwh per plug. (1 CCS @ 62.5kwh or 1 NACS @ 62.5kwh)",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 57687,
+                "Username": "doug@watts123.com"
+            },
+            "DateCreated": "2025-09-13T17:34:00Z"
+        },
         {
             "ID": 47002,
             "ChargePointID": 363487,
@@ -17,13 +82,13 @@
             "DateCreated": "2025-07-04T10:54:00Z"
         }
     ],
-    "DateLastVerified": "2025-07-04T10:54:00Z",
+    "DateLastVerified": "2025-09-16T17:39:00Z",
     "ID": 363487,
     "UUID": "21DFC7E6-4EDB-4523-AFA2-6C8D37A4E111",
-    "DataProviderID": 2,
-    "DataProvidersReference": "361184",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "$0.48/kwh",
     "AddressInfo": {
         "ID": 363876,
         "Title": "GPM INVESTMENTS 4699 DC1",
@@ -44,7 +109,7 @@
             "ID": 660404,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
@@ -53,14 +118,15 @@
             "ID": 660405,
             "ConnectionTypeID": 27,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-07-04T10:54:00Z",
+    "DateLastStatusUpdate": "2025-09-16T17:39:00Z",
     "DateCreated": "2025-06-20T10:31:00Z",
     "SubmissionStatusTypeID": 100
 }

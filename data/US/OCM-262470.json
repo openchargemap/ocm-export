@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2025-06-24T07:12:00Z",
+    "DateLastVerified": "2025-11-11T12:58:00Z",
     "ID": 262470,
     "UUID": "E3292505-1568-4550-A3B1-7665C442B778",
     "DataProviderID": 2,
     "DataProvidersReference": "256645",
-    "UsageTypeID": 7,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 262854,
         "Title": "Campbell Chrysler Dodge Jeep Ram",
@@ -16,8 +16,8 @@
         "Latitude": 34.6083775056991,
         "Longitude": -92.5355101337535,
         "ContactTelephone1": "501-316-4400",
-        "AccessComments": "24 hours daily\r\nPublic - Call ahead",
-        "RelatedURL": "",
+        "AccessComments": "24 hours daily; for dealership use only",
+        "RelatedURL": "https://autelenergy.us",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,12 +29,21 @@
             "Voltage": 230,
             "PowerKW": 3.7,
             "CurrentTypeID": 10,
-            "Quantity": 1,
+            "Quantity": 4,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 783718,
+            "ConnectionTypeID": 32,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T07:12:00Z",
+    "DateLastStatusUpdate": "2025-11-11T12:58:00Z",
     "DateCreated": "2023-05-01T05:25:00Z",
     "SubmissionStatusTypeID": 100
 }

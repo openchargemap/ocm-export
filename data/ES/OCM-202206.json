@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2022-10-25T13:46:00Z",
+    "MediaItems": [
+        {
+            "ID": 50291,
+            "ChargePointID": 202206,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202206/OCM-202206.orig.2025102620145117.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202206/OCM-202206.thmb.2025102620145117.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-26T20:15:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-26T20:15:00Z",
     "ID": 202206,
     "UUID": "E01EA68C-BC37-4470-89F5-0F9E33A002B4",
     "DataProviderID": 1,
@@ -14,8 +32,8 @@
         "StateOrProvince": "Andalusia",
         "Postcode": "",
         "CountryID": 210,
-        "Latitude": 37.1957330680914,
-        "Longitude": -2.984346725389514,
+        "Latitude": 37.19468617007739,
+        "Longitude": -2.9842035559164515,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -45,11 +63,20 @@
             "PowerKW": 43,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 777877,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-25T13:46:00Z",
+    "DateLastStatusUpdate": "2025-10-26T20:15:00Z",
     "DateCreated": "2022-09-07T14:54:00Z",
     "SubmissionStatusTypeID": 200
 }

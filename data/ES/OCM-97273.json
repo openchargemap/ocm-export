@@ -1,10 +1,29 @@
 {
-    "DateLastVerified": "2022-10-16T13:47:00Z",
+    "MediaItems": [
+        {
+            "ID": 52896,
+            "ChargePointID": 97273,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM97273/OCM-97273.orig.2025120519075726.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM97273/OCM-97273.thmb.2025120519075726.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-05T19:08:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-11T09:04:00Z",
     "ID": 97273,
     "UUID": "B026950B-9E8A-4458-A28C-95B1C280140C",
     "DataProviderID": 1,
     "OperatorID": 3283,
     "UsageTypeID": 1,
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 97619,
         "Title": "Petra",
@@ -13,34 +32,25 @@
         "StateOrProvince": "Illes Balears",
         "Postcode": "07520",
         "CountryID": 210,
-        "Latitude": 39.6087576,
-        "Longitude": 3.11124389999998,
+        "Latitude": 39.60861104428673,
+        "Longitude": 3.111307136343271,
         "AccessComments": "Open 24 hours.",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 138143,
-            "ConnectionTypeID": 28,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 200,
-            "PowerKW": 3.5,
-            "Quantity": 1
-        },
-        {
             "ID": 138144,
             "ConnectionTypeID": 25,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7.5,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-16T13:47:00Z",
+    "DateLastStatusUpdate": "2025-12-11T09:04:00Z",
     "DateCreated": "2018-01-15T16:05:00Z",
     "SubmissionStatusTypeID": 200
 }

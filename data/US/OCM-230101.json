@@ -1,11 +1,46 @@
 {
-    "DateLastVerified": "2025-06-24T07:55:00Z",
+    "UserComments": [
+        {
+            "ID": 31001,
+            "ChargePointID": 230101,
+            "CommentTypeID": 10,
+            "UserName": "ev_driver",
+            "Comment": "Two chargers in the front corners of the convenience store property. ",
+            "Rating": 5,
+            "DateCreated": "2025-10-13T03:08:42.457Z",
+            "User": {
+                "ID": 61929,
+                "Username": "ev_driver"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 49520,
+            "ChargePointID": 230101,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM230101/OCM-230101.orig.2025101303075135.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM230101/OCM-230101.thmb.2025101303075135.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 61929,
+                "Username": "ev_driver"
+            },
+            "DateCreated": "2025-10-13T03:08:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-16T03:09:00Z",
     "ID": 230101,
     "UUID": "D57B6EE8-A1E4-4D50-9F2D-C1227E8CD823",
-    "DataProviderID": 2,
-    "DataProvidersReference": "168234",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
+    "UsageCost": "49¢/kWh. $10/hr if car is still sitting 30 minutes after charging stops",
     "AddressInfo": {
         "ID": 230484,
         "Title": "NUVUFUELS IONIA NUVU 2",
@@ -28,21 +63,22 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
             "ID": 381771,
             "ConnectionTypeID": 32,
+            "Reference": "https://driver.chargepoint.com/stations/5512931",
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 125,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 2,
+            "Comments": ""
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T07:55:00Z",
+    "DateLastStatusUpdate": "2025-10-16T03:09:00Z",
     "DateCreated": "2023-02-13T05:28:00Z",
     "SubmissionStatusTypeID": 100
 }

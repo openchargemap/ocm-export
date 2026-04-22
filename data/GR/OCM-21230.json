@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 53587,
+            "ChargePointID": 21230,
+            "ItemURL": "https://media.openchargemap.io/images/GR/OCM21230/OCM-21230.orig.2025122313473327.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/GR/OCM21230/OCM-21230.thmb.2025122313473327.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 65012,
+                "Username": "PlugQ"
+            },
+            "DateCreated": "2025-12-23T13:48:00Z"
+        },
+        {
             "ID": 16086,
             "ChargePointID": 21230,
             "ItemURL": "https://media.openchargemap.io/images/GR/OCM21230/OCM-21230.orig.2018073118093158.jpg",
@@ -33,16 +49,16 @@
             "DateCreated": "2018-07-31T18:10:00Z"
         }
     ],
-    "DateLastVerified": "2021-06-13T20:40:00Z",
+    "DateLastVerified": "2025-12-27T11:13:00Z",
     "ID": 21230,
     "UUID": "E8C289B2-3052-4223-B20C-FD9298DC6293",
     "DataProviderID": 1,
     "OperatorID": 85,
     "UsageTypeID": 1,
-    "UsageCost": "0.50 EUR/session + 0.015 EUR/minute",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 21575,
-        "Title": "1-6 Melina Merkouri Square",
+        "Title": "PlugQ Polis Park Piraeus",
         "AddressLine1": "1-6 Melina Merkouri Square",
         "Town": "Piraeus",
         "StateOrProvince": "Decentralized Administration of Attica",
@@ -50,35 +66,37 @@
         "CountryID": 90,
         "Latitude": 37.938807245357125,
         "Longitude": 23.638973156207044,
+        "ContactTelephone1": "+302160043700",
+        "RelatedURL": "https://ixion.gr/ilektrokinisi/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 23088,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 7.6,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 12
         },
         {
             "ID": 23089,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 7.6,
+            "PowerKW": 7.4,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 22
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 34,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-06-13T20:40:00Z",
+    "DateLastStatusUpdate": "2025-12-27T11:13:00Z",
     "DateCreated": "2014-03-09T18:32:00Z",
     "SubmissionStatusTypeID": 200
 }

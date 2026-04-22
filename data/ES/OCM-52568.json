@@ -1,14 +1,32 @@
 {
-    "DateLastVerified": "2016-08-11T12:54:00Z",
+    "MediaItems": [
+        {
+            "ID": 51097,
+            "ChargePointID": 52568,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM52568/OCM-52568.orig.2025110707540158.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM52568/OCM-52568.thmb.2025110707540158.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-07T07:54:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-07T07:54:00Z",
     "ID": 52568,
     "UUID": "DA41C879-B9D0-40FF-86CB-4A980672E07C",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "UsageCost": "4 € complete charge card",
     "AddressInfo": {
         "ID": 52914,
-        "Title": "Ajuntament de Ripoll",
+        "Title": "Ayunt. de Ripoll",
         "AddressLine1": "Plaça Ajuntament, 3",
         "AddressLine2": "Monestir Square ",
         "Town": "Ripoll",
@@ -27,25 +45,18 @@
     "Connections": [
         {
             "ID": 65290,
-            "ConnectionTypeID": 16,
+            "ConnectionTypeID": 28,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 65291,
-            "ConnectionTypeID": 13,
-            "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 1,
+            "PowerKW": 2,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "You can buy a non resident charge card user for 4 € at Tourism office, near 100 m from electrical charger point. Also at Police Station.\r\nif you are a resident user, you can buy a year card per 30 €",
+    "GeneralComments": "Bikes only. You can buy a non resident charge card user for 4 € at Tourism office, near 100 m from electrical charger point. Also at Police Station.if you are a resident user, you can buy a year card per 30 €",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-08-11T12:54:00Z",
+    "DateLastStatusUpdate": "2025-11-07T07:54:00Z",
     "DateCreated": "2015-09-03T12:05:00Z",
     "SubmissionStatusTypeID": 200
 }

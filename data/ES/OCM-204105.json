@@ -1,37 +1,75 @@
 {
-    "DateLastVerified": "2023-11-20T19:32:00Z",
+    "MediaItems": [
+        {
+            "ID": 50497,
+            "ChargePointID": 204105,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM204105/OCM-204105.orig.2025103014281825.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM204105/OCM-204105.thmb.2025103014281825.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-30T14:28:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-30T14:33:00Z",
     "ID": 204105,
     "UUID": "B7ECC3AE-EEAE-4D39-9747-0567D9533D47",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": " 0,19€/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 204472,
-        "Title": "Ayto. Valencia Blasco Ibañez Clínico",
+        "Title": "Ayto. Valencia Hospital Quirón",
         "AddressLine1": "Avinguda de Blasco Ibáñez",
         "AddressLine2": "el Pla del Real",
         "StateOrProvince": "Comunitat Valenciana",
         "Postcode": "46010",
         "CountryID": 210,
-        "Latitude": 39.47831425031444,
-        "Longitude": -0.3639035565665836,
+        "Latitude": 39.478468016535345,
+        "Longitude": -0.364572606693514,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 341083,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 778010,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 778011,
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-11-20T19:32:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-10-30T14:33:00Z",
     "DateCreated": "2022-09-25T14:30:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2024-09-25T11:25:00Z",
+    "MediaItems": [
+        {
+            "ID": 50728,
+            "ChargePointID": 304454,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM304454/OCM-304454.orig.2025110211293007.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM304454/OCM-304454.thmb.2025110211293007.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-02T11:30:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-12T17:58:00Z",
     "ID": 304454,
     "UUID": "FBF0CA91-689B-42CD-8248-8E3BE72FB448",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": "€0,47/kWh",
+    "UsageCost": "€0,47/kWh DC 50kW",
     "AddressInfo": {
         "ID": 304843,
         "Title": "Repsol CRED Fonolleras",
@@ -42,11 +60,23 @@
             "PowerKW": 43.65,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 778452,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra184 Charger. The DC charger CCS/Chademo allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. "
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-09-25T11:25:00Z",
+    "DateLastStatusUpdate": "2026-01-12T17:58:00Z",
     "DateCreated": "2024-09-25T11:25:00Z",
     "SubmissionStatusTypeID": 200
 }

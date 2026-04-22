@@ -1,10 +1,10 @@
 {
     "MediaItems": [
         {
-            "ID": 33472,
+            "ID": 49098,
             "ChargePointID": 201303,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM201303/OCM-201303.orig.2022083121583025.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM201303/OCM-201303.thmb.2022083121583025.jpg",
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201303/OCM-201303.orig.2025100609185190.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201303/OCM-201303.thmb.2025100609185190.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -12,12 +12,12 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
-            "DateCreated": "2022-08-31T21:59:00Z"
+            "DateCreated": "2025-10-06T09:19:00Z"
         }
     ],
-    "DateLastVerified": "2024-04-28T15:14:00Z",
+    "DateLastVerified": "2025-12-21T10:17:00Z",
     "ID": 201303,
     "UUID": "6512E1FC-D78C-46E6-A6AB-5AE18F27A478",
     "DataProviderID": 1,
@@ -42,30 +42,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 500,
+            "Amps": 600,
             "Voltage": 1000,
-            "PowerKW": 350,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "XCharge C9LQ350 DC charger allows charging one vehicle at 350kW, or two simultaneous charges splitting the total power. First CCS2 connector (500A) up to 350kW, second CCS connector (200A) up to 120kW. (max power is limited to 200kW for 400V cars)"
-        },
-        {
-            "ID": 335776,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 1000,
-            "PowerKW": 120,
-            "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+            "Quantity": 8,
+            "Comments": "4 Alpitronic Hypercharger HYC400 DC chargers that  allows charging one vehicle at 300kW, or two simultaneous charges at 150kW. (max power is limited for 400V cars)"
         }
     ],
     "NumberOfPoints": 8,
-    "GeneralComments": "Four 350 kW chargers with double CCS outlet. Power is split between both outlets",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-04-28T15:14:00Z",
+    "DateLastStatusUpdate": "2025-12-21T10:17:00Z",
     "DateCreated": "2022-08-26T14:01:00Z",
     "SubmissionStatusTypeID": 200
 }

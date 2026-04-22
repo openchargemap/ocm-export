@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2025-05-10T20:53:00Z",
+    "MediaItems": [
+        {
+            "ID": 48961,
+            "ChargePointID": 278146,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM278146/OCM-278146.orig.2025100201010919.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM278146/OCM-278146.thmb.2025100201010919.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2025-10-02T01:01:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-02T01:02:00Z",
     "ID": 278146,
     "UUID": "00D1DA52-D187-45BD-9719-42439E1F4397",
     "DataProviderID": 1,
@@ -24,16 +42,20 @@
         {
             "ID": 480771,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
             "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 6,
             "Comments": ""
         }
     ],
+    "NumberOfPoints": 6,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-05-10T20:53:00Z",
+    "DateLastStatusUpdate": "2025-10-02T01:02:00Z",
     "DateCreated": "2023-09-28T05:29:00Z",
     "SubmissionStatusTypeID": 100
 }

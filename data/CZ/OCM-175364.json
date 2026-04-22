@@ -1,18 +1,21 @@
 {
-    "DateLastVerified": "2021-05-15T07:48:00Z",
+    "DateLastVerified": "2025-10-08T01:54:00Z",
     "ID": 175364,
     "UUID": "4B418FCC-4634-46FF-A28E-3DAED591D49C",
     "DataProviderID": 1,
     "OperatorID": 115,
-    "UsageTypeID": 1,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 175723,
-        "Title": "ČEZ Benzina, Nové Strašecí",
+        "Title": "ČEZ Benzina, Nové Strašecí,public charging station(AC+DC).",
         "AddressLine1": "Karlovarská ",
         "AddressLine2": "Nové Strašecí",
+        "Town": "Nové Strašecí.",
+        "StateOrProvince": "Středočeský kraj.",
         "CountryID": 64,
-        "Latitude": 50.158418860220735,
-        "Longitude": 13.896243243122626,
+        "Latitude": 50.158362485307464,
+        "Longitude": 13.896197907454393,
+        "AccessComments": "Unlimited public access.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,9 +33,9 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 1,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 272036,
@@ -43,12 +46,14 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "L-L voltage mentioned(L-N voltage is 230V). KWh:8CZK for ČEZ registered users;10CZK for non-registered users;11.5CZK for E.On users."
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Toilet available.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-05-15T07:48:00Z",
+    "DateLastStatusUpdate": "2025-10-08T01:54:00Z",
     "DateCreated": "2021-05-14T08:14:00Z",
     "SubmissionStatusTypeID": 200
 }

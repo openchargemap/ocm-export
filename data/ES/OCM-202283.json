@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2022-10-25T11:50:00Z",
+    "MediaItems": [
+        {
+            "ID": 49280,
+            "ChargePointID": 202283,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202283/OCM-202283.orig.2025100917550959.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202283/OCM-202283.thmb.2025100917550959.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-09T17:55:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-02-01T14:14:00Z",
     "ID": 202283,
     "UUID": "8FFDFFBC-9788-4E76-80D3-6A6B2AFD5AB5",
     "DataProviderID": 1,
@@ -24,18 +42,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 900,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 338269,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "They DC charger allows charging one vehicle at 60 or two at 30kW"
         },
         {
             "ID": 338270,
@@ -49,7 +61,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-25T11:50:00Z",
+    "DateLastStatusUpdate": "2026-02-01T14:14:00Z",
     "DateCreated": "2022-09-08T13:41:00Z",
     "SubmissionStatusTypeID": 200
 }

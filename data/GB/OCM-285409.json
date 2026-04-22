@@ -1,9 +1,9 @@
 {
-    "DateLastVerified": "2024-02-26T12:48:00Z",
+    "DateLastVerified": "2026-02-26T14:08:00Z",
     "ID": 285409,
     "UUID": "A602114F-AC4D-4B50-8284-E69AD8DAF39E",
     "DataProviderID": 1,
-    "OperatorID": 3387,
+    "OperatorID": 3595,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 285796,
@@ -12,8 +12,8 @@
         "Town": "Folkestone",
         "Postcode": "CT18 8AP",
         "CountryID": 1,
-        "Latitude": 51.091723,
-        "Longitude": 1.120238,
+        "Latitude": 51.09636726175373,
+        "Longitude": 1.1212489493299245,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,9 +23,7 @@
             "Reference": "FR*LMS*E1000101037*2",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -35,9 +33,7 @@
             "Reference": "FR*LMS*E1000101037*1",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 90,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -60,12 +56,20 @@
             "LevelID": 3,
             "PowerKW": 210,
             "CurrentTypeID": 30,
-            "Quantity": 6
+            "Quantity": 7
+        },
+        {
+            "ID": 804495,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 90,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 8,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2024-02-26T12:48:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-02-26T14:08:00Z",
     "MetadataValues": [
         {
             "ID": 29654,

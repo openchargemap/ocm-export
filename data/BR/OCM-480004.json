@@ -1,0 +1,55 @@
+{
+    "DateLastVerified": "2026-03-13T00:01:00Z",
+    "ID": 480004,
+    "UUID": "3BF3EAFC-63BA-4B30-84EC-41ECAE495E00",
+    "DataProviderID": 1,
+    "OperatorID": 1,
+    "UsageTypeID": 1,
+    "UsageCost": "1,89",
+    "AddressInfo": {
+        "ID": 480393,
+        "Title": "Hotel JP Ribeirão Preto",
+        "AddressLine1": "Via Dr. Jeremias de Paula Martins, 101 - Jardim Zinato",
+        "StateOrProvince": "São Paulo",
+        "Postcode": "14097-142",
+        "CountryID": 36,
+        "Latitude": -21.212863874503924,
+        "Longitude": -47.75804175279791,
+        "AccessComments": "Basta entrar na entrada principal do hotel e sinalizar que deseja recarregar o veículo",
+        "RelatedURL": "http://www.nucharge.com.br",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 805858,
+            "ConnectionTypeID": 33,
+            "Reference": "NuCharge",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 250,
+            "Voltage": 1000,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Aplicativo NuCharge"
+        },
+        {
+            "ID": 805859,
+            "ConnectionTypeID": 1036,
+            "Reference": "NuCharge",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 380,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Aplicativo NuCharge"
+        }
+    ],
+    "NumberOfPoints": 3,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-03-13T00:01:00Z",
+    "DateCreated": "2026-03-10T00:00:00Z",
+    "SubmissionStatusTypeID": 200
+}

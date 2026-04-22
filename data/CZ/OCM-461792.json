@@ -1,0 +1,55 @@
+{
+    "DateLastVerified": "2025-10-08T00:54:00Z",
+    "ID": 461792,
+    "UUID": "62D5C164-5C7C-4489-97C6-AD346CF9ED85",
+    "DataProviderID": 1,
+    "OperatorID": 190,
+    "UsageTypeID": 5,
+    "UsageCost": "Extra fees for exceeding charging time limits(3hrs.for AC,shorter for DC).To avoid extra costs restart charging according to time limits.",
+    "AddressInfo": {
+        "ID": 462181,
+        "Title": "PRE Public Charging Station.",
+        "AddressLine1": "@ OMV.",
+        "Town": "Plzeň.",
+        "StateOrProvince": "Plzeňský kraj.",
+        "CountryID": 64,
+        "Latitude": 49.73549470482007,
+        "Longitude": 13.32788325206593,
+        "AccessComments": "Public access with time limit.",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 776847,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "L-N voltage mentioned(L-L voltage is 400V). KWh:8CZK for PRE registered users;10CZK for non-registered users;13.5CZK for E.On users. Max.3hrs.of continuous charging.To avoid extra fees restart charging every 3hrs.."
+        },
+        {
+            "ID": 776848,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 776849,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Restrooms available.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-10-08T00:54:00Z",
+    "DateCreated": "2025-10-05T00:52:00Z",
+    "SubmissionStatusTypeID": 200
+}

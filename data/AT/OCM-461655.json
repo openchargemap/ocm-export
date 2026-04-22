@@ -1,0 +1,49 @@
+{
+    "DateLastVerified": "2025-10-01T20:49:00Z",
+    "ID": 461655,
+    "UUID": "9057D57E-0FD7-4A9E-81D3-F2B6A5483C76",
+    "DataProviderID": 1,
+    "OperatorID": 3616,
+    "UsageTypeID": 5,
+    "UsageCost": "EVN tariff with extra fee for exceeding 3hrs. of continuous charging (AC) (may be shorter limit for DC).",
+    "AddressInfo": {
+        "ID": 462044,
+        "Title": "EVN Public Charging Station (AC+DC).",
+        "AddressLine1": "@ Spar market parking lot.",
+        "Town": "Staatz.",
+        "CountryID": 19,
+        "Latitude": 48.67382708106558,
+        "Longitude": 16.49140961773628,
+        "AccessComments": "Unlimited public access. Spar market's parking lot.",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 776613,
+            "ConnectionTypeID": 1036,
+            "Reference": "EVN.",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Voltage means: L-N. Max.3hrs."
+        },
+        {
+            "ID": 776614,
+            "ConnectionTypeID": 33,
+            "Reference": "EVN.at",
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Do not exceed 3hrs.of continuous charging to avoid extra fees, to fully charge your battery restart charging every 3hrs.(AC).",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-10-01T20:49:00Z",
+    "DateCreated": "2025-09-28T20:45:00Z",
+    "SubmissionStatusTypeID": 200
+}

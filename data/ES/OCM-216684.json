@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-02-09T18:28:00Z",
+    "MediaItems": [
+        {
+            "ID": 50594,
+            "ChargePointID": 216684,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM216684/OCM-216684.orig.2025103116170910.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM216684/OCM-216684.thmb.2025103116170910.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-31T16:17:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-31T16:17:00Z",
     "ID": 216684,
     "UUID": "5CE85DC4-9F37-47F9-ADE2-ED13A05CA175",
     "DataProviderID": 1,
@@ -12,8 +30,8 @@
         "Town": "Vinaròs",
         "StateOrProvince": "Comunitat Valenciana",
         "CountryID": 210,
-        "Latitude": 40.45659017183556,
-        "Longitude": 0.45083285089629044,
+        "Latitude": 40.4570074219796,
+        "Longitude": 0.44971562001160237,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,12 +42,30 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 3
+            "Quantity": 1
+        },
+        {
+            "ID": 778244,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 778245,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 1,
     "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2023-02-09T18:28:00Z",
+    "DateLastStatusUpdate": "2025-10-31T16:17:00Z",
     "DateCreated": "2023-02-09T18:28:00Z",
     "SubmissionStatusTypeID": 200
 }

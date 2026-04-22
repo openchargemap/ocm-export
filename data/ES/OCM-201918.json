@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2025-01-02T14:35:00Z",
+    "MediaItems": [
+        {
+            "ID": 52212,
+            "ChargePointID": 201918,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201918/OCM-201918.orig.2025112319205534.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201918/OCM-201918.thmb.2025112319205534.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-23T19:21:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-23T19:24:00Z",
     "ID": 201918,
     "UUID": "A4A279CE-27B2-4942-8731-F039D4BEB6F3",
     "DataProviderID": 1,
     "OperatorID": 3571,
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "free",
     "AddressInfo": {
         "ID": 202285,
         "Title": "Aeropuerto de Asturias",
@@ -21,37 +39,31 @@
     },
     "Connections": [
         {
-            "ID": 337342,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 337343,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Wallbox Supernova 60 CCS/Chademos Charger. "
         },
         {
-            "ID": 586745,
-            "ConnectionTypeID": 1036,
+            "ID": 789053,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "Max 1h",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2025-01-02T14:35:00Z",
+    "NumberOfPoints": 1,
+    "GeneralComments": "",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-11-23T19:24:00Z",
     "DateCreated": "2022-09-05T14:30:00Z",
     "SubmissionStatusTypeID": 200
 }

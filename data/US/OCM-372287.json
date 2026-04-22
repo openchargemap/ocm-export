@@ -1,9 +1,26 @@
 {
-    "DateLastVerified": "2025-06-24T08:04:00Z",
+    "MediaItems": [
+        {
+            "ID": 48960,
+            "ChargePointID": 372287,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM372287/OCM-372287.orig.2025100200585376.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM372287/OCM-372287.thmb.2025100200585376.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 44742,
+                "Username": "MidwestEVAdventures"
+            },
+            "DateCreated": "2025-10-02T00:59:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-02T01:00:00Z",
     "ID": 372287,
     "UUID": "F678DF75-3B3F-4110-8426-D4F8CAB04395",
-    "DataProviderID": 2,
-    "DataProvidersReference": "391119",
+    "DataProviderID": 1,
     "OperatorID": 3607,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -25,15 +42,19 @@
         {
             "ID": 670223,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 6,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T08:04:00Z",
+    "DateLastStatusUpdate": "2025-10-02T01:00:00Z",
     "DateCreated": "2025-06-20T10:42:00Z",
     "SubmissionStatusTypeID": 100
 }

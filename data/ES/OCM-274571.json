@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2025-06-07T15:06:00Z",
+    "MediaItems": [
+        {
+            "ID": 52555,
+            "ChargePointID": 274571,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM274571/OCM-274571.orig.2025112907595938.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM274571/OCM-274571.thmb.2025112907595938.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-29T08:00:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-29T08:16:00Z",
     "ID": 274571,
     "UUID": "1B898F9E-D9FB-4562-9264-7AFEC2860E3C",
     "DataProviderID": 1,
@@ -12,56 +30,61 @@
         "AddressLine1": "Villanueva de los Caballeros",
         "Town": "Villanueva de los Caballeros",
         "CountryID": 210,
-        "Latitude": 41.7738610009271,
-        "Longitude": -5.311649449443735,
+        "Latitude": 41.773994969034305,
+        "Longitude": -5.312131423431765,
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 476182,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
-        },
         {
             "ID": 476183,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
+            "Amps": 250,
             "Voltage": 920,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2,
+            "Quantity": 3,
             "Comments": "Circutor Raption150 Charger (max power limited to 100kW for 400V cars)"
         },
         {
             "ID": 476184,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 920,
-            "PowerKW": 100,
+            "Amps": 125,
+            "Voltage": 400,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 3,
+            "Comments": ""
         },
         {
             "ID": 601329,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 789679,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-07T15:06:00Z",
+    "DateLastStatusUpdate": "2025-11-29T08:16:00Z",
     "DateCreated": "2023-09-17T20:37:00Z",
     "SubmissionStatusTypeID": 200
 }

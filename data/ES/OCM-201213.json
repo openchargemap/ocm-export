@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2025-04-13T06:52:00Z",
+    "MediaItems": [
+        {
+            "ID": 47995,
+            "ChargePointID": 201213,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201213/OCM-201213.orig.2025091313592929.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201213/OCM-201213.thmb.2025091313592929.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-13T14:00:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-23T13:46:00Z",
     "ID": 201213,
     "UUID": "351830D3-1102-41E7-B252-9D76F2428D37",
     "DataProviderID": 1,
@@ -25,28 +43,16 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 500,
-            "Voltage": 920,
-            "PowerKW": 350,
+            "Voltage": 1000,
+            "PowerKW": 400,
             "CurrentTypeID": 30,
             "Quantity": 4,
-            "Comments": "Four Tritium DC350 CCS/Chademo Chargers. (max power is limited for 400V cars)"
-        },
-        {
-            "ID": 335558,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 500,
-            "PowerKW": 100,
-            "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "Tritium DC350 Charger."
+            "Comments": "Four Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (600 kW). Charging power limited for 400V cars"
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2025-04-13T06:52:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-11-23T13:46:00Z",
     "DateCreated": "2022-08-23T14:53:00Z",
     "SubmissionStatusTypeID": 200
 }

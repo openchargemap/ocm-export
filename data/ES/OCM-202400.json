@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-06-25T20:44:00Z",
+    "MediaItems": [
+        {
+            "ID": 49188,
+            "ChargePointID": 202400,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202400/OCM-202400.orig.2025100720113570.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202400/OCM-202400.thmb.2025100720113570.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-07T20:12:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-21T21:07:00Z",
     "ID": 202400,
     "UUID": "B77DA1F9-BEB0-4D75-BDF8-3578071BA020",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "free",
+    "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 202767,
         "Title": "Ayunt. Boadilla  Juan García Serrano",
@@ -21,28 +39,20 @@
     "Connections": [
         {
             "ID": 338494,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
-        },
-        {
-            "ID": 452451,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 1,
-            "PowerKW": 2.3,
-            "CurrentTypeID": 10,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 900,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam Rapid60 DC charger that allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-06-25T20:44:00Z",
+    "DateLastStatusUpdate": "2025-12-21T21:07:00Z",
     "DateCreated": "2022-09-10T13:10:00Z",
     "SubmissionStatusTypeID": 200
 }

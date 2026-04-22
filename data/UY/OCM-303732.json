@@ -1,45 +1,58 @@
 {
-    "DateLastVerified": "2024-09-05T03:39:00Z",
+    "DateLastVerified": "2026-02-02T03:07:00Z",
     "ID": 303732,
     "UUID": "3F1BA6C2-35C9-4E1F-9603-CF8A4F0426C9",
     "DataProviderID": 1,
-    "OperatorID": 3500,
+    "OperatorID": 3958,
     "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 304121,
-        "Title": "Open Mall",
+        "Title": "EVE Open Mall",
         "AddressLine1": "San Francisco ",
         "Town": "Punta Del Este",
         "StateOrProvince": "Maldonado",
         "Postcode": "20000",
         "CountryID": 237,
-        "Latitude": -34.942172701297416,
-        "Longitude": -54.93555953266355,
+        "Latitude": -34.942267676884306,
+        "Longitude": -54.93602569216716,
+        "RelatedURL": "https://www.eve-move.com/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 573388,
+            "ID": 794282,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 60,
-            "Quantity": 2
-        },
-        {
-            "ID": 573389,
-            "ConnectionTypeID": 1040,
+            "Reference": "EVE",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 794283,
+            "ConnectionTypeID": 1040,
+            "Reference": "EVE",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 60,
+            "Quantity": 1
+        },
+        {
+            "ID": 798294,
+            "ConnectionTypeID": 33,
+            "Reference": "EVE",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "EVE App required",
+    "NumberOfPoints": 4,
+    "GeneralComments": "EVE App",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-09-05T03:39:00Z",
+    "DateLastStatusUpdate": "2026-02-02T03:07:00Z",
     "DateCreated": "2024-09-02T03:34:00Z",
     "SubmissionStatusTypeID": 200
 }

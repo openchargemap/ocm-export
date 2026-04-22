@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2022-10-11T18:36:00Z",
+    "MediaItems": [
+        {
+            "ID": 50820,
+            "ChargePointID": 207575,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207575/OCM-207575.orig.2025110221023104.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207575/OCM-207575.thmb.2025110221023104.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-02T21:03:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-02-15T15:38:00Z",
     "ID": 207575,
     "UUID": "1369121B-D5E3-4A74-93DB-89C7B919988A",
     "DataProviderID": 1,
-    "OperatorID": 45,
-    "UsageTypeID": 6,
-    "UsageCost": "",
+    "OperatorID": 207,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 207955,
         "Title": "AUDI Servisimó",
@@ -24,9 +42,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 900,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump60 DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
         },
         {
             "ID": 345583,
@@ -40,7 +61,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-11T18:36:00Z",
+    "DateLastStatusUpdate": "2026-02-15T15:38:00Z",
     "DateCreated": "2022-10-11T18:36:00Z",
     "SubmissionStatusTypeID": 200
 }

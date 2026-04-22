@@ -1,18 +1,52 @@
 {
-    "DateLastVerified": "2024-05-05T09:16:00Z",
+    "MediaItems": [
+        {
+            "ID": 53918,
+            "ChargePointID": 272865,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM272865/OCM-272865.orig.2026011119420474.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM272865/OCM-272865.thmb.2026011119420474.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2026-01-11T19:42:00Z"
+        },
+        {
+            "ID": 50711,
+            "ChargePointID": 272865,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM272865/OCM-272865.orig.2025110120090228.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM272865/OCM-272865.thmb.2025110120090228.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-01T20:09:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-11T19:42:00Z",
     "ID": 272865,
     "UUID": "1F303206-3F94-4061-9B03-9110B3055D6F",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": "0,47€/kWh ",
+    "UsageCost": "0,56-0,47€/kWh ",
     "AddressInfo": {
         "ID": 273249,
-        "Title": "E.S. Repsol Montbanc",
+        "Title": "E.S. Repsol Montblanc",
         "AddressLine1": "Montblanc",
         "CountryID": 210,
-        "Latitude": 41.37418314485885,
-        "Longitude": 1.1646357072817182,
+        "Latitude": 41.374513693874405,
+        "Longitude": 1.1645860371679646,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -42,11 +76,23 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 794306,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW. "
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-05-05T09:16:00Z",
+    "DateLastStatusUpdate": "2026-01-11T19:42:00Z",
     "DateCreated": "2023-07-20T09:59:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2022-10-16T11:24:00Z",
+    "MediaItems": [
+        {
+            "ID": 52712,
+            "ChargePointID": 99766,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM99766/OCM-99766.orig.2025120214273183.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM99766/OCM-99766.thmb.2025120214273183.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-02T14:28:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-09T17:15:00Z",
     "ID": 99766,
     "UUID": "59A24664-DE26-4ABE-908C-59E168B59D6E",
     "DataProviderID": 1,
@@ -9,14 +27,14 @@
     "UsageCost": "€0/kWh",
     "AddressInfo": {
         "ID": 100112,
-        "Title": "Ajuntament d'Eivissa",
+        "Title": "Ayunt. Ibiza",
         "AddressLine1": "Ajuntament d'Eivissa",
         "Town": "Eivissa",
         "StateOrProvince": "Eivissa",
         "Postcode": "07800",
         "CountryID": 210,
-        "Latitude": 38.911867,
-        "Longitude": 1.421969,
+        "Latitude": 38.911333578848655,
+        "Longitude": 1.4217425487008768,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,10 +44,10 @@
             "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "Voltage": 230,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 5
         },
         {
             "ID": 140961,
@@ -39,13 +57,13 @@
             "Voltage": 230,
             "PowerKW": 2.3,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 5
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "Acceso exclusivo con tarjeta del ayto de Ibiza. Pedir en C/Carlos III, nº6, sexta planta, área de Medio Ambiente. (971199635)",
+    "NumberOfPoints": 10,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-16T11:24:00Z",
+    "DateLastStatusUpdate": "2025-12-09T17:15:00Z",
     "DateCreated": "2018-02-03T15:30:00Z",
     "SubmissionStatusTypeID": 200
 }

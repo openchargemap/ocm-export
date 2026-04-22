@@ -1,23 +1,22 @@
 {
-    "DateLastVerified": "2025-06-24T08:16:00Z",
+    "DateLastVerified": "2025-09-06T19:24:00Z",
     "ID": 381850,
     "UUID": "2F41211A-5659-4AD4-9F86-C2054524AE48",
-    "DataProviderID": 2,
-    "DataProvidersReference": "349195",
+    "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
     "AddressInfo": {
         "ID": 382239,
-        "Title": "FORTGMSHOP 250EASTLOT",
-        "AddressLine1": "1324 Kings Hwy",
+        "Title": "ChargePoint - Fort Frances GM",
+        "AddressLine1": "1324 Kings Highway",
         "Town": "Fort Frances",
         "StateOrProvince": "ON",
         "Postcode": "P9A 2X6",
         "CountryID": 44,
         "Latitude": 48.607822,
         "Longitude": -93.43754,
-        "ContactTelephone1": "888-758-4389",
-        "AccessComments": "24 hours daily",
+        "ContactTelephone1": "1-888-758-4389",
+        "AccessComments": "Available 24/7",
         "RelatedURL": "https://www.chargepoint.com",
         "DistanceUnit": 0
     },
@@ -25,24 +24,28 @@
         {
             "ID": 681271,
             "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 681272,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 62.5,
             "CurrentTypeID": 30,
             "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Mobile app (ChargePoint) required for payment. RFID card available for members. No credit card reader at the charger.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T08:16:00Z",
+    "DateLastStatusUpdate": "2025-09-06T19:24:00Z",
     "DateCreated": "2025-06-20T10:54:00Z",
     "SubmissionStatusTypeID": 100
 }

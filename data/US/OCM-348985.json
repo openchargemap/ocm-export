@@ -1,10 +1,61 @@
 {
-    "DateLastVerified": "2025-06-24T07:34:00Z",
+    "MediaItems": [
+        {
+            "ID": 54816,
+            "ChargePointID": 348985,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM348985/OCM-348985.orig.2026040814494419.49d07379857346d9b48171aedd24815d.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM348985/OCM-348985.thmb.2026040814494419.49d07379857346d9b48171aedd24815d.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 6266,
+                "Username": "Windydrew"
+            },
+            "DateCreated": "2026-04-08T14:50:00Z"
+        },
+        {
+            "ID": 54780,
+            "ChargePointID": 348985,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM348985/OCM-348985.orig.2026040420584120.e9790582572e40d0a4c506aecdcf9c50.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM348985/OCM-348985.thmb.2026040420584120.e9790582572e40d0a4c506aecdcf9c50.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 59665,
+                "Username": "digiblurDIY"
+            },
+            "DateCreated": "2026-04-04T20:59:00Z"
+        },
+        {
+            "ID": 54779,
+            "ChargePointID": 348985,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM348985/OCM-348985.orig.2026040420575641.3d760a0e70124778803b2159c2cfe79a.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM348985/OCM-348985.thmb.2026040420575641.3d760a0e70124778803b2159c2cfe79a.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 59665,
+                "Username": "digiblurDIY"
+            },
+            "DateCreated": "2026-04-04T20:58:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-04-12T14:04:00Z",
     "ID": 348985,
     "UUID": "2DAD25DE-2B21-497F-BEFC-676CE6655869",
-    "DataProviderID": 2,
-    "DataProvidersReference": "348246",
+    "DataProviderID": 1,
+    "OperatorID": 3534,
     "UsageTypeID": 1,
+    "UsageCost": "$0.43/kWh",
     "AddressInfo": {
         "ID": 349374,
         "Title": "AC Customs",
@@ -22,26 +73,18 @@
     },
     "Connections": [
         {
-            "ID": 644479,
-            "ConnectionTypeID": 2,
+            "ID": 807236,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
-            "ID": 644480,
-            "ConnectionTypeID": 32,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T07:34:00Z",
+    "DateLastStatusUpdate": "2026-04-12T14:04:00Z",
     "DateCreated": "2025-06-20T10:13:00Z",
     "SubmissionStatusTypeID": 100
 }

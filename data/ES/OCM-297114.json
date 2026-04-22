@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 54733,
+            "ChargePointID": 297114,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM297114/OCM-297114.orig.2026033117235882.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM297114/OCM-297114.thmb.2026033117235882.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2026-03-31T17:24:00Z"
+        },
+        {
             "ID": 43559,
             "ChargePointID": 297114,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM297114/OCM-297114.orig.2024091014135636.jpg",
@@ -12,12 +28,12 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
             "DateCreated": "2024-09-10T14:14:00Z"
         }
     ],
-    "DateLastVerified": "2025-01-16T23:31:00Z",
+    "DateLastVerified": "2026-03-31T17:24:00Z",
     "ID": 297114,
     "UUID": "4DE0F50C-078E-4D6D-8BCB-BB74418A81C9",
     "DataProviderID": 1,
@@ -45,14 +61,14 @@
             "Voltage": 920,
             "PowerKW": 360,
             "CurrentTypeID": 30,
-            "Quantity": 8,
-            "Comments": "4 ABB Terra360 chargers (only 2 currently operating and limited to 200kW). The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
+            "Quantity": 14,
+            "Comments": "7 ABB Terra360 chargers. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
         }
     ],
-    "NumberOfPoints": 8,
+    "NumberOfPoints": 14,
     "GeneralComments": "Station equipped with a boost battery. Max Power limited when charger battery is low of charge",
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2025-01-16T23:31:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-03-31T17:24:00Z",
     "DateCreated": "2024-03-28T20:19:00Z",
     "SubmissionStatusTypeID": 200
 }

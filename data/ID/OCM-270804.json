@@ -1,19 +1,37 @@
 {
-    "DateLastVerified": "2024-05-22T02:26:00Z",
+    "MediaItems": [
+        {
+            "ID": 54100,
+            "ChargePointID": 270804,
+            "ItemURL": "https://media.openchargemap.io/images/ID/OCM270804/OCM-270804.orig.2026011916440442.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ID/OCM270804/OCM-270804.thmb.2026011916440442.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 65214,
+                "Username": "Seno"
+            },
+            "DateCreated": "2026-01-19T16:44:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-03-13T22:51:00Z",
     "ID": 270804,
     "UUID": "1F01EB9E-4E4D-4A3F-9A22-1F5AF1097EEB",
     "DataProviderID": 1,
     "OperatorID": 3664,
     "UsageTypeID": 1,
-    "UsageCost": "Rp.2467/kWh",
+    "UsageCost": "IDR 2467/Kwh",
     "AddressInfo": {
         "ID": 271188,
-        "Title": "Rest Area KM 229B Kanci Pejagan",
-        "AddressLine1": "Rest Area KM 229B Tol Kanci - Pejagan, ",
-        "AddressLine2": "Jatirenggang, Kec. Pabuaran",
+        "Title": "Rest Area KM 229 B Kanci Pejagan",
+        "AddressLine1": "Rest Area KM 229B Tol Kanci–Pejagan",
+        "AddressLine2": "",
         "Town": "Cirebon",
         "StateOrProvince": "Jawa Barat",
-        "Postcode": "45188",
+        "Postcode": "45191",
         "CountryID": 107,
         "Latitude": -6.8847187,
         "Longitude": 108.7070833,
@@ -21,8 +39,29 @@
     },
     "Connections": [
         {
-            "ID": 460678,
+            "ID": 803050,
+            "ConnectionTypeID": 33,
+            "Reference": "ABB Terra",
+            "StatusTypeID": 30,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 803051,
+            "ConnectionTypeID": 2,
+            "Reference": "ABB Terra",
+            "StatusTypeID": 30,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 803052,
             "ConnectionTypeID": 1036,
+            "Reference": "Delta AC",
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -30,18 +69,119 @@
             "Quantity": 1
         },
         {
-            "ID": 460679,
+            "ID": 803053,
             "ConnectionTypeID": 33,
+            "Reference": "Delta DC",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 2
+        },
+        {
+            "ID": 803054,
+            "ConnectionTypeID": 33,
+            "Reference": "Delta DC",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 803055,
+            "ConnectionTypeID": 33,
+            "Reference": "Teison DC",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 803056,
+            "ConnectionTypeID": 33,
+            "Reference": "Teison DC",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 803057,
+            "ConnectionTypeID": 33,
+            "Reference": "CS Energy",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 803058,
+            "ConnectionTypeID": 33,
+            "Reference": "CS Energy",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 803059,
+            "ConnectionTypeID": 33,
+            "Reference": "Beny",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 803060,
+            "ConnectionTypeID": 33,
+            "Reference": "Beny",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 803061,
+            "ConnectionTypeID": 33,
+            "Reference": "Beny",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 803062,
+            "ConnectionTypeID": 33,
+            "Reference": "Beny",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 803063,
+            "ConnectionTypeID": 33,
+            "Reference": "Beny",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 26,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-05-22T02:26:00Z",
+    "DateLastStatusUpdate": "2026-03-13T22:51:00Z",
     "DateCreated": "2023-07-04T18:08:00Z",
     "SubmissionStatusTypeID": 200
 }

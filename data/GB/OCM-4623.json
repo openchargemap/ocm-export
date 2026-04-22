@@ -90,11 +90,11 @@
             "DateCreated": "2014-06-03T11:05:00Z"
         }
     ],
-    "DateLastVerified": "2019-07-18T15:04:00Z",
+    "DateLastVerified": "2026-04-08T00:18:00Z",
     "ID": 4623,
     "UUID": "091AA77B-ECE7-45C0-9EC2-91492CCAF87A",
     "DataProviderID": 1,
-    "OperatorID": 19,
+    "OperatorID": 3341,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 4568,
@@ -106,7 +106,7 @@
         "CountryID": 1,
         "Latitude": 54.4496537,
         "Longitude": -2.6099819,
-        "ContactTelephone1": "01539 711331",
+        "ContactTelephone1": "",
         "AccessComments": "Junction 38 of M6 northbound. To access the charger follow the very large \"Tesla Charger\" signs. You can access it whether from Northbound (the side its on) or Southbound (you are led over a bridge to Northbound). You have to sign in and collect a key at the petrol station forecourt. The key unlocks a padlock on the switch that powers the charger. Charging availability 24 hours. ",
         "RelatedURL": "http://www.westmorland.com",
         "DistanceUnit": 0
@@ -125,21 +125,39 @@
         },
         {
             "ID": 281,
-            "ConnectionTypeID": 4,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 230,
             "PowerKW": 7,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 2
+        },
+        {
+            "ID": 807249,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
+        },
+        {
+            "ID": 807250,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 6,
     "GeneralComments": "EVSE: Tesla HPC and 32Amp outlets",
     "DateLastConfirmed": "2011-06-20T02:44:00Z",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-07-18T15:04:00Z",
+    "DateLastStatusUpdate": "2026-04-08T00:18:00Z",
     "DateCreated": "2011-06-20T02:44:00Z",
     "SubmissionStatusTypeID": 200
 }

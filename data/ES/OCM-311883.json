@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2025-06-29T09:43:00Z",
+    "MediaItems": [
+        {
+            "ID": 51547,
+            "ChargePointID": 311883,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM311883/OCM-311883.orig.2025111317194090.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM311883/OCM-311883.thmb.2025111317194090.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-13T17:20:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-13T17:21:00Z",
     "ID": 311883,
     "UUID": "D8420B57-A49E-48C5-ACB1-141B89E443EB",
     "DataProviderID": 1,
     "OperatorID": 3559,
     "UsageTypeID": 5,
-    "UsageCost": "0,39€/kWh + parking fee",
+    "UsageCost": "0,39€/kWh  + parking fee",
     "AddressInfo": {
         "ID": 312272,
         "Title": "Parking Sant Feliu",
@@ -24,12 +42,21 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 3
+            "Quantity": 6
+        },
+        {
+            "ID": 787887,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-29T09:43:00Z",
+    "DateLastStatusUpdate": "2025-11-13T17:21:00Z",
     "DateCreated": "2025-04-21T21:35:00Z",
     "SubmissionStatusTypeID": 200
 }

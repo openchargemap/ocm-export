@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2025-06-24T08:11:00Z",
+    "DateLastVerified": "2025-09-20T12:32:00Z",
     "ID": 378134,
     "UUID": "90025E9B-2877-4F04-BB7F-8D4EFDFB0C67",
-    "DataProviderID": 2,
-    "DataProvidersReference": "396342",
+    "DataProviderID": 1,
     "OperatorID": 5,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "$0.62/kWh",
     "AddressInfo": {
         "ID": 378523,
-        "Title": "MACEWEN NORTHBAY-P1",
+        "Title": "ChargePoint - MACEWEN N BAY",
         "AddressLine1": "1375 Seymour Street",
         "Town": "North Bay",
         "StateOrProvince": "ON",
@@ -16,7 +16,7 @@
         "CountryID": 44,
         "Latitude": 46.308461,
         "Longitude": -79.438666,
-        "ContactTelephone1": "888-758-4389",
+        "ContactTelephone1": "1-888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.chargepoint.com",
         "DistanceUnit": 0
@@ -24,26 +24,30 @@
     "Connections": [
         {
             "ID": 676967,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
         },
         {
             "ID": 676968,
-            "ConnectionTypeID": 32,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 3,
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "Mobile app (ChargePoint) required for payment. RFID card available for members. No credit card reader at the charger.",
     "DatePlanned": "2025-06-22T00:00:00Z",
-    "StatusTypeID": 30,
-    "DateLastStatusUpdate": "2025-06-24T08:11:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-09-20T12:32:00Z",
     "DateCreated": "2025-06-20T10:49:00Z",
     "SubmissionStatusTypeID": 100
 }

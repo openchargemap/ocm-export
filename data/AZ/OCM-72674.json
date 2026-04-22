@@ -1,37 +1,50 @@
 {
-    "DateLastVerified": "2016-11-22T16:02:00Z",
+    "DateLastVerified": "2026-04-13T18:31:00Z",
     "ID": 72674,
     "UUID": "F50E3923-E195-4761-9A61-8203892FCEED",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
+    "OperatorID": 3940,
+    "UsageTypeID": 4,
+    "UsageCost": "0.26 AZN",
     "AddressInfo": {
         "ID": 73020,
-        "Title": "Green car charging point",
+        "Title": "Azərişıq EDM (Heydər Əliyev Mərkəzi)",
         "AddressLine1": "Heydər Əliyev pr.‎ Baku, Azerbaijan ",
         "Town": "Baku",
         "StateOrProvince": "Baku",
         "CountryID": 20,
-        "Latitude": 40.392749,
-        "Longitude": 49.864964,
-        "ContactTelephone1": "+994 55 715 1236 ",
-        "RelatedURL": "http://greencar.az/",
+        "Latitude": 40.39285394343074,
+        "Longitude": 49.8648083303799,
+        "ContactTelephone1": "+99412199",
+        "AccessComments": "Heydər Əliyev Mərkəzi",
+        "RelatedURL": "https://www.azerishiq.az/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 104193,
-            "ConnectionTypeID": 34,
+            "ID": 787993,
+            "ConnectionTypeID": 33,
+            "Reference": "Azərişıq VEP",
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Voltage": 120,
-            "CurrentTypeID": 20
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 12
+        },
+        {
+            "ID": 792492,
+            "ConnectionTypeID": 1040,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 12
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Wall Outlet (120V), EV Plug (Type 3) \r\n3 types pulg ins ",
+    "NumberOfPoints": 24,
+    "GeneralComments": "12 stations with CCS 2 and GB/T DC chargers on each.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-11-22T16:02:00Z",
+    "DateLastStatusUpdate": "2026-04-13T18:31:00Z",
     "DateCreated": "2016-11-01T01:02:00Z",
     "SubmissionStatusTypeID": 200
 }

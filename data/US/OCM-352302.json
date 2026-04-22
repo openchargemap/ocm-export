@@ -1,9 +1,59 @@
 {
-    "DateLastVerified": "2025-06-24T07:38:00Z",
+    "UserComments": [
+        {
+            "ID": 31147,
+            "ChargePointID": 352302,
+            "CommentTypeID": 10,
+            "UserName": "N",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2025-11-21T19:20:58.75Z",
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 52074,
+            "ChargePointID": 352302,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM352302/OCM-352302.orig.2025112119233651.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM352302/OCM-352302.thmb.2025112119233651.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "DateCreated": "2025-11-21T19:24:00Z"
+        },
+        {
+            "ID": 52073,
+            "ChargePointID": 352302,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM352302/OCM-352302.orig.2025112119222906.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM352302/OCM-352302.thmb.2025112119222906.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "DateCreated": "2025-11-21T19:23:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-31T06:16:00Z",
     "ID": 352302,
     "UUID": "0F588CA0-C62E-4808-9404-A3E35E50F2EE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "391199",
+    "DataProviderID": 1,
     "OperatorID": 3607,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -25,15 +75,17 @@
         {
             "ID": 648128,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 8,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T07:38:00Z",
+    "DateLastStatusUpdate": "2026-01-31T06:16:00Z",
     "DateCreated": "2025-06-20T10:17:00Z",
     "SubmissionStatusTypeID": 100
 }

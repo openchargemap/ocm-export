@@ -1,10 +1,10 @@
 {
-    "DateLastVerified": "2025-06-24T08:16:00Z",
+    "DateLastVerified": "2025-11-11T14:15:00Z",
     "ID": 160641,
     "UUID": "C36AA20A-173C-44D8-A957-482FC3BA0C3C",
     "DataProviderID": 2,
     "DataProvidersReference": "158004",
-    "UsageTypeID": 2,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 160998,
         "Title": "Ucluelet Co-op",
@@ -16,18 +16,20 @@
         "Latitude": 48.9412394,
         "Longitude": -125.5465282,
         "ContactTelephone1": "250-726-4231",
-        "AccessComments": "",
+        "AccessComments": "9am-7pm daily",
         "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 231148,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
@@ -40,10 +42,8 @@
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
-    "GeneralComments": "Planned for future date. Not Operational.",
-    "DatePlanned": "2021-09-01T00:00:00Z",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2025-06-24T08:16:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-11-11T14:15:00Z",
     "DateCreated": "2020-06-26T03:11:00Z",
     "SubmissionStatusTypeID": 100
 }

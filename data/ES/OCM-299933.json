@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2024-06-17T06:55:00Z",
+    "MediaItems": [
+        {
+            "ID": 52287,
+            "ChargePointID": 299933,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM299933/OCM-299933.orig.2025112413330823.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM299933/OCM-299933.thmb.2025112413330823.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-24T13:33:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-24T13:33:00Z",
     "ID": 299933,
     "UUID": "FC9E96CE-1BB0-458F-B3A5-B24423AD1282",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": " 0,39€/kWh ",
+    "UsageCost": "0,45€/kWh DC -   0,39€/kWh AC",
     "AddressInfo": {
         "ID": 300320,
         "Title": "Ayunt. Sevilla: Avenida de Emilio Lemos (Endesa)",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Andalucía",
         "Postcode": "41019",
         "CountryID": 210,
-        "Latitude": 37.40485253429196,
-        "Longitude": -5.9161907936249065,
+        "Latitude": 37.40392875409458,
+        "Longitude": -5.917336634784533,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,12 +44,34 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 789275,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 789276,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-06-17T06:55:00Z",
+    "DateLastStatusUpdate": "2025-11-24T13:33:00Z",
     "DateCreated": "2024-06-13T06:51:00Z",
     "SubmissionStatusTypeID": 200
 }

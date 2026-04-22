@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2025-08-17T02:35:00Z",
+    "DateLastVerified": "2026-03-06T21:50:00Z",
     "ID": 260787,
     "UUID": "CC11C160-543E-4129-8B14-4970DB8FA56F",
     "DataProviderID": 1,
     "OperatorID": 3664,
     "UsageTypeID": 1,
+    "UsageCost": "2466",
     "AddressInfo": {
         "ID": 261171,
         "Title": "Rest Area KM 10.6 A Jagorawi",
@@ -14,8 +15,8 @@
         "StateOrProvince": "Jakarta",
         "Postcode": "13720",
         "CountryID": 107,
-        "Latitude": -6.3402071,
-        "Longitude": 106.8906501,
+        "Latitude": -6.340924095722784,
+        "Longitude": 106.88967931038974,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,7 +28,7 @@
             "LevelID": 3,
             "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 5
         },
         {
             "ID": 774618,
@@ -38,11 +39,29 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 793391,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 793392,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 14,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-08-17T02:35:00Z",
+    "DateLastStatusUpdate": "2026-03-06T21:50:00Z",
     "DateCreated": "2023-04-30T16:29:00Z",
     "SubmissionStatusTypeID": 200
 }

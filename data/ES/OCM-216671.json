@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2024-05-05T16:12:00Z",
+    "MediaItems": [
+        {
+            "ID": 50673,
+            "ChargePointID": 216671,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM216671/OCM-216671.orig.2025110115545129.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM216671/OCM-216671.thmb.2025110115545129.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-01T15:55:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-11T19:47:00Z",
     "ID": 216671,
     "UUID": "2A3BBF1F-D8F6-4C9F-9DA4-5EE68C628F0F",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": "0,47€/kWh ",
+    "UsageCost": "0,56-0,47€/kWh ",
     "AddressInfo": {
         "ID": 217051,
         "Title": "Repsol Nexiland Reus",
@@ -25,7 +43,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 366683,
@@ -34,7 +52,7 @@
             "LevelID": 3,
             "PowerKW": 43,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
         },
         {
             "ID": 366684,
@@ -43,12 +61,24 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 794307,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW. "
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-05-05T16:12:00Z",
+    "DateLastStatusUpdate": "2026-01-11T19:47:00Z",
     "DateCreated": "2023-02-09T18:09:00Z",
     "SubmissionStatusTypeID": 200
 }

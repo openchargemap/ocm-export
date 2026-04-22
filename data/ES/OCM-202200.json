@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2022-10-25T13:40:00Z",
+    "MediaItems": [
+        {
+            "ID": 50186,
+            "ChargePointID": 202200,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202200/OCM-202200.orig.2025102614071718.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202200/OCM-202200.thmb.2025102614071718.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-26T14:07:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-12T21:20:00Z",
     "ID": 202200,
     "UUID": "64D7247C-EFD2-4E1F-B0EE-0603613B42F2",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
+    "UsageCost": "0,55€/kWh DC - 0,45€/kWh AC",
     "AddressInfo": {
         "ID": 202567,
         "Title": "COMBUSTIBLES LA HITA S.L",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Region of Murcia",
         "Postcode": "30700",
         "CountryID": 210,
-        "Latitude": 37.74962741721305,
-        "Longitude": -0.9637972199327578,
+        "Latitude": 37.74941366316773,
+        "Longitude": -0.9637129141255798,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,7 +42,9 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 900,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -49,7 +69,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-25T13:40:00Z",
+    "DateLastStatusUpdate": "2026-01-12T21:20:00Z",
     "DateCreated": "2022-09-07T14:43:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2025-05-09T10:22:00Z",
+    "MediaItems": [
+        {
+            "ID": 51109,
+            "ChargePointID": 312402,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM312402/OCM-312402.orig.2025110708435874.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM312402/OCM-312402.thmb.2025110708435874.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-07T08:44:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-07T08:44:00Z",
     "ID": 312402,
     "UUID": "DE7A1BC1-8D1E-4323-84CF-828855FB868E",
     "DataProviderID": 1,
@@ -12,8 +30,8 @@
         "AddressLine1": "La Pobla de Lillet ",
         "Town": "La Pobla de Lillet ",
         "CountryID": 210,
-        "Latitude": 42.24094616174767,
-        "Longitude": 1.9653048637738948,
+        "Latitude": 42.24181374028112,
+        "Longitude": 1.9671869502068375,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -28,11 +46,20 @@
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Ingeteam RAPID120 Charger.The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW. "
+        },
+        {
+            "ID": 780413,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2025-05-09T10:22:00Z",
+    "NumberOfPoints": 4,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-11-07T08:44:00Z",
     "DateCreated": "2025-05-09T10:21:00Z",
     "SubmissionStatusTypeID": 200
 }

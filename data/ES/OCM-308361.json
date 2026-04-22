@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2025-01-24T21:23:00Z",
+    "MediaItems": [
+        {
+            "ID": 50011,
+            "ChargePointID": 308361,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM308361/OCM-308361.orig.2025102410025711.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM308361/OCM-308361.thmb.2025102410025711.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-24T10:03:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-13T14:02:00Z",
     "ID": 308361,
     "UUID": "79C88154-4335-4BA9-937C-7CF58C96502E",
     "DataProviderID": 1,
@@ -23,17 +41,26 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 200,
+            "Amps": 350,
             "Voltage": 900,
             "PowerKW": 100,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+            "Comments": "Alpitronic HYC50 charger. The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW. Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+        },
+        {
+            "ID": 794581,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-01-24T21:23:00Z",
+    "DateLastStatusUpdate": "2026-01-13T14:02:00Z",
     "DateCreated": "2025-01-24T21:22:00Z",
     "SubmissionStatusTypeID": 200
 }

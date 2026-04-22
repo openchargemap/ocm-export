@@ -1,9 +1,58 @@
 {
-    "DateLastVerified": "2025-06-24T07:41:00Z",
+    "UserComments": [
+        {
+            "ID": 31414,
+            "ChargePointID": 354451,
+            "CommentTypeID": 10,
+            "UserName": "N",
+            "Comment": "",
+            "Rating": 3,
+            "DateCreated": "2026-03-05T21:24:45.707Z",
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 31028,
+            "ChargePointID": 354451,
+            "CommentTypeID": 10,
+            "UserName": "N",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2025-10-20T00:15:50.157Z",
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 54547,
+            "ChargePointID": 354451,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM354451/OCM-354451.orig.2026030521242365.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM354451/OCM-354451.thmb.2026030521242365.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "DateCreated": "2026-03-05T21:25:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-03-05T21:25:00Z",
     "ID": 354451,
     "UUID": "F561D6F5-953A-4B7F-9029-B240F89746D6",
-    "DataProviderID": 2,
-    "DataProvidersReference": "190416",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -35,14 +84,24 @@
             "ID": 650477,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 1,
+            "Quantity": 3,
             "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 777718,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T07:41:00Z",
+    "DateLastStatusUpdate": "2026-03-05T21:25:00Z",
     "DateCreated": "2025-06-20T10:20:00Z",
     "SubmissionStatusTypeID": 100
 }

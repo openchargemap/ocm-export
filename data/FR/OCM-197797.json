@@ -1,15 +1,16 @@
 {
-    "DateLastVerified": "2022-08-23T10:33:00Z",
+    "DateLastVerified": "2025-12-24T15:16:00Z",
     "ID": 197797,
     "UUID": "7295E507-BE2E-440D-B21E-957CD8B7B0B7",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS35PSD357212",
-    "OperatorID": 213,
+    "DataProviderID": 1,
+    "OperatorID": 3640,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 198156,
         "Title": "RENNES - RUE MAURICE LE LANNOU",
-        "AddressLine1": "1 Rue Jules Maillard de la Gournerie 35000 Rennes",
+        "AddressLine1": "1 Rue Maurice le Lannou",
+        "Town": "Rennes",
+        "Postcode": "35000",
         "CountryID": 80,
         "Latitude": 48.114941,
         "Longitude": -1.713573,
@@ -22,21 +23,24 @@
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 329728,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "Conditions accès aux bornes dépendantes des accords et formules de votre EMSP",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:33:00Z",
+    "DateLastStatusUpdate": "2025-12-24T15:16:00Z",
     "DateCreated": "2022-08-23T10:33:00Z",
     "SubmissionStatusTypeID": 100
 }

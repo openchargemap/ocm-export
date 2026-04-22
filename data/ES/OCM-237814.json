@@ -1,5 +1,39 @@
 {
-    "DateLastVerified": "2023-02-27T19:05:00Z",
+    "MediaItems": [
+        {
+            "ID": 53320,
+            "ChargePointID": 237814,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM237814/OCM-237814.orig.2025121417381319.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM237814/OCM-237814.thmb.2025121417381319.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-14T17:38:00Z"
+        },
+        {
+            "ID": 53319,
+            "ChargePointID": 237814,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM237814/OCM-237814.orig.2025121417371815.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM237814/OCM-237814.thmb.2025121417371815.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-14T17:37:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-14T21:17:00Z",
     "ID": 237814,
     "UUID": "3766B323-3AC4-4DB3-A6FB-262A61E287E9",
     "DataProviderID": 1,
@@ -12,8 +46,8 @@
         "AddressLine1": "Carretera General",
         "Postcode": "38820",
         "CountryID": 210,
-        "Latitude": 28.16804518169637,
-        "Longitude": -17.19463313342112,
+        "Latitude": 28.168131948579784,
+        "Longitude": -17.194631672675996,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -21,7 +55,8 @@
             "ID": 391181,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "PowerKW": 15,
+            "LevelID": 3,
+            "PowerKW": 25,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -29,7 +64,8 @@
             "ID": 391182,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "PowerKW": 15,
+            "LevelID": 3,
+            "PowerKW": 25,
             "CurrentTypeID": 30,
             "Quantity": 1
         },
@@ -41,11 +77,20 @@
             "PowerKW": 15,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 791071,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-27T19:05:00Z",
+    "DateLastStatusUpdate": "2025-12-14T21:17:00Z",
     "DateCreated": "2023-02-27T19:05:00Z",
     "SubmissionStatusTypeID": 200
 }

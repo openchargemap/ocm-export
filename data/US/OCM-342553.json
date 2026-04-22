@@ -1,9 +1,8 @@
 {
-    "DateLastVerified": "2025-06-24T07:26:00Z",
+    "DateLastVerified": "2025-09-19T06:00:00Z",
     "ID": 342553,
     "UUID": "DBF8B12E-97D6-4F84-8058-569CA3E0CA09",
-    "DataProviderID": 2,
-    "DataProvidersReference": "160082",
+    "DataProviderID": 1,
     "OperatorID": 5,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -14,8 +13,8 @@
         "StateOrProvince": "CA",
         "Postcode": "95691",
         "CountryID": 2,
-        "Latitude": 38.57675,
-        "Longitude": -121.516112,
+        "Latitude": 38.57673322495762,
+        "Longitude": -121.51602616931132,
         "ContactTelephone1": "888-758-4389",
         "AccessComments": "24 hours daily",
         "RelatedURL": "https://www.chargepoint.com",
@@ -26,16 +25,36 @@
             "ID": 637360,
             "ConnectionTypeID": 1,
             "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.7,
+            "Amps": 32,
+            "Voltage": 208,
+            "PowerKW": 6.6,
             "CurrentTypeID": 10,
+            "Quantity": 4,
+            "Comments": "2 chargers 4 plugs"
+        },
+        {
+            "ID": 775983,
+            "ConnectionTypeID": 32,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "PowerKW": 62,
+            "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": "CCS1 and Chademo on each charger"
+        },
+        {
+            "ID": 775984,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 150,
+            "LevelID": 3,
+            "PowerKW": 62,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "CCS1 and Chademo on each charger"
         }
     ],
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T07:26:00Z",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2025-09-19T06:00:00Z",
     "DateCreated": "2025-06-20T10:05:00Z",
     "SubmissionStatusTypeID": 100
 }

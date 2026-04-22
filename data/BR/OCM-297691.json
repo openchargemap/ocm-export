@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-04-25T11:18:00Z",
+    "DateLastVerified": "2025-11-14T06:24:00Z",
     "ID": 297691,
     "UUID": "DA870EF5-D5C6-41EC-8C53-71B1671F6FAC",
     "DataProviderID": 1,
     "OperatorID": 3711,
     "UsageTypeID": 4,
-    "UsageCost": "R$ 2,50 / kWh DC - R$ 1,50 / kWh AC",
+    "UsageCost": "Desbloqueio: R$2,00; Tarifa: R$ 2,50/kWh",
     "AddressInfo": {
         "ID": 298078,
         "Title": "Cluster Go Electric - Cajamar",
@@ -21,38 +21,69 @@
     },
     "Connections": [
         {
-            "ID": 540070,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 120,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 540071,
-            "ConnectionTypeID": 1040,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 120,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 540072,
+            "ID": 787910,
             "ConnectionTypeID": 33,
+            "Reference": "Cajamar - 01; Conector 1; Conector 2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 250,
             "Voltage": 1000,
             "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 2,
+            "Comments": "Desbloqueio: R$2,00; Tarifa: R$ 2,50/kWh"
+        },
+        {
+            "ID": 787911,
+            "ConnectionTypeID": 1040,
+            "Reference": "Cajamar - 02; Conector 1",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Desbloqueio: R$2,00; Tarifa: R$ 2,50/kWh"
+        },
+        {
+            "ID": 787912,
+            "ConnectionTypeID": 2,
+            "Reference": "Cajamar - 02; Conector 2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "Desbloqueio: R$2,00; Tarifa: R$ 2,50/kWh"
+        },
+        {
+            "ID": 787913,
+            "ConnectionTypeID": 33,
+            "Reference": "Cajamar - 03; Conector 1; Conector 2",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 250,
+            "Voltage": 1000,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Desbloqueio: R$2,00; Tarifa: R$ 2,50/kWh"
+        },
+        {
+            "ID": 787914,
+            "ConnectionTypeID": 1036,
+            "Reference": "Cajamar - 04; Conector 1",
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Desbloqueio: R$2,00; Tarifa: R$ 2,50/kWh"
         }
     ],
     "NumberOfPoints": 1,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-04-25T11:18:00Z",
+    "DateLastStatusUpdate": "2025-11-14T06:24:00Z",
     "DateCreated": "2024-04-18T17:31:00Z",
     "SubmissionStatusTypeID": 200
 }

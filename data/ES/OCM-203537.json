@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2022-09-18T11:19:00Z",
+    "MediaItems": [
+        {
+            "ID": 51046,
+            "ChargePointID": 203537,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM203537/OCM-203537.orig.2025110614441616.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM203537/OCM-203537.thmb.2025110614441616.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-06T14:44:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-06T14:44:00Z",
     "ID": 203537,
     "UUID": "9E1A6224-7D4F-41A9-9C44-87C6CC87B053",
     "DataProviderID": 1,
-    "OperatorID": 3558,
-    "UsageTypeID": 6,
-    "UsageCost": "Free",
+    "OperatorID": 103,
+    "UsageTypeID": 4,
+    "UsageCost": "0,42€/kWh",
     "AddressInfo": {
         "ID": 203904,
         "Title": "Nissan Logroño",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Rioja",
         "Postcode": "26007",
         "CountryID": 210,
-        "Latitude": 42.4620749256128,
-        "Longitude": -2.467355975682267,
+        "Latitude": 42.46187094560017,
+        "Longitude": -2.4671507695969694,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,11 +47,20 @@
             "PowerKW": 50,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 779729,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-18T11:19:00Z",
+    "DateLastStatusUpdate": "2025-11-06T14:44:00Z",
     "DateCreated": "2022-09-18T11:19:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2022-08-23T10:37:00Z",
+    "DateLastVerified": "2025-12-24T17:33:00Z",
     "ID": 154401,
     "UUID": "C87E98D8-7083-444A-AD40-880ABB71D5A7",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*SOD*P*SDE7*32*_*_*_",
-    "OperatorID": 213,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 3262,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 154754,
-        "Title": "BACQUEVILLE EN CAUX",
+        "Title": "SDE76 - Bacqueville-en-Caux - Place du Général de Gaulle",
         "AddressLine1": "Place du Général De Gaulle",
+        "Town": "Bacqueville-en-Caux",
         "CountryID": 80,
         "Latitude": 49.786224,
         "Longitude": 0.997472,
@@ -18,41 +18,28 @@
     },
     "Connections": [
         {
-            "ID": 217108,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
-        {
             "ID": 217109,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         },
         {
             "ID": 251561,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 251562,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "RFID et application",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:37:00Z",
+    "DateLastStatusUpdate": "2025-12-24T17:33:00Z",
     "DateCreated": "2020-03-15T10:55:00Z",
     "SubmissionStatusTypeID": 100
 }

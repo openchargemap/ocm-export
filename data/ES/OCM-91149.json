@@ -1,10 +1,28 @@
 {
-    "DateLastVerified": "2017-08-04T09:39:00Z",
+    "MediaItems": [
+        {
+            "ID": 48630,
+            "ChargePointID": 91149,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM91149/OCM-91149.orig.2025092416260048.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM91149/OCM-91149.thmb.2025092416260048.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-24T16:26:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-09-24T16:27:00Z",
     "ID": 91149,
     "UUID": "7A7F6536-18C6-4C37-86AB-9BEC093ABA16",
     "DataProviderID": 1,
     "OperatorID": 1,
-    "UsageTypeID": 2,
+    "UsageTypeID": 1,
     "UsageCost": "Free with card",
     "AddressInfo": {
         "ID": 91495,
@@ -29,13 +47,22 @@
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 3.6,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 776313,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "You need a card and be a resident of the city",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-08-04T09:39:00Z",
+    "DateLastStatusUpdate": "2025-09-24T16:27:00Z",
     "DateCreated": "2017-07-31T15:06:00Z",
     "SubmissionStatusTypeID": 200
 }

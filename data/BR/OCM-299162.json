@@ -1,21 +1,23 @@
 {
-    "DateLastVerified": "2024-05-19T21:59:00Z",
+    "DateLastVerified": "2026-04-08T04:08:00Z",
     "ID": 299162,
     "UUID": "03959570-73A5-473C-B002-7BB455D1CDFD",
     "DataProviderID": 1,
     "OperatorID": 3726,
     "UsageTypeID": 1,
-    "UsageCost": "5,90/ativação e 2,00/kWh",
+    "UsageCost": "1,70/kWh AC e 1,80/kWh DC",
     "AddressInfo": {
         "ID": 299549,
-        "Title": "BR Super Carga - Entre Rios Hotel",
-        "AddressLine1": "Avenida Senador Helvídio Nunes",
+        "Title": "RL Energia - Entre Rios Hotel",
+        "AddressLine1": "Avenida Senador Helvídio Nunes, 879",
         "AddressLine2": "Boa Sorte",
+        "Town": "Picos",
         "StateOrProvince": "Piauí",
-        "Postcode": "64604-090",
+        "Postcode": "64607085",
         "CountryID": 36,
         "Latitude": -7.079931816230044,
         "Longitude": -41.45969266916384,
+        "ContactTelephone1": "+5586998231234",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,14 +26,25 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 30,
+            "Amps": 120,
+            "PowerKW": 40,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 807290,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-05-19T21:59:00Z",
+    "DateLastStatusUpdate": "2026-04-08T04:08:00Z",
     "DateCreated": "2024-05-19T21:59:00Z",
     "SubmissionStatusTypeID": 200
 }

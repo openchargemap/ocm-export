@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2017-12-23T18:21:00Z",
+    "DateLastVerified": "2025-12-18T16:40:00Z",
     "ID": 96407,
     "UUID": "36EBE65C-60B9-43E6-935A-A2F6A6275066",
     "DataProviderID": 1,
     "OperatorID": 3304,
-    "UsageTypeID": 1,
-    "UsageCost": "0",
+    "UsageTypeID": 5,
+    "UsageCost": "1300",
     "AddressInfo": {
         "ID": 96753,
         "Title": "Centro Comercial del Este",
@@ -17,7 +17,7 @@
         "CountryID": 53,
         "Latitude": 6.198745445674483,
         "Longitude": -75.55655537553254,
-        "RelatedURL": "http://www.celsia.com",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,12 +30,24 @@
             "Voltage": 230,
             "PowerKW": 7.2,
             "CurrentTypeID": 10,
-            "Quantity": 3
+            "Quantity": 2
+        },
+        {
+            "ID": 777575,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 240,
+            "PowerKW": 7.4,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 4,
+    "GeneralComments": "ERCO",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-12-23T18:21:00Z",
+    "DateLastStatusUpdate": "2025-12-18T16:40:00Z",
     "DateCreated": "2017-12-23T18:21:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2024-06-24T05:39:00Z",
+    "DateLastVerified": "2026-01-01T15:17:00Z",
     "ID": 299767,
     "UUID": "5B379490-4EBD-40F7-8F0B-EE27CF0E2098",
     "DataProviderID": 1,
@@ -7,14 +7,14 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 300154,
-        "Title": "Chaussea",
-        "AddressLine1": "1 Rue Jacques Brel",
-        "Town": "Essey-les-Nancy",
+        "Title": "PowerDot - Chaussea - Essey-lès-Nancy",
+        "AddressLine1": "55 Rue Jacques Brel",
+        "Town": "Essey-lès-Nancy",
         "StateOrProvince": "Grand Est",
         "Postcode": "54270",
         "CountryID": 80,
-        "Latitude": 48.71043493859966,
-        "Longitude": 6.246147604889416,
+        "Latitude": 48.7104909028354,
+        "Longitude": 6.246190137347526,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,16 +22,18 @@
             "ID": 552850,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 200,
+            "CurrentTypeID": 30,
             "Quantity": 3
         },
         {
             "ID": 552851,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
@@ -40,12 +42,13 @@
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-06-24T05:39:00Z",
+    "DateLastStatusUpdate": "2026-01-01T15:17:00Z",
     "DateCreated": "2024-06-04T18:36:00Z",
     "SubmissionStatusTypeID": 200
 }

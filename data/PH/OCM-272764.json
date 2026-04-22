@@ -1,20 +1,22 @@
 {
-    "DateLastVerified": "2023-08-24T08:47:00Z",
+    "DateLastVerified": "2026-03-08T14:13:00Z",
     "ID": 272764,
     "UUID": "97A64638-AA9B-46D7-B284-DF3DA5507BE7",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 6,
+    "OperatorID": 3912,
+    "UsageTypeID": 4,
+    "UsageCost": "₱28 per kWh for AC Charging. ₱35 per kWh for DC Charging.",
     "AddressInfo": {
         "ID": 273148,
-        "Title": "Shell TPLEX Rotunda",
-        "AddressLine1": "Pugo - Rosario Road",
+        "Title": "Shell TPLEX Rosario",
+        "AddressLine1": "Shell TPLEX Rosario",
+        "AddressLine2": "Pugo - Rosario Rd",
         "Town": "Rosario",
         "StateOrProvince": "La Union",
         "Postcode": "2506",
         "CountryID": 177,
-        "Latitude": 16.225746039995755,
-        "Longitude": 120.4973127064427,
+        "Latitude": 16.225738,
+        "Longitude": 120.497315,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,23 +24,25 @@
             "ID": 468764,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 180,
+            "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 468765,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
-    "GeneralComments": "Shell Philippines",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-08-24T08:47:00Z",
+    "DateLastStatusUpdate": "2026-03-08T14:13:00Z",
     "DateCreated": "2023-07-19T07:32:00Z",
     "SubmissionStatusTypeID": 200
 }

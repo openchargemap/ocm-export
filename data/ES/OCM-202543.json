@@ -1,9 +1,27 @@
 {
-    "DateLastVerified": "2024-07-21T11:09:00Z",
+    "MediaItems": [
+        {
+            "ID": 49873,
+            "ChargePointID": 202543,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202543/OCM-202543.orig.2025102117432201.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM202543/OCM-202543.thmb.2025102117432201.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-21T17:43:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-10T08:03:00Z",
     "ID": 202543,
     "UUID": "3EEAF82E-BE7E-475D-8A31-F515DF9E350A",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3955,
     "UsageTypeID": 1,
     "UsageCost": "Free",
     "AddressInfo": {
@@ -14,8 +32,8 @@
         "StateOrProvince": "Valencian Community",
         "Postcode": "46880",
         "CountryID": 210,
-        "Latitude": 38.76264501885211,
-        "Longitude": -0.6177857651376826,
+        "Latitude": 38.76294172720429,
+        "Longitude": -0.6168852391288056,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,23 +42,15 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 338701,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 1,
-            "PowerKW": 2.3,
-            "CurrentTypeID": 10,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 2,
+    "GeneralComments": "App Moviltik",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-21T11:09:00Z",
+    "DateLastStatusUpdate": "2026-01-10T08:03:00Z",
     "DateCreated": "2022-09-11T14:06:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,29 +1,40 @@
 {
-    "DateLastVerified": "2024-02-20T10:09:00Z",
+    "DateLastVerified": "2025-11-11T13:18:00Z",
     "ID": 294285,
     "UUID": "716FDEE4-9288-4D57-820E-6A50BC7FE19E",
     "DataProviderID": 2,
     "DataProvidersReference": "323164",
-    "OperatorID": 59,
-    "UsageTypeID": 1,
+    "OperatorID": 3493,
+    "UsageTypeID": 5,
     "AddressInfo": {
         "ID": 294672,
-        "Title": "Pepco - Wheaton Regional Park - Athletic Complex A",
-        "AddressLine1": "11715 Orebaugh Avenue",
+        "Title": "EVsmart - Pepco - Wheaton Regional Park - Athletic Complex A",
+        "AddressLine1": "11715 Orebaugh Ave",
         "Town": "Silver Spring",
         "StateOrProvince": "MD",
         "Postcode": "20902",
         "CountryID": 2,
-        "Latitude": 39.050122,
-        "Longitude": -77.033842,
-        "ContactTelephone1": "855-900-7584",
-        "AccessComments": "24 hours daily",
-        "RelatedURL": "https://shellrecharge.com/en-us/solutions",
+        "Latitude": 39.0483991,
+        "Longitude": -77.0350468,
+        "ContactTelephone1": "844-798-2438",
+        "AccessComments": "24 hours daily\r\nPublic - Credit card at all times",
+        "RelatedURL": "https://swtchenergy.com",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 525612,
+            "ConnectionTypeID": 1,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 4,
+            "Comments": "kW power is an estimate based on the connection type"
+        },
+        {
+            "ID": 525613,
             "ConnectionTypeID": 2,
             "LevelID": 3,
             "PowerKW": 50,
@@ -32,7 +43,7 @@
             "Comments": "kW power is an estimate based on the connection type"
         },
         {
-            "ID": 525613,
+            "ID": 784666,
             "ConnectionTypeID": 32,
             "LevelID": 3,
             "PowerKW": 50,
@@ -42,7 +53,7 @@
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-20T10:09:00Z",
+    "DateLastStatusUpdate": "2025-11-11T13:18:00Z",
     "DateCreated": "2024-02-20T10:09:00Z",
     "SubmissionStatusTypeID": 100
 }

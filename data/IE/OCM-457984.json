@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2025-06-24T07:27:00Z",
+    "MediaItems": [
+        {
+            "ID": 47708,
+            "ChargePointID": 457984,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IE/OCM457984/OCM-457984.orig.2025090607551750.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IE/OCM457984/OCM-457984.thmb.2025090607551750.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 15963,
+                "Username": "thommcg"
+            },
+            "DateCreated": "2025-09-06T07:55:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-09-06T07:55:00Z",
     "ID": 457984,
     "UUID": "FB89DF58-CC0A-48FB-9CC2-C789DD8BFC40",
     "DataProviderID": 1,
@@ -20,14 +38,27 @@
         {
             "ID": 770050,
             "ConnectionTypeID": 33,
+            "Reference": "C6PZ5; C5E6Z; C4HWG",
             "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 6
+        },
+        {
+            "ID": 775490,
+            "ConnectionTypeID": 2,
+            "Reference": "C6PZ5; C5E6Z; C4HWG",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 70,
+            "CurrentTypeID": 30,
+            "Quantity": 3
         }
     ],
     "NumberOfPoints": 6,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2025-06-24T07:27:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-09-06T07:55:00Z",
     "DateCreated": "2025-06-23T19:54:00Z",
     "SubmissionStatusTypeID": 200
 }

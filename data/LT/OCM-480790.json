@@ -1,0 +1,82 @@
+{
+    "DateLastVerified": "2026-04-06T13:28:00Z",
+    "ID": 480790,
+    "UUID": "A9B26D5C-90A8-4025-BCC3-092EDA4573E5",
+    "DataProviderID": 1,
+    "OperatorID": 3877,
+    "UsageTypeID": 4,
+    "UsageCost": "0.22-0.28 €/kWh (variable pricing)",
+    "AddressInfo": {
+        "ID": 481179,
+        "Title": "LTLab Charging Hub",
+        "AddressLine1": "Kauno g. 34",
+        "Town": "Vilnius",
+        "Postcode": "LT-03202",
+        "CountryID": 131,
+        "Latitude": 54.669809,
+        "Longitude": 25.263367,
+        "ContactTelephone1": "+370 698 32470",
+        "ContactTelephone2": "+370 660 53222",
+        "AccessComments": "Public access. Entry via automatic license plate recognition. Start charging via Stuart Energy app or by scanning the QR code (Apple Pay/Google Pay supported). ",
+        "RelatedURL": "https://ltlab.eu/home/",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 806942,
+            "ConnectionTypeID": 33,
+            "Reference": "LTLAB-300-HPC",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 1000,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "300 kW HPC charger (2x CCS) with dynamic power sharing.  Up to 300 kW for 800V EVs. Typical 400V EV charging ~150–170 kW. When both connectors are in use, power is shared ( up to 150 kW per vehicle)."
+        },
+        {
+            "ID": 806943,
+            "ConnectionTypeID": 33,
+            "Reference": "LTLAB-60kW",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 1000,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "60 kW DC charger (CCS/CHAdeMO) with shared power.  When multiple connectors are used simultaneously, power is shared (~30 kW per vehicle)."
+        },
+        {
+            "ID": 806944,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 150,
+            "Voltage": 500,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1,
+            "Comments": "60 kW DC charger (CHAdeMO)."
+        },
+        {
+            "ID": 806945,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 380,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "22 kW AC charging."
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Pricing may vary depending on site load and operating conditions.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-04-06T13:28:00Z",
+    "DateCreated": "2026-04-03T13:25:00Z",
+    "SubmissionStatusTypeID": 200
+}

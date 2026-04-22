@@ -1,4 +1,21 @@
 {
+    "UserComments": [
+        {
+            "ID": 31131,
+            "ChargePointID": 72386,
+            "CommentTypeID": 10,
+            "UserName": "Como.Sabina Green.",
+            "Comment": "Great,perfect communication with the provider,i succesfully negotiated monthly payments to his account,no annoying authentication,just plug & charge,no restrictions,for me the standard wall-socket is most comfortable,thanx to this charging station i have lowered my commuting costs to half of the commercial price & all,i need,is close to the charging station,half the walking compared to commercial charging station,all based on mutual trust,comfortable as a home socket,best charging station in the country.Live long & prosper.",
+            "Rating": 5,
+            "DateCreated": "2025-11-18T03:48:28.813Z",
+            "User": {
+                "ID": 61659,
+                "Username": "Como.Sabina Green."
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
         {
             "ID": 8420,
@@ -17,26 +34,26 @@
             "DateCreated": "2016-10-11T08:15:00Z"
         }
     ],
-    "DateLastVerified": "2016-10-11T12:40:00Z",
+    "DateLastVerified": "2025-11-18T03:48:00Z",
     "ID": 72386,
     "UUID": "9EAD21D5-213E-4416-BD71-89F198626C12",
     "DataProviderID": 1,
     "OperatorID": 45,
     "UsageTypeID": 5,
-    "UsageCost": "3 CZK/kWh",
+    "UsageCost": "6 CZK/kWh.",
     "AddressInfo": {
         "ID": 72732,
-        "Title": "SAMPRO, s.r.o.",
-        "AddressLine1": "Šaffova 37",
-        "Town": "Polička",
-        "StateOrProvince": "okres Svitavy",
-        "Postcode": "57201",
+        "Title": "SAMPRO, s.r.o. (AC).",
+        "AddressLine1": "Šaffova 37.",
+        "Town": "Polička.",
+        "StateOrProvince": "okres Svitavy,Pardubický kraj.",
+        "Postcode": "572 01",
         "CountryID": 64,
-        "Latitude": 49.714839,
-        "Longitude": 16.261801,
+        "Latitude": 49.71482186693535,
+        "Longitude": 16.261810667434474,
         "ContactTelephone1": "+420 608 714 657",
         "ContactEmail": "pavel@sampro.cz",
-        "AccessComments": "Možno nabíjet jednofázově 32A z L1, třífázové nabíjení nutno omezit na 16A, případně se domluvit.\r\nCena 3kč/kWh - mimo pracovní dobu odhadněte a vhoďte do schránky.",
+        "AccessComments": "Možno nabíjet 32A z Mennekesu nebo 16A z běžné zásuvky,cena 6kč/kWh - mimo pracovní dobu odhadněte a vhoďte do schránky,případně se domluvit na platbě na soukromý účet.Toto není komerční,ale solidární provoz. U have to measure or guess Your consumption Yourself,than put appropriate cash into the mailbox(ordinary mail box on the wall) or contact provider & negotiate payment to private account. This is not a commercial charging station,but a solidarity one,the price is equal the price,for which the provider buys electricity from grid.The payment is not monitored,provider have to pay for electricity,even U will not pay for Your charging,then he would end up in red numbers. Hopefully U will reciprocite the provider's solidarity & trust. The parking bays r not reserved for EVs,they may be blocked by conventional vehicles. Parkovacie miesta nie sú rezervované pre EV,môžu byť blokované konvenčnými vozidlami. Prevádzkovateľ nemá kontrolu nad tým,či naozaj zaplatíte,ale ak za nabíjanie nezaplatíte,dostanete ho tak do červených čísiel,lebo on vždy za elektrinu musí zaplatiť.Toto je nekomerčná-solidárna nabíjacia stanica,opätujte solidaritu prevádzkovateľa a zaplaťte-cena je zhodná s jeho nákupnou cenou.Nezachovajte sa teda bezohľadne,aby toto najlacnejšie nabíjacie miesto v okrese mohlo fungovať aj naďalej.",
         "RelatedURL": "http://www.sampro.cz",
         "DistanceUnit": 0
     },
@@ -44,30 +61,34 @@
         {
             "ID": 103707,
             "ConnectionTypeID": 25,
+            "Reference": "SAMPRO s.r.o.",
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 11,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Recently upgraded from 32A on L1 & 16A on L2 & L3 to 32A from each phase,thus now fully operational as 3x32A. L-L voltage=400V~,50Hz. L-N voltage=230V~,50Hz."
         },
         {
             "ID": 103708,
             "ConnectionTypeID": 23,
+            "Reference": "SAMPRO,s.r.o.",
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 16,
             "Voltage": 230,
             "PowerKW": 3.5,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Standard Type E wall-socket."
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "You can charge at Type2(Mennekes) by 32A/230V from L1(phase first) too.",
+    "NumberOfPoints": 2,
+    "GeneralComments": "You can charge at Type2(Mennekes) by up to 32A or at Type E(wall socket) by up to 16A. No authentication needed.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-10-11T12:40:00Z",
+    "DateLastStatusUpdate": "2025-11-18T03:48:00Z",
     "DateCreated": "2016-10-11T08:13:00Z",
     "SubmissionStatusTypeID": 200
 }

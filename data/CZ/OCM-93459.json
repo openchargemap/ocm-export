@@ -17,12 +17,13 @@
             "DateCreated": "2017-09-27T20:30:00Z"
         }
     ],
-    "DateLastVerified": "2017-09-27T20:30:00Z",
+    "DateLastVerified": "2025-10-07T13:49:00Z",
     "ID": 93459,
     "UUID": "AE3E280F-069D-456A-95E3-4CF62B391FD5",
     "DataProviderID": 1,
     "OperatorID": 221,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "Only accepts credit prepayed via EVmapa,no other RFID cards accepted,no possibility of any usage for non-registered users.",
     "AddressInfo": {
         "ID": 93805,
         "Title": "Svitavy Fabrika",
@@ -32,9 +33,10 @@
         "StateOrProvince": "okres Svitavy",
         "Postcode": "56802",
         "CountryID": 64,
-        "Latitude": 49.75600559999999,
-        "Longitude": 16.47236339999995,
+        "Latitude": 49.756312369814594,
+        "Longitude": 16.47211311118042,
         "ContactEmail": "info@evmapa.cz",
+        "AccessComments": "Public parking lot,but only registered members of EVmapa with pre-payed credit can activate the charging station.",
         "RelatedURL": "https://www.evmapa.cz/svitavy-fabrika",
         "DistanceUnit": 0
     },
@@ -58,11 +60,19 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 776968,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
+    "GeneralComments": "Only for EVmapa registered users with prepayed credit @ EVMAPA.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-09-27T20:30:00Z",
+    "DateLastStatusUpdate": "2025-10-07T13:49:00Z",
     "DateCreated": "2017-09-27T20:29:00Z",
     "SubmissionStatusTypeID": 200
 }

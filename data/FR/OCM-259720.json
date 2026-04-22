@@ -1,21 +1,21 @@
 {
-    "DateLastVerified": "2023-04-11T08:53:00Z",
+    "DateLastVerified": "2026-01-01T16:51:00Z",
     "ID": 259720,
     "UUID": "69F579F9-BD83-4B42-A8D2-161B4393DDC7",
     "DataProviderID": 1,
     "OperatorID": 3538,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 260104,
-        "Title": "Power Dot - Ibis Styles Avignon",
-        "AddressLine1": "Chemin de la Croix de Noves",
-        "AddressLine2": "Quartier Saint-Chamand",
+        "Title": "PowerDot - Ibis Styles - Avignon Sud",
+        "AddressLine1": "2968 Avenue de l'Amandier",
+        "AddressLine2": "",
         "Town": "Avignon",
         "StateOrProvince": "Vaucluse",
         "Postcode": "84000",
         "CountryID": 80,
-        "Latitude": 43.926230083392,
-        "Longitude": 4.844280768616841,
+        "Latitude": 43.92639885970391,
+        "Longitude": 4.842955836315468,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,23 +24,41 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 80,
+            "PowerKW": 200,
             "CurrentTypeID": 30,
-            "Quantity": 5
+            "Quantity": 2
         },
         {
             "ID": 435768,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 793316,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 793317,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 6,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-04-11T08:53:00Z",
+    "DateLastStatusUpdate": "2026-01-01T16:51:00Z",
     "DateCreated": "2023-04-10T17:24:00Z",
     "SubmissionStatusTypeID": 200
 }

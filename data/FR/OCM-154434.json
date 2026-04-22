@@ -1,19 +1,20 @@
 {
-    "DateLastVerified": "2022-08-23T10:37:00Z",
+    "DateLastVerified": "2025-12-24T17:13:00Z",
     "ID": 154434,
     "UUID": "20F60C0F-38E4-452F-A435-3D7BD1BB3D3C",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*SOD*P*SDE7*56*_*_*_",
-    "OperatorID": 213,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 3262,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 154787,
-        "Title": "Derchigny",
-        "AddressLine1": "RD925",
+        "Title": "SDE76 - Petit-Caux - 9 Rue des Ecrelles",
+        "AddressLine1": "9 Rue des Écrelles",
+        "Town": "Petit-Caux",
+        "StateOrProvince": "Normandie",
+        "Postcode": "76370",
         "CountryID": 80,
         "Latitude": 49.95045,
         "Longitude": 1.16411,
-        "AccessComments": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,21 +23,24 @@
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         },
         {
             "ID": 217175,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "RFID et application",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:37:00Z",
+    "DateLastStatusUpdate": "2025-12-24T17:13:00Z",
     "DateCreated": "2020-03-15T10:55:00Z",
     "SubmissionStatusTypeID": 100
 }

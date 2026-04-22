@@ -1,17 +1,17 @@
 {
-    "DateLastVerified": "2025-08-15T04:15:00Z",
+    "DateLastVerified": "2026-03-16T17:51:00Z",
     "ID": 298230,
     "UUID": "B3E436FE-2381-4BD5-A311-62275FC168D2",
     "DataProviderID": 1,
     "OperatorID": 3664,
-    "UsageTypeID": 1,
-    "UsageCost": "Rp2467/kWh",
+    "UsageTypeID": 5,
+    "UsageCost": "IDR 2467/kWh ++",
     "AddressInfo": {
         "ID": 298617,
-        "Title": "Rest Area \"Travoy\" KM 360 B Batang Semarang",
-        "AddressLine1": "Rest Area KM 360 B Batang Semarang",
-        "AddressLine2": "Jl. Tol Semarang - Batang No.Km.360, Area Kebun/Hutan, Gondang, Kec. Subah",
-        "Town": "Kabupaten Batang",
+        "Title": "Rest Area \"Travoy\" KM 360 Tol Semarang Batang",
+        "AddressLine1": "Rest Area KM 360 B Tol Semarang Batang",
+        "AddressLine2": "",
+        "Town": "Batang",
         "StateOrProvince": "Jawa Tengah ",
         "Postcode": "51263",
         "CountryID": 107,
@@ -20,27 +20,6 @@
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 544310,
-            "ConnectionTypeID": 33,
-            "Reference": "ABB Terra 50",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 544311,
-            "ConnectionTypeID": 2,
-            "Reference": "ABB Terra 50",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": ""
-        },
         {
             "ID": 544312,
             "ConnectionTypeID": 1036,
@@ -61,11 +40,20 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 4
+        },
+        {
+            "ID": 806332,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-08-15T04:15:00Z",
+    "DateLastStatusUpdate": "2026-03-16T17:51:00Z",
     "DateCreated": "2024-05-04T12:45:00Z",
     "SubmissionStatusTypeID": 200
 }

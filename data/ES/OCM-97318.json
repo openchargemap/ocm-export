@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2022-10-17T11:08:00Z",
+    "MediaItems": [
+        {
+            "ID": 53022,
+            "ChargePointID": 97318,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM97318/OCM-97318.orig.2025120817161338.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM97318/OCM-97318.thmb.2025120817161338.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-08T17:16:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-12T18:16:00Z",
     "ID": 97318,
     "UUID": "F4BDA605-DC7F-4126-9A73-B5DF0B12D6E3",
     "DataProviderID": 1,
@@ -14,35 +32,27 @@
         "StateOrProvince": "Illes Balears",
         "Postcode": "07640",
         "CountryID": 210,
-        "Latitude": 39.3395373,
-        "Longitude": 3.05372710000006,
+        "Latitude": 39.33940855980114,
+        "Longitude": 3.053595081432718,
         "AccessComments": "Contact: Ajuntament de ses Salines",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 138210,
-            "ConnectionTypeID": 28,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.3,
-            "Quantity": 2
-        },
-        {
             "ID": 138211,
             "ConnectionTypeID": 25,
             "LevelID": 2,
             "Amps": 32,
-            "Voltage": 230,
-            "PowerKW": 7.4,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Free parking, free charging.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-17T11:08:00Z",
+    "DateLastStatusUpdate": "2025-12-12T18:16:00Z",
     "DateCreated": "2018-01-17T15:52:00Z",
     "SubmissionStatusTypeID": 200
 }

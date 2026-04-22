@@ -1,10 +1,29 @@
 {
-    "DateLastVerified": "2023-01-04T20:20:00Z",
+    "MediaItems": [
+        {
+            "ID": 53383,
+            "ChargePointID": 211051,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM211051/OCM-211051.orig.2025121511323879.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM211051/OCM-211051.thmb.2025121511323879.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-15T11:33:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-15T11:33:00Z",
     "ID": 211051,
     "UUID": "0365E863-6578-4DC0-B6F5-2620F5E60CC3",
     "DataProviderID": 1,
     "OperatorID": 207,
-    "UsageTypeID": 5,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 211431,
         "Title": "McDonald's Los Naranjeros",
@@ -13,8 +32,8 @@
         "StateOrProvince": "Santa Cruz de Tenerife ",
         "Postcode": "38357",
         "CountryID": 210,
-        "Latitude": 28.481975272693305,
-        "Longitude": -16.396396692869644,
+        "Latitude": 28.481791160719624,
+        "Longitude": -16.396194439059514,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,7 +44,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 351807,
@@ -34,7 +53,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 351808,
@@ -45,12 +64,12 @@
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-04T20:20:00Z",
+    "DateLastStatusUpdate": "2025-12-15T11:33:00Z",
     "DateCreated": "2023-01-02T07:15:00Z",
     "SubmissionStatusTypeID": 200
 }

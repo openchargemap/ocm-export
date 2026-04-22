@@ -1,11 +1,12 @@
 {
-    "DateLastVerified": "2024-10-27T21:59:00Z",
+    "DateLastVerified": "2025-10-10T13:31:00Z",
     "ID": 163990,
     "UUID": "8D9C7B6F-7070-4BE4-9A60-8E8F0C5B9696",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 2247,
     "OperatorsReference": "38786",
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "0,69€/kWh DC - 0,39€/kWh AC",
     "AddressInfo": {
         "ID": 164349,
         "Title": "Centro Comercial Albacenter",
@@ -14,35 +15,37 @@
         "StateOrProvince": "Albacete",
         "Postcode": "02006",
         "CountryID": 210,
-        "Latitude": 38.990408,
-        "Longitude": -1.846801,
-        "ContactTelephone1": "+34 967 246 700",
+        "Latitude": 38.98957409491396,
+        "Longitude": -1.8469512036886044,
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 235588,
-            "ConnectionTypeID": 30,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 900,
+            "PowerKW": 350,
+            "CurrentTypeID": 30,
+            "Quantity": 8
         },
         {
             "ID": 338571,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 1
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 18
         }
     ],
-    "NumberOfPoints": 3,
-    "GeneralComments": "2 Tesla Connectors, up to 22kW.Available for customers. Self park.",
+    "NumberOfPoints": 26,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-10-27T21:59:00Z",
+    "DateLastStatusUpdate": "2025-10-10T13:31:00Z",
     "DateCreated": "2020-08-24T23:51:00Z",
     "SubmissionStatusTypeID": 200
 }

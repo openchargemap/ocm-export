@@ -1,14 +1,32 @@
 {
-    "DateLastVerified": "2024-07-09T12:38:00Z",
+    "MediaItems": [
+        {
+            "ID": 53751,
+            "ChargePointID": 149398,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM149398/OCM-149398.orig.2026010320163671.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM149398/OCM-149398.thmb.2026010320163671.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2026-01-03T20:17:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-10T07:56:00Z",
     "ID": 149398,
     "UUID": "9B7633A8-13BA-4C57-8859-44F9513D6D32",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3955,
     "UsageTypeID": 5,
-    "UsageCost": "0'05€ el minuto. La hora 2'65€. 5€ toda la noche.",
+    "UsageCost": "0,45€/kWh  + parking fee (0'05€ el minuto. La hora 2'65€. 5€ toda la noche)",
     "AddressInfo": {
         "ID": 149751,
-        "Title": "Hospital Universitario y Politécnico de La Fe, Parking Sud",
+        "Title": "Hospital Universitario y Politécnico de La Fe, Parking Sud Pavapark",
         "AddressLine1": "Parking Sud",
         "AddressLine2": "Quatre Carreres",
         "Town": "Valencia",
@@ -27,7 +45,7 @@
         {
             "ID": 207429,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
@@ -36,17 +54,26 @@
         {
             "ID": 207430,
             "ConnectionTypeID": 2,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 793460,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "App Moviltik",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-09T12:38:00Z",
+    "DateLastStatusUpdate": "2026-01-10T07:56:00Z",
     "DateCreated": "2020-02-24T19:18:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,20 +1,22 @@
 {
-    "DateLastVerified": "2020-01-12T09:51:00Z",
+    "DateLastVerified": "2025-10-08T12:09:00Z",
     "ID": 146584,
     "UUID": "35B13937-DF9D-4AA0-BB2A-E591D9E24C19",
     "DataProviderID": 1,
     "OperatorID": 115,
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
+    "UsageCost": "8 to 19CZK/KWh depending on AC/DC charging & native/roaming RFID.",
     "AddressInfo": {
         "ID": 146936,
-        "Title": "Husova",
-        "AddressLine1": "Husova",
-        "Town": "Vysoké Mýto",
-        "StateOrProvince": "Northeast",
-        "Postcode": "56601",
+        "Title": "Husova,Vysoké Mýto,ČEZ Public Charging Station(AC+DC).",
+        "AddressLine1": "Husova.",
+        "Town": "Vysoké Mýto.",
+        "StateOrProvince": "Pardubický kraj.",
+        "Postcode": "566 01.",
         "CountryID": 64,
-        "Latitude": 49.9426599,
-        "Longitude": 16.1645248,
+        "Latitude": 49.94264880532134,
+        "Longitude": 16.16456036679665,
+        "AccessComments": "Unlimited public access,but it is only accessible via 1-way lane(way to south),very hard to enter the place,when U r heading north.",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,37 +27,34 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 203813,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 203814,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
-            "ID": 203815,
-            "ConnectionTypeID": 33,
+            "ID": 777094,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "L-N voltage mentioned(L-L voltage is 400V). KWh:8CZK for ČEZ registered users;10CZK for non-registered users;11.5CZK for E.On users."
         }
     ],
     "NumberOfPoints": 3,
+    "GeneralComments": "South end of Vysoké Mýto.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2020-01-12T09:51:00Z",
+    "DateLastStatusUpdate": "2025-10-08T12:09:00Z",
     "DateCreated": "2020-01-11T15:35:00Z",
     "SubmissionStatusTypeID": 200
 }

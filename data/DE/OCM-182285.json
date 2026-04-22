@@ -1,10 +1,45 @@
 {
-    "DateLastVerified": "2021-07-12T02:39:00Z",
+    "UserComments": [
+        {
+            "ID": 31051,
+            "ChargePointID": 182285,
+            "CommentTypeID": 10,
+            "UserName": "Danso",
+            "Comment": "",
+            "Rating": 4,
+            "DateCreated": "2025-10-25T08:50:04.443Z",
+            "User": {
+                "ID": 61396,
+                "Username": "Danso"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 50130,
+            "ChargePointID": 182285,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM182285/OCM-182285.orig.2025102509113773.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/DE/OCM182285/OCM-182285.thmb.2025102509113773.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 61396,
+                "Username": "Danso"
+            },
+            "DateCreated": "2025-10-25T09:12:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-27T12:08:00Z",
     "ID": 182285,
     "UUID": "03A9D658-F1BA-46D7-B3F4-8C3DE5C0C59A",
-    "DataProviderID": 29,
-    "DataProvidersReference": "13898",
+    "DataProviderID": 1,
     "OperatorID": 127,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 182644,
         "Title": "Robert-Bosch-Str. 38",
@@ -23,7 +58,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 287831,
@@ -31,11 +67,13 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 150,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2021-07-12T02:39:00Z",
+    "DateLastStatusUpdate": "2025-12-27T12:08:00Z",
     "MetadataValues": [
         {
             "ID": 14579,

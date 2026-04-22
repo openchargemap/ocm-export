@@ -1,19 +1,38 @@
 {
-    "DateLastVerified": "2025-09-01T07:40:00Z",
+    "MediaItems": [
+        {
+            "ID": 47692,
+            "ChargePointID": 460626,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM460626/OCM-460626.orig.2025090219294780.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM460626/OCM-460626.thmb.2025090219294780.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-02T19:30:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-26T15:13:00Z",
     "ID": 460626,
     "UUID": "5F355F16-D0FE-4D09-A020-982740D6D8D5",
     "DataProviderID": 1,
     "OperatorID": 3324,
-    "UsageTypeID": 4,
-    "UsageCost": "0,58€/kWh ",
+    "UsageTypeID": 1,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 461015,
-        "Title": "Kanfen, Mossel (Zunder)",
-        "AddressLine1": "Kanfen",
-        "Town": "Mossel",
+        "Title": "Zunder - Kanfen",
+        "AddressLine1": "38 Rue de Hettange",
+        "Town": "Kanfen",
+        "Postcode": "57330",
         "CountryID": 80,
-        "Latitude": 49.4341832104254,
-        "Longitude": 6.112485587533968,
+        "Latitude": 49.43420833925279,
+        "Longitude": 6.111832375950712,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -22,8 +41,6 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 600,
-            "Voltage": 1000,
             "PowerKW": 400,
             "CurrentTypeID": 30,
             "Quantity": 8,
@@ -32,7 +49,7 @@
     ],
     "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-09-01T07:40:00Z",
+    "DateLastStatusUpdate": "2025-12-26T15:13:00Z",
     "DateCreated": "2025-08-29T06:50:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-11-24T19:49:00Z",
+    "MediaItems": [
+        {
+            "ID": 52208,
+            "ChargePointID": 306480,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM306480/OCM-306480.orig.2025112319003304.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM306480/OCM-306480.thmb.2025112319003304.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-23T19:01:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-23T19:01:00Z",
     "ID": 306480,
     "UUID": "BF157352-1575-48A4-8BB6-A181C0C2C366",
     "DataProviderID": 1,
@@ -24,16 +42,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 300,
+            "Amps": 200,
             "Voltage": 920,
             "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "XCharge C6EU 150 DC CCS charger (peak 400A). The charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW."
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-11-24T19:49:00Z",
+    "DateLastStatusUpdate": "2025-11-23T19:01:00Z",
     "DateCreated": "2024-11-24T19:49:00Z",
     "SubmissionStatusTypeID": 200
 }

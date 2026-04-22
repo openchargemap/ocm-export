@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-11-08T10:45:00Z",
+    "MediaItems": [
+        {
+            "ID": 51195,
+            "ChargePointID": 281226,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM281226/OCM-281226.orig.2025110817484203.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM281226/OCM-281226.thmb.2025110817484203.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-08T17:49:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-09T07:35:00Z",
     "ID": 281226,
     "UUID": "669483EE-C0EF-4415-B4BD-24688F89B6A2",
     "DataProviderID": 1,
@@ -8,13 +26,13 @@
     "UsageCost": "0,60€/kWh DC - 0,43€/kWh AC",
     "AddressInfo": {
         "ID": 281613,
-        "Title": "E.S. Galp Jonquera Norte",
+        "Title": "E.S. Galp Junquera Norte",
         "AddressLine1": "Autopista de la Mediterrània",
         "StateOrProvince": "Catalunya",
         "Postcode": "17707",
         "CountryID": 210,
-        "Latitude": 42.40561099476656,
-        "Longitude": 2.8743556582684278,
+        "Latitude": 42.40549346491545,
+        "Longitude": 2.874118199864597,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -36,13 +54,14 @@
             "Voltage": 1000,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 6
+            "Quantity": 6,
+            "Comments": "3 Blueberry150 Chargers. The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW. Charging power limited to 120kW for 400V cars"
         }
     ],
     "NumberOfPoints": 7,
     "GeneralComments": "Galp/PowerDot. Payment: apps Galp, Electromaps, credit card",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-11-08T10:45:00Z",
+    "DateLastStatusUpdate": "2025-11-09T07:35:00Z",
     "DateCreated": "2023-12-03T16:58:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2025-06-30T04:41:00Z",
+    "DateLastVerified": "2025-12-04T00:47:00Z",
     "ID": 459017,
     "UUID": "1C493E79-7BCE-4704-B750-49E130C8CA09",
     "DataProviderID": 1,
@@ -22,15 +22,26 @@
         {
             "ID": 771567,
             "ConnectionTypeID": 32,
-            "StatusTypeID": 150,
-            "LevelID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 400,
-            "Quantity": 1
+            "CurrentTypeID": 30,
+            "Quantity": 4
+        },
+        {
+            "ID": 789678,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 400,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         }
     ],
-    "GeneralComments": "planned 4 ports",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2025-06-30T04:41:00Z",
+    "NumberOfPoints": 4,
+    "GeneralComments": "2 chargers, 2 cars charging each, 4 connector each charger",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-12-04T00:47:00Z",
     "DateCreated": "2025-06-30T04:41:00Z",
     "SubmissionStatusTypeID": 200
 }

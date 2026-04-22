@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2024-05-17T20:22:00Z",
+    "DateLastVerified": "2025-12-13T16:13:00Z",
     "ID": 274312,
     "UUID": "1315907C-3290-4770-B01F-E118CDE288A9",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
-    "UsageCost": "",
+    "OperatorID": 91,
+    "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 274696,
         "Title": "Ayunt. Talayuela (DipCa)",
@@ -13,8 +13,8 @@
         "StateOrProvince": "Extremadura",
         "Postcode": "10310",
         "CountryID": 210,
-        "Latitude": 39.98033653738696,
-        "Longitude": -5.608132767159759,
+        "Latitude": 39.97709986768052,
+        "Longitude": -5.610122631285435,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,13 +25,31 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 791001,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 791002,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 25,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "Diputación de Cáceres",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-05-17T20:22:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-12-13T16:13:00Z",
     "DateCreated": "2023-09-07T10:42:00Z",
     "SubmissionStatusTypeID": 200
 }

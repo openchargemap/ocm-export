@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-04-11T06:59:00Z",
+    "MediaItems": [
+        {
+            "ID": 48935,
+            "ChargePointID": 297481,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM297481/OCM-297481.orig.2025100118425142.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM297481/OCM-297481.thmb.2025100118425142.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-01T18:43:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-02-09T14:06:00Z",
     "ID": 297481,
     "UUID": "61910556-E878-41F7-A3DD-4BE0D8D0D8A4",
     "DataProviderID": 1,
@@ -8,7 +26,7 @@
     "UsageCost": "0,54€/kWh",
     "AddressInfo": {
         "ID": 297868,
-        "Title": "E.S. Petroil",
+        "Title": "E.S. Petroil La Granja",
         "AddressLine1": "carril-bici ctra Palma del Rio 3",
         "StateOrProvince": "Andalucía",
         "Postcode": "14193",
@@ -25,9 +43,10 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 920,
-            "PowerKW": 150,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. "
         },
         {
             "ID": 538483,
@@ -36,14 +55,15 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 920,
-            "PowerKW": 150,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak). The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. "
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-04-11T06:59:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-02-09T14:06:00Z",
     "DateCreated": "2024-04-11T06:59:00Z",
     "SubmissionStatusTypeID": 200
 }

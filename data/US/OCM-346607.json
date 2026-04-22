@@ -1,9 +1,43 @@
 {
-    "DateLastVerified": "2025-06-24T07:31:00Z",
+    "UserComments": [
+        {
+            "ID": 30986,
+            "ChargePointID": 346607,
+            "CommentTypeID": 10,
+            "UserName": "ev_driver",
+            "Comment": "Charging worked well. There are two stations and no amenities around.",
+            "Rating": 5,
+            "DateCreated": "2025-10-10T13:20:31.39Z",
+            "User": {
+                "ID": 61929,
+                "Username": "ev_driver"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 49314,
+            "ChargePointID": 346607,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM346607/OCM-346607.orig.2025101013195414.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM346607/OCM-346607.thmb.2025101013195414.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 61929,
+                "Username": "ev_driver"
+            },
+            "DateCreated": "2025-10-10T13:20:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-13T13:24:00Z",
     "ID": 346607,
     "UUID": "66FE51A2-1316-49AD-A23A-0BDC3829AA58",
-    "DataProviderID": 2,
-    "DataProvidersReference": "326670",
+    "DataProviderID": 1,
     "OperatorID": 3696,
     "UsageTypeID": 1,
     "AddressInfo": {
@@ -17,7 +51,7 @@
         "Latitude": 39.2788,
         "Longitude": -80.305512,
         "ContactTelephone1": "1-313-262-6722",
-        "AccessComments": "",
+        "AccessComments": "On the side of the road across the street from the Ford dealership.",
         "RelatedURL": "https://www.redecharge.com",
         "DistanceUnit": 0
     },
@@ -26,23 +60,14 @@
             "ID": 641831,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
             "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
-        },
-        {
-            "ID": 641832,
-            "ConnectionTypeID": 32,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
             "Comments": "kW power is an estimate based on the connection type"
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T07:31:00Z",
+    "DateLastStatusUpdate": "2025-10-13T13:24:00Z",
     "DateCreated": "2025-06-20T10:10:00Z",
     "SubmissionStatusTypeID": 100
 }

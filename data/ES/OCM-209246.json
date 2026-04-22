@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2025-01-15T13:26:00Z",
+    "MediaItems": [
+        {
+            "ID": 47891,
+            "ChargePointID": 209246,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM209246/OCM-209246.orig.2025091107183698.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM209246/OCM-209246.thmb.2025091107183698.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-11T07:19:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-09-11T07:21:00Z",
     "ID": 209246,
     "UUID": "BB273556-E962-4D98-A9EC-12B2E25B1B14",
     "DataProviderID": 1,
@@ -24,16 +42,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 2
         },
         {
             "ID": 348096,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
+            "LevelID": 2,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
         },
@@ -42,14 +62,16 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 150,
+            "Voltage": 400,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-01-15T13:26:00Z",
+    "DateLastStatusUpdate": "2025-09-11T07:21:00Z",
     "DateCreated": "2022-10-25T11:03:00Z",
     "SubmissionStatusTypeID": 200
 }

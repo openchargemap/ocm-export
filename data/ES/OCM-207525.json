@@ -1,9 +1,27 @@
 {
-    "DateLastVerified": "2023-12-03T12:12:00Z",
+    "MediaItems": [
+        {
+            "ID": 51398,
+            "ChargePointID": 207525,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207525/OCM-207525.orig.2025111019224373.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM207525/OCM-207525.thmb.2025111019224373.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-10T19:23:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-24T22:57:00Z",
     "ID": 207525,
     "UUID": "B7AF81A9-FEDF-46AE-BCB9-A010C23FA6F0",
     "DataProviderID": 1,
-    "OperatorID": 3401,
+    "OperatorID": 3770,
     "UsageTypeID": 1,
     "UsageCost": "0,39€/kWh",
     "AddressInfo": {
@@ -14,8 +32,8 @@
         "StateOrProvince": "Catalonia",
         "Postcode": "08182",
         "CountryID": 210,
-        "Latitude": 41.62504861704846,
-        "Longitude": 2.169941698757384,
+        "Latitude": 41.6247309047221,
+        "Longitude": 2.1700638406657617,
         "ContactTelephone1": "900181776",
         "ContactTelephone2": "info@electracaldenseenergia.com",
         "DistanceUnit": 0
@@ -40,11 +58,30 @@
             "PowerKW": 2.3,
             "CurrentTypeID": 10,
             "Quantity": 2
+        },
+        {
+            "ID": 792477,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 30,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 792478,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 30,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 3,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Elecsun",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-03T12:12:00Z",
+    "DateLastStatusUpdate": "2025-12-24T22:57:00Z",
     "DateCreated": "2022-10-11T16:37:00Z",
     "SubmissionStatusTypeID": 200
 }

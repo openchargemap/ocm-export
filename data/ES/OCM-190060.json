@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-12-08T12:04:00Z",
+    "MediaItems": [
+        {
+            "ID": 48594,
+            "ChargePointID": 190060,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190060/OCM-190060.orig.2025092321082011.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM190060/OCM-190060.thmb.2025092321082011.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-23T21:08:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-09-23T21:09:00Z",
     "ID": 190060,
     "UUID": "665F8113-967D-450A-83C8-E5A993E870DB",
     "DataProviderID": 1,
     "OperatorID": 207,
     "UsageTypeID": 4,
-    "UsageCost": "0.40 €/kWh",
+    "UsageCost": "0.47 €/kWh",
     "AddressInfo": {
         "ID": 190419,
         "Title": "Repsol Valverde del Camino",
@@ -13,35 +31,46 @@
         "Town": "Valverde del Camino",
         "StateOrProvince": "Andalusia",
         "CountryID": 210,
-        "Latitude": 37.567862968915264,
-        "Longitude": -6.751394781596588,
+        "Latitude": 37.56801251944532,
+        "Longitude": -6.751332089363785,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 307924,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
+            "LevelID": 3,
+            "Amps": 125,
             "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 307925,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
+            "LevelID": 3,
+            "Amps": 63,
             "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 776253,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-08T12:04:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2025-09-23T21:09:00Z",
     "DateCreated": "2021-11-16T12:16:00Z",
     "SubmissionStatusTypeID": 200
 }

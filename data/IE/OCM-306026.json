@@ -1,5 +1,39 @@
 {
-    "DateLastVerified": "2024-11-11T15:50:00Z",
+    "MediaItems": [
+        {
+            "ID": 54421,
+            "ChargePointID": 306026,
+            "ItemURL": "https://media.openchargemap.io/images/IE/OCM306026/OCM-306026.orig.2026021618113231.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IE/OCM306026/OCM-306026.thmb.2026021618113231.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 15963,
+                "Username": "thommcg"
+            },
+            "DateCreated": "2026-02-16T18:12:00Z"
+        },
+        {
+            "ID": 54420,
+            "ChargePointID": 306026,
+            "ItemURL": "https://media.openchargemap.io/images/IE/OCM306026/OCM-306026.orig.2026021618112039.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IE/OCM306026/OCM-306026.thmb.2026021618112039.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 15963,
+                "Username": "thommcg"
+            },
+            "DateCreated": "2026-02-16T18:11:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-02-16T18:12:00Z",
     "ID": 306026,
     "UUID": "CB7E97AF-E82A-49A3-A8F1-906A648411C5",
     "DataProviderID": 1,
@@ -8,18 +42,20 @@
     "AddressInfo": {
         "ID": 306415,
         "Title": "Jack White's Inn",
-        "AddressLine1": "R773",
+        "AddressLine1": "Junction 19",
+        "AddressLine2": "M11",
         "StateOrProvince": "Co. Wicklow",
         "Postcode": "",
         "CountryID": 3,
-        "Latitude": 52.8822541320298,
-        "Longitude": -6.098676269925818,
+        "Latitude": 52.882390149702246,
+        "Longitude": -6.098598578926698,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 579775,
             "ConnectionTypeID": 33,
+            "Reference": "C2ES1; C28GN; C2BPR; C6UA2",
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 360,
@@ -28,8 +64,8 @@
         }
     ],
     "NumberOfPoints": 8,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-11-11T15:50:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-02-16T18:12:00Z",
     "DateCreated": "2024-11-11T15:50:00Z",
     "SubmissionStatusTypeID": 200
 }

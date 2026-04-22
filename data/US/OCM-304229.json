@@ -18,6 +18,22 @@
     ],
     "MediaItems": [
         {
+            "ID": 48314,
+            "ChargePointID": 304229,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM304229/OCM-304229.orig.2025091703423404.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM304229/OCM-304229.thmb.2025091703423404.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 61494,
+                "Username": "J"
+            },
+            "DateCreated": "2025-09-17T03:43:00Z"
+        },
+        {
             "ID": 43613,
             "ChargePointID": 304229,
             "ItemURL": "https://media.openchargemap.io/images/US/OCM304229/OCM-304229.orig.2024091712184698.jpg",
@@ -34,13 +50,13 @@
             "DateCreated": "2024-09-17T12:19:00Z"
         }
     ],
-    "DateLastVerified": "2024-10-14T08:09:00Z",
+    "DateLastVerified": "2025-09-18T08:29:00Z",
     "ID": 304229,
     "UUID": "F1AC2724-B4E2-4326-A075-61B091ADFB4A",
     "DataProviderID": 1,
-    "OperatorID": 80,
+    "OperatorID": 3621,
     "UsageTypeID": 1,
-    "UsageCost": "$0.38/kWh + $1/session",
+    "UsageCost": "$0.38/kWh",
     "AddressInfo": {
         "ID": 304618,
         "Title": "Jack Keller Inc., Realtors",
@@ -68,11 +84,45 @@
             "PowerKW": 19.2,
             "CurrentTypeID": 10,
             "Quantity": 1
+        },
+        {
+            "ID": 775917,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 50,
+            "Voltage": 240,
+            "PowerKW": 11,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 775918,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 240,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 775919,
+            "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 80,
+            "Voltage": 240,
+            "PowerKW": 19.2,
+            "CurrentTypeID": 10,
+            "Quantity": 1,
+            "Comments": "Adapter available on each charging cable"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-10-14T08:09:00Z",
+    "DateLastStatusUpdate": "2025-09-18T08:29:00Z",
     "DateCreated": "2024-09-17T12:05:00Z",
     "SubmissionStatusTypeID": 200
 }

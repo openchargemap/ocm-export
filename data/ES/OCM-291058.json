@@ -1,10 +1,10 @@
 {
     "MediaItems": [
         {
-            "ID": 41487,
+            "ID": 51561,
             "ChargePointID": 291058,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM291058/OCM-291058.orig.2024021517280699.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM291058/OCM-291058.thmb.2024021517280699.jpg",
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM291058/OCM-291058.orig.2025111318393547.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM291058/OCM-291058.thmb.2025111318393547.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -12,15 +12,15 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
-            "DateCreated": "2024-02-15T17:28:00Z"
+            "DateCreated": "2025-11-13T18:40:00Z"
         },
         {
-            "ID": 41460,
+            "ID": 51545,
             "ChargePointID": 291058,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM291058/OCM-291058.orig.2024021407464906.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM291058/OCM-291058.thmb.2024021407464906.jpg",
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM291058/OCM-291058.orig.2025111316525632.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM291058/OCM-291058.thmb.2025111316525632.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -28,18 +28,34 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
-            "DateCreated": "2024-02-14T07:47:00Z"
+            "DateCreated": "2025-11-13T16:53:00Z"
+        },
+        {
+            "ID": 51544,
+            "ChargePointID": 291058,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM291058/OCM-291058.orig.2025111316515495.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM291058/OCM-291058.thmb.2025111316515495.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-13T16:52:00Z"
         }
     ],
-    "DateLastVerified": "2024-06-21T12:43:00Z",
+    "DateLastVerified": "2025-11-15T07:42:00Z",
     "ID": 291058,
     "UUID": "9605CA76-1FA5-4AD0-9403-F4551CC2A165",
     "DataProviderID": 1,
     "OperatorID": 3459,
     "UsageTypeID": 4,
-    "UsageCost": "",
+    "UsageCost": "0,55€/kWh DC - 0,35€/kWh AC",
     "AddressInfo": {
         "ID": 291445,
         "Title": "Electrolinera Vicálvaro (Acciona)",
@@ -60,52 +76,60 @@
             "LevelID": 3,
             "Amps": 500,
             "Voltage": 920,
-            "PowerKW": 210,
+            "PowerKW": 400,
             "CurrentTypeID": 30,
-            "Quantity": 5
+            "Quantity": 2,
+            "Comments": "(Charging point for large vehicles) PowerElectronics NB400 charger. Power is split between both outlets. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW."
         },
         {
             "ID": 514700,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 250,
+            "Amps": 300,
             "Voltage": 920,
-            "PowerKW": 100,
+            "PowerKW": 210,
             "CurrentTypeID": 30,
-            "Quantity": 10
+            "Quantity": 3,
+            "Comments": "3 PowerElectronics NB240 chargers. (Charging point for large vehicles)"
         },
         {
             "ID": 514701,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 900,
+            "PowerKW": 210,
             "CurrentTypeID": 30,
-            "Quantity": 32
-        },
-        {
-            "ID": 514702,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 32
+            "Quantity": 6,
+            "Comments": "3 PowerElectronics NB240 chargers. Power is split between both outlets. The DC charger allows charging one vehicle at 240kW, or two simultaneous charges at 120kW."
         },
         {
             "ID": 514703,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 12,
+            "Comments": "PowerElectronics NB120 chargers. Power is split between both outlets. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW."
+        },
+        {
+            "ID": 787949,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 32
+            "Quantity": 9
         }
     ],
-    "NumberOfPoints": 56,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-06-21T12:43:00Z",
+    "NumberOfPoints": 32,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-11-15T07:42:00Z",
     "DateCreated": "2024-02-14T07:45:00Z",
     "SubmissionStatusTypeID": 200
 }

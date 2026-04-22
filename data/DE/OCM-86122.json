@@ -1,12 +1,89 @@
 {
-    "DateLastVerified": "2019-05-12T19:23:00Z",
+    "MediaItems": [
+        {
+            "ID": 54469,
+            "ChargePointID": 86122,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM86122/OCM-86122.orig.2026021912265651.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM86122/OCM-86122.thmb.2026021912265651.jpg",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 21522,
+                "Username": "Christian W."
+            },
+            "DateCreated": "2026-02-19T12:27:00Z"
+        },
+        {
+            "ID": 54171,
+            "ChargePointID": 86122,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM86122/OCM-86122.orig.2026012021312767.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM86122/OCM-86122.thmb.2026012021312767.jpg",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 21522,
+                "Username": "Christian W."
+            },
+            "DateCreated": "2026-01-20T21:32:00Z"
+        },
+        {
+            "ID": 54172,
+            "ChargePointID": 86122,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM86122/OCM-86122.orig.2026012021315588.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM86122/OCM-86122.thmb.2026012021315588.jpg",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 21522,
+                "Username": "Christian W."
+            },
+            "DateCreated": "2026-01-20T21:32:00Z"
+        },
+        {
+            "ID": 54170,
+            "ChargePointID": 86122,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM86122/OCM-86122.orig.2026012021304638.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM86122/OCM-86122.thmb.2026012021304638.jpg",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 21522,
+                "Username": "Christian W."
+            },
+            "DateCreated": "2026-01-20T21:31:00Z"
+        },
+        {
+            "ID": 54169,
+            "ChargePointID": 86122,
+            "ItemURL": "https://media.openchargemap.io/images/DE/OCM86122/OCM-86122.orig.2026012021294724.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/DE/OCM86122/OCM-86122.thmb.2026012021294724.jpg",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 21522,
+                "Username": "Christian W."
+            },
+            "DateCreated": "2026-01-20T21:30:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-02-22T12:28:00Z",
     "ID": 86122,
     "UUID": "ECA72B66-019E-4006-9237-37A9E5258532",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 3534,
     "OperatorsReference": "29005",
-    "UsageTypeID": 4,
-    "UsageCost": "€0.33/kWh; Andere Tarife für ältere Autos",
+    "UsageTypeID": 1,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 86468,
         "Title": "Münchberg-Nord Supercharger",
@@ -14,25 +91,28 @@
         "Town": "Münchberg",
         "Postcode": "95213",
         "CountryID": 87,
-        "Latitude": 50.202872,
-        "Longitude": 11.776552,
+        "Latitude": 50.20286799972493,
+        "Longitude": 11.776630121925677,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 122477,
-            "ConnectionTypeID": 27,
+            "ID": 803923,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "Amps": 631,
+            "Voltage": 500,
+            "PowerKW": 250,
             "CurrentTypeID": 30,
-            "Quantity": 6
+            "Quantity": 20,
+            "Comments": "10× Tesla Supercharger V3 + 10× Tesla Supercharger V4"
         }
     ],
-    "NumberOfPoints": 6,
-    "GeneralComments": "6 Superchargers, available 24/7",
+    "NumberOfPoints": 20,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-05-12T19:23:00Z",
+    "DateLastStatusUpdate": "2026-02-22T12:28:00Z",
     "DateCreated": "2017-04-26T08:13:00Z",
     "SubmissionStatusTypeID": 200
 }

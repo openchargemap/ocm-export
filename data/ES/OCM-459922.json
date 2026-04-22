@@ -1,19 +1,53 @@
 {
-    "DateLastVerified": "2025-07-20T21:34:00Z",
+    "MediaItems": [
+        {
+            "ID": 51900,
+            "ChargePointID": 459922,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM459922/OCM-459922.orig.2025111918571424.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM459922/OCM-459922.thmb.2025111918571424.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-19T18:57:00Z"
+        },
+        {
+            "ID": 51899,
+            "ChargePointID": 459922,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM459922/OCM-459922.orig.2025111918555974.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM459922/OCM-459922.thmb.2025111918555974.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-19T18:56:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-19T18:57:00Z",
     "ID": 459922,
     "UUID": "D0DD0BD9-0BE1-4F91-A934-429CEAAA8F31",
     "DataProviderID": 1,
     "OperatorID": 3377,
     "UsageTypeID": 4,
-    "UsageCost": "free",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 460311,
         "Title": "Parking Rochapea",
         "AddressLine1": "Padre Tomás De Burgui",
         "Town": "Pamplona",
         "CountryID": 210,
-        "Latitude": 42.831491625458,
-        "Longitude": -1.6418016249996867,
+        "Latitude": 42.83158117128511,
+        "Longitude": -1.642128604983327,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,7 +60,8 @@
             "Voltage": 920,
             "PowerKW": 90,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID120 Charger. The DC charger allows charging one vehicle at 90kW, or two simultaneous charges at 45kW"
         },
         {
             "ID": 773864,
@@ -41,7 +76,7 @@
     "NumberOfPoints": 12,
     "GeneralComments": "Enerparking",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-07-20T21:34:00Z",
+    "DateLastStatusUpdate": "2025-11-19T18:57:00Z",
     "DateCreated": "2025-07-20T21:33:00Z",
     "SubmissionStatusTypeID": 200
 }

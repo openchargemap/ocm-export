@@ -1,0 +1,54 @@
+{
+    "DateLastVerified": "2025-10-07T14:34:00Z",
+    "ID": 461766,
+    "UUID": "02ADCFFE-9985-4341-A25E-AE982D15F10D",
+    "DataProviderID": 1,
+    "OperatorID": 105,
+    "UsageTypeID": 5,
+    "UsageCost": "9.5CZK/KWh.",
+    "AddressInfo": {
+        "ID": 462155,
+        "Title": "Innogy Public Charging Station(AC).",
+        "AddressLine1": "Policlinic's parking lot.",
+        "Town": "Svitavy.",
+        "StateOrProvince": "Pardubický kraj.",
+        "Postcode": "568 02.",
+        "CountryID": 64,
+        "Latitude": 49.75358461838712,
+        "Longitude": 16.468331292023322,
+        "AccessComments": "@ parking lot of the policlinics,otherwise payed,it is not clearly stated,EVs @ the charging station r excluded from parking payment,i just assume,they should be excluded from payment.Parking bays r in line.",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 776782,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Right-side connector & right RFID reader. L-N voltage mentioned(L-L voltage is 400V)."
+        },
+        {
+            "ID": 776783,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 100,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 230,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "Left-side connector is not functional due to dead left RFID reader. Do not use,Your cable may stuck."
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Charging station has no display.Connect the cable,then use Your RFID card for authentication by holding it @ the right-side RFID reader,till LED above the right socket turns blue. Colors meaning: Dark blue=idle,ready to connect;Green=connected,ready to authenticate or charging finished(not charging);Light Blue=Authenthication successful,charging;Red=Error. Do not use the left-side socket,its RFID reader is dead(the left reader).",
+    "StatusTypeID": 75,
+    "DateLastStatusUpdate": "2025-10-07T14:34:00Z",
+    "DateCreated": "2025-10-04T14:29:00Z",
+    "SubmissionStatusTypeID": 200
+}

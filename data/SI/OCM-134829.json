@@ -1,10 +1,29 @@
 {
-    "DateLastVerified": "2019-12-03T09:03:00Z",
+    "MediaItems": [
+        {
+            "ID": 53959,
+            "ChargePointID": 134829,
+            "ItemURL": "https://media.openchargemap.io/images/SI/OCM134829/OCM-134829.orig.2026011221573637.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/SI/OCM134829/OCM-134829.thmb.2026011221573637.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 65618,
+                "Username": "Marko Rebernik"
+            },
+            "DateCreated": "2026-01-12T21:58:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-15T22:01:00Z",
     "ID": 134829,
     "UUID": "BFA6715B-F7FD-481A-8EEA-0801F120E026",
     "DataProviderID": 1,
     "OperatorID": 1,
     "UsageTypeID": 1,
+    "UsageCost": "30 c/kWh DC, 20 c/kWh AC",
     "AddressInfo": {
         "ID": 135175,
         "Title": "HE Fala",
@@ -14,6 +33,8 @@
         "CountryID": 205,
         "Latitude": 46.559839613467744,
         "Longitude": 15.457560245254513,
+        "AccessComments": "Open 24/7",
+        "RelatedURL": "http://efrend.si",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,12 +46,30 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 795792,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 795793,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
-    "GeneralComments": "1x50kW CHAdeMO\r\nRFID DeM\r\n",
+    "GeneralComments": "eFrend app",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-12-03T09:03:00Z",
+    "DateLastStatusUpdate": "2026-01-15T22:01:00Z",
     "DateCreated": "2019-11-24T17:46:00Z",
     "SubmissionStatusTypeID": 200
 }

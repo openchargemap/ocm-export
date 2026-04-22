@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-02-02T11:28:00Z",
+    "DateLastVerified": "2025-12-19T10:37:00Z",
     "ID": 213065,
     "UUID": "8D0C2DDA-EDFD-4328-9006-F9E4088890BF",
     "DataProviderID": 1,
@@ -7,8 +7,9 @@
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 213445,
-        "Title": "La Comtoise",
-        "AddressLine1": "La Comtoise",
+        "Title": "e-Vadea - Marchaux-Chaudefontaine - A36 Besançon Marchaux",
+        "AddressLine1": "A36 - Aire de Besançon Marchaux",
+        "Town": "Marchaux-Chaudefontaine",
         "StateOrProvince": "Bourgogne-Franche-Comté",
         "Postcode": "25640",
         "CountryID": 80,
@@ -22,12 +23,30 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 354889,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "PowerKW": 150,
             "CurrentTypeID": 30,
             "Quantity": 5
         },
         {
-            "ID": 354889,
+            "ID": 354890,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 791474,
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
@@ -36,8 +55,8 @@
             "Quantity": 5
         },
         {
-            "ID": 354890,
-            "ConnectionTypeID": 1036,
+            "ID": 791475,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
@@ -45,9 +64,9 @@
             "Quantity": 5
         }
     ],
-    "NumberOfPoints": 5,
+    "NumberOfPoints": 8,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-02T11:28:00Z",
+    "DateLastStatusUpdate": "2025-12-19T10:37:00Z",
     "DateCreated": "2023-01-31T13:45:00Z",
     "SubmissionStatusTypeID": 200
 }

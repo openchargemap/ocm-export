@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 53566,
+            "ChargePointID": 191847,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM191847/OCM-191847.orig.2025122211485547.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM191847/OCM-191847.thmb.2025122211485547.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-22T11:49:00Z"
+        },
+        {
             "ID": 35358,
             "ChargePointID": 191847,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM191847/OCM-191847.orig.2022111212032835.jpg",
@@ -12,12 +28,12 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
             "DateCreated": "2022-11-12T12:04:00Z"
         }
     ],
-    "DateLastVerified": "2025-04-21T20:33:00Z",
+    "DateLastVerified": "2025-12-22T12:00:00Z",
     "ID": 191847,
     "UUID": "7C67D5C6-1083-4C45-A0BE-1B916E323BA0",
     "DataProviderID": 1,
@@ -44,12 +60,24 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 10
+            "Quantity": 16
+        },
+        {
+            "ID": 789533,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 900,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "2 Power electronics NB120 Charger. The DC charger allows charging one vehicle at 120kW, or two simultaneous charges at 60kW"
         }
     ],
-    "NumberOfPoints": 10,
+    "NumberOfPoints": 20,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-04-21T20:33:00Z",
+    "DateLastStatusUpdate": "2025-12-22T12:00:00Z",
     "DateCreated": "2022-03-02T16:27:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,11 +1,59 @@
 {
-    "DateLastVerified": "2019-03-14T23:18:00Z",
+    "MediaItems": [
+        {
+            "ID": 54648,
+            "ChargePointID": 118034,
+            "ItemURL": "https://media.openchargemap.io/images/AT/OCM118034/OCM-118034.orig.2026032609354030.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AT/OCM118034/OCM-118034.thmb.2026032609354030.jpg",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 21522,
+                "Username": "Christian W."
+            },
+            "DateCreated": "2026-03-26T09:36:00Z"
+        },
+        {
+            "ID": 54649,
+            "ChargePointID": 118034,
+            "ItemURL": "https://media.openchargemap.io/images/AT/OCM118034/OCM-118034.orig.2026032609354355.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AT/OCM118034/OCM-118034.thmb.2026032609354355.jpg",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 21522,
+                "Username": "Christian W."
+            },
+            "DateCreated": "2026-03-26T09:36:00Z"
+        },
+        {
+            "ID": 54650,
+            "ChargePointID": 118034,
+            "ItemURL": "https://media.openchargemap.io/images/AT/OCM118034/OCM-118034.orig.2026032609354801.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AT/OCM118034/OCM-118034.thmb.2026032609354801.jpg",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 21522,
+                "Username": "Christian W."
+            },
+            "DateCreated": "2026-03-26T09:36:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-03-29T09:43:00Z",
     "ID": 118034,
     "UUID": "0D4CE900-1419-4FC0-AF1E-1ACF4BAA4093",
     "DataProviderID": 1,
-    "OperatorID": 23,
+    "OperatorID": 45,
     "OperatorsReference": "49270",
-    "UsageTypeID": 4,
+    "UsageTypeID": 6,
+    "UsageCost": "Free of charge",
     "AddressInfo": {
         "ID": 118380,
         "Title": "Chaletdorf Bergwiesenglueck",
@@ -16,25 +64,27 @@
         "Latitude": 47.073298,
         "Longitude": 10.450483,
         "ContactTelephone1": " +43 5441 20077",
+        "RelatedURL": "https://www.bergwiesenglueck.at",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 167053,
-            "ConnectionTypeID": 30,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 3,
+            "Comments": "2 Tesla Vehicle Charging + 1 Electric Vehicle Charging, all 3 stations free for all vehicles"
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 22kW.Available for customers. Please see front desk.",
+    "NumberOfPoints": 3,
+    "GeneralComments": "Please see front desk",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2019-03-14T23:18:00Z",
+    "DateLastStatusUpdate": "2026-03-29T09:43:00Z",
     "DateCreated": "2019-03-14T23:18:00Z",
     "SubmissionStatusTypeID": 200
 }

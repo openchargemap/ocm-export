@@ -1,13 +1,14 @@
 {
-    "DateLastVerified": "2022-09-01T11:15:00Z",
+    "DateLastVerified": "2026-02-10T08:47:00Z",
     "ID": 201461,
     "UUID": "C2DE75E0-41B1-41E5-9F1E-CC99204A2075",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3921,
     "UsageTypeID": 1,
+    "UsageCost": "DC @ RM1.70/kWh",
     "AddressInfo": {
         "ID": 201825,
-        "Title": "Gentari @Petronas Pedas Linggi Layby Northbound",
+        "Title": "Gentari | Petronas Pedas Linggi Layby North Bound (180kW DC)",
         "AddressLine1": "KM 225 Pedas - Linggi Layby, Plus Highway (Northbound)",
         "Town": "Rembau",
         "StateOrProvince": "Negeri Sembilan",
@@ -15,18 +16,10 @@
         "CountryID": 137,
         "Latitude": 2.4670944135324504,
         "Longitude": 102.1201027036036,
+        "RelatedURL": "https://www.gentari.com/go/charging-network/malaysia",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 336154,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "Quantity": 1,
-            "Comments": "ChargEV Yinson 22kW AC Type 2"
-        },
         {
             "ID": 336155,
             "ConnectionTypeID": 33,
@@ -34,13 +27,13 @@
             "LevelID": 2,
             "PowerKW": 180,
             "Quantity": 2,
-            "Comments": "180kW HPC DCFC. Please use SETEL app to activate the charger. START CHARGING FIRST ON SETEL APP AND\r\nTHEN PLUG-IN THE CABLE. DO NOT PLUG-IN BEFORE ACTIVATING START. CHARGING ON SETEL APP FIRST."
+            "Comments": ""
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Thanks to MyEVOC and TLKP\r\n\r\n180kW HPC DCFC. Please use SETEL app to activate the charger. START CHARGING FIRST ON SETEL APP AND\r\nTHEN PLUG-IN THE CABLE. DO NOT PLUG-IN BEFORE ACTIVATING START. CHARGING ON SETEL APP FIRST.\r\n\r\nChargEV Yinson 22kW AC Type 2\r\n+ Dunkin’ Donuts\r\n+ CIMB ATM & CDM\r\n+ Surau\r\n+ Toilet",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-01T11:15:00Z",
+    "DateLastStatusUpdate": "2026-02-10T08:47:00Z",
     "DateCreated": "2022-09-01T09:59:00Z",
     "SubmissionStatusTypeID": 200
 }

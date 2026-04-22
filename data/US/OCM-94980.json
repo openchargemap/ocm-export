@@ -1,5 +1,56 @@
 {
-    "DateLastVerified": "2017-10-29T07:00:00Z",
+    "UserComments": [
+        {
+            "ID": 31066,
+            "ChargePointID": 94980,
+            "CommentTypeID": 10,
+            "UserName": "N",
+            "Comment": "Free :)",
+            "Rating": 5,
+            "DateCreated": "2025-10-28T16:12:38.027Z",
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 50388,
+            "ChargePointID": 94980,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM94980/OCM-94980.orig.2025102816173404.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM94980/OCM-94980.thmb.2025102816173404.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "DateCreated": "2025-10-28T16:18:00Z"
+        },
+        {
+            "ID": 50387,
+            "ChargePointID": 94980,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM94980/OCM-94980.orig.2025102816171524.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM94980/OCM-94980.thmb.2025102816171524.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "DateCreated": "2025-10-28T16:17:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-31T16:19:00Z",
     "ID": 94980,
     "UUID": "82ACC7F9-C619-4262-86EA-0F195BB5C7CA",
     "DataProviderID": 1,
@@ -28,12 +79,20 @@
             "PowerKW": 16,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 778246,
+            "ConnectionTypeID": 1,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 9,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 16kW.Parking fees will apply. Self park.",
+    "GeneralComments": "2 Tesla Connectors up to 16kW, and 2 J1772, up to 9kW. Parking fees will apply. Self park.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-10-29T07:00:00Z",
+    "DateLastStatusUpdate": "2025-10-31T16:19:00Z",
     "DateCreated": "2017-10-29T07:00:00Z",
     "SubmissionStatusTypeID": 200
 }

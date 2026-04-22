@@ -1,10 +1,10 @@
 {
     "MediaItems": [
         {
-            "ID": 36736,
+            "ID": 49267,
             "ChargePointID": 71008,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM71008/OCM-71008.orig.2023022417464844.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM71008/OCM-71008.thmb.2023022417464844.jpg",
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM71008/OCM-71008.orig.2025100912470262.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM71008/OCM-71008.thmb.2025100912470262.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -12,12 +12,12 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
-            "DateCreated": "2023-02-24T17:47:00Z"
+            "DateCreated": "2025-10-09T12:47:00Z"
         }
     ],
-    "DateLastVerified": "2025-07-26T14:00:00Z",
+    "DateLastVerified": "2025-10-09T17:23:00Z",
     "ID": 71008,
     "UUID": "00143DE1-01FE-499E-99FE-EDC9AB36AFC9",
     "DataProviderID": 1,
@@ -33,23 +33,12 @@
         "StateOrProvince": "Murcia",
         "Postcode": "30009",
         "CountryID": 210,
-        "Latitude": 38.038185759396356,
-        "Longitude": -1.1493551400451736,
-        "RelatedURL": "https://www.teslamotors.com/supercharger",
+        "Latitude": 38.03816465118578,
+        "Longitude": -1.1496667557182434,
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 101742,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Voltage": 400,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 10,
-            "Comments": "V2 (CCS+Tesla S/X connector)"
-        },
         {
             "ID": 602998,
             "ConnectionTypeID": 33,
@@ -64,9 +53,9 @@
         }
     ],
     "NumberOfPoints": 20,
-    "GeneralComments": "10 V2 superchargers 150kW (CCS+Tesla S/X connector). Each two A/B chargers share 150kW of the power cabinet",
+    "GeneralComments": "20 V4 Superchargers 250kW (CCS). Max total power of the station 1,8MW",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-07-26T14:00:00Z",
+    "DateLastStatusUpdate": "2025-10-09T17:23:00Z",
     "DateCreated": "2016-08-22T15:36:00Z",
     "SubmissionStatusTypeID": 200
 }

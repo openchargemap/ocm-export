@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2022-10-14T21:54:00Z",
+    "DateLastVerified": "2025-11-02T17:59:00Z",
     "ID": 208209,
     "UUID": "3D092EB4-D907-4311-A767-F430BD4574A4",
     "DataProviderID": 1,
     "OperatorID": 3489,
-    "UsageTypeID": 4,
-    "UsageCost": "0,44€/kWh",
+    "UsageTypeID": 1,
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 208589,
         "Title": "Electra - Argenteuil - Hôtel Campanile",
@@ -14,8 +14,8 @@
         "StateOrProvince": "Ile-de-France",
         "Postcode": "95100",
         "CountryID": 80,
-        "Latitude": 48.93522925044317,
-        "Longitude": 2.2420802831569517,
+        "Latitude": 48.93525563696255,
+        "Longitude": 2.241619421675864,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,16 +30,25 @@
         },
         {
             "ID": 346508,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "Quantity": 1
+        },
+        {
+            "ID": 778583,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 7,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-14T21:54:00Z",
+    "DateLastStatusUpdate": "2025-11-02T17:59:00Z",
     "DateCreated": "2022-10-14T21:54:00Z",
     "SubmissionStatusTypeID": 200
 }

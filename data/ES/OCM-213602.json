@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2024-01-27T18:56:00Z",
+    "MediaItems": [
+        {
+            "ID": 48466,
+            "ChargePointID": 213602,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM213602/OCM-213602.orig.2025092017500749.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM213602/OCM-213602.thmb.2025092017500749.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-20T17:50:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-04-16T19:44:00Z",
     "ID": 213602,
     "UUID": "1B0CD86A-741D-47AE-B748-CC0730F4299A",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": " 0,39€/kWh DC - 0,29€/kWh AC",
+    "UsageCost": " 0,47€/kWh",
     "AddressInfo": {
         "ID": 213982,
         "Title": "Repsol Marin",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Galicia",
         "Postcode": "36900",
         "CountryID": 210,
-        "Latitude": 42.39337736675503,
-        "Longitude": -8.6937024550449,
+        "Latitude": 42.39349854435136,
+        "Longitude": -8.693510826123259,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,6 +42,8 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 125,
+            "Voltage": 400,
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
@@ -49,7 +69,7 @@
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-01-27T18:56:00Z",
+    "DateLastStatusUpdate": "2026-04-16T19:44:00Z",
     "DateCreated": "2023-02-08T14:08:00Z",
     "SubmissionStatusTypeID": 200
 }

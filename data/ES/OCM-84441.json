@@ -1,11 +1,12 @@
 {
-    "DateLastVerified": "2024-03-04T15:44:00Z",
+    "DateLastVerified": "2025-09-03T08:41:00Z",
     "ID": 84441,
     "UUID": "1D594E02-7716-43D0-9FD6-EB928E060DE8",
     "DataProviderID": 1,
     "OperatorID": 45,
     "OperatorsReference": "25231",
     "UsageTypeID": 4,
+    "UsageCost": "0,45€/kWh DC - 0,35€/kWh AC ",
     "AddressInfo": {
         "ID": 84787,
         "Title": "El Corte Ingles Sanchinarro",
@@ -15,35 +16,36 @@
         "CountryID": 210,
         "Latitude": 40.49766,
         "Longitude": -3.661081,
-        "ContactTelephone1": "+34 913 848 200",
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 119895,
-            "ConnectionTypeID": 30,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 400,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
-            "Quantity": 3
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 900,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 6,
+            "Comments": "3 Circuitor Raption80 chargers. The DC charger allows charging one vehicle at 80kW, or two simultaneous charges at 40kW. "
         },
         {
             "ID": 340470,
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 4
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 10
         }
     ],
-    "NumberOfPoints": 7,
-    "GeneralComments": "2 Tesla Connectors, up to 11kW.Available for patrons only. Self park.",
+    "NumberOfPoints": 16,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-03-04T15:44:00Z",
+    "DateLastStatusUpdate": "2025-09-03T08:41:00Z",
     "DateCreated": "2017-02-26T06:34:00Z",
     "SubmissionStatusTypeID": 200
 }

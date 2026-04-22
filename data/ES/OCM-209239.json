@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-02-21T19:14:00Z",
+    "MediaItems": [
+        {
+            "ID": 48825,
+            "ChargePointID": 209239,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM209239/OCM-209239.orig.2025092912450745.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM209239/OCM-209239.thmb.2025092912450745.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-29T12:45:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-09-29T12:55:00Z",
     "ID": 209239,
     "UUID": "43FB625E-EEFF-4FE1-9991-C935C3A31707",
     "DataProviderID": 1,
@@ -13,8 +31,8 @@
         "StateOrProvince": "Andalucía",
         "Postcode": "11207",
         "CountryID": 210,
-        "Latitude": 36.11218618986487,
-        "Longitude": -5.453358425809711,
+        "Latitude": 36.112077765450394,
+        "Longitude": -5.4532959546147595,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,16 +43,16 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 920,
-            "PowerKW": 100,
+            "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "Ingeteam RAPID120 Charger.The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW. "
+            "Comments": "Ingeteam RAPID120 Charger limited to 50kW.The DC charger allows charging one vehicle at 50kW, or two simultaneous charges at 25kW. "
         }
     ],
     "NumberOfPoints": 2,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-21T19:14:00Z",
+    "DateLastStatusUpdate": "2025-09-29T12:55:00Z",
     "DateCreated": "2022-10-25T09:08:00Z",
     "SubmissionStatusTypeID": 200
 }

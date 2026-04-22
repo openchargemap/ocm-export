@@ -1,19 +1,20 @@
 {
-    "DateLastVerified": "2022-08-23T10:37:00Z",
+    "DateLastVerified": "2025-12-24T17:49:00Z",
     "ID": 199687,
     "UUID": "E8723876-4323-4EA6-922D-37D57771AD91",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FRS76P11712",
-    "OperatorID": 213,
+    "DataProviderID": 1,
+    "OperatorID": 3262,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 200046,
-        "Title": "AIRE DE COVOITURAGE BERMONVILLE",
-        "AddressLine1": "1 La Cayenne 76640 Terres-de-Caux",
+        "Title": "SDE76 - Terres-de-Caux - D926",
+        "AddressLine1": "D 926",
+        "Town": "Terres-de-Caux",
+        "StateOrProvince": "Normandie",
+        "Postcode": "76640",
         "CountryID": 80,
-        "Latitude": 49.631893,
-        "Longitude": 0.634463,
-        "AccessComments": "",
+        "Latitude": 49.63155944574967,
+        "Longitude": 0.634822415990584,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,7 +24,8 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 333278,
@@ -31,12 +33,23 @@
             "StatusTypeID": 50,
             "LevelID": 3,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 792405,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 43,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "GeneralComments": "Conditions accès aux bornes dépendantes des accords et formules de votre EMSP",
+    "NumberOfPoints": 1,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:37:00Z",
+    "DateLastStatusUpdate": "2025-12-24T17:49:00Z",
     "DateCreated": "2022-08-23T10:37:00Z",
     "SubmissionStatusTypeID": 100
 }

@@ -1,4 +1,21 @@
 {
+    "UserComments": [
+        {
+            "ID": 30928,
+            "ChargePointID": 51128,
+            "CommentTypeID": 10,
+            "UserName": "Como.Sabina Green.",
+            "Comment": "Charging was without any problem,even the access is via bus terminal looking to be not allowed for cars.I was here to visit the virtual excoursion in the power plant's public educational center, I advise to order to the excoursion in advance, it is in administrative building right behind this charging station, including toilets,which r accessible to public on demand.",
+            "Rating": 4,
+            "DateCreated": "2025-09-28T17:22:17.78Z",
+            "User": {
+                "ID": 61659,
+                "Username": "Como.Sabina Green."
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
         {
             "ID": 8246,
@@ -17,20 +34,22 @@
             "DateCreated": "2016-09-05T08:03:00Z"
         }
     ],
-    "DateLastVerified": "2016-09-05T08:04:00Z",
+    "DateLastVerified": "2025-09-28T17:22:00Z",
     "ID": 51128,
     "UUID": "88E401D0-0299-4197-8CAD-86602DB997B8",
     "DataProviderID": 1,
     "OperatorID": 115,
-    "UsageTypeID": 4,
+    "UsageTypeID": 5,
+    "UsageCost": "8.5CZK/KWh for ČEZ registered users, up to 11.5CZK/KWh for roaming users.",
     "AddressInfo": {
         "ID": 51474,
-        "Title": "JE Dukovany",
+        "Title": "JE Dukovany Nuclear Power Plant-ČEZ Public Charging Station (AC).",
         "AddressLine1": "Skryje nad Jihlavou",
         "Town": "Dukovany",
         "CountryID": 64,
-        "Latitude": 49.089038336854,
-        "Longitude": 16.143999272171,
+        "Latitude": 49.0889119723588,
+        "Longitude": 16.144435355341898,
+        "AccessComments": "@ the entrance to power plant's administrative & educational building,primarily meant for stuff,but public may charge too.",
         "RelatedURL": "http://www.elektromobilita.cz/",
         "DistanceUnit": 0
     },
@@ -38,13 +57,13 @@
         {
             "ID": 63256,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 100,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2
         },
         {
             "ID": 63257,
@@ -55,13 +74,14 @@
             "Voltage": 230,
             "PowerKW": 3.6,
             "CurrentTypeID": 10,
-            "Quantity": 1
+            "Quantity": 1,
+            "Comments": "Physically locked,key on demand, reserved for e-bikes."
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "GeneralComments": "CZ: Placená, je potřebná smlouva pro získání RFID karty od ČEZu (paušální platba) \r\nEN: Paid, contract needed to get an RFID card from ČEZ (flat payment)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2016-09-05T08:04:00Z",
+    "DateLastStatusUpdate": "2025-09-28T17:22:00Z",
     "DateCreated": "2015-07-23T01:04:00Z",
     "SubmissionStatusTypeID": 200
 }

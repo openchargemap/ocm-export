@@ -1,13 +1,13 @@
 {
-    "DateLastVerified": "2023-02-17T09:39:00Z",
+    "DateLastVerified": "2025-11-05T21:09:00Z",
     "ID": 235279,
     "UUID": "8DFEF404-CCEC-4636-A230-36069E261351",
     "DataProviderID": 1,
-    "OperatorID": 3445,
+    "OperatorID": 3710,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 235663,
-        "Title": "EDP - Linhares (#003)",
+        "Title": "EDP - Linhares",
         "AddressLine1": "Avenida Rui Barbosa, 179",
         "AddressLine2": "Centro",
         "Town": "Linhares",
@@ -22,19 +22,37 @@
         {
             "ID": 388035,
             "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
+            "StatusTypeID": 100,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 380,
-            "PowerKW": 21.1,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 779584,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 35,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 779585,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 35,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "Liberação através do APP EDP.Smart EV",
+    "NumberOfPoints": 2,
+    "GeneralComments": "Liberação através do APP WeCharge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-17T09:39:00Z",
+    "DateLastStatusUpdate": "2025-11-05T21:09:00Z",
     "DateCreated": "2023-02-17T00:32:00Z",
     "SubmissionStatusTypeID": 200
 }

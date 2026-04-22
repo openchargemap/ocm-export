@@ -1,49 +1,58 @@
 {
-    "DateLastVerified": "2022-10-21T11:34:00Z",
+    "MediaItems": [
+        {
+            "ID": 53465,
+            "ChargePointID": 208815,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM208815/OCM-208815.orig.2025121619174848.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM208815/OCM-208815.thmb.2025121619174848.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-16T19:18:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-16T19:18:00Z",
     "ID": 208815,
     "UUID": "F2AAB373-7A05-4D70-B6C2-0C4FADF6AF3A",
     "DataProviderID": 1,
-    "OperatorID": 1,
-    "UsageTypeID": 1,
-    "UsageCost": "",
+    "OperatorID": 3816,
+    "UsageTypeID": 4,
+    "UsageCost": "0,42€/kWh",
     "AddressInfo": {
         "ID": 209195,
-        "Title": "Cruz de Tejada",
+        "Title": "Parador Cruz de Tejada",
         "AddressLine1": "Cruz de Tejada",
         "Town": "Tejeda",
         "StateOrProvince": "Canary Islands",
         "Postcode": "35320",
         "CountryID": 210,
-        "Latitude": 28.006515651888648,
-        "Longitude": -15.599708508733556,
+        "Latitude": 28.007285983412487,
+        "Longitude": -15.599743796730309,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 347437,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
-            "Quantity": 2
-        },
-        {
-            "ID": 347438,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 3.7,
-            "CurrentTypeID": 10,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "App Movilidad Eléctrica GC",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-21T11:34:00Z",
+    "DateLastStatusUpdate": "2025-12-16T19:18:00Z",
     "DateCreated": "2022-10-21T11:34:00Z",
     "SubmissionStatusTypeID": 200
 }

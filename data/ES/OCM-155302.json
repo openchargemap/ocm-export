@@ -1,9 +1,27 @@
 {
-    "DateLastVerified": "2023-12-01T14:06:00Z",
+    "MediaItems": [
+        {
+            "ID": 50347,
+            "ChargePointID": 155302,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM155302/OCM-155302.orig.2025102716185147.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM155302/OCM-155302.thmb.2025102716185147.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-27T16:19:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-26T19:56:00Z",
     "ID": 155302,
     "UUID": "5311DFFB-0B7D-4E96-ACD1-1DDB02932883",
     "DataProviderID": 1,
-    "OperatorID": 3401,
+    "OperatorID": 45,
     "UsageTypeID": 4,
     "UsageCost": "0.50€/kWh",
     "AddressInfo": {
@@ -14,8 +32,8 @@
         "StateOrProvince": "Andalusia",
         "Postcode": "04130",
         "CountryID": 210,
-        "Latitude": 36.87557169671612,
-        "Longitude": -2.338144606380297,
+        "Latitude": 36.87508482035237,
+        "Longitude": -2.337777026810727,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -47,11 +65,20 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 777898,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-01T14:06:00Z",
+    "DateLastStatusUpdate": "2025-12-26T19:56:00Z",
     "DateCreated": "2020-04-05T14:10:00Z",
     "SubmissionStatusTypeID": 200
 }

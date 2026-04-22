@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2025-05-03T11:30:00Z",
+    "MediaItems": [
+        {
+            "ID": 48674,
+            "ChargePointID": 312227,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM312227/OCM-312227.orig.2025092517081927.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM312227/OCM-312227.thmb.2025092517081927.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-25T17:08:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-09-25T17:08:00Z",
     "ID": 312227,
     "UUID": "3E8C0759-D6EF-456B-B8B8-C28E9532D2A4",
     "DataProviderID": 1,
@@ -12,26 +30,33 @@
         "AddressLine1": "Huevar del Aljarafe",
         "Town": "Huevar del Aljarafe",
         "CountryID": 210,
-        "Latitude": 37.35315168999885,
-        "Longitude": -6.278971366107328,
+        "Latitude": 37.353156296603416,
+        "Longitude": -6.278752076788777,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 601566,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
+            "LevelID": 2,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 776407,
+            "ConnectionTypeID": 28,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-05-03T11:30:00Z",
+    "DateLastStatusUpdate": "2025-09-25T17:08:00Z",
     "DateCreated": "2025-05-03T11:30:00Z",
     "SubmissionStatusTypeID": 200
 }

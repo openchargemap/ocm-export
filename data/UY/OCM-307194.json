@@ -1,11 +1,11 @@
 {
-    "DateLastVerified": "2025-05-30T03:39:00Z",
+    "DateLastVerified": "2026-01-19T11:21:00Z",
     "ID": 307194,
     "UUID": "02F35B0A-D737-492C-84D3-631B06C21451",
     "DataProviderID": 1,
     "OperatorID": 3597,
     "UsageTypeID": 4,
-    "UsageCost": "Tarifa UTE",
+    "UsageCost": "UTE App",
     "AddressInfo": {
         "ID": 307583,
         "Title": "Duty Free Shop Puente Internacional Fray Bentos",
@@ -15,26 +15,38 @@
         "StateOrProvince": "Río Negro",
         "Postcode": "65000",
         "CountryID": 237,
-        "Latitude": -33.11335218299994,
-        "Longitude": -58.24499469512688,
+        "Latitude": -33.113285680784124,
+        "Longitude": -58.24528660050953,
         "ContactTelephone1": "1930",
+        "RelatedURL": "https://movilidad.ute.com.uy/",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 586083,
             "ConnectionTypeID": 33,
+            "Reference": "UTE",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 120,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 2
+        },
+        {
+            "ID": 796119,
+            "ConnectionTypeID": 33,
+            "Reference": "UTE",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "24 hs",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-05-30T03:39:00Z",
+    "DateLastStatusUpdate": "2026-01-19T11:21:00Z",
     "DateCreated": "2024-12-18T22:44:00Z",
     "SubmissionStatusTypeID": 200
 }

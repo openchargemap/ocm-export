@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2022-10-17T08:59:00Z",
+    "MediaItems": [
+        {
+            "ID": 53075,
+            "ChargePointID": 71023,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM71023/OCM-71023.orig.2025120820283670.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM71023/OCM-71023.thmb.2025120820283670.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-08T20:29:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-12T10:58:00Z",
     "ID": 71023,
     "UUID": "5E09080C-9436-4039-84AC-79434377432A",
     "DataProviderID": 1,
     "OperatorID": 3283,
     "UsageTypeID": 4,
-    "UsageCost": "Free",
+    "UsageCost": "0,25€/kWh",
     "AddressInfo": {
         "ID": 71369,
         "Title": "Son Pacs",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Mallorca",
         "Postcode": "07010 ",
         "CountryID": 210,
-        "Latitude": 39.6058303,
-        "Longitude": 2.653148099999953,
+        "Latitude": 39.60636287396926,
+        "Longitude": 2.6527441631128568,
         "RelatedURL": "http://www.caib.es/sacmicrofront/contenido.do?idsite=7585&cont=87168",
         "DistanceUnit": 0
     },
@@ -25,28 +43,17 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "Amps": 16,
+            "Amps": 32,
             "Voltage": 230,
-            "PowerKW": 3.7,
+            "PowerKW": 7.4,
             "CurrentTypeID": 10,
-            "Quantity": 4
-        },
-        {
-            "ID": 101769,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 16,
-            "Voltage": 230,
-            "PowerKW": 3.6,
-            "CurrentTypeID": 10,
-            "Quantity": 5
+            "Quantity": 12
         }
     ],
-    "NumberOfPoints": 9,
+    "NumberOfPoints": 12,
     "GeneralComments": "Melib card",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-17T08:59:00Z",
+    "DateLastStatusUpdate": "2025-12-12T10:58:00Z",
     "DateCreated": "2016-08-22T18:41:00Z",
     "SubmissionStatusTypeID": 200
 }

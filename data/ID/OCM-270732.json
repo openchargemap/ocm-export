@@ -1,21 +1,22 @@
 {
-    "DateLastVerified": "2023-07-04T14:46:00Z",
+    "DateLastVerified": "2026-04-12T16:46:00Z",
     "ID": 270732,
     "UUID": "A798045C-B073-40A9-B601-DC51C02D2B73",
     "DataProviderID": 1,
     "OperatorID": 3664,
     "UsageTypeID": 1,
-    "UsageCost": "Rp2467/kWh",
+    "UsageCost": "Rp2467/kWh ++",
     "AddressInfo": {
         "ID": 271116,
         "Title": "Tangcity Mall",
-        "AddressLine1": "Jl. Jenderal Sudirman No.1, Cikokol, Kec. Tangerang",
+        "AddressLine1": "",
+        "AddressLine2": "Jl. Jenderal Sudirman No.1, Cikokol",
         "Town": "Tangerang",
         "StateOrProvince": "Banten",
         "Postcode": "15117",
         "CountryID": 107,
-        "Latitude": -6.1939327,
-        "Longitude": 106.6341002,
+        "Latitude": -6.193251768674841,
+        "Longitude": 106.633890676026,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -36,11 +37,21 @@
             "PowerKW": 25,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 798402,
+            "ConnectionTypeID": 33,
+            "Reference": "HVT Recharge",
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 200,
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-04T14:46:00Z",
+    "DateLastStatusUpdate": "2026-04-12T16:46:00Z",
     "DateCreated": "2023-07-04T13:59:00Z",
     "SubmissionStatusTypeID": 200
 }

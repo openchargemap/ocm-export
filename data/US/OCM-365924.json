@@ -1,5 +1,103 @@
 {
-    "DateLastVerified": "2025-07-28T01:34:00Z",
+    "UserComments": [
+        {
+            "ID": 31165,
+            "ChargePointID": 365924,
+            "CommentTypeID": 10,
+            "UserName": "N",
+            "Comment": "$0.59/kWh",
+            "Rating": 5,
+            "DateCreated": "2025-11-28T15:31:19.397Z",
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        },
+        {
+            "ID": 30917,
+            "ChargePointID": 365924,
+            "CommentTypeID": 10,
+            "UserName": "N",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2025-09-28T15:33:57.083Z",
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 52528,
+            "ChargePointID": 365924,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM365924/OCM-365924.orig.2025112815340578.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM365924/OCM-365924.thmb.2025112815340578.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "DateCreated": "2025-11-28T15:34:00Z"
+        },
+        {
+            "ID": 52529,
+            "ChargePointID": 365924,
+            "ItemURL": "https://media.openchargemap.io/images/US/OCM365924/OCM-365924.orig.2025112815341723.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/US/OCM365924/OCM-365924.thmb.2025112815341723.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "DateCreated": "2025-11-28T15:34:00Z"
+        },
+        {
+            "ID": 48770,
+            "ChargePointID": 365924,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM365924/OCM-365924.orig.2025092815352466.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM365924/OCM-365924.thmb.2025092815352466.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "DateCreated": "2025-09-28T15:36:00Z"
+        },
+        {
+            "ID": 48771,
+            "ChargePointID": 365924,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM365924/OCM-365924.orig.2025092815354213.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM365924/OCM-365924.thmb.2025092815354213.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "DateCreated": "2025-09-28T15:36:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-29T20:54:00Z",
     "ID": 365924,
     "UUID": "562B5833-9E45-4865-B359-A2C543172945",
     "DataProviderID": 1,
@@ -25,26 +123,32 @@
         {
             "ID": 663042,
             "ConnectionTypeID": 32,
+            "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
             "PowerKW": 400,
             "CurrentTypeID": 30,
             "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         },
         {
             "ID": 663043,
             "ConnectionTypeID": 27,
+            "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
             "PowerKW": 400,
             "CurrentTypeID": 30,
             "Quantity": 4,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Comments": ""
         }
     ],
     "NumberOfPoints": 4,
     "GeneralComments": "Second stall from left is marked as used last, designed for accessibility.",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-07-28T01:34:00Z",
+    "DateLastStatusUpdate": "2025-12-29T20:54:00Z",
     "DateCreated": "2025-06-20T10:34:00Z",
     "SubmissionStatusTypeID": 100
 }

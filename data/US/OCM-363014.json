@@ -1,11 +1,46 @@
 {
-    "DateLastVerified": "2025-06-24T07:52:00Z",
+    "UserComments": [
+        {
+            "ID": 30990,
+            "ChargePointID": 363014,
+            "CommentTypeID": 10,
+            "UserName": "ev_driver",
+            "Comment": "Located in the back of a Walmart parking lot",
+            "Rating": 5,
+            "DateCreated": "2025-10-10T13:43:20.697Z",
+            "User": {
+                "ID": 61929,
+                "Username": "ev_driver"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
+    "MediaItems": [
+        {
+            "ID": 49318,
+            "ChargePointID": 363014,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM363014/OCM-363014.orig.2025101013433132.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM363014/OCM-363014.thmb.2025101013433132.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 61929,
+                "Username": "ev_driver"
+            },
+            "DateCreated": "2025-10-10T13:44:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-13T13:44:00Z",
     "ID": 363014,
     "UUID": "DABAF19D-1719-4DB1-B39F-A555BA9E15CE",
-    "DataProviderID": 2,
-    "DataProvidersReference": "168359",
+    "DataProviderID": 1,
     "OperatorID": 3318,
     "UsageTypeID": 1,
+    "UsageCost": "56¢/kWh, 42¢/kWh with Pass+",
     "AddressInfo": {
         "ID": 363403,
         "Title": "Walmart 1949 Fredonia",
@@ -35,14 +70,14 @@
             "ID": 659870,
             "ConnectionTypeID": 32,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "kW power is an estimate based on the connection type"
+            "Quantity": 4,
+            "Comments": ""
         }
     ],
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-24T07:52:00Z",
+    "DateLastStatusUpdate": "2025-10-13T13:44:00Z",
     "DateCreated": "2025-06-20T10:31:00Z",
     "SubmissionStatusTypeID": 100
 }

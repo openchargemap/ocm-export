@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-11-22T11:49:00Z",
+    "MediaItems": [
+        {
+            "ID": 48090,
+            "ChargePointID": 305903,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM305903/OCM-305903.orig.2025091412174914.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM305903/OCM-305903.thmb.2025091412174914.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-14T12:18:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-24T22:22:00Z",
     "ID": 305903,
     "UUID": "12868973-EE95-4DA0-A9A3-EAE8A50FD573",
     "DataProviderID": 1,
@@ -24,17 +42,17 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 375,
+            "Amps": 275,
             "Voltage": 920,
-            "PowerKW": 150,
+            "PowerKW": 180,
             "CurrentTypeID": 30,
             "Quantity": 2,
-            "Comments": "VW Elli Flexpole charger. Max power for two simultaneous charges 250 kW. Charger with a 190kWh boost battery. Power limited to 50kW when charger battery is low of charge"
+            "Comments": "XCharge NZS 210 (Peak 250A). Max combined power for two simultaneous charges 210 kW. Charger with a 233 kWh boost battery. Power limited to 68kW when charger battery is low of charge. (max power limited to 100kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-11-22T11:49:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-12-24T22:22:00Z",
     "DateCreated": "2024-11-05T18:32:00Z",
     "SubmissionStatusTypeID": 200
 }

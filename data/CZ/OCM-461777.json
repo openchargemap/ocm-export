@@ -1,0 +1,55 @@
+{
+    "DateLastVerified": "2025-10-07T18:19:00Z",
+    "ID": 461777,
+    "UUID": "56F9A96A-B8FC-4EFE-A806-4869502FC21A",
+    "DataProviderID": 1,
+    "OperatorID": 190,
+    "UsageTypeID": 5,
+    "UsageCost": "Extra fees for exceeding time limits of continuous charging(3hrs.for AC,shorter for DC).",
+    "AddressInfo": {
+        "ID": 462166,
+        "Title": "PRE Public Charging Station(AC+DC).",
+        "AddressLine1": "@ OMV.",
+        "Town": "Česká Třebová.",
+        "StateOrProvince": "Pardubický kraj.",
+        "CountryID": 64,
+        "Latitude": 49.92883870619926,
+        "Longitude": 16.43493491297602,
+        "AccessComments": "Public access with time limit.",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 776806,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2,
+            "Comments": "L-N voltage mentioned(L-L voltage is 400V). KWh:8CZK for PRE registered users;10CZK for non-registered users;13.5CZK for E.On users. Extra fees applies after exceeding 3hrs.of continuous charging,to avoid these restart charging every 3hrs.."
+        },
+        {
+            "ID": 776807,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        },
+        {
+            "ID": 776808,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 2
+        }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": "To fully charge Your battery U will need to restart charging always,when U r reaching the time limit. Restroom available in OMV,key on demand.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-10-07T18:19:00Z",
+    "DateCreated": "2025-10-04T18:15:00Z",
+    "SubmissionStatusTypeID": 200
+}

@@ -1,5 +1,39 @@
 {
-    "DateLastVerified": "2025-06-12T09:50:00Z",
+    "MediaItems": [
+        {
+            "ID": 54535,
+            "ChargePointID": 313613,
+            "ItemURL": "https://media.openchargemap.io/images/IN/OCM313613/OCM-313613.orig.2026030219232101.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IN/OCM313613/OCM-313613.thmb.2026030219232101.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 59074,
+                "Username": "v.nair"
+            },
+            "DateCreated": "2026-03-02T19:24:00Z"
+        },
+        {
+            "ID": 54534,
+            "ChargePointID": 313613,
+            "ItemURL": "https://media.openchargemap.io/images/IN/OCM313613/OCM-313613.orig.2026030219213381.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IN/OCM313613/OCM-313613.thmb.2026030219213381.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 59074,
+                "Username": "v.nair"
+            },
+            "DateCreated": "2026-03-02T19:22:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-03-02T19:24:00Z",
     "ID": 313613,
     "UUID": "9448C8AD-6F9F-4D06-8038-DA4CC7D90C32",
     "DataProviderID": 1,
@@ -8,7 +42,7 @@
     "UsageCost": "24.64/kWh",
     "AddressInfo": {
         "ID": 314002,
-        "Title": "PlugMap EVCS by Evan and Eyan - ChargeMOD",
+        "Title": "PlugMap EVCS by Evan and Eyan",
         "AddressLine1": "Near Latha Park",
         "AddressLine2": "Kizhakkekara",
         "Town": "Moovattupuzha",
@@ -34,15 +68,25 @@
             "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
+            "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 1
+        },
+        {
+            "ID": 805388,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Power Shared. "
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "Variable rate based on time of the day",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-12T09:50:00Z",
+    "DateLastStatusUpdate": "2026-03-02T19:24:00Z",
     "DateCreated": "2025-06-12T09:50:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -168,13 +168,13 @@
             "DateCreated": "2015-10-12T21:02:00Z"
         }
     ],
-    "DateLastVerified": "2017-12-09T10:17:00Z",
+    "DateLastVerified": "2026-01-26T09:17:00Z",
     "ID": 54552,
     "UUID": "625EE599-923C-4828-97C4-07DEED1634A8",
     "DataProviderID": 1,
     "OperatorID": 221,
-    "UsageTypeID": 4,
-    "UsageCost": "6.05Kč/kWh",
+    "UsageTypeID": 1,
+    "UsageCost": "https://www.eon-drive.cz/pro-ridice/",
     "AddressInfo": {
         "ID": 54898,
         "Title": "Spielberk Office Centre",
@@ -184,11 +184,11 @@
         "CountryID": 64,
         "Latitude": 49.1823601485501,
         "Longitude": 16.6064051454731,
-        "ContactTelephone1": "420 530 508 424",
-        "ContactTelephone2": "+420 533 446 465",
+        "ContactTelephone1": "",
+        "ContactTelephone2": "",
         "ContactEmail": "info@evselect.cz",
         "AccessComments": "na parkovišti\r\non the parking",
-        "RelatedURL": "http://www.evmapa.cz/stanice/ct-park-brno/",
+        "RelatedURL": "https://www.eon-drive.cz/pro-ridice/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -202,12 +202,30 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 797082,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 60,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 797083,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "CZ: Spuštění nabíjení pomocí účtu na portálu evmapa.cz - zavolaním, SMSkou nebo přes web. \r\nEN: Account on evmapa.cz required to start the charging - by phone, SMS or over the web page. ",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2017-12-09T10:17:00Z",
+    "DateLastStatusUpdate": "2026-01-26T09:17:00Z",
     "DateCreated": "2015-10-08T05:52:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,0 +1,56 @@
+{
+    "DateLastVerified": "2025-10-07T21:04:00Z",
+    "ID": 461785,
+    "UUID": "5537C1B8-A0BF-4EC8-98EC-7F97390EA09F",
+    "DataProviderID": 1,
+    "OperatorID": 190,
+    "UsageTypeID": 5,
+    "UsageCost": "Extra fees for exceeding charging time limit(3hrs.for AC,shorter for DC)+highway fee for PHEVs(25% of full price),highway is still free for BEVs & FCEVs.",
+    "AddressInfo": {
+        "ID": 462174,
+        "Title": "PRE Highway Charging Station(AC+DC).",
+        "AddressLine1": "OMV.",
+        "AddressLine2": "Km 35.",
+        "Town": "(none)-Highway D11.",
+        "StateOrProvince": "Středočeský kraj.",
+        "CountryID": 64,
+        "Latitude": 50.120347100970776,
+        "Longitude": 15.081976713387917,
+        "AccessComments": "Access only via highway(way to Hradec Králové),thus for PHEVs also highway fees applies(highways r still free for BEVs),vehicles unable to sustain speed @ least 80Kph has banned access to highway,thus also to this charging station.",
+        "DistanceUnit": 0
+    },
+    "Connections": [
+        {
+            "ID": 776828,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 230,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1,
+            "Comments": "L-N voltage mentioned(L-L voltage is 400V). KWh:8CZK for PRE registered users;10CZK for non-registered users;13.5CZK for E.On users. Wing-type side-covers of the Mennekes socket-it opens,when U push Your cable in. Extra fees for exceeding 3hrs.of continuous charging,to avoid restart charging every 3hrs.."
+        },
+        {
+            "ID": 776829,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 776830,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Restrooms available.",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-10-07T21:04:00Z",
+    "DateCreated": "2025-10-04T21:00:00Z",
+    "SubmissionStatusTypeID": 200
+}

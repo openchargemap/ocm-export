@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 52010,
+            "ChargePointID": 192260,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM192260/OCM-192260.orig.2025112116124552.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM192260/OCM-192260.thmb.2025112116124552.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 60217,
+                "Username": "davix"
+            },
+            "DateCreated": "2025-11-21T16:13:00Z"
+        },
+        {
             "ID": 36139,
             "ChargePointID": 192260,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM192260/OCM-192260.orig.2023010312001678.jpg",
@@ -12,17 +28,18 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
             "DateCreated": "2023-01-03T12:00:00Z"
         }
     ],
-    "DateLastVerified": "2023-01-03T12:01:00Z",
+    "DateLastVerified": "2025-11-21T16:13:00Z",
     "ID": 192260,
     "UUID": "E76A388E-2DC5-42A6-82FB-C768B6668C70",
     "DataProviderID": 1,
     "OperatorID": 3499,
     "UsageTypeID": 4,
+    "UsageCost": "0,25€/kWh",
     "AddressInfo": {
         "ID": 192619,
         "Title": "Mercadona López de Hoyos",
@@ -41,14 +58,15 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 3.7,
-            "Quantity": 1
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
-    "GeneralComments": "parking level 2",
+    "NumberOfPoints": 2,
+    "GeneralComments": "parking level 2. app Waylet(Repsol). 90' free parking, then at 0,07€/min",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-01-03T12:01:00Z",
+    "DateLastStatusUpdate": "2025-11-21T16:13:00Z",
     "DateCreated": "2022-03-28T13:38:00Z",
     "SubmissionStatusTypeID": 200
 }

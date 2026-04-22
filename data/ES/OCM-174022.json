@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2022-10-25T14:09:00Z",
+    "MediaItems": [
+        {
+            "ID": 48729,
+            "ChargePointID": 174022,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM174022/OCM-174022.orig.2025092620321419.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM174022/OCM-174022.thmb.2025092620321419.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-26T20:32:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-04-17T10:10:00Z",
     "ID": 174022,
     "UUID": "0E1AD1DD-F16B-452D-820B-3119CE9C1C13",
     "DataProviderID": 1,
@@ -8,14 +26,14 @@
     "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
     "AddressInfo": {
         "ID": 174381,
-        "Title": "SHELL Restaurante El Hacho II",
+        "Title": "Restaurante El Hacho II",
         "AddressLine1": "SHELL",
         "Town": "La Roda de Andalucía",
         "StateOrProvince": "Andalusia",
         "Postcode": "",
         "CountryID": 210,
-        "Latitude": 37.275840084590214,
-        "Longitude": -4.801126188126091,
+        "Latitude": 37.274715293526,
+        "Longitude": -4.800225706328916,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,22 +42,12 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
+            "Amps": 150,
             "Voltage": 400,
-            "PowerKW": 50,
+            "PowerKW": 60,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 268435,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "XCharge Juicepump60 DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW."
         },
         {
             "ID": 268436,
@@ -55,7 +63,7 @@
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-25T14:09:00Z",
+    "DateLastStatusUpdate": "2026-04-17T10:10:00Z",
     "DateCreated": "2021-03-10T21:54:00Z",
     "SubmissionStatusTypeID": 200
 }

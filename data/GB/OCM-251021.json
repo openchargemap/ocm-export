@@ -1,10 +1,9 @@
 {
-    "DateLastVerified": "2023-05-04T08:39:00Z",
+    "DateLastVerified": "2026-04-09T21:12:00Z",
     "ID": 251021,
     "UUID": "CFD09024-29E1-42A5-93CD-0AAB71CBF7EC",
-    "DataProviderID": 18,
-    "DataProvidersReference": "9fd3e4d33a60aaf6e40d1cfa83538946",
-    "OperatorID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 1,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 251405,
@@ -16,7 +15,7 @@
         "Latitude": 51.287529,
         "Longitude": 1.336774,
         "AccessComments": "",
-        "RelatedURL": "https://www.chargepoint.com/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -29,18 +28,20 @@
             "Amps": 190,
             "Voltage": 400,
             "PowerKW": 75,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 418251,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
             "Reference": "GBCPIP6581815*1*100061",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 375,
             "Voltage": 930,
             "PowerKW": 175,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 418252,
@@ -51,21 +52,24 @@
             "Amps": 190,
             "Voltage": 400,
             "PowerKW": 75,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 418253,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
             "Reference": "GBCPIP6581815*2*100061",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 375,
             "Voltage": 930,
             "PowerKW": 175,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2023-05-04T08:39:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-04-09T21:12:00Z",
     "MetadataValues": [
         {
             "ID": 23003,

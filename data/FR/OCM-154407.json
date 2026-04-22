@@ -1,15 +1,15 @@
 {
-    "DateLastVerified": "2022-08-23T10:37:00Z",
+    "DateLastVerified": "2025-12-24T17:36:00Z",
     "ID": 154407,
     "UUID": "3C24FC31-8CB5-46CE-BE9C-EDD53CD6A7C2",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*SOD*P*SDE7*75*_*_*_",
-    "OperatorID": 213,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 3262,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 154760,
-        "Title": "Luneray",
+        "Title": "SDE76 - Luneray - Chemin des Hortensias",
         "AddressLine1": "Chemin des Hortensias",
+        "Town": "Luneray",
         "CountryID": 80,
         "Latitude": 49.82804444,
         "Longitude": 0.91151111,
@@ -18,41 +18,28 @@
     },
     "Connections": [
         {
-            "ID": 217120,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
-        {
             "ID": 217121,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         },
         {
             "ID": 251577,
             "ConnectionTypeID": 28,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 251578,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "PowerKW": 3.7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "GeneralComments": "RFID et application",
+    "NumberOfPoints": 2,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:37:00Z",
+    "DateLastStatusUpdate": "2025-12-24T17:36:00Z",
     "DateCreated": "2020-03-15T10:55:00Z",
     "SubmissionStatusTypeID": 100
 }

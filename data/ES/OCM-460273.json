@@ -1,5 +1,39 @@
 {
-    "DateLastVerified": "2025-08-09T16:38:00Z",
+    "MediaItems": [
+        {
+            "ID": 53612,
+            "ChargePointID": 460273,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM460273/OCM-460273.orig.2025122414101926.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM460273/OCM-460273.thmb.2025122414101926.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-24T14:10:00Z"
+        },
+        {
+            "ID": 53610,
+            "ChargePointID": 460273,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM460273/OCM-460273.orig.2025122411340273.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM460273/OCM-460273.thmb.2025122411340273.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-24T11:34:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-28T18:46:00Z",
     "ID": 460273,
     "UUID": "100EE72B-3C56-4478-8C24-32345F380F6C",
     "DataProviderID": 1,
@@ -8,7 +42,7 @@
     "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 460662,
-        "Title": "Puerta de la Montaña II (Zunder)",
+        "Title": "Puerta de la Montaña (Zunder)",
         "AddressLine1": "Becerril Del Carpio",
         "Town": "Becerril Del Carpio",
         "CountryID": 210,
@@ -22,16 +56,29 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 600,
+            "Amps": 500,
             "Voltage": 1000,
-            "PowerKW": 400,
+            "PowerKW": 360,
             "CurrentTypeID": 30,
-            "Quantity": 8
+            "Quantity": 8,
+            "Comments": "4 ABB Terra360 chargers. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
+        },
+        {
+            "ID": 792276,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "2 Alpitronic Hypercharger HYC200 chargers with dual CCS connectors. The DC charger allows charging one vehicle at 150 kW, or two simultaneous charges at 75 kW"
         }
     ],
-    "NumberOfPoints": 8,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2025-08-09T16:38:00Z",
+    "NumberOfPoints": 12,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-12-28T18:46:00Z",
     "DateCreated": "2025-08-09T16:38:00Z",
     "SubmissionStatusTypeID": 200
 }

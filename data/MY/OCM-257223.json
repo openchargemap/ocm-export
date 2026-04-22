@@ -1,20 +1,23 @@
 {
-    "DateLastVerified": "2023-03-19T18:44:00Z",
+    "DateLastVerified": "2026-02-10T08:52:00Z",
     "ID": 257223,
     "UUID": "5EE6C41D-7D98-4BE7-B6EC-ACB97DB2CE2D",
     "DataProviderID": 1,
     "OperatorID": 3338,
     "UsageTypeID": 1,
+    "UsageCost": "DC @ RM1.30/kWh",
     "AddressInfo": {
         "ID": 257607,
-        "Title": "Ayer Keroh OBR Southbound",
-        "AddressLine1": "Lebuhraya Utara-Selatan",
+        "Title": "chargEV | Ayer Keroh OBR Southbound (50kW DC)",
+        "AddressLine1": "Restoran Jejantas Ayer Keroh",
+        "AddressLine2": "KM209 Arah Selatan",
         "Town": "Alor Gajah",
         "StateOrProvince": "Melaka",
         "Postcode": "78000",
         "CountryID": 137,
-        "Latitude": 2.3983232988315137,
-        "Longitude": 102.22175789077096,
+        "Latitude": 2.39815757056887,
+        "Longitude": 102.22173256937708,
+        "RelatedURL": "https://yinson-greentech.com/chargev/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -25,31 +28,13 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 429084,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 429085,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "Charge with ChargEV app.",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-03-19T18:44:00Z",
+    "DateLastStatusUpdate": "2026-02-10T08:52:00Z",
     "DateCreated": "2023-03-19T12:16:00Z",
     "SubmissionStatusTypeID": 200
 }

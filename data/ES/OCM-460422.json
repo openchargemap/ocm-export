@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2025-08-25T07:53:00Z",
+    "MediaItems": [
+        {
+            "ID": 49166,
+            "ChargePointID": 460422,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM460422/OCM-460422.orig.2025100718452152.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM460422/OCM-460422.thmb.2025100718452152.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-07T18:45:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-07T18:45:00Z",
     "ID": 460422,
     "UUID": "6C904F52-1605-4EE9-B303-C985BEEC5C31",
     "DataProviderID": 1,
@@ -29,13 +47,14 @@
             "Voltage": 1000,
             "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 2,
+            "Comments": "Hypercharger HYC150 DC charger. Charger with two CCS connectors but only a single parking space. Power is split between both outlets."
         }
     ],
     "NumberOfPoints": 1,
     "GeneralComments": "Moeve Cepsa",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-08-25T07:53:00Z",
+    "DateLastStatusUpdate": "2025-10-07T18:45:00Z",
     "DateCreated": "2025-08-17T09:04:00Z",
     "SubmissionStatusTypeID": 200
 }

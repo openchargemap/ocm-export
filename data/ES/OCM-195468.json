@@ -1,6 +1,38 @@
 {
     "MediaItems": [
         {
+            "ID": 54833,
+            "ChargePointID": 195468,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM195468/OCM-195468.orig.2026041118065527.c404bc0a5a944c4ebfad039df154d5cd.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM195468/OCM-195468.thmb.2026041118065527.c404bc0a5a944c4ebfad039df154d5cd.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2026-04-11T18:07:00Z"
+        },
+        {
+            "ID": 54732,
+            "ChargePointID": 195468,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM195468/OCM-195468.orig.2026033117221092.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM195468/OCM-195468.thmb.2026033117221092.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2026-03-31T17:22:00Z"
+        },
+        {
             "ID": 36742,
             "ChargePointID": 195468,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM195468/OCM-195468.orig.2023022419514439.jpg",
@@ -12,18 +44,18 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
             "DateCreated": "2023-02-24T19:52:00Z"
         }
     ],
-    "DateLastVerified": "2024-06-25T09:31:00Z",
+    "DateLastVerified": "2026-04-11T18:07:00Z",
     "ID": 195468,
     "UUID": "D1088FAE-78D6-412D-AD4D-93E3D37055D0",
     "DataProviderID": 1,
     "OperatorID": 3324,
     "UsageTypeID": 4,
-    "UsageCost": "0,58€/kWh",
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 195827,
         "Title": "Restaurante Los Ábades de la Gineta (Zunder)",
@@ -45,31 +77,8 @@
             "Voltage": 920,
             "PowerKW": 360,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
-        },
-        {
-            "ID": 325536,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 500,
-            "Voltage": 920,
-            "PowerKW": 360,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "ABB Terra360 Charger. "
-        },
-        {
-            "ID": 348072,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "PowerKW": 80,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "Siemens DC charger"
+            "Quantity": 10,
+            "Comments": "5 ABB Terra360 chargers. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
         },
         {
             "ID": 351520,
@@ -80,8 +89,8 @@
             "Voltage": 1000,
             "PowerKW": 300,
             "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "Siemens DC charger. Shares the total power (300 kW) with the Chademo connector (max power limited to 160kW for 400V cars). "
+            "Quantity": 2,
+            "Comments": "Siemens DC charger. Shares the total power (300 kW) aming the twi CCS connector (max power limited to 160kW for 400V cars). "
         },
         {
             "ID": 435367,
@@ -94,9 +103,10 @@
             "Comments": "Siemens DC charger"
         }
     ],
-    "NumberOfPoints": 6,
+    "NumberOfPoints": 12,
+    "GeneralComments": "Station equipped with a boost battery. Max Power limited when charger battery is low of charge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-06-25T09:31:00Z",
+    "DateLastStatusUpdate": "2026-04-11T18:07:00Z",
     "DateCreated": "2022-08-22T16:09:00Z",
     "SubmissionStatusTypeID": 200
 }

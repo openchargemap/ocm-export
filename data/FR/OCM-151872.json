@@ -1,58 +1,73 @@
 {
-    "DateLastVerified": "2022-08-23T10:31:00Z",
+    "MediaItems": [
+        {
+            "ID": 49320,
+            "ChargePointID": 151872,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM151872/OCM-151872.orig.2025101015142616.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM151872/OCM-151872.thmb.2025101015142616.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 61396,
+                "Username": "Danso"
+            },
+            "DateCreated": "2025-10-10T15:15:00Z"
+        },
+        {
+            "ID": 49321,
+            "ChargePointID": 151872,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM151872/OCM-151872.orig.2025101015143930.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/FR/OCM151872/OCM-151872.thmb.2025101015143930.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 61396,
+                "Username": "Danso"
+            },
+            "DateCreated": "2025-10-10T15:15:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-18T06:49:00Z",
     "ID": 151872,
     "UUID": "F1362031-A62A-46B4-B9F8-8D6C035D06B3",
-    "DataProviderID": 28,
-    "DataProvidersReference": "FR*S74*P74010*D",
-    "OperatorID": 3277,
-    "UsageTypeID": 5,
+    "DataProviderID": 1,
+    "OperatorID": 3408,
+    "UsageTypeID": 1,
+    "UsageCost": "Parking: 1.20 € / h",
     "AddressInfo": {
         "ID": 152225,
-        "Title": "ANNECY_Place de la Mandallaz",
-        "AddressLine1": "Place de la Mandallaz 74000 ANNECY",
+        "Title": "Place de la Mandallaz",
+        "AddressLine1": "Place de la Mandallaz",
+        "Town": "Annecy",
+        "Postcode": "74000",
         "CountryID": 80,
         "Latitude": 45.89955,
         "Longitude": 6.115,
         "AccessComments": "",
+        "RelatedURL": "http://www.eborn.fr",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 212325,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
-        {
             "ID": 212326,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
-            "CurrentTypeID": 20
-        },
-        {
-            "ID": 245075,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 10
-        },
-        {
-            "ID": 245076,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
+    "NumberOfPoints": 2,
     "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-08-23T10:31:00Z",
+    "DateLastStatusUpdate": "2025-10-18T06:49:00Z",
     "DateCreated": "2020-03-15T10:53:00Z",
     "SubmissionStatusTypeID": 100
 }

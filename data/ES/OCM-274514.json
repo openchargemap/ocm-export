@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-09-17T10:55:00Z",
+    "MediaItems": [
+        {
+            "ID": 48160,
+            "ChargePointID": 274514,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM274514/OCM-274514.orig.2025091419345040.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM274514/OCM-274514.thmb.2025091419345040.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-14T19:35:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-09-14T19:35:00Z",
     "ID": 274514,
     "UUID": "F56E6DF9-3F34-4999-967C-51E7D1D5E767",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,29€/kWh",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 274898,
         "Title": "(Ayunt. León) Glorieta de Guzmán el Bueno",
@@ -13,26 +31,26 @@
         "StateOrProvince": "Castilla y León",
         "Postcode": "24001",
         "CountryID": 210,
-        "Latitude": 42.59628961369978,
-        "Longitude": -5.577929104155544,
+        "Latitude": 42.59607217722851,
+        "Longitude": -5.578356184314629,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 476062,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-09-17T10:55:00Z",
+    "StatusTypeID": 150,
+    "DateLastStatusUpdate": "2025-09-14T19:35:00Z",
     "DateCreated": "2023-09-16T20:49:00Z",
     "SubmissionStatusTypeID": 200
 }

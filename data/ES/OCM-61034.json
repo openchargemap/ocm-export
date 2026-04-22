@@ -1,15 +1,33 @@
 {
-    "DateLastVerified": "2024-12-25T09:45:00Z",
+    "MediaItems": [
+        {
+            "ID": 49170,
+            "ChargePointID": 61034,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM61034/OCM-61034.orig.2025100719095169.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM61034/OCM-61034.thmb.2025100719095169.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-07T19:10:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-08T11:39:00Z",
     "ID": 61034,
     "UUID": "2D9FFCC5-D0C9-4DCE-A83A-C7B78E5872AF",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 2247,
     "OperatorsReference": "0133,0133",
     "UsageTypeID": 4,
-    "UsageCost": "free",
+    "UsageCost": "0,39€/kWh",
     "AddressInfo": {
         "ID": 61380,
-        "Title": "Boadilla del Monte - Hermanos Machado",
+        "Title": "Ayunt. Boadilla del Monte - Hermanos Machado",
         "AddressLine1": "Calle Hermanos Machado, 1503",
         "Town": "Boadilla del Monte",
         "StateOrProvince": "Madrid",
@@ -17,7 +35,7 @@
         "CountryID": 210,
         "Latitude": 40.409003291823694,
         "Longitude": -3.896715292247336,
-        "ContactTelephone1": "900215470",
+        "ContactTelephone1": "",
         "ContactEmail": "clientes@fenieenergia.es",
         "DistanceUnit": 0
     },
@@ -25,29 +43,18 @@
         {
             "ID": 77540,
             "ConnectionTypeID": 25,
-            "StatusTypeID": 75,
+            "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
-        },
-        {
-            "ID": 158891,
-            "ConnectionTypeID": 28,
-            "StatusTypeID": 75,
-            "LevelID": 1,
-            "Amps": 10,
-            "Voltage": 230,
-            "PowerKW": 2.3,
-            "CurrentTypeID": 10,
-            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 3,
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2024-12-25T09:45:00Z",
+    "NumberOfPoints": 2,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-01-08T11:39:00Z",
     "DateCreated": "2016-02-13T00:23:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,37 @@
 {
+    "UserComments": [
+        {
+            "ID": 31121,
+            "ChargePointID": 168665,
+            "CommentTypeID": 10,
+            "UserName": "john27rg",
+            "Comment": "I'm on the Owners Committee who manage this charger. The info here is out of date. I've tried to update. The old Tritium 50kW charger with ChargeFox failed. We've replaced it with a Sungrow 30kW DC charger and now use WeVolt as the CPO. Site remains open to all, we charge $0.50 / kWh for non-residents, plus a small WeVolt handling fee. ",
+            "DateCreated": "2025-11-14T23:57:40.133Z",
+            "User": {
+                "ID": 62961,
+                "Username": "john27rg"
+            },
+            "CheckinStatusTypeID": 210,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
+        {
+            "ID": 51642,
+            "ChargePointID": 168665,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM168665/OCM-168665.orig.2025111423484560.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/AU/OCM168665/OCM-168665.thmb.2025111423484560.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 62961,
+                "Username": "john27rg"
+            },
+            "DateCreated": "2025-11-14T23:49:00Z"
+        },
         {
             "ID": 24887,
             "ChargePointID": 168665,
@@ -49,13 +81,13 @@
             "DateCreated": "2020-10-03T06:48:00Z"
         }
     ],
-    "DateLastVerified": "2023-07-14T14:17:00Z",
+    "DateLastVerified": "2025-12-12T04:52:00Z",
     "ID": 168665,
     "UUID": "D5F153D6-41EA-42C7-9FAB-200B6DDD57B6",
     "DataProviderID": 1,
-    "OperatorID": 3339,
+    "OperatorID": 3716,
     "UsageTypeID": 1,
-    "UsageCost": "$0.40/kWh",
+    "UsageCost": "$0.50/kWh",
     "AddressInfo": {
         "ID": 169024,
         "Title": "The Cape Display Centre",
@@ -64,11 +96,11 @@
         "StateOrProvince": "Victoria",
         "Postcode": "3995",
         "CountryID": 18,
-        "Latitude": -38.66802433496106,
-        "Longitude": 145.60558849121276,
-        "ContactTelephone1": "1300 518 038",
+        "Latitude": -38.66819619396576,
+        "Longitude": 145.60559237161647,
+        "ContactTelephone1": "+61 8 6255 7900 (WeVolt)",
         "ContactEmail": "operations@liveatthecape.com.au",
-        "AccessComments": "North end of car park.\r\nLocation ~100m further south than map indicates (street is newer than underlying map).",
+        "AccessComments": "North end of car park. 24 x 7 access.",
         "RelatedURL": "http://www.liveatthecape.com.au/",
         "DistanceUnit": 0
     },
@@ -76,18 +108,18 @@
         {
             "ID": 256272,
             "ConnectionTypeID": 33,
-            "Reference": "4090",
+            "Reference": "yXeg5PX6",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 30,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 1,
     "GeneralComments": "Charger provided by developers of The Cape (www.liveatthecape.com.au)",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-07-14T14:17:00Z",
+    "DateLastStatusUpdate": "2025-12-12T04:52:00Z",
     "DateCreated": "2020-10-03T06:43:00Z",
     "SubmissionStatusTypeID": 200
 }

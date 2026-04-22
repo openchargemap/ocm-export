@@ -12,12 +12,12 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
             "DateCreated": "2023-12-31T10:29:00Z"
         }
     ],
-    "DateLastVerified": "2024-11-11T14:18:00Z",
+    "DateLastVerified": "2025-12-31T14:01:00Z",
     "ID": 280221,
     "UUID": "682C88BD-CE33-4E6B-B9A5-EB6572FA601B",
     "DataProviderID": 1,
@@ -46,44 +46,8 @@
             "Voltage": 920,
             "PowerKW": 360,
             "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
-        },
-        {
-            "ID": 487458,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 500,
-            "Voltage": 920,
-            "PowerKW": 360,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "ABB Terra360 Charger. "
-        },
-        {
-            "ID": 487779,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 500,
-            "Voltage": 920,
-            "PowerKW": 360,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "ABB Terra360 Charger. "
-        },
-        {
-            "ID": 487780,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 500,
-            "Voltage": 920,
-            "PowerKW": 360,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "ABB Terra360 Charger. "
+            "Quantity": 8,
+            "Comments": "4 ABB Terra360 chargers. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
         },
         {
             "ID": 487781,
@@ -92,16 +56,16 @@
             "LevelID": 3,
             "Amps": 300,
             "Voltage": 1000,
-            "PowerKW": 160,
+            "PowerKW": 25,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "Four Kempower CCS Satellite chargers (peak 400A) that dynamically share the total power of the cabinet (600 kW). Charging power limited for 400V cars"
+            "Quantity": 8,
+            "Comments": "8 Kempower CCS Satellite chargers  that dynamically share the total power of the cabinet (200kW)"
         }
     ],
-    "NumberOfPoints": 12,
+    "NumberOfPoints": 16,
     "GeneralComments": "Station equipped with a boost battery. Max Power limited when charger battery is low of charge",
-    "StatusTypeID": 100,
-    "DateLastStatusUpdate": "2024-11-11T14:18:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-12-31T14:01:00Z",
     "DateCreated": "2023-11-21T20:17:00Z",
     "SubmissionStatusTypeID": 200
 }

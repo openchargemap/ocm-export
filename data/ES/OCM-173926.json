@@ -1,10 +1,10 @@
 {
     "MediaItems": [
         {
-            "ID": 33315,
+            "ID": 53533,
             "ChargePointID": 173926,
-            "ItemURL": "https://media.openchargemap.io/images/ES/OCM173926/OCM-173926.orig.2022082808134481.jpg",
-            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM173926/OCM-173926.thmb.2022082808134481.jpg",
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM173926/OCM-173926.orig.2025122008335797.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM173926/OCM-173926.thmb.2025122008335797.jpg",
             "Comment": "",
             "IsEnabled": true,
             "IsVideo": false,
@@ -12,12 +12,12 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
-            "DateCreated": "2022-08-28T08:14:00Z"
+            "DateCreated": "2025-12-20T08:34:00Z"
         }
     ],
-    "DateLastVerified": "2024-02-04T17:49:00Z",
+    "DateLastVerified": "2025-12-20T08:36:00Z",
     "ID": 173926,
     "UUID": "99F843BB-14C9-4F19-A598-AE90E1B5C004",
     "DataProviderID": 1,
@@ -58,11 +58,24 @@
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "ABB Terra94 Charger. "
+        },
+        {
+            "ID": 791641,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 920,
+            "PowerKW": 360,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "ABB Terra360 charger. The DC charger allows charging one vehicle at 360 kW, or two simultaneous charges at 180 kW. Nominal current 300A, max peak current 500A. Charging power limited to 200 kW for 400 V vehicles. Peak power can be reduced when the thermal control of the connector is activated."
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
+    "GeneralComments": "Station equipped with a boost battery. Max Power limited when charger battery is low of charge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-02-04T17:49:00Z",
+    "DateLastStatusUpdate": "2025-12-20T08:36:00Z",
     "DateCreated": "2021-03-07T13:28:00Z",
     "SubmissionStatusTypeID": 200
 }

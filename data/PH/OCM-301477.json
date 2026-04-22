@@ -1,15 +1,17 @@
 {
-    "DateLastVerified": "2024-07-30T09:21:00Z",
+    "DateLastVerified": "2026-02-08T11:33:00Z",
     "ID": 301477,
     "UUID": "2363420D-60EE-42CB-8413-7FA00BA17DAB",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3902,
     "UsageTypeID": 4,
-    "UsageCost": "30p per KWH",
+    "UsageCost": "₱22 per kWh for AC Charging. ₱28 per kWh for DC Charging.",
     "AddressInfo": {
         "ID": 301864,
-        "Title": "EVOXTerra Lifestyle Hub",
-        "AddressLine1": "Carlos P. Garcia Avenue",
+        "Title": "EVOxCharge - TDG In.Hub Station",
+        "AddressLine1": "TDG In.Hub, Carlos P. Garcia Avenue",
+        "Town": "Taguig",
+        "StateOrProvince": "Metro Manila",
         "Postcode": "1630",
         "CountryID": 177,
         "Latitude": 14.513349435318233,
@@ -28,15 +30,6 @@
             "Comments": "GBT"
         },
         {
-            "ID": 566230,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 60,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
             "ID": 566231,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
@@ -53,11 +46,47 @@
             "PowerKW": 40,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 779702,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 120,
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 779703,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 1
+        },
+        {
+            "ID": 779704,
+            "ConnectionTypeID": 1039,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 4
+        },
+        {
+            "ID": 779705,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 7,
+            "CurrentTypeID": 10,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 11,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-30T09:21:00Z",
+    "DateLastStatusUpdate": "2026-02-08T11:33:00Z",
     "DateCreated": "2024-07-21T08:12:00Z",
     "SubmissionStatusTypeID": 200
 }

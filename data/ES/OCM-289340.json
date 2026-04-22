@@ -1,6 +1,38 @@
 {
     "MediaItems": [
         {
+            "ID": 54755,
+            "ChargePointID": 289340,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM289340/OCM-289340.orig.2026040213312957.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM289340/OCM-289340.thmb.2026040213312957.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2026-04-02T13:32:00Z"
+        },
+        {
+            "ID": 54756,
+            "ChargePointID": 289340,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM289340/OCM-289340.orig.2026040213314419.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM289340/OCM-289340.thmb.2026040213314419.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2026-04-02T13:32:00Z"
+        },
+        {
             "ID": 41817,
             "ChargePointID": 289340,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM289340/OCM-289340.orig.2024032812483338.jpg",
@@ -12,7 +44,7 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
             "DateCreated": "2024-03-28T12:49:00Z"
         },
@@ -28,12 +60,12 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
             "DateCreated": "2024-03-28T12:49:00Z"
         }
     ],
-    "DateLastVerified": "2024-06-18T19:05:00Z",
+    "DateLastVerified": "2026-04-02T13:32:00Z",
     "ID": 289340,
     "UUID": "818B8EFE-B6BE-4DFA-AC0C-9F796B94C7C5",
     "DataProviderID": 1,
@@ -57,30 +89,18 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 500,
-            "Voltage": 920,
-            "PowerKW": 350,
+            "Amps": 600,
+            "Voltage": 1000,
+            "PowerKW": 400,
             "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "XCharge C9LQ350 DC charger allows charging one vehicle at 350kW, or two simultaneous charges splitting the total power. First CCS2 connector (500A) up to 350kW, second CCS connector (200A) up to 120kW. (max power is limited to 200kW for 400V cars)"
-        },
-        {
-            "ID": 508558,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 200,
-            "Voltage": 920,
-            "PowerKW": 120,
-            "CurrentTypeID": 30,
-            "Quantity": 4,
-            "Comments": "Maximum amperage 200A (max power is limited to 80kW for 400V cars)"
+            "Quantity": 8,
+            "Comments": "4 Alpitronic Hypercharger HYC400 DC chargers that  allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. (max power is limited for 400V cars)"
         }
     ],
     "NumberOfPoints": 8,
-    "GeneralComments": "Four 350 kW chargers with double CCS outlet. Power is split between both outlets",
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2024-06-18T19:05:00Z",
+    "GeneralComments": "",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-04-02T13:32:00Z",
     "DateCreated": "2024-01-06T08:29:00Z",
     "SubmissionStatusTypeID": 200
 }

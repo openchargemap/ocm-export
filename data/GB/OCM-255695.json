@@ -1,10 +1,9 @@
 {
-    "DateLastVerified": "2023-12-07T08:14:00Z",
+    "DateLastVerified": "2026-04-05T20:20:00Z",
     "ID": 255695,
     "UUID": "23114DD2-5F0E-4AF4-A3F8-F71E6878A7A2",
-    "DataProviderID": 18,
-    "DataProvidersReference": "b2585f509345e30749a913d76f462bc3",
-    "OperatorID": 3737,
+    "DataProviderID": 1,
+    "OperatorID": 3479,
     "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 256079,
@@ -16,45 +15,33 @@
         "Latitude": 54.952284,
         "Longitude": -1.601777,
         "AccessComments": "",
-        "RelatedURL": "http://blinkcharging.com/",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 424311,
-            "ConnectionTypeID": 1036,
-            "Reference": "COMBO CCS",
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
-        },
-        {
             "ID": 424312,
-            "ConnectionTypeID": 2,
-            "Reference": "CHADEMO",
+            "ConnectionTypeID": 33,
+            "Reference": "",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
+            "PowerKW": 45,
+            "CurrentTypeID": 30,
+            "Quantity": 4
         },
         {
             "ID": 424313,
-            "ConnectionTypeID": 1036,
+            "ConnectionTypeID": 25,
             "Reference": "62196-2 (THREE PHASE)",
             "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 63,
-            "Voltage": 400,
-            "PowerKW": 43,
-            "CurrentTypeID": 20
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "DateLastStatusUpdate": "2023-12-07T08:14:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-04-05T20:20:00Z",
     "MetadataValues": [
         {
             "ID": 27677,

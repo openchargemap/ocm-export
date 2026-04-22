@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2023-11-25T11:44:00Z",
+    "MediaItems": [
+        {
+            "ID": 52422,
+            "ChargePointID": 280376,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM280376/OCM-280376.orig.2025112520165152.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM280376/OCM-280376.thmb.2025112520165152.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-25T20:17:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-04-17T09:12:00Z",
     "ID": 280376,
     "UUID": "FD29C1F0-BD3C-4103-91F7-EE992F7E3368",
     "DataProviderID": 1,
@@ -24,18 +42,30 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
+            "Amps": 400,
+            "Voltage": 900,
+            "PowerKW": 150,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": " Wallbox Supernova 150 Chargers (400A peak). The DC charger allows charging one vehicle at 150kW, or two simultaneous charges at 75kW"
+        },
+        {
+            "ID": 816685,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
             "Amps": 150,
-            "Voltage": 500,
+            "Voltage": 400,
             "PowerKW": 60,
             "CurrentTypeID": 30,
             "Quantity": 2,
             "Comments": "Wallbox Supernova 60 Charger. The DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "GeneralComments": "Apps Electromaps / Chargemap",
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2023-11-25T11:44:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-04-17T09:12:00Z",
     "DateCreated": "2023-11-25T11:40:00Z",
     "SubmissionStatusTypeID": 200
 }

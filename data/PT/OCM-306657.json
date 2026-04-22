@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2025-08-10T19:51:00Z",
+    "MediaItems": [
+        {
+            "ID": 52655,
+            "ChargePointID": 306657,
+            "ItemURL": "https://media.openchargemap.io/images/PT/OCM306657/OCM-306657.orig.2025113016415341.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/PT/OCM306657/OCM-306657.thmb.2025113016415341.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-30T16:42:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-30T16:47:00Z",
     "ID": 306657,
     "UUID": "02320A1A-EC99-44F3-B43E-08B15F4AD508",
     "DataProviderID": 1,
@@ -13,8 +31,8 @@
         "Town": "Vilar Formoso",
         "Postcode": "6355-270",
         "CountryID": 180,
-        "Latitude": 40.606667225344296,
-        "Longitude": -6.825016518665507,
+        "Latitude": 40.60658427918878,
+        "Longitude": -6.824866498166898,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -27,8 +45,8 @@
             "Voltage": 1000,
             "PowerKW": 400,
             "CurrentTypeID": 30,
-            "Quantity": 6,
-            "Comments": "3 400kW Chargers. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. Max 600A Peak, charging power limited to 240kW for 400V cars"
+            "Quantity": 8,
+            "Comments": "4 Alpitronic HYC400kW Chargers. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. Max 600A Peak, charging power limited to 240kW for 400V cars"
         },
         {
             "ID": 584564,
@@ -40,7 +58,7 @@
             "PowerKW": 200,
             "CurrentTypeID": 30,
             "Quantity": 12,
-            "Comments": "6 200kW Chargers. The DC charger allows charging one vehicle at 200kW, or two simultaneous charges at 100kW. Charging power limited to 120kW for 400V cars"
+            "Comments": "6 Alpitronic HYC400 Chargers limited to 200kW. The DC charger allows charging one vehicle at 200kW, or two simultaneous charges at 100kW. Charging power limited to 120kW for 400V cars"
         },
         {
             "ID": 584565,
@@ -51,7 +69,8 @@
             "Voltage": 500,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 4
+            "Quantity": 4,
+            "Comments": " 2 Alpitronic Hypercharger HYC50 DC chargers that allows charging one vehicle at 50kW, or two simultaneous charges at 25kW."
         },
         {
             "ID": 584574,
@@ -68,7 +87,7 @@
     ],
     "NumberOfPoints": 24,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-08-10T19:51:00Z",
+    "DateLastStatusUpdate": "2025-11-30T16:47:00Z",
     "DateCreated": "2024-11-30T13:27:00Z",
     "SubmissionStatusTypeID": 200
 }

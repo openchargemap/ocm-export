@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2025-07-13T08:17:00Z",
+    "MediaItems": [
+        {
+            "ID": 50937,
+            "ChargePointID": 301160,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM301160/OCM-301160.orig.2025110418133351.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM301160/OCM-301160.thmb.2025110418133351.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-04T18:14:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-04T18:18:00Z",
     "ID": 301160,
     "UUID": "D3B1D61C-C35F-4799-A882-BADA7CD6DEC3",
     "DataProviderID": 1,
@@ -45,14 +63,17 @@
             "ConnectionTypeID": 2,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
             "CurrentTypeID": 30,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "Max power currently limited to 50kW. Closed Hotel",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-07-13T08:17:00Z",
+    "DateLastStatusUpdate": "2025-11-04T18:18:00Z",
     "DateCreated": "2024-07-16T08:55:00Z",
     "SubmissionStatusTypeID": 200
 }

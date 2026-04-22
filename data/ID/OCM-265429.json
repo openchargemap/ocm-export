@@ -1,33 +1,34 @@
 {
-    "DateLastVerified": "2024-05-21T02:49:00Z",
+    "DateLastVerified": "2026-03-06T22:09:00Z",
     "ID": 265429,
     "UUID": "80391F9C-46D0-4A3C-87C5-180E5A3A00EA",
     "DataProviderID": 1,
     "OperatorID": 3664,
     "UsageTypeID": 1,
-    "UsageCost": "Rp2467/kWh",
+    "UsageCost": "Rp2467/kWh ++",
     "AddressInfo": {
         "ID": 265813,
-        "Title": "SPKLU UP3 Bulungan",
-        "AddressLine1": "PLN UP3 Bulungan ",
+        "Title": "PLN UP3 Bulungan",
+        "AddressLine1": "",
         "AddressLine2": "Jl. Sisingamangaraja No.1, RT.2/RW.8, Gunung, Kec. Kby. Baru",
         "Town": "Jakarta Selatan",
         "StateOrProvince": "Jakarta",
         "Postcode": "12120",
         "CountryID": 107,
-        "Latitude": -6.2395213,
-        "Longitude": 106.7980413,
+        "Latitude": -6.239643984569881,
+        "Longitude": 106.79766040610957,
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 450840,
             "ConnectionTypeID": 33,
+            "Reference": "HVT Recharge",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 60,
+            "PowerKW": 120,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 10
         },
         {
             "ID": 450841,
@@ -55,20 +56,11 @@
             "PowerKW": 24,
             "CurrentTypeID": 30,
             "Quantity": 1
-        },
-        {
-            "ID": 450844,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
-            "LevelID": 3,
-            "PowerKW": 24,
-            "CurrentTypeID": 30,
-            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-05-21T02:49:00Z",
+    "DateLastStatusUpdate": "2026-03-06T22:09:00Z",
     "DateCreated": "2023-05-10T16:56:00Z",
     "SubmissionStatusTypeID": 200
 }

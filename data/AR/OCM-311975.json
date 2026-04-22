@@ -1,19 +1,39 @@
 {
-    "DateLastVerified": "2025-04-29T10:34:00Z",
+    "MediaItems": [
+        {
+            "ID": 54690,
+            "ChargePointID": 311975,
+            "ItemURL": "https://media.openchargemap.io/images/AR/OCM311975/OCM-311975.orig.2026032820555924.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AR/OCM311975/OCM-311975.thmb.2026032820555924.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 62489,
+                "Username": "hdolivera"
+            },
+            "DateCreated": "2026-03-28T20:56:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-03-28T20:56:00Z",
     "ID": 311975,
     "UUID": "23A0DCF3-F2FE-491C-BC52-BF8E281679F1",
     "DataProviderID": 1,
-    "OperatorID": 1,
+    "OperatorID": 3966,
     "UsageTypeID": 4,
+    "UsageCost": "EV Jungle App",
     "AddressInfo": {
         "ID": 312364,
-        "Title": "Estacion Puma",
+        "Title": "[ChargeBox] EPEC Posta Nativa",
         "AddressLine1": "Ruta 20 Bell Ville",
         "Town": "Bell Ville",
         "StateOrProvince": "Córdoba",
         "CountryID": 15,
         "Latitude": -32.577503653698614,
         "Longitude": -62.68793043905478,
+        "RelatedURL": "https://chargeboxnet.com/",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -30,22 +50,23 @@
             "ID": 600967,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
+            "LevelID": 3,
             "PowerKW": 50,
+            "CurrentTypeID": 30,
             "Quantity": 1
         },
         {
             "ID": 600968,
-            "ConnectionTypeID": 33,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
             "PowerKW": 22,
             "Quantity": 1
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-04-29T10:34:00Z",
+    "DateLastStatusUpdate": "2026-03-28T20:56:00Z",
     "DateCreated": "2025-04-25T23:32:00Z",
     "SubmissionStatusTypeID": 200
 }

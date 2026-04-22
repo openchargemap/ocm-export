@@ -1,37 +1,54 @@
 {
-    "DateLastVerified": "2024-11-09T15:23:00Z",
+    "UserComments": [
+        {
+            "ID": 31085,
+            "ChargePointID": 305990,
+            "CommentTypeID": 50,
+            "UserName": "mtt_zande",
+            "Comment": "operational - 2x300kw",
+            "DateCreated": "2025-11-02T09:30:31.427Z",
+            "User": {
+                "ID": 62019,
+                "Username": "mtt_zande"
+            },
+            "CheckinStatusTypeID": 0,
+            "IsActionedByEditor": false
+        }
+    ],
+    "DateLastVerified": "2025-11-10T17:04:00Z",
     "ID": 305990,
     "UUID": "5C9F5735-C402-497B-8EDF-167459C193F4",
     "DataProviderID": 1,
-    "OperatorID": 3657,
-    "UsageTypeID": 4,
+    "OperatorID": 3908,
+    "UsageTypeID": 1,
     "AddressInfo": {
         "ID": 306379,
-        "Title": "IP ads Monte Alto Sud",
+        "Title": "IPlanet ads IP Monte Alto Sud",
         "AddressLine1": "Autostrada Serenissima",
         "Town": "Desenzano del Garda",
         "StateOrProvince": "Lombardia",
-        "Postcode": "25150",
+        "Postcode": "25015",
         "CountryID": 112,
         "Latitude": 45.447836000001956,
         "Longitude": 10.527741000001242,
-        "RelatedURL": "https://nextcharge.app/map?lang=it&station=OCPI-280-313806942002",
+        "RelatedURL": "http://iplanet.eu",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 579629,
             "ConnectionTypeID": 33,
+            "Reference": "iplanet.eu",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 160,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
-    "StatusTypeID": 150,
-    "DateLastStatusUpdate": "2024-11-09T15:23:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-11-10T17:04:00Z",
     "DateCreated": "2024-11-09T15:21:00Z",
     "SubmissionStatusTypeID": 200
 }

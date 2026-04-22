@@ -1,11 +1,30 @@
 {
-    "DateLastVerified": "2023-02-19T13:57:00Z",
+    "MediaItems": [
+        {
+            "ID": 53642,
+            "ChargePointID": 165084,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM165084/OCM-165084.orig.2025122920293076.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM165084/OCM-165084.thmb.2025122920293076.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-29T20:30:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-29T20:30:00Z",
     "ID": 165084,
     "UUID": "DA75823A-A17E-417E-94DF-50EE67492EFC",
     "DataProviderID": 1,
-    "OperatorID": 45,
+    "OperatorID": 3324,
     "OperatorsReference": "38778",
-    "UsageTypeID": 6,
+    "UsageTypeID": 4,
+    "UsageCost": "0,55€/kWh",
     "AddressInfo": {
         "ID": 165443,
         "Title": "Rest. Lobito de Mar",
@@ -14,35 +33,29 @@
         "StateOrProvince": "Marbella",
         "Postcode": "29602",
         "CountryID": 210,
-        "Latitude": 36.507886,
-        "Longitude": -4.916903,
-        "ContactTelephone1": "+34 951 554 554",
+        "Latitude": 36.50821859489436,
+        "Longitude": -4.917145304180735,
+        "ContactTelephone1": "",
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 236684,
-            "ConnectionTypeID": 30,
+            "ID": 792983,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
-        {
-            "ID": 340434,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 2,
-            "PowerKW": 11,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "LevelID": 3,
+            "Amps": 250,
+            "Voltage": 1000,
+            "PowerKW": 90,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Alpitronic HYC200 charger."
         }
     ],
     "NumberOfPoints": 2,
-    "GeneralComments": "1 Tesla Connector, up to 22kW.Available for customers. Porsche Destination Charger",
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-19T13:57:00Z",
+    "DateLastStatusUpdate": "2025-12-29T20:30:00Z",
     "DateCreated": "2020-08-25T05:56:00Z",
     "SubmissionStatusTypeID": 200
 }

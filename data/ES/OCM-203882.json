@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2023-12-02T07:24:00Z",
+    "MediaItems": [
+        {
+            "ID": 49553,
+            "ChargePointID": 203882,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM203882/OCM-203882.orig.2025101309592671.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM203882/OCM-203882.thmb.2025101309592671.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-13T09:59:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-02T20:59:00Z",
     "ID": 203882,
     "UUID": "A974B158-97C2-4217-B061-6E0BE13DA025",
     "DataProviderID": 1,
-    "OperatorID": 3401,
+    "OperatorID": 3584,
     "UsageTypeID": 4,
-    "UsageCost": "0,25€/kWh",
+    "UsageCost": "0,60€/kWh",
     "AddressInfo": {
         "ID": 204249,
         "Title": "Cepsa San Julián",
@@ -20,19 +38,20 @@
     "Connections": [
         {
             "ID": 340798,
-            "ConnectionTypeID": 25,
+            "ConnectionTypeID": 33,
             "StatusTypeID": 50,
-            "LevelID": 2,
-            "Amps": 32,
-            "Voltage": 400,
-            "PowerKW": 22,
-            "CurrentTypeID": 20,
-            "Quantity": 2
+            "LevelID": 3,
+            "Amps": 250,
+            "Voltage": 900,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "XCharge NZS 210 (Peak 250A). Max combined power for two simultaneous charges 210 kW. Charger with a 233 kWh boost battery. Power limited to 50kW when charger battery is low of charge. (max power limited to 100kW for 400V cars)"
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-12-02T07:24:00Z",
+    "DateLastStatusUpdate": "2026-01-02T20:59:00Z",
     "DateCreated": "2022-09-22T18:32:00Z",
     "SubmissionStatusTypeID": 200
 }

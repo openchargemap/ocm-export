@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2025-06-29T15:50:00Z",
+    "MediaItems": [
+        {
+            "ID": 52374,
+            "ChargePointID": 459007,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM459007/OCM-459007.orig.2025112419333616.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM459007/OCM-459007.thmb.2025112419333616.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-24T19:34:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-24T19:34:00Z",
     "ID": 459007,
     "UUID": "52AAF71D-6309-4396-9AA7-99FF37673268",
     "DataProviderID": 1,
     "OperatorID": 3459,
     "UsageTypeID": 4,
-    "UsageCost": "0,37€/kWh",
+    "UsageCost": "0,55€/kWh DC - 0,37€/kWh AC",
     "AddressInfo": {
         "ID": 459396,
         "Title": "Ayunt. Sevilla. Avda. Hytasa ",
@@ -24,12 +42,35 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 789313,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 250,
+            "Voltage": 900,
+            "PowerKW": 100,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Circutor Raption100 Charger"
+        },
+        {
+            "ID": 789314,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 200,
+            "Voltage": 500,
+            "PowerKW": 80,
+            "CurrentTypeID": 30,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-29T15:50:00Z",
+    "DateLastStatusUpdate": "2025-11-24T19:34:00Z",
     "DateCreated": "2025-06-29T15:50:00Z",
     "SubmissionStatusTypeID": 200
 }

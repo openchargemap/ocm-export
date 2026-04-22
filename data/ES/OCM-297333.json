@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-08-28T13:53:00Z",
+    "MediaItems": [
+        {
+            "ID": 51084,
+            "ChargePointID": 297333,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM297333/OCM-297333.orig.2025110619534555.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM297333/OCM-297333.thmb.2025110619534555.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-06T19:54:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-12-19T19:40:00Z",
     "ID": 297333,
     "UUID": "DAB92B50-7789-4BF1-9EF6-A14C4613B0C4",
     "DataProviderID": 1,
@@ -21,7 +39,7 @@
         {
             "ID": 537433,
             "ConnectionTypeID": 33,
-            "StatusTypeID": 150,
+            "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 200,
             "Voltage": 920,
@@ -41,8 +59,9 @@
         }
     ],
     "NumberOfPoints": 4,
-    "StatusTypeID": 75,
-    "DateLastStatusUpdate": "2024-08-28T13:53:00Z",
+    "GeneralComments": "max power currently limited to 70kW",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2025-12-19T19:40:00Z",
     "DateCreated": "2024-04-07T11:13:00Z",
     "SubmissionStatusTypeID": 200
 }

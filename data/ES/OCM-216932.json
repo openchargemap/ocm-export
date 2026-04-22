@@ -1,10 +1,11 @@
 {
-    "DateLastVerified": "2023-02-11T19:23:00Z",
+    "DateLastVerified": "2025-10-16T17:38:00Z",
     "ID": 216932,
     "UUID": "E9317F11-4137-4F6F-9A5D-818AD6451AFC",
     "DataProviderID": 1,
     "OperatorID": 3499,
-    "UsageTypeID": 1,
+    "UsageTypeID": 4,
+    "UsageCost": "0,25€/kWh",
     "AddressInfo": {
         "ID": 217312,
         "Title": "Mercadona Torrevieja",
@@ -13,8 +14,8 @@
         "StateOrProvince": "Comunitat Valenciana",
         "Postcode": "03183",
         "CountryID": 210,
-        "Latitude": 38.00078074870868,
-        "Longitude": -0.671575650705563,
+        "Latitude": 38.00025235004742,
+        "Longitude": -0.6709802003227878,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -23,13 +24,15 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 3.7,
-            "Quantity": 3
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 12
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 12,
+    "GeneralComments": "app Iberdrola. 90' free parking, then at 0,07€/min",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-02-11T19:23:00Z",
+    "DateLastStatusUpdate": "2025-10-16T17:38:00Z",
     "DateCreated": "2023-02-11T19:23:00Z",
     "SubmissionStatusTypeID": 200
 }

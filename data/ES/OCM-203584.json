@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2022-09-18T13:36:00Z",
+    "MediaItems": [
+        {
+            "ID": 47768,
+            "ChargePointID": 203584,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM203584/OCM-203584.orig.2025090817330009.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM203584/OCM-203584.thmb.2025090817330009.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-08T17:33:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-09-08T17:36:00Z",
     "ID": 203584,
     "UUID": "086900E7-5685-4664-9A9E-E24F13F58662",
     "DataProviderID": 1,
     "OperatorID": 45,
-    "UsageTypeID": 1,
-    "UsageCost": "",
+    "UsageTypeID": 5,
+    "UsageCost": "10€/charge",
     "AddressInfo": {
         "ID": 203951,
         "Title": "E.S. Oruca",
@@ -14,8 +32,8 @@
         "StateOrProvince": "Castile and León",
         "Postcode": "42200",
         "CountryID": 210,
-        "Latitude": 41.499394349990524,
-        "Longitude": -2.5370918875171355,
+        "Latitude": 41.49948074620522,
+        "Longitude": -2.5371585364687235,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -24,14 +42,14 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 22,
+            "PowerKW": 11,
             "CurrentTypeID": 20,
             "Quantity": 1
         }
     ],
     "NumberOfPoints": 1,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-09-18T13:36:00Z",
+    "DateLastStatusUpdate": "2025-09-08T17:36:00Z",
     "DateCreated": "2022-09-18T13:36:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2022-10-30T22:54:00Z",
+    "MediaItems": [
+        {
+            "ID": 51996,
+            "ChargePointID": 201910,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201910/OCM-201910.orig.2025112114260373.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM201910/OCM-201910.thmb.2025112114260373.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-21T14:26:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-11-21T14:26:00Z",
     "ID": 201910,
     "UUID": "E0F6E73B-FCAE-4DCA-B6C4-4D689F30D8C3",
     "DataProviderID": 1,
@@ -8,14 +26,14 @@
     "UsageCost": "0,45€/kWh",
     "AddressInfo": {
         "ID": 202277,
-        "Title": "Rest. Etxe Aundi",
+        "Title": "Hotel Rest. Etxe Aundi",
         "AddressLine1": "Torreauzo",
         "Town": "Oñati",
         "StateOrProvince": "Basque Country",
         "Postcode": "20560;20567;20568;20569",
         "CountryID": 210,
-        "Latitude": 43.043982873386454,
-        "Longitude": -2.427515027128493,
+        "Latitude": 43.044089498482265,
+        "Longitude": -2.4275841940141163,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -40,11 +58,20 @@
             "PowerKW": 50,
             "CurrentTypeID": 30,
             "Quantity": 1
+        },
+        {
+            "ID": 788546,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 3,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-30T22:54:00Z",
+    "DateLastStatusUpdate": "2025-11-21T14:26:00Z",
     "DateCreated": "2022-09-05T13:43:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,5 +1,38 @@
 {
+    "UserComments": [
+        {
+            "ID": 31061,
+            "ChargePointID": 142706,
+            "CommentTypeID": 10,
+            "UserName": "N",
+            "Comment": "",
+            "Rating": 5,
+            "DateCreated": "2025-10-27T20:46:39.813Z",
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "CheckinStatusTypeID": 10,
+            "IsActionedByEditor": false
+        }
+    ],
     "MediaItems": [
+        {
+            "ID": 50366,
+            "ChargePointID": 142706,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM142706/OCM-142706.orig.2025102720462994.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/US/OCM142706/OCM-142706.thmb.2025102720462994.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 49615,
+                "Username": "N"
+            },
+            "DateCreated": "2025-10-27T20:47:00Z"
+        },
         {
             "ID": 39472,
             "ChargePointID": 142706,
@@ -17,7 +50,7 @@
             "DateCreated": "2023-09-02T22:03:00Z"
         }
     ],
-    "DateLastVerified": "2023-09-02T22:05:00Z",
+    "DateLastVerified": "2025-11-01T23:28:00Z",
     "ID": 142706,
     "UUID": "3BF34505-99E7-4CF0-8CFF-7F3999EF1C65",
     "DataProviderID": 1,
@@ -41,30 +74,6 @@
     },
     "Connections": [
         {
-            "ID": 198902,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 100,
-            "Voltage": 500,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1,
-            "Comments": "Shared with a CCS"
-        },
-        {
-            "ID": 198903,
-            "ConnectionTypeID": 32,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 300,
-            "Voltage": 1000,
-            "PowerKW": 150,
-            "CurrentTypeID": 30,
-            "Quantity": 2,
-            "Comments": "One Shared with a CHAdeMO"
-        },
-        {
             "ID": 273655,
             "ConnectionTypeID": 32,
             "StatusTypeID": 50,
@@ -73,12 +82,12 @@
             "Voltage": 1000,
             "PowerKW": 350,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 4
         }
     ],
     "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2023-09-02T22:05:00Z",
+    "DateLastStatusUpdate": "2025-11-01T23:28:00Z",
     "DateCreated": "2019-12-24T09:18:00Z",
     "SubmissionStatusTypeID": 100
 }

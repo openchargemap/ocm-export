@@ -1,11 +1,29 @@
 {
-    "DateLastVerified": "2022-12-14T19:30:00Z",
+    "MediaItems": [
+        {
+            "ID": 47753,
+            "ChargePointID": 203468,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM203468/OCM-203468.orig.2025090808231016.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM203468/OCM-203468.thmb.2025090808231016.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-09-08T08:23:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-09-08T08:25:00Z",
     "ID": 203468,
     "UUID": "10013BF9-65E8-4675-8C3D-C1286A9FE540",
     "DataProviderID": 1,
     "OperatorID": 2247,
-    "UsageTypeID": 1,
-    "UsageCost": "free",
+    "UsageTypeID": 4,
+    "UsageCost": "0,20€/kWh",
     "AddressInfo": {
         "ID": 203835,
         "Title": "Ayunt. Sarracín",
@@ -26,12 +44,21 @@
             "LevelID": 2,
             "PowerKW": 7.4,
             "CurrentTypeID": 10,
-            "Quantity": 2
+            "Quantity": 1
+        },
+        {
+            "ID": 775639,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
     "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-12-14T19:30:00Z",
+    "DateLastStatusUpdate": "2025-09-08T08:25:00Z",
     "DateCreated": "2022-09-17T19:26:00Z",
     "SubmissionStatusTypeID": 200
 }

@@ -1,6 +1,38 @@
 {
     "MediaItems": [
         {
+            "ID": 52576,
+            "ChargePointID": 309459,
+            "ItemURL": "https://media.openchargemap.io/images/IE/OCM309459/OCM-309459.orig.2025112919012612.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/IE/OCM309459/OCM-309459.thmb.2025112919012612.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 63360,
+                "Username": "Paudie"
+            },
+            "DateCreated": "2025-11-29T19:02:00Z"
+        },
+        {
+            "ID": 48660,
+            "ChargePointID": 309459,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IE/OCM309459/OCM-309459.orig.2025092419095130.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IE/OCM309459/OCM-309459.thmb.2025092419095130.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 61673,
+                "Username": "Paudie Bourke"
+            },
+            "DateCreated": "2025-09-24T19:10:00Z"
+        },
+        {
             "ID": 46307,
             "ChargePointID": 309459,
             "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/IE/OCM309459/OCM-309459.orig.2025052311090040.jpg",
@@ -17,21 +49,27 @@
             "DateCreated": "2025-05-23T11:09:00Z"
         }
     ],
-    "DateLastVerified": "2025-05-23T11:09:00Z",
+    "DateLastVerified": "2025-12-12T18:05:00Z",
     "ID": 309459,
     "UUID": "CEF6814A-DCCC-4303-B52C-FDF9635DD58E",
     "DataProviderID": 1,
     "OperatorID": 3449,
-    "UsageTypeID": 4,
+    "UsageTypeID": 1,
+    "UsageCost": "€0.55 per kWh + €0.24 Connection Fee",
     "AddressInfo": {
         "ID": 309848,
-        "Title": "Metric Tristarinc Douglas",
-        "AddressLine1": "Unit 101 Donnybrook Commercial Centre",
-        "Town": "Douglas",
+        "Title": "Epower Douglas",
+        "AddressLine1": "Donnybrook Commercial Centre",
+        "AddressLine2": "Douglas",
+        "Town": "Cork",
         "StateOrProvince": "Co. Cork",
+        "Postcode": "T12 TY43",
         "CountryID": 3,
-        "Latitude": 51.86845447769417,
-        "Longitude": -8.441508162119135,
+        "Latitude": 51.86839880692273,
+        "Longitude": -8.441583076101097,
+        "ContactTelephone1": "1800 998 877",
+        "AccessComments": "Drive straight on when entering DCC. Follow signage.",
+        "RelatedURL": "https://maps.app.goo.gl/99qxXiiXdHJ94XcZ7",
         "DistanceUnit": 0
     },
     "Connections": [
@@ -41,14 +79,15 @@
             "Reference": "eP0866",
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 47,
             "CurrentTypeID": 30,
             "Quantity": 2
         }
     ],
     "NumberOfPoints": 2,
+    "GeneralComments": "No overstay fees",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-05-23T11:09:00Z",
+    "DateLastStatusUpdate": "2025-12-12T18:05:00Z",
     "DateCreated": "2025-03-10T20:11:00Z",
     "SubmissionStatusTypeID": 200
 }

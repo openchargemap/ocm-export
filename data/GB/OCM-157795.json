@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2023-08-23T10:46:00Z",
+    "DateLastVerified": "2026-04-08T21:44:00Z",
     "ID": 157795,
     "UUID": "E6B33286-3CC0-4E59-B81B-CB40061CEE88",
     "DataProviderID": 1,
@@ -9,7 +9,7 @@
     "UsageCost": "£0.79/kWh; other tariffs available",
     "AddressInfo": {
         "ID": 158149,
-        "Title": "Harvester Weston Gateway",
+        "Title": "Miller & Carter Weston Gateway",
         "AddressLine1": "Yew Tree Drive",
         "Town": "Weston-super-Mare",
         "Postcode": "BS22 6DB",
@@ -23,14 +23,15 @@
     "Connections": [
         {
             "ID": 227352,
-            "ConnectionTypeID": 2,
+            "ConnectionTypeID": 33,
             "Reference": "1",
             "StatusTypeID": 50,
             "LevelID": 3,
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
         },
         {
             "ID": 227353,
@@ -41,10 +42,21 @@
             "Amps": 125,
             "Voltage": 400,
             "PowerKW": 50,
-            "CurrentTypeID": 30
+            "CurrentTypeID": 30,
+            "Quantity": 1
+        },
+        {
+            "ID": 808874,
+            "ConnectionTypeID": 1036,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 14,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "DateLastStatusUpdate": "2023-08-23T10:46:00Z",
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2026-04-08T21:44:00Z",
     "MetadataValues": [
         {
             "ID": 7328,

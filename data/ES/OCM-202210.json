@@ -1,5 +1,5 @@
 {
-    "DateLastVerified": "2025-01-06T17:12:00Z",
+    "DateLastVerified": "2025-12-19T19:55:00Z",
     "ID": 202210,
     "UUID": "33255247-C879-42CE-97C5-7502A3425FE5",
     "DataProviderID": 1,
@@ -8,14 +8,14 @@
     "UsageCost": "0,50€/kWh DC - 0,45€/kWh AC",
     "AddressInfo": {
         "ID": 202577,
-        "Title": "CC El Ingenio",
+        "Title": " C.C. El Ingenio",
         "AddressLine1": "TimeRoad",
         "Town": "Vélez-Málaga",
         "StateOrProvince": "Andalusia",
         "Postcode": "29740",
         "CountryID": 210,
-        "Latitude": 36.75496589481544,
-        "Longitude": -4.09956408025846,
+        "Latitude": 36.755680825787934,
+        "Longitude": -4.100674769789521,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -26,7 +26,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 6
         },
         {
             "ID": 338064,
@@ -35,7 +35,7 @@
             "LevelID": 3,
             "PowerKW": 50,
             "CurrentTypeID": 30,
-            "Quantity": 1
+            "Quantity": 6
         },
         {
             "ID": 338065,
@@ -44,7 +44,7 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 6
         },
         {
             "ID": 578808,
@@ -53,12 +53,24 @@
             "LevelID": 2,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 4
+        },
+        {
+            "ID": 791595,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 500,
+            "Voltage": 1000,
+            "PowerKW": 300,
+            "CurrentTypeID": 30,
+            "Quantity": 8,
+            "Comments": "4 Alpitronic Hypercharger HYC300 DC chargers that  allows charging one vehicle at 300kW, or two simultaneous charges at 150kW. (max power is limited for 400V cars)"
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 24,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-01-06T17:12:00Z",
+    "DateLastStatusUpdate": "2025-12-19T19:55:00Z",
     "DateCreated": "2022-09-07T14:59:00Z",
     "SubmissionStatusTypeID": 200
 }

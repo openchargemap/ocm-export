@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2022-07-31T16:02:00Z",
+    "DateLastVerified": "2025-11-28T23:06:00Z",
     "ID": 170328,
     "UUID": "A2CAE65D-E3CB-45A5-A9D3-292A7BE3292D",
     "DataProviderID": 1,
     "OperatorID": 3447,
     "UsageTypeID": 1,
-    "UsageCost": "175kW/100kW :0,65 € / min ; 50kW/43kW : 0,40 € / min",
+    "UsageCost": "",
     "AddressInfo": {
         "ID": 170687,
-        "Title": "Total - Aire de Ressons Est",
+        "Title": "TotalEnergies - Aire de Ressons Est",
         "AddressLine1": "A1 - Aire de Ressons Est",
         "AddressLine2": "Sens Paris Lille",
         "Town": "Ressons-sur-Matz ",
@@ -16,59 +16,50 @@
         "CountryID": 80,
         "Latitude": 49.523619138905815,
         "Longitude": 2.7235351533687435,
-        "RelatedURL": "https://apps.total-ev-charge.com/charge-points/TOTAL-NF058967-001-1",
+        "RelatedURL": "",
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 259766,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 2
-        },
         {
             "ID": 259767,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 175,
+            "PowerKW": 300,
             "CurrentTypeID": 30,
             "Quantity": 4
-        },
-        {
-            "ID": 259768,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 2
         },
         {
             "ID": 259769,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "PowerKW": 150,
             "CurrentTypeID": 30,
-            "Quantity": 2
+            "Quantity": 12
         },
         {
-            "ID": 271959,
-            "ConnectionTypeID": 28,
+            "ID": 789660,
+            "ConnectionTypeID": 2,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "PowerKW": 50,
+            "CurrentTypeID": 30,
+            "Quantity": 3
+        },
+        {
+            "ID": 789661,
+            "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 3.6,
-            "CurrentTypeID": 10,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 16,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-07-31T16:02:00Z",
+    "DateLastStatusUpdate": "2025-11-28T23:06:00Z",
     "DateCreated": "2020-11-23T17:18:00Z",
     "SubmissionStatusTypeID": 200
 }

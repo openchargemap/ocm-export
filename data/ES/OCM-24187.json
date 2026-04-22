@@ -1,50 +1,37 @@
 {
-    "DateLastVerified": "2024-05-04T07:31:00Z",
+    "DateLastVerified": "2026-01-11T18:42:00Z",
     "ID": 24187,
     "UUID": "56814238-5B22-46DE-A8F2-2D374DA47E82",
     "DataProviderID": 1,
     "OperatorID": 91,
     "UsageTypeID": 4,
-    "UsageCost": "0,47€/kWh",
+    "UsageCost": "0,48€/kWh",
     "AddressInfo": {
         "ID": 24532,
         "Title": "Repsol Xelariiz",
         "AddressLine1": "Avda. Einstein,5",
         "CountryID": 210,
-        "Latitude": 40.544416,
-        "Longitude": -3.61012,
+        "Latitude": 40.5443439010042,
+        "Longitude": -3.6103390683767884,
         "DistanceUnit": 0
     },
     "Connections": [
         {
-            "ID": 26251,
-            "ConnectionTypeID": 2,
-            "LevelID": 3,
-            "PowerKW": 50,
-            "CurrentTypeID": 30
-        },
-        {
-            "ID": 336768,
+            "ID": 794298,
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "PowerKW": 50,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 100,
             "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 336769,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
+            "Quantity": 2,
+            "Comments": "Power electronics NB120 Charger. The DC charger allows charging one vehicle at 100kW, or two simultaneous charges at 50kW"
         }
     ],
-    "NumberOfPoints": 1,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-05-04T07:31:00Z",
+    "DateLastStatusUpdate": "2026-01-11T18:42:00Z",
     "DateCreated": "2014-07-12T14:28:00Z",
     "SubmissionStatusTypeID": 200
 }

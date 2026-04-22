@@ -1,5 +1,52 @@
 {
-    "DateLastVerified": "2018-10-03T20:56:00Z",
+    "MediaItems": [
+        {
+            "ID": 54654,
+            "ChargePointID": 81935,
+            "ItemURL": "https://media.openchargemap.io/images/AT/OCM81935/OCM-81935.orig.2026032609482614.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AT/OCM81935/OCM-81935.thmb.2026032609482614.jpg",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 21522,
+                "Username": "Christian W."
+            },
+            "DateCreated": "2026-03-26T09:49:00Z"
+        },
+        {
+            "ID": 54652,
+            "ChargePointID": 81935,
+            "ItemURL": "https://media.openchargemap.io/images/AT/OCM81935/OCM-81935.orig.2026032609481909.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AT/OCM81935/OCM-81935.thmb.2026032609481909.jpg",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 21522,
+                "Username": "Christian W."
+            },
+            "DateCreated": "2026-03-26T09:48:00Z"
+        },
+        {
+            "ID": 54653,
+            "ChargePointID": 81935,
+            "ItemURL": "https://media.openchargemap.io/images/AT/OCM81935/OCM-81935.orig.2026032609482260.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/AT/OCM81935/OCM-81935.thmb.2026032609482260.jpg",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 21522,
+                "Username": "Christian W."
+            },
+            "DateCreated": "2026-03-26T09:48:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-03-29T09:58:00Z",
     "ID": 81935,
     "UUID": "F323F9A7-AEC5-4868-8958-3AA69B13C409",
     "DataProviderID": 1,
@@ -16,25 +63,48 @@
         "Latitude": 47.403316,
         "Longitude": 10.880963,
         "ContactTelephone1": "+43 5673 2424",
+        "RelatedURL": "https://www.hotelalpenrose.at",
         "DistanceUnit": 0
     },
     "Connections": [
         {
             "ID": 116695,
-            "ConnectionTypeID": 30,
+            "ConnectionTypeID": 1036,
             "StatusTypeID": 50,
             "LevelID": 2,
             "Amps": 32,
             "Voltage": 400,
             "PowerKW": 22,
             "CurrentTypeID": 20,
-            "Quantity": 2
+            "Quantity": 3
+        },
+        {
+            "ID": 806839,
+            "ConnectionTypeID": 17,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 16,
+            "Voltage": 400,
+            "PowerKW": 11,
+            "CurrentTypeID": 20,
+            "Quantity": 1
+        },
+        {
+            "ID": 806840,
+            "ConnectionTypeID": 17,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "Amps": 32,
+            "Voltage": 400,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 1
         }
     ],
-    "NumberOfPoints": 2,
-    "GeneralComments": "2 Tesla Connectors, up to 22kW.Available for patrons only. Self park.",
+    "NumberOfPoints": 3,
+    "GeneralComments": "",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2018-10-03T20:56:00Z",
+    "DateLastStatusUpdate": "2026-03-29T09:58:00Z",
     "DateCreated": "2017-02-03T13:35:00Z",
     "SubmissionStatusTypeID": 200
 }

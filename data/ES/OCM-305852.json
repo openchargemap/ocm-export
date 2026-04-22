@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2025-05-05T13:46:00Z",
+    "MediaItems": [
+        {
+            "ID": 50070,
+            "ChargePointID": 305852,
+            "ItemURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM305852/OCM-305852.orig.2025102413454861.jpg",
+            "ItemThumbnailURL": "https://s3-ap-southeast-2.amazonaws.com/openchargemap/images/ES/OCM305852/OCM-305852.thmb.2025102413454861.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-10-24T13:46:00Z"
+        }
+    ],
+    "DateLastVerified": "2025-10-24T13:46:00Z",
     "ID": 305852,
     "UUID": "C3BE23E4-9444-4F99-864E-C6A21A06B291",
     "DataProviderID": 1,
@@ -8,48 +26,17 @@
     "UsageCost": "0.49€/kWh ",
     "AddressInfo": {
         "ID": 306241,
-        "Title": "Polígono Campo Alto",
+        "Title": "E.S. BDMED Polígono Campo Alto",
         "AddressLine1": "Calle Irlanda",
         "Town": "Elda",
         "StateOrProvince": "Comunitat Valenciana",
         "Postcode": "03600",
         "CountryID": 210,
-        "Latitude": 38.46195032224796,
-        "Longitude": -0.816327868319604,
+        "Latitude": 38.46153027561974,
+        "Longitude": -0.8163707836491767,
         "DistanceUnit": 0
     },
     "Connections": [
-        {
-            "ID": 578795,
-            "ConnectionTypeID": 33,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 578796,
-            "ConnectionTypeID": 2,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "Amps": 125,
-            "Voltage": 400,
-            "PowerKW": 50,
-            "CurrentTypeID": 30,
-            "Quantity": 1
-        },
-        {
-            "ID": 578797,
-            "ConnectionTypeID": 1036,
-            "StatusTypeID": 50,
-            "LevelID": 3,
-            "PowerKW": 43,
-            "CurrentTypeID": 20,
-            "Quantity": 1
-        },
         {
             "ID": 600984,
             "ConnectionTypeID": 33,
@@ -63,9 +50,9 @@
             "Comments": "XCharge Juicepump60 DC charger allows charging one vehicle at 60kW, or two simultaneous charges at 30kW. "
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 2,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-05-05T13:46:00Z",
+    "DateLastStatusUpdate": "2025-10-24T13:46:00Z",
     "DateCreated": "2024-11-03T17:56:00Z",
     "SubmissionStatusTypeID": 200
 }

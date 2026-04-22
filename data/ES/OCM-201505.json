@@ -1,14 +1,14 @@
 {
-    "DateLastVerified": "2022-10-28T08:05:00Z",
+    "DateLastVerified": "2026-02-15T17:05:00Z",
     "ID": 201505,
     "UUID": "84B7DA9F-7CFA-4298-B2CD-7DF2531586D4",
     "DataProviderID": 1,
     "OperatorID": 2247,
     "UsageTypeID": 4,
-    "UsageCost": "0,45€/kWh 50kW - 0,39€/kWh 22kW AC",
+    "UsageCost": "0,60-0,45€/kWh 50kW - 0,39€/kWh 22kW AC",
     "AddressInfo": {
         "ID": 201869,
-        "Title": "Centro comercial Arena",
+        "Title": "Centro Comercial Arena",
         "AddressLine1": "Centro comercial Arena",
         "Town": "València",
         "StateOrProvince": "Valencian Community",
@@ -45,11 +45,32 @@
             "PowerKW": 22,
             "CurrentTypeID": 20,
             "Quantity": 2
+        },
+        {
+            "ID": 802923,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 300,
+            "Voltage": 920,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 2,
+            "Comments": "Ingeteam RAPID180 Charger (375A peak) shares the total power with the Chademo connector. The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW. Charging power limited to 150kW for 400V cars"
+        },
+        {
+            "ID": 802924,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 50,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 22
         }
     ],
-    "NumberOfPoints": 4,
+    "NumberOfPoints": 28,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2022-10-28T08:05:00Z",
+    "DateLastStatusUpdate": "2026-02-15T17:05:00Z",
     "DateCreated": "2022-09-02T11:55:00Z",
     "SubmissionStatusTypeID": 200
 }

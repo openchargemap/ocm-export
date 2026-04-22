@@ -1,6 +1,22 @@
 {
     "MediaItems": [
         {
+            "ID": 52561,
+            "ChargePointID": 290543,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM290543/OCM-290543.orig.2025112908212277.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM290543/OCM-290543.thmb.2025112908212277.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-11-29T08:21:00Z"
+        },
+        {
             "ID": 43799,
             "ChargePointID": 290543,
             "ItemURL": "https://media.openchargemap.io/images/ES/OCM290543/OCM-290543.orig.2024100912425468.jpg",
@@ -12,12 +28,12 @@
             "IsExternalResource": false,
             "User": {
                 "ID": 40036,
-                "Username": "lmjgarcia"
+                "Username": "lm-ocm"
             },
             "DateCreated": "2024-10-09T12:43:00Z"
         }
     ],
-    "DateLastVerified": "2025-06-07T17:46:00Z",
+    "DateLastVerified": "2025-12-08T15:34:00Z",
     "ID": 290543,
     "UUID": "9EF47171-7882-46BA-95B2-E2D484A07A09",
     "DataProviderID": 1,
@@ -42,18 +58,30 @@
             "ConnectionTypeID": 33,
             "StatusTypeID": 50,
             "LevelID": 3,
-            "Amps": 500,
+            "Amps": 600,
             "Voltage": 920,
             "PowerKW": 400,
             "CurrentTypeID": 30,
             "Quantity": 16,
-            "Comments": "8 Hypercharger HYC400  Chargers. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. Max 500A, charging power limited to 200kW for 400V cars"
+            "Comments": "8 Hypercharger HYC400  Chargers. The DC charger allows charging one vehicle at 400kW, or two simultaneous charges at 200kW. Max 600A, charging power limited to 240kW for 400V cars"
+        },
+        {
+            "ID": 789541,
+            "ConnectionTypeID": 33,
+            "StatusTypeID": 50,
+            "LevelID": 3,
+            "Amps": 375,
+            "Voltage": 920,
+            "PowerKW": 180,
+            "CurrentTypeID": 30,
+            "Quantity": 4,
+            "Comments": "2 Ingeteam RAPID180 Chargers. The DC charger allows charging one vehicle at 180kW, or two simultaneous charges at 90kW"
         }
     ],
     "NumberOfPoints": 20,
     "GeneralComments": "Station equipped with a boost battery. Power limited when charger battery is low of charge",
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2025-06-07T17:46:00Z",
+    "DateLastStatusUpdate": "2025-12-08T15:34:00Z",
     "DateCreated": "2024-02-04T17:11:00Z",
     "SubmissionStatusTypeID": 200
 }

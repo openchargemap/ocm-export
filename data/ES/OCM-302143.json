@@ -1,5 +1,23 @@
 {
-    "DateLastVerified": "2024-07-28T17:40:00Z",
+    "MediaItems": [
+        {
+            "ID": 53333,
+            "ChargePointID": 302143,
+            "ItemURL": "https://media.openchargemap.io/images/ES/OCM302143/OCM-302143.orig.2025121418194311.jpg",
+            "ItemThumbnailURL": "https://media.openchargemap.io/images/ES/OCM302143/OCM-302143.thmb.2025121418194311.jpg",
+            "Comment": "",
+            "IsEnabled": true,
+            "IsVideo": false,
+            "IsFeaturedItem": false,
+            "IsExternalResource": false,
+            "User": {
+                "ID": 40036,
+                "Username": "lm-ocm"
+            },
+            "DateCreated": "2025-12-14T18:20:00Z"
+        }
+    ],
+    "DateLastVerified": "2026-01-17T06:57:00Z",
     "ID": 302143,
     "UUID": "041655B4-DB4E-48BA-A71F-1E0D509BDECD",
     "DataProviderID": 1,
@@ -11,8 +29,8 @@
         "Title": "CEO Santiago Apóstol",
         "AddressLine1": "Santiago Apóstol",
         "CountryID": 210,
-        "Latitude": 28.032016820770806,
-        "Longitude": -17.200998993692764,
+        "Latitude": 28.032137041600976,
+        "Longitude": -17.200917269467027,
         "DistanceUnit": 0
     },
     "Connections": [
@@ -21,14 +39,23 @@
             "ConnectionTypeID": 25,
             "StatusTypeID": 50,
             "LevelID": 2,
-            "PowerKW": 7.4,
-            "CurrentTypeID": 10,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
+            "Quantity": 2
+        },
+        {
+            "ID": 795868,
+            "ConnectionTypeID": 25,
+            "StatusTypeID": 30,
+            "LevelID": 2,
+            "PowerKW": 22,
+            "CurrentTypeID": 20,
             "Quantity": 2
         }
     ],
-    "NumberOfPoints": 2,
+    "NumberOfPoints": 4,
     "StatusTypeID": 50,
-    "DateLastStatusUpdate": "2024-07-28T17:40:00Z",
+    "DateLastStatusUpdate": "2026-01-17T06:57:00Z",
     "DateCreated": "2024-07-28T17:40:00Z",
     "SubmissionStatusTypeID": 200
 }
